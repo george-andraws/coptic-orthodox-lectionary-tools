@@ -1,0 +1,166 @@
+{
+  "checks": {
+    "monday_first_genesis": true,
+    "monday_ninth_genesis": true,
+    "tuesday_ninth_genesis": true,
+    "wednesday_ninth_genesis": true,
+    "great_thursday_ninth_genesis_22": true,
+    "great_thursday_ninth_genesis_14": true,
+    "great_thursday_water_genesis_18": true,
+    "good_friday_third_genesis_48": true,
+    "isaiah_53_good_friday": true,
+    "isa_52_53_great_thursday": true,
+    "wisdom_1": true,
+    "wisdom_7": true,
+    "wisdom_2": true,
+    "lamentations_3": true,
+    "numeric_40_5": true,
+    "source_text_flag_help": true,
+    "special_service_flag_help": true,
+    "john2_no_john20_21_1john2": true,
+    "isa5_no_isa50_52_53_58": true,
+    "reverse_crosswalk_count": true,
+    "chapter_index_count": true,
+    "chapter_occurrence_count": true,
+    "pascha_source_text_count": true,
+    "crosswalk_fields_present_or_equivalent": true,
+    "changed_files_expected_snippets": true,
+    "stale_critical_zero": true
+  },
+  "count_summary": {
+    "reverse_lookup_crosswalk.csv": {
+      "rows": 66504,
+      "schema": [
+        "passage",
+        "source_kind",
+        "source_family",
+        "source_table",
+        "source_file",
+        "source_row_id",
+        "liturgical_place",
+        "calendar_key",
+        "gregorian_date",
+        "coptic_date",
+        "day_title",
+        "service_day",
+        "service_hour",
+        "service_section",
+        "reading_slot",
+        "reading_type",
+        "source_ref",
+        "raw_ref",
+        "normalized_ref",
+        "normalized_segment",
+        "book",
+        "book_abbrev",
+        "chapter_start",
+        "verse_start",
+        "chapter_end",
+        "verse_end",
+        "significance_note",
+        "synaxarium_note",
+        "url",
+        "provenance"
+      ]
+    },
+    "reverse_lookup_summary.csv": {
+      "rows": 2650,
+      "schema": [
+        "passage",
+        "cycle_occurrences",
+        "date_occurrences",
+        "special_service_occurrences",
+        "agpeya_occurrences",
+        "pascha_occurrences",
+        "pascha_source_text_occurrences",
+        "bright_saturday_occurrences",
+        "total_occurrences"
+      ]
+    },
+    "bible_chapter_lectionary_index.csv": {
+      "rows": 1351,
+      "schema": [
+        "testament",
+        "book",
+        "book_abbrev",
+        "chapter",
+        "chapter_ref",
+        "is_read",
+        "occurrence_count",
+        "source_kinds",
+        "liturgical_places",
+        "service_sections",
+        "reading_types",
+        "sample_occurrences"
+      ]
+    },
+    "bible_chapter_lectionary_occurrences.csv": {
+      "rows": 71315,
+      "schema": [
+        "testament",
+        "book",
+        "book_abbrev",
+        "chapter",
+        "chapter_ref",
+        "passage",
+        "source_kind",
+        "liturgical_place",
+        "calendar_key",
+        "gregorian_date",
+        "coptic_date",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "source_ref",
+        "url"
+      ]
+    },
+    "pascha_source_text_index.csv": {
+      "rows": 277,
+      "schema": [
+        "day",
+        "hour",
+        "source_kind",
+        "source_family",
+        "source_file",
+        "source_line",
+        "source_page",
+        "order",
+        "reading_type",
+        "raw_ref",
+        "normalized_ref",
+        "parse_status",
+        "provenance_note"
+      ]
+    },
+    "pascha_day_hour_index.csv": {
+      "rows": 173,
+      "schema": [
+        "day",
+        "hour",
+        "source",
+        "order",
+        "slot",
+        "refs"
+      ]
+    }
+  },
+  "changed_file_snippet_checks": {
+    "033 - Jeremiah/Jeremiah 7 - Temple sermon.md": true,
+    "033 - Jeremiah/Jeremiah 8 - Refused repentance and no balm in Gilead.md": true,
+    "025 - Psalms/Psalm 62 (LXX 61) - My Soul Is Subject to God Alone.md": true,
+    "025 - Psalms/Psalm 122 (LXX 121) - I Was Glad When They Said to Me.md": true,
+    "030 - Wisdom of Solomon/Wisdom of Solomon - Overview.md": true,
+    "030 - Wisdom of Solomon/Audits/Wisdom of Solomon Series Plan.md": true
+  },
+  "stale_scan_summary": {
+    "stale_john2_tuesday": 3,
+    "stale_jer_8_wed_eve": 0,
+    "stale_ps122_tuesday_sixth": 0,
+    "stale_ps62_wed_eleven": 0,
+    "stale_wisdom_query_gap": 0,
+    "supported_no_exact_phrase": 2
+  },
+  "stale_scan_interpretation": "Remaining stale_john2_tuesday hits are explicit guardrail text saying Tuesday Sixth is not John 2; supported_no_exact_phrase hits are scoped no-exact claims for Jeremiah 7/Wisdom 6, not stale supported-passage claims.",
+  "query_output_path": "/Users/georgeandraws/workspace/coptic-lectionary-research/audit_artifacts/final_regression_query_outputs_2026-06-06.txt"
+}

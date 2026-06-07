@@ -1,0 +1,931 @@
+# Bible-study lectionary inventory — 2026-06-06
+- Guides scanned: 1617
+- Files with lectionary/liturgical claims: 1279
+- Files matching affected passages: 196
+
+## Files matching affected passages
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/001 - Genesis/Genesis 23-24 - Sarah’s Burial and Isaac’s Bride.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: "Coptic Holy Pascha: Wednesday Ninth Hour, OT1, Genesis 24:1-9; Genesis 23-24 also occur in funeral Passion Week burial-site override; verified 2026-06-06."
+  - L16: lectionary: "Coptic Holy Pascha: Wednesday Ninth Hour, OT1, Genesis 24:1-9; Genesis 23-24 also occur in funeral Passion Week burial-site override; verified 2026-06-06."
+  - L204: Verified local Coptic lectionary placements: **Genesis 24:1-9 is read on Wednesday of Holy Pascha, Ninth Hour, as the first Old Testament prophecy.** The local helper returns: `pascha_day_hour | Wednesday | Ninth Hour | OT1 | Gen 24:1-9`. The broader local special-service index also contains Genesis 23 and 24 in funeral Passion Week burial-site overrides, but the direct Pascha day/hour row for this guide is Genesis 24:1-9.
+  - L269: - Fr. Tadros Yacoub Malaty, commentary on Genesis, especially on Sarah's burial, Rebekah, and typological bridal readings.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Archive/002 - Exodus legacy v1/Exodus 2 - Moses Hidden Drawn Out and Exiled.md`
+  - affected: Isa 1:1-9
+  - L55: Exact local Coptic lectionary rows found for this unit:
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Archive/002 - Exodus legacy v1/Exodus 3 - The Burning Bush and the Holy Name.md`
+  - affected: Isa 1:1-9
+  - L52: Exact local Coptic lectionary rows found for this unit:
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Archive/002 - Exodus legacy v1/Exodus 32 - The Golden Calf.md`
+  - affected: Exod 32:7-15
+  - L20: > 5: And Aaron having seen it built an altar before it, and Aaron made proclamation saying, To-morrow is a feast of the Lord.
+  - L64: A search of the local Coptic Orthodox Lectionary Reference CSV did not return an exact Exodus row for these chapter(s). No specific day or service is asserted from local data, though Exodus is deeply present in Coptic Orthodox worship through Pascha, baptismal theology, the Passover, the crossing of the sea, manna, priesthood, incense, and the tabernacle.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Archive/002 - Exodus legacy v1/Exodus Bible Study Index.md`
+  - affected: Exod 32:7-15
+  - L14: | Complete | 12 | The Passover lamb is slain, blood marks the houses, and Israel is delivered from Egypt. | A major standalone chapter. Passover is foundational for Christian reading of the Cross, Eucharist, Pascha, and Christ the Lamb of God. Brenton LXX Scripture embedded; brief NT references use NKJV; MP3 uses 20-second intro and 30-second closing overlay music. | [[Exodus 12 - Passover Blood and the Night of Deliverance]] | [Google Doc](https://docs.google.com/document/d/1DjlAfxVgIi11Qhdk5fM
+  - L24: | Complete | 24 | The covenant is ratified with blood, and the elders behold God. | A major covenant chapter. Blood, word, altar, ascent, and divine vision prepare Christian readings of Eucharist and covenant fulfillment. Brenton LXX Scripture embedded; brief NT references use NKJV; MP3 uses 20-second intro and 30-second closing overlay music. | [[Exodus 24 - Covenant Blood and the Vision of God]] | [Google Doc](https://docs.google.com/document/d/18lVyIGok7i3TzRs7A4srOnnHaJpSMAOic7-JtrQozqw/edit
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Archive/Archive Index.md`
+  - affected: Exod 32:7-15
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Audits/Exodus v2 Final Revision Roadmap - 2026-05-21.md`
+  - affected: Exod 32:7-15
+  - L34: 6. **Consistent liturgical labeling.** Use the same heading style and clearly separate verified lectionary use from broader thematic resonance.
+  - L61:   - clearer Pascha and Coptic Holy Week placement
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Audits/Exodus v2 Gregory of Nyssa Usage Audit - 2026-05-25.md`
+  - affected: Exod 32:7-15
+  - L115: 3. Strengthen Exodus 12 by connecting Passover and departure to the beginning of the soul's liberation from tyranny, while keeping the primary Paschal/Christological reading central.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Exodus 3 - Research Notes.md`
+  - affected: John 8:12-20
+  - L45: - **Caution:** if citing specific Coptic hymn lines or feast usages, verify them directly. It is safe to say that the unconsumed bush is a major Orthodox and Coptic Marian image; it is less safe to assign exact liturgical uses from memory.
+  - L50: - The LXX says **"the angel of the Lord"** appears, yet the narrative quickly speaks simply of **the Lord** and of **God** speaking from the bush. Patristic writers often pause over this. In many Christian readings, the "angel/messenger of the Lord" is not a mere created angel acting independently, but part of the mystery of divine self-manifestation, often read christologically as a pre-incarnate manifestation of the Logos.
+  - L154: - Do not overstate exact Coptic lectionary or hymn usage unless directly verified from a reliable source.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Exodus 32 - The Golden Calf.md`
+  - affected: Exod 32:7-15
+  - L36: This is one of the most spiritually dangerous chapters in Exodus because the people do not simply become atheists. They remain religious. They build an altar, offer sacrifices, declare a feast, and use the language of the Lord. The sin is not only rejecting worship, but remaking worship according to fear, impatience, and control.
+  - L44: > 5: And Aaron having seen it built an altar before it, and Aaron made proclamation saying, To-morrow is a feast of the Lord.
+  - L85: Aaron builds an altar and announces a feast to the Lord. That makes the sin more subtle. False worship often borrows true words. It can use liturgical language, sacrifice, music, and celebration while the center has shifted away from God.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Exodus 35-36 - Willing Offerings and Spirit Filled Craftsmanship.md`
+  - affected: Exod 32:7-15
+  - L169: The local chapter lectionary index marks these chapters as not directly assigned in the regular Coptic cycle, so this guide makes thematic Orthodox and Coptic connections without claiming an exact lectionary placement.
+  - L236: - Liturgical placements are stated only when verified from the local Coptic lectionary reference package. Broader worship connections are described as thematic resonance, not asserted lectionary usage.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Exodus 37-38 - Furnishings and Court Completed.md`
+  - affected: Exod 32:7-15
+  - L153: The local chapter lectionary index marks these chapters as not directly assigned in the regular local chapter cycle used for this project, so this guide makes thematic Orthodox and Coptic connections without claiming an exact liturgical reading.
+  - L220: - Liturgical placements are stated only when verified from the local Coptic lectionary reference package. Broader worship connections are described as thematic resonance, not asserted lectionary usage.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/002 - Exodus/Exodus Bible Study Index.md`
+  - affected: Exod 32:7-15
+  - L34: | Publish/audio-ready text | 12 | Passover lamb, blood, unleavened bread, death of firstborn, departure | Major standalone chapter: Pascha, Cross, Eucharistic typology, liturgical memory. | [[Exodus 12 - Passover Blood and the Exodus]] | [Google Doc refreshed 2026-05-21](https://docs.google.com/document/d/1gzp3WBrZKk7NZXHYq0UJRHkGtEk0h3oLersZ8O_ugGI/edit?usp=drivesdk) | [Google Drive MP3 with 20-second intro and 30-second closing overlay music](https://drive.google.com/file/d/1bJJASQPeATOSCc_xNi
+  - L36: | Publish/audio-ready text | 14 | Israel trapped; sea opened; Egypt overthrown | Major standalone: baptismal typology, salvation through water, Paschal victory. | [[Exodus 14 - The Red Sea Crossing]] | [Google Doc refreshed 2026-05-21](https://docs.google.com/document/d/1krbyTFq3Ug0aUUI7Wpo08T1sBuEJ2J7TKRFwuNeO1qg/edit?usp=drivesdk) | [Google Drive MP3 with 20-second intro and 30-second closing overlay music](https://drive.google.com/file/d/1Fz-LnwRNGRFs8IG0effYMmFZE0DjQEKL/view?usp=drivesdk) |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/004 - Numbers/Numbers 25 - Baal Peor and Phinehas’ Zeal.md`
+  - affected: John 2:13-17
+  - L99: No exact Coptic lectionary placement was found for Numbers 25. Its themes are strongly ascetic and pastoral: bodily holiness, idolatry, chastity, and zeal purified by love. It should be handled with care in adult teaching, especially avoiding crude treatment of sexuality or simplistic hero language around violence.
+  - L142: - **Accuracy note:** no exact Coptic lectionary placement found for this unit.
+  - L179: - George's local Obsidian Coptic Orthodox Lectionary Reference package, including `reverse_lookup_crosswalk.csv`, `reverse_lookup_summary.csv`, and `pascha_day_hour_index.csv` where applicable.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/004 - Numbers/Numbers 5 - Cleansing the Camp and Restitution.md`
+  - affected: John 8:12-20
+  - L112: The local lectionary package does not show an exact Coptic reading for Numbers 5. Its themes are still deeply ecclesial: confession, restitution, marital faithfulness, bodily holiness, and the Church as the Bride of Christ. In pastoral use, this chapter should be taught with special care so it heals rather than harms.
+  - L154: - **Accuracy note:** the ancient judicial setting is essential; no exact Coptic lectionary placement found for this unit.
+  - L191: - George's local Obsidian Coptic Orthodox Lectionary Reference package, including `reverse_lookup_crosswalk.csv`, `reverse_lookup_summary.csv`, and `pascha_day_hour_index.csv` where applicable.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/005 - Deuteronomy/Deuteronomy 15 - Release Generosity and the Open Hand.md`
+  - affected: John 12:44-50
+  - L86: Orthodox worship constantly links forgiveness of sins with forgiveness of debts, trespasses, and burdens. During Great Lent especially, the Church teaches release through prayer, almsgiving, confession, and reconciliation. Deuteronomy 15 fits this atmosphere naturally.
+  - L88: A direct lectionary assignment for this exact chapter should be verified before being stated with confidence. Still, the chapter's spirit is unmistakably at home in the Church: remission, kindness to the poor, and remembrance of redemption.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/010 - 2 Samuel/2 Samuel 1 - David Laments Saul and Jonathan.md`
+  - affected: John 11:55-57
+  - L224: The local Coptic lectionary chapter index currently marks 2 Samuel 1 as not indexed in the available package, so no exact Coptic liturgical placement should be claimed here.
+  - L226: Still, the chapter resonates strongly with Orthodox worship. The Church gives us words for grief. Funerals, Holy Week, the Psalms, and the Agpeya all train the heart not to deny death and not to surrender to it. David’s lament over Saul and Jonathan stands near that tradition: sorrow becomes ordered speech before God.
+  - L301: - The local Coptic lectionary index currently does not list 2 Samuel 1 as indexed.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/010 - 2 Samuel/2 Samuel 13-14 - Sin in the House and Absalom’s Return.md`
+  - affected: John 8:12-20
+  - L78: - **Baal-hazor / Belasor near Ephraim** is where Absalom stages the sheep-shearing feast and arranges Amnon’s murder. Festive space becomes execution space.
+  - L257: Two years pass. That detail matters. The household has lived with unhealed wrong for a long time. Absalom arranges a feast, secures David’s permission, and has Amnon killed while his heart is merry with wine. Jonadab, again, appears as the one who understands exactly what has happened. Absalom then flees to Geshur.
+  - L263: The sheep-shearing setting echoes other biblical scenes where festivity and abundance become occasions for moral testing. Absalom’s feast is not hospitality. It is staged retaliation.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/011 - 1 Kings/1 Kings 01-02 - Succession and the Kingdom Established.md`
+  - affected: John 2:13-17
+  - L55: **En Rogel**, where Adonijah gathers supporters and offers sacrifices, lies near Jerusalem but outside the main royal center. His feast looks royal, but it lacks David's command, Nathan's prophetic support, Zadok's priestly legitimacy, and the full public acclamation of the city.
+  - L121: There is also pastoral wisdom here. Some crises require the right person to speak to the right authority at the right time. Nathan does not storm Adonijah's feast. Bathsheba does not gather a mob. They go to David, because David is the one responsible to act.
+  - L135: Adonijah hears the sound from the city and learns that Solomon has been made king. His feast collapses. The supporters scatter. This is the nature of false glory: it is loud until truth arrives.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/011 - 1 Kings/1 Kings 03-04 - Wisdom for the Kingdom.md`
+  - affected: Wis 7:24-30
+  - L62: **Jerusalem** is where Solomon returns after the dream. He stands before the ark of the covenant, offers burnt offerings and peace offerings, and makes a feast. The movement from Gibeon to Jerusalem is important. God meets Solomon where he is, but Solomon's response brings him back toward the covenant center.
+  - L186: I am not aware of 1 Kings 3-4 having a prominent fixed reading in the Coptic lectionary in the way that some Old Testament passages are attached to Pascha, feasts, or major services. It should not be claimed as a specific Coptic reading without verification.
+  - L282: Do not overstate the liturgical placement. Unless a specific Coptic reading is verified, speak of liturgical resonance rather than fixed lectionary use.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/011 - 1 Kings/1 Kings 08 - The Dedication of the Temple.md`
+  - affected: John 2:13-17
+  - L193: Solomon rises from prayer and blesses the assembly. He asks that the Lord be with them, incline their hearts to Himself, and maintain their cause. Then the king and all Israel offer sacrifices in abundance, and the people keep the feast with joy.
+  - L195: The chapter ends not with private inspiration, but with communal worship and joy. Prayer becomes blessing. Blessing becomes sacrifice. Sacrifice becomes feast. Feast becomes sending forth.
+  - L207: I am not certain of a fixed Coptic lectionary placement for 1 Kings 8 as a regular parish reading, so it should not be claimed without verification. Its themes, however, are directly connected to Orthodox worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/014 - 2 Chronicles/2 Chronicles 03-04 - The Temple Built and Furnished.md`
+  - affected: John 2:13-17
+  - L127: The named pillars, Stability and Strength, also preach. True stability and strength are not found in military boasting or economic display alone. They stand at the entrance to the house of God. The kingdom stands only when worship stands.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/014 - 2 Chronicles/2 Chronicles 17-20 - Jehoshaphat Teaching Danger Prayer and Deliverance.md`
+  - affected: John 8:12-20
+  - L337: Chapter 20 strongly resonates with Orthodox corporate fasting, intercession, psalmody, and praise before deliverance. The singers before the army are especially meaningful for deacons, chanters, and all who serve in worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/014 - 2 Chronicles/2 Chronicles 36 - Fall Exile and Cyrus.md`
+  - affected: John 2:13-17
+  - L177: The ending resonates with Great Lent, repentance, return, and the Church's constant call to rebuild the ruined house of the heart through confession and worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/016 - Ezra/Audits/Ezra Full Rewrite Review and Implementation Plan - 2026-06-02.md`
+  - affected: John 2:13-17, Exod 32:7-15
+  - L73: - Local Coptic lectionary lookup did not surface exact indexed Ezra occurrences in the tested local stack. The rewrite should say this plainly and treat Ezra themes as Coptic liturgical resonance unless a future rite-specific source proves a direct reading.
+  - L112: Develop altar before temple, worship amid ruins, the seventh month, feast, sacrifice, joy and weeping, and the liturgical force of mercy enduring forever.
+  - L162: - Do not claim exact Ezra lectionary use unless verified.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/016 - Ezra/Ezra - Overview.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: No exact local indexed Coptic lectionary occurrence was found for Ezra itself on 2026-06-02.
+  - L26: lectionary: No exact local indexed Coptic lectionary occurrence was found for Ezra itself on 2026-06-02.
+  - L107: The people rebuild the altar before the temple structure is complete. They keep the feasts while the ruins still surround them. This is not liturgical romanticism. It is the biblical conviction that life is rebuilt from worship outward. The Church does not wait for perfect circumstances before offering the Eucharist, praying the hours, fasting, singing, and returning to God.
+  - L135: No exact local indexed Coptic lectionary occurrence was found for Ezra itself in the current local stack. The guides therefore do not claim that Ezra is assigned to a specific Coptic service. They speak instead of Ezra's themes as liturgical resonance: fasting, return, altar, temple, Scripture, confession, priesthood, covenant order, and worship after devastation.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/016 - Ezra/Ezra 3 - Altar Worship and the Temple Foundation.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: "No exact local indexed Coptic lectionary occurrence was found for Ezra itself. Hebrews 13:10-16 appears in local Coptic rows including Great Lent and is used here only as resonance, not as an Ezra assignment."
+  - L30: lectionary: "No exact local indexed Coptic lectionary occurrence was found for Ezra itself. Hebrews 13:10-16 appears in local Coptic rows including Great Lent and is used here only as resonance, not as an Ezra assignment."
+  - L47: This chapter teaches that worship precedes visible wholeness. The people gather as one, rebuild the altar, keep the feasts, order the work, lay the foundation, and answer God with praise. Yet the sound at the foundation is mixed: joy from the many, weeping from the elders who remember the former house. Ezra does not flatten that moment into triumph or despair. True restoration can carry thanksgiving and grief at the same time.
+  - L55: The seventh month gives the chapter its liturgical weight. In the Law, this season included holy convocations, the Day of Atonement, and the Feast of Tabernacles (Leviticus 23). The returned people do not invent a new religion for a new circumstance. They restore worship "according to the things that were written in the law of Moses the man of God." Their recovery is scriptural, priestly, sacrificial, and communal.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/016 - Ezra/Ezra 5-6 - Prophets Encourage and the Temple is Completed.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: "No exact local indexed Coptic lectionary occurrence was found for Ezra itself on 2026-06-02."
+  - L18: lectionary: "No exact local indexed Coptic lectionary occurrence was found for Ezra itself on 2026-06-02."
+  - L35: The passage ends with dedication, ordered priestly and Levitical service, purification, Passover, the feast of unleavened bread, and joy. This is important for Orthodox teaching: the goal is not merely that a building be finished. The goal is that God's people be restored to worship, sacrifice, purity, obedience, remembrance, and gladness before Him. Christians read this completed house in light of Christ, who says in John 2:19-21 that the true Temple is His Body, and in light of the apostolic w
+  - L289: > 6:22 And they kept the feast of unleavened bread seven days with gladness, because the Lord made them glad, and he turned the heart of the king of Assyria to them, to strengthen their hands in the works of the house of the God of Israel.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/016 - Ezra/Ezra 9 - Intercession and Corporate Confession.md`
+  - affected: Exod 32:7-15
+  - frontmatter: lectionary: "No exact local indexed Coptic lectionary occurrence was found for Ezra itself on 2026-06-02; Daniel 9:4-19 is a verified Bright Saturday Midnight Praises resonance, not an Ezra assignment."
+  - L32: lectionary: "No exact local indexed Coptic lectionary occurrence was found for Ezra itself on 2026-06-02; Daniel 9:4-19 is a verified Bright Saturday Midnight Praises resonance, not an Ezra assignment."
+  - L239: No exact local indexed Coptic lectionary occurrence was found for Ezra itself. This guide therefore does not claim Ezra 9 as an assigned Coptic reading. The chapter should be taught as Scripture whose themes resonate deeply with Orthodox worship: confession, prostration, shame before God, mercy after judgment, intercession for the people, and prayer at the hour of sacrifice.
+  - L241: A related local resonance is verified: Daniel 9:4-19 appears in Bright Saturday Midnight Praises as the Prayer of Daniel. This is not an Ezra assignment. It is a liturgical companion in the same spiritual register. Daniel confesses the sin of the people, names shame of face, remembers God's covenant and mercy, and pleads for Jerusalem. Bright Saturday places such confession on the threshold of Paschal hope, when the Church waits before the Resurrection while remembering the mercy of God toward H
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/016 - Ezra/Resources Used - Ezra.md`
+  - affected: John 2:13-17, Exod 32:7-15
+  - L80: | Ezra 10:1-5 | 0 exact local hits | Use absence phrase and pastoral guardrails; avoid racialized or weaponized readings. |
+  - L88: ## Coptic lectionary lookup findings
+  - L92: > No exact local indexed Coptic lectionary occurrence was found for Ezra itself. The guide should therefore speak of Ezra's themes as resonating with Coptic worship, not as an assigned Coptic reading, unless a future rite-specific source proves otherwise.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah - General Introduction.md`
+  - affected: John 2:13-17
+  - L74: The local Coptic lectionary index checked for this project marks Nehemiah's chapters as not indexed as regular readings. That means no exact Coptic reading placement should be claimed here. Still, the book resonates strongly with Coptic ecclesial life: ordered service, the sanctity of the altar, the role of deacons and singers, repentance before Scripture, Sabbath-shaped worship, and guarding the house of God from compromise.
+  - L101: This general introduction does not embed a single chapter of Scripture. The chapter guides use **Brenton's English Septuagint** for extended Old Testament text. Brief New Testament references are used only as limited references to show Christological fulfillment. Local Coptic lectionary lookup found Nehemiah chapters marked as not indexed, so this guide avoids claiming a specific Coptic reading placement.
+  - L119: - Coptic Orthodox Lectionary Reference package in George’s Obsidian vault; local lookup found Nehemiah chapters marked as not indexed in the chapter-level lectionary index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 1 - Nehemiah Prayer.md`
+  - affected: John 2:13-17
+  - L76: No specific Coptic lectionary placement for Nehemiah 1 was found in the local index. The chapter still belongs naturally beside the Church's penitential prayer: fasting, confession, remembrance of God's commandments, and asking mercy before action. It especially resonates with the spirit of the Agpeya, where personal prayer constantly becomes prayer for the whole Church.
+  - L94: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+  - L112: - Coptic Orthodox Lectionary Reference package in George’s Obsidian vault; local lookup found Nehemiah chapters marked as not indexed in the chapter-level lectionary index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 11-12 - Holy City and Wall Dedication.md`
+  - affected: John 2:13-17
+  - L119: > 12:27 And at the dedication of the wall of Jerusalem they sought the Levites in their places, to bring them to Jerusalem, to keep a feast of dedication and gladness with thanksgiving, and they sounded cymbals with songs, and had psalteries and harps.
+  - L150: No specific Coptic lectionary placement for Nehemiah 11-12 was found in the local index. These chapters strongly resonate with church consecration, processions, hymns, deacon service, thanksgiving, and the joy of serving God in His house.
+  - L168: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 13 - Final Reforms 2.md`
+  - affected: John 2:13-17
+  - L96: No specific Coptic lectionary placement for Nehemiah 13 was found in the local index. The chapter resonates with the Church's continual need to guard altar, service, Sabbath-like worship, family formation, and priestly integrity from quiet compromise.
+  - L115: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+  - L133: - Coptic Orthodox Lectionary Reference package in George’s Obsidian vault; local lookup found Nehemiah chapters marked as not indexed in the chapter-level lectionary index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 2 - Nehemiah Sent to Jerusalem.md`
+  - affected: John 2:13-17
+  - L85: No specific Coptic lectionary entry for Nehemiah 2 was found in the local chapter index. Its themes still fit the Church's practical spirituality: prayer before speech, blessing before work, and discernment before public action.
+  - L103: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+  - L121: - Coptic Orthodox Lectionary Reference package in George’s Obsidian vault; local lookup found Nehemiah chapters marked as not indexed in the chapter-level lectionary index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 3 - The Builders of the Wall 2.md`
+  - affected: John 2:13-17
+  - L97: No specific Coptic lectionary placement for Nehemiah 3 was found in the local index. The chapter resonates strongly with church service: priests, deacons, singers, readers, servants, craftsmen, donors, and families each repair part of the visible life of the Church.
+  - L115: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+  - L133: - Coptic Orthodox Lectionary Reference package in George’s Obsidian vault; local lookup found Nehemiah chapters marked as not indexed in the chapter-level lectionary index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 4-6 - Opposition and Completion of the Wall.md`
+  - affected: John 2:13-17
+  - L159: No specific Coptic lectionary placement for these chapters was found in the local index. Their themes belong to every season of service: guarding worship, resisting discouragement, correcting injustice, and discerning false voices that use religious language against obedience.
+  - L178: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+  - L196: - Coptic Orthodox Lectionary Reference package in George’s Obsidian vault; local lookup found Nehemiah chapters marked as not indexed in the chapter-level lectionary index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 7 - Register of the Returned Exiles 2.md`
+  - affected: John 2:13-17
+  - L115: > 7:64 These sought the pedigree of their company, and it was not found, and they were removed as polluted from the priesthood.
+  - L137: No specific Coptic lectionary placement for Nehemiah 7 was found in the local index. The chapter still resonates with the Church's careful ordering of service: readers, chanters, deacons, priests, servants, and laity each have responsibilities that protect worship from confusion.
+  - L155: Local Coptic lectionary lookup for this project found Nehemiah chapters marked as not indexed in the chapter-level reference file, so this guide speaks of liturgical resonance rather than claiming a specific Coptic reading day.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 8 - The Law Read to the People.md`
+  - affected: John 2:13-17
+  - L38: Nehemiah 8 is the spiritual heart of the book. The wall is not the climax; the Word of God is. Ezra reads, the Levites explain, the people understand, weep, worship, rejoice, and keep the feast. True restoration happens when Scripture is not merely possessed but heard, interpreted, and obeyed with joy.
+  - L65: > 8:14 And they found written in the law which the Lord commanded Moses, that the children of Israel should dwell in booths, in the feast in the seventh month:
+  - L69: > 8:18 And Esdras read in the book of the law of God daily, from the first day even to the last day: and they kept the feast seven days; and on the eighth day a solemn assembly, according to the ordinance.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/017 - Nehemiah/_superseded/Nehemiah 9-10 - Confession and Covenant Renewal.md`
+  - affected: John 2:13-17
+  - L41: After the public reading of the Law and the keeping of the feast, the people gather again in fasting and confession. The prayer is one of Scripture's great historical confessions.
+  - L139: > 10:33 the shewbread, and the continual meat-offering, and for the continual whole-burnt-offering, of the sabbaths, of the new moon, for the feast, and for the holy things, and the sin-offerings, to make atonement for Israel, and for the works of the house of our God.
+  - L159: No specific Coptic lectionary placement for Nehemiah 9-10 was found in the local index. The chapters resonate deeply with Orthodox corporate confession: fasting, prostration, long remembrance of God's mercy, and concrete return to the worship of God.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/022 - 2 Maccabees/2 Maccabees - Overview.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: No exact Coptic lectionary occurrence for the checked 2 Maccabees chapters or passages was confirmed in the local indexed dataset on 2026-05-30.
+  - L29: lectionary: No exact Coptic lectionary occurrence for the checked 2 Maccabees chapters or passages was confirmed in the local indexed dataset on 2026-05-30.
+  - L60: 2 Maccabees also matters because it places the temple at the center of the crisis. The struggle is not only over land, ethnicity, or self-rule. It is over worship. Heliodorus is struck down when he tries to violate the treasury. The cleansing in chapter 10 is celebrated with psalms, palms, lights, sacrifices, and an annual feast. The book shows that God's people are not saved merely from oppression, but for holy worship.
+  - L94: 2 Maccabees overlaps with part of that same period but chooses a different center of gravity. It is not trying to narrate everything that 1 Maccabees narrates. It begins with letters about feast observance and temple memory. It claims to summarize a larger five-volume work by Jason of Cyrene. It gives fuller attention to the temple, divine intervention, martyrdom, resurrection, prayer for the departed, and the intercession of Onias and Jeremiah. Its theology is more explicit and more concentrate
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/022 - 2 Maccabees/2 Maccabees 3 - Heliodorus and the Sanctity of the Temple.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: "No exact Coptic lectionary occurrence for 2 Maccabees 3 was confirmed in the local indexed dataset on 2026-05-30."
+  - L29: lectionary: "No exact Coptic lectionary occurrence for 2 Maccabees 3 was confirmed in the local indexed dataset on 2026-05-30."
+  - L226: No exact Coptic lectionary occurrence for 2 Maccabees 3 was confirmed in the local indexed dataset on 2026-05-30. The local chapter lookup returned an exact row with no indexed occurrences, and passage-level checks for 2 Maccabees 3:24-30 did not return a confirmed occurrence.
+  - L230: For Coptic Orthodox readers, the chapter resonates with reverence for the altar, stewardship of offerings, prayer for the vulnerable, and the priestly responsibility to intercede. It should not be presented as a confirmed Coptic lectionary reading. It should be taught as Scripture whose temple theology speaks naturally to Orthodox worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/022 - 2 Maccabees/Resources Used - 2 Maccabees.md`
+  - affected: John 2:13-17
+  - L54: - Oxford Cult of Saints project summary of Chrysostom's homily On Eleazar and the Seven Boys: https://portal.sds.ox.ac.uk/articles/online_resource/E02697_John_Chrysostom_in_his_homily_On_Eleazar_and_the_Seven_Boys_delivered_one_day_before_a_feast_held_at_a_shrine_of_the_Maccabean_Martyrs_pre-Christian_Jewish_martyrs_of_Antioch_S00303_in_the_outskirts_of_Constantinople_defends_the_vali/13825523
+  - L85: - Local Coptic lectionary package under `Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/` and the local query helper under `/Users/georgeandraws/workspace/coptic-lectionary-research/out/scripts/query_lectionary.py`.
+  - L86: - General Coptic Orthodox martyrdom resonance should be described thematically unless a specific Coptic rite, lectionary row, or Synaxarium entry has been verified.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/023 - 3 Maccabees/3 Maccabees - Overview.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: No exact Coptic lectionary occurrence for 3 Maccabees was confirmed in the local indexed dataset on 2026-05-31.
+  - L27: lectionary: No exact Coptic lectionary occurrence for 3 Maccabees was confirmed in the local indexed dataset on 2026-05-31.
+  - L43: For Orthodox teaching, this matters. 3 Maccabees trains the servant to teach holiness without fanaticism, resistance without hatred, courage without romance, and Christ-centered fulfillment without forced allegory. The book is Scripture in the wider Orthodox and Septuagintal inheritance, and this project follows that reception. At the same time, Coptic-specific public sources consulted during this start pass are cautious or negative about 3 Maccabees as Coptic canon, and no exact Coptic lectiona
+  - L49: - **Avoid:** Do not reduce it to legend, and do not make unsupported Coptic lectionary or iconographic claims.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/023 - 3 Maccabees/3 Maccabees 1 - Ptolemy, Jerusalem, and the Holy Place.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: No exact Coptic lectionary occurrence for 3 Maccabees 1 was confirmed in the local indexed dataset on 2026-05-31.
+  - L29: lectionary: No exact Coptic lectionary occurrence for 3 Maccabees 1 was confirmed in the local indexed dataset on 2026-05-31.
+  - L209: No exact Coptic lectionary occurrence for 3 Maccabees 1 was confirmed in the local indexed dataset. The servant should say that plainly. The chapter should not be attached to an invented feast, Synaxarium entry, or Coptic service claim.
+  - L257: - Do not invent a Coptic lectionary or iconographic placement.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/023 - 3 Maccabees/3 Maccabees 2 - Simon’s Prayer and God’s Defense of the Temple.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: No exact Coptic lectionary occurrence for 3 Maccabees 2 was confirmed in the local indexed dataset on 2026-05-31.
+  - L29: lectionary: No exact Coptic lectionary occurrence for 3 Maccabees 2 was confirmed in the local indexed dataset on 2026-05-31.
+  - L220: No exact Coptic lectionary occurrence for 3 Maccabees 2 was confirmed in the local indexed dataset. No Coptic feast, Synaxarium, or service placement should be claimed for this chapter without new evidence.
+  - L271: - Do not invent Coptic lectionary, feast, or iconographic claims.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/023 - 3 Maccabees/Resources Used - 3 Maccabees.md`
+  - affected: John 2:13-17
+  - L123: ### Coptic lectionary
+  - L125: Local Coptic lectionary lookups on 2026-05-31 returned no exact indexed occurrence for 3 Maccabees. The passage helper, cycle-passage helper, special source text search, and CSV data search returned no 3 Maccabees match in the available local datasets.
+  - L127: Future lectionary statements should say: no exact Coptic lectionary occurrence was confirmed in the local indexed dataset for 3 Maccabees.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/024 - Job/Job 15-17 - Second Cycle Begins.md`
+  - affected: John 2:13-17
+  - L70: The grouping is also supported liturgically. In the verified Coptic Great Lent sources, Job 15:1-35 is read as one prophecy reading on Friday of the Third Week of Holy Lent, while Job 16:1-22 and Job 17:1-16 are read together on Monday of the Fourth Week. The Church's reading pattern itself treats Job's answer in chapters 16-17 as one movement from failed comfort, to pure prayer, to heavenly witness, to the grave.
+  - L185: But Eliphaz is not preaching this as self-examination. He is pressing it onto Job. That is why the Church can use Job 15 in Great Lent without imitating Eliphaz's accusation. Lent tells me to ask whether I am proud, hypocritical, bribable by praise, and inwardly terrified by hidden sin. Lent does not authorize me to assign those sins to the suffering person next to me.
+  - L338: This is the Christian opening of Job 17. Job asks, "Where then is yet my hope?" The answer is not found in his friends, his health, his reputation, or his visible future. The answer is God Himself, who in Christ goes down into death and breaks it from within.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/024 - Job/Job 18-21 - Wickedness Debate.md`
+  - affected: John 11:55-57, John 2:13-17
+  - L205: Then comes the great confession. In Brenton's wording, "I know that he is eternal who is about to deliver me, and to raise up upon the earth my skin that endures these sufferings." This is one of the major resurrectional and Christological hinges in the whole book. Job does not yet speak with the full unveiled clarity of Pascha, but he does refuse to believe that his final truth is identical with present decay. He expects deliverance from beyond the visible argument, and he expects a deliverance
+  - L342: Job 19 also opens toward the Anastasis. Job does not yet narrate Christ descending into Hades, but he refuses to grant corruption the final word. His hope is personal, embodied, and God-centered. In the Church's Paschal proclamation, that shadowed confession receives its fulfillment: the Redeemer is not only eternal, He has trampled down death by death.
+  - L346: ### Coptic lectionary placement
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/024 - Job/Job 38-39 - The Lord Answers From the Whirlwind.md`
+  - affected: Sir 4:20-5:2
+  - L206: ### Coptic lectionary placement
+  - L208: The verified Coptic lectionary sources give two clear Great Lent placements:
+  - L210: - **Job 38:1-36** appears in the Great Lent cycle on **Monday of the Seventh Week of Holy Lent** as a prophecy reading. The same service context includes Proverbs 10:1-16, Isaiah 48:17-22, and Isaiah 49:1-4.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/024 - Job/Job 8-10 - Bildad and Job Answer.md`
+  - affected: John 2:13-17
+  - L345: He asks why he was brought out of the womb. He wishes he had gone from womb to grave unseen. Then he asks for a little rest before going to "a land of darkness and gloominess." Brenton's final phrase is stark: "neither can any one see the life of mortals." Before the full light of Pascha, death appears as the place where life's visibility disappears.
+  - L371: ### Coptic lectionary placement
+  - L373: The currently indexed Coptic lectionary sources did not verify an exact current reading for Job 8, Job 9, or Job 10.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Audits Index.md`
+  - affected: Ps affected
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 120-122 Batch Quality Review - 2026-05-27.md`
+  - affected: John 11:55-57, Ps affected
+  - L31: - Uses Theodoret, Athanasius, and Gregory of Nyssa to keep the readings grounded in the inner life, virtue, pilgrimage, and worship.
+  - L32: - Handles lectionary claims conservatively. Current local reverse lookups returned no verified local Coptic rows for Psalms 120-122, so the notes give theological resonance rather than invented local assignments.
+  - L65: - No exact local Coptic lectionary placement is claimed for these Psalms because none was verified in the current local data.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 123-125 Batch Quality Review - 2026-05-27.md`
+  - affected: Ps affected
+  - L28: - Handles the theological and patristic material strongly. A later local lectionary follow-up corrected the batch's weakest claim: printed Psalms 123-125 are all verified in the Agpeya at Eleventh Hour (Vespers) and Midnight Prayer - Second Watch, even though no additional annual, Pascha, or special-service rows are currently verified in the local data.
+  - L46: - Good Paschal and baptismal resonance without forcing a fake local lectionary claim.
+  - L61: - These Psalms are not excluded from the Agpeya. All three are verified in the Eleventh Hour and in Midnight Prayer Second Watch, while no additional annual, Pascha, or special-service row is currently verified in the local data.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 138-140 Batch Quality Review - 2026-05-28.md`
+  - affected: John 12:44-50
+  - L15:   - lectionary
+  - L36: Each note includes Brenton Septuagint Scripture, Psalm metadata, authorship and period notes, Christological classification, body-level patristic interpretation, direct Augustine quotes where wording carries theological weight, Theodoret research used for historical and moral interpretation, verified local lectionary interpretation, lesson-guide blocks, spiritual fruit, teacher notes, and source notes.
+  - L44: ## Lectionary findings
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 50-52 Batch Quality Review - 2026-05-22.md`
+  - affected: John 11:55-57
+  - L15: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L29: George asked that the next batch avoid shallow summaries and include real spiritual depth, Scripture insight, early Church commentary, and Coptic lectionary insight. This batch therefore focused on:
+  - L32: - Psalm metadata with NKJV/LXX numbering, accepted author/superscription, best-supported life setting, Christological classification, and Coptic lectionary/service use.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 56-58 Batch Quality Review - 2026-05-22.md`
+  - affected: Ps affected
+  - L7: tags: ["biblical-explanation","psalms","quality-review","orthodox-scripture","coptic-lectionary"]
+  - L15: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L38: - Psalm 58 is treated as Passion-shaped through its Great Thursday Eve Sixth Hour placement with the Gethsemane Gospel readings.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 62-64 Batch Quality Review - 2026-05-24.md`
+  - affected: John 12:44-50, Ps affected
+  - L11:   - coptic-lectionary
+  - L20: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L35: - Local Coptic lectionary data queried through the structured reverse lookup crosswalk and Pascha index.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 90-92 Batch Quality Review - 2026-05-28.md`
+  - affected: Ps affected
+  - L8:   - coptic-lectionary
+  - L27: This batch applied George's strengthened standard: deeper spiritual interpretation, real Scripture insight, researched early-Father commentary, direct patristic quotes where wording carried spiritual force, and lectionary insight limited to locally verified rows.
+  - L33: - St Gregory of Nyssa supplied the psalmody-as-virtue and blessedness frame.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 90-99 Quality Audit - Scriptural Insight and Spiritual Depth - 2026-05-27.md`
+  - affected: Ps affected
+  - L8: tags: [psalms, bible-study, audit, coptic-lectionary, patristic]
+  - L16: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L22: Audited Psalms 90-99 with emphasis on scriptural insight, spiritual depth, patristic usefulness, lectionary accuracy, and teacher readiness. Psalm 99 did not yet exist at the start of the audit, so the audit included drafting it to the same standard rather than rating it as an existing guide.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 108 (LXX 107) - O God, My Heart Is Ready.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L13:   Verified: no verified local Coptic lectionary rows found for the printed Psalm 108 in the current reverse lookup crosswalk, katameros cycle, or date-resolved data. The themes of confidence, prayer for deliverance, and the exaltation of God resonate with feasts of victory and the kingship of Christ, but the specific placement is not confirmed in the local sources. Embedded Scripture: Brenton LXX Psalm 107.
+  - L21:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 120 (LXX 119) - In My Distress I Cried to the Lord.md`
+  - affected: John 8:12-20, John 11:55-57
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L17:   Second Watch, and Holy Tuesday First Hour of Pascha, where Psalm 120:2,6,7 accompanies
+  - L28:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 122 (LXX 121) - I Was Glad When They Said to Me.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L16: lectionary: >-
+  - L18:   Watch; Psalm 122:1-2 at the Thursday of the seventh week of Great Lent liturgy and at Holy
+  - L19:   Monday and Holy Tuesday Third Hour of Pascha; Psalm 122:4 at Holy Monday and Holy Tuesday
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 123 (LXX 122) - Unto Thee Have I Lifted Up Mine Eyes.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L18:   numbering, while this study note itself comments on Brenton LXX Psalm 122. No additional annual, Pascha,
+  - L28:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 14 (LXX 13) - The Fool and the Salvation from Zion.md`
+  - affected: John 8:12-20
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L16:   Verified in Agpeya First Hour, Veil Prayer, Midnight First Watch; Great Lent
+  - L17:   Friday of week one Liturgy; Holy Fifty Days Tuesday of week seven Liturgy;
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 140 (LXX 139) - Rescue Me from the Evil Man.md`
+  - affected: John 12:44-50
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L13:   Verified local Pascha row preserves printed Psalm 140:1,2 with John 12:36-43 at Wednesday Eve Sixth Hour. No Agpeya, annual fixed-date, or other special-service row was verified for printed Psalm 140 in the current query.
+  - L21:   - pascha
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 147 (LXX 146-147) - He Heals the Broken in Heart.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L13:   Verified local rows preserve Psalm 147 in the Agpeya Twelfth Hour and Midnight Prayer Third Watch, split as Psalm 147:1-11 and Psalm 147:12-20. Verified Holy Fifty Days rows use Psalm 147:1-2 at Matins and Psalm 147:12,18 at Liturgy on the Sunday of the sixth week.
+  - L25:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 18 (LXX 17) - The Lord My Rock and Deliverer.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L14: lectionary: >-
+  - L15:   Verified in Great Lent and annual Vespers rows, including Preparation Saturday
+  - L16:   Vespers, Tuesday of the fourth week of Great Lent Matins and Liturgy, Sunday
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 19 (LXX 18) - The Heavens Declare the Glory of God.md`
+  - affected: John 2:13-17, Ps affected
+  - frontmatter: lectionary: >-
+  - L14: lectionary: >-
+  - L15:   Verified in Agpeya First Hour; Holy Fifty Days Matins/Vespers rows; many
+  - L59: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 27 (LXX 26) - The Lord Is My Light and My Saviour.md`
+  - affected: John 8:12-20
+  - frontmatter: lectionary: "Verified in Agpeya First Hour and Veil Prayer; Great Thursday Eve Ninth Hour; Good Friday First Hour; Great Lent; Holy Fifty Days; altar consecration; funeral service; and annual rows"
+  - L9: messianic_status: "Strongly Christological and liturgically Passion-linked; not directly quoted as prophecy in the New Testament, but Coptic Pascha rows use verses about false witnesses and hostile enemies in Christ's Passion"
+  - L10: lectionary: "Verified in Agpeya First Hour and Veil Prayer; Great Thursday Eve Ninth Hour; Good Friday First Hour; Great Lent; Holy Fifty Days; altar consecration; funeral service; and annual rows"
+  - L11: tags: ["biblical-explanation","bible-study","psalms","david","lxx-numbering","light","saviour","pascha","great-lent","agpeya","funeral","altar-consecration","christological-reading"]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 30 (LXX 29) - Mourning Turned into Joy.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: "Verified in Agpeya Third Hour and Veil Prayer; Great Lent; Lazarus Saturday Matins; Holy Fifty Days; and annual Sunday rows in current local data"
+  - L10: lectionary: "Verified in Agpeya Third Hour and Veil Prayer; Great Lent; Lazarus Saturday Matins; Holy Fifty Days; and annual Sunday rows in current local data"
+  - L38: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L43: Psalm 30 is thanksgiving after God brings a soul back from the edge of death. David remembers crying out, being healed, being lifted from Hades, and learning that prosperity without humility can collapse in a moment. The Psalm's deepest line is the Paschal movement from evening weeping to morning joy. Orthodox readers hear it as a Resurrection-shaped Psalm: Christ descends into death and raises mourning into gladness.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 33 (LXX 32) - The New Song and the Counsel of the Lord.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: "Verified in Pascha Monday Eve, Tuesday Eve, and Wednesday First Hour rows; Nineveh Fast, Great Lent, Holy Fifty Days, Thomas Sunday, and many annual/date rows in current local data"
+  - L10: lectionary: "Verified in Pascha Monday Eve, Tuesday Eve, and Wednesday First Hour rows; Nineveh Fast, Great Lent, Holy Fifty Days, Thomas Sunday, and many annual/date rows in current local data"
+  - L11: tags: ["biblical-explanation","bible-study","psalms","david","lxx-numbering","new-song","creation","providence","pascha","great-lent","holy-fifty-days","nineveh-fast","christological-reading"]
+  - L38: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 36 (LXX 35) - In Thy Light We Shall See Light.md`
+  - affected: John 8:12-20
+  - frontmatter: lectionary: "Verified local rows cite printed Psalm 36 for Saturday of the fifth week of the Holy Fifty Days Matins and the Fourth Sunday of Toba Liturgy"
+  - L10: lectionary: "Verified local rows cite printed Psalm 36 for Saturday of the fifth week of the Holy Fifty Days Matins and the Fourth Sunday of Toba Liturgy"
+  - L38: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L54: | Coptic lectionary/service use | Local rows cite printed Psalm 36:5-6 for Saturday of the fifth week of the Holy Fifty Days Matins and Psalm 36:9-10 for the Fourth Sunday of Toba Liturgy. |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 4 (LXX 4) - Peace in the Night.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: >-
+  - L14: lectionary: >-
+  - L54: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L70: | Coptic lectionary/service use | Source-backed in the local crosswalk: Agpeya First Hour; Veil Prayer; extensive Vespers use of Psalm 4:3, 4:6-8; Wedding of Cana Vespers, Psalm 4:7-8; Unction of the Sick, Sixth Prayer, Psalm 4:1. |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 43 (LXX 42) - Send Forth Thy Light and Thy Truth.md`
+  - affected: John 8:12-20
+  - frontmatter: lectionary: "Verified local rows cite printed Psalm 43 in the Agpeya Third Hour and Veil Prayer, plus Holy Fifty Days Matins/Vespers rows; no verified Pascha, Bright Saturday, or special-service row was found"
+  - L10: lectionary: "Verified local rows cite printed Psalm 43 in the Agpeya Third Hour and Veil Prayer, plus Holy Fifty Days Matins/Vespers rows; no verified Pascha, Bright Saturday, or special-service row was found"
+  - L38: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+  - L54: | Coptic lectionary/service use | Local rows preserve printed Psalm 43 references in the Agpeya Third Hour and Veil Prayer, plus Holy Fifty Days Matins/Vespers rows, especially Psalm 43:3 and 43:5. No verified Pascha, Bright Saturday, or special-service row was found for the target Psalm. |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 51 (LXX 50) - Have Mercy Upon Me O God.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: "Central Coptic penitential Psalm. Local verified rows include Great Thursday Eleventh Hour Psalm 50:17,18 with John 13:21-30; Holy Week Wednesday First Hour Psalm 51:4 with John 11:46-57; Great Lent rows for Psalm 51:1,9, 51:7-8, and 51:2-3; Pentecost Vespers Psalm 51:12,14; Unction fourth prayer Psalm 51:1-2; Myron consecration Psalm 51:12-13 and 51:7-8. In common Coptic prayer practice this Psalm is also prayed constantly as the Mercy Psalm, though the local Agpeya hour index used here tracks hour-specific Psalm sets rather than the shared introductory prayer pattern."
+  - L10: lectionary: "Central Coptic penitential Psalm. Local verified rows include Great Thursday Eleventh Hour Psalm 50:17,18 with John 13:21-30; Holy Week Wednesday First Hour Psalm 51:4 with John 11:46-57; Great Lent rows for Psalm 51:1,9, 51:7-8, and 51:2-3; Pentecost Vespers Psalm 51:12,14; Unction fourth prayer Psalm 51:1-2; Myron consecration Psalm 51:12-13 and 51:7-8. In common Coptic prayer practice this Psalm is also prayed constantly as the Mercy Psalm, though the local Agpeya hour index used
+  - L11: tags: ["biblical-explanation","bible-study","psalms","david","repentance","mercy","clean-heart","holy-spirit","great-lent","coptic-lectionary","lxx-numbering"]
+  - L39: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 57 (LXX 56) - Under the Shadow of Thy Wings.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: "Verified local rows include Agpeya Sixth Hour and Veil Prayer; Great Lent Matins rows; Holy Fifty Days Tuesday and Wednesday of the third week Matins/Vespers rows; and third Sunday of Baba Matins rows."
+  - L10: lectionary: "Verified local rows include Agpeya Sixth Hour and Veil Prayer; Great Lent Matins rows; Holy Fifty Days Tuesday and Wednesday of the third week Matins/Vespers rows; and third Sunday of Baba Matins rows."
+  - L11: tags: ["biblical-explanation","bible-study","psalms","david","saul","cave","agpeya-sixth-hour","veil-prayer","great-lent","holy-fifty-days","resurrection","shadow-of-wings","coptic-lectionary","lxx-numbering"]
+  - L37: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 58 (LXX 57) - Judge Rightly You Sons of Men.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: "Verified Pascha row: Great Thursday Eve Sixth Hour cites Ps 58:2 with Ps 68:21 and the Gethsemane Gospel readings from Matthew 26, Mark 14, Luke 22, and John 18."
+  - L10: lectionary: "Verified Pascha row: Great Thursday Eve Sixth Hour cites Ps 58:2 with Ps 68:21 and the Gethsemane Gospel readings from Matthew 26, Mark 14, Luke 22, and John 18."
+  - L11: tags: ["biblical-explanation","bible-study","psalms","david","judgment","justice","hypocrisy","great-thursday-eve","pascha","gethsemane","coptic-lectionary","lxx-numbering"]
+  - L37: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 6 (LXX 6) - Tears, Healing, and the Eighth Day.md`
+  - affected: John 12:44-50
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L16:   Agpeya First Hour, Midnight First Watch, and Veil Prayer; Great Lent Matins;
+  - L17:   Wednesday Pascha Eleventh Hour; Unction of the Sick First Prayer; Third Sunday
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 62 (LXX 61) - My Soul Is Subject to God Alone.md`
+  - affected: John 12:44-50, Ps affected
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L16:   Verified local rows preserve printed Psalm 62 references: Pascha Monday Eve
+  - L17:   and Tuesday Eve First Hour, Wednesday Eve Eleventh Hour, and Feast of the
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 63 (LXX 62) - Thirsting for Thee in a Dry Land.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L14: lectionary: >-
+  - L16:   and Sixth Hour, Great Lent Matins, Holy Fifty Days Matins, and annual Babah
+  - L29:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 64 (LXX 63) - Hidden Arrows and Righteous Joy.md`
+  - affected: Wis 2:1-9 / 2:12-22, John 12:44-50
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L17:   with Ps 64:1,2 and John 12:12-19; Great Lent Matins rows including Ps 64:2-4;
+  - L28:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 69 (LXX 68) - Zeal for Thy House and the Gall of Reproach.md`
+  - affected: John 12:44-50, John 2:13-17
+  - frontmatter: lectionary: >-
+  - L15: lectionary: >-
+  - L18:   Holy Week, plus Toba 29 and 30 and the Fast of Nineveh Vespers, and Holy Fifty Days /
+  - L27:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 80 (LXX 79) - Shepherd of Israel Turn Us.md`
+  - affected: John 12:44-50
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L13:   Local rows preserve printed Psalm 80 references in Kiyahk, Tubah, Palm Sunday / Hosanna Sunday, Sunday, and Great Lent Hosanna Tune contexts. The embedded Scripture is Brenton LXX Psalm 79.
+  - L22:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 82 (LXX 81) - God Stands in the Assembly of Gods.md`
+  - affected: Isa 1:1-9
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L13:   Local rows preserve printed Psalm 82 references in Amshir Sunday Vespers, Pascha-related contexts, Pentecost / Holy Fifty, and Sunday rows. The embedded Scripture is Brenton LXX Psalm 81.
+  - L22:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 84 (LXX 83) - How Amiable Are Thy Tabernacles.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L21:   - coptic-lectionary
+  - L48: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 91 (LXX 90) - He That Dwelleth in the Secret Place.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L13:   Verified printed Psalm 91 rows include the whole Psalm in the Agpeya Sixth Hour, Veil Prayer, and Midnight First Watch, plus Psalm 91:13 in Holy Fifty Days Matins rows. The embedded Scripture is Brenton LXX Psalm 90.
+  - L21:   - coptic-lectionary
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 92 (LXX 91) - It Is a Good Thing to Give Thanks.md`
+  - affected: Ps affected
+  - frontmatter: lectionary: >-
+  - L12: lectionary: >-
+  - L21:   - coptic-lectionary
+  - L49: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Lectionary Occurrence Summary|Psalms Lectionary Occurrence Summary]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalms Bible Study Index.md`
+  - affected: John 12:44-50, Ps affected
+  - L18: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Psalm Numbering and Citations|Psalm Numbering and Citations]]
+  - L22: This folder starts a full Orthodox Bible study of the Psalter. The governing rule is one in-depth guide per Psalm using **NKJV/Masoretic numbering in the title**, with **Septuagint/Coptic numbering in parentheses where it differs**. Coptic lectionary references preserve the numbering used by the source, which is normally Septuagint/Coptic style.
+  - L34: 5. Coptic lectionary and service usage from the local crosswalk, Agpeya index, Pascha data, and special-service files.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Resources Used - Psalms.md`
+  - affected: John 8:12-20, John 12:44-50, Ps affected
+  - L7: tags: [biblical-explanation, psalms, resources, lxx, coptic-lectionary]
+  - L18: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Psalm Numbering and Citations|Psalm Numbering and Citations]]
+  - L55: - Any Coptic lectionary or service use must be source-backed. If no local source row exists, say that rather than guessing.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/027 - Proverbs/Resources Used - Proverbs.md`
+  - affected: Sir 4:20-5:2
+  - L11:  - coptic-lectionary
+  - L27: This note tracks source anchors for the full Proverbs study-guide project. The written guides should use Brenton Septuagint for embedded Old Testament Scripture, brief NKJV references where useful, and cautious source-backed claims for Coptic liturgical placement. No exact Coptic reading placement should be asserted unless it comes from verified Coptic lectionary evidence.
+  - L100: ## Source-backed Coptic lectionary occurrences in the checked Coptic lectionary sources
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Audio Generation Verification - 2026-06-04.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22
+  - L55: | 13 | `Wisdom of Solomon 18-19 - Pascha, the Word, and New Creation.md` | 27:05 | 5 | passed |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Phase 1 Inventory and Source Probe - 2026-06-03.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - L13: summary: "Phase 1 inventory, Brenton verification, lectionary search, patristic probe, and structure decision for Wisdom of Solomon."
+  - L78: ## Coptic lectionary source probe
+  - L83: python3 scripts/query_lectionary.py --passage 'Wisdom of Solomon 2:12-22'
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Phase 2 Batch 1 Quality Review - 2026-06-03.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22
+  - L49: - Session 2 uses Passion fulfillment anchors, especially Matthew 27 and thematic Passion witness, because direct Wisdom 2 commentary was not found in the checked local corpus.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Phase 2 Batch 2 Quality Review - 2026-06-03.md`
+  - affected: Wis 7:24-30
+  - L45: - Session 7 uses 1 Kings 3, James 1, Luke 11, and thematic prayer/humility anchors. No exact Wisdom 9 lectionary placement was asserted.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Phase 2 Completion Verification - 2026-06-03.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22
+  - L41: | 12 | `Wisdom of Solomon 18-19 - Pascha, the Word, and New Creation.md` | Wisdom 18-19 | Pass |
+  - L113: 3. Confirm lectionary claims and absence statements.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Phase 3 Full Revision Audit - 2026-06-03.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - L27: - Lectionary claims and absence wording.
+  - L70: - Preserved the checked Holy Pascha Monday Sixth Hour placement for Wisdom 1:1-9.
+  - L137: - Deepened manna with careful Paschal and Eucharistic resonance through John 6, while preserving the original wilderness gift.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Series Plan.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - L36: 3. Wisdom 10-19: Wisdom in salvation history, idolatry, Exodus, Pascha, and new creation.
+  - L38: The approved draft plan below uses twelve sessions. This keeps weighty Holy Week and prayer chapters standalone while grouping coherent literary arguments that would become thin if split by chapter.
+  - L49: | 6 | Wisdom, Brightness, and Friendship with God | Wisdom 6:22-8:21 | This is the major praise-of-Wisdom movement, including Wisdom 7:24-30, the Wednesday Eve Holy Pascha reading. |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Resources Used - Wisdom of Solomon.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - L11: summary: "Source, tooling, lectionary, and patristic research notes for the Wisdom of Solomon Bible study project."
+  - L64: ## Coptic lectionary and Holy Week sources
+  - L69: python3 scripts/query_lectionary.py --passage 'Wisdom of Solomon 2:12-22'
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon - Overview.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - frontmatter: lectionary: "Wisdom of Solomon appears in checked Coptic Holy Pascha materials: Monday Sixth Hour (Wisdom 1:1-9), Wednesday Eve Eleventh Hour (Wisdom 7:24-30), and Good Friday First Hour (Wisdom 2:12-22)."
+  - L27: summary: "A Coptic Orthodox overview of Wisdom of Solomon, explaining its deuterocanonical place, its teaching on righteousness, immortality, divine Wisdom, idolatry, Pascha, and its Holy Week use."
+  - L32: lectionary: "Wisdom of Solomon appears in checked Coptic Holy Pascha materials: Monday Sixth Hour (Wisdom 1:1-9), Wednesday Eve Eleventh Hour (Wisdom 7:24-30), and Good Friday First Hour (Wisdom 2:12-22)."
+  - L58: That arc is also a purification of sight. Wisdom 1 purifies the heart that seeks; Wisdom 2 exposes the imagination that mocks; Wisdom 3-5 correct the sight that mistakes suffering for abandonment; Wisdom 6-9 humble rulers and servants before the gift of Wisdom; Wisdom 10-19 teach the eye to see history, creation, judgment, and Pascha as God's wise work. The reader is not merely learning themes. He is learning how to see before God.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 1 - Love Righteousness and Seek God Simply.md`
+  - affected: Wis 1:1-9
+  - frontmatter: lectionary: "Checked Coptic Holy Pascha source material: Wisdom 1:1-9 appears at Monday Sixth Hour of Holy Pascha, calling the Church to seek God simply as Passion week exposes false judgment, hidden counsels, and unrighteous speech."
+  - L20: lectionary: "Checked Coptic Holy Pascha source material: Wisdom 1:1-9 appears at Monday Sixth Hour of Holy Pascha, calling the Church to seek God simply as Passion week exposes false judgment, hidden counsels, and unrighteous speech."
+  - L32:   - holy-pascha
+  - L46: Wisdom 1 is the doorway into the whole book. Later chapters will speak about the righteous man hated by the ungodly, the souls of the righteous in God's hand, rulers under judgment, Wisdom as brightness and image, idolatry, Exodus, and Pascha. But the book begins with the soul that can receive wisdom. Before the reader is allowed to admire wisdom, teach wisdom, or use wisdom in leadership, he is told to love righteousness and seek God simply.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 2 - The Righteous Son Condemned.md`
+  - affected: Wis 2:1-9 / 2:12-22
+  - frontmatter: lectionary: "In checked Coptic Holy Pascha source material, Wisdom 2:12-22 appears at Good Friday First Hour."
+  - L19: lectionary: "In checked Coptic Holy Pascha source material, Wisdom 2:12-22 appears at Good Friday First Hour."
+  - L20: season: "Holy Pascha"
+  - L21: feast: "Good Friday"
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 3-4 - The Righteous in the Hand of God.md`
+  - affected: John 11:55-57
+  - frontmatter: lectionary: "No exact Coptic lectionary placement for Wisdom 3-4 was identified in the checked sources for this guide; its themes resonate with Orthodox funeral, martyrdom, and resurrection hope."
+  - L21: lectionary: "No exact Coptic lectionary placement for Wisdom 3-4 was identified in the checked sources for this guide; its themes resonate with Orthodox funeral, martyrdom, and resurrection hope."
+  - L236: This guide does not claim a specific Coptic lectionary assignment for Wisdom 3-4. Its themes are treated as resonant with Orthodox funeral hope, martyrdom, remembrance of the departed, and Paschal confidence in Christ's Resurrection.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 5 - Final Vindication and the Armor of Creation.md`
+  - affected: Wis 1:1-9
+  - frontmatter: lectionary: "No exact Coptic lectionary placement for Wisdom 5 was found in the checked sources; the chapter completes Wisdom 1-5 with judgment, vindication, and creation serving God's righteous rule."
+  - L20: lectionary: "No exact Coptic lectionary placement for Wisdom 5 was found in the checked sources; the chapter completes Wisdom 1-5 with judgment, vindication, and creation serving God's righteous rule."
+  - L200: No exact Coptic lectionary placement for Wisdom 5 was found in the checked sources. The chapter's themes still belong naturally to the book's Holy Week-shaped movement because Wisdom 5 completes the movement begun in Wisdom 2, where the righteous Son is mocked, and carried through Wisdom 3-4, where the righteous are seen by God even when the world misreads them.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 6.1-21 - Rulers Under Judgment.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - frontmatter: lectionary: "No exact Coptic lectionary placement for Wisdom 6:1-21 was identified in the checked sources for this guide; the passage speaks to authority as stewardship under God's judgment."
+  - L20: lectionary: "No exact Coptic lectionary placement for Wisdom 6:1-21 was identified in the checked sources for this guide; the passage speaks to authority as stewardship under God's judgment."
+  - L198: No exact Coptic lectionary placement for Wisdom 6:1-21 was identified in the checked sources for this guide. Wisdom of Solomon as a book does appear in checked Coptic Holy Pascha material at Wisdom 1:1-9, Wisdom 2:12-22, and Wisdom 7:24-30, but this session does not claim a specific Coptic reading assignment for Wisdom 6:1-21.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 6.22-8.21 - Wisdom, Brightness, and Friendship with God.md`
+  - affected: Wis 7:24-30
+  - frontmatter: lectionary: "In checked Coptic Holy Pascha material, Wisdom 7:24-30 appears at Wednesday Eve, Eleventh Hour."
+  - L20: lectionary: "In checked Coptic Holy Pascha material, Wisdom 7:24-30 appears at Wednesday Eve, Eleventh Hour."
+  - L32:   - holy-pascha
+  - L42: At the center stands Wisdom 7:24-30, where Wisdom is called the breath of God's power, the brightness of everlasting light, the unspotted mirror of God's power, and the image of His goodness. The Church hears this passage at Wednesday Eve, Eleventh Hour of Holy Pascha, as betrayal and the Passion approach. In that hour the Church contemplates Wisdom not as cleverness, but as the pure light of God that evil cannot overcome.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon Bible Study Index.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22
+  - L40: | 12 | [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 18-19 - Pascha, the Word, and New Creation|Pascha, the Word, and New Creation]] | Wisdom 18-19 | Revised |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon Status.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22
+  - L20: | [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 1 - Love Righteousness and Seek God Simply|Session 1 - Love Righteousness and Seek God Simply]] | Wisdom 1 | revised | passed | done | Phase 3 deepening complete: purification, speech before God, and Holy Pascha Monday Sixth Hour context. | 2026-06-04 |
+  - L31: | [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 18-19 - Pascha, the Word, and New Creation|Session 12 - Pascha, the Word, and New Creation]] | Wisdom 18-19 | revised | passed | done | Phase 3 deepening complete: Pascha, Almighty Word, priestly intercession, Red Sea, baptism, and new creation. | 2026-06-04 |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/audio_fragments/staging/Wisdom of Solomon - Overview.md`
+  - affected: Wis 1:1-9, Wis 2:1-9 / 2:12-22, Wis 7:24-30
+  - L25: That arc is also a purification of sight. Wisdom 1 purifies the heart that seeks; Wisdom 2 exposes the imagination that mocks; Wisdom 3-5 correct the sight that mistakes suffering for abandonment; Wisdom 6-9 humble rulers and servants before the gift of Wisdom; Wisdom 10-19 teach the eye to see history, creation, judgment, and Pascha as God's wise work. The reader is not merely learning themes. He is learning how to see before God.
+  - L27: The book is also more Christological than it first appears. Wisdom 2 gives the voice of the ungodly who persecute the righteous man, call him intolerable, test whether he is God's son, and condemn him to a shameful death. In Holy Week, the Church hears this as prophecy-like witness to the Passion of Christ. Wisdom 7 describes Wisdom as the breath of God's power, the brightness of everlasting light, and the image of His goodness. The New Testament does not quote the book mechanically at every poi
+  - L58: This passage is one of the book's clearest Holy Week anchors. It does not merely say that good people suffer. It reveals the spiritual psychology of evil. The wicked hate the righteous because righteousness judges them without needing to speak. Their test is not neutral inquiry. It is cruelty dressed as proof. On Good Friday, the Church hears this beside the mockery of Christ: "If He is the Son of God, let Him come down from the cross."
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/audio_fragments/staging/Wisdom of Solomon 1 - Love Righteousness and Seek God Simply.md`
+  - affected: Wis 1:1-9
+  - L11: Wisdom 1 is the doorway into the whole book. Later chapters will speak about the righteous man hated by the ungodly, the souls of the righteous in God's hand, rulers under judgment, Wisdom as brightness and image, idolatry, Exodus, and Pascha. But the book begins with the soul that can receive wisdom. Before the reader is allowed to admire wisdom, teach wisdom, or use wisdom in leadership, he is told to love righteousness and seek God simply.
+  - L17: In the checked Coptic Holy Pascha source material, Wisdom 1:1-9 appears at the Sixth Hour of Monday of Holy Pascha. This placement is spiritually exact. As Passion week begins to reveal false councils, unjust judgment, secret plotting, and speech against the Righteous One, the Church hears the call to love righteousness, seek God simply, and remember that God knows the counsels of the ungodly. The reading is not only about the rulers who judged Christ. It turns Pascha inward and asks whether our
+  - L70: Here the Monday Sixth Hour Pascha placement becomes deeply searching. During Holy Week, Christ is surrounded by hidden counsels, false witnesses, mockery, and unjust judgment. He Himself stands as the pure One whose mouth contains no deceit. The Church hears Wisdom 1:1-9 at the beginning of the week so that no one can watch the Passion only as an accusation against others. The reading asks whether our words join the false council or the confession of the Righteous One.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/audio_fragments/staging/Wisdom of Solomon 2 - The Righteous Son Condemned.md`
+  - affected: Wis 2:1-9 / 2:12-22
+  - L15: The Coptic Holy Pascha placement makes the chapter especially serious. In the checked Holy Pascha source material, Wisdom 2:12-22 appears at Good Friday First Hour. The Church does not place this reading there to encourage vague admiration for suffering. She places it there so the faithful may behold Christ first: the righteous Son mocked, tested, tortured, condemned, and yet not abandoned by the Father.
+  - L32: This is why the passage matters for Holy Week. The mockers at the Cross think death will seal the matter. If Jesus dies, they suppose He is exposed as false. If He does not come down, they suppose He is powerless. Wisdom has already shown the root of that blindness: a heart that thinks death is the final judge will always misread the Cross.
+  - L56: This section is a necessary correction to shallow readings of sin. Sin does not stay private. A life built on appetite eventually needs victims. It takes time, attention, dignity, money, bodies, and silence from others. It calls exploitation joy. It calls force justice. It teaches the strong to despise the feeble.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/audio_fragments/staging/Wisdom of Solomon 6.22-8.21 - Wisdom, Brightness, and Friendship with God.md`
+  - affected: Wis 7:24-30
+  - L7: At the center stands Wisdom 7:24-30, where Wisdom is called the breath of God's power, the brightness of everlasting light, the unspotted mirror of God's power, and the image of His goodness. The Church hears this passage at Wednesday Eve, Eleventh Hour of Holy Pascha, as betrayal and the Passion approach. In that hour the Church contemplates Wisdom not as cleverness, but as the pure light of God that evil cannot overcome.
+  - L17: The Holy Pascha placement of Wisdom 7:24-30 gives the session its deepest liturgical setting. Wednesday Eve stands under the shadow of betrayal. Judas has moved toward darkness, while the Church places before us Wisdom as pure, undefiled, brighter than light, and victorious over vice. The contrast is severe and pastoral. Betrayal is not a failure of information. It is the heart turning away from communion. Wisdom enters holy souls and makes them friends of God. Judas sat near Christ and still lo
+  - L113: In checked Coptic Holy Pascha material, this very passage is assigned to Wednesday Eve, Eleventh Hour. That hour stands close to the betrayal. The Church places radiant Wisdom before us while the darkness around Christ thickens. Judas shows that proximity to holy things is not the same as friendship with God. He heard divine words, saw divine works, and sat at the table, but his heart was not dwelling with Wisdom. Wisdom 7 therefore becomes a mirror for Holy Week: the Passion exposes whether the
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Audits/Phase 2 Completion - Session Guide Drafting.md`
+  - affected: Sir 4:20-5:2
+  - L25: - Kept lectionary language constrained to the checked Sirach rows in the Great Lent/Jonah/Nineveh prophecy cycle.
+  - L39: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach 27-31 - Anger, Forgiveness, Money, and Feasting|Sirach 27-31 - Anger, Forgiveness, Money, and Feasting]]
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Audits/Phase 3 Citation and Spiritual Depth Audit.md`
+  - affected: Sir 4:20-5:2
+  - L27: - Honest Coptic lectionary claims: only previously verified Sirach rows are claimed.
+  - L35: - **Sirach 36-39**: Rebuilt the `Prayer for God's People` section to quote the Brenton prayer material rather than the misaligned counsel/feast/potter text; added a source-shape note.
+  - L36: - **Sirach 8-11**: Added coverage of Sirach 8:13-22 and 11:11-28 so the lectionary-weighted and "judge before the end" themes receive fuller scriptural treatment.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Audits/Sirach Audio Generation Verification - 2026-06-06.md`
+  - affected: Sir 4:20-5:2
+  - L53: | 11 | `Sirach 27-31 - Anger, Forgiveness, Money, and Feasting.md` | 20:01 | 7 | passed |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Audits/Sirach Series Plan.md`
+  - affected: Sir 4:20-5:2
+  - L32: ## Verified Coptic Lectionary Anchor
+  - L34: Local Coptic lectionary data confirms Sirach in the Great Lent/Jonah/Nineveh cycle as prophecy readings:
+  - L36: | Unit | Verified readings |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Resources Used - Sirach.md`
+  - affected: Sir 4:20-5:2
+  - L58: ## Local Coptic Lectionary Sources
+  - L60: - `Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.csv`
+  - L61: - `Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.csv`
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach - Overview.md`
+  - affected: Sir 4:20-5:2
+  - frontmatter: lectionary: >-
+  - L29:   Hebrew original, its Lenten lectionary presence, and its spiritual teaching on
+  - L34: lectionary: >-
+  - L35:   The local Coptic lectionary package confirms Sirach readings in the Great
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach 3-4 - Honor, Humility, and the Poor.md`
+  - affected: Sir 4:20-5:2
+  - L35: The checked Coptic lectionary evidence lists Sirach 3:1-4 in the Great Lent/Jonah/Nineveh cycle, week 3 day 5, as a prophecy reading. That small row matters. The Church places honor for father and mother beside the Lenten call to repentance. Wisdom begins close to home, where public piety cannot hide private hardness.
+  - L147: ## Coptic Lectionary Anchor
+  - L149: The checked Coptic lectionary evidence lists Sirach 3:1-4 in the Great Lent/Jonah/Nineveh cycle, week 3 day 5, as a prophecy reading. Its presence beside Lenten repentance teaches that honoring father and mother is not secondary morality. It is one of the places where repentance becomes concrete.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach 5-7 - Presumption, Speech, and Repentance.md`
+  - affected: Sir 4:20-5:2, Isa 1:1-9
+  - frontmatter: lectionary: Sirach 5:1-15 appears in the checked Coptic Great Lent/Jonah/Nineveh cycle, week 7 day 2, as a prophecy reading.
+  - L31: lectionary: Sirach 5:1-15 appears in the checked Coptic Great Lent/Jonah/Nineveh cycle, week 7 day 2, as a prophecy reading.
+  - L41: The checked Coptic Great Lent/Jonah/Nineveh evidence places Sirach 5:1-15 in week 7 day 2 as a prophecy reading. The placement is spiritually direct: near the fast's intensified call to repentance, the Church warns against delayed conversion, double speech, and presuming that mercy excuses remaining unchanged.
+  - L217: The checked Coptic lectionary evidence lists Sirach 5:1-15 in the Great Lent/Jonah/Nineveh cycle, week 7 day 2, as a prophecy reading. The placement is spiritually direct: Lent warns the soul not to delay conversion or presume that mercy excuses double-heartedness.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach 8-11 - Discernment Under Power.md`
+  - affected: Sir 4:20-5:2
+  - frontmatter: lectionary: Sirach 8:1-22, Sirach 10:1-25, Sirach 10:1-33, and Sirach 11:1-10 appear in checked Coptic Great Lent/Jonah/Nineveh prophecy rows.
+  - L32: lectionary: Sirach 8:1-22, Sirach 10:1-25, Sirach 10:1-33, and Sirach 11:1-10 appear in checked Coptic Great Lent/Jonah/Nineveh prophecy rows.
+  - L42: This unit has unusual Lenten weight: Sirach 8, 10, and 11 appear in checked Great Lent/Jonah/Nineveh prophecy rows. The Church is not using social prudence as etiquette; she is placing rulers, pride, reputation, and appearances under repentance.
+  - L270: The checked Coptic lectionary evidence gives this unit unusual weight: Sirach 8:1-22 and Sirach 10:1-25 appear in week 4 day 2; Sirach 10:1-33 appears in week 6 day 3; Sirach 11:1-10 appears in week 6 day 4. The spiritual logic is Lenten discernment under pressure: rulers, pride, honor, and appearances must be judged under God.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach Bible Study Index.md`
+  - affected: Sir 4:20-5:2
+  - L48: | 11 | [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach 27-31 - Anger, Forgiveness, Money, and Feasting|Sirach 27-31 - Anger, Forgiveness, Money, and Feasting]] | Sirach 27-31 | phase-4 revised |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach Status.md`
+  - affected: Sir 4:20-5:2
+  - L32: | [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/Sirach 27-31 - Anger, Forgiveness, Money, and Feasting|Sirach 27-31 - Anger, Forgiveness, Money, and Feasting]] | phase-4 revised | scoped/validated | done | Phase 4 pass completed; targeted scriptural-depth guardrails added and source notes moved to bottom. | 2026-06-05 | 2026-06-06 |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/audio_fragments/staging/Sirach - Overview.md`
+  - affected: Sir 4:20-5:2
+  - L192: Sirach 3 appears in the verified Coptic Lenten lectionary data, and its placement is spiritually natural. Honor for father and mother is not nostalgia. It is obedience made concrete in the household. Sirach's family teaching should be taught with care: it should affirm honor, gratitude, and responsibility without ignoring painful family realities or pretending every parent-child relationship is simple.
+  - L258: The local Coptic lectionary package confirms that Sirach appears in the **Great Lent/Jonah/Nineveh cycle** as prophecy readings. This is source-backed, not merely thematic.
+  - L262: | katameros_cycle | Great Lent/Jonah/Nineveh cycle, week 3 day 5 | prophecy | GreatLentReadings | Sirach 2:1-23 |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/audio_fragments/staging/Sirach 3-4 - Honor, Humility, and the Poor.md`
+  - affected: Sir 4:20-5:2
+  - L7: The checked Coptic lectionary evidence lists Sirach 3:1-4 in the Great Lent/Jonah/Nineveh cycle, week 3 day 5, as a prophecy reading. That small row matters. The Church places honor for father and mother beside the Lenten call to repentance. Wisdom begins close to home, where public piety cannot hide private hardness.
+  - L137: ## Coptic Lectionary Anchor
+  - L139: The checked Coptic lectionary evidence lists Sirach 3:1-4 in the Great Lent/Jonah/Nineveh cycle, week 3 day 5, as a prophecy reading. Its presence beside Lenten repentance teaches that honoring father and mother is not secondary morality. It is one of the places where repentance becomes concrete.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/audio_fragments/staging/Sirach 5-7 - Presumption, Speech, and Repentance.md`
+  - affected: Sir 4:20-5:2, Isa 1:1-9
+  - L9: The checked Coptic Great Lent/Jonah/Nineveh evidence places Sirach 5:1-15 in week 7 day 2 as a prophecy reading. The placement is spiritually direct: near the fast's intensified call to repentance, the Church warns against delayed conversion, double speech, and presuming that mercy excuses remaining unchanged.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/031 - Sirach/audio_fragments/staging/Sirach 8-11 - Discernment Under Power.md`
+  - affected: Sir 4:20-5:2
+  - L9: This unit has unusual Lenten weight: Sirach 8, 10, and 11 appear in checked Great Lent/Jonah/Nineveh prophecy rows. The Church is not using social prudence as etiquette; she is placing rulers, pride, reputation, and appearances under repentance.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Audits/Isaiah Continuation Audit - 2026-05-28 - Chapters 1-6.md`
+  - affected: Isa 1:1-9
+  - L43: - Coptic lectionary placement where verified, or cautious resonance language where exact placement was not directly queried
+  - L52: - Coptic lectionary anchors verified for Great Lent week 1 and Pascha/Holy Week source-text placements.
+  - L59: - Coptic lectionary anchors verified across Great Lent week 1, Great Lent week 2, Great Thursday water blessing, and Good Friday source-text placement.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Audits/Isaiah Continuation Audit - 2026-05-28 - Split Chapters 49 and 50.md`
+  - affected: Sir 4:20-5:2
+  - L36: ## Lectionary evidence
+  - L38: Verified from the Coptic lectionary stack:
+  - L40: - Isaiah 49:1-4: Great Lent/Jonah/Nineveh cycle, week 7 day 1, prophecy set with `Prov 10:1-16; Isa 48:17-22; Isa 49:1-4; Job 38:1-36`.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Audits/Isaiah Full Quality Audit - 2026-06-03.md`
+  - affected: Isa 1:1-9
+  - L19: **Mixed, with a strong content base.** The Isaiah source set is no longer scaffold-quality. The active guide sequence is complete, spiritually serious, and generally strong in Orthodox theological reading, Brenton/LXX attention, Christological interpretation, and Coptic lectionary honesty. A wholesale rewrite is **not** recommended.
+  - L44: - Cleaned reader-facing source wording that exposed private tooling details, replacing it with calmer references to Coptic lectionary reference material or source set.
+  - L62: | Coptic lectionary honesty | Mostly pass | The notes generally distinguish verified lectionary anchors from absent evidence. Remaining concern is provenance/URL traceability, not obvious false claims. |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Audits/Isaiah Full-Book Audit Start - 2026-05-28.md`
+  - affected: Isa 1:1-9
+  - L30: - include Coptic lectionary reading insights where source-backed
+  - L72: - Coptic Great Lent and Pascha lectionary significance based on the query helper and source-text search
+  - L76: ## Lectionary research anchors verified so far
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Google Docs Manifest - Isaiah - 2026-06-03.md`
+  - affected: Isa 1:1-9
+  - L32: | 13 | 24-27 | `Isaiah 24-27 - Apocalypse Feast and Resurrection Hope.md` | updated | [Google Doc](https://docs.google.com/document/d/13v961c9wU2pIyQVTw1IDs1VOk5nlc3upDwcOsV4gF70/edit?usp=drivesdk) |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah - General Introduction.md`
+  - affected: Isa 1:1-9
+  - L109: The book's opening chapters destroy the illusion that outward religion can cover inward corruption. Sacrifices, feasts, incense, and prayers become offensive when hands are full of blood. This is not an attack on worship. It is a defense of true worship. Isaiah teaches that liturgy and justice cannot be enemies. The God who receives incense also hears the cry of the orphan and widow.
+  - L127: For Coptic Orthodox pastoral reading, Fr Bishoy Kamel's *The Journey through Lent with Isaiah* is especially important. He writes, "The Book of Isaiah is a book of repentance and return to God, as is the intention and goal of the Great Lent." That is a deeply Coptic way to read Isaiah. The book is not only about ancient Judah. It walks with the Church through fasting, confession, healing, illumination, the Cross, and Resurrection hope.
+  - L138: - **The feast on the mountain:** Isaiah 25 opens toward the Eucharistic and eschatological banquet.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah 1 - Vision of Sinful Judah.md`
+  - affected: Isa 1:1-9
+  - L36: Isaiah does not begin with comfort. He begins with diagnosis. Judah still keeps feasts, still brings sacrifices, still knows the language of worship, yet the soul of the nation is sick from head to foot. The first chapter therefore does what real repentance always does: it strips away religious self-protection, tells the truth about blood-stained hands, and then opens a door of mercy that no sinner could have invented for himself.
+  - L90: This is one reason the Coptic Church places Isaiah 1 at the beginning of Great Lent. Father Bishoy Kamel comments that the Lenten journey starts where Isaiah starts, with spiritual illness honestly named so that health may later spring forth. Lent is not self-improvement. It is consenting to God's diagnosis.
+  - L102: > 1:14 your fasting, and rest from work, your new moons also, and your feasts my soul hates: ye have become loathsome to me; I will no more pardon your sins.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah 2-4 - Zion Judgment and the Branch.md`
+  - affected: Isa 1:1-9
+  - L114: Father Bishoy Kamel, reading these verses in the first week of Great Lent, says bluntly, "Chapter 2 of the book of Isaiah is entirely dedicated to humility!" That is pastorally right. Lent is not only about abstaining from food. It is about ceasing to feed the fantasy that we can save ourselves by wealth, status, strategy, or religious appearance.
+  - L187: Coptic lectionary evidence gives this whole range strong Great Lent weight. The cycle places Isaiah 1:19-25 with 2:1-3 on Tuesday of the first week, Isaiah 2:3-11 on Wednesday, Isaiah 2:11-19 on Thursday, Isaiah 3:1-14 on Friday, and Isaiah 4:2-5:7 on Monday of the second week. That progression is spiritually coherent. The Church moves from the call to Zion, to humility, to the fall of proud heights, to the collapse of false human support, and then to purification and the vineyard.
+  - L189: The Pascha source stack adds more exact uses. Isaiah 2:10-21 appears at the First Hour of Good Friday. Isaiah 3:9-15 appears at the Third Hour of Good Friday. Isaiah 4:2-4 appears in the Liturgy of Blessing of the Water of Great Thursday. Those placements are not random. The day of the Lord, the exposure of injustice, and the washing away of filth all belong naturally to Holy Week.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah 32-33 - Righteous King and Zion Security.md`
+  - affected: Isa 1:1-9
+  - L225: The current Coptic lectionary source set marks **Isaiah 32** and **Isaiah 33** as having **no exact indexed occurrence** in the ordinary date-resolved index, Great Lent/Jonah/Nineveh cycle index, reverse crosswalk, Pascha day-hour index, or Bright Saturday service-order data checked in this pass. The chapter-level index rows read `Isa 32, is_read=no, occurrence_count=0` and `Isa 33, is_read=no, occurrence_count=0`.
+  - L287: - Fr Bishoy Kamel, *The Journey through Lent with Isaiah*, for the wider pastoral frame of Isaiah as repentance, trust, Cross, healing, and comfort in the Lenten journey. No exact Isaiah 32-33 lectionary placement was asserted from this source.
+  - L293: - Coptic lectionary reference material was checked for Isaiah 32-33 occurrences.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah 36-39 - Hezekiah Assyria and Babylon.md`
+  - affected: Isa 1:1-9, John 12:44-50
+  - L49: I am keeping Isaiah 36-39 as one guide rather than splitting the chapters. Each chapter has its own weight, and Isaiah 38 is especially significant because the Prayer of Hezekiah is used liturgically on Bright Saturday. Still, the whole unit belongs together literarily and spiritually. Isaiah 34-35 closed the first major prophetic movement with judgment and the holy way. Isaiah 36-39 now tests those themes in history: false refuge, Zion under threat, prayer, deliverance, death, healing, pride, a
+  - L204: The death of the Assyrian army is a hard text and must be handled carefully. Isaiah says the angel of the Lord slew 185,000 in the Assyrian camp. This is divine judgment in an Old Covenant historical crisis against a blaspheming imperial power threatening Zion. It is not a pattern for Christian violence or revenge. The Church receives it spiritually and Paschally: the Lord can overthrow powers that seem unconquerable, and He can defend His people when all visible strength fails. In Christ, the d
+  - L299: The Prayer of Hezekiah is also Paschal. His fear of Hades and his thanksgiving after deliverance prepare the Church to hear the deeper answer of Bright Saturday: Christ descends into Hades, breaks its bars, and turns the cry of the dying into praise.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah 49 - Servant Light to the Nations and Zion Remembered.md`
+  - affected: Sir 4:20-5:2
+  - L53: This connection is also liturgical. In the Great Lent week 7 day 1 prophecy set, Isaiah 48:17-22 is read together with Isaiah 49:1-4. The Church hears the call to leave Babylon and immediately hears the Servant called from the womb.
+  - L227: ## 10. Coptic Lectionary Connections
+  - L229: The current Coptic lectionary stack records two exact Isaiah 49 readings.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah 6 - Isaiah Call.md`
+  - affected: John 12:44-50
+  - L126: Isaiah 6 has strong Coptic lectionary presence. The Great Lent cycle places Isaiah 6:1-12 on Thursday of the second week of Lent. That placement is spiritually exact. After the vineyard of chapter 5, the Church gives the fasting faithful the throne, the Trisagion, the coal, and the sending. Lent is not only diagnosis. It is purification for service.
+  - L128: Beyond specific lectionary rows, Isaiah 6 saturates Orthodox worship. The seraphic hymn stands behind the Sanctus and the Church's ceaseless confession of God's holiness. The chapter also belongs naturally to the deacon's and priest's consciousness. No one should approach the altar, the Gospel, or the hymnody as if holy things were casual.
+  - L185: - Fr. Bishoy Kamel, *The Journey through Lent with Isaiah*, especially the second-week Great Lent reflection on Isaiah 6 as purification for service.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Isaiah Bible Study Index.md`
+  - affected: Isa 1:1-9
+  - L59: A final citation/substance audit was completed on 2026-06-04. Fresh deterministic verification found **34 active guide/overview notes**, **199 unique reachable URLs**, **0 missing files**, **0 structural remnants**, **0 reader-facing tooling/process markers**, and **0 missing direct-source or teaching-note sections**. Substance passed after small hard-text guardrail edits. Citation apparatus remains **mixed** at the guide-level direct-link blocks: use each guide together with [[Hermes/04-Referen
+  - L76: | Revised source text | Introduction | General introduction to Isaiah | Rebuilt on 2026-05-28 as audit-grade overview with historical context, translation background, canon placement, spiritual themes, patristic anchors, lectionary framing, and grouping rationale. Prior Doc/MP3 are stale until refreshed from revised source. | [[Isaiah - General Introduction]] | [Google Doc - refreshed 2026-06-03](https://docs.google.com/document/d/1TrqtKQ3qiPYadQpMr5r5M3BqdY2Dm62et7foQaVSpNI/edit?usp=drivesdk) |
+  - L77: | Revised source text | 1 | The vision of sinful Judah | Rewritten on 2026-05-28 with structured Brenton units, covenant-lawsuit framing, verified Great Lent and Holy Week lectionary anchors, patristic insight from Justin and Irenaeus, and stronger repentance/justice application. Prior Doc/MP3 are stale until refreshed from revised source. | [[Isaiah 1 - Vision of Sinful Judah]] | [Google Doc - refreshed 2026-06-03](https://docs.google.com/document/d/1fItob0vLyrpN2AJBM8JSZIC8Bm1sPaFGUkRrpAD_hQI/
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/032 - Isaiah/Resources Used - Isaiah.md`
+  - affected: Sir 4:20-5:2, Isa 1:1-9
+  - L28: ## Legacy Great Lent source imported into Obsidian
+  - L39: This article is a legacy Coptic Orthodox reading guide that explicitly walks week by week through Great Lent alongside the Church's weekday Isaiah prophecies. It is especially useful for:
+  - L48: - Isaiah as a companion to the full Great Lent journey
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Audits Index.md`
+  - affected: Jer 8:17-9:6
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 11-13 Split Audit - 2026-05-29.md`
+  - affected: Jer 8:17-9:6
+  - L25: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 13 - The ruined linen girdle and Bright Saturday warning|Jeremiah 13 - The ruined linen girdle and Bright Saturday warning]] now carries the Bright Saturday symbolic warning: the ruined linen girdle, wine-jars of judgment, pride before darkness, the bruised flock, and purification.
+  - L35: ### Local lectionary evidence
+  - L37: - Jeremiah 11:18-12:13 is verified in `pascha_day_hour_index.csv` for Good Friday Ninth Hour, OT1.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 7 Continuation Audit - 2026-05-29.md`
+  - affected: John 2:13-17, Jer 8:17-9:6
+  - L23: The inherited guide was template-level. It contained full Brenton Scripture for the local embedded source, but it still had narration voice tags, generic explanation sections, shallow Christological and liturgical treatment, and no publication-quality patristic or lectionary verification.
+  - L42: ### Local lectionary
+  - L44: Local Coptic lectionary stack checked:
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 8-10 Split Audit - 2026-05-29.md`
+  - affected: Jer 8:17-9:6
+  - L22: The inherited Jeremiah 8-10 grouping was defensible as a broad sequence from wound and lament into anti-idol confession, but it was not adequate for publication-quality teaching. The split was made because each chapter has an independent literary, lectionary, and spiritual center:
+  - L25: - [[Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 9 - Lament and knowing the Lord|Jeremiah 9 - Lament and knowing the Lord]]: Paschal lament, false speech, true boasting, and circumcision of heart.
+  - L36: ## Local lectionary verification
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah Full-Book Audit Start - 2026-05-29.md`
+  - affected: Jer 8:17-9:6
+  - L30: - Local lectionary stack under `/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/`
+  - L60: - verified local Coptic lectionary significance
+  - L68: ## Lectionary evidence verified
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah - General Introduction.md`
+  - affected: Jer 8:17-9:6
+  - frontmatter: lectionary: "Verified local indexed Jeremiah readings occur in Pascha / Holy Week and Bright Saturday, including Jeremiah 31:31-34 at Bright Saturday Ninth Hour."
+  - L30: lectionary: "Verified local indexed Jeremiah readings occur in Pascha / Holy Week and Bright Saturday, including Jeremiah 31:31-34 at Bright Saturday Ninth Hour."
+  - L180: ## Coptic Lectionary Connections
+  - L182: Local lectionary verification was run against George's indexed Coptic lectionary stack. The current local data shows Jeremiah has significant Pascha, Good Friday, and Bright Saturday presence.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 10 - Idols and the living God.md`
+  - affected: Jer 8:17-9:6
+  - frontmatter: lectionary: "No exact indexed Coptic lectionary occurrence surfaced for Jeremiah 10 in the current local lectionary stack."
+  - L27: lectionary: "No exact indexed Coptic lectionary occurrence surfaced for Jeremiah 10 in the current local lectionary stack."
+  - L158: ## Coptic Lectionary Connections
+  - L160: The local Coptic lectionary stack was checked for Jeremiah 10 across the chapter index, occurrences file, reverse lookup crosswalk, Bright Saturday service order, and Pascha day/hour index. No exact indexed Coptic lectionary occurrence surfaced for Jeremiah 10 in the current local corpus.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 7 - Temple sermon.md`
+  - affected: John 2:13-17, Jer 8:17-9:6, Ps affected
+  - frontmatter: lectionary: "No exact indexed Coptic lectionary occurrence surfaced for Jeremiah 7 in the current local lectionary stack. The related temple-cleansing Gospel, John 2:13-17, is indexed for Pascha Monday Sixth Hour and Pascha Tuesday Sixth Hour."
+  - L29: lectionary: "No exact indexed Coptic lectionary occurrence surfaced for Jeremiah 7 in the current local lectionary stack. The related temple-cleansing Gospel, John 2:13-17, is indexed for Pascha Monday Sixth Hour and Pascha Tuesday Sixth Hour."
+  - L201: - **The silenced bridegroom and bride point by contrast to the Bridegroom who restores joy.** Jeremiah ends with lost covenant gladness; the Gospel reveals Christ the Bridegroom who renews the wedding feast through His Pascha.
+  - L203: ## Coptic Lectionary Connections
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 8 - Refused repentance and no balm in Gilead.md`
+  - affected: Jer 8:17-9:6
+  - frontmatter: lectionary: "Jeremiah 8:17-9:6 is verified in the local Coptic Pascha index for Wednesday Eve Eleventh Hour and Great Thursday Eve First Hour."
+  - L26: lectionary: "Jeremiah 8:17-9:6 is verified in the local Coptic Pascha index for Wednesday Eve Eleventh Hour and Great Thursday Eve First Hour."
+  - L52: The chapter ends in grief. The harvest is past, the people are not saved, and Jeremiah asks whether there is balm in Gilead. This is not despair against God. It is prophetic sorrow before God. The Church hears the question most sharply during Pascha, where the wound of sin is brought into the presence of Christ, the true Physician who heals by entering the wound Himself.
+  - L72: What comes after is Jeremiah 9, where the lament deepens into tears, social falsehood, Pascha readings, and the call to boast only in knowing the Lord. Jeremiah 8 should stand on its own because its central question is healing: will the wounded people come to the Lord before the harvest passes?
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 8-10 - Lament, idols, and the true God.md`
+  - affected: Jer 8:17-9:6
+  - frontmatter: lectionary: "Jeremiah 8:17-9:6, Jeremiah 9:6-10, and Jeremiah 9:12-19 are verified in the local Coptic Pascha index; no exact indexed occurrence surfaced for Jeremiah 10."
+  - L22: lectionary: "Jeremiah 8:17-9:6, Jeremiah 9:6-10, and Jeremiah 9:12-19 are verified in the local Coptic Pascha index; no exact indexed occurrence surfaced for Jeremiah 10."
+  - L41: - **Jeremiah 9** deserves standalone treatment because it is heavily represented in the local Pascha index and centers on lament, false speech, true knowledge of the Lord, and circumcision of heart.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 9 - Lament and knowing the Lord.md`
+  - affected: Jer 8:17-9:6
+  - frontmatter: lectionary: "Jeremiah 8:17-9:6, Jeremiah 9:6-10, and Jeremiah 9:12-19 are verified in the local Coptic Pascha index."
+  - L9: summary: "Jeremiah 9 deepens the prophet's tears into Paschal lament, exposes social falsehood, and teaches that true boasting is only in knowing the Lord who works mercy, judgment, and righteousness."
+  - L20:   - pascha
+  - L26: lectionary: "Jeremiah 8:17-9:6, Jeremiah 9:6-10, and Jeremiah 9:12-19 are verified in the local Coptic Pascha index."
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah Bible Study Index.md`
+  - affected: Jer 8:17-9:6
+  - L23: | Revised source; no individual Doc/MP3 yet; former Docs/MP3 stale | 9 | Lament and knowing the Lord | Split from the former Jeremiah 8-10 group: Paschal lament, false speech, true boasting in knowing the Lord, and circumcision of heart | [[Jeremiah 9 - Lament and knowing the Lord]] | No individual Doc yet; former stale 8-10 Doc: https://docs.google.com/document/d/1xssbsFKEWnSy6aYC0-OG6Oh0ogQqe1DezSxxtcLaW88/edit?usp=drivesdk | No individual MP3 yet; former stale 8-10 MP3: https://drive.google.c
+  - L26: | Revised source; no individual Doc/MP3 yet; former Docs/MP3 stale | 13 | The ruined linen girdle and Bright Saturday warning | Split from the former Jeremiah 11-13 group: ruined nearness, wine-jars of judgment, Bright Saturday warning against pride before darkness, and the question of purification | [[Jeremiah 13 - The ruined linen girdle and Bright Saturday warning]] | No individual Doc yet; former stale 11-13 Doc: https://docs.google.com/document/d/1yIVnDStW8dqEgvpu_aenHA376ggLfTxo6plsdeNGd2M
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Resources Used - Jeremiah.md`
+  - affected: John 2:13-17, Jer 8:17-9:6
+  - L29: ## Local lectionary evidence checked
+  - L31: Local Coptic lectionary data was checked first, especially:
+  - L33: - `/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_index.csv`
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/_archived_duplicate_grouping_notes/Jeremiah 8-10 - Wound of Judah and Folly of Idols.md`
+  - affected: Jer 8:17-9:6
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/_archived_duplicate_grouping_notes/Jeremiah Archived Duplicate Grouping Notes Index.md`
+  - affected: Jer 8:17-9:6
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Audits/Ezekiel Phase 1 Approval Adjustments - 2026-06-01.md`
+  - affected: Ezek 21:3-13
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Audits/Ezekiel Phase 1 Inventory and Sourcing Probe - 2026-06-01.md`
+  - affected: Ezek 21:3-13
+  - L161: 7. Verify Coptic lectionary claims locally before writing them.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Audits/Ezekiel Phase 2 Batch 4 Quality Review - 2026-06-01.md`
+  - affected: Ezek 21:3-13
+  - L47: | Unit | Local-source posture | Absence phrase | Lectionary status | Citation status |
+  - L49: | 10 | Old chapter 19 and chapter 20 guides were merged. Ezekiel 20 has sparse direct local support; Romans 1 handing-over language supports the difficult 20:25 handling. | Used twice. | No exact Coptic lectionary placement locally verified for Ezekiel 19; Ezekiel 20 has verified Holy Week readings noted in the guide. | Pending final citation audit. |
+  - L50: | 11 | Local direct-source support is sparse; the guide uses restrained canonical anchors for Christ standing in the gap and bearing violence without becoming violent. | Used once. | No exact Coptic lectionary placement locally verified for Ezekiel 21-22. | Pending final citation audit. |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Audits/Ezekiel Phase 2 Final Mechanical Verification - 2026-06-01.md`
+  - affected: Ezek 21:3-13
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Audits/Ezekiel Series Plan.md`
+  - affected: Ezek 21:3-13, John 2:13-17
+  - L35: This series should read Ezekiel through Christ carefully. The glory returning is read toward the Incarnation and Christ the true Temple. The dry bones are read toward resurrection by the Spirit. The new heart is read toward baptism, Pentecost, and life in the new covenant. These are Christian theological readings grounded in the canon and source-gated where patristic evidence exists. They must not become forced allegory.
+  - L150: 10. Verify Coptic lectionary claims locally before writing them. If no local occurrence is found, say that no exact Coptic lectionary placement was confirmed in this pass.
+  - L171: 6. Add lectionary placement only after local verification.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 18 - The soul that sins shall die.md`
+  - affected: John 12:44-50
+  - L171: A local Coptic lectionary source verifies Ezekiel 18:20-32 as an Old Testament reading for the First Hour of Great Thursday in Holy Pascha. This is a fitting placement. On Great Thursday, the Church stands before the mystery of Christ's self-giving love, the washing of feet, betrayal, Eucharistic gift, and the approach of the Cross. Ezekiel's word insists that the sinner can turn and live, but it also warns that past righteousness cannot be used as cover for present treachery.
+  - L173: The reading does not invite the worshipper to inspect Judas from a safe distance. It asks each person in the Church to hear, "Is not your way wrong?" Holy Week does not let anyone hide behind ancestry, service, religious memory, or group identity. The Lord's way is straight, and His mercy is open, but the soul must turn.
+  - L200: - **Accuracy note:** The Coptic lectionary placement for Ezekiel 18:20-32 has been locally verified for Great Thursday, First Hour. The patristic sources used here are paraphrased rather than turned into invented direct quotations.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 19-20 - Lament and rebellious history.md`
+  - affected: Ezek 21:3-13, John 12:44-50
+  - L214: A local Coptic lectionary source verifies Ezekiel 20:27-33 as an Old Testament reading for Wednesday Eve, Ninth Hour of Holy Pascha, and Ezekiel 20:39-44 for Great Thursday, Sixth Hour. No exact Coptic lectionary placement for Ezekiel 19 has been locally verified.
+  - L216: The Pascha setting is fitting. Wednesday of Holy Week is marked by confrontation, judgment, repentance, betrayal, and hardening of heart. Ezekiel 20:27-33 exposes a people who pollute worship and want to be like the nations. Great Thursday centers on the Mystical Supper, foot washing, covenant, betrayal, priesthood, and the Lord's self-offering. Ezekiel 20:39-44 is heard there as a severe mercy: put away evil practices, stop profaning the holy name, and receive the Lord's promised gathering and 
+  - L240: - **Timing:** Spend ten minutes on the reason for merging chapters 19 and 20, ten minutes on the royal lament, twenty minutes on Israel's repeated history, ten minutes on the hard wording in Ezekiel 20:25, and ten minutes on Pascha and spiritual application.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 2-3 - Ezekiel commissioned.md`
+  - affected: John 12:44-50
+  - frontmatter: lectionary: "No exact Coptic lectionary placement for Ezekiel 2-3 has been locally verified."
+  - L29: lectionary: "No exact Coptic lectionary placement for Ezekiel 2-3 has been locally verified."
+  - L218: No exact Coptic lectionary placement for Ezekiel 2-3 has been locally verified. This guide therefore does not claim that these chapters are read on a specific Coptic day, feast, hour, or service. The worship application here is thematic and pastoral rather than a verified reading assignment.
+  - L224: Broader Orthodox calendars remember the Prophet Ezekiel, and the Orthodox Church in America page for Prophet Ezekiel preserves the Church's reception of him as a prophet of glory, judgment, and resurrection. That source is useful for Orthodox reception and iconography, not for asserting a Coptic lectionary placement for Ezekiel 2-3.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 21-22 - Sword and bloodguilt.md`
+  - affected: Ezek 21:3-13
+  - L254: A local Coptic lectionary source verifies two partial readings from this unit in Holy Pascha: Ezekiel 22:23-28 is read on Great Thursday Eve, Sixth Hour, and Ezekiel 21:33-37 is read on Great Thursday Eve, Ninth Hour. No exact Coptic lectionary placement for the entire combined unit Ezekiel 21-22 has been locally verified.
+  - L256: The Great Thursday Eve setting is spiritually fitting. Holy Week exposes false judgment, religious compromise, bribed betrayal, corrupt authority, and the innocent Christ standing before violent powers. Ezekiel 22:23-28 names princes, priests, and prophets who fail their vocations. Ezekiel 21:33-37 keeps the sword and false vision before the Church's hearing. On the night before the Mystical Supper and the Passion, the Church hears that public holiness cannot be separated from justice, truth, an
+  - L258: This does not mean the Church reads Ezekiel as a weapon against others during Pascha. It means she lets the prophetic word search her own heart. In Holy Week, the bloody city is not only ancient Jerusalem. It is every heart, household, institution, and community that wants sacred language while protecting violence, bribery, oppression, or lies. The Passion reveals both the depth of human bloodguilt and the greater depth of divine mercy.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 23 - Oholah and Oholibah.md`
+  - affected: Ezek 21:3-13
+  - L148: > 34. drink thou it, and I will take away her feasts and her new moons: for I have spoken it, saith the Lord.
+  - L204: No exact Coptic lectionary placement for Ezekiel 23 has been locally verified. The guide should therefore not assign the chapter to a specific Coptic day, feast, fast, hour, or service. Its themes still belong in the Church's penitential voice: the exposure of idolatry, the danger of divided love, the profaning of worship, the cost borne by children, and the need to return to the Lord with an undivided heart.
+  - L206: The Bridegroom language of the Church must purify how this chapter is heard. In Holy Week, the Church sings and prays with watchfulness before Christ the Bridegroom. That resonance does not mean Ezekiel 23 is a Holy Week reading. It means the Church already knows that unfaithfulness is healed only by the faithful Bridegroom. Christ does not shame His Bride for sport. He gives Himself for her, washes her, calls her to vigilance, and makes her holy.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 24 - The boiling pot and Ezekiel’s bereavement.md`
+  - affected: John 11:55-57, John 2:13-17
+  - L185: No exact Coptic lectionary placement for Ezekiel 24 has been locally verified. The chapter should therefore not be assigned to a specific Coptic day, feast, fast, hour, or service unless a later source identifies the exact reading. Its themes still resonate deeply with the Church's penitential worship: exposed bloodguilt, false confidence in holy things, stunned lament, and the need for purification before God.
+  - L189: The chapter also resonates with Holy Week without being claimed as a verified Holy Week reading. Christ weeps over Jerusalem, enters the city that will reject Him, and bears judgment in His Passion. The Bridegroom services teach watchfulness before the coming judgment and mercy of Christ. This resonance should be taught as spiritual connection, not as a lectionary claim.
+  - L263: No exact Coptic lectionary placement for Ezekiel 24 has been locally verified. If a later lectionary source identifies a specific service reading, this guide should be updated with the exact service, day, and source.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 37 - Dry bones and one stick.md`
+  - affected: John 11:55-57
+  - L119: This is the hard-text balance. If we read Ezekiel 37 only as national restoration, we flatten the vision and miss why the Church has treasured it at funerals and Pascha. If we read it only as individual afterlife, we ignore the Lord's own interpretation about the whole house of Israel and return to the land. The passage holds national restoration and resurrection hope together. Israel's return from exile becomes an icon of God's greater victory over death. The same Lord who restores His people f
+  - L189: Ezekiel 37:1-14 has a locally verified Coptic Orthodox placement in the General Funeral prayed after the Palm Sunday liturgy before Holy Pascha. The local special-service table lists it as an Old Testament prophecy reading for that service. This is a powerful placement. At the threshold of Holy Week, after the joy of Palm Sunday and before the Church enters the Passion, the faithful hear the Lord command dry bones to live and promise to open graves.
+  - L191: This reading is pastorally wise. The General Funeral is not pretending that death is light. It places death before the word of God. The Church stands near the tomb and proclaims that the Lord who goes to the Cross is the Lord who opens graves. The reading also protects Paschal hope from sentimentality. The bones are dry. The hope has perished. The people are quite spent. Yet the Lord speaks, breathes, and raises.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 40-42 - Visionary temple measured.md`
+  - affected: John 2:13-17
+  - L212: No exact Coptic lectionary placement for Ezekiel 40-42 has been locally verified. The local chapter-level lectionary material marks Ezekiel 40, Ezekiel 41, and Ezekiel 42 as having no verified Coptic reading occurrence, and the reverse lookup material did not provide a matching placement. This guide therefore does not assign the passage to a specific Coptic feast, fast, day, hour, or service.
+  - L214: Even without a verified local lectionary placement, the passage resonates strongly with Orthodox worship. Every liturgy teaches that the Church does not approach God casually. There is a sanctuary, an altar, ordered entrances, priestly vestments, deacons, incense, prostration, veiling and unveiling, appointed prayers, and a movement toward communion. These are not a copy of Ezekiel's floor plan. They are the Church's lived confession that God is holy and that access is given, not seized.
+  - L276: No exact Coptic lectionary placement for Ezekiel 40-42 has been locally verified. The guide therefore speaks of Orthodox worship resonance without assigning these chapters to a specific Coptic liturgical day, hour, feast, or service.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 43-44 - Glory returns and priestly holiness.md`
+  - affected: John 2:13-17
+  - L214: > 24. And these shall attend at a judgment of blood to decide it: they shall rightly observe my ordinances, and judge my judgments, and keep my statutes and my commandments in all my feasts; and they shall hallow my sabbaths.
+  - L242: No exact Coptic lectionary placement for Ezekiel 43-44 has been locally verified. This guide therefore does not assign Ezekiel 43-44 to a specific Coptic day, feast, hour, or service.
+  - L309: No exact Coptic lectionary placement for Ezekiel 43-44 has been locally verified. The worship section therefore speaks of Orthodox liturgical resonance without assigning the passage to a specific Coptic day, hour, feast, or service.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 47-48 - River of life and the Lord is there.md`
+  - affected: John 2:13-17
+  - L55: The geography is visionary, yet it teaches with real places and directions. The water comes from the entrance of the house, moves eastward, and goes toward the eastern lowlands and the sea. In many readings this evokes the descent toward the Dead Sea, famous for salt and lifelessness. Brenton names Galilee eastward, Arabia, and the outlet of the water. The theological point is clear: water from God's sanctuary reaches the dead and bitter place and heals it.
+  - L251: No exact Coptic lectionary placement for Ezekiel 47-48 has been locally verified. That sentence is important. The passage should not be assigned to a Coptic day, hour, feast, or service unless a direct local lectionary source confirms it.
+  - L347: No exact Coptic lectionary placement for Ezekiel 47-48 has been locally verified. The worship section therefore speaks of thematic resonance with baptismal, Theophany, Pentecost, and liturgical presence language, not of a confirmed Coptic reading assignment.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel 8-11 - Temple abominations and departing glory.md`
+  - affected: John 2:13-17
+  - frontmatter: lectionary: "No exact Coptic lectionary placement for Ezekiel 8-11 has been locally verified."
+  - L27: lectionary: "No exact Coptic lectionary placement for Ezekiel 8-11 has been locally verified."
+  - L243: No exact Coptic lectionary placement for Ezekiel 8-11 has been locally verified. This guide therefore does not claim that the unit is read on a specific Coptic day, feast, hour, or service. The local Coptic lectionary data does contain other Ezekiel readings in Holy Week and related service material, but this particular unit should be taught as liturgical resonance rather than a verified reading assignment.
+  - L320: No exact Coptic lectionary placement for Ezekiel 8-11 has been locally verified. The worship section therefore speaks of repentance, liturgical resonance, and the Church's need for truthful worship, not a verified Coptic reading assignment.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel Bible Study Index.md`
+  - affected: Ezek 21:3-13
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Ezekiel Status.md`
+  - affected: Ezek 21:3-13
+  - L49: | 9 | `Ezekiel 18 - The soul that sins shall die.md` | Ezekiel 18 | draft | pending | not started | Batch 3 draft verified; citations pending final audit. Local lectionary row verified for Great Thursday, First Hour, OT4. | 2026-06-01 |
+  - L58: | 18 | `Ezekiel 35-36 - Edom judged and the new heart promised.md` | Ezekiel 35-36 | draft | pending | not started | Batch 6 draft verified; citations pending final audit. Ezekiel 36:16-23 lectionary row verified for Great Thursday Eve, Third Hour, OT1. | 2026-06-01 |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/Resources Used - Ezekiel.md`
+  - affected: John 2:13-17
+  - L98: ## Lectionary Status
+  - L100: No Coptic lectionary placement was asserted in Phase 1. Phase 2 must query the local lectionary package before any claim that a passage is read on a specific Coptic day, feast, hour, or service.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/_superseded/_archived_duplicate_grouping_notes/Ezekiel 21-24 - Sword Furnace and Death of Ezekiel Wife.md`
+  - affected: Ezek 21:3-13
+  - L125: > 34: drink thou it, and I will take away her feasts and her new moons: for I have spoken it, saith the Lord.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/_superseded/_archived_duplicate_grouping_notes/Ezekiel Archived Duplicate Grouping Notes Index.md`
+  - affected: Ezek 21:3-13
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/_superseded/_superseded Index.md`
+  - affected: Ezek 21:3-13
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/037 - Ezekiel/_superseded/previous-active-before-redo-2026-06-01/Ezekiel Bible Study Index - pre-redo 2026-06-01.md`
+  - affected: Ezek 21:3-13
+  - L38: | Complete | 45-46 | Holy portion and worship order | Sacred land, prince, offerings, and feast worship | [[Ezekiel 45-46 - Holy portion and worship order]] | https://docs.google.com/document/d/14VqTE12nG0ofzmUqvy718wustbnjqKnXrJF3w5S5n58/edit?usp=drivesdk | https://drive.google.com/file/d/1Q8Ud7cjBFJpsGgcn43GfsbUtRMw-A4CN/view?usp=drivesdk |
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/051 - Haggai/Haggai 1 - Consider Your Ways and Rebuild the House.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L61: A direct search of the local Coptic Orthodox Lectionary Reference CSV did not return exact Haggai rows. No specific Coptic day or service is asserted from local data. The book still resonates strongly with temple renewal, putting God's house before private comfort, and preparing the heart as a dwelling for Christ.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/051 - Haggai/Haggai 2 - Greater Glory Holiness and the Shaking of Nations.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L69: A direct search of the local Coptic Orthodox Lectionary Reference CSV did not return exact Haggai rows. No specific Coptic day or service is asserted from local data. The book still resonates strongly with temple renewal, putting God's house before private comfort, and preparing the heart as a dwelling for Christ.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 1 - Return to Me and the Horsemen Among the Myrtle Trees.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L63: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 10-11 - Shepherds Flock and Thirty Pieces of Silver.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L81: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 12 - They Shall Look on Me Whom They Pierced.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L60: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 13 - The Fountain Opened and the Shepherd Struck.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L55: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 14 - The Lord Shall Be King Over All the Earth.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L49: > 16: And it shall come to pass, that whosoever shall be left of all the nations that came against Jerusalem, shall even come up every year to worship the king, the Lord Almighty, and to keep the feast of tabernacles.
+  - L51: > 18: And if the family of Egypt shall not go up, nor come; then upon them shall be the overthrow with which the Lord shall smite all the nations, whichever of them shall not come up to keep the feast of tabernacles.
+  - L52: > 19: This shall be the sin of Egypt, and the sin of all the nations, whosoever shall not come up to keep the feast of tabernacles.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 2 - The Measuring Line and the Lord Dwelling in Zion.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L63: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 3 - Joshua the High Priest and the Branch.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L56: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 4 - Lampstand Olive Trees and Not by Might.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L60: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 5-6 - Wickedness Removed and the Priest King Crowned.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L78: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 7-8 - Fasting Truth Mercy and the Nations Seeking God.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L30: Zechariah 7-8 is crucial for Lent. God rejects fasting that refuses mercy, then promises restored Zion, old and young in the streets, and nations seeking the Lord. Zechariah 8 appears twice in Great Lent prophecy readings.
+  - L72: > 19: Thus saith the Lord Almighty, The fourth fast, and the fifth fast, and the seventh fast, and the tenth fast, shall be to the house of Juda for joy and gladness, and for good feasts; and ye shall rejoice; and love ye the truth and peace.
+  - L81: Zechariah 7-8 is crucial for Lent. God rejects fasting that refuses mercy, then promises restored Zion, old and young in the streets, and nations seeking the Lord. Zechariah 8 appears twice in Great Lent prophecy readings.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/052 - Zechariah/Zechariah 9 - Your King Comes Humble and Riding on a Donkey.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L29: This chapter is explicitly fulfilled in Christ’s entry into Jerusalem. It is also read on Lazarus Saturday in the Coptic lectionary, standing at the threshold of Palm Sunday and Holy Week.
+  - L55: This chapter is explicitly fulfilled in Christ’s entry into Jerusalem. It is also read on Lazarus Saturday in the Coptic lectionary, standing at the threshold of Palm Sunday and Holy Week.
+  - L63: The local Coptic Orthodox Lectionary Reference CSV gives exact Zechariah prophecy readings: Zechariah 8:7-13 in Great Lent week 1 day 2; Zechariah 8:18-23 in Great Lent week 1 day 4; and Zechariah 9:9-15 on Lazarus Saturday of Great Lent with Genesis 49:1-28, Isaiah 40:9-31, and Zephaniah 3:14-20. Zechariah 9:9 is a direct Palm Sunday threshold prophecy of the humble King entering Zion.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/053 - Malachi/Malachi 1 - Polluted Offerings and the Great Name Among the Nations.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L60: The local Coptic Orthodox Lectionary Reference CSV gives exact Malachi prophecy readings in Great Lent week 2 day 3: Malachi 1:6-14 and Malachi 3:1-18, in a set with Exodus 2:11-20 and Isaiah 5:17-25. This places Malachi's priestly rebuke, pure offering among the nations, messenger before the Lord, and refining fire inside the Church's Lenten call to repentance and purified worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/053 - Malachi/Malachi 2 - Priests Covenant and Faithfulness.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L36: > 3: Behold, I turn my back upon you, and I will scatter dung upon your faces, the dung of your feasts, and I will carry you away at the same time.
+  - L39: > 6: The law of truth was in his mouth, and iniquity was not found in his lips: he walked before me directing his way in peace, and he turned many from unrighteousness.
+  - L63: The local Coptic Orthodox Lectionary Reference CSV gives exact Malachi prophecy readings in Great Lent week 2 day 3: Malachi 1:6-14 and Malachi 3:1-18, in a set with Exodus 2:11-20 and Isaiah 5:17-25. This places Malachi's priestly rebuke, pure offering among the nations, messenger before the Lord, and refining fire inside the Church's Lenten call to repentance and purified worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/053 - Malachi/Malachi 3 - The Messenger the Lord in His Temple Refining Fire and the Sun of Righteousness.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L70: The local Coptic Orthodox Lectionary Reference CSV gives exact Malachi prophecy readings in Great Lent week 2 day 3: Malachi 1:6-14 and Malachi 3:1-18, in a set with Exodus 2:11-20 and Isaiah 5:17-25. This places Malachi's priestly rebuke, pure offering among the nations, messenger before the Lord, and refining fire inside the Church's Lenten call to repentance and purified worship.
+- `/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/053 - Malachi/Malachi 3 - The Messenger the Lord in His Temple and Refining Fire.md`
+  - affected: John 12:44-50, John 2:13-17
+  - L70: The local Coptic Orthodox Lectionary Reference CSV gives exact Malachi prophecy readings in Great Lent week 2 day 3: Malachi 1:6-14 and Malachi 3:1-18, in a set with Exodus 2:11-20 and Isaiah 5:17-25. This places Malachi's priestly rebuke, pure offering among the nations, messenger before the Lord, and refining fire inside the Church's Lenten call to repentance and purified worship.

@@ -1,0 +1,56 @@
+{
+  "equal_data/pascha_source_text_index.csv": true,
+  "equal_data/reverse_lookup_crosswalk.csv": true,
+  "equal_data/bible_chapter_lectionary_index.csv": true,
+  "equal_scripts/passage_normalization.py": true,
+  "equal_scripts/query_lectionary.py": true,
+  "vault_pascha_source_text": {
+    "rows": 277,
+    "unparsed": 0
+  },
+  "four_maccabees_indexed_hits": [],
+  "query_outputs": {
+    "genesis_cross_chapter": "Monday | First Hour | Prophecy | Gen 1:1-2:3 | raw=Genesis 1:1-2:1-3 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:2579 page=106\n",
+    "zephaniah_cross_chapter": "Monday Eve | Third Hour | Prophecy | Zeph 1:14-2:2 | raw=Zephaniah 1:14-2:1-2 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:1967 page=80\n",
+    "isaiah_cross_chapter": "Great Thursday | Liturgy of Blessing of the Water | Prophecy | Isa 55:1-56:1 | raw=Isaiah 55:1-13-56:1 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:10774 page=426\n",
+    "zechariah_cross_chapter": "Great Thursday | Eleventh Hour | Prophecy | Zech 12:11-14:3,14:6-9 | raw=Zechariah 12:11-14:1-3, 6-9 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:11882 page=466\nGood Friday | Ninth Hour | Prophecy | Zech 14:6-11 | raw=Zechariah 14:6-11 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:15745 page=609\n",
+    "four_maccabees_passage": ""
+  },
+  "verifier_excerpt": {
+    "pascha_source_text_fully_parsed": {
+      "rows": 277,
+      "parsed_rows": 277,
+      "unparsed_rows": 0,
+      "cross_chapter_repairs_verified": [
+        "Great Thursday | Eleventh Hour | Zech 12:11-14:3,14:6-9",
+        "Great Thursday | Liturgy of Blessing of the Water | Isa 55:1-56:1",
+        "Monday Eve | Third Hour | Zeph 1:14-2:2",
+        "Monday | First Hour | Gen 1:1-2:3"
+      ]
+    },
+    "four_maccabees_local_absence": {
+      "parser_canonical": "4Macc 1:1-12",
+      "query_rows": 0,
+      "source_text_rows": 0,
+      "indexed_source_hits": 0,
+      "chapter_index_status": {
+        "testament": "Deuterocanonical",
+        "book": "4 Maccabees",
+        "book_abbrev": "4Macc",
+        "chapter": "1",
+        "chapter_ref": "4Macc 1",
+        "is_read": "no",
+        "occurrence_count": "0",
+        "source_kinds": "",
+        "liturgical_places": "",
+        "service_sections": "",
+        "reading_types": "",
+        "sample_occurrences": ""
+      },
+      "classification": "verified_absent_from_local_lectionary_sources_not_parser_gap"
+    },
+    "parser_edge_cases": {
+      "status": "passed"
+    }
+  }
+}

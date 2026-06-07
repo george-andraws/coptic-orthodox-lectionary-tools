@@ -1,0 +1,103 @@
+## Monday First Hour
+Monday | First Hour | OT1 | Gen 1:1-31; Gen 2:1-3
+Monday | First Hour | OT2 | Isa 5:1-9
+Monday | First Hour | OT3 | Ps 72:1-19
+Monday | First Hour | Psalm+Gospel | Ps 72:18-19; Mark 11:12-24
+Monday Eve | First Hour | OT1 | Zech 1:1-6
+Monday Eve | First Hour | Psalm+Gospel | Ps 62:7,6; Luke 13:23-30
+exit 0
+## Monday Ninth Hour
+Monday | Ninth Hour | OT1 | Gen 2:15-25; Gen 3:1-24
+Monday | Ninth Hour | OT2 | Isa 40:1-5
+Monday | Ninth Hour | OT3 | Prov 1:1-9
+Monday | Ninth Hour | Psalm+Gospel | Ps 65:5,4; Matt 21:23-27
+Monday Eve | Ninth Hour | OT1 | Hos 10:12-15; Hos 11:1-2
+Monday Eve | Ninth Hour | Psalm+Gospel | Ps 33:10,11; Luke 11:37-52
+exit 0
+## Tuesday Ninth Hour
+Tuesday | Ninth Hour | OT1 | Gen 6:5-9:7
+Tuesday | Ninth Hour | OT2 | Isa 40:1-5
+Tuesday | Ninth Hour | OT3 | Prov 1:1-9
+Tuesday | Ninth Hour | Psalm+Gospel | Ps 65:5,4; Matt 21:23-27
+Tuesday Eve | Ninth Hour | OT1 | Hos 10:12-15; Hos 11:1-2
+Tuesday Eve | Ninth Hour | Psalm+Gospel | Ps 33:10,11; Luke 11:37-52
+exit 0
+## Wednesday Ninth Hour
+Wednesday | Ninth Hour | OT1 | Gen 24:1-9
+Wednesday | Ninth Hour | OT2 | Num 20:1-13
+Wednesday | Ninth Hour | OT3 | Prov 1:10-23
+Wednesday | Ninth Hour | OT4 | Isa 59:1-17
+Wednesday | Ninth Hour | OT5 | Zech 11:11-14
+Wednesday | Ninth Hour | Psalm+Gospel | Ps 41:5-6; Matt 26:3-16
+Wednesday Eve | Ninth Hour | OT1 | Ezek 20:27-33
+Wednesday Eve | Ninth Hour | Psalm+Gospel | Ps 7:1-2; John 10:29-38
+exit 0
+## Great Thursday Ninth Hour
+Great Thursday | Ninth Hour | OT1 | Gen 22:1-19
+Great Thursday | Ninth Hour | OT2 | Isa 61:1-7
+Great Thursday | Ninth Hour | OT3 | Gen 14:17-20
+Great Thursday | Ninth Hour | OT4 | Job 27:2-28:13
+Great Thursday | Ninth Hour | Psalm+Gospel | Ps 23:1,2; Matt 26:17-19
+Great Thursday Eve | Ninth Hour | OT1 | Jer 9:6-10
+Great Thursday Eve | Ninth Hour | OT2 | Ezek 21:33-37
+Great Thursday Eve | Ninth Hour | Psalm+Gospel | Ps 27:3,4; Ps 34:4,5; Matt 26:47-58; Mark 14:43-54; Luke 22:47-55; John 18:10-14
+exit 0
+## Great Thursday Water
+Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23
+exit 0
+## Good Friday Third Hour
+Good Friday | Third Hour | OT1 | Gen 48:1-19
+Good Friday | Third Hour | OT2 | Isa 50:4-9
+Good Friday | Third Hour | OT3 | Isa 3:9-15
+Good Friday | Third Hour | OT4 | Isa 63:1-7
+Good Friday | Third Hour | OT5 | Amos 9:4-6; Amos 9:8-10
+Good Friday | Third Hour | OT6 | Job 29:21-30:10
+Good Friday | Third Hour | Psalm+Gospel | Ps 38:17; Ps 22:16; Matt 27:15-26; Mark 15:6-25; Luke 23:13-25; John 19:1-12
+exit 0
+## Isaiah 53
+## reverse crosswalk results
+Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour
+Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text
+Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour
+Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text
+exit 0
+## John 2 false-positive guard
+2020-01-22 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2020-02-13 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2020-04-22 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2020-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11
+2020-10-03 | Tout 23 | Liturgy | Catholic Epistle | Jn 2:7-11
+2020-10-16 | Baba 6 | Liturgy | Gospel | John 2:1-11
+2021-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2021-02-25 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2021-05-05 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2021-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11
+2021-10-16 | Baba 6 | Liturgy | Gospel | John 2:1-11
+2022-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2022-02-17 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2022-04-27 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2022-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11
+2022-10-03 | Tout 23 | Liturgy | Catholic Epistle | Jn 2:7-11
+2023-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2023-02-09 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2023-04-19 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2023-09-11 | Nasie 6 | Liturgy | Gospel | Jn 2:1-11
+exit 0
+## Isa 5 false-positive guard
+Monday | First Hour | OT2 | Isa 5:1-9 | source=pascha_day_hour
+Monday | First Hour | Prophecy | Isa 5:1-9 | source=pascha_source_text
+week 2 day_of_week 3 | prophecy | GreatLentReadings | Isa 5:17-25 | source=katameros_cycle
+Monday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour
+Tuesday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour
+Monday | Third Hour | Prophecy | Isa 5:20-30 | source=pascha_source_text
+week 2 day_of_week 2 | prophecy | GreatLentReadings | Isa 5:7-16 | source=katameros_cycle
+exit 0
+## 4 Macc parser/no occurrence
+(no output)
+exit 0
+## Wisdom 7 chapter
+Wis 7 | read=yes | occurrences=2 | sources=pascha_day_hour; pascha_source_text | places=Wednesday Eve | samples=pascha_day_hour | Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30 || pascha_source_text | Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30
+exit 0
+## Genesis 18 chapter
+Gen 18 | read=yes | occurrences=3 | sources=pascha_day_hour; pascha_source_text; katameros_cycle | places=Great Thursday; Great Lent/Jonah/Nineveh cycle | samples=pascha_day_hour | Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23 || pascha_source_text | Great Thursday | Liturgy of Blessing of the Water | Prophecy | Gen 18:1-23 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Gen 18:17-33
+exit 0

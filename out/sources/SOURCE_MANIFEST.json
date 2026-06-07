@@ -1,0 +1,72 @@
+[
+  {
+    "file": "KatamerosDatabase.sqlite",
+    "bytes": 91217920,
+    "sha256": "19fe28dffc81007001049c2b07ce124400e28648bbb0cfd358528fca8252ff9e"
+  },
+  {
+    "file": "SOURCE_MANIFEST.json",
+    "bytes": 2283,
+    "sha256": "f174139ee151d7d358bcea94ce0866a44565fbf43ebdf599a264f4ca16c5f6f1"
+  },
+  {
+    "file": "St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf",
+    "bytes": 7417864,
+    "sha256": "afddea9372689625409370be0c466b0d99d4279fea57221f177dd18f105413d1"
+  },
+  {
+    "file": "St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+    "bytes": 715900,
+    "sha256": "d37ef1df5ff9e5caadfe77a2b45a6e21b66bf69005715c93ed11e7004f1c872d"
+  },
+  {
+    "file": "St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.pdf",
+    "bytes": 17703324,
+    "sha256": "e7ff308bfc18ecdd31cbdefd31e6151d1a6784fb34681ecf20eba2a6ebaeb81c"
+  },
+  {
+    "file": "St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.txt",
+    "bytes": 2028324,
+    "sha256": "59de8b5e594e3be9c9dc74b817ba2fc4c17b3451f814e2ae1e3361424886da92"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Days.pdf",
+    "bytes": 19509308,
+    "sha256": "f4eb3465542af3bf5da09d2be05118e616d98b854f4850155b7982a92597295b"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Days.txt",
+    "bytes": 820701,
+    "sha256": "b81d990f48d0923fc94b6db020a28836073e13ff8b00b021efc55b741e261168"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Lent.pdf",
+    "bytes": 9029332,
+    "sha256": "8cb023ea51ba51bc865bbe4c5002d962e108cbf3a0151a6e370a05b68995ba27"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Lent.txt",
+    "bytes": 922074,
+    "sha256": "831e8b37328aa97d83ae09210fcff16d06923c76bd16d4f8254554ee5e03a9d0"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Pentecost.pdf",
+    "bytes": 12727838,
+    "sha256": "3e6b0b54155fad464c6c3dc3b16d6e6ef59142fdcd7dfca58d91900398c9b0bf"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Pentecost.txt",
+    "bytes": 433650,
+    "sha256": "a48869f3e26d5e5a3e54a552f7e6b9bf8d19cfed9c3be6ebb16d291634a2126d"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Sundays.pdf",
+    "bytes": 12971775,
+    "sha256": "798c388ae8be7bf924c870c772550a6880d4f7af81dd61d0e93e28d9862b5d45"
+  },
+  {
+    "file": "UK_Midlands_Katameros_Sundays.txt",
+    "bytes": 925121,
+    "sha256": "bf49a59e64b36668fd50bf0e12ba493129de0effca7fd5a67ec3bce01aa1a9f7"
+  }
+]

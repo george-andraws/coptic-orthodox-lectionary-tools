@@ -1,0 +1,266 @@
+===== Wisdom 1:1-9 =====
+## reverse crosswalk results
+Monday | Sixth Hour | OT2 | Wis 1:1-9 | source=pascha_day_hour
+Monday | Sixth Hour | Prophecy | Wis 1:1-9 | source=pascha_source_text
+
+===== Wisdom 2:1-9 =====
+## reverse crosswalk results
+Wednesday | First Hour | OT4 | Wis 1:20-2:15 | source=pascha_day_hour
+
+===== Wisdom 2:12-22 =====
+## reverse crosswalk results
+Wednesday | First Hour | OT4 | Wis 1:20-2:15 | source=pascha_day_hour
+Good Friday | First Hour | OT6 | Wis 2:12-22 | source=pascha_day_hour
+Good Friday | First Hour | Prophecy | Wis 2:12-22 | source=pascha_source_text
+Monday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour
+Tuesday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour
+
+===== Wisdom 7:24-30 =====
+## reverse crosswalk results
+Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30 | source=pascha_day_hour
+Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30 | source=pascha_source_text
+
+===== Sirach 4:20-5:2 =====
+## reverse crosswalk results
+Tuesday | Sixth Hour | OT2 | Sir 4:20-5:2 | source=pascha_day_hour
+Tuesday | Sixth Hour | Prophecy | Sir 4:20-5:2 | source=pascha_source_text
+week 7 day_of_week 2 | prophecy | GreatLentReadings | Sir 5:1-15 | source=katameros_cycle
+
+===== Ezekiel 21:3-13 =====
+## reverse crosswalk results
+Tuesday | Sixth Hour | OT1 | Ezek 21:3-13 | source=pascha_day_hour
+Tuesday | Sixth Hour | Prophecy | Ezek 21:3-13 | source=pascha_source_text
+
+===== Isaiah 1:1-9 =====
+## reverse crosswalk results
+Tuesday | Sixth Hour | OT3 | Isa 1:1-9 | source=pascha_day_hour
+Tuesday | Sixth Hour | Prophecy | Isa 1:1-9 | source=pascha_source_text
+week 1 day_of_week 1 | prophecy | GreatLentReadings | Isa 1:2-18 | source=katameros_cycle
+Good Friday | First Hour | OT2 | Isa 1:2-9 | source=pascha_day_hour
+Good Friday | First Hour | Prophecy | Isa 1:2-9 | source=pascha_source_text
+
+===== John 2:13-17 =====
+## date results
+2020-02-13 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2020-04-22 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2021-02-25 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2021-05-05 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2022-02-17 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2022-04-27 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2023-02-09 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2023-04-19 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2024-02-29 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2024-05-08 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2025-02-13 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2025-04-23 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2026-02-05 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2026-04-15 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2027-02-25 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2027-05-05 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2028-02-10 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2028-04-19 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2029-02-01 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2029-04-11 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+## reverse crosswalk results
+2023-02-09 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2024-02-29 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2025-02-13 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2026-02-05 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2027-02-25 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2028-02-10 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2029-02-01 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2030-02-21 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2031-02-06 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2021-02-25 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2032-02-26 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2020-02-13 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2033-02-17 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2034-02-02 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2035-02-22 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2022-02-17 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2020-04-22 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2023-04-19 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2024-05-08 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+2025-04-23 | Liturgy | Gospel | Jn 2:12-25 | source=copticchurch_date
+
+===== John 8:12-20 =====
+## date results
+2020-03-24 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2020-05-05 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+2020-05-10 | Sunday of the third week of the holy fifty days | Vespers | Gospel | Jn 8:12-20
+2021-04-06 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2021-05-18 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+2021-05-23 | Sunday of the third week of the holy fifty days | Vespers | Gospel | Jn 8:12-20
+2022-03-29 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2022-05-10 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+2022-05-15 | Sunday of the third week of the holy fifty days | Vespers | Gospel | Jn 8:12-20
+2023-03-21 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2023-05-02 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+2023-05-07 | Sunday of the third week of the holy fifty days | Vespers | Gospel | Jn 8:12-20
+2024-04-09 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2024-05-21 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+2024-05-26 | Sunday of the third week of the holy fifty days | Vespers | Gospel | Jn 8:12-20
+2025-03-25 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2025-05-06 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+2025-05-11 | Sunday of the third week of the holy fifty days | Vespers | Gospel | Jn 8:12-20
+2026-03-17 | Tuesday of the fifth week of Great Lent | Liturgy | Gospel | John 8:12-20
+2026-04-28 | Tuesday of the third week of the holy fifty days | Liturgy | Gospel | Jn 8:12-16
+## reverse crosswalk results
+2020-05-05 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2023-05-02 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2024-05-21 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2025-05-06 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2026-04-28 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2027-05-18 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2028-05-02 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2029-04-24 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2030-05-14 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2031-04-29 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2032-05-18 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2033-05-10 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2021-05-18 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2034-04-25 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2035-05-15 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+2022-05-10 | Liturgy | Gospel | Jn 8:12-16 | source=copticchurch_date
+week 3 day_of_week 2 | liturgy_gospel | PentecostReadings | Jn 8:12-16 | source=katameros_cycle
+2020-05-10 | Vespers | Gospel | Jn 8:12-20 | source=copticchurch_date
+2023-05-07 | Vespers | Gospel | Jn 8:12-20 | source=copticchurch_date
+2024-05-26 | Vespers | Gospel | Jn 8:12-20 | source=copticchurch_date
+
+===== John 11:55-57 =====
+## reverse crosswalk results
+Wednesday | First Hour | Psalm+Gospel | Jn 11:46-57 | source=pascha_day_hour
+Wednesday | First Hour | Gospel | Jn 11:46-57 | source=pascha_source_text
+Wednesday Eve | Eleventh Hour | Psalm+Gospel | Jn 11:55-57 | source=pascha_day_hour
+Wednesday Eve | Eleventh Hour | Gospel | Jn 11:55-57 | source=pascha_source_text
+
+===== John 12:44-50 =====
+## date results
+2020-03-12 | Thursday of the third week of Great Lent | Liturgy | Gospel | John 12:44-50
+2020-05-17 | Sunday of the fourth week of the holy fifty days | Liturgy | Gospel | Jn 12:35-50
+2020-05-19 | Tuesday of the fifth week of the holy fifty days | Liturgy | Gospel | Jn 12:44-48
+2021-02-28 | The third Sunday of Amshir | Matins | Gospel | Jn 12:44-50
+2021-03-25 | Thursday of the third week of Great Lent | Liturgy | Gospel | John 12:44-50
+2021-05-30 | Sunday of the fourth week of the holy fifty days | Liturgy | Gospel | Jn 12:35-50
+2021-06-01 | Tuesday of the fifth week of the holy fifty days and the Feast of Entry into Egypt | Liturgy | Gospel | Jn 12:44-48
+2022-03-17 | Thursday of the third week of Great Lent | Liturgy | Gospel | John 12:44-50
+2022-05-22 | Sunday of the fourth week of the holy fifty days | Liturgy | Gospel | Jn 12:35-50
+2022-05-24 | Tuesday of the fifth week of the holy fifty days | Liturgy | Gospel | Jn 12:44-48
+2023-03-09 | Thursday of the third week of Great Lent | Liturgy | Gospel | John 12:44-50
+2023-05-14 | Sunday of the fourth week of the holy fifty days | Liturgy | Gospel | Jn 12:35-50
+2023-05-16 | Tuesday of the fifth week of the holy fifty days | Liturgy | Gospel | Jn 12:44-48
+2024-02-25 | The third Sunday of Amshir | Matins | Gospel | Jn 12:44-50
+2024-03-28 | Thursday of the third week of Great Lent | Liturgy | Gospel | John 12:44-50
+2024-06-02 | Sunday of the fourth week of the holy fifty days | Liturgy | Gospel | Jn 12:35-50
+2024-06-04 | Tuesday of the fifth week of the holy fifty days | Liturgy | Gospel | Jn 12:44-48
+2025-03-13 | Thursday of the third week of Great Lent | Liturgy | Gospel | John 12:44-50
+2025-05-18 | Sunday of the fourth week of the holy fifty days | Liturgy | Gospel | Jn 12:35-50
+2025-05-20 | Tuesday of the fifth week of the holy fifty days | Liturgy | Gospel | Jn 12:44-48
+## reverse crosswalk results
+2023-05-14 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2020-05-17 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2024-06-02 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2025-05-18 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2026-05-10 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2027-05-30 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2028-05-14 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2029-05-06 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2030-05-26 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2031-05-11 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2032-05-30 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2033-05-22 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2021-05-30 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2034-05-07 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2035-05-27 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+2022-05-22 | Liturgy | Gospel | Jn 12:35-50 | source=copticchurch_date
+week 4 day_of_week 0 | liturgy_gospel | PentecostReadings | Jn 12:35-50 | source=katameros_cycle
+2023-05-16 | Liturgy | Gospel | Jn 12:44-48 | source=copticchurch_date
+2020-05-19 | Liturgy | Gospel | Jn 12:44-48 | source=copticchurch_date
+2024-06-04 | Liturgy | Gospel | Jn 12:44-48 | source=copticchurch_date
+
+===== Exodus 32:7-15 =====
+## reverse crosswalk results
+Monday | Sixth Hour | Prophecy | Exod d d 32:7-15 | source=pascha_source_text
+
+===== Jeremiah 8:17-9:6 =====
+## reverse crosswalk results
+Great Thursday Eve | First Hour | OT1 | Jer 8:17-9:6 | source=pascha_day_hour
+Great Thursday Eve | First Hour | Prophecy | Jer 8:17-9:6 | source=pascha_source_text
+Great Thursday Eve | Ninth Hour | OT1 | Jer 9:6-10 | source=pascha_day_hour
+
+===== Psalm 57:1 =====
+## date results
+2020-03-08 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2020-04-08 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+2020-05-05 | Tuesday of the third week of the holy fifty days | Matins | Psalm | Psalm 57:1  &  Psalm 57:5
+2021-03-21 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2021-04-21 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+2021-05-18 | Tuesday of the third week of the holy fifty days | Matins | Psalm | Psalm 57:1  &  Psalm 57:5
+2022-03-13 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2022-04-13 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+2022-05-10 | Tuesday of the third week of the holy fifty days | Matins | Psalm | Psalm 57:1  &  Psalm 57:5
+2023-03-05 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2023-04-05 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+2023-05-02 | Tuesday of the third week of the holy fifty days | Matins | Psalm | Psalm 57:1  &  Psalm 57:5
+2024-03-24 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2024-04-24 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+2024-05-21 | Tuesday of the third week of the holy fifty days | Matins | Psalm | Psalm 57:1  &  Psalm 57:5
+2025-03-09 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2025-04-09 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+2025-05-06 | Tuesday of the third week of the holy fifty days | Matins | Psalm | Psalm 57:1  &  Psalm 57:5
+2026-03-01 | Sunday of the second week of Great Lent | Matins | Psalm | Psalm 57:1
+2026-04-01 | Wednesday of the seventh week of Great Lent | Matins | Psalm | Psalm 57:1
+## reverse crosswalk results
+sixth_hour | psalm | Ps 57 | source=agpeya
+veil_prayer | psalm | Ps 57 | source=agpeya
+2023-03-05 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2024-03-24 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2025-03-09 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2026-03-01 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2027-03-21 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2028-03-05 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2029-02-25 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2030-03-17 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2031-03-02 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2021-03-21 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2032-03-21 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2033-03-13 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2034-02-26 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2035-03-18 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2020-03-08 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2022-03-13 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2020-05-05 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+2023-05-02 | Matins | Psalm | Ps 57:1 | source=copticchurch_date
+
+===== Psalm 62:7 =====
+
+===== Psalm 122:4 =====
+## reverse crosswalk results
+eleventh_hour | psalm | Ps 122 | source=agpeya
+second_watch | psalm | Ps 122 | source=agpeya
+Monday Eve | Eleventh Hour | Psalm+Gospel | Ps 122:4 | source=pascha_day_hour
+Monday | Sixth Hour | Psalm+Gospel | Ps 122:4 | source=pascha_day_hour
+Tuesday Eve | Eleventh Hour | Psalm+Gospel | Ps 122:4 | source=pascha_day_hour
+Monday | Sixth Hour | Psalm | Ps 122:4 | source=pascha_source_text
+Tuesday Eve | Eleventh Hour | Psalm | Ps 122:4 | source=pascha_source_text
+
+===== Psalm 18:48 =====
+
+===== Pascha Tuesday Sixth Hour =====
+Tuesday | Sixth Hour | OT1 | Ezek 21:3-13
+Tuesday | Sixth Hour | OT2 | Sir 4:20-5:2
+Tuesday | Sixth Hour | OT3 | Isa 1:1-9
+Tuesday | Sixth Hour | Psalm+Gospel | Ps 18:48,17; John 8:12-20
+Tuesday Eve | Sixth Hour | OT1 | Hos 4:15-19; Hos 5:1-7
+Tuesday Eve | Sixth Hour | Psalm+Gospel | Ps 91:2,3; John 21:34-38
+
+===== Pascha Wednesday Eve Eleventh Hour =====
+Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30
+Wednesday Eve | Eleventh Hour | Psalm+Gospel | Ps 57:1; John 11:55-57
+
+===== Pascha Monday Sixth Hour =====
+Monday | Sixth Hour | OT1 | Exod 32:7-15
+Monday | Sixth Hour | OT2 | Wis 1:1-9
+Monday | Sixth Hour | Psalm+Gospel | Ps 122:4; John 2:13-17
+Monday Eve | Sixth Hour | OT1 | Hos 4:15-19; Hos 5:1-7
+Monday Eve | Sixth Hour | Psalm+Gospel | Ps 91:2,3; John 21:34-38

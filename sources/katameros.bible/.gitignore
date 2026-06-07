@@ -1,0 +1,28 @@
+# dependecies installed by npm
+node_modules
+
+# build artefacts
+_site
+dist
+.11ty-vite
+
+katameros-preparation/articles
+
+# secrets
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
+report.html
+
+# cache
+.eslintcache
+.stylelintcache
+
+# Local Netlify folder
+.netlify
+/pwa

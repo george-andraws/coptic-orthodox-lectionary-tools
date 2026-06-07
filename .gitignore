@@ -1,0 +1,10 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite databases and sidecar files
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*

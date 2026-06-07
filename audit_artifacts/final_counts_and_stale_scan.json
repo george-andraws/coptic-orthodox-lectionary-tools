@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "reverse_lookup_crosswalk.csv": 66504,
+    "reverse_lookup_summary.csv": 2650,
+    "bible_chapter_lectionary_index.csv": 1351,
+    "bible_chapter_lectionary_occurrences.csv": 71315,
+    "pascha_day_hour_index.csv": 173,
+    "pascha_source_text_index.csv": 277,
+    "bright_saturday_service_order.csv": 38,
+    "special_service_readings_curated.csv": 161,
+    "special_service_passage_index.csv": 196,
+    "katameros_cycle_passage_index.csv": 6224,
+    "copticchurch_passage_index_2020_2035.csv": 59340
+  },
+  "stale_supported_guides": []
+}

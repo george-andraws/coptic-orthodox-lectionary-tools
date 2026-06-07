@@ -1,0 +1,232 @@
+{
+  "artifacts": [
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/copticchurch_date_readings_2020_2035.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/copticchurch_passage_index_2020_2035.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/katameros_cycle_readings.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/katameros_cycle_passage_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_crosswalk.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_summary.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_day_hour_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_source_text_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bright_saturday_service_order.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/agpeya_hour_readings.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/agpeya_passage_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_occurrences.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/source_ref_repair_report.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/scripts/query_lectionary.py"
+  ],
+  "false_positive_checks": {
+    "John 2": [
+      "2020-01-22 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11",
+      "2020-02-13 | Jonah's Feast | Liturgy | Gospel | John 2:12-25",
+      "2020-04-22 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25",
+      "2020-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11",
+      "2020-10-03 | Tout 23 | Liturgy | Catholic Epistle | Jn 2:7-11",
+      "2020-10-16 | Baba 6 | Liturgy | Gospel | John 2:1-11",
+      "2021-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11",
+      "2021-02-25 | Jonah's Feast | Liturgy | Gospel | John 2:12-25"
+    ],
+    "Isa 5": [
+      "Monday | First Hour | OT2 | Isa 5:1-9 | source=pascha_day_hour",
+      "Monday | First Hour | Prophecy | Isa 5:1-9 | source=pascha_source_text",
+      "week 2 day_of_week 3 | prophecy | GreatLentReadings | Isa 5:17-25 | source=katameros_cycle",
+      "Monday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour",
+      "Tuesday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour",
+      "Monday | Third Hour | Prophecy | Isa 5:20-30 | source=pascha_source_text",
+      "week 2 day_of_week 2 | prophecy | GreatLentReadings | Isa 5:7-16 | source=katameros_cycle"
+    ]
+  },
+  "known_good_checks": {
+    "isaiah53": [
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour",
+      "Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour",
+      "Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text"
+    ],
+    "isa53": [
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour",
+      "Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour",
+      "Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text"
+    ],
+    "cycle_40_5": [
+      "AnnualReadings | Tut 13 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Tut 30 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 3 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 5 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 9 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16"
+    ],
+    "cycle_matt_5_1": [
+      "AnnualReadings | Tut 13 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Tut 30 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 3 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 5 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 9 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16"
+    ],
+    "agpeya_first_hour": [
+      "daily_hours | First Hour (Prime / Morning Prayer) | psalm | Psalm 1; Psalm 2; Psalm 3; Psalm 4; Psalm 5; Psalm 6; Psalm 8; Psalm 11 (12); Psalm 12 (13); Psalm 14 (15); Psalm 15 (16); Psalm 18 (19); Psalm 24 (25); Psalm 26 (27); Psalm 62 (63); Psalm 66 (67); Psalm 69 (70); Psalm 112 (113); Psalm 142 (143)",
+      "daily_hours | First Hour (Prime / Morning Prayer) | gospel | John 1:1-17"
+    ],
+    "pascha_good_friday": [
+      "Good Friday | Sixth Hour | OT1 | Num 21:1-9",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12",
+      "Good Friday | Sixth Hour | OT3 | Isa 12:2-13:10",
+      "Good Friday | Sixth Hour | OT4 | Amos 8:9-12",
+      "Good Friday | Sixth Hour | Pauline | Gal 6:14-18"
+    ],
+    "pascha_great_thursday": [
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12",
+      "Great Thursday | Eleventh Hour | OT2 | Isa 19:19-25",
+      "Great Thursday | Eleventh Hour | OT3 | Zech 12:11-14; Zech 13:1-9; Zech 14:1-4; Zech 14:6-9",
+      "Great Thursday | Eleventh Hour | Psalm+Gospel | Ps 50:17,18; John 13:21-30",
+      "Great Thursday Eve | Eleventh Hour | OT1 | Isa 27:11-28:15"
+    ],
+    "pascha_monday_sixth": [
+      "Monday | Sixth Hour | OT1 | Exod 32:7-15",
+      "Monday | Sixth Hour | OT2 | Wis 1:1-9",
+      "Monday | Sixth Hour | Psalm+Gospel | Ps 122:4; John 2:13-17",
+      "Monday Eve | Sixth Hour | OT1 | Hos 4:15-19; Hos 5:1-7",
+      "Monday Eve | Sixth Hour | Psalm+Gospel | Ps 91:2,3; John 21:34-38"
+    ],
+    "pascha_tuesday_sixth": [
+      "Tuesday | Sixth Hour | OT1 | Ezek 21:3-13",
+      "Tuesday | Sixth Hour | OT2 | Sir 4:20-5:2",
+      "Tuesday | Sixth Hour | OT3 | Isa 1:1-9",
+      "Tuesday | Sixth Hour | Psalm+Gospel | Ps 18:48,17; John 8:12-20",
+      "Tuesday Eve | Sixth Hour | OT1 | Hos 4:15-19; Hos 5:1-7"
+    ],
+    "pascha_wednesday_eve_eleventh": [
+      "Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30",
+      "Wednesday Eve | Eleventh Hour | Psalm+Gospel | Ps 57:1; John 11:55-57"
+    ],
+    "source_text_wisdom_1": [
+      "Monday | Sixth Hour | Prophecy | Wis 1:1-9 | raw=Wisdom of Solomon 1:1-9 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:3154 page=128"
+    ],
+    "source_text_wisdom_7": [
+      "Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30 | raw=Wisdom of Solomon 7:24-30 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:7021 page=278"
+    ],
+    "source_text_sirach_4": [
+      "Tuesday | Sixth Hour | Prophecy | Sir 4:20-5:2 | raw=Sirach 4:20-5:2 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:5281 page=211"
+    ],
+    "source_text_exodus_32": [
+      "Monday | Sixth Hour | Prophecy | Exod 32:7-15 | raw=Exodus 32:7-15 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:3127 page=127"
+    ],
+    "crosswalk_psalm_62_7": [
+      "## reverse crosswalk results",
+      "Tuesday Eve | First Hour | Psalm | Ps 62:7,62:2 | source=pascha_source_text",
+      "Monday Eve | First Hour | Psalm+Gospel | Ps 62:7,62:6 | source=pascha_day_hour",
+      "Tuesday Eve | First Hour | Psalm+Gospel | Ps 62:7,62:6 | source=pascha_day_hour",
+      "Thursday Eve | Eleventh Hour | Psalm | Ps 62:7,62:6 | source=pascha_source_text"
+    ],
+    "crosswalk_psalm_18_48": [
+      "## reverse crosswalk results",
+      "Tuesday | Sixth Hour | Psalm+Gospel | Ps 18:48,18:17 | source=pascha_day_hour",
+      "Tuesday | Sixth Hour | Psalm | Ps 18:48,18:17 | source=pascha_source_text"
+    ],
+    "crosswalk_wisdom_2": [
+      "## reverse crosswalk results",
+      "Wednesday | First Hour | OT4 | Wis 1:20-2:15 | source=pascha_day_hour",
+      "Good Friday | First Hour | OT6 | Wis 2:12-22 | source=pascha_day_hour",
+      "Good Friday | First Hour | Prophecy | Wis 2:12-22 | source=pascha_source_text",
+      "Monday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour"
+    ],
+    "crosswalk_wisdom_7": [
+      "## reverse crosswalk results",
+      "Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30 | source=pascha_day_hour",
+      "Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30 | source=pascha_source_text"
+    ],
+    "chapter_wisdom_7": [
+      "Wis 7 | read=yes | occurrences=2 | sources=pascha_day_hour; pascha_source_text | places=Wednesday Eve | samples=pascha_day_hour | Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30 || pascha_source_text | Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30"
+    ],
+    "date_annunciation": [
+      "2032-04-07 | Annunciation | Liturgy | Acts of the Apostles | Acts 7:23-34",
+      "2032-04-07 | Annunciation | Liturgy | Catholic Epistle | 1Jn 1:1\u2014  &  1Jn 2:1-6",
+      "2032-04-07 | Annunciation | Liturgy | Gospel | Lk 1:26-38",
+      "2032-04-07 | Annunciation | Liturgy | Pauline Epistle | Rom 3:1-31",
+      "2032-04-07 | Annunciation | Liturgy | Psalm | Psalm 45:10-11"
+    ],
+    "fallback_cycle_only_default": [
+      "2020-03-26 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2020-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1",
+      "2021-04-08 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2021-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1",
+      "2022-03-31 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1"
+    ],
+    "fallback_cycle_only_include_crosswalk": [
+      "## date results",
+      "2020-03-26 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2020-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1",
+      "2021-04-08 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2021-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1"
+    ],
+    "include_crosswalk": [
+      "## reverse crosswalk results",
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour",
+      "Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour",
+      "Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text"
+    ],
+    "agpeya_crosswalk": [
+      "## date results",
+      "2020-05-24 | Sunday of the fifth week of the holy fifty days | Matins | Gospel | Jn 15:4-8",
+      "2020-05-29 | Friday of the sixth week of the holy fifty days | Liturgy | Gospel | Jn 14:26-31",
+      "2020-06-01 | Monday of the seventh week of the holy fifty days and the Feast of Entry into Egypt | Liturgy | Gospel | Jn 15:1-8",
+      "2020-06-07 | Pentecost | Matins | Gospel | Jn 14:26\u2014  &  Jn 15:1-4"
+    ],
+    "palm_procession": [
+      "palm_sunday | procession | procession_station_01_main_sanctuary | psalm | Psalm 104:4; Psalm 138:1",
+      "palm_sunday | procession | procession_station_01_main_sanctuary | gospel | John 1:43-51",
+      "palm_sunday | procession | procession_station_02_holy_virgin_st_mary | psalm | Psalm 87:3,5,7",
+      "palm_sunday | procession | procession_station_02_holy_virgin_st_mary | gospel | Luke 1:39-56",
+      "palm_sunday | procession | procession_station_03_archangel_gabriel | psalm | Psalm 34:7-8"
+    ],
+    "palm_vespers": [
+      "palm_sunday | vespers | vespers | psalm | Psalm 118:26-27",
+      "palm_sunday | vespers | vespers | gospel | John 12:1-11"
+    ],
+    "palm_liturgy": [
+      "palm_sunday | liturgy | liturgy_readings | pauline | Hebrews 9:11-28",
+      "palm_sunday | liturgy | liturgy_readings | catholic | 1 Peter 4:1-11",
+      "palm_sunday | liturgy | liturgy_readings | acts | Acts 28:11-31",
+      "palm_sunday | liturgy | first_gospel | psalm | Psalm 81:3; Psalm 81:1; Psalm 81:2",
+      "palm_sunday | liturgy | first_gospel | gospel | Matthew 21:1-17"
+    ],
+    "palm_station_crosswalk": [
+      "## date results",
+      "2020-01-21 | The Second Day of Feast of Epiphany | Liturgy | Gospel | Jn 1:35 - 51",
+      "2020-10-24 | Baba 14 | Matins | Gospel | Jn 1:43-51",
+      "2020-11-17 | Hator 8 | Liturgy | Gospel | Jn 1:43-51",
+      "2021-01-20 | The Second Day of Feast of Epiphany | Liturgy | Gospel | Jn 1:35 - 51"
+    ],
+    "chapter_john2": [
+      "Jn 2 | read=yes | occurrences=98 | sources=copticchurch_date; katameros_cycle; pascha_day_hour; pascha_source_text | places=Baba 6; Nasie 6; Wedding of Cana; annual fixed Coptic day; Jonah's Feast; Wednesday of the first week of the holy fifty days; Holy Fifty Days/Pentecost cycle; Monday; Tout 21; Tout 23 | samples=copticchurch_date | Baba 6 | Liturgy | Gospel | Jn 2:1-11 || copticchurch_date | Nasie 6 | Liturgy | Gospel | Jn 2:1-11 || copticchurch_date | Wedding of Cana | Liturgy | Gospel | Jn 2:1-11 || katameros_cycle | annual fixed Coptic day | liturgy_gospel | AnnualReadings | Jn 2:1-11 || copticchurch_date | Jonah's Feast | Liturgy | Gospel | Jn 2:12-25"
+    ],
+    "chapter_obadiah": [
+      "Obad 1 | read=no | occurrences=0 | sources= | places= | samples="
+    ]
+  },
+  "parser_edge_cases": {
+    "status": "passed"
+  },
+  "malformed_ref_checks": {
+    "copticchurch_date_readings_2020_2035.csv": {
+      "rows": 50382,
+      "normalized_suspicious_count": 0,
+      "raw_suspicious_count": 19
+    },
+    "copticchurch_passage_index_2020_2035.csv": {
+      "rows": 59340,
+      "normalized_suspicious_count": 0,
+      "raw_suspicious_count": 19
+    },
+    "reverse_lookup_crosswalk.csv": {
+      "rows": 66504,
+      "normalized_suspicious_count": 0,
+      "raw_suspicious_count": 19
+    },
+    "source_ref_repair_report.csv": {
+      "rows": 19
+    }
+  }
+}

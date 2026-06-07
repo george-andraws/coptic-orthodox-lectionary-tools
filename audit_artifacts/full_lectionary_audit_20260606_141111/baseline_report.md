@@ -1,0 +1,1093 @@
+# Baseline Artifact
+
+- Created: 2026-06-06T14:11:15.626143
+- Repo: `/Users/georgeandraws/workspace/coptic-lectionary-research`
+- File records: 1081
+
+## Git status
+```
+(clean or not git)
+```
+
+## Key files
+- `README.md` size=1732 sha256=9f6f215afeaedffd
+- `RUNBOOK.md` size=9120 sha256=7dc4b8ffee1413ac
+- `build_agpeya_reference.py` size=15851 sha256=0b77c1090f535d40
+- `build_bible_chapter_lectionary_index.py` size=11022 sha256=d882e91c3f2c91fa
+- `build_lectionary_crosswalk.py` size=17803 sha256=42dc8f1943c1c1b0
+- `build_lectionary_reference.py` size=17445 sha256=3429fbdddfcc41a5
+- `build_pascha_source_text_index.py` size=8690 sha256=498940c2fcd2807f
+- `build_special_service_reference.py` size=85348 sha256=9cb9ee3538d291b0
+- `build_synaxarium_index.py` size=4570 sha256=46136ecd65a6a7f4
+- `extract_special_service_refs.py` size=2678 sha256=37aec0be6c374f2a
+- `out/BUILD_SUMMARY.json` size=574 sha256=5ebd1403af735296, rows=11
+- `out/data/agpeya_hour_readings.csv` size=11074 sha256=3fed8c7cb67930d2, rows=20
+- `out/data/agpeya_hour_readings.jsonl` size=15152 sha256=61d293ad77b20fde
+- `out/data/agpeya_passage_index.csv` size=130719 sha256=d5c41027f101cd66, rows=149
+- `out/data/agpeya_passage_index.jsonl` size=167300 sha256=a5fce85e6726a88d
+- `out/data/bible_chapter_lectionary_index.csv` size=418439 sha256=429795c05f707bf8, rows=1351
+- `out/data/bible_chapter_lectionary_index.jsonl` size=716736 sha256=18e00db47400d44c
+- `out/data/bible_chapter_lectionary_occurrences.csv` size=16610556 sha256=36f9cd49569de3a6, rows=71315
+- `out/data/bible_chapter_lectionary_occurrences.jsonl` size=35999085 sha256=268e54888b08f79b
+- `out/data/bright_saturday_service_order.csv` size=6053 sha256=4b3669221243e2fc, rows=38
+- `out/data/bright_saturday_service_order.jsonl` size=10159 sha256=2a4f212afdfb0ff4
+- `out/data/copticchurch_date_meta_2020_2035.csv` size=774160 sha256=77f1fd83aaf7679c, rows=5844
+- `out/data/copticchurch_date_readings_2020_2035.csv` size=9740879 sha256=1db3dcca82e3da8e, rows=50382
+- `out/data/copticchurch_date_readings_2020_2035.jsonl` size=19657619 sha256=71fc13c09ff1b7a0
+- `out/data/copticchurch_passage_index_2020_2035.csv` size=11276963 sha256=aefc39122454047b, rows=59340
+- `out/data/copticchurch_passage_index_2020_2035.jsonl` size=23076599 sha256=24be5945eefa4031
+- `out/data/copticchurch_scrape_errors.json` size=2 sha256=4f53cda18c2baa0c, rows=0
+- `out/data/katameros_cycle_passage_index.csv` size=1288089 sha256=b666782f54424f68, rows=6224
+- `out/data/katameros_cycle_passage_index.jsonl` size=3637434 sha256=bdc4288b5b04ee48
+- `out/data/katameros_cycle_readings.csv` size=685420 sha256=b1aaeb09655078c2, rows=4637
+- `out/data/katameros_cycle_readings.jsonl` size=1800368 sha256=6e4088187de72566
+- `out/data/pascha_day_hour_index.csv` size=10682 sha256=6ba376421814cf97, rows=173
+- `out/data/pascha_day_hour_index.jsonl` size=22343 sha256=71027be6bcb35322
+- `out/data/pascha_source_text_index.csv` size=58923 sha256=96181c9ec471c9b9, rows=277
+- `out/data/pascha_source_text_index.jsonl` size=118454 sha256=bb5ac16f6d58df25
+- `out/data/reverse_lookup_crosswalk.csv` size=27607606 sha256=057081672b36992d, rows=66504
+- `out/data/reverse_lookup_crosswalk.jsonl` size=63757576 sha256=cacc1eda4e1ffbfe
+- `out/data/reverse_lookup_summary.csv` size=79147 sha256=2b42150e845737f1, rows=2650
+- `out/data/source_ref_repair_report.csv` size=3185 sha256=2a888014934fb4fa, rows=19
+- `out/data/source_ref_repair_report.jsonl` size=6352 sha256=db10babc39d3d0d9
+- `out/data/special_service_passage_index.csv` size=65510 sha256=ccac3d96cf5a2a8a, rows=196
+- `out/data/special_service_passage_index.jsonl` size=106763 sha256=f6d3d2fe7b36b137
+- `out/data/special_service_readings_curated.csv` size=48197 sha256=e7ed10b754e885e6, rows=161
+- `out/data/special_service_readings_curated.jsonl` size=76298 sha256=c5c08f9beebebd70
+- `out/scripts/__pycache__/passage_normalization.cpython-311.pyc` size=31058 sha256=6cc6c096ced7cc85
+- `out/scripts/passage_normalization.py` size=18423 sha256=1286c5870aafc923
+- `out/scripts/query_lectionary.py` size=12155 sha256=d1d2f9893d3f54bc
+- `out/sources/KatamerosDatabase.sqlite` size=91217920 sha256=19fe28dffc810070
+- `out/sources/SOURCE_MANIFEST.json` size=2283 sha256=bc580f848a392c30, rows=14
+- `out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf` size=7417864 sha256=afddea9372689625
+- `out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt` size=715900 sha256=d37ef1df5ff9e5ca
+- `out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.pdf` size=17703324 sha256=e7ff308bfc18ecdd
+- `out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.txt` size=2028324 sha256=59de8b5e594e3be9
+- `out/sources/UK_Midlands_Katameros_Days.pdf` size=19509308 sha256=f4eb3465542af3bf
+- `out/sources/UK_Midlands_Katameros_Days.txt` size=820701 sha256=b81d990f48d0923f
+- `out/sources/UK_Midlands_Katameros_Lent.pdf` size=9029332 sha256=8cb023ea51ba51bc
+- `out/sources/UK_Midlands_Katameros_Lent.txt` size=922074 sha256=831e8b37328aa97d
+- `out/sources/UK_Midlands_Katameros_Pentecost.pdf` size=12727838 sha256=3e6b0b54155fad46
+- `out/sources/UK_Midlands_Katameros_Pentecost.txt` size=433650 sha256=a48869f3e26d5e5a
+- `out/sources/UK_Midlands_Katameros_Sundays.pdf` size=12971775 sha256=798c388ae8be7bf9
+- `out/sources/UK_Midlands_Katameros_Sundays.txt` size=925121 sha256=bf49a59e64b36668
+- `passage_normalization.py` size=18423 sha256=1286c5870aafc923
+- `query_lectionary.py` size=12155 sha256=d1d2f9893d3f54bc
+- `render_pdf_pages.py` size=391 sha256=d2ef6693d4f2e323
+- `sources/katamars-coptic-lectionary/.git/HEAD` size=21 sha256=28d25bf82af4c0e2
+- `sources/katamars-coptic-lectionary/.git/config` size=332 sha256=fd9ce19f9d68b04b
+- `sources/katamars-coptic-lectionary/.git/description` size=73 sha256=85ab6c163d43a17e
+- `sources/katamars-coptic-lectionary/.git/hooks/applypatch-msg.sample` size=478 sha256=0223497a0b8b033a
+- `sources/katamars-coptic-lectionary/.git/hooks/commit-msg.sample` size=896 sha256=1f74d5e9292979b5
+- `sources/katamars-coptic-lectionary/.git/hooks/fsmonitor-watchman.sample` size=4726 sha256=e0549964e93897b5
+- `sources/katamars-coptic-lectionary/.git/hooks/post-update.sample` size=189 sha256=81765af2daef3230
+- `sources/katamars-coptic-lectionary/.git/hooks/pre-applypatch.sample` size=424 sha256=e15c5b469ea3e0a6
+- `sources/katamars-coptic-lectionary/.git/hooks/pre-commit.sample` size=1649 sha256=57185b7b9f05239d
+- `sources/katamars-coptic-lectionary/.git/hooks/pre-merge-commit.sample` size=416 sha256=d3825a70337940eb
+- `sources/katamars-coptic-lectionary/.git/hooks/pre-push.sample` size=1374 sha256=ecce9c7e04d3f5dd
+- `sources/katamars-coptic-lectionary/.git/hooks/pre-rebase.sample` size=4898 sha256=4febce8677900523
+- `sources/katamars-coptic-lectionary/.git/hooks/pre-receive.sample` size=544 sha256=a4c3d2b9c7bb3fd8
+- `sources/katamars-coptic-lectionary/.git/hooks/prepare-commit-msg.sample` size=1492 sha256=e9ddcaa4189fddd2
+- `sources/katamars-coptic-lectionary/.git/hooks/push-to-checkout.sample` size=2783 sha256=a53d0741798b287c
+- `sources/katamars-coptic-lectionary/.git/hooks/sendemail-validate.sample` size=2308 sha256=44ebfc923dc5466b
+- `sources/katamars-coptic-lectionary/.git/hooks/update.sample` size=3650 sha256=8d5f2fa83e103cf0
+- `sources/katamars-coptic-lectionary/.git/index` size=2811 sha256=a5a60a6b2a506c5c
+- `sources/katamars-coptic-lectionary/.git/info/exclude` size=240 sha256=6671fe83b7a07c89
+- `sources/katamars-coptic-lectionary/.git/logs/HEAD` size=216 sha256=bba0e1a27329f5c0
+- `sources/katamars-coptic-lectionary/.git/logs/refs/heads/main` size=216 sha256=bba0e1a27329f5c0
+- `sources/katamars-coptic-lectionary/.git/logs/refs/remotes/origin/HEAD` size=216 sha256=bba0e1a27329f5c0
+- `sources/katamars-coptic-lectionary/.git/objects/pack/pack-659f2476830deb72550f2b75c2bb2c3c04c58697.idx` size=2024 sha256=e72ee5aae973de9a
+- `sources/katamars-coptic-lectionary/.git/objects/pack/pack-659f2476830deb72550f2b75c2bb2c3c04c58697.pack` size=59452 sha256=f3e387b30687a5da
+- `sources/katamars-coptic-lectionary/.git/objects/pack/pack-659f2476830deb72550f2b75c2bb2c3c04c58697.rev` size=188 sha256=3a07286ace2e63c2
+- `sources/katamars-coptic-lectionary/.git/packed-refs` size=112 sha256=2360bdeb0d9125ef
+- `sources/katamars-coptic-lectionary/.git/refs/heads/main` size=41 sha256=39a82a92b6878bed
+- `sources/katamars-coptic-lectionary/.git/refs/remotes/origin/HEAD` size=30 sha256=2bb6a24aa0fc6c48
+- `sources/katamars-coptic-lectionary/.git/refs/tags/v1` size=41 sha256=39a82a92b6878bed
+- `sources/katamars-coptic-lectionary/.git/shallow` size=41 sha256=39a82a92b6878bed
+- `sources/katamars-coptic-lectionary/FIX-AR.md` size=3206 sha256=49d3060dddaaf40b
+- `sources/katamars-coptic-lectionary/INSTALL.md` size=2176 sha256=f7386cdc2cd0ccb9
+- `sources/katamars-coptic-lectionary/README.md` size=2831 sha256=d39fef9e8de6e877
+- `sources/katamars-coptic-lectionary/READY-AR.md` size=1736 sha256=970802b819e69e83
+- `sources/katamars-coptic-lectionary/assets/css/glass.css` size=43625 sha256=d6c9e3874b82f943
+- `sources/katamars-coptic-lectionary/assets/css/katamars-bible.css` size=12097 sha256=8e914bce4106fc04
+- `sources/katamars-coptic-lectionary/assets/css/katamars-core.css` size=5581 sha256=0b128cd4348c7240
+- `sources/katamars-coptic-lectionary/assets/css/katamars-readings.css` size=6483 sha256=c29e549a1394f30c
+- `sources/katamars-coptic-lectionary/assets/css/katamars-widget.css` size=6387 sha256=702b6c1048fb42b0
+- `sources/katamars-coptic-lectionary/assets/css/style.css` size=10378 sha256=52008ed9d51a34d2
+- `sources/katamars-coptic-lectionary/assets/js/katamars-bible.js` size=5627 sha256=53ad68422e9c89ed
+- `sources/katamars-coptic-lectionary/assets/js/katamars-core.js` size=613 sha256=ad84301a295e1456
+- `sources/katamars-coptic-lectionary/assets/js/katamars-readings.js` size=9196 sha256=1e9a3704c84f94eb
+- `sources/katamars-coptic-lectionary/assets/js/katamars-widget.js` size=8655 sha256=e42b909b62e70969
+- `sources/katamars-coptic-lectionary/assets/js/katamars.js` size=7049 sha256=200cdabb67b6fbf8
+- `sources/katamars-coptic-lectionary/includes/class-katamars-activator.php` size=10263 sha256=778f179f7a1002af
+- `sources/katamars-coptic-lectionary/includes/class-katamars-admin.php` size=3968 sha256=66b01c2046da5eb1
+- `sources/katamars-coptic-lectionary/includes/class-katamars-bible.php` size=17679 sha256=770b82f34edd0c45
+- `sources/katamars-coptic-lectionary/includes/class-katamars-date.php` size=10326 sha256=d8d9b1db613a28d5
+- `sources/katamars-coptic-lectionary/includes/class-katamars-deactivator.php` size=395 sha256=6ce635ef39fe3b71
+- `sources/katamars-coptic-lectionary/includes/class-katamars-loader.php` size=2229 sha256=675c62e5fd26d5f9
+- `sources/katamars-coptic-lectionary/includes/class-katamars-query.php` size=16564 sha256=12ec98f97337f5a7
+- `sources/katamars-coptic-lectionary/includes/class-katamars-shortcodes.php` size=43328 sha256=1f9bdc85a8fa5e03
+- `sources/katamars-coptic-lectionary/includes/class-katamars-synaxarium.php` size=3325 sha256=845b1fcca7811532
+- `sources/katamars-coptic-lectionary/includes/class-katamars-widget.php` size=13357 sha256=42141eb734d861e5
+- `sources/katamars-coptic-lectionary/includes/class-katamars.php` size=2898 sha256=3182b13d35070e39
+- `sources/katamars-coptic-lectionary/katamars-coptic-lectionary.php` size=3746 sha256=e609a4bc5bde6a17
+- `sources/katamars-coptic-lectionary/test-coptic-date.php` size=2856 sha256=6f978bb8c92bd99d
+- `sources/katameros-api/.dockerignore` size=393 sha256=a2770b7bce5918a0
+- `sources/katameros-api/.git/HEAD` size=23 sha256=f6f2b945f6c411b0
+- `sources/katameros-api/.git/config` size=327 sha256=51794331613f82dd
+- `sources/katameros-api/.git/description` size=73 sha256=85ab6c163d43a17e
+- `sources/katameros-api/.git/hooks/applypatch-msg.sample` size=478 sha256=0223497a0b8b033a
+- `sources/katameros-api/.git/hooks/commit-msg.sample` size=896 sha256=1f74d5e9292979b5
+- `sources/katameros-api/.git/hooks/fsmonitor-watchman.sample` size=4726 sha256=e0549964e93897b5
+- `sources/katameros-api/.git/hooks/post-update.sample` size=189 sha256=81765af2daef3230
+- `sources/katameros-api/.git/hooks/pre-applypatch.sample` size=424 sha256=e15c5b469ea3e0a6
+- `sources/katameros-api/.git/hooks/pre-commit.sample` size=1649 sha256=57185b7b9f05239d
+- `sources/katameros-api/.git/hooks/pre-merge-commit.sample` size=416 sha256=d3825a70337940eb
+- `sources/katameros-api/.git/hooks/pre-push.sample` size=1374 sha256=ecce9c7e04d3f5dd
+- `sources/katameros-api/.git/hooks/pre-rebase.sample` size=4898 sha256=4febce8677900523
+- `sources/katameros-api/.git/hooks/pre-receive.sample` size=544 sha256=a4c3d2b9c7bb3fd8
+- `sources/katameros-api/.git/hooks/prepare-commit-msg.sample` size=1492 sha256=e9ddcaa4189fddd2
+- `sources/katameros-api/.git/hooks/push-to-checkout.sample` size=2783 sha256=a53d0741798b287c
+- `sources/katameros-api/.git/hooks/sendemail-validate.sample` size=2308 sha256=44ebfc923dc5466b
+- `sources/katameros-api/.git/hooks/update.sample` size=3650 sha256=8d5f2fa83e103cf0
+- `sources/katameros-api/.git/index` size=11173 sha256=20a7a2a3c1b5616f
+- `sources/katameros-api/.git/info/exclude` size=240 sha256=6671fe83b7a07c89
+- `sources/katameros-api/.git/logs/HEAD` size=203 sha256=221b1a26cac79b50
+- `sources/katameros-api/.git/logs/refs/heads/master` size=203 sha256=221b1a26cac79b50
+- `sources/katameros-api/.git/logs/refs/remotes/origin/HEAD` size=203 sha256=221b1a26cac79b50
+- `sources/katameros-api/.git/objects/pack/pack-66fb178d50d61fdc3f4e8ef53526c380bdffcf92.idx` size=4600 sha256=9fd12aa882785a6f
+- `sources/katameros-api/.git/objects/pack/pack-66fb178d50d61fdc3f4e8ef53526c380bdffcf92.pack` size=29010674 sha256=269785776935987d
+- `sources/katameros-api/.git/objects/pack/pack-66fb178d50d61fdc3f4e8ef53526c380bdffcf92.rev` size=556 sha256=e98b4a4803d70cbc
+- `sources/katameros-api/.git/packed-refs` size=114 sha256=99a0308748c13125
+- `sources/katameros-api/.git/refs/heads/master` size=41 sha256=0875d8f0fc010b56
+- `sources/katameros-api/.git/refs/remotes/origin/HEAD` size=32 sha256=cdc65e67690c4c64
+- `sources/katameros-api/.git/shallow` size=41 sha256=0875d8f0fc010b56
+- `sources/katameros-api/.gitignore` size=6860 sha256=f5774e1a387a8f1b
+- `sources/katameros-api/API/API.csproj` size=644 sha256=a30b8b84dfca4bff
+- `sources/katameros-api/API/Controllers/ContactController.cs` size=872 sha256=abd643fc97445fbd
+- `sources/katameros-api/API/Controllers/FeastsController.cs` size=521 sha256=d0c0f0be8830edc3
+- `sources/katameros-api/API/Controllers/ReadingsController.cs` size=1698 sha256=0bf771e61978863e
+- `sources/katameros-api/API/Controllers/RootController.cs` size=283 sha256=a2417794509612c3
+- `sources/katameros-api/API/Dockerfile` size=1132 sha256=53d8535569bb4f14
+- `sources/katameros-api/API/Program.cs` size=1247 sha256=120df032227a0205
+- `sources/katameros-api/API/Properties/launchSettings.json` size=1423 sha256=8aded9d1b701753d, rows=3
+- `sources/katameros-api/API/Services/NotificationService.cs` size=1244 sha256=90d055fa572f3743
+- `sources/katameros-api/API/appsettings.Development.json` size=119 sha256=817db0bf2ecca783, rows=1
+- `sources/katameros-api/API/appsettings.json` size=142 sha256=2d8bb40059df2208, rows=2
+- `sources/katameros-api/Core/DTOs/DayReadings.cs` size=344 sha256=237b11b7f7dee7d0
+- `sources/katameros-api/Core/DTOs/FeastDate.cs` size=165 sha256=ff8634bace47d004
+- `sources/katameros-api/Core/DTOs/Passage.cs` size=281 sha256=4e6d51158f5791c3
+- `sources/katameros-api/Core/DTOs/Reading.cs` size=408 sha256=bf1984a4fb1048f6
+- `sources/katameros-api/Core/DTOs/Section.cs` size=290 sha256=c146a83c7952c750
+- `sources/katameros-api/Core/DTOs/SubSection.cs` size=344 sha256=ecb3188bd678fa1f
+- `sources/katameros-api/Core/DatabaseContext.cs` size=2931 sha256=9a1fd84a117166a5
+- `sources/katameros-api/Core/Enums/CopticMonths.cs` size=502 sha256=905262fe11ebea56
+- `sources/katameros-api/Core/Enums/Feast.cs` size=685 sha256=13f26807007d92ad
+- `sources/katameros-api/Core/Enums/ReadingMode.cs` size=135 sha256=871a88aa921ef77a
+- `sources/katameros-api/Core/Enums/ReadingType.cs` size=197 sha256=f68cd57912308c43
+- `sources/katameros-api/Core/Enums/ReadingsMetadata.cs` size=120 sha256=e30c880677355287
+- `sources/katameros-api/Core/Enums/SectionType.cs` size=346 sha256=eb76490c373385d9
+- `sources/katameros-api/Core/Enums/SectionsMetadata.cs` size=78 sha256=bbfe73d64623c00c
+- `sources/katameros-api/Core/Enums/Sentence.cs` size=71 sha256=e0de9349ad4ad45f
+- `sources/katameros-api/Core/Enums/SubSectionType.cs` size=205 sha256=221aa63c99452cbc
+- `sources/katameros-api/Core/Enums/SubSectionsMetadata.cs` size=103 sha256=5e72adec5450d05c
+- `sources/katameros-api/Core/Extensions.cs` size=1173 sha256=e771a26d3c60d4bf
+- `sources/katameros-api/Core/Factories/Feasts/29OfMonth.cs` size=634 sha256=c0059ef88163459c
+- `sources/katameros-api/Core/Factories/Feasts/Annunciation.cs` size=734 sha256=005f91c7c602cf4e
+- `sources/katameros-api/Core/Factories/Feasts/Christmas.cs` size=722 sha256=6d76c99a72a95612
+- `sources/katameros-api/Core/Factories/Feasts/Cross.cs` size=1927 sha256=f222546541c5e04c
+- `sources/katameros-api/Core/Factories/Feasts/Easter.cs` size=1429 sha256=1ab1e5c0c519a54e
+- `sources/katameros-api/Core/Factories/Feasts/EgyptEntrance.cs` size=733 sha256=e9489a069d9bf85c
+- `sources/katameros-api/Core/Factories/Feasts/FeastCalc.cs` size=1706 sha256=3b68c8d6fa3fedfc
+- `sources/katameros-api/Core/Factories/Feasts/GreatLentPreparationSaturday.cs` size=766 sha256=9b36ba265ff62fac
+- `sources/katameros-api/Core/Factories/Feasts/GreatLentPreparationSunday.cs` size=751 sha256=87682ac41974789f
+- `sources/katameros-api/Core/Factories/Feasts/Jonas.cs` size=630 sha256=980d6bb49945aeda
+- `sources/katameros-api/Core/Factories/Feasts/LazarusSaturday.cs` size=713 sha256=d5953faa2ac2410b
+- `sources/katameros-api/Core/Factories/Feasts/NativityParamoun.cs` size=1221 sha256=be21c2d02a42fe4d
+- `sources/katameros-api/Core/Factories/Feasts/Nayrouz.cs` size=937 sha256=5ed1e82c15851078
+- `sources/katameros-api/Core/Factories/Feasts/Ninevah.cs` size=1822 sha256=e470db0bb030ab6f
+- `sources/katameros-api/Core/Factories/Feasts/PalmSunday.cs` size=5098 sha256=956b0bcefec385af
+- `sources/katameros-api/Core/Factories/Feasts/ParamounTheophany.cs` size=722 sha256=8c03760aebeaf158
+- `sources/katameros-api/Core/Factories/Feasts/PaschaFriday.cs` size=5476 sha256=8d0b0ebe09ea8b4f
+- `sources/katameros-api/Core/Factories/Feasts/PaschaMonday.cs` size=5437 sha256=d39d8aad65173704
+- `sources/katameros-api/Core/Factories/Feasts/PaschaSaturday.cs` size=560 sha256=501d10175f3bc35b
+- `sources/katameros-api/Core/Factories/Feasts/PaschaThursday.cs` size=6462 sha256=415378944739bcaa
+- `sources/katameros-api/Core/Factories/Feasts/PaschaTuesday.cs` size=5989 sha256=d01cbf1ec11f5c94
+- `sources/katameros-api/Core/Factories/Feasts/PaschaWednesday.cs` size=5895 sha256=d20d188c35ccd332
+- `sources/katameros-api/Core/Factories/Feasts/TempleEntrance.cs` size=732 sha256=71567d7807963e2a
+- `sources/katameros-api/Core/Factories/Feasts/Theophany.cs` size=462 sha256=e08b57186e9de0c3
+- `sources/katameros-api/Core/Factories/Feasts/WeddingOfCana.cs` size=474 sha256=f5681cce555c07fa
+- `sources/katameros-api/Core/Factories/FeastsFactory.cs` size=6192 sha256=ca78d610bb1d7c54
+- `sources/katameros-api/Core/Factories/SpecialCaseFactory.cs` size=829 sha256=30ed355012c66043
+- `sources/katameros-api/Core/Factories/SpecialCases/ISpecialCase.cs` size=254 sha256=3057bc9e7034b220
+- `sources/katameros-api/Core/Factories/SpecialCases/Kiahk.cs` size=2443 sha256=4f74b13d8469957d
+- `sources/katameros-api/Core/Factories/SpecialCases/Theophany.cs` size=2738 sha256=01a2d43970093985
+- `sources/katameros-api/Core/Helpers/CopticDateHelper.cs` size=3751 sha256=c70373a685cc9862
+- `sources/katameros-api/Core/Helpers/Toolkit.cs` size=140 sha256=a903ab7fd381a33f
+- `sources/katameros-api/Core/Katameros.csproj` size=2226 sha256=c85e9a114b261b42
+- `sources/katameros-api/Core/KatamerosDatabase.db` size=91217920 sha256=19fe28dffc810070
+- `sources/katameros-api/Core/Migrations/20231120193904_Init.Designer.cs` size=20383 sha256=fe9be4864c3293b6
+- `sources/katameros-api/Core/Migrations/20231120193904_Init.cs` size=20826 sha256=0df8b01b6e0e7a5c
+- `sources/katameros-api/Core/Migrations/20260506162526_AddVerseRefMappings.Designer.cs` size=21034 sha256=930543a1b7486b90
+- `sources/katameros-api/Core/Migrations/20260506162526_AddVerseRefMappings.cs` size=1188 sha256=c2ee7c9c3e6021fb
+- `sources/katameros-api/Core/Migrations/20260506165143_RefactorVerseRefMappingsToScheme.Designer.cs` size=21685 sha256=ee9dd0abe1278aae
+- `sources/katameros-api/Core/Migrations/20260506165143_RefactorVerseRefMappingsToScheme.cs` size=2151 sha256=fc5f2a3c02da9a4a
+- `sources/katameros-api/Core/Migrations/DatabaseContextModelSnapshot.cs` size=21549 sha256=db5ca74330d10ded
+- `sources/katameros-api/Core/Models/AnnualReading.cs` size=1064 sha256=6f862bca8ab06df0
+- `sources/katameros-api/Core/Models/Bible.cs` size=292 sha256=6d36dc012055e79a
+- `sources/katameros-api/Core/Models/Book.cs` size=184 sha256=5b0ad74c982a5010
+- `sources/katameros-api/Core/Models/BooksTranslation.cs` size=241 sha256=8ee03972742a0436
+- `sources/katameros-api/Core/Models/Feast.cs` size=185 sha256=bae4e9466c1822dc
+- `sources/katameros-api/Core/Models/FeastsTranslation.cs` size=243 sha256=278deac76d1ee48d
+- `sources/katameros-api/Core/Models/GreatLentReading.cs` size=950 sha256=ebeb138f52793cd9
+- `sources/katameros-api/Core/Models/IReadingRefs.cs` size=478 sha256=c7f2510cd9c643b7
+- `sources/katameros-api/Core/Models/Language.cs` size=240 sha256=bf74195346767fdf
+- `sources/katameros-api/Core/Models/PentecostReading.cs` size=858 sha256=4652a001a4ea5e9d
+- `sources/katameros-api/Core/Models/Reading/Reading.cs` size=187 sha256=aad9309cc65293a4
+- `sources/katameros-api/Core/Models/Reading/ReadingsMetadata.cs` size=196 sha256=3ee72ee36cee14b4
+- `sources/katameros-api/Core/Models/Reading/ReadingsMetadatasTranslation.cs` size=304 sha256=e75b5f335905c624
+- `sources/katameros-api/Core/Models/Section/Section.cs` size=187 sha256=5c78e5cb00f8632f
+- `sources/katameros-api/Core/Models/Section/SectionsMetadata.cs` size=196 sha256=2ee715eb3bf20dc8
+- `sources/katameros-api/Core/Models/Section/SectionsMetadatasTranslation.cs` size=305 sha256=1eb54105a0ea6909
+- `sources/katameros-api/Core/Models/Sentences.cs` size=189 sha256=635eee23e0d36230
+- `sources/katameros-api/Core/Models/SentencesTranslation.cs` size=249 sha256=293c51c94a016a60
+- `sources/katameros-api/Core/Models/SubSection/SubSection.cs` size=190 sha256=fb595d4cb2fa68ce
+- `sources/katameros-api/Core/Models/SubSection/SubSectionsMetadata.cs` size=199 sha256=7ee1e0241a767e6e
+- `sources/katameros-api/Core/Models/SubSection/SubSectionsMetadatasTranslation.cs` size=314 sha256=43e2a9ae35c7c1c1
+- `sources/katameros-api/Core/Models/SundayReading.cs` size=1064 sha256=c1c38d23256e0396
+- `sources/katameros-api/Core/Models/Synaxarium.cs` size=310 sha256=c2f03399f88372e9
+- `sources/katameros-api/Core/Models/Verse.cs` size=391 sha256=d83ca9b118669025
+- `sources/katameros-api/Core/Models/VerseRefMapping.cs` size=222 sha256=b59daa65a73e1db7
+- `sources/katameros-api/Core/Models/VersificationScheme.cs` size=196 sha256=9bd0117ca555fc2a
+- `sources/katameros-api/Core/Repositories/FeastsRepository.cs` size=942 sha256=b4167b11086d3645
+- `sources/katameros-api/Core/Repositories/LectionaryRepository.cs` size=7090 sha256=65d660328b17c089
+- `sources/katameros-api/Core/Repositories/ReadingsHelper.cs` size=9133 sha256=4bf7014b399bca8e
+- `sources/katameros-api/Core/Repositories/ReadingsRepository.cs` size=20741 sha256=3638b061903f1ed9
+- `sources/katameros-api/Core/StartupExtensions.cs` size=1172 sha256=5bbcfe10160b1797
+- `sources/katameros-api/Core/katameros-logo.png` size=9193 sha256=ade233834e32ce49
+- `sources/katameros-api/Katameros.sln` size=1591 sha256=3af1a25fc6316c26
+- `sources/katameros-api/LICENSE` size=1066 sha256=b19358f53368c9ff
+- `sources/katameros-api/README.md` size=3285 sha256=9fc83d4329adb35a
+- `sources/katameros.bible/.browserslistrc` size=72 sha256=557f0f9da94e51f0
+- `sources/katameros.bible/.eleventy.js` size=3814 sha256=605e240a6a68a4e7
+- `sources/katameros.bible/.eslintignore` size=64 sha256=1b04fd902c301f2d
+- `sources/katameros.bible/.eslintrc.json` size=671 sha256=8c4fd1288c5a34d8, rows=6
+- `sources/katameros.bible/.git/HEAD` size=21 sha256=28d25bf82af4c0e2
+- `sources/katameros.bible/.git/config` size=319 sha256=3285c636308f5ba7
+- `sources/katameros.bible/.git/description` size=73 sha256=85ab6c163d43a17e
+- `sources/katameros.bible/.git/hooks/applypatch-msg.sample` size=478 sha256=0223497a0b8b033a
+- `sources/katameros.bible/.git/hooks/commit-msg.sample` size=896 sha256=1f74d5e9292979b5
+- `sources/katameros.bible/.git/hooks/fsmonitor-watchman.sample` size=4726 sha256=e0549964e93897b5
+- `sources/katameros.bible/.git/hooks/post-update.sample` size=189 sha256=81765af2daef3230
+- `sources/katameros.bible/.git/hooks/pre-applypatch.sample` size=424 sha256=e15c5b469ea3e0a6
+- `sources/katameros.bible/.git/hooks/pre-commit.sample` size=1649 sha256=57185b7b9f05239d
+- `sources/katameros.bible/.git/hooks/pre-merge-commit.sample` size=416 sha256=d3825a70337940eb
+- `sources/katameros.bible/.git/hooks/pre-push.sample` size=1374 sha256=ecce9c7e04d3f5dd
+- `sources/katameros.bible/.git/hooks/pre-rebase.sample` size=4898 sha256=4febce8677900523
+- `sources/katameros.bible/.git/hooks/pre-receive.sample` size=544 sha256=a4c3d2b9c7bb3fd8
+- `sources/katameros.bible/.git/hooks/prepare-commit-msg.sample` size=1492 sha256=e9ddcaa4189fddd2
+- `sources/katameros.bible/.git/hooks/push-to-checkout.sample` size=2783 sha256=a53d0741798b287c
+- `sources/katameros.bible/.git/hooks/sendemail-validate.sample` size=2308 sha256=44ebfc923dc5466b
+- `sources/katameros.bible/.git/hooks/update.sample` size=3650 sha256=8d5f2fa83e103cf0
+- `sources/katameros.bible/.git/index` size=76411 sha256=6aef720c29237ace
+- `sources/katameros.bible/.git/info/exclude` size=240 sha256=6671fe83b7a07c89
+- `sources/katameros.bible/.git/logs/HEAD` size=203 sha256=dd8fac575ba4963e
+- `sources/katameros.bible/.git/logs/refs/heads/main` size=203 sha256=dd8fac575ba4963e
+- `sources/katameros.bible/.git/logs/refs/remotes/origin/HEAD` size=203 sha256=dd8fac575ba4963e
+- `sources/katameros.bible/.git/objects/pack/pack-2be9b8a2814af1cc8a33fc43cefd50d86ef173d5.idx` size=23444 sha256=abc1fdcfd485dec4
+- `sources/katameros.bible/.git/objects/pack/pack-2be9b8a2814af1cc8a33fc43cefd50d86ef173d5.pack` size=24017519 sha256=d146dc389b0c5338
+- `sources/katameros.bible/.git/objects/pack/pack-2be9b8a2814af1cc8a33fc43cefd50d86ef173d5.rev` size=3248 sha256=9223ee38c28c2c1d
+- `sources/katameros.bible/.git/packed-refs` size=112 sha256=6f9c3098afe7bd9d
+- `sources/katameros.bible/.git/refs/heads/main` size=41 sha256=201dfa26c18662b1
+- `sources/katameros.bible/.git/refs/remotes/origin/HEAD` size=30 sha256=2bb6a24aa0fc6c48
+- `sources/katameros.bible/.git/shallow` size=41 sha256=201dfa26c18662b1
+- `sources/katameros.bible/.github/dependabot.yml` size=303 sha256=9b489acb1c0d5990
+- `sources/katameros.bible/.gitignore` size=270 sha256=8b9f7236e02d5bf0
+- `sources/katameros.bible/.husky/.gitignore` size=2 sha256=4415b7e361fc6f6b
+- `sources/katameros.bible/.husky/commit-msg` size=80 sha256=2fdadc5ee6d4b7a4
+- `sources/katameros.bible/.husky/pre-commit` size=58 sha256=4f8580ec4d3866ff
+- `sources/katameros.bible/.prettierignore` size=19 sha256=dd302a2fa3c3552e
+- `sources/katameros.bible/.prettierrc.json` size=52 sha256=c5e2c04ee702c2c3, rows=2
+- `sources/katameros.bible/.stylelintignore` size=11 sha256=625cb0581825dca6
+- `sources/katameros.bible/.stylelintrc.json` size=676 sha256=63d51486be496342, rows=3
+- `sources/katameros.bible/.tern-project` size=267 sha256=a73b2dd7dfa2bb68
+- `sources/katameros.bible/README.md` size=3451 sha256=b77d1ad57f94b026
+- `sources/katameros.bible/babel.config.js` size=216 sha256=d558bc9db7cd97ce
+- `sources/katameros.bible/budget.json` size=492 sha256=570dc4f4f08a6d17, rows=1
+- `sources/katameros.bible/commitlint.config.js` size=67 sha256=cb4c027aa3fce115
+- `sources/katameros.bible/katameros-preparation/constants/articles.js` size=7799 sha256=c0450d233dc236f7
+- `sources/katameros.bible/katameros-preparation/constants/books-translations.js` size=1414 sha256=90c297e1e82db01e
+- `sources/katameros.bible/katameros-preparation/constants/coptic-months-enum.js` size=237 sha256=de52aad4fa55acd8
+- `sources/katameros.bible/katameros-preparation/constants/coptic-months.js` size=298 sha256=4b3a455e4f0e9f7e
+- `sources/katameros.bible/katameros-preparation/constants/feast.js` size=530 sha256=41715d2db96a5ee7
+- `sources/katameros.bible/katameros-preparation/constants/feasts.js` size=1009 sha256=c833347834d86b31
+- `sources/katameros.bible/katameros-preparation/constants/reading-type.js` size=158 sha256=981bd3034f388516
+- `sources/katameros.bible/katameros-preparation/constants/readings-metadata-enum.js` size=119 sha256=fc5aa723f73dd7e8
+- `sources/katameros.bible/katameros-preparation/constants/readings-metadata.js` size=2756 sha256=c67c2427857b69de
+- `sources/katameros.bible/katameros-preparation/constants/section-type.js` size=290 sha256=762db20d5fc4f5ff
+- `sources/katameros.bible/katameros-preparation/constants/sections-metadata.js` size=800 sha256=6b12ca46672aad9a
+- `sources/katameros.bible/katameros-preparation/constants/sub-section-type.js` size=186 sha256=526acfaa15c62439
+- `sources/katameros.bible/katameros-preparation/constants/sub-sections-metadata-enum.js` size=108 sha256=c7a862278ce8f4af
+- `sources/katameros.bible/katameros-preparation/constants/sub-sections-metadata.js` size=555 sha256=0e4f6c29071f5f06
+- `sources/katameros.bible/katameros-preparation/data/annual-readings.json` size=178143 sha256=203d41f946648c5f, rows=366
+- `sources/katameros.bible/katameros-preparation/data/books/1.json` size=363107 sha256=7f8dd7100c46940b, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/10.json` size=203339 sha256=02f915f7e9aa99c5, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/11.json` size=241928 sha256=34e3a46bf63ef676, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/12.json` size=226090 sha256=c00818f453a089a6, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/13.json` size=211114 sha256=aed31edc9dfce372, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/14.json` size=256238 sha256=7bb76cc11a594e3d, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/15.json` size=75537 sha256=8c1312a7fab75e1d, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/16.json` size=107289 sha256=57926f88b153de15, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/17.json` size=58732 sha256=ccb924f9228232ab, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/18.json` size=173544 sha256=86d6e1089deefeb1, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/19.json` size=420535 sha256=2d312d7d92461f63, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/2.json` size=302167 sha256=8f95331e0000451f, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/20.json` size=151522 sha256=46e32de86679f6e5, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/21.json` size=56156 sha256=96c732fd3167bca2, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/22.json` size=25753 sha256=dca1145368d2ce90, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/23.json` size=341873 sha256=66bfea8bca9e4d7c, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/24.json` size=407444 sha256=6bbf842293a73a72, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/25.json` size=32605 sha256=93a4d58256312d42, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/26.json` size=365185 sha256=fadd9e657220c8a8, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/27.json` size=113660 sha256=088a8af4e1b69e47, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/28.json` size=48853 sha256=6295b07f6760d062, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/29.json` size=19448 sha256=1491017cd6b4402f, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/3.json` size=212237 sha256=6fa6af073d4379cb, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/30.json` size=40291 sha256=61d946f26534c02f, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/31.json` size=5705 sha256=0f8ab9cc62e45309, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/32.json` size=12909 sha256=bc6b9c91f4d8c087, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/33.json` size=28971 sha256=8ee3968e9b50ec9f, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/34.json` size=11902 sha256=0f46e22ad41d2cc1, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/35.json` size=13963 sha256=f093253d9546aea2, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/36.json` size=15142 sha256=4449db93353daf2e, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/37.json` size=11149 sha256=1dae13100baf875c, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/38.json` size=59502 sha256=d2f0d520dbfdb980, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/39.json` size=16794 sha256=ca86777cc5793185, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/4.json` size=305425 sha256=9af7b8ce41c6272b, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/40.json` size=247524 sha256=629656670bf76fca, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/41.json` size=154806 sha256=4b6950bcb683fb87, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/42.json` size=262502 sha256=e3aa84ad1936cb08, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/43.json` size=205400 sha256=035fe3b70a382c02, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/44.json` size=269721 sha256=67b7f3609b6ae2d3, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/45.json` size=104115 sha256=4e65cb5d865da44d, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/46.json` size=103384 sha256=0eed12ae12973ddd, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/47.json` size=66999 sha256=9e77e559faabcab9, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/48.json` size=34945 sha256=56115ecdacdcf1bc, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/49.json` size=33509 sha256=76f9f69cbb15b984, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/5.json` size=255137 sha256=bb12daa917c1f171, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/50.json` size=25028 sha256=9863e2911b644e58, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/51.json` size=22275 sha256=e6e484de232e2027, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/52.json` size=21714 sha256=956cc4ff9eb687cc, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/53.json` size=11478 sha256=68745019c726f5ea, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/54.json` size=27986 sha256=ddc7e9cc9e8bd315, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/55.json` size=19647 sha256=bd49f2c951a51b46, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/56.json` size=11949 sha256=58168a1e8e7817fd, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/57.json` size=5121 sha256=9d32cf04ac1ee8a0, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/58.json` size=75066 sha256=ae96db38339369ca, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/59.json` size=25833 sha256=14e41e32ad2198a1, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/6.json` size=187154 sha256=ccb3d62c0e1026ac, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/60.json` size=28529 sha256=35aedfc2242113e4, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/61.json` size=17944 sha256=ff0797ac6a4c718e, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/62.json` size=27069 sha256=6926d8bccc315a33, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/63.json` size=3497 sha256=33ea12095c02b5bb, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/64.json` size=3673 sha256=50dbd18eb501f687, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/65.json` size=7531 sha256=e96a9c12af21b8d2, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/66.json` size=123750 sha256=fe9d7d1219b0eea6, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/68.json` size=57805 sha256=8438fc59518616a0, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/7.json` size=184005 sha256=b6fa7ca3f9ab83af, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/72.json` size=144736 sha256=1e59716f9d55841e, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/73.json` size=109685 sha256=a963c6232b9e60cb, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/8.json` size=24308 sha256=fdee15fb5964b8d2, rows=3
+- `sources/katameros.bible/katameros-preparation/data/books/9.json` size=247093 sha256=e77ce863a01685c3, rows=3
+- `sources/katameros.bible/katameros-preparation/data/great-lent-readings.json` size=26253 sha256=fc0708faf6595957, rows=51
+- `sources/katameros.bible/katameros-preparation/data/pentecost-readings.json` size=18343 sha256=415a7597bd19c514, rows=50
+- `sources/katameros.bible/katameros-preparation/data/special-readings.json` size=13858 sha256=b4cd6466f014af38, rows=21
+- `sources/katameros.bible/katameros-preparation/data/sunday-readings.json` size=26559 sha256=6126541eb9552757, rows=52
+- `sources/katameros.bible/katameros-preparation/fetch-content.js` size=10185 sha256=18918c7d7a2ecb7c
+- `sources/katameros.bible/katameros-preparation/utils/article-helpers.js` size=2086 sha256=db6f49d34de2f4b2
+- `sources/katameros.bible/katameros-preparation/utils/bible-helpers.js` size=3091 sha256=6a288ba67b457e95
+- `sources/katameros.bible/katameros-preparation/utils/bible-info.min.js` size=5554 sha256=3e4f7a00d67bfb45
+- `sources/katameros.bible/katameros-preparation/utils/readings-helpers.js` size=6453 sha256=0ada3ce7fc0381b4
+- `sources/katameros.bible/katameros-preparation/utils/readings-repository.js` size=8987 sha256=a0bdee31d885746b
+- `sources/katameros.bible/package-lock.json` size=506466 sha256=a6867d4c04c679c0, rows=5
+- `sources/katameros.bible/package.json` size=3333 sha256=7cf64a5d71ba8219, rows=16
+- `sources/katameros.bible/postcss.config.js` size=83 sha256=fa650b380adfabb1
+- `sources/katameros.bible/src/404.md` size=265 sha256=8cd3e94bd186ebd2
+- `sources/katameros.bible/src/_data/navigation.json` size=72 sha256=53ae0d0a2144ad1d, rows=1
+- `sources/katameros.bible/src/_data/node.js` size=51 sha256=f53667b4a88b803f
+- `sources/katameros.bible/src/_data/site.json` size=824 sha256=e2e1d2da41c826f3, rows=5
+- `sources/katameros.bible/src/_includes/layouts/404.html` size=554 sha256=e5750e3fb6fcc473
+- `sources/katameros.bible/src/_includes/layouts/base.html` size=535 sha256=d398e9282c3443fd
+- `sources/katameros.bible/src/_includes/layouts/home.html` size=522 sha256=1e3250c51495c76b
+- `sources/katameros.bible/src/_includes/layouts/plain.html` size=290 sha256=d1e96b661b26ffcf
+- `sources/katameros.bible/src/_includes/layouts/reading.html` size=8070 sha256=b3a7f875a38037f8
+- `sources/katameros.bible/src/_includes/partials/banner.html` size=3474 sha256=28d70027fb744c32
+- `sources/katameros.bible/src/_includes/partials/side-nav.html` size=10969 sha256=23dad9dc1ee428af
+- `sources/katameros.bible/src/_includes/partials/site-head.html` size=2017 sha256=068d2b1ee5193b3d
+- `sources/katameros.bible/src/_includes/partials/site-header.html` size=1074 sha256=4f8c8f245c8cb112
+- `sources/katameros.bible/src/articles/annual/1-1.liquid` size=112456 sha256=0a16262b99cd7363
+- `sources/katameros.bible/src/articles/annual/1-10.liquid` size=4620 sha256=a6449d371aa6cf1f
+- `sources/katameros.bible/src/articles/annual/1-11.liquid` size=3461 sha256=5113f822fed12fc6
+- `sources/katameros.bible/src/articles/annual/1-12.liquid` size=3158 sha256=4bde30d31f7eefed
+- `sources/katameros.bible/src/articles/annual/1-13.liquid` size=3330 sha256=cda809a61d20bde5
+- `sources/katameros.bible/src/articles/annual/1-14.liquid` size=3017 sha256=92bfe816dedb641a
+- `sources/katameros.bible/src/articles/annual/1-15.liquid` size=3433 sha256=2d3916c84efee164
+- `sources/katameros.bible/src/articles/annual/1-16.liquid` size=200594 sha256=f3956699acb2af3f
+- `sources/katameros.bible/src/articles/annual/1-17.liquid` size=59712 sha256=5985cff089efb535
+- `sources/katameros.bible/src/articles/annual/1-18.liquid` size=24344 sha256=7044269bf97a20c1
+- `sources/katameros.bible/src/articles/annual/1-19.liquid` size=267607 sha256=adfeac23d5375908
+- `sources/katameros.bible/src/articles/annual/1-2.liquid` size=67082 sha256=846ef4d481eb59e7
+- `sources/katameros.bible/src/articles/annual/1-20.liquid` size=3514 sha256=d34f976f6d3eda3b
+- `sources/katameros.bible/src/articles/annual/1-21.liquid` size=89607 sha256=9a90ed6b431b51b5
+- `sources/katameros.bible/src/articles/annual/1-22.liquid` size=3103 sha256=046bf7dfdfe0fd04
+- `sources/katameros.bible/src/articles/annual/1-23.liquid` size=3349 sha256=af964424f0d5d27f
+- `sources/katameros.bible/src/articles/annual/1-24.liquid` size=3590 sha256=8abea19051f387fb
+- `sources/katameros.bible/src/articles/annual/1-25.liquid` size=3023 sha256=a727ca99d8487543
+- `sources/katameros.bible/src/articles/annual/1-26.liquid` size=65393 sha256=e40dd85c22ee8acf
+- `sources/katameros.bible/src/articles/annual/1-27.liquid` size=3814 sha256=39f087b0ac0111d4
+- `sources/katameros.bible/src/articles/annual/1-28.liquid` size=3053 sha256=2065b73455d073a4
+- `sources/katameros.bible/src/articles/annual/1-29.liquid` size=3856 sha256=c953ed2f8655f902
+- `sources/katameros.bible/src/articles/annual/1-3.liquid` size=3538 sha256=b85eac3025cbcfac
+- `sources/katameros.bible/src/articles/annual/1-30.liquid` size=4032 sha256=a5d04c1f64657803
+- `sources/katameros.bible/src/articles/annual/1-4.liquid` size=3993 sha256=31d6dc9cddb8692d
+- `sources/katameros.bible/src/articles/annual/1-5.liquid` size=3240 sha256=ecfed5ebd319e5b6
+- `sources/katameros.bible/src/articles/annual/1-6.liquid` size=3223 sha256=9417636c681cee97
+- `sources/katameros.bible/src/articles/annual/1-7.liquid` size=3578 sha256=0a4c7c79b4e6e3c9
+- `sources/katameros.bible/src/articles/annual/1-8.liquid` size=204309 sha256=3c54c1e0efe69fc6
+- `sources/katameros.bible/src/articles/annual/1-9.liquid` size=3222 sha256=e48023e1481876cd
+- `sources/katameros.bible/src/articles/annual/10-1.liquid` size=3431 sha256=bba0a3c94772ef77
+- `sources/katameros.bible/src/articles/annual/10-10.liquid` size=3421 sha256=67e361d13b91173b
+- `sources/katameros.bible/src/articles/annual/10-11.liquid` size=3287 sha256=48798cfb17ef37bf
+- `sources/katameros.bible/src/articles/annual/10-12.liquid` size=3360 sha256=ba7f1ceeb575357e
+- `sources/katameros.bible/src/articles/annual/10-13.liquid` size=4061 sha256=06425555db7f8ff3
+- `sources/katameros.bible/src/articles/annual/10-14.liquid` size=3224 sha256=0b9610b15bfb2ebe
+- `sources/katameros.bible/src/articles/annual/10-15.liquid` size=3259 sha256=9a6791a311c6dd90
+- `sources/katameros.bible/src/articles/annual/10-16.liquid` size=52282 sha256=0b0a67047fae5220
+- `sources/katameros.bible/src/articles/annual/10-17.liquid` size=3210 sha256=a86384cc9aac8102
+- `sources/katameros.bible/src/articles/annual/10-18.liquid` size=3687 sha256=6042cdb01b9540cc
+- `sources/katameros.bible/src/articles/annual/10-19.liquid` size=3381 sha256=4d5f8c56f39e1cd0
+- `sources/katameros.bible/src/articles/annual/10-2.liquid` size=37655 sha256=c500e07520b92c1b
+- `sources/katameros.bible/src/articles/annual/10-20.liquid` size=49323 sha256=d8eaeaa021154986
+- `sources/katameros.bible/src/articles/annual/10-21.liquid` size=3253 sha256=48100dbc5dc697bb
+- `sources/katameros.bible/src/articles/annual/10-22.liquid` size=3118 sha256=6d51b0b1a2bf11d5
+- `sources/katameros.bible/src/articles/annual/10-23.liquid` size=3061 sha256=db2944bae3c9fe6c
+- `sources/katameros.bible/src/articles/annual/10-24.liquid` size=4425 sha256=2101e515755a6280
+- `sources/katameros.bible/src/articles/annual/10-25.liquid` size=3150 sha256=2bd3c8b2d81fb6af
+- `sources/katameros.bible/src/articles/annual/10-26.liquid` size=4015 sha256=68963d41e7078b66
+- `sources/katameros.bible/src/articles/annual/10-27.liquid` size=3516 sha256=302f53adb408baf3
+- `sources/katameros.bible/src/articles/annual/10-28.liquid` size=3244 sha256=2cffa24e2ba04598
+- `sources/katameros.bible/src/articles/annual/10-29.liquid` size=3197 sha256=ec0a57dca80c5da1
+- `sources/katameros.bible/src/articles/annual/10-3.liquid` size=3485 sha256=ff1de6cf16f88c9d
+- `sources/katameros.bible/src/articles/annual/10-30.liquid` size=53116 sha256=a9d549378163dc2d
+- `sources/katameros.bible/src/articles/annual/10-4.liquid` size=3609 sha256=20457cadc8767d73
+- `sources/katameros.bible/src/articles/annual/10-5.liquid` size=3418 sha256=184e7822fca8185a
+- `sources/katameros.bible/src/articles/annual/10-6.liquid` size=3003 sha256=0ffe3cb16373b24d
+- `sources/katameros.bible/src/articles/annual/10-7.liquid` size=3021 sha256=b71a01c236fb56ba
+- `sources/katameros.bible/src/articles/annual/10-8.liquid` size=3247 sha256=6293f93a36d83239
+- `sources/katameros.bible/src/articles/annual/10-9.liquid` size=3284 sha256=eab7394e869bc6c4
+- `sources/katameros.bible/src/articles/annual/11-1.liquid` size=3166 sha256=41acc8c53df0ad5b
+- `sources/katameros.bible/src/articles/annual/11-10.liquid` size=3405 sha256=94477def249bf823
+- `sources/katameros.bible/src/articles/annual/11-11.liquid` size=3150 sha256=fba1d6c2bdeebe67
+- `sources/katameros.bible/src/articles/annual/11-12.liquid` size=3064 sha256=dda36576d6bf7011
+- `sources/katameros.bible/src/articles/annual/11-13.liquid` size=3310 sha256=c3392a97347762e5
+- `sources/katameros.bible/src/articles/annual/11-14.liquid` size=3672 sha256=9233cff835fa8b9c
+- `sources/katameros.bible/src/articles/annual/11-15.liquid` size=3474 sha256=ef1023f414687ce6
+- `sources/katameros.bible/src/articles/annual/11-16.liquid` size=3251 sha256=c71db48969a04b80
+- `sources/katameros.bible/src/articles/annual/11-17.liquid` size=3099 sha256=fa5cf2cd5667e9d3
+- `sources/katameros.bible/src/articles/annual/11-18.liquid` size=3006 sha256=057d782d9e7a370d
+- `sources/katameros.bible/src/articles/annual/11-19.liquid` size=3381 sha256=085ba86ec48c38b7
+- `sources/katameros.bible/src/articles/annual/11-2.liquid` size=3377 sha256=ae0b7c9f10bbcb66
+- `sources/katameros.bible/src/articles/annual/11-20.liquid` size=158048 sha256=ed9e53faa5021862
+- `sources/katameros.bible/src/articles/annual/11-21.liquid` size=3077 sha256=cb69a99ca49bfdbe
+- `sources/katameros.bible/src/articles/annual/11-22.liquid` size=3348 sha256=bc32dec88bc262e9
+- `sources/katameros.bible/src/articles/annual/11-23.liquid` size=3163 sha256=3c9cdb8b2df33b45
+- `sources/katameros.bible/src/articles/annual/11-24.liquid` size=3092 sha256=2f3233986e4014f1
+- `sources/katameros.bible/src/articles/annual/11-25.liquid` size=3483 sha256=05450e5833f15850
+- `sources/katameros.bible/src/articles/annual/11-26.liquid` size=3040 sha256=1954bb188eac2121
+- `sources/katameros.bible/src/articles/annual/11-27.liquid` size=3147 sha256=c980f9e48409bd6b
+- `sources/katameros.bible/src/articles/annual/11-28.liquid` size=3051 sha256=a2bb08fe5bbb1585
+- `sources/katameros.bible/src/articles/annual/11-29.liquid` size=3184 sha256=76cefa94cb00dd26
+- `sources/katameros.bible/src/articles/annual/11-3.liquid` size=103494 sha256=73028e3d7d21dc78
+- `sources/katameros.bible/src/articles/annual/11-30.liquid` size=3036 sha256=7cf989f59a37387a
+- `sources/katameros.bible/src/articles/annual/11-4.liquid` size=3011 sha256=092d7bb8982917ee
+- `sources/katameros.bible/src/articles/annual/11-5.liquid` size=112125 sha256=fc6d52045f09608b
+- `sources/katameros.bible/src/articles/annual/11-6.liquid` size=3178 sha256=10b036bd0b7c2332
+- `sources/katameros.bible/src/articles/annual/11-7.liquid` size=3150 sha256=60fd41578dfb0d3f
+- `sources/katameros.bible/src/articles/annual/11-8.liquid` size=3563 sha256=44004510cf2e1dba
+- `sources/katameros.bible/src/articles/annual/11-9.liquid` size=3741 sha256=34f892b32a4736f4
+- `sources/katameros.bible/src/articles/annual/12-1.liquid` size=3186 sha256=4beeaaa167595404
+- `sources/katameros.bible/src/articles/annual/12-10.liquid` size=3050 sha256=c4d09a6cf2d88383
+- `sources/katameros.bible/src/articles/annual/12-11.liquid` size=3079 sha256=19497841a91efccb
+- `sources/katameros.bible/src/articles/annual/12-12.liquid` size=3016 sha256=a98e6527aacf3837
+- `sources/katameros.bible/src/articles/annual/12-13.liquid` size=140230 sha256=23eb1bbad50807d2
+- `sources/katameros.bible/src/articles/annual/12-14.liquid` size=3186 sha256=719db33ad7567b2c
+- `sources/katameros.bible/src/articles/annual/12-15.liquid` size=3041 sha256=5e02ef31f059a507
+- `sources/katameros.bible/src/articles/annual/12-16.liquid` size=3081 sha256=db6151fcdd0ae287
+- `sources/katameros.bible/src/articles/annual/12-17.liquid` size=4520 sha256=3a681e1599afb2df
+- `sources/katameros.bible/src/articles/annual/12-18.liquid` size=3777 sha256=51d259c1483125e5
+- `sources/katameros.bible/src/articles/annual/12-19.liquid` size=3518 sha256=7a03fcbf155259f9
+- `sources/katameros.bible/src/articles/annual/12-2.liquid` size=3326 sha256=239d375861b7b9c1
+- `sources/katameros.bible/src/articles/annual/12-20.liquid` size=3042 sha256=46a113950942478e
+- `sources/katameros.bible/src/articles/annual/12-21.liquid` size=3089 sha256=cf75bc1e0c01d4ed
+- `sources/katameros.bible/src/articles/annual/12-22.liquid` size=3173 sha256=01ce8f99aee51681
+- `sources/katameros.bible/src/articles/annual/12-23.liquid` size=3096 sha256=a6411d63b7467e92
+- `sources/katameros.bible/src/articles/annual/12-24.liquid` size=3130 sha256=95346c393957ddd3
+- `sources/katameros.bible/src/articles/annual/12-25.liquid` size=17309 sha256=319c7918f41515d2
+- `sources/katameros.bible/src/articles/annual/12-26.liquid` size=34081 sha256=c7681e5a34e011c9
+- `sources/katameros.bible/src/articles/annual/12-27.liquid` size=3196 sha256=1360c42059a15d7c
+- `sources/katameros.bible/src/articles/annual/12-28.liquid` size=156038 sha256=48fbcb67e9a187e5
+- `sources/katameros.bible/src/articles/annual/12-29.liquid` size=81277 sha256=571c116896d42082
+- `sources/katameros.bible/src/articles/annual/12-3.liquid` size=115990 sha256=2d6aeb7d2d88a167
+- `sources/katameros.bible/src/articles/annual/12-30.liquid` size=108428 sha256=938778a5e2d385a5
+- `sources/katameros.bible/src/articles/annual/12-4.liquid` size=3112 sha256=39915fddd86c8569
+- `sources/katameros.bible/src/articles/annual/12-5.liquid` size=3077 sha256=e70ad350626d7ead
+- `sources/katameros.bible/src/articles/annual/12-6.liquid` size=3033 sha256=28461fcd03197a18
+- `sources/katameros.bible/src/articles/annual/12-7.liquid` size=3331 sha256=ee32ece01cc2b5bd
+- `sources/katameros.bible/src/articles/annual/12-8.liquid` size=3268 sha256=0179a2ae11ddb3a4
+- `sources/katameros.bible/src/articles/annual/12-9.liquid` size=3046 sha256=d7f468ec40549ccd
+- `sources/katameros.bible/src/articles/annual/13-1.liquid` size=4258 sha256=0126cd32c6942b7c
+- `sources/katameros.bible/src/articles/annual/13-2.liquid` size=49478 sha256=f85a8b23a203e739
+- `sources/katameros.bible/src/articles/annual/13-3.liquid` size=5038 sha256=8eac4de7cc2d176d
+- `sources/katameros.bible/src/articles/annual/13-4.liquid` size=4960 sha256=15eaa991a22a710a
+- `sources/katameros.bible/src/articles/annual/13-5.liquid` size=3959 sha256=055d5448bff982d8
+- `sources/katameros.bible/src/articles/annual/13-6.liquid` size=97407 sha256=33081a8a8e0265f4
+- `sources/katameros.bible/src/articles/annual/1361.liquid` size=23283 sha256=3830bc4326b7b0a5
+- `sources/katameros.bible/src/articles/annual/1937.liquid` size=21818 sha256=329fd0adab279ebd
+- `sources/katameros.bible/src/articles/annual/1939.liquid` size=37775 sha256=c76c335339c28e12
+- `sources/katameros.bible/src/articles/annual/1941.liquid` size=21643 sha256=952eb2dbf18114d0
+- `sources/katameros.bible/src/articles/annual/1943.liquid` size=19581 sha256=bd7225a4901b6849
+- `sources/katameros.bible/src/articles/annual/1945.liquid` size=60415 sha256=287ff6cff3592977
+- `sources/katameros.bible/src/articles/annual/1947.liquid` size=41376 sha256=9929c723b8c7af71
+- `sources/katameros.bible/src/articles/annual/2-1.liquid` size=3013 sha256=1028dbaaf206f853
+- `sources/katameros.bible/src/articles/annual/2-10.liquid` size=3304 sha256=781cfb2c35544ad4
+- `sources/katameros.bible/src/articles/annual/2-11.liquid` size=3161 sha256=269381461004350d
+- `sources/katameros.bible/src/articles/annual/2-12.liquid` size=110207 sha256=8caa1efdd20ed474
+- `sources/katameros.bible/src/articles/annual/2-13.liquid` size=3008 sha256=153581e3231e13ac
+- `sources/katameros.bible/src/articles/annual/2-14.liquid` size=138014 sha256=aaf2219947ad2115
+- `sources/katameros.bible/src/articles/annual/2-15.liquid` size=3017 sha256=b4ef009a2095da2b
+- `sources/katameros.bible/src/articles/annual/2-16.liquid` size=3170 sha256=077737853ba63a86
+- `sources/katameros.bible/src/articles/annual/2-17.liquid` size=3211 sha256=28c7bbd67d327dde
+- `sources/katameros.bible/src/articles/annual/2-18.liquid` size=3043 sha256=33bbe7f56607c516
+- `sources/katameros.bible/src/articles/annual/2-19.liquid` size=3132 sha256=c8be775b9f319209
+- `sources/katameros.bible/src/articles/annual/2-2.liquid` size=3047 sha256=f9ab2bb0121f6c05
+- `sources/katameros.bible/src/articles/annual/2-20.liquid` size=3017 sha256=d411527b49fd4edb
+- `sources/katameros.bible/src/articles/annual/2-21.liquid` size=3180 sha256=1c08dabc5b1589e6
+- `sources/katameros.bible/src/articles/annual/2-22.liquid` size=96825 sha256=5ff4f6d8145ad0d0
+- `sources/katameros.bible/src/articles/annual/2-23.liquid` size=3269 sha256=1cfce80017c29c12
+- `sources/katameros.bible/src/articles/annual/2-24.liquid` size=3180 sha256=5e44f8d1a2e36216
+- `sources/katameros.bible/src/articles/annual/2-25.liquid` size=3242 sha256=2728675151e5d855
+- `sources/katameros.bible/src/articles/annual/2-26.liquid` size=3207 sha256=1b932981e7771cc4
+- `sources/katameros.bible/src/articles/annual/2-27.liquid` size=214165 sha256=1208a3256cdcd152
+- `sources/katameros.bible/src/articles/annual/2-28.liquid` size=3111 sha256=6ddb59b02a5d0c1c
+- `sources/katameros.bible/src/articles/annual/2-29.liquid` size=3036 sha256=c061af72ec2b4be1
+- `sources/katameros.bible/src/articles/annual/2-3.liquid` size=3285 sha256=bd89c0137052b17e
+- `sources/katameros.bible/src/articles/annual/2-30.liquid` size=4421 sha256=a4870143c6e683d2
+- `sources/katameros.bible/src/articles/annual/2-4.liquid` size=2984 sha256=ca9d037caad57e4d
+- `sources/katameros.bible/src/articles/annual/2-5.liquid` size=3253 sha256=a9c256afe1d56068
+- `sources/katameros.bible/src/articles/annual/2-6.liquid` size=3010 sha256=dc86b16408ee7b16
+- `sources/katameros.bible/src/articles/annual/2-7.liquid` size=3008 sha256=d6c01071e6d1304c
+- `sources/katameros.bible/src/articles/annual/2-8.liquid` size=3126 sha256=769d69e3b4885b5f
+- `sources/katameros.bible/src/articles/annual/2-9.liquid` size=3528 sha256=06541fc6bc63762d
+- `sources/katameros.bible/src/articles/annual/3-1.liquid` size=3515 sha256=ba0ca5c8b2893184
+- `sources/katameros.bible/src/articles/annual/3-10.liquid` size=3191 sha256=30a80d7b4b24b9ce
+- `sources/katameros.bible/src/articles/annual/3-11.liquid` size=3216 sha256=b0a6f4145c07d001
+- `sources/katameros.bible/src/articles/annual/3-12.liquid` size=103927 sha256=91a770bfe56524b8
+- `sources/katameros.bible/src/articles/annual/3-13.liquid` size=3288 sha256=497c5ccb8e8ecbc0
+- `sources/katameros.bible/src/articles/annual/3-14.liquid` size=3204 sha256=ed474f7d0eeaac96
+- `sources/katameros.bible/src/articles/annual/3-15.liquid` size=169931 sha256=2c31cd38e9f28f04
+- `sources/katameros.bible/src/articles/annual/3-16.liquid` size=3194 sha256=c19e70ba517fea76
+- `sources/katameros.bible/src/articles/annual/3-17.liquid` size=134510 sha256=747862cd6a6f0b52
+- `sources/katameros.bible/src/articles/annual/3-18.liquid` size=3259 sha256=12e2e703854ee697
+- `sources/katameros.bible/src/articles/annual/3-19.liquid` size=3176 sha256=34a5c30dff94df01
+- `sources/katameros.bible/src/articles/annual/3-2.liquid` size=3040 sha256=263b2502ec3a70c0
+- `sources/katameros.bible/src/articles/annual/3-20.liquid` size=3244 sha256=9eb94c2d9b5216c2
+- `sources/katameros.bible/src/articles/annual/3-21.liquid` size=3470 sha256=a1541c4e477ab3d5
+- `sources/katameros.bible/src/articles/annual/3-22.liquid` size=106230 sha256=4616b0f3196e87bf
+- `sources/katameros.bible/src/articles/annual/3-23.liquid` size=3169 sha256=9d674f32fe394ff9
+- `sources/katameros.bible/src/articles/annual/3-24.liquid` size=114943 sha256=687b4b9fad7b26d6
+- `sources/katameros.bible/src/articles/annual/3-25.liquid` size=134607 sha256=16c8eb340e7f262e
+- `sources/katameros.bible/src/articles/annual/3-26.liquid` size=3176 sha256=452818ce3cff6a29
+- `sources/katameros.bible/src/articles/annual/3-27.liquid` size=93074 sha256=decea135b8cafd7c
+- `sources/katameros.bible/src/articles/annual/3-28.liquid` size=188171 sha256=1443d84d6b8b90e5
+- `sources/katameros.bible/src/articles/annual/3-29.liquid` size=199497 sha256=15568400683ac728
+- `sources/katameros.bible/src/articles/annual/3-3.liquid` size=3159 sha256=e64d566da9db82e3
+- `sources/katameros.bible/src/articles/annual/3-30.liquid` size=3956 sha256=a35824e742ee4d0d
+- `sources/katameros.bible/src/articles/annual/3-4.liquid` size=3335 sha256=788c9c8fd52955f7
+- `sources/katameros.bible/src/articles/annual/3-5.liquid` size=3225 sha256=f4e3b79f13242433
+- `sources/katameros.bible/src/articles/annual/3-6.liquid` size=3286 sha256=dd3366a9eb125ee8
+- `sources/katameros.bible/src/articles/annual/3-7.liquid` size=3310 sha256=5368d2525197ac9e
+- `sources/katameros.bible/src/articles/annual/3-8.liquid` size=62693 sha256=8c9ea0a4951c5d73
+- `sources/katameros.bible/src/articles/annual/3-9.liquid` size=163488 sha256=eaf912c7efe48e9b
+- `sources/katameros.bible/src/articles/annual/4-1.liquid` size=3416 sha256=f20396db85cd21ba
+- `sources/katameros.bible/src/articles/annual/4-10.liquid` size=3079 sha256=62ad1e50fb1e8358
+- `sources/katameros.bible/src/articles/annual/4-11.liquid` size=2977 sha256=9d0c732b83add19a
+- `sources/katameros.bible/src/articles/annual/4-12.liquid` size=3186 sha256=9b964be56baca4e0
+- `sources/katameros.bible/src/articles/annual/4-13.liquid` size=3288 sha256=66e651e97af3938f
+- `sources/katameros.bible/src/articles/annual/4-14.liquid` size=3211 sha256=59ea991fb905e408
+- `sources/katameros.bible/src/articles/annual/4-15.liquid` size=3013 sha256=061a9232afcddcaf
+- `sources/katameros.bible/src/articles/annual/4-16.liquid` size=3457 sha256=0cf571e22abf3caf
+- `sources/katameros.bible/src/articles/annual/4-17.liquid` size=3042 sha256=004ce7536beb604b
+- `sources/katameros.bible/src/articles/annual/4-18.liquid` size=3187 sha256=c2b69339ada60692
+- `sources/katameros.bible/src/articles/annual/4-19.liquid` size=2987 sha256=710af8d811308559
+- `sources/katameros.bible/src/articles/annual/4-2.liquid` size=3107 sha256=efac0ae290a75adf
+- `sources/katameros.bible/src/articles/annual/4-20.liquid` size=3073 sha256=147a45278f2469ed
+- `sources/katameros.bible/src/articles/annual/4-21.liquid` size=3136 sha256=d11c3192eb25f8e6
+- `sources/katameros.bible/src/articles/annual/4-22.liquid` size=51711 sha256=d94928eef4335ecb
+- `sources/katameros.bible/src/articles/annual/4-23.liquid` size=3133 sha256=1305d8a6c526cacd
+- `sources/katameros.bible/src/articles/annual/4-24.liquid` size=3286 sha256=bc2d4b3a6745c345
+- `sources/katameros.bible/src/articles/annual/4-25.liquid` size=2942 sha256=a4c25e093df03dc2
+- `sources/katameros.bible/src/articles/annual/4-26.liquid` size=3070 sha256=4a20e7e91ad558a5
+- `sources/katameros.bible/src/articles/annual/4-27.liquid` size=3030 sha256=3339160d4d6e4833
+- `sources/katameros.bible/src/articles/annual/4-28.liquid` size=203941 sha256=d37537f89ee9e522
+- `sources/katameros.bible/src/articles/annual/4-29.liquid` size=212054 sha256=f6ff1c490a4deac4
+- `sources/katameros.bible/src/articles/annual/4-3.liquid` size=3202 sha256=54072a071d7d206f
+- `sources/katameros.bible/src/articles/annual/4-30.liquid` size=172539 sha256=b2095f9d200c77aa
+- `sources/katameros.bible/src/articles/annual/4-4.liquid` size=2959 sha256=f887e64c3ea10f93
+- `sources/katameros.bible/src/articles/annual/4-5.liquid` size=3152 sha256=3e92d02fcce27b3b
+- `sources/katameros.bible/src/articles/annual/4-6.liquid` size=3089 sha256=4c7e4bd240f20562
+- `sources/katameros.bible/src/articles/annual/4-7.liquid` size=3142 sha256=530dc2eb5da4e636
+- `sources/katameros.bible/src/articles/annual/4-8.liquid` size=3265 sha256=2789bf634e8bd8ad
+- `sources/katameros.bible/src/articles/annual/4-9.liquid` size=2996 sha256=4c4ffb039a5e5602
+- `sources/katameros.bible/src/articles/annual/5-1.liquid` size=116802 sha256=89f76192e732c45e
+- `sources/katameros.bible/src/articles/annual/5-10.liquid` size=83784 sha256=300c6dc0f04fd800
+- `sources/katameros.bible/src/articles/annual/5-11.liquid` size=131989 sha256=fdd6ccbd3de4e6f9
+- `sources/katameros.bible/src/articles/annual/5-12.liquid` size=42004 sha256=bb0f728bcf39d2bc
+- `sources/katameros.bible/src/articles/annual/5-13.liquid` size=160796 sha256=fd90f544ed0b9835
+- `sources/katameros.bible/src/articles/annual/5-14.liquid` size=3060 sha256=ddc677d26776ed35
+- `sources/katameros.bible/src/articles/annual/5-15.liquid` size=3086 sha256=ddf7273ffdd74aec
+- `sources/katameros.bible/src/articles/annual/5-16.liquid` size=3129 sha256=7ec35b2fdd685728
+- `sources/katameros.bible/src/articles/annual/5-17.liquid` size=3172 sha256=82e06cc7a1a3593c
+- `sources/katameros.bible/src/articles/annual/5-18.liquid` size=3242 sha256=2acc1d0ccaf06e58
+- `sources/katameros.bible/src/articles/annual/5-19.liquid` size=3071 sha256=275253eb22a253f9
+- `sources/katameros.bible/src/articles/annual/5-2.liquid` size=3358 sha256=de9d79e481279bed
+- `sources/katameros.bible/src/articles/annual/5-20.liquid` size=3276 sha256=8ba039a11faf75a3
+- `sources/katameros.bible/src/articles/annual/5-21.liquid` size=3242 sha256=04585294f54812df
+- `sources/katameros.bible/src/articles/annual/5-22.liquid` size=260067 sha256=6e2ec365f4def130
+- `sources/katameros.bible/src/articles/annual/5-23.liquid` size=3455 sha256=f5c10300ac64d5ac
+- `sources/katameros.bible/src/articles/annual/5-24.liquid` size=3276 sha256=9b32d7225d329d3b
+- `sources/katameros.bible/src/articles/annual/5-25.liquid` size=3260 sha256=4e98c68ca8965c6c
+- `sources/katameros.bible/src/articles/annual/5-26.liquid` size=151844 sha256=eb38bf63b4908b1c
+- `sources/katameros.bible/src/articles/annual/5-27.liquid` size=3583 sha256=dbcf17736d512101
+- `sources/katameros.bible/src/articles/annual/5-28.liquid` size=3175 sha256=0581c751f68bf0e5
+- `sources/katameros.bible/src/articles/annual/5-29.liquid` size=3205 sha256=afefd7e7ea566d3b
+- `sources/katameros.bible/src/articles/annual/5-3.liquid` size=68347 sha256=b93341f6c033b1f2
+- `sources/katameros.bible/src/articles/annual/5-30.liquid` size=223941 sha256=949e5b0c0238a286
+- `sources/katameros.bible/src/articles/annual/5-4.liquid` size=132933 sha256=ae16d3dce2a2005c
+- `sources/katameros.bible/src/articles/annual/5-5.liquid` size=3463 sha256=4dbeb9e650ec24a4
+- `sources/katameros.bible/src/articles/annual/5-6.liquid` size=155976 sha256=fa56654d443289b0
+- `sources/katameros.bible/src/articles/annual/5-7.liquid` size=3078 sha256=1293c48ffd3f5506
+- `sources/katameros.bible/src/articles/annual/5-8.liquid` size=3266 sha256=4b1af6683e9b00a3
+- `sources/katameros.bible/src/articles/annual/5-9.liquid` size=3015 sha256=2d573d2946adb5d6
+- `sources/katameros.bible/src/articles/annual/6-1.liquid` size=3403 sha256=568a1dbe2e8ff9c5
+- `sources/katameros.bible/src/articles/annual/6-10.liquid` size=3231 sha256=a96629f9f07fc10b
+- `sources/katameros.bible/src/articles/annual/6-11.liquid` size=3220 sha256=546065398054c21d
+- `sources/katameros.bible/src/articles/annual/6-12.liquid` size=3144 sha256=98708a73dd3f78fd
+- `sources/katameros.bible/src/articles/annual/6-13.liquid` size=3172 sha256=31aaebd16e8fd250
+- `sources/katameros.bible/src/articles/annual/6-14.liquid` size=3369 sha256=d6a66dac99bdc9a8
+- `sources/katameros.bible/src/articles/annual/6-15.liquid` size=3183 sha256=d8d0bc489d597eac
+- `sources/katameros.bible/src/articles/annual/6-16.liquid` size=3014 sha256=9139e57f8c0801a9
+- `sources/katameros.bible/src/articles/annual/6-17.liquid` size=3175 sha256=7b34c363b1ac798b
+- `sources/katameros.bible/src/articles/annual/6-18.liquid` size=3214 sha256=2c48dd713227f41b
+- `sources/katameros.bible/src/articles/annual/6-19.liquid` size=3010 sha256=c16409751153d3eb
+- `sources/katameros.bible/src/articles/annual/6-2.liquid` size=136672 sha256=bc658aa92a47b270
+- `sources/katameros.bible/src/articles/annual/6-20.liquid` size=3259 sha256=3879df148a7d8643
+- `sources/katameros.bible/src/articles/annual/6-21.liquid` size=3150 sha256=9d02aedd967b702d
+- `sources/katameros.bible/src/articles/annual/6-22.liquid` size=3099 sha256=432793bcec2c1213
+- `sources/katameros.bible/src/articles/annual/6-23.liquid` size=3043 sha256=f2a780521e515c9f
+- `sources/katameros.bible/src/articles/annual/6-24.liquid` size=3208 sha256=ebdb5e3378eea6d3
+- `sources/katameros.bible/src/articles/annual/6-25.liquid` size=3252 sha256=5821887efd152de9
+- `sources/katameros.bible/src/articles/annual/6-26.liquid` size=3128 sha256=bd4194ec8e3e9332
+- `sources/katameros.bible/src/articles/annual/6-27.liquid` size=3103 sha256=7bd6d0fad61e90b1
+- `sources/katameros.bible/src/articles/annual/6-28.liquid` size=3168 sha256=56edb4f3ecbf1eb2
+- `sources/katameros.bible/src/articles/annual/6-29.liquid` size=3182 sha256=41fe0c43686c498a
+- `sources/katameros.bible/src/articles/annual/6-3.liquid` size=3091 sha256=87aa0c1b77bd0356
+- `sources/katameros.bible/src/articles/annual/6-30.liquid` size=3178 sha256=c150558e49c0faa8
+- `sources/katameros.bible/src/articles/annual/6-4.liquid` size=3013 sha256=f1fdb53fd346d41e
+- `sources/katameros.bible/src/articles/annual/6-5.liquid` size=3343 sha256=5272b1b3049744b3
+- `sources/katameros.bible/src/articles/annual/6-6.liquid` size=3235 sha256=c0600154344381fd
+- `sources/katameros.bible/src/articles/annual/6-7.liquid` size=3126 sha256=3215ad967a4a65d2
+- `sources/katameros.bible/src/articles/annual/6-8.liquid` size=31327 sha256=d2c891cbb31aa65a
+- `sources/katameros.bible/src/articles/annual/6-9.liquid` size=3271 sha256=b1ae6d4eca51c92d
+- `sources/katameros.bible/src/articles/annual/7-1.liquid` size=3344 sha256=cb1b91e16f0d201a
+- `sources/katameros.bible/src/articles/annual/7-10.liquid` size=3005 sha256=98a2d927837cc141
+- `sources/katameros.bible/src/articles/annual/7-11.liquid` size=3005 sha256=c2905b0ffc839ec1
+- `sources/katameros.bible/src/articles/annual/7-12.liquid` size=3241 sha256=08e34a0472acf826
+- `sources/katameros.bible/src/articles/annual/7-13.liquid` size=53841 sha256=b9eeea0a2372616b
+- `sources/katameros.bible/src/articles/annual/7-14.liquid` size=3120 sha256=9920cf3ad3c22ee9
+- `sources/katameros.bible/src/articles/annual/7-15.liquid` size=3135 sha256=5674b0082c3ef5f5
+- `sources/katameros.bible/src/articles/annual/7-16.liquid` size=3063 sha256=89e884f0b854883b
+- `sources/katameros.bible/src/articles/annual/7-17.liquid` size=3407 sha256=c70224bb84af7d95
+- `sources/katameros.bible/src/articles/annual/7-18.liquid` size=3009 sha256=f4a545d0682e7ac8
+- `sources/katameros.bible/src/articles/annual/7-19.liquid` size=3174 sha256=c6928e0b866472ef
+- `sources/katameros.bible/src/articles/annual/7-2.liquid` size=3087 sha256=2d29520ba3cc3cad
+- `sources/katameros.bible/src/articles/annual/7-20.liquid` size=3103 sha256=916ba43746820eb0
+- `sources/katameros.bible/src/articles/annual/7-21.liquid` size=3491 sha256=d16123f022bcd444
+- `sources/katameros.bible/src/articles/annual/7-22.liquid` size=3329 sha256=91c031429ae409ac
+- `sources/katameros.bible/src/articles/annual/7-23.liquid` size=7031 sha256=cd44b3739376f100
+- `sources/katameros.bible/src/articles/annual/7-24.liquid` size=3303 sha256=e0ec76804c4bea79
+- `sources/katameros.bible/src/articles/annual/7-25.liquid` size=3164 sha256=e46519a0583ab7c0
+- `sources/katameros.bible/src/articles/annual/7-26.liquid` size=3197 sha256=fd6334e6d8c10dbc
+- `sources/katameros.bible/src/articles/annual/7-27.liquid` size=3166 sha256=9311d696f1ec5a59
+- `sources/katameros.bible/src/articles/annual/7-28.liquid` size=3213 sha256=a53ed506f28a9efc
+- `sources/katameros.bible/src/articles/annual/7-29.liquid` size=173902 sha256=36c5fb4640c76f64
+- `sources/katameros.bible/src/articles/annual/7-3.liquid` size=3148 sha256=c56d7e208537a8de
+- `sources/katameros.bible/src/articles/annual/7-30.liquid` size=6237 sha256=e35b927824c583a0
+- `sources/katameros.bible/src/articles/annual/7-4.liquid` size=3246 sha256=b7f8ee2bceeb036a
+- `sources/katameros.bible/src/articles/annual/7-5.liquid` size=3291 sha256=c724a3bcd4d99210
+- `sources/katameros.bible/src/articles/annual/7-6.liquid` size=3144 sha256=5ad07a34916892f4
+- `sources/katameros.bible/src/articles/annual/7-7.liquid` size=3341 sha256=2f9abd87b3d5aefa
+- `sources/katameros.bible/src/articles/annual/7-8.liquid` size=3124 sha256=2c0756e4db1c3440
+- `sources/katameros.bible/src/articles/annual/7-9.liquid` size=3229 sha256=e448e29ee87f29e1
+- `sources/katameros.bible/src/articles/annual/8-1.liquid` size=3174 sha256=efd9cf9dc21cc8fa
+- `sources/katameros.bible/src/articles/annual/8-10.liquid` size=3071 sha256=65a65492f2fd8486
+- `sources/katameros.bible/src/articles/annual/8-11.liquid` size=3080 sha256=0c7bfcd07ab13426
+- `sources/katameros.bible/src/articles/annual/8-12.liquid` size=3133 sha256=853756e6e4868de9
+- `sources/katameros.bible/src/articles/annual/8-13.liquid` size=3232 sha256=6758fc54445276af
+- `sources/katameros.bible/src/articles/annual/8-14.liquid` size=3178 sha256=a54b8f55cb87f260
+- `sources/katameros.bible/src/articles/annual/8-15.liquid` size=3335 sha256=59138fadf4b836ab
+- `sources/katameros.bible/src/articles/annual/8-16.liquid` size=3060 sha256=ec54e5cf773fc6f8
+- `sources/katameros.bible/src/articles/annual/8-17.liquid` size=3008 sha256=7cf854b7ee120c66
+- `sources/katameros.bible/src/articles/annual/8-18.liquid` size=3185 sha256=e32e4c7804d67182
+- `sources/katameros.bible/src/articles/annual/8-19.liquid` size=3486 sha256=bc23850a39f060d8
+- `sources/katameros.bible/src/articles/annual/8-2.liquid` size=3144 sha256=601488d993416563
+- `sources/katameros.bible/src/articles/annual/8-20.liquid` size=3026 sha256=c5a2e243ea0bf97d
+- `sources/katameros.bible/src/articles/annual/8-21.liquid` size=3037 sha256=c933dfb47de1e1e9
+- `sources/katameros.bible/src/articles/annual/8-22.liquid` size=3302 sha256=35e5b002e60ae20f
+- `sources/katameros.bible/src/articles/annual/8-23.liquid` size=119674 sha256=0b2ba47afd51b9b2
+- `sources/katameros.bible/src/articles/annual/8-24.liquid` size=3229 sha256=42c43298d5a7d1a7
+- `sources/katameros.bible/src/articles/annual/8-25.liquid` size=3341 sha256=c2e520a7423d6dae
+- `sources/katameros.bible/src/articles/annual/8-26.liquid` size=3184 sha256=fdfde4066bfb5a7b
+- `sources/katameros.bible/src/articles/annual/8-27.liquid` size=104892 sha256=22657441393cfc84
+- `sources/katameros.bible/src/articles/annual/8-28.liquid` size=3188 sha256=4d7e2876b5d86d29
+- `sources/katameros.bible/src/articles/annual/8-29.liquid` size=3134 sha256=06dfe9de3b476bbe
+- `sources/katameros.bible/src/articles/annual/8-3.liquid` size=3132 sha256=88dbf919c29c8536
+- `sources/katameros.bible/src/articles/annual/8-30.liquid` size=98942 sha256=c497bf86bec70168
+- `sources/katameros.bible/src/articles/annual/8-4.liquid` size=3063 sha256=680d467bb8b0094d
+- `sources/katameros.bible/src/articles/annual/8-5.liquid` size=3220 sha256=662d6314e55d969f
+- `sources/katameros.bible/src/articles/annual/8-6.liquid` size=3081 sha256=3180e0fb47c0daba
+- `sources/katameros.bible/src/articles/annual/8-7.liquid` size=3145 sha256=75f181dd7191e94e
+- `sources/katameros.bible/src/articles/annual/8-8.liquid` size=3138 sha256=a369702d54ea8786
+- `sources/katameros.bible/src/articles/annual/8-9.liquid` size=3330 sha256=faa71bb111b7ff1e
+- `sources/katameros.bible/src/articles/annual/9-1.liquid` size=182383 sha256=7c9341bc098f0103
+- `sources/katameros.bible/src/articles/annual/9-10.liquid` size=183226 sha256=7ffb8e0c8d9b1547
+- `sources/katameros.bible/src/articles/annual/9-11.liquid` size=3237 sha256=1e83246cc88cdd25
+- `sources/katameros.bible/src/articles/annual/9-12.liquid` size=3534 sha256=a6181e5184202700
+- `sources/katameros.bible/src/articles/annual/9-13.liquid` size=3065 sha256=40135d0ceda0f98b
+- `sources/katameros.bible/src/articles/annual/9-14.liquid` size=3100 sha256=0df2fd3ed5a0197e
+- `sources/katameros.bible/src/articles/annual/9-15.liquid` size=3191 sha256=a5e5593354a3da70
+- `sources/katameros.bible/src/articles/annual/9-16.liquid` size=3308 sha256=6679e863567d5a58
+- `sources/katameros.bible/src/articles/annual/9-17.liquid` size=3077 sha256=740817663b98c4f3
+- `sources/katameros.bible/src/articles/annual/9-18.liquid` size=3090 sha256=1e6840a609291d37
+- `sources/katameros.bible/src/articles/annual/9-19.liquid` size=3146 sha256=60d46ca00d49da18
+- `sources/katameros.bible/src/articles/annual/9-2.liquid` size=3115 sha256=a0bae7c57e15f76c
+- `sources/katameros.bible/src/articles/annual/9-20.liquid` size=136706 sha256=9d60cbd2aa5d6745
+- `sources/katameros.bible/src/articles/annual/9-21.liquid` size=3021 sha256=8aa4fc1964d14dde
+- `sources/katameros.bible/src/articles/annual/9-22.liquid` size=3068 sha256=96b5bef403d69e47
+- `sources/katameros.bible/src/articles/annual/9-23.liquid` size=3626 sha256=c38df335f58975cc
+- `sources/katameros.bible/src/articles/annual/9-24.liquid` size=108249 sha256=806d3fcd3f94bd6f
+- `sources/katameros.bible/src/articles/annual/9-25.liquid` size=3254 sha256=22d3e93dcefae6b0
+- `sources/katameros.bible/src/articles/annual/9-26.liquid` size=101588 sha256=05b5a0ae9e99070a
+- `sources/katameros.bible/src/articles/annual/9-27.liquid` size=3459 sha256=dc639bba44c892a0
+- `sources/katameros.bible/src/articles/annual/9-28.liquid` size=3859 sha256=b6f8c18391add681
+- `sources/katameros.bible/src/articles/annual/9-29.liquid` size=3266 sha256=00c5f879a0ba09e3
+- `sources/katameros.bible/src/articles/annual/9-3.liquid` size=3225 sha256=210cd12152c1e6ed
+- `sources/katameros.bible/src/articles/annual/9-30.liquid` size=3337 sha256=51d0623c95eacc09
+- `sources/katameros.bible/src/articles/annual/9-4.liquid` size=3194 sha256=e7cc5f997c1aaa73
+- `sources/katameros.bible/src/articles/annual/9-5.liquid` size=15236 sha256=866b6cf4f4050afd
+- `sources/katameros.bible/src/articles/annual/9-6.liquid` size=3221 sha256=32101639e0a3f47a
+- `sources/katameros.bible/src/articles/annual/9-7.liquid` size=3190 sha256=a28963267f469267
+- `sources/katameros.bible/src/articles/annual/9-8.liquid` size=3125 sha256=9c0a2cf21db83179
+- `sources/katameros.bible/src/articles/annual/9-9.liquid` size=3255 sha256=e2f8d40a6b22fe5b
+- `sources/katameros.bible/src/articles/great-lent/1-0.liquid` size=193256 sha256=01fdd24c3873080f
+- `sources/katameros.bible/src/articles/great-lent/1-1.liquid` size=45588 sha256=6609ed2cebb7e548
+- `sources/katameros.bible/src/articles/great-lent/1-2.liquid` size=86157 sha256=d9213d998d3c8cf6
+- `sources/katameros.bible/src/articles/great-lent/1-3.liquid` size=41679 sha256=3a0155587b22f0d7
+- `sources/katameros.bible/src/articles/great-lent/1-4.liquid` size=39546 sha256=c459e6c6aaf2fa37
+- `sources/katameros.bible/src/articles/great-lent/1-5.liquid` size=156389 sha256=29e818c8b12ae6e0
+- `sources/katameros.bible/src/articles/great-lent/1-6.liquid` size=57556 sha256=736e2dd550a0e4af
+- `sources/katameros.bible/src/articles/great-lent/180.liquid` size=15691 sha256=001dc7cb20d1bdc1
+- `sources/katameros.bible/src/articles/great-lent/2-0.liquid` size=292666 sha256=fb42a109cee3de92
+- `sources/katameros.bible/src/articles/great-lent/2-1.liquid` size=75349 sha256=76fe5d09693a2249
+- `sources/katameros.bible/src/articles/great-lent/2-2.liquid` size=121590 sha256=834e10e072c8d07b
+- `sources/katameros.bible/src/articles/great-lent/2-3.liquid` size=67529 sha256=eadee1f4f08a8f86
+- `sources/katameros.bible/src/articles/great-lent/2-4.liquid` size=94494 sha256=8cfd8e62f305666c
+- `sources/katameros.bible/src/articles/great-lent/2-5.liquid` size=81438 sha256=7e1dba522957b6a4
+- `sources/katameros.bible/src/articles/great-lent/2-6.liquid` size=43641 sha256=e0424a67ddba5b27
+- `sources/katameros.bible/src/articles/great-lent/266.liquid` size=20334 sha256=eea449d091a7eb20
+- `sources/katameros.bible/src/articles/great-lent/3-0.liquid` size=315694 sha256=7f5cb6723e0fa430
+- `sources/katameros.bible/src/articles/great-lent/3-1.liquid` size=47989 sha256=d569499bd9393aa4
+- `sources/katameros.bible/src/articles/great-lent/3-2.liquid` size=122731 sha256=bd62ee484ddca79f
+- `sources/katameros.bible/src/articles/great-lent/3-3.liquid` size=105182 sha256=eab7e41a89e9f67d
+- `sources/katameros.bible/src/articles/great-lent/3-4.liquid` size=76604 sha256=9d9992b74603ba44
+- `sources/katameros.bible/src/articles/great-lent/3-5.liquid` size=104231 sha256=cb2c2e0de42171ed
+- `sources/katameros.bible/src/articles/great-lent/3-6.liquid` size=37511 sha256=a0b7c845d3f82b25
+- `sources/katameros.bible/src/articles/great-lent/4-0.liquid` size=238123 sha256=e7e4cf761d8b6338
+- `sources/katameros.bible/src/articles/great-lent/4-1.liquid` size=189889 sha256=5b41897e656ed312
+- `sources/katameros.bible/src/articles/great-lent/4-2.liquid` size=70063 sha256=c4ccebe0582fb1bc
+- `sources/katameros.bible/src/articles/great-lent/4-3.liquid` size=51529 sha256=a63196863d8356de
+- `sources/katameros.bible/src/articles/great-lent/4-4.liquid` size=75995 sha256=4a2d908c0d4c055d
+- `sources/katameros.bible/src/articles/great-lent/4-5.liquid` size=47484 sha256=e7d83469d1c5482f
+- `sources/katameros.bible/src/articles/great-lent/4-6.liquid` size=50068 sha256=17bcfa408df7874a
+- `sources/katameros.bible/src/articles/great-lent/5-0.liquid` size=231174 sha256=d647ac148b754229
+- `sources/katameros.bible/src/articles/great-lent/5-1.liquid` size=23688 sha256=81d6546c7d99c5ad
+- `sources/katameros.bible/src/articles/great-lent/5-2.liquid` size=35411 sha256=086f3b91a7659784
+- `sources/katameros.bible/src/articles/great-lent/5-3.liquid` size=74791 sha256=c834659baac04bb4
+- `sources/katameros.bible/src/articles/great-lent/5-4.liquid` size=54392 sha256=5005ccb3903e3d95
+- `sources/katameros.bible/src/articles/great-lent/5-5.liquid` size=93364 sha256=d7f23c7aa3e542d8
+- `sources/katameros.bible/src/articles/great-lent/5-6.liquid` size=56415 sha256=fc5b1212e76cb238
+- `sources/katameros.bible/src/articles/great-lent/51.liquid` size=11837 sha256=2ec0c8687134f9f9
+- `sources/katameros.bible/src/articles/great-lent/54.liquid` size=6566 sha256=f140afe3f4766c40
+- `sources/katameros.bible/src/articles/great-lent/56.liquid` size=19211 sha256=2affc3f261a9a188
+- `sources/katameros.bible/src/articles/great-lent/6-0.liquid` size=301171 sha256=6b1da52416a09661
+- `sources/katameros.bible/src/articles/great-lent/6-1.liquid` size=46355 sha256=ee194f8e96519563
+- `sources/katameros.bible/src/articles/great-lent/6-2.liquid` size=56008 sha256=ff45df04f1c7f030
+- `sources/katameros.bible/src/articles/great-lent/6-3.liquid` size=60012 sha256=68e0c0a049586c7c
+- `sources/katameros.bible/src/articles/great-lent/6-4.liquid` size=77156 sha256=ac594a26f619f434
+- `sources/katameros.bible/src/articles/great-lent/6-5.liquid` size=57070 sha256=2e22665d21c4cd5b
+- `sources/katameros.bible/src/articles/great-lent/6-6.liquid` size=30431 sha256=388feb8b2561d926
+- `sources/katameros.bible/src/articles/great-lent/655.liquid` size=35902 sha256=316c950464d36d42
+- `sources/katameros.bible/src/articles/great-lent/7-0.liquid` size=262368 sha256=a3913ae7023840ff
+- `sources/katameros.bible/src/articles/great-lent/7-1.liquid` size=72588 sha256=a3d4800077ee416e
+- `sources/katameros.bible/src/articles/great-lent/7-2.liquid` size=75067 sha256=08067fc0443a6afe
+- `sources/katameros.bible/src/articles/great-lent/7-3.liquid` size=48588 sha256=94354bcda3ab03a3
+- `sources/katameros.bible/src/articles/great-lent/7-4.liquid` size=58001 sha256=2f49f876fe54490a
+- `sources/katameros.bible/src/articles/great-lent/7-5.liquid` size=81329 sha256=63154ea7a6c83645
+- `sources/katameros.bible/src/articles/great-lent/7-6.liquid` size=153881 sha256=ac60c83ab551d1d7
+- `sources/katameros.bible/src/articles/great-lent/71.liquid` size=120010 sha256=2640bfdf4f260300
+- `sources/katameros.bible/src/articles/great-lent/99-0.liquid` size=354330 sha256=4290011610b1085d
+- `sources/katameros.bible/src/articles/great-lent/99-6.liquid` size=11753 sha256=b066ffa659812548
+- `sources/katameros.bible/src/articles/pentecost/0-0.liquid` size=243600 sha256=3ee7fe09f7b7c8ac
+- `sources/katameros.bible/src/articles/pentecost/1-0.liquid` size=83296 sha256=e30002edeb2e99bf
+- `sources/katameros.bible/src/articles/pentecost/1-1.liquid` size=81532 sha256=8038e6dfa383ed39
+- `sources/katameros.bible/src/articles/pentecost/1-2.liquid` size=96565 sha256=486b7f94f6672675
+- `sources/katameros.bible/src/articles/pentecost/1-3.liquid` size=56305 sha256=b7befa1cbb8a2c2b
+- `sources/katameros.bible/src/articles/pentecost/1-4.liquid` size=61583 sha256=c9b82e9aab6675ab
+- `sources/katameros.bible/src/articles/pentecost/1-5.liquid` size=95878 sha256=6aca9901e24be9c3
+- `sources/katameros.bible/src/articles/pentecost/1-6.liquid` size=66193 sha256=77a805b7c115ba52
+- `sources/katameros.bible/src/articles/pentecost/1055.liquid` size=12038 sha256=588a9e86df00e110
+- `sources/katameros.bible/src/articles/pentecost/1056.liquid` size=19237 sha256=458fd24dd18069c0
+- `sources/katameros.bible/src/articles/pentecost/1061.liquid` size=74159 sha256=f599496c1f8a7591
+- `sources/katameros.bible/src/articles/pentecost/1101.liquid` size=14735 sha256=055f55427745c491
+- `sources/katameros.bible/src/articles/pentecost/1102.liquid` size=10049 sha256=788b02089a3c368b
+- `sources/katameros.bible/src/articles/pentecost/1103.liquid` size=35680 sha256=fd6651be19ebf90f
+- `sources/katameros.bible/src/articles/pentecost/180.liquid` size=15689 sha256=da03680654b9e088
+- `sources/katameros.bible/src/articles/pentecost/2-0.liquid` size=100789 sha256=e29915a9b5180a8d
+- `sources/katameros.bible/src/articles/pentecost/2-1.liquid` size=77317 sha256=951048cd8c9a4321
+- `sources/katameros.bible/src/articles/pentecost/2-2.liquid` size=49519 sha256=b364492821dd0d7a
+- `sources/katameros.bible/src/articles/pentecost/2-3.liquid` size=53618 sha256=736d041a349f4a56
+- `sources/katameros.bible/src/articles/pentecost/2-4.liquid` size=61415 sha256=94af1cb9425c36b4
+- `sources/katameros.bible/src/articles/pentecost/2-5.liquid` size=91376 sha256=d0f5635025dfe048
+- `sources/katameros.bible/src/articles/pentecost/2-6.liquid` size=53232 sha256=902af27ea4d75af7
+- `sources/katameros.bible/src/articles/pentecost/3-0.liquid` size=117980 sha256=afbf67d0f40b3b5e
+- `sources/katameros.bible/src/articles/pentecost/3-1.liquid` size=68220 sha256=c6c58e352805425f
+- `sources/katameros.bible/src/articles/pentecost/3-2.liquid` size=46812 sha256=4f34a4552a7866e5
+- `sources/katameros.bible/src/articles/pentecost/3-3.liquid` size=40098 sha256=9406e23c92374f17
+- `sources/katameros.bible/src/articles/pentecost/3-4.liquid` size=69304 sha256=1069eeb357190729
+- `sources/katameros.bible/src/articles/pentecost/3-5.liquid` size=107219 sha256=460882121d69d63e
+- `sources/katameros.bible/src/articles/pentecost/3-6.liquid` size=10374 sha256=1bdff0bf7eebdc92
+- `sources/katameros.bible/src/articles/pentecost/4-0.liquid` size=90868 sha256=f05344babced2de3
+- `sources/katameros.bible/src/articles/pentecost/4-1.liquid` size=99217 sha256=8734501cb7969b15
+- `sources/katameros.bible/src/articles/pentecost/4-2.liquid` size=66930 sha256=adfbf1f61ff527e3
+- `sources/katameros.bible/src/articles/pentecost/4-3.liquid` size=115567 sha256=60189091573526aa
+- `sources/katameros.bible/src/articles/pentecost/4-4.liquid` size=47621 sha256=14b7c21d26ef2ec0
+- `sources/katameros.bible/src/articles/pentecost/4-5.liquid` size=72751 sha256=964866027acd2b2c
+- `sources/katameros.bible/src/articles/pentecost/4-6.liquid` size=9776 sha256=703355f1efbc5fcc
+- `sources/katameros.bible/src/articles/pentecost/5-0.liquid` size=162085 sha256=abf8972443c6a5d9
+- `sources/katameros.bible/src/articles/pentecost/5-1.liquid` size=43766 sha256=176de95d98d502b1
+- `sources/katameros.bible/src/articles/pentecost/5-2.liquid` size=42376 sha256=d185c99e47040831
+- `sources/katameros.bible/src/articles/pentecost/5-3.liquid` size=34706 sha256=a4aae55ba86541fd
+- `sources/katameros.bible/src/articles/pentecost/5-4.liquid` size=50385 sha256=c1086c3be4d74363
+- `sources/katameros.bible/src/articles/pentecost/5-5.liquid` size=91571 sha256=e3b6f67c00e5d762
+- `sources/katameros.bible/src/articles/pentecost/5-6.liquid` size=11720 sha256=a18835ade61882c7
+- `sources/katameros.bible/src/articles/pentecost/6-0.liquid` size=125399 sha256=ecc23113cba71051
+- `sources/katameros.bible/src/articles/pentecost/6-1.liquid` size=34701 sha256=138a97288f1af217
+- `sources/katameros.bible/src/articles/pentecost/6-2.liquid` size=31162 sha256=a6b41d7fd070df2d
+- `sources/katameros.bible/src/articles/pentecost/6-3.liquid` size=43670 sha256=4154e9f536b962f9
+- `sources/katameros.bible/src/articles/pentecost/6-4.liquid` size=160553 sha256=1afeb301c6591779
+- `sources/katameros.bible/src/articles/pentecost/6-5.liquid` size=42179 sha256=0b3d103156966ee9
+- `sources/katameros.bible/src/articles/pentecost/6-6.liquid` size=10301 sha256=b672f3f859fe313c
+- `sources/katameros.bible/src/articles/pentecost/7-0.liquid` size=212099 sha256=5c9f4e15d1f34534
+- `sources/katameros.bible/src/articles/pentecost/7-1.liquid` size=52165 sha256=8b658878154d2323
+- `sources/katameros.bible/src/articles/pentecost/7-2.liquid` size=51279 sha256=e7469b8ac811c5a3
+- `sources/katameros.bible/src/articles/pentecost/7-3.liquid` size=70208 sha256=a59a162f568ab6a8
+- `sources/katameros.bible/src/articles/pentecost/7-4.liquid` size=48440 sha256=b29e2cbf5b95e104
+- `sources/katameros.bible/src/articles/pentecost/7-5.liquid` size=51811 sha256=d3d57eb7036451d8
+- `sources/katameros.bible/src/articles/pentecost/7-6.liquid` size=67921 sha256=e4685e156ad49da7
+- `sources/katameros.bible/src/articles/special/1.liquid` size=212053 sha256=975eff079a74ca33
+- `sources/katameros.bible/src/articles/special/10.liquid` size=31328 sha256=9e8eecbe4d944fd9
+- `sources/katameros.bible/src/articles/special/11.liquid` size=108249 sha256=8d3a7064e6e55c57
+- `sources/katameros.bible/src/articles/special/12.liquid` size=173902 sha256=4215d8f6fd659a41
+- `sources/katameros.bible/src/articles/special/13.liquid` size=267593 sha256=00c5cd6e3cb93dc5
+- `sources/katameros.bible/src/articles/special/141.liquid` size=13898 sha256=aabafdf654574dd9
+- `sources/katameros.bible/src/articles/special/142.liquid` size=11524 sha256=fbfc04bf9fdc8a21
+- `sources/katameros.bible/src/articles/special/143.liquid` size=10855 sha256=108dfd10bdf9ec8a
+- `sources/katameros.bible/src/articles/special/15.liquid` size=15097 sha256=d9db8f337a040709
+- `sources/katameros.bible/src/articles/special/16.liquid` size=203941 sha256=f814dd4b7bb587c3
+- `sources/katameros.bible/src/articles/special/1941.liquid` size=21645 sha256=77e551e922f74e23
+- `sources/katameros.bible/src/articles/special/20.liquid` size=11755 sha256=0bf62b14f3a15dea
+- `sources/katameros.bible/src/articles/special/21.liquid` size=354322 sha256=051488be6201662a
+- `sources/katameros.bible/src/articles/special/22.liquid` size=243595 sha256=edc9266f7d10f1e9
+- `sources/katameros.bible/src/articles/special/23.liquid` size=112457 sha256=b813eaba465cc007
+- `sources/katameros.bible/src/articles/special/3.liquid` size=153876 sha256=79586452b21896cd
+- `sources/katameros.bible/src/articles/special/4.liquid` size=262302 sha256=d2e5e8fc5a77ded2
+- `sources/katameros.bible/src/articles/special/5.liquid` size=54343 sha256=24ad5232d2f0d999
+- `sources/katameros.bible/src/articles/special/6.liquid` size=64118 sha256=cbf63b12d3d91161
+- `sources/katameros.bible/src/articles/special/7.liquid` size=75479 sha256=c74158ac1ce915fd
+- `sources/katameros.bible/src/articles/special/8.liquid` size=617594 sha256=ba5d061bc60e6c76
+- `sources/katameros.bible/src/articles/special/9.liquid` size=522845 sha256=32f78c95b56291da
+- `sources/katameros.bible/src/articles/sundays/1-1.liquid` size=101024 sha256=d6fee6b1c73f2774
+- `sources/katameros.bible/src/articles/sundays/1-2.liquid` size=162341 sha256=2b398683723268d2
+- `sources/katameros.bible/src/articles/sundays/1-3.liquid` size=155785 sha256=ffafad06f756f6f6
+- `sources/katameros.bible/src/articles/sundays/1-4.liquid` size=158353 sha256=3d890cd7ff7f175b
+- `sources/katameros.bible/src/articles/sundays/1-5.liquid` size=55788 sha256=114e36c540f5dfe8
+- `sources/katameros.bible/src/articles/sundays/10-1.liquid` size=112952 sha256=c8ab3f329e8de2c8
+- `sources/katameros.bible/src/articles/sundays/10-2.liquid` size=79919 sha256=175c95c5da860bb9
+- `sources/katameros.bible/src/articles/sundays/10-3.liquid` size=127437 sha256=38e714d6523b4da7
+- `sources/katameros.bible/src/articles/sundays/10-4.liquid` size=134118 sha256=ba244e9a301edd57
+- `sources/katameros.bible/src/articles/sundays/10-5.liquid` size=55794 sha256=dbe5807eb370bd5e
+- `sources/katameros.bible/src/articles/sundays/11-1.liquid` size=151794 sha256=78b11fd73cf54377
+- `sources/katameros.bible/src/articles/sundays/11-2.liquid` size=114048 sha256=8dd15f63767c8e52
+- `sources/katameros.bible/src/articles/sundays/11-3.liquid` size=41657 sha256=f2d819b0f7d55668
+- `sources/katameros.bible/src/articles/sundays/11-4.liquid` size=54353 sha256=7d523cd120604e0b
+- `sources/katameros.bible/src/articles/sundays/11-5.liquid` size=55790 sha256=eaa1763eb34182b2
+- `sources/katameros.bible/src/articles/sundays/12-1.liquid` size=152639 sha256=75967cf4a2a2917e
+- `sources/katameros.bible/src/articles/sundays/12-2.liquid` size=119766 sha256=f31d1e2cdd09f30f
+- `sources/katameros.bible/src/articles/sundays/12-3.liquid` size=163695 sha256=002f405a89195291
+- `sources/katameros.bible/src/articles/sundays/12-4.liquid` size=101194 sha256=44ca74f2abd43ac2
+- `sources/katameros.bible/src/articles/sundays/12-5.liquid` size=55794 sha256=30ee51fcbda0f941
+- `sources/katameros.bible/src/articles/sundays/1233.liquid` size=41321 sha256=611919e856689de1
+- `sources/katameros.bible/src/articles/sundays/13-1.liquid` size=119666 sha256=549b7809aa55d5e7
+- `sources/katameros.bible/src/articles/sundays/1311.liquid` size=70092 sha256=7dbc70c953abdc31
+- `sources/katameros.bible/src/articles/sundays/1361.liquid` size=23285 sha256=500d869e5cac7feb
+- `sources/katameros.bible/src/articles/sundays/1365.liquid` size=32987 sha256=eb1bf5fa201ab1d7
+- `sources/katameros.bible/src/articles/sundays/1370.liquid` size=62364 sha256=36f787fcf6b37c25
+- `sources/katameros.bible/src/articles/sundays/14-5.liquid` size=55789 sha256=d7f3a58bf49b9f4b
+- `sources/katameros.bible/src/articles/sundays/1943.liquid` size=19583 sha256=ca219c6410806cbc
+- `sources/katameros.bible/src/articles/sundays/2-1.liquid` size=118873 sha256=c858368d8e01a1ec
+- `sources/katameros.bible/src/articles/sundays/2-2.liquid` size=97177 sha256=d4d6208605d57e54
+- `sources/katameros.bible/src/articles/sundays/2-3.liquid` size=183912 sha256=429b106ae2e644df
+- `sources/katameros.bible/src/articles/sundays/2-4.liquid` size=109943 sha256=10481666234d0073
+- `sources/katameros.bible/src/articles/sundays/2-5.liquid` size=55788 sha256=a500714892923362
+- `sources/katameros.bible/src/articles/sundays/3-1.liquid` size=85583 sha256=e481d37462443732
+- `sources/katameros.bible/src/articles/sundays/3-2.liquid` size=69519 sha256=1281fec612a6de8d
+- `sources/katameros.bible/src/articles/sundays/3-3.liquid` size=114316 sha256=2d489cc56389f0a7
+- `sources/katameros.bible/src/articles/sundays/3-4.liquid` size=160408 sha256=e5e696e597f5e346
+- `sources/katameros.bible/src/articles/sundays/3-5.liquid` size=55788 sha256=ba228f113a89bd13
+- `sources/katameros.bible/src/articles/sundays/4-1.liquid` size=117569 sha256=20bc2b3d1e3a12b9
+- `sources/katameros.bible/src/articles/sundays/4-2.liquid` size=239498 sha256=f2a77cc1305decb5
+- `sources/katameros.bible/src/articles/sundays/4-3.liquid` size=81409 sha256=0ed71dde8cfa84f7
+- `sources/katameros.bible/src/articles/sundays/4-4.liquid` size=90945 sha256=7ecb787ff6585453
+- `sources/katameros.bible/src/articles/sundays/4-5.liquid` size=55788 sha256=cf3c3b98aaaa6ef2
+- `sources/katameros.bible/src/articles/sundays/5-1.liquid` size=74655 sha256=b847532c5b7fe9f0
+- `sources/katameros.bible/src/articles/sundays/5-2.liquid` size=58118 sha256=10451dd9e677eb44
+- `sources/katameros.bible/src/articles/sundays/5-3.liquid` size=122959 sha256=618618e807d92b92
+- `sources/katameros.bible/src/articles/sundays/5-4.liquid` size=65949 sha256=2517f21d1a911665
+- `sources/katameros.bible/src/articles/sundays/5-5.liquid` size=55788 sha256=ea90e302fee72ec0
+- `sources/katameros.bible/src/articles/sundays/6-1.liquid` size=86873 sha256=d187ceffa0d783ea
+- `sources/katameros.bible/src/articles/sundays/6-2.liquid` size=75696 sha256=f67582e869fe0e43
+- `sources/katameros.bible/src/articles/sundays/6-3.liquid` size=49513 sha256=7bbbad1f033c1022
+- `sources/katameros.bible/src/articles/sundays/6-4.liquid` size=48148 sha256=66d94e7c411295b0
+- `sources/katameros.bible/src/articles/sundays/6-5.liquid` size=55788 sha256=9eeed0e15826ecd1
+- `sources/katameros.bible/src/articles/sundays/7-5.liquid` size=55793 sha256=791581c980818714
+- `sources/katameros.bible/src/articles/sundays/8-5.liquid` size=55793 sha256=e60ba74b4d095409
+- `sources/katameros.bible/src/articles/sundays/9-3.liquid` size=129925 sha256=add27c6a758d465a
+- `sources/katameros.bible/src/articles/sundays/9-4.liquid` size=55366 sha256=d21e28d7f80acb01
+- `sources/katameros.bible/src/articles/sundays/9-5.liquid` size=55793 sha256=d29439d0bda768a5
+- `sources/katameros.bible/src/home.js` size=21 sha256=b3e444e9e269d461
+- `sources/katameros.bible/src/index.liquid` size=3521 sha256=cf8b17a9aaa872dd
+- `sources/katameros.bible/src/main.js` size=3146 sha256=6f9e5eb3fff4a45b
+- `sources/katameros.bible/src/pages/abona-yassa.liquid` size=8386 sha256=95bee09a834b3d65
+- `sources/katameros.bible/src/pages/anba-arsany.liquid` size=5130 sha256=8a0c107f8d9f5f63
+- `sources/katameros.bible/src/pages/annual.liquid` size=1889 sha256=9c225ed978b06639
+- `sources/katameros.bible/src/pages/great-lent.liquid` size=2028 sha256=bf5e4037ef67b0ae
+- `sources/katameros.bible/src/pages/meaning-beyond-the-readings.liquid` size=19568 sha256=c615068c457be035
+- `sources/katameros.bible/src/pages/pentecost.liquid` size=2089 sha256=8a426ba56b22897a
+- `sources/katameros.bible/src/pages/privacy.liquid` size=7028 sha256=e748876762c04fb8
+- `sources/katameros.bible/src/pages/special-days.liquid` size=825 sha256=4ef365af61bc484b
+- `sources/katameros.bible/src/pages/sundays.liquid` size=2092 sha256=64dcde44f835a3af
+- `sources/katameros.bible/src/public/android/android-launchericon-144-144.png` size=9280 sha256=32a54ad1c1a119fd
+- `sources/katameros.bible/src/public/android/android-launchericon-192-192.png` size=13725 sha256=ffae6580bc6a9012
+- `sources/katameros.bible/src/public/android/android-launchericon-48-48.png` size=2366 sha256=4f6ace406553cded
+- `sources/katameros.bible/src/public/android/android-launchericon-512-512.png` size=50077 sha256=104dc638ff17f49f
+- `sources/katameros.bible/src/public/android/android-launchericon-72-72.png` size=3867 sha256=8ac967415c3a57e9
+- `sources/katameros.bible/src/public/android/android-launchericon-96-96.png` size=5506 sha256=09b16505c171b129
+- `sources/katameros.bible/src/public/annual.json` size=7757866 sha256=c6683ce48648331b, rows=366
+- `sources/katameros.bible/src/public/annual.json.gz` size=2258431 sha256=cd19fd224d4e146e
+- `sources/katameros.bible/src/public/apple-touch-icon.png` size=12179 sha256=2953c60fb2962b05
+- `sources/katameros.bible/src/public/browserconfig.xml` size=246 sha256=1bcf6c23da672678
+- `sources/katameros.bible/src/public/favicon-16x16.png` size=781 sha256=f2bc878676b293b2
+- `sources/katameros.bible/src/public/favicon-32x32.png` size=1386 sha256=c2e705b5311e2b9d
+- `sources/katameros.bible/src/public/favicon.ico` size=10990 sha256=6eb5cd8a7129dec2
+- `sources/katameros.bible/src/public/favicon.svg` size=3820 sha256=3e117a005b21c4f7
+- `sources/katameros.bible/src/public/greatLent.json` size=4800794 sha256=e5cb6a7facb22b24, rows=51
+- `sources/katameros.bible/src/public/greatLent.json.gz` size=1441381 sha256=ffafbfbf4c8e8218
+- `sources/katameros.bible/src/public/intro.json` size=711075 sha256=b7261760c2aa2bb5, rows=28
+- `sources/katameros.bible/src/public/ios/100.png` size=5776 sha256=d19f0ac83e37f411
+- `sources/katameros.bible/src/public/ios/1024.png` size=142365 sha256=a3dced0e591f2821
+- `sources/katameros.bible/src/public/ios/114.png` size=6859 sha256=69fce5fc5e21316a
+- `sources/katameros.bible/src/public/ios/120.png` size=7230 sha256=214f1cbfe9f7a2e5
+- `sources/katameros.bible/src/public/ios/128.png` size=7912 sha256=13e5fec27b71e1b5
+- `sources/katameros.bible/src/public/ios/144.png` size=9280 sha256=32a54ad1c1a119fd
+- `sources/katameros.bible/src/public/ios/152.png` size=10074 sha256=169df8d553fde6b2
+- `sources/katameros.bible/src/public/ios/16.png` size=835 sha256=41ee0504b48dfdd1
+- `sources/katameros.bible/src/public/ios/167.png` size=11316 sha256=3ec0d3d40ff9697f
+- `sources/katameros.bible/src/public/ios/180.png` size=12457 sha256=c87d964e3f5973db
+- `sources/katameros.bible/src/public/ios/192.png` size=13725 sha256=ffae6580bc6a9012
+- `sources/katameros.bible/src/public/ios/20.png` size=971 sha256=175e5c45f76e933a
+- `sources/katameros.bible/src/public/ios/256.png` size=19827 sha256=413f9e2dabf48384
+- `sources/katameros.bible/src/public/ios/29.png` size=1375 sha256=84f0a27d96a88d3d
+- `sources/katameros.bible/src/public/ios/32.png` size=1534 sha256=8bc075e1c789f5e4
+- `sources/katameros.bible/src/public/ios/40.png` size=1872 sha256=5418c6fa101842b2
+- `sources/katameros.bible/src/public/ios/50.png` size=2492 sha256=b1bb2578a2028008
+- `sources/katameros.bible/src/public/ios/512.png` size=50077 sha256=104dc638ff17f49f
+- `sources/katameros.bible/src/public/ios/57.png` size=2890 sha256=773861d52b68272e
+- `sources/katameros.bible/src/public/ios/58.png` size=2961 sha256=fbf93cb01fb471bf
+- `sources/katameros.bible/src/public/ios/60.png` size=2993 sha256=5d7cfea574852d02
+- `sources/katameros.bible/src/public/ios/64.png` size=3311 sha256=9563ca7d85ae19dc
+- `sources/katameros.bible/src/public/ios/72.png` size=3867 sha256=8ac967415c3a57e9
+- `sources/katameros.bible/src/public/ios/76.png` size=4118 sha256=8b064d0967e503a3
+- `sources/katameros.bible/src/public/ios/80.png` size=4387 sha256=2b7f183d4781e30f
+- `sources/katameros.bible/src/public/ios/87.png` size=4800 sha256=f4d5e9b15ab05e74
+- `sources/katameros.bible/src/public/mstile-144x144.png` size=8424 sha256=351a40ea7de1598e
+- `sources/katameros.bible/src/public/mstile-150x150.png` size=7989 sha256=f0bcebb2f6551582
+- `sources/katameros.bible/src/public/mstile-310x150.png` size=8652 sha256=45736c5e975126f8
+- `sources/katameros.bible/src/public/mstile-310x310.png` size=20042 sha256=df13c4eafa6cbb74
+- `sources/katameros.bible/src/public/mstile-70x70.png` size=5146 sha256=1ac872461ce02216
+- `sources/katameros.bible/src/public/pentecost.json` size=3366232 sha256=fd3b49a164f22562, rows=50
+- `sources/katameros.bible/src/public/pentecost.json.gz` size=992742 sha256=1877dfeb191bdbd6
+- `sources/katameros.bible/src/public/pwa-128x128.png` size=8538 sha256=2e4e687a970d3790
+- `sources/katameros.bible/src/public/pwa-152x152.png` size=10662 sha256=e67985b9cd3c1fd2
+- `sources/katameros.bible/src/public/pwa-192x192.png` size=14623 sha256=866133a5b2564328
+- `sources/katameros.bible/src/public/pwa-512x512.png` size=38868 sha256=6dccdd82fcbd42d3
+- `sources/katameros.bible/src/public/pwa-72x72.png` size=4077 sha256=3712e42e327674ff
+- `sources/katameros.bible/src/public/pwa-96x96.png` size=5839 sha256=8512c046fe4151ce
+- `sources/katameros.bible/src/public/robots.txt` size=66 sha256=3068aa1ec05c539a
+- `sources/katameros.bible/src/public/safari-pinned-tab.svg` size=3820 sha256=3e117a005b21c4f7
+- `sources/katameros.bible/src/public/special.json` size=3213993 sha256=7f886e86481bf774, rows=21
+- `sources/katameros.bible/src/public/special.json.gz` size=948687 sha256=5926ee728496372d
+- `sources/katameros.bible/src/public/sprite.svg` size=5655 sha256=f5b7e6d1d3a2a857
+- `sources/katameros.bible/src/public/sundays.json` size=4550142 sha256=9b6bb820ac2925a2, rows=52
+- `sources/katameros.bible/src/public/sundays.json.gz` size=1327834 sha256=bb6a93b1821ac409
+- `sources/katameros.bible/src/sitemap.liquid` size=419 sha256=bffe1eca739bff33
+- `sources/katameros.bible/src/styles/main.css` size=8240 sha256=27e3bfc1046c2b07
+- `sources/katameros.bible/src/utils/coptic-helpers.js` size=4269 sha256=613bbc458c2165df
+- `sources/katameros.bible/src/utils/date-is-feast.js` size=2646 sha256=d14aeb8347d6121c
+- `sources/katameros.bible/src/utils/feasts.js` size=1542 sha256=75123443c0724693
+- `sources/katameros.bible/tailwind.config.js` size=484 sha256=c1944a4ad01b3b35
+- `sources/katameros.bible/vite.config.js` size=4281 sha256=4654b6ad6dc89a98
+- `sources/pdfs/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf` size=7417864 sha256=afddea9372689625
+- `sources/pdfs/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt` size=715900 sha256=d37ef1df5ff9e5ca
+- `sources/pdfs/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.pdf` size=17703324 sha256=e7ff308bfc18ecdd
+- `sources/pdfs/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.txt` size=2028324 sha256=59de8b5e594e3be9
+- `sources/pdfs/UK_Midlands_Katameros_Days.pdf` size=19509308 sha256=f4eb3465542af3bf
+- `sources/pdfs/UK_Midlands_Katameros_Days.txt` size=820701 sha256=b81d990f48d0923f
+- `sources/pdfs/UK_Midlands_Katameros_Lent.pdf` size=9029332 sha256=8cb023ea51ba51bc
+- `sources/pdfs/UK_Midlands_Katameros_Lent.txt` size=922074 sha256=831e8b37328aa97d
+- `sources/pdfs/UK_Midlands_Katameros_Pentecost.pdf` size=12727838 sha256=3e6b0b54155fad46
+- `sources/pdfs/UK_Midlands_Katameros_Pentecost.txt` size=433650 sha256=a48869f3e26d5e5a
+- `sources/pdfs/UK_Midlands_Katameros_Sundays.pdf` size=12971775 sha256=798c388ae8be7bf9
+- `sources/pdfs/UK_Midlands_Katameros_Sundays.txt` size=925121 sha256=bf49a59e64b36668
+- `tmp_extract_pdf_fulltext.py` size=299 sha256=b3a6c620ceb02452
+- `tmp_extract_pdf_mupdf.py` size=323 sha256=844331cd555ed493
+- `tmp_extract_pdf_sample.py` size=551 sha256=742544bd60a93317
+- `verify_lectionary_queries.py` size=13761 sha256=60276a986e8deb53

@@ -1,0 +1,173 @@
+{"day": "Monday", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Gen 1:1-31; Gen 2:1-3"}
+{"day": "Monday", "hour": "First Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 5:1-9"}
+{"day": "Monday", "hour": "First Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Ps 72:1-19"}
+{"day": "Monday", "hour": "First Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 72:18-19; Mark 11:12-24"}
+{"day": "Monday", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 5:20-30"}
+{"day": "Monday", "hour": "Third Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Jer 9:12-19"}
+{"day": "Monday", "hour": "Third Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 122:1-2; Mark 11:11-19"}
+{"day": "Monday", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 32:7-15"}
+{"day": "Monday", "hour": "Sixth Hour", "source": "api+St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "2", "slot": "OT2", "refs": "Wis 1:1-9"}
+{"day": "Monday", "hour": "Sixth Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 122:4; John 2:13-17"}
+{"day": "Monday", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Gen 2:15-25; Gen 3:1-24"}
+{"day": "Monday", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 40:1-5"}
+{"day": "Monday", "hour": "Ninth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Prov 1:1-9"}
+{"day": "Monday", "hour": "Ninth Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 65:5,4; Matt 21:23-27"}
+{"day": "Monday", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 50:1-3"}
+{"day": "Monday", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Wis 2:20-30"}
+{"day": "Monday", "hour": "Eleventh Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 13:3-4; John 8:51-59"}
+{"day": "Monday Eve", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Zech 1:1-6"}
+{"day": "Monday Eve", "hour": "First Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 62:7,6; Luke 13:23-30"}
+{"day": "Monday Eve", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Mal 1:1-9"}
+{"day": "Monday Eve", "hour": "Third Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 13:3,5; Luke 13:31-35"}
+{"day": "Monday Eve", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Hos 4:15-19; Hos 5:1-7"}
+{"day": "Monday Eve", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 91:2,3; John 21:34-38"}
+{"day": "Monday Eve", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Hos 10:12-15; Hos 11:1-2"}
+{"day": "Monday Eve", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 33:10,11; Luke 11:37-52"}
+{"day": "Monday Eve", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Amos 5:6-14"}
+{"day": "Monday Eve", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 122:4; Mark 13:32-37; Mark 14:1-2"}
+{"day": "Tuesday", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 19:1-9"}
+{"day": "Tuesday", "hour": "First Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Job 23:2-17; Job 24:1-25"}
+{"day": "Tuesday", "hour": "First Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Hos 4:1-8"}
+{"day": "Tuesday", "hour": "First Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 120:2,6,7; John 11:12-24"}
+{"day": "Tuesday", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 5:20-30"}
+{"day": "Tuesday", "hour": "Third Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Jer 9:12-19"}
+{"day": "Tuesday", "hour": "Third Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 122:1-2; Mark 11:11-19"}
+{"day": "Tuesday", "hour": "Sixth Hour", "source": "St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "1", "slot": "OT1", "refs": "Ezek 21:3-13"}
+{"day": "Tuesday", "hour": "Sixth Hour", "source": "St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "2", "slot": "OT2", "refs": "Sir 4:20-5:2"}
+{"day": "Tuesday", "hour": "Sixth Hour", "source": "St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "3", "slot": "OT3", "refs": "Isa 1:1-9"}
+{"day": "Tuesday", "hour": "Sixth Hour", "source": "St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 18:48,17; John 8:12-20"}
+{"day": "Tuesday", "hour": "Ninth Hour", "source": "api+St Mary Ottawa Holy Pascha PDF cross-check 2026-06-06", "order": "1", "slot": "OT1", "refs": "Gen 6:5-9:7"}
+{"day": "Tuesday", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 40:1-5"}
+{"day": "Tuesday", "hour": "Ninth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Prov 1:1-9"}
+{"day": "Tuesday", "hour": "Ninth Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 65:5,4; Matt 21:23-27"}
+{"day": "Tuesday", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 50:1-3"}
+{"day": "Tuesday", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Wis 2:20-30"}
+{"day": "Tuesday", "hour": "Eleventh Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 13:3-4; John 8:51-59"}
+{"day": "Tuesday Eve", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Zech 1:1-6"}
+{"day": "Tuesday Eve", "hour": "First Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 62:7,6; Luke 13:23-30"}
+{"day": "Tuesday Eve", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Mal 1:1-9"}
+{"day": "Tuesday Eve", "hour": "Third Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 13:3,5; Luke 13:31-35"}
+{"day": "Tuesday Eve", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Hos 4:15-19; Hos 5:1-7"}
+{"day": "Tuesday Eve", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 91:2,3; John 21:34-38"}
+{"day": "Tuesday Eve", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Hos 10:12-15; Hos 11:1-2"}
+{"day": "Tuesday Eve", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 33:10,11; Luke 11:37-52"}
+{"day": "Tuesday Eve", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Amos 5:6-14"}
+{"day": "Tuesday Eve", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 122:4; Mark 13:32-37; Mark 14:1-2"}
+{"day": "Wednesday", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 17:1-7"}
+{"day": "Wednesday", "hour": "First Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Prov 3:5-15"}
+{"day": "Wednesday", "hour": "First Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Hos 5:13-6:3"}
+{"day": "Wednesday", "hour": "First Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Wis 1:20-2:15"}
+{"day": "Wednesday", "hour": "First Hour", "source": "api", "order": "5", "slot": "OT5", "refs": "Wis 3:12-24"}
+{"day": "Wednesday", "hour": "First Hour", "source": "api", "order": "6", "slot": "Psalm+Gospel", "refs": "Ps 51:4; Ps 33:10; John 11:46-57"}
+{"day": "Wednesday", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 13:17-22"}
+{"day": "Wednesday", "hour": "Third Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Wis 22:7-18"}
+{"day": "Wednesday", "hour": "Third Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Job 27:16-20; Job 28:1-2"}
+{"day": "Wednesday", "hour": "Third Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Prov 4:4-5:4"}
+{"day": "Wednesday", "hour": "Third Hour", "source": "api", "order": "5", "slot": "Psalm+Gospel", "refs": "Ps 41:6,1; Luke 22:1-6"}
+{"day": "Wednesday", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 14:13-15:1"}
+{"day": "Wednesday", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 48:1-6"}
+{"day": "Wednesday", "hour": "Sixth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Wis 23:7-14"}
+{"day": "Wednesday", "hour": "Sixth Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 83:2,5; John 12:1-8"}
+{"day": "Wednesday", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Gen 24:1-9"}
+{"day": "Wednesday", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Num 20:1-13"}
+{"day": "Wednesday", "hour": "Ninth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Prov 1:10-23"}
+{"day": "Wednesday", "hour": "Ninth Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Isa 59:1-17"}
+{"day": "Wednesday", "hour": "Ninth Hour", "source": "api", "order": "5", "slot": "OT5", "refs": "Zech 11:11-14"}
+{"day": "Wednesday", "hour": "Ninth Hour", "source": "api", "order": "6", "slot": "Psalm+Gospel", "refs": "Ps 41:5-6; Matt 26:3-16"}
+{"day": "Wednesday", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 28:16-29"}
+{"day": "Wednesday", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 6:2; Ps 69:17; John 12:27-36"}
+{"day": "Wednesday Eve", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Jer 43:5-11"}
+{"day": "Wednesday Eve", "hour": "First Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 69:1,16; John 10:17-21"}
+{"day": "Wednesday Eve", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Amos 4:4-13"}
+{"day": "Wednesday Eve", "hour": "Third Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 55:21,1; Mark 14:3-11"}
+{"day": "Wednesday Eve", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Amos 3:1-11"}
+{"day": "Wednesday Eve", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 140:1,2; John 12:36-43"}
+{"day": "Wednesday Eve", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Ezek 20:27-33"}
+{"day": "Wednesday Eve", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 7:1-2; John 10:29-38"}
+{"day": "Wednesday Eve", "hour": "Eleventh Hour", "source": "St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "1", "slot": "OT1", "refs": "Wis 7:24-30"}
+{"day": "Wednesday Eve", "hour": "Eleventh Hour", "source": "St Mary Ottawa Holy Pascha source-text correction 2026-06-06", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 57:1; John 11:55-57"}
+{"day": "Great Thursday", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 17:8-16"}
+{"day": "Great Thursday", "hour": "First Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Exod 15:22-16:3"}
+{"day": "Great Thursday", "hour": "First Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Isa 58:1-9"}
+{"day": "Great Thursday", "hour": "First Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Ezek 18:20-32"}
+{"day": "Great Thursday", "hour": "First Hour", "source": "api", "order": "5", "slot": "Acts", "refs": "Acts 1:15-20"}
+{"day": "Great Thursday", "hour": "First Hour", "source": "api", "order": "6", "slot": "Psalm+Gospel", "refs": "Ps 55:21,12; Luke 22:7-13"}
+{"day": "Great Thursday", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 32:30-33:5"}
+{"day": "Great Thursday", "hour": "Third Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Wis 24:1-11"}
+{"day": "Great Thursday", "hour": "Third Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Zech 9:11-14; Zech 10:1-2"}
+{"day": "Great Thursday", "hour": "Third Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Prov 4:4-5:4"}
+{"day": "Great Thursday", "hour": "Third Hour", "source": "api", "order": "5", "slot": "Psalm+Gospel", "refs": "Ps 94:21,23; Matt 26:17-19"}
+{"day": "Great Thursday", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Exod 7:2-15"}
+{"day": "Great Thursday", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Ezek 20:39-44"}
+{"day": "Great Thursday", "hour": "Sixth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Wis 12:13-13:1"}
+{"day": "Great Thursday", "hour": "Sixth Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 31:18,13; Mark 14:12-16"}
+{"day": "Great Thursday", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Gen 22:1-19"}
+{"day": "Great Thursday", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 61:1-7"}
+{"day": "Great Thursday", "hour": "Ninth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Gen 14:17-20"}
+{"day": "Great Thursday", "hour": "Ninth Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Job 27:2-28:13"}
+{"day": "Great Thursday", "hour": "Ninth Hour", "source": "api", "order": "5", "slot": "Psalm+Gospel", "refs": "Ps 23:1,2; Matt 26:17-19"}
+{"day": "Great Thursday", "hour": "Liturgy of Blessing of the Water", "source": "St Mary Ottawa Holy Pascha PDF cross-check 2026-06-06", "order": "1", "slot": "OT1", "refs": "Gen 18:1-23"}
+{"day": "Great Thursday", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 52:13-53:12"}
+{"day": "Great Thursday", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 19:19-25"}
+{"day": "Great Thursday", "hour": "Eleventh Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Zech 12:11-14; Zech 13:1-9; Zech 14:1-4; Zech 14:6-9"}
+{"day": "Great Thursday", "hour": "Eleventh Hour", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 50:17,18; John 13:21-30"}
+{"day": "Great Thursday Eve", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Jer 8:17-9:6"}
+{"day": "Great Thursday Eve", "hour": "First Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 69:1,9; John 13:33-14:25; John 14:26-15:25; John 15:26-16:33; John 17:1-26"}
+{"day": "Great Thursday Eve", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Ezek 36:16-23"}
+{"day": "Great Thursday Eve", "hour": "Third Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 108:1,2; Matt 26:30-35; Mark 14:26-31; Luke 22:31-39; John 18:1,2"}
+{"day": "Great Thursday Eve", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Ezek 22:23-28"}
+{"day": "Great Thursday Eve", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 58:2; Ps 68:21; Matt 26:36-46; Mark 14:32-42; Luke 22:40-46; John 18:3-9"}
+{"day": "Great Thursday Eve", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Jer 9:6-10"}
+{"day": "Great Thursday Eve", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Ezek 21:33-37"}
+{"day": "Great Thursday Eve", "hour": "Ninth Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 27:3,4; Ps 34:4,5; Matt 26:47-58; Mark 14:43-54; Luke 22:47-55; John 18:10-14"}
+{"day": "Great Thursday Eve", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Isa 27:11-28:15"}
+{"day": "Great Thursday Eve", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "Psalm+Gospel", "refs": "Ps 2:1-5; Matt 26:59-75; Mark 14:55-72; Luke 22:56-65; John 18:15-27"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Deut 8:19-9:24"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 1:2-9"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Isa 2:10-21"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Jer 22:29-23:6"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "5", "slot": "OT5", "refs": "Isa 24:1-13"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "6", "slot": "OT6", "refs": "Wis 2:12-22"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "7", "slot": "OT7", "refs": "Job 12:18-13:1"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "8", "slot": "OT8", "refs": "Zech 11:11-14"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "9", "slot": "OT9", "refs": "Mic 1:16-2:3"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "10", "slot": "OT10", "refs": "Mic 7:1-8"}
+{"day": "Good Friday", "hour": "First Hour", "source": "api", "order": "11", "slot": "Psalm+Gospel", "refs": "Ps 27:12; Ps 35:11,12,16; Matt 27:1-14; Mark 15:1-5; Luke 22:66-23:12; John 18:28-40"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Gen 48:1-19"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 50:4-9"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Isa 3:9-15"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Isa 63:1-7"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "5", "slot": "OT5", "refs": "Amos 9:4-6; Amos 9:8-10"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "6", "slot": "OT6", "refs": "Job 29:21-30:10"}
+{"day": "Good Friday", "hour": "Third Hour", "source": "api", "order": "7", "slot": "Psalm+Gospel", "refs": "Ps 38:17; Ps 22:16; Matt 27:15-26; Mark 15:6-25; Luke 23:13-25; John 19:1-12"}
+{"day": "Good Friday", "hour": "Sixth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Num 21:1-9"}
+{"day": "Good Friday", "hour": "Sixth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 53:7-12"}
+{"day": "Good Friday", "hour": "Sixth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Isa 12:2-13:10"}
+{"day": "Good Friday", "hour": "Sixth Hour", "source": "api", "order": "4", "slot": "OT4", "refs": "Amos 8:9-12"}
+{"day": "Good Friday", "hour": "Sixth Hour", "source": "api", "order": "5", "slot": "Pauline", "refs": "Gal 6:14-18"}
+{"day": "Good Friday", "hour": "Sixth Hour", "source": "api", "order": "6", "slot": "Psalm+Gospel", "refs": "Ps 38:21,22; Ps 22:17,18,19,8,9; Matt 27:27-45; Mark 15:26-33; Luke 23:26-44; John 19:1-12"}
+{"day": "Good Friday", "hour": "Ninth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Jer 11:18-12:13"}
+{"day": "Good Friday", "hour": "Ninth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Zech 14:5-11"}
+{"day": "Good Friday", "hour": "Ninth Hour", "source": "api", "order": "3", "slot": "OT3", "refs": "Hos 2:1-3,10-11"}
+{"day": "Good Friday", "hour": "Ninth Hour", "source": "api", "order": "4", "slot": "Pauline", "refs": "Phil 2:5-11"}
+{"day": "Good Friday", "hour": "Ninth Hour", "source": "api", "order": "5", "slot": "Psalm+Gospel", "refs": "Ps 69:2,3,21; Matt 27:46-50; Mark 15:34-37; Luke 23:45-46; John 19:28-30"}
+{"day": "Good Friday", "hour": "Eleventh Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Jer 12:1-14"}
+{"day": "Good Friday", "hour": "Eleventh Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Isa 3:5-12"}
+{"day": "Good Friday", "hour": "Eleventh Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 143:6,7; Ps 31:5; Matt 27:51-56; Mark 15:38-41; Luke 23:47-49; John 19:31-37"}
+{"day": "Good Friday", "hour": "Twelfth Hour", "source": "api", "order": "1", "slot": "OT1", "refs": "Lam 3:1-66"}
+{"day": "Good Friday", "hour": "Twelfth Hour", "source": "api", "order": "2", "slot": "OT2", "refs": "Jonah 1:10-2:8"}
+{"day": "Good Friday", "hour": "Twelfth Hour", "source": "api", "order": "3", "slot": "Psalm+Gospel", "refs": "Ps 88:6; Ps 23:4; Ps 45:6,8; Matt 27:57-61; Mark 15:42-16:1; Luke 23:50-56; John 19:38-42"}
+{"day": "Bright Saturday", "hour": "Liturgy", "source": "api", "order": "1", "slot": "Pauline", "refs": "1Cor 15:1-22"}
+{"day": "Bright Saturday", "hour": "Liturgy", "source": "api", "order": "2", "slot": "Catholic", "refs": "1Pet 1:1-9"}
+{"day": "Bright Saturday", "hour": "Liturgy", "source": "api", "order": "3", "slot": "Acts", "refs": "Acts 3:12-21"}
+{"day": "Bright Saturday", "hour": "Liturgy", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 3:5,3; Ps 82:8; Matt 28:1-20"}
+{"day": "Hosanna Sunday", "hour": "Ninth Hour", "source": "book", "order": "1", "slot": "Psalm+Gospel", "refs": "Ps 8:2,3; Matt 21:10-17"}
+{"day": "Hosanna Sunday", "hour": "Eleventh Hour", "source": "book", "order": "1", "slot": "Psalm+Gospel", "refs": "Ps 22:22-23; Matt 20:20-28"}
+{"day": "Palm Sunday", "hour": "Vespers", "source": "api", "order": "1", "slot": "Psalm", "refs": "Ps 118:26-27"}
+{"day": "Palm Sunday", "hour": "Vespers", "source": "api", "order": "2", "slot": "Gospel", "refs": "John 12:1-11"}
+{"day": "Palm Sunday", "hour": "Matins", "source": "api", "order": "1", "slot": "Psalm", "refs": "Ps 68:19,35"}
+{"day": "Palm Sunday", "hour": "Matins", "source": "api", "order": "2", "slot": "Gospel", "refs": "Luke 19:1-10"}
+{"day": "Palm Sunday", "hour": "Liturgy", "source": "api", "order": "1", "slot": "Pauline", "refs": "Heb 9:11-28"}
+{"day": "Palm Sunday", "hour": "Liturgy", "source": "api", "order": "2", "slot": "Catholic", "refs": "1Pet 4:1-11"}
+{"day": "Palm Sunday", "hour": "Liturgy", "source": "api", "order": "3", "slot": "Acts", "refs": "Acts 28:11-31"}
+{"day": "Palm Sunday", "hour": "Liturgy", "source": "api", "order": "4", "slot": "Psalm+Gospel", "refs": "Ps 80:3,1,2; Matt 21:1-17; Mark 11:1-11; Luke 19:29-48; Ps 64:1,2; John 12:12-19"}

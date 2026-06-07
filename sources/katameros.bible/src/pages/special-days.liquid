@@ -1,0 +1,24 @@
+---
+layout: 'layouts/reading.html'
+title: 'فعاليات العام'
+meta:
+  desc:
+    'دراسات في القراءات اليومية للكنيسة القبطية الارثوذكسية'
+intro:
+  title: 'دراسات في القراءات اليومية للكنيسة القبطية الارثوذكسية'
+permalink: /articles/special/index.html
+---
+
+<div class="entry-content">
+  {% assign items = collections.special | filterByIntro: site.introArticles.special %}
+  {%- for article in items -%}
+    <a href="{{article.url}}" class="block mb-2 add-cross text-2xl">{{ article.data.title }}</a>
+  {%- endfor -%}
+  <ul>
+    {%- for post in collections.special -%}
+      <li class="mb-2">
+        <a href="{{ post.url }}" class="add-cross text-2xl">{{ post.data.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>

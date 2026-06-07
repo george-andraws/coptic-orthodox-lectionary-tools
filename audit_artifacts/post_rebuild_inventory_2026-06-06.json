@@ -1,0 +1,443 @@
+[
+  {
+    "path": "build_bible_chapter_lectionary_index.py",
+    "bytes": 11022,
+    "sha256": "d882e91c3f2c91fa510607709ee3fd12358f3290060a268f0ca03c6e53eca0ce",
+    "mtime": 1780777415.9730372,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "build_lectionary_crosswalk.py",
+    "bytes": 17803,
+    "sha256": "42dc8f1943c1c1b0063dd12098939a7899b32d7660861db1232248c049f06c25",
+    "mtime": 1780777408.547794,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "build_lectionary_reference.py",
+    "bytes": 16106,
+    "sha256": "899219b2d2e4e2fa101cdc4592e7618af65ec6f015c73439580f860b3462fb1c",
+    "mtime": 1780777317.6423638,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "build_pascha_source_text_index.py",
+    "bytes": 8690,
+    "sha256": "498940c2fcd2807f5169169fe095b4e50ff15953a980d238f7d9a602761231a3",
+    "mtime": 1780777227.3747685,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "out/data/agpeya_hour_readings.csv",
+    "bytes": 11074,
+    "sha256": "3fed8c7cb67930d2c60a8c3bd0ce29b21683ca883600a38224a3deae910a31b9",
+    "mtime": 1780777626.4878068,
+    "row_count": 20,
+    "schema": [
+      "prayer_group",
+      "prayer_key",
+      "prayer_name",
+      "service_order",
+      "reading_type",
+      "raw_ref",
+      "display_ref",
+      "source_title",
+      "source_url",
+      "source_page",
+      "notes",
+      "canonical_ref"
+    ]
+  },
+  {
+    "path": "out/data/agpeya_passage_index.csv",
+    "bytes": 130719,
+    "sha256": "d5c41027f101cd668bae49eef69ef7ff5cf20cc54cea0d8b62a6fc65b0097ac4",
+    "mtime": 1780777626.4935539,
+    "row_count": 149,
+    "schema": [
+      "prayer_group",
+      "prayer_key",
+      "prayer_name",
+      "service_order",
+      "reading_type",
+      "raw_ref",
+      "display_ref",
+      "canonical_ref",
+      "matched_ref",
+      "source_title",
+      "source_url",
+      "source_page",
+      "notes",
+      "source_kind"
+    ]
+  },
+  {
+    "path": "out/data/bible_chapter_lectionary_index.csv",
+    "bytes": 408810,
+    "sha256": "c7e93b9835d156c250a7ba2fab21b6eaba744a8476da3ceeb842c101e5bf8777",
+    "mtime": 1780777632.5213373,
+    "row_count": 1351,
+    "schema": [
+      "testament",
+      "book",
+      "book_abbrev",
+      "chapter",
+      "chapter_ref",
+      "is_read",
+      "occurrence_count",
+      "source_kinds",
+      "liturgical_places",
+      "service_sections",
+      "reading_types",
+      "sample_occurrences"
+    ]
+  },
+  {
+    "path": "out/data/bible_chapter_lectionary_occurrences.csv",
+    "bytes": 16101309,
+    "sha256": "d0c5a4d0db2d2636d8c647fc52d299c8851fa35143d94db80579240ee197930a",
+    "mtime": 1780777633.1321003,
+    "row_count": 69184,
+    "schema": [
+      "testament",
+      "book",
+      "book_abbrev",
+      "chapter",
+      "chapter_ref",
+      "passage",
+      "source_kind",
+      "liturgical_place",
+      "calendar_key",
+      "gregorian_date",
+      "coptic_date",
+      "day_title",
+      "service_section",
+      "reading_type",
+      "source_ref",
+      "url"
+    ]
+  },
+  {
+    "path": "out/data/bright_saturday_service_order.csv",
+    "bytes": 6053,
+    "sha256": "4b3669221243e2fc827c74e24cf30fc93506afd1b5aeb22d03c30236140f464b",
+    "mtime": 1779234582.5305579,
+    "row_count": 38,
+    "schema": [
+      "section",
+      "subsection",
+      "reading_name",
+      "reference",
+      "notes",
+      "assignee",
+      "tearoff"
+    ]
+  },
+  {
+    "path": "out/data/copticchurch_date_meta_2020_2035.csv",
+    "bytes": 774160,
+    "sha256": "77f1fd83aaf7679c69eb84f3d1e9408f521866a09722203c24c05f56409511cd",
+    "mtime": 1780777622.7497077,
+    "row_count": 5844,
+    "schema": [
+      "date",
+      "title",
+      "day_title",
+      "reading_count"
+    ]
+  },
+  {
+    "path": "out/data/copticchurch_date_readings_2020_2035.csv",
+    "bytes": 9740879,
+    "sha256": "1db3dcca82e3da8edf75f9bb9c5b21d1cb7353310766cd85909eab5db4433a38",
+    "mtime": 1780777623.1471643,
+    "row_count": 50382,
+    "schema": [
+      "source",
+      "gregorian_date",
+      "weekday",
+      "day_title",
+      "service_section",
+      "reading_type",
+      "raw_ref",
+      "normalized_ref",
+      "parse_status",
+      "normalization_warning",
+      "url"
+    ]
+  },
+  {
+    "path": "out/data/copticchurch_passage_index_2020_2035.csv",
+    "bytes": 11276963,
+    "sha256": "aefc39122454047bd6b358a9add25336d036ad8c968bce5ea2bb83937f896f46",
+    "mtime": 1780777625.4778228,
+    "row_count": 59340,
+    "schema": [
+      "source",
+      "gregorian_date",
+      "weekday",
+      "day_title",
+      "service_section",
+      "reading_type",
+      "matched_ref",
+      "raw_ref",
+      "source_ref_status",
+      "normalization_warning",
+      "url"
+    ]
+  },
+  {
+    "path": "out/data/katameros_cycle_passage_index.csv",
+    "bytes": 1288089,
+    "sha256": "b666782f54424f680b55bc03d47681c9e70b9b204f72f0960012c4551dd71d15",
+    "mtime": 1780777563.4417756,
+    "row_count": 6224,
+    "schema": [
+      "book",
+      "book_abbrev",
+      "chapter",
+      "verse_start",
+      "verse_end",
+      "raw_segment",
+      "normalized_segment",
+      "canonical_segment",
+      "source",
+      "source_table",
+      "source_type",
+      "cycle",
+      "day_key",
+      "month_number",
+      "month_name",
+      "day",
+      "week",
+      "day_of_week",
+      "day_name",
+      "season",
+      "other",
+      "reading_slot",
+      "raw_ref",
+      "normalized_ref"
+    ]
+  },
+  {
+    "path": "out/data/katameros_cycle_readings.csv",
+    "bytes": 685420,
+    "sha256": "b1aaeb09655078c2d454600bbed51bc2e441b554ce88822886f6b22c661a13f9",
+    "mtime": 1780777563.280839,
+    "row_count": 4637,
+    "schema": [
+      "source",
+      "source_table",
+      "source_type",
+      "cycle",
+      "day_key",
+      "month_number",
+      "month_name",
+      "day",
+      "week",
+      "day_of_week",
+      "day_name",
+      "season",
+      "other",
+      "reading_slot",
+      "raw_ref",
+      "normalized_ref"
+    ]
+  },
+  {
+    "path": "out/data/pascha_day_hour_index.csv",
+    "bytes": 10682,
+    "sha256": "6ba376421814cf97f26667603d59dc5db12d500b44ed4152b6ad6860a6978329",
+    "mtime": 1780777290.1236005,
+    "row_count": 173,
+    "schema": [
+      "day",
+      "hour",
+      "source",
+      "order",
+      "slot",
+      "refs"
+    ]
+  },
+  {
+    "path": "out/data/pascha_source_text_index.csv",
+    "bytes": 58923,
+    "sha256": "96181c9ec471c9b9dd6a1db134e97e0a0912422d9c057926f9eeb0a4b3f9b860",
+    "mtime": 1780777626.210086,
+    "row_count": 277,
+    "schema": [
+      "day",
+      "hour",
+      "source_kind",
+      "source_family",
+      "source_file",
+      "source_line",
+      "source_page",
+      "order",
+      "reading_type",
+      "raw_ref",
+      "normalized_ref",
+      "parse_status",
+      "provenance_note"
+    ]
+  },
+  {
+    "path": "out/data/reverse_lookup_crosswalk.csv",
+    "bytes": 27572756,
+    "sha256": "b83a6a5a82242486399635eb73b69d19e254dfcbbb4c73085238fe79df88dc20",
+    "mtime": 1780777629.635768,
+    "row_count": 66495,
+    "schema": [
+      "passage",
+      "source_kind",
+      "source_family",
+      "source_table",
+      "source_file",
+      "source_row_id",
+      "liturgical_place",
+      "calendar_key",
+      "gregorian_date",
+      "coptic_date",
+      "day_title",
+      "service_day",
+      "service_hour",
+      "service_section",
+      "reading_slot",
+      "reading_type",
+      "source_ref",
+      "raw_ref",
+      "normalized_ref",
+      "normalized_segment",
+      "book",
+      "book_abbrev",
+      "chapter_start",
+      "verse_start",
+      "chapter_end",
+      "verse_end",
+      "significance_note",
+      "synaxarium_note",
+      "url",
+      "provenance"
+    ]
+  },
+  {
+    "path": "out/data/reverse_lookup_summary.csv",
+    "bytes": 79173,
+    "sha256": "95882a1ee870f2b5566d73f78443ec27377f5d5eab1659d88d128d279c548f52",
+    "mtime": 1780777630.6518493,
+    "row_count": 2648,
+    "schema": [
+      "passage",
+      "cycle_occurrences",
+      "date_occurrences",
+      "special_service_occurrences",
+      "agpeya_occurrences",
+      "pascha_occurrences",
+      "pascha_source_text_occurrences",
+      "bright_saturday_occurrences",
+      "total_occurrences"
+    ]
+  },
+  {
+    "path": "out/data/source_ref_repair_report.csv",
+    "bytes": 3185,
+    "sha256": "2a888014934fb4fac27dc0aef339f5b105b81ca663f6474c1ffd801dc437a4fe",
+    "mtime": 1780777625.013854,
+    "row_count": 19,
+    "schema": [
+      "gregorian_date",
+      "day_title",
+      "service_section",
+      "reading_type",
+      "raw_ref",
+      "repaired_ref",
+      "source_ref_status",
+      "normalization_warning",
+      "url"
+    ]
+  },
+  {
+    "path": "out/data/special_service_passage_index.csv",
+    "bytes": 65510,
+    "sha256": "ccac3d96cf5a2a8a08ae79e0c1d614e2d45c91efb18743cf7dec9ad317029397",
+    "mtime": 1780777626.368119,
+    "row_count": 196,
+    "schema": [
+      "service_family",
+      "service_variant",
+      "section",
+      "reading_type",
+      "raw_ref",
+      "canonical_ref",
+      "matched_ref",
+      "source_title",
+      "source_url",
+      "source_page",
+      "notes",
+      "source_kind"
+    ]
+  },
+  {
+    "path": "out/data/special_service_readings_curated.csv",
+    "bytes": 48197,
+    "sha256": "e7ed10b754e885e6b881b088fd9cddfc72108f79cbcbb71aadee5c87f4eb6d72",
+    "mtime": 1780777626.3627305,
+    "row_count": 161,
+    "schema": [
+      "service_family",
+      "service_variant",
+      "section",
+      "reading_type",
+      "raw_ref",
+      "source_title",
+      "source_url",
+      "source_page",
+      "notes",
+      "canonical_ref"
+    ]
+  },
+  {
+    "path": "out/scripts/passage_normalization.py",
+    "bytes": 18008,
+    "sha256": "94d3391747dd7dfda4a6f5db816747344ce5c0cd76190dda802e16f72ebd7381",
+    "mtime": 1780777255.5903857,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "out/scripts/query_lectionary.py",
+    "bytes": 12155,
+    "sha256": "d1d2f9893d3f54bc5114d8cd7f404c4739938e176768d36afb82a3004f2c630f",
+    "mtime": 1780777498.7719867,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "passage_normalization.py",
+    "bytes": 18008,
+    "sha256": "94d3391747dd7dfda4a6f5db816747344ce5c0cd76190dda802e16f72ebd7381",
+    "mtime": 1780777255.5903857,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "query_lectionary.py",
+    "bytes": 12155,
+    "sha256": "d1d2f9893d3f54bc5114d8cd7f404c4739938e176768d36afb82a3004f2c630f",
+    "mtime": 1780777498.7719867,
+    "row_count": null,
+    "schema": []
+  },
+  {
+    "path": "verify_lectionary_queries.py",
+    "bytes": 12620,
+    "sha256": "4d6b8e5763ea692f9df138b2a200c9a36acd194f2673784541d304a02c36a0b8",
+    "mtime": 1780777531.7639484,
+    "row_count": null,
+    "schema": []
+  }
+]

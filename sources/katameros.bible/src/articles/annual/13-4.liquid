@@ -1,0 +1,72 @@
+---
+layout: 'layouts/reading.html'
+title: 'اليوم الرابع من نسئ الشهر الصغير'
+tags: 'annual'
+permalink: /articles/annual/13-4.html
+---
+  {% block content %}
+    <section id="readings">
+      <ul>
+      {% if 'undefined' != 'undefined' %}
+      
+      {% else %}
+      {% if '19.68:35,3' != 'null' %}
+      <li class="mb-2" x-data="{selected:false}">
+        <button type="button" class="w-full px-4 py-2 bg-[#c46325] text-white text-xl" @click="selected =! selected">
+          <div class="flex items-center justify-between">
+            <span class="kufi">العشية</span>
+            <span class="ico-plus" :class="selected && 'opened'" aria-hidden="true"></span>
+          </div>
+        </button>
+        <div class="relative overflow-hidden transition-all max-h-0 duration-300" x-ref="container1" x-bind:style="selected ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+          <div class="p-4">
+          {% makeVespers '19.68:35,3' '40.24:42-47' %}
+          </div>
+        </div>
+      </li>
+      {% endif %}
+      <li class="mb-2" x-data="{selected:false}">
+        <button type="button" class="w-full px-4 py-2 bg-[#c46325] text-white text-xl" @click="selected =! selected">
+          <div class="flex items-center justify-between">
+            <span class="kufi">باكر</span>
+            <span class="ico-plus" :class="selected && 'opened'" aria-hidden="true"></span>
+          </div>
+        </button>
+        <div class="relative overflow-hidden transition-all max-h-0 duration-300" x-ref="container1" x-bind:style="selected ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+          <div class="p-4">
+          {% makeMatins '19.97:11-12' '41.13:33-37' '' %}
+          </div>
+        </div>
+      </li>
+      <li class="mb-2" x-data="{selected:false}">
+        <button type="button" class="w-full px-4 py-2 bg-[#c46325] text-white text-xl" @click="selected =! selected">
+          <h3 class="flex items-center justify-between">
+            <span class="kufi">القداس</span>
+            <span class="ico-plus" :class="selected && 'opened'" aria-hidden="true"></span>
+          </h3>
+        </button>
+        <div class="relative overflow-hidden transition-all max-h-0 duration-300" x-ref="container1" x-bind:style="selected ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+          <div class="p-4">
+          {% makeLitugy '46.3:9-23' '60.5:1-12' '44.18:24-28*@+44.19:1-6' '19.116:15-16' '42.16:1-12' %}
+          </div>
+        </div>
+      </li>
+
+      {% endif %}
+        </ul>
+    </section>
+    <section id="article">
+      <h3 class="mt-8 mb-4 heading-explain">شرح القراءات</h3>
+      {% createArticleAccordions %}
+        <p>قراءة هذا اليوم (نياحة القديس أنبا بيمن المتوحد ونياحة ليباريوس أسقف روما ) ترتبط بنياحة القديس أنبا بيمن المتوحد لذلك تدور القراءات حول السهر الروحي</p>
+<p>+ تتشابه قراءات اليوم مع قراءات<a href="https://katameros.bible/church-reading/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%b9%d8%b4%d8%b1%d9%88%d9%86-%d9%85%d9%86-%d8%b4%d9%87%d8%b1-%d8%a8%d8%b4%d9%86%d8%b3/"> اليوم العشرون من شهر بشنس</a> ( نياحة القديس أمونيوس الأنطاكي ) لارتباط وتشابه سيرة حياتهما معاً</p>
+<p>+ وتتماثل القراءتين في أناجيل عشيّة وباكر والقدّاس والإبركسيس وتشابه البولس والكاثوليكون في معظم القراءة واختلاف المزامير فقط</p>
+<p>+ وتتوافق القراءتين لتشابه سيرة حياة القديس أمونيوس الأنطاكي المتوحد والقديس أنبا بيمن المتوحد</p>
+<p>لذلك يُمْكِن الرجوع لشرح قراءات <a href="https://katameros.bible/church-reading/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%b9%d8%b4%d8%b1%d9%88%d9%86-%d9%85%d9%86-%d8%b4%d9%87%d8%b1-%d8%a8%d8%b4%d9%86%d8%b3/">اليوم العشرون من شهر بشنس</a> لوحدة الهدف والمعني ومعظم التفاصيل</p>
+<h3>عظات آبائية، وعظات آباء وخدام معاصرين</h3>
+<p>يُمْكِن الرجوع لعظات <a href="https://katameros.bible/church-reading/%d9%8a%d9%80%d9%88%d9%85-%d8%a7%d9%84%d8%a3%d8%ab%d9%86%d9%8a%d9%80%d9%86-%d9%85%d9%86-%d8%a7%d9%84%d8%a3%d8%b3%d8%a8%d9%88%d8%b9-%d8%a7%d9%84%d9%80%d8%b1%d8%a7%d8%a8%d8%b9/">يوم الإثنين من الأسبوع الرابع من الصوم الكبير، </a></p>
+<p>وعظات<a href="https://katameros.bible/church-reading/%d8%a7%d9%84%d9%8a%d9%88%d9%85-%d8%a7%d9%84%d8%b9%d8%b4%d8%b1%d9%88%d9%86-%d9%85%d9%86-%d8%b4%d9%87%d8%b1-%d8%a8%d8%b4%d9%86%d8%b3/"> يوم عشرون بشنس</a></p>
+
+      {% endcreateArticleAccordions %}
+    </section>
+  {% endblock %}

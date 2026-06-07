@@ -1,0 +1,334 @@
+# Full Lectionary Audit Data Change Manifest
+
+- Created: 2026-06-06T14:16:57.934849
+- Baseline: `/Users/georgeandraws/workspace/coptic-lectionary-research/audit_artifacts/full_lectionary_audit_20260606_141111`
+
+## Source-of-truth map
+### raw/provenance layer
+- `sources/katameros-api/Core/KatamerosDatabase.db`
+- `sources/pdfs/*`
+- `out/sources/*`
+- `cache/copticchurch_html/*`
+### curated normalized source layer
+- `out/data/pascha_day_hour_index.csv`
+- `out/data/bright_saturday_service_order.csv`
+- `out/data/special_service_readings_curated.csv`
+- `out/data/agpeya_hour_readings.csv`
+- `out/data/katameros_cycle_readings.csv`
+- `out/data/copticchurch_date_readings_2020_2035.csv`
+### generated index layer
+- `out/data/*passage_index*.csv`
+- `out/data/reverse_lookup_crosswalk.csv`
+- `out/data/reverse_lookup_summary.csv`
+- `out/data/bible_chapter_lectionary_index.csv`
+- `out/data/bible_chapter_lectionary_occurrences.csv`
+### query helper layer
+- `out/scripts/query_lectionary.py`
+- `out/scripts/passage_normalization.py`
+### vault publication layer
+- `Coptic Orthodox Lectionary Reference/data`
+- `Coptic Orthodox Lectionary Reference/scripts`
+- `Coptic Orthodox Lectionary Reference/sources`
+
+## Build order verified
+1. export katameros cycle tables
+2. scrape/parse copticchurch date data
+3. copy existing Pascha/Bright Saturday curated artifacts if needed
+4. extract Pascha source text
+5. build special service curated/index
+6. build Agpeya curated/index
+7. build reverse crosswalk from all normalized layers
+8. build Bible chapter index from reverse crosswalk
+9. copy support/query scripts
+10. run verification
+11. publish verified package
+
+## Source-kind counts
+- agpeya: 149
+- bright_saturday_service_order: 36
+- copticchurch_date: 59340
+- katameros_cycle: 6224
+- pascha_day_hour: 286
+- pascha_source_text: 273
+- special_service: 196
+
+## Changed files
+- `out/BUILD_SUMMARY.json`: modified (generated-layer); rows 11 -> None; sha 5ebd1403af73 -> 67519d0aabc3; reason: rebuild/regression protection/publication timestamp if generated; verification: `python3 verify_lectionary_queries.py`
+- `out/sources/SOURCE_MANIFEST.json`: modified (generated-layer); rows 14 -> None; sha bc580f848a39 -> f174139ee151; reason: rebuild/regression protection/publication timestamp if generated; verification: `python3 verify_lectionary_queries.py`
+- `verify_lectionary_queries.py`: modified (script-layer); rows None -> None; sha 60276a986e8d -> de7bc9a7991c; reason: rebuild/regression protection/publication timestamp if generated; verification: `python3 verify_lectionary_queries.py`
+
+## Key rebuilt artifact counts
+- `out/data/pascha_day_hour_index.csv`: rows=173 sha256=6ba376421814cf97
+- `out/data/pascha_source_text_index.csv`: rows=277 sha256=96181c9ec471c9b9
+- `out/data/bright_saturday_service_order.csv`: rows=38 sha256=4b3669221243e2fc
+- `out/data/special_service_readings_curated.csv`: rows=161 sha256=e7ed10b754e885e6
+- `out/data/special_service_passage_index.csv`: rows=196 sha256=ccac3d96cf5a2a8a
+- `out/data/katameros_cycle_passage_index.csv`: rows=6224 sha256=b666782f54424f68
+- `out/data/copticchurch_passage_index_2020_2035.csv`: rows=59340 sha256=aefc39122454047b
+- `out/data/reverse_lookup_crosswalk.csv`: rows=66504 sha256=057081672b36992d
+- `out/data/reverse_lookup_summary.csv`: rows=2650 sha256=2b42150e845737f1
+- `out/data/bible_chapter_lectionary_index.csv`: rows=1351 sha256=429795c05f707bf8
+- `out/data/bible_chapter_lectionary_occurrences.csv`: rows=71315 sha256=36f9cd49569de3a6
+
+## Affected passages used for Bible-study cross-check
+- Gen 14:17-20
+- Gen 18:1-23
+- Gen 1:1-31
+- Gen 22:1-19
+- Gen 23:1-20
+- Gen 24:1-67
+- Gen 24:1-9
+- Gen 28:10-31
+- Gen 2:1-3
+- Gen 2:15-25
+- Gen 2:15-3:24
+- Gen 3:1-24
+- Gen 48:1-19
+- Gen 50:4-25
+- Gen 6:5-9:7
+- Isa 12:2-13:10
+- Isa 19:19-25
+- Isa 1:1-9
+- Isa 1:2-9
+- Isa 24:1-13
+- Isa 25:1-12
+- Isa 26:1-9
+- Isa 26:9-20
+- Isa 27:11-28:15
+- Isa 28:16-29
+- Isa 2:10-21
+- Isa 30:25-30
+- Isa 38:10-20
+- Isa 3:5-12
+- Isa 3:9-15
+- Isa 40:1-5
+- Isa 40:9-31
+- Isa 45:15-20
+- Isa 48:1-6
+- Isa 48:12-22
+- Isa 4:2-4
+- Isa 50:1-3
+- Isa 50:10-51:8
+- Isa 50:4-9
+- Isa 52:13-53:12
+- Isa 53:7-12
+- Isa 58:1-11
+- Isa 58:1-9
+- Isa 59:1-17
+- Isa 5:1-9
+- Isa 5:20-30
+- Isa 61:1-6
+- Isa 61:1-7
+- Isa 63:1-7
+- Jn 10:17-21
+- Jn 10:29-38
+- Jn 11:12-24
+- Jn 11:38-45
+- Jn 11:46-57
+- Jn 11:55-57
+- Jn 12:1-11
+- Jn 12:1-8
+- Jn 12:12-19
+- Jn 12:20-36
+- Jn 12:27-36
+- Jn 12:36-43
+- Jn 12:44-50
+- Jn 13:1-17
+- Jn 13:21-30
+- Jn 13:33-14:25
+- Jn 14:1-19
+- Jn 14:26-15:25
+- Jn 15:26-16:33
+- Jn 16:20-23
+- Jn 17:1-26
+- Jn 18:1,18:2
+- Jn 18:1-2
+- Jn 18:10-14
+- Jn 18:15-27
+- Jn 18:28-40
+- Jn 18:3-9
+- Jn 19:1-12
+- Jn 19:13-27
+- Jn 19:28-30
+- Jn 19:31-37
+- Jn 19:38-42
+- Jn 1:18-42
+- Jn 1:43-51
+- Jn 2
+- Jn 20:1-18
+- Jn 21:34-38
+- Jn 2:13-17
+- Jn 3:1-21
+- Jn 3:22-36
+- Jn 4:1-2
+- Jn 4:1-24
+- Jn 5:1-17
+- Jn 5:19-29
+- Jn 5:21-30
+- Jn 8:12-20
+- Jn 8:21-29
+- Jn 8:51-59
+- Lam 1:1-4
+- Lam 3:1-66
+- Lam 5:16-22
+- Ps 102:1,102:2
+- Ps 102:1,102:8
+- Ps 102:1-2
+- Ps 103:20-21
+- Ps 104:4
+- Ps 108:1,108:2
+- Ps 114:3
+- Ps 114:5
+- Ps 115:12-13
+- Ps 116:6
+- Ps 116:7-8
+- Ps 118:19-20
+- Ps 118:26-27
+- Ps 119:154-155
+- Ps 120:2,120:6
+- Ps 122:1-2
+- Ps 122:4
+- Ps 127:1
+- Ps 128:3
+- Ps 129:2-5
+- Ps 12:3-4
+- Ps 130:1
+- Ps 132:1
+- Ps 138:1
+- Ps 13:3,13:5
+- Ps 13:3-4
+- Ps 140:1,140:2
+- Ps 142:7
+- Ps 143:6,143:7
+- Ps 16:10-11
+- Ps 18:17-18
+- Ps 18:48,18:17
+- Ps 19:3-4
+- Ps 19:5
+- Ps 22:16
+- Ps 22:17,22:18
+- Ps 22:20-21
+- Ps 22:22-23
+- Ps 23
+- Ps 23:1,23:2
+- Ps 23:4
+- Ps 23:5,23:41
+- Ps 23:5-6
+- Ps 24
+- Ps 25:1-3
+- Ps 25:18
+- Ps 25:20
+- Ps 26
+- Ps 27
+- Ps 27:10
+- Ps 27:12
+- Ps 27:12,27:35
+- Ps 27:3,27:4
+- Ps 27:6,27:7
+- Ps 28:3,28:4
+- Ps 28:3-4
+- Ps 28:9,28:2
+- Ps 29:1,29:2
+- Ps 29:3-4
+- Ps 2:1-5
+- Ps 31:1-2
+- Ps 31:18,31:13
+- Ps 31:5
+- Ps 32:1-2
+- Ps 33:10
+- Ps 33:10,33:11
+- Ps 33:10-11
+- Ps 34:4,34:5
+- Ps 34:7-8
+- Ps 35:11,35:12
+- Ps 37:21,37:22
+- Ps 38:1-2
+- Ps 38:17
+- Ps 38:21,38:22
+- Ps 38:21-22
+- Ps 39:12-13
+- Ps 3:5,3:3
+- Ps 41:10,41:5
+- Ps 41:5-6
+- Ps 41:5-7
+- Ps 41:6,41:1
+- Ps 45:13
+- Ps 45:6,45:8
+- Ps 45:7-8
+- Ps 45:9
+- Ps 4:1
+- Ps 50:17,50:18
+- Ps 51:1-2
+- Ps 51:12-13
+- Ps 51:4
+- Ps 51:4,51:33
+- Ps 51:7,51:10
+- Ps 51:7-8
+- Ps 52:8
+- Ps 55:21,55:1
+- Ps 55:21,55:12
+- Ps 57:1
+- Ps 58:2
+- Ps 59:1,59:69
+- Ps 59:16-17
+- Ps 62:7,62:2
+- Ps 62:7,62:6
+- Ps 64:1,64:2
+- Ps 65:1
+- Ps 65:1-2
+- Ps 65:4
+- Ps 65:4-5
+- Ps 65:5,65:4
+- Ps 65:6
+- Ps 66:4
+- Ps 68:11-12
+- Ps 68:19
+- Ps 68:19,68:35
+- Ps 68:21
+- Ps 68:3
+- Ps 68:35
+- Ps 69:1,69:16
+- Ps 69:1,69:9
+- Ps 69:1-2,69:21
+- Ps 69:17
+- Ps 69:2,69:3
+- Ps 6:1-2
+- Ps 6:2
+- Ps 6:2,6:3
+- Ps 71:18-19
+- Ps 72:1-19
+- Ps 72:11
+- Ps 72:18-19
+- Ps 78:38-39
+- Ps 7:1-2
+- Ps 80:3,80:1
+- Ps 81:1
+- Ps 81:2
+- Ps 81:3
+- Ps 82:8
+- Ps 83:2,83:5
+- Ps 84:1-2
+- Ps 85
+- Ps 87:3,87:5
+- Ps 88:4-5
+- Ps 88:6
+- Ps 88:6,88:23
+- Ps 89:20-21
+- Ps 8:2,8:1
+- Ps 8:2,8:3
+- Ps 91:2,91:3
+- Ps 93
+- Ps 94:21,94:23
+- Ps 97:1
+- Ps 97:11-12
+- Ps 97:7-8
+- Wis 12:13-13:1
+- Wis 1:1-9
+- Wis 1:20-2:15
+- Wis 22:7-18
+- Wis 23:7-14
+- Wis 24:1-11
+- Wis 2:12-22
+- Wis 2:20-30
+- Wis 3:12-24
+- Wis 7:24-30

@@ -1,0 +1,47 @@
+{
+  "files_scanned": 1557,
+  "summary": {
+    "stale_john2_tuesday": 3,
+    "stale_jer_8_wed_eve": 0,
+    "stale_ps122_tuesday_sixth": 0,
+    "stale_ps62_wed_eleven": 0,
+    "stale_wisdom_query_gap": 0,
+    "supported_no_exact_phrase": 2
+  },
+  "matches": {
+    "stale_john2_tuesday": [
+      {
+        "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Resources Used - Jeremiah.md",
+        "line": 173,
+        "snippet": "John 2:13-17, Christ cleansing the temple, appears in the rebuilt Pascha day/hour and source-text indexes for Pascha Monday Sixth Hour. The rebuilt Tuesday Sixth Hour Gospel is John 8:12-20, not the temple-cleansing Gospel. - Local patristic result: `patristic passage` returned no"
+      },
+      {
+        "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 7 Continuation Audit - 2026-05-29.md",
+        "line": 54,
+        "snippet": "John 2:13-17, Christ cleansing the temple, appears in the rebuilt Pascha day/hour and source-text indexes for Pascha Monday Sixth Hour. The rebuilt Tuesday Sixth Hour Gospel is John 8:12-20, not the temple-cleansing Gospel. This was recorded as a related New Testament liturgical c"
+      },
+      {
+        "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 7 Continuation Audit - 2026-05-29.md",
+        "line": 96,
+        "snippet": "John 2:13-17 temple-cleansing Gospel verified in Pascha Monday Sixth Hour; Tuesday Sixth Hour now verifies John 8:12-20. - Patristic claims have local direct-source support through normalized-corpus text sear"
+      }
+    ],
+    "stale_jer_8_wed_eve": [],
+    "stale_ps122_tuesday_sixth": [],
+    "stale_ps62_wed_eleven": [],
+    "stale_wisdom_query_gap": [],
+    "supported_no_exact_phrase": [
+      {
+        "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 6.1-21 - Rulers Under Judgment.md",
+        "line": 198,
+        "snippet": "No exact Coptic lectionary placement for Wisdom 6:1-21 was identified in the checked sources for this guide. Wisdom of Solomon as a book does appear in checked Coptic Holy Pascha material at Wisdom 1:1-9, Wisdom 2:12-22, and Wisdom 7:24-30, but this session does not claim a specific Coptic reading a"
+      },
+      {
+        "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 7 - Temple sermon.md",
+        "line": 29,
+        "snippet": "No exact indexed Coptic lectionary occurrence surfaced for Jeremiah 7 in the rebuilt local lectionary stack. The related temple-cleansing Gospel, John 2:13-17, is indexed for Pascha Monday Sixth Hour.\" --- # Jeremiah 7 - Temple sermon  ## Revision Note  This guide has been rebu"
+      }
+    ]
+  },
+  "interpretation": "Remaining stale_john2_tuesday hits are explicit guardrail text saying Tuesday Sixth is not John 2; supported_no_exact_phrase hits are scoped no-exact claims for Jeremiah 7/Wisdom 6, not stale supported-passage claims."
+}

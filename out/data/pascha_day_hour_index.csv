@@ -1,0 +1,174 @@
+day,hour,source,order,slot,refs
+Monday,First Hour,api,1,OT1,Gen 1:1-31; Gen 2:1-3
+Monday,First Hour,api,2,OT2,Isa 5:1-9
+Monday,First Hour,api,3,OT3,Ps 72:1-19
+Monday,First Hour,api,4,Psalm+Gospel,Ps 72:18-19; Mark 11:12-24
+Monday,Third Hour,api,1,OT1,Isa 5:20-30
+Monday,Third Hour,api,2,OT2,Jer 9:12-19
+Monday,Third Hour,api,3,Psalm+Gospel,Ps 122:1-2; Mark 11:11-19
+Monday,Sixth Hour,api,1,OT1,Exod 32:7-15
+Monday,Sixth Hour,api+St Mary Ottawa Holy Pascha source-text correction 2026-06-06,2,OT2,Wis 1:1-9
+Monday,Sixth Hour,api,3,Psalm+Gospel,Ps 122:4; John 2:13-17
+Monday,Ninth Hour,api,1,OT1,Gen 2:15-25; Gen 3:1-24
+Monday,Ninth Hour,api,2,OT2,Isa 40:1-5
+Monday,Ninth Hour,api,3,OT3,Prov 1:1-9
+Monday,Ninth Hour,api,4,Psalm+Gospel,"Ps 65:5,4; Matt 21:23-27"
+Monday,Eleventh Hour,api,1,OT1,Isa 50:1-3
+Monday,Eleventh Hour,api,2,OT2,Wis 2:20-30
+Monday,Eleventh Hour,api,3,Psalm+Gospel,Ps 13:3-4; John 8:51-59
+Monday Eve,First Hour,api,1,OT1,Zech 1:1-6
+Monday Eve,First Hour,api,2,Psalm+Gospel,"Ps 62:7,6; Luke 13:23-30"
+Monday Eve,Third Hour,api,1,OT1,Mal 1:1-9
+Monday Eve,Third Hour,api,2,Psalm+Gospel,"Ps 13:3,5; Luke 13:31-35"
+Monday Eve,Sixth Hour,api,1,OT1,Hos 4:15-19; Hos 5:1-7
+Monday Eve,Sixth Hour,api,2,Psalm+Gospel,"Ps 91:2,3; John 21:34-38"
+Monday Eve,Ninth Hour,api,1,OT1,Hos 10:12-15; Hos 11:1-2
+Monday Eve,Ninth Hour,api,2,Psalm+Gospel,"Ps 33:10,11; Luke 11:37-52"
+Monday Eve,Eleventh Hour,api,1,OT1,Amos 5:6-14
+Monday Eve,Eleventh Hour,api,2,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2
+Tuesday,First Hour,api,1,OT1,Exod 19:1-9
+Tuesday,First Hour,api,2,OT2,Job 23:2-17; Job 24:1-25
+Tuesday,First Hour,api,3,OT3,Hos 4:1-8
+Tuesday,First Hour,api,4,Psalm+Gospel,"Ps 120:2,6,7; John 11:12-24"
+Tuesday,Third Hour,api,1,OT1,Isa 5:20-30
+Tuesday,Third Hour,api,2,OT2,Jer 9:12-19
+Tuesday,Third Hour,api,3,Psalm+Gospel,Ps 122:1-2; Mark 11:11-19
+Tuesday,Sixth Hour,St Mary Ottawa Holy Pascha source-text correction 2026-06-06,1,OT1,Ezek 21:3-13
+Tuesday,Sixth Hour,St Mary Ottawa Holy Pascha source-text correction 2026-06-06,2,OT2,Sir 4:20-5:2
+Tuesday,Sixth Hour,St Mary Ottawa Holy Pascha source-text correction 2026-06-06,3,OT3,Isa 1:1-9
+Tuesday,Sixth Hour,St Mary Ottawa Holy Pascha source-text correction 2026-06-06,4,Psalm+Gospel,"Ps 18:48,17; John 8:12-20"
+Tuesday,Ninth Hour,api+St Mary Ottawa Holy Pascha PDF cross-check 2026-06-06,1,OT1,Gen 6:5-9:7
+Tuesday,Ninth Hour,api,2,OT2,Isa 40:1-5
+Tuesday,Ninth Hour,api,3,OT3,Prov 1:1-9
+Tuesday,Ninth Hour,api,4,Psalm+Gospel,"Ps 65:5,4; Matt 21:23-27"
+Tuesday,Eleventh Hour,api,1,OT1,Isa 50:1-3
+Tuesday,Eleventh Hour,api,2,OT2,Wis 2:20-30
+Tuesday,Eleventh Hour,api,3,Psalm+Gospel,Ps 13:3-4; John 8:51-59
+Tuesday Eve,First Hour,api,1,OT1,Zech 1:1-6
+Tuesday Eve,First Hour,api,2,Psalm+Gospel,"Ps 62:7,6; Luke 13:23-30"
+Tuesday Eve,Third Hour,api,1,OT1,Mal 1:1-9
+Tuesday Eve,Third Hour,api,2,Psalm+Gospel,"Ps 13:3,5; Luke 13:31-35"
+Tuesday Eve,Sixth Hour,api,1,OT1,Hos 4:15-19; Hos 5:1-7
+Tuesday Eve,Sixth Hour,api,2,Psalm+Gospel,"Ps 91:2,3; John 21:34-38"
+Tuesday Eve,Ninth Hour,api,1,OT1,Hos 10:12-15; Hos 11:1-2
+Tuesday Eve,Ninth Hour,api,2,Psalm+Gospel,"Ps 33:10,11; Luke 11:37-52"
+Tuesday Eve,Eleventh Hour,api,1,OT1,Amos 5:6-14
+Tuesday Eve,Eleventh Hour,api,2,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2
+Wednesday,First Hour,api,1,OT1,Exod 17:1-7
+Wednesday,First Hour,api,2,OT2,Prov 3:5-15
+Wednesday,First Hour,api,3,OT3,Hos 5:13-6:3
+Wednesday,First Hour,api,4,OT4,Wis 1:20-2:15
+Wednesday,First Hour,api,5,OT5,Wis 3:12-24
+Wednesday,First Hour,api,6,Psalm+Gospel,Ps 51:4; Ps 33:10; John 11:46-57
+Wednesday,Third Hour,api,1,OT1,Exod 13:17-22
+Wednesday,Third Hour,api,2,OT2,Wis 22:7-18
+Wednesday,Third Hour,api,3,OT3,Job 27:16-20; Job 28:1-2
+Wednesday,Third Hour,api,4,OT4,Prov 4:4-5:4
+Wednesday,Third Hour,api,5,Psalm+Gospel,"Ps 41:6,1; Luke 22:1-6"
+Wednesday,Sixth Hour,api,1,OT1,Exod 14:13-15:1
+Wednesday,Sixth Hour,api,2,OT2,Isa 48:1-6
+Wednesday,Sixth Hour,api,3,OT3,Wis 23:7-14
+Wednesday,Sixth Hour,api,4,Psalm+Gospel,"Ps 83:2,5; John 12:1-8"
+Wednesday,Ninth Hour,api,1,OT1,Gen 24:1-9
+Wednesday,Ninth Hour,api,2,OT2,Num 20:1-13
+Wednesday,Ninth Hour,api,3,OT3,Prov 1:10-23
+Wednesday,Ninth Hour,api,4,OT4,Isa 59:1-17
+Wednesday,Ninth Hour,api,5,OT5,Zech 11:11-14
+Wednesday,Ninth Hour,api,6,Psalm+Gospel,Ps 41:5-6; Matt 26:3-16
+Wednesday,Eleventh Hour,api,1,OT1,Isa 28:16-29
+Wednesday,Eleventh Hour,api,2,Psalm+Gospel,Ps 6:2; Ps 69:17; John 12:27-36
+Wednesday Eve,First Hour,api,1,OT1,Jer 43:5-11
+Wednesday Eve,First Hour,api,2,Psalm+Gospel,"Ps 69:1,16; John 10:17-21"
+Wednesday Eve,Third Hour,api,1,OT1,Amos 4:4-13
+Wednesday Eve,Third Hour,api,2,Psalm+Gospel,"Ps 55:21,1; Mark 14:3-11"
+Wednesday Eve,Sixth Hour,api,1,OT1,Amos 3:1-11
+Wednesday Eve,Sixth Hour,api,2,Psalm+Gospel,"Ps 140:1,2; John 12:36-43"
+Wednesday Eve,Ninth Hour,api,1,OT1,Ezek 20:27-33
+Wednesday Eve,Ninth Hour,api,2,Psalm+Gospel,Ps 7:1-2; John 10:29-38
+Wednesday Eve,Eleventh Hour,St Mary Ottawa Holy Pascha source-text correction 2026-06-06,1,OT1,Wis 7:24-30
+Wednesday Eve,Eleventh Hour,St Mary Ottawa Holy Pascha source-text correction 2026-06-06,2,Psalm+Gospel,Ps 57:1; John 11:55-57
+Great Thursday,First Hour,api,1,OT1,Exod 17:8-16
+Great Thursday,First Hour,api,2,OT2,Exod 15:22-16:3
+Great Thursday,First Hour,api,3,OT3,Isa 58:1-9
+Great Thursday,First Hour,api,4,OT4,Ezek 18:20-32
+Great Thursday,First Hour,api,5,Acts,Acts 1:15-20
+Great Thursday,First Hour,api,6,Psalm+Gospel,"Ps 55:21,12; Luke 22:7-13"
+Great Thursday,Third Hour,api,1,OT1,Exod 32:30-33:5
+Great Thursday,Third Hour,api,2,OT2,Wis 24:1-11
+Great Thursday,Third Hour,api,3,OT3,Zech 9:11-14; Zech 10:1-2
+Great Thursday,Third Hour,api,4,OT4,Prov 4:4-5:4
+Great Thursday,Third Hour,api,5,Psalm+Gospel,"Ps 94:21,23; Matt 26:17-19"
+Great Thursday,Sixth Hour,api,1,OT1,Exod 7:2-15
+Great Thursday,Sixth Hour,api,2,OT2,Ezek 20:39-44
+Great Thursday,Sixth Hour,api,3,OT3,Wis 12:13-13:1
+Great Thursday,Sixth Hour,api,4,Psalm+Gospel,"Ps 31:18,13; Mark 14:12-16"
+Great Thursday,Ninth Hour,api,1,OT1,Gen 22:1-19
+Great Thursday,Ninth Hour,api,2,OT2,Isa 61:1-7
+Great Thursday,Ninth Hour,api,3,OT3,Gen 14:17-20
+Great Thursday,Ninth Hour,api,4,OT4,Job 27:2-28:13
+Great Thursday,Ninth Hour,api,5,Psalm+Gospel,"Ps 23:1,2; Matt 26:17-19"
+Great Thursday,Liturgy of Blessing of the Water,St Mary Ottawa Holy Pascha PDF cross-check 2026-06-06,1,OT1,Gen 18:1-23
+Great Thursday,Eleventh Hour,api,1,OT1,Isa 52:13-53:12
+Great Thursday,Eleventh Hour,api,2,OT2,Isa 19:19-25
+Great Thursday,Eleventh Hour,api,3,OT3,Zech 12:11-14; Zech 13:1-9; Zech 14:1-4; Zech 14:6-9
+Great Thursday,Eleventh Hour,api,4,Psalm+Gospel,"Ps 50:17,18; John 13:21-30"
+Great Thursday Eve,First Hour,api,1,OT1,Jer 8:17-9:6
+Great Thursday Eve,First Hour,api,2,Psalm+Gospel,"Ps 69:1,9; John 13:33-14:25; John 14:26-15:25; John 15:26-16:33; John 17:1-26"
+Great Thursday Eve,Third Hour,api,1,OT1,Ezek 36:16-23
+Great Thursday Eve,Third Hour,api,2,Psalm+Gospel,"Ps 108:1,2; Matt 26:30-35; Mark 14:26-31; Luke 22:31-39; John 18:1,2"
+Great Thursday Eve,Sixth Hour,api,1,OT1,Ezek 22:23-28
+Great Thursday Eve,Sixth Hour,api,2,Psalm+Gospel,Ps 58:2; Ps 68:21; Matt 26:36-46; Mark 14:32-42; Luke 22:40-46; John 18:3-9
+Great Thursday Eve,Ninth Hour,api,1,OT1,Jer 9:6-10
+Great Thursday Eve,Ninth Hour,api,2,OT2,Ezek 21:33-37
+Great Thursday Eve,Ninth Hour,api,3,Psalm+Gospel,"Ps 27:3,4; Ps 34:4,5; Matt 26:47-58; Mark 14:43-54; Luke 22:47-55; John 18:10-14"
+Great Thursday Eve,Eleventh Hour,api,1,OT1,Isa 27:11-28:15
+Great Thursday Eve,Eleventh Hour,api,2,Psalm+Gospel,Ps 2:1-5; Matt 26:59-75; Mark 14:55-72; Luke 22:56-65; John 18:15-27
+Good Friday,First Hour,api,1,OT1,Deut 8:19-9:24
+Good Friday,First Hour,api,2,OT2,Isa 1:2-9
+Good Friday,First Hour,api,3,OT3,Isa 2:10-21
+Good Friday,First Hour,api,4,OT4,Jer 22:29-23:6
+Good Friday,First Hour,api,5,OT5,Isa 24:1-13
+Good Friday,First Hour,api,6,OT6,Wis 2:12-22
+Good Friday,First Hour,api,7,OT7,Job 12:18-13:1
+Good Friday,First Hour,api,8,OT8,Zech 11:11-14
+Good Friday,First Hour,api,9,OT9,Mic 1:16-2:3
+Good Friday,First Hour,api,10,OT10,Mic 7:1-8
+Good Friday,First Hour,api,11,Psalm+Gospel,"Ps 27:12; Ps 35:11,12,16; Matt 27:1-14; Mark 15:1-5; Luke 22:66-23:12; John 18:28-40"
+Good Friday,Third Hour,api,1,OT1,Gen 48:1-19
+Good Friday,Third Hour,api,2,OT2,Isa 50:4-9
+Good Friday,Third Hour,api,3,OT3,Isa 3:9-15
+Good Friday,Third Hour,api,4,OT4,Isa 63:1-7
+Good Friday,Third Hour,api,5,OT5,Amos 9:4-6; Amos 9:8-10
+Good Friday,Third Hour,api,6,OT6,Job 29:21-30:10
+Good Friday,Third Hour,api,7,Psalm+Gospel,Ps 38:17; Ps 22:16; Matt 27:15-26; Mark 15:6-25; Luke 23:13-25; John 19:1-12
+Good Friday,Sixth Hour,api,1,OT1,Num 21:1-9
+Good Friday,Sixth Hour,api,2,OT2,Isa 53:7-12
+Good Friday,Sixth Hour,api,3,OT3,Isa 12:2-13:10
+Good Friday,Sixth Hour,api,4,OT4,Amos 8:9-12
+Good Friday,Sixth Hour,api,5,Pauline,Gal 6:14-18
+Good Friday,Sixth Hour,api,6,Psalm+Gospel,"Ps 38:21,22; Ps 22:17,18,19,8,9; Matt 27:27-45; Mark 15:26-33; Luke 23:26-44; John 19:1-12"
+Good Friday,Ninth Hour,api,1,OT1,Jer 11:18-12:13
+Good Friday,Ninth Hour,api,2,OT2,Zech 14:5-11
+Good Friday,Ninth Hour,api,3,OT3,"Hos 2:1-3,10-11"
+Good Friday,Ninth Hour,api,4,Pauline,Phil 2:5-11
+Good Friday,Ninth Hour,api,5,Psalm+Gospel,"Ps 69:2,3,21; Matt 27:46-50; Mark 15:34-37; Luke 23:45-46; John 19:28-30"
+Good Friday,Eleventh Hour,api,1,OT1,Jer 12:1-14
+Good Friday,Eleventh Hour,api,2,OT2,Isa 3:5-12
+Good Friday,Eleventh Hour,api,3,Psalm+Gospel,"Ps 143:6,7; Ps 31:5; Matt 27:51-56; Mark 15:38-41; Luke 23:47-49; John 19:31-37"
+Good Friday,Twelfth Hour,api,1,OT1,Lam 3:1-66
+Good Friday,Twelfth Hour,api,2,OT2,Jonah 1:10-2:8
+Good Friday,Twelfth Hour,api,3,Psalm+Gospel,"Ps 88:6; Ps 23:4; Ps 45:6,8; Matt 27:57-61; Mark 15:42-16:1; Luke 23:50-56; John 19:38-42"
+Bright Saturday,Liturgy,api,1,Pauline,1Cor 15:1-22
+Bright Saturday,Liturgy,api,2,Catholic,1Pet 1:1-9
+Bright Saturday,Liturgy,api,3,Acts,Acts 3:12-21
+Bright Saturday,Liturgy,api,4,Psalm+Gospel,"Ps 3:5,3; Ps 82:8; Matt 28:1-20"
+Hosanna Sunday,Ninth Hour,book,1,Psalm+Gospel,"Ps 8:2,3; Matt 21:10-17"
+Hosanna Sunday,Eleventh Hour,book,1,Psalm+Gospel,Ps 22:22-23; Matt 20:20-28
+Palm Sunday,Vespers,api,1,Psalm,Ps 118:26-27
+Palm Sunday,Vespers,api,2,Gospel,John 12:1-11
+Palm Sunday,Matins,api,1,Psalm,"Ps 68:19,35"
+Palm Sunday,Matins,api,2,Gospel,Luke 19:1-10
+Palm Sunday,Liturgy,api,1,Pauline,Heb 9:11-28
+Palm Sunday,Liturgy,api,2,Catholic,1Pet 4:1-11
+Palm Sunday,Liturgy,api,3,Acts,Acts 28:11-31
+Palm Sunday,Liturgy,api,4,Psalm+Gospel,"Ps 80:3,1,2; Matt 21:1-17; Mark 11:1-11; Luke 19:29-48; Ps 64:1,2; John 12:12-19"

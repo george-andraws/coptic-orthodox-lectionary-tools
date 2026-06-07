@@ -1,0 +1,34 @@
+usage: query_lectionary.py [-h] [--date DATE] [--passage PASSAGE]
+                           [--cycle-passage CYCLE_PASSAGE]
+                           [--special-service SPECIAL_SERVICE]
+                           [--source-text SOURCE_TEXT] [--agpeya AGPEYA]
+                           [--chapter CHAPTER] [--pascha-day PASCHA_DAY]
+                           [--hour HOUR] [--include-crosswalk] [--limit LIMIT]
+
+options:
+  -h, --help            show this help message and exit
+  --date DATE           Gregorian date YYYY-MM-DD, using copticchurch.net
+                        date-resolved cache
+  --passage PASSAGE     Find date-resolved occurrences by passage text, e.g.
+                        "John 20" or "Jn 20:1"
+  --cycle-passage CYCLE_PASSAGE
+                        Find core Katameros cycle occurrences by
+                        normalized/raw passage text, e.g. "Isa 2" or "40.5"
+  --special-service SPECIAL_SERVICE
+                        Find curated sacramental and special-service readings
+                        by service family, variant, section, reading type, or
+                        passage
+  --source-text SOURCE_TEXT
+                        Find source-text extracted Holy Pascha readings by
+                        day, hour, reading type, passage, source file, or page
+  --agpeya AGPEYA       Find Agpeya hour/watch readings by prayer group,
+                        prayer name, reading type, or passage
+  --chapter CHAPTER     Find chapter-level lectionary coverage, e.g. "John 2",
+                        "Isa 53", or "Genesis 1"
+  --pascha-day PASCHA_DAY
+                        Find Pascha / Holy Week readings by day title, e.g.
+                        "Good Friday" or "Great Thursday"
+  --hour HOUR           Optional Pascha hour filter, e.g. "Sixth Hour"
+  --include-crosswalk   For --passage lookups, append reverse-crosswalk
+                        matches instead of using it only as a fallback
+  --limit LIMIT

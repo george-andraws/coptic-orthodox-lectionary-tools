@@ -1,0 +1,3236 @@
+{
+  "created_at": "2026-06-06T13:58:53",
+  "status": "final after full rebuild, verification, and vault publication",
+  "baseline_artifact": "/Users/georgeandraws/workspace/coptic-lectionary-research/audit_artifacts/lectionary_full_audit_baseline_2026-06-06.json",
+  "final_rebuild_log": "/Users/georgeandraws/workspace/coptic-lectionary-research/audit_artifacts/final_rebuild_2026-06-06.log",
+  "final_verification_artifact": "/Users/georgeandraws/workspace/coptic-lectionary-research/audit_artifacts/final_verify_lectionary_queries_2026-06-06.json",
+  "git_status": "git status failed: not a git repository",
+  "source_of_truth_map": {
+    "raw/provenance layer": [
+      "sources/**",
+      "out/sources/**",
+      "cache/copticchurch_html/**",
+      "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt"
+    ],
+    "curated normalized source layer": [
+      "out/data/pascha_day_hour_index.*",
+      "out/data/pascha_source_text_index.*",
+      "out/data/bright_saturday_service_order.*",
+      "out/data/special_service_readings_curated.*",
+      "out/data/agpeya_hour_readings.*"
+    ],
+    "generated index layer": [
+      "out/data/katameros_cycle_passage_index.*",
+      "out/data/copticchurch_passage_index_2020_2035.*",
+      "out/data/reverse_lookup_crosswalk.*",
+      "out/data/reverse_lookup_summary.*",
+      "out/data/bible_chapter_lectionary_index.*",
+      "out/data/bible_chapter_lectionary_occurrences.*",
+      "out/data/source_ref_repair_report.csv"
+    ],
+    "query helper layer": [
+      "query_lectionary.py",
+      "passage_normalization.py",
+      "out/scripts/query_lectionary.py",
+      "out/scripts/passage_normalization.py"
+    ],
+    "vault publication layer": [
+      "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data",
+      "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/scripts",
+      "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources"
+    ]
+  },
+  "build_order": [
+    "source extraction and copticchurch cache parse",
+    "ordinary cycle/date data generation",
+    "Pascha/Bright Saturday/special-service/Agpeya normalized data",
+    "Pascha source-text extraction",
+    "normalized passage indexes",
+    "reverse lookup crosswalk",
+    "Bible chapter index and occurrences",
+    "packaged query helper/scripts",
+    "verification gate",
+    "vault publication"
+  ],
+  "reason_for_change": "Repair Pascha source-text and reverse lookup authority after Genesis/Pascha duplicate-row failure; add deuterocanonical parsing, source-text lookup, expanded crosswalk provenance fields, combined Psalm verse parsing, malformed Exodus alias repair, full package publication, and regression coverage.",
+  "verification_command": "python3 build_lectionary_reference.py && python3 verify_lectionary_queries.py > audit_artifacts/final_verify_lectionary_queries_2026-06-06.json",
+  "summary": {
+    "scripts_changed": [
+      "build_lectionary_reference.py",
+      "build_lectionary_crosswalk.py",
+      "build_bible_chapter_lectionary_index.py",
+      "verify_lectionary_queries.py",
+      "query_lectionary.py",
+      "passage_normalization.py",
+      "out/scripts/query_lectionary.py",
+      "out/scripts/passage_normalization.py",
+      "build_pascha_source_text_index.py"
+    ],
+    "curated_source_data_changed": [
+      "out/data/pascha_day_hour_index.csv",
+      "out2/pascha_day_hour_index.csv",
+      "out/data/pascha_source_text_index.csv",
+      "out/data/pascha_source_text_index.jsonl",
+      "out/data/pascha_day_hour_index.jsonl",
+      "out/data/bright_saturday_service_order.jsonl",
+      "out/data/special_service_readings_curated.jsonl",
+      "out/data/special_service_passage_index.jsonl"
+    ],
+    "generated_artifacts_rebuilt": [
+      "out/BUILD_SUMMARY.json",
+      "out/sources/SOURCE_MANIFEST.json",
+      "out/data/reverse_lookup_crosswalk.csv",
+      "out/data/reverse_lookup_summary.csv",
+      "out/data/bible_chapter_lectionary_index.csv",
+      "out/data/bible_chapter_lectionary_occurrences.csv",
+      "out/data/katameros_cycle_passage_index.jsonl",
+      "out/data/copticchurch_passage_index_2020_2035.jsonl",
+      "out/data/reverse_lookup_crosswalk.jsonl",
+      "out/data/bible_chapter_lectionary_index.jsonl",
+      "out/data/bible_chapter_lectionary_occurrences.jsonl"
+    ],
+    "vault_published_files_changed": [
+      "vault:Coptic Orthodox Lectionary Reference/BUILD_SUMMARY.json",
+      "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_summary.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.csv",
+      "vault:Coptic Orthodox Lectionary Reference/scripts/query_lectionary.py",
+      "vault:Coptic Orthodox Lectionary Reference/scripts/passage_normalization.py",
+      "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/GENESIS_PASCHA_CORRECTION_2026-06-06.json",
+      "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.md",
+      "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_meta_2020_2035.csv",
+      "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.jsonl",
+      "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_scrape_errors.json",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Days.pdf",
+      "vault:Coptic Orthodox Lectionary Reference/sources/SOURCE_MANIFEST.json",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Sundays.txt",
+      "vault:Coptic Orthodox Lectionary Reference/sources/KatamerosDatabase.sqlite",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Days.txt",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Sundays.pdf",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Lent.pdf",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Pentecost.txt",
+      "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.txt",
+      "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Pentecost.pdf",
+      "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Lent.txt",
+      "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf",
+      "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.pdf"
+    ]
+  },
+  "row_count_summary": [
+    {
+      "relative_path": "out/sources/SOURCE_MANIFEST.json",
+      "layer": "generated-index-layer",
+      "before_rows": 14,
+      "after_rows": 14,
+      "row_delta": 0,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/pascha_day_hour_index.csv",
+      "layer": "curated/generated-source-layer",
+      "before_rows": 172,
+      "after_rows": 173,
+      "row_delta": 1,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/reverse_lookup_crosswalk.csv",
+      "layer": "generated-index-layer",
+      "before_rows": 66208,
+      "after_rows": 66504,
+      "row_delta": 296,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "out/data/reverse_lookup_summary.csv",
+      "layer": "generated-index-layer",
+      "before_rows": 2528,
+      "after_rows": 2650,
+      "row_delta": 122,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "out/data/bible_chapter_lectionary_index.csv",
+      "layer": "generated-index-layer",
+      "before_rows": 1326,
+      "after_rows": 1351,
+      "row_delta": 25,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/bible_chapter_lectionary_occurrences.csv",
+      "layer": "generated-index-layer",
+      "before_rows": 68914,
+      "after_rows": 71315,
+      "row_delta": 2401,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out2/pascha_day_hour_index.csv",
+      "layer": "curated/generated-source-layer",
+      "before_rows": 172,
+      "after_rows": 173,
+      "row_delta": 1,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 4637,
+      "after_rows": 4637,
+      "row_delta": 0,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 6224,
+      "after_rows": 6224,
+      "row_delta": 0,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 50382,
+      "after_rows": 50382,
+      "row_delta": 0,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 62006,
+      "after_rows": 59340,
+      "row_delta": -2666,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 172,
+      "after_rows": 173,
+      "row_delta": 1,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 66208,
+      "after_rows": 66504,
+      "row_delta": 296,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_summary.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 2528,
+      "after_rows": 2650,
+      "row_delta": 122,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 1326,
+      "after_rows": 1351,
+      "row_delta": 25,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": 68914,
+      "after_rows": 71315,
+      "row_delta": 2401,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/pascha_source_text_index.csv",
+      "layer": "curated/generated-source-layer",
+      "before_rows": null,
+      "after_rows": 277,
+      "row_delta": 277,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "out/data/pascha_source_text_index.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before_rows": null,
+      "after_rows": 277,
+      "row_delta": 277,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/pascha_day_hour_index.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before_rows": null,
+      "after_rows": 173,
+      "row_delta": 173,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/bright_saturday_service_order.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before_rows": null,
+      "after_rows": 38,
+      "row_delta": 38,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/special_service_readings_curated.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before_rows": null,
+      "after_rows": 161,
+      "row_delta": 161,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/special_service_passage_index.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before_rows": null,
+      "after_rows": 196,
+      "row_delta": 196,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/katameros_cycle_passage_index.jsonl",
+      "layer": "generated-index-layer",
+      "before_rows": null,
+      "after_rows": 6224,
+      "row_delta": 6224,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/copticchurch_passage_index_2020_2035.jsonl",
+      "layer": "generated-index-layer",
+      "before_rows": null,
+      "after_rows": 59340,
+      "row_delta": 59340,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/reverse_lookup_crosswalk.jsonl",
+      "layer": "generated-index-layer",
+      "before_rows": null,
+      "after_rows": 66504,
+      "row_delta": 66504,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/bible_chapter_lectionary_index.jsonl",
+      "layer": "generated-index-layer",
+      "before_rows": null,
+      "after_rows": 1351,
+      "row_delta": 1351,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "out/data/bible_chapter_lectionary_occurrences.jsonl",
+      "layer": "generated-index-layer",
+      "before_rows": null,
+      "after_rows": 71315,
+      "row_delta": 71315,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 20,
+      "row_delta": 20,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 277,
+      "row_delta": 277,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 6224,
+      "row_delta": 6224,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 59340,
+      "row_delta": 59340,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 20,
+      "row_delta": 20,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 161,
+      "row_delta": 161,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 196,
+      "row_delta": 196,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 66504,
+      "row_delta": 66504,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 149,
+      "row_delta": 149,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 38,
+      "row_delta": 38,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 50382,
+      "row_delta": 50382,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 19,
+      "row_delta": 19,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 4637,
+      "row_delta": 4637,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 19,
+      "row_delta": 19,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 277,
+      "row_delta": 277,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 173,
+      "row_delta": 173,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 71315,
+      "row_delta": 71315,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 161,
+      "row_delta": 161,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 1351,
+      "row_delta": 1351,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_meta_2020_2035.csv",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 5844,
+      "row_delta": 5844,
+      "schema_changed": true
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 196,
+      "row_delta": 196,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 149,
+      "row_delta": 149,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_scrape_errors.json",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 0,
+      "row_delta": 0,
+      "schema_changed": false
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/SOURCE_MANIFEST.json",
+      "layer": "vault-publication-layer",
+      "before_rows": null,
+      "after_rows": 14,
+      "row_delta": 14,
+      "schema_changed": false
+    }
+  ],
+  "affected_passages": [
+    {
+      "passage": "Genesis 18:1-23",
+      "service": "Great Thursday Liturgy of Blessing of the Water OT1",
+      "reason": "verified preservation after Pascha day/hour correction"
+    },
+    {
+      "passage": "Genesis 2:15-25; Genesis 3:1-24",
+      "service": "Monday Ninth Hour OT1",
+      "reason": "verified not duplicated under Tuesday Ninth Hour"
+    },
+    {
+      "passage": "Genesis 6:5-9:7",
+      "service": "Tuesday Ninth Hour OT1",
+      "reason": "restored correct Tuesday row"
+    },
+    {
+      "passage": "Genesis 22:1-19",
+      "service": "Great Thursday Ninth Hour OT1",
+      "reason": "regression preservation"
+    },
+    {
+      "passage": "Genesis 14:17-20",
+      "service": "Great Thursday Ninth Hour OT3",
+      "reason": "regression preservation"
+    },
+    {
+      "passage": "Wisdom 1:1-9",
+      "service": "Monday Sixth Hour Prophecy/OT2",
+      "reason": "Wisdom alias parsing and Pascha source-text/crosswalk inclusion"
+    },
+    {
+      "passage": "Wisdom 7:24-30",
+      "service": "Wednesday Eve Eleventh Hour Prophecy/OT1",
+      "reason": "Wisdom alias parsing and Pascha source-text/crosswalk inclusion"
+    },
+    {
+      "passage": "Wisdom 2:12-22",
+      "service": "Good Friday First Hour Prophecy/OT6",
+      "reason": "Wisdom alias parsing and Pascha source-text/crosswalk inclusion"
+    },
+    {
+      "passage": "Sirach 4:20-5:2",
+      "service": "Tuesday Sixth Hour Prophecy/OT2",
+      "reason": "Sirach alias parsing and Pascha source-text inclusion"
+    },
+    {
+      "passage": "Ezekiel 21:3-13",
+      "service": "Tuesday Sixth Hour OT1",
+      "reason": "Tuesday Sixth Hour corrected/verified"
+    },
+    {
+      "passage": "Isaiah 1:1-9",
+      "service": "Tuesday Sixth Hour OT3",
+      "reason": "Tuesday Sixth Hour corrected/verified"
+    },
+    {
+      "passage": "John 8:12-20",
+      "service": "Tuesday Sixth Hour Gospel",
+      "reason": "Tuesday Sixth Hour corrected/verified; guide claims updated"
+    },
+    {
+      "passage": "John 2:13-17",
+      "service": "Monday Sixth Hour Gospel",
+      "reason": "false Tuesday Sixth Hour guide claims removed"
+    },
+    {
+      "passage": "Exodus 32:7-15",
+      "service": "Monday Sixth Hour Prophecy/OT1",
+      "reason": "normalizer repaired malformed Exod d d-style variants"
+    },
+    {
+      "passage": "Psalm 62:7,6 / Psalm 62:7,2",
+      "service": "Pascha Monday/Tuesday Eve First Hour and Thursday Eve Eleventh Hour source text",
+      "reason": "combined Psalm verse parsing repaired and guide claims corrected"
+    },
+    {
+      "passage": "Psalm 18:48,17",
+      "service": "Tuesday Sixth Hour Psalm",
+      "reason": "combined Psalm verse parsing repaired"
+    },
+    {
+      "passage": "Psalm 122:4",
+      "service": "Monday Sixth Hour and Monday/Tuesday Eve Eleventh Hour",
+      "reason": "removed false Holy Tuesday Sixth Hour guide claim"
+    },
+    {
+      "passage": "Jeremiah 8:17-9:6",
+      "service": "Great Thursday Eve First Hour",
+      "reason": "removed false Wednesday Eve Eleventh Hour guide claim"
+    }
+  ],
+  "file_entries": [
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/build_lectionary_reference.py",
+      "relative_path": "build_lectionary_reference.py",
+      "layer": "script-layer",
+      "before": {
+        "size_bytes": 15872,
+        "sha256": "c51bcebd7e8fd9f0f5b3b755f9284f00a1cf9bb2421d206be0a89be3bf05ee8b",
+        "mtime_iso": "2026-05-20T08:13:55"
+      },
+      "after": {
+        "size_bytes": 17445,
+        "sha256": "3429fbdddfcc41a5bc45f82b367a5bb7f2d5e47f40349d26d7b973aa7a149ac4",
+        "mtime_iso": "2026-06-06T13:32:12",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/build_lectionary_crosswalk.py",
+      "relative_path": "build_lectionary_crosswalk.py",
+      "layer": "script-layer",
+      "before": {
+        "size_bytes": 10640,
+        "sha256": "cb486986fdf180e52b3b4b9ea78a1b1dfdb0307d527b61164d9f52fc780e74e3",
+        "mtime_iso": "2026-05-20T07:49:56"
+      },
+      "after": {
+        "size_bytes": 17803,
+        "sha256": "42dc8f1943c1c1b0063dd12098939a7899b32d7660861db1232248c049f06c25",
+        "mtime_iso": "2026-06-06T13:23:28",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/build_bible_chapter_lectionary_index.py",
+      "relative_path": "build_bible_chapter_lectionary_index.py",
+      "layer": "script-layer",
+      "before": {
+        "size_bytes": 10915,
+        "sha256": "c470dc136a0a559795d5c9dc1fcaf78135f9a7baabcc5abf7b7ad7b26421b174",
+        "mtime_iso": "2026-05-20T08:13:07"
+      },
+      "after": {
+        "size_bytes": 11022,
+        "sha256": "d882e91c3f2c91fa510607709ee3fd12358f3290060a268f0ca03c6e53eca0ce",
+        "mtime_iso": "2026-06-06T13:23:35",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/verify_lectionary_queries.py",
+      "relative_path": "verify_lectionary_queries.py",
+      "layer": "script-layer",
+      "before": {
+        "size_bytes": 9701,
+        "sha256": "493da4d0ef3749b132041046e845077118568493d2867334fa87ddcb29937f80",
+        "mtime_iso": "2026-05-20T08:13:55"
+      },
+      "after": {
+        "size_bytes": 13761,
+        "sha256": "60276a986e8deb531c3f18238b331b6ef92918e4306c581dd307baf73e7e098d",
+        "mtime_iso": "2026-06-06T13:41:13",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/query_lectionary.py",
+      "relative_path": "query_lectionary.py",
+      "layer": "query-helper-layer",
+      "before": {
+        "size_bytes": 10447,
+        "sha256": "84777d626d280afcb3f8a4bcd1b6019e74f617789ed9b7bdf1d60757fa145693",
+        "mtime_iso": "2026-05-20T08:17:40"
+      },
+      "after": {
+        "size_bytes": 12155,
+        "sha256": "d1d2f9893d3f54bc5114d8cd7f404c4739938e176768d36afb82a3004f2c630f",
+        "mtime_iso": "2026-06-06T13:24:58",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/passage_normalization.py",
+      "relative_path": "passage_normalization.py",
+      "layer": "query-helper-layer",
+      "before": {
+        "size_bytes": 17073,
+        "sha256": "f1d9cca5ed2a524ac11bdfa680e7735d7ac725d249d6882087a7c4794a2cff66",
+        "mtime_iso": "2026-05-20T07:41:48"
+      },
+      "after": {
+        "size_bytes": 18423,
+        "sha256": "1286c5870aafc923b79ab437bbc052bf2dd5355729ad9a7683ca6540df9eef5d",
+        "mtime_iso": "2026-06-06T13:40:27",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/BUILD_SUMMARY.json",
+      "relative_path": "out/BUILD_SUMMARY.json",
+      "layer": "generated-index-layer",
+      "before": {
+        "size_bytes": 309,
+        "sha256": "ebf0e8b6cdefc5f44bf284a8f44cd419a9e75096e91e543609d4df68aeea618f",
+        "mtime_iso": "2026-05-20T08:20:01"
+      },
+      "after": {
+        "size_bytes": 574,
+        "sha256": "5ebd1403af735296ece8ca60759933623a27f646cfb1efdb75692a39c32151a0",
+        "mtime_iso": "2026-06-06T13:55:43",
+        "json_type": "dict",
+        "top_level_keys": [
+          "built_at",
+          "cycle_passage_segments",
+          "cycle_reading_rows",
+          "date_resolved_days",
+          "date_resolved_passage_index_rows",
+          "date_resolved_reading_rows",
+          "date_resolved_years",
+          "date_scrape_errors",
+          "published_file_count",
+          "published_to",
+          "source_file_count"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/sources/SOURCE_MANIFEST.json",
+      "relative_path": "out/sources/SOURCE_MANIFEST.json",
+      "layer": "generated-index-layer",
+      "before": {
+        "size_bytes": 2283,
+        "sha256": "eb44dc98b03d38311e3917e0383279810ecd75bf9240d84fcc79a27238e40f4b",
+        "mtime_iso": "2026-05-20T08:19:27",
+        "row_count": 14
+      },
+      "after": {
+        "size_bytes": 2283,
+        "sha256": "bc580f848a392c30607cf6fbce6cda4131b4a9df390332f5382a7c66c89203fd",
+        "mtime_iso": "2026-06-06T13:54:58",
+        "row_count": 14,
+        "json_type": "list",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 0,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_day_hour_index.csv",
+      "relative_path": "out/data/pascha_day_hour_index.csv",
+      "layer": "curated/generated-source-layer",
+      "before": {
+        "size_bytes": 10236,
+        "sha256": "c89bc1c173f38aadb29ca03751840c53976cb305099df44e526353e947caac3e",
+        "mtime_iso": "2026-06-06T12:20:39",
+        "row_count": 172,
+        "schema": [
+          "day",
+          "hour",
+          "source",
+          "order",
+          "slot",
+          "refs"
+        ]
+      },
+      "after": {
+        "size_bytes": 10682,
+        "sha256": "6ba376421814cf97f26667603d59dc5db12d500b44ed4152b6ad6860a6978329",
+        "mtime_iso": "2026-06-06T13:21:30",
+        "row_count": 173,
+        "schema": [
+          "day",
+          "hour",
+          "source",
+          "order",
+          "slot",
+          "refs"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 1,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_crosswalk.csv",
+      "relative_path": "out/data/reverse_lookup_crosswalk.csv",
+      "layer": "generated-index-layer",
+      "before": {
+        "size_bytes": 13790111,
+        "sha256": "5ce80bcf91cd1e4ccf20b8b7ef2250f54ab754d97a6600f877144ba62ccca38c",
+        "mtime_iso": "2026-06-06T12:21:43",
+        "row_count": 66208,
+        "schema": [
+          "passage",
+          "source_kind",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "significance_note",
+          "synaxarium_note",
+          "source_ref",
+          "url"
+        ]
+      },
+      "after": {
+        "size_bytes": 27607606,
+        "sha256": "057081672b36992d40a231498420af6a5d1b83759d226688e6cdbd7b32b749f2",
+        "mtime_iso": "2026-06-06T13:54:53",
+        "row_count": 66504,
+        "schema": [
+          "passage",
+          "source_kind",
+          "source_family",
+          "source_table",
+          "source_file",
+          "source_row_id",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_day",
+          "service_hour",
+          "service_section",
+          "reading_slot",
+          "reading_type",
+          "source_ref",
+          "raw_ref",
+          "normalized_ref",
+          "normalized_segment",
+          "book",
+          "book_abbrev",
+          "chapter_start",
+          "verse_start",
+          "chapter_end",
+          "verse_end",
+          "significance_note",
+          "synaxarium_note",
+          "url",
+          "provenance"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 296,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_summary.csv",
+      "relative_path": "out/data/reverse_lookup_summary.csv",
+      "layer": "generated-index-layer",
+      "before": {
+        "size_bytes": 70381,
+        "sha256": "32a2c67eb9e55e9132ca00ff582fa62fe9e14ef277272ad178b2bec889c3a15d",
+        "mtime_iso": "2026-06-06T12:21:43",
+        "row_count": 2528,
+        "schema": [
+          "passage",
+          "cycle_occurrences",
+          "date_occurrences",
+          "special_service_occurrences",
+          "agpeya_occurrences",
+          "pascha_occurrences",
+          "bright_saturday_occurrences",
+          "total_occurrences"
+        ]
+      },
+      "after": {
+        "size_bytes": 79147,
+        "sha256": "2b42150e845737f107af2af3004860c2c083a6fbf4af9e85f82d7f55e23af410",
+        "mtime_iso": "2026-06-06T13:54:54",
+        "row_count": 2650,
+        "schema": [
+          "passage",
+          "cycle_occurrences",
+          "date_occurrences",
+          "special_service_occurrences",
+          "agpeya_occurrences",
+          "pascha_occurrences",
+          "pascha_source_text_occurrences",
+          "bright_saturday_occurrences",
+          "total_occurrences"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 122,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_index.csv",
+      "relative_path": "out/data/bible_chapter_lectionary_index.csv",
+      "layer": "generated-index-layer",
+      "before": {
+        "size_bytes": 393736,
+        "sha256": "1bcf2f5fc7d90b1c205d75939b76a12855d9b208b5037f0086f00c26d2b25849",
+        "mtime_iso": "2026-06-06T12:21:44",
+        "row_count": 1326,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "is_read",
+          "occurrence_count",
+          "source_kinds",
+          "liturgical_places",
+          "service_sections",
+          "reading_types",
+          "sample_occurrences"
+        ]
+      },
+      "after": {
+        "size_bytes": 418439,
+        "sha256": "429795c05f707bf8588e2fe421268675fdf7f36ded573650780b33efea9eca45",
+        "mtime_iso": "2026-06-06T13:54:56",
+        "row_count": 1351,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "is_read",
+          "occurrence_count",
+          "source_kinds",
+          "liturgical_places",
+          "service_sections",
+          "reading_types",
+          "sample_occurrences"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 25,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_occurrences.csv",
+      "relative_path": "out/data/bible_chapter_lectionary_occurrences.csv",
+      "layer": "generated-index-layer",
+      "before": {
+        "size_bytes": 16098147,
+        "sha256": "c6d07f5b996a797c97373544ca7353b75d20ae7159247358106eaf10400add0e",
+        "mtime_iso": "2026-06-06T12:21:45",
+        "row_count": 68914,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "passage",
+          "source_kind",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "source_ref",
+          "url"
+        ]
+      },
+      "after": {
+        "size_bytes": 16610556,
+        "sha256": "36f9cd49569de3a6ea235611800cc89c68ec499ad9c7fbc41705e887eba2e330",
+        "mtime_iso": "2026-06-06T13:54:56",
+        "row_count": 71315,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "passage",
+          "source_kind",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "source_ref",
+          "url"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 2401,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/scripts/query_lectionary.py",
+      "relative_path": "out/scripts/query_lectionary.py",
+      "layer": "query-helper-layer",
+      "before": {
+        "size_bytes": 10447,
+        "sha256": "84777d626d280afcb3f8a4bcd1b6019e74f617789ed9b7bdf1d60757fa145693",
+        "mtime_iso": "2026-05-20T08:17:40"
+      },
+      "after": {
+        "size_bytes": 12155,
+        "sha256": "d1d2f9893d3f54bc5114d8cd7f404c4739938e176768d36afb82a3004f2c630f",
+        "mtime_iso": "2026-06-06T13:24:58",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/scripts/passage_normalization.py",
+      "relative_path": "out/scripts/passage_normalization.py",
+      "layer": "query-helper-layer",
+      "before": {
+        "size_bytes": 17073,
+        "sha256": "f1d9cca5ed2a524ac11bdfa680e7735d7ac725d249d6882087a7c4794a2cff66",
+        "mtime_iso": "2026-05-20T07:41:48"
+      },
+      "after": {
+        "size_bytes": 18423,
+        "sha256": "1286c5870aafc923b79ab437bbc052bf2dd5355729ad9a7683ca6540df9eef5d",
+        "mtime_iso": "2026-06-06T13:40:27",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out2/pascha_day_hour_index.csv",
+      "relative_path": "out2/pascha_day_hour_index.csv",
+      "layer": "curated/generated-source-layer",
+      "before": {
+        "size_bytes": 10236,
+        "sha256": "c89bc1c173f38aadb29ca03751840c53976cb305099df44e526353e947caac3e",
+        "mtime_iso": "2026-06-06T12:20:39",
+        "row_count": 172,
+        "schema": [
+          "day",
+          "hour",
+          "source",
+          "order",
+          "slot",
+          "refs"
+        ]
+      },
+      "after": {
+        "size_bytes": 10682,
+        "sha256": "6ba376421814cf97f26667603d59dc5db12d500b44ed4152b6ad6860a6978329",
+        "mtime_iso": "2026-06-06T13:21:30",
+        "row_count": 173,
+        "schema": [
+          "day",
+          "hour",
+          "source",
+          "order",
+          "slot",
+          "refs"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 1,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/BUILD_SUMMARY.json",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/BUILD_SUMMARY.json",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 1218,
+        "sha256": "1d0e9ef73877dbf3f4364465d030e83b0b81ad22ebe81f1e0e7fb44835fb1c62",
+        "mtime_iso": "2026-06-06T12:28:01"
+      },
+      "after": {
+        "size_bytes": 574,
+        "sha256": "5ebd1403af735296ece8ca60759933623a27f646cfb1efdb75692a39c32151a0",
+        "mtime_iso": "2026-06-06T13:55:43",
+        "json_type": "dict",
+        "top_level_keys": [
+          "built_at",
+          "cycle_passage_segments",
+          "cycle_reading_rows",
+          "date_resolved_days",
+          "date_resolved_passage_index_rows",
+          "date_resolved_reading_rows",
+          "date_resolved_years",
+          "date_scrape_errors",
+          "published_file_count",
+          "published_to",
+          "source_file_count"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 687102,
+        "sha256": "aac34da5c45499f60a77de38f37fd91ce3305e9dcf4d96442fd02803778c809a",
+        "mtime_iso": "2026-05-19T12:26:59",
+        "row_count": 4637,
+        "schema": [
+          "source",
+          "source_table",
+          "source_type",
+          "cycle",
+          "day_key",
+          "month_number",
+          "month_name",
+          "day",
+          "week",
+          "day_of_week",
+          "day_name",
+          "season",
+          "other",
+          "reading_slot",
+          "raw_ref",
+          "normalized_ref"
+        ]
+      },
+      "after": {
+        "size_bytes": 685420,
+        "sha256": "b1aaeb09655078c2d454600bbed51bc2e441b554ce88822886f6b22c661a13f9",
+        "mtime_iso": "2026-06-06T13:53:47",
+        "row_count": 4637,
+        "schema": [
+          "source",
+          "source_table",
+          "source_type",
+          "cycle",
+          "day_key",
+          "month_number",
+          "month_name",
+          "day",
+          "week",
+          "day_of_week",
+          "day_name",
+          "season",
+          "other",
+          "reading_slot",
+          "raw_ref",
+          "normalized_ref"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 0,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 1223615,
+        "sha256": "1bfc8d297e777db5e9694bdad4761a9951aa338a44f2c3932e5c5bf769c7b1a2",
+        "mtime_iso": "2026-05-19T12:26:59",
+        "row_count": 6224,
+        "schema": [
+          "book",
+          "book_abbrev",
+          "chapter",
+          "verse_start",
+          "verse_end",
+          "raw_segment",
+          "normalized_segment",
+          "source",
+          "source_table",
+          "source_type",
+          "cycle",
+          "day_key",
+          "month_number",
+          "month_name",
+          "day",
+          "week",
+          "day_of_week",
+          "day_name",
+          "season",
+          "other",
+          "reading_slot",
+          "raw_ref",
+          "normalized_ref"
+        ]
+      },
+      "after": {
+        "size_bytes": 1288089,
+        "sha256": "b666782f54424f680b55bc03d47681c9e70b9b204f72f0960012c4551dd71d15",
+        "mtime_iso": "2026-06-06T13:53:47",
+        "row_count": 6224,
+        "schema": [
+          "book",
+          "book_abbrev",
+          "chapter",
+          "verse_start",
+          "verse_end",
+          "raw_segment",
+          "normalized_segment",
+          "canonical_segment",
+          "source",
+          "source_table",
+          "source_type",
+          "cycle",
+          "day_key",
+          "month_number",
+          "month_name",
+          "day",
+          "week",
+          "day_of_week",
+          "day_name",
+          "season",
+          "other",
+          "reading_slot",
+          "raw_ref",
+          "normalized_ref"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 0,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 9548017,
+        "sha256": "8bd941bc56c6fc7b259a5fd6387fd6af09b218a5abd6e91bced264260974649f",
+        "mtime_iso": "2026-05-19T12:32:34",
+        "row_count": 50382,
+        "schema": [
+          "source",
+          "gregorian_date",
+          "weekday",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "raw_ref",
+          "normalized_ref",
+          "url"
+        ]
+      },
+      "after": {
+        "size_bytes": 9740879,
+        "sha256": "1db3dcca82e3da8edf75f9bb9c5b21d1cb7353310766cd85909eab5db4433a38",
+        "mtime_iso": "2026-06-06T13:54:46",
+        "row_count": 50382,
+        "schema": [
+          "source",
+          "gregorian_date",
+          "weekday",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "raw_ref",
+          "normalized_ref",
+          "parse_status",
+          "normalization_warning",
+          "url"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 0,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 11578377,
+        "sha256": "d3be38b62b192540754c7521a6ff78b3eb460e5b6f91907d56e97eaf78629c45",
+        "mtime_iso": "2026-05-19T12:32:35",
+        "row_count": 62006,
+        "schema": [
+          "source",
+          "gregorian_date",
+          "weekday",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "matched_ref",
+          "raw_ref",
+          "url"
+        ]
+      },
+      "after": {
+        "size_bytes": 11276963,
+        "sha256": "aefc39122454047bd6b358a9add25336d036ad8c968bce5ea2bb83937f896f46",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 59340,
+        "schema": [
+          "source",
+          "gregorian_date",
+          "weekday",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "matched_ref",
+          "raw_ref",
+          "source_ref_status",
+          "normalization_warning",
+          "url"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": -2666,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 10236,
+        "sha256": "c89bc1c173f38aadb29ca03751840c53976cb305099df44e526353e947caac3e",
+        "mtime_iso": "2026-06-06T12:20:39",
+        "row_count": 172,
+        "schema": [
+          "day",
+          "hour",
+          "source",
+          "order",
+          "slot",
+          "refs"
+        ]
+      },
+      "after": {
+        "size_bytes": 10682,
+        "sha256": "6ba376421814cf97f26667603d59dc5db12d500b44ed4152b6ad6860a6978329",
+        "mtime_iso": "2026-06-06T13:21:30",
+        "row_count": 173,
+        "schema": [
+          "day",
+          "hour",
+          "source",
+          "order",
+          "slot",
+          "refs"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 1,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 13790111,
+        "sha256": "5ce80bcf91cd1e4ccf20b8b7ef2250f54ab754d97a6600f877144ba62ccca38c",
+        "mtime_iso": "2026-06-06T12:21:43",
+        "row_count": 66208,
+        "schema": [
+          "passage",
+          "source_kind",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "significance_note",
+          "synaxarium_note",
+          "source_ref",
+          "url"
+        ]
+      },
+      "after": {
+        "size_bytes": 27607606,
+        "sha256": "057081672b36992d40a231498420af6a5d1b83759d226688e6cdbd7b32b749f2",
+        "mtime_iso": "2026-06-06T13:54:53",
+        "row_count": 66504,
+        "schema": [
+          "passage",
+          "source_kind",
+          "source_family",
+          "source_table",
+          "source_file",
+          "source_row_id",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_day",
+          "service_hour",
+          "service_section",
+          "reading_slot",
+          "reading_type",
+          "source_ref",
+          "raw_ref",
+          "normalized_ref",
+          "normalized_segment",
+          "book",
+          "book_abbrev",
+          "chapter_start",
+          "verse_start",
+          "chapter_end",
+          "verse_end",
+          "significance_note",
+          "synaxarium_note",
+          "url",
+          "provenance"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 296,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/reverse_lookup_summary.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_summary.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 70381,
+        "sha256": "32a2c67eb9e55e9132ca00ff582fa62fe9e14ef277272ad178b2bec889c3a15d",
+        "mtime_iso": "2026-06-06T12:21:43",
+        "row_count": 2528,
+        "schema": [
+          "passage",
+          "cycle_occurrences",
+          "date_occurrences",
+          "special_service_occurrences",
+          "agpeya_occurrences",
+          "pascha_occurrences",
+          "bright_saturday_occurrences",
+          "total_occurrences"
+        ]
+      },
+      "after": {
+        "size_bytes": 79147,
+        "sha256": "2b42150e845737f107af2af3004860c2c083a6fbf4af9e85f82d7f55e23af410",
+        "mtime_iso": "2026-06-06T13:54:54",
+        "row_count": 2650,
+        "schema": [
+          "passage",
+          "cycle_occurrences",
+          "date_occurrences",
+          "special_service_occurrences",
+          "agpeya_occurrences",
+          "pascha_occurrences",
+          "pascha_source_text_occurrences",
+          "bright_saturday_occurrences",
+          "total_occurrences"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 122,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 393736,
+        "sha256": "1bcf2f5fc7d90b1c205d75939b76a12855d9b208b5037f0086f00c26d2b25849",
+        "mtime_iso": "2026-06-06T12:21:44",
+        "row_count": 1326,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "is_read",
+          "occurrence_count",
+          "source_kinds",
+          "liturgical_places",
+          "service_sections",
+          "reading_types",
+          "sample_occurrences"
+        ]
+      },
+      "after": {
+        "size_bytes": 418439,
+        "sha256": "429795c05f707bf8588e2fe421268675fdf7f36ded573650780b33efea9eca45",
+        "mtime_iso": "2026-06-06T13:54:56",
+        "row_count": 1351,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "is_read",
+          "occurrence_count",
+          "source_kinds",
+          "liturgical_places",
+          "service_sections",
+          "reading_types",
+          "sample_occurrences"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 25,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.csv",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 16098147,
+        "sha256": "c6d07f5b996a797c97373544ca7353b75d20ae7159247358106eaf10400add0e",
+        "mtime_iso": "2026-06-06T12:21:45",
+        "row_count": 68914,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "passage",
+          "source_kind",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "source_ref",
+          "url"
+        ]
+      },
+      "after": {
+        "size_bytes": 16610556,
+        "sha256": "36f9cd49569de3a6ea235611800cc89c68ec499ad9c7fbc41705e887eba2e330",
+        "mtime_iso": "2026-06-06T13:54:56",
+        "row_count": 71315,
+        "schema": [
+          "testament",
+          "book",
+          "book_abbrev",
+          "chapter",
+          "chapter_ref",
+          "passage",
+          "source_kind",
+          "liturgical_place",
+          "calendar_key",
+          "gregorian_date",
+          "coptic_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "source_ref",
+          "url"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 2401,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/scripts/query_lectionary.py",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/scripts/query_lectionary.py",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 10447,
+        "sha256": "84777d626d280afcb3f8a4bcd1b6019e74f617789ed9b7bdf1d60757fa145693",
+        "mtime_iso": "2026-05-20T08:17:40"
+      },
+      "after": {
+        "size_bytes": 12155,
+        "sha256": "d1d2f9893d3f54bc5114d8cd7f404c4739938e176768d36afb82a3004f2c630f",
+        "mtime_iso": "2026-06-06T13:24:58",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/scripts/passage_normalization.py",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/scripts/passage_normalization.py",
+      "layer": "vault-publication-layer",
+      "before": {
+        "size_bytes": 17073,
+        "sha256": "f1d9cca5ed2a524ac11bdfa680e7735d7ac725d249d6882087a7c4794a2cff66",
+        "mtime_iso": "2026-05-20T07:41:48"
+      },
+      "after": {
+        "size_bytes": 18423,
+        "sha256": "1286c5870aafc923b79ab437bbc052bf2dd5355729ad9a7683ca6540df9eef5d",
+        "mtime_iso": "2026-06-06T13:40:27",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/build_pascha_source_text_index.py",
+      "relative_path": "build_pascha_source_text_index.py",
+      "layer": "script-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 8690,
+        "sha256": "498940c2fcd2807f5169169fe095b4e50ff15953a980d238f7d9a602761231a3",
+        "mtime_iso": "2026-06-06T13:20:27",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_source_text_index.csv",
+      "relative_path": "out/data/pascha_source_text_index.csv",
+      "layer": "curated/generated-source-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 58923,
+        "sha256": "96181c9ec471c9b9dd6a1db134e97e0a0912422d9c057926f9eeb0a4b3f9b860",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 277,
+        "schema": [
+          "day",
+          "hour",
+          "source_kind",
+          "source_family",
+          "source_file",
+          "source_line",
+          "source_page",
+          "order",
+          "reading_type",
+          "raw_ref",
+          "normalized_ref",
+          "parse_status",
+          "provenance_note"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 277,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_source_text_index.jsonl",
+      "relative_path": "out/data/pascha_source_text_index.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 118454,
+        "sha256": "bb5ac16f6d58df25e365938f2851fe1e78e1448889f9918c3438395b2070211b",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 277,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 277,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_day_hour_index.jsonl",
+      "relative_path": "out/data/pascha_day_hour_index.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 22343,
+        "sha256": "71027be6bcb353225d39fdbe5d709701ac693a6e2ed331f37ecb6e798a9969a3",
+        "mtime_iso": "2026-06-06T13:21:30",
+        "row_count": 173,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 173,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bright_saturday_service_order.jsonl",
+      "relative_path": "out/data/bright_saturday_service_order.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 10159,
+        "sha256": "2a4f212afdfb0ff405f5af24e970d707017067e3ba51b4400e5318d8aa20b96d",
+        "mtime_iso": "2026-05-19T16:49:42",
+        "row_count": 38,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 38,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/special_service_readings_curated.jsonl",
+      "relative_path": "out/data/special_service_readings_curated.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 76298,
+        "sha256": "c5c08f9beebebd7009afa4f77f13b9ff4d9943477b595fd5316d62a087848353",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 161,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 161,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/special_service_passage_index.jsonl",
+      "relative_path": "out/data/special_service_passage_index.jsonl",
+      "layer": "curated/generated-source-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 106763,
+        "sha256": "f6d3d2fe7b36b137bfa443476a07782f57720c3ad20e7250a09768d5edf53db6",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 196,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 196,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/katameros_cycle_passage_index.jsonl",
+      "relative_path": "out/data/katameros_cycle_passage_index.jsonl",
+      "layer": "generated-index-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 3637434,
+        "sha256": "bdc4288b5b04ee48200d5e090b63593d4125e15520d6c24d2580fad8193284d4",
+        "mtime_iso": "2026-06-06T13:53:47",
+        "row_count": 6224,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 6224,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/copticchurch_passage_index_2020_2035.jsonl",
+      "relative_path": "out/data/copticchurch_passage_index_2020_2035.jsonl",
+      "layer": "generated-index-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 23076599,
+        "sha256": "24be5945eefa4031a2c91d13be1e4bf6231b31d94ce0409be7119d80c40f5e3a",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 59340,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 59340,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_crosswalk.jsonl",
+      "relative_path": "out/data/reverse_lookup_crosswalk.jsonl",
+      "layer": "generated-index-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 63757576,
+        "sha256": "cacc1eda4e1ffbfe54e73688f08b9e799c22ee8fb5720c20a26c974f0b0d510a",
+        "mtime_iso": "2026-06-06T13:54:54",
+        "row_count": 66504,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 66504,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_index.jsonl",
+      "relative_path": "out/data/bible_chapter_lectionary_index.jsonl",
+      "layer": "generated-index-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 716736,
+        "sha256": "18e00db47400d44c9dabe8680f043d1bd5941f32594d9ab074972a447ec52bd6",
+        "mtime_iso": "2026-06-06T13:54:56",
+        "row_count": 1351,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 1351,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_occurrences.jsonl",
+      "relative_path": "out/data/bible_chapter_lectionary_occurrences.jsonl",
+      "layer": "generated-index-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 35999085,
+        "sha256": "268e54888b08f79b7354bee40c815ffaf3e5e3f8bf33408cd032394fc549069c",
+        "mtime_iso": "2026-06-06T13:54:57",
+        "row_count": 71315,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 71315,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 11074,
+        "sha256": "3fed8c7cb67930d2c60a8c3bd0ce29b21683ca883600a38224a3deae910a31b9",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 20,
+        "schema": [
+          "prayer_group",
+          "prayer_key",
+          "prayer_name",
+          "service_order",
+          "reading_type",
+          "raw_ref",
+          "display_ref",
+          "source_title",
+          "source_url",
+          "source_page",
+          "notes",
+          "canonical_ref"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 20,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 58923,
+        "sha256": "96181c9ec471c9b9dd6a1db134e97e0a0912422d9c057926f9eeb0a4b3f9b860",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 277,
+        "schema": [
+          "day",
+          "hour",
+          "source_kind",
+          "source_family",
+          "source_file",
+          "source_line",
+          "source_page",
+          "order",
+          "reading_type",
+          "raw_ref",
+          "normalized_ref",
+          "parse_status",
+          "provenance_note"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 277,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 3637434,
+        "sha256": "bdc4288b5b04ee48200d5e090b63593d4125e15520d6c24d2580fad8193284d4",
+        "mtime_iso": "2026-06-06T13:53:47",
+        "row_count": 6224,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 6224,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 23076599,
+        "sha256": "24be5945eefa4031a2c91d13be1e4bf6231b31d94ce0409be7119d80c40f5e3a",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 59340,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 59340,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 15152,
+        "sha256": "61d293ad77b20fde4e411dec363b48a55fca9b1f4b2a87303b7908c2d806c688",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 20,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 20,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 48197,
+        "sha256": "e7ed10b754e885e6b881b088fd9cddfc72108f79cbcbb71aadee5c87f4eb6d72",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 161,
+        "schema": [
+          "service_family",
+          "service_variant",
+          "section",
+          "reading_type",
+          "raw_ref",
+          "source_title",
+          "source_url",
+          "source_page",
+          "notes",
+          "canonical_ref"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 161,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/special_service_passage_index.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 65510,
+        "sha256": "ccac3d96cf5a2a8a08ae79e0c1d614e2d45c91efb18743cf7dec9ad317029397",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 196,
+        "schema": [
+          "service_family",
+          "service_variant",
+          "section",
+          "reading_type",
+          "raw_ref",
+          "canonical_ref",
+          "matched_ref",
+          "source_title",
+          "source_url",
+          "source_page",
+          "notes",
+          "source_kind"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 196,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 63757576,
+        "sha256": "cacc1eda4e1ffbfe54e73688f08b9e799c22ee8fb5720c20a26c974f0b0d510a",
+        "mtime_iso": "2026-06-06T13:54:54",
+        "row_count": 66504,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 66504,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 130719,
+        "sha256": "d5c41027f101cd668bae49eef69ef7ff5cf20cc54cea0d8b62a6fc65b0097ac4",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 149,
+        "schema": [
+          "prayer_group",
+          "prayer_key",
+          "prayer_name",
+          "service_order",
+          "reading_type",
+          "raw_ref",
+          "display_ref",
+          "canonical_ref",
+          "matched_ref",
+          "source_title",
+          "source_url",
+          "source_page",
+          "notes",
+          "source_kind"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 149,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 10159,
+        "sha256": "2a4f212afdfb0ff405f5af24e970d707017067e3ba51b4400e5318d8aa20b96d",
+        "mtime_iso": "2026-05-19T16:49:42",
+        "row_count": 38,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 38,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 19657619,
+        "sha256": "71fc13c09ff1b7a0b03726e196c52e06b9a5bd8e947de245ad485bfed7fb00aa",
+        "mtime_iso": "2026-06-06T13:54:47",
+        "row_count": 50382,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 50382,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 3185,
+        "sha256": "2a888014934fb4fac27dc0aef339f5b105b81ca663f6474c1ffd801dc437a4fe",
+        "mtime_iso": "2026-06-06T13:54:48",
+        "row_count": 19,
+        "schema": [
+          "gregorian_date",
+          "day_title",
+          "service_section",
+          "reading_type",
+          "raw_ref",
+          "repaired_ref",
+          "source_ref_status",
+          "normalization_warning",
+          "url"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 19,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/GENESIS_PASCHA_CORRECTION_2026-06-06.json",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/GENESIS_PASCHA_CORRECTION_2026-06-06.json",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 1623,
+        "sha256": "0dcd66ffaa98f7e32bcdbe5dea80753e2108aad4ef64e6c76b1cb0b130281636",
+        "mtime_iso": "2026-06-06T12:26:46",
+        "json_type": "dict",
+        "top_level_keys": [
+          "corrected_rows",
+          "reason",
+          "regenerated_outputs",
+          "source_text",
+          "updated_at"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_readings.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 1800368,
+        "sha256": "6e4088187de72566fb25f815f531969dd2dfbc00a3e1665c7effbb70465d32e8",
+        "mtime_iso": "2026-06-06T13:53:47",
+        "row_count": 4637,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 4637,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.md",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bright_saturday_service_order.md",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 602,
+        "sha256": "47b94e107a651f503679ac0543d97a4c8957b9a15be6d9dbc3a202bd374b5df9",
+        "mtime_iso": "2026-05-19T16:52:44",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 6352,
+        "sha256": "db10babc39d3d0d932ce2345aed3a819c26c1eab0ca7fe3280fbfc5c5d1d7a7b",
+        "mtime_iso": "2026-06-06T13:54:48",
+        "row_count": 19,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 19,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 118454,
+        "sha256": "bb5ac16f6d58df25e365938f2851fe1e78e1448889f9918c3438395b2070211b",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 277,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 277,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_day_hour_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 22343,
+        "sha256": "71027be6bcb353225d39fdbe5d709701ac693a6e2ed331f37ecb6e798a9969a3",
+        "mtime_iso": "2026-06-06T13:21:30",
+        "row_count": 173,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 173,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_occurrences.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 35999085,
+        "sha256": "268e54888b08f79b7354bee40c815ffaf3e5e3f8bf33408cd032394fc549069c",
+        "mtime_iso": "2026-06-06T13:54:57",
+        "row_count": 71315,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 71315,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 76298,
+        "sha256": "c5c08f9beebebd7009afa4f77f13b9ff4d9943477b595fd5316d62a087848353",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 161,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 161,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/bible_chapter_lectionary_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 716736,
+        "sha256": "18e00db47400d44c9dabe8680f043d1bd5941f32594d9ab074972a447ec52bd6",
+        "mtime_iso": "2026-06-06T13:54:56",
+        "row_count": 1351,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 1351,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/copticchurch_date_meta_2020_2035.csv",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_meta_2020_2035.csv",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 774160,
+        "sha256": "77f1fd83aaf7679c69eb84f3d1e9408f521866a09722203c24c05f56409511cd",
+        "mtime_iso": "2026-06-06T13:54:46",
+        "row_count": 5844,
+        "schema": [
+          "date",
+          "title",
+          "day_title",
+          "reading_count"
+        ],
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 5844,
+      "schema_changed": true,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/special_service_passage_index.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 106763,
+        "sha256": "f6d3d2fe7b36b137bfa443476a07782f57720c3ad20e7250a09768d5edf53db6",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 196,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 196,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.jsonl",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.jsonl",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 167300,
+        "sha256": "a5fce85e6726a88d5baf1a136d18d1f7fe4b1c88cb07c5371358329c0180784e",
+        "mtime_iso": "2026-06-06T13:54:50",
+        "row_count": 149,
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 149,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data/copticchurch_scrape_errors.json",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_scrape_errors.json",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "mtime_iso": "2026-06-06T13:54:49",
+        "row_count": 0,
+        "json_type": "list",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 0,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Days.pdf",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Days.pdf",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 19509308,
+        "sha256": "f4eb3465542af3bf5da09d2be05118e616d98b854f4850155b7982a92597295b",
+        "mtime_iso": "2026-05-19T12:24:21",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/SOURCE_MANIFEST.json",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/SOURCE_MANIFEST.json",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 2283,
+        "sha256": "bc580f848a392c30607cf6fbce6cda4131b4a9df390332f5382a7c66c89203fd",
+        "mtime_iso": "2026-06-06T13:54:58",
+        "row_count": 14,
+        "json_type": "list",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": 14,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Sundays.txt",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Sundays.txt",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 925121,
+        "sha256": "bf49a59e64b36668fd50bf0e12ba493129de0effca7fd5a67ec3bce01aa1a9f7",
+        "mtime_iso": "2026-05-19T12:24:56",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/KatamerosDatabase.sqlite",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/KatamerosDatabase.sqlite",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 91217920,
+        "sha256": "19fe28dffc81007001049c2b07ce124400e28648bbb0cfd358528fca8252ff9e",
+        "mtime_iso": "2026-05-19T12:22:52",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Days.txt",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Days.txt",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 820701,
+        "sha256": "b81d990f48d0923fc94b6db020a28836073e13ff8b00b021efc55b741e261168",
+        "mtime_iso": "2026-05-19T12:24:55",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Sundays.pdf",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Sundays.pdf",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 12971775,
+        "sha256": "798c388ae8be7bf924c870c772550a6880d4f7af81dd61d0e93e28d9862b5d45",
+        "mtime_iso": "2026-05-19T12:24:17",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Lent.pdf",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Lent.pdf",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 9029332,
+        "sha256": "8cb023ea51ba51bc865bbe4c5002d962e108cbf3a0151a6e370a05b68995ba27",
+        "mtime_iso": "2026-05-19T12:24:21",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Pentecost.txt",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Pentecost.txt",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 433650,
+        "sha256": "a48869f3e26d5e5a3e54a552f7e6b9bf8d19cfed9c3be6ebb16d291634a2126d",
+        "mtime_iso": "2026-05-19T12:24:57",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.txt",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.txt",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 2028324,
+        "sha256": "59de8b5e594e3be9c9dc74b817ba2fc4c17b3451f814e2ae1e3361424886da92",
+        "mtime_iso": "2026-05-19T12:25:00",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 715900,
+        "sha256": "d37ef1df5ff9e5caadfe77a2b45a6e21b66bf69005715c93ed11e7004f1c872d",
+        "mtime_iso": "2026-05-19T12:24:58",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Pentecost.pdf",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Pentecost.pdf",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 12727838,
+        "sha256": "3e6b0b54155fad464c6c3dc3b16d6e6ef59142fdcd7dfca58d91900398c9b0bf",
+        "mtime_iso": "2026-05-19T12:24:23",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Lent.txt",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/UK_Midlands_Katameros_Lent.txt",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 922074,
+        "sha256": "831e8b37328aa97d83ae09210fcff16d06923c76bd16d4f8254554ee5e03a9d0",
+        "mtime_iso": "2026-05-19T12:24:57",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 7417864,
+        "sha256": "afddea9372689625409370be0c466b0d99d4279fea57221f177dd18f105413d1",
+        "mtime_iso": "2026-05-19T12:24:24",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.pdf",
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN_Coptic_AR.pdf",
+      "layer": "vault-publication-layer",
+      "before": {},
+      "after": {
+        "size_bytes": 17703324,
+        "sha256": "e7ff308bfc18ecdd31cbdefd31e6151d1a6784fb34681ecf20eba2a6ebaeb81c",
+        "mtime_iso": "2026-05-19T12:24:26",
+        "exists": true
+      },
+      "changed": true,
+      "row_delta": null,
+      "schema_changed": false,
+      "added_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "removed_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum",
+      "modified_rows": "not row-enumerable from baseline snapshot; see row_delta/checksum"
+    }
+  ],
+  "schema_changes": [
+    {
+      "relative_path": "out/data/reverse_lookup_crosswalk.csv",
+      "before_schema": [
+        "passage",
+        "source_kind",
+        "liturgical_place",
+        "calendar_key",
+        "gregorian_date",
+        "coptic_date",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "significance_note",
+        "synaxarium_note",
+        "source_ref",
+        "url"
+      ],
+      "after_schema": [
+        "passage",
+        "source_kind",
+        "source_family",
+        "source_table",
+        "source_file",
+        "source_row_id",
+        "liturgical_place",
+        "calendar_key",
+        "gregorian_date",
+        "coptic_date",
+        "day_title",
+        "service_day",
+        "service_hour",
+        "service_section",
+        "reading_slot",
+        "reading_type",
+        "source_ref",
+        "raw_ref",
+        "normalized_ref",
+        "normalized_segment",
+        "book",
+        "book_abbrev",
+        "chapter_start",
+        "verse_start",
+        "chapter_end",
+        "verse_end",
+        "significance_note",
+        "synaxarium_note",
+        "url",
+        "provenance"
+      ]
+    },
+    {
+      "relative_path": "out/data/reverse_lookup_summary.csv",
+      "before_schema": [
+        "passage",
+        "cycle_occurrences",
+        "date_occurrences",
+        "special_service_occurrences",
+        "agpeya_occurrences",
+        "pascha_occurrences",
+        "bright_saturday_occurrences",
+        "total_occurrences"
+      ],
+      "after_schema": [
+        "passage",
+        "cycle_occurrences",
+        "date_occurrences",
+        "special_service_occurrences",
+        "agpeya_occurrences",
+        "pascha_occurrences",
+        "pascha_source_text_occurrences",
+        "bright_saturday_occurrences",
+        "total_occurrences"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/katameros_cycle_passage_index.csv",
+      "before_schema": [
+        "book",
+        "book_abbrev",
+        "chapter",
+        "verse_start",
+        "verse_end",
+        "raw_segment",
+        "normalized_segment",
+        "source",
+        "source_table",
+        "source_type",
+        "cycle",
+        "day_key",
+        "month_number",
+        "month_name",
+        "day",
+        "week",
+        "day_of_week",
+        "day_name",
+        "season",
+        "other",
+        "reading_slot",
+        "raw_ref",
+        "normalized_ref"
+      ],
+      "after_schema": [
+        "book",
+        "book_abbrev",
+        "chapter",
+        "verse_start",
+        "verse_end",
+        "raw_segment",
+        "normalized_segment",
+        "canonical_segment",
+        "source",
+        "source_table",
+        "source_type",
+        "cycle",
+        "day_key",
+        "month_number",
+        "month_name",
+        "day",
+        "week",
+        "day_of_week",
+        "day_name",
+        "season",
+        "other",
+        "reading_slot",
+        "raw_ref",
+        "normalized_ref"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_readings_2020_2035.csv",
+      "before_schema": [
+        "source",
+        "gregorian_date",
+        "weekday",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "raw_ref",
+        "normalized_ref",
+        "url"
+      ],
+      "after_schema": [
+        "source",
+        "gregorian_date",
+        "weekday",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "raw_ref",
+        "normalized_ref",
+        "parse_status",
+        "normalization_warning",
+        "url"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_passage_index_2020_2035.csv",
+      "before_schema": [
+        "source",
+        "gregorian_date",
+        "weekday",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "matched_ref",
+        "raw_ref",
+        "url"
+      ],
+      "after_schema": [
+        "source",
+        "gregorian_date",
+        "weekday",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "matched_ref",
+        "raw_ref",
+        "source_ref_status",
+        "normalization_warning",
+        "url"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_crosswalk.csv",
+      "before_schema": [
+        "passage",
+        "source_kind",
+        "liturgical_place",
+        "calendar_key",
+        "gregorian_date",
+        "coptic_date",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "significance_note",
+        "synaxarium_note",
+        "source_ref",
+        "url"
+      ],
+      "after_schema": [
+        "passage",
+        "source_kind",
+        "source_family",
+        "source_table",
+        "source_file",
+        "source_row_id",
+        "liturgical_place",
+        "calendar_key",
+        "gregorian_date",
+        "coptic_date",
+        "day_title",
+        "service_day",
+        "service_hour",
+        "service_section",
+        "reading_slot",
+        "reading_type",
+        "source_ref",
+        "raw_ref",
+        "normalized_ref",
+        "normalized_segment",
+        "book",
+        "book_abbrev",
+        "chapter_start",
+        "verse_start",
+        "chapter_end",
+        "verse_end",
+        "significance_note",
+        "synaxarium_note",
+        "url",
+        "provenance"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/reverse_lookup_summary.csv",
+      "before_schema": [
+        "passage",
+        "cycle_occurrences",
+        "date_occurrences",
+        "special_service_occurrences",
+        "agpeya_occurrences",
+        "pascha_occurrences",
+        "bright_saturday_occurrences",
+        "total_occurrences"
+      ],
+      "after_schema": [
+        "passage",
+        "cycle_occurrences",
+        "date_occurrences",
+        "special_service_occurrences",
+        "agpeya_occurrences",
+        "pascha_occurrences",
+        "pascha_source_text_occurrences",
+        "bright_saturday_occurrences",
+        "total_occurrences"
+      ]
+    },
+    {
+      "relative_path": "out/data/pascha_source_text_index.csv",
+      "before_schema": null,
+      "after_schema": [
+        "day",
+        "hour",
+        "source_kind",
+        "source_family",
+        "source_file",
+        "source_line",
+        "source_page",
+        "order",
+        "reading_type",
+        "raw_ref",
+        "normalized_ref",
+        "parse_status",
+        "provenance_note"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_hour_readings.csv",
+      "before_schema": null,
+      "after_schema": [
+        "prayer_group",
+        "prayer_key",
+        "prayer_name",
+        "service_order",
+        "reading_type",
+        "raw_ref",
+        "display_ref",
+        "source_title",
+        "source_url",
+        "source_page",
+        "notes",
+        "canonical_ref"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/pascha_source_text_index.csv",
+      "before_schema": null,
+      "after_schema": [
+        "day",
+        "hour",
+        "source_kind",
+        "source_family",
+        "source_file",
+        "source_line",
+        "source_page",
+        "order",
+        "reading_type",
+        "raw_ref",
+        "normalized_ref",
+        "parse_status",
+        "provenance_note"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_readings_curated.csv",
+      "before_schema": null,
+      "after_schema": [
+        "service_family",
+        "service_variant",
+        "section",
+        "reading_type",
+        "raw_ref",
+        "source_title",
+        "source_url",
+        "source_page",
+        "notes",
+        "canonical_ref"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/special_service_passage_index.csv",
+      "before_schema": null,
+      "after_schema": [
+        "service_family",
+        "service_variant",
+        "section",
+        "reading_type",
+        "raw_ref",
+        "canonical_ref",
+        "matched_ref",
+        "source_title",
+        "source_url",
+        "source_page",
+        "notes",
+        "source_kind"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/agpeya_passage_index.csv",
+      "before_schema": null,
+      "after_schema": [
+        "prayer_group",
+        "prayer_key",
+        "prayer_name",
+        "service_order",
+        "reading_type",
+        "raw_ref",
+        "display_ref",
+        "canonical_ref",
+        "matched_ref",
+        "source_title",
+        "source_url",
+        "source_page",
+        "notes",
+        "source_kind"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/source_ref_repair_report.csv",
+      "before_schema": null,
+      "after_schema": [
+        "gregorian_date",
+        "day_title",
+        "service_section",
+        "reading_type",
+        "raw_ref",
+        "repaired_ref",
+        "source_ref_status",
+        "normalization_warning",
+        "url"
+      ]
+    },
+    {
+      "relative_path": "vault:Coptic Orthodox Lectionary Reference/data/copticchurch_date_meta_2020_2035.csv",
+      "before_schema": null,
+      "after_schema": [
+        "date",
+        "title",
+        "day_title",
+        "reading_count"
+      ]
+    }
+  ],
+  "notes": [
+    "Baseline captured checksums/schemas/row counts, not full old row bodies. Exact row additions/removals/modifications are therefore represented by row count delta + checksum/schema changes, with affected passages enumerated from regression/query evidence."
+  ]
+}

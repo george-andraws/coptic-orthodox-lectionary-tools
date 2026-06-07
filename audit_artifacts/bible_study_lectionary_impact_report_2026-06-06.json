@@ -1,0 +1,221 @@
+{
+  "created_at": "2026-06-06T14:01:34",
+  "guide_file_count_initial_inventory": 1617,
+  "guide_files_scanned_final_excluding_audio_fragments": 1557,
+  "files_with_lectionary_claims_initial_inventory": 1279,
+  "affected_pattern_files_initial_inventory": 196,
+  "heuristic_claim_files_final_excluding_audio_fragments": 1185,
+  "updated_files_count": 17,
+  "confirmed_correct_or_no_update_needed_count": 179,
+  "needs_human_review_count": 0,
+  "updated_files": [
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 7 - Temple sermon.md",
+      "exists": true,
+      "sha256": "2cc6ef5b20687ee85b9252daccd0efba3c57a1ffc4ac8eb7fefbeb63dd808ee0",
+      "description": "frontmatter and Coptic Lectionary Connections: John 2:13-17 narrowed to Pascha Monday Sixth Hour; removed false Tuesday Sixth Hour claim"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 8 - Refused repentance and no balm in Gilead.md",
+      "exists": true,
+      "sha256": "32a5ae97736292b4876197c21bc86a1df36ce29bb7553ba21bdc3524b7d7b2ae",
+      "description": "frontmatter and Coptic Lectionary Connections: Jeremiah 8:17-9:6 narrowed to Great Thursday Eve First Hour"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah 9 - Lament and knowing the Lord.md",
+      "exists": true,
+      "sha256": "0f2e40554a634439347978e4ed42653360e4870cfa73a6c1034a7768191395de",
+      "description": "Coptic Lectionary Connections: removed false Wednesday Eve Eleventh Hour row for Jeremiah 8:17-9:6"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Resources Used - Jeremiah.md",
+      "exists": true,
+      "sha256": "ed1728603b99d292863a3c425405d7c2e5788a849795049e7208163893b5e664",
+      "description": "Resources table and audit notes: John 2 and Jeremiah 8/9 placements updated to rebuilt package results"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Jeremiah - General Introduction.md",
+      "exists": true,
+      "sha256": "1962f26900653c5bd3c5c11881ef9fa14f09df6c4195d027904f50addc0bf1c7",
+      "description": "summary table: Jeremiah 8:17-9:6 placement narrowed to Great Thursday Eve First Hour"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah Full-Book Audit Start - 2026-05-29.md",
+      "exists": true,
+      "sha256": "3e8226d17dd50d3eb1dc00e1a2203c620a1bacbd3b16edbb58724c8c319f8368",
+      "description": "audit placement list: Jeremiah 8:17-9:6 narrowed to Great Thursday Eve First Hour"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 8-10 Split Audit - 2026-05-29.md",
+      "exists": true,
+      "sha256": "143d90152e4769ce62f9db7e5e9cbad8a42acc1a52864bff08031344ac741f05",
+      "description": "audit placement list: removed false Wednesday Eve Eleventh Hour row"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/033 - Jeremiah/Audits/Jeremiah 7 Continuation Audit - 2026-05-29.md",
+      "exists": true,
+      "sha256": "92490fdce4891ae25412679e53d41ed0a47cc8a620d670506336bc9bf2cdf522",
+      "description": "audit notes: John 2 narrowed to Monday Sixth Hour and Tuesday Sixth clarified as John 8:12-20"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 62 (LXX 61) - My Soul Is Subject to God Alone.md",
+      "exists": true,
+      "sha256": "ac1af24da4202942d7b36c929528dea942ac17c73d08e5808a335870ccc2eaa3",
+      "description": "frontmatter, metadata, worship section, and sources: removed false Wednesday Eve Eleventh Hour day/hour claim; added Thursday Eve Eleventh source-text row"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 62-64 Batch Quality Review - 2026-05-24.md",
+      "exists": true,
+      "sha256": "41f2a4b65c8f1a12f4318f21ab69475fbbfdedde0d8227d90ebee94f163254d4",
+      "description": "audit note: Psalm 62 Holy Week row corrected to Thursday Eve Eleventh source-text row"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Psalm 122 (LXX 121) - I Was Glad When They Said to Me.md",
+      "exists": true,
+      "sha256": "6bc00d5e85ba0cff0167c4c43e74db007ff3213f229a2e02872061ca6aba1295",
+      "description": "frontmatter, metadata, and worship section: Psalm 122:4 narrowed to Holy Monday Sixth Hour, retaining Monday/Tuesday Eve Eleventh Hour"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/025 - Psalms/Audits/Psalms 120-122 Batch Quality Review - 2026-05-27.md",
+      "exists": true,
+      "sha256": "21d8731ce86acb5a09ba1db1266125d10bf00a652b9d14f29ca48408f7f36fe6",
+      "description": "audit note: Psalm 122:4 narrowed to Holy Monday Sixth Hour"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon - Overview.md",
+      "exists": true,
+      "sha256": "fddf0aa00a2649eade65c43354250330caaa54be95f983a044d2cb17835fb371",
+      "description": "frontmatter/body/source notes: updated from checked-source wording to rebuilt package support for Wisdom Holy Pascha rows"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Resources Used - Wisdom of Solomon.md",
+      "exists": true,
+      "sha256": "577b0c3f20efc7287ca1306b27b916c886b1bc0e1680b26927f271a4a9f385ca",
+      "description": "source table: Wisdom 1, 2, and 7 rows now cite rebuilt package indexes and source text"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Series Plan.md",
+      "exists": true,
+      "sha256": "b62932777e4ce37b054d9f1d5c4089f1ce8d40691f2f8c2dd7585996edbe0165",
+      "description": "audit plan: removed stale “query helper did not return Wisdom rows”/no-source wording for now-supported Wisdom 2 and 7"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Audits/Wisdom of Solomon Phase 1 Inventory and Source Probe - 2026-06-03.md",
+      "exists": true,
+      "sha256": "26737f2077554278e98705860b356209d313735abf0e329c1974b8692c07f2a4",
+      "description": "audit table: Wisdom rows now cite rebuilt package indexes and source text"
+    },
+    {
+      "path": "/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Biblical Explanations/Kings Bible Study Project/030 - Wisdom of Solomon/Wisdom of Solomon 6.22-8.21 - Wisdom, Brightness, and Friendship with God.md",
+      "exists": true,
+      "sha256": "8518b9a55cbc036ab5c4e6c8368367276d940067cea5a087cba1ee86cb4fb088",
+      "description": "frontmatter/body/source notes: Wisdom 7:24-30 placement upgraded to rebuilt package support"
+    }
+  ],
+  "affected_passages": [
+    {
+      "passage": "Genesis 18:1-23",
+      "service": "Great Thursday Liturgy of Blessing of the Water OT1",
+      "reason": "verified preservation after Pascha day/hour correction"
+    },
+    {
+      "passage": "Genesis 2:15-25; Genesis 3:1-24",
+      "service": "Monday Ninth Hour OT1",
+      "reason": "verified not duplicated under Tuesday Ninth Hour"
+    },
+    {
+      "passage": "Genesis 6:5-9:7",
+      "service": "Tuesday Ninth Hour OT1",
+      "reason": "restored correct Tuesday row"
+    },
+    {
+      "passage": "Genesis 22:1-19",
+      "service": "Great Thursday Ninth Hour OT1",
+      "reason": "regression preservation"
+    },
+    {
+      "passage": "Genesis 14:17-20",
+      "service": "Great Thursday Ninth Hour OT3",
+      "reason": "regression preservation"
+    },
+    {
+      "passage": "Wisdom 1:1-9",
+      "service": "Monday Sixth Hour Prophecy/OT2",
+      "reason": "Wisdom alias parsing and Pascha source-text/crosswalk inclusion"
+    },
+    {
+      "passage": "Wisdom 7:24-30",
+      "service": "Wednesday Eve Eleventh Hour Prophecy/OT1",
+      "reason": "Wisdom alias parsing and Pascha source-text/crosswalk inclusion"
+    },
+    {
+      "passage": "Wisdom 2:12-22",
+      "service": "Good Friday First Hour Prophecy/OT6",
+      "reason": "Wisdom alias parsing and Pascha source-text/crosswalk inclusion"
+    },
+    {
+      "passage": "Sirach 4:20-5:2",
+      "service": "Tuesday Sixth Hour Prophecy/OT2",
+      "reason": "Sirach alias parsing and Pascha source-text inclusion"
+    },
+    {
+      "passage": "Ezekiel 21:3-13",
+      "service": "Tuesday Sixth Hour OT1",
+      "reason": "Tuesday Sixth Hour corrected/verified"
+    },
+    {
+      "passage": "Isaiah 1:1-9",
+      "service": "Tuesday Sixth Hour OT3",
+      "reason": "Tuesday Sixth Hour corrected/verified"
+    },
+    {
+      "passage": "John 8:12-20",
+      "service": "Tuesday Sixth Hour Gospel",
+      "reason": "Tuesday Sixth Hour corrected/verified; guide claims updated"
+    },
+    {
+      "passage": "John 2:13-17",
+      "service": "Monday Sixth Hour Gospel",
+      "reason": "false Tuesday Sixth Hour guide claims removed"
+    },
+    {
+      "passage": "Exodus 32:7-15",
+      "service": "Monday Sixth Hour Prophecy/OT1",
+      "reason": "normalizer repaired malformed Exod d d-style variants"
+    },
+    {
+      "passage": "Psalm 62:7,6 / Psalm 62:7,2",
+      "service": "Pascha Monday/Tuesday Eve First Hour and Thursday Eve Eleventh Hour source text",
+      "reason": "combined Psalm verse parsing repaired and guide claims corrected"
+    },
+    {
+      "passage": "Psalm 18:48,17",
+      "service": "Tuesday Sixth Hour Psalm",
+      "reason": "combined Psalm verse parsing repaired"
+    },
+    {
+      "passage": "Psalm 122:4",
+      "service": "Monday Sixth Hour and Monday/Tuesday Eve Eleventh Hour",
+      "reason": "removed false Holy Tuesday Sixth Hour guide claim"
+    },
+    {
+      "passage": "Jeremiah 8:17-9:6",
+      "service": "Great Thursday Eve First Hour",
+      "reason": "removed false Wednesday Eve Eleventh Hour guide claim"
+    }
+  ],
+  "final_stale_scan_summary": {
+    "stale_john2_tuesday": 3,
+    "stale_jer_8_wed_eve": 0,
+    "stale_ps122_tuesday_sixth": 0,
+    "stale_ps62_wed_eleven": 0,
+    "stale_wisdom_query_gap": 0,
+    "supported_no_exact_phrase": 2
+  },
+  "final_stale_scan_interpretation": "stale_john2_tuesday remaining hits are guardrail text saying Tuesday Sixth is not John 2; supported_no_exact_phrase hits are scoped no-exact claims for Jeremiah 7/Wisdom 6, not stale supported-passage claims.",
+  "guides_needing_human_review": [],
+  "remaining_known_gaps": [
+    "Baseline snapshot did not preserve full old CSV row bodies, so row-body additions/removals/modifications are not enumerable; manifest uses row counts/checksums/schema plus affected-passage evidence.",
+    "General guide-to-lectionary pass used deterministic stale-claim scanning and affected-passage matching; it did not semantically prove every prose claim in all 1,279 claim files. No clear stale claims remained for the corrected passages after final scan."
+  ]
+}

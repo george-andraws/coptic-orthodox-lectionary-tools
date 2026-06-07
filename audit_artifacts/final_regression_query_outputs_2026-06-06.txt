@@ -1,0 +1,216 @@
+## HELP FLAGS
+usage: query_lectionary.py [-h] [--date DATE] [--passage PASSAGE]
+                           [--cycle-passage CYCLE_PASSAGE]
+                           [--special-service SPECIAL_SERVICE]
+                           [--source-text SOURCE_TEXT] [--agpeya AGPEYA]
+                           [--chapter CHAPTER] [--pascha-day PASCHA_DAY]
+                           [--hour HOUR] [--include-crosswalk] [--limit LIMIT]
+
+options:
+  -h, --help            show this help message and exit
+  --date DATE           Gregorian date YYYY-MM-DD, using copticchurch.net
+                        date-resolved cache
+  --passage PASSAGE     Find date-resolved occurrences by passage text, e.g.
+                        "John 20" or "Jn 20:1"
+  --cycle-passage CYCLE_PASSAGE
+                        Find core Katameros cycle occurrences by
+                        normalized/raw passage text, e.g. "Isa 2" or "40.5"
+  --special-service SPECIAL_SERVICE
+                        Find curated sacramental and special-service readings
+                        by service family, variant, section, reading type, or
+                        passage
+  --source-text SOURCE_TEXT
+                        Find source-text extracted Holy Pascha readings by
+                        day, hour, reading type, passage, source file, or page
+  --agpeya AGPEYA       Find Agpeya hour/watch readings by prayer group,
+                        prayer name, reading type, or passage
+  --chapter CHAPTER     Find chapter-level lectionary coverage, e.g. "John 2",
+                        "Isa 53", or "Genesis 1"
+  --pascha-day PASCHA_DAY
+                        Find Pascha / Holy Week readings by day title, e.g.
+                        "Good Friday" or "Great Thursday"
+  --hour HOUR           Optional Pascha hour filter, e.g. "Sixth Hour"
+  --include-crosswalk   For --passage lookups, append reverse-crosswalk
+                        matches instead of using it only as a fallback
+  --limit LIMIT
+
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day Monday --hour 'First Hour' --limit 20
+Monday | First Hour | OT1 | Gen 1:1-31; Gen 2:1-3
+Monday | First Hour | OT2 | Isa 5:1-9
+Monday | First Hour | OT3 | Ps 72:1-19
+Monday | First Hour | Psalm+Gospel | Ps 72:18-19; Mark 11:12-24
+Monday Eve | First Hour | OT1 | Zech 1:1-6
+Monday Eve | First Hour | Psalm+Gospel | Ps 62:7,6; Luke 13:23-30
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day Monday --hour 'Ninth Hour' --limit 20
+Monday | Ninth Hour | OT1 | Gen 2:15-25; Gen 3:1-24
+Monday | Ninth Hour | OT2 | Isa 40:1-5
+Monday | Ninth Hour | OT3 | Prov 1:1-9
+Monday | Ninth Hour | Psalm+Gospel | Ps 65:5,4; Matt 21:23-27
+Monday Eve | Ninth Hour | OT1 | Hos 10:12-15; Hos 11:1-2
+Monday Eve | Ninth Hour | Psalm+Gospel | Ps 33:10,11; Luke 11:37-52
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day Tuesday --hour 'Ninth Hour' --limit 20
+Tuesday | Ninth Hour | OT1 | Gen 6:5-9:7
+Tuesday | Ninth Hour | OT2 | Isa 40:1-5
+Tuesday | Ninth Hour | OT3 | Prov 1:1-9
+Tuesday | Ninth Hour | Psalm+Gospel | Ps 65:5,4; Matt 21:23-27
+Tuesday Eve | Ninth Hour | OT1 | Hos 10:12-15; Hos 11:1-2
+Tuesday Eve | Ninth Hour | Psalm+Gospel | Ps 33:10,11; Luke 11:37-52
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day Wednesday --hour 'Ninth Hour' --limit 20
+Wednesday | Ninth Hour | OT1 | Gen 24:1-9
+Wednesday | Ninth Hour | OT2 | Num 20:1-13
+Wednesday | Ninth Hour | OT3 | Prov 1:10-23
+Wednesday | Ninth Hour | OT4 | Isa 59:1-17
+Wednesday | Ninth Hour | OT5 | Zech 11:11-14
+Wednesday | Ninth Hour | Psalm+Gospel | Ps 41:5-6; Matt 26:3-16
+Wednesday Eve | Ninth Hour | OT1 | Ezek 20:27-33
+Wednesday Eve | Ninth Hour | Psalm+Gospel | Ps 7:1-2; John 10:29-38
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day 'Great Thursday' --hour 'Ninth Hour' --limit 20
+Great Thursday | Ninth Hour | OT1 | Gen 22:1-19
+Great Thursday | Ninth Hour | OT2 | Isa 61:1-7
+Great Thursday | Ninth Hour | OT3 | Gen 14:17-20
+Great Thursday | Ninth Hour | OT4 | Job 27:2-28:13
+Great Thursday | Ninth Hour | Psalm+Gospel | Ps 23:1,2; Matt 26:17-19
+Great Thursday Eve | Ninth Hour | OT1 | Jer 9:6-10
+Great Thursday Eve | Ninth Hour | OT2 | Ezek 21:33-37
+Great Thursday Eve | Ninth Hour | Psalm+Gospel | Ps 27:3,4; Ps 34:4,5; Matt 26:47-58; Mark 14:43-54; Luke 22:47-55; John 18:10-14
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day 'Great Thursday' --hour 'Liturgy of Blessing of the Water' --limit 20
+Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23
+
+## COMMAND: python3 out/scripts/query_lectionary.py --pascha-day 'Good Friday' --hour 'Third Hour' --limit 20
+Good Friday | Third Hour | OT1 | Gen 48:1-19
+Good Friday | Third Hour | OT2 | Isa 50:4-9
+Good Friday | Third Hour | OT3 | Isa 3:9-15
+Good Friday | Third Hour | OT4 | Isa 63:1-7
+Good Friday | Third Hour | OT5 | Amos 9:4-6; Amos 9:8-10
+Good Friday | Third Hour | OT6 | Job 29:21-30:10
+Good Friday | Third Hour | Psalm+Gospel | Ps 38:17; Ps 22:16; Matt 27:15-26; Mark 15:6-25; Luke 23:13-25; John 19:1-12
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Isaiah 53' --include-crosswalk --limit 12
+## reverse crosswalk results
+Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour
+Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text
+Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour
+Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Isa 53' --include-crosswalk --limit 12
+## reverse crosswalk results
+Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour
+Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text
+Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour
+Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Isa 52:13-53:12' --include-crosswalk --limit 12
+## reverse crosswalk results
+Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour
+Great Thursday | Eleventh Hour | Prophecy | Isa 52:13-53:12 | source=pascha_source_text
+Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour
+Good Friday | Sixth Hour | Prophecy | Isa 53:7-12 | source=pascha_source_text
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Wisdom 1:1-9' --include-crosswalk --limit 12
+## reverse crosswalk results
+Monday | Sixth Hour | OT2 | Wis 1:1-9 | source=pascha_day_hour
+Monday | Sixth Hour | Prophecy | Wis 1:1-9 | source=pascha_source_text
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Wisdom 7:24-30' --include-crosswalk --limit 12
+## reverse crosswalk results
+Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30 | source=pascha_day_hour
+Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30 | source=pascha_source_text
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Wisdom 2:12-22' --include-crosswalk --limit 12
+## reverse crosswalk results
+Wednesday | First Hour | OT4 | Wis 1:20-2:15 | source=pascha_day_hour
+Good Friday | First Hour | OT6 | Wis 2:12-22 | source=pascha_day_hour
+Good Friday | First Hour | Prophecy | Wis 2:12-22 | source=pascha_source_text
+Monday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour
+Tuesday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Lamentations 3:1-66' --include-crosswalk --limit 12
+## reverse crosswalk results
+Good Friday | Twelfth Hour | OT1 | Lam 3:1-66 | source=pascha_day_hour
+Good Friday | Twelfth Hour | Prophecy | Lam 3:1-66 | source=pascha_source_text
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'John 2' --include-crosswalk --limit 20
+## date results
+2020-01-22 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2020-02-13 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2020-04-22 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2020-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11
+2020-10-03 | Tout 23 | Liturgy | Catholic Epistle | Jn 2:7-11
+2020-10-16 | Baba 6 | Liturgy | Gospel | John 2:1-11
+2021-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2021-02-25 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2021-05-05 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2021-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11
+2021-10-16 | Baba 6 | Liturgy | Gospel | John 2:1-11
+2022-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2022-02-17 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2022-04-27 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2022-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11
+2022-10-03 | Tout 23 | Liturgy | Catholic Epistle | Jn 2:7-11
+2023-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11
+2023-02-09 | Jonah's Feast | Liturgy | Gospel | John 2:12-25
+2023-04-19 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25
+2023-09-11 | Nasie 6 | Liturgy | Gospel | Jn 2:1-11
+## reverse crosswalk results
+2023-10-17 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2024-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2025-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2026-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2020-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2028-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2029-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2030-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2031-10-17 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2032-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2034-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2035-10-17 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2021-10-16 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2023-09-11 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2027-09-11 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2031-09-11 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2035-09-11 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2023-01-21 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2024-01-22 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+2025-01-21 | Liturgy | Gospel | Jn 2:1-11 | source=copticchurch_date
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage 'Isa 5' --include-crosswalk --limit 20
+## reverse crosswalk results
+Monday | First Hour | OT2 | Isa 5:1-9 | source=pascha_day_hour
+Monday | First Hour | Prophecy | Isa 5:1-9 | source=pascha_source_text
+week 2 day_of_week 3 | prophecy | GreatLentReadings | Isa 5:17-25 | source=katameros_cycle
+Monday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour
+Tuesday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour
+Monday | Third Hour | Prophecy | Isa 5:20-30 | source=pascha_source_text
+week 2 day_of_week 2 | prophecy | GreatLentReadings | Isa 5:7-16 | source=katameros_cycle
+
+## COMMAND: python3 out/scripts/query_lectionary.py --cycle-passage '40.5' --limit 10
+AnnualReadings | Tut 13 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Tut 30 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Babah 3 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Babah 5 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Babah 9 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Babah 27 |  | liturgy_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Hatur 6 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Hatur 17 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Hatur 21 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+AnnualReadings | Kiyahk 1 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16
+
+## COMMAND: python3 out/scripts/query_lectionary.py --passage '4 Maccabees 1:1-12' --include-crosswalk --limit 10
+
+## COMMAND: python3 out/scripts/query_lectionary.py --source-text 'Wisdom 7:24-30' --limit 10
+Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30 | raw=Wisdom of Solomon 7:24-30 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:7021 page=278
+
+## COMMAND: python3 out/scripts/query_lectionary.py --source-text 'Psalm 62:7,6' --limit 10
+Tuesday Eve | First Hour | Psalm | Ps 62:7,62:2 | raw=Psalm 62:7, 2 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:3947 page=159
+Thursday Eve | Eleventh Hour | Psalm | Ps 62:7,62:6 | raw=Psalm 62:7, 6 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:9225 page=367
+
+## COMMAND: python3 out/scripts/query_lectionary.py --special-service wedding --limit 10
+wedding_crowning | holy_matrimony_main | main_readings | pauline | Ephesians 5:22-6:3
+wedding_crowning | holy_matrimony_main | main_readings | psalm | Psalm 19:5; Psalm 128:3
+wedding_crowning | holy_matrimony_main | main_readings | gospel | Matthew 19:1-6
