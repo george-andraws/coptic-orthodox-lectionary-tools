@@ -3,8 +3,10 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# SQLite databases and sidecar files
-*.sqlite
+# SQLite transient sidecar files
 *.sqlite-*
-*.db
 *.db-*
+
+# Include required SQLite source/package databases for reproducible local rebuilds
+!sources/katameros-api/Core/KatamerosDatabase.db
+!out/sources/KatamerosDatabase.sqlite
