@@ -14,7 +14,7 @@ OUT = ROOT / 'out'
 DATA = OUT / 'data'
 SCRIPT = OUT / 'scripts' / 'query_lectionary.py'
 REPAIR_REPORT = DATA / 'source_ref_repair_report.csv'
-from passage_normalization import extract_text_ref_tokens, parse_passage, passage_matches
+from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage, passage_matches
 
 SUSPICIOUS_PATTERNS = [
     re.compile(r'\d:.*[—–-]\s*$'),
@@ -58,7 +58,7 @@ def assert_required_pascha_genesis_rows():
     assert any('Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23' in line for line in checks['great_thursday_water']), checks['great_thursday_water']
     assert any('Good Friday | Third Hour | OT1 | Gen 48:1-19' in line for line in checks['good_friday_third_hour']), checks['good_friday_third_hour']
     assert any('Great Thursday | Liturgy of Blessing of the Water' in line and 'Gen 18:1-23' in line and 'source=pascha_day_hour' in line for line in checks['genesis_18_crosswalk']), checks['genesis_18_crosswalk']
-    assert any('Great Thursday | Liturgy of Blessing of the Water' in line and 'Gen 18:1-23' in line and 'source=pascha_source_text' in line for line in checks['genesis_18_crosswalk']), checks['genesis_18_crosswalk']
+    assert all(not ('Great Thursday | Liturgy of Blessing of the Water' in line and 'Gen 18:1-23' in line and 'source=pascha_source_text' in line) for line in checks['genesis_18_crosswalk']), checks['genesis_18_crosswalk']
     return {k: v[:8] for k, v in checks.items()}
 
 
@@ -243,6 +243,78 @@ def assert_malformed_refs_accounted_for():
     return report
 
 
+
+def normalized_key(value: str) -> str:
+    return re.sub(r'\s+', ' ', (value or '').strip()).casefold()
+
+
+def assert_chapter_occurrence_label_columns():
+    path = DATA / 'bible_chapter_lectionary_occurrences.csv'
+    rows = list(csv.DictReader(path.open(newline='', encoding='utf-8')))
+    required = {'occasion_label', 'service_label', 'reading_label'}
+    assert required.issubset(rows[0].keys()), sorted(rows[0].keys())
+
+    table_names = {'AnnualReadings', 'GreatLentReadings', 'PentecostReadings', 'SundayReadings'}
+    katameros_rows = [r for r in rows if r.get('source_kind') == 'katameros_cycle']
+    assert katameros_rows, 'Expected katameros_cycle occurrence rows'
+    leaked = [
+        r for r in katameros_rows
+        if r.get('service_label') in table_names or r.get('reading_label') in table_names
+    ]
+    assert not leaked, leaked[:10]
+    matins_psalm = [r for r in katameros_rows if r.get('service_section') == 'matins_psalm']
+    assert matins_psalm, 'Expected at least one katameros_cycle matins_psalm row'
+    bad_matins = [r for r in matins_psalm if r.get('service_label') != 'Matins' or r.get('reading_label') != 'Psalm']
+    assert not bad_matins, bad_matins[:10]
+    return {
+        'rows': len(rows),
+        'katameros_rows': len(katameros_rows),
+        'matins_psalm_rows': len(matins_psalm),
+        'required_columns': sorted(required),
+    }
+
+
+def assert_pascha_source_text_dedupe_invariants():
+    path = DATA / 'reverse_lookup_crosswalk.csv'
+    rows = list(csv.DictReader(path.open(newline='', encoding='utf-8')))
+    day_hour_keys = {
+        (normalized_key(r.get('day_title')), canonicalize_text_ref(r.get('passage', '')))
+        for r in rows
+        if r.get('source_kind') == 'pascha_day_hour'
+    }
+    duplicate_source_text = [
+        r for r in rows
+        if r.get('source_kind') == 'pascha_source_text'
+        and (normalized_key(r.get('day_title')), canonicalize_text_ref(r.get('passage', ''))) in day_hour_keys
+    ]
+    assert not duplicate_source_text, duplicate_source_text[:10]
+
+    bad_wednesday = {
+        ('Wednesday', 'Ps 83:2,83:5'),
+        ('Wednesday', 'Jn 12:1-8'),
+        ('Wednesday', 'Isa 48:1-6'),
+    }
+    present_bad = [
+        r for r in rows
+        if r.get('source_kind') == 'pascha_source_text'
+        and (r.get('day_title'), canonicalize_text_ref(r.get('passage', ''))) in bad_wednesday
+    ]
+    assert not present_bad, present_bad
+
+    retained = [
+        r for r in rows
+        if r.get('source_kind') == 'pascha_source_text'
+        and r.get('day_title') == 'Hosanna Sunday'
+        and canonicalize_text_ref(r.get('passage', '')) == 'Lam 1:1-4'
+    ]
+    assert retained, 'Expected retained Hosanna Sunday Lam 1:1-4 pascha_source_text row'
+    return {
+        'pascha_day_hour_day_passage_keys': len(day_hour_keys),
+        'pascha_source_text_duplicates': 0,
+        'confirmed_bad_wednesday_rows_present': 0,
+        'retained_hosanna_lamentations_rows': len(retained),
+    }
+
 def assert_artifacts_exist():
     required = [
         DATA / 'copticchurch_date_readings_2020_2035.csv',
@@ -278,6 +350,8 @@ def main() -> None:
         'pascha_source_text_fully_parsed': assert_pascha_source_text_fully_parsed(),
         'four_maccabees_local_absence': assert_four_maccabees_local_absence_documented(),
         'malformed_ref_checks': assert_malformed_refs_accounted_for(),
+        'chapter_occurrence_label_columns': assert_chapter_occurrence_label_columns(),
+        'pascha_source_text_dedupe_invariants': assert_pascha_source_text_dedupe_invariants(),
     }
     print(json.dumps(summary, indent=2))
 

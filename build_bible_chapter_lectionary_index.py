@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import shutil
 from collections import defaultdict
 from pathlib import Path
@@ -11,9 +12,21 @@ from typing import Dict, Iterable, List, Tuple
 from passage_normalization import parse_passage
 
 ROOT = Path(__file__).resolve().parent
-DATA = ROOT / 'out' / 'data'
+
+
+def env_path(name: str, default: Path) -> Path:
+    value = os.environ.get(name)
+    return Path(value).expanduser() if value else default
+
+
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, '').strip().lower() in {'1', 'true', 'yes', 'on'}
+
+
+DATA = env_path('LECTIONARY_DATA_DIR', env_path('LECTIONARY_WORK_OUT_DATA', ROOT / 'out' / 'data'))
 VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault')
-VAULT_DATA = VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data'
+VAULT_DATA = env_path('LECTIONARY_VAULT_DATA', VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data')
+DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
 
 # Chapter counts for the books supported by passage_normalization.py.
 # This uses the standard 66-book Bible plus the deuterocanonical books currently
@@ -132,8 +145,42 @@ DETAIL_FIELDS = [
     'reading_type',
     'source_ref',
     'url',
+    'occasion_label',
+    'service_label',
+    'reading_label',
 ]
 
+
+
+KATAMEROS_SLOT_LABELS = {
+    'matins_psalm': ('Matins', 'Psalm'),
+    'matins_gospel': ('Matins', 'Gospel'),
+    'vespers_psalm': ('Vespers', 'Psalm'),
+    'vespers_gospel': ('Vespers', 'Gospel'),
+    'liturgy_psalm': ('Liturgy', 'Psalm'),
+    'liturgy_pauline': ('Liturgy', 'Pauline'),
+    'liturgy_catholic': ('Liturgy', 'Catholicon'),
+    'liturgy_acts': ('Liturgy', 'Praxis'),
+    'liturgy_gospel': ('Liturgy', 'Gospel'),
+    'prophecy': ('Prophecy', ''),
+}
+
+
+def occurrence_labels(row: dict) -> dict[str, str]:
+    occasion = row.get('day_title') or row.get('liturgical_place') or row.get('calendar_key') or ''
+    if row.get('source_kind') == 'katameros_cycle':
+        service_label, reading_label = KATAMEROS_SLOT_LABELS.get(
+            row.get('service_section', ''),
+            (row.get('service_section', ''), row.get('reading_type', '')),
+        )
+    else:
+        service_label = row.get('service_section', '')
+        reading_label = row.get('reading_type', '')
+    return {
+        'occasion_label': occasion,
+        'service_label': service_label,
+        'reading_label': reading_label,
+    }
 
 def read_csv(path: Path) -> List[dict]:
     with path.open(newline='', encoding='utf-8') as f:
@@ -143,7 +190,7 @@ def read_csv(path: Path) -> List[dict]:
 def write_csv(path: Path, rows: List[dict], fields: List[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=fields)
+        w = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
 
@@ -233,6 +280,7 @@ def main() -> None:
                 'reading_type': row.get('reading_type', ''),
                 'source_ref': row.get('source_ref', ''),
                 'url': row.get('url', ''),
+                **occurrence_labels(row),
             }
             by_chapter[(book_abbrev, chapter)].append(detail)
             detail_rows.append(detail)
@@ -268,9 +316,11 @@ def main() -> None:
     write_jsonl(agg_jsonl, agg_rows)
     write_jsonl(detail_jsonl, detail_rows)
 
-    if VAULT_DATA.exists():
+    published_to = []
+    if not DISABLE_VAULT_PUBLISH and VAULT_DATA.exists():
         for src in [agg_csv, detail_csv, agg_jsonl, detail_jsonl]:
             shutil.copy2(src, VAULT_DATA / src.name)
+        published_to.append(str(VAULT_DATA))
 
     print(json.dumps({
         'chapter_rows': len(agg_rows),
@@ -279,6 +329,8 @@ def main() -> None:
         'chapter_occurrence_rows': len(detail_rows),
         'aggregate_csv': str(agg_csv),
         'detail_csv': str(detail_csv),
+        'data_dir': str(DATA),
+        'published_to': published_to,
     }, indent=2))
 
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import shutil
 from collections import Counter, defaultdict
@@ -13,13 +14,25 @@ from convertdate import coptic
 
 from passage_normalization import BOOK_ABBREV, canonicalize_text_ref, extract_text_ref_tokens, parse_passage
 
+WORK = Path(__file__).resolve().parent
+
+
+def env_path(name: str, default: Path) -> Path:
+    value = os.environ.get(name)
+    return Path(value).expanduser() if value else default
+
+
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, '').strip().lower() in {'1', 'true', 'yes', 'on'}
+
+
 VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault')
 REF = VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary'
 LOCAL = REF / 'Coptic Orthodox Lectionary Reference'
-VAULT_DATA = LOCAL / 'data'
-WORK = Path(__file__).resolve().parent
-WORK_OUT_DATA = WORK / 'out' / 'data'
-OUT = WORK / 'out4'
+DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
+VAULT_DATA = env_path('LECTIONARY_VAULT_DATA', LOCAL / 'data')
+WORK_OUT_DATA = env_path('LECTIONARY_WORK_OUT_DATA', WORK / 'out' / 'data')
+OUT = env_path('LECTIONARY_CROSSWALK_OUT', WORK / 'out4')
 PASCHA_CSV = WORK_OUT_DATA / 'pascha_day_hour_index.csv'
 PASCHA_JSONL = WORK_OUT_DATA / 'pascha_day_hour_index.jsonl'
 PASCHA_SOURCE_TEXT_CSV = WORK_OUT_DATA / 'pascha_source_text_index.csv'
@@ -32,7 +45,8 @@ BRIGHT_FALLBACK_CSV = WORK / 'out_bright' / 'bright_saturday_service_order.csv'
 BRIGHT_FALLBACK_JSONL = WORK / 'out_bright' / 'bright_saturday_service_order.jsonl'
 OUT.mkdir(parents=True, exist_ok=True)
 WORK_OUT_DATA.mkdir(parents=True, exist_ok=True)
-VAULT_DATA.mkdir(parents=True, exist_ok=True)
+if not DISABLE_VAULT_PUBLISH:
+    VAULT_DATA.mkdir(parents=True, exist_ok=True)
 
 BOOK_NAME_BY_ABBREV = {}
 for name, abbrev in BOOK_ABBREV.items():
@@ -96,7 +110,7 @@ def read_csv(path: Path) -> List[dict]:
 def write_csv(path: Path, rows: Iterable[dict], fields: List[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore')
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
 
@@ -112,6 +126,44 @@ def norm_passage(row: dict) -> str:
     p = row.get('normalized_segment') or row.get('matched_ref') or row.get('normalized_ref') or row.get('canonical_ref') or row.get('raw_ref') or ''
     p = re.sub(r'\s+', ' ', p).strip()
     return canonicalize_text_ref(p)
+
+
+def norm_key(value: str) -> str:
+    return re.sub(r'\s+', ' ', (value or '').strip()).casefold()
+
+
+def pascha_day_passage_key(day: str, passage: str) -> tuple[str, str]:
+    return (norm_key(day), canonicalize_text_ref(passage))
+
+
+# Known Pascha source-text mis-extractions confirmed absent from the official
+# Wednesday Pascha hours after checking the St. Mary Ottawa Pascha book. This
+# exclusion list can grow as more source-text extraction errors are confirmed.
+KNOWN_PASCHA_SOURCE_TEXT_MISEXTRACTIONS = {
+    pascha_day_passage_key('Wednesday', 'Isa 48:1-6'),
+}
+
+
+def display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(WORK))
+    except ValueError:
+        return str(path)
+
+
+def sample_pascha_row(row: dict, passage: str, **extra: object) -> dict:
+    sample = {
+        'day': row.get('day', ''),
+        'hour': row.get('hour', ''),
+        'reading_type': row.get('reading_type', ''),
+        'raw_ref': row.get('raw_ref', ''),
+        'normalized_ref': row.get('normalized_ref', ''),
+        'passage': passage,
+        'source_line': row.get('source_line', ''),
+        'source_page': row.get('source_page', ''),
+    }
+    sample.update(extra)
+    return sample
 
 
 def coptic_date_for(gregorian_date: str) -> str:
@@ -287,9 +339,12 @@ def main() -> None:
             provenance=row.get('source_title') or 'curated Agpeya data',
         )
 
+    pascha_day_hour_keys: set[tuple[str, str]] = set()
+
     for idx, row in enumerate(pascha_rows, 1):
         for token in extract_text_ref_tokens(row.get('refs', '')):
             passage = canonicalize_text_ref(token)
+            pascha_day_hour_keys.add(pascha_day_passage_key(row.get('day', ''), passage))
             add_row(
                 rows,
                 summary_counts,
@@ -297,7 +352,7 @@ def main() -> None:
                 'pascha_day_hour',
                 source_family='holy_pascha_curated_day_hour',
                 source_table='pascha_day_hour_index',
-                source_file=str(pascha_source.relative_to(WORK)) if pascha_source.exists() else '',
+                source_file=display_path(pascha_source) if pascha_source.exists() else '',
                 source_row_id=idx,
                 liturgical_place=row.get('day') or '',
                 calendar_key=f"{row.get('day','')} | {row.get('hour','')}",
@@ -314,11 +369,35 @@ def main() -> None:
                 provenance=row.get('source') or 'pascha_day_hour_index',
             )
 
+    pascha_source_text_input_rows = len(pascha_source_text_rows)
+    pascha_source_text_comparable_rows = 0
+    pascha_source_text_dropped_count = 0
+    pascha_source_text_quarantined_count = 0
+    pascha_source_text_kept_count = 0
+    pascha_source_text_dropped_samples = []
+    pascha_source_text_quarantined_samples = []
+    pascha_source_text_kept_samples = []
+
     for idx, row in enumerate(pascha_source_text_rows, 1):
         token = row.get('normalized_ref') or ''
         if not token:
             continue
         passage = canonicalize_text_ref(token)
+        pascha_source_text_comparable_rows += 1
+        dedupe_key = pascha_day_passage_key(row.get('day', ''), passage)
+        if dedupe_key in KNOWN_PASCHA_SOURCE_TEXT_MISEXTRACTIONS:
+            pascha_source_text_quarantined_count += 1
+            if len(pascha_source_text_quarantined_samples) < 50:
+                pascha_source_text_quarantined_samples.append(sample_pascha_row(row, passage))
+            continue
+        if dedupe_key in pascha_day_hour_keys:
+            pascha_source_text_dropped_count += 1
+            if len(pascha_source_text_dropped_samples) < 50:
+                pascha_source_text_dropped_samples.append(sample_pascha_row(row, passage))
+            continue
+        pascha_source_text_kept_count += 1
+        if len(pascha_source_text_kept_samples) < 50:
+            pascha_source_text_kept_samples.append(sample_pascha_row(row, passage))
         add_row(
             rows,
             summary_counts,
@@ -326,7 +405,7 @@ def main() -> None:
             'pascha_source_text',
             source_family=row.get('source_family') or 'holy_pascha',
             source_table='pascha_source_text_index',
-            source_file=row.get('source_file') or str(PASCHA_SOURCE_TEXT_CSV.relative_to(WORK)),
+            source_file=row.get('source_file') or display_path(PASCHA_SOURCE_TEXT_CSV),
             source_row_id=row.get('source_line') or idx,
             liturgical_place=row.get('day') or '',
             calendar_key=f"{row.get('day','')} | {row.get('hour','')}",
@@ -353,7 +432,7 @@ def main() -> None:
                 'bright_saturday_service_order',
                 source_family='bright_saturday',
                 source_table='bright_saturday_service_order',
-                source_file=str(bright_source.relative_to(WORK)) if bright_source.exists() else '',
+                source_file=display_path(bright_source) if bright_source.exists() else '',
                 source_row_id=idx,
                 liturgical_place=row.get('section') or row.get('subsection') or 'Bright Saturday',
                 calendar_key=f"Bright Saturday | {row.get('subsection','') or row.get('section','')}",
@@ -401,6 +480,18 @@ def main() -> None:
     summary_path = OUT / 'reverse_lookup_summary.csv'
     write_csv(summary_path, summary, SUMMARY_FIELDS)
 
+    dedupe_report = {
+        'pascha_source_text_input_rows': pascha_source_text_input_rows,
+        'pascha_source_text_comparable_rows': pascha_source_text_comparable_rows,
+        'dropped_duplicate_count': pascha_source_text_dropped_count,
+        'quarantined_misextraction_count': pascha_source_text_quarantined_count,
+        'total_dropped_count': pascha_source_text_dropped_count + pascha_source_text_quarantined_count,
+        'kept_unique_count': pascha_source_text_kept_count,
+        'match_key': 'same normalized day + same canonical normalized passage segment',
+        'dropped_duplicate_samples': pascha_source_text_dropped_samples,
+        'quarantined_misextraction_samples': pascha_source_text_quarantined_samples,
+        'kept_unique_samples': pascha_source_text_kept_samples,
+    }
     for src in [
         pascha_source,
         pascha_jsonl_source,
@@ -413,23 +504,36 @@ def main() -> None:
         summary_path,
     ]:
         if src.exists():
-            for target_dir in (WORK_OUT_DATA, VAULT_DATA):
+            target_dirs = [WORK_OUT_DATA]
+            if not DISABLE_VAULT_PUBLISH:
+                target_dirs.append(VAULT_DATA)
+            for target_dir in target_dirs:
                 dst = target_dir / src.name
                 if src.resolve() == dst.resolve():
                     continue
                 shutil.copy2(src, dst)
+
+    published_to = [str(WORK_OUT_DATA)]
+    if not DISABLE_VAULT_PUBLISH:
+        published_to.append(str(VAULT_DATA))
 
     print(json.dumps({
         'crosswalk_rows': len(rows),
         'passages': len(summary_counts),
         'source_kind_counts': dict(Counter(r['source_kind'] for r in rows)),
         'pascha_rows': len(pascha_rows),
-        'pascha_source_text_rows': len(pascha_source_text_rows),
+        'pascha_source_text_input_rows': pascha_source_text_input_rows,
+        'pascha_source_text_comparable_rows': pascha_source_text_comparable_rows,
+        'pascha_source_text_dropped_duplicates': dedupe_report['dropped_duplicate_count'],
+        'pascha_source_text_quarantined_misextractions': dedupe_report['quarantined_misextraction_count'],
+        'pascha_source_text_total_dropped': dedupe_report['total_dropped_count'],
+        'pascha_source_text_kept_unique': dedupe_report['kept_unique_count'],
         'bright_rows': len(bright_rows),
         'csv': str(csv_path),
         'jsonl': str(jsonl_path),
         'summary': str(summary_path),
-        'published_to': [str(WORK_OUT_DATA), str(VAULT_DATA)],
+        'dedupe': dedupe_report,
+        'published_to': published_to,
     }, indent=2))
 
 
