@@ -34,9 +34,12 @@ Deuterocanonical,Tobit,Tob,12,Tob 12,Tob 12:1-22,katameros_cycle,Great Lent/Jona
 Deuterocanonical,Tobit,Tob,13,Tob 13,Tob 13:1-18,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 6 day_of_week 5,, ,,prophecy,GreatLentReadings,Tob 13:1-18,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Deuterocanonical,Tobit,Tob,14,Tob 14,Tob 14:1-15,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 6 day_of_week 5,, ,,prophecy,GreatLentReadings,Tob 14:1-15,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Deuterocanonical,Wisdom of Solomon,Wis,1,Wis 1,Wis 1:1-9,pascha_day_hour,Monday,Monday | Sixth Hour,,,Monday,Sixth Hour,OT2,Wis 1:1-9,,Monday,Sixth Hour,OT2
+Deuterocanonical,Wisdom of Solomon,Wis,1,Wis 1,Wis 1:20-2:15,pascha_day_hour,Wednesday,Wednesday | First Hour,,,Wednesday,First Hour,OT4,Wis 1:20-2:15,,Wednesday,First Hour,OT4
 Deuterocanonical,Wisdom of Solomon,Wis,2,Wis 2,Wis 2:12-22,pascha_day_hour,Good Friday,Good Friday | First Hour,,,Good Friday,First Hour,OT6,Wis 2:12-22,,Good Friday,First Hour,OT6
 Deuterocanonical,Wisdom of Solomon,Wis,2,Wis 2,Wis 2:20-30,pascha_day_hour,Monday,Monday | Eleventh Hour,,,Monday,Eleventh Hour,OT2,Wis 2:20-30,,Monday,Eleventh Hour,OT2
 Deuterocanonical,Wisdom of Solomon,Wis,2,Wis 2,Wis 2:20-30,pascha_day_hour,Tuesday,Tuesday | Eleventh Hour,,,Tuesday,Eleventh Hour,OT2,Wis 2:20-30,,Tuesday,Eleventh Hour,OT2
+Deuterocanonical,Wisdom of Solomon,Wis,2,Wis 2,Wis 1:20-2:15,pascha_day_hour,Wednesday,Wednesday | First Hour,,,Wednesday,First Hour,OT4,Wis 1:20-2:15,,Wednesday,First Hour,OT4
+Deuterocanonical,Wisdom of Solomon,Wis,3,Wis 3,Wis 3:12-24,pascha_day_hour,Wednesday,Wednesday | First Hour,,,Wednesday,First Hour,OT5,Wis 3:12-24,,Wednesday,First Hour,OT5
 Deuterocanonical,Wisdom of Solomon,Wis,7,Wis 7,Wis 7:24-30,pascha_day_hour,Wednesday Eve,Wednesday Eve | Eleventh Hour,,,Wednesday Eve,Eleventh Hour,OT1,Wis 7:24-30,,Wednesday Eve,Eleventh Hour,OT1
 Deuterocanonical,Wisdom of Solomon,Wis,12,Wis 12,Wis 12:13-13:1,pascha_day_hour,Great Thursday,Great Thursday | Sixth Hour,,,Great Thursday,Sixth Hour,OT3,Wis 12:13-13:1,,Great Thursday,Sixth Hour,OT3
 Deuterocanonical,Wisdom of Solomon,Wis,13,Wis 13,Wis 12:13-13:1,pascha_day_hour,Great Thursday,Great Thursday | Sixth Hour,,,Great Thursday,Sixth Hour,OT3,Wis 12:13-13:1,,Great Thursday,Sixth Hour,OT3
@@ -42281,7 +42284,7 @@ Old Testament,Isaiah,Isa,56,Isa 56,Isa 55:1-56:1,pascha_source_text,Great Thursd
 Old Testament,Isaiah,Isa,58,Isa 58,Isa 58:1-11,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 7 day_of_week 3,, ,,prophecy,GreatLentReadings,Isa 58:1-11,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,58,Isa 58,Isa 58:1-9,pascha_day_hour,Great Thursday,Great Thursday | First Hour,,,Great Thursday,First Hour,OT3,Isa 58:1-9,,Great Thursday,First Hour,OT3
 Old Testament,Isaiah,Isa,58,Isa 58,Isa 58:1-11,pascha_source_text,Great Thursday,Great Thursday | First Hour,,,Great Thursday,First Hour,Prophecy,Isa 58:1-11,,Great Thursday,First Hour,Prophecy
-Old Testament,Isaiah,Isa,59,Isa 59,Isa 59:1-17,pascha_source_text,Wednesday,Wednesday | Ninth Hour,,,Wednesday,Ninth Hour,Prophecy,Isa 59:1-17,,Wednesday,Ninth Hour,Prophecy
+Old Testament,Isaiah,Isa,59,Isa 59,Isa 59:1-17,pascha_day_hour,Wednesday,Wednesday | Ninth Hour,,,Wednesday,Ninth Hour,OT4,Isa 59:1-17,,Wednesday,Ninth Hour,OT4
 Old Testament,Isaiah,Isa,61,Isa 61,Isa 61:1-7,pascha_day_hour,Great Thursday,Great Thursday | Ninth Hour,,,Great Thursday,Ninth Hour,OT2,Isa 61:1-7,,Great Thursday,Ninth Hour,OT2
 Old Testament,Isaiah,Isa,61,Isa 61,Isa 61:1-6,pascha_source_text,Great Thursday,Great Thursday | Ninth Hour,,,Great Thursday,Ninth Hour,Prophecy,Isa 61:1-6,,Great Thursday,Ninth Hour,Prophecy
 Old Testament,Isaiah,Isa,63,Isa 63,Isa 63:1-7,pascha_day_hour,Good Friday,Good Friday | Third Hour,,,Good Friday,Third Hour,OT4,Isa 63:1-7,,Good Friday,Third Hour,OT4
@@ -42406,9 +42409,11 @@ Old Testament,Proverbs,Prov,4,Prov 4,Prov 4:1-9,katameros_cycle,Great Lent/Jonah
 Old Testament,Proverbs,Prov,4,Prov 4,Prov 4:10-19,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 3,, ,,prophecy,GreatLentReadings,Prov 4:10-19,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Proverbs,Prov,4,Prov 4,Prov 4:20-27,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 4,, ,,prophecy,GreatLentReadings,Prov 4:20-27,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Proverbs,Prov,4,Prov 4,Prov 4:4-5:4,pascha_day_hour,Great Thursday,Great Thursday | Third Hour,,,Great Thursday,Third Hour,OT4,Prov 4:4-5:4,,Great Thursday,Third Hour,OT4
+Old Testament,Proverbs,Prov,4,Prov 4,Prov 4:4-5:4,pascha_day_hour,Wednesday,Wednesday | Third Hour,,,Wednesday,Third Hour,OT3,Prov 4:4-5:4,,Wednesday,Third Hour,OT3
 Old Testament,Proverbs,Prov,4,Prov 4,"Prov 4:4-27,5:1-4",pascha_source_text,Wednesday,Wednesday | Third Hour,,,Wednesday,Third Hour,Prophecy,"Prov 4:4-27,5:1-4",,Wednesday,Third Hour,Prophecy
 Old Testament,Proverbs,Prov,5,Prov 5,Prov 5:1-12,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 5,, ,,prophecy,GreatLentReadings,Prov 5:1-12,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Proverbs,Prov,5,Prov 5,Prov 4:4-5:4,pascha_day_hour,Great Thursday,Great Thursday | Third Hour,,,Great Thursday,Third Hour,OT4,Prov 4:4-5:4,,Great Thursday,Third Hour,OT4
+Old Testament,Proverbs,Prov,5,Prov 5,Prov 4:4-5:4,pascha_day_hour,Wednesday,Wednesday | Third Hour,,,Wednesday,Third Hour,OT3,Prov 4:4-5:4,,Wednesday,Third Hour,OT3
 Old Testament,Proverbs,Prov,5,Prov 5,"Prov 4:4-27,5:1-4",pascha_source_text,Wednesday,Wednesday | Third Hour,,,Wednesday,Third Hour,Prophecy,"Prov 4:4-27,5:1-4",,Wednesday,Third Hour,Prophecy
 Old Testament,Proverbs,Prov,6,Prov 6,Prov 6:20-7:4,pascha_source_text,Tuesday,Tuesday | Eleventh Hour,,,Tuesday,Eleventh Hour,Prophecy,Prov 6:20-7:4,,Tuesday,Eleventh Hour,Prophecy
 Old Testament,Proverbs,Prov,7,Prov 7,Prov 6:20-7:4,pascha_source_text,Tuesday,Tuesday | Eleventh Hour,,,Tuesday,Eleventh Hour,Prophecy,Prov 6:20-7:4,,Tuesday,Eleventh Hour,Prophecy
@@ -71106,8 +71111,8 @@ Old Testament,Zechariah,Zech,9,Zech 9,Zech 9:9-15,katameros_cycle,Great Lent/Jon
 Old Testament,Zechariah,Zech,9,Zech 9,Zech 9:11-14,pascha_day_hour,Great Thursday,Great Thursday | Third Hour,,,Great Thursday,Third Hour,OT3,Zech 9:11-14; Zech 10:1-2,,Great Thursday,Third Hour,OT3
 Old Testament,Zechariah,Zech,10,Zech 10,Zech 10:1-2,pascha_day_hour,Great Thursday,Great Thursday | Third Hour,,,Great Thursday,Third Hour,OT3,Zech 9:11-14; Zech 10:1-2,,Great Thursday,Third Hour,OT3
 Old Testament,Zechariah,Zech,11,Zech 11,Zech 11:11-14,pascha_day_hour,Good Friday,Good Friday | First Hour,,,Good Friday,First Hour,OT8,Zech 11:11-14,,Good Friday,First Hour,OT8
+Old Testament,Zechariah,Zech,11,Zech 11,Zech 11:11-14,pascha_day_hour,Wednesday,Wednesday | Ninth Hour,,,Wednesday,Ninth Hour,OT5,Zech 11:11-14,,Wednesday,Ninth Hour,OT5
 Old Testament,Zechariah,Zech,11,Zech 11,Zech 11:14,pascha_source_text,Good Friday,Good Friday | First Hour,,,Good Friday,First Hour,Prophecy,Zech 11:14,,Good Friday,First Hour,Prophecy
-Old Testament,Zechariah,Zech,11,Zech 11,Zech 11:11-14,pascha_source_text,Wednesday,Wednesday | Ninth Hour,,,Wednesday,Ninth Hour,Prophecy,Zech 11:11-14,,Wednesday,Ninth Hour,Prophecy
 Old Testament,Zechariah,Zech,12,Zech 12,Zech 12:11-14,pascha_day_hour,Great Thursday,Great Thursday | Eleventh Hour,,,Great Thursday,Eleventh Hour,OT3,Zech 12:11-14; Zech 13:1-9; Zech 14:1-4; Zech 14:6-9,,Great Thursday,Eleventh Hour,OT3
 Old Testament,Zechariah,Zech,12,Zech 12,"Zech 12:11-14:3,14:6-9",pascha_source_text,Great Thursday,Great Thursday | Eleventh Hour,,,Great Thursday,Eleventh Hour,Prophecy,"Zech 12:11-14:3,14:6-9",,Great Thursday,Eleventh Hour,Prophecy
 Old Testament,Zechariah,Zech,13,Zech 13,Zech 13:1-9,pascha_day_hour,Great Thursday,Great Thursday | Eleventh Hour,,,Great Thursday,Eleventh Hour,OT3,Zech 12:11-14; Zech 13:1-9; Zech 14:1-4; Zech 14:6-9,,Great Thursday,Eleventh Hour,OT3

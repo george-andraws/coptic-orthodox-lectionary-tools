@@ -1,9 +1,9 @@
 {
   "updated_at": "2026-06-14",
-  "reason": "Correct Wednesday Holy Pascha pascha_day_hour rows against the St. Mary Ottawa Holy Pascha service book; remove extra/misplaced readings and replace the wrong Sixth Hour Isaiah 48:1-6 row with Sirach 23:7-14.",
-  "source": "St. Mary Ottawa Katameros Holy Pascha book",
+  "reason": "Correct Wednesday Holy Pascha pascha_day_hour rows against St. Mary Ottawa Holy Pascha sources while retaining five valid fuller-edition Old Testament readings restored from the pre-dcc44a3 dataset.",
+  "source": "St. Mary Ottawa Katameros Holy Pascha book plus fuller-edition validation for retained Wednesday OT rows",
   "correction_source_value": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
-  "replacement_wednesday_rows": [
+  "final_wednesday_rows": [
     {
       "day": "Wednesday",
       "hour": "First Hour",
@@ -31,8 +31,24 @@
     {
       "day": "Wednesday",
       "hour": "First Hour",
-      "source": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
+      "source": "api",
       "order": "4",
+      "slot": "OT4",
+      "refs": "Wis 1:20-2:15"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "First Hour",
+      "source": "api",
+      "order": "5",
+      "slot": "OT5",
+      "refs": "Wis 3:12-24"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "First Hour",
+      "source": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
+      "order": "6",
       "slot": "Psalm+Gospel",
       "refs": "Ps 51:4; Ps 33:10; John 11:46-57"
     },
@@ -55,8 +71,16 @@
     {
       "day": "Wednesday",
       "hour": "Third Hour",
-      "source": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
+      "source": "api",
       "order": "3",
+      "slot": "OT3",
+      "refs": "Prov 4:4-5:4"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "Third Hour",
+      "source": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
+      "order": "4",
       "slot": "Psalm+Gospel",
       "refs": "Ps 41:6,1; Luke 22:1-6"
     },
@@ -119,8 +143,24 @@
     {
       "day": "Wednesday",
       "hour": "Ninth Hour",
-      "source": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
+      "source": "api",
       "order": "4",
+      "slot": "OT4",
+      "refs": "Isa 59:1-17"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "Ninth Hour",
+      "source": "api",
+      "order": "5",
+      "slot": "OT5",
+      "refs": "Zech 11:11-14"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "Ninth Hour",
+      "source": "St Mary Ottawa Holy Pascha book correction 2026-06-14",
+      "order": "6",
       "slot": "Psalm+Gospel",
       "refs": "Ps 41:5-6; Matt 26:3-16"
     },
@@ -139,6 +179,65 @@
       "order": "2",
       "slot": "Psalm+Gospel",
       "refs": "Ps 6:2-3; Ps 69:17; John 12:27-36"
+    }
+  ],
+  "restored_valid_fuller_edition_rows": [
+    {
+      "day": "Wednesday",
+      "hour": "First Hour",
+      "source": "api",
+      "order": "4",
+      "slot": "OT4",
+      "refs": "Wis 1:20-2:15"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "First Hour",
+      "source": "api",
+      "order": "5",
+      "slot": "OT5",
+      "refs": "Wis 3:12-24"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "Ninth Hour",
+      "source": "api",
+      "order": "4",
+      "slot": "OT4",
+      "refs": "Isa 59:1-17"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "Ninth Hour",
+      "source": "api",
+      "order": "5",
+      "slot": "OT5",
+      "refs": "Zech 11:11-14"
+    },
+    {
+      "day": "Wednesday",
+      "hour": "Third Hour",
+      "source": "api",
+      "order": "4",
+      "slot": "OT4",
+      "refs": "Prov 4:4-5:4"
+    }
+  ],
+  "changes_retained_from_dcc44a3": [
+    {
+      "change": "Sixth Hour OT2 corrected from Isa 48:1-6 to Sir 23:7-14"
+    },
+    {
+      "change": "Third Hour OT2 remains Sir 22:7-18"
+    },
+    {
+      "change": "Job reading remains moved to Sixth Hour OT3 with existing reference Job 27:16-20; Job 28:1-2"
+    },
+    {
+      "change": "Verse-range corrections remain: Prov 3:5-14, Prov 1:11-35, Ps 6:2-3"
+    },
+    {
+      "change": "Catholic Epistle generated label remains in build_bible_chapter_lectionary_index.py"
     }
   ],
   "flags": [
@@ -170,9 +269,9 @@
       "type": "psalm_numbering_preserved",
       "hour": "Eleventh Hour",
       "slot": "Psalm+Gospel",
-      "data_refs": "Ps 69:17",
-      "book_reference": "Psalm 68:17",
-      "action": "Left current canonical chapter form for Psalm 68/69 numbering; expanded Ps 6 to 2-3 from the book."
+      "data_refs": "Ps 6:2-3; Ps 69:17",
+      "book_reference": "Psalm 6:2-3,68:17",
+      "action": "Left current canonical Psalm 69 chapter form and retained Ps 6:2-3 range."
     }
   ]
 }

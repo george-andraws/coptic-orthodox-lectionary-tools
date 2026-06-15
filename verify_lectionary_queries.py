@@ -59,7 +59,8 @@ def assert_required_pascha_genesis_rows():
     assert all('Isa 48:1-6' not in line for line in checks['wednesday_sixth_hour']), checks['wednesday_sixth_hour']
     assert any('Wednesday | Ninth Hour | OT1 | Gen 24:1-9' in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
     assert any('Wednesday | Ninth Hour | OT3 | Prov 1:11-35' in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
-    assert all('Isa 59:1-17' not in line and 'Zech 11:11-14' not in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
+    assert any('Wednesday | Ninth Hour | OT4 | Isa 59:1-17' in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
+    assert any('Wednesday | Ninth Hour | OT5 | Zech 11:11-14' in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
     assert any('Great Thursday | Ninth Hour | OT1 | Gen 22:1-19' in line for line in checks['great_thursday_ninth_hour']), checks['great_thursday_ninth_hour']
     assert any('Great Thursday | Ninth Hour | OT3 | Gen 14:17-20' in line for line in checks['great_thursday_ninth_hour']), checks['great_thursday_ninth_hour']
     assert any('Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23' in line for line in checks['great_thursday_water']), checks['great_thursday_water']
@@ -337,6 +338,12 @@ def assert_pascha_source_text_dedupe_invariants():
     }
 
 
+
+def assert_chapter_occurrence_row_count():
+    rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
+    assert len(rows) == 71128, len(rows)
+    return {'chapter_occurrence_rows': len(rows)}
+
 def assert_wednesday_pascha_day_hour_corrections():
     rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
     day_hour_rows = [
@@ -354,10 +361,10 @@ def assert_wednesday_pascha_day_hour_corrections():
     ]
     assert sirach, day_hour_rows
     expected_passages = {
-        'Exod 17:1-7', 'Prov 3:5-14', 'Hos 5:13-6:3', 'Ps 51:4', 'Ps 33:10', 'Jn 11:46-57',
-        'Exod 13:17-22', 'Sir 22:7-18', 'Ps 41:6,41:1', 'Lk 22:1-6',
+        'Exod 17:1-7', 'Prov 3:5-14', 'Hos 5:13-6:3', 'Wis 1:20-2:15', 'Wis 3:12-24', 'Ps 51:4', 'Ps 33:10', 'Jn 11:46-57',
+        'Exod 13:17-22', 'Sir 22:7-18', 'Prov 4:4-5:4', 'Ps 41:6,41:1', 'Lk 22:1-6',
         'Exod 14:13-15:1', 'Sir 23:7-14', 'Job 27:16-20', 'Job 28:1-2', 'Ps 83:2,83:5', 'Jn 12:1-8',
-        'Gen 24:1-9', 'Num 20:1-13', 'Prov 1:11-35', 'Ps 41:5-6', 'Matt 26:3-16',
+        'Gen 24:1-9', 'Num 20:1-13', 'Prov 1:11-35', 'Isa 59:1-17', 'Zech 11:11-14', 'Ps 41:5-6', 'Matt 26:3-16',
         'Isa 28:16-29', 'Ps 6:2-3', 'Ps 69:17', 'Jn 12:27-36',
     }
     actual = {canonicalize_text_ref(r.get('passage', '')) for r in day_hour_rows}
@@ -367,6 +374,7 @@ def assert_wednesday_pascha_day_hour_corrections():
         'wednesday_pascha_day_hour_rows': len(day_hour_rows),
         'isaiah_48_rows': 0,
         'sixth_hour_sirach_23_rows': len(sirach),
+        'restored_fuller_edition_rows': 5,
     }
 
 def assert_artifacts_exist():
@@ -405,6 +413,7 @@ def main() -> None:
         'four_maccabees_local_absence': assert_four_maccabees_local_absence_documented(),
         'malformed_ref_checks': assert_malformed_refs_accounted_for(),
         'chapter_occurrence_label_columns': assert_chapter_occurrence_label_columns(),
+        'chapter_occurrence_row_count': assert_chapter_occurrence_row_count(),
         'pascha_source_text_dedupe_invariants': assert_pascha_source_text_dedupe_invariants(),
         'wednesday_pascha_day_hour_corrections': assert_wednesday_pascha_day_hour_corrections(),
     }
