@@ -54,29 +54,23 @@ Tuesday Eve,Ninth Hour,api,1,OT1,Hos 10:12-15; Hos 11:1-2
 Tuesday Eve,Ninth Hour,api,2,Psalm+Gospel,"Ps 33:10,11; Luke 11:37-52"
 Tuesday Eve,Eleventh Hour,api,1,OT1,Amos 5:6-14
 Tuesday Eve,Eleventh Hour,api,2,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2
-Wednesday,First Hour,api,1,OT1,Exod 17:1-7
-Wednesday,First Hour,api,2,OT2,Prov 3:5-15
-Wednesday,First Hour,api,3,OT3,Hos 5:13-6:3
-Wednesday,First Hour,api,4,OT4,Wis 1:20-2:15
-Wednesday,First Hour,api,5,OT5,Wis 3:12-24
-Wednesday,First Hour,api,6,Psalm+Gospel,Ps 51:4; Ps 33:10; John 11:46-57
-Wednesday,Third Hour,api,1,OT1,Exod 13:17-22
-Wednesday,Third Hour,api,2,OT2,Wis 22:7-18
-Wednesday,Third Hour,api,3,OT3,Job 27:16-20; Job 28:1-2
-Wednesday,Third Hour,api,4,OT4,Prov 4:4-5:4
-Wednesday,Third Hour,api,5,Psalm+Gospel,"Ps 41:6,1; Luke 22:1-6"
-Wednesday,Sixth Hour,api,1,OT1,Exod 14:13-15:1
-Wednesday,Sixth Hour,api,2,OT2,Isa 48:1-6
-Wednesday,Sixth Hour,api,3,OT3,Wis 23:7-14
-Wednesday,Sixth Hour,api,4,Psalm+Gospel,"Ps 83:2,5; John 12:1-8"
-Wednesday,Ninth Hour,api,1,OT1,Gen 24:1-9
-Wednesday,Ninth Hour,api,2,OT2,Num 20:1-13
-Wednesday,Ninth Hour,api,3,OT3,Prov 1:10-23
-Wednesday,Ninth Hour,api,4,OT4,Isa 59:1-17
-Wednesday,Ninth Hour,api,5,OT5,Zech 11:11-14
-Wednesday,Ninth Hour,api,6,Psalm+Gospel,Ps 41:5-6; Matt 26:3-16
-Wednesday,Eleventh Hour,api,1,OT1,Isa 28:16-29
-Wednesday,Eleventh Hour,api,2,Psalm+Gospel,Ps 6:2; Ps 69:17; John 12:27-36
+Wednesday,First Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,1,OT1,Exod 17:1-7
+Wednesday,First Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,2,OT2,Prov 3:5-14
+Wednesday,First Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,3,OT3,Hos 5:13-6:3
+Wednesday,First Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,4,Psalm+Gospel,Ps 51:4; Ps 33:10; John 11:46-57
+Wednesday,Third Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,1,OT1,Exod 13:17-22
+Wednesday,Third Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,2,OT2,Sir 22:7-18
+Wednesday,Third Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,3,Psalm+Gospel,"Ps 41:6,1; Luke 22:1-6"
+Wednesday,Sixth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,1,OT1,Exod 14:13-15:1
+Wednesday,Sixth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,2,OT2,Sir 23:7-14
+Wednesday,Sixth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,3,OT3,Job 27:16-20; Job 28:1-2
+Wednesday,Sixth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,4,Psalm+Gospel,"Ps 83:2,5; John 12:1-8"
+Wednesday,Ninth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,1,OT1,Gen 24:1-9
+Wednesday,Ninth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,2,OT2,Num 20:1-13
+Wednesday,Ninth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,3,OT3,Prov 1:11-35
+Wednesday,Ninth Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,4,Psalm+Gospel,Ps 41:5-6; Matt 26:3-16
+Wednesday,Eleventh Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,1,OT1,Isa 28:16-29
+Wednesday,Eleventh Hour,St Mary Ottawa Holy Pascha book correction 2026-06-14,2,Psalm+Gospel,Ps 6:2-3; Ps 69:17; John 12:27-36
 Wednesday Eve,First Hour,api,1,OT1,Jer 43:5-11
 Wednesday Eve,First Hour,api,2,Psalm+Gospel,"Ps 69:1,16; John 10:17-21"
 Wednesday Eve,Third Hour,api,1,OT1,Amos 4:4-13

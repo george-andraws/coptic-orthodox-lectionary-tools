@@ -159,7 +159,7 @@ KATAMEROS_SLOT_LABELS = {
     'vespers_gospel': ('Vespers', 'Gospel'),
     'liturgy_psalm': ('Liturgy', 'Psalm'),
     'liturgy_pauline': ('Liturgy', 'Pauline'),
-    'liturgy_catholic': ('Liturgy', 'Catholicon'),
+    'liturgy_catholic': ('Liturgy', 'Catholic Epistle'),
     'liturgy_acts': ('Liturgy', 'Praxis'),
     'liturgy_gospel': ('Liturgy', 'Gospel'),
     'prophecy': ('Prophecy', ''),

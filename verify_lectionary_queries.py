@@ -43,6 +43,7 @@ def assert_required_pascha_genesis_rows():
         'monday_first_hour': run([sys.executable, str(SCRIPT), '--pascha-day', 'Monday', '--hour', 'First Hour', '--limit', '20']),
         'monday_ninth_hour': run([sys.executable, str(SCRIPT), '--pascha-day', 'Monday', '--hour', 'Ninth Hour', '--limit', '20']),
         'tuesday_ninth_hour': run([sys.executable, str(SCRIPT), '--pascha-day', 'Tuesday', '--hour', 'Ninth Hour', '--limit', '20']),
+        'wednesday_sixth_hour': run([sys.executable, str(SCRIPT), '--pascha-day', 'Wednesday', '--hour', 'Sixth Hour', '--limit', '20']),
         'wednesday_ninth_hour': run([sys.executable, str(SCRIPT), '--pascha-day', 'Wednesday', '--hour', 'Ninth Hour', '--limit', '20']),
         'great_thursday_ninth_hour': run([sys.executable, str(SCRIPT), '--pascha-day', 'Great Thursday', '--hour', 'Ninth Hour', '--limit', '20']),
         'great_thursday_water': run([sys.executable, str(SCRIPT), '--pascha-day', 'Great Thursday', '--hour', 'Liturgy of Blessing of the Water', '--limit', '20']),
@@ -52,7 +53,13 @@ def assert_required_pascha_genesis_rows():
     assert any('Monday | First Hour | OT1 | Gen 1:1-31; Gen 2:1-3' in line for line in checks['monday_first_hour']), checks['monday_first_hour']
     assert any('Monday | Ninth Hour | OT1 | Gen 2:15-25; Gen 3:1-24' in line for line in checks['monday_ninth_hour']), checks['monday_ninth_hour']
     assert any('Tuesday | Ninth Hour | OT1 | Gen 6:5-9:7' in line for line in checks['tuesday_ninth_hour']), checks['tuesday_ninth_hour']
+    assert any('Wednesday | Sixth Hour | OT1 | Exod 14:13-15:1' in line for line in checks['wednesday_sixth_hour']), checks['wednesday_sixth_hour']
+    assert any('Wednesday | Sixth Hour | OT2 | Sir 23:7-14' in line for line in checks['wednesday_sixth_hour']), checks['wednesday_sixth_hour']
+    assert any('Wednesday | Sixth Hour | OT3 | Job 27:16-20; Job 28:1-2' in line for line in checks['wednesday_sixth_hour']), checks['wednesday_sixth_hour']
+    assert all('Isa 48:1-6' not in line for line in checks['wednesday_sixth_hour']), checks['wednesday_sixth_hour']
     assert any('Wednesday | Ninth Hour | OT1 | Gen 24:1-9' in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
+    assert any('Wednesday | Ninth Hour | OT3 | Prov 1:11-35' in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
+    assert all('Isa 59:1-17' not in line and 'Zech 11:11-14' not in line for line in checks['wednesday_ninth_hour']), checks['wednesday_ninth_hour']
     assert any('Great Thursday | Ninth Hour | OT1 | Gen 22:1-19' in line for line in checks['great_thursday_ninth_hour']), checks['great_thursday_ninth_hour']
     assert any('Great Thursday | Ninth Hour | OT3 | Gen 14:17-20' in line for line in checks['great_thursday_ninth_hour']), checks['great_thursday_ninth_hour']
     assert any('Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23' in line for line in checks['great_thursday_water']), checks['great_thursday_water']
@@ -262,14 +269,28 @@ def assert_chapter_occurrence_label_columns():
         if r.get('service_label') in table_names or r.get('reading_label') in table_names
     ]
     assert not leaked, leaked[:10]
+    label_catholicon = [
+        r for r in rows
+        if any('Catholicon' in (r.get(field) or '') for field in ['occasion_label', 'service_label', 'reading_label'])
+    ]
+    assert not label_catholicon, label_catholicon[:10]
     matins_psalm = [r for r in katameros_rows if r.get('service_section') == 'matins_psalm']
     assert matins_psalm, 'Expected at least one katameros_cycle matins_psalm row'
     bad_matins = [r for r in matins_psalm if r.get('service_label') != 'Matins' or r.get('reading_label') != 'Psalm']
     assert not bad_matins, bad_matins[:10]
+    liturgy_catholic = [r for r in katameros_rows if r.get('service_section') == 'liturgy_catholic']
+    assert liturgy_catholic, 'Expected at least one katameros_cycle liturgy_catholic row'
+    bad_catholic = [
+        r for r in liturgy_catholic
+        if r.get('service_label') != 'Liturgy' or r.get('reading_label') != 'Catholic Epistle'
+    ]
+    assert not bad_catholic, bad_catholic[:10]
     return {
         'rows': len(rows),
         'katameros_rows': len(katameros_rows),
         'matins_psalm_rows': len(matins_psalm),
+        'liturgy_catholic_rows': len(liturgy_catholic),
+        'label_catholicon_rows': 0,
         'required_columns': sorted(required),
     }
 
@@ -315,6 +336,39 @@ def assert_pascha_source_text_dedupe_invariants():
         'retained_hosanna_lamentations_rows': len(retained),
     }
 
+
+def assert_wednesday_pascha_day_hour_corrections():
+    rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
+    day_hour_rows = [
+        r for r in rows
+        if r.get('source_kind') == 'pascha_day_hour' and r.get('day_title') == 'Wednesday'
+    ]
+    assert day_hour_rows, 'Expected Wednesday pascha_day_hour rows in reverse crosswalk'
+    bad_isaiah = [r for r in day_hour_rows if canonicalize_text_ref(r.get('passage', '')) == 'Isa 48:1-6']
+    assert not bad_isaiah, bad_isaiah
+    sirach = [
+        r for r in day_hour_rows
+        if r.get('service_section') == 'Sixth Hour'
+        and r.get('reading_type') == 'OT2'
+        and canonicalize_text_ref(r.get('passage', '')) == 'Sir 23:7-14'
+    ]
+    assert sirach, day_hour_rows
+    expected_passages = {
+        'Exod 17:1-7', 'Prov 3:5-14', 'Hos 5:13-6:3', 'Ps 51:4', 'Ps 33:10', 'Jn 11:46-57',
+        'Exod 13:17-22', 'Sir 22:7-18', 'Ps 41:6,41:1', 'Lk 22:1-6',
+        'Exod 14:13-15:1', 'Sir 23:7-14', 'Job 27:16-20', 'Job 28:1-2', 'Ps 83:2,83:5', 'Jn 12:1-8',
+        'Gen 24:1-9', 'Num 20:1-13', 'Prov 1:11-35', 'Ps 41:5-6', 'Matt 26:3-16',
+        'Isa 28:16-29', 'Ps 6:2-3', 'Ps 69:17', 'Jn 12:27-36',
+    }
+    actual = {canonicalize_text_ref(r.get('passage', '')) for r in day_hour_rows}
+    missing = sorted(expected_passages - actual)
+    assert not missing, {'missing': missing, 'actual': sorted(actual)}
+    return {
+        'wednesday_pascha_day_hour_rows': len(day_hour_rows),
+        'isaiah_48_rows': 0,
+        'sixth_hour_sirach_23_rows': len(sirach),
+    }
+
 def assert_artifacts_exist():
     required = [
         DATA / 'copticchurch_date_readings_2020_2035.csv',
@@ -352,6 +406,7 @@ def main() -> None:
         'malformed_ref_checks': assert_malformed_refs_accounted_for(),
         'chapter_occurrence_label_columns': assert_chapter_occurrence_label_columns(),
         'pascha_source_text_dedupe_invariants': assert_pascha_source_text_dedupe_invariants(),
+        'wednesday_pascha_day_hour_corrections': assert_wednesday_pascha_day_hour_corrections(),
     }
     print(json.dumps(summary, indent=2))
 
