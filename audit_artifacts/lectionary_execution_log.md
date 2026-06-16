@@ -222,3 +222,20 @@
 - Final bridge distribution recorded for report: before Step 7, basis `collection-type`: 4,688 and confidence `medium`: 4,688. After Step 7, basis `explicit`: 789 and `collection-type`: 3,899; confidence `high`: 789 and `medium`: 3,899.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `python3 scripts/build_phase6_deck.py`; `git diff --check`. All passed in the final Step 9 verification run.
 - Acceptance result: Step 9 accepted. Commit hash: final log commit reported in George's consolidated end-of-run response.
+
+
+## Phase 7 continuation - 2026-06-16 requested corrections
+
+### Step 0 - Orientation for continuation pass
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Files read in full: `05-LECTIONARY-DESIGN.md`, `coptic-lectionary-and-synaxarium.md`, `lectionary_spec.md`, and `audit_artifacts/lectionary_execution_log.md`.
+- Repo brief verification: the attached `05-LECTIONARY-DESIGN-2-1.md` matches the repo `05-LECTIONARY-DESIGN.md`; first 20 lines were printed in the run output; the repo brief contains a Phase 7 header and Section 0.8 contains a `Pascha framing` bullet.
+- Git gate: HEAD was `16febe5`; working tree was clean except the known untracked `audit_artifacts/phase2b_sus_source_psalm_numbering_2026-06-15.md`.
+- Acceptance result: Step 0 accepted.
+
+### Step 1 - Bibliographic corrections
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- What was done: Applied George's externally confirmed bibliographic corrections without re-researching. Updated Zanetti to `Les lectionnaires coptes annuels: Basse-Egypte`, Publications de l'Institut Orientaliste de Louvain 33, Louvain-la-Neuve, 1985, xxiv + 383 p. Updated Burmester to `Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962, pp. 83-137`.
+- Open questions: closed the unresolved Burmester and Zanetti locator items; retained the Youssef 15 weeks or 107 days arithmetic note as a separate open item.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 1 accepted. Commit hash: pending this commit.

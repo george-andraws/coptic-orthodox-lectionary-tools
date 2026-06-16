@@ -6,11 +6,9 @@ This file collects only the questions that thorough research, source comparison,
 
 Step 2a found reliable support for the Nicene Paschal norm and the Alexandrian calculation history in the WCC/MECC Aleppo statement, but did not find a clean source stating that the Coptic Pascha always falls on the same date as Eastern Orthodox Pascha. The article therefore clarifies the computus and the present-day Hebrew-calendar issue only. Add the shared-date clause later only if a reliable source states it clearly.
 
-## Step 2d bibliographic locator checks
+## Youssef 15 weeks or 107 days
 
-- Burmester page span: The run did not confirm the requested pages 83 to 137 for O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," in `Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962`. Leave the citation without the page span until a catalog scan or article PDF confirms it.
-- Zanetti series and year: Open Library records `Les lectionnaires coptes annuels: Basse-Egypte` as Publications de l'Institut orientaliste de Louvain 33, 1985. The Coptic Encyclopedia PDF bibliography for `Lectionary` cites Publications de l'Institut orientaliste de Louvain 31, 1988. Because these conflict, the article does not add a series number or year yet.
-- Youssef 15 weeks or 107 days: ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
+ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
 
 ## Psalm numbering text-equivalence review
 

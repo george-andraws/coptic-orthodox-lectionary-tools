@@ -64,8 +64,8 @@ SOURCE_REGISTRY = [
         "source_key": "ugo_zanetti_annual_lectionaries",
         "title": "Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte",
         "url": "https://openlibrary.org/books/OL2304712M/Les_lectionnaires_coptes_annuels",
-        "edition": "bibliographic locator unresolved between P.I.O.L. 31 or 33",
-        "default_locator": "Open Library OL2304712M",
+        "edition": "Publications de l'Institut Orientaliste de Louvain 33, Louvain-la-Neuve, 1985, xxiv + 383 p.",
+        "default_locator": "BnF catalogue, Persee RHR review, and Zanetti published bibliography",
         "authority_tier": "scholarly_structural",
         "confidence": "bibliographic_confirmed_content_not_fully_ingested",
         "notes": "Standard scholarly study cited by the Coptic Encyclopedia for annual lectionaries.",
@@ -1472,7 +1472,7 @@ The documentation comes in layers. Read from source: the Ottawa Katameros books 
 
 Read from source: the UKMID site hosts the same practical PDF family for Days, Sundays, Lent, and Pentecost, and St. Bishoy Deacons' Corner publicly organizes Katameros readings and Synaxarium materials for Annual Days, Sundays, Kiahk, Amshir, Lent, Passion Week, Pascha, and the Joyous Fifty Days. These are useful public documentation layers, but they are not by themselves the final current-practice authority when a scoped Coptic Reader fixture disagrees. Source: UKMID `Katameros_Days.pdf`, `Katameros_Sundays.pdf`, `Katameros_Lent.pdf`, and `Katameros_Pentecost.pdf`; St. Bishoy Deacons' Corner, `Katameros Readings and Synaxarium for all Seasons, Annual Days, Sundays, Kiahk and Amshir`.
 
-Read from source: the scholarly layer explains structure and history rather than replacing the service books. The Coptic Encyclopedia `Lectionary` entry names the lectionary books and gives historical framing; its CCDL metadata lists Basilios, Archbishop, and Coquin, René-Georges as creators. Youssef explains the calendar logic and the relation of daily readings to the Synaxarium. Zanetti and Coquin are scholarly anchors for the annual lectionary tradition in the source bibliography, while the unresolved Zanetti series/year locator remains flagged for later cleanup. Sources: Coptic Encyclopedia, `Lectionary`; F.N. Youssef, `The Arrangement of the Church Lectionary`; Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte; René-Georges Coquin liturgical scholarship.
+Read from source: the scholarly layer explains structure and history rather than replacing the service books. The Coptic Encyclopedia `Lectionary` entry names the lectionary books and gives historical framing; its CCDL metadata lists Basilios, Archbishop, and Coquin, René-Georges as creators. Youssef explains the calendar logic and the relation of daily readings to the Synaxarium. Zanetti and Coquin are scholarly anchors for the annual lectionary tradition in the source bibliography. Sources: Coptic Encyclopedia, `Lectionary`; F.N. Youssef, `The Arrangement of the Church Lectionary`; Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte; René-Georges Coquin liturgical scholarship.
 
 Read from source: Burmester's Scetis Holy Week lectionary is a historical witness to an older and fuller Holy Week layer. Inference from the design residue: it helps explain why some Pascha readings are retained as historical attestations when they appear in older/local Pascha data but are absent from the scoped Coptic Reader Wednesday Day fixture. Source: O.H.E. Burmester, `The Coptic-Greek-Arabic Holy Week Lectionary from Scetis`; St. Mary Ottawa Holy Pascha extracted text; Coptic Reader Pascha Wednesday Day fixture.
 
@@ -1602,8 +1602,8 @@ Scripture references follow NKJV versification.
 - Coptic Encyclopedia, "Lectionary," Claremont Colleges Digital Library, https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download. The CCDL entry lists the creators as Basilios, Archbishop, and Coquin, René-Georges.
 - Fouad Naguib Youssef, "The Arrangement of the Church Lectionary," ACCOT, https://accot.stcyrils.edu.au/fny-read1/.
 - World Council of Churches and Middle East Council of Churches, "Towards a Common Date for Easter," Aleppo, 1997, https://www.oikoumene.org/resources/documents/towards-a-common-date-for-easter.
-- Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte, Publications de l'Institut orientaliste de Louvain.
-- O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962.
+- Ugo Zanetti, Les lectionnaires coptes annuels: Basse-Egypte, Publications de l'Institut Orientaliste de Louvain 33, Louvain-la-Neuve, 1985, xxiv + 383 p.
+- O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962, pp. 83-137.
 - René-Georges Coquin, Coptic Encyclopedia liturgical entries and related Coptic liturgical scholarship.
 - Sir Lancelot Charles Lee Brenton, Septuagint translation, used as the design-layer Septuagint comparison anchor.
 - eBible.org World English Bible copyright information, https://ebible.org/Scriptures/copyright.php. Used for public-domain English Bible text policy checks.
@@ -1959,11 +1959,9 @@ This file collects only the questions that thorough research, source comparison,
 
 Step 2a found reliable support for the Nicene Paschal norm and the Alexandrian calculation history in the WCC/MECC Aleppo statement, but did not find a clean source stating that the Coptic Pascha always falls on the same date as Eastern Orthodox Pascha. The article therefore clarifies the computus and the present-day Hebrew-calendar issue only. Add the shared-date clause later only if a reliable source states it clearly.
 
-## Step 2d bibliographic locator checks
+## Youssef 15 weeks or 107 days
 
-- Burmester page span: The run did not confirm the requested pages 83 to 137 for O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," in `Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962`. Leave the citation without the page span until a catalog scan or article PDF confirms it.
-- Zanetti series and year: Open Library records `Les lectionnaires coptes annuels: Basse-Egypte` as Publications de l'Institut orientaliste de Louvain 33, 1985. The Coptic Encyclopedia PDF bibliography for `Lectionary` cites Publications de l'Institut orientaliste de Louvain 31, 1988. Because these conflict, the article does not add a series number or year yet.
-- Youssef 15 weeks or 107 days: ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
+ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
 
 ## Psalm numbering text-equivalence review
 
