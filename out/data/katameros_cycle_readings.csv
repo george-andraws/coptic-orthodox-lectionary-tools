@@ -4180,14 +4180,6 @@ katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,
 katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 49 day_of_week 3,,,,49,3,,Lenten Tune ,,liturgy_psalm,19.18:17-18,Ps 18:17-18
 katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 49 day_of_week 3,,,,49,3,,Lenten Tune ,,liturgy_gospel,41.4:35-41,Mark 4:35-41
 katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 49 day_of_week 3,,,,49,3,,Lenten Tune ,,prophecy,2.7:14-25*@+2.8:1-19@29.2:28-32@18.1:1-22@23.26:21-27:9,Exod 7:14-25; Exod 8:1-19; Joel 2:28-32; Job 1:1-22; Isa 26:21-27:9
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,matins_psalm,19.63:1-1*@+19.64:2-4,Ps 63:1-1; Ps 64:2-4
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,matins_gospel,40.20:20-28,Matt 20:20-28
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,liturgy_pauline,47.4:5-18,2Cor 4:5-18
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,liturgy_catholic,62.3:13-24,1Jn 3:13-24
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,liturgy_acts,44.25:23-27*@+44.26:1-6,Acts 25:23-27; Acts 26:1-6
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,liturgy_psalm,19.122:1-2,Ps 122:1-2
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,liturgy_gospel,41.12:18-27,Mark 12:18-27
-katameros-api sqlite,GreatLentReadings,Great Lent/Jonah/Nineveh cycle,GreatLent,week 7 day_of_week 4,,,,7,4,,Lenten Tune ,,prophecy,20.11:13-26@23.65:8-16@18.42:1-6@12.6:8-33*@+12.7:1-20,Prov 11:13-26; Isa 65:8-16; Job 42:1-6; 2Kgs 6:8-33; 2Kgs 7:1-20
 katameros-api sqlite,PentecostReadings,Holy Fifty Days/Pentecost cycle,Pentecost,week 0 day_of_week 0,,,,0,0,The Resurrection Of Our Savior Jesus Christ,,,matins_psalm,"19.78:65,69","Ps 78:65,69"
 katameros-api sqlite,PentecostReadings,Holy Fifty Days/Pentecost cycle,Pentecost,week 0 day_of_week 0,,,,0,0,The Resurrection Of Our Savior Jesus Christ,,,matins_gospel,41.16:2-11,Mark 16:2-11
 katameros-api sqlite,PentecostReadings,Holy Fifty Days/Pentecost cycle,Pentecost,week 0 day_of_week 0,,,,0,0,The Resurrection Of Our Savior Jesus Christ,,,liturgy_pauline,46.15:23-49,1Cor 15:23-49

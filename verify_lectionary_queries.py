@@ -252,8 +252,86 @@ def assert_malformed_refs_accounted_for():
 
 
 
-def normalized_key(value: str) -> str:
-    return re.sub(r'\s+', ' ', (value or '').strip()).casefold()
+def normalized_key(value: object) -> str:
+    return re.sub(r'\s+', ' ', str(value or '').strip()).casefold()
+
+
+def assert_no_duplicate_reading_tuples():
+    """Guard against duplicate day/service/slot/reading tuples in source indexes.
+
+    Date-resolved rows include repeated annual occasions across multiple years, so the
+    natural key includes the Gregorian date for that layer. For day-based source
+    layers, the key is the stable liturgical day/service/slot/reading identity.
+    """
+    crosswalk_rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
+    seen: dict[tuple[str, ...], int] = {}
+    duplicates = []
+    for idx, row in enumerate(crosswalk_rows, 2):
+        source_kind = row.get('source_kind', '')
+        if source_kind == 'copticchurch_date':
+            key = (
+                source_kind,
+                normalized_key(row.get('gregorian_date')),
+                normalized_key(row.get('service_section')),
+                normalized_key(row.get('reading_type')),
+                canonicalize_text_ref(row.get('passage', '')),
+            )
+        else:
+            key = (
+                source_kind,
+                normalized_key(row.get('significance_note') or row.get('liturgical_place')),
+                normalized_key(row.get('calendar_key') or row.get('day_title') or row.get('service_day')),
+                normalized_key(row.get('service_section')),
+                normalized_key(row.get('reading_slot') or row.get('reading_type')),
+                canonicalize_text_ref(row.get('passage', '')),
+            )
+        if key in seen:
+            duplicates.append({'first_csv_line': seen[key], 'duplicate_csv_line': idx, 'key': key, 'row': row})
+        else:
+            seen[key] = idx
+    assert not duplicates, duplicates[:10]
+
+    cycle_rows = list(csv.DictReader((DATA / 'katameros_cycle_passage_index.csv').open(newline='', encoding='utf-8')))
+    cycle_seen: dict[tuple[str, ...], int] = {}
+    cycle_duplicates = []
+    for idx, row in enumerate(cycle_rows, 2):
+        key = (
+            normalized_key(row.get('source_table')),
+            normalized_key(row.get('season')),
+            normalized_key(row.get('day_key')),
+            normalized_key(row.get('reading_slot')),
+            canonicalize_text_ref(row.get('canonical_segment') or row.get('normalized_segment') or ''),
+        )
+        if key in cycle_seen:
+            cycle_duplicates.append({'first_csv_line': cycle_seen[key], 'duplicate_csv_line': idx, 'key': key, 'row': row})
+        else:
+            cycle_seen[key] = idx
+    assert not cycle_duplicates, cycle_duplicates[:10]
+    return {
+        'reverse_lookup_rows_checked': len(crosswalk_rows),
+        'katameros_cycle_passage_rows_checked': len(cycle_rows),
+        'duplicate_reading_tuples': 0,
+    }
+
+
+
+def assert_hatur8_segmentation_deduped():
+    rows = list(csv.DictReader((DATA / 'katameros_cycle_passage_index.csv').open(newline='', encoding='utf-8')))
+    hatur = [
+        r for r in rows
+        if r.get('source_table') == 'AnnualReadings'
+        and r.get('day_key') == 'Hatur 8'
+        and r.get('reading_slot') == 'vespers_psalm'
+        and r.get('raw_ref') == '19.68:17,16,17'
+    ]
+    emitted = [canonicalize_text_ref(r.get('canonical_segment') or r.get('normalized_segment') or '') for r in hatur]
+    assert emitted == ['Ps 68:17', 'Ps 68:16'], emitted
+    return {
+        'raw_ref': '19.68:17,16,17',
+        'emitted_segments': emitted,
+        'raw_ref_warning': 'source repeats verse 17 and lists verses out of order; verifier only dedupes emission',
+    }
+
 
 
 def assert_chapter_occurrence_label_columns():
@@ -341,7 +419,7 @@ def assert_pascha_source_text_dedupe_invariants():
 
 def assert_chapter_occurrence_row_count():
     rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
-    assert len(rows) == 71128, len(rows)
+    assert len(rows) == 71113, len(rows)
     return {'chapter_occurrence_rows': len(rows)}
 
 def assert_wednesday_pascha_day_hour_corrections():
@@ -412,6 +490,8 @@ def main() -> None:
         'pascha_source_text_fully_parsed': assert_pascha_source_text_fully_parsed(),
         'four_maccabees_local_absence': assert_four_maccabees_local_absence_documented(),
         'malformed_ref_checks': assert_malformed_refs_accounted_for(),
+        'duplicate_reading_tuple_guard': assert_no_duplicate_reading_tuples(),
+        'hatur8_segmentation_deduped': assert_hatur8_segmentation_deduped(),
         'chapter_occurrence_label_columns': assert_chapter_occurrence_label_columns(),
         'chapter_occurrence_row_count': assert_chapter_occurrence_row_count(),
         'pascha_source_text_dedupe_invariants': assert_pascha_source_text_dedupe_invariants(),

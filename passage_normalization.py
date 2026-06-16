@@ -354,6 +354,7 @@ def normalize_numeric_ref(raw: Optional[str], books: Dict[int, str]) -> str:
 def iter_numeric_ref_segments(raw: str, books: Dict[int, str]):
     if not raw:
         return
+    seen_segments: set[tuple[int, int, str]] = set()
     for m in REF_TOKEN_RE.finditer(raw):
         bid = int(m.group('book'))
         book = books.get(bid, f'Book{bid}')
@@ -363,6 +364,10 @@ def iter_numeric_ref_segments(raw: str, books: Dict[int, str]):
             part = part.strip()
             if not part:
                 continue
+            segment_key = (bid, chapter, part)
+            if segment_key in seen_segments:
+                continue
+            seen_segments.add(segment_key)
             if '-' in part or '–' in part or '—' in part:
                 nums = re.split(r'[-–—]', part, maxsplit=1)
                 try:
