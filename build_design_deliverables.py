@@ -1122,11 +1122,11 @@ The word Katameros means "according to the parts" or "in parts." This is exactly
 
 F.N. Youssef explains that the arrangement of Coptic Church readings depends on two calendars: the Coptic calendar and the Hebrew calendar. The Coptic calendar supplies the fixed structure of the year, while the Feast of the Resurrection follows the Hebrew calendar according to the Nicene Paschal rule. Here, "follows the Hebrew calendar" means the Church's Paschal computation, the Nicene norm of the Sunday following the first vernal full moon as later calculated through the Alexandrian mode, not a lookup of the present-day Hebrew calendar. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; World Council of Churches and Middle East Council of Churches, "Towards a Common Date for Easter," Aleppo, 1997.
 
-Youssef also names the Paschal calculation used to determine the Resurrection date. He calls it the Abuqti calculation, says it was developed by the Egyptian astronomer Ptolemy al-Farmawi in the time of Pope Demetrius the Vinedresser, and notes that it became known as hisab al-karma, "the calculation of the vine." Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
+Youssef also names the Paschal calculation used to determine the Resurrection date. In the traditional attribution he reports, the Abuqti calculation was developed by the Egyptian astronomer Ptolemy al-Farmawi in the time of Pope Demetrius the Vinedresser, and became known as hisab al-karma, "the calculation of the vine." Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
 Youssef reads the Coptic agricultural year as a theological pattern. The first season is sowing, and the readings present the love of the Father and the mystery of the Incarnation. The second season is harvest, and the readings present the grace of the Son and the mystery of Redemption. The third season is flooding, and the readings present the gift and fellowship of the Holy Spirit and the mystery of the Church. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-The middle season is movable. Youssef says this harvest season follows the Hebrew calendar rather than the fixed Coptic calendar, because it is tied to Passover and the Resurrection. It runs from the Saturday before Great Lent to the feast of the Descent of the Holy Spirit, a span he gives as 15 weeks or 107 days. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
+The middle season is movable. Youssef says this harvest season follows the Hebrew calendar rather than the fixed Coptic calendar, because it is tied to Passover and the Resurrection. It runs from the Saturday before Great Lent to the feast of the Descent of the Holy Spirit, a span he gives as 15 weeks or 107 days. This article reports Youssef's figure as given; 15 weeks is 105 days. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
 This is why the lectionary is not flat. A fixed weekday, a Sunday in the Annual cycle, a day of Great Lent, the Sixth Hour of Good Friday, and a day in the Holy Fifty do not function the same way. Each has its own source-governed logic.
 
@@ -1235,12 +1235,12 @@ Scripture references follow NKJV versification.
 
 ### Secondary scholarship and structural sources
 
-- Coptic Encyclopedia, "Lectionary," Claremont Colleges Digital Library, https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download. The entry is by Archbishop Basilios and Rene-Georges Coquin.
+- Coptic Encyclopedia, "Lectionary," Claremont Colleges Digital Library, https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download. The CCDL entry lists the creators as Basilios, Archbishop, and Coquin, René-Georges.
 - Fouad Naguib Youssef, "The Arrangement of the Church Lectionary," ACCOT, https://accot.stcyrils.edu.au/fny-read1/.
 - World Council of Churches and Middle East Council of Churches, "Towards a Common Date for Easter," Aleppo, 1997, https://www.oikoumene.org/resources/documents/towards-a-common-date-for-easter.
 - Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte, Publications de l'Institut orientaliste de Louvain.
 - O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962.
-- Rene-Georges Coquin, Coptic Encyclopedia liturgical entries and related Coptic liturgical scholarship.
+- René-Georges Coquin, Coptic Encyclopedia liturgical entries and related Coptic liturgical scholarship.
 
 ### Patristic anchor
 
@@ -1252,7 +1252,7 @@ Scripture references follow NKJV versification.
 - Synaxarium: The Church's daily-cycle book or index of commemorations of saints, martyrs, feasts, and events.
 - Pascha: Holy Week, centered on the saving Passion of Christ.
 - Holy Fifty Days: The joyful season from the Resurrection to Pentecost.
-- Abuqti calculation: The Paschal calculation Youssef connects with Ptolemy al-Farmawi and Pope Demetrius the Vinedresser.
+- Abuqti calculation: The Paschal calculation traditionally connected, in the attribution Youssef reports, with Ptolemy al-Farmawi and Pope Demetrius the Vinedresser.
 - Septuagint: The ancient Greek Old Testament tradition used deeply in Orthodox worship.
 - Masoretic numbering: The Hebrew numbering often followed by modern English Old Testaments, especially in the Psalms.
 - Attestation: The witness of a source or edition to a reading.
@@ -1548,6 +1548,12 @@ This file collects only the questions that thorough research, source comparison,
 ## Pascha shared-date source check
 
 Step 2a found reliable support for the Nicene Paschal norm and the Alexandrian calculation history in the WCC/MECC Aleppo statement, but did not find a clean source stating that the Coptic Pascha always falls on the same date as Eastern Orthodox Pascha. The article therefore clarifies the computus and the present-day Hebrew-calendar issue only. Add the shared-date clause later only if a reliable source states it clearly.
+
+## Step 2d bibliographic locator checks
+
+- Burmester page span: The run did not confirm the requested pages 83 to 137 for O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," in `Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962`. Leave the citation without the page span until a catalog scan or article PDF confirms it.
+- Zanetti series and year: Open Library records `Les lectionnaires coptes annuels: Basse-Egypte` as Publications de l'Institut orientaliste de Louvain 33, 1985. The Coptic Encyclopedia PDF bibliography for `Lectionary` cites Publications de l'Institut orientaliste de Louvain 31, 1988. Because these conflict, the article does not add a series number or year yet.
+- Youssef 15 weeks or 107 days: ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
 
 ## Psalm numbering text-equivalence review
 

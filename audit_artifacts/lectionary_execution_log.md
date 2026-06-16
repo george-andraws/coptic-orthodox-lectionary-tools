@@ -149,3 +149,12 @@
 - What was done: Changed the source line from `Scripture is from NKJV.` to `Scripture references follow NKJV versification.` Updated `verify_design_deliverables.py` so the verifier enforces the new Step 2c wording and rejects the old wording.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed after the verifier was updated to match the Step 2c requirement.
 - Acceptance result: Step 2c accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 2d citation locators and minor notes
+- Producer: `openai-codex/gpt-5.5`, xhigh. Intended Grok research worker timed out before writing an artifact; source evidence was pulled directly with terminal HTTP and PDF extraction. Independent Grok audit remains the Step 8 gate.
+- Sources checked: CCDL API item 1199; CCDL `Lectionary` PDF text; ACCOT Youssef page; Open Library OL2304712M JSON; Crossref, Open Library search, Internet Archive advanced search, and repo local search for Burmester.
+- What was done: Confirmed the Coptic Encyclopedia byline from CCDL and updated the article wording to `Basilios, Archbishop, and Coquin, René-Georges`. Added traditional-attribution language to the Abuqti paragraph and glossary. Added a note that the article reports Youssef's `15 weeks or 107 days` figure as given, while 15 weeks is 105 days.
+- Items flagged instead of guessed: Burmester pages 83 to 137 were not confirmed. Zanetti series/year was not cleanly confirmable because Open Library gives Publications de l'Institut orientaliste de Louvain 33, 1985, while the CCDL Coptic Encyclopedia PDF bibliography gives 31, 1988.
+- Audit artifact: `audit_artifacts/phase7_step2d_source_check.md`.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 2d accepted. Commit hash: pending this commit.
