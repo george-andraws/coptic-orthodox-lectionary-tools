@@ -1,0 +1,82 @@
+{
+  "fixture_id": "pascha_wednesday_day_coptic_reader",
+  "locked": true,
+  "scope": {
+    "season": "Holy Pascha",
+    "day": "Wednesday",
+    "eve_or_day": "day",
+    "description": "Wednesday of Pascha, DAY hours"
+  },
+  "source": {
+    "name": "Coptic Reader app",
+    "provided_by": "George",
+    "authority": "authoritative_for_wednesday_day",
+    "notes": [
+      "Scripture readings only.",
+      "Liturgical and homiletic items shown in Coptic Reader are context and are not modeled as lectionary readings in this fixture."
+    ]
+  },
+  "canonical_key_format": "pascha:<day>:<eve_or_day>:<hour>",
+  "hours": [
+    {
+      "canonical_key": "pascha:wednesday:day:first_hour",
+      "display_hour": "1st Hour",
+      "readings": [
+        {"slot": "prophecy", "reading": "Exodus 17:1-7"},
+        {"slot": "prophecy", "reading": "Proverbs 3:5-14"},
+        {"slot": "prophecy", "reading": "Hosea 5:13-6:3"},
+        {"slot": "psalm", "reading": "Psalm 50:6"},
+        {"slot": "psalm", "reading": "Psalm 32:10"},
+        {"slot": "gospel", "reading": "John 11:46-57"}
+      ]
+    },
+    {
+      "canonical_key": "pascha:wednesday:day:third_hour",
+      "display_hour": "3rd Hour",
+      "fixture_note": "Screenshot cut off after the Gospel; may be incomplete below the Gospel.",
+      "readings": [
+        {"slot": "prophecy", "reading": "Exodus 13:17-22"},
+        {"slot": "prophecy", "reading": "Sirach 22:7-18"},
+        {"slot": "psalm", "reading": "Psalm 41:6"},
+        {"slot": "psalm", "reading": "Psalm 41:1"},
+        {"slot": "gospel", "reading": "Luke 22:1-6"}
+      ]
+    },
+    {
+      "canonical_key": "pascha:wednesday:day:sixth_hour",
+      "display_hour": "6th Hour",
+      "readings": [
+        {"slot": "prophecy", "reading": "Exodus 14:13-15:1"},
+        {"slot": "prophecy", "reading": "Sirach 23:7-14"},
+        {"slot": "prophecy", "reading": "Memoirs of Job", "reference_status": "named_non_versed"},
+        {"slot": "psalm", "reading": "Psalm 83:2"},
+        {"slot": "psalm", "reading": "Psalm 83:5"},
+        {"slot": "gospel", "reading": "John 12:1-8"}
+      ]
+    },
+    {
+      "canonical_key": "pascha:wednesday:day:ninth_hour",
+      "display_hour": "9th Hour",
+      "fixture_flags": [
+        "Proverbs 1 has 33 verses in standard texts; record Proverbs 1:11-35 as shown by Coptic Reader. Do not auto-correct."
+      ],
+      "readings": [
+        {"slot": "prophecy", "reading": "Genesis 24:1-9"},
+        {"slot": "prophecy", "reading": "Numbers 20:1-13"},
+        {"slot": "prophecy", "reading": "Proverbs 1:11-35"},
+        {"slot": "psalm", "reading": "Psalm 40:6-8"},
+        {"slot": "gospel", "reading": "Matthew 26:3-16"}
+      ]
+    },
+    {
+      "canonical_key": "pascha:wednesday:day:eleventh_hour",
+      "display_hour": "11th Hour",
+      "readings": [
+        {"slot": "prophecy", "reading": "Isaiah 28:16-29"},
+        {"slot": "psalm", "reading": "Psalm 6:2-3"},
+        {"slot": "psalm", "reading": "Psalm 68:17"},
+        {"slot": "gospel", "reading": "John 12:27-36"}
+      ]
+    }
+  ]
+}
