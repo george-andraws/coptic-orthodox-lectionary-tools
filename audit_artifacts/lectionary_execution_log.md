@@ -191,3 +191,13 @@
 - Generated output impact: `passage_source_disclosure` has 66,381 rows. Existing design-row counts are otherwise unchanged from Step 5.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit disclosure schema and row-count checks. All passed.
 - Acceptance result: Step 6 accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 7 69-explicit Synaxarium bridge upgrade
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Before distribution: basis `collection-type`: 4,688. Confidence `medium`: 4,688.
+- What was done: Upgraded bridge rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection to `basis=explicit` and `confidence=high`. Added Ottawa/UKMID Katameros of the Days edition and locator to the bridge citation while retaining St-Takla and local Katameros row citation data.
+- After distribution: basis `explicit`: 789, `collection-type`: 3,899. Confidence `high`: 789, `medium`: 3,899.
+- Coverage note: 58 foundational Coptic days produced bridge rows and were upgraded. 11 foundational days had no emitted bridge rows because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows.
+- Outside-69 flag: outside the 69, the bridge remains uniformly `basis=collection-type` and `confidence=medium`. This is recorded in `audit_artifacts/open_questions_for_george.md` as a bridge differentiation flag.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit before/after distribution check. All passed.
+- Acceptance result: Step 7 accepted. Commit hash: pending this commit.

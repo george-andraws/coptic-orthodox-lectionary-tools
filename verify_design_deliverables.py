@@ -341,6 +341,24 @@ def verify_rows() -> None:
         fail("Synaxarium bridge basis outside schema vocabulary")
     if any(row.get("confidence") not in allowed_bridge_confidence for row in bridge):
         fail("Synaxarium bridge confidence outside schema vocabulary")
+    foundational_days = {row.get("coptic_day_key", "") for row in foundational}
+    explicit_bridge = [row for row in bridge if row.get("basis") == "explicit"]
+    if not explicit_bridge:
+        fail("Step 7 expected explicit bridge rows for the 69 foundational-reading days")
+    explicit_outside_69 = [row for row in explicit_bridge if row.get("coptic_day_key", "") not in foundational_days]
+    if explicit_outside_69:
+        fail(f"Explicit bridge rows outside the 69 foundational days: {len(explicit_outside_69)}")
+    if any(row.get("confidence") != "high" for row in explicit_bridge):
+        fail("Explicit 69 bridge rows must use high confidence")
+    if any("Ottawa/UKMID Katameros of the Days" not in row.get("citation", "") for row in explicit_bridge):
+        fail("Explicit 69 bridge rows missing Ottawa citation")
+    outside_69 = [row for row in bridge if row.get("coptic_day_key", "") not in foundational_days]
+    outside_bases = {row.get("basis") for row in outside_69}
+    outside_confidences = {row.get("confidence") for row in outside_69}
+    if outside_69 and outside_bases != {"collection-type"}:
+        fail(f"Outside-69 bridge rows should remain collection-type in this run: {outside_bases}")
+    if outside_69 and outside_confidences != {"medium"}:
+        fail(f"Outside-69 bridge rows should remain medium confidence in this run: {outside_confidences}")
     overstrong_collection = [row for row in bridge if row.get("basis") == "collection-type" and row.get("confidence") != "medium"]
     if overstrong_collection:
         fail(f"Collection-type bridge rows must use medium confidence unless direct proper-reading evidence exists: {len(overstrong_collection)}")

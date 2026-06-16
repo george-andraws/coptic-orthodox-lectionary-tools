@@ -92,7 +92,22 @@ There are 255 rows not checked by a captured Coptic Reader fixture and not confi
 
 ## Synaxarium bridge review
 
-The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type` and confidence `medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings. After Step 7, rows whose Coptic day is in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high`. Rows outside the 69 remain uniformly `basis=collection-type` and `confidence=medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+
+Bridge differentiation flag: outside the 69 foundational days, the bridge is still uniformly collection-type. A later pass should decide whether more non-69 days can be classified explicitly, left as collection-type, or marked inferred.
+
+Foundational-day coverage flag: 11 of the 69 foundational days have no emitted bridge rows in this run, because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows. Missing foundational days:
+- Baramoudah 23 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 388
+- Baramoudah 27 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 396
+- Baramoudah 30 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 404
+- Misra 3 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 507
+- Misra 13 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 515
+- Misra 17 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 524
+- Misra 25 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 532
+- Misra 26 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 540
+- Misra 28 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 547
+- Misra 29 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 555
+- Misra 30 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 562
 
 All repeated-slot groups are documented in `out/design/synaxarium_reading_bridge.csv` row notes as source-row or variant catalog entries.
 

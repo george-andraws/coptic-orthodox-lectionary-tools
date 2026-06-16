@@ -52,7 +52,7 @@ For each passage page:
 
 ## Synaxarium bridge behavior
 
-All rows in `synaxarium_reading_bridge.csv` are `basis=collection-type` and `confidence=medium` in this run. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high` in this run. Rows outside that 69 remain `basis=collection-type` and `confidence=medium`. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
 
 Repeated `(commem_id, coptic_day_key, slot)` groups are expected because the bridge catalogs source rows and variants. Do not render the bridge as a resolved daily service schedule without a later resolver.
 

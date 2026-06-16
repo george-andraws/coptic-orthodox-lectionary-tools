@@ -379,6 +379,10 @@ def build_foundational_reading_collections_69() -> list[dict]:
     return rows
 
 
+def foundational_69_by_day_key() -> dict[str, dict]:
+    return {row["coptic_day_key"]: row for row in build_foundational_reading_collections_69()}
+
+
 def removed_marker_for(row: dict, ident: dict) -> str:
     if row.get("day_title") != "Wednesday" or row.get("service_hour") not in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}:
         return ""
@@ -1234,6 +1238,7 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
         if key:
             fixed_day_rows[key].append(row)
     bridge = []
+    foundational_by_day = foundational_69_by_day_key()
     by_day = defaultdict(list)
     for c in commems:
         by_day[c["coptic_day_key"]].append(c)
@@ -1243,15 +1248,28 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
             alt_key = day_key.replace("Tut", "Tout").replace("Tubah", "Toba")
             readings = fixed_day_rows.get(alt_key, [])
         primary = sorted(day_commems, key=lambda c: int(c["rank"]))[0]
-        confidence = "medium"
-        basis = "collection-type"
-        bridge_note = "Collection-type bridge from fixed-day Synaxarium context to Katameros rows. This catalogs source-row or variant catalog entries; it is not a resolved daily service schedule and not direct proper-reading proof for the named commemoration."
+        foundational_row = foundational_by_day.get(day_key)
+        if foundational_row:
+            confidence = "high"
+            basis = "explicit"
+            base_citation = (
+                f"Ottawa/UKMID Katameros of the Days, {foundational_row.get('source_edition')}, "
+                f"{foundational_row.get('source_locator')}; F.N. Youssef on the 69 foundational readings; "
+                "St-Takla day index; local Katameros fixed-day row."
+            )
+            bridge_note = "Explicit bridge because this Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection. This catalogs source-row or variant catalog entries; it is not a resolved daily service schedule and not direct proper-reading proof for the named commemoration."
+        else:
+            confidence = "medium"
+            basis = "collection-type"
+            base_citation = "F.N. Youssef on daily readings following the Synaxarium; St-Takla day index; local Katameros fixed-day row."
+            bridge_note = "Collection-type bridge from fixed-day Synaxarium context to Katameros rows. This catalogs source-row or variant catalog entries; it is not a resolved daily service schedule and not direct proper-reading proof for the named commemoration."
         if len(day_commems) > 1:
             bridge_note += " Primary commemoration linked only; secondary commemorations require explicit proper-reading source before separate links are created."
         else:
             bridge_note += " Single commemoration day alignment."
         for row in readings:
             ident = identity_for(row.get("passage") or row.get("normalized_segment") or "")
+            local_locator = f"source_file={row.get('source_file', '')} | source_row_id={row.get('source_row_id', '')} | source_ref={row.get('source_ref', '') or row.get('raw_ref', '')}"
             bridge.append({
                 "commem_id": primary["commem_id"],
                 "coptic_day_key": day_key,
@@ -1262,7 +1280,7 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
                 "slot": row.get("reading_slot") or row.get("reading_type") or row.get("service_section") or "",
                 "basis": basis,
                 "confidence": confidence,
-                "citation": "F.N. Youssef on daily readings following the Synaxarium; St-Takla day index; local Katameros fixed-day row.",
+                "citation": base_citation + " " + local_locator,
                 "note": bridge_note,
             })
     return commems, bridge
@@ -1859,7 +1877,7 @@ For each passage page:
 
 ## Synaxarium bridge behavior
 
-All rows in `synaxarium_reading_bridge.csv` are `basis=collection-type` and `confidence=medium` in this run. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high` in this run. Rows outside that 69 remain `basis=collection-type` and `confidence=medium`. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
 
 Repeated `(commem_id, coptic_day_key, slot)` groups are expected because the bridge catalogs source rows and variants. Do not render the bridge as a resolved daily service schedule without a later resolver.
 
@@ -1913,6 +1931,9 @@ def update_open_questions(commems: list[dict], bridge: list[dict], temporal_resi
     candidate_removed = [r for r in temporal_residue if r.get("residue_type") == "candidate_removed_needs_current_authority_confirmation"]
     psalm_pending = [r for r in temporal_residue if r.get("residue_type") == "psalm_equivalence_unresolved"]
     current_pending = [r for r in temporal_residue if r.get("residue_type") == "current_authority_pending"]
+    foundational_rows = build_foundational_reading_collections_69()
+    bridge_days = {row.get("coptic_day_key", "") for row in bridge}
+    foundational_without_bridge = [row for row in foundational_rows if row.get("coptic_day_key", "") not in bridge_days]
     text = """# Open Questions and Decisions for George
 
 This file collects only the questions that thorough research, source comparison, and independent audit could not settle during the autonomous lectionary execution run.
@@ -1963,11 +1984,16 @@ Rows absent from the Wednesday Day Coptic Reader fixture but present in older or
 
 ## Synaxarium bridge review
 
-The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type` and confidence `medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings. After Step 7, rows whose Coptic day is in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high`. Rows outside the 69 remain uniformly `basis=collection-type` and `confidence=medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
 
-All repeated-slot groups are documented in `out/design/synaxarium_reading_bridge.csv` row notes as source-row or variant catalog entries.
+Bridge differentiation flag: outside the 69 foundational days, the bridge is still uniformly collection-type. A later pass should decide whether more non-69 days can be classified explicitly, left as collection-type, or marked inferred.
 
-- Multi-commemoration days needing future ecclesiastical or source review: """ + str(len(ambiguous)) + " days.\n"
+Foundational-day coverage flag: 11 of the 69 foundational days have no emitted bridge rows in this run, because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows. Missing foundational days:
+"""
+    for row in foundational_without_bridge:
+        text += f"- {row.get('coptic_day_key')} | {row.get('source_locator')}\n"
+    text += "\nAll repeated-slot groups are documented in `out/design/synaxarium_reading_bridge.csv` row notes as source-row or variant catalog entries.\n\n"
+    text += "- Multi-commemoration days needing future ecclesiastical or source review: " + str(len(ambiguous)) + " days.\n"
     for day in ambiguous[:120]:
         text += f"  - {day}\n"
     if len(ambiguous) > 120:
