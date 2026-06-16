@@ -80,6 +80,16 @@ def verify_content_rules() -> None:
     article = (ROOT / "coptic-lectionary-and-synaxarium.md").read_text(encoding="utf-8")
     if "John Chrysostom" in article:
         fail("Article still contains uncited John Chrysostom reference")
+    if "## Teaching guide" not in article:
+        fail("Article must use Teaching guide heading")
+    if "Lesson Guide" in article:
+        fail("Article must not use Lesson Guide wording")
+    if "Scripture is from NKJV." not in article:
+        fail("Reader-facing Scripture source wording must be exactly: Scripture is from NKJV.")
+    reader_facing_policy_terms = ["permission", "permissions", "rights", "source-policy", "source policy"]
+    policy_hits = [term for term in reader_facing_policy_terms if re.search(rf"\b{re.escape(term)}\b", article, re.I)]
+    if policy_hits:
+        fail(f"Reader-facing article contains internal permission/source-policy terms: {policy_hits}")
     if "serve the congregation" in article.lower():
         fail("Article repeats rejected deacon-service phrasing")
     if "helpless" in article.lower():
@@ -246,7 +256,7 @@ def verify_rows() -> None:
     day_title_like = [row for row in commems if re.match(r"^\d+\s+\w+\s*\(", row.get("title", ""))]
     if day_title_like:
         fail(f"Synaxarium rows still have day-title fallback looking titles: {len(day_title_like)}")
-    long_titles = [row for row in commems if len(row.get("title", "")) > 220]
+    long_titles = [row for row in commems if len(row.get("title", "")) > 160]
     if long_titles:
         fail(f"Synaxarium rows still have long prose-like titles: {len(long_titles)}")
     martyr_misclassified = [row for row in commems if re.search(r"\bmartyrdom\b|\bwas martyred\b|\bwere martyred\b", row.get("title", ""), re.I) and row.get("type") != "martyr"]
@@ -285,7 +295,7 @@ def verify_rows() -> None:
     duplicate_slot_groups = Counter((row.get("commem_id", ""), row.get("coptic_day_key", ""), row.get("slot", "")) for row in bridge)
     has_duplicate_slot_groups = any(count > 1 for count in duplicate_slot_groups.values())
     if has_duplicate_slot_groups:
-        undocumented = [row for row in bridge if "not a resolved daily service schedule" not in row.get("note", "") or "catalogs source rows and variants" not in row.get("note", "")]
+        undocumented = [row for row in bridge if "not a resolved daily service schedule" not in row.get("note", "") or "not direct proper-reading proof" not in row.get("note", "") or "source-row or variant catalog" not in row.get("note", "")]
         if undocumented:
             fail(f"Bridge has duplicate slot groups without explicit catalog/not-resolved-schedule note: {len(undocumented)}")
     pascha_source_kinds = {"pascha_day_hour", "pascha_source_text", "coptic_reader_fixture"}

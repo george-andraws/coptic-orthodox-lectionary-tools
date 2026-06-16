@@ -821,6 +821,8 @@ def parse_month_day(row: dict) -> tuple[str, int, str]:
 
 def infer_synaxarium_title(raw_title: str) -> tuple[str, str]:
     title = norm_space(raw_title).strip().rstrip(" .")
+    if re.search(r"marks\s+the\s+commemoration\s+of\s+(?:the\s+)?(?:honorable\s+)?archangel\s+gabriel", title, re.I) and re.search(r"church\s+in\s+caesari[ae]", title, re.I):
+        return "The Commemoration of Archangel Gabriel and the Consecration of His Church in Caesaria", "Title shortened from a long numbered source entry; full source summary is preserved."
     if len(title) <= 180 and not re.match(r"^(On this day|Today also|On this day also)", title, re.I):
         return title, ""
     opener = r"(?:On this day(?: also)?|Today also|Also on this day)"
@@ -952,7 +954,7 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
         primary = sorted(day_commems, key=lambda c: int(c["rank"]))[0]
         confidence = "medium"
         basis = "collection-type"
-        bridge_note = "Collection-type bridge from fixed-day Synaxarium context to Katameros rows. This catalogs source rows and variants; it is not a resolved daily service schedule and not direct proper-reading proof for the named commemoration."
+        bridge_note = "Collection-type bridge from fixed-day Synaxarium context to Katameros rows. This catalogs source-row or variant catalog entries; it is not a resolved daily service schedule and not direct proper-reading proof for the named commemoration."
         if len(day_commems) > 1:
             bridge_note += " Primary commemoration linked only; secondary commemorations require explicit proper-reading source before separate links are created."
         else:
@@ -1160,13 +1162,11 @@ This honesty prevents false contradictions. It also protects the Church's liturg
 
 ## The Synaxarium bridge must be humble
 
-The Synaxarium gives the commemorations of the day. It does not always say, "this reading belongs to this saint." The link between commemoration and reading must therefore be stored with a basis:
+The Synaxarium gives the commemorations of the day. It does not always say, "this reading belongs to this saint." The link between commemoration and reading must therefore be stored with a basis and a caution.
 
-- explicit, when a source directly states the reading,
-- collection-type, when the commemoration type matches the known reading family,
-- inferred, when the link is reasoned and lower confidence.
+In this design layer, the Synaxarium bridge is deliberately humble. It links the primary commemoration of a fixed Coptic day to that day's Katameros rows with `collection-type` basis and `medium` confidence. That means it is useful for discovery, but it is not direct proof that every reading is a proper reading for the named commemoration.
 
-This matters because some days have multiple commemorations. A martyr, a patriarch, and a feast may share the same day. The ranking commemoration may govern the public daily reading, while a secondary commemoration may have proper readings only in another source.
+This matters because some days have multiple commemorations. A martyr, a patriarch, and a feast may share the same day. Secondary commemorations may have proper readings only in sources not ingested here. A faithful database should show the link and also show the limit of the evidence.
 
 A faithful database should say what it knows and how it knows it.
 
@@ -1180,7 +1180,7 @@ It teaches repentance. The same passage returns in different seasons and exposes
 
 It teaches Christ. Every reading, feast, fast, Psalm, prophecy, Gospel, and commemoration finds its center in Him.
 
-## Lesson Guide
+## Teaching guide
 
 ### Opening question
 Ask: When you hear a church reading, do you receive it as information, or as the Church interpreting this day for you?
@@ -1196,10 +1196,10 @@ Ask: When you hear a church reading, do you receive it as information, or as the
 ### Key sentence
 The lectionary is the Church teaching us how to hear Scripture with Christ at the center.
 
-## Teacher's Notes
+### Teacher notes
 
 - Emphasize: The Synaxarium is not an appendix. It is part of how the daily cycle is understood.
-- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. Many bridges are reasoned from commemoration type and day ranking.
+- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The bridge is medium-confidence collection-type evidence, not direct proper-reading proof.
 - Clarify: Psalm numbering differences are not errors by themselves. They may reflect Masoretic and Septuagint traditions.
 - Connect: The readings should lead to worship, repentance, and union with Christ, not only to data accuracy.
 
@@ -1212,6 +1212,8 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 5. Which reading has changed for you because of where the Church places it?
 
 ## Sources
+
+Scripture is from NKJV.
 
 ### Primary and Coptic Orthodox sources
 
@@ -1433,13 +1435,21 @@ Copy the following from this repo:
 - `out/design/reverse_lectionary_presentation.csv`
 - `out/design/reverse_lectionary_presentation.jsonl`
 - `out/design/todays_readings_current_practice.csv`
+- `out/design/todays_readings_current_practice.jsonl`
 - `out/design/passage_liturgical_footprint.csv`
+- `out/design/passage_liturgical_footprint.jsonl`
 - `out/design/pascha_attestation.csv`
+- `out/design/pascha_attestation_bucket_manifest.csv`
 - `out/design/temporal_classification.csv`
+- `out/design/temporal_residue.csv`
+- `out/design/temporal_residue_manifest.csv`
 - `out/design/synaxarium_commemorations.csv`
 - `out/design/synaxarium_reading_bridge.csv`
 - `out/design/source_registry.csv`
 - `out/design/psalm_mt_lxx_crosswalk.csv`
+- `audit_artifacts/open_questions_for_george.md`
+- `presentation/lectionary_design_layer_deck.pptx`
+- `presentation/lectionary_design_layer_deck_outline.md`
 
 ## Required search behavior
 
@@ -1457,7 +1467,15 @@ For each passage page:
 - show current Coptic Reader confirmed rows first where available,
 - label historical Pascha witnesses clearly,
 - include source and provenance links when present,
-- show Synaxarium bridge rows only with their `basis` and `confidence`.
+- show Synaxarium bridge rows only with their `basis`, `confidence`, and `note`.
+
+## Synaxarium bridge behavior
+
+All rows in `synaxarium_reading_bridge.csv` are `basis=collection-type` and `confidence=medium` in this run. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
+
+Repeated `(commem_id, coptic_day_key, slot)` groups are expected because the bridge catalogs source rows and variants. Do not render the bridge as a resolved daily service schedule without a later resolver.
+
+Secondary commemorations are intentionally not linked unless a future source gives explicit proper-reading evidence.
 
 ## Today's readings behavior
 
@@ -1474,6 +1492,15 @@ Use `passage_liturgical_footprint.csv` for cards and chapter pages. It provides:
 - placeholder chapter-study and audio slugs.
 
 The `patristic_homily_slug` field is blank in this repo because the site corpus is not available here. Join it in `coptic-corpus` where homily and chapter-study metadata live.
+
+## Deck deliverables
+
+The deck artifacts are handoff aids for George, not site source files:
+
+- `presentation/lectionary_design_layer_deck.pptx`
+- `presentation/lectionary_design_layer_deck_outline.md`
+
+Use them to explain the reverse lectionary design, Psalm numbering, Pascha attestation, Synaxarium bridge limits, and open questions before the final site push.
 
 ## Counts from this run
 
@@ -1542,7 +1569,9 @@ Rows absent from the Wednesday Day Coptic Reader fixture but present in older or
 
 ## Synaxarium bridge review
 
-The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type`. Multi-commemoration days are confidence `medium`, because secondary commemorations may have proper readings only in sources not ingested here.
+The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type` and confidence `medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+
+All repeated-slot groups are documented in `out/design/synaxarium_reading_bridge.csv` row notes as source-row or variant catalog entries.
 
 - Multi-commemoration days needing future ecclesiastical or source review: """ + str(len(ambiguous)) + " days.\n"
     for day in ambiguous[:120]:
@@ -1559,6 +1588,15 @@ The bridge links the primary commemoration of each fixed Coptic day to that day'
     else:
         text += "## Low-confidence bridge rows\n\nNo bridge rows were emitted with `basis=inferred` or `confidence=low`. Medium-confidence multi-commemoration days are listed above.\n"
     text += "\n## Site corpus joins not available in this repo\n\nThe presentation footprint output includes blank `patristic_homily_slug` values because Hermes did not have access to `coptic-corpus`. Join homily, chapter-study, and audio slugs in the site repo before publishing those UI links.\n"
+    text += "\n## Final push package pointers\n\n"
+    text += "- Article markdown: `coptic-lectionary-and-synaxarium.md`\n"
+    text += "- Site integration spec: `site_integration_spec.md`\n"
+    text += "- Presentation dataset: `out/design/reverse_lectionary_presentation.csv` and `.jsonl`\n"
+    text += "- Today's readings snapshot: `out/design/todays_readings_current_practice.csv` and `.jsonl`\n"
+    text += "- Passage footprint dataset: `out/design/passage_liturgical_footprint.csv` and `.jsonl`\n"
+    text += "- Synaxarium datasets: `out/design/synaxarium_commemorations.csv` and `out/design/synaxarium_reading_bridge.csv`\n"
+    text += "- Deck deliverables: `presentation/lectionary_design_layer_deck.pptx` and `presentation/lectionary_design_layer_deck_outline.md`\n"
+    text += "- Execution log: `audit_artifacts/lectionary_execution_log.md`\n"
     if "—" in text:
         raise AssertionError("Em dash found in open questions")
     (AUDIT / "open_questions_for_george.md").write_text(text, encoding="utf-8")

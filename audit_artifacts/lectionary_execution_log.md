@@ -81,3 +81,35 @@
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; content-rule scan of Phase 5 audit files. All passed.
 - Acceptance result: Phase 5 accepted after two ingestion review passes and two bridge audit passes. Commit hash: `350a0bd`.
 - Open questions carried forward: 141 `prose_lead_inferred` Synaxarium rows require source-page wording review before final publication wording; bridge remains medium-confidence collection-type, not direct proper-reading proof.
+
+## Phase 6 - Presentation deliverables
+
+### 2026-06-16 - Phase 6 regeneration and local verification
+- Producer: `openai-codex/gpt-5.5`, xhigh. Artifacts regenerated: `coptic-lectionary-and-synaxarium.md`, `site_integration_spec.md`, `audit_artifacts/open_questions_for_george.md`, all final `out/design/*` design-layer datasets, `presentation/lectionary_design_layer_deck.pptx`, and `presentation/lectionary_design_layer_deck_outline.md`.
+- Subagent-vs-delegate choice: Codex orchestrator performed the deterministic generator/verifier changes directly. A full Hermes CLI instance was used for Grok audit because Phase 6 artifacts were Codex-produced and Section 0.2 requires the independent auditor to be `xai-oauth/grok-4.3`.
+- Revisions made before independent audit: added exact reader-facing source wording `Scripture is from NKJV.` to the article; changed article heading to `Teaching guide`; strengthened Synaxarium bridge wording as medium-confidence collection-type discovery links, not direct proper-reading proof and not a resolved daily service schedule; added final push-package pointers; added `scripts/build_phase6_deck.py`; added stricter verifier guards for article wording, long Synaxarium titles, and repeated bridge slot notes.
+- Additional local correction during verification: shortened the Kiyahk 22 Archangel Gabriel title in the generator while preserving the full source summary, and changed bridge notes to use the literal `source-row or variant catalog` wording required by the Phase 5 final state.
+- Verification commands run:
+  - `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`
+  - `python3 build_design_deliverables.py`
+  - `python3 scripts/build_phase6_deck.py`
+  - `python3 verify_design_deliverables.py`
+  - Custom Phase 6 checks over article/spec/open questions/deck outline/PPTX text, row counts, JSONL counts, identity joins, source registry coverage, Synaxarium counts, bridge semantics, and deck placeholders.
+- Verification result: all commands passed. `build_design_deliverables.py` emitted 66,378 reverse presentation rows, 2,657 reading identity rows, 11 today's-reading rows, 161 Psalm crosswalk rows, 445 Pascha attestation rows, 5 Pascha bucket manifest rows, 445 temporal classification rows, 419 temporal residue rows, 5 temporal residue manifest rows, 664 Synaxarium commemoration rows, 4,688 bridge rows, and 2,656 passage-footprint rows.
+- Preserved Phase 5 state: 366 source Coptic days; 664 commemorations; 141 `prose_lead_inferred` rows, all caveated; 0 day-title fallback rows; 0 long prose-like titles; 4,688 bridge rows; all bridge basis values `collection-type`; all bridge confidence values `medium`; repeated slot groups documented as source-row or variant catalog entries; no bridge wording describes direct proper-reading proof or a resolved daily service schedule.
+- Deck verification: `scripts/build_phase6_deck.py` regenerated a 10-slide PPTX and outline. PPTX text extraction found no placeholders, no em dashes, and no banned words. QuickLook generated a non-empty thumbnail at `/tmp/phase6_deck_preview/lectionary_design_layer_deck.pptx.png` for visual sanity. The vision helper could not run in this session due auxiliary model routing, so visual verification is limited to QuickLook thumbnail generation plus PPTX structural/text checks.
+
+### 2026-06-16 - Phase 6 independent audit pass 1
+- Auditor: `xai-oauth/grok-4.3`, xhigh, full Hermes CLI instance with file and terminal toolsets. Artifact: `audit_artifacts/phase6_grok_audit_pass1.md`.
+- Audit pass 1 verdict: conditional pass.
+- Audit pass 1 findings: article, data outputs, site integration spec, deck outline, PPTX structure/text, open questions handoff, Synaxarium bridge semantics, and Section 9 Definition of Done content checks passed. Required process revisions remained: record Phase 6 and the audit in the execution log, then commit the Phase 6 package.
+- Revisions after pass 1: updated this execution log with Phase 6 regeneration, verification evidence, audit pass 1 result, and unresolved questions. No article, dataset, site spec, deck, or open-questions content revision was required by Grok pass 1.
+- Unresolved questions carried forward: Psalm 41:1 exact MT equivalence; full enumerated English list of Youssef's 69 collections; Coptic Reader coverage beyond the Wednesday Day fixture; 141 prose-lead Synaxarium titles needing source-page wording review; site-side joins for patristic homily, chapter-study, and audio slugs in `coptic-corpus`.
+- Acceptance state before commit: Phase 6 artifact content accepted by audit pass 1, pending focused audit-loop closure, final commit, and second log-only commit with the Phase 6 commit hash.
+
+### 2026-06-16 - Phase 6 independent audit pass 2
+- Auditor: `xai-oauth/grok-4.3`, xhigh, full Hermes CLI instance with file and terminal toolsets. Artifact: `audit_artifacts/phase6_grok_audit_pass2.md`.
+- Audit pass 2 verdict: pass.
+- Audit pass 2 findings: pass 1 required process revisions were resolved enough to proceed to the Phase 6 artifact commit. The execution log now records Phase 6 regeneration, artifacts, verification commands and row counts, Phase 5 preservation checks, audit pass 1 result, revisions, unresolved questions, and acceptance state before commit.
+- Required revisions before Phase 6 artifact commit: none.
+- Final pre-commit acceptance state: Phase 6 artifacts are ready for commit. Final Phase 6 commit hash remains to be recorded after the artifact commit in a second log-only commit.

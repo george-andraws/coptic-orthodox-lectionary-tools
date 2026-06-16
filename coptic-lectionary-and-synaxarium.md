@@ -80,13 +80,11 @@ This honesty prevents false contradictions. It also protects the Church's liturg
 
 ## The Synaxarium bridge must be humble
 
-The Synaxarium gives the commemorations of the day. It does not always say, "this reading belongs to this saint." The link between commemoration and reading must therefore be stored with a basis:
+The Synaxarium gives the commemorations of the day. It does not always say, "this reading belongs to this saint." The link between commemoration and reading must therefore be stored with a basis and a caution.
 
-- explicit, when a source directly states the reading,
-- collection-type, when the commemoration type matches the known reading family,
-- inferred, when the link is reasoned and lower confidence.
+In this design layer, the Synaxarium bridge is deliberately humble. It links the primary commemoration of a fixed Coptic day to that day's Katameros rows with `collection-type` basis and `medium` confidence. That means it is useful for discovery, but it is not direct proof that every reading is a proper reading for the named commemoration.
 
-This matters because some days have multiple commemorations. A martyr, a patriarch, and a feast may share the same day. The ranking commemoration may govern the public daily reading, while a secondary commemoration may have proper readings only in another source.
+This matters because some days have multiple commemorations. A martyr, a patriarch, and a feast may share the same day. Secondary commemorations may have proper readings only in sources not ingested here. A faithful database should show the link and also show the limit of the evidence.
 
 A faithful database should say what it knows and how it knows it.
 
@@ -100,7 +98,7 @@ It teaches repentance. The same passage returns in different seasons and exposes
 
 It teaches Christ. Every reading, feast, fast, Psalm, prophecy, Gospel, and commemoration finds its center in Him.
 
-## Lesson Guide
+## Teaching guide
 
 ### Opening question
 Ask: When you hear a church reading, do you receive it as information, or as the Church interpreting this day for you?
@@ -116,10 +114,10 @@ Ask: When you hear a church reading, do you receive it as information, or as the
 ### Key sentence
 The lectionary is the Church teaching us how to hear Scripture with Christ at the center.
 
-## Teacher's Notes
+### Teacher notes
 
 - Emphasize: The Synaxarium is not an appendix. It is part of how the daily cycle is understood.
-- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. Many bridges are reasoned from commemoration type and day ranking.
+- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The bridge is medium-confidence collection-type evidence, not direct proper-reading proof.
 - Clarify: Psalm numbering differences are not errors by themselves. They may reflect Masoretic and Septuagint traditions.
 - Connect: The readings should lead to worship, repentance, and union with Christ, not only to data accuracy.
 
@@ -132,6 +130,8 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 5. Which reading has changed for you because of where the Church places it?
 
 ## Sources
+
+Scripture is from NKJV.
 
 ### Primary and Coptic Orthodox sources
 

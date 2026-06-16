@@ -82,7 +82,9 @@ There are 255 rows not checked by a captured Coptic Reader fixture and not confi
 
 ## Synaxarium bridge review
 
-The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type`. Multi-commemoration days are confidence `medium`, because secondary commemorations may have proper readings only in sources not ingested here.
+The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type` and confidence `medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+
+All repeated-slot groups are documented in `out/design/synaxarium_reading_bridge.csv` row notes as source-row or variant catalog entries.
 
 - Multi-commemoration days needing future ecclesiastical or source review: 221 days.
   - Abib 1
@@ -214,3 +216,14 @@ No bridge rows were emitted with `basis=inferred` or `confidence=low`. Medium-co
 ## Site corpus joins not available in this repo
 
 The presentation footprint output includes blank `patristic_homily_slug` values because Hermes did not have access to `coptic-corpus`. Join homily, chapter-study, and audio slugs in the site repo before publishing those UI links.
+
+## Final push package pointers
+
+- Article markdown: `coptic-lectionary-and-synaxarium.md`
+- Site integration spec: `site_integration_spec.md`
+- Presentation dataset: `out/design/reverse_lectionary_presentation.csv` and `.jsonl`
+- Today's readings snapshot: `out/design/todays_readings_current_practice.csv` and `.jsonl`
+- Passage footprint dataset: `out/design/passage_liturgical_footprint.csv` and `.jsonl`
+- Synaxarium datasets: `out/design/synaxarium_commemorations.csv` and `out/design/synaxarium_reading_bridge.csv`
+- Deck deliverables: `presentation/lectionary_design_layer_deck.pptx` and `presentation/lectionary_design_layer_deck_outline.md`
+- Execution log: `audit_artifacts/lectionary_execution_log.md`
