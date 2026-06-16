@@ -41,6 +41,7 @@ REQUIRED_SCHEMA_VOCABS = [
     "bridge_confidence",
     "psalm_mapping_scope",
     "current_authority",
+    "collection_types_69",
 ]
 SEAM_PAIRS = [
     ("Ps", 50, 6, "Psalm 51:4", ["sinned", "justified"]),
@@ -104,10 +105,17 @@ def verify_schema() -> None:
     missing = [k for k in REQUIRED_SCHEMA_VOCABS if not vocabs.get(k)]
     if missing:
         fail(f"Missing schema vocabularies: {missing}")
-    if vocabs["collection_types_69"].get("confirmed_count") != 69:
+    collection_69 = vocabs["collection_types_69"]
+    if collection_69.get("confirmed_count") != 69:
         fail("69 collection count not preserved")
-    if vocabs["collection_types_69"].get("status") != "source_confirmed_count_not_fully_enumerated":
-        fail("69 collection status should remain source-confirmed but not enumerated")
+    if collection_69.get("status") != "confirmed_same_practical_second_volume_collection":
+        fail("69 collection status should record the Step 1 confirmed-same-set verdict")
+    if collection_69.get("membership_confirmation") != "confirmed_same_set_inferred_from_source_combination_not_count_only":
+        fail("69 collection membership caveat missing")
+    if len(collection_69.get("entries", [])) != 69:
+        fail("69 collection schema entries not enumerated")
+    if collection_69.get("provenance", {}).get("ottawa_edition") != "first edition, Christmas 1714 A.M., 1998 A.D.":
+        fail("69 collection provenance missing Ottawa edition")
     tables = schema.get("tables", {})
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
@@ -118,6 +126,7 @@ def verify_schema() -> None:
         "synaxarium_commemoration": ["extraction_method", "caveat", "source_summary"],
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
         "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
+        "foundational_reading_collection": ["collection_key", "coptic_day_key", "reading_section_start_page", "membership_status", "source_locator"],
     }
     for table, fields in table_requirements.items():
         missing_fields = [field for field in fields if field not in tables.get(table, [])]
@@ -141,6 +150,7 @@ def verify_rows() -> None:
         "synaxarium_commemoration_rows": OUT / "synaxarium_commemorations.csv",
         "synaxarium_bridge_rows": OUT / "synaxarium_reading_bridge.csv",
         "passage_footprint_rows": OUT / "passage_liturgical_footprint.csv",
+        "foundational_reading_collection_rows": OUT / "foundational_reading_collections_69.csv",
     }
     for key, path in files.items():
         rows = read_csv(path)
@@ -148,6 +158,13 @@ def verify_rows() -> None:
             fail(f"{path} row count {len(rows)} != summary {summary[key]}")
         if not rows:
             fail(f"{path} has no rows")
+    foundational = read_csv(OUT / "foundational_reading_collections_69.csv")
+    if len(foundational) != 69:
+        fail("foundational_reading_collections_69.csv must contain 69 rows")
+    if foundational[0].get("coptic_day_key") != "Tut 1" or foundational[-1].get("coptic_day_key") != "Al-Nasi 6":
+        fail("foundational 69 boundary entries are not the expected Ottawa TOC range")
+    if {row.get("membership_status") for row in foundational} != {"confirmed_same_practical_second_volume_collection"}:
+        fail("foundational 69 membership status must be uniform and explicit")
     presentation = read_csv(OUT / "reverse_lectionary_presentation.csv")
     identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")

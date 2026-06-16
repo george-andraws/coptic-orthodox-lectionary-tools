@@ -106,6 +106,92 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - Synaxarium `type`: `lord_feast`, `theotokos`, `martyr`, `apostle`, `patriarch`, `hierarch`, `departure`, `prophet`, `angel`, `ascetic`, `feast`, `commemoration`.
 - bridge `basis`: `explicit`, `collection-type`, `inferred`.
 - bridge `confidence`: `high`, `medium`, `low`.
+- `collection_types_69`: the 69 foundational reading collections keyed by `collection_key` and `coptic_day_key`, with membership verdict and source provenance.
+
+## Foundational reading collections
+
+The machine-readable vocabulary is `out/design/foundational_reading_collections_69.csv` and `out/design/foundational_reading_collections_69.jsonl`. It is also embedded under `controlled_vocabularies.collection_types_69` in `out/design/lectionary_schema.json`.
+
+Membership verdict: `CONFIRMED_SAME_SET`. This means confirmed as the same practical second-volume foundational-reading collection, inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. It does not mean the consulted Youssef page prints the date-by-date roster.
+
+Provenance:
+
+- Youssef source: F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, Chapter 1, section 1.1, printed page marker 32, note 7 `al-qirā’āt al-āsāsiyya`.
+- Ottawa source: St. Mary Ottawa / UKMID, `Katameros of the Days: Readings for Week Days and Feasts`, first edition, Christmas 1714 A.M., 1998 A.D.
+- Ottawa locators: introduction on PDF page 17; TOC dated reading sections on PDF pages 23 to 26; annual day table on PDF pages 31 to 65.
+- Source-vs-inference: the 69 dated entries and their section pages are read from Ottawa/UKMID; membership identity with Youssef's named 69 is inferred from the Step 1 audit, not from a Youssef-printed roster.
+
+| # | collection_key | Coptic day | section page |
+|---|---|---|---|
+| 1 | `foundational-01-tut-01` | Tut 1 | 37 |
+| 2 | `foundational-02-tut-02` | Tut 2 | 47 |
+| 3 | `foundational-03-tut-08` | Tut 8 | 55 |
+| 4 | `foundational-04-tut-16` | Tut 16 | 64 |
+| 5 | `foundational-05-tut-17` | Tut 17 | 72 |
+| 6 | `foundational-06-tut-18` | Tut 18 | 81 |
+| 7 | `foundational-07-tut-19` | Tut 19 | 88 |
+| 8 | `foundational-08-tut-21` | Tut 21 | 96 |
+| 9 | `foundational-09-tut-26` | Tut 26 | 102 |
+| 10 | `foundational-10-babah-12` | Babah 12 | 111 |
+| 11 | `foundational-11-babah-14` | Babah 14 | 118 |
+| 12 | `foundational-12-babah-22` | Babah 22 | 127 |
+| 13 | `foundational-13-babah-27` | Babah 27 | 135 |
+| 14 | `foundational-14-hatur-08` | Hatur 8 | 143 |
+| 15 | `foundational-15-hatur-09` | Hatur 9 | 151 |
+| 16 | `foundational-16-hatur-12` | Hatur 12 | 159 |
+| 17 | `foundational-17-hatur-15` | Hatur 15 | 169 |
+| 18 | `foundational-18-hatur-17` | Hatur 17 | 177 |
+| 19 | `foundational-19-hatur-22` | Hatur 22 | 187 |
+| 20 | `foundational-20-hatur-24` | Hatur 24 | 194 |
+| 21 | `foundational-21-hatur-25` | Hatur 25 | 202 |
+| 22 | `foundational-22-hatur-27` | Hatur 27 | 211 |
+| 23 | `foundational-23-hatur-28` | Hatur 28 | 218 |
+| 24 | `foundational-24-hatur-29` | Hatur 29 | 227 |
+| 25 | `foundational-25-kiyahk-22` | Kiyahk 22 | 236 |
+| 26 | `foundational-26-kiyahk-28` | Kiyahk 28 | 245 |
+| 27 | `foundational-27-kiyahk-29` | Kiyahk 29 | 255 |
+| 28 | `foundational-28-kiyahk-30` | Kiyahk 30 | 263 |
+| 29 | `foundational-29-tubah-01` | Tubah 1 | 270 |
+| 30 | `foundational-30-tubah-03` | Tubah 3 | 280 |
+| 31 | `foundational-31-tubah-04` | Tubah 4 | 288 |
+| 32 | `foundational-32-tubah-06` | Tubah 6 | 297 |
+| 33 | `foundational-33-tubah-10` | Tubah 10 | 305 |
+| 34 | `foundational-34-tubah-11` | Tubah 11 | 313 |
+| 35 | `foundational-35-tubah-12` | Tubah 12 | 322 |
+| 36 | `foundational-36-tubah-13` | Tubah 13 | 330 |
+| 37 | `foundational-37-tubah-22` | Tubah 22 | 338 |
+| 38 | `foundational-38-tubah-26` | Tubah 26 | 346 |
+| 39 | `foundational-39-tubah-30` | Tubah 30 | 354 |
+| 40 | `foundational-40-amshir-02` | Amshir 2 | 361 |
+| 41 | `foundational-41-baramhat-13` | Baramhat 13 | 370 |
+| 42 | `foundational-42-baramhat-29` | Baramhat 29 | 379 |
+| 43 | `foundational-43-baramoudah-23` | Baramoudah 23 | 388 |
+| 44 | `foundational-44-baramoudah-27` | Baramoudah 27 | 396 |
+| 45 | `foundational-45-baramoudah-30` | Baramoudah 30 | 404 |
+| 46 | `foundational-46-bashans-01` | Bashans 1 | 413 |
+| 47 | `foundational-47-bashans-10` | Bashans 10 | 423 |
+| 48 | `foundational-48-bashans-20` | Bashans 20 | 431 |
+| 49 | `foundational-49-bashans-24` | Bashans 24 | 439 |
+| 50 | `foundational-50-bashans-26` | Bashans 26 | 448 |
+| 51 | `foundational-51-baunah-02` | Baunah 2 | 456 |
+| 52 | `foundational-52-baunah-16` | Baunah 16 | 465 |
+| 53 | `foundational-53-baunah-30` | Baunah 30 | 473 |
+| 54 | `foundational-54-abib-03` | Abib 3 | 481 |
+| 55 | `foundational-55-abib-05` | Abib 5 | 491 |
+| 56 | `foundational-56-abib-20` | Abib 20 | 500 |
+| 57 | `foundational-57-misra-03` | Misra 3 | 507 |
+| 58 | `foundational-58-misra-13` | Misra 13 | 515 |
+| 59 | `foundational-59-misra-17` | Misra 17 | 524 |
+| 60 | `foundational-60-misra-25` | Misra 25 | 532 |
+| 61 | `foundational-61-misra-26` | Misra 26 | 540 |
+| 62 | `foundational-62-misra-28` | Misra 28 | 547 |
+| 63 | `foundational-63-misra-29` | Misra 29 | 555 |
+| 64 | `foundational-64-misra-30` | Misra 30 | 562 |
+| 65 | `foundational-65-al-nasi-01` | Al-Nasi 1 | 569 |
+| 66 | `foundational-66-al-nasi-02` | Al-Nasi 2 | 579 |
+| 67 | `foundational-67-al-nasi-03` | Al-Nasi 3 | 586 |
+| 68 | `foundational-68-al-nasi-04` | Al-Nasi 4 | 595 |
+| 69 | `foundational-69-al-nasi-06` | Al-Nasi 6 | 602 |
 
 ## Psalm MT to LXX crosswalk
 
@@ -139,7 +225,7 @@ The bridge uses `collection-type` basis for primary day commemorations linked to
 
 ## Controlled vocabularies
 
-See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection count is source-confirmed through F.N. Youssef, but the accessible sources in this run did not expose a fully enumerated English list. The spec therefore stores a working type list and records the full list as a source gap rather than inventing it.
+See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection vocabulary is now enumerated from the Ottawa/UKMID TOC and records the Step 1 membership verdict, provenance, and source-vs-inference caveat.
 
 ## Site-facing outputs
 
@@ -151,6 +237,7 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 - `out/design/temporal_classification.csv`
 - `out/design/synaxarium_commemorations.csv`
 - `out/design/synaxarium_reading_bridge.csv`
+- `out/design/foundational_reading_collections_69.csv`
 - `site_integration_spec.md`
 
 ## Acceptance notes

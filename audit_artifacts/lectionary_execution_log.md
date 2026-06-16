@@ -166,3 +166,11 @@
 - Attribution discipline: New section labels `Read from source` and one explicit `Inference from the design residue` statement.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; generated-article scan for em dash and banned words. All passed.
 - Acceptance result: Step 3 accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 4 foundational-reading controlled vocabulary
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Inputs: Step 1 Grok investigation and Codex audit; Ottawa/UKMID `Katameros_Days.pdf`; ACCOT Youssef page.
+- What was done: Replaced the old count-only `collection_types_69` placeholder with an enumerated controlled vocabulary. Added `FOUNDATIONAL_69_SOURCE_PROVENANCE`, `FOUNDATIONAL_69_RAW`, generated `out/design/foundational_reading_collections_69.csv`, generated `out/design/foundational_reading_collections_69.jsonl`, embedded 69 entries in `out/design/lectionary_schema.json`, added a `foundational_reading_collection` schema table, added `st_mary_ottawa_days` to the source registry, and documented the vocabulary in `lectionary_spec.md`.
+- Membership verdict: `CONFIRMED_SAME_SET`, with caveat that identity is inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page does not print the date-by-date roster.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit row-count sanity check. All passed.
+- Acceptance result: Step 4 accepted. Commit hash: pending this commit.

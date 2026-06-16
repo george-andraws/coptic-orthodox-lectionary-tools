@@ -96,7 +96,8 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
   "temporal_residue_manifest_rows": 5,
   "synaxarium_commemoration_rows": 664,
   "synaxarium_bridge_rows": 4688,
-  "passage_footprint_rows": 2656
+  "passage_footprint_rows": 2656,
+  "foundational_reading_collection_rows": 69
 }
 ```
 

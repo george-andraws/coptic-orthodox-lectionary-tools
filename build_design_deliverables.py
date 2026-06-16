@@ -63,6 +63,14 @@ SOURCE_REGISTRY = [
         "notes": "Standard scholarly study cited by the Coptic Encyclopedia for annual lectionaries.",
     },
     {
+        "source_key": "st_mary_ottawa_days",
+        "title": "St. Mary Ottawa / UKMID Katameros of the Days, Readings for Week Days and Feasts",
+        "url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
+        "authority_tier": "historical_printed_witness",
+        "confidence": "confirmed_local_extraction_and_step1_audit",
+        "notes": "First edition, Christmas 1714 A.M., 1998 A.D. Source for the 69 dated foundational-reading collection used as bridge taxonomy.",
+    },
+    {
         "source_key": "katameros_api_sqlite",
         "title": "pierresaid Katameros API SQLite source bundled in repo",
         "url": "sources/katameros-api/Core/KatamerosDatabase.db",
@@ -180,6 +188,91 @@ UNRESOLVED_FIXTURE_LXX_REFS = {"Ps 41:1"}
 
 FORBIDDEN_WORDS = ["delve", "multifaceted", "additionally", "landscape", "underscore", "foster", "interplay"]
 
+FOUNDATIONAL_69_SOURCE_PROVENANCE = {
+    "vocabulary_key": "foundational_reading_collections_69",
+    "arabic_name": "al-qirā’āt al-āsāsiyya",
+    "verdict_token": "CONFIRMED_SAME_SET",
+    "membership_status": "confirmed_same_practical_second_volume_collection",
+    "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+    "youssef_source": "F.N. Youssef, The Arrangement of the Church Lectionary, ACCOT",
+    "youssef_locator": "Chapter 1, section 1.1, printed page marker 32; note 7 al-qirā’āt al-āsāsiyya",
+    "ottawa_source": "St. Mary Ottawa / UKMID, Katameros of the Days, Readings for Week Days and Feasts",
+    "ottawa_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
+    "ottawa_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
+    "ottawa_locator": "Introduction on PDF page 17; TOC dated reading sections on PDF pages 23 to 26; annual day table on PDF pages 31 to 65",
+    "codex_audit_artifact": "audit_artifacts/phase7_codex_audit_of_grok_69_investigation.md",
+}
+
+FOUNDATIONAL_69_RAW = """1|Tut|1|37
+2|Tut|2|47
+3|Tut|8|55
+4|Tut|16|64
+5|Tut|17|72
+6|Tut|18|81
+7|Tut|19|88
+8|Tut|21|96
+9|Tut|26|102
+10|Babah|12|111
+11|Babah|14|118
+12|Babah|22|127
+13|Babah|27|135
+14|Hatur|8|143
+15|Hatur|9|151
+16|Hatur|12|159
+17|Hatur|15|169
+18|Hatur|17|177
+19|Hatur|22|187
+20|Hatur|24|194
+21|Hatur|25|202
+22|Hatur|27|211
+23|Hatur|28|218
+24|Hatur|29|227
+25|Kiyahk|22|236
+26|Kiyahk|28|245
+27|Kiyahk|29|255
+28|Kiyahk|30|263
+29|Tubah|1|270
+30|Tubah|3|280
+31|Tubah|4|288
+32|Tubah|6|297
+33|Tubah|10|305
+34|Tubah|11|313
+35|Tubah|12|322
+36|Tubah|13|330
+37|Tubah|22|338
+38|Tubah|26|346
+39|Tubah|30|354
+40|Amshir|2|361
+41|Baramhat|13|370
+42|Baramhat|29|379
+43|Baramoudah|23|388
+44|Baramoudah|27|396
+45|Baramoudah|30|404
+46|Bashans|1|413
+47|Bashans|10|423
+48|Bashans|20|431
+49|Bashans|24|439
+50|Bashans|26|448
+51|Baunah|2|456
+52|Baunah|16|465
+53|Baunah|30|473
+54|Abib|3|481
+55|Abib|5|491
+56|Abib|20|500
+57|Misra|3|507
+58|Misra|13|515
+59|Misra|17|524
+60|Misra|25|532
+61|Misra|26|540
+62|Misra|28|547
+63|Misra|29|555
+64|Misra|30|562
+65|Al-Nasi|1|569
+66|Al-Nasi|2|579
+67|Al-Nasi|3|586
+68|Al-Nasi|4|595
+69|Al-Nasi|6|602"""
+
 
 def read_csv(path: Path) -> list[dict]:
     if not path.exists():
@@ -207,6 +300,37 @@ def write_jsonl(path: Path, rows: Iterable[dict]) -> None:
 def slugify(value: str) -> str:
     value = re.sub(r"[^A-Za-z0-9]+", "-", value.lower()).strip("-")
     return value or "item"
+
+
+def build_foundational_reading_collections_69() -> list[dict]:
+    provenance = FOUNDATIONAL_69_SOURCE_PROVENANCE
+    rows = []
+    for line in FOUNDATIONAL_69_RAW.splitlines():
+        sequence_s, month, day_s, section_page_s = line.split("|")
+        sequence = int(sequence_s)
+        day = int(day_s)
+        section_page = int(section_page_s)
+        collection_key = f"foundational-{sequence:02d}-{slugify(month)}-{day:02d}"
+        coptic_day_key = f"{month} {day}"
+        rows.append({
+            "collection_key": collection_key,
+            "sequence": sequence,
+            "coptic_month": month,
+            "coptic_day": day,
+            "coptic_day_key": coptic_day_key,
+            "calendar_key": coptic_day_key,
+            "toc_label": f"{day} {month}",
+            "reading_section_start_page": section_page,
+            "source_key": "st_mary_ottawa_days",
+            "source_title": provenance["ottawa_source"],
+            "source_edition": provenance["ottawa_edition"],
+            "source_url": provenance["ottawa_url"],
+            "source_locator": f"TOC dated reading section, PDF pages 23 to 26; section begins on printed page {section_page}",
+            "membership_status": provenance["membership_status"],
+            "membership_basis": provenance["membership_basis"],
+            "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit",
+        })
+    return rows
 
 
 def norm_space(value: str) -> str:
@@ -1027,6 +1151,7 @@ def build_footprint(presentation_rows: list[dict]) -> list[dict]:
 
 
 def write_schema() -> dict:
+    foundational_69 = build_foundational_reading_collections_69()
     schema = {
         "version": "2026-06-16-design-layer-v1",
         "principles": [
@@ -1056,10 +1181,13 @@ def write_schema() -> dict:
             "psalm_mapping_scope": ["chapter_equivalence", "split_merge_chapter_seam", "lxx_unique_chapter", "anchored_verse_example", "unresolved_verse_offset_example"],
             "current_authority": ["Coptic Reader fixture where captured", "public date-resolved source is reference only", "historical source is witness only", "scholarly source governs structure, not current readings", "no scoped current authority confirmation"],
             "collection_types_69": {
-                "status": "source_confirmed_count_not_fully_enumerated",
+                "status": FOUNDATIONAL_69_SOURCE_PROVENANCE["membership_status"],
+                "verdict_token": FOUNDATIONAL_69_SOURCE_PROVENANCE["verdict_token"],
                 "confirmed_count": 69,
-                "working_types": ["Lord feasts", "Theotokos feasts", "angels", "apostles", "martyrs", "patriarchs", "hierarchs", "monastics and ascetics", "prophets", "ordinary fixed day", "Sunday monthly program"],
-                "gap": "Accessible English sources confirm the 69 collections but did not expose the full enumerated list during this run.",
+                "membership_confirmation": "confirmed_same_set_inferred_from_source_combination_not_count_only",
+                "membership_basis": FOUNDATIONAL_69_SOURCE_PROVENANCE["membership_basis"],
+                "provenance": FOUNDATIONAL_69_SOURCE_PROVENANCE,
+                "entries": foundational_69,
             },
         },
         "tables": {
@@ -1073,6 +1201,7 @@ def write_schema() -> dict:
             "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
             "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "extraction_method", "caveat", "source_url", "source_summary"],
             "synaxarium_reading_bridge": ["commem_id", "reading_identity_key", "slot", "basis", "confidence", "citation"],
+            "foundational_reading_collection": ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_basis", "verification_status"],
         },
     }
     (OUT / "lectionary_schema.json").write_text(json.dumps(schema, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -1286,6 +1415,12 @@ Scripture references follow NKJV versification.
 
 
 def write_spec(schema: dict) -> None:
+    foundational_69 = build_foundational_reading_collections_69()
+    foundational_table = "\n".join(
+        ["| # | collection_key | Coptic day | section page |"]
+        + ["|---|---|---|---|"]
+        + [f"| {row['sequence']} | `{row['collection_key']}` | {row['coptic_day_key']} | {row['reading_section_start_page']} |" for row in foundational_69]
+    )
     spec = f"""# Coptic Lectionary Internal Spec
 
 Generated: 2026-06-16
@@ -1394,6 +1529,22 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - Synaxarium `type`: `lord_feast`, `theotokos`, `martyr`, `apostle`, `patriarch`, `hierarch`, `departure`, `prophet`, `angel`, `ascetic`, `feast`, `commemoration`.
 - bridge `basis`: `explicit`, `collection-type`, `inferred`.
 - bridge `confidence`: `high`, `medium`, `low`.
+- `collection_types_69`: the 69 foundational reading collections keyed by `collection_key` and `coptic_day_key`, with membership verdict and source provenance.
+
+## Foundational reading collections
+
+The machine-readable vocabulary is `out/design/foundational_reading_collections_69.csv` and `out/design/foundational_reading_collections_69.jsonl`. It is also embedded under `controlled_vocabularies.collection_types_69` in `out/design/lectionary_schema.json`.
+
+Membership verdict: `CONFIRMED_SAME_SET`. This means confirmed as the same practical second-volume foundational-reading collection, inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. It does not mean the consulted Youssef page prints the date-by-date roster.
+
+Provenance:
+
+- Youssef source: F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, Chapter 1, section 1.1, printed page marker 32, note 7 `al-qirā’āt al-āsāsiyya`.
+- Ottawa source: St. Mary Ottawa / UKMID, `Katameros of the Days: Readings for Week Days and Feasts`, first edition, Christmas 1714 A.M., 1998 A.D.
+- Ottawa locators: introduction on PDF page 17; TOC dated reading sections on PDF pages 23 to 26; annual day table on PDF pages 31 to 65.
+- Source-vs-inference: the 69 dated entries and their section pages are read from Ottawa/UKMID; membership identity with Youssef's named 69 is inferred from the Step 1 audit, not from a Youssef-printed roster.
+
+{foundational_table}
 
 ## Psalm MT to LXX crosswalk
 
@@ -1427,7 +1578,7 @@ The bridge uses `collection-type` basis for primary day commemorations linked to
 
 ## Controlled vocabularies
 
-See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection count is source-confirmed through F.N. Youssef, but the accessible sources in this run did not expose a fully enumerated English list. The spec therefore stores a working type list and records the full list as a source gap rather than inventing it.
+See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection vocabulary is now enumerated from the Ottawa/UKMID TOC and records the Step 1 membership verdict, provenance, and source-vs-inference caveat.
 
 ## Site-facing outputs
 
@@ -1439,6 +1590,7 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 - `out/design/temporal_classification.csv`
 - `out/design/synaxarium_commemorations.csv`
 - `out/design/synaxarium_reading_bridge.csv`
+- `out/design/foundational_reading_collections_69.csv`
 - `site_integration_spec.md`
 
 ## Acceptance notes
@@ -1652,6 +1804,7 @@ def main() -> None:
     temporal_residue = build_temporal_residue(temporal, attestation)
     temporal_residue_manifest = build_temporal_residue_manifest(temporal_residue)
     commems, bridge = build_synaxarium()
+    foundational_69 = build_foundational_reading_collections_69()
     today_rows = build_today_rows(presentation_rows)
     footprint = build_footprint(presentation_rows)
 
@@ -1686,6 +1839,9 @@ def main() -> None:
     write_jsonl(OUT / "passage_liturgical_footprint.jsonl", footprint)
     write_csv(OUT / "source_registry.csv", SOURCE_REGISTRY, ["source_key", "title", "url", "authority_tier", "confidence", "notes"])
     write_jsonl(OUT / "source_registry.jsonl", SOURCE_REGISTRY)
+    foundational_fields = ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_basis", "verification_status"]
+    write_csv(OUT / "foundational_reading_collections_69.csv", foundational_69, foundational_fields)
+    write_jsonl(OUT / "foundational_reading_collections_69.jsonl", foundational_69)
 
     write_article()
     write_spec(schema)
@@ -1702,6 +1858,7 @@ def main() -> None:
         "synaxarium_commemoration_rows": len(commems),
         "synaxarium_bridge_rows": len(bridge),
         "passage_footprint_rows": len(footprint),
+        "foundational_reading_collection_rows": len(foundational_69),
     }
     write_site_integration_spec(summary)
     update_open_questions(commems, bridge, temporal_residue)
