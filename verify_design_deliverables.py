@@ -84,8 +84,10 @@ def verify_content_rules() -> None:
         fail("Article must use Teaching guide heading")
     if "Lesson Guide" in article:
         fail("Article must not use Lesson Guide wording")
-    if "Scripture is from NKJV." not in article:
-        fail("Reader-facing Scripture source wording must be exactly: Scripture is from NKJV.")
+    if "Scripture references follow NKJV versification." not in article:
+        fail("Reader-facing Scripture source wording must be exactly: Scripture references follow NKJV versification.")
+    if "Scripture is from NKJV." in article:
+        fail("Article must not claim NKJV verse text is reproduced when only versification is used")
     reader_facing_policy_terms = ["permission", "permissions", "rights", "source-policy", "source policy"]
     policy_hits = [term for term in reader_facing_policy_terms if re.search(rf"\b{re.escape(term)}\b", article, re.I)]
     if policy_hits:

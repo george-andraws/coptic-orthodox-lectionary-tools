@@ -141,7 +141,7 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 
 ## Sources
 
-Scripture is from NKJV.
+Scripture references follow NKJV versification.
 
 ### Primary liturgical and Coptic Orthodox sources
 

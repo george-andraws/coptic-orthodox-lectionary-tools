@@ -142,3 +142,10 @@
 - What was done: Updated the article to state that the Ottawa/UKMID Katameros of the Days presents the same practical second-volume collection in English, with the basis stated as source identity, volume placement, function, and count. Removed the stale open question about the full English list of the 69 because the Ottawa/UKMID TOC now supplies the controlled roster for this run.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 2b accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 2c NKJV wording
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Check performed: Scanned `coptic-lectionary-and-synaxarium.md` for NKJV references, block quotes, and verse-like reproduced text. The article contains Scripture references and no NKJV verse text.
+- What was done: Changed the source line from `Scripture is from NKJV.` to `Scripture references follow NKJV versification.` Updated `verify_design_deliverables.py` so the verifier enforces the new Step 2c wording and rejects the old wording.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed after the verifier was updated to match the Step 2c requirement.
+- Acceptance result: Step 2c accepted. Commit hash: pending this commit.
