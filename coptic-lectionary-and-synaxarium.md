@@ -103,7 +103,7 @@ This honesty prevents false contradictions. It also protects the Church's liturg
 
 The Synaxarium gives the commemorations of the day. It does not always say, "this reading belongs to this saint." The link between commemoration and reading must therefore be stored with a basis and a caution.
 
-In this design layer, the Synaxarium bridge is deliberately humble. It links the primary commemoration of a fixed Coptic day to that day's Katameros rows with `collection-type` basis and `medium` confidence. That means it is useful for discovery, but it is not direct proof that every reading is a proper reading for the named commemoration.
+In this design layer, the Synaxarium bridge is deliberately humble. Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection are marked `explicit` and `high` for the source-row bridge. Outside those 69 days, bridge rows remain `collection-type` and `medium`. The bridge is useful for discovery, but it is not direct proof that every reading is a proper reading for the named commemoration.
 
 This matters because some days have multiple commemorations. A martyr, a patriarch, and a feast may share the same day. Secondary commemorations may have proper readings only in sources not ingested here. A faithful database should show the link and also show the limit of the evidence.
 
@@ -139,7 +139,7 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 ### Teacher notes
 
 - Emphasize: The Synaxarium is not an appendix. It is part of how the daily cycle is understood.
-- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The bridge is medium-confidence collection-type evidence, not direct proper-reading proof.
+- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The 69-covered bridge rows are explicit source-row links, outside-69 rows remain collection-type links, and neither class is direct proper-reading proof.
 - Clarify: The Sunday program governs when a Coptic day falls on Sunday. Ordinary weekdays follow the Synaxarium.
 - Clarify: Psalm numbering differences are not errors by themselves. They may reflect Masoretic and Septuagint traditions.
 - Connect: The readings should lead to worship, repentance, and union with Christ, not only to data accuracy.

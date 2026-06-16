@@ -199,5 +199,17 @@
 - After distribution: basis `explicit`: 789, `collection-type`: 3,899. Confidence `high`: 789, `medium`: 3,899.
 - Coverage note: 58 foundational Coptic days produced bridge rows and were upgraded. 11 foundational days had no emitted bridge rows because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows.
 - Outside-69 flag: outside the 69, the bridge remains uniformly `basis=collection-type` and `confidence=medium`. This is recorded in `audit_artifacts/open_questions_for_george.md` as a bridge differentiation flag.
+- Supersession note: Earlier Phase 6 bridge basis and confidence counts are historical and are superseded by this Step 7 distribution.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit before/after distribution check. All passed.
 - Acceptance result: Step 7 accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 8 independent audit and revisions
+- Producer of revisions: `openai-codex/gpt-5.5`, xhigh.
+- Auditor: `xai-oauth/grok-4.3`, xhigh, via Hermes CLI one-shot with file, terminal, and web toolsets. Auditor was instructed to inspect only this repo and not edit, commit, or push.
+- Audit pass 1 artifact: `audit_artifacts/step8_grok_audit_pass1.md`.
+- Pass 1 required findings: repo-local locked brief was absent; article and spec bridge prose were stale after Step 7; schema table contracts under-documented emitted outputs; verifier lacked schema/header parity; open questions blurred `removed_marker` rows with other candidate-removed rows.
+- Revisions made after pass 1: added repo-local `05-LECTIONARY-DESIGN.md` from George's supplied identical attachment; updated article/spec bridge wording; expanded schema table contracts; added verifier CSV-header parity; split open-question sections; added per-row `membership_verdict=CONFIRMED_SAME_SET`; added foundational 69 files to the site copy list.
+- Audit pass 2 artifact: `audit_artifacts/step8_grok_audit_pass2.md`.
+- Pass 2 outcome: no data/model required revisions remained. Required repo-state item was to add `05-LECTIONARY-DESIGN.md` to the commit. Advisable items were the Step 7 supersession note and preserving the `removed_marker` prose-pattern vs token decision as an open question.
+- Verification after revisions: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 8 accepted. Commit hash: pending this commit.

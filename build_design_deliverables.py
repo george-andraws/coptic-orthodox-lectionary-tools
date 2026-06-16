@@ -373,6 +373,7 @@ def build_foundational_reading_collections_69() -> list[dict]:
             "source_url": provenance["ottawa_url"],
             "source_locator": f"TOC dated reading section, PDF pages 23 to 26; section begins on printed page {section_page}",
             "membership_status": provenance["membership_status"],
+            "membership_verdict": provenance["verdict_token"],
             "membership_basis": provenance["membership_basis"],
             "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit",
         })
@@ -1404,18 +1405,22 @@ def write_schema() -> dict:
         },
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
-            "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order", "removed_marker", "source_title", "source_edition", "source_locator", "source_url"],
-            "temporal_attestation": ["identity_key", "source_key", "source_title", "source_edition", "source_locator", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to", "removed_marker"],
+            "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
+            "todays_readings_current_practice": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
+            "pascha_attestation": ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"],
             "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
             "temporal_residue": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "removed_marker", "current_authority", "residue_type", "reason", "citation", "attestation_note"],
             "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
             "psalm_mt_lxx_crosswalk": ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"],
             "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
-            "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "extraction_method", "caveat", "source_url", "source_summary"],
-            "synaxarium_reading_bridge": ["commem_id", "reading_identity_key", "slot", "basis", "confidence", "citation"],
+            "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "coptic_day_key", "rank", "title", "type", "extraction_method", "caveat", "source", "source_url", "source_day_title", "source_summary"],
+            "synaxarium_reading_bridge": ["commem_id", "coptic_day_key", "commemoration_title", "commemoration_type", "reading_identity_key", "display_ref", "slot", "basis", "confidence", "citation", "note"],
+            "passage_liturgical_footprint": ["identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "total_occurrences", "current_occurrences", "historical_occurrences", "source_kinds", "sample_liturgical_places", "hour_themes", "patristic_homily_slug", "chapter_study_slug", "audio_slug", "site_note"],
             "source_registry": ["source_key", "title", "edition", "url", "default_locator", "authority_tier", "confidence", "notes"],
-            "passage_source_disclosure": ["identity_key", "display_ref", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_ref", "occasion", "calendar_key", "slot", "current_status", "removed_marker", "citation"],
-            "foundational_reading_collection": ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_basis", "verification_status"],
+            "passage_source_disclosure": ["identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_ref", "occasion", "calendar_key", "day_title", "service_hour", "slot", "current_status", "removed_marker", "citation"],
+            "foundational_reading_collection": ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_verdict", "membership_basis", "verification_status"],
+            "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order", "removed_marker", "source_title", "source_edition", "source_locator", "source_url"],
+            "temporal_attestation": ["identity_key", "source_key", "source_title", "source_edition", "source_locator", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to", "removed_marker"],
         },
     }
     (OUT / "lectionary_schema.json").write_text(json.dumps(schema, indent=2, ensure_ascii=False), encoding="utf-8")
@@ -1528,7 +1533,7 @@ This honesty prevents false contradictions. It also protects the Church's liturg
 
 The Synaxarium gives the commemorations of the day. It does not always say, "this reading belongs to this saint." The link between commemoration and reading must therefore be stored with a basis and a caution.
 
-In this design layer, the Synaxarium bridge is deliberately humble. It links the primary commemoration of a fixed Coptic day to that day's Katameros rows with `collection-type` basis and `medium` confidence. That means it is useful for discovery, but it is not direct proof that every reading is a proper reading for the named commemoration.
+In this design layer, the Synaxarium bridge is deliberately humble. Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection are marked `explicit` and `high` for the source-row bridge. Outside those 69 days, bridge rows remain `collection-type` and `medium`. The bridge is useful for discovery, but it is not direct proof that every reading is a proper reading for the named commemoration.
 
 This matters because some days have multiple commemorations. A martyr, a patriarch, and a feast may share the same day. Secondary commemorations may have proper readings only in sources not ingested here. A faithful database should show the link and also show the limit of the evidence.
 
@@ -1564,7 +1569,7 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 ### Teacher notes
 
 - Emphasize: The Synaxarium is not an appendix. It is part of how the daily cycle is understood.
-- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The bridge is medium-confidence collection-type evidence, not direct proper-reading proof.
+- Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The 69-covered bridge rows are explicit source-row links, outside-69 rows remain collection-type links, and neither class is direct proper-reading proof.
 - Clarify: The Sunday program governs when a Coptic day falls on Sunday. Ordinary weekdays follow the Synaxarium.
 - Clarify: Psalm numbering differences are not errors by themselves. They may reflect Masoretic and Septuagint traditions.
 - Connect: The readings should lead to worship, repentance, and union with Christ, not only to data accuracy.
@@ -1784,13 +1789,18 @@ Each commemoration is stored separately in `out/design/synaxarium_commemorations
 Bridge rows live in `out/design/synaxarium_reading_bridge.csv`:
 
 - `commem_id`
+- `coptic_day_key`
+- `commemoration_title`
+- `commemoration_type`
 - `reading_identity_key`
+- `display_ref`
 - `slot`
 - `basis`
 - `confidence`
 - `citation`
+- `note`
 
-The bridge uses `collection-type` basis for primary day commemorations linked to fixed-day Katameros readings. Multi-commemoration days are confidence `medium` and are listed for review in the open questions file.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection use `explicit` basis and `high` confidence. Outside those 69 days, bridge rows remain `collection-type` and `medium`. Repeated groups are source-row or variant catalog rows, not resolved daily service schedules.
 
 ## Controlled vocabularies
 
@@ -1807,6 +1817,9 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 - `out/design/synaxarium_commemorations.csv`
 - `out/design/synaxarium_reading_bridge.csv`
 - `out/design/foundational_reading_collections_69.csv`
+- `out/design/foundational_reading_collections_69.jsonl`
+- `out/design/passage_source_disclosure.csv`
+- `out/design/passage_source_disclosure.jsonl`
 - `site_integration_spec.md`
 
 ## Acceptance notes
@@ -1836,6 +1849,8 @@ Copy the following from this repo:
 - `coptic-lectionary-and-synaxarium.md`
 - `lectionary_spec.md`
 - `out/design/lectionary_schema.json`
+- `out/design/foundational_reading_collections_69.csv`
+- `out/design/foundational_reading_collections_69.jsonl`
 - `out/design/reverse_lectionary_presentation.csv`
 - `out/design/reverse_lectionary_presentation.jsonl`
 - `out/design/todays_readings_current_practice.csv`
@@ -1929,6 +1944,8 @@ def update_open_questions(commems: list[dict], bridge: list[dict], temporal_resi
     low_bridge = [b for b in bridge if b.get("confidence") == "low" or b.get("basis") == "inferred"]
     residue_counts = Counter(r.get("residue_type", "") for r in temporal_residue)
     candidate_removed = [r for r in temporal_residue if r.get("residue_type") == "candidate_removed_needs_current_authority_confirmation"]
+    removed_marker_rows = [r for r in temporal_residue if r.get("removed_marker")]
+    other_candidate_removed = [r for r in candidate_removed if not r.get("removed_marker")]
     psalm_pending = [r for r in temporal_residue if r.get("residue_type") == "psalm_equivalence_unresolved"]
     current_pending = [r for r in temporal_residue if r.get("residue_type") == "current_authority_pending"]
     foundational_rows = build_foundational_reading_collections_69()
@@ -1960,7 +1977,9 @@ The repo has a locked Coptic Reader fixture for Pascha Wednesday Day only. Curre
 
 ## Pascha removed-reading candidates
 
-Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. George or a liturgical reviewer should decide whether each is truly removed, a named-reading equivalent, or a fixture scope issue.
+Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. Only the passages named in George's removed-marker instruction receive `removed_marker`; other old-edition-only rows remain review candidates without that marker. George or a liturgical reviewer should decide whether each unmarked candidate is truly removed, a named-reading equivalent, or a fixture scope issue.
+
+Marker-format decision: this run keeps `removed_marker` as a uniform prose-pattern string that includes the older source and current comparator. A later model pass should decide whether to keep that pattern or split it into a single controlled token plus a separate note field.
 """
     text += "\n## Temporal residue summary\n\n"
     text += "See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:\n"
@@ -1968,8 +1987,11 @@ Rows absent from the Wednesday Day Coptic Reader fixture but present in older or
         text += f"- `{residue_type}`: {count}\n"
     text += "- `true_source_disagreement`: 0\n"
     text += "\nNo true source-disagreement class was emitted in this run. Unsettled rows are classified as pending authority, historical witness without current comparator, candidate removed, or Psalm-equivalence unresolved.\n"
-    text += "\n### Candidate removed readings needing current-authority confirmation\n\n"
-    for row in candidate_removed:
+    text += "\n### Rows with `removed_marker` populated by George's list\n\n"
+    for row in removed_marker_rows:
+        text += f"- {row.get('day_title')} | {row.get('service_hour')} | {row.get('display_ref')} | {row.get('removed_marker')}\n"
+    text += "\n### Other old-edition-only candidate-removed rows needing review\n\n"
+    for row in other_candidate_removed:
         text += f"- {row.get('day_title')} | {row.get('service_hour')} | {row.get('display_ref')} | {row.get('reason')}\n"
     text += "\n### Psalm equivalence unresolved rows\n\n"
     for row in psalm_pending:
@@ -2070,7 +2092,7 @@ def main() -> None:
     write_jsonl(OUT / "passage_source_disclosure.jsonl", passage_source_disclosure)
     write_csv(OUT / "source_registry.csv", SOURCE_REGISTRY, ["source_key", "title", "edition", "url", "default_locator", "authority_tier", "confidence", "notes"])
     write_jsonl(OUT / "source_registry.jsonl", SOURCE_REGISTRY)
-    foundational_fields = ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_basis", "verification_status"]
+    foundational_fields = ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_verdict", "membership_basis", "verification_status"]
     write_csv(OUT / "foundational_reading_collections_69.csv", foundational_69, foundational_fields)
     write_jsonl(OUT / "foundational_reading_collections_69.jsonl", foundational_69)
 

@@ -11,6 +11,8 @@ Copy the following from this repo:
 - `coptic-lectionary-and-synaxarium.md`
 - `lectionary_spec.md`
 - `out/design/lectionary_schema.json`
+- `out/design/foundational_reading_collections_69.csv`
+- `out/design/foundational_reading_collections_69.jsonl`
 - `out/design/reverse_lectionary_presentation.csv`
 - `out/design/reverse_lectionary_presentation.jsonl`
 - `out/design/todays_readings_current_practice.csv`

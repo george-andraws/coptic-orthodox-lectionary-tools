@@ -24,7 +24,9 @@ The repo has a locked Coptic Reader fixture for Pascha Wednesday Day only. Curre
 
 ## Pascha removed-reading candidates
 
-Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. George or a liturgical reviewer should decide whether each is truly removed, a named-reading equivalent, or a fixture scope issue.
+Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. Only the passages named in George's removed-marker instruction receive `removed_marker`; other old-edition-only rows remain review candidates without that marker. George or a liturgical reviewer should decide whether each unmarked candidate is truly removed, a named-reading equivalent, or a fixture scope issue.
+
+Marker-format decision: this run keeps `removed_marker` as a uniform prose-pattern string that includes the older source and current comparator. A later model pass should decide whether to keep that pattern or split it into a single controlled token plus a separate note field.
 
 ## Temporal residue summary
 
@@ -37,19 +39,22 @@ See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.
 
 No true source-disagreement class was emitted in this run. Unsettled rows are classified as pending authority, historical witness without current comparator, candidate removed, or Psalm-equivalence unresolved.
 
-### Candidate removed readings needing current-authority confirmation
+### Rows with `removed_marker` populated by George's list
+
+- Wednesday | Ninth Hour | Isa 48:1-6 | (removed, attested St. Mary Ottawa Holy Pascha p. 308 line 7779 as Isa 48:1-6; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Ninth Hour | Isa 59:1-17 | (removed, attested St. Mary Ottawa Holy Pascha p. 320 line 8091 as Isa 59:1-17; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Ninth Hour | Prov 1:10-33 | (removed, attested St. Mary Ottawa Holy Pascha p. 318 line 8038 as Prov 1:10-33; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Ninth Hour | Zech 11:11-14 | (removed, attested St. Mary Ottawa Holy Pascha p. 322 line 8133 as Zech 11:11-14; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Sixth Hour | Job 28:1-2 | (removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Sixth Hour | Job 27:16-20 | (removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Third Hour | Prov 4:4-27,5:1-4 | (removed, attested St. Mary Ottawa Holy Pascha p. 299 line 7552 as Prov 4:4-27,5:1-4; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Third Hour | Prov 4:4-5:4 | (removed, attested St. Mary Ottawa Holy Pascha p. 299 line 7552 as Prov 4:4-27,5:1-4; absent from Coptic Reader Wednesday Day fixture supplied by George)
+- Wednesday | Third Hour | Job 27:16-28:2 | (removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)
+
+### Other old-edition-only candidate-removed rows needing review
 
 - Wednesday | First Hour | Wis 1:20-2:15 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | First Hour | Wis 3:12-24 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Ninth Hour | Isa 48:1-6 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Ninth Hour | Isa 59:1-17 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Ninth Hour | Prov 1:10-33 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Ninth Hour | Zech 11:11-14 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Sixth Hour | Job 28:1-2 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Sixth Hour | Job 27:16-20 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Third Hour | Prov 4:4-27,5:1-4 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Third Hour | Prov 4:4-5:4 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
-- Wednesday | Third Hour | Job 27:16-28:2 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 
 ### Psalm equivalence unresolved rows
 

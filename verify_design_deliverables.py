@@ -64,6 +64,11 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def read_header(path: Path) -> list[str]:
+    with path.open(newline="", encoding="utf-8") as f:
+        return next(csv.reader(f))
+
+
 def norm(text: str) -> str:
     text = re.sub(r"^\d+\.\s*", "", text)
     text = re.sub(r"[^a-z0-9 ]+", " ", text.lower())
@@ -127,13 +132,38 @@ def verify_schema() -> None:
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
         "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
         "source_registry": ["source_key", "title", "edition", "default_locator"],
-        "passage_source_disclosure": ["identity_key", "display_ref", "source_key", "source_title", "source_edition", "source_locator", "citation"],
-        "foundational_reading_collection": ["collection_key", "coptic_day_key", "reading_section_start_page", "membership_status", "source_locator"],
+        "passage_source_disclosure": ["identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_key", "source_title", "source_edition", "source_locator", "day_title", "service_hour", "citation"],
+        "foundational_reading_collection": ["collection_key", "coptic_day_key", "reading_section_start_page", "membership_status", "membership_verdict", "source_locator"],
+        "synaxarium_reading_bridge": ["commem_id", "coptic_day_key", "commemoration_title", "commemoration_type", "reading_identity_key", "display_ref", "slot", "basis", "confidence", "citation", "note"],
     }
     for table, fields in table_requirements.items():
         missing_fields = [field for field in fields if field not in tables.get(table, [])]
         if missing_fields:
             fail(f"Schema table {table} missing fields: {missing_fields}")
+    csv_contracts = {
+        "reading_identity": OUT / "reading_identity.csv",
+        "reverse_lectionary_presentation": OUT / "reverse_lectionary_presentation.csv",
+        "todays_readings_current_practice": OUT / "todays_readings_current_practice.csv",
+        "pascha_attestation": OUT / "pascha_attestation.csv",
+        "temporal_classification": OUT / "temporal_classification.csv",
+        "temporal_residue": OUT / "temporal_residue.csv",
+        "temporal_residue_manifest": OUT / "temporal_residue_manifest.csv",
+        "psalm_mt_lxx_crosswalk": OUT / "psalm_mt_lxx_crosswalk.csv",
+        "pascha_attestation_bucket_manifest": OUT / "pascha_attestation_bucket_manifest.csv",
+        "synaxarium_commemoration": OUT / "synaxarium_commemorations.csv",
+        "synaxarium_reading_bridge": OUT / "synaxarium_reading_bridge.csv",
+        "passage_liturgical_footprint": OUT / "passage_liturgical_footprint.csv",
+        "source_registry": OUT / "source_registry.csv",
+        "passage_source_disclosure": OUT / "passage_source_disclosure.csv",
+        "foundational_reading_collection": OUT / "foundational_reading_collections_69.csv",
+    }
+    for table, path in csv_contracts.items():
+        if table not in tables:
+            fail(f"Schema missing emitted table contract: {table}")
+        actual = read_header(path)
+        expected = tables[table]
+        if actual != expected:
+            fail(f"Schema table {table} header mismatch. actual={actual} expected={expected}")
 
 
 def verify_rows() -> None:
@@ -168,6 +198,8 @@ def verify_rows() -> None:
         fail("foundational 69 boundary entries are not the expected Ottawa TOC range")
     if {row.get("membership_status") for row in foundational} != {"confirmed_same_practical_second_volume_collection"}:
         fail("foundational 69 membership status must be uniform and explicit")
+    if {row.get("membership_verdict") for row in foundational} != {"CONFIRMED_SAME_SET"}:
+        fail("foundational 69 membership verdict token must be present per row")
     presentation = read_csv(OUT / "reverse_lectionary_presentation.csv")
     identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")

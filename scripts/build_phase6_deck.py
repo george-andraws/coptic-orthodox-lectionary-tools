@@ -92,7 +92,7 @@ def bullet_lines(items: list[str]) -> str:
     return "\n".join(f"• {item}" for item in items)
 
 
-def build_outline(summary: dict, residue_counts: dict, commem_methods: dict, bridge_conf: dict) -> str:
+def build_outline(summary: dict, residue_counts: dict, commem_methods: dict, bridge_basis: dict, bridge_conf: dict) -> str:
     outline = f"""# Coptic Lectionary Design Layer Deck Outline
 
 Purpose: handoff deck for George before pushing the article and design-layer data into the site repo.
@@ -126,8 +126,9 @@ Visual direction: warm Coptic teaching deck with burgundy, cream, gold, and char
 ## Slide 7 - The Synaxarium bridge is useful and humble
 - Counts: {summary['synaxarium_commemoration_rows']} commemorations, {summary['synaxarium_bridge_rows']} bridge rows.
 - Methods: {json.dumps(commem_methods, sort_keys=True)}.
+- Bridge basis: {json.dumps(bridge_basis, sort_keys=True)}.
 - Bridge confidence: {json.dumps(bridge_conf, sort_keys=True)}.
-- Speaker note: all bridge rows are medium-confidence collection-type discovery links.
+- Speaker note: 69-covered rows are explicit and high confidence; outside-69 rows remain collection-type and medium confidence.
 
 ## Slide 8 - What the site consumes
 - Show article, presentation dataset, today's readings, passage footprint, bridge, open questions, and integration spec.
@@ -141,7 +142,7 @@ Visual direction: warm Coptic teaching deck with burgundy, cream, gold, and char
     return outline
 
 
-def build_deck(summary: dict, residue_counts: dict, commem_methods: dict, bridge_conf: dict) -> Presentation:
+def build_deck(summary: dict, residue_counts: dict, commem_methods: dict, bridge_basis: dict, bridge_conf: dict) -> Presentation:
     prs = Presentation()
     prs.slide_width = Inches(13.333)
     prs.slide_height = Inches(7.5)
@@ -213,8 +214,8 @@ def build_deck(summary: dict, residue_counts: dict, commem_methods: dict, bridge
     add_title(s, "The Synaxarium bridge is useful and humble", "Discovery links, not direct proper-reading proof.")
     add_stat(s, summary["synaxarium_commemoration_rows"], "commemorations", 0.85, 2.0)
     add_stat(s, summary["synaxarium_bridge_rows"], "bridge rows", 3.35, 2.0)
-    add_stat(s, bridge_conf.get("medium", 0), "medium confidence", 5.85, 2.0)
-    add_card(s, "Important limit", "All bridge rows are collection-type links. Repeated slots are source-row or variant catalog entries, not a resolved service schedule.", 8.45, 1.85, 3.9, 2.85, "sage")
+    add_stat(s, bridge_basis.get("explicit", 0), "explicit basis", 5.85, 2.0)
+    add_card(s, "Important limit", "Outside-69 rows remain collection-type and medium confidence. Repeated slots are source-row or variant catalog entries, not a resolved service schedule.", 8.45, 1.85, 3.9, 2.85, "sage")
     add_footer(s, 7)
 
     # 8
@@ -264,9 +265,10 @@ def main() -> None:
     bridge = read_csv(DESIGN / "synaxarium_reading_bridge.csv")
     residue_counts = dict(Counter(r["residue_type"] for r in temporal_residue))
     commem_methods = dict(Counter(r["extraction_method"] for r in commems))
+    bridge_basis = dict(Counter(r["basis"] for r in bridge))
     bridge_conf = dict(Counter(r["confidence"] for r in bridge))
 
-    outline = build_outline(summary, residue_counts, commem_methods, bridge_conf)
+    outline = build_outline(summary, residue_counts, commem_methods, bridge_basis, bridge_conf)
     for word in FORBIDDEN_WORDS:
         if re.search(rf"\b{re.escape(word)}\b", outline, re.I):
             raise AssertionError(f"Forbidden word in deck outline: {word}")
@@ -274,7 +276,7 @@ def main() -> None:
         raise AssertionError("Em dash found in deck outline")
     (OUT / "lectionary_design_layer_deck_outline.md").write_text(outline, encoding="utf-8")
 
-    prs = build_deck(summary, residue_counts, commem_methods, bridge_conf)
+    prs = build_deck(summary, residue_counts, commem_methods, bridge_basis, bridge_conf)
     text = collect_text(prs)
     for word in FORBIDDEN_WORDS:
         if re.search(rf"\b{re.escape(word)}\b", text, re.I):

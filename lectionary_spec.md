@@ -217,13 +217,18 @@ Each commemoration is stored separately in `out/design/synaxarium_commemorations
 Bridge rows live in `out/design/synaxarium_reading_bridge.csv`:
 
 - `commem_id`
+- `coptic_day_key`
+- `commemoration_title`
+- `commemoration_type`
 - `reading_identity_key`
+- `display_ref`
 - `slot`
 - `basis`
 - `confidence`
 - `citation`
+- `note`
 
-The bridge uses `collection-type` basis for primary day commemorations linked to fixed-day Katameros readings. Multi-commemoration days are confidence `medium` and are listed for review in the open questions file.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection use `explicit` basis and `high` confidence. Outside those 69 days, bridge rows remain `collection-type` and `medium`. Repeated groups are source-row or variant catalog rows, not resolved daily service schedules.
 
 ## Controlled vocabularies
 
@@ -240,6 +245,9 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 - `out/design/synaxarium_commemorations.csv`
 - `out/design/synaxarium_reading_bridge.csv`
 - `out/design/foundational_reading_collections_69.csv`
+- `out/design/foundational_reading_collections_69.jsonl`
+- `out/design/passage_source_disclosure.csv`
+- `out/design/passage_source_disclosure.jsonl`
 - `site_integration_spec.md`
 
 ## Acceptance notes
