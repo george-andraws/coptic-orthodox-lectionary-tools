@@ -1,0 +1,293 @@
+{
+  "version": "2026-06-16-design-layer-v1",
+  "principles": [
+    "MT or modern English display is primary for user input and site search.",
+    "Psalm and LXX variants carry canonical fields so source labels do not control identity.",
+    "Temporal status is derived from source attestation, not hand deletion.",
+    "Synaxarium links store their basis and confidence because the Synaxarium text does not explicitly map readings to each commemoration."
+  ],
+  "controlled_vocabularies": {
+    "season": [
+      "Annual",
+      "Kiahk",
+      "Great Lent",
+      "Jonah Fast",
+      "Holy Week",
+      "Holy Pascha",
+      "Bright Saturday",
+      "Holy Fifty Days",
+      "Apostles Fast",
+      "St. Mary Fast",
+      "Nativity Fast",
+      "Fixed feast",
+      "Special service",
+      "Agpeya"
+    ],
+    "occasion": [
+      "annual_fixed_day",
+      "annual_sunday",
+      "great_lent_weekday",
+      "great_lent_sunday",
+      "jonah_fast",
+      "holy_week_hour",
+      "pascha_hour",
+      "bright_saturday",
+      "holy_fifty",
+      "lord_feast",
+      "theotokos_feast",
+      "saint_commemoration",
+      "martyr_commemoration",
+      "patriarch_commemoration",
+      "special_service",
+      "agpeya_hour"
+    ],
+    "occasion_type": {
+      "alias_for": "occasion",
+      "reason": "Use occasion in emitted rows; occasion_type is retained as the conceptual vocabulary name."
+    },
+    "source_authority_tier": [
+      "current_authority",
+      "public_current_practice_reference",
+      "working_local_source",
+      "historical_printed_witness",
+      "scholarly_structural",
+      "synaxarium_text_source",
+      "unclassified"
+    ],
+    "source_convention": [
+      "modern_english_reference",
+      "mt_nkjv",
+      "lxx_liturgical_or_fixture_label"
+    ],
+    "canonicalization_confidence": [
+      "high",
+      "medium",
+      "low",
+      "n/a"
+    ],
+    "current_status": [
+      "current_confirmed_coptic_reader",
+      "current_confirmed_by_fixture_equivalence",
+      "current_psalm_equivalence_unresolved",
+      "historical_candidate_removed",
+      "historical_witness",
+      "current_working_source_not_coptic_reader_checked",
+      "current_public_or_local_reference",
+      "unknown"
+    ],
+    "attestation_bucket": [
+      "current_confirmed",
+      "consensus_without_coptic_reader",
+      "old_edition_only",
+      "old_edition_only_candidate_removed",
+      "single_source_candidate"
+    ],
+    "service": [
+      "Vespers",
+      "Matins",
+      "Liturgy",
+      "First Hour",
+      "Third Hour",
+      "Sixth Hour",
+      "Ninth Hour",
+      "Eleventh Hour",
+      "Twelfth Hour",
+      "Midnight Praises",
+      "Special service",
+      "Agpeya"
+    ],
+    "service_day": [
+      "fixed_coptic_day",
+      "ordinary_sunday",
+      "holy_week_day",
+      "pascha_eve",
+      "pascha_day",
+      "special_service",
+      "agpeya_hour",
+      "source_label_preserved"
+    ],
+    "service_hour": [
+      "Vespers",
+      "Matins",
+      "Liturgy",
+      "First Hour",
+      "Third Hour",
+      "Sixth Hour",
+      "Ninth Hour",
+      "Eleventh Hour",
+      "Twelfth Hour",
+      "Midnight Praises",
+      "source_label_preserved"
+    ],
+    "service_section": [
+      "Vespers",
+      "Matins",
+      "Liturgy",
+      "Midnight Praises",
+      "Prophecies",
+      "Pascha Hour",
+      "Agpeya",
+      "Special Service",
+      "source_label_preserved"
+    ],
+    "hour": [
+      "First Hour",
+      "Third Hour",
+      "Sixth Hour",
+      "Ninth Hour",
+      "Eleventh Hour",
+      "Twelfth Hour"
+    ],
+    "slot": [
+      "prophecy-1",
+      "prophecy-2",
+      "prophecy-3",
+      "prophecy-4",
+      "prophecy-5",
+      "psalm",
+      "gospel",
+      "pauline",
+      "catholic",
+      "praxis",
+      "synaxarium",
+      "homily",
+      "exposition",
+      "hymn",
+      "litany",
+      "source_label_preserved"
+    ],
+    "synaxarium_type": [
+      "lord_feast",
+      "theotokos",
+      "martyr",
+      "apostle",
+      "patriarch",
+      "hierarch",
+      "departure",
+      "prophet",
+      "angel",
+      "ascetic",
+      "feast",
+      "commemoration"
+    ],
+    "bridge_basis": [
+      "explicit",
+      "collection-type",
+      "inferred"
+    ],
+    "bridge_confidence": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "psalm_mapping_scope": [
+      "chapter_equivalence",
+      "split_merge_chapter_seam",
+      "lxx_unique_chapter",
+      "anchored_verse_example",
+      "unresolved_verse_offset_example"
+    ],
+    "current_authority": [
+      "Coptic Reader fixture where captured",
+      "public date-resolved source is reference only",
+      "historical source is witness only",
+      "scholarly source governs structure, not current readings",
+      "not Coptic Reader confirmed"
+    ],
+    "collection_types_69": {
+      "status": "source_confirmed_count_not_fully_enumerated",
+      "confirmed_count": 69,
+      "working_types": [
+        "Lord feasts",
+        "Theotokos feasts",
+        "angels",
+        "apostles",
+        "martyrs",
+        "patriarchs",
+        "hierarchs",
+        "monastics and ascetics",
+        "prophets",
+        "ordinary fixed day",
+        "Sunday monthly program"
+      ],
+      "gap": "Accessible English sources confirm the 69 collections but did not expose the full enumerated list during this run."
+    }
+  },
+  "tables": {
+    "reading_identity": [
+      "identity_key",
+      "reading_type",
+      "reading_name",
+      "source_label",
+      "display_ref",
+      "canonical_mt_ref",
+      "canonical_lxx_ref",
+      "source_convention",
+      "canonicalization_confidence",
+      "canonicalization_note",
+      "spans_json"
+    ],
+    "liturgical_placement": [
+      "identity_key",
+      "occasion",
+      "calendar_key",
+      "day_title",
+      "service_day",
+      "service_hour",
+      "service_section",
+      "slot",
+      "order"
+    ],
+    "temporal_attestation": [
+      "identity_key",
+      "source_key",
+      "source_authority_tier",
+      "current_status",
+      "attestation_bucket",
+      "current_authority",
+      "valid_from",
+      "valid_to"
+    ],
+    "temporal_classification": [
+      "day_title",
+      "service_hour",
+      "identity_key",
+      "display_ref",
+      "lifecycle_status",
+      "current_status",
+      "source_authority_tier",
+      "attestation_bucket",
+      "current_authority",
+      "valid_from",
+      "valid_to",
+      "derivation",
+      "attesting_sources"
+    ],
+    "psalm_mt_lxx_crosswalk": [
+      "mt_psalm",
+      "lxx_psalm",
+      "map_direction",
+      "mapping_scope",
+      "confidence",
+      "validation_basis",
+      "note"
+    ],
+    "synaxarium_commemoration": [
+      "commem_id",
+      "coptic_month",
+      "coptic_day",
+      "rank",
+      "title",
+      "type",
+      "source_url"
+    ],
+    "synaxarium_reading_bridge": [
+      "commem_id",
+      "reading_identity_key",
+      "slot",
+      "basis",
+      "confidence",
+      "citation"
+    ]
+  }
+}

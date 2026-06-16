@@ -31,6 +31,8 @@ This spec defines the additive design layer produced in this repo for George's C
 Each reading has:
 
 - `identity_key`, a deterministic hash over reading type and canonical fields.
+- `reading_name`, for named non-verse readings such as `Memoirs of Job`.
+- `source_label`, the raw or preserved source label used for matching.
 - `display_ref`, MT or modern English primary with LXX annotation for Psalms where different.
 - `canonical_mt_ref`.
 - `canonical_lxx_ref`.
@@ -39,7 +41,9 @@ Each reading has:
 - `canonicalization_note`.
 - `spans_json`, an ordered list of parsed spans.
 
-Named readings such as `Memoirs of Job` are stored as `named-reading` and do not enter normal passage search unless later resolved to a verse span by source.
+The `spans_json` value is an ordered list of span objects. Each span carries `source_ref`, `source_convention`, `canonical_mt_ref`, `canonical_lxx_ref`, `confidence`, `validation_basis`, `book`, `chapter_start`, `verse_start`, `chapter_end`, and `verse_end`. Composite and cross-Psalm references are therefore not reduced to one flattened range.
+
+Named readings such as `Memoirs of Job` are stored as `named-reading` with `reading_name`; they do not enter normal passage search unless later resolved to a verse span by source.
 
 ## Liturgical placement
 
@@ -91,18 +95,21 @@ Public or local current-reference rows are not the same as Coptic Reader-confirm
 The machine-readable source of truth is `out/design/lectionary_schema.json`. It includes explicit values for:
 
 - `source_convention`: `modern_english_reference`, `mt_nkjv`, `lxx_liturgical_or_fixture_label`.
+- `occasion`: emitted placement category; `occasion_type` is retained in the schema as an alias for the same conceptual vocabulary.
 - `canonicalization_confidence`: `high`, `medium`, `low`, `n/a`.
 - `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `current_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
+- `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.
 - `slot`: normalized Scripture and liturgical slots plus `source_label_preserved`.
+- Psalm `mapping_scope`: `chapter_equivalence`, `split_merge_chapter_seam`, `lxx_unique_chapter`, `anchored_verse_example`, `unresolved_verse_offset_example`.
 - Synaxarium `type`: `lord_feast`, `theotokos`, `martyr`, `apostle`, `patriarch`, `hierarch`, `departure`, `prophet`, `angel`, `ascetic`, `feast`, `commemoration`.
 - bridge `basis`: `explicit`, `collection-type`, `inferred`.
 - bridge `confidence`: `high`, `medium`, `low`.
 
 ## Psalm MT to LXX crosswalk
 
-The design layer includes `out/design/psalm_mt_lxx_crosswalk.csv`. It encodes the chapter seams from the design brief. It does not guess verse offsets except where prior content comparison already established an example. Exact verse work still requires Brenton text comparison.
+The design layer includes `out/design/psalm_mt_lxx_crosswalk.csv`. It encodes chapter seams from the design brief and separates `mapping_scope` values for chapter equivalence, split/merge chapter seams, LXX-only Psalm 151, anchored verse examples, and unresolved verse-offset examples. It does not guess verse offsets except where Brenton/KJV content comparison established an example.
 
 ## Synaxarium model
 
