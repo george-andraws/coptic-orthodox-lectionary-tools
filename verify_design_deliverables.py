@@ -100,6 +100,8 @@ def verify_schema() -> None:
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
         "temporal_attestation": ["source_authority_tier", "attestation_bucket", "current_authority"],
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
+        "temporal_residue": ["residue_type", "reason", "citation", "attestation_note"],
+        "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
         "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
     }
@@ -120,6 +122,8 @@ def verify_rows() -> None:
         "pascha_attestation_rows": OUT / "pascha_attestation.csv",
         "pascha_attestation_bucket_manifest_rows": OUT / "pascha_attestation_bucket_manifest.csv",
         "temporal_classification_rows": OUT / "temporal_classification.csv",
+        "temporal_residue_rows": OUT / "temporal_residue.csv",
+        "temporal_residue_manifest_rows": OUT / "temporal_residue_manifest.csv",
         "synaxarium_commemoration_rows": OUT / "synaxarium_commemorations.csv",
         "synaxarium_bridge_rows": OUT / "synaxarium_reading_bridge.csv",
         "passage_footprint_rows": OUT / "passage_liturgical_footprint.csv",
@@ -139,6 +143,8 @@ def verify_rows() -> None:
     temporal = read_csv(OUT / "temporal_classification.csv")
     attestation = read_csv(OUT / "pascha_attestation.csv")
     attestation_manifest = read_csv(OUT / "pascha_attestation_bucket_manifest.csv")
+    temporal_residue = read_csv(OUT / "temporal_residue.csv")
+    temporal_residue_manifest = read_csv(OUT / "temporal_residue_manifest.csv")
     allowed_current_authority = set(schema.get("controlled_vocabularies", {}).get("current_authority", []))
     for field in ["source_authority_tier", "attestation_bucket", "current_authority", "current_status"]:
         if any(field not in row for row in temporal[:10]):
@@ -146,6 +152,28 @@ def verify_rows() -> None:
     unknown_authority = sorted({row.get("current_authority", "") for row in temporal if row.get("current_authority", "") not in allowed_current_authority})
     if unknown_authority:
         fail(f"Temporal classification current_authority outside schema vocabulary: {unknown_authority}")
+    non_current_temporal = [row for row in temporal if row.get("lifecycle_status") != "current"]
+    if len(temporal_residue) != len(non_current_temporal):
+        fail(f"Temporal residue row count {len(temporal_residue)} != non-current temporal rows {len(non_current_temporal)}")
+    if any(not row.get("residue_type") or not row.get("reason") for row in temporal_residue):
+        fail("Temporal residue row missing residue_type or reason")
+    residue_types = {row.get("residue_type", "") for row in temporal_residue}
+    required_residue_types = {"current_authority_pending", "historical_witness_no_current_comparator", "candidate_removed_needs_current_authority_confirmation", "psalm_equivalence_unresolved"}
+    if not required_residue_types.issubset(residue_types):
+        fail(f"Temporal residue missing required types: {sorted(required_residue_types - residue_types)}")
+    unresolved_temporal = [row for row in temporal if "pending_psalm_equivalence_unresolved" in row.get("current_status", "")]
+    unresolved_residue = [row for row in temporal_residue if row.get("residue_type") == "psalm_equivalence_unresolved"]
+    if len(unresolved_temporal) != len(unresolved_residue):
+        fail(f"Temporal unresolved Psalm residue count {len(unresolved_residue)} != temporal unresolved count {len(unresolved_temporal)}")
+    residue_manifest_counts = {row.get("residue_type", ""): int(row.get("row_count", "0") or 0) for row in temporal_residue_manifest}
+    for residue_type in required_residue_types:
+        actual = sum(1 for row in temporal_residue if row.get("residue_type") == residue_type)
+        if residue_manifest_counts.get(residue_type) != actual:
+            fail(f"Temporal residue manifest count mismatch for {residue_type}: {residue_manifest_counts.get(residue_type)} != {actual}")
+    if residue_manifest_counts.get("true_source_disagreement") != 0:
+        fail("Temporal residue manifest should state zero true_source_disagreement rows for this run")
+    if any(row.get("current_authority") == "not Coptic Reader confirmed" for row in temporal):
+        fail("Temporal classification still uses overbroad current_authority wording")
     required = ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "source_key", "current_status", "authority_tier", "spans_json"]
     allowed_statuses = set(schema.get("controlled_vocabularies", {}).get("current_status", []))
     allowed_authority_tiers = set(schema.get("controlled_vocabularies", {}).get("source_authority_tier", []))

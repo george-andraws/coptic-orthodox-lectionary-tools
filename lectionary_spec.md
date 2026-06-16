@@ -70,7 +70,7 @@ The design layer uses these status classes:
 
 - `current_confirmed_coptic_reader`
 - `current_confirmed_by_fixture_equivalence`
-- `current_psalm_equivalence_unresolved`
+- `pending_psalm_equivalence_unresolved`
 - `historical_candidate_removed`
 - `historical_witness`
 - `current_working_source_not_coptic_reader_checked`
@@ -97,7 +97,7 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - `source_convention`: `modern_english_reference`, `mt_nkjv`, `lxx_liturgical_or_fixture_label`.
 - `occasion`: emitted placement category; `occasion_type` is retained in the schema as an alias for the same conceptual vocabulary.
 - `canonicalization_confidence`: `high`, `medium`, `low`, `n/a`.
-- `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `current_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
+- `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `pending_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
 - `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.

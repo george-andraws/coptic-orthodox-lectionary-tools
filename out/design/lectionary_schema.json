@@ -68,7 +68,7 @@
     "current_status": [
       "current_confirmed_coptic_reader",
       "current_confirmed_by_fixture_equivalence",
-      "current_psalm_equivalence_unresolved",
+      "pending_psalm_equivalence_unresolved",
       "historical_candidate_removed",
       "historical_witness",
       "current_working_source_not_coptic_reader_checked",
@@ -192,7 +192,7 @@
       "public date-resolved source is reference only",
       "historical source is witness only",
       "scholarly source governs structure, not current readings",
-      "not Coptic Reader confirmed"
+      "no scoped current authority confirmation"
     ],
     "collection_types_69": {
       "status": "source_confirmed_count_not_fully_enumerated",
@@ -262,6 +262,26 @@
       "valid_to",
       "derivation",
       "attesting_sources"
+    ],
+    "temporal_residue": [
+      "day_title",
+      "service_hour",
+      "identity_key",
+      "display_ref",
+      "lifecycle_status",
+      "attestation_bucket",
+      "current_status",
+      "current_authority",
+      "residue_type",
+      "reason",
+      "citation",
+      "attestation_note"
+    ],
+    "temporal_residue_manifest": [
+      "residue_type",
+      "row_count",
+      "present_in_phase4",
+      "note"
     ],
     "psalm_mt_lxx_crosswalk": [
       "mt_psalm",

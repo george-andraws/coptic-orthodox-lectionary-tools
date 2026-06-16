@@ -20,6 +20,66 @@ The repo has a locked Coptic Reader fixture for Pascha Wednesday Day only. Curre
 
 Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. George or a liturgical reviewer should decide whether each is truly removed, a named-reading equivalent, or a fixture scope issue.
 
+## Temporal residue summary
+
+See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:
+- `candidate_removed_needs_current_authority_confirmation`: 7
+- `current_authority_pending`: 255
+- `historical_witness_no_current_comparator`: 152
+- `psalm_equivalence_unresolved`: 5
+- `true_source_disagreement`: 0
+
+No true source-disagreement class was emitted in this run. Unsettled rows are classified as pending authority, historical witness without current comparator, candidate removed, or Psalm-equivalence unresolved.
+
+### Candidate removed readings needing current-authority confirmation
+
+- Wednesday | First Hour | Wis 1:20-2:15 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | First Hour | Wis 3:12-24 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Ninth Hour | Isa 59:1-17 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Ninth Hour | Zech 11:11-14 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Sixth Hour | Job 28:1-2 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Sixth Hour | Job 27:16-20 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Third Hour | Prov 4:4-5:4 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+
+### Psalm equivalence unresolved rows
+
+- Wednesday | Eleventh Hour | Ps 6:2-3 | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 6:2-3; Ps 69:17; John 12:27-36
+- Wednesday | Eleventh Hour | Ps 69:17 (LXX Ps 68:17) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 6:2-3; Ps 69:17; John 12:27-36
+- Wednesday | Ninth Hour | Ps 41:5-6 (LXX Ps 40:5-6) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 41:5-6; Matt 26:3-16
+- Wednesday | Sixth Hour | Ps 83:2,83:5 (LXX Ps 82:2; Ps 82:5) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 83:2,5; John 12:1-8
+- Wednesday | Third Hour | Ps 41:6,41:1 (LXX Ps 40:6; Ps 40:1) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 41:6,1; Luke 22:1-6
+
+### Current-authority pending class
+
+There are 255 rows not checked by a captured Coptic Reader fixture and not confirmed by two independent sources. Use `out/design/temporal_residue.csv` for the full list. Sample rows:
+- Bright Saturday | Liturgy | Ps 3:5,3:3
+- Bright Saturday | Liturgy | 1Cor 15:1-22
+- Bright Saturday | Liturgy | Acts 3:12-21
+- Bright Saturday | Liturgy | Matt 28:1-20
+- Bright Saturday | Liturgy | 1Pet 1:1-9
+- Bright Saturday | Liturgy | Ps 82:8 (LXX Ps 81:8)
+- Good Friday | Eleventh Hour | Jer 12:1-14
+- Good Friday | Eleventh Hour | Matt 27:51-56
+- Good Friday | Eleventh Hour | Isa 3:5-12
+- Good Friday | Eleventh Hour | Lk 23:47-49
+- Good Friday | Eleventh Hour | Mark 15:38-41
+- Good Friday | Eleventh Hour | Jn 19:31-37
+- Good Friday | Eleventh Hour | Ps 31:5 (LXX Ps 30:5)
+- Good Friday | Eleventh Hour | Ps 143:6,143:7 (LXX Ps 142:6; Ps 142:7)
+- Good Friday | First Hour | Deut 8:19-9:24
+- Good Friday | First Hour | Jn 18:28-40
+- Good Friday | First Hour | Job 12:18-13:1
+- Good Friday | First Hour | Isa 24:1-13
+- Good Friday | First Hour | Mic 7:1-8
+- Good Friday | First Hour | Ps 35:11,35:12,35:16 (LXX Ps 34:11; Ps 34:12; Ps 34:16)
+- Good Friday | First Hour | Isa 1:2-9
+- Good Friday | First Hour | Wis 2:12-22
+- Good Friday | First Hour | Ps 27:12 (LXX Ps 26:12)
+- Good Friday | First Hour | Jer 22:29-23:6
+- Good Friday | First Hour | Mark 15:1-5
+- ... 230 more current-authority pending rows.
+
+
 ## Synaxarium bridge review
 
 The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings with basis `collection-type`. Multi-commemoration days are confidence `medium`, because secondary commemorations may have proper readings only in sources not ingested here.

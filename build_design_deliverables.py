@@ -516,7 +516,7 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
         if key in current_fixture_keys:
             return "current_confirmed_by_fixture_equivalence", "Matched the Coptic Reader Wednesday Day fixture after normalization."
         if row.get("reading_type") in {"Psalm+Gospel", "psalm", "gospel"}:
-            return "current_psalm_equivalence_unresolved", "Psalm or bundled Psalm+Gospel row needs screenshot-level Psalm convention review."
+            return "pending_psalm_equivalence_unresolved", "Psalm or bundled Psalm+Gospel row needs screenshot-level Psalm convention review."
         return "historical_candidate_removed", "Present in older/local Pascha data but absent from the Coptic Reader Wednesday Day fixture."
     if source_kind == "pascha_source_text":
         return "historical_witness", "Printed-source witness retained for historical comparison."
@@ -649,7 +649,7 @@ def row_citation(row: dict) -> str:
 
 
 def attestation_note(bucket: str, rows: list[dict], statuses: list[str]) -> str:
-    if "current_psalm_equivalence_unresolved" in statuses:
+    if "pending_psalm_equivalence_unresolved" in statuses:
         refs = "; ".join(sorted(set(r.get("source_ref", "") or r.get("raw_ref", "") for r in rows)))
         return "Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: " + refs
     if bucket == "old_edition_only_candidate_removed":
@@ -707,7 +707,7 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             current_authority = "historical source is witness only"
         else:
             valid_from, valid_to, lifecycle = "undated", "", "candidate_current_pending_current_authority_check"
-            current_authority = "not Coptic Reader confirmed"
+            current_authority = "no scoped current authority confirmation"
         temporal.append({
             "day_title": day,
             "service_hour": hour,
@@ -735,6 +735,70 @@ def build_attestation_bucket_manifest(attestation: list[dict], schema: dict) -> 
             "row_count": counts.get(bucket, 0),
             "present_in_phase3": "yes" if counts.get(bucket, 0) else "no",
             "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.",
+        })
+    return rows
+
+
+def build_temporal_residue(temporal: list[dict], attestation: list[dict]) -> list[dict]:
+    att_by_key = {
+        (row.get("day_title", ""), row.get("service_hour", ""), row.get("identity_key", "")): row
+        for row in attestation
+    }
+    rows = []
+    for row in temporal:
+        if row.get("lifecycle_status") == "current":
+            continue
+        key = (row.get("day_title", ""), row.get("service_hour", ""), row.get("identity_key", ""))
+        att = att_by_key.get(key, {})
+        statuses = row.get("current_status", "")
+        bucket = row.get("attestation_bucket", "")
+        if "pending_psalm_equivalence_unresolved" in statuses:
+            residue_type = "psalm_equivalence_unresolved"
+            reason = "Psalm candidate has not been promoted because the exact Brenton/KJV verse-boundary equivalence is not encoded."
+        elif bucket == "old_edition_only_candidate_removed":
+            residue_type = "candidate_removed_needs_current_authority_confirmation"
+            reason = "Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture."
+        elif bucket == "old_edition_only":
+            residue_type = "historical_witness_no_current_comparator"
+            reason = "Historical printed witness has no captured current Coptic Reader comparator in this run."
+        elif bucket == "single_source_candidate":
+            residue_type = "current_authority_pending"
+            reason = "Single current/reference source candidate has no scoped current authority confirmation and is not confirmed by two independent sources."
+        else:
+            residue_type = "temporal_residue"
+            reason = "Non-current temporal classification requires review before stronger publication wording."
+        rows.append({
+            "day_title": row.get("day_title", ""),
+            "service_hour": row.get("service_hour", ""),
+            "identity_key": row.get("identity_key", ""),
+            "display_ref": row.get("display_ref", ""),
+            "lifecycle_status": row.get("lifecycle_status", ""),
+            "attestation_bucket": bucket,
+            "current_status": statuses,
+            "current_authority": row.get("current_authority", ""),
+            "residue_type": residue_type,
+            "reason": reason,
+            "citation": att.get("citation", ""),
+            "attestation_note": att.get("attestation_note", ""),
+        })
+    return rows
+
+
+def build_temporal_residue_manifest(temporal_residue: list[dict]) -> list[dict]:
+    counts = Counter(row.get("residue_type", "") for row in temporal_residue)
+    rows = []
+    for residue_type in [
+        "current_authority_pending",
+        "historical_witness_no_current_comparator",
+        "candidate_removed_needs_current_authority_confirmation",
+        "psalm_equivalence_unresolved",
+        "true_source_disagreement",
+    ]:
+        rows.append({
+            "residue_type": residue_type,
+            "row_count": counts.get(residue_type, 0),
+            "present_in_phase4": "yes" if counts.get(residue_type, 0) else "no",
+            "note": "True source disagreements are zero in this run; unresolved rows are classified separately by evidence class." if residue_type == "true_source_disagreement" else "Temporal residue evidence class emitted for Phase 4 review.",
         })
     return rows
 
@@ -915,7 +979,7 @@ def write_schema() -> dict:
             "source_authority_tier": ["current_authority", "public_current_practice_reference", "working_local_source", "historical_printed_witness", "scholarly_structural", "synaxarium_text_source", "unclassified"],
             "source_convention": ["modern_english_reference", "mt_nkjv", "lxx_liturgical_or_fixture_label"],
             "canonicalization_confidence": ["high", "medium", "low", "n/a"],
-            "current_status": ["current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "current_psalm_equivalence_unresolved", "historical_candidate_removed", "historical_witness", "current_working_source_not_coptic_reader_checked", "current_public_or_local_reference", "unknown"],
+            "current_status": ["current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "pending_psalm_equivalence_unresolved", "historical_candidate_removed", "historical_witness", "current_working_source_not_coptic_reader_checked", "current_public_or_local_reference", "unknown"],
             "attestation_bucket": ["current_confirmed", "consensus_without_coptic_reader", "old_edition_only", "old_edition_only_candidate_removed", "single_source_candidate"],
             "service": SERVICE_ENUM,
             "service_day": ["fixed_coptic_day", "ordinary_sunday", "holy_week_day", "pascha_eve", "pascha_day", "special_service", "agpeya_hour", "source_label_preserved"],
@@ -927,7 +991,7 @@ def write_schema() -> dict:
             "bridge_basis": ["explicit", "collection-type", "inferred"],
             "bridge_confidence": ["high", "medium", "low"],
             "psalm_mapping_scope": ["chapter_equivalence", "split_merge_chapter_seam", "lxx_unique_chapter", "anchored_verse_example", "unresolved_verse_offset_example"],
-            "current_authority": ["Coptic Reader fixture where captured", "public date-resolved source is reference only", "historical source is witness only", "scholarly source governs structure, not current readings", "not Coptic Reader confirmed"],
+            "current_authority": ["Coptic Reader fixture where captured", "public date-resolved source is reference only", "historical source is witness only", "scholarly source governs structure, not current readings", "no scoped current authority confirmation"],
             "collection_types_69": {
                 "status": "source_confirmed_count_not_fully_enumerated",
                 "confirmed_count": 69,
@@ -940,6 +1004,8 @@ def write_schema() -> dict:
             "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order"],
             "temporal_attestation": ["identity_key", "source_key", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to"],
             "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
+            "temporal_residue": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "current_authority", "residue_type", "reason", "citation", "attestation_note"],
+            "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
             "psalm_mt_lxx_crosswalk": ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"],
             "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
             "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "source_url"],
@@ -1194,7 +1260,7 @@ The design layer uses these status classes:
 
 - `current_confirmed_coptic_reader`
 - `current_confirmed_by_fixture_equivalence`
-- `current_psalm_equivalence_unresolved`
+- `pending_psalm_equivalence_unresolved`
 - `historical_candidate_removed`
 - `historical_witness`
 - `current_working_source_not_coptic_reader_checked`
@@ -1221,7 +1287,7 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - `source_convention`: `modern_english_reference`, `mt_nkjv`, `lxx_liturgical_or_fixture_label`.
 - `occasion`: emitted placement category; `occasion_type` is retained in the schema as an alias for the same conceptual vocabulary.
 - `canonicalization_confidence`: `high`, `medium`, `low`, `n/a`.
-- `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `current_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
+- `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `pending_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
 - `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.
@@ -1363,10 +1429,14 @@ After George pushes, verify the plain public URL, not only a cache-busted URL. A
     (ROOT / "site_integration_spec.md").write_text(text, encoding="utf-8")
 
 
-def update_open_questions(commems: list[dict], bridge: list[dict]) -> None:
+def update_open_questions(commems: list[dict], bridge: list[dict], temporal_residue: list[dict]) -> None:
     multi_days = Counter(c["coptic_day_key"] for c in commems)
     ambiguous = sorted(day for day, count in multi_days.items() if count > 1)
     low_bridge = [b for b in bridge if b.get("confidence") == "low" or b.get("basis") == "inferred"]
+    residue_counts = Counter(r.get("residue_type", "") for r in temporal_residue)
+    candidate_removed = [r for r in temporal_residue if r.get("residue_type") == "candidate_removed_needs_current_authority_confirmation"]
+    psalm_pending = [r for r in temporal_residue if r.get("residue_type") == "psalm_equivalence_unresolved"]
+    current_pending = [r for r in temporal_residue if r.get("residue_type") == "current_authority_pending"]
     text = """# Open Questions and Decisions for George
 
 This file collects only the questions that thorough research, source comparison, and independent audit could not settle during the autonomous lectionary execution run.
@@ -1388,6 +1458,26 @@ The repo has a locked Coptic Reader fixture for Pascha Wednesday Day only. Curre
 ## Pascha removed-reading candidates
 
 Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. George or a liturgical reviewer should decide whether each is truly removed, a named-reading equivalent, or a fixture scope issue.
+"""
+    text += "\n## Temporal residue summary\n\n"
+    text += "See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:\n"
+    for residue_type, count in sorted(residue_counts.items()):
+        text += f"- `{residue_type}`: {count}\n"
+    text += "- `true_source_disagreement`: 0\n"
+    text += "\nNo true source-disagreement class was emitted in this run. Unsettled rows are classified as pending authority, historical witness without current comparator, candidate removed, or Psalm-equivalence unresolved.\n"
+    text += "\n### Candidate removed readings needing current-authority confirmation\n\n"
+    for row in candidate_removed:
+        text += f"- {row.get('day_title')} | {row.get('service_hour')} | {row.get('display_ref')} | {row.get('reason')}\n"
+    text += "\n### Psalm equivalence unresolved rows\n\n"
+    for row in psalm_pending:
+        text += f"- {row.get('day_title')} | {row.get('service_hour')} | {row.get('display_ref')} | {row.get('attestation_note') or row.get('reason')}\n"
+    text += "\n### Current-authority pending class\n\n"
+    text += f"There are {len(current_pending)} rows not checked by a captured Coptic Reader fixture and not confirmed by two independent sources. Use `out/design/temporal_residue.csv` for the full list. Sample rows:\n"
+    for row in current_pending[:25]:
+        text += f"- {row.get('day_title')} | {row.get('service_hour')} | {row.get('display_ref')}\n"
+    if len(current_pending) > 25:
+        text += f"- ... {len(current_pending) - 25} more current-authority pending rows.\n"
+    text += """
 
 ## Synaxarium bridge review
 
@@ -1419,6 +1509,8 @@ def main() -> None:
     psalm_rows = build_psalm_crosswalk()
     attestation, temporal = build_attestation(presentation_rows)
     attestation_bucket_manifest = build_attestation_bucket_manifest(attestation, schema)
+    temporal_residue = build_temporal_residue(temporal, attestation)
+    temporal_residue_manifest = build_temporal_residue_manifest(temporal_residue)
     commems, bridge = build_synaxarium()
     today_rows = build_today_rows(presentation_rows)
     footprint = build_footprint(presentation_rows)
@@ -1441,6 +1533,11 @@ def main() -> None:
     write_jsonl(OUT / "pascha_attestation_bucket_manifest.jsonl", attestation_bucket_manifest)
     write_csv(OUT / "temporal_classification.csv", temporal, ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"])
     write_jsonl(OUT / "temporal_classification.jsonl", temporal)
+    temporal_residue_fields = ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "current_authority", "residue_type", "reason", "citation", "attestation_note"]
+    write_csv(OUT / "temporal_residue.csv", temporal_residue, temporal_residue_fields)
+    write_jsonl(OUT / "temporal_residue.jsonl", temporal_residue)
+    write_csv(OUT / "temporal_residue_manifest.csv", temporal_residue_manifest, ["residue_type", "row_count", "present_in_phase4", "note"])
+    write_jsonl(OUT / "temporal_residue_manifest.jsonl", temporal_residue_manifest)
     write_csv(OUT / "synaxarium_commemorations.csv", commems, ["commem_id", "coptic_month", "coptic_day", "coptic_day_key", "rank", "title", "type", "source", "source_url", "source_day_title", "source_summary"])
     write_jsonl(OUT / "synaxarium_commemorations.jsonl", commems)
     write_csv(OUT / "synaxarium_reading_bridge.csv", bridge, ["commem_id", "coptic_day_key", "commemoration_title", "commemoration_type", "reading_identity_key", "display_ref", "slot", "basis", "confidence", "citation", "note"])
@@ -1460,12 +1557,14 @@ def main() -> None:
         "pascha_attestation_rows": len(attestation),
         "pascha_attestation_bucket_manifest_rows": len(attestation_bucket_manifest),
         "temporal_classification_rows": len(temporal),
+        "temporal_residue_rows": len(temporal_residue),
+        "temporal_residue_manifest_rows": len(temporal_residue_manifest),
         "synaxarium_commemoration_rows": len(commems),
         "synaxarium_bridge_rows": len(bridge),
         "passage_footprint_rows": len(footprint),
     }
     write_site_integration_spec(summary)
-    update_open_questions(commems, bridge)
+    update_open_questions(commems, bridge, temporal_residue)
     (OUT / "BUILD_DESIGN_SUMMARY.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
