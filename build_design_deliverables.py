@@ -1110,32 +1110,39 @@ Saint Athanasius, in his Thirty-Ninth Festal Letter, calls the divine Scriptures
 
 ## What the lectionary is
 
-For the core lectionary books, the Coptic Encyclopedia describes four books used for the readings of the Coptic Church:
+The Coptic Encyclopedia describes the lectionary as a set of four books used for the readings of the Coptic Church: the Annual Katameros, the Great Lent Katameros, the Pascha Katameros, and the Pentecost Katameros. This four-book description concerns the core Katameros lectionary books, not every liturgical, sacramental, Agpeya, Synaxarium, or rite-specific source that may contain readings or commemorative material. Source: Coptic Encyclopedia, "Lectionary."
 
-1. The Annual Katameros, for Sundays and weekdays through the year.
-2. The Great Lent Katameros.
-3. The Pascha Katameros, arranged by the hours of Holy Week.
-4. The Pentecost Katameros, for the Holy Fifty Days.
+A printed Katameros source gives the primary liturgical-book view from inside the tradition. The Ottawa Katameros of the Days says the Coptic and Arabic Katameros was published in five volumes: Volume I for Sundays and Feasts, Volume II for Week Days, Volume III for Great Lent, Volume IV for Holy Week of Pascha, and Volume V for the Fifty Days from Easter to Pentecost. It also says the Katameros of the Days contains Volume II and the church feasts. Source: St. Mary Ottawa, Katameros of the Days, Introduction.
 
-This four-book description concerns the core Katameros lectionary books, not every liturgical, sacramental, Agpeya, Synaxarium, or rite-specific source that may contain readings or commemorative material.
+These two descriptions should be read together. The scholarly four-book frame names the main lectionary families. The printed volume frame shows how the annual material is split for use, especially the Sunday and weekday materials of the Yearly Katameros. Source: Coptic Encyclopedia, "Lectionary"; St. Mary Ottawa, Katameros of the Days.
 
-The word Katameros means "according to the parts" or "in parts." This is exactly what the book does. It gives the appointed parts of Scripture to be read at each service, feast, fast, and commemoration.
+The word Katameros means "according to the parts" or "in parts." This is exactly what the book does. It gives the appointed parts of Scripture to be read at each service, feast, fast, and commemoration. Source: Coptic Encyclopedia, "Lectionary."
 
 ## The year has a spiritual grammar
 
-The Coptic calendar gives the fixed framework of the year. Feasts such as Nayrouz, Nativity, Theophany, and the feasts of saints are tied to Coptic dates. Pascha and the Resurrection are movable, calculated according to the Paschal rule received from the ancient Church. Around that movable center, Great Lent, Holy Week, the Resurrection, Ascension, and Pentecost take their place.
+F.N. Youssef explains that the arrangement of Coptic Church readings depends on two calendars: the Coptic calendar and the Hebrew calendar. The Coptic calendar supplies the fixed structure of the year, while the Feast of the Resurrection follows the Hebrew calendar according to the Nicene Paschal rule. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-F.N. Youssef explains that the Coptic readings depend on both the Coptic calendar and the Paschal calculation. The fixed calendar gives the daily and sanctoral rhythm. Pascha gives the saving center of the year.
+Youssef also names the Paschal calculation used to determine the Resurrection date. He calls it the Abuqti calculation, says it was developed by the Egyptian astronomer Ptolemy al-Farmawi in the time of Pope Demetrius the Vinedresser, and notes that it became known as hisab al-karma, "the calculation of the vine." Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-This is why the lectionary is not flat. A weekday in the Annual cycle, a Sunday of Great Lent, the Sixth Hour of Good Friday, and a day in the Holy Fifty do not function the same way. Each has its own spiritual logic.
+Youssef reads the Coptic agricultural year as a theological pattern. The first season is sowing, and the readings present the love of the Father and the mystery of the Incarnation. The second season is harvest, and the readings present the grace of the Son and the mystery of Redemption. The third season is flooding, and the readings present the gift and fellowship of the Holy Spirit and the mystery of the Church. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
+
+The middle season is movable. Youssef says this harvest season follows the Hebrew calendar rather than the fixed Coptic calendar, because it is tied to Passover and the Resurrection. It runs from the Saturday before Great Lent to the feast of the Descent of the Holy Spirit, a span he gives as 15 weeks or 107 days. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
+
+This is why the lectionary is not flat. A fixed weekday, a Sunday in the Annual cycle, a day of Great Lent, the Sixth Hour of Good Friday, and a day in the Holy Fifty do not function the same way. Each has its own source-governed logic.
 
 ## Sundays, feasts, and the Synaxarium
 
-The Sunday readings are a distinct program. The Sundays of each Coptic month unfold a spiritual theme, especially through the Gospel. When a Coptic day falls on a Sunday, the Sunday program has its own authority.
+The Sunday readings are a distinct program. Youssef states that when a Coptic day falls on a Sunday, the rites and readings follow the Sunday program rather than the weekday program. The Church provides readings for four Sundays each month, and the readings of every two consecutive months form an eight-Sunday spiritual and theological program. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-Major feasts also govern the day. The feast is not decoration around the readings. The feast tells us how to receive the readings.
+Youssef gives a special rule for fifth Sundays. If the fifth Sunday falls on the 29th of the month, the readings commemorate the Annunciation, Nativity, and Resurrection. If it falls on the 30th, the readings present the feeding of the multitude and the mystery of the Church gathered around Christ. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-For ordinary weekdays, Youssef's principle is essential: the daily readings follow the Synaxarium. The Synaxarium is therefore not a side note after the readings. It is a living index of the daily cycle. The lives of the saints, martyrs, patriarchs, prophets, ascetics, and righteous ones help explain why the Church chose these readings for this day.
+The Coptic Encyclopedia also describes the Sunday Gospel readings as methodically arranged, with the four Sundays of each Coptic month combining to present a theme. This supports treating Sundays as their own program rather than as ordinary weekdays with Sunday labels attached. Source: Coptic Encyclopedia, "Lectionary."
+
+Feasts also have a governed place in the reading year. Youssef says the yearly program is fed not only by Sunday readings, but also by the readings for the seven Major Feasts of the Lord, the seven Minor Feasts of the Lord, and the two Feasts of the Cross. The Ottawa Katameros of the Days gives the primary printed rule that when a major or minor Lord's Feast falls on a Sunday, the feast lessons are read instead of the regular Sunday lessons, with related rules for the Cross Feast, Nayrouz, and the 29th of the month when it is a fifth Sunday. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days, General Remarks.
+
+For ordinary weekdays, Youssef's principle is essential: the daily readings follow the Synaxarium. The theme of each day's readings turns around the occasions commemorated in the Synaxarium, including feasts of the Lord, the Theotokos, angels, martyrs, apostles, patriarchs, ascetics, hermits, and other saints. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
+
+Youssef says the Church arranged 69 foundational readings, al-qira'at al-asasiyya, to cover these commemoration themes throughout the Coptic year, and that they are collected in the second volume of the Yearly Katameros. The Ottawa Katameros of the Days is that weekday and feast volume in English translation, and its table of contents exposes 69 dated feast or commemoration reading sets. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
 
 ## Why the reverse lectionary matters
 
@@ -1187,11 +1194,12 @@ Ask: When you hear a church reading, do you receive it as information, or as the
 
 ### Main movement
 1. Begin with Christ reading Isaiah in Luke 4.
-2. Explain the four lectionary books.
-3. Show how fixed dates and movable Pascha shape the year.
-4. Explain Sundays, feasts, and the Synaxarium.
-5. Show why a reverse lectionary helps Bible study.
-6. End with spiritual obedience and repentance.
+2. Explain the core lectionary books and the printed Yearly Katameros volumes.
+3. Show how the Coptic and Hebrew calendars shape fixed and movable readings.
+4. Explain the three Youssef seasons: sowing, harvest, and flooding.
+5. Explain Sundays, feasts, fifth Sundays, and the Synaxarium.
+6. Show why a reverse lectionary helps Bible study.
+7. End with spiritual obedience and repentance.
 
 ### Key sentence
 The lectionary is the Church teaching us how to hear Scripture with Christ at the center.
@@ -1200,6 +1208,7 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 
 - Emphasize: The Synaxarium is not an appendix. It is part of how the daily cycle is understood.
 - Watch for: Do not imply every Synaxarium entry has an explicit reading assignment. The bridge is medium-confidence collection-type evidence, not direct proper-reading proof.
+- Clarify: The Sunday program governs when a Coptic day falls on Sunday. Ordinary weekdays follow the Synaxarium.
 - Clarify: Psalm numbering differences are not errors by themselves. They may reflect Masoretic and Septuagint traditions.
 - Connect: The readings should lead to worship, repentance, and union with Christ, not only to data accuracy.
 
@@ -1207,25 +1216,30 @@ The lectionary is the Church teaching us how to hear Scripture with Christ at th
 
 1. How does hearing Scripture inside the liturgy change the way we receive it?
 2. Why does it matter that the daily readings follow the Synaxarium?
-3. How can Psalm numbering differences create false conflicts if we do not track the source convention?
-4. What can a reverse lectionary teach that a normal daily-reading page cannot?
-5. Which reading has changed for you because of where the Church places it?
+3. How do the two calendars help explain fixed feasts and movable Pascha?
+4. What is the spiritual pattern of sowing, harvest, and flooding?
+5. How can Psalm numbering differences create false conflicts if we do not track the source convention?
+6. What can a reverse lectionary teach that a normal daily-reading page cannot?
 
 ## Sources
 
 Scripture is from NKJV.
 
-### Primary and Coptic Orthodox sources
+### Primary liturgical and Coptic Orthodox sources
 
-- Coptic Reader app, Pascha Wednesday Day screenshots supplied by George, used as current-practice authority for that fixture scope.
-- St-Takla English Coptic Synaxarium day pages, used as a source map for daily commemorations.
-- copticchurch.net daily readings pages, used as a public date-resolved reading source.
+- St. Mary Coptic Orthodox Church, Ottawa, Katameros of the Days: Readings for Week Days and Feasts, first edition, 1998. Used for the printed Volume II description, weekday and feast volume framing, general reading rules, and the 69 dated table-of-contents entries.
+- St. Mary Coptic Orthodox Church, Ottawa, Katameros of the Sundays: Readings for Sundays and Feasts, second edition, 2004. Used as primary printed evidence for Sunday and feast coverage in the Yearly Katameros.
+- Coptic Reader app, Diocese of the Southern United States, Pascha Wednesday Day screenshots supplied by George. Used as current-practice authority for that fixture scope.
+- St-Takla English Coptic Synaxarium day pages. Used as a source map for daily commemorations.
+- copticchurch.net daily readings pages. Used as a public date-resolved reading source.
 
-### Scholarly and structural sources
+### Secondary scholarship and structural sources
 
-- Coptic Encyclopedia, "Lectionary," Claremont Colleges Digital Library, https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download.
+- Coptic Encyclopedia, "Lectionary," Claremont Colleges Digital Library, https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download. The entry is by Archbishop Basilios and Rene-Georges Coquin.
 - Fouad Naguib Youssef, "The Arrangement of the Church Lectionary," ACCOT, https://accot.stcyrils.edu.au/fny-read1/.
 - Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte, Publications de l'Institut orientaliste de Louvain.
+- O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962.
+- Rene-Georges Coquin, Coptic Encyclopedia liturgical entries and related Coptic liturgical scholarship.
 
 ### Patristic anchor
 
@@ -1237,6 +1251,7 @@ Scripture is from NKJV.
 - Synaxarium: The Church's daily-cycle book or index of commemorations of saints, martyrs, feasts, and events.
 - Pascha: Holy Week, centered on the saving Passion of Christ.
 - Holy Fifty Days: The joyful season from the Resurrection to Pentecost.
+- Abuqti calculation: The Paschal calculation Youssef connects with Ptolemy al-Farmawi and Pope Demetrius the Vinedresser.
 - Septuagint: The ancient Greek Old Testament tradition used deeply in Orthodox worship.
 - Masoretic numbering: The Hebrew numbering often followed by modern English Old Testaments, especially in the Psalms.
 - Attestation: The witness of a source or edition to a reading.
