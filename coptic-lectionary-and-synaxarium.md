@@ -38,7 +38,7 @@ The word Katameros means "according to the parts" or "in parts." This is exactly
 
 ## The year has a spiritual grammar
 
-F.N. Youssef explains that the arrangement of Coptic Church readings depends on two calendars: the Coptic calendar and the Hebrew calendar. The Coptic calendar supplies the fixed structure of the year, while the Feast of the Resurrection follows the Hebrew calendar according to the Nicene Paschal rule. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
+F.N. Youssef explains that the arrangement of Coptic Church readings depends on two calendars: the Coptic calendar and the Hebrew calendar. The Coptic calendar supplies the fixed structure of the year, while the Feast of the Resurrection follows the Hebrew calendar according to the Nicene Paschal rule. Here, "follows the Hebrew calendar" means the Church's Paschal computation, the Nicene norm of the Sunday following the first vernal full moon as later calculated through the Alexandrian mode, not a lookup of the present-day Hebrew calendar. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; World Council of Churches and Middle East Council of Churches, "Towards a Common Date for Easter," Aleppo, 1997.
 
 Youssef also names the Paschal calculation used to determine the Resurrection date. He calls it the Abuqti calculation, says it was developed by the Egyptian astronomer Ptolemy al-Farmawi in the time of Pope Demetrius the Vinedresser, and notes that it became known as hisab al-karma, "the calculation of the vine." Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
@@ -155,6 +155,7 @@ Scripture is from NKJV.
 
 - Coptic Encyclopedia, "Lectionary," Claremont Colleges Digital Library, https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download. The entry is by Archbishop Basilios and Rene-Georges Coquin.
 - Fouad Naguib Youssef, "The Arrangement of the Church Lectionary," ACCOT, https://accot.stcyrils.edu.au/fny-read1/.
+- World Council of Churches and Middle East Council of Churches, "Towards a Common Date for Easter," Aleppo, 1997, https://www.oikoumene.org/resources/documents/towards-a-common-date-for-easter.
 - Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte, Publications de l'Institut orientaliste de Louvain.
 - O.H.E. Burmester, "The Coptic-Greek-Arabic Holy Week Lectionary from Scetis," Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962.
 - Rene-Georges Coquin, Coptic Encyclopedia liturgical entries and related Coptic liturgical scholarship.

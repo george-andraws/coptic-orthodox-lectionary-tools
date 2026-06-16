@@ -127,3 +127,11 @@
 - Verdict: `CONFIRMED_SAME_SET` with wording caveat. The Ottawa/UKMID dated TOC entries may be treated as the same practical second-volume collection Youssef names, based on source identity, volume placement, annual mapping function, commemoration categories, and count. The consulted ACCOT Youssef page gives the concept, count, Arabic name, function, and second-volume placement, but not a date-by-date roster.
 - Verification: Codex re-pulled the Ottawa PDF, extracted pages 23 to 26 with `pypdf`, confirmed 69 dated TOC entries, confirmed sample annual table rows mapping days to the same dated sections, and fetched ACCOT with `curl -L --compressed` after plain Python returned HTTP 406.
 - Acceptance result: Step 1 accepted for Steps 2b, 4, and 7. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 2a Pascha computation clarity
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Sources checked: World Council of Churches and Middle East Council of Churches, `Towards a Common Date for Easter`, Aleppo, 1997; Orthodox Church in America, `Concerning the Date of Pascha and the 1st Ecumenical Council`; F.N. Youssef, `The Arrangement of the Church Lectionary`.
+- What was done: Added one article sentence clarifying that Youssef's phrase about the Hebrew calendar is about the Church's Paschal computation, the Nicene norm of the Sunday following the first vernal full moon as later calculated through the Alexandrian mode, not a lookup of the present-day Hebrew calendar. Added the WCC/MECC source to the article source list.
+- Source limitation: A clean source for the claim that Coptic Pascha always falls on the same date as Eastern Orthodox Pascha was not found in this step. The article omits that clause, and `audit_artifacts/open_questions_for_george.md` now records the shared-date source check.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 2a accepted. Commit hash: pending this commit.

@@ -2,6 +2,10 @@
 
 This file collects only the questions that thorough research, source comparison, and independent audit could not settle during the autonomous lectionary execution run.
 
+## Pascha shared-date source check
+
+Step 2a found reliable support for the Nicene Paschal norm and the Alexandrian calculation history in the WCC/MECC Aleppo statement, but did not find a clean source stating that the Coptic Pascha always falls on the same date as Eastern Orthodox Pascha. The article therefore clarifies the computus and the present-day Hebrew-calendar issue only. Add the shared-date clause later only if a reliable source states it clearly.
+
 ## Psalm numbering text-equivalence review
 
 The active execution brief states that the Coptic Reader Wednesday Day fixture is faithful to the screenshots, including Third Hour `Psalm 41` and Sixth Hour `Psalm 83`, and that Coptic Reader governs where external books disagree. During Phase 1, Brenton/KJV seam checks resolved several exact pairs: LXX `Ps 41:6` to MT `Ps 42:5`, LXX `Ps 83:2` to MT `Ps 84:1`, and LXX `Ps 83:5` to MT `Ps 84:4`.
