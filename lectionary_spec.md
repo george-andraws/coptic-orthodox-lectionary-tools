@@ -99,6 +99,7 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - `canonicalization_confidence`: `high`, `medium`, `low`, `n/a`.
 - `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `pending_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
 - `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
+- `removed_marker`: uniform placement-level string for older Pascha placements absent from the scoped current Coptic Reader fixture. The marker cites the older source boundary and the current comparator that lacks it.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.
 - `slot`: normalized Scripture and liturgical slots plus `source_label_preserved`.
@@ -245,4 +246,5 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 - Structural claims in the article cite named sources.
 - Inferences are flagged.
 - The schema is complete enough to drive the additive design-layer outputs.
+- Removed Pascha placements remain in the model with `removed_marker`; they are historical witnesses, not deleted rows.
 - Full Coptic Reader ingestion is not claimed because the project brief states that Coptic Reader content is encrypted and manual fixtures are the route.

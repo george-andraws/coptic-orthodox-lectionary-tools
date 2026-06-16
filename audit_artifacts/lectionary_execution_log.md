@@ -174,3 +174,12 @@
 - Membership verdict: `CONFIRMED_SAME_SET`, with caveat that identity is inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page does not print the date-by-date roster.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit row-count sanity check. All passed.
 - Acceptance result: Step 4 accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 5 removed-marker model field
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Inputs: Ottawa Holy Pascha extracted source text, Coptic Reader Wednesday Day fixture supplied by George, generated `pascha_source_text_index.csv`, generated Pascha day-hour rows, and Step 5 requirements from the locked design brief.
+- What was done: Added a uniform `removed_marker` field to the presentation, attestation, temporal classification, and residue outputs. The marker is populated only for older Pascha Wednesday placements absent from the scoped Coptic Reader Wednesday Day fixture. Retained the removed readings as historical rows, including Isaiah 48:1-6, Isaiah 59:1-17, Zechariah 11:11-14, extra Proverbs rows, and Job 27 to 28 rows.
+- Boundary note: Markers cite the actual older source witness and current comparator. Example source boundaries include St. Mary Ottawa Holy Pascha p. 308 line 7779 for Isaiah 48:1-6, p. 320 line 8091 for Isaiah 59:1-17, p. 322 line 8133 for Zechariah 11:11-14, p. 318 line 8038 for Proverbs 1:10-33, p. 299 line 7552 for Proverbs 4:4-27,5:1-4, and p. 298 line 7519 for Job 27:16-28:2.
+- Generated output impact: `reverse_lectionary_presentation` now has 66,381 rows, `reading_identity` has 2,658 rows, `pascha_attestation` has 446 rows, and `temporal_residue` has 420 rows. The generator now retains 11 rows with `removed_marker`.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit removed-marker row check. All passed.
+- Acceptance result: Step 5 accepted. Commit hash: pending this commit.

@@ -119,9 +119,9 @@ def verify_schema() -> None:
     tables = schema.get("tables", {})
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
-        "temporal_attestation": ["source_authority_tier", "attestation_bucket", "current_authority"],
-        "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
-        "temporal_residue": ["residue_type", "reason", "citation", "attestation_note"],
+        "temporal_attestation": ["source_authority_tier", "attestation_bucket", "current_authority", "removed_marker"],
+        "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
+        "temporal_residue": ["residue_type", "reason", "removed_marker", "citation", "attestation_note"],
         "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
         "synaxarium_commemoration": ["extraction_method", "caveat", "source_summary"],
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
@@ -175,6 +175,17 @@ def verify_rows() -> None:
     temporal = read_csv(OUT / "temporal_classification.csv")
     attestation = read_csv(OUT / "pascha_attestation.csv")
     attestation_manifest = read_csv(OUT / "pascha_attestation_bucket_manifest.csv")
+    removed_rows = [r for r in presentation if r.get("removed_marker")]
+    removed_refs = {r.get("display_ref") for r in removed_rows}
+    required_removed_refs = {"Isa 48:1-6", "Isa 59:1-17", "Zech 11:11-14", "Prov 1:10-33", "Prov 4:4-27,5:1-4", "Prov 4:4-5:4", "Job 27:16-28:2", "Job 27:16-20", "Job 28:1-2"}
+    if not required_removed_refs.issubset(removed_refs):
+        fail(f"Removed Pascha markers missing refs: {sorted(required_removed_refs - removed_refs)}")
+    for row in removed_rows:
+        marker = row.get("removed_marker", "")
+        if not marker.startswith("(removed, attested St. Mary Ottawa Holy Pascha") or "absent from Coptic Reader Wednesday Day fixture supplied by George" not in marker:
+            fail(f"Malformed removed_marker: {marker}")
+    if any(r.get("display_ref") == "Isa 48:1-6" and r.get("current_status") != "historical_candidate_removed" for r in removed_rows):
+        fail("Isa 48:1-6 must be retained only as a historical removed candidate")
     temporal_residue = read_csv(OUT / "temporal_residue.csv")
     temporal_residue_manifest = read_csv(OUT / "temporal_residue_manifest.csv")
     allowed_current_authority = set(schema.get("controlled_vocabularies", {}).get("current_authority", []))

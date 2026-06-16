@@ -1483,7 +1483,8 @@
       "service_hour",
       "service_section",
       "slot",
-      "order"
+      "order",
+      "removed_marker"
     ],
     "temporal_attestation": [
       "identity_key",
@@ -1493,7 +1494,8 @@
       "attestation_bucket",
       "current_authority",
       "valid_from",
-      "valid_to"
+      "valid_to",
+      "removed_marker"
     ],
     "temporal_classification": [
       "day_title",
@@ -1502,6 +1504,7 @@
       "display_ref",
       "lifecycle_status",
       "current_status",
+      "removed_marker",
       "source_authority_tier",
       "attestation_bucket",
       "current_authority",
@@ -1518,6 +1521,7 @@
       "lifecycle_status",
       "attestation_bucket",
       "current_status",
+      "removed_marker",
       "current_authority",
       "residue_type",
       "reason",

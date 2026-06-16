@@ -29,9 +29,9 @@ Rows absent from the Wednesday Day Coptic Reader fixture but present in older or
 ## Temporal residue summary
 
 See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:
-- `candidate_removed_needs_current_authority_confirmation`: 7
+- `candidate_removed_needs_current_authority_confirmation`: 11
 - `current_authority_pending`: 255
-- `historical_witness_no_current_comparator`: 152
+- `historical_witness_no_current_comparator`: 149
 - `psalm_equivalence_unresolved`: 5
 - `true_source_disagreement`: 0
 
@@ -41,11 +41,15 @@ No true source-disagreement class was emitted in this run. Unsettled rows are cl
 
 - Wednesday | First Hour | Wis 1:20-2:15 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | First Hour | Wis 3:12-24 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Ninth Hour | Isa 48:1-6 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | Ninth Hour | Isa 59:1-17 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Ninth Hour | Prov 1:10-33 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | Ninth Hour | Zech 11:11-14 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | Sixth Hour | Job 28:1-2 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | Sixth Hour | Job 27:16-20 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Third Hour | Prov 4:4-27,5:1-4 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 - Wednesday | Third Hour | Prov 4:4-5:4 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
+- Wednesday | Third Hour | Job 27:16-28:2 | Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture.
 
 ### Psalm equivalence unresolved rows
 

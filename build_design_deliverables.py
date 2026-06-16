@@ -274,6 +274,28 @@ FOUNDATIONAL_69_RAW = """1|Tut|1|37
 69|Al-Nasi|6|602"""
 
 
+REMOVED_PASCHA_WEDNESDAY_MARKER_BY_REF = {
+    "Isa 48:1-6": "(removed, attested St. Mary Ottawa Holy Pascha p. 308 line 7779 as Isa 48:1-6; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Isa 59:1-17": "(removed, attested St. Mary Ottawa Holy Pascha p. 320 line 8091 as Isa 59:1-17; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Zech 11:11-14": "(removed, attested St. Mary Ottawa Holy Pascha p. 322 line 8133 as Zech 11:11-14; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Prov 1:10-33": "(removed, attested St. Mary Ottawa Holy Pascha p. 318 line 8038 as Prov 1:10-33; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Prov 4:4-27,5:1-4": "(removed, attested St. Mary Ottawa Holy Pascha p. 299 line 7552 as Prov 4:4-27,5:1-4; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Prov 4:4-5:4": "(removed, attested St. Mary Ottawa Holy Pascha p. 299 line 7552 as Prov 4:4-27,5:1-4; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Job 27:16-28:2": "(removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Job 27:16-20": "(removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+    "Job 28:1-2": "(removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)",
+}
+
+REMOVED_PASCHA_SOURCE_TEXT_REFS = {
+    "Isa 48:1-6",
+    "Isa 59:1-17",
+    "Zech 11:11-14",
+    "Prov 1:10-33",
+    "Prov 4:4-27,5:1-4",
+    "Job 27:16-28:2",
+}
+
+
 def read_csv(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -329,6 +351,72 @@ def build_foundational_reading_collections_69() -> list[dict]:
             "membership_status": provenance["membership_status"],
             "membership_basis": provenance["membership_basis"],
             "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit",
+        })
+    return rows
+
+
+def removed_marker_for(row: dict, ident: dict) -> str:
+    if row.get("day_title") != "Wednesday" or row.get("service_hour") not in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}:
+        return ""
+    if row.get("source_kind") not in {"pascha_day_hour", "pascha_source_text"}:
+        return ""
+    candidates = [
+        ident.get("display_ref", ""),
+        ident.get("canonical_mt_ref", ""),
+        row.get("normalized_ref", ""),
+        row.get("normalized_segment", ""),
+        row.get("source_ref", ""),
+        row.get("raw_ref", ""),
+        row.get("passage", ""),
+    ]
+    for candidate in candidates:
+        if not candidate:
+            continue
+        normalized = normalize_source_ref(candidate, row.get("source_kind", ""))
+        if normalized in REMOVED_PASCHA_WEDNESDAY_MARKER_BY_REF:
+            return REMOVED_PASCHA_WEDNESDAY_MARKER_BY_REF[normalized]
+        if candidate in REMOVED_PASCHA_WEDNESDAY_MARKER_BY_REF:
+            return REMOVED_PASCHA_WEDNESDAY_MARKER_BY_REF[candidate]
+    return ""
+
+
+def load_removed_pascha_source_text_supplement(base_rows: list[dict]) -> list[dict]:
+    source_index = DATA / "pascha_source_text_index.csv"
+    if not source_index.exists():
+        return []
+    existing = {
+        (row.get("source_kind", ""), str(row.get("source_row_id", "") or row.get("source_line", "")))
+        for row in base_rows
+    }
+    rows = []
+    for source_row in read_csv(source_index):
+        normalized_ref = source_row.get("normalized_ref", "")
+        if source_row.get("day") != "Wednesday" or normalized_ref not in REMOVED_PASCHA_SOURCE_TEXT_REFS:
+            continue
+        source_line = source_row.get("source_line", "")
+        if ("pascha_source_text", str(source_line)) in existing:
+            continue
+        hour = source_row.get("hour", "")
+        rows.append({
+            "passage": normalized_ref,
+            "source_kind": "pascha_source_text",
+            "source_family": source_row.get("source_family", "holy_pascha"),
+            "source_table": "pascha_source_text_index",
+            "source_file": source_row.get("source_file", ""),
+            "source_row_id": source_line,
+            "liturgical_place": f"Wednesday | {hour}",
+            "calendar_key": f"Wednesday | {hour}",
+            "day_title": "Wednesday",
+            "service_day": "Wednesday",
+            "service_hour": hour,
+            "service_section": hour,
+            "reading_slot": source_row.get("reading_type", "Prophecy"),
+            "reading_type": source_row.get("reading_type", "Prophecy"),
+            "source_ref": normalized_ref,
+            "raw_ref": source_row.get("raw_ref", normalized_ref),
+            "normalized_ref": normalized_ref,
+            "normalized_segment": normalized_ref,
+            "provenance": f"{source_row.get('source_file', '')}:{source_line}; source_page={source_row.get('source_page', '')}",
         })
     return rows
 
@@ -636,6 +724,8 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
     key = (row.get("day_title", ""), row.get("service_hour", ""), ref)
     if source_kind == "coptic_reader_fixture":
         return "current_confirmed_coptic_reader", "Current where fixture scope applies."
+    if removed_marker_for(row, ident):
+        return "historical_candidate_removed", "Older Pascha source attests this placement, but the scoped Coptic Reader Wednesday Day fixture lacks it."
     if row.get("day_title") == "Wednesday" and row.get("service_hour") in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"} and source_kind == "pascha_day_hour":
         if key in current_fixture_keys:
             return "current_confirmed_by_fixture_equivalence", "Matched the Coptic Reader Wednesday Day fixture after normalization."
@@ -653,8 +743,9 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
 
 def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
     base_rows = read_csv(DATA / "reverse_lookup_crosswalk.csv")
+    supplement_rows = load_removed_pascha_source_text_supplement(base_rows)
     fixture_rows = load_fixture_rows()
-    all_rows = base_rows + fixture_rows
+    all_rows = base_rows + supplement_rows + fixture_rows
     current_keys = fixture_current_keys(fixture_rows)
     identities: dict[str, dict] = {}
     presentation_rows = []
@@ -666,12 +757,14 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
         ident = identity_for(passage, row.get("source_kind", ""))
         identities[ident["identity_key"]] = ident
         current_status, status_note = status_for(row, ident, current_keys)
+        removed_marker = removed_marker_for(row, ident)
         section = row.get("service_section") or row.get("service_hour") or row.get("reading_type") or ""
         hour_theme = HOUR_THEME.get(row.get("service_hour") or row.get("service_section") or "", "")
         presentation_rows.append({
             **ident,
             "current_status": current_status,
             "status_note": status_note,
+            "removed_marker": removed_marker,
             "source_key": source_key_for(row),
             "source_kind": row.get("source_kind", ""),
             "source_family": row.get("source_family", ""),
@@ -799,6 +892,7 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
     for (day, hour, identity_key), rows in sorted(groups.items()):
         source_keys = sorted(set(r.get("source_key", "") for r in rows))
         statuses = sorted(set(r.get("current_status", "") for r in rows))
+        removed_markers = sorted(set(r.get("removed_marker", "") for r in rows if r.get("removed_marker")))
         if "coptic_reader_fixture_wednesday_day" in source_keys:
             bucket = "current_confirmed"
         elif any("historical_candidate_removed" == s for s in statuses):
@@ -819,6 +913,7 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             "sources": "; ".join(source_keys),
             "bucket": bucket,
             "statuses": "; ".join(statuses),
+            "removed_marker": "; ".join(removed_markers),
             "citation": "; ".join(row_citation(r) for r in rows)[:1000],
             "attestation_note": attestation_note(bucket, rows, statuses),
         })
@@ -839,6 +934,7 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             "display_ref": sample.get("display_ref", ""),
             "lifecycle_status": lifecycle,
             "current_status": "; ".join(statuses),
+            "removed_marker": "; ".join(removed_markers),
             "source_authority_tier": "; ".join(source_authority_tiers),
             "attestation_bucket": bucket,
             "current_authority": current_authority,
@@ -899,6 +995,7 @@ def build_temporal_residue(temporal: list[dict], attestation: list[dict]) -> lis
             "lifecycle_status": row.get("lifecycle_status", ""),
             "attestation_bucket": bucket,
             "current_status": statuses,
+            "removed_marker": row.get("removed_marker", ""),
             "current_authority": row.get("current_authority", ""),
             "residue_type": residue_type,
             "reason": reason,
@@ -1192,10 +1289,10 @@ def write_schema() -> dict:
         },
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
-            "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order"],
-            "temporal_attestation": ["identity_key", "source_key", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to"],
-            "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
-            "temporal_residue": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "current_authority", "residue_type", "reason", "citation", "attestation_note"],
+            "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order", "removed_marker"],
+            "temporal_attestation": ["identity_key", "source_key", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to", "removed_marker"],
+            "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
+            "temporal_residue": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "removed_marker", "current_authority", "residue_type", "reason", "citation", "attestation_note"],
             "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
             "psalm_mt_lxx_crosswalk": ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"],
             "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
@@ -1522,6 +1619,7 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - `canonicalization_confidence`: `high`, `medium`, `low`, `n/a`.
 - `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `pending_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
 - `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
+- `removed_marker`: uniform placement-level string for older Pascha placements absent from the scoped current Coptic Reader fixture. The marker cites the older source boundary and the current comparator that lacks it.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.
 - `slot`: normalized Scripture and liturgical slots plus `source_label_preserved`.
@@ -1598,6 +1696,7 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 - Structural claims in the article cite named sources.
 - Inferences are flagged.
 - The schema is complete enough to drive the additive design-layer outputs.
+- Removed Pascha placements remain in the model with `removed_marker`; they are historical witnesses, not deleted rows.
 - Full Coptic Reader ingestion is not claimed because the project brief states that Coptic Reader content is encrypted and manual fixtures are the route.
 """
     if "—" in spec:
@@ -1809,7 +1908,7 @@ def main() -> None:
     footprint = build_footprint(presentation_rows)
 
     presentation_fields = [
-        "identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "source_key", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance",
+        "identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance",
     ]
     identity_fields = ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"]
     write_csv(OUT / "reading_identity.csv", identities.values(), identity_fields)
@@ -1820,13 +1919,13 @@ def main() -> None:
     write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
     write_csv(OUT / "psalm_mt_lxx_crosswalk.csv", psalm_rows, ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"])
     write_jsonl(OUT / "psalm_mt_lxx_crosswalk.jsonl", psalm_rows)
-    write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "bucket", "statuses", "citation", "attestation_note"])
+    write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "bucket", "statuses", "removed_marker", "citation", "attestation_note"])
     write_jsonl(OUT / "pascha_attestation.jsonl", attestation)
     write_csv(OUT / "pascha_attestation_bucket_manifest.csv", attestation_bucket_manifest, ["bucket", "row_count", "present_in_phase3", "note"])
     write_jsonl(OUT / "pascha_attestation_bucket_manifest.jsonl", attestation_bucket_manifest)
-    write_csv(OUT / "temporal_classification.csv", temporal, ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"])
+    write_csv(OUT / "temporal_classification.csv", temporal, ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"])
     write_jsonl(OUT / "temporal_classification.jsonl", temporal)
-    temporal_residue_fields = ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "current_authority", "residue_type", "reason", "citation", "attestation_note"]
+    temporal_residue_fields = ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "removed_marker", "current_authority", "residue_type", "reason", "citation", "attestation_note"]
     write_csv(OUT / "temporal_residue.csv", temporal_residue, temporal_residue_fields)
     write_jsonl(OUT / "temporal_residue.jsonl", temporal_residue)
     write_csv(OUT / "temporal_residue_manifest.csv", temporal_residue_manifest, ["residue_type", "row_count", "present_in_phase4", "note"])

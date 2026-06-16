@@ -1,5 +1,5 @@
 {"note": "Temporal residue evidence class emitted for Phase 4 review.", "present_in_phase4": "yes", "residue_type": "current_authority_pending", "row_count": 255}
-{"note": "Temporal residue evidence class emitted for Phase 4 review.", "present_in_phase4": "yes", "residue_type": "historical_witness_no_current_comparator", "row_count": 152}
-{"note": "Temporal residue evidence class emitted for Phase 4 review.", "present_in_phase4": "yes", "residue_type": "candidate_removed_needs_current_authority_confirmation", "row_count": 7}
+{"note": "Temporal residue evidence class emitted for Phase 4 review.", "present_in_phase4": "yes", "residue_type": "historical_witness_no_current_comparator", "row_count": 149}
+{"note": "Temporal residue evidence class emitted for Phase 4 review.", "present_in_phase4": "yes", "residue_type": "candidate_removed_needs_current_authority_confirmation", "row_count": 11}
 {"note": "Temporal residue evidence class emitted for Phase 4 review.", "present_in_phase4": "yes", "residue_type": "psalm_equivalence_unresolved", "row_count": 5}
 {"note": "True source disagreements are zero in this run; unresolved rows are classified separately by evidence class.", "present_in_phase4": "no", "residue_type": "true_source_disagreement", "row_count": 0}
