@@ -819,14 +819,37 @@ def parse_month_day(row: dict) -> tuple[str, int, str]:
     return month, day, coptic_key
 
 
+def infer_synaxarium_title(raw_title: str) -> tuple[str, str]:
+    title = norm_space(raw_title).strip().rstrip(" .")
+    if len(title) <= 180 and not re.match(r"^(On this day|Today also|On this day also)", title, re.I):
+        return title, ""
+    opener = r"(?:On this day(?: also)?|Today also|Also on this day)"
+    martyr = re.search(rf"^{opener},?\s+(.*?)(?:,?\s+(?:was|were)\s+martyred\b|\s+received\s+the\s+crown\s+of\s+martyrdom\b)", title, re.I)
+    if martyr:
+        subject = martyr.group(1).strip(" ,.;")
+        return f"The Martyrdom of {subject}", "Title inferred from prose martyrdom lead; check publication wording against the source page."
+    departed = re.search(rf"^{opener},?\s+(.*?)(?:,?\s+departed\b|\s+departed\b)", title, re.I)
+    if departed:
+        subject = departed.group(1).strip(" ,.;")
+        return f"The Departure of {subject}", "Title inferred from prose departure lead; check publication wording against the source page."
+    commem = re.search(r"(?:celebrates?|is)\s+(?:the\s+)?commemoration\s+of\s+(.*?)(?:,|\.|\sand\s|$)", title, re.I)
+    if commem:
+        subject = commem.group(1).strip(" ,.;")
+        return f"The Commemoration of {subject}", "Title inferred from prose commemoration lead; check publication wording against the source page."
+    first_sentence = re.split(r"(?<=[.!?])\s+", title, maxsplit=1)[0].strip()
+    if len(first_sentence) < len(title):
+        return first_sentence.rstrip(" ."), "Long source prose title was shortened to the first sentence; check publication wording against the source page."
+    return title, "Long source prose title could not be shortened safely."
+
+
 def classify_commem(title: str) -> str:
     t = title.lower()
     if "lord" in t or "nativity" in t or "theophany" in t or "resurrection" in t or "cross" in t:
         return "lord_feast"
-    if "theotokos" in t or "virgin" in t or "st. mary" in t or "holy virgin" in t:
-        return "theotokos"
     if "martyr" in t or "martyrdom" in t:
         return "martyr"
+    if "theotokos" in t or "virgin mary" in t or "st. mary" in t or "saint mary" in t or "holy virgin mary" in t:
+        return "theotokos"
     if "apostle" in t:
         return "apostle"
     if "pope" in t or "patriarch" in t:
@@ -853,15 +876,46 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
         month, day, coptic_key = parse_month_day(row)
         pieces = [norm_space(p) for p in row.get("summary_lines", "").split(" | ") if norm_space(p)]
         titles = []
+        title_caveats = {}
+        seen_titles = set()
+        extraction_method = "numbered_summary_entry"
+        caveat = ""
         for piece in pieces:
             if re.match(r"^\d+\.\s+", piece):
-                titles.append(re.sub(r"^\d+\.\s+", "", piece).strip())
+                if titles and re.match(r"^\d+\.\s+(?:On this day|Today|On this)", piece, re.I):
+                    break
+                title_candidate = re.sub(r"^\d+\.\s+", "", piece).strip()
+                title_candidate = re.split(r"\s+\d+\s*\.\s+(?:On this day|Today|On this)", title_candidate, maxsplit=1)[0].strip()
+                title_candidate = title_candidate.rstrip(" .")
+                title_candidate, inferred_caveat = infer_synaxarium_title(title_candidate)
+                key = norm_space(title_candidate).lower()
+                if title_candidate and key not in seen_titles:
+                    titles.append(title_candidate)
+                    seen_titles.add(key)
+                    if inferred_caveat:
+                        title_caveats[key] = inferred_caveat
             elif titles:
                 break
+        if not titles and pieces:
+            inferred_title, inferred_caveat = infer_synaxarium_title(pieces[0])
+            titles = [inferred_title]
+            if inferred_caveat:
+                title_caveats[norm_space(inferred_title).lower()] = inferred_caveat
+            extraction_method = "prose_lead_inferred"
+            caveat = "Source page did not expose a numbered list in the indexed summary. Title inferred from the first summary lead and should be checked against the source page for publication wording."
         if not titles:
             title = row.get("day_title", "") or coptic_key
             titles = [title]
+            extraction_method = "day_title_fallback"
+            caveat = "No numbered summary entry or prose lead was available in the indexed source row. Day title used as fallback."
         for idx, title in enumerate(titles, 1):
+            row_caveat = caveat
+            inferred_title_caveat = title_caveats.get(norm_space(title).lower(), "")
+            if inferred_title_caveat:
+                row_caveat = (row_caveat + " " if row_caveat else "") + inferred_title_caveat
+            ctype = classify_commem(title)
+            if ctype == "commemoration" and extraction_method != "day_title_fallback":
+                row_caveat = (row_caveat + " " if row_caveat else "") + "Generic commemoration type used because title did not match a safer person, feast, or office rule."
             commem_id = f"{slugify(month)}-{day:02d}-{idx:02d}"
             commems.append({
                 "commem_id": commem_id,
@@ -870,11 +924,13 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
                 "coptic_day_key": coptic_key,
                 "rank": idx,
                 "title": title,
-                "type": classify_commem(title),
+                "type": ctype,
+                "extraction_method": extraction_method,
+                "caveat": row_caveat.strip(),
                 "source": "St-Takla English Synaxarium",
                 "source_url": row.get("day_url", ""),
                 "source_day_title": row.get("day_title", ""),
-                "source_summary": row.get("summary_lines", "")[:1000],
+                "source_summary": row.get("summary_lines", ""),
             })
     reverse_rows = read_csv(DATA / "reverse_lookup_crosswalk.csv")
     fixed_day_rows = defaultdict(list)
@@ -894,8 +950,13 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
             alt_key = day_key.replace("Tut", "Tout").replace("Tubah", "Toba")
             readings = fixed_day_rows.get(alt_key, [])
         primary = sorted(day_commems, key=lambda c: int(c["rank"]))[0]
-        confidence = "medium" if len(day_commems) > 1 else "high"
+        confidence = "medium"
         basis = "collection-type"
+        bridge_note = "Collection-type bridge from fixed-day Synaxarium context to Katameros rows. This catalogs source rows and variants; it is not a resolved daily service schedule and not direct proper-reading proof for the named commemoration."
+        if len(day_commems) > 1:
+            bridge_note += " Primary commemoration linked only; secondary commemorations require explicit proper-reading source before separate links are created."
+        else:
+            bridge_note += " Single commemoration day alignment."
         for row in readings:
             ident = identity_for(row.get("passage") or row.get("normalized_segment") or "")
             bridge.append({
@@ -909,7 +970,7 @@ def build_synaxarium() -> tuple[list[dict], list[dict]]:
                 "basis": basis,
                 "confidence": confidence,
                 "citation": "F.N. Youssef on daily readings following the Synaxarium; St-Takla day index; local Katameros fixed-day row.",
-                "note": "Primary commemoration linked to fixed-day readings. Secondary commemorations require explicit proper-reading source before separate links are created." if len(day_commems) > 1 else "Single commemoration day alignment.",
+                "note": bridge_note,
             })
     return commems, bridge
 
@@ -1008,7 +1069,7 @@ def write_schema() -> dict:
             "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
             "psalm_mt_lxx_crosswalk": ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"],
             "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
-            "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "source_url"],
+            "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "extraction_method", "caveat", "source_url", "source_summary"],
             "synaxarium_reading_bridge": ["commem_id", "reading_identity_key", "slot", "basis", "confidence", "citation"],
         },
     }
@@ -1538,7 +1599,7 @@ def main() -> None:
     write_jsonl(OUT / "temporal_residue.jsonl", temporal_residue)
     write_csv(OUT / "temporal_residue_manifest.csv", temporal_residue_manifest, ["residue_type", "row_count", "present_in_phase4", "note"])
     write_jsonl(OUT / "temporal_residue_manifest.jsonl", temporal_residue_manifest)
-    write_csv(OUT / "synaxarium_commemorations.csv", commems, ["commem_id", "coptic_month", "coptic_day", "coptic_day_key", "rank", "title", "type", "source", "source_url", "source_day_title", "source_summary"])
+    write_csv(OUT / "synaxarium_commemorations.csv", commems, ["commem_id", "coptic_month", "coptic_day", "coptic_day_key", "rank", "title", "type", "extraction_method", "caveat", "source", "source_url", "source_day_title", "source_summary"])
     write_jsonl(OUT / "synaxarium_commemorations.jsonl", commems)
     write_csv(OUT / "synaxarium_reading_bridge.csv", bridge, ["commem_id", "coptic_day_key", "commemoration_title", "commemoration_type", "reading_identity_key", "display_ref", "slot", "basis", "confidence", "citation", "note"])
     write_jsonl(OUT / "synaxarium_reading_bridge.jsonl", bridge)

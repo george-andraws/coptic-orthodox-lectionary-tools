@@ -305,7 +305,10 @@
       "rank",
       "title",
       "type",
-      "source_url"
+      "extraction_method",
+      "caveat",
+      "source_url",
+      "source_summary"
     ],
     "synaxarium_reading_bridge": [
       "commem_id",

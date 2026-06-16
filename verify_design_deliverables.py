@@ -9,6 +9,7 @@ import subprocess
 import sys
 import urllib.parse
 import urllib.request
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -102,6 +103,7 @@ def verify_schema() -> None:
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
         "temporal_residue": ["residue_type", "reason", "citation", "attestation_note"],
         "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
+        "synaxarium_commemoration": ["extraction_method", "caveat", "source_summary"],
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
         "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
     }
@@ -135,6 +137,7 @@ def verify_rows() -> None:
         if not rows:
             fail(f"{path} has no rows")
     presentation = read_csv(OUT / "reverse_lectionary_presentation.csv")
+    identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")
     scopes = {r.get("mapping_scope") for r in crosswalk}
     required_scopes = {"chapter_equivalence", "split_merge_chapter_seam", "lxx_unique_chapter", "anchored_verse_example", "unresolved_verse_offset_example"}
@@ -224,6 +227,67 @@ def verify_rows() -> None:
     weak_citations = [row for row in attestation if "source_file=" not in row.get("citation", "") or "source_row_id=" not in row.get("citation", "")]
     if weak_citations:
         fail(f"Pascha attestation rows missing replayable source_file/source_row_id citation: {len(weak_citations)}")
+    commems = read_csv(OUT / "synaxarium_commemorations.csv")
+    bridge = read_csv(OUT / "synaxarium_reading_bridge.csv")
+    commem_ids = [row.get("commem_id", "") for row in commems]
+    if len(commem_ids) != len(set(commem_ids)):
+        fail("Synaxarium commem_id values are not unique")
+    if any(not row.get("source_url") for row in commems):
+        fail("Synaxarium commemoration row missing source_url")
+    if any(not row.get("source_summary") for row in commems):
+        fail("Synaxarium commemoration row missing source_summary")
+    if any(not row.get("title") or not row.get("type") for row in commems):
+        fail("Synaxarium commemoration row missing title or type")
+    if any(row.get("extraction_method") == "day_title_fallback" for row in commems):
+        fail("Synaxarium extraction still uses day-title fallback rows")
+    inferred_without_caveat = [row for row in commems if row.get("extraction_method") == "prose_lead_inferred" and not row.get("caveat")]
+    if inferred_without_caveat:
+        fail(f"Synaxarium prose-lead inferred rows missing caveat: {len(inferred_without_caveat)}")
+    day_title_like = [row for row in commems if re.match(r"^\d+\s+\w+\s*\(", row.get("title", ""))]
+    if day_title_like:
+        fail(f"Synaxarium rows still have day-title fallback looking titles: {len(day_title_like)}")
+    long_titles = [row for row in commems if len(row.get("title", "")) > 220]
+    if long_titles:
+        fail(f"Synaxarium rows still have long prose-like titles: {len(long_titles)}")
+    martyr_misclassified = [row for row in commems if re.search(r"\bmartyrdom\b|\bwas martyred\b|\bwere martyred\b", row.get("title", ""), re.I) and row.get("type") != "martyr"]
+    if martyr_misclassified:
+        fail(f"Synaxarium martyr title rows misclassified: {len(martyr_misclassified)}")
+    theotokos_bad = [row for row in commems if row.get("type") == "theotokos" and not re.search(r"theotokos|virgin mary|st\. mary|saint mary|holy virgin mary", row.get("title", ""), re.I)]
+    if theotokos_bad:
+        fail(f"Synaxarium theotokos rows not explicitly Mary/Theotokos: {len(theotokos_bad)}")
+    day_counts = {}
+    for row in commems:
+        day_counts[row.get("coptic_day_key", "")] = day_counts.get(row.get("coptic_day_key", ""), 0) + 1
+    if sum(1 for count in day_counts.values() if count > 1) < 100:
+        fail("Synaxarium ingestion did not preserve expected multiple-commemoration days")
+    valid_commem_ids = set(commem_ids)
+    reading_identity_keys = {row.get("identity_key", "") for row in identity}
+    bridge_bad_ids = [row for row in bridge if row.get("commem_id") not in valid_commem_ids]
+    if bridge_bad_ids:
+        fail(f"Synaxarium bridge rows reference missing commem_id: {len(bridge_bad_ids)}")
+    bridge_bad_readings = [row for row in bridge if row.get("reading_identity_key") not in reading_identity_keys]
+    if bridge_bad_readings:
+        fail(f"Synaxarium bridge rows reference missing reading_identity_key: {len(bridge_bad_readings)}")
+    if any(not row.get("display_ref") or not row.get("slot") for row in bridge):
+        fail("Synaxarium bridge row missing display_ref or slot")
+    allowed_basis = set(schema.get("controlled_vocabularies", {}).get("bridge_basis", []))
+    allowed_bridge_confidence = set(schema.get("controlled_vocabularies", {}).get("bridge_confidence", []))
+    if any(row.get("basis") not in allowed_basis for row in bridge):
+        fail("Synaxarium bridge basis outside schema vocabulary")
+    if any(row.get("confidence") not in allowed_bridge_confidence for row in bridge):
+        fail("Synaxarium bridge confidence outside schema vocabulary")
+    overstrong_collection = [row for row in bridge if row.get("basis") == "collection-type" and row.get("confidence") != "medium"]
+    if overstrong_collection:
+        fail(f"Collection-type bridge rows must use medium confidence unless direct proper-reading evidence exists: {len(overstrong_collection)}")
+    rank_by_id = {row.get("commem_id", ""): int(row.get("rank", "0") or 0) for row in commems}
+    if any(rank_by_id.get(row.get("commem_id", "")) != 1 for row in bridge):
+        fail("Synaxarium bridge should link only primary commemoration unless proper-reading source is explicit")
+    duplicate_slot_groups = Counter((row.get("commem_id", ""), row.get("coptic_day_key", ""), row.get("slot", "")) for row in bridge)
+    has_duplicate_slot_groups = any(count > 1 for count in duplicate_slot_groups.values())
+    if has_duplicate_slot_groups:
+        undocumented = [row for row in bridge if "not a resolved daily service schedule" not in row.get("note", "") or "catalogs source rows and variants" not in row.get("note", "")]
+        if undocumented:
+            fail(f"Bridge has duplicate slot groups without explicit catalog/not-resolved-schedule note: {len(undocumented)}")
     pascha_source_kinds = {"pascha_day_hour", "pascha_source_text", "coptic_reader_fixture"}
     expected_attestation_keys = {
         (row.get("day_title", ""), row.get("service_hour") or row.get("service_section", ""), row.get("identity_key", ""))
