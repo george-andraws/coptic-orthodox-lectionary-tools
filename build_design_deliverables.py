@@ -50,7 +50,7 @@ SOURCE_REGISTRY = [
         "source_key": "fn_youssef_arrangement",
         "title": "Fouad Naguib Youssef, The Arrangement of the Church Lectionary, ACCOT",
         "url": "https://accot.stcyrils.edu.au/fny-read1/",
-        "authority_tier": "coptic_scholarly_structural",
+        "authority_tier": "scholarly_structural",
         "confidence": "confirmed_for_principles",
         "notes": "Explains calendar logic, Sunday cycle, and the relation of daily readings to the Synaxarium.",
     },
@@ -58,7 +58,7 @@ SOURCE_REGISTRY = [
         "source_key": "ugo_zanetti_annual_lectionaries",
         "title": "Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte",
         "url": "https://openlibrary.org/books/OL2304712M/Les_lectionnaires_coptes_annuels",
-        "authority_tier": "scholarly_witness",
+        "authority_tier": "scholarly_structural",
         "confidence": "bibliographic_confirmed_content_not_fully_ingested",
         "notes": "Standard scholarly study cited by the Coptic Encyclopedia for annual lectionaries.",
     },
@@ -93,6 +93,30 @@ SOURCE_REGISTRY = [
         "authority_tier": "synaxarium_text_source",
         "confidence": "confirmed_index_not_full_text_ingestion",
         "notes": "Used to store day commemorations and source URLs. Full text should be opened when exact wording matters.",
+    },
+    {
+        "source_key": "special_service",
+        "title": "Special-service readings extracted in the local package",
+        "url": "out/data/reverse_lookup_crosswalk.csv",
+        "authority_tier": "working_local_source",
+        "confidence": "confirmed_local",
+        "notes": "Local structured special-service rows retained with source labels and provenance.",
+    },
+    {
+        "source_key": "agpeya",
+        "title": "Agpeya readings extracted in the local package",
+        "url": "out/data/reverse_lookup_crosswalk.csv",
+        "authority_tier": "working_local_source",
+        "confidence": "confirmed_local",
+        "notes": "Local structured Agpeya rows retained with source labels and provenance.",
+    },
+    {
+        "source_key": "bright_saturday_service_order",
+        "title": "Bright Saturday service-order readings extracted in the local package",
+        "url": "out/data/reverse_lookup_crosswalk.csv",
+        "authority_tier": "working_local_source",
+        "confidence": "confirmed_local",
+        "notes": "Local structured Bright Saturday rows retained with source labels and provenance.",
     },
 ]
 
@@ -487,7 +511,7 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
         if key in current_fixture_keys:
             return "current_confirmed_by_fixture_equivalence", "Matched the Coptic Reader Wednesday Day fixture after normalization."
         if row.get("reading_type") in {"Psalm+Gospel", "psalm", "gospel"}:
-            return "current_needs_psalm_fixture_review", "Psalm or bundled Psalm+Gospel row needs screenshot-level Psalm convention review."
+            return "current_psalm_equivalence_unresolved", "Psalm or bundled Psalm+Gospel row needs screenshot-level Psalm convention review."
         return "historical_candidate_removed", "Present in older/local Pascha data but absent from the Coptic Reader Wednesday Day fixture."
     if source_kind == "pascha_source_text":
         return "historical_witness", "Printed-source witness retained for historical comparison."

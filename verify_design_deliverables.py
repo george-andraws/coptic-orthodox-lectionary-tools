@@ -142,10 +142,34 @@ def verify_rows() -> None:
     unknown_authority = sorted({row.get("current_authority", "") for row in temporal if row.get("current_authority", "") not in allowed_current_authority})
     if unknown_authority:
         fail(f"Temporal classification current_authority outside schema vocabulary: {unknown_authority}")
-    required = ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_key", "current_status", "authority_tier", "spans_json"]
+    required = ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "source_key", "current_status", "authority_tier", "spans_json"]
+    allowed_statuses = set(schema.get("controlled_vocabularies", {}).get("current_status", []))
+    allowed_authority_tiers = set(schema.get("controlled_vocabularies", {}).get("source_authority_tier", []))
+    allowed_source_conventions = set(schema.get("controlled_vocabularies", {}).get("source_convention", []))
     for field in required:
         if any(field not in row for row in presentation[:10]):
             fail(f"Missing presentation field {field}")
+    unknown_statuses = sorted({row.get("current_status", "") for row in presentation if row.get("current_status", "") not in allowed_statuses})
+    if unknown_statuses:
+        fail(f"Presentation current_status outside schema vocabulary: {unknown_statuses}")
+    unknown_tiers = sorted({row.get("authority_tier", "") for row in presentation if row.get("authority_tier", "") not in allowed_authority_tiers})
+    if unknown_tiers:
+        fail(f"Presentation authority_tier outside schema vocabulary: {unknown_tiers}")
+    unknown_source_conventions = sorted({row.get("source_convention", "") for row in presentation if row.get("source_convention", "") not in allowed_source_conventions})
+    if unknown_source_conventions:
+        fail(f"Presentation source_convention outside schema vocabulary: {unknown_source_conventions}")
+    blank_source_conventions = sum(1 for row in presentation if not row.get("source_convention"))
+    if blank_source_conventions:
+        fail(f"Presentation rows with blank source_convention: {blank_source_conventions}")
+    registry = read_csv(OUT / "source_registry.csv")
+    registered_source_keys = {row.get("source_key", "") for row in registry}
+    emitted_source_keys = {row.get("source_key", "") for row in presentation}
+    unregistered_source_keys = sorted(emitted_source_keys - registered_source_keys)
+    if unregistered_source_keys:
+        fail(f"Presentation emits unregistered source keys: {unregistered_source_keys}")
+    registry_bad = sorted({row.get("authority_tier", "") for row in registry if row.get("authority_tier", "") not in allowed_authority_tiers})
+    if registry_bad:
+        fail(f"Source registry authority_tier outside schema vocabulary: {registry_bad}")
     fixture_rows = [r for r in presentation if r.get("source_kind") == "coptic_reader_fixture"]
     if len(fixture_rows) != 26:
         fail(f"Expected 26 Coptic Reader fixture rows, found {len(fixture_rows)}")
