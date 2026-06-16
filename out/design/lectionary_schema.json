@@ -272,6 +272,12 @@
       "validation_basis",
       "note"
     ],
+    "pascha_attestation_bucket_manifest": [
+      "bucket",
+      "row_count",
+      "present_in_phase3",
+      "note"
+    ],
     "synaxarium_commemoration": [
       "commem_id",
       "coptic_month",

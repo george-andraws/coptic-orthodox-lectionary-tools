@@ -1,0 +1,5 @@
+{"bucket": "current_confirmed", "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.", "present_in_phase3": "yes", "row_count": 26}
+{"bucket": "consensus_without_coptic_reader", "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.", "present_in_phase3": "no", "row_count": 0}
+{"bucket": "old_edition_only", "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.", "present_in_phase3": "yes", "row_count": 152}
+{"bucket": "old_edition_only_candidate_removed", "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.", "present_in_phase3": "yes", "row_count": 7}
+{"bucket": "single_source_candidate", "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.", "present_in_phase3": "yes", "row_count": 260}

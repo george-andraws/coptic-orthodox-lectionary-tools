@@ -174,6 +174,8 @@ KNOWN_FIXTURE_MT_EQUIVALENTS = {
     "Ps 68:17": "Ps 69:16",
 }
 
+KNOWN_MT_TO_LXX_EQUIVALENTS = {mt: lxx for lxx, mt in KNOWN_FIXTURE_MT_EQUIVALENTS.items()}
+
 UNRESOLVED_FIXTURE_LXX_REFS = {"Ps 41:1"}
 
 FORBIDDEN_WORDS = ["delve", "multifaceted", "additionally", "landscape", "underscore", "foster", "interplay"]
@@ -316,8 +318,8 @@ def fixture_lxx_to_mt_ref(lxx_ref: str) -> tuple[str, str, str]:
 
 def psalm_lxx_ref(mt_ref: str) -> tuple[str, str, str]:
     mt_ref = canonical_ref(mt_ref)
-    if mt_ref in KNOWN_FIXTURE_MT_EQUIVALENTS:
-        return KNOWN_FIXTURE_MT_EQUIVALENTS[mt_ref], "known_fixture_equivalence", "high"
+    if mt_ref in KNOWN_MT_TO_LXX_EQUIVALENTS:
+        return KNOWN_MT_TO_LXX_EQUIVALENTS[mt_ref], "known_content_compared_mt_to_lxx_equivalence", "high"
     parsed = parse_passage(mt_ref)
     if not parsed or parsed.book_abbrev != "Ps" or not parsed.parts:
         return mt_ref, "not_psalm_or_unparsed", "n/a"
@@ -387,7 +389,10 @@ def identity_for(passage: str, source_kind: str = "") -> dict:
         display = f"{canonical_mt} (LXX {canonical_lxx})"
     elif source_kind == "coptic_reader_fixture" and canonical_lxx and not canonical_mt:
         display = f"LXX {canonical_lxx} (MT equivalent pending)"
-    key_material = "|".join([ptype, canonical_mt, canonical_lxx, passage])
+    if ptype == "scripture":
+        key_material = "|".join([ptype, canonical_mt, canonical_lxx])
+    else:
+        key_material = "|".join([ptype, passage])
     identity_key = "rid_" + hashlib.sha256(key_material.encode("utf-8")).hexdigest()[:20]
     spans = []
     if parsed and parsed.parts:
@@ -625,6 +630,39 @@ def build_psalm_crosswalk() -> list[dict]:
     return rows
 
 
+def row_citation(row: dict) -> str:
+    parts = [
+        f"source_key={row.get('source_key', '')}",
+        f"source_file={row.get('source_file', '')}",
+        f"source_row_id={row.get('source_row_id', '')}",
+        f"source_ref={row.get('source_ref', '') or row.get('raw_ref', '')}",
+    ]
+    provenance = row.get("provenance", "")
+    if provenance and provenance != "api":
+        parts.append(f"provenance={provenance}")
+    elif provenance == "api":
+        parts.append("provenance=api extraction, replay using source_file and source_row_id")
+    url = row.get("url", "")
+    if url:
+        parts.append(f"url={url}")
+    return " | ".join(part for part in parts if not part.endswith("="))
+
+
+def attestation_note(bucket: str, rows: list[dict], statuses: list[str]) -> str:
+    if "current_psalm_equivalence_unresolved" in statuses:
+        refs = "; ".join(sorted(set(r.get("source_ref", "") or r.get("raw_ref", "") for r in rows)))
+        return "Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: " + refs
+    if bucket == "old_edition_only_candidate_removed":
+        return "Present in older/local Pascha data but absent from the scoped Coptic Reader Wednesday Day fixture. Retained as candidate removed reading, not deleted."
+    if bucket == "old_edition_only":
+        return "Historical printed witness retained for comparison. Not current authority where Coptic Reader fixture applies."
+    if bucket == "current_confirmed":
+        return "Current within captured Coptic Reader fixture scope or matched to that fixture after canonical identity normalization."
+    if bucket == "consensus_without_coptic_reader":
+        return "Two or more non-Coptic Reader sources agree after normalization, but no Coptic Reader fixture is present for this placement."
+    return "Single-source candidate retained with source citation. Not promoted to current Coptic Reader authority."
+
+
 def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[dict]]:
     groups: dict[tuple[str, str, str], list[dict]] = defaultdict(list)
     for row in presentation_rows:
@@ -657,7 +695,8 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             "sources": "; ".join(source_keys),
             "bucket": bucket,
             "statuses": "; ".join(statuses),
-            "citation": "; ".join(sorted(set(r.get("provenance", "") or r.get("source_file", "") for r in rows if r.get("provenance") or r.get("source_file"))))[:500],
+            "citation": "; ".join(row_citation(r) for r in rows)[:1000],
+            "attestation_note": attestation_note(bucket, rows, statuses),
         })
         source_authority_tiers = sorted(set(r.get("authority_tier", "") for r in rows if r.get("authority_tier")))
         if bucket == "current_confirmed":
@@ -685,6 +724,19 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             "attesting_sources": "; ".join(source_keys),
         })
     return attestation, temporal
+
+
+def build_attestation_bucket_manifest(attestation: list[dict], schema: dict) -> list[dict]:
+    counts = Counter(row.get("bucket", "") for row in attestation)
+    rows = []
+    for bucket in schema["controlled_vocabularies"]["attestation_bucket"]:
+        rows.append({
+            "bucket": bucket,
+            "row_count": counts.get(bucket, 0),
+            "present_in_phase3": "yes" if counts.get(bucket, 0) else "no",
+            "note": "Controlled bucket emitted by schema. Zero means this run had no rows in that class.",
+        })
+    return rows
 
 
 def parse_month_day(row: dict) -> tuple[str, int, str]:
@@ -889,6 +941,7 @@ def write_schema() -> dict:
             "temporal_attestation": ["identity_key", "source_key", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to"],
             "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
             "psalm_mt_lxx_crosswalk": ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"],
+            "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
             "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "source_url"],
             "synaxarium_reading_bridge": ["commem_id", "reading_identity_key", "slot", "basis", "confidence", "citation"],
         },
@@ -1365,6 +1418,7 @@ def main() -> None:
     presentation_rows, identities = build_reverse_presentation()
     psalm_rows = build_psalm_crosswalk()
     attestation, temporal = build_attestation(presentation_rows)
+    attestation_bucket_manifest = build_attestation_bucket_manifest(attestation, schema)
     commems, bridge = build_synaxarium()
     today_rows = build_today_rows(presentation_rows)
     footprint = build_footprint(presentation_rows)
@@ -1381,8 +1435,10 @@ def main() -> None:
     write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
     write_csv(OUT / "psalm_mt_lxx_crosswalk.csv", psalm_rows, ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"])
     write_jsonl(OUT / "psalm_mt_lxx_crosswalk.jsonl", psalm_rows)
-    write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "bucket", "statuses", "citation"])
+    write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "bucket", "statuses", "citation", "attestation_note"])
     write_jsonl(OUT / "pascha_attestation.jsonl", attestation)
+    write_csv(OUT / "pascha_attestation_bucket_manifest.csv", attestation_bucket_manifest, ["bucket", "row_count", "present_in_phase3", "note"])
+    write_jsonl(OUT / "pascha_attestation_bucket_manifest.jsonl", attestation_bucket_manifest)
     write_csv(OUT / "temporal_classification.csv", temporal, ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"])
     write_jsonl(OUT / "temporal_classification.jsonl", temporal)
     write_csv(OUT / "synaxarium_commemorations.csv", commems, ["commem_id", "coptic_month", "coptic_day", "coptic_day_key", "rank", "title", "type", "source", "source_url", "source_day_title", "source_summary"])
@@ -1402,6 +1458,7 @@ def main() -> None:
         "todays_readings_rows": len(today_rows),
         "psalm_crosswalk_rows": len(psalm_rows),
         "pascha_attestation_rows": len(attestation),
+        "pascha_attestation_bucket_manifest_rows": len(attestation_bucket_manifest),
         "temporal_classification_rows": len(temporal),
         "synaxarium_commemoration_rows": len(commems),
         "synaxarium_bridge_rows": len(bridge),

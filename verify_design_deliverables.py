@@ -101,6 +101,7 @@ def verify_schema() -> None:
         "temporal_attestation": ["source_authority_tier", "attestation_bucket", "current_authority"],
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "source_authority_tier", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
+        "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
     }
     for table, fields in table_requirements.items():
         missing_fields = [field for field in fields if field not in tables.get(table, [])]
@@ -117,6 +118,7 @@ def verify_rows() -> None:
         "todays_readings_rows": OUT / "todays_readings_current_practice.csv",
         "psalm_crosswalk_rows": OUT / "psalm_mt_lxx_crosswalk.csv",
         "pascha_attestation_rows": OUT / "pascha_attestation.csv",
+        "pascha_attestation_bucket_manifest_rows": OUT / "pascha_attestation_bucket_manifest.csv",
         "temporal_classification_rows": OUT / "temporal_classification.csv",
         "synaxarium_commemoration_rows": OUT / "synaxarium_commemorations.csv",
         "synaxarium_bridge_rows": OUT / "synaxarium_reading_bridge.csv",
@@ -135,6 +137,8 @@ def verify_rows() -> None:
     if not required_scopes.issubset(scopes):
         fail(f"Crosswalk missing mapping scopes: {sorted(required_scopes - scopes)}")
     temporal = read_csv(OUT / "temporal_classification.csv")
+    attestation = read_csv(OUT / "pascha_attestation.csv")
+    attestation_manifest = read_csv(OUT / "pascha_attestation_bucket_manifest.csv")
     allowed_current_authority = set(schema.get("controlled_vocabularies", {}).get("current_authority", []))
     for field in ["source_authority_tier", "attestation_bucket", "current_authority", "current_status"]:
         if any(field not in row for row in temporal[:10]):
@@ -170,6 +174,54 @@ def verify_rows() -> None:
     registry_bad = sorted({row.get("authority_tier", "") for row in registry if row.get("authority_tier", "") not in allowed_authority_tiers})
     if registry_bad:
         fail(f"Source registry authority_tier outside schema vocabulary: {registry_bad}")
+    allowed_buckets = set(schema.get("controlled_vocabularies", {}).get("attestation_bucket", []))
+    attestation_buckets = {row.get("bucket", "") for row in attestation}
+    unknown_buckets = sorted(attestation_buckets - allowed_buckets)
+    if unknown_buckets:
+        fail(f"Pascha attestation buckets outside schema vocabulary: {unknown_buckets}")
+    manifest_buckets = {row.get("bucket", "") for row in attestation_manifest}
+    if manifest_buckets != allowed_buckets:
+        fail(f"Attestation bucket manifest does not match schema vocabulary: missing={sorted(allowed_buckets - manifest_buckets)} extra={sorted(manifest_buckets - allowed_buckets)}")
+    manifest_counts = {row.get("bucket", ""): int(row.get("row_count", "0") or 0) for row in attestation_manifest}
+    actual_bucket_counts = {bucket: sum(1 for row in attestation if row.get("bucket") == bucket) for bucket in allowed_buckets}
+    if manifest_counts != actual_bucket_counts:
+        fail(f"Attestation bucket manifest counts do not match actual counts: manifest={manifest_counts} actual={actual_bucket_counts}")
+    if manifest_counts.get("consensus_without_coptic_reader") != 0:
+        fail("Phase 3 expected explicit zero-count consensus_without_coptic_reader bucket")
+    if any(not row.get("attestation_note") for row in attestation):
+        fail("Pascha attestation row missing attestation_note")
+    bare_api = [row for row in attestation if row.get("citation", "").strip() == "api" or "; api" in row.get("citation", "")]
+    if bare_api:
+        fail(f"Pascha attestation rows with bare api citation: {len(bare_api)}")
+    weak_citations = [row for row in attestation if "source_file=" not in row.get("citation", "") or "source_row_id=" not in row.get("citation", "")]
+    if weak_citations:
+        fail(f"Pascha attestation rows missing replayable source_file/source_row_id citation: {len(weak_citations)}")
+    pascha_source_kinds = {"pascha_day_hour", "pascha_source_text", "coptic_reader_fixture"}
+    expected_attestation_keys = {
+        (row.get("day_title", ""), row.get("service_hour") or row.get("service_section", ""), row.get("identity_key", ""))
+        for row in presentation
+        if row.get("source_kind") in pascha_source_kinds
+    }
+    actual_attestation_keys = {
+        (row.get("day_title", ""), row.get("service_hour", ""), row.get("identity_key", ""))
+        for row in attestation
+    }
+    missing_attestation = expected_attestation_keys - actual_attestation_keys
+    if missing_attestation:
+        fail(f"Pascha source placements missing attestation groups: {len(missing_attestation)}")
+    fixture_placement_keys = {
+        (row.get("day_title", ""), row.get("service_hour") or row.get("service_section", ""), row.get("identity_key", ""))
+        for row in presentation
+        if row.get("source_kind") == "coptic_reader_fixture"
+    }
+    fixture_identity_keys = {key[2] for key in fixture_placement_keys}
+    fixture_attestation_bad = [
+        row for row in attestation
+        if (row.get("day_title", ""), row.get("service_hour", ""), row.get("identity_key", "")) in fixture_placement_keys
+        and row.get("bucket") != "current_confirmed"
+    ]
+    if fixture_attestation_bad:
+        fail(f"Coptic Reader fixture placements not current_confirmed: {len(fixture_attestation_bad)}")
     fixture_rows = [r for r in presentation if r.get("source_kind") == "coptic_reader_fixture"]
     if len(fixture_rows) != 26:
         fail(f"Expected 26 Coptic Reader fixture rows, found {len(fixture_rows)}")
