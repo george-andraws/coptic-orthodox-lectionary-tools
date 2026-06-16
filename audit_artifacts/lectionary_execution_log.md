@@ -158,3 +158,11 @@
 - Audit artifact: `audit_artifacts/phase7_step2d_source_check.md`.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 2d accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 3 documentation-history section
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Sources checked: Ottawa/UKMID extracted PDF front matter for Days, Sundays, Pentecost, and Holy Pascha; direct HTTP availability for UKMID PDF URLs; St. Bishoy Deacons' Corner Katameros page; CCDL Coptic Encyclopedia metadata; ACCOT Youssef page; repository source registry; `out/design/psalm_mt_lxx_crosswalk.csv`; eBible World English Bible copyright information; Wikisource King James Bible copyright note.
+- What was done: Added `## How the lectionary has been documented` to the generated article, explaining printed Katameros witnesses, public documentation layers, scholarly structural sources, Burmester as older Holy Week witness, scoped Coptic Reader current authority, and Bible text comparison anchors. Added UKMID, St. Bishoy, Brenton, WEB, and KJV policy anchors to the Sources list without changing the existing inline `Source:` attribution style.
+- Attribution discipline: New section labels `Read from source` and one explicit `Inference from the design residue` statement.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; generated-article scan for em dash and banned words. All passed.
+- Acceptance result: Step 3 accepted. Commit hash: pending this commit.
