@@ -1142,7 +1142,7 @@ Feasts also have a governed place in the reading year. Youssef says the yearly p
 
 For ordinary weekdays, Youssef's principle is essential: the daily readings follow the Synaxarium. The theme of each day's readings turns around the occasions commemorated in the Synaxarium, including feasts of the Lord, the Theotokos, angels, martyrs, apostles, patriarchs, ascetics, hermits, and other saints. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-Youssef says the Church arranged 69 foundational readings, al-qira'at al-asasiyya, to cover these commemoration themes throughout the Coptic year, and that they are collected in the second volume of the Yearly Katameros. The Ottawa Katameros of the Days is that weekday and feast volume in English translation, and its table of contents exposes 69 dated feast or commemoration reading sets. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
+Youssef says the Church arranged 69 foundational readings, al-qira'at al-asasiyya, to cover these commemoration themes throughout the Coptic year, and that they are collected in the second volume of the Yearly Katameros. The Ottawa/UKMID Katameros of the Days presents that same practical second-volume collection in English: its table of contents lists 69 dated reading sections, and its annual day table maps daily commemorations to those sections. This identification is established as an inference from source identity, volume placement, function, and count; the consulted Youssef page gives the concept and count, not the date-by-date roster. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
 
 ## Why the reverse lectionary matters
 
@@ -1554,10 +1554,6 @@ Step 2a found reliable support for the Nicene Paschal norm and the Alexandrian c
 The active execution brief states that the Coptic Reader Wednesday Day fixture is faithful to the screenshots, including Third Hour `Psalm 41` and Sixth Hour `Psalm 83`, and that Coptic Reader governs where external books disagree. During Phase 1, Brenton/KJV seam checks resolved several exact pairs: LXX `Ps 41:6` to MT `Ps 42:5`, LXX `Ps 83:2` to MT `Ps 84:1`, and LXX `Ps 83:5` to MT `Ps 84:4`.
 
 Decision needed later: before presenting Third Hour `Psalm 41:1` as an exact MT-primary reference, compare the fixture Psalm text against Brenton and a public-domain MT text. Until then, the design layer preserves the Coptic Reader LXX label and marks the exact MT equivalence as unresolved.
-
-## Full list of F.N. Youssef's 69 collections
-
-The accessible source confirms the lectionary is arranged into 69 collections by feast or commemoration type, but the full English enumerated list was not available in the source text retrieved in this run. The schema stores the confirmed count and a working type vocabulary. The full list should be entered when a reliable source is available.
 
 ## Coptic Reader coverage beyond Wednesday Day
 

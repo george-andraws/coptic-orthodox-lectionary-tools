@@ -12,10 +12,6 @@ The active execution brief states that the Coptic Reader Wednesday Day fixture i
 
 Decision needed later: before presenting Third Hour `Psalm 41:1` as an exact MT-primary reference, compare the fixture Psalm text against Brenton and a public-domain MT text. Until then, the design layer preserves the Coptic Reader LXX label and marks the exact MT equivalence as unresolved.
 
-## Full list of F.N. Youssef's 69 collections
-
-The accessible source confirms the lectionary is arranged into 69 collections by feast or commemoration type, but the full English enumerated list was not available in the source text retrieved in this run. The schema stores the confirmed count and a working type vocabulary. The full list should be entered when a reliable source is available.
-
 ## Coptic Reader coverage beyond Wednesday Day
 
 The repo has a locked Coptic Reader fixture for Pascha Wednesday Day only. Current-vs-historical classifications outside that fixture are marked as candidates unless supported by other current sources. Do not treat them as fully Coptic Reader confirmed.

@@ -135,3 +135,10 @@
 - Source limitation: A clean source for the claim that Coptic Pascha always falls on the same date as Eastern Orthodox Pascha was not found in this step. The article omits that clause, and `audit_artifacts/open_questions_for_george.md` now records the shared-date source check.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 2a accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 2b 69 identity wording
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Step 1 dependency used: `CONFIRMED_SAME_SET`, with caveat that the consulted Youssef page does not print a date-by-date roster.
+- What was done: Updated the article to state that the Ottawa/UKMID Katameros of the Days presents the same practical second-volume collection in English, with the basis stated as source identity, volume placement, function, and count. Removed the stale open question about the full English list of the 69 because the Ottawa/UKMID TOC now supplies the controlled roster for this run.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 2b accepted. Commit hash: pending this commit.

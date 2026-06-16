@@ -60,7 +60,7 @@ Feasts also have a governed place in the reading year. Youssef says the yearly p
 
 For ordinary weekdays, Youssef's principle is essential: the daily readings follow the Synaxarium. The theme of each day's readings turns around the occasions commemorated in the Synaxarium, including feasts of the Lord, the Theotokos, angels, martyrs, apostles, patriarchs, ascetics, hermits, and other saints. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-Youssef says the Church arranged 69 foundational readings, al-qira'at al-asasiyya, to cover these commemoration themes throughout the Coptic year, and that they are collected in the second volume of the Yearly Katameros. The Ottawa Katameros of the Days is that weekday and feast volume in English translation, and its table of contents exposes 69 dated feast or commemoration reading sets. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
+Youssef says the Church arranged 69 foundational readings, al-qira'at al-asasiyya, to cover these commemoration themes throughout the Coptic year, and that they are collected in the second volume of the Yearly Katameros. The Ottawa/UKMID Katameros of the Days presents that same practical second-volume collection in English: its table of contents lists 69 dated reading sections, and its annual day table maps daily commemorations to those sections. This identification is established as an inference from source identity, volume placement, function, and count; the consulted Youssef page gives the concept and count, not the date-by-date roster. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
 
 ## Why the reverse lectionary matters
 
