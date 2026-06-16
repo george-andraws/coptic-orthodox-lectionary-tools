@@ -112,4 +112,5 @@
 - Audit pass 2 verdict: pass.
 - Audit pass 2 findings: pass 1 required process revisions were resolved enough to proceed to the Phase 6 artifact commit. The execution log now records Phase 6 regeneration, artifacts, verification commands and row counts, Phase 5 preservation checks, audit pass 1 result, revisions, unresolved questions, and acceptance state before commit.
 - Required revisions before Phase 6 artifact commit: none.
-- Final pre-commit acceptance state: Phase 6 artifacts are ready for commit. Final Phase 6 commit hash remains to be recorded after the artifact commit in a second log-only commit.
+- Final acceptance state: Phase 6 artifacts were committed in `440001d`; this hash is recorded in the required follow-up log-only commit.
+- Acceptance result: Phase 6 accepted after two independent Grok audit passes. Phase 6 artifact commit hash: `440001d`.
