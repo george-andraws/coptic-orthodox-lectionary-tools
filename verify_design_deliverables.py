@@ -119,13 +119,15 @@ def verify_schema() -> None:
     tables = schema.get("tables", {})
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
-        "temporal_attestation": ["source_authority_tier", "attestation_bucket", "current_authority", "removed_marker"],
-        "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
+        "temporal_attestation": ["source_authority_tier", "source_title", "source_edition", "source_locator", "attestation_bucket", "current_authority", "removed_marker"],
+        "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
         "temporal_residue": ["residue_type", "reason", "removed_marker", "citation", "attestation_note"],
         "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
         "synaxarium_commemoration": ["extraction_method", "caveat", "source_summary"],
         "psalm_mt_lxx_crosswalk": ["map_direction", "mapping_scope", "validation_basis"],
         "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
+        "source_registry": ["source_key", "title", "edition", "default_locator"],
+        "passage_source_disclosure": ["identity_key", "display_ref", "source_key", "source_title", "source_edition", "source_locator", "citation"],
         "foundational_reading_collection": ["collection_key", "coptic_day_key", "reading_section_start_page", "membership_status", "source_locator"],
     }
     for table, fields in table_requirements.items():
@@ -150,6 +152,7 @@ def verify_rows() -> None:
         "synaxarium_commemoration_rows": OUT / "synaxarium_commemorations.csv",
         "synaxarium_bridge_rows": OUT / "synaxarium_reading_bridge.csv",
         "passage_footprint_rows": OUT / "passage_liturgical_footprint.csv",
+        "passage_source_disclosure_rows": OUT / "passage_source_disclosure.csv",
         "foundational_reading_collection_rows": OUT / "foundational_reading_collections_69.csv",
     }
     for key, path in files.items():
@@ -188,8 +191,9 @@ def verify_rows() -> None:
         fail("Isa 48:1-6 must be retained only as a historical removed candidate")
     temporal_residue = read_csv(OUT / "temporal_residue.csv")
     temporal_residue_manifest = read_csv(OUT / "temporal_residue_manifest.csv")
+    passage_source_disclosure = read_csv(OUT / "passage_source_disclosure.csv")
     allowed_current_authority = set(schema.get("controlled_vocabularies", {}).get("current_authority", []))
-    for field in ["source_authority_tier", "attestation_bucket", "current_authority", "current_status"]:
+    for field in ["source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "current_status"]:
         if any(field not in row for row in temporal[:10]):
             fail(f"Temporal classification missing field {field}")
     unknown_authority = sorted({row.get("current_authority", "") for row in temporal if row.get("current_authority", "") not in allowed_current_authority})
@@ -217,7 +221,7 @@ def verify_rows() -> None:
         fail("Temporal residue manifest should state zero true_source_disagreement rows for this run")
     if any(row.get("current_authority") == "not Coptic Reader confirmed" for row in temporal):
         fail("Temporal classification still uses overbroad current_authority wording")
-    required = ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "source_key", "current_status", "authority_tier", "spans_json"]
+    required = ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "source_key", "source_title", "source_edition", "source_locator", "source_url", "current_status", "authority_tier", "spans_json"]
     allowed_statuses = set(schema.get("controlled_vocabularies", {}).get("current_status", []))
     allowed_authority_tiers = set(schema.get("controlled_vocabularies", {}).get("source_authority_tier", []))
     allowed_source_conventions = set(schema.get("controlled_vocabularies", {}).get("source_convention", []))
@@ -245,6 +249,23 @@ def verify_rows() -> None:
     registry_bad = sorted({row.get("authority_tier", "") for row in registry if row.get("authority_tier", "") not in allowed_authority_tiers})
     if registry_bad:
         fail(f"Source registry authority_tier outside schema vocabulary: {registry_bad}")
+    for field in ["title", "edition", "default_locator", "url"]:
+        blanks = [row.get("source_key", "") for row in registry if not row.get(field)]
+        if blanks:
+            fail(f"Source registry rows missing {field}: {blanks}")
+    for field in ["source_title", "source_edition", "source_locator", "source_url"]:
+        blanks = sum(1 for row in presentation if not row.get(field))
+        if blanks:
+            fail(f"Presentation rows missing {field}: {blanks}")
+    if len(passage_source_disclosure) != len(presentation):
+        fail(f"Passage source disclosure row count {len(passage_source_disclosure)} != presentation rows {len(presentation)}")
+    for field in ["source_title", "source_edition", "source_locator", "citation"]:
+        blanks = sum(1 for row in passage_source_disclosure if not row.get(field))
+        if blanks:
+            fail(f"Passage source disclosure rows missing {field}: {blanks}")
+    removed_disclosure = [row for row in passage_source_disclosure if row.get("removed_marker")]
+    if len(removed_disclosure) != len(removed_rows):
+        fail("Passage source disclosure does not preserve removed_marker rows")
     allowed_buckets = set(schema.get("controlled_vocabularies", {}).get("attestation_bucket", []))
     attestation_buckets = {row.get("bucket", "") for row in attestation}
     unknown_buckets = sorted(attestation_buckets - allowed_buckets)
@@ -259,12 +280,16 @@ def verify_rows() -> None:
         fail(f"Attestation bucket manifest counts do not match actual counts: manifest={manifest_counts} actual={actual_bucket_counts}")
     if manifest_counts.get("consensus_without_coptic_reader") != 0:
         fail("Phase 3 expected explicit zero-count consensus_without_coptic_reader bucket")
+    for field in ["source_titles", "source_editions", "source_locators"]:
+        blanks = [row for row in attestation if not row.get(field)]
+        if blanks:
+            fail(f"Pascha attestation rows missing {field}: {len(blanks)}")
     if any(not row.get("attestation_note") for row in attestation):
         fail("Pascha attestation row missing attestation_note")
     bare_api = [row for row in attestation if row.get("citation", "").strip() == "api" or "; api" in row.get("citation", "")]
     if bare_api:
         fail(f"Pascha attestation rows with bare api citation: {len(bare_api)}")
-    weak_citations = [row for row in attestation if "source_file=" not in row.get("citation", "") or "source_row_id=" not in row.get("citation", "")]
+    weak_citations = [row for row in attestation if "source_file=" not in row.get("citation", "") or "source_row_id=" not in row.get("citation", "") or "source_title=" not in row.get("citation", "") or "source_edition=" not in row.get("citation", "") or "source_locator=" not in row.get("citation", "")]
     if weak_citations:
         fail(f"Pascha attestation rows missing replayable source_file/source_row_id citation: {len(weak_citations)}")
     commems = read_csv(OUT / "synaxarium_commemorations.csv")

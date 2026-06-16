@@ -100,6 +100,7 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `pending_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
 - `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
 - `removed_marker`: uniform placement-level string for older Pascha placements absent from the scoped current Coptic Reader fixture. The marker cites the older source boundary and the current comparator that lacks it.
+- `source_title`, `source_edition`, `source_locator`, and `source_url`: citable provenance fields carried by placement and disclosure rows. `source_locator` points to a page, URL, local source row, extracted text line, or API/cache field.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.
 - `slot`: normalized Scripture and liturgical slots plus `source_label_preserved`.

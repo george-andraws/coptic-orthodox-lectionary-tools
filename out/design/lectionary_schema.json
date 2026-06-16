@@ -1484,11 +1484,18 @@
       "service_section",
       "slot",
       "order",
-      "removed_marker"
+      "removed_marker",
+      "source_title",
+      "source_edition",
+      "source_locator",
+      "source_url"
     ],
     "temporal_attestation": [
       "identity_key",
       "source_key",
+      "source_title",
+      "source_edition",
+      "source_locator",
       "source_authority_tier",
       "current_status",
       "attestation_bucket",
@@ -1506,6 +1513,9 @@
       "current_status",
       "removed_marker",
       "source_authority_tier",
+      "source_titles",
+      "source_editions",
+      "source_locators",
       "attestation_bucket",
       "current_authority",
       "valid_from",
@@ -1567,6 +1577,32 @@
       "slot",
       "basis",
       "confidence",
+      "citation"
+    ],
+    "source_registry": [
+      "source_key",
+      "title",
+      "edition",
+      "url",
+      "default_locator",
+      "authority_tier",
+      "confidence",
+      "notes"
+    ],
+    "passage_source_disclosure": [
+      "identity_key",
+      "display_ref",
+      "source_key",
+      "source_title",
+      "source_edition",
+      "source_locator",
+      "source_url",
+      "source_ref",
+      "occasion",
+      "calendar_key",
+      "slot",
+      "current_status",
+      "removed_marker",
       "citation"
     ],
     "foundational_reading_collection": [

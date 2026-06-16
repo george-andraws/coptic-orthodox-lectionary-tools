@@ -183,3 +183,11 @@
 - Generated output impact: `reverse_lectionary_presentation` now has 66,381 rows, `reading_identity` has 2,658 rows, `pascha_attestation` has 446 rows, and `temporal_residue` has 420 rows. The generator now retains 11 rows with `removed_marker`.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit removed-marker row check. All passed.
 - Acceptance result: Step 5 accepted. Commit hash: pending this commit.
+
+### 2026-06-16 - Step 6 citable provenance and source-disclosure data
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- What was done: Added registry-level `edition` and `default_locator` metadata, carried `source_title`, `source_edition`, `source_locator`, and `source_url` into placement rows, aggregated source titles, editions, and locators into Pascha attestation and temporal classification rows, and created `out/design/passage_source_disclosure.csv/jsonl` for page-level source disclosure.
+- Disclosure output: `passage_source_disclosure` emits one row per presentation placement/source row, with identity, display reference, source key, title, edition, locator, URL, source reference, occasion, slot, current status, removed marker, and replayable citation.
+- Generated output impact: `passage_source_disclosure` has 66,381 rows. Existing design-row counts are otherwise unchanged from Step 5.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit disclosure schema and row-count checks. All passed.
+- Acceptance result: Step 6 accepted. Commit hash: pending this commit.

@@ -34,6 +34,8 @@ SOURCE_REGISTRY = [
         "source_key": "coptic_reader_fixture_wednesday_day",
         "title": "Coptic Reader app, Pascha Wednesday Day fixture supplied by George",
         "url": "tests/fixtures/pascha_wednesday_day_coptic_reader.json",
+        "edition": "manual Coptic Reader fixture supplied by George, 2026-06-15",
+        "default_locator": "tests/fixtures/pascha_wednesday_day_coptic_reader.json",
         "authority_tier": "current_authority",
         "confidence": "confirmed_for_wednesday_day_only",
         "notes": "Manual fixture from screenshots. Coptic Reader governs current practice where captured.",
@@ -42,6 +44,8 @@ SOURCE_REGISTRY = [
         "source_key": "coptic_encyclopedia_lectionary",
         "title": "Coptic Encyclopedia, Lectionary entry, Claremont CCDL",
         "url": "https://ccdl.claremont.edu/digital/api/collection/cce/id/1199/download",
+        "edition": "Claremont CCDL item 1199",
+        "default_locator": "CCDL item 1199 download",
         "authority_tier": "scholarly_structural",
         "confidence": "confirmed",
         "notes": "Defines the lectionary as four books and explains historical development and calendar value.",
@@ -50,6 +54,8 @@ SOURCE_REGISTRY = [
         "source_key": "fn_youssef_arrangement",
         "title": "Fouad Naguib Youssef, The Arrangement of the Church Lectionary, ACCOT",
         "url": "https://accot.stcyrils.edu.au/fny-read1/",
+        "edition": "ACCOT web article accessed 2026-06-16",
+        "default_locator": "ACCOT article page",
         "authority_tier": "scholarly_structural",
         "confidence": "confirmed_for_principles",
         "notes": "Explains calendar logic, Sunday cycle, and the relation of daily readings to the Synaxarium.",
@@ -58,6 +64,8 @@ SOURCE_REGISTRY = [
         "source_key": "ugo_zanetti_annual_lectionaries",
         "title": "Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte",
         "url": "https://openlibrary.org/books/OL2304712M/Les_lectionnaires_coptes_annuels",
+        "edition": "bibliographic locator unresolved between P.I.O.L. 31 or 33",
+        "default_locator": "Open Library OL2304712M",
         "authority_tier": "scholarly_structural",
         "confidence": "bibliographic_confirmed_content_not_fully_ingested",
         "notes": "Standard scholarly study cited by the Coptic Encyclopedia for annual lectionaries.",
@@ -66,6 +74,8 @@ SOURCE_REGISTRY = [
         "source_key": "st_mary_ottawa_days",
         "title": "St. Mary Ottawa / UKMID Katameros of the Days, Readings for Week Days and Feasts",
         "url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
+        "edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
+        "default_locator": "UKMID PDF TOC pages 23 to 26 plus printed section page",
         "authority_tier": "historical_printed_witness",
         "confidence": "confirmed_local_extraction_and_step1_audit",
         "notes": "First edition, Christmas 1714 A.M., 1998 A.D. Source for the 69 dated foundational-reading collection used as bridge taxonomy.",
@@ -74,6 +84,8 @@ SOURCE_REGISTRY = [
         "source_key": "katameros_api_sqlite",
         "title": "pierresaid Katameros API SQLite source bundled in repo",
         "url": "sources/katameros-api/Core/KatamerosDatabase.db",
+        "edition": "local repo snapshot of pierresaid Katameros API SQLite database",
+        "default_locator": "source_file plus source_row_id",
         "authority_tier": "working_local_source",
         "confidence": "confirmed_local",
         "notes": "Main local structured source for annual, Sunday, Great Lent, and Holy Fifty cycle tables.",
@@ -82,6 +94,8 @@ SOURCE_REGISTRY = [
         "source_key": "copticchurch_date_resolved",
         "title": "copticchurch.net date-resolved readings cache, 2020 to 2035",
         "url": "https://www.copticchurch.net/readings",
+        "edition": "local cache covering 2020 to 2035",
+        "default_locator": "row URL plus source_row_id",
         "authority_tier": "public_current_practice_reference",
         "confidence": "confirmed_local_cache",
         "notes": "Date-resolved public readings used by the existing local package.",
@@ -90,6 +104,8 @@ SOURCE_REGISTRY = [
         "source_key": "st_mary_ottawa_pascha",
         "title": "St. Mary Ottawa Holy Pascha extracted text",
         "url": "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+        "edition": "Lent 1734 A.M., 2018 A.D. eBook extracted text",
+        "default_locator": "extracted text line and printed source page where available",
         "authority_tier": "historical_printed_witness",
         "confidence": "confirmed_local_extraction_with_known_parser_caveats",
         "notes": "Useful historical witness. Not current authority when it disagrees with Coptic Reader.",
@@ -98,6 +114,8 @@ SOURCE_REGISTRY = [
         "source_key": "st_takla_synaxarium",
         "title": "St-Takla English Coptic Synaxarium day index",
         "url": "https://st-takla.org/Full-Free-Coptic-Books/Coptic-Synaxarium-or-Synaxarion_English/Eng-Synexarium-or-Synexarion-index.html",
+        "edition": "St-Takla English web index accessed 2026-06-16",
+        "default_locator": "source_url for each Coptic day page",
         "authority_tier": "synaxarium_text_source",
         "confidence": "confirmed_index_not_full_text_ingestion",
         "notes": "Used to store day commemorations and source URLs. Full text should be opened when exact wording matters.",
@@ -106,6 +124,8 @@ SOURCE_REGISTRY = [
         "source_key": "special_service",
         "title": "Special-service readings extracted in the local package",
         "url": "out/data/reverse_lookup_crosswalk.csv",
+        "edition": "local package snapshot",
+        "default_locator": "source_file plus source_row_id",
         "authority_tier": "working_local_source",
         "confidence": "confirmed_local",
         "notes": "Local structured special-service rows retained with source labels and provenance.",
@@ -114,6 +134,8 @@ SOURCE_REGISTRY = [
         "source_key": "agpeya",
         "title": "Agpeya readings extracted in the local package",
         "url": "out/data/reverse_lookup_crosswalk.csv",
+        "edition": "local package snapshot",
+        "default_locator": "source_file plus source_row_id",
         "authority_tier": "working_local_source",
         "confidence": "confirmed_local",
         "notes": "Local structured Agpeya rows retained with source labels and provenance.",
@@ -122,6 +144,8 @@ SOURCE_REGISTRY = [
         "source_key": "bright_saturday_service_order",
         "title": "Bright Saturday service-order readings extracted in the local package",
         "url": "out/data/reverse_lookup_crosswalk.csv",
+        "edition": "local package snapshot",
+        "default_locator": "source_file plus source_row_id",
         "authority_tier": "working_local_source",
         "confidence": "confirmed_local",
         "notes": "Local structured Bright Saturday rows retained with source labels and provenance.",
@@ -709,6 +733,33 @@ def source_key_for(row: dict) -> str:
     return sk or "unknown"
 
 
+SOURCE_REGISTRY_BY_KEY = {row["source_key"]: row for row in SOURCE_REGISTRY}
+
+
+def source_registry_for_key(source_key: str) -> dict:
+    return SOURCE_REGISTRY_BY_KEY.get(source_key, {})
+
+
+def source_locator_for(row: dict, registry_entry: dict) -> str:
+    locators = []
+    row_url = row.get("url", "")
+    source_file = row.get("source_file", "")
+    source_row_id = str(row.get("source_row_id", "") or "")
+    if row_url:
+        locators.append(row_url)
+    if source_file and source_row_id:
+        locator_kind = "line" if row.get("source_kind") == "pascha_source_text" else "row"
+        locators.append(f"{source_file}:{locator_kind} {source_row_id}")
+    elif source_file:
+        locators.append(source_file)
+    source_ref = row.get("source_ref", "") or row.get("raw_ref", "")
+    if source_ref:
+        locators.append(f"source_ref={source_ref}")
+    if not locators and registry_entry.get("default_locator"):
+        locators.append(registry_entry.get("default_locator", ""))
+    return "; ".join(dict.fromkeys(part for part in locators if part))
+
+
 def fixture_current_keys(fixture_rows: list[dict]) -> set[tuple[str, str, str]]:
     keys = set()
     for row in fixture_rows:
@@ -758,6 +809,9 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
         identities[ident["identity_key"]] = ident
         current_status, status_note = status_for(row, ident, current_keys)
         removed_marker = removed_marker_for(row, ident)
+        source_key = source_key_for(row)
+        registry_entry = source_registry_for_key(source_key)
+        source_locator = source_locator_for(row, registry_entry)
         section = row.get("service_section") or row.get("service_hour") or row.get("reading_type") or ""
         hour_theme = HOUR_THEME.get(row.get("service_hour") or row.get("service_section") or "", "")
         presentation_rows.append({
@@ -765,12 +819,16 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
             "current_status": current_status,
             "status_note": status_note,
             "removed_marker": removed_marker,
-            "source_key": source_key_for(row),
+            "source_key": source_key,
+            "source_title": registry_entry.get("title", ""),
+            "source_edition": registry_entry.get("edition", ""),
+            "source_locator": source_locator,
+            "source_url": row.get("url", "") or registry_entry.get("url", ""),
             "source_kind": row.get("source_kind", ""),
             "source_family": row.get("source_family", ""),
             "source_file": row.get("source_file", ""),
             "source_row_id": row.get("source_row_id", ""),
-            "authority_tier": next((s["authority_tier"] for s in SOURCE_REGISTRY if s["source_key"] == source_key_for(row)), "unclassified"),
+            "authority_tier": registry_entry.get("authority_tier", "unclassified"),
             "occasion": row.get("liturgical_place") or row.get("day_title") or row.get("calendar_key") or "",
             "calendar_key": row.get("calendar_key", ""),
             "gregorian_date": row.get("gregorian_date", ""),
@@ -850,6 +908,9 @@ def build_psalm_crosswalk() -> list[dict]:
 def row_citation(row: dict) -> str:
     parts = [
         f"source_key={row.get('source_key', '')}",
+        f"source_title={row.get('source_title', '')}",
+        f"source_edition={row.get('source_edition', '')}",
+        f"source_locator={row.get('source_locator', '')}",
         f"source_file={row.get('source_file', '')}",
         f"source_row_id={row.get('source_row_id', '')}",
         f"source_ref={row.get('source_ref', '') or row.get('raw_ref', '')}",
@@ -891,6 +952,9 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
     temporal = []
     for (day, hour, identity_key), rows in sorted(groups.items()):
         source_keys = sorted(set(r.get("source_key", "") for r in rows))
+        source_titles = sorted(set(r.get("source_title", "") for r in rows if r.get("source_title")))
+        source_editions = sorted(set(r.get("source_edition", "") for r in rows if r.get("source_edition")))
+        source_locators = sorted(set(r.get("source_locator", "") for r in rows if r.get("source_locator")))
         statuses = sorted(set(r.get("current_status", "") for r in rows))
         removed_markers = sorted(set(r.get("removed_marker", "") for r in rows if r.get("removed_marker")))
         if "coptic_reader_fixture_wednesday_day" in source_keys:
@@ -911,6 +975,9 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             "display_ref": sample.get("display_ref", ""),
             "source_count": len(source_keys),
             "sources": "; ".join(source_keys),
+            "source_titles": "; ".join(source_titles),
+            "source_editions": "; ".join(source_editions),
+            "source_locators": " || ".join(source_locators)[:2000],
             "bucket": bucket,
             "statuses": "; ".join(statuses),
             "removed_marker": "; ".join(removed_markers),
@@ -936,6 +1003,9 @@ def build_attestation(presentation_rows: list[dict]) -> tuple[list[dict], list[d
             "current_status": "; ".join(statuses),
             "removed_marker": "; ".join(removed_markers),
             "source_authority_tier": "; ".join(source_authority_tiers),
+            "source_titles": "; ".join(source_titles),
+            "source_editions": "; ".join(source_editions),
+            "source_locators": " || ".join(source_locators)[:2000],
             "attestation_bucket": bucket,
             "current_authority": current_authority,
             "valid_from": valid_from,
@@ -1247,6 +1317,33 @@ def build_footprint(presentation_rows: list[dict]) -> list[dict]:
     return rows
 
 
+
+def build_passage_source_disclosure(presentation_rows: list[dict]) -> list[dict]:
+    rows = []
+    for row in presentation_rows:
+        rows.append({
+            "identity_key": row.get("identity_key", ""),
+            "display_ref": row.get("display_ref", ""),
+            "canonical_mt_ref": row.get("canonical_mt_ref", ""),
+            "canonical_lxx_ref": row.get("canonical_lxx_ref", ""),
+            "source_key": row.get("source_key", ""),
+            "source_title": row.get("source_title", ""),
+            "source_edition": row.get("source_edition", ""),
+            "source_locator": row.get("source_locator", ""),
+            "source_url": row.get("source_url", ""),
+            "source_ref": row.get("source_ref", "") or row.get("raw_ref", ""),
+            "occasion": row.get("occasion", ""),
+            "calendar_key": row.get("calendar_key", ""),
+            "day_title": row.get("day_title", ""),
+            "service_hour": row.get("service_hour", ""),
+            "slot": row.get("slot", ""),
+            "current_status": row.get("current_status", ""),
+            "removed_marker": row.get("removed_marker", ""),
+            "citation": row_citation(row),
+        })
+    return rows
+
+
 def write_schema() -> dict:
     foundational_69 = build_foundational_reading_collections_69()
     schema = {
@@ -1289,15 +1386,17 @@ def write_schema() -> dict:
         },
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
-            "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order", "removed_marker"],
-            "temporal_attestation": ["identity_key", "source_key", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to", "removed_marker"],
-            "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
+            "liturgical_placement": ["identity_key", "occasion", "calendar_key", "day_title", "service_day", "service_hour", "service_section", "slot", "order", "removed_marker", "source_title", "source_edition", "source_locator", "source_url"],
+            "temporal_attestation": ["identity_key", "source_key", "source_title", "source_edition", "source_locator", "source_authority_tier", "current_status", "attestation_bucket", "current_authority", "valid_from", "valid_to", "removed_marker"],
+            "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
             "temporal_residue": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "removed_marker", "current_authority", "residue_type", "reason", "citation", "attestation_note"],
             "temporal_residue_manifest": ["residue_type", "row_count", "present_in_phase4", "note"],
             "psalm_mt_lxx_crosswalk": ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"],
             "pascha_attestation_bucket_manifest": ["bucket", "row_count", "present_in_phase3", "note"],
             "synaxarium_commemoration": ["commem_id", "coptic_month", "coptic_day", "rank", "title", "type", "extraction_method", "caveat", "source_url", "source_summary"],
             "synaxarium_reading_bridge": ["commem_id", "reading_identity_key", "slot", "basis", "confidence", "citation"],
+            "source_registry": ["source_key", "title", "edition", "url", "default_locator", "authority_tier", "confidence", "notes"],
+            "passage_source_disclosure": ["identity_key", "display_ref", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_ref", "occasion", "calendar_key", "slot", "current_status", "removed_marker", "citation"],
             "foundational_reading_collection": ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_basis", "verification_status"],
         },
     }
@@ -1620,6 +1719,7 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 - `current_status`: `current_confirmed_coptic_reader`, `current_confirmed_by_fixture_equivalence`, `pending_psalm_equivalence_unresolved`, `historical_candidate_removed`, `historical_witness`, `current_working_source_not_coptic_reader_checked`, `current_public_or_local_reference`, `unknown`.
 - `current_authority`: separate from `current_status`; it states which authority, if any, is allowed to govern current practice for that row.
 - `removed_marker`: uniform placement-level string for older Pascha placements absent from the scoped current Coptic Reader fixture. The marker cites the older source boundary and the current comparator that lacks it.
+- `source_title`, `source_edition`, `source_locator`, and `source_url`: citable provenance fields carried by placement and disclosure rows. `source_locator` points to a page, URL, local source row, extracted text line, or API/cache field.
 - `attestation_bucket`: `current_confirmed`, `consensus_without_coptic_reader`, `old_edition_only`, `old_edition_only_candidate_removed`, `single_source_candidate`.
 - `service_day`, `service_hour`, and `service_section`: source labels are preserved when the source's service structure does not fit a normalized value.
 - `slot`: normalized Scripture and liturgical slots plus `source_label_preserved`.
@@ -1724,6 +1824,8 @@ Copy the following from this repo:
 - `out/design/todays_readings_current_practice.jsonl`
 - `out/design/passage_liturgical_footprint.csv`
 - `out/design/passage_liturgical_footprint.jsonl`
+- `out/design/passage_source_disclosure.csv`
+- `out/design/passage_source_disclosure.jsonl`
 - `out/design/pascha_attestation.csv`
 - `out/design/pascha_attestation_bucket_manifest.csv`
 - `out/design/temporal_classification.csv`
@@ -1906,9 +2008,10 @@ def main() -> None:
     foundational_69 = build_foundational_reading_collections_69()
     today_rows = build_today_rows(presentation_rows)
     footprint = build_footprint(presentation_rows)
+    passage_source_disclosure = build_passage_source_disclosure(presentation_rows)
 
     presentation_fields = [
-        "identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance",
+        "identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance",
     ]
     identity_fields = ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"]
     write_csv(OUT / "reading_identity.csv", identities.values(), identity_fields)
@@ -1919,11 +2022,11 @@ def main() -> None:
     write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
     write_csv(OUT / "psalm_mt_lxx_crosswalk.csv", psalm_rows, ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"])
     write_jsonl(OUT / "psalm_mt_lxx_crosswalk.jsonl", psalm_rows)
-    write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "bucket", "statuses", "removed_marker", "citation", "attestation_note"])
+    write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"])
     write_jsonl(OUT / "pascha_attestation.jsonl", attestation)
     write_csv(OUT / "pascha_attestation_bucket_manifest.csv", attestation_bucket_manifest, ["bucket", "row_count", "present_in_phase3", "note"])
     write_jsonl(OUT / "pascha_attestation_bucket_manifest.jsonl", attestation_bucket_manifest)
-    write_csv(OUT / "temporal_classification.csv", temporal, ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"])
+    write_csv(OUT / "temporal_classification.csv", temporal, ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"])
     write_jsonl(OUT / "temporal_classification.jsonl", temporal)
     temporal_residue_fields = ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "attestation_bucket", "current_status", "removed_marker", "current_authority", "residue_type", "reason", "citation", "attestation_note"]
     write_csv(OUT / "temporal_residue.csv", temporal_residue, temporal_residue_fields)
@@ -1936,7 +2039,10 @@ def main() -> None:
     write_jsonl(OUT / "synaxarium_reading_bridge.jsonl", bridge)
     write_csv(OUT / "passage_liturgical_footprint.csv", footprint, ["identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "total_occurrences", "current_occurrences", "historical_occurrences", "source_kinds", "sample_liturgical_places", "hour_themes", "patristic_homily_slug", "chapter_study_slug", "audio_slug", "site_note"])
     write_jsonl(OUT / "passage_liturgical_footprint.jsonl", footprint)
-    write_csv(OUT / "source_registry.csv", SOURCE_REGISTRY, ["source_key", "title", "url", "authority_tier", "confidence", "notes"])
+    disclosure_fields = ["identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_ref", "occasion", "calendar_key", "day_title", "service_hour", "slot", "current_status", "removed_marker", "citation"]
+    write_csv(OUT / "passage_source_disclosure.csv", passage_source_disclosure, disclosure_fields)
+    write_jsonl(OUT / "passage_source_disclosure.jsonl", passage_source_disclosure)
+    write_csv(OUT / "source_registry.csv", SOURCE_REGISTRY, ["source_key", "title", "edition", "url", "default_locator", "authority_tier", "confidence", "notes"])
     write_jsonl(OUT / "source_registry.jsonl", SOURCE_REGISTRY)
     foundational_fields = ["collection_key", "sequence", "coptic_month", "coptic_day", "coptic_day_key", "calendar_key", "toc_label", "reading_section_start_page", "source_key", "source_title", "source_edition", "source_url", "source_locator", "membership_status", "membership_basis", "verification_status"]
     write_csv(OUT / "foundational_reading_collections_69.csv", foundational_69, foundational_fields)
@@ -1957,6 +2063,7 @@ def main() -> None:
         "synaxarium_commemoration_rows": len(commems),
         "synaxarium_bridge_rows": len(bridge),
         "passage_footprint_rows": len(footprint),
+        "passage_source_disclosure_rows": len(passage_source_disclosure),
         "foundational_reading_collection_rows": len(foundational_69),
     }
     write_site_integration_spec(summary)

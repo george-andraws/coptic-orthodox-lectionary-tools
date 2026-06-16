@@ -17,6 +17,8 @@ Copy the following from this repo:
 - `out/design/todays_readings_current_practice.jsonl`
 - `out/design/passage_liturgical_footprint.csv`
 - `out/design/passage_liturgical_footprint.jsonl`
+- `out/design/passage_source_disclosure.csv`
+- `out/design/passage_source_disclosure.jsonl`
 - `out/design/pascha_attestation.csv`
 - `out/design/pascha_attestation_bucket_manifest.csv`
 - `out/design/temporal_classification.csv`
@@ -97,6 +99,7 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
   "synaxarium_commemoration_rows": 664,
   "synaxarium_bridge_rows": 4688,
   "passage_footprint_rows": 2657,
+  "passage_source_disclosure_rows": 66381,
   "foundational_reading_collection_rows": 69
 }
 ```
