@@ -126,7 +126,7 @@
 - Sources used: Ottawa/UKMID `Katameros_Days.pdf`, re-pulled from `https://ukmidcopts.org/pdf/Katameros_Days.pdf`; F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, `https://accot.stcyrils.edu.au/fny-read1/`.
 - Verdict: `CONFIRMED_SAME_SET` with wording caveat. The Ottawa/UKMID dated TOC entries may be treated as the same practical second-volume collection Youssef names, based on source identity, volume placement, annual mapping function, commemoration categories, and count. The consulted ACCOT Youssef page gives the concept, count, Arabic name, function, and second-volume placement, but not a date-by-date roster.
 - Verification: Codex re-pulled the Ottawa PDF, extracted pages 23 to 26 with `pypdf`, confirmed 69 dated TOC entries, confirmed sample annual table rows mapping days to the same dated sections, and fetched ACCOT with `curl -L --compressed` after plain Python returned HTTP 406.
-- Acceptance result: Step 1 accepted for Steps 2b, 4, and 7. Commit hash: pending this commit.
+- Acceptance result: Step 1 accepted for Steps 2b, 4, and 7. Commit hash: `ef55101`.
 
 ### 2026-06-16 - Step 2a Pascha computation clarity
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -134,21 +134,21 @@
 - What was done: Added one article sentence clarifying that Youssef's phrase about the Hebrew calendar is about the Church's Paschal computation, the Nicene norm of the Sunday following the first vernal full moon as later calculated through the Alexandrian mode, not a lookup of the present-day Hebrew calendar. Added the WCC/MECC source to the article source list.
 - Source limitation: A clean source for the claim that Coptic Pascha always falls on the same date as Eastern Orthodox Pascha was not found in this step. The article omits that clause, and `audit_artifacts/open_questions_for_george.md` now records the shared-date source check.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 2a accepted. Commit hash: pending this commit.
+- Acceptance result: Step 2a accepted. Commit hash: `b50e91b`.
 
 ### 2026-06-16 - Step 2b 69 identity wording
 - Producer: `openai-codex/gpt-5.5`, xhigh.
 - Step 1 dependency used: `CONFIRMED_SAME_SET`, with caveat that the consulted Youssef page does not print a date-by-date roster.
 - What was done: Updated the article to state that the Ottawa/UKMID Katameros of the Days presents the same practical second-volume collection in English, with the basis stated as source identity, volume placement, function, and count. Removed the stale open question about the full English list of the 69 because the Ottawa/UKMID TOC now supplies the controlled roster for this run.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 2b accepted. Commit hash: pending this commit.
+- Acceptance result: Step 2b accepted. Commit hash: `169f8a2`.
 
 ### 2026-06-16 - Step 2c NKJV wording
 - Producer: `openai-codex/gpt-5.5`, xhigh.
 - Check performed: Scanned `coptic-lectionary-and-synaxarium.md` for NKJV references, block quotes, and verse-like reproduced text. The article contains Scripture references and no NKJV verse text.
 - What was done: Changed the source line from `Scripture is from NKJV.` to `Scripture references follow NKJV versification.` Updated `verify_design_deliverables.py` so the verifier enforces the new Step 2c wording and rejects the old wording.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed after the verifier was updated to match the Step 2c requirement.
-- Acceptance result: Step 2c accepted. Commit hash: pending this commit.
+- Acceptance result: Step 2c accepted. Commit hash: `9a46291`.
 
 ### 2026-06-16 - Step 2d citation locators and minor notes
 - Producer: `openai-codex/gpt-5.5`, xhigh. Intended Grok research worker timed out before writing an artifact; source evidence was pulled directly with terminal HTTP and PDF extraction. Independent Grok audit remains the Step 8 gate.
@@ -157,7 +157,7 @@
 - Items flagged instead of guessed: Burmester pages 83 to 137 were not confirmed. Zanetti series/year was not cleanly confirmable because Open Library gives Publications de l'Institut orientaliste de Louvain 33, 1985, while the CCDL Coptic Encyclopedia PDF bibliography gives 31, 1988.
 - Audit artifact: `audit_artifacts/phase7_step2d_source_check.md`.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 2d accepted. Commit hash: pending this commit.
+- Acceptance result: Step 2d accepted. Commit hash: `db025be`.
 
 ### 2026-06-16 - Step 3 documentation-history section
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -165,7 +165,7 @@
 - What was done: Added `## How the lectionary has been documented` to the generated article, explaining printed Katameros witnesses, public documentation layers, scholarly structural sources, Burmester as older Holy Week witness, scoped Coptic Reader current authority, and Bible text comparison anchors. Added UKMID, St. Bishoy, Brenton, WEB, and KJV policy anchors to the Sources list without changing the existing inline `Source:` attribution style.
 - Attribution discipline: New section labels `Read from source` and one explicit `Inference from the design residue` statement.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; generated-article scan for em dash and banned words. All passed.
-- Acceptance result: Step 3 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 3 accepted. Commit hash: `ef4aaf1`.
 
 ### 2026-06-16 - Step 4 foundational-reading controlled vocabulary
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -173,7 +173,7 @@
 - What was done: Replaced the old count-only `collection_types_69` placeholder with an enumerated controlled vocabulary. Added `FOUNDATIONAL_69_SOURCE_PROVENANCE`, `FOUNDATIONAL_69_RAW`, generated `out/design/foundational_reading_collections_69.csv`, generated `out/design/foundational_reading_collections_69.jsonl`, embedded 69 entries in `out/design/lectionary_schema.json`, added a `foundational_reading_collection` schema table, added `st_mary_ottawa_days` to the source registry, and documented the vocabulary in `lectionary_spec.md`.
 - Membership verdict: `CONFIRMED_SAME_SET`, with caveat that identity is inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page does not print the date-by-date roster.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit row-count sanity check. All passed.
-- Acceptance result: Step 4 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 4 accepted. Commit hash: `85e7422`.
 
 ### 2026-06-16 - Step 5 removed-marker model field
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -182,7 +182,7 @@
 - Boundary note: Markers cite the actual older source witness and current comparator. Example source boundaries include St. Mary Ottawa Holy Pascha p. 308 line 7779 for Isaiah 48:1-6, p. 320 line 8091 for Isaiah 59:1-17, p. 322 line 8133 for Zechariah 11:11-14, p. 318 line 8038 for Proverbs 1:10-33, p. 299 line 7552 for Proverbs 4:4-27,5:1-4, and p. 298 line 7519 for Job 27:16-28:2.
 - Generated output impact: `reverse_lectionary_presentation` now has 66,381 rows, `reading_identity` has 2,658 rows, `pascha_attestation` has 446 rows, and `temporal_residue` has 420 rows. The generator now retains 11 rows with `removed_marker`.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit removed-marker row check. All passed.
-- Acceptance result: Step 5 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 5 accepted. Commit hash: `2622ee2`.
 
 ### 2026-06-16 - Step 6 citable provenance and source-disclosure data
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -190,7 +190,7 @@
 - Disclosure output: `passage_source_disclosure` emits one row per presentation placement/source row, with identity, display reference, source key, title, edition, locator, URL, source reference, occasion, slot, current status, removed marker, and replayable citation.
 - Generated output impact: `passage_source_disclosure` has 66,381 rows. Existing design-row counts are otherwise unchanged from Step 5.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit disclosure schema and row-count checks. All passed.
-- Acceptance result: Step 6 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 6 accepted. Commit hash: `f79cbbc`.
 
 ### 2026-06-16 - Step 7 69-explicit Synaxarium bridge upgrade
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -201,7 +201,7 @@
 - Outside-69 flag: outside the 69, the bridge remains uniformly `basis=collection-type` and `confidence=medium`. This is recorded in `audit_artifacts/open_questions_for_george.md` as a bridge differentiation flag.
 - Supersession note: Earlier Phase 6 bridge basis and confidence counts are historical and are superseded by this Step 7 distribution.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit before/after distribution check. All passed.
-- Acceptance result: Step 7 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 7 accepted. Commit hash: `efbf63c`.
 
 ### 2026-06-16 - Step 8 independent audit and revisions
 - Producer of revisions: `openai-codex/gpt-5.5`, xhigh.
@@ -212,4 +212,13 @@
 - Audit pass 2 artifact: `audit_artifacts/step8_grok_audit_pass2.md`.
 - Pass 2 outcome: no data/model required revisions remained. Required repo-state item was to add `05-LECTIONARY-DESIGN.md` to the commit. Advisable items were the Step 7 supersession note and preserving the `removed_marker` prose-pattern vs token decision as an open question.
 - Verification after revisions: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 8 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 8 accepted. Commit hash: `e2a5773`.
+
+
+### 2026-06-16 - Step 9 final log and consolidated report
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- What was done: Replaced Step 1 through Step 8 pending commit placeholders with actual hashes, reviewed `audit_artifacts/open_questions_for_george.md`, and prepared the consolidated final report for George.
+- Sources used: `git log --oneline --reverse a2f39d5..HEAD`, `audit_artifacts/open_questions_for_george.md`, and Grok Step 8 audit reports.
+- Final bridge distribution recorded for report: before Step 7, basis `collection-type`: 4,688 and confidence `medium`: 4,688. After Step 7, basis `explicit`: 789 and `collection-type`: 3,899; confidence `high`: 789 and `medium`: 3,899.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `python3 scripts/build_phase6_deck.py`; `git diff --check`. All passed in the final Step 9 verification run.
+- Acceptance result: Step 9 accepted. Commit hash: final log commit reported in George's consolidated end-of-run response.
