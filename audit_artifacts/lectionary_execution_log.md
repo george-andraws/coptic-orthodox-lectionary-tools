@@ -114,3 +114,16 @@
 - Required revisions before Phase 6 artifact commit: none.
 - Final acceptance state: Phase 6 artifacts were committed in `440001d`; this hash is recorded in the required follow-up log-only commit.
 - Acceptance result: Phase 6 accepted after two independent Grok audit passes. Phase 6 artifact commit hash: `440001d`.
+
+## Phase 7 - Corrections and completion pass
+
+### 2026-06-16 - Step 0 orientation and Step 1 investigation of the 69
+- Role/model used: Orchestrator and ingestion auditor, `openai-codex/gpt-5.5`, xhigh. Research producer, `xai-oauth/grok-4.3`, xhigh, through a full Hermes CLI instance because the model assignment required Grok for research.
+- Step 0 source note: repo HEAD was confirmed as `a2f39d52c21a10f8c2d48420401fb5c745ef00c1`, and the working tree was clean except the allowed untracked `audit_artifacts/phase2b_sus_source_psalm_numbering_2026-06-15.md`. The repo copy of `05-LECTIONARY-DESIGN.md` was absent, so George supplied `/Users/georgeandraws/.hermes/webui/attachments/ec88b422f574/05-LECTIONARY-DESIGN-2-1.md` as the substitute locked design brief.
+- Schema/control-vocabulary locator: `lectionary_spec.md` and `build_design_deliverables.py` identify `out/design/lectionary_schema.json` as the machine-readable source of truth for controlled vocabularies.
+- Step 1 research artifact: `audit_artifacts/phase7_grok_69_investigation.md`.
+- Step 1 ingestion audit artifact: `audit_artifacts/phase7_codex_audit_of_grok_69_investigation.md`.
+- Sources used: Ottawa/UKMID `Katameros_Days.pdf`, re-pulled from `https://ukmidcopts.org/pdf/Katameros_Days.pdf`; F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, `https://accot.stcyrils.edu.au/fny-read1/`.
+- Verdict: `CONFIRMED_SAME_SET` with wording caveat. The Ottawa/UKMID dated TOC entries may be treated as the same practical second-volume collection Youssef names, based on source identity, volume placement, annual mapping function, commemoration categories, and count. The consulted ACCOT Youssef page gives the concept, count, Arabic name, function, and second-volume placement, but not a date-by-date roster.
+- Verification: Codex re-pulled the Ottawa PDF, extracted pages 23 to 26 with `pypdf`, confirmed 69 dated TOC entries, confirmed sample annual table rows mapping days to the same dated sections, and fetched ACCOT with `curl -L --compressed` after plain Python returned HTTP 406.
+- Acceptance result: Step 1 accepted for Steps 2b, 4, and 7. Commit hash: pending this commit.
