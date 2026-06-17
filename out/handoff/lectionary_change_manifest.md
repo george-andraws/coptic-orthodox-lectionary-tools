@@ -1,18 +1,23 @@
 # Lectionary Change Manifest
 
 Baseline: `af25b02cc152c4e0d35e2a8a06754fd1857ed16e`
-Data range HEAD: `a04e64ed8763cfdee4573d3f81f0bea5cae3caa7`
+Data range HEAD: `475f9f6796ec70cdd71c14e5fd9cf88cca8d5e59`
 The manifest files themselves are excluded from future data-diff scans to avoid recursive diffs.
-Grouped manifest rows: 32921
-Exact raw row-level CSV changes archived: 427922
+Grouped manifest rows: 32941
+Exact raw row-level CSV changes archived: 427942
 Affected passage keys: 2791
+
+## Materialization reshape note
+
+The split into `out/design/reverse_lectionary_index.jsonl` and `out/design/daily/lectionary-YYYY.json` is a materialization reshape of existing readings. It does not change reading content and adds NO new affected passages for the Bible-study audit.
+The retired `out/design/reverse_lectionary_presentation.jsonl` monolith remains only in git history until George removes old blobs with filter-repo.
 
 ## Totals by change type
 
-- `added`: 17905
+- `added`: 17914
 - `bridge_basis_changed`: 570
 - `deduped`: 10
-- `other`: 6575
+- `other`: 6586
 - `provenance_added`: 4025
 - `relabeled`: 3
 - `removed_marked_historical`: 3833
@@ -31,7 +36,7 @@ Affected passage keys: 2791
 - 2 Kings: 40
 - 1 Chronicles: 10
 - Job: 547
-- Psalm: 14243
+- Psalm: 14251
 - Proverbs: 423
 - Wisdom: 150
 - Sirach: 181
@@ -50,12 +55,12 @@ Affected passage keys: 2791
 - Zephaniah: 67
 - Zechariah: 268
 - Malachi: 39
-- Matthew: 1992
-- Mark: 1300
-- Luke: 1986
+- Matthew: 1995
+- Mark: 1301
+- Luke: 1988
 - John: 1975
-- Acts: 2445
-- Romans: 884
+- Acts: 2447
+- Romans: 885
 - 1 Corinthians: 657
 - 2 Corinthians: 307
 - Galatians: 213
@@ -67,10 +72,10 @@ Affected passage keys: 2791
 - 1 Timothy: 134
 - 2 Timothy: 151
 - Titus: 38
-- Hebrews: 550
+- Hebrews: 551
 - James: 413
-- 1 Peter: 546
-- 2 Peter: 272
+- 1 Peter: 547
+- 2 Peter: 273
 - 1 John: 721
 - 2 John: 34
 - 3 John: 47
@@ -231,7 +236,7 @@ Affected passage keys: 2791
 - Ps 4 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 4:1 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 4:3 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- Ps 4:3,4:6,4:7 (10 changes; added; other; provenance_added; removed_marked_historical)
+- Ps 4:3,4:6,4:7 (11 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 4:6 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 4:6-8 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 4:7 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
@@ -779,7 +784,7 @@ Affected passage keys: 2791
 - Ps 66:1,66:2 (LXX Ps 65:1 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 66:1-2,66:4 (LXX Ps 65:1-2 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 66:12 (LXX Ps 65:12) (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- Ps 66:12-14 (LXX Ps 65:12-14) (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 66:12-14 (LXX Ps 65:12-14) (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 66:13-15 (LXX Ps 65:13-15) (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 66:2 (LXX Ps 65:2) (13 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 66:4 (LXX Ps 65:4) (13 changes; added; other; provenance_added; removed_marked_historical)
@@ -1037,7 +1042,7 @@ Affected passage keys: 2791
 - Ps 99 (LXX Ps 98) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 99:1-2 (LXX Ps 98:1-2) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 99:5 (LXX Ps 98:5) (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- Ps 99:6-7 (LXX Ps 98:6-7) (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 99:6-7 (LXX Ps 98:6-7) (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 99:9 (LXX Ps 98:9) (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 100 (LXX Ps 99) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 100:1-4 (LXX Ps 99:1-4) (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -1094,12 +1099,12 @@ Affected passage keys: 2791
 - Ps 104:45) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 105:1 (LXX Ps 104:1) (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:1-3 (LXX Ps 104:1-3) (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- Ps 105:14-15 (LXX Ps 104:14-15) (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 105:14-15 (LXX Ps 104:14-15) (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:23 (LXX Ps 104:23) (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:23,105:27 (LXX Ps 104:23 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Ps 105:26 (LXX Ps 104:26) (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 105:26 (LXX Ps 104:26) (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:26,105:27,105:45 (LXX Ps 104:26 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Ps 105:27 (LXX Ps 104:27) (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 105:27 (LXX Ps 104:27) (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:3 (LXX Ps 104:3) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 105:3-4 (LXX Ps 104:3-4) (13 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 105:3-5 (LXX Ps 104:3-5) (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -1107,7 +1112,7 @@ Affected passage keys: 2791
 - Ps 105:38 (LXX Ps 104:38) (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:4 (LXX Ps 104:4) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 105:43 (LXX Ps 104:43) (10 changes; added; other; provenance_added; removed_marked_historical)
-- Ps 105:45 (LXX Ps 104:45) (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 105:45 (LXX Ps 104:45) (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 105:5 (LXX Ps 104:5) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 105:8-10 (LXX Ps 104:8-10) (13 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 106:1 (LXX Ps 105:1) (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -1172,7 +1177,7 @@ Affected passage keys: 2791
 - Ps 113 (LXX Ps 112) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 113:1 (LXX Ps 112:1) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 113:1,113:2 (LXX Ps 112:1 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Ps 113:1-2 (LXX Ps 112:1-2) (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Ps 113:1-2 (LXX Ps 112:1-2) (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Ps 113:2 (LXX Ps 112:2) (10 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 113:3-4 (LXX Ps 112:3-4) (13 changes; added; other; provenance_added; removed_marked_historical)
 - Ps 114:2) (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -1639,7 +1644,7 @@ Affected passage keys: 2791
 - Matt 10:1-8 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 10:16-22 (13 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 10:16-23 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- Matt 10:24-33 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Matt 10:24-33 (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 10:34-42 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 11:11-15 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 11:11-19 (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
@@ -1682,7 +1687,7 @@ Affected passage keys: 2791
 - Matt 16:21-26 (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 16:24-28 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 17:1-13 (13 changes; added; other; provenance_added; removed_marked_historical)
-- Matt 17:1-9 (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Matt 17:1-9 (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 17:10-13 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 17:14-18 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 17:14-21 (13 changes; added; other; provenance_added; removed_marked_historical)
@@ -1716,7 +1721,7 @@ Affected passage keys: 2791
 - Matt 22:41-46 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 23:1-39 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 23:13-26 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Matt 23:13-36 (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Matt 23:13-36 (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Matt 23:13-39 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 23:14-39 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Matt 23:29-36 (19 changes; added; other; provenance_added; removed_marked_historical)
@@ -1787,7 +1792,7 @@ Affected passage keys: 2791
 - Mark 8:27-33 (19 changes; added; other; provenance_added; removed_marked_historical)
 - Mark 8:34-38 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Mark 8:34-9 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Mark 8:34-9:1 (10 changes; added; other; provenance_added; removed_marked_historical)
+- Mark 8:34-9:1 (11 changes; added; other; provenance_added; removed_marked_historical)
 - Mark 9:1 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Mark 9:14-24 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Mark 9:14-29 (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -1926,7 +1931,7 @@ Affected passage keys: 2791
 - Lk 11:27-36 (13 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 11:29-36 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 11:33-36 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Lk 11:37-51 (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Lk 11:37-51 (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Lk 11:37-52 (19 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 11:45-52 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 11:53-12:12 (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -1982,7 +1987,7 @@ Affected passage keys: 2791
 - Lk 20:27-38 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 20:27-39 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 20:9-19 (13 changes; added; other; provenance_added; removed_marked_historical)
-- Lk 21:12-19 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Lk 21:12-19 (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Lk 21:12-33 (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Lk 21:34-38 (19 changes; added; other; provenance_added; removed_marked_historical)
 - Lk 22:1-6 (16 changes; added; other; provenance_added; removed_marked_historical)
@@ -2276,7 +2281,7 @@ Affected passage keys: 2791
 - Acts 15:13-18 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Acts 15:13-21 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Acts 15:13-29 (13 changes; added; other; provenance_added; removed_marked_historical)
-- Acts 15:21-29 (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Acts 15:21-29 (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Acts 15:22-29 (13 changes; added; other; provenance_added; removed_marked_historical)
 - Acts 15:22-31 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Acts 15:36-16:3 (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -2308,7 +2313,7 @@ Affected passage keys: 2791
 - Acts 19:1-20 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Acts 19:1-6 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Acts 19:11-17 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- Acts 19:11-20 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Acts 19:11-20 (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Acts 19:11-22 (13 changes; added; other; provenance_added; removed_marked_historical)
 - Acts 19:23-26 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Acts 19:23-40 (13 changes; added; other; provenance_added; removed_marked_historical)
@@ -2419,7 +2424,7 @@ Affected passage keys: 2791
 - Rom 8:12-17 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Rom 8:12-26 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Rom 8:14-21 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Rom 8:14-27 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Rom 8:14-27 (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Rom 8:18-30 (13 changes; added; other; provenance_added; removed_marked_historical)
 - Rom 8:2-5 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Rom 8:22-27 (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -2654,7 +2659,7 @@ Affected passage keys: 2791
 - Heb 10:19-39 (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Heb 11:1-10 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Heb 11:1-8 (10 changes; added; other; provenance_added; removed_marked_historical)
-- Heb 11:17-27 (19 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- Heb 11:17-27 (20 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Heb 11:17-31 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - Heb 11:32-12:2 (10 changes; added; other; provenance_added; removed_marked_historical)
 - Heb 11:32-40 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
@@ -2726,7 +2731,7 @@ Affected passage keys: 2791
 - 1Pet 2:1-25 (10 changes; added; other; provenance_added; removed_marked_historical)
 - 1Pet 2:1-5 (13 changes; added; other; provenance_added; removed_marked_historical)
 - 1Pet 2:1-6 (10 changes; added; other; provenance_added; removed_marked_historical)
-- 1Pet 2:11-17 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
+- 1Pet 2:11-17 (15 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - 1Pet 2:11-25 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - 1Pet 2:18-25 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - 1Pet 2:18-3:7 (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -2760,7 +2765,7 @@ Affected passage keys: 2791
 - 2Pet 1:12-19 (13 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - 2Pet 1:12-21 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
 - 2Pet 1:19-21 (14 changes; added; bridge_basis_changed; other; provenance_added; removed_marked_historical)
-- 2Pet 1:19-2:8 (15 changes; added; other; provenance_added; removed_marked_historical)
+- 2Pet 1:19-2:8 (16 changes; added; other; provenance_added; removed_marked_historical)
 - 2Pet 1:19-2:9 (10 changes; added; other; provenance_added; removed_marked_historical)
 - 2Pet 1:20-21 (10 changes; added; other; provenance_added; removed_marked_historical)
 - 2Pet 1:20-2:6 (10 changes; added; other; provenance_added; removed_marked_historical)
@@ -2881,7 +2886,9 @@ Logged commits in the baseline range with no committed CSV data diff:
 - `248e11a` Audit corrected foundational 69 verdict
 - `2ad64ea` State foundational readings verdict
 - `31eacaa` Add lectionary data change manifest
+- `475f9f6` Update handoff for split lectionary layers
 - `5396e43` Clarify Coptic Pascha computation
+- `60e45ca` Add per-year daily lectionary files
 - `8c67d63` Audit Phase 7 correction pass
 - `9a46291` docs: clarify NKJV versification source
 - `a04e64e` Assemble coptic-corpus handoff package

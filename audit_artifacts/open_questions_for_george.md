@@ -255,8 +255,8 @@ The presentation footprint output includes blank `patristic_homily_slug` values 
 
 - Article markdown: `coptic-lectionary-and-synaxarium.md`
 - Site integration spec: `site_integration_spec.md`
-- Presentation dataset: `out/design/reverse_lectionary_presentation.csv` and `.jsonl`
-- Today's readings snapshot: `out/design/todays_readings_current_practice.csv` and `.jsonl`
+- Reverse lectionary occasion index: `out/design/reverse_lectionary_index.jsonl`
+- Daily readings files: `out/design/daily/lectionary-YYYY.json`
 - Passage footprint dataset: `out/design/passage_liturgical_footprint.csv` and `.jsonl`
 - Synaxarium datasets: `out/design/synaxarium_commemorations.csv` and `out/design/synaxarium_reading_bridge.csv`
 - Deck deliverables: `presentation/lectionary_design_layer_deck.pptx` and `presentation/lectionary_design_layer_deck_outline.md`

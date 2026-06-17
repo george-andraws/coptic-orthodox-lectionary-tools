@@ -339,3 +339,11 @@
 - Result: push failed. GitHub rejected historical blobs over the 100 MB hard limit, specifically prior `out/design/reverse_lectionary_presentation.jsonl` blobs introduced in the unpublished local history. GitHub also warned about several 50 MB to 87 MB files that are above the recommended size.
 - Side-effect boundary: no history rewrite, LFS migration, or branch surgery was attempted after the rejection because that would be a repo-wide history operation rather than a routine final push.
 - Final local state: all requested work is committed locally; repo remains unpushed beyond `origin/main` because of the large-file history block. The only remaining untracked file is the pre-existing `audit_artifacts/phase2b_sus_source_psalm_numbering_2026-06-15.md`.
+
+### Step 13 - Split reverse lectionary materialization into occasion and daily layers
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Identity-key guard: spot-checked an ordinary Great Lent weekday reading shared by `ordinary_date_resolved` and `katameros_cycle`. `1Cor 10:1-13` on Friday of the sixth week of Great Lent and `week 6 day_of_week 5` in the Katameros cycle both used identity key `rid_f72fd6622211f0669570`. A broader Great Lent shared-reference check found 280 shared weekday reference keys and zero identity-key mismatches.
+- Step 1 commit: `c785f61` added `out/design/reverse_lectionary_index.jsonl`, with 8005 surviving occasion tuples, zero current-status or removed-marker disagreements, aggregated source disclosure, and attestation year spans.
+- Step 2 commit: `60e45ca` added `out/design/daily/lectionary-2020.json` through `out/design/daily/lectionary-2035.json`, preserving 59324 dated rows from the source presentation table.
+- Step 3 commit: `475f9f6` copied the shipped window into `out/handoff/`: `reverse_lectionary_index.jsonl`, `daily/lectionary-2026.json`, `daily/lectionary-2027.json`, and `daily/lectionary-2028.json`; it also updated the handoff and site integration specs.
+- Step 4 in-progress reconciliation: retire `out/design/reverse_lectionary_presentation.jsonl` from the working tree and add a manifest note that the split is a materialization reshape with NO new affected passages for Bible-study audit.

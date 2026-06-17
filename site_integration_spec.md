@@ -33,7 +33,6 @@ Copy the shipped files from `out/handoff/`:
 Archive files that remain research support, not shipped runtime data:
 
 - `out/design/reverse_lectionary_presentation.csv`
-- `out/design/reverse_lectionary_presentation.jsonl`
 - `out/design/todays_readings_current_practice.csv`
 - `out/design/todays_readings_current_practice.jsonl`
 - `out/design/daily/lectionary-2020.json` through `out/design/daily/lectionary-2035.json`, except the shipped window copied above

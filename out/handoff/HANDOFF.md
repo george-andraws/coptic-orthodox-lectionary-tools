@@ -39,6 +39,7 @@ These are retained for George's review, not for normal site runtime.
 | Artifact | Path | Status |
 |---|---|---|
 | Old reverse presentation CSV | `reverse_lectionary_presentation.csv` | Archive only. Superseded by `reverse_lectionary_index.jsonl` plus daily JSON files. |
+| Retired reverse presentation JSONL | `out/design/reverse_lectionary_presentation.jsonl` | Not present in the working tree. History only until George removes old blobs with filter-repo. |
 | Today's readings snapshot | `todays_readings_current_practice.csv` | Archive fixture only. Superseded by daily JSON files for runtime. |
 | Full per-year daily set | `../design/daily/lectionary-2020.json` through `../design/daily/lectionary-2035.json` | Research archive. Only 2026, 2027, and 2028 are shipped here. |
 | Grouped change manifest | `lectionary_change_manifest.csv` | Review grouped data changes by passage, change type, commit, and artifact before touching chapter studies. |

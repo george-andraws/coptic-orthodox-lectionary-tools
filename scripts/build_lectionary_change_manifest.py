@@ -412,7 +412,7 @@ def aggregate_manifest(raw_manifest: list[dict]) -> list[dict]:
 
 def write_csv(path: Path, rows: list[dict], fields: list[str]) -> None:
     with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=fields)
+        writer = csv.DictWriter(f, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -422,7 +422,7 @@ def write_raw_manifest_gz(rows: list[dict], fields: list[str]) -> None:
     with RAW_MANIFEST_GZ.open("wb") as raw:
         with gzip.GzipFile(filename="", mode="wb", fileobj=raw, mtime=0) as gz:
             wrapper = io.TextIOWrapper(gz, encoding="utf-8", newline="")
-            writer = csv.DictWriter(wrapper, fieldnames=fields)
+            writer = csv.DictWriter(wrapper, fieldnames=fields, lineterminator="\n")
             writer.writeheader()
             writer.writerows(rows)
             wrapper.flush()
@@ -460,7 +460,7 @@ def write_outputs(manifest: list[dict], metadata: dict, baseline: str, head: str
         })
     affected_rows.sort(key=lambda r: (BOOK_RANK.get(r["book"], 999), int(r["chapter"] or 0), r["affected_passage"]))
     with AFFECTED_CSV.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["book", "chapter", "affected_passage", "change_count", "change_types", "commits"])
+        writer = csv.DictWriter(f, fieldnames=["book", "chapter", "affected_passage", "change_count", "change_types", "commits"], lineterminator="\n")
         writer.writeheader()
         writer.writerows(affected_rows)
 
@@ -485,6 +485,11 @@ def write_outputs(manifest: list[dict], metadata: dict, baseline: str, head: str
     if metadata.get("raw_change_rows"):
         md.append(f"Exact raw row-level CSV changes archived: {metadata['raw_change_rows']}")
     md.append(f"Affected passage keys: {len(affected_rows)}")
+    md.append("")
+    md.append("## Materialization reshape note")
+    md.append("")
+    md.append("The split into `out/design/reverse_lectionary_index.jsonl` and `out/design/daily/lectionary-YYYY.json` is a materialization reshape of existing readings. It does not change reading content and adds NO new affected passages for the Bible-study audit.")
+    md.append("The retired `out/design/reverse_lectionary_presentation.jsonl` monolith remains only in git history until George removes old blobs with filter-repo.")
     md.append("")
     md.append("## Totals by change type")
     md.append("")

@@ -7,6 +7,9 @@ __pycache__/
 *.sqlite-*
 *.db-*
 
+# Retired derived monolith, replaced by reverse_lectionary_index.jsonl plus out/design/daily/lectionary-YYYY.json
+out/design/reverse_lectionary_presentation.jsonl
+
 # Include required SQLite source/package databases for reproducible local rebuilds
 !sources/katameros-api/Core/KatamerosDatabase.db
 !out/sources/KatamerosDatabase.sqlite

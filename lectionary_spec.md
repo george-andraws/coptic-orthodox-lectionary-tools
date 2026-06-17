@@ -250,7 +250,7 @@ Use the split files for site integration:
 - `out/design/foundational_reading_collections_69.jsonl`
 - `site_integration_spec.md`
 
-The older `reverse_lectionary_presentation` files are a research materialization of the two layers and should not be used as shipped site artifacts after the split.
+The older `reverse_lectionary_presentation.csv` file is a research materialization of the two layers and should not be used as a shipped site artifact after the split. The previous JSONL monolith is retired from the working tree.
 
 ## Acceptance notes
 

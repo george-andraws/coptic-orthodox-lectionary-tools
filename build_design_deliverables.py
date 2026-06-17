@@ -2026,7 +2026,7 @@ Use the split files for site integration:
 - `out/design/foundational_reading_collections_69.jsonl`
 - `site_integration_spec.md`
 
-The older `reverse_lectionary_presentation` files are a research materialization of the two layers and should not be used as shipped site artifacts after the split.
+The older `reverse_lectionary_presentation.csv` file is a research materialization of the two layers and should not be used as a shipped site artifact after the split. The previous JSONL monolith is retired from the working tree.
 
 ## Acceptance notes
 
@@ -2077,7 +2077,6 @@ Copy the shipped files from `out/handoff/`:
 Archive files that remain research support, not shipped runtime data:
 
 - `out/design/reverse_lectionary_presentation.csv`
-- `out/design/reverse_lectionary_presentation.jsonl`
 - `out/design/todays_readings_current_practice.csv`
 - `out/design/todays_readings_current_practice.jsonl`
 - `out/design/daily/lectionary-2020.json` through `out/design/daily/lectionary-2035.json`, except the shipped window copied above
@@ -2262,8 +2261,8 @@ Ottawa taxonomy coverage flag: 11 of the 69 Ottawa dated entries have no emitted
     text += "\n## Final push package pointers\n\n"
     text += "- Article markdown: `coptic-lectionary-and-synaxarium.md`\n"
     text += "- Site integration spec: `site_integration_spec.md`\n"
-    text += "- Presentation dataset: `out/design/reverse_lectionary_presentation.csv` and `.jsonl`\n"
-    text += "- Today's readings snapshot: `out/design/todays_readings_current_practice.csv` and `.jsonl`\n"
+    text += "- Reverse lectionary occasion index: `out/design/reverse_lectionary_index.jsonl`\n"
+    text += "- Daily readings files: `out/design/daily/lectionary-YYYY.json`\n"
     text += "- Passage footprint dataset: `out/design/passage_liturgical_footprint.csv` and `.jsonl`\n"
     text += "- Synaxarium datasets: `out/design/synaxarium_commemorations.csv` and `out/design/synaxarium_reading_bridge.csv`\n"
     text += "- Deck deliverables: `presentation/lectionary_design_layer_deck.pptx` and `presentation/lectionary_design_layer_deck_outline.md`\n"
@@ -2296,7 +2295,6 @@ def main() -> None:
     write_csv(OUT / "reading_identity.csv", identities.values(), identity_fields)
     write_jsonl(OUT / "reading_identity.jsonl", identities.values())
     write_csv(OUT / "reverse_lectionary_presentation.csv", presentation_rows, presentation_fields)
-    write_jsonl(OUT / "reverse_lectionary_presentation.jsonl", presentation_rows)
     write_jsonl(OUT / "reverse_lectionary_index.jsonl", reverse_index_rows)
     daily_dir = OUT / "daily"
     if daily_dir.exists():
