@@ -355,3 +355,13 @@
 - Initial audit found two documentation/process issues and no data-loss issue: stale `out/handoff/lectionary_spec.md` and Step 4 wording still marked in progress in this log.
 - Revision applied: refreshed `out/handoff/lectionary_spec.md` from the generated root `lectionary_spec.md`; updated this execution log to record final Step 4 commit `d0f46d7` and verification state.
 - Final audit verdict: PASS. Grok found no evidence that a distinct reading was lost between the retired monolith and the union of `out/design/reverse_lectionary_index.jsonl` plus `out/design/daily/lectionary-YYYY.json` files. Required revisions: none.
+
+### Step 15 - Collapse split-index disclosure and refresh handoff
+- Producer: `openai-codex/gpt-5.5`.
+- History check: `7159e36` touched only `.DS_Store` and `.gitignore`; split reshape work remained in separate commits.
+- Commit `a9f405e` collapsed `reverse_lectionary_index.jsonl` source disclosure by distinct `(source_family, source_kind, source_edition, source_title)` and kept representative locators plus per-source year spans. Verification reported 8005 index rows and zero distinct-source count mismatches.
+- Commit `3fd410a` refreshed handoff/spec wording and copied the collapsed handoff index. Specs now state the two-layer model, shipped 2026 to 2028 daily window, collapsed source disclosure, and the structural-only daily-file limit.
+- Commit `2459783` refreshed the manifest materialization note. Affected passages stayed at 2791 and the generated execution-log cross-check remained clean.
+- Auditor: `xai-oauth/grok-4.3`, using Hermes one-shot with the `file` toolset only. No web/search/fetch tools were enabled.
+- Audit artifact: `audit_artifacts/phase9_grok_split_collapse_audit.md`.
+- Final audit verdict: PASS. Grok found no sign of reading loss and confirmed the distinct-source count per reading was unchanged by the disclosure collapse.
