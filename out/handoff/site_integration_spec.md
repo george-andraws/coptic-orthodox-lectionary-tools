@@ -18,22 +18,48 @@ Hermes has not touched `coptic-corpus` in this run. George reviews this package,
 4. Show `display_ref` to users. If the LXX reference differs, keep the inline LXX annotation.
 5. Do not merge current and historical readings without showing `current_status`.
 
+## Two-layer lectionary model
+
+The old monolith mixed two different concerns:
+
+1. A year-independent occasion index for reverse lectionary and footprint pages.
+2. A date-resolved daily file set for Today's Readings.
+
+The shipped site model uses those as separate layers.
+
 ## Reverse lectionary rendering
 
-Use `reverse_lectionary_presentation.csv` as the main passage-to-liturgical-use index.
+Use `reverse_lectionary_index.jsonl` as the main passage-to-occasion index.
+
+This file has one row per distinct `(occasion, service_section, service_hour, slot, identity_key)` tuple from the source monolith. It drops `gregorian_date` and `coptic_date`, aggregates source disclosure across collapsed duplicates, and records ordinary-reading attestation years in `attestation_year_min` and `attestation_year_max`.
 
 For each passage result:
 
 - group by `current_status`, then by season or source kind,
 - show current Coptic Reader confirmed rows first when present,
 - render `removed_marker` inline for historical Pascha rows,
-- render source provenance from `passage_source_disclosure.csv`,
+- render source provenance from `source_disclosure` or `passage_source_disclosure.csv`,
 - link source metadata through `source_registry.csv`,
 - preserve both `canonical_mt_ref` and `canonical_lxx_ref`.
 
-## Today's readings rendering
+## Today's Readings rendering
 
-Use `todays_readings_current_practice.csv` as the static current-practice snapshot produced in this run. For dynamic production behavior, generate the date key in the site and resolve against the current reading source available there.
+Use the daily JSON file for the current Gregorian year. The page should read today's ISO date key directly, with no site-side lectionary computation.
+
+Current shipped window:
+
+- `daily/lectionary-2026.json`
+- `daily/lectionary-2027.json`
+- `daily/lectionary-2028.json`
+
+Runtime behavior:
+
+1. Choose the current Gregorian year file.
+2. Lookup today's ISO date key, for example `2026-06-17`.
+3. Render the ordered readings stored under that key.
+4. If the key is absent, fail visibly and alert the daily rebuild process.
+
+The daily rebuild cron should roll the shipped window forward. The full 2020 to 2035 file set remains in `out/design/daily/` in the research repo as archive and source material for future windows.
 
 ## Passage liturgical footprint rendering
 
@@ -52,7 +78,7 @@ The slug fields are intentionally placeholders in this repo because `coptic-corp
 
 ## Source disclosure rendering
 
-Use `passage_source_disclosure.csv` for per-passage source disclosure.
+Use `passage_source_disclosure.csv` for per-passage source disclosure, or the `source_disclosure` field in `reverse_lectionary_index.jsonl` when rendering occasion-index rows directly.
 
 Render these fields when present:
 
@@ -91,4 +117,5 @@ After George imports into `coptic-corpus`:
 2. Search by MT and LXX Psalm numbering for at least Psalm 51 and Psalm 50.
 3. Verify a historical Pascha reading shows `removed_marker` inline.
 4. Verify passage pages display source disclosure.
-5. Verify slug joins do not fail when placeholder slug fields are blank.
+5. Verify Today's Readings loads `daily/lectionary-YYYY.json` by ISO date and does not read the archive monolith.
+6. Verify slug joins do not fail when placeholder slug fields are blank.

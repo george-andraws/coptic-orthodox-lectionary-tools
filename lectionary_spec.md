@@ -236,19 +236,21 @@ See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 6
 
 ## Site-facing outputs
 
-- `out/design/reverse_lectionary_presentation.csv`
-- `out/design/reverse_lectionary_presentation.jsonl`
-- `out/design/todays_readings_current_practice.csv`
+Use the split files for site integration:
+
+- `out/design/reverse_lectionary_index.jsonl`
+- `out/design/daily/lectionary-YYYY.json`
 - `out/design/passage_liturgical_footprint.csv`
+- `out/design/passage_source_disclosure.csv`
 - `out/design/pascha_attestation.csv`
 - `out/design/temporal_classification.csv`
 - `out/design/synaxarium_commemorations.csv`
 - `out/design/synaxarium_reading_bridge.csv`
 - `out/design/foundational_reading_collections_69.csv`
 - `out/design/foundational_reading_collections_69.jsonl`
-- `out/design/passage_source_disclosure.csv`
-- `out/design/passage_source_disclosure.jsonl`
 - `site_integration_spec.md`
+
+The older `reverse_lectionary_presentation` files are a research materialization of the two layers and should not be used as shipped site artifacts after the split.
 
 ## Acceptance notes
 

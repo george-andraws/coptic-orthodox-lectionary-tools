@@ -1,68 +1,76 @@
 # Site Integration Spec: Coptic Lectionary Design Layer
 
-Generated: 2026-06-16
+Generated: 2026-06-17
 
-George will push these files into the site repo. Hermes does not have `coptic-corpus` access in this run.
+George will push selected files into the site repo. Hermes does not have `coptic-corpus` access in this run.
 
 ## Files to copy
 
-Copy the following from this repo:
+Copy the shipped files from `out/handoff/`:
 
 - `coptic-lectionary-and-synaxarium.md`
 - `lectionary_spec.md`
-- `out/design/lectionary_schema.json`
-- `out/design/foundational_reading_collections_69.csv`
-- `out/design/foundational_reading_collections_69.jsonl`
+- `lectionary_schema.json`
+- `reading_identity.csv`
+- `reverse_lectionary_index.jsonl`
+- `daily/lectionary-2026.json`
+- `daily/lectionary-2027.json`
+- `daily/lectionary-2028.json`
+- `passage_liturgical_footprint.csv`
+- `passage_source_disclosure.csv`
+- `source_registry.csv`
+- `psalm_mt_lxx_crosswalk.csv`
+- `foundational_reading_collections_69.csv`
+- `pascha_attestation.csv`
+- `pascha_attestation_bucket_manifest.csv`
+- `temporal_classification.csv`
+- `temporal_residue.csv`
+- `temporal_residue_manifest.csv`
+- `synaxarium_commemorations.csv`
+- `synaxarium_reading_bridge.csv`
+- `open_questions_for_george.md`
+
+Archive files that remain research support, not shipped runtime data:
+
 - `out/design/reverse_lectionary_presentation.csv`
 - `out/design/reverse_lectionary_presentation.jsonl`
 - `out/design/todays_readings_current_practice.csv`
 - `out/design/todays_readings_current_practice.jsonl`
-- `out/design/passage_liturgical_footprint.csv`
-- `out/design/passage_liturgical_footprint.jsonl`
-- `out/design/passage_source_disclosure.csv`
-- `out/design/passage_source_disclosure.jsonl`
-- `out/design/pascha_attestation.csv`
-- `out/design/pascha_attestation_bucket_manifest.csv`
-- `out/design/temporal_classification.csv`
-- `out/design/temporal_residue.csv`
-- `out/design/temporal_residue_manifest.csv`
-- `out/design/synaxarium_commemorations.csv`
-- `out/design/synaxarium_reading_bridge.csv`
-- `out/design/source_registry.csv`
-- `out/design/psalm_mt_lxx_crosswalk.csv`
-- `audit_artifacts/open_questions_for_george.md`
-- `presentation/lectionary_design_layer_deck.pptx`
-- `presentation/lectionary_design_layer_deck_outline.md`
+- `out/design/daily/lectionary-2020.json` through `out/design/daily/lectionary-2035.json`, except the shipped window copied above
 
 ## Required search behavior
 
 1. Accept MT or modern English input by default, for example `Psalm 51`.
-2. Accept LXX liturgical Psalm input, for example `Psalm 50`, by consulting `canonical_lxx_ref` and the Psalm crosswalk.
-3. Resolve both to `identity_key` before showing results.
+2. Accept LXX liturgical Psalm input, for example `Psalm 50`, by consulting `canonical_lxx_ref`, `reading_identity.csv`, and `psalm_mt_lxx_crosswalk.csv`.
+3. Resolve both forms to `identity_key` before showing results.
 4. Show `display_ref` to users. If LXX differs, keep the inline LXX annotation.
 5. Never collapse historical and current readings without displaying `current_status`.
 
-## Reverse lectionary page behavior
+## Reverse lectionary behavior
 
-For each passage page:
+Use `reverse_lectionary_index.jsonl` for passage-to-occasion results and per-passage footprint pages. It is year-independent and has one row per distinct `(occasion, service_section, service_hour, slot, identity_key)` tuple from the source monolith.
+
+For each passage result:
 
 - group by `current_status`, then season or source kind,
 - show current Coptic Reader confirmed rows first where available,
-- label historical Pascha witnesses clearly,
-- include source and provenance links when present,
-- show Synaxarium bridge rows only with their `basis`, `confidence`, and `note`.
+- render `removed_marker` inline for historical Pascha rows,
+- preserve dual MT/LXX numbering through `display_ref`, `canonical_mt_ref`, and `canonical_lxx_ref`,
+- render source disclosure from `source_disclosure` or from `passage_source_disclosure.csv`.
 
-## Synaxarium bridge behavior
-
-Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 dated-entry bridge taxonomy are `basis=explicit` and `confidence=high` in this run. Rows outside that taxonomy remain `basis=collection-type` and `confidence=medium`. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
-
-Repeated `(commem_id, coptic_day_key, slot)` groups are expected because the bridge catalogs source rows and variants. Do not render the bridge as a resolved daily service schedule without a later resolver.
-
-Secondary commemorations are intentionally not linked unless a future source gives explicit proper-reading evidence.
+The index aggregates provenance and source disclosure across collapsed duplicates. It also records `attestation_year_min` and `attestation_year_max` for date-resolved ordinary readings.
 
 ## Today's readings behavior
 
-Use `todays_readings_current_practice.csv` as the current static snapshot produced in this run. For dynamic production use, the site should generate a date key and resolve against the date-resolved reading table in the main lectionary package or a fresh current-practice source.
+Use the daily JSON file for the current Gregorian year. Today's Readings should read the current ISO date key directly, with no site-side lectionary computation.
+
+Example for 2026:
+
+1. Load `daily/lectionary-2026.json`.
+2. Lookup today's ISO key, such as `2026-06-17`.
+3. Render the ordered readings stored under that key.
+
+The daily rebuild cron rolls the shipped window. The current handoff ships 2026, 2027, and 2028. Keep future window updates as file copies from `out/design/daily/` after this repo regenerates.
 
 ## Passage footprint behavior
 
@@ -72,9 +80,19 @@ Use `passage_liturgical_footprint.csv` for cards and chapter pages. It provides:
 - current and historical counts,
 - sample liturgical places,
 - hour themes,
-- placeholder chapter-study and audio slugs.
+- `patristic_homily_slug`,
+- `chapter_study_slug`,
+- `audio_slug`.
 
-The `patristic_homily_slug` field is blank in this repo because the site corpus is not available here. Join it in `coptic-corpus` where homily and chapter-study metadata live.
+The slug fields are placeholders in this repo because the site corpus is not available here. Join them in `coptic-corpus` where homily, chapter-study, and audio metadata live.
+
+## Synaxarium bridge behavior
+
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 dated-entry bridge taxonomy are `basis=explicit` and `confidence=high` in this run. Rows outside that taxonomy remain `basis=collection-type` and `confidence=medium`. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
+
+Repeated `(commem_id, coptic_day_key, slot)` groups are expected because the bridge catalogs source rows and variants. Do not render the bridge as a resolved daily service schedule without a later resolver.
+
+Secondary commemorations are intentionally not linked unless a future source gives explicit proper-reading evidence.
 
 ## Deck deliverables
 
