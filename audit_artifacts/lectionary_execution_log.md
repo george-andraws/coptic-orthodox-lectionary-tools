@@ -124,7 +124,7 @@
 - Step 1 research artifact: `audit_artifacts/phase7_grok_69_investigation.md`.
 - Step 1 ingestion audit artifact: `audit_artifacts/phase7_codex_audit_of_grok_69_investigation.md`.
 - Sources used: Ottawa/UKMID `Katameros_Days.pdf`, re-pulled from `https://ukmidcopts.org/pdf/Katameros_Days.pdf`; F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, `https://accot.stcyrils.edu.au/fny-read1/`.
-- Verdict: `CONFIRMED_SAME_SET`, not count-only, with wording caveat. The Step 1 investigation found the Ottawa/UKMID dated TOC entries to be the same practical second-volume collection Youssef names, based on source identity, volume placement, annual mapping function, commemoration categories, and count. The consulted ACCOT Youssef page gives the concept, count, Arabic name, function, and second-volume placement, but not a date-by-date roster.
+- Verdict later corrected by Step 6: `INFERRED_LIKELY_SAME_SET` (roster unverified), not confirmed same set. The Step 1 investigation established that Youssef describes 69 collections by commemoration type in volume two and that Ottawa presents a matching count of dated entries in the weekday-and-feast volume. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.
 - Verification: Codex re-pulled the Ottawa PDF, extracted pages 23 to 26 with `pypdf`, confirmed 69 dated TOC entries, confirmed sample annual table rows mapping days to the same dated sections, and fetched ACCOT with `curl -L --compressed` after plain Python returned HTTP 406.
 - Acceptance result: Step 1 accepted for Steps 2b, 4, and 7. Commit hash: `ef55101`.
 
@@ -138,8 +138,8 @@
 
 ### 2026-06-16 - Step 2b 69 identity wording
 - Producer: `openai-codex/gpt-5.5`, xhigh.
-- Step 1 dependency used: `CONFIRMED_SAME_SET`, with caveat that the consulted Youssef page does not print a date-by-date roster.
-- What was done: Updated the article to state that the Ottawa/UKMID Katameros of the Days presents the same practical second-volume collection in English, with the basis stated as source identity, volume placement, function, and count. Removed the stale open question about the full English list of the 69 because the Ottawa/UKMID TOC now supplies the controlled roster for this run.
+- Step 1 dependency later corrected by Step 6: `INFERRED_LIKELY_SAME_SET` (roster unverified). The consulted Youssef page describes 69 collections by commemoration type and does not print a date-by-date roster.
+- What was done at the time: Updated the article to identify the Ottawa/UKMID Katameros of the Days with Youssef's second-volume collection in English. Step 6 later corrected this to an inferred-likely alignment, roster unverified, and reopened roster verification as an open question.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 2b accepted. Commit hash: `169f8a2`.
 
@@ -171,7 +171,7 @@
 - Producer: `openai-codex/gpt-5.5`, xhigh.
 - Inputs: Step 1 Grok investigation and Codex audit; Ottawa/UKMID `Katameros_Days.pdf`; ACCOT Youssef page.
 - What was done: Replaced the old count-only `collection_types_69` placeholder with an enumerated controlled vocabulary. Added `FOUNDATIONAL_69_SOURCE_PROVENANCE`, `FOUNDATIONAL_69_RAW`, generated `out/design/foundational_reading_collections_69.csv`, generated `out/design/foundational_reading_collections_69.jsonl`, embedded 69 entries in `out/design/lectionary_schema.json`, added a `foundational_reading_collection` schema table, added `st_mary_ottawa_days` to the source registry, and documented the vocabulary in `lectionary_spec.md`.
-- Membership verdict: `CONFIRMED_SAME_SET`, with caveat that identity is inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page does not print the date-by-date roster.
+- Membership verdict later corrected by Step 6: `INFERRED_LIKELY_SAME_SET` (roster unverified). Youssef gives collections by commemoration type; Ottawa gives dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; explicit row-count sanity check. All passed.
 - Acceptance result: Step 4 accepted. Commit hash: `85e7422`.
 
@@ -208,7 +208,7 @@
 - Auditor: `xai-oauth/grok-4.3`, xhigh, via Hermes CLI one-shot with file, terminal, and web toolsets. Auditor was instructed to inspect only this repo and not edit, commit, or push.
 - Audit pass 1 artifact: `audit_artifacts/step8_grok_audit_pass1.md`.
 - Pass 1 required findings: repo-local locked brief was absent; article and spec bridge prose were stale after Step 7; schema table contracts under-documented emitted outputs; verifier lacked schema/header parity; open questions blurred `removed_marker` rows with other candidate-removed rows.
-- Revisions made after pass 1: added repo-local `05-LECTIONARY-DESIGN.md` from George's supplied identical attachment; updated article/spec bridge wording; expanded schema table contracts; added verifier CSV-header parity; split open-question sections; added per-row `membership_verdict=CONFIRMED_SAME_SET`; added foundational 69 files to the site copy list.
+- Revisions made after pass 1: added repo-local `05-LECTIONARY-DESIGN.md` from George's supplied identical attachment; updated article/spec bridge wording; expanded schema table contracts; added verifier CSV-header parity; split open-question sections; added per-row membership verdict data, later corrected by Step 6 to `INFERRED_LIKELY_SAME_SET`; added foundational 69 files to the site copy list.
 - Audit pass 2 artifact: `audit_artifacts/step8_grok_audit_pass2.md`.
 - Pass 2 outcome: no data/model required revisions remained. Required repo-state item was to add `05-LECTIONARY-DESIGN.md` to the commit. Advisable items were the Step 7 supersession note and preserving the `removed_marker` prose-pattern vs token decision as an open question.
 - Verification after revisions: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
@@ -252,9 +252,9 @@
 
 ### Step 3 - Explicit 69 verdict wording
 - Producer: `openai-codex/gpt-5.5`, xhigh.
-- What was done: Updated the execution log and generated article to state plainly that Step 1 found the Ottawa/UKMID dated TOC entries to be the same practical 69 foundational-reading set Youssef names, not merely a matching count.
-- Caveat retained: The same-set verdict is an inference from source identity, volume placement, annual mapping function, commemoration category match, and count; the consulted Youssef page does not print the date-by-date roster.
-- Bridge note: The Step 7 `basis=explicit` bridge upgrade still stands on the Ottawa/UKMID volume's direct dated reading sections and does not require Youssef's page to print the roster.
+- What was done at the time: Updated the execution log and generated article with a same-set claim. Step 6 later corrected this as overstated because Youssef's 69 are type-collections and Ottawa's 69 are dated entries.
+- Corrected caveat after Step 6: the verdict is `INFERRED_LIKELY_SAME_SET` (roster unverified), because Youssef's type-collections and Ottawa's dated entries are different objects until a reading-by-reading roster is matched.
+- Bridge note retained: The Step 7 `basis=explicit` bridge upgrade still stands on the Ottawa/UKMID volume's direct dated reading sections and does not require Youssef's page to print the roster.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 3 accepted. Commit hash: `2ad64ea`.
 
@@ -277,3 +277,13 @@
 - Open questions updated: `audit_artifacts/open_questions_for_george.md` now carries the Step 4 data-review findings for Job span/hour disagreement, Proverbs 1 older/current variants, and Wisdom of Solomon candidate rows.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 5 accepted. Commit hash: reported in George's final Step 5 response.
+
+### Step 6 - Corrected 69 verdict
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Web constraint: No web fetch or search was attempted. This correction uses George's instruction and existing repo-local evidence.
+- Corrected verdict: `INFERRED_LIKELY_SAME_SET` (roster unverified).
+- Read from source: Youssef gives 69 collections by commemoration type, one program per kind of feast and commemoration, gathered in volume two of the Yearly Katameros. Read from source: the Ottawa Katameros of the Days table of contents presents a matching count of dated entries in the weekday-and-feast volume. Inferred: alignment rests on shared source tradition, volume two placement, category match, and count, not on a matched reading-by-reading roster.
+- What was done: Corrected the generated article, spec text, source registry note, controlled-vocabulary verdict token, per-row membership status, site integration bridge wording, verifier expectations, and open questions. Left bridge rows unchanged because `basis=explicit` rests on Ottawa's direct dated reading sections.
+- Open question added: verify the reading-by-reading roster mapping between Youssef's 69 type-collections and the Ottawa dated entries.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; targeted scan for stale overclaim phrases. All passed.
+- Acceptance result: Step 6 accepted. Commit hash: reported in George's final Step 7 response.

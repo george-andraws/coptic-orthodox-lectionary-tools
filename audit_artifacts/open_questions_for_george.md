@@ -6,6 +6,10 @@ This file collects only the questions that thorough research, source comparison,
 
 ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
 
+## Youssef 69 roster verification
+
+Open item: verify the reading-by-reading roster mapping between Youssef's 69 foundational reading collections, arranged by kind of feast and commemoration, and the Ottawa Katameros of the Days table-of-contents entries, which are dated sections. Current verdict is `INFERRED_LIKELY_SAME_SET` (roster unverified). Read from source: Youssef gives 69 collections by commemoration type in volume two of the Yearly Katameros. Read from source: Ottawa presents 69 dated TOC entries in the weekday-and-feast volume. Inferred: alignment rests on shared source tradition, volume two placement, category match, and count.
+
 ## Psalm numbering text-equivalence review
 
 The active execution brief states that the Coptic Reader Wednesday Day fixture is faithful to the screenshots, including Third Hour `Psalm 41` and Sixth Hour `Psalm 83`, and that Coptic Reader governs where external books disagree. During Phase 1, Brenton/KJV seam checks resolved several exact pairs: LXX `Ps 41:6` to MT `Ps 42:5`, LXX `Ps 83:2` to MT `Ps 84:1`, and LXX `Ps 83:5` to MT `Ps 84:4`.
@@ -97,11 +101,11 @@ There are 255 rows not checked by a captured Coptic Reader fixture and not confi
 
 ## Synaxarium bridge review
 
-The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings. After Step 7, rows whose Coptic day is in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high`. Rows outside the 69 remain uniformly `basis=collection-type` and `confidence=medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings. After Step 7, rows whose Coptic day is in the Ottawa/UKMID 69 dated-entry bridge taxonomy are `basis=explicit` and `confidence=high`. Rows outside that taxonomy remain uniformly `basis=collection-type` and `confidence=medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
 
-Bridge differentiation flag: outside the 69 foundational days, the bridge is still uniformly collection-type. A later pass should decide whether more non-69 days can be classified explicitly, left as collection-type, or marked inferred.
+Bridge differentiation flag: outside the Ottawa 69 dated-entry bridge taxonomy, the bridge is still uniformly collection-type. A later pass should decide whether more non-taxonomy days can be classified explicitly, left as collection-type, or marked inferred.
 
-Foundational-day coverage flag: 11 of the 69 foundational days have no emitted bridge rows in this run, because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows. Missing foundational days:
+Ottawa taxonomy coverage flag: 11 of the 69 Ottawa dated entries have no emitted bridge rows in this run, because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows. Missing Ottawa dated entries:
 - Baramoudah 23 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 388
 - Baramoudah 27 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 396
 - Baramoudah 30 | TOC dated reading section, PDF pages 23 to 26; section begins on printed page 404

@@ -113,9 +113,11 @@ def verify_schema() -> None:
     collection_69 = vocabs["collection_types_69"]
     if collection_69.get("confirmed_count") != 69:
         fail("69 collection count not preserved")
-    if collection_69.get("status") != "confirmed_same_practical_second_volume_collection":
-        fail("69 collection status should record the Step 1 confirmed-same-set verdict")
-    if collection_69.get("membership_confirmation") != "confirmed_same_set_inferred_from_source_combination_not_count_only":
+    if collection_69.get("status") != "inferred_likely_same_set_roster_unverified":
+        fail("69 collection status should record the roster-unverified inferred verdict")
+    if collection_69.get("verdict_token") != "INFERRED_LIKELY_SAME_SET":
+        fail("69 collection verdict token should record inferred likely same set")
+    if collection_69.get("membership_confirmation") != "inferred_likely_same_set_roster_unverified":
         fail("69 collection membership caveat missing")
     if len(collection_69.get("entries", [])) != 69:
         fail("69 collection schema entries not enumerated")
@@ -196,10 +198,10 @@ def verify_rows() -> None:
         fail("foundational_reading_collections_69.csv must contain 69 rows")
     if foundational[0].get("coptic_day_key") != "Tut 1" or foundational[-1].get("coptic_day_key") != "Al-Nasi 6":
         fail("foundational 69 boundary entries are not the expected Ottawa TOC range")
-    if {row.get("membership_status") for row in foundational} != {"confirmed_same_practical_second_volume_collection"}:
-        fail("foundational 69 membership status must be uniform and explicit")
-    if {row.get("membership_verdict") for row in foundational} != {"CONFIRMED_SAME_SET"}:
-        fail("foundational 69 membership verdict token must be present per row")
+    if {row.get("membership_status") for row in foundational} != {"inferred_likely_same_set_roster_unverified"}:
+        fail("foundational 69 membership status must record roster-unverified inferred alignment")
+    if {row.get("membership_verdict") for row in foundational} != {"INFERRED_LIKELY_SAME_SET"}:
+        fail("foundational 69 membership verdict token must record inferred likely same set")
     presentation = read_csv(OUT / "reverse_lectionary_presentation.csv")
     identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")
@@ -381,9 +383,9 @@ def verify_rows() -> None:
         fail("Step 7 expected explicit bridge rows for the 69 foundational-reading days")
     explicit_outside_69 = [row for row in explicit_bridge if row.get("coptic_day_key", "") not in foundational_days]
     if explicit_outside_69:
-        fail(f"Explicit bridge rows outside the 69 foundational days: {len(explicit_outside_69)}")
+        fail(f"Explicit bridge rows outside the Ottawa 69 dated-entry taxonomy: {len(explicit_outside_69)}")
     if any(row.get("confidence") != "high" for row in explicit_bridge):
-        fail("Explicit 69 bridge rows must use high confidence")
+        fail("Explicit Ottawa 69 taxonomy bridge rows must use high confidence")
     if any("Ottawa/UKMID Katameros of the Days" not in row.get("citation", "") for row in explicit_bridge):
         fail("Explicit 69 bridge rows missing Ottawa citation")
     outside_69 = [row for row in bridge if row.get("coptic_day_key", "") not in foundational_days]

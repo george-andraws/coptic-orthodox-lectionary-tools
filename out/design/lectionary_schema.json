@@ -195,17 +195,17 @@
       "no scoped current authority confirmation"
     ],
     "collection_types_69": {
-      "status": "confirmed_same_practical_second_volume_collection",
-      "verdict_token": "CONFIRMED_SAME_SET",
+      "status": "inferred_likely_same_set_roster_unverified",
+      "verdict_token": "INFERRED_LIKELY_SAME_SET",
       "confirmed_count": 69,
-      "membership_confirmation": "confirmed_same_set_inferred_from_source_combination_not_count_only",
-      "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+      "membership_confirmation": "inferred_likely_same_set_roster_unverified",
+      "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
       "provenance": {
         "vocabulary_key": "foundational_reading_collections_69",
         "arabic_name": "al-qirā’āt al-āsāsiyya",
-        "verdict_token": "CONFIRMED_SAME_SET",
-        "membership_status": "confirmed_same_practical_second_volume_collection",
-        "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+        "verdict_token": "INFERRED_LIKELY_SAME_SET",
+        "membership_status": "inferred_likely_same_set_roster_unverified",
+        "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
         "youssef_source": "F.N. Youssef, The Arrangement of the Church Lectionary, ACCOT",
         "youssef_locator": "Chapter 1, section 1.1, printed page marker 32; note 7 al-qirā’āt al-āsāsiyya",
         "ottawa_source": "St. Mary Ottawa / UKMID, Katameros of the Days, Readings for Week Days and Feasts",
@@ -229,9 +229,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 37",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -248,9 +248,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 47",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -267,9 +267,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 55",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -286,9 +286,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 64",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -305,9 +305,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 72",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -324,9 +324,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 81",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -343,9 +343,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 88",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -362,9 +362,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 96",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -381,9 +381,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 102",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -400,9 +400,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 111",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -419,9 +419,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 118",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -438,9 +438,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 127",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -457,9 +457,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 135",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -476,9 +476,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 143",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -495,9 +495,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 151",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -514,9 +514,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 159",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -533,9 +533,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 169",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -552,9 +552,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 177",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -571,9 +571,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 187",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -590,9 +590,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 194",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -609,9 +609,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 202",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -628,9 +628,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 211",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -647,9 +647,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 218",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -666,9 +666,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 227",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -685,9 +685,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 236",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -704,9 +704,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 245",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -723,9 +723,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 255",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -742,9 +742,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 263",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -761,9 +761,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 270",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -780,9 +780,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 280",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -799,9 +799,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 288",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -818,9 +818,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 297",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -837,9 +837,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 305",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -856,9 +856,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 313",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -875,9 +875,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 322",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -894,9 +894,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 330",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -913,9 +913,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 338",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -932,9 +932,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 346",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -951,9 +951,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 354",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -970,9 +970,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 361",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -989,9 +989,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 370",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1008,9 +1008,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 379",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1027,9 +1027,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 388",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1046,9 +1046,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 396",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1065,9 +1065,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 404",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1084,9 +1084,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 413",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1103,9 +1103,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 423",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1122,9 +1122,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 431",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1141,9 +1141,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 439",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1160,9 +1160,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 448",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1179,9 +1179,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 456",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1198,9 +1198,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 465",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1217,9 +1217,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 473",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1236,9 +1236,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 481",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1255,9 +1255,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 491",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1274,9 +1274,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 500",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1293,9 +1293,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 507",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1312,9 +1312,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 515",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1331,9 +1331,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 524",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1350,9 +1350,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 532",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1369,9 +1369,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 540",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1388,9 +1388,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 547",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1407,9 +1407,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 555",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1426,9 +1426,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 562",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1445,9 +1445,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 569",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1464,9 +1464,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 579",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1483,9 +1483,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 586",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1502,9 +1502,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 595",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         },
         {
@@ -1521,9 +1521,9 @@
           "source_edition": "first edition, Christmas 1714 A.M., 1998 A.D.",
           "source_url": "https://ukmidcopts.org/pdf/Katameros_Days.pdf",
           "source_locator": "TOC dated reading section, PDF pages 23 to 26; section begins on printed page 602",
-          "membership_status": "confirmed_same_practical_second_volume_collection",
-          "membership_verdict": "CONFIRMED_SAME_SET",
-          "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+          "membership_status": "inferred_likely_same_set_roster_unverified",
+          "membership_verdict": "INFERRED_LIKELY_SAME_SET",
+          "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
           "verification_status": "read_from_ottawa_toc_inferred_same_set_from_step1_audit"
         }
       ]

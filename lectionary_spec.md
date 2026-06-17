@@ -114,14 +114,14 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 
 The machine-readable vocabulary is `out/design/foundational_reading_collections_69.csv` and `out/design/foundational_reading_collections_69.jsonl`. It is also embedded under `controlled_vocabularies.collection_types_69` in `out/design/lectionary_schema.json`.
 
-Membership verdict: `CONFIRMED_SAME_SET`. This means confirmed as the same practical second-volume foundational-reading collection, inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. It does not mean the consulted Youssef page prints the date-by-date roster.
+Membership verdict: `INFERRED_LIKELY_SAME_SET` (roster unverified). Youssef gives 69 collections by commemoration type; the Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.
 
 Provenance:
 
 - Youssef source: F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, Chapter 1, section 1.1, printed page marker 32, note 7 `al-qirā’āt al-āsāsiyya`.
 - Ottawa source: St. Mary Ottawa / UKMID, `Katameros of the Days: Readings for Week Days and Feasts`, first edition, Christmas 1714 A.M., 1998 A.D.
 - Ottawa locators: introduction on PDF page 17; TOC dated reading sections on PDF pages 23 to 26; annual day table on PDF pages 31 to 65.
-- Source-vs-inference: the 69 dated entries and their section pages are read from Ottawa/UKMID; membership identity with Youssef's named 69 is inferred from the Step 1 audit, not from a Youssef-printed roster.
+- Source-vs-inference: the 69 dated entries and their section pages are read from Ottawa/UKMID; alignment with Youssef's named 69 collections is inferred, roster unverified, and not read from a Youssef-printed roster.
 
 | # | collection_key | Coptic day | section page |
 |---|---|---|---|
@@ -228,11 +228,11 @@ Bridge rows live in `out/design/synaxarium_reading_bridge.csv`:
 - `citation`
 - `note`
 
-Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection use `explicit` basis and `high` confidence. Outside those 69 days, bridge rows remain `collection-type` and `medium`. Repeated groups are source-row or variant catalog rows, not resolved daily service schedules.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 dated-entry bridge taxonomy use `explicit` basis and `high` confidence. Outside those 69 days, bridge rows remain `collection-type` and `medium`. Repeated groups are source-row or variant catalog rows, not resolved daily service schedules.
 
 ## Controlled vocabularies
 
-See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection vocabulary is now enumerated from the Ottawa/UKMID TOC and records the Step 1 membership verdict, provenance, and source-vs-inference caveat.
+See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection vocabulary is enumerated from the Ottawa/UKMID TOC and records the inferred-likely membership verdict, provenance, and source-vs-inference caveat.
 
 ## Site-facing outputs
 

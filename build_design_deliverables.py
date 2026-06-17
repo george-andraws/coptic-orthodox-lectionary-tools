@@ -78,7 +78,7 @@ SOURCE_REGISTRY = [
         "default_locator": "UKMID PDF TOC pages 23 to 26 plus printed section page",
         "authority_tier": "historical_printed_witness",
         "confidence": "confirmed_local_extraction_and_step1_audit",
-        "notes": "First edition, Christmas 1714 A.M., 1998 A.D. Source for the 69 dated foundational-reading collection used as bridge taxonomy.",
+        "notes": "First edition, Christmas 1714 A.M., 1998 A.D. Source for the 69 dated entries used as bridge taxonomy; alignment with Youssef's 69 foundational reading collections is inferred, not roster-verified.",
     },
     {
         "source_key": "katameros_api_sqlite",
@@ -215,9 +215,9 @@ FORBIDDEN_WORDS = ["delve", "multifaceted", "additionally", "landscape", "unders
 FOUNDATIONAL_69_SOURCE_PROVENANCE = {
     "vocabulary_key": "foundational_reading_collections_69",
     "arabic_name": "al-qirā’āt al-āsāsiyya",
-    "verdict_token": "CONFIRMED_SAME_SET",
-    "membership_status": "confirmed_same_practical_second_volume_collection",
-    "membership_basis": "Inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. The consulted Youssef page gives the concept, count, Arabic name, Synaxarium function, and second-volume placement, not the date-by-date roster.",
+    "verdict_token": "INFERRED_LIKELY_SAME_SET",
+    "membership_status": "inferred_likely_same_set_roster_unverified",
+    "membership_basis": "Youssef gives 69 collections by commemoration type. The Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.",
     "youssef_source": "F.N. Youssef, The Arrangement of the Church Lectionary, ACCOT",
     "youssef_locator": "Chapter 1, section 1.1, printed page marker 32; note 7 al-qirā’āt al-āsāsiyya",
     "ottawa_source": "St. Mary Ottawa / UKMID, Katameros of the Days, Readings for Week Days and Feasts",
@@ -1406,7 +1406,7 @@ def write_schema() -> dict:
                 "status": FOUNDATIONAL_69_SOURCE_PROVENANCE["membership_status"],
                 "verdict_token": FOUNDATIONAL_69_SOURCE_PROVENANCE["verdict_token"],
                 "confirmed_count": 69,
-                "membership_confirmation": "confirmed_same_set_inferred_from_source_combination_not_count_only",
+                "membership_confirmation": "inferred_likely_same_set_roster_unverified",
                 "membership_basis": FOUNDATIONAL_69_SOURCE_PROVENANCE["membership_basis"],
                 "provenance": FOUNDATIONAL_69_SOURCE_PROVENANCE,
                 "entries": foundational_69,
@@ -1513,7 +1513,7 @@ Feasts also have a governed place in the reading year. Youssef says the yearly p
 
 For ordinary weekdays, Youssef's principle is essential: the daily readings follow the Synaxarium. The theme of each day's readings turns around the occasions commemorated in the Synaxarium, including feasts of the Lord, the Theotokos, angels, martyrs, apostles, patriarchs, ascetics, hermits, and other saints. Source: F.N. Youssef, "The Arrangement of the Church Lectionary."
 
-Youssef says the Church arranged 69 foundational readings, al-qira'at al-asasiyya, to cover these commemoration themes throughout the Coptic year, and that they are collected in the second volume of the Yearly Katameros. The Step 1 investigation found the Ottawa/UKMID Katameros of the Days dated table-of-contents entries to be the same practical set, not merely a matching count: its table of contents lists 69 dated reading sections, and its annual day table maps daily commemorations to those sections. This same-set verdict is established as an inference from source identity, volume placement, function, category match, and count; the consulted Youssef page gives the concept and count, not the date-by-date roster. The explicit bridge classification rests on Ottawa's direct dated reading sections, not on Youssef printing the full date-by-date roster. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
+Because each kind of commemoration has its own program, Youssef says the Church arranged 69 collections of readings, the foundational readings, al-qira'at al-asasiyya, to cover the year's themes. These collections are gathered in the second volume of the Yearly Katameros. The Ottawa Katameros of the Days is that weekday-and-feast volume in English, and its table of contents presents a matching count of 69 dated reading sections. The alignment is `INFERRED_LIKELY_SAME_SET`, roster unverified: it rests on shared source tradition, volume two placement, category match, and count, not on an independently matched reading-by-reading roster. The explicit bridge classification rests on Ottawa's direct dated reading sections, not on Youssef printing the full roster. Sources: F.N. Youssef, "The Arrangement of the Church Lectionary"; St. Mary Ottawa, Katameros of the Days.
 
 ## Why the reverse lectionary matters
 
@@ -1769,14 +1769,14 @@ The machine-readable source of truth is `out/design/lectionary_schema.json`. It 
 
 The machine-readable vocabulary is `out/design/foundational_reading_collections_69.csv` and `out/design/foundational_reading_collections_69.jsonl`. It is also embedded under `controlled_vocabularies.collection_types_69` in `out/design/lectionary_schema.json`.
 
-Membership verdict: `CONFIRMED_SAME_SET`. This means confirmed as the same practical second-volume foundational-reading collection, inferred from source identity, volume two placement, annual mapping function, commemoration categories, and count. It does not mean the consulted Youssef page prints the date-by-date roster.
+Membership verdict: `INFERRED_LIKELY_SAME_SET` (roster unverified). Youssef gives 69 collections by commemoration type; the Ottawa Katameros of the Days TOC presents a matching count of dated entries. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from a matched reading-by-reading roster.
 
 Provenance:
 
 - Youssef source: F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, Chapter 1, section 1.1, printed page marker 32, note 7 `al-qirā’āt al-āsāsiyya`.
 - Ottawa source: St. Mary Ottawa / UKMID, `Katameros of the Days: Readings for Week Days and Feasts`, first edition, Christmas 1714 A.M., 1998 A.D.
 - Ottawa locators: introduction on PDF page 17; TOC dated reading sections on PDF pages 23 to 26; annual day table on PDF pages 31 to 65.
-- Source-vs-inference: the 69 dated entries and their section pages are read from Ottawa/UKMID; membership identity with Youssef's named 69 is inferred from the Step 1 audit, not from a Youssef-printed roster.
+- Source-vs-inference: the 69 dated entries and their section pages are read from Ottawa/UKMID; alignment with Youssef's named 69 collections is inferred, roster unverified, and not read from a Youssef-printed roster.
 
 {foundational_table}
 
@@ -1813,11 +1813,11 @@ Bridge rows live in `out/design/synaxarium_reading_bridge.csv`:
 - `citation`
 - `note`
 
-Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection use `explicit` basis and `high` confidence. Outside those 69 days, bridge rows remain `collection-type` and `medium`. Repeated groups are source-row or variant catalog rows, not resolved daily service schedules.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 dated-entry bridge taxonomy use `explicit` basis and `high` confidence. Outside those 69 days, bridge rows remain `collection-type` and `medium`. Repeated groups are source-row or variant catalog rows, not resolved daily service schedules.
 
 ## Controlled vocabularies
 
-See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection vocabulary is now enumerated from the Ottawa/UKMID TOC and records the Step 1 membership verdict, provenance, and source-vs-inference caveat.
+See `out/design/lectionary_schema.json` for machine-readable vocabularies. The 69 collection vocabulary is enumerated from the Ottawa/UKMID TOC and records the inferred-likely membership verdict, provenance, and source-vs-inference caveat.
 
 ## Site-facing outputs
 
@@ -1905,7 +1905,7 @@ For each passage page:
 
 ## Synaxarium bridge behavior
 
-Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high` in this run. Rows outside that 69 remain `basis=collection-type` and `confidence=medium`. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
+Rows whose Coptic day is enumerated in the Ottawa/UKMID 69 dated-entry bridge taxonomy are `basis=explicit` and `confidence=high` in this run. Rows outside that taxonomy remain `basis=collection-type` and `confidence=medium`. They connect the primary commemoration of a fixed Coptic day to Katameros fixed-day rows. They are discovery links, not direct proper-reading proof for the named commemoration.
 
 Repeated `(commem_id, coptic_day_key, slot)` groups are expected because the bridge catalogs source rows and variants. Do not render the bridge as a resolved daily service schedule without a later resolver.
 
@@ -1972,6 +1972,10 @@ This file collects only the questions that thorough research, source comparison,
 
 ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
 
+## Youssef 69 roster verification
+
+Open item: verify the reading-by-reading roster mapping between Youssef's 69 foundational reading collections, arranged by kind of feast and commemoration, and the Ottawa Katameros of the Days table-of-contents entries, which are dated sections. Current verdict is `INFERRED_LIKELY_SAME_SET` (roster unverified). Read from source: Youssef gives 69 collections by commemoration type in volume two of the Yearly Katameros. Read from source: Ottawa presents 69 dated TOC entries in the weekday-and-feast volume. Inferred: alignment rests on shared source tradition, volume two placement, category match, and count.
+
 ## Psalm numbering text-equivalence review
 
 The active execution brief states that the Coptic Reader Wednesday Day fixture is faithful to the screenshots, including Third Hour `Psalm 41` and Sixth Hour `Psalm 83`, and that Coptic Reader governs where external books disagree. During Phase 1, Brenton/KJV seam checks resolved several exact pairs: LXX `Ps 41:6` to MT `Ps 42:5`, LXX `Ps 83:2` to MT `Ps 84:1`, and LXX `Ps 83:5` to MT `Ps 84:4`.
@@ -2020,11 +2024,11 @@ Marker-format decision: this run keeps `removed_marker` as a uniform prose-patte
 
 ## Synaxarium bridge review
 
-The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings. After Step 7, rows whose Coptic day is in the Ottawa/UKMID 69 foundational-reading collection are `basis=explicit` and `confidence=high`. Rows outside the 69 remain uniformly `basis=collection-type` and `confidence=medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
+The bridge links the primary commemoration of each fixed Coptic day to that day's Katameros readings. After Step 7, rows whose Coptic day is in the Ottawa/UKMID 69 dated-entry bridge taxonomy are `basis=explicit` and `confidence=high`. Rows outside that taxonomy remain uniformly `basis=collection-type` and `confidence=medium`. These rows are discovery links, not direct proper-reading proof and not a resolved daily service schedule.
 
-Bridge differentiation flag: outside the 69 foundational days, the bridge is still uniformly collection-type. A later pass should decide whether more non-69 days can be classified explicitly, left as collection-type, or marked inferred.
+Bridge differentiation flag: outside the Ottawa 69 dated-entry bridge taxonomy, the bridge is still uniformly collection-type. A later pass should decide whether more non-taxonomy days can be classified explicitly, left as collection-type, or marked inferred.
 
-Foundational-day coverage flag: 11 of the 69 foundational days have no emitted bridge rows in this run, because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows. Missing foundational days:
+Ottawa taxonomy coverage flag: 11 of the 69 Ottawa dated entries have no emitted bridge rows in this run, because the bridge only emits days that have both a Synaxarium primary commemoration row and local fixed-day Katameros rows. Missing Ottawa dated entries:
 """
     for row in foundational_without_bridge:
         text += f"- {row.get('coptic_day_key')} | {row.get('source_locator')}\n"
