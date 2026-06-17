@@ -115,6 +115,50 @@ def gregorian_year(value: str) -> int | None:
         return None
 
 
+def years_are_contiguous(years) -> bool:
+    year_list = sorted(set(years))
+    if len(year_list) < 2:
+        return True
+    return year_list == list(range(year_list[0], year_list[-1] + 1))
+
+
+def source_disclosure_key(row: dict) -> tuple[str, str, str, str]:
+    return (
+        row.get("source_family", ""),
+        row.get("source_kind", ""),
+        row.get("source_edition", ""),
+        row.get("source_title", ""),
+    )
+
+
+def expected_source_disclosure(source_rows: list[dict]) -> tuple[list[dict], list[str]]:
+    grouped: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
+    for source_row in source_rows:
+        grouped[source_disclosure_key(source_row)].append(source_row)
+    disclosure = []
+    locators = []
+    for key, rows in sorted(grouped.items(), key=lambda item: item[0]):
+        family, kind, edition, title = key
+        item = {
+            "source_family": family,
+            "source_kind": kind,
+            "source_edition": edition,
+            "source_title": title,
+        }
+        row_locators = ordered_unique(row.get("source_locator", "") for row in rows)
+        if row_locators:
+            item["source_locator"] = row_locators[0]
+            locators.append(row_locators[0])
+        years = sorted(year for year in (gregorian_year(row.get("gregorian_date", "")) for row in rows) if year is not None)
+        if years:
+            item["attested_year_min"] = str(min(years))
+            item["attested_year_max"] = str(max(years))
+            if not years_are_contiguous(years):
+                item["attested_years"] = "; ".join(str(year) for year in sorted(set(years)))
+        disclosure.append({field: value for field, value in item.items() if value})
+    return disclosure, locators
+
+
 def verify_content_rules() -> None:
     for path in TEXT_FILES:
         text = path.read_text(encoding="utf-8")
@@ -177,7 +221,7 @@ def verify_schema() -> None:
     tables = schema.get("tables", {})
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
-        "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure", "attestation_year_min", "attestation_year_max", "collapsed_row_count"],
+        "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
         "daily_lectionary_year": ["occasion", "service_section", "service_hour", "slot", "display_ref", "identity_key", "reading_type", "removed_marker"],
         "temporal_attestation": ["source_authority_tier", "source_title", "source_edition", "source_locator", "attestation_bucket", "current_authority", "removed_marker"],
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
@@ -293,11 +337,21 @@ def verify_rows() -> None:
         expected_max = str(max(years)) if years else ""
         if row.get("attestation_year_min", "") != expected_min or row.get("attestation_year_max", "") != expected_max:
             fail(f"reverse_lectionary_index attestation year span mismatch: {occasion_index_key(row)}")
+        expected_disclosure, representative_locators = expected_source_disclosure(source_rows)
+        if row.get("source_locator", "") != " || ".join(representative_locators):
+            fail(f"reverse_lectionary_index representative locator mismatch: {occasion_index_key(row)}")
+        if " || " in row.get("source_locator", "") and len(representative_locators) == 1:
+            fail(f"reverse_lectionary_index stores repeated same-source locators: {occasion_index_key(row)}")
         disclosure = json.loads(row.get("source_disclosure", "[]") or "[]")
-        disclosure_set = {tuple(item.get(field, "") for field in ["source_family", "source_kind", "source_edition", "source_locator", "source_title"]) for item in disclosure}
-        expected_disclosure = {tuple(r.get(field, "") for field in ["source_family", "source_kind", "source_edition", "source_locator", "source_title"]) for r in source_rows}
-        if disclosure_set != expected_disclosure:
-            fail(f"reverse_lectionary_index source disclosure union mismatch: {occasion_index_key(row)}")
+        if disclosure != expected_disclosure:
+            fail(f"reverse_lectionary_index collapsed source disclosure mismatch: {occasion_index_key(row)}")
+        if row.get("source_disclosure_count", "") != str(len(expected_disclosure)):
+            fail(f"reverse_lectionary_index disclosure count mismatch: {occasion_index_key(row)}")
+        if len(disclosure) != len({source_disclosure_key(r) for r in source_rows}):
+            fail(f"reverse_lectionary_index distinct-source count changed: {occasion_index_key(row)}")
+        for item in disclosure:
+            if "source_locator" in item and " || " in item["source_locator"]:
+                fail(f"reverse_lectionary_index source disclosure locator is not representative: {occasion_index_key(row)}")
     if summary.get("reverse_lectionary_index_status_disagreement_rows") != 0:
         fail("reverse_lectionary_index should have zero status disagreement rows in this run")
     daily_fields = schema.get("tables", {}).get("daily_lectionary_year", [])

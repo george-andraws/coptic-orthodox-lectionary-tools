@@ -1608,6 +1608,7 @@
       "source_edition",
       "source_locator",
       "source_title",
+      "source_disclosure_count",
       "source_disclosure",
       "attestation_year_min",
       "attestation_year_max",

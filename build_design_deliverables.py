@@ -908,6 +908,56 @@ def json_unique_dicts(rows: Iterable[dict], fields: list[str]) -> str:
     return json.dumps(out, ensure_ascii=False, separators=(",", ":"))
 
 
+def years_are_contiguous(years: Iterable[int]) -> bool:
+    year_list = sorted(set(years))
+    if len(year_list) < 2:
+        return True
+    return year_list == list(range(year_list[0], year_list[-1] + 1))
+
+
+def source_disclosure_key(row: dict) -> tuple[str, str, str, str]:
+    return (
+        row.get("source_family", ""),
+        row.get("source_kind", ""),
+        row.get("source_edition", ""),
+        row.get("source_title", ""),
+    )
+
+
+def build_collapsed_source_disclosure(rows: Iterable[dict]) -> tuple[list[dict], list[str]]:
+    grouped: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
+    for row in rows:
+        grouped[source_disclosure_key(row)].append(row)
+
+    disclosure: list[dict] = []
+    representative_locators: list[str] = []
+    for key, source_rows in sorted(grouped.items(), key=lambda item: item[0]):
+        family, kind, edition, title = key
+        item = {
+            "source_family": family,
+            "source_kind": kind,
+            "source_edition": edition,
+            "source_title": title,
+        }
+        locators = ordered_unique(row.get("source_locator", "") for row in source_rows)
+        if locators:
+            item["source_locator"] = locators[0]
+            representative_locators.append(locators[0])
+        years = sorted(year for year in (gregorian_year(row.get("gregorian_date", "")) for row in source_rows) if year is not None)
+        if years:
+            item["attested_year_min"] = str(min(years))
+            item["attested_year_max"] = str(max(years))
+            if not years_are_contiguous(years):
+                item["attested_years"] = "; ".join(str(year) for year in sorted(set(years)))
+        disclosure.append({field: value for field, value in item.items() if value})
+    return disclosure, representative_locators
+
+
+def source_disclosure_json(rows: Iterable[dict]) -> str:
+    disclosure, _ = build_collapsed_source_disclosure(rows)
+    return json.dumps(disclosure, ensure_ascii=False, separators=(",", ":"))
+
+
 def gregorian_year(value: str) -> int | None:
     value = str(value or "").strip()
     if not value:
@@ -968,7 +1018,7 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         chosen_marker = choose_removed_marker(markers)
         years = sorted(year for year in (gregorian_year(row.get("gregorian_date", "")) for row in rows) if year is not None)
         first = rows[0]
-        source_fields = ["source_family", "source_kind", "source_edition", "source_locator", "source_title"]
+        source_disclosure, representative_locators = build_collapsed_source_disclosure(rows)
         index_rows.append({
             "occasion": key[0],
             "calendar_keys": join_unique(row.get("calendar_key", "") for row in rows),
@@ -991,9 +1041,10 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
             "source_family": join_unique(row.get("source_family", "") for row in rows),
             "source_kind": join_unique(row.get("source_kind", "") for row in rows),
             "source_edition": join_unique(row.get("source_edition", "") for row in rows),
-            "source_locator": join_unique(row.get("source_locator", "") for row in rows),
+            "source_locator": " || ".join(representative_locators),
             "source_title": join_unique(row.get("source_title", "") for row in rows),
-            "source_disclosure": json_unique_dicts(rows, source_fields),
+            "source_disclosure_count": str(len(source_disclosure)),
+            "source_disclosure": json.dumps(source_disclosure, ensure_ascii=False, separators=(",", ":")),
             "attestation_year_min": str(min(years)) if years else "",
             "attestation_year_max": str(max(years)) if years else "",
             "attestation_years": "; ".join(str(year) for year in sorted(set(years))),
@@ -1580,7 +1631,7 @@ def write_schema() -> dict:
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
             "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
-            "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
+            "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
             "daily_lectionary_year": DAILY_READING_FIELDS,
             "todays_readings_current_practice": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
             "pascha_attestation": ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"],
