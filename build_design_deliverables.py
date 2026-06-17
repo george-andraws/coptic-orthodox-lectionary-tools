@@ -1436,11 +1436,32 @@ def write_schema() -> dict:
     return schema
 
 
+def convert_source_trailers_to_notes(article: str) -> str:
+    if "\n## Sources\n" not in article:
+        raise AssertionError("Article missing Sources section")
+    main, sources = article.split("\n## Sources\n", 1)
+    paragraphs = main.split("\n\n")
+    notes = []
+    converted = []
+    source_trailer = re.compile(r"(?P<body>.*?)(?P<trailer>\s+Sources?:\s+.+)$", re.S)
+    for paragraph in paragraphs:
+        match = source_trailer.match(paragraph)
+        if match:
+            notes.append(match.group("trailer").strip())
+            converted.append(f"{match.group('body')}[^{len(notes)}]")
+        else:
+            converted.append(paragraph)
+    article = "\n\n".join(converted) + "\n## Sources\n" + sources
+    if notes:
+        article += "\n\n## Notes\n\n" + "\n".join(f"[^{i}]: {note}" for i, note in enumerate(notes, start=1))
+    return article
+
+
 def write_article() -> None:
     article = """---
 title: "The Coptic Lectionary and the Synaxarium"
 slug: coptic-lectionary-and-synaxarium
-publish: true
+publish: false
 type: lesson
 summary: "A Coptic Orthodox lesson on how the Church's lectionary and Synaxarium teach us to receive Scripture inside worship, memory, repentance, and the life of the saints."
 tags: [coptic-orthodox, lectionary, synaxarium, scripture, liturgy]
@@ -1448,6 +1469,8 @@ fathers: [Athanasius of Alexandria]
 passages: ["Luke 4:16-21", "Acts 15:21", "2 Timothy 3:16-17"]
 season: "Liturgical year"
 ---
+
+> **DRAFT, pending deacon review.** Do not publish this lesson until George completes the deacon review.
 
 The Coptic lectionary is not only a reading plan. It is the Church teaching her children how to hear the Lord. In the Church's worship, appointed readings are received in relation to feasts, fasts, hours, commemorations, and liturgical services, according to the sources and rites in view.
 
@@ -1477,17 +1500,17 @@ The word Katameros means "according to the parts" or "in parts." This is exactly
 
 ## How the lectionary has been documented
 
-The documentation comes in layers. Read from source: the Ottawa Katameros books are printed English lectionary witnesses from St. Mary Coptic Orthodox Church, Ottawa, and St. George and St. Antony Coptic Orthodox Church, Ottawa. The Days volume identifies itself as Readings for Week Days and Feasts, first edition, Christmas 1714 A.M., 1998 A.D.; the Sundays volume identifies itself as Readings for Sundays and Feasts, including Sundays of Great Lent and Pentecost, second edition, Lent 1720 A.M., 2004 A.D.; the Pentecost volume identifies itself as Nativity Fast 1718 A.M., 2001 A.D.; and the Pascha eBook identifies itself as Lent 1734 A.M., 2018 A.D. Source: St. Mary Ottawa / UKMID PDF front matter for Katameros of the Days, Sundays, Pentecost, and Holy Pascha.
+The documentation comes in layers. The Ottawa Katameros books identify themselves as printed English lectionary witnesses from St. Mary Coptic Orthodox Church, Ottawa, and St. George and St. Antony Coptic Orthodox Church, Ottawa. The Days volume identifies itself as Readings for Week Days and Feasts, first edition, Christmas 1714 A.M., 1998 A.D.; the Sundays volume identifies itself as Readings for Sundays and Feasts, including Sundays of Great Lent and Pentecost, second edition, Lent 1720 A.M., 2004 A.D.; the Pentecost volume identifies itself as Nativity Fast 1718 A.M., 2001 A.D.; and the Pascha eBook identifies itself as Lent 1734 A.M., 2018 A.D. Source: St. Mary Ottawa / UKMID PDF front matter for Katameros of the Days, Sundays, Pentecost, and Holy Pascha.
 
-Read from source: the UKMID site hosts the same practical PDF family for Days, Sundays, Lent, and Pentecost, and St. Bishoy Deacons' Corner publicly organizes Katameros readings and Synaxarium materials for Annual Days, Sundays, Kiahk, Amshir, Lent, Passion Week, Pascha, and the Joyous Fifty Days. These are useful public documentation layers, but they are not by themselves the final current-practice authority when a scoped Coptic Reader fixture disagrees. Source: UKMID `Katameros_Days.pdf`, `Katameros_Sundays.pdf`, `Katameros_Lent.pdf`, and `Katameros_Pentecost.pdf`; St. Bishoy Deacons' Corner, `Katameros Readings and Synaxarium for all Seasons, Annual Days, Sundays, Kiahk and Amshir`.
+Public documentation is also layered. The UKMID site hosts the same practical PDF family for Days, Sundays, Lent, and Pentecost, and St. Bishoy Deacons' Corner publicly organizes Katameros readings and Synaxarium materials for Annual Days, Sundays, Kiahk, Amshir, Lent, Passion Week, Pascha, and the Joyous Fifty Days. These are useful public documentation layers, but they are not by themselves the final current-practice authority when a scoped Coptic Reader fixture disagrees. Source: UKMID `Katameros_Days.pdf`, `Katameros_Sundays.pdf`, `Katameros_Lent.pdf`, and `Katameros_Pentecost.pdf`; St. Bishoy Deacons' Corner, `Katameros Readings and Synaxarium for all Seasons, Annual Days, Sundays, Kiahk and Amshir`.
 
-Read from source: the scholarly layer explains structure and history rather than replacing the service books. The Coptic Encyclopedia `Lectionary` entry names the lectionary books and gives historical framing; its CCDL metadata lists Basilios, Archbishop, and Coquin, René-Georges as creators. Youssef explains the calendar logic and the relation of daily readings to the Synaxarium. Zanetti and Coquin are scholarly anchors for the annual lectionary tradition in the source bibliography. Sources: Coptic Encyclopedia, `Lectionary`; F.N. Youssef, `The Arrangement of the Church Lectionary`; Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte; René-Georges Coquin liturgical scholarship.
+The scholarly layer explains structure and history rather than replacing the service books. The Coptic Encyclopedia `Lectionary` entry names the lectionary books and gives historical framing; its CCDL metadata lists Basilios, Archbishop, and Coquin, René-Georges as creators. Youssef explains the calendar logic and the relation of daily readings to the Synaxarium. Zanetti and Coquin are scholarly anchors for the annual lectionary tradition in the source bibliography. Sources: Coptic Encyclopedia, `Lectionary`; F.N. Youssef, `The Arrangement of the Church Lectionary`; Ugo Zanetti, Les lectionnaires coptes annuels, Basse-Egypte; René-Georges Coquin liturgical scholarship.
 
-Read from source: Burmester's Scetis Holy Week lectionary is a historical witness to an older and fuller Holy Week layer. Inference from the design residue: it helps explain why some Pascha readings are retained as historical attestations when they appear in older/local Pascha data but are absent from the scoped Coptic Reader Wednesday Day fixture. Source: O.H.E. Burmester, `The Coptic-Greek-Arabic Holy Week Lectionary from Scetis`; St. Mary Ottawa Holy Pascha extracted text; Coptic Reader Pascha Wednesday Day fixture.
+Burmester's Scetis Holy Week lectionary is a historical witness to an older and fuller Holy Week layer. The design residue supports this inference: it helps explain why some Pascha readings are retained as historical attestations when they appear in older/local Pascha data but are absent from the scoped Coptic Reader Wednesday Day fixture. Source: O.H.E. Burmester, `The Coptic-Greek-Arabic Holy Week Lectionary from Scetis`; St. Mary Ottawa Holy Pascha extracted text; Coptic Reader Pascha Wednesday Day fixture.
 
-Read from source: Coptic Reader governs current practice where it has been captured in this project. The current captured scope is the Pascha Wednesday Day fixture supplied by George; outside that fixture, Coptic Reader coverage is not yet broad enough to classify every older or public row as current or removed. Source: Coptic Reader app Pascha Wednesday Day fixture supplied by George; source registry entry `coptic_reader_fixture_wednesday_day`.
+Within this project, Coptic Reader governs current practice where it has been captured. The current captured scope is the Pascha Wednesday Day fixture supplied by George; outside that fixture, Coptic Reader coverage is not yet broad enough to classify every older or public row as current or removed. Source: Coptic Reader app Pascha Wednesday Day fixture supplied by George; source registry entry `coptic_reader_fixture_wednesday_day`.
 
-Read from source: the design layer also separates Bible text anchors from liturgical placement sources. Brenton is used as the Septuagint comparison anchor for Psalm and Old Testament seam checks, while WEB and KJV are public-domain or public-domain-in-the-USA English anchors for future text comparison and display policy. The article itself does not reproduce Scripture text; it keeps Scripture references on NKJV versification. Sources: `out/design/psalm_mt_lxx_crosswalk.csv`; eBible World English Bible copyright information; Wikisource King James Bible copyright note.
+The design layer also separates Bible text anchors from liturgical placement sources. Brenton is used as the Septuagint comparison anchor for Psalm and Old Testament seam checks, while WEB and KJV are public-domain or public-domain-in-the-USA English anchors for future text comparison and display policy. The article itself does not reproduce Scripture text; it keeps Scripture references on NKJV versification. Sources: `out/design/psalm_mt_lxx_crosswalk.csv`; eBible World English Bible copyright information; Wikisource King James Bible copyright note.
 
 ## The year has a spiritual grammar
 
@@ -1638,6 +1661,7 @@ Scripture references follow NKJV versification.
 - Attestation: The witness of a source or edition to a reading.
 - Reverse lectionary: A passage-to-liturgical-use index, showing where a Scripture passage is read.
 """
+    article = convert_source_trailers_to_notes(article)
     for word in FORBIDDEN_WORDS:
         if re.search(rf"\b{re.escape(word)}\b", article, re.I):
             raise AssertionError(f"Forbidden word in article: {word}")

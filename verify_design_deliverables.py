@@ -84,6 +84,17 @@ def verify_content_rules() -> None:
         if bad:
             fail(f"Forbidden words in {path}: {bad}")
     article = (ROOT / "coptic-lectionary-and-synaxarium.md").read_text(encoding="utf-8")
+    if "publish: false" not in article.split("---", 2)[1]:
+        fail("Article frontmatter must keep publish: false until George approves it")
+    if "> **DRAFT, pending deacon review.**" not in article:
+        fail("Article must show the draft pending deacon review note near the top")
+    if "## Notes" not in article:
+        fail("Article must include endnotes for source trailers")
+    article_body_before_sources = article.split("\n## Sources\n", 1)[0]
+    if re.search(r"\s+Sources?:\s+", article_body_before_sources):
+        fail("Article body still has inline Source/Sources trailers")
+    if "Read from source:" in article_body_before_sources:
+        fail("Article body still has templated Read from source transition")
     if "John Chrysostom" in article:
         fail("Article still contains uncited John Chrysostom reference")
     if "## Teaching guide" not in article:
