@@ -1,7 +1,7 @@
 # Lectionary Change Manifest
 
 Baseline: `af25b02cc152c4e0d35e2a8a06754fd1857ed16e`
-Data range HEAD: `475f9f6796ec70cdd71c14e5fd9cf88cca8d5e59`
+Data range HEAD: `3fd410a42ca8ded8cf5e7a15a9c6d60f376648a6`
 The manifest files themselves are excluded from future data-diff scans to avoid recursive diffs.
 Grouped manifest rows: 32941
 Exact raw row-level CSV changes archived: 427942
@@ -10,6 +10,8 @@ Affected passage keys: 2791
 ## Materialization reshape note
 
 The split into `out/design/reverse_lectionary_index.jsonl` and `out/design/daily/lectionary-YYYY.json` is a materialization reshape of existing readings. It does not change reading content and adds NO new affected passages for the Bible-study audit.
+`out/design/reverse_lectionary_index.jsonl` is occasion-keyed and carries collapsed source disclosure by distinct source tuple. Same-source per-year locators are not repeated there; row-level source locators remain available in `out/design/passage_source_disclosure.csv` and in the exact raw CSV audit archive.
+`out/design/daily/lectionary-YYYY.json` is date-keyed and contains only rows with `gregorian_date`. Structural-only occasions without a date key are not new affected passages.
 The retired `out/design/reverse_lectionary_presentation.jsonl` monolith remains only in git history until George removes old blobs with filter-repo.
 
 ## Totals by change type
@@ -2894,6 +2896,7 @@ Logged commits in the baseline range with no committed CSV data diff:
 - `a04e64e` Assemble coptic-corpus handoff package
 - `a2f39d5` Enrich lectionary article structural sources
 - `b50e91b` docs: clarify Pascha computation
+- `d0f46d7` Retire reverse lectionary presentation monolith
 - `d632a8b` Prepare lectionary article for deacon review
 - `db025be` docs: add citation notes and locator flags
 - `ef4aaf1` docs: add lectionary documentation history

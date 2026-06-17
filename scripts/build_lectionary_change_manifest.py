@@ -489,6 +489,8 @@ def write_outputs(manifest: list[dict], metadata: dict, baseline: str, head: str
     md.append("## Materialization reshape note")
     md.append("")
     md.append("The split into `out/design/reverse_lectionary_index.jsonl` and `out/design/daily/lectionary-YYYY.json` is a materialization reshape of existing readings. It does not change reading content and adds NO new affected passages for the Bible-study audit.")
+    md.append("`out/design/reverse_lectionary_index.jsonl` is occasion-keyed and carries collapsed source disclosure by distinct source tuple. Same-source per-year locators are not repeated there; row-level source locators remain available in `out/design/passage_source_disclosure.csv` and in the exact raw CSV audit archive.")
+    md.append("`out/design/daily/lectionary-YYYY.json` is date-keyed and contains only rows with `gregorian_date`. Structural-only occasions without a date key are not new affected passages.")
     md.append("The retired `out/design/reverse_lectionary_presentation.jsonl` monolith remains only in git history until George removes old blobs with filter-repo.")
     md.append("")
     md.append("## Totals by change type")
