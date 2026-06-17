@@ -31,14 +31,14 @@ The shipped site model uses those as separate layers.
 
 Use `reverse_lectionary_index.jsonl` as the main passage-to-occasion index.
 
-This file has one row per distinct `(occasion, service_section, service_hour, slot, identity_key)` tuple from the source monolith. It drops `gregorian_date` and `coptic_date`, aggregates source disclosure across collapsed duplicates, and records ordinary-reading attestation years in `attestation_year_min` and `attestation_year_max`.
+This file has one row per distinct `(occasion, service_section, service_hour, slot, identity_key)` tuple from the source monolith. It drops `gregorian_date` and `coptic_date`, aggregates collapsed source disclosure by distinct source tuple, and records ordinary-reading attestation years in `attestation_year_min`, `attestation_year_max`, and `attestation_years`. Each `source_disclosure` entry keeps one representative `source_locator`; full row-level source locators remain in `passage_source_disclosure.csv` and the raw audit archive.
 
 For each passage result:
 
 - group by `current_status`, then by season or source kind,
 - show current Coptic Reader confirmed rows first when present,
 - render `removed_marker` inline for historical Pascha rows,
-- render source provenance from `source_disclosure` or `passage_source_disclosure.csv`,
+- render collapsed source provenance from `source_disclosure` and `source_disclosure_count`,
 - link source metadata through `source_registry.csv`,
 - preserve both `canonical_mt_ref` and `canonical_lxx_ref`.
 
@@ -60,6 +60,8 @@ Runtime behavior:
 4. If the key is absent, fail visibly and alert the daily rebuild process.
 
 The daily rebuild cron should roll the shipped window forward. The full 2020 to 2035 file set remains in `out/design/daily/` in the research repo as archive and source material for future windows.
+
+Date coverage limitation: daily files contain only rows with `gregorian_date`. Structural-only occasions without a date key, including Bright Saturday service-order rows and special services, remain in `reverse_lectionary_index.jsonl` and support tables but do not appear in `daily/lectionary-YYYY.json` yet.
 
 ## Passage liturgical footprint rendering
 

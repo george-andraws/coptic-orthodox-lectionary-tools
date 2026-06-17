@@ -2150,9 +2150,9 @@ For each passage result:
 - show current Coptic Reader confirmed rows first where available,
 - render `removed_marker` inline for historical Pascha rows,
 - preserve dual MT/LXX numbering through `display_ref`, `canonical_mt_ref`, and `canonical_lxx_ref`,
-- render source disclosure from `source_disclosure` or from `passage_source_disclosure.csv`.
+- render collapsed source disclosure from `source_disclosure` and `source_disclosure_count`, with per-row detail available in `passage_source_disclosure.csv`.
 
-The index aggregates provenance and source disclosure across collapsed duplicates. It also records `attestation_year_min` and `attestation_year_max` for date-resolved ordinary readings.
+The index aggregates provenance and source disclosure across collapsed duplicates. Each `source_disclosure` entry represents one distinct source tuple, keeps one representative `source_locator`, and records `attested_year_min` and `attested_year_max` where dated rows exist. Row-level `attestation_year_min`, `attestation_year_max`, `attestation_years`, and `collapsed_row_count` remain on the index row.
 
 ## Today's readings behavior
 
@@ -2165,6 +2165,8 @@ Example for 2026:
 3. Render the ordered readings stored under that key.
 
 The daily rebuild cron rolls the shipped window. The current handoff ships 2026, 2027, and 2028. Keep future window updates as file copies from `out/design/daily/` after this repo regenerates.
+
+Date coverage limitation: daily files contain only rows with `gregorian_date`. Structural-only occasions without a date key, including Bright Saturday service-order rows and special services, remain in `reverse_lectionary_index.jsonl` and support tables but do not appear in `daily/lectionary-YYYY.json` yet.
 
 ## Passage footprint behavior
 

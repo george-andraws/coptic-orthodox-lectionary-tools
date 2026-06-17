@@ -14,7 +14,7 @@ These are the files intended for site runtime import.
 | Working spec | `lectionary_spec.md` | Keep as the research-side schema and terminology reference while integrating the site files. |
 | Schema | `lectionary_schema.json` | Use as the machine-readable contract for these datasets. |
 | Identity key map | `reading_identity.csv` | Import as the canonical reading identity table. Use `identity_key` as the join key across search, reverse lectionary, footprint, and source disclosure tables. |
-| Reverse lectionary occasion index | `reverse_lectionary_index.jsonl` | Import as the year-independent passage-to-occasion index. Render `removed_marker` inline, preserve dual MT/LXX numbering, and show source disclosure. |
+| Reverse lectionary occasion index | `reverse_lectionary_index.jsonl` | Import as the year-independent passage-to-occasion index. Render `removed_marker` inline, preserve dual MT/LXX numbering, and show collapsed source disclosure from `source_disclosure` and `source_disclosure_count`. |
 | Daily readings, 2026 | `daily/lectionary-2026.json` | Use for Today's Readings by direct ISO date lookup in 2026. |
 | Daily readings, 2027 | `daily/lectionary-2027.json` | Use for the next-year Today's Readings window. |
 | Daily readings, 2028 | `daily/lectionary-2028.json` | Use as the second next-year file because it is small. |
@@ -67,4 +67,5 @@ These are retained for George's review, not for normal site runtime.
 - Keep `removed_marker` visible for historical Pascha rows.
 - Accept both MT and LXX Psalm numbering in site search and map both to `identity_key`.
 - Today's Readings reads the current-year daily file by ISO date with no site-side lectionary computation.
+- Daily files include only rows with `gregorian_date`; structural-only occasions such as Bright Saturday service-order rows and special services stay in the reverse index and support tables until a date resolver maps them.
 - The daily rebuild cron should roll the shipped window forward each year.
