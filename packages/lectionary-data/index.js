@@ -1,0 +1,28 @@
+'use strict';
+
+const path = require('node:path');
+const meta = require('./meta.json');
+
+const packageRoot = __dirname;
+const occasionIndexPath = path.resolve(packageRoot, 'data', 'reverse_lectionary_index.jsonl');
+const dailyDir = path.resolve(packageRoot, 'data', 'daily');
+const shippedYears = Object.freeze([...meta.shipped_years]);
+
+function dailyYearPath(year) {
+  const numericYear = Number(year);
+  if (!Number.isInteger(numericYear)) {
+    throw new TypeError('year must be an integer year.');
+  }
+  if (!shippedYears.includes(numericYear)) {
+    throw new RangeError(`No lectionary daily file is shipped for year ${numericYear}.`);
+  }
+  return path.resolve(dailyDir, `lectionary-${numericYear}.json`);
+}
+
+module.exports = {
+  occasionIndexPath,
+  dailyDir,
+  dailyYearPath,
+  shippedYears,
+  meta,
+};

@@ -1,0 +1,49 @@
+{
+  "package_name": "@andraws/lectionary-data",
+  "version": "1.0.0",
+  "source_repo_commit": "d256c7affd1db09c7b77364911de64fc79d314a5",
+  "generated_at": "2026-06-17T11:25:45.482Z",
+  "occasion_index_rows": 8005,
+  "daily_files": [
+    {
+      "year": 2026,
+      "rows": 360,
+      "bytes": 1110262
+    },
+    {
+      "year": 2027,
+      "rows": 359,
+      "bytes": 1109579
+    },
+    {
+      "year": 2028,
+      "rows": 360,
+      "bytes": 1107504
+    }
+  ],
+  "shipped_years": [
+    2026,
+    2027,
+    2028
+  ],
+  "schema_notes": {
+    "occasion_index_fields": {
+      "occasion": "Lectionary occasion label.",
+      "service_section": "Service section for the reading when present.",
+      "service_hour": "Service hour for the reading when present.",
+      "slot": "Reading slot within the service context.",
+      "identity_key": "Stable reading identity key used for reverse lookup.",
+      "display_ref": "Human-facing reference, using MT primary with LXX inline where applicable.",
+      "canonical_mt_ref": "Canonical Masoretic Text reference when available.",
+      "canonical_lxx_ref": "Canonical Septuagint reference when available.",
+      "spans_json": "Serialized span metadata for machine consumers.",
+      "removed_marker": "Source-derived removal or omission marker when present.",
+      "hour_theme": "Theme label attached to the service hour when present.",
+      "source_disclosure": "Disclosure of source coverage or source-derived status.",
+      "attestation_year_min": "Minimum attested year in the packaged source data.",
+      "attestation_year_max": "Maximum attested year in the packaged source data."
+    },
+    "daily_file_shape": "Each daily JSON file maps ISO dates to an array of readings.",
+    "known_limitation": "Structural-only occasions without a gregorian_date, including Bright Saturday and special services, are not in the daily files yet."
+  }
+}
