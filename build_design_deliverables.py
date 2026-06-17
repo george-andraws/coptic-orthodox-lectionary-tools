@@ -863,6 +863,149 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
     return presentation_rows, identities
 
 
+CURRENT_STATUS_PRIORITY = [
+    "current_confirmed_coptic_reader",
+    "current_confirmed_by_fixture_equivalence",
+    "current_public_or_local_reference",
+    "current_working_source_not_coptic_reader_checked",
+    "pending_psalm_equivalence_unresolved",
+    "historical_witness",
+    "historical_candidate_removed",
+    "unknown",
+    "",
+]
+
+
+def ordered_unique(values: Iterable[str]) -> list[str]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for value in values:
+        value = str(value or "").strip()
+        if value and value not in seen:
+            seen.add(value)
+            out.append(value)
+    return out
+
+
+def join_unique(values: Iterable[str]) -> str:
+    return " || ".join(ordered_unique(values))
+
+
+def json_unique_dicts(rows: Iterable[dict], fields: list[str]) -> str:
+    seen: set[tuple[str, ...]] = set()
+    out = []
+    for row in rows:
+        item = {field: row.get(field, "") for field in fields if row.get(field, "")}
+        key = tuple(item.get(field, "") for field in fields)
+        if item and key not in seen:
+            seen.add(key)
+            out.append(item)
+    return json.dumps(out, ensure_ascii=False, separators=(",", ":"))
+
+
+def gregorian_year(value: str) -> int | None:
+    value = str(value or "").strip()
+    if not value:
+        return None
+    try:
+        return dt.date.fromisoformat(value).year
+    except ValueError:
+        return None
+
+
+def choose_current_status(statuses: Iterable[str]) -> str:
+    status_set = set(statuses)
+    for status in CURRENT_STATUS_PRIORITY:
+        if status in status_set:
+            return status
+    return sorted(status_set)[0] if status_set else ""
+
+
+def choose_removed_marker(markers: Iterable[str]) -> str:
+    marker_set = set(str(marker or "") for marker in markers)
+    if "" in marker_set:
+        return ""
+    return sorted(marker_set)[0] if marker_set else ""
+
+
+def occasion_index_key(row: dict) -> tuple[str, str, str, str, str]:
+    return (
+        row.get("occasion", ""),
+        row.get("service_section", ""),
+        row.get("service_hour", ""),
+        row.get("slot", ""),
+        row.get("identity_key", ""),
+    )
+
+
+def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[dict], list[dict]]:
+    grouped: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
+    for row in presentation_rows:
+        grouped[occasion_index_key(row)].append(row)
+
+    status_disagreements: list[dict] = []
+    index_rows: list[dict] = []
+    for key, rows in sorted(grouped.items(), key=lambda item: item[0]):
+        statuses = ordered_unique(row.get("current_status", "") for row in rows)
+        markers = ordered_unique(row.get("removed_marker", "") for row in rows)
+        if len(set(statuses)) > 1 or len(set(markers)) > 1:
+            status_disagreements.append({
+                "occasion": key[0],
+                "service_section": key[1],
+                "service_hour": key[2],
+                "slot": key[3],
+                "identity_key": key[4],
+                "current_statuses": "; ".join(statuses),
+                "removed_markers": "; ".join(markers),
+                "row_count": len(rows),
+            })
+        chosen_status = choose_current_status(statuses)
+        chosen_marker = choose_removed_marker(markers)
+        years = sorted(year for year in (gregorian_year(row.get("gregorian_date", "")) for row in rows) if year is not None)
+        first = rows[0]
+        source_fields = ["source_family", "source_kind", "source_edition", "source_locator", "source_title"]
+        index_rows.append({
+            "occasion": key[0],
+            "calendar_keys": join_unique(row.get("calendar_key", "") for row in rows),
+            "day_titles": join_unique(row.get("day_title", "") for row in rows),
+            "service_section": key[1],
+            "service_hour": key[2],
+            "slot": key[3],
+            "identity_key": key[4],
+            "display_ref": first.get("display_ref", ""),
+            "canonical_mt_ref": first.get("canonical_mt_ref", ""),
+            "canonical_lxx_ref": first.get("canonical_lxx_ref", ""),
+            "spans_json": first.get("spans_json", ""),
+            "removed_marker": chosen_marker,
+            "hour_theme": join_unique(row.get("hour_theme", "") for row in rows),
+            "reading_type": first.get("reading_type", ""),
+            "reading_name": first.get("reading_name", ""),
+            "authority_tier": join_unique(row.get("authority_tier", "") for row in rows),
+            "current_status": chosen_status,
+            "provenance": join_unique(row.get("provenance", "") for row in rows),
+            "source_family": join_unique(row.get("source_family", "") for row in rows),
+            "source_kind": join_unique(row.get("source_kind", "") for row in rows),
+            "source_edition": join_unique(row.get("source_edition", "") for row in rows),
+            "source_locator": join_unique(row.get("source_locator", "") for row in rows),
+            "source_title": join_unique(row.get("source_title", "") for row in rows),
+            "source_disclosure": json_unique_dicts(rows, source_fields),
+            "attestation_year_min": str(min(years)) if years else "",
+            "attestation_year_max": str(max(years)) if years else "",
+            "attestation_years": "; ".join(str(year) for year in sorted(set(years))),
+            "collapsed_row_count": str(len(rows)),
+        })
+
+    expected_keys = set(grouped)
+    actual_keys = set(occasion_index_key(row) for row in index_rows)
+    if expected_keys != actual_keys:
+        missing = expected_keys - actual_keys
+        extra = actual_keys - expected_keys
+        raise AssertionError(f"reverse_lectionary_index key mismatch: missing={len(missing)} extra={len(extra)}")
+    if len(index_rows) != 8005:
+        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 8005")
+    return index_rows, status_disagreements
+
+
 def build_psalm_crosswalk() -> list[dict]:
     rows = []
     for mt in range(1, 151):
@@ -1415,6 +1558,7 @@ def write_schema() -> dict:
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
             "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
+            "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
             "todays_readings_current_practice": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
             "pascha_attestation": ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"],
             "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
@@ -2089,6 +2233,7 @@ Ottawa taxonomy coverage flag: 11 of the 69 Ottawa dated entries have no emitted
 def main() -> None:
     schema = write_schema()
     presentation_rows, identities = build_reverse_presentation()
+    reverse_index_rows, reverse_index_status_disagreements = build_reverse_lectionary_index(presentation_rows)
     psalm_rows = build_psalm_crosswalk()
     attestation, temporal = build_attestation(presentation_rows)
     attestation_bucket_manifest = build_attestation_bucket_manifest(attestation, schema)
@@ -2108,6 +2253,7 @@ def main() -> None:
     write_jsonl(OUT / "reading_identity.jsonl", identities.values())
     write_csv(OUT / "reverse_lectionary_presentation.csv", presentation_rows, presentation_fields)
     write_jsonl(OUT / "reverse_lectionary_presentation.jsonl", presentation_rows)
+    write_jsonl(OUT / "reverse_lectionary_index.jsonl", reverse_index_rows)
     write_csv(OUT / "todays_readings_current_practice.csv", today_rows, presentation_fields)
     write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
     write_csv(OUT / "psalm_mt_lxx_crosswalk.csv", psalm_rows, ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"])
@@ -2142,6 +2288,8 @@ def main() -> None:
     write_spec(schema)
     summary = {
         "reverse_lectionary_presentation_rows": len(presentation_rows),
+        "reverse_lectionary_index_rows": len(reverse_index_rows),
+        "reverse_lectionary_index_status_disagreement_rows": len(reverse_index_status_disagreements),
         "reading_identity_rows": len(identities),
         "todays_readings_rows": len(today_rows),
         "psalm_crosswalk_rows": len(psalm_rows),

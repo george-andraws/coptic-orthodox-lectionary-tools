@@ -90,8 +90,10 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
 ```json
 {
   "reverse_lectionary_presentation_rows": 66381,
+  "reverse_lectionary_index_rows": 8005,
+  "reverse_lectionary_index_status_disagreement_rows": 0,
   "reading_identity_rows": 2657,
-  "todays_readings_rows": 11,
+  "todays_readings_rows": 9,
   "psalm_crosswalk_rows": 161,
   "pascha_attestation_rows": 445,
   "pascha_attestation_bucket_manifest_rows": 5,

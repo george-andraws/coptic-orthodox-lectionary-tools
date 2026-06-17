@@ -9,7 +9,7 @@ import subprocess
 import sys
 import urllib.parse
 import urllib.request
-from collections import Counter
+from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -69,10 +69,50 @@ def read_header(path: Path) -> list[str]:
         return next(csv.reader(f))
 
 
+def read_jsonl(path: Path) -> list[dict]:
+    with path.open(encoding="utf-8") as f:
+        return [json.loads(line) for line in f]
+
+
 def norm(text: str) -> str:
     text = re.sub(r"^\d+\.\s*", "", text)
     text = re.sub(r"[^a-z0-9 ]+", " ", text.lower())
     return re.sub(r"\s+", " ", text).strip()
+
+
+def occasion_index_key(row: dict) -> tuple[str, str, str, str, str]:
+    return (
+        row.get("occasion", ""),
+        row.get("service_section", ""),
+        row.get("service_hour", ""),
+        row.get("slot", ""),
+        row.get("identity_key", ""),
+    )
+
+
+def ordered_unique(values) -> list[str]:
+    seen = set()
+    out = []
+    for value in values:
+        value = str(value or "").strip()
+        if value and value not in seen:
+            seen.add(value)
+            out.append(value)
+    return out
+
+
+def join_unique(values) -> str:
+    return " || ".join(ordered_unique(values))
+
+
+def gregorian_year(value: str) -> int | None:
+    value = str(value or "").strip()
+    if not value:
+        return None
+    try:
+        return int(value[:4])
+    except ValueError:
+        return None
 
 
 def verify_content_rules() -> None:
@@ -137,6 +177,7 @@ def verify_schema() -> None:
     tables = schema.get("tables", {})
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
+        "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure", "attestation_year_min", "attestation_year_max", "collapsed_row_count"],
         "temporal_attestation": ["source_authority_tier", "source_title", "source_edition", "source_locator", "attestation_bucket", "current_authority", "removed_marker"],
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
         "temporal_residue": ["residue_type", "reason", "removed_marker", "citation", "attestation_note"],
@@ -214,6 +255,50 @@ def verify_rows() -> None:
     if {row.get("membership_verdict") for row in foundational} != {"INFERRED_LIKELY_SAME_SET"}:
         fail("foundational 69 membership verdict token must record inferred likely same set")
     presentation = read_csv(OUT / "reverse_lectionary_presentation.csv")
+    reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
+    if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
+    if len(reverse_index) != 8005:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 8005")
+    grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
+    for row in presentation:
+        grouped_index_source[occasion_index_key(row)].append(row)
+    index_keys = [occasion_index_key(row) for row in reverse_index]
+    duplicate_index_keys = [key for key, count in Counter(index_keys).items() if count != 1]
+    if duplicate_index_keys:
+        fail(f"reverse_lectionary_index duplicate keys: {len(duplicate_index_keys)}")
+    expected_keys = set(grouped_index_source)
+    actual_keys = set(index_keys)
+    if expected_keys != actual_keys:
+        fail(f"reverse_lectionary_index key mismatch missing={len(expected_keys - actual_keys)} extra={len(actual_keys - expected_keys)}")
+    for row in reverse_index:
+        if "gregorian_date" in row or "coptic_date" in row:
+            fail("reverse_lectionary_index must not carry gregorian_date or coptic_date")
+        source_rows = grouped_index_source[occasion_index_key(row)]
+        statuses = set(r.get("current_status", "") for r in source_rows)
+        markers = set(r.get("removed_marker", "") for r in source_rows)
+        if len(statuses) > 1:
+            fail(f"reverse_lectionary_index source current_status disagreement not flagged separately: {occasion_index_key(row)} {statuses}")
+        if len(markers) > 1:
+            fail(f"reverse_lectionary_index source removed_marker disagreement not flagged separately: {occasion_index_key(row)} {markers}")
+        if row.get("calendar_keys", "") != join_unique(r.get("calendar_key", "") for r in source_rows):
+            fail(f"reverse_lectionary_index calendar key union mismatch: {occasion_index_key(row)}")
+        if row.get("source_family", "") != join_unique(r.get("source_family", "") for r in source_rows):
+            fail(f"reverse_lectionary_index source_family union mismatch: {occasion_index_key(row)}")
+        if row.get("source_kind", "") != join_unique(r.get("source_kind", "") for r in source_rows):
+            fail(f"reverse_lectionary_index source_kind union mismatch: {occasion_index_key(row)}")
+        years = sorted(year for year in (gregorian_year(r.get("gregorian_date", "")) for r in source_rows) if year is not None)
+        expected_min = str(min(years)) if years else ""
+        expected_max = str(max(years)) if years else ""
+        if row.get("attestation_year_min", "") != expected_min or row.get("attestation_year_max", "") != expected_max:
+            fail(f"reverse_lectionary_index attestation year span mismatch: {occasion_index_key(row)}")
+        disclosure = json.loads(row.get("source_disclosure", "[]") or "[]")
+        disclosure_set = {tuple(item.get(field, "") for field in ["source_family", "source_kind", "source_edition", "source_locator", "source_title"]) for item in disclosure}
+        expected_disclosure = {tuple(r.get(field, "") for field in ["source_family", "source_kind", "source_edition", "source_locator", "source_title"]) for r in source_rows}
+        if disclosure_set != expected_disclosure:
+            fail(f"reverse_lectionary_index source disclosure union mismatch: {occasion_index_key(row)}")
+    if summary.get("reverse_lectionary_index_status_disagreement_rows") != 0:
+        fail("reverse_lectionary_index should have zero status disagreement rows in this run")
     identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")
     scopes = {r.get("mapping_scope") for r in crosswalk}
