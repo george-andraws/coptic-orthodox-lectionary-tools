@@ -178,6 +178,7 @@ def verify_schema() -> None:
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
         "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure", "attestation_year_min", "attestation_year_max", "collapsed_row_count"],
+        "daily_lectionary_year": ["occasion", "service_section", "service_hour", "slot", "display_ref", "identity_key", "reading_type", "removed_marker"],
         "temporal_attestation": ["source_authority_tier", "source_title", "source_edition", "source_locator", "attestation_bucket", "current_authority", "removed_marker"],
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
         "temporal_residue": ["residue_type", "reason", "removed_marker", "citation", "attestation_note"],
@@ -299,6 +300,36 @@ def verify_rows() -> None:
             fail(f"reverse_lectionary_index source disclosure union mismatch: {occasion_index_key(row)}")
     if summary.get("reverse_lectionary_index_status_disagreement_rows") != 0:
         fail("reverse_lectionary_index should have zero status disagreement rows in this run")
+    daily_fields = schema.get("tables", {}).get("daily_lectionary_year", [])
+    expected_daily_by_year: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    for row in presentation:
+        date_value = row.get("gregorian_date", "")
+        if not date_value:
+            continue
+        year = date_value[:4]
+        expected_daily_by_year[year][date_value].append({field: row.get(field, "") for field in daily_fields})
+    expected_year_counts = {year: sum(len(readings) for readings in days.values()) for year, days in sorted(expected_daily_by_year.items())}
+    if summary.get("daily_lectionary_years") != expected_year_counts:
+        fail(f"daily_lectionary_years summary mismatch: {summary.get('daily_lectionary_years')} != {expected_year_counts}")
+    if summary.get("daily_lectionary_total_rows") != sum(expected_year_counts.values()):
+        fail("daily_lectionary_total_rows does not match dated presentation rows")
+    daily_paths = sorted((OUT / "daily").glob("lectionary-*.json"))
+    if [path.stem.rsplit("-", 1)[-1] for path in daily_paths] != sorted(expected_year_counts):
+        fail("daily lectionary year files do not match expected dated-year range")
+    for path in daily_paths:
+        year = path.stem.rsplit("-", 1)[-1]
+        data = json.loads(path.read_text(encoding="utf-8"))
+        expected_days = dict(sorted(expected_daily_by_year[year].items()))
+        if data != expected_days:
+            fail(f"daily file {path} does not exactly match dated presentation rows")
+        if sum(len(readings) for readings in data.values()) != expected_year_counts[year]:
+            fail(f"daily file {path} row count mismatch")
+        for date_value, readings in data.items():
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_value):
+                fail(f"daily file {path} has malformed ISO date key: {date_value}")
+            for reading in readings:
+                if list(reading.keys()) != daily_fields:
+                    fail(f"daily file {path} reading fields mismatch: {list(reading.keys())}")
     identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")
     scopes = {r.get("mapping_scope") for r in crosswalk}

@@ -1614,6 +1614,16 @@
       "attestation_years",
       "collapsed_row_count"
     ],
+    "daily_lectionary_year": [
+      "occasion",
+      "service_section",
+      "service_hour",
+      "slot",
+      "display_ref",
+      "identity_key",
+      "reading_type",
+      "removed_marker"
+    ],
     "todays_readings_current_practice": [
       "identity_key",
       "reading_type",

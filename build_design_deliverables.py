@@ -343,6 +343,11 @@ def write_jsonl(path: Path, rows: Iterable[dict]) -> None:
             f.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
 
 
+def write_json(path: Path, data: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
 def slugify(value: str) -> str:
     value = re.sub(r"[^A-Za-z0-9]+", "-", value.lower()).strip("-")
     return value or "item"
@@ -1006,6 +1011,23 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
     return index_rows, status_disagreements
 
 
+DAILY_READING_FIELDS = ["occasion", "service_section", "service_hour", "slot", "display_ref", "identity_key", "reading_type", "removed_marker"]
+
+
+def build_daily_year_files(presentation_rows: list[dict]) -> dict[int, dict[str, list[dict]]]:
+    by_year: dict[int, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    for row in presentation_rows:
+        date_value = row.get("gregorian_date", "")
+        if not date_value:
+            continue
+        try:
+            date_obj = dt.date.fromisoformat(date_value)
+        except ValueError as exc:
+            raise AssertionError(f"Invalid gregorian_date in presentation row: {date_value}") from exc
+        by_year[date_obj.year][date_value].append({field: row.get(field, "") for field in DAILY_READING_FIELDS})
+    return {year: dict(sorted(days.items())) for year, days in sorted(by_year.items())}
+
+
 def build_psalm_crosswalk() -> list[dict]:
     rows = []
     for mt in range(1, 151):
@@ -1559,6 +1581,7 @@ def write_schema() -> dict:
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
             "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
             "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
+            "daily_lectionary_year": DAILY_READING_FIELDS,
             "todays_readings_current_practice": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
             "pascha_attestation": ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"],
             "temporal_classification": ["day_title", "service_hour", "identity_key", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "valid_from", "valid_to", "derivation", "attesting_sources"],
@@ -2234,6 +2257,7 @@ def main() -> None:
     schema = write_schema()
     presentation_rows, identities = build_reverse_presentation()
     reverse_index_rows, reverse_index_status_disagreements = build_reverse_lectionary_index(presentation_rows)
+    daily_year_files = build_daily_year_files(presentation_rows)
     psalm_rows = build_psalm_crosswalk()
     attestation, temporal = build_attestation(presentation_rows)
     attestation_bucket_manifest = build_attestation_bucket_manifest(attestation, schema)
@@ -2254,6 +2278,12 @@ def main() -> None:
     write_csv(OUT / "reverse_lectionary_presentation.csv", presentation_rows, presentation_fields)
     write_jsonl(OUT / "reverse_lectionary_presentation.jsonl", presentation_rows)
     write_jsonl(OUT / "reverse_lectionary_index.jsonl", reverse_index_rows)
+    daily_dir = OUT / "daily"
+    if daily_dir.exists():
+        for stale in daily_dir.glob("lectionary-*.json"):
+            stale.unlink()
+    for year, days in daily_year_files.items():
+        write_json(daily_dir / f"lectionary-{year}.json", days)
     write_csv(OUT / "todays_readings_current_practice.csv", today_rows, presentation_fields)
     write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
     write_csv(OUT / "psalm_mt_lxx_crosswalk.csv", psalm_rows, ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"])
@@ -2290,6 +2320,8 @@ def main() -> None:
         "reverse_lectionary_presentation_rows": len(presentation_rows),
         "reverse_lectionary_index_rows": len(reverse_index_rows),
         "reverse_lectionary_index_status_disagreement_rows": len(reverse_index_status_disagreements),
+        "daily_lectionary_years": {str(year): sum(len(readings) for readings in days.values()) for year, days in daily_year_files.items()},
+        "daily_lectionary_total_rows": sum(len(readings) for days in daily_year_files.values() for readings in days.values()),
         "reading_identity_rows": len(identities),
         "todays_readings_rows": len(today_rows),
         "psalm_crosswalk_rows": len(psalm_rows),
