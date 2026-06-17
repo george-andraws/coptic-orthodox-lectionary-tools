@@ -276,7 +276,7 @@
 - Audit pass 2 artifact: `audit_artifacts/phase7_step5_grok_audit_pass2.md`. Outcome: no required revisions remain.
 - Open questions updated: `audit_artifacts/open_questions_for_george.md` now carries the Step 4 data-review findings for Job span/hour disagreement, Proverbs 1 older/current variants, and Wisdom of Solomon candidate rows.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 5 accepted. Commit hash: reported in George's final Step 5 response.
+- Acceptance result: Step 5 accepted. Commit hash: `8c67d63`.
 
 ### Step 6 - Corrected 69 verdict
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -286,7 +286,7 @@
 - What was done: Corrected the generated article, spec text, source registry note, controlled-vocabulary verdict token, per-row membership status, site integration bridge wording, verifier expectations, and open questions. Left bridge rows unchanged because `basis=explicit` rests on Ottawa's direct dated reading sections.
 - Open question added: verify the reading-by-reading roster mapping between Youssef's 69 type-collections and the Ottawa dated entries.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; targeted scan for stale overclaim phrases. All passed.
-- Acceptance result: Step 6 accepted. Commit hash: reported in George's final Step 7 response.
+- Acceptance result: Step 6 accepted. Commit hash: `f1b0fbd`.
 
 ### Step 7 - Grok audit of corrected 69 verdict
 - Producer of revisions: `openai-codex/gpt-5.5`, xhigh.
@@ -296,4 +296,38 @@
 - Audit pass 2 artifact: `audit_artifacts/phase7_step7_grok_audit_pass2.md`. Outcome: no required revisions remain. Article overclaim status is clean; bridge distribution remains `explicit=789`, `collection-type=3899`, with confidence `high=789`, `medium=3899`.
 - Corrected verdict text: `INFERRED_LIKELY_SAME_SET` (roster unverified). Youssef gives 69 foundational reading collections arranged by kind of feast and commemoration in volume two of the Yearly Katameros. Ottawa presents 69 dated entries in the weekday-and-feast volume. Alignment is inferred from shared source tradition, volume two placement, category match, and count, not from an independently matched reading-by-reading roster.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 7 accepted. Commit hash: reported in George's final Step 7 response.
+- Acceptance result: Step 7 accepted. Commit hash: `248e11a`.
+
+### Step 8 - Article publish-readiness pass
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Scope: presentation pass only, no sourced-claim rewrite.
+- What was done: updated `build_design_deliverables.py` to convert inline `Source:` and `Sources:` trailers into endnotes, set the article frontmatter to `publish: false`, added the visible `DRAFT, pending deacon review` note at the top of the article body, and smoothed the templated `Read from source:` transitions in the documentation-history section without changing the sourced substance.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; targeted scans confirming `publish: false`, draft note present, `## Notes` present, no inline source trailers before `## Sources`, and no article over-claim of the 69 identity. All passed.
+- Acceptance result: Step 8 article pass accepted. Commit hash: `d632a8b`.
+
+### Step 9 - Lectionary data change manifest
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Baseline selection: tagged pre-Phase-2 baseline `lectionary-baseline` at `af25b02cc152c4e0d35e2a8a06754fd1857ed16e`, the clean state immediately before the re-keyed dataset commit `6c0cb65`.
+- What was done: added `scripts/build_lectionary_change_manifest.py`; generated `out/design/lectionary_change_manifest.csv` as the grouped review manifest, `out/design/lectionary_change_manifest.raw.csv.gz` as the exact row-level CSV audit archive, `out/design/affected_passages.csv` as the unique affected-passage join index, and `out/design/lectionary_change_manifest.md` as the human-readable summary and execution-log cross-check.
+- Counts at generation time: grouped manifest rows `32921`; exact raw row-level CSV changes `427922`; affected passage keys `2791`.
+- Data-diff commits captured in the baseline range: `03fb997`, `04cc512`, `2622ee2`, `350a0bd`, `440001d`, `6a15663`, `6c0cb65`, `85e7422`, `c9dd8bf`, `e2a5773`, `efbf63c`, `f1b0fbd`, `f79cbbc`.
+- Verification: `python3 -m py_compile scripts/build_lectionary_change_manifest.py`; `python3 scripts/build_lectionary_change_manifest.py --baseline lectionary-baseline --head HEAD`; row-count and byte-size checks on the grouped CSV, raw gzip archive, affected-passages CSV, and manifest summary; banned-word and em-dash scan on the manifest artifacts; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 9 manifest pass accepted. Commit hash: `31eacaa`.
+
+### Step 10 - Coptic-corpus handoff package
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Repo-access boundary: Hermes remained inside `coptic-lectionary-research` only and did not access or push `coptic-corpus`.
+- What was done: assembled `out/handoff/` with the publish-candidate article, working spec, identity map, reverse lectionary index, today's-readings snapshot, passage footprint data, passage source disclosure data, source registry, Psalm MT/LXX crosswalk, foundational 69 table, Pascha and temporal support datasets, Synaxarium datasets, schema, grouped manifest, raw manifest gzip, affected-passage index, manifest summary, `open_questions_for_george.md`, `site_integration_spec.md`, and the `HANDOFF.md` index.
+- Handoff guardrails recorded in `out/handoff/HANDOFF.md`: keep the article as a draft, preserve `INFERRED_LIKELY_SAME_SET` with roster unverified, keep `removed_marker` visible, treat the Synaxarium bridge as discovery links rather than direct proper-reading proof, and accept both MT and LXX Psalm numbering in search via `identity_key`.
+- Verification: package inventory and size check over every `out/handoff/*` artifact; banned-word and em-dash scan on `HANDOFF.md` and `site_integration_spec.md`; `git diff --check`. All passed.
+- Acceptance result: Step 10 handoff package accepted. Commit hash: `a04e64e`.
+
+### Step 11 - Grok consistency audit of Steps 8 through 10 and final logging prep
+- Producer of revisions: `openai-codex/gpt-5.5`, xhigh.
+- Auditor: `xai-oauth/grok-4.3`, xhigh, via Hermes CLI one-shot with the `file` toolset only. No web/search/fetch tools were enabled or used. Audit prompt artifact was temporary and removed after the run.
+- Audit artifact: `audit_artifacts/phase7_grok_steps1to3_audit.md`.
+- Audit verdict at run time: conditional pass. Content, article guardrails, handoff guardrails, and 69 caveats passed. One required revision remained: execution-log and manifest cross-check alignment for commit `f1b0fbd`.
+- Revision applied after the audit: recorded the exact commit hashes for Steps 5, 6, and 7 in this execution log; regenerated `out/design/lectionary_change_manifest.md` and refreshed the handoff copy so the cross-check now states that every committed CSV data-diff commit in the baseline range is found in the execution log by hash.
+- Final consistency state after the revision: article still states `INFERRED_LIKELY_SAME_SET`, roster unverified; article still does not treat the 69 as calendar days; grouped manifest rows remain `32921`; exact raw row-level CSV changes remain `427922`; affected passage keys remain `2791`.
+- Final artifact pointers: grouped manifest `out/design/lectionary_change_manifest.csv`; exact raw audit archive `out/design/lectionary_change_manifest.raw.csv.gz`; affected-passage index `out/design/affected_passages.csv`; handoff index `out/handoff/HANDOFF.md`.
+- Verification: `python3 scripts/build_lectionary_change_manifest.py --baseline lectionary-baseline --head HEAD`; refreshed handoff manifest copies; `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_lectionary_change_manifest.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; targeted scans for banned words, em dashes, and stale 69 over-claim phrases. All passed.

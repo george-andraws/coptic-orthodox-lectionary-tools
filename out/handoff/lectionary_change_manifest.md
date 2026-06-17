@@ -1,7 +1,7 @@
 # Lectionary Change Manifest
 
 Baseline: `af25b02cc152c4e0d35e2a8a06754fd1857ed16e`
-Data range HEAD: `d632a8b3da4bda4309715e237a2c887e98a48221`
+Data range HEAD: `a04e64ed8763cfdee4573d3f81f0bea5cae3caa7`
 The manifest files themselves are excluded from future data-diff scans to avoid recursive diffs.
 Grouped manifest rows: 32921
 Exact raw row-level CSV changes archived: 427922
@@ -2878,17 +2878,21 @@ Affected passage keys: 2791
 Logged commits in the baseline range with no committed CSV data diff:
 - `169f8a2` docs: identify 69 foundational readings
 - `16febe5` Finalize lectionary execution log
+- `248e11a` Audit corrected foundational 69 verdict
 - `2ad64ea` State foundational readings verdict
+- `31eacaa` Add lectionary data change manifest
 - `5396e43` Clarify Coptic Pascha computation
+- `8c67d63` Audit Phase 7 correction pass
 - `9a46291` docs: clarify NKJV versification source
+- `a04e64e` Assemble coptic-corpus handoff package
 - `a2f39d5` Enrich lectionary article structural sources
 - `b50e91b` docs: clarify Pascha computation
+- `d632a8b` Prepare lectionary article for deacon review
 - `db025be` docs: add citation notes and locator flags
 - `ef4aaf1` docs: add lectionary documentation history
 - `ef55101` docs: investigate 69 foundational readings
 
-Committed CSV data diffs not explicitly found in the execution log:
-- `f1b0fbd` Correct foundational 69 verdict
+Every committed CSV data-diff commit in the baseline range was found in the execution log by hash.
 
 ## Artifact paths
 
