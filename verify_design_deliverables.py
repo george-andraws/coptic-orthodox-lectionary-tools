@@ -168,10 +168,10 @@ def verify_content_rules() -> None:
         if bad:
             fail(f"Forbidden words in {path}: {bad}")
     article = (ROOT / "coptic-lectionary-and-synaxarium.md").read_text(encoding="utf-8")
-    if "publish: false" not in article.split("---", 2)[1]:
-        fail("Article frontmatter must keep publish: false until George approves it")
-    if "> **DRAFT, pending deacon review.**" not in article:
-        fail("Article must show the draft pending deacon review note near the top")
+    if "publish: true" not in article.split("---", 2)[1]:
+        fail("Article frontmatter must be publish: true after George's approval")
+    if "> **DRAFT, pending deacon review.**" in article:
+        fail("Article must not show the draft pending deacon review note after publish approval")
     if "## Notes" not in article:
         fail("Article must include endnotes for source trailers")
     article_body_before_sources = article.split("\n## Sources\n", 1)[0]

@@ -1,7 +1,7 @@
 ---
 title: "The Coptic Lectionary and the Synaxarium"
 slug: coptic-lectionary-and-synaxarium
-publish: false
+publish: true
 type: lesson
 summary: "A Coptic Orthodox lesson on how the Church's lectionary and Synaxarium teach us to receive Scripture inside worship, memory, repentance, and the life of the saints."
 tags: [coptic-orthodox, lectionary, synaxarium, scripture, liturgy]
@@ -9,8 +9,6 @@ fathers: [Athanasius of Alexandria]
 passages: ["Luke 4:16-21", "Acts 15:21", "2 Timothy 3:16-17"]
 season: "Liturgical year"
 ---
-
-> **DRAFT, pending deacon review.** Do not publish this lesson until George completes the deacon review.
 
 The Coptic lectionary is not only a reading plan. It is the Church teaching her children how to hear the Lord. In the Church's worship, appointed readings are received in relation to feasts, fasts, hours, commemorations, and liturgical services, according to the sources and rites in view.
 

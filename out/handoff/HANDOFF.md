@@ -10,7 +10,7 @@ These are the files intended for site runtime import.
 
 | Artifact | Path in `out/handoff/` | What George does with it |
 |---|---|---|
-| Publish-candidate article | `coptic-lectionary-and-synaxarium.md` | Copy into the site's lesson content area, keep `publish: false`, keep the visible draft note, and complete deacon review before live publish. |
+| Publish-ready article | `coptic-lectionary-and-synaxarium.md` | Copy into the site's lesson content area with `publish: true`. |
 | Working spec | `lectionary_spec.md` | Keep as the research-side schema and terminology reference while integrating the site files. |
 | Schema | `lectionary_schema.json` | Use as the machine-readable contract for these datasets. |
 | Identity key map | `reading_identity.csv` | Import as the canonical reading identity table. Use `identity_key` as the join key across search, reverse lectionary, footprint, and source disclosure tables. |
@@ -61,7 +61,7 @@ These are retained for George's review, not for normal site runtime.
 
 ## Guardrails George should preserve
 
-- Do not publish the article until deacon review is complete.
+- Article frontmatter is `publish: true` after George's approval.
 - Do not over-claim the 69 identity. Use `INFERRED_LIKELY_SAME_SET`, roster unverified.
 - Do not treat Synaxarium bridge rows as direct proper-reading proof.
 - Keep `removed_marker` visible for historical Pascha rows.

@@ -6,8 +6,8 @@ Hermes has not touched `coptic-corpus` in this run. George reviews this package,
 
 ## Safety gate
 
-- Keep `coptic-lectionary-and-synaxarium.md` as `publish: false` until George completes the deacon review.
-- Keep the visible draft note at the top of the article body.
+- `coptic-lectionary-and-synaxarium.md` is publish-ready with `publish: true` after George's approval.
+- Do not restore the prior draft warning unless George asks for a fresh review hold.
 - If the 69 reading collections are displayed, use the verdict `INFERRED_LIKELY_SAME_SET` with roster unverified. Do not state that Youssef's 69 collections and the Ottawa dated entries are confirmed as the same roster.
 
 ## Required search behavior
@@ -115,7 +115,7 @@ Use these files before updating chapter studies:
 
 After George imports into `coptic-corpus`:
 
-1. Verify the article remains unpublished.
+1. Verify the article has `publish: true` and no draft warning.
 2. Search by MT and LXX Psalm numbering for at least Psalm 51 and Psalm 50.
 3. Verify a historical Pascha reading shows `removed_marker` inline.
 4. Verify passage pages display source disclosure.
