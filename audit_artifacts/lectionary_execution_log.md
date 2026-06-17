@@ -238,7 +238,7 @@
 - What was done: Applied George's externally confirmed bibliographic corrections without re-researching. Updated Zanetti to `Les lectionnaires coptes annuels: Basse-Egypte`, Publications de l'Institut Orientaliste de Louvain 33, Louvain-la-Neuve, 1985, xxiv + 383 p. Updated Burmester to `Bulletin de la Societe d'Archeologie Copte XVI, 1961-1962, pp. 83-137`.
 - Open questions: closed the unresolved Burmester and Zanetti locator items; retained the Youssef 15 weeks or 107 days arithmetic note as a separate open item.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 1 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 1 accepted. Commit hash: `c9dd8bf`.
 
 ### Step 2 - Pascha clarification with supplied external source fixtures
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -248,7 +248,7 @@
 - Resolved item: Removed the Pascha shared-date source check from `audit_artifacts/open_questions_for_george.md`. The resolved note records that verification was externally supplied and not independently web-rechecked in this blocked session.
 - Partial artifact handling: The uncommitted `audit_artifacts/phase7_step2_pascha_source_check_grok.md` contained a blocked-web limitation and a partial GOARCH/timeanddate note. Its limitation is folded into this log entry, and the file was removed rather than committed.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 2 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 2 accepted. Commit hash: `5396e43`.
 
 ### Step 3 - Explicit 69 verdict wording
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -256,7 +256,7 @@
 - Caveat retained: The same-set verdict is an inference from source identity, volume placement, annual mapping function, commemoration category match, and count; the consulted Youssef page does not print the date-by-date roster.
 - Bridge note: The Step 7 `basis=explicit` bridge upgrade still stands on the Ottawa/UKMID volume's direct dated reading sections and does not require Youssef's page to print the roster.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
-- Acceptance result: Step 3 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 3 accepted. Commit hash: `2ad64ea`.
 
 ### Step 4 - Data review of duplicate-looking removed rows
 - Producer: `openai-codex/gpt-5.5`, xhigh.
@@ -264,4 +264,16 @@
 - Fix made: unambiguous Proverbs duplicate normalized. `Prov 4:4-5:4` is the same continuous span as `Prov 4:4-27,5:1-4`; the generator now normalizes the compact form to the explicit two-segment form and keeps source-row provenance.
 - Reported without reclassification: Job rows remain unresolved because the older Ottawa source, local corrected day/hour row, and Coptic Reader fixture differ in hour and boundary detail. `Prov 1:10-33` and current `Prov 1:11-35` are treated as older/current variants of one slot, not a double-counted row. `Wis` rows remain Wisdom of Solomon candidates because repo aliases map `Wis` to Wisdom of Solomon and `Sir` separately to Sirach.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; data-effect check confirming one Wednesday Third Hour Proverbs 4 temporal row and one Proverbs 4 identity. All passed.
-- Acceptance result: Step 4 accepted. Commit hash: pending this commit.
+- Acceptance result: Step 4 accepted. Commit hash: `03fb997`.
+
+
+### Step 5 - Grok audit, final log, and report
+- Producer of revisions: `openai-codex/gpt-5.5`, xhigh.
+- Auditor: `xai-oauth/grok-4.3`, xhigh, via Hermes CLI one-shot with file and terminal toolsets only. No web/search/fetch tools were enabled or used.
+- Web limitation: Grok's audit of Step 2 was limited to internal consistency, citation handling, wording, content rules, and log disclosure. Step 2 Pascha source verification was supplied externally by George/Claude as fixed citation fixtures because web tools were blocked.
+- Audit pass 1 artifact: `audit_artifacts/phase7_step5_grok_audit_pass1.md`. Outcome: no required revisions. Advisable article clarification was to state that the explicit bridge classification rests on Ottawa's direct dated reading sections, not on Youssef printing the full roster.
+- Revision after pass 1: added the advised bridge-independence sentence to the generated article through `build_design_deliverables.py`, then regenerated and verified.
+- Audit pass 2 artifact: `audit_artifacts/phase7_step5_grok_audit_pass2.md`. Outcome: no required revisions remain.
+- Open questions updated: `audit_artifacts/open_questions_for_george.md` now carries the Step 4 data-review findings for Job span/hour disagreement, Proverbs 1 older/current variants, and Wisdom of Solomon candidate rows.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 5 accepted. Commit hash: reported in George's final Step 5 response.
