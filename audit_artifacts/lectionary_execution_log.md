@@ -346,4 +346,12 @@
 - Step 1 commit: `c785f61` added `out/design/reverse_lectionary_index.jsonl`, with 8005 surviving occasion tuples, zero current-status or removed-marker disagreements, aggregated source disclosure, and attestation year spans.
 - Step 2 commit: `60e45ca` added `out/design/daily/lectionary-2020.json` through `out/design/daily/lectionary-2035.json`, preserving 59324 dated rows from the source presentation table.
 - Step 3 commit: `475f9f6` copied the shipped window into `out/handoff/`: `reverse_lectionary_index.jsonl`, `daily/lectionary-2026.json`, `daily/lectionary-2027.json`, and `daily/lectionary-2028.json`; it also updated the handoff and site integration specs.
-- Step 4 in-progress reconciliation: retire `out/design/reverse_lectionary_presentation.jsonl` from the working tree and add a manifest note that the split is a materialization reshape with NO new affected passages for Bible-study audit.
+- Step 4 reconciliation commit: `d0f46d7` retired `out/design/reverse_lectionary_presentation.jsonl` from the working tree, added it to `.gitignore`, regenerated deliverables, refreshed the manifest note, and recorded that the split is a materialization reshape with NO new affected passages for Bible-study audit.
+- Final Step 4 verification: `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `python3 scripts/build_lectionary_change_manifest.py --baseline lectionary-baseline --head HEAD`; refreshed handoff manifest copies; `test ! -e out/design/reverse_lectionary_presentation.jsonl`; `git diff --check`. All passed.
+
+### Step 14 - Grok split-materialization audit
+- Auditor: `xai-oauth/grok-4.3`, using Hermes one-shot with the `file` toolset only. No web/search/fetch tools were enabled.
+- Audit artifact: `audit_artifacts/phase8_grok_split_materialization_audit.md`.
+- Initial audit found two documentation/process issues and no data-loss issue: stale `out/handoff/lectionary_spec.md` and Step 4 wording still marked in progress in this log.
+- Revision applied: refreshed `out/handoff/lectionary_spec.md` from the generated root `lectionary_spec.md`; updated this execution log to record final Step 4 commit `d0f46d7` and verification state.
+- Final audit verdict: PASS. Grok found no evidence that a distinct reading was lost between the retired monolith and the union of `out/design/reverse_lectionary_index.jsonl` plus `out/design/daily/lectionary-YYYY.json` files. Required revisions: none.
