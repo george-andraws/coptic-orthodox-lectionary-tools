@@ -239,3 +239,13 @@
 - Open questions: closed the unresolved Burmester and Zanetti locator items; retained the Youssef 15 weeks or 107 days arithmetic note as a separate open item.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 1 accepted. Commit hash: pending this commit.
+
+### Step 2 - Pascha clarification with supplied external source fixtures
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Web constraint: No web fetch or search was attempted in this session. George supplied the external source verification as fixed citation fixtures because web tools are blocked.
+- Source fixtures used: Fr. Andrew Stephen Damick, `No, the Paschal date difference is not about Passover (and other Orthodox urban legends)`, Ancient Faith Ministries, 2022; Greek Orthodox Archdiocese of America, `Some Common Misperceptions about the Date of Pascha/Easter`; timeanddate public Easter-date references for Coptic Orthodox Easter and Russian Orthodox Easter in 2026; OrthodoxWiki `Coptic Calendar`; copticchurch.net calendar notes.
+- What was done: Added George's supplied clarification sentence to the article while keeping the existing Nicene/computus wording. The sentence states that the Coptic Church does not look up the date in the modern Jewish calendar, uses Alexandrian reckoning set at Nicaea and the same nineteen-year cycle used by Eastern Orthodox churches, and gives 12 April 2026 as the shared Coptic/Russian Orthodox Pascha example.
+- Resolved item: Removed the Pascha shared-date source check from `audit_artifacts/open_questions_for_george.md`. The resolved note records that verification was externally supplied and not independently web-rechecked in this blocked session.
+- Partial artifact handling: The uncommitted `audit_artifacts/phase7_step2_pascha_source_check_grok.md` contained a blocked-web limitation and a partial GOARCH/timeanddate note. Its limitation is folded into this log entry, and the file was removed rather than committed.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 2 accepted. Commit hash: pending this commit.

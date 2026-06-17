@@ -2,10 +2,6 @@
 
 This file collects only the questions that thorough research, source comparison, and independent audit could not settle during the autonomous lectionary execution run.
 
-## Pascha shared-date source check
-
-Step 2a found reliable support for the Nicene Paschal norm and the Alexandrian calculation history in the WCC/MECC Aleppo statement, but did not find a clean source stating that the Coptic Pascha always falls on the same date as Eastern Orthodox Pascha. The article therefore clarifies the computus and the present-day Hebrew-calendar issue only. Add the shared-date clause later only if a reliable source states it clearly.
-
 ## Youssef 15 weeks or 107 days
 
 ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.
