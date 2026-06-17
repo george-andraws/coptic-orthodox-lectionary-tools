@@ -331,3 +331,11 @@
 - Final consistency state after the revision: article still states `INFERRED_LIKELY_SAME_SET`, roster unverified; article still does not treat the 69 as calendar days; grouped manifest rows remain `32921`; exact raw row-level CSV changes remain `427922`; affected passage keys remain `2791`.
 - Final artifact pointers: grouped manifest `out/design/lectionary_change_manifest.csv`; exact raw audit archive `out/design/lectionary_change_manifest.raw.csv.gz`; affected-passage index `out/design/affected_passages.csv`; handoff index `out/handoff/HANDOFF.md`.
 - Verification: `python3 scripts/build_lectionary_change_manifest.py --baseline lectionary-baseline --head HEAD`; refreshed handoff manifest copies; `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_lectionary_change_manifest.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; targeted scans for banned words, em dashes, and stale 69 over-claim phrases. All passed.
+
+### Step 12 - Push attempt to origin/main
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Push command: `git push origin main`.
+- Remote state before the attempt: `origin/main` at `f7692ccbb5bd9c2ab109693c806945a9bd342e19`; local `main` 41 commits ahead.
+- Result: push failed. GitHub rejected historical blobs over the 100 MB hard limit, specifically prior `out/design/reverse_lectionary_presentation.jsonl` blobs introduced in the unpublished local history. GitHub also warned about several 50 MB to 87 MB files that are above the recommended size.
+- Side-effect boundary: no history rewrite, LFS migration, or branch surgery was attempted after the rejection because that would be a repo-wide history operation rather than a routine final push.
+- Final local state: all requested work is committed locally; repo remains unpushed beyond `origin/main` because of the large-file history block. The only remaining untracked file is the pre-existing `audit_artifacts/phase2b_sus_source_psalm_numbering_2026-06-15.md`.
