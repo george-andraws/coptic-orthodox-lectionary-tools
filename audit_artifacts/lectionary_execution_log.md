@@ -124,7 +124,7 @@
 - Step 1 research artifact: `audit_artifacts/phase7_grok_69_investigation.md`.
 - Step 1 ingestion audit artifact: `audit_artifacts/phase7_codex_audit_of_grok_69_investigation.md`.
 - Sources used: Ottawa/UKMID `Katameros_Days.pdf`, re-pulled from `https://ukmidcopts.org/pdf/Katameros_Days.pdf`; F.N. Youssef, `The Arrangement of the Church Lectionary`, ACCOT, `https://accot.stcyrils.edu.au/fny-read1/`.
-- Verdict: `CONFIRMED_SAME_SET` with wording caveat. The Ottawa/UKMID dated TOC entries may be treated as the same practical second-volume collection Youssef names, based on source identity, volume placement, annual mapping function, commemoration categories, and count. The consulted ACCOT Youssef page gives the concept, count, Arabic name, function, and second-volume placement, but not a date-by-date roster.
+- Verdict: `CONFIRMED_SAME_SET`, not count-only, with wording caveat. The Step 1 investigation found the Ottawa/UKMID dated TOC entries to be the same practical second-volume collection Youssef names, based on source identity, volume placement, annual mapping function, commemoration categories, and count. The consulted ACCOT Youssef page gives the concept, count, Arabic name, function, and second-volume placement, but not a date-by-date roster.
 - Verification: Codex re-pulled the Ottawa PDF, extracted pages 23 to 26 with `pypdf`, confirmed 69 dated TOC entries, confirmed sample annual table rows mapping days to the same dated sections, and fetched ACCOT with `curl -L --compressed` after plain Python returned HTTP 406.
 - Acceptance result: Step 1 accepted for Steps 2b, 4, and 7. Commit hash: `ef55101`.
 
@@ -249,3 +249,11 @@
 - Partial artifact handling: The uncommitted `audit_artifacts/phase7_step2_pascha_source_check_grok.md` contained a blocked-web limitation and a partial GOARCH/timeanddate note. Its limitation is folded into this log entry, and the file was removed rather than committed.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 2 accepted. Commit hash: pending this commit.
+
+### Step 3 - Explicit 69 verdict wording
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- What was done: Updated the execution log and generated article to state plainly that Step 1 found the Ottawa/UKMID dated TOC entries to be the same practical 69 foundational-reading set Youssef names, not merely a matching count.
+- Caveat retained: The same-set verdict is an inference from source identity, volume placement, annual mapping function, commemoration category match, and count; the consulted Youssef page does not print the date-by-date roster.
+- Bridge note: The Step 7 `basis=explicit` bridge upgrade still stands on the Ottawa/UKMID volume's direct dated reading sections and does not require Youssef's page to print the roster.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
+- Acceptance result: Step 3 accepted. Commit hash: pending this commit.
