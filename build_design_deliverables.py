@@ -454,9 +454,15 @@ def norm_space(value: str) -> str:
     return re.sub(r"\s+", " ", value or "").strip()
 
 
+KNOWN_NON_PSALM_EQUIVALENT_SPANS = {
+    "Prov 4:4-5:4": ("Prov 4:4-27,5:1-4", "equivalent_continuous_span_from_source_review"),
+}
+
+
 def canonical_ref(value: str) -> str:
     value = value.replace("Psalm", "Ps").replace("Psalms", "Ps")
-    return canonicalize_text_ref(value) or norm_space(value)
+    ref = canonicalize_text_ref(value) or norm_space(value)
+    return KNOWN_NON_PSALM_EQUIVALENT_SPANS.get(ref, (ref, ""))[0]
 
 
 def fixture_preserve_ref(value: str) -> str:
@@ -611,6 +617,9 @@ def identity_for(passage: str, source_kind: str = "") -> dict:
     canonical_mt = passage if parsed else ""
     canonical_lxx = canonical_mt
     note = ""
+    if canonical_mt in KNOWN_NON_PSALM_EQUIVALENT_SPANS:
+        canonical_mt, note = KNOWN_NON_PSALM_EQUIVALENT_SPANS[canonical_mt]
+        canonical_lxx = canonical_mt
     confidence = "high"
     convention = "modern_english_reference"
     if parsed and parsed.book_abbrev == "Ps":
@@ -1978,6 +1987,13 @@ The repo has a locked Coptic Reader fixture for Pascha Wednesday Day only. Curre
 Rows absent from the Wednesday Day Coptic Reader fixture but present in older or local Pascha data are classified as `historical_candidate_removed` in `out/design/temporal_classification.csv`. Only the passages named in George's removed-marker instruction receive `removed_marker`; other old-edition-only rows remain review candidates without that marker. George or a liturgical reviewer should decide whether each unmarked candidate is truly removed, a named-reading equivalent, or a fixture scope issue.
 
 Marker-format decision: this run keeps `removed_marker` as a uniform prose-pattern string that includes the older source and current comparator. A later model pass should decide whether to keep that pattern or split it into a single controlled token plus a separate note field.
+
+## Phase 7 Step 4 data-review findings
+
+- Proverbs 4 duplicate: `Prov 4:4-27,5:1-4` and `Prov 4:4-5:4` are the same continuous Proverbs span, stored two ways. The generator now normalizes the compact form to the explicit two-segment form, so the Wednesday Third Hour historical reading is one identity while retaining source-row provenance.
+- Job span review: `Job 27:16-20` plus `Job 28:1-2` and `Job 27:16-28:2` are not silently deduped. The older Ottawa source gives `Job 27:16-28:2` in Wednesday Third Hour, the local corrected day/hour row gives `Job 27:16-20; Job 28:1-2` in Wednesday Sixth Hour, and the Coptic Reader fixture gives only named `Memoirs of Job` in Wednesday Sixth Hour without verse boundaries. This needs source review before any merge.
+- Proverbs 1 review: older Ottawa gives Wednesday Ninth Hour `Prov 1:10-33`, while the current Coptic Reader fixture and local corrected day/hour row give `Prov 1:11-35`. These are treated as older-source and current-source variants of one slot, not one double-counted row. Current `Prov 1:11-35` is retained; older `Prov 1:10-33` remains historical.
+- Wisdom review: `Wis 1:20-2:15` and `Wis 3:12-24` are API-only old-edition candidates. The repo parser maps `Wis` to Wisdom of Solomon, while Sirach is separately modeled as `Sir`; no evidence in this repo proves those two `Wis` rows are Sirach. They remain unmarked candidate-removed rows pending source review.
 """
     text += "\n## Temporal residue summary\n\n"
     text += "See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:\n"

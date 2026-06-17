@@ -1,16 +1,16 @@
 {
   "reverse_lectionary_presentation_rows": 66381,
-  "reading_identity_rows": 2658,
+  "reading_identity_rows": 2657,
   "todays_readings_rows": 11,
   "psalm_crosswalk_rows": 161,
-  "pascha_attestation_rows": 446,
+  "pascha_attestation_rows": 445,
   "pascha_attestation_bucket_manifest_rows": 5,
-  "temporal_classification_rows": 446,
-  "temporal_residue_rows": 420,
+  "temporal_classification_rows": 445,
+  "temporal_residue_rows": 419,
   "temporal_residue_manifest_rows": 5,
   "synaxarium_commemoration_rows": 664,
   "synaxarium_bridge_rows": 4688,
-  "passage_footprint_rows": 2657,
+  "passage_footprint_rows": 2656,
   "passage_source_disclosure_rows": 66381,
   "foundational_reading_collection_rows": 69
 }

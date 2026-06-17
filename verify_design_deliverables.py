@@ -212,9 +212,11 @@ def verify_rows() -> None:
     attestation_manifest = read_csv(OUT / "pascha_attestation_bucket_manifest.csv")
     removed_rows = [r for r in presentation if r.get("removed_marker")]
     removed_refs = {r.get("display_ref") for r in removed_rows}
-    required_removed_refs = {"Isa 48:1-6", "Isa 59:1-17", "Zech 11:11-14", "Prov 1:10-33", "Prov 4:4-27,5:1-4", "Prov 4:4-5:4", "Job 27:16-28:2", "Job 27:16-20", "Job 28:1-2"}
+    required_removed_refs = {"Isa 48:1-6", "Isa 59:1-17", "Zech 11:11-14", "Prov 1:10-33", "Prov 4:4-27,5:1-4", "Job 27:16-28:2", "Job 27:16-20", "Job 28:1-2"}
     if not required_removed_refs.issubset(removed_refs):
         fail(f"Removed Pascha markers missing refs: {sorted(required_removed_refs - removed_refs)}")
+    if any(r.get("day_title") == "Wednesday" and r.get("service_hour") == "Third Hour" and r.get("display_ref") == "Prov 4:4-5:4" for r in removed_rows):
+        fail("Prov 4:4-5:4 must be normalized into Prov 4:4-27,5:1-4, not retained as a separate Wednesday Third Hour removed row")
     for row in removed_rows:
         marker = row.get("removed_marker", "")
         if not marker.startswith("(removed, attested St. Mary Ottawa Holy Pascha") or "absent from Coptic Reader Wednesday Day fixture supplied by George" not in marker:

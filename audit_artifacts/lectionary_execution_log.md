@@ -257,3 +257,11 @@
 - Bridge note: The Step 7 `basis=explicit` bridge upgrade still stands on the Ottawa/UKMID volume's direct dated reading sections and does not require Youssef's page to print the roster.
 - Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`. All passed.
 - Acceptance result: Step 3 accepted. Commit hash: pending this commit.
+
+### Step 4 - Data review of duplicate-looking removed rows
+- Producer: `openai-codex/gpt-5.5`, xhigh.
+- Evidence checked: `out/design/temporal_classification.csv`, `out/design/temporal_residue.csv`, `out/design/reverse_lectionary_presentation.csv`, `out/design/reading_identity.csv`, `out/data/pascha_source_text_index.csv`, `out/data/pascha_day_hour_index.csv`, `out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt`, `tests/fixtures/pascha_wednesday_day_coptic_reader.json`, and parser aliases in `passage_normalization.py`.
+- Fix made: unambiguous Proverbs duplicate normalized. `Prov 4:4-5:4` is the same continuous span as `Prov 4:4-27,5:1-4`; the generator now normalizes the compact form to the explicit two-segment form and keeps source-row provenance.
+- Reported without reclassification: Job rows remain unresolved because the older Ottawa source, local corrected day/hour row, and Coptic Reader fixture differ in hour and boundary detail. `Prov 1:10-33` and current `Prov 1:11-35` are treated as older/current variants of one slot, not a double-counted row. `Wis` rows remain Wisdom of Solomon candidates because repo aliases map `Wis` to Wisdom of Solomon and `Sir` separately to Sirach.
+- Verification: `python3 -m py_compile build_design_deliverables.py verify_design_deliverables.py scripts/build_phase6_deck.py`; `python3 build_design_deliverables.py`; `python3 verify_design_deliverables.py`; `git diff --check`; data-effect check confirming one Wednesday Third Hour Proverbs 4 temporal row and one Proverbs 4 identity. All passed.
+- Acceptance result: Step 4 accepted. Commit hash: pending this commit.

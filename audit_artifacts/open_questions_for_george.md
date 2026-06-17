@@ -22,10 +22,17 @@ Rows absent from the Wednesday Day Coptic Reader fixture but present in older or
 
 Marker-format decision: this run keeps `removed_marker` as a uniform prose-pattern string that includes the older source and current comparator. A later model pass should decide whether to keep that pattern or split it into a single controlled token plus a separate note field.
 
+## Phase 7 Step 4 data-review findings
+
+- Proverbs 4 duplicate: `Prov 4:4-27,5:1-4` and `Prov 4:4-5:4` are the same continuous Proverbs span, stored two ways. The generator now normalizes the compact form to the explicit two-segment form, so the Wednesday Third Hour historical reading is one identity while retaining source-row provenance.
+- Job span review: `Job 27:16-20` plus `Job 28:1-2` and `Job 27:16-28:2` are not silently deduped. The older Ottawa source gives `Job 27:16-28:2` in Wednesday Third Hour, the local corrected day/hour row gives `Job 27:16-20; Job 28:1-2` in Wednesday Sixth Hour, and the Coptic Reader fixture gives only named `Memoirs of Job` in Wednesday Sixth Hour without verse boundaries. This needs source review before any merge.
+- Proverbs 1 review: older Ottawa gives Wednesday Ninth Hour `Prov 1:10-33`, while the current Coptic Reader fixture and local corrected day/hour row give `Prov 1:11-35`. These are treated as older-source and current-source variants of one slot, not one double-counted row. Current `Prov 1:11-35` is retained; older `Prov 1:10-33` remains historical.
+- Wisdom review: `Wis 1:20-2:15` and `Wis 3:12-24` are API-only old-edition candidates. The repo parser maps `Wis` to Wisdom of Solomon, while Sirach is separately modeled as `Sir`; no evidence in this repo proves those two `Wis` rows are Sirach. They remain unmarked candidate-removed rows pending source review.
+
 ## Temporal residue summary
 
 See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:
-- `candidate_removed_needs_current_authority_confirmation`: 11
+- `candidate_removed_needs_current_authority_confirmation`: 10
 - `current_authority_pending`: 255
 - `historical_witness_no_current_comparator`: 149
 - `psalm_equivalence_unresolved`: 5
@@ -42,7 +49,6 @@ No true source-disagreement class was emitted in this run. Unsettled rows are cl
 - Wednesday | Sixth Hour | Job 28:1-2 | (removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)
 - Wednesday | Sixth Hour | Job 27:16-20 | (removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)
 - Wednesday | Third Hour | Prov 4:4-27,5:1-4 | (removed, attested St. Mary Ottawa Holy Pascha p. 299 line 7552 as Prov 4:4-27,5:1-4; absent from Coptic Reader Wednesday Day fixture supplied by George)
-- Wednesday | Third Hour | Prov 4:4-5:4 | (removed, attested St. Mary Ottawa Holy Pascha p. 299 line 7552 as Prov 4:4-27,5:1-4; absent from Coptic Reader Wednesday Day fixture supplied by George)
 - Wednesday | Third Hour | Job 27:16-28:2 | (removed, attested St. Mary Ottawa Holy Pascha p. 298 line 7519 as Job 27:16-28:2; absent from Coptic Reader Wednesday Day fixture supplied by George)
 
 ### Other old-edition-only candidate-removed rows needing review

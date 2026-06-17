@@ -2,5 +2,5 @@ bucket,row_count,present_in_phase3,note
 current_confirmed,26,yes,Controlled bucket emitted by schema. Zero means this run had no rows in that class.
 consensus_without_coptic_reader,0,no,Controlled bucket emitted by schema. Zero means this run had no rows in that class.
 old_edition_only,149,yes,Controlled bucket emitted by schema. Zero means this run had no rows in that class.
-old_edition_only_candidate_removed,11,yes,Controlled bucket emitted by schema. Zero means this run had no rows in that class.
+old_edition_only_candidate_removed,10,yes,Controlled bucket emitted by schema. Zero means this run had no rows in that class.
 single_source_candidate,260,yes,Controlled bucket emitted by schema. Zero means this run had no rows in that class.
