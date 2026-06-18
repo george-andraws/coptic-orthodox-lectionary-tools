@@ -11,8 +11,8 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.0.0';
-const SOURCE_REPO_COMMIT = 'd256c7affd1db09c7b77364911de64fc79d314a5';
+const VERSION = '1.0.1';
+const SOURCE_REPO_COMMIT = '6cc3295cad4d35ca93e7f72b1cf190a67dd4ab7e';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
 const ATTRIBUTION = 'Coptic lectionary data from Light and Logos (andraws.net), licensed under CC BY 4.0.';
