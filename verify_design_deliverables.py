@@ -31,6 +31,8 @@ REQUIRED_SCHEMA_VOCABS = [
     "source_convention",
     "canonicalization_confidence",
     "current_status",
+    "slot_type",
+    "occasion_kind",
     "attestation_bucket",
     "service_day",
     "service_hour",
@@ -221,7 +223,7 @@ def verify_schema() -> None:
     tables = schema.get("tables", {})
     table_requirements = {
         "reading_identity": ["reading_type", "reading_name", "source_label", "spans_json"],
-        "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
+        "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "slot_type", "slot_order", "occasion_kind", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max"],
         "daily_lectionary_year": ["occasion", "service_section", "service_hour", "slot", "display_ref", "identity_key", "reading_type", "removed_marker"],
         "temporal_attestation": ["source_authority_tier", "source_title", "source_edition", "source_locator", "attestation_bucket", "current_authority", "removed_marker"],
         "temporal_classification": ["day_title", "service_hour", "display_ref", "lifecycle_status", "current_status", "removed_marker", "source_authority_tier", "source_titles", "source_editions", "source_locators", "attestation_bucket", "current_authority", "derivation", "attesting_sources"],
@@ -303,8 +305,8 @@ def verify_rows() -> None:
     reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
     if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
         fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
-    if len(reverse_index) != 8005:
-        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 8005")
+    if len(reverse_index) != 8004:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 8004")
     grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
     for row in presentation:
         grouped_index_source[occasion_index_key(row)].append(row)
@@ -319,6 +321,14 @@ def verify_rows() -> None:
     for row in reverse_index:
         if "gregorian_date" in row or "coptic_date" in row:
             fail("reverse_lectionary_index must not carry gregorian_date or coptic_date")
+        if row.get("slot_type") not in schema.get("controlled_vocabularies", {}).get("slot_type", []):
+            fail(f"reverse_lectionary_index slot_type outside schema vocabulary: {row.get('slot_type')}")
+        if row.get("occasion_kind") not in schema.get("controlled_vocabularies", {}).get("occasion_kind", []):
+            fail(f"reverse_lectionary_index occasion_kind outside schema vocabulary: {row.get('occasion_kind')}")
+        if row.get("slot_type") != "source_label_preserved" and row.get("slot_order") is None:
+            fail(f"reverse_lectionary_index mapped slot missing slot_order: {occasion_index_key(row)}")
+        if row.get("slot_type") == "source_label_preserved" and row.get("slot_order") is not None:
+            fail(f"reverse_lectionary_index preserved source-label slot should not have slot_order: {occasion_index_key(row)}")
         source_rows = grouped_index_source[occasion_index_key(row)]
         statuses = set(r.get("current_status", "") for r in source_rows)
         markers = set(r.get("removed_marker", "") for r in source_rows)

@@ -319,6 +319,39 @@ REMOVED_PASCHA_SOURCE_TEXT_REFS = {
     "Job 27:16-28:2",
 }
 
+GENERIC_CYCLE_OCCASION_LABELS = {
+    "annual Sundays by Coptic month/week",
+    "annual fixed Coptic day",
+    "Holy Fifty Days/Pentecost cycle",
+    "Great Lent/Jonah/Nineveh cycle",
+    # copticchurch.net date-resolved rows sometimes preserve these broad fast/season
+    # labels across many different dates. They are rule/cycle labels, not one
+    # specific dated occasion.
+    "Great Lent",
+    "Fast of Ninevah",
+}
+
+GOSPEL_BOOKS = {"Matt", "Mark", "Lk", "Jn"}
+PRAXIS_BOOKS = {"Acts"}
+PAULINE_BOOKS = {"Rom", "1Cor", "2Cor", "Gal", "Eph", "Phil", "Col", "1Thess", "2Thess", "1Tim", "2Tim", "Titus", "Phlm", "Heb"}
+CATHOLICON_BOOKS = {"James", "1Pet", "2Pet", "1Jn", "2Jn", "3Jn", "Jude"}
+SLOT_TYPE_VOCAB = ["prophecy", "psalm", "gospel", "pauline", "catholicon", "praxis", "source_label_preserved"]
+
+ORDINAL_PREFIXES = {
+    "first": 1,
+    "second": 2,
+    "third": 3,
+    "fourth": 4,
+    "fifth": 5,
+    "sixth": 6,
+    "seventh": 7,
+    "eighth": 8,
+    "ninth": 9,
+    "tenth": 10,
+    "eleventh": 11,
+    "twelfth": 12,
+}
+
 
 def read_csv(path: Path) -> list[dict]:
     if not path.exists():
@@ -438,6 +471,8 @@ def load_removed_pascha_source_text_supplement(base_rows: list[dict]) -> list[di
             "source_table": "pascha_source_text_index",
             "source_file": source_row.get("source_file", ""),
             "source_row_id": source_line,
+            "source_order": source_row.get("order", ""),
+            "source_token_order": 1,
             "liturgical_place": f"Wednesday | {hour}",
             "calendar_key": f"Wednesday | {hour}",
             "day_title": "Wednesday",
@@ -480,6 +515,134 @@ def normalize_source_ref(value: str, source_kind: str = "") -> str:
     if source_kind == "coptic_reader_fixture" and re.match(r"^Psalms?\b|^Ps\b", norm_space(value)):
         return fixture_preserve_ref(value)
     return canonical_ref(value)
+
+
+def int_or_none(value: object) -> int | None:
+    try:
+        text = str(value).strip()
+        if not text:
+            return None
+        return int(text)
+    except (TypeError, ValueError):
+        return None
+
+
+def span_books(row: dict) -> list[str]:
+    try:
+        spans = json.loads(row.get("spans_json") or "[]")
+    except json.JSONDecodeError:
+        return []
+    books = []
+    for span in spans:
+        book = span.get("book", "")
+        if book and book not in books:
+            books.append(book)
+    return books
+
+
+def slot_type_from_books(row: dict) -> str:
+    books = span_books(row)
+    if not books:
+        return "source_label_preserved"
+    first = books[0]
+    if first == "Ps":
+        return "psalm"
+    if first in GOSPEL_BOOKS:
+        return "gospel"
+    if first in PRAXIS_BOOKS:
+        return "praxis"
+    if first in PAULINE_BOOKS:
+        return "pauline"
+    if first in CATHOLICON_BOOKS:
+        return "catholicon"
+    return "prophecy"
+
+
+def slot_type_for(row: dict) -> str:
+    slot = norm_space(row.get("slot", "") or row.get("reading_slot", ""))
+    slot_l = slot.casefold().replace(" ", "_").replace("+", "_")
+    compact = re.sub(r"[^a-z0-9]+", "", slot_l)
+    if re.fullmatch(r"ot\d*", compact) or compact == "prophecy":
+        return "prophecy"
+    if compact in {"psalm", "psalms", "matinspsalm", "vesperspsalm", "liturgypsalm"}:
+        return "psalm"
+    if compact in {"gospel", "matinsgospel", "vespersgospel", "liturgygospel", "firstgospel", "secondgospel", "thirdgospel", "fourthgospel"}:
+        return "gospel"
+    if compact in {"pauline", "paulineepistle", "litur gypauline".replace(" ", ""), "liturgy_pauline".replace("_", "")}:
+        return "pauline"
+    if compact in {"catholic", "catholicon", "catholicepistle", "liturgycatholic"}:
+        return "catholicon"
+    if compact in {"praxis", "acts", "actsoftheapostles", "liturgyacts"}:
+        return "praxis"
+    if compact in {"psalmgospel", "psalmandgospel"}:
+        return slot_type_from_books(row)
+    # Generic section labels in special-service rows can still be classified by
+    # the canonical scripture book. This is inferred, so the original slot stays
+    # available for provenance in the `slot` field.
+    if compact in {"liturgy", "mainreadings", "liturgyreadings", "part1", "part2", "part3", "part4", "part5", "part6", "atburialsite", "atburialsiteoverride"} or compact.startswith("processionstation"):
+        return slot_type_from_books(row)
+    return "source_label_preserved"
+
+
+def explicit_slot_order(row: dict) -> int | None:
+    slot = norm_space(row.get("slot", "") or row.get("reading_slot", ""))
+    m = re.fullmatch(r"OT\s*(\d+)", slot, re.I)
+    if m:
+        return int(m.group(1))
+    slot_l = slot.casefold()
+    for prefix, order in ORDINAL_PREFIXES.items():
+        if slot_l.startswith(prefix + "_") or slot_l.startswith(prefix + " "):
+            return order
+    if re.fullmatch(r"ot", slot_l):
+        return None
+    return None
+
+
+def occasion_kind_for(row: dict) -> str:
+    occasion = row.get("occasion", "") or row.get("liturgical_place", "")
+    if occasion in GENERIC_CYCLE_OCCASION_LABELS or row.get("source_kind") == "katameros_cycle":
+        return "cycle"
+    return "specific"
+
+
+def row_source_sort_key(row: dict) -> tuple[int, int, str, str]:
+    source_order = int_or_none(row.get("_slot_source_order"))
+    source_token_order = int_or_none(row.get("_slot_source_token_order"))
+    return (
+        source_order if source_order is not None else 10**9,
+        source_token_order if source_token_order is not None else 10**9,
+        row.get("slot", ""),
+        row.get("identity_key", ""),
+    )
+
+
+def assign_slot_orders(index_rows: list[dict]) -> None:
+    grouped: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
+    for row in index_rows:
+        if row.get("slot_type") == "source_label_preserved":
+            row["slot_order"] = None
+            continue
+        explicit = int_or_none(row.get("_slot_explicit_order"))
+        if explicit is not None:
+            row["slot_order"] = explicit
+            continue
+        grouped[(row.get("occasion", ""), row.get("service_section", ""), row.get("service_hour", ""), row.get("slot_type", ""))].append(row)
+
+    for rows in grouped.values():
+        if len(rows) == 1:
+            rows[0]["slot_order"] = 1
+            continue
+        if all(int_or_none(row.get("_slot_source_order")) is not None for row in rows):
+            for order, row in enumerate(sorted(rows, key=row_source_sort_key), 1):
+                row["slot_order"] = order
+        else:
+            for row in rows:
+                row["slot_order"] = None
+
+    for row in index_rows:
+        row.pop("_slot_explicit_order", None)
+        row.pop("_slot_source_order", None)
+        row.pop("_slot_source_token_order", None)
 
 
 def mt_to_lxx_psalm_chapter(mt_chapter: int, verse_start: int | None = None) -> int | str:
@@ -709,6 +872,8 @@ def load_fixture_rows() -> list[dict]:
                 "source_table": "pascha_wednesday_day_coptic_reader_fixture",
                 "source_file": str(FIXTURE.relative_to(ROOT)),
                 "source_row_id": order,
+                "source_order": order,
+                "source_token_order": 1,
                 "liturgical_place": "Wednesday of Holy Pascha",
                 "calendar_key": f"Wednesday | {hour_name}",
                 "gregorian_date": "",
@@ -847,6 +1012,8 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
             "source_family": row.get("source_family", ""),
             "source_file": row.get("source_file", ""),
             "source_row_id": row.get("source_row_id", ""),
+            "source_order": row.get("source_order", ""),
+            "source_token_order": row.get("source_token_order", ""),
             "authority_tier": registry_entry.get("authority_tier", "unclassified"),
             "occasion": row.get("liturgical_place") or row.get("day_title") or row.get("calendar_key") or "",
             "calendar_key": row.get("calendar_key", ""),
@@ -1018,6 +1185,9 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         chosen_marker = choose_removed_marker(markers)
         years = sorted(year for year in (gregorian_year(row.get("gregorian_date", "")) for row in rows) if year is not None)
         first = rows[0]
+        slot_type = slot_type_for(first)
+        source_orders = [value for value in (int_or_none(row.get("source_order")) for row in rows) if value is not None]
+        source_token_orders = [value for value in (int_or_none(row.get("source_token_order")) for row in rows) if value is not None]
         source_disclosure, representative_locators = build_collapsed_source_disclosure(rows)
         index_rows.append({
             "occasion": key[0],
@@ -1026,6 +1196,9 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
             "service_section": key[1],
             "service_hour": key[2],
             "slot": key[3],
+            "slot_type": slot_type,
+            "slot_order": None,
+            "occasion_kind": occasion_kind_for(first),
             "identity_key": key[4],
             "display_ref": first.get("display_ref", ""),
             "canonical_mt_ref": first.get("canonical_mt_ref", ""),
@@ -1049,7 +1222,12 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
             "attestation_year_max": str(max(years)) if years else "",
             "attestation_years": "; ".join(str(year) for year in sorted(set(years))),
             "collapsed_row_count": str(len(rows)),
+            "_slot_explicit_order": explicit_slot_order(first),
+            "_slot_source_order": min(source_orders) if source_orders else None,
+            "_slot_source_token_order": min(source_token_orders) if source_token_orders else None,
         })
+
+    assign_slot_orders(index_rows)
 
     expected_keys = set(grouped)
     actual_keys = set(occasion_index_key(row) for row in index_rows)
@@ -1606,6 +1784,8 @@ def write_schema() -> dict:
             "source_convention": ["modern_english_reference", "mt_nkjv", "lxx_liturgical_or_fixture_label"],
             "canonicalization_confidence": ["high", "medium", "low", "n/a"],
             "current_status": ["current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "pending_psalm_equivalence_unresolved", "historical_candidate_removed", "historical_witness", "current_working_source_not_coptic_reader_checked", "current_public_or_local_reference", "unknown"],
+            "slot_type": SLOT_TYPE_VOCAB,
+            "occasion_kind": ["specific", "cycle"],
             "attestation_bucket": ["current_confirmed", "consensus_without_coptic_reader", "old_edition_only", "old_edition_only_candidate_removed", "single_source_candidate"],
             "service": SERVICE_ENUM,
             "service_day": ["fixed_coptic_day", "ordinary_sunday", "holy_week_day", "pascha_eve", "pascha_day", "special_service", "agpeya_hour", "source_label_preserved"],
@@ -1631,7 +1811,7 @@ def write_schema() -> dict:
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
             "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
-            "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
+            "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "slot_type", "slot_order", "occasion_kind", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
             "daily_lectionary_year": DAILY_READING_FIELDS,
             "todays_readings_current_practice": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
             "pascha_attestation": ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"],

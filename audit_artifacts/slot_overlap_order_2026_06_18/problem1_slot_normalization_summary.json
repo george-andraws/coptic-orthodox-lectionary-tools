@@ -1,0 +1,6828 @@
+{
+  "row_count": 8004,
+  "distinct_slot_values": [
+    {
+      "slot": "Acts",
+      "rows": 3
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "rows": 491
+    },
+    {
+      "slot": "at_burial_site",
+      "rows": 1
+    },
+    {
+      "slot": "at_burial_site_override",
+      "rows": 4
+    },
+    {
+      "slot": "Catholic",
+      "rows": 2
+    },
+    {
+      "slot": "Catholic Epistle",
+      "rows": 455
+    },
+    {
+      "slot": "fifth_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "First Prayer of Isaiah",
+      "rows": 1
+    },
+    {
+      "slot": "first_gospel",
+      "rows": 4
+    },
+    {
+      "slot": "first_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "foundation_cornerstone",
+      "rows": 5
+    },
+    {
+      "slot": "fourth_gospel",
+      "rows": 2
+    },
+    {
+      "slot": "fourth_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "Gospel",
+      "rows": 1471
+    },
+    {
+      "slot": "gospel",
+      "rows": 15
+    },
+    {
+      "slot": "liturgy",
+      "rows": 33
+    },
+    {
+      "slot": "liturgy_acts",
+      "rows": 204
+    },
+    {
+      "slot": "liturgy_catholic",
+      "rows": 191
+    },
+    {
+      "slot": "liturgy_gospel",
+      "rows": 195
+    },
+    {
+      "slot": "liturgy_pauline",
+      "rows": 237
+    },
+    {
+      "slot": "liturgy_psalm",
+      "rows": 286
+    },
+    {
+      "slot": "liturgy_readings",
+      "rows": 3
+    },
+    {
+      "slot": "main_readings",
+      "rows": 30
+    },
+    {
+      "slot": "matins",
+      "rows": 12
+    },
+    {
+      "slot": "matins_gospel",
+      "rows": 173
+    },
+    {
+      "slot": "matins_psalm",
+      "rows": 274
+    },
+    {
+      "slot": "OT1",
+      "rows": 53
+    },
+    {
+      "slot": "OT10",
+      "rows": 1
+    },
+    {
+      "slot": "OT2",
+      "rows": 27
+    },
+    {
+      "slot": "OT3",
+      "rows": 23
+    },
+    {
+      "slot": "OT4",
+      "rows": 8
+    },
+    {
+      "slot": "OT5",
+      "rows": 5
+    },
+    {
+      "slot": "OT6",
+      "rows": 2
+    },
+    {
+      "slot": "OT7",
+      "rows": 1
+    },
+    {
+      "slot": "OT8",
+      "rows": 1
+    },
+    {
+      "slot": "OT9",
+      "rows": 1
+    },
+    {
+      "slot": "part_1",
+      "rows": 10
+    },
+    {
+      "slot": "part_2",
+      "rows": 7
+    },
+    {
+      "slot": "part_3",
+      "rows": 17
+    },
+    {
+      "slot": "part_4",
+      "rows": 4
+    },
+    {
+      "slot": "part_5",
+      "rows": 3
+    },
+    {
+      "slot": "part_6",
+      "rows": 3
+    },
+    {
+      "slot": "Pauline",
+      "rows": 10
+    },
+    {
+      "slot": "Pauline Epistle",
+      "rows": 491
+    },
+    {
+      "slot": "Praise of the Virgin Mary",
+      "rows": 1
+    },
+    {
+      "slot": "Praxis",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Azariah (Part 1)",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Baruch",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Daniel",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of David",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Elijah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Habakkuk",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Hannah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Hezekiah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Jeremiah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Jonah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Simeon the Elder",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Solomon",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Zacharias the Priest",
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_01_main_sanctuary",
+      "rows": 3
+    },
+    {
+      "slot": "procession_station_02_holy_virgin_st_mary",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_03_archangel_gabriel",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_04_archangel_michael",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_05_st_mark_evangelist",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_06_holy_apostles",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_07_st_george",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_08_st_antony",
+      "rows": 3
+    },
+    {
+      "slot": "procession_station_09_northern_door",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_10_baptismal_font",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_11_southern_door",
+      "rows": 2
+    },
+    {
+      "slot": "procession_station_12_st_john_the_baptist",
+      "rows": 2
+    },
+    {
+      "slot": "Prophecy",
+      "rows": 70
+    },
+    {
+      "slot": "prophecy",
+      "rows": 194
+    },
+    {
+      "slot": "Psalm",
+      "rows": 2235
+    },
+    {
+      "slot": "psalm",
+      "rows": 148
+    },
+    {
+      "slot": "Psalm + Gospel",
+      "rows": 10
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "rows": 150
+    },
+    {
+      "slot": "Second Praise of Moses",
+      "rows": 1
+    },
+    {
+      "slot": "Second Prayer of Isaiah",
+      "rows": 1
+    },
+    {
+      "slot": "second_gospel",
+      "rows": 1
+    },
+    {
+      "slot": "second_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "seventh_prayer",
+      "rows": 4
+    },
+    {
+      "slot": "sixth_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "Third Prayer of Isaiah",
+      "rows": 1
+    },
+    {
+      "slot": "third_gospel",
+      "rows": 1
+    },
+    {
+      "slot": "third_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "vespers",
+      "rows": 5
+    },
+    {
+      "slot": "vespers_gospel",
+      "rows": 149
+    },
+    {
+      "slot": "vespers_psalm",
+      "rows": 215
+    },
+    {
+      "slot": "Vision of Daniel – Three Youth in the Fiery Furnace",
+      "rows": 1
+    }
+  ],
+  "cycle_occasion_labels": [
+    {
+      "occasion": "annual fixed Coptic day",
+      "rows": 606
+    },
+    {
+      "occasion": "annual Sundays by Coptic month/week",
+      "rows": 403
+    },
+    {
+      "occasion": "Fast of Ninevah",
+      "rows": 93
+    },
+    {
+      "occasion": "Great Lent",
+      "rows": 97
+    },
+    {
+      "occasion": "Great Lent/Jonah/Nineveh cycle",
+      "rows": 598
+    },
+    {
+      "occasion": "Holy Fifty Days/Pentecost cycle",
+      "rows": 498
+    }
+  ],
+  "slot_normalization_map": [
+    {
+      "slot": "Acts",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 473
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 3,
+      "rows": 2
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 4,
+      "rows": 2
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 5,
+      "rows": 2
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 6,
+      "rows": 2
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 7,
+      "rows": 2
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 8,
+      "rows": 2
+    },
+    {
+      "slot": "Acts of the Apostles",
+      "slot_type": "praxis",
+      "slot_order": 9,
+      "rows": 2
+    },
+    {
+      "slot": "at_burial_site",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "at_burial_site_override",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "at_burial_site_override",
+      "slot_type": "prophecy",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "at_burial_site_override",
+      "slot_type": "prophecy",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "at_burial_site_override",
+      "slot_type": "prophecy",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "Catholic",
+      "slot_type": "catholicon",
+      "slot_order": 1,
+      "rows": 2
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 1,
+      "rows": 442
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 2,
+      "rows": 3
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 3,
+      "rows": 2
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 4,
+      "rows": 2
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 5,
+      "rows": 2
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 6,
+      "rows": 2
+    },
+    {
+      "slot": "Catholic Epistle",
+      "slot_type": "catholicon",
+      "slot_order": 7,
+      "rows": 2
+    },
+    {
+      "slot": "fifth_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 3
+    },
+    {
+      "slot": "First Prayer of Isaiah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "first_gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "first_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 3
+    },
+    {
+      "slot": "foundation_cornerstone",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 5
+    },
+    {
+      "slot": "fourth_gospel",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 2
+    },
+    {
+      "slot": "fourth_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 3
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1388
+    },
+    {
+      "slot": "gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 15
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 10,
+      "rows": 1
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 25
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 14
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 12
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 5,
+      "rows": 8
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 6,
+      "rows": 6
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 7,
+      "rows": 6
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 8,
+      "rows": 6
+    },
+    {
+      "slot": "Gospel",
+      "slot_type": "gospel",
+      "slot_order": 9,
+      "rows": 5
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "praxis",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "praxis",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "praxis",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "gospel",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "praxis",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 6,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 6,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "praxis",
+      "slot_order": 6,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "catholicon",
+      "slot_order": 7,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 7,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 8,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy",
+      "slot_type": "pauline",
+      "slot_order": 9,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 23,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 24,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 25,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 26,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 27,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 28,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 29,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 30,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 31,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 32,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 33,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 34,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 35,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 36,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 37,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 38,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 39,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 40,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 41,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 42,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 43,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 44,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 45,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 46,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 47,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 48,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 49,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 50,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 51,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 52,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 53,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 54,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 55,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 56,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_acts",
+      "slot_type": "praxis",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 23,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 24,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 25,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 26,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 27,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 28,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 29,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 30,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 31,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 32,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 33,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 34,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 35,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 36,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 37,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 38,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 39,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 40,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 41,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 42,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 43,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 44,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 45,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 46,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 47,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 48,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 49,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 50,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 51,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_catholic",
+      "slot_type": "catholicon",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 23,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 24,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 25,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 26,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 27,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 28,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 29,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 30,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 31,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 32,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 33,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 34,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 35,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 36,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 37,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 38,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 39,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 40,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 41,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 42,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 43,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 44,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 45,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 46,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 47,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 48,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 49,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 50,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 51,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 52,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 53,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 54,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 55,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_gospel",
+      "slot_type": "gospel",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 23,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 24,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 25,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 26,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 27,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 28,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 29,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 30,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 31,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 32,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 33,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 34,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 35,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 36,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 37,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 38,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 39,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 40,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 41,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 42,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 43,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 44,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 45,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 46,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 47,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 48,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 49,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 50,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 51,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 52,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 53,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 54,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 55,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 56,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 57,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 58,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 59,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 60,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 61,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 62,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 63,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 64,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 65,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 66,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 67,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 68,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 69,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 70,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 71,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 72,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_pauline",
+      "slot_type": "pauline",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 23,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 24,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 25,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 26,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 27,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 28,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 29,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 30,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 31,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 32,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 33,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 34,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 35,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 36,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 37,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 38,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 39,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 40,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 41,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 42,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 43,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 44,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 45,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 46,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 47,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 48,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 49,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 50,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 51,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 52,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 53,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 54,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 55,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 56,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 57,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 58,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 59,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 60,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 61,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 62,
+      "rows": 3
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 63,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 64,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 65,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 66,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 67,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 68,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 69,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 70,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 71,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 72,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 73,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 74,
+      "rows": 2
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 75,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 76,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 77,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 78,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 79,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 80,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 81,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 82,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 83,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 84,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 85,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 86,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 87,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 88,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 89,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_psalm",
+      "slot_type": "psalm",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "liturgy_readings",
+      "slot_type": "catholicon",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_readings",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "liturgy_readings",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 5
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 5
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 5
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "pauline",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "prophecy",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 3
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "pauline",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "prophecy",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "pauline",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "prophecy",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "main_readings",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "matins",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 12
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 23,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 24,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 25,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 26,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 27,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 28,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 29,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 30,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 31,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 32,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 33,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 34,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 35,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 36,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 37,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 38,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 39,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 40,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 41,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 42,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 43,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 44,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 45,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 46,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 47,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 48,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 49,
+      "rows": 3
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 50,
+      "rows": 2
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 51,
+      "rows": 1
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 52,
+      "rows": 1
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "matins_gospel",
+      "slot_type": "gospel",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 15,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 16,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 17,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 18,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 19,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 20,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 21,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 22,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 23,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 24,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 25,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 26,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 27,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 28,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 29,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 30,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 31,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 32,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 33,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 34,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 35,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 36,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 37,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 38,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 39,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 40,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 41,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 42,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 43,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 44,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 45,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 46,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 47,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 48,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 49,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 50,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 51,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 52,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 53,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 54,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 55,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 56,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 57,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 58,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 59,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 60,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 61,
+      "rows": 3
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 62,
+      "rows": 2
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 63,
+      "rows": 2
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 64,
+      "rows": 2
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 65,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 66,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 67,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 68,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 69,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 70,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 71,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 72,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 73,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 74,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 75,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 76,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 77,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 78,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 79,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 80,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 81,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 82,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 83,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 84,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 85,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 86,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 87,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 88,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 89,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 90,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 91,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 92,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 93,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 94,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 95,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 96,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 97,
+      "rows": 1
+    },
+    {
+      "slot": "matins_psalm",
+      "slot_type": "psalm",
+      "slot_order": 98,
+      "rows": 1
+    },
+    {
+      "slot": "OT1",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 53
+    },
+    {
+      "slot": "OT10",
+      "slot_type": "prophecy",
+      "slot_order": 10,
+      "rows": 1
+    },
+    {
+      "slot": "OT2",
+      "slot_type": "prophecy",
+      "slot_order": 2,
+      "rows": 27
+    },
+    {
+      "slot": "OT3",
+      "slot_type": "prophecy",
+      "slot_order": 3,
+      "rows": 23
+    },
+    {
+      "slot": "OT4",
+      "slot_type": "prophecy",
+      "slot_order": 4,
+      "rows": 8
+    },
+    {
+      "slot": "OT5",
+      "slot_type": "prophecy",
+      "slot_order": 5,
+      "rows": 5
+    },
+    {
+      "slot": "OT6",
+      "slot_type": "prophecy",
+      "slot_order": 6,
+      "rows": 2
+    },
+    {
+      "slot": "OT7",
+      "slot_type": "prophecy",
+      "slot_order": 7,
+      "rows": 1
+    },
+    {
+      "slot": "OT8",
+      "slot_type": "prophecy",
+      "slot_order": 8,
+      "rows": 1
+    },
+    {
+      "slot": "OT9",
+      "slot_type": "prophecy",
+      "slot_order": 9,
+      "rows": 1
+    },
+    {
+      "slot": "part_1",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "part_1",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "part_1",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "part_1",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "part_2",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 2
+    },
+    {
+      "slot": "part_2",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 2
+    },
+    {
+      "slot": "part_2",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 2
+    },
+    {
+      "slot": "part_2",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "catholicon",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 3
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "part_3",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 1
+    },
+    {
+      "slot": "part_4",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_4",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_4",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_4",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "part_5",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_5",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_5",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_6",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_6",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "part_6",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "Pauline",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 9
+    },
+    {
+      "slot": "Pauline",
+      "slot_type": "pauline",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 1,
+      "rows": 473
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 10,
+      "rows": 1
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 2,
+      "rows": 3
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 3,
+      "rows": 2
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 4,
+      "rows": 2
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 5,
+      "rows": 2
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 6,
+      "rows": 2
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 7,
+      "rows": 2
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 8,
+      "rows": 2
+    },
+    {
+      "slot": "Pauline Epistle",
+      "slot_type": "pauline",
+      "slot_order": 9,
+      "rows": 2
+    },
+    {
+      "slot": "Praise of the Virgin Mary",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Praxis",
+      "slot_type": "praxis",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Azariah (Part 1)",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Baruch",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Daniel",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of David",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Elijah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Habakkuk",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Hannah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Hezekiah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Jeremiah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Jonah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Simeon the Elder",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Solomon",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Zacharias the Priest",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_01_main_sanctuary",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_01_main_sanctuary",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_01_main_sanctuary",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_02_holy_virgin_st_mary",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_02_holy_virgin_st_mary",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_03_archangel_gabriel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_03_archangel_gabriel",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_04_archangel_michael",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_04_archangel_michael",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_05_st_mark_evangelist",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_05_st_mark_evangelist",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_06_holy_apostles",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_06_holy_apostles",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_07_st_george",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_07_st_george",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_08_st_antony",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_08_st_antony",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_08_st_antony",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_09_northern_door",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_09_northern_door",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_10_baptismal_font",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_10_baptismal_font",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_11_southern_door",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_11_southern_door",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_12_st_john_the_baptist",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "procession_station_12_st_john_the_baptist",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1
+    },
+    {
+      "slot": "Prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 44
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 1,
+      "rows": 7
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 10,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 100,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 101,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 102,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 103,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 104,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 105,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 106,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 107,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 108,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 109,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 11,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 110,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 111,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 112,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 113,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 114,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 115,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 116,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 117,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 118,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 119,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 12,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 120,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 121,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 122,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 123,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 124,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 125,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 126,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 127,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 128,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 129,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 13,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 130,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 131,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 132,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 133,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 134,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 135,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 136,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 137,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 138,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 139,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 14,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 140,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 141,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 142,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 143,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 144,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 145,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 146,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 147,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 148,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 149,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 15,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 150,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 151,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 152,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 153,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 154,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 155,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 156,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 157,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 158,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 159,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 16,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 160,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 161,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 162,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 163,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 164,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 165,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 166,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 167,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 168,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 169,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 17,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 170,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 171,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 172,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 173,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 174,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 175,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 176,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 177,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 178,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 179,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 18,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 180,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 181,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 19,
+      "rows": 1
+    },
+    {
+      "slot": "Prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 2,
+      "rows": 18
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 2,
+      "rows": 5
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 20,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 21,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 22,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 23,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 24,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 25,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 26,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 27,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 28,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 29,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "Prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 30,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 31,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 32,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 33,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 34,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 35,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 36,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 37,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 38,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 39,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "Prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 4,
+      "rows": 3
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 40,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 41,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 42,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 43,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 44,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 45,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 46,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 47,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 48,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 49,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "Prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 5,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 50,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 51,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 52,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 53,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 54,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 55,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 56,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 57,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 58,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 59,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 6,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 60,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 61,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 62,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 63,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 64,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 65,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 66,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 67,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 68,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 69,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 7,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 70,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 71,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 72,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 73,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 74,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 75,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 76,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 77,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 78,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 79,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 8,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 80,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 81,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 82,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 83,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 84,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 85,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 86,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 87,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 88,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 89,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 9,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 90,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 91,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 92,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 93,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 94,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 95,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 96,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 97,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 98,
+      "rows": 1
+    },
+    {
+      "slot": "prophecy",
+      "slot_type": "prophecy",
+      "slot_order": 99,
+      "rows": 1
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 1407
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 15
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 10,
+      "rows": 6
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 10,
+      "rows": 9
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 11,
+      "rows": 5
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 11,
+      "rows": 8
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 12,
+      "rows": 4
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 12,
+      "rows": 8
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 13,
+      "rows": 4
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 13,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 14,
+      "rows": 4
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 14,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 15,
+      "rows": 3
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 15,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 16,
+      "rows": 2
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 16,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 17,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 17,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 18,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 18,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 19,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 19,
+      "rows": 2
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 538
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 14
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 20,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 21,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 22,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 23,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 24,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 25,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 26,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 27,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 28,
+      "rows": 1
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 29,
+      "rows": 1
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 175
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 54
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 6
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 6
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 7,
+      "rows": 6
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 7,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 8,
+      "rows": 6
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 8,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm",
+      "slot_type": "psalm",
+      "slot_order": 9,
+      "rows": 6
+    },
+    {
+      "slot": "psalm",
+      "slot_type": "psalm",
+      "slot_order": 9,
+      "rows": 10
+    },
+    {
+      "slot": "Psalm + Gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 5
+    },
+    {
+      "slot": "Psalm + Gospel",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 5
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 49
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 29
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 15
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 28
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 12
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 12
+    },
+    {
+      "slot": "Psalm+Gospel",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 1
+    },
+    {
+      "slot": "Second Praise of Moses",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "Second Prayer of Isaiah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "second_gospel",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 1
+    },
+    {
+      "slot": "second_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 3
+    },
+    {
+      "slot": "seventh_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 4
+    },
+    {
+      "slot": "sixth_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 3
+    },
+    {
+      "slot": "Third Prayer of Isaiah",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    },
+    {
+      "slot": "third_gospel",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 1
+    },
+    {
+      "slot": "third_prayer",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 3
+    },
+    {
+      "slot": "vespers",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 5
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 10,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 11,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 12,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 13,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 14,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 15,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 16,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 17,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 18,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 19,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 20,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 21,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 22,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 23,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 24,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 25,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 26,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 27,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 28,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 29,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 30,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 31,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 32,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 33,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 34,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 35,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 36,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 37,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 38,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 39,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 40,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 41,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 42,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 43,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 44,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 45,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 46,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 47,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 48,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 49,
+      "rows": 2
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 50,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 51,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 52,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 53,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 54,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_gospel",
+      "slot_type": "gospel",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 1,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 10,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 11,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 12,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 13,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 14,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 15,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 16,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 17,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 18,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 19,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 2,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 20,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 21,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 22,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 23,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 24,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 25,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 26,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 27,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 28,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 29,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 3,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 30,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 31,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 32,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 33,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 34,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 35,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 36,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 37,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 38,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 39,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 4,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 40,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 41,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 42,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 43,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 44,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 45,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 46,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 47,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 48,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 49,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 5,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 50,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 51,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 52,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 53,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 54,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 55,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 56,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 57,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 58,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 59,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 6,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 60,
+      "rows": 3
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 61,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 62,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 63,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 64,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 65,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 66,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 67,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 68,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 69,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 7,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 70,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 71,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 72,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 73,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 74,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 75,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 76,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 77,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 78,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 79,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 8,
+      "rows": 4
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 80,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 81,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 82,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 83,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 84,
+      "rows": 1
+    },
+    {
+      "slot": "vespers_psalm",
+      "slot_type": "psalm",
+      "slot_order": 9,
+      "rows": 4
+    },
+    {
+      "slot": "Vision of Daniel – Three Youth in the Fiery Furnace",
+      "slot_type": "source_label_preserved",
+      "slot_order": null,
+      "rows": 1
+    }
+  ],
+  "unmapped_slot_values": [
+    {
+      "slot": "fifth_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "First Prayer of Isaiah",
+      "rows": 1
+    },
+    {
+      "slot": "first_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "foundation_cornerstone",
+      "rows": 5
+    },
+    {
+      "slot": "fourth_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "matins",
+      "rows": 12
+    },
+    {
+      "slot": "Praise of the Virgin Mary",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Azariah (Part 1)",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Baruch",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Daniel",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of David",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Elijah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Habakkuk",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Hannah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Hezekiah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Jeremiah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Jonah",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Simeon the Elder",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Solomon",
+      "rows": 1
+    },
+    {
+      "slot": "Prayer of Zacharias the Priest",
+      "rows": 1
+    },
+    {
+      "slot": "Second Praise of Moses",
+      "rows": 1
+    },
+    {
+      "slot": "Second Prayer of Isaiah",
+      "rows": 1
+    },
+    {
+      "slot": "second_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "seventh_prayer",
+      "rows": 4
+    },
+    {
+      "slot": "sixth_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "Third Prayer of Isaiah",
+      "rows": 1
+    },
+    {
+      "slot": "third_prayer",
+      "rows": 3
+    },
+    {
+      "slot": "vespers",
+      "rows": 5
+    },
+    {
+      "slot": "Vision of Daniel – Three Youth in the Fiery Furnace",
+      "rows": 1
+    }
+  ],
+  "sourced_vs_inferred": {
+    "slot_type": "SOURCED when slot label explicitly names the class (OT/Prophecy/Psalm/Gospel/Pauline/Catholic/Catholicon/Acts/Praxis); INFERRED from canonical book family for generic section labels and composite Psalm+Gospel rows.",
+    "slot_order": "SOURCED from explicit OT numeric suffix, fixture reading sequence, source CSV/API order, source text order, or token order inside a composite row. Null only for source_label_preserved slots.",
+    "occasion_kind": "SOURCED/structural for source_kind=katameros_cycle and known generic rule labels; otherwise specific."
+  }
+}

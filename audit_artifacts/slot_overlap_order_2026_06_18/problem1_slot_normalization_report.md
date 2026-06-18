@@ -1,0 +1,1191 @@
+# Problem 1 Slot Normalization Audit
+- reverse_lectionary_index rows: 8004
+## Distinct slot values
+- `Acts`: 3 rows
+- `Acts of the Apostles`: 491 rows
+- `at_burial_site`: 1 rows
+- `at_burial_site_override`: 4 rows
+- `Catholic`: 2 rows
+- `Catholic Epistle`: 455 rows
+- `fifth_prayer`: 3 rows
+- `First Prayer of Isaiah`: 1 rows
+- `first_gospel`: 4 rows
+- `first_prayer`: 3 rows
+- `foundation_cornerstone`: 5 rows
+- `fourth_gospel`: 2 rows
+- `fourth_prayer`: 3 rows
+- `Gospel`: 1471 rows
+- `gospel`: 15 rows
+- `liturgy`: 33 rows
+- `liturgy_acts`: 204 rows
+- `liturgy_catholic`: 191 rows
+- `liturgy_gospel`: 195 rows
+- `liturgy_pauline`: 237 rows
+- `liturgy_psalm`: 286 rows
+- `liturgy_readings`: 3 rows
+- `main_readings`: 30 rows
+- `matins`: 12 rows
+- `matins_gospel`: 173 rows
+- `matins_psalm`: 274 rows
+- `OT1`: 53 rows
+- `OT10`: 1 rows
+- `OT2`: 27 rows
+- `OT3`: 23 rows
+- `OT4`: 8 rows
+- `OT5`: 5 rows
+- `OT6`: 2 rows
+- `OT7`: 1 rows
+- `OT8`: 1 rows
+- `OT9`: 1 rows
+- `part_1`: 10 rows
+- `part_2`: 7 rows
+- `part_3`: 17 rows
+- `part_4`: 4 rows
+- `part_5`: 3 rows
+- `part_6`: 3 rows
+- `Pauline`: 10 rows
+- `Pauline Epistle`: 491 rows
+- `Praise of the Virgin Mary`: 1 rows
+- `Praxis`: 1 rows
+- `Prayer of Azariah (Part 1)`: 1 rows
+- `Prayer of Baruch`: 1 rows
+- `Prayer of Daniel`: 1 rows
+- `Prayer of David`: 1 rows
+- `Prayer of Elijah`: 1 rows
+- `Prayer of Habakkuk`: 1 rows
+- `Prayer of Hannah`: 1 rows
+- `Prayer of Hezekiah`: 1 rows
+- `Prayer of Jeremiah`: 1 rows
+- `Prayer of Jonah`: 1 rows
+- `Prayer of Simeon the Elder`: 1 rows
+- `Prayer of Solomon`: 1 rows
+- `Prayer of Zacharias the Priest`: 1 rows
+- `procession_station_01_main_sanctuary`: 3 rows
+- `procession_station_02_holy_virgin_st_mary`: 2 rows
+- `procession_station_03_archangel_gabriel`: 2 rows
+- `procession_station_04_archangel_michael`: 2 rows
+- `procession_station_05_st_mark_evangelist`: 2 rows
+- `procession_station_06_holy_apostles`: 2 rows
+- `procession_station_07_st_george`: 2 rows
+- `procession_station_08_st_antony`: 3 rows
+- `procession_station_09_northern_door`: 2 rows
+- `procession_station_10_baptismal_font`: 2 rows
+- `procession_station_11_southern_door`: 2 rows
+- `procession_station_12_st_john_the_baptist`: 2 rows
+- `Prophecy`: 70 rows
+- `prophecy`: 194 rows
+- `Psalm`: 2235 rows
+- `psalm`: 148 rows
+- `Psalm + Gospel`: 10 rows
+- `Psalm+Gospel`: 150 rows
+- `Second Praise of Moses`: 1 rows
+- `Second Prayer of Isaiah`: 1 rows
+- `second_gospel`: 1 rows
+- `second_prayer`: 3 rows
+- `seventh_prayer`: 4 rows
+- `sixth_prayer`: 3 rows
+- `Third Prayer of Isaiah`: 1 rows
+- `third_gospel`: 1 rows
+- `third_prayer`: 3 rows
+- `vespers`: 5 rows
+- `vespers_gospel`: 149 rows
+- `vespers_psalm`: 215 rows
+- `Vision of Daniel – Three Youth in the Fiery Furnace`: 1 rows
+
+## Cycle occasion labels
+- `annual fixed Coptic day`: 606 rows
+- `annual Sundays by Coptic month/week`: 403 rows
+- `Fast of Ninevah`: 93 rows
+- `Great Lent`: 97 rows
+- `Great Lent/Jonah/Nineveh cycle`: 598 rows
+- `Holy Fifty Days/Pentecost cycle`: 498 rows
+
+## Slot normalization map applied
+- `Acts` -> slot_type=`praxis`, slot_order=1: 3 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=1: 473 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=2: 4 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=3: 2 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=4: 2 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=5: 2 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=6: 2 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=7: 2 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=8: 2 rows
+- `Acts of the Apostles` -> slot_type=`praxis`, slot_order=9: 2 rows
+- `at_burial_site` -> slot_type=`prophecy`, slot_order=1: 1 rows
+- `at_burial_site_override` -> slot_type=`prophecy`, slot_order=1: 1 rows
+- `at_burial_site_override` -> slot_type=`prophecy`, slot_order=2: 1 rows
+- `at_burial_site_override` -> slot_type=`prophecy`, slot_order=3: 1 rows
+- `at_burial_site_override` -> slot_type=`prophecy`, slot_order=4: 1 rows
+- `Catholic` -> slot_type=`catholicon`, slot_order=1: 2 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=1: 442 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=2: 3 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=3: 2 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=4: 2 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=5: 2 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=6: 2 rows
+- `Catholic Epistle` -> slot_type=`catholicon`, slot_order=7: 2 rows
+- `fifth_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 3 rows
+- `First Prayer of Isaiah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `first_gospel` -> slot_type=`gospel`, slot_order=1: 4 rows
+- `first_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 3 rows
+- `foundation_cornerstone` -> slot_type=`source_label_preserved`, slot_order=null: 5 rows
+- `fourth_gospel` -> slot_type=`gospel`, slot_order=4: 2 rows
+- `fourth_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 3 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=1: 1388 rows
+- `gospel` -> slot_type=`gospel`, slot_order=1: 15 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=10: 1 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=2: 25 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=3: 14 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=4: 12 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=5: 8 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=6: 6 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=7: 6 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=8: 6 rows
+- `Gospel` -> slot_type=`gospel`, slot_order=9: 5 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=1: 1 rows
+- `liturgy` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=1: 1 rows
+- `liturgy` -> slot_type=`praxis`, slot_order=1: 1 rows
+- `liturgy` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=2: 1 rows
+- `liturgy` -> slot_type=`gospel`, slot_order=2: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=2: 1 rows
+- `liturgy` -> slot_type=`praxis`, slot_order=2: 1 rows
+- `liturgy` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=3: 1 rows
+- `liturgy` -> slot_type=`gospel`, slot_order=3: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=3: 1 rows
+- `liturgy` -> slot_type=`praxis`, slot_order=3: 1 rows
+- `liturgy` -> slot_type=`psalm`, slot_order=3: 1 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=4: 1 rows
+- `liturgy` -> slot_type=`gospel`, slot_order=4: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=4: 1 rows
+- `liturgy` -> slot_type=`praxis`, slot_order=4: 1 rows
+- `liturgy` -> slot_type=`psalm`, slot_order=4: 1 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=5: 1 rows
+- `liturgy` -> slot_type=`gospel`, slot_order=5: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=5: 1 rows
+- `liturgy` -> slot_type=`praxis`, slot_order=5: 1 rows
+- `liturgy` -> slot_type=`psalm`, slot_order=5: 1 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=6: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=6: 1 rows
+- `liturgy` -> slot_type=`praxis`, slot_order=6: 1 rows
+- `liturgy` -> slot_type=`psalm`, slot_order=6: 1 rows
+- `liturgy` -> slot_type=`catholicon`, slot_order=7: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=7: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=8: 1 rows
+- `liturgy` -> slot_type=`pauline`, slot_order=9: 1 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=1: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=10: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=11: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=12: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=13: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=14: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=15: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=16: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=17: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=18: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=19: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=2: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=20: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=21: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=22: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=23: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=24: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=25: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=26: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=27: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=28: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=29: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=3: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=30: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=31: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=32: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=33: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=34: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=35: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=36: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=37: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=38: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=39: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=4: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=40: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=41: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=42: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=43: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=44: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=45: 3 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=46: 3 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=47: 3 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=48: 3 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=49: 3 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=5: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=50: 2 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=51: 2 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=52: 2 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=53: 2 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=54: 2 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=55: 2 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=56: 1 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=6: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=7: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=8: 4 rows
+- `liturgy_acts` -> slot_type=`praxis`, slot_order=9: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=1: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=10: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=11: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=12: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=13: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=14: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=15: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=16: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=17: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=18: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=19: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=2: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=20: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=21: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=22: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=23: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=24: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=25: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=26: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=27: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=28: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=29: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=3: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=30: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=31: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=32: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=33: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=34: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=35: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=36: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=37: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=38: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=39: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=4: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=40: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=41: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=42: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=43: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=44: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=45: 3 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=46: 3 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=47: 3 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=48: 2 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=49: 2 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=5: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=50: 1 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=51: 1 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=6: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=7: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=8: 4 rows
+- `liturgy_catholic` -> slot_type=`catholicon`, slot_order=9: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=1: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=10: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=11: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=12: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=13: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=14: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=15: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=16: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=17: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=18: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=19: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=2: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=20: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=21: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=22: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=23: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=24: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=25: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=26: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=27: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=28: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=29: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=3: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=30: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=31: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=32: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=33: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=34: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=35: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=36: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=37: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=38: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=39: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=4: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=40: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=41: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=42: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=43: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=44: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=45: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=46: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=47: 3 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=48: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=49: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=5: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=50: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=51: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=52: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=53: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=54: 2 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=55: 1 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=6: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=7: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=8: 4 rows
+- `liturgy_gospel` -> slot_type=`gospel`, slot_order=9: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=1: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=10: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=11: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=12: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=13: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=14: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=15: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=16: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=17: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=18: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=19: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=2: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=20: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=21: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=22: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=23: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=24: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=25: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=26: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=27: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=28: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=29: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=3: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=30: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=31: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=32: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=33: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=34: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=35: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=36: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=37: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=38: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=39: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=4: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=40: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=41: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=42: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=43: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=44: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=45: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=46: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=47: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=48: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=49: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=5: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=50: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=51: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=52: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=53: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=54: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=55: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=56: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=57: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=58: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=59: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=6: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=60: 3 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=61: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=62: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=63: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=64: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=65: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=66: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=67: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=68: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=69: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=7: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=70: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=71: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=72: 1 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=8: 4 rows
+- `liturgy_pauline` -> slot_type=`pauline`, slot_order=9: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=1: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=10: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=11: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=12: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=13: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=14: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=15: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=16: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=17: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=18: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=19: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=2: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=20: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=21: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=22: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=23: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=24: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=25: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=26: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=27: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=28: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=29: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=3: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=30: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=31: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=32: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=33: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=34: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=35: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=36: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=37: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=38: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=39: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=4: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=40: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=41: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=42: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=43: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=44: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=45: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=46: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=47: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=48: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=49: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=5: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=50: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=51: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=52: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=53: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=54: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=55: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=56: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=57: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=58: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=59: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=6: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=60: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=61: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=62: 3 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=63: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=64: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=65: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=66: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=67: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=68: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=69: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=7: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=70: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=71: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=72: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=73: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=74: 2 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=75: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=76: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=77: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=78: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=79: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=8: 4 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=80: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=81: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=82: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=83: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=84: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=85: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=86: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=87: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=88: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=89: 1 rows
+- `liturgy_psalm` -> slot_type=`psalm`, slot_order=9: 4 rows
+- `liturgy_readings` -> slot_type=`catholicon`, slot_order=1: 1 rows
+- `liturgy_readings` -> slot_type=`pauline`, slot_order=1: 1 rows
+- `liturgy_readings` -> slot_type=`praxis`, slot_order=1: 1 rows
+- `main_readings` -> slot_type=`gospel`, slot_order=1: 5 rows
+- `main_readings` -> slot_type=`pauline`, slot_order=1: 5 rows
+- `main_readings` -> slot_type=`prophecy`, slot_order=1: 1 rows
+- `main_readings` -> slot_type=`psalm`, slot_order=1: 5 rows
+- `main_readings` -> slot_type=`gospel`, slot_order=2: 1 rows
+- `main_readings` -> slot_type=`pauline`, slot_order=2: 1 rows
+- `main_readings` -> slot_type=`prophecy`, slot_order=2: 1 rows
+- `main_readings` -> slot_type=`psalm`, slot_order=2: 3 rows
+- `main_readings` -> slot_type=`gospel`, slot_order=3: 1 rows
+- `main_readings` -> slot_type=`pauline`, slot_order=3: 1 rows
+- `main_readings` -> slot_type=`prophecy`, slot_order=3: 1 rows
+- `main_readings` -> slot_type=`psalm`, slot_order=3: 1 rows
+- `main_readings` -> slot_type=`pauline`, slot_order=4: 1 rows
+- `main_readings` -> slot_type=`prophecy`, slot_order=4: 1 rows
+- `main_readings` -> slot_type=`psalm`, slot_order=4: 1 rows
+- `main_readings` -> slot_type=`psalm`, slot_order=5: 1 rows
+- `matins` -> slot_type=`source_label_preserved`, slot_order=null: 12 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=1: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=10: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=11: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=12: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=13: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=14: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=15: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=16: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=17: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=18: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=19: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=2: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=20: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=21: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=22: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=23: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=24: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=25: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=26: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=27: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=28: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=29: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=3: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=30: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=31: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=32: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=33: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=34: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=35: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=36: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=37: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=38: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=39: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=4: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=40: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=41: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=42: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=43: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=44: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=45: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=46: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=47: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=48: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=49: 3 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=5: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=50: 2 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=51: 1 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=52: 1 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=6: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=7: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=8: 4 rows
+- `matins_gospel` -> slot_type=`gospel`, slot_order=9: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=1: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=10: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=11: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=12: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=13: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=14: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=15: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=16: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=17: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=18: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=19: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=2: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=20: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=21: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=22: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=23: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=24: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=25: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=26: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=27: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=28: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=29: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=3: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=30: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=31: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=32: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=33: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=34: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=35: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=36: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=37: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=38: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=39: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=4: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=40: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=41: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=42: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=43: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=44: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=45: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=46: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=47: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=48: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=49: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=5: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=50: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=51: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=52: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=53: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=54: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=55: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=56: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=57: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=58: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=59: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=6: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=60: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=61: 3 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=62: 2 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=63: 2 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=64: 2 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=65: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=66: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=67: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=68: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=69: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=7: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=70: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=71: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=72: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=73: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=74: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=75: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=76: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=77: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=78: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=79: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=8: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=80: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=81: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=82: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=83: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=84: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=85: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=86: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=87: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=88: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=89: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=9: 4 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=90: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=91: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=92: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=93: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=94: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=95: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=96: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=97: 1 rows
+- `matins_psalm` -> slot_type=`psalm`, slot_order=98: 1 rows
+- `OT1` -> slot_type=`prophecy`, slot_order=1: 53 rows
+- `OT10` -> slot_type=`prophecy`, slot_order=10: 1 rows
+- `OT2` -> slot_type=`prophecy`, slot_order=2: 27 rows
+- `OT3` -> slot_type=`prophecy`, slot_order=3: 23 rows
+- `OT4` -> slot_type=`prophecy`, slot_order=4: 8 rows
+- `OT5` -> slot_type=`prophecy`, slot_order=5: 5 rows
+- `OT6` -> slot_type=`prophecy`, slot_order=6: 2 rows
+- `OT7` -> slot_type=`prophecy`, slot_order=7: 1 rows
+- `OT8` -> slot_type=`prophecy`, slot_order=8: 1 rows
+- `OT9` -> slot_type=`prophecy`, slot_order=9: 1 rows
+- `part_1` -> slot_type=`gospel`, slot_order=1: 3 rows
+- `part_1` -> slot_type=`pauline`, slot_order=1: 3 rows
+- `part_1` -> slot_type=`psalm`, slot_order=1: 3 rows
+- `part_1` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `part_2` -> slot_type=`gospel`, slot_order=1: 2 rows
+- `part_2` -> slot_type=`pauline`, slot_order=1: 2 rows
+- `part_2` -> slot_type=`psalm`, slot_order=1: 2 rows
+- `part_2` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `part_3` -> slot_type=`catholicon`, slot_order=1: 1 rows
+- `part_3` -> slot_type=`gospel`, slot_order=1: 3 rows
+- `part_3` -> slot_type=`pauline`, slot_order=1: 3 rows
+- `part_3` -> slot_type=`praxis`, slot_order=1: 1 rows
+- `part_3` -> slot_type=`prophecy`, slot_order=1: 1 rows
+- `part_3` -> slot_type=`psalm`, slot_order=1: 3 rows
+- `part_3` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `part_3` -> slot_type=`psalm`, slot_order=3: 1 rows
+- `part_3` -> slot_type=`psalm`, slot_order=4: 1 rows
+- `part_3` -> slot_type=`psalm`, slot_order=5: 1 rows
+- `part_3` -> slot_type=`psalm`, slot_order=6: 1 rows
+- `part_4` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `part_4` -> slot_type=`pauline`, slot_order=1: 1 rows
+- `part_4` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `part_4` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `part_5` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `part_5` -> slot_type=`pauline`, slot_order=1: 1 rows
+- `part_5` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `part_6` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `part_6` -> slot_type=`pauline`, slot_order=1: 1 rows
+- `part_6` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `Pauline` -> slot_type=`pauline`, slot_order=1: 9 rows
+- `Pauline` -> slot_type=`pauline`, slot_order=2: 1 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=1: 473 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=10: 1 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=2: 3 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=3: 2 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=4: 2 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=5: 2 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=6: 2 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=7: 2 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=8: 2 rows
+- `Pauline Epistle` -> slot_type=`pauline`, slot_order=9: 2 rows
+- `Praise of the Virgin Mary` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Praxis` -> slot_type=`praxis`, slot_order=1: 1 rows
+- `Prayer of Azariah (Part 1)` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Baruch` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Daniel` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of David` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Elijah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Habakkuk` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Hannah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Hezekiah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Jeremiah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Jonah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Simeon the Elder` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Solomon` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Prayer of Zacharias the Priest` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `procession_station_01_main_sanctuary` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_01_main_sanctuary` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_01_main_sanctuary` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `procession_station_02_holy_virgin_st_mary` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_02_holy_virgin_st_mary` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_03_archangel_gabriel` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_03_archangel_gabriel` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_04_archangel_michael` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_04_archangel_michael` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_05_st_mark_evangelist` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_05_st_mark_evangelist` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_06_holy_apostles` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_06_holy_apostles` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_07_st_george` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_07_st_george` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_08_st_antony` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_08_st_antony` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_08_st_antony` -> slot_type=`psalm`, slot_order=2: 1 rows
+- `procession_station_09_northern_door` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_09_northern_door` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_10_baptismal_font` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_10_baptismal_font` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_11_southern_door` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_11_southern_door` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `procession_station_12_st_john_the_baptist` -> slot_type=`gospel`, slot_order=1: 1 rows
+- `procession_station_12_st_john_the_baptist` -> slot_type=`psalm`, slot_order=1: 1 rows
+- `Prophecy` -> slot_type=`prophecy`, slot_order=1: 44 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=1: 7 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=10: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=100: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=101: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=102: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=103: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=104: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=105: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=106: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=107: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=108: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=109: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=11: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=110: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=111: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=112: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=113: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=114: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=115: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=116: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=117: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=118: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=119: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=12: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=120: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=121: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=122: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=123: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=124: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=125: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=126: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=127: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=128: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=129: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=13: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=130: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=131: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=132: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=133: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=134: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=135: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=136: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=137: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=138: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=139: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=14: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=140: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=141: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=142: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=143: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=144: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=145: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=146: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=147: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=148: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=149: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=15: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=150: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=151: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=152: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=153: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=154: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=155: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=156: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=157: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=158: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=159: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=16: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=160: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=161: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=162: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=163: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=164: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=165: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=166: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=167: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=168: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=169: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=17: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=170: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=171: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=172: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=173: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=174: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=175: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=176: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=177: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=178: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=179: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=18: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=180: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=181: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=19: 1 rows
+- `Prophecy` -> slot_type=`prophecy`, slot_order=2: 18 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=2: 5 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=20: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=21: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=22: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=23: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=24: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=25: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=26: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=27: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=28: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=29: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=3: 4 rows
+- `Prophecy` -> slot_type=`prophecy`, slot_order=3: 4 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=30: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=31: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=32: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=33: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=34: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=35: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=36: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=37: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=38: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=39: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=4: 1 rows
+- `Prophecy` -> slot_type=`prophecy`, slot_order=4: 3 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=40: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=41: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=42: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=43: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=44: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=45: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=46: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=47: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=48: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=49: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=5: 1 rows
+- `Prophecy` -> slot_type=`prophecy`, slot_order=5: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=50: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=51: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=52: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=53: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=54: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=55: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=56: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=57: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=58: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=59: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=6: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=60: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=61: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=62: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=63: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=64: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=65: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=66: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=67: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=68: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=69: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=7: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=70: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=71: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=72: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=73: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=74: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=75: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=76: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=77: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=78: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=79: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=8: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=80: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=81: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=82: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=83: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=84: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=85: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=86: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=87: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=88: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=89: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=9: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=90: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=91: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=92: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=93: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=94: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=95: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=96: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=97: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=98: 1 rows
+- `prophecy` -> slot_type=`prophecy`, slot_order=99: 1 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=1: 1407 rows
+- `psalm` -> slot_type=`psalm`, slot_order=1: 15 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=10: 6 rows
+- `psalm` -> slot_type=`psalm`, slot_order=10: 9 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=11: 5 rows
+- `psalm` -> slot_type=`psalm`, slot_order=11: 8 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=12: 4 rows
+- `psalm` -> slot_type=`psalm`, slot_order=12: 8 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=13: 4 rows
+- `psalm` -> slot_type=`psalm`, slot_order=13: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=14: 4 rows
+- `psalm` -> slot_type=`psalm`, slot_order=14: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=15: 3 rows
+- `psalm` -> slot_type=`psalm`, slot_order=15: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=16: 2 rows
+- `psalm` -> slot_type=`psalm`, slot_order=16: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=17: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=17: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=18: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=18: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=19: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=19: 2 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=2: 538 rows
+- `psalm` -> slot_type=`psalm`, slot_order=2: 14 rows
+- `psalm` -> slot_type=`psalm`, slot_order=20: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=21: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=22: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=23: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=24: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=25: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=26: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=27: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=28: 1 rows
+- `psalm` -> slot_type=`psalm`, slot_order=29: 1 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=3: 175 rows
+- `psalm` -> slot_type=`psalm`, slot_order=3: 10 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=4: 54 rows
+- `psalm` -> slot_type=`psalm`, slot_order=4: 10 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=5: 6 rows
+- `psalm` -> slot_type=`psalm`, slot_order=5: 10 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=6: 6 rows
+- `psalm` -> slot_type=`psalm`, slot_order=6: 10 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=7: 6 rows
+- `psalm` -> slot_type=`psalm`, slot_order=7: 10 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=8: 6 rows
+- `psalm` -> slot_type=`psalm`, slot_order=8: 10 rows
+- `Psalm` -> slot_type=`psalm`, slot_order=9: 6 rows
+- `psalm` -> slot_type=`psalm`, slot_order=9: 10 rows
+- `Psalm + Gospel` -> slot_type=`gospel`, slot_order=1: 5 rows
+- `Psalm + Gospel` -> slot_type=`psalm`, slot_order=1: 5 rows
+- `Psalm+Gospel` -> slot_type=`gospel`, slot_order=1: 49 rows
+- `Psalm+Gospel` -> slot_type=`psalm`, slot_order=1: 29 rows
+- `Psalm+Gospel` -> slot_type=`gospel`, slot_order=2: 15 rows
+- `Psalm+Gospel` -> slot_type=`psalm`, slot_order=2: 28 rows
+- `Psalm+Gospel` -> slot_type=`gospel`, slot_order=3: 12 rows
+- `Psalm+Gospel` -> slot_type=`psalm`, slot_order=3: 4 rows
+- `Psalm+Gospel` -> slot_type=`gospel`, slot_order=4: 12 rows
+- `Psalm+Gospel` -> slot_type=`psalm`, slot_order=4: 1 rows
+- `Second Praise of Moses` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `Second Prayer of Isaiah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `second_gospel` -> slot_type=`gospel`, slot_order=2: 1 rows
+- `second_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 3 rows
+- `seventh_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 4 rows
+- `sixth_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 3 rows
+- `Third Prayer of Isaiah` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+- `third_gospel` -> slot_type=`gospel`, slot_order=3: 1 rows
+- `third_prayer` -> slot_type=`source_label_preserved`, slot_order=null: 3 rows
+- `vespers` -> slot_type=`source_label_preserved`, slot_order=null: 5 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=1: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=10: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=11: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=12: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=13: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=14: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=15: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=16: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=17: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=18: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=19: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=2: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=20: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=21: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=22: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=23: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=24: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=25: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=26: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=27: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=28: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=29: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=3: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=30: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=31: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=32: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=33: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=34: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=35: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=36: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=37: 3 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=38: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=39: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=4: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=40: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=41: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=42: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=43: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=44: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=45: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=46: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=47: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=48: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=49: 2 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=5: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=50: 1 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=51: 1 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=52: 1 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=53: 1 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=54: 1 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=6: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=7: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=8: 4 rows
+- `vespers_gospel` -> slot_type=`gospel`, slot_order=9: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=1: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=10: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=11: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=12: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=13: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=14: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=15: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=16: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=17: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=18: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=19: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=2: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=20: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=21: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=22: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=23: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=24: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=25: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=26: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=27: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=28: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=29: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=3: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=30: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=31: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=32: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=33: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=34: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=35: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=36: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=37: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=38: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=39: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=4: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=40: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=41: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=42: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=43: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=44: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=45: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=46: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=47: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=48: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=49: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=5: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=50: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=51: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=52: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=53: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=54: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=55: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=56: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=57: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=58: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=59: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=6: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=60: 3 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=61: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=62: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=63: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=64: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=65: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=66: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=67: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=68: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=69: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=7: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=70: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=71: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=72: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=73: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=74: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=75: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=76: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=77: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=78: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=79: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=8: 4 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=80: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=81: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=82: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=83: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=84: 1 rows
+- `vespers_psalm` -> slot_type=`psalm`, slot_order=9: 4 rows
+- `Vision of Daniel – Three Youth in the Fiery Furnace` -> slot_type=`source_label_preserved`, slot_order=null: 1 rows
+
+## Unmapped/source-label-preserved slot values
+- `fifth_prayer`: 3 rows
+- `First Prayer of Isaiah`: 1 rows
+- `first_prayer`: 3 rows
+- `foundation_cornerstone`: 5 rows
+- `fourth_prayer`: 3 rows
+- `matins`: 12 rows
+- `Praise of the Virgin Mary`: 1 rows
+- `Prayer of Azariah (Part 1)`: 1 rows
+- `Prayer of Baruch`: 1 rows
+- `Prayer of Daniel`: 1 rows
+- `Prayer of David`: 1 rows
+- `Prayer of Elijah`: 1 rows
+- `Prayer of Habakkuk`: 1 rows
+- `Prayer of Hannah`: 1 rows
+- `Prayer of Hezekiah`: 1 rows
+- `Prayer of Jeremiah`: 1 rows
+- `Prayer of Jonah`: 1 rows
+- `Prayer of Simeon the Elder`: 1 rows
+- `Prayer of Solomon`: 1 rows
+- `Prayer of Zacharias the Priest`: 1 rows
+- `Second Praise of Moses`: 1 rows
+- `Second Prayer of Isaiah`: 1 rows
+- `second_prayer`: 3 rows
+- `seventh_prayer`: 4 rows
+- `sixth_prayer`: 3 rows
+- `Third Prayer of Isaiah`: 1 rows
+- `third_prayer`: 3 rows
+- `vespers`: 5 rows
+- `Vision of Daniel – Three Youth in the Fiery Furnace`: 1 rows
+
+## Sourced vs inferred
+- slot_type: SOURCED when slot label explicitly names the class (OT/Prophecy/Psalm/Gospel/Pauline/Catholic/Catholicon/Acts/Praxis); INFERRED from canonical book family for generic section labels and composite Psalm+Gospel rows.
+- slot_order: SOURCED from explicit OT numeric suffix, fixture reading sequence, source CSV/API order, source text order, or token order inside a composite row. Null only for source_label_preserved slots.
+- occasion_kind: SOURCED/structural for source_kind=katameros_cycle and known generic rule labels; otherwise specific.

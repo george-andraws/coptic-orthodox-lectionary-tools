@@ -61,6 +61,8 @@ FIELDS = [
     'source_table',
     'source_file',
     'source_row_id',
+    'source_order',
+    'source_token_order',
     'liturgical_place',
     'calendar_key',
     'gregorian_date',
@@ -277,6 +279,8 @@ def main() -> None:
             source_table=row.get('source_table') or '',
             source_file='sources/katameros-api/Core/KatamerosDatabase.db',
             source_row_id=idx,
+            source_order=idx,
+            source_token_order=1,
             liturgical_place=row.get('source_type') or row.get('cycle') or '',
             calendar_key=row.get('day_key') or '',
             coptic_date=f"{row.get('month_name','')} {row.get('day','')}",
@@ -304,6 +308,8 @@ def main() -> None:
             source_table='copticchurch_date_readings_2020_2035',
             source_file='cache/copticchurch_html',
             source_row_id=idx,
+            source_order=idx,
+            source_token_order=1,
             liturgical_place=row.get('day_title') or '',
             calendar_key=row.get('day_title') or '',
             gregorian_date=g,
@@ -331,6 +337,8 @@ def main() -> None:
             source_table='special_service_passage_index',
             source_file='build_special_service_reference.py curated rows',
             source_row_id=idx,
+            source_order=idx,
+            source_token_order=1,
             liturgical_place=row.get('service_family') or 'special_service',
             calendar_key=row.get('service_variant') or '',
             day_title=row.get('service_family') or '',
@@ -357,6 +365,8 @@ def main() -> None:
             source_table='agpeya_passage_index',
             source_file='build_agpeya_reference.py curated rows',
             source_row_id=idx,
+            source_order=idx,
+            source_token_order=1,
             liturgical_place=row.get('prayer_group') or 'agpeya',
             calendar_key=row.get('prayer_key') or '',
             day_title=row.get('prayer_name') or row.get('prayer_key') or 'Agpeya',
@@ -383,7 +393,7 @@ def main() -> None:
         significance_note = f"Pascha source={row.get('source','')}"
         if correction_note:
             significance_note = f"{significance_note}; {correction_note}"
-        for token in extract_text_ref_tokens(source_refs):
+        for token_order, token in enumerate(extract_text_ref_tokens(source_refs), 1):
             passage = canonicalize_text_ref(token)
             pascha_day_hour_keys.add(pascha_day_passage_key(row.get('day', ''), passage))
             add_row(
@@ -395,6 +405,8 @@ def main() -> None:
                 source_table='pascha_day_hour_index',
                 source_file=display_path(pascha_source) if pascha_source.exists() else '',
                 source_row_id=idx,
+                source_order=corrected_row.get('order') or idx,
+                source_token_order=token_order,
                 liturgical_place=row.get('day') or '',
                 calendar_key=f"{row.get('day','')} | {row.get('hour','')}",
                 day_title=row.get('day') or '',
@@ -448,6 +460,8 @@ def main() -> None:
             source_table='pascha_source_text_index',
             source_file=row.get('source_file') or display_path(PASCHA_SOURCE_TEXT_CSV),
             source_row_id=row.get('source_line') or idx,
+            source_order=row.get('order') or idx,
+            source_token_order=1,
             liturgical_place=row.get('day') or '',
             calendar_key=f"{row.get('day','')} | {row.get('hour','')}",
             day_title=row.get('day') or '',
@@ -464,7 +478,7 @@ def main() -> None:
         )
 
     for idx, row in enumerate(bright_rows, 1):
-        for token in extract_text_ref_tokens(row.get('reference', '')):
+        for token_order, token in enumerate(extract_text_ref_tokens(row.get('reference', '')), 1):
             passage = canonicalize_text_ref(token)
             add_row(
                 rows,
@@ -475,6 +489,8 @@ def main() -> None:
                 source_table='bright_saturday_service_order',
                 source_file=display_path(bright_source) if bright_source.exists() else '',
                 source_row_id=idx,
+                source_order=idx,
+                source_token_order=token_order,
                 liturgical_place=row.get('section') or row.get('subsection') or 'Bright Saturday',
                 calendar_key=f"Bright Saturday | {row.get('subsection','') or row.get('section','')}",
                 day_title='Bright Saturday',
