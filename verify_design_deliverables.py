@@ -656,6 +656,38 @@ def verify_rows() -> None:
         fail("Fixture Ps 41:1 display should state MT equivalent pending")
 
 
+def verify_pascha_source_text_prophecy_orders() -> None:
+    reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
+    rows_by_key = {
+        (
+            row.get("occasion", ""),
+            row.get("service_hour", ""),
+            row.get("slot", ""),
+            row.get("display_ref", ""),
+        ): row
+        for row in reverse_index
+    }
+    expected_orders = {
+        ("Good Friday", "First Hour", "Prophecy", "Job 12:17-13:1"): 7,
+        ("Good Friday", "First Hour", "Prophecy", "Zech 11:14"): 8,
+        ("Great Thursday", "Ninth Hour", "Prophecy", "Isa 61:1-6"): 2,
+        ("Great Thursday Eve", "Ninth Hour", "Prophecy", "Jer 9:7-11"): 1,
+        ("Tuesday", "Ninth Hour", "Prophecy", "Prov 9:1-11"): 2,
+        ("Tuesday", "Ninth Hour", "Prophecy", "Isa 40:9-31"): 3,
+        ("Tuesday", "Ninth Hour", "Prophecy", "Dan 7:9-15"): 4,
+        ("Tuesday", "Ninth Hour", "Prophecy", "Prov 8:1-12"): 5,
+    }
+    for key, expected in expected_orders.items():
+        row = rows_by_key.get(key)
+        if row is None:
+            fail(f"Missing Pascha source-text prophecy order guard row: {key}")
+            continue
+        if row.get("source_kind") != "pascha_source_text":
+            fail(f"Pascha prophecy order guard row should come from source text: {key} source_kind={row.get('source_kind')}")
+        if row.get("slot_order") != expected:
+            fail(f"Pascha prophecy order guard row {key} expected slot_order {expected}, got {row.get('slot_order')}")
+
+
 def fetch_kjv(ref: str) -> str:
     url = "https://bible-api.com/" + urllib.parse.quote(ref) + "?translation=kjv"
     with urllib.request.urlopen(url, timeout=15) as fh:
@@ -689,6 +721,7 @@ def main() -> None:
     verify_content_rules()
     verify_schema()
     verify_rows()
+    verify_pascha_source_text_prophecy_orders()
     verify_psalm_seams()
     print("design deliverables verified")
 

@@ -630,6 +630,18 @@ def assign_slot_orders(index_rows: list[dict]) -> None:
         if explicit is not None:
             row["slot_order"] = explicit
             continue
+        source_order = int_or_none(row.get("_slot_source_order"))
+        if (
+            row.get("slot_type") == "prophecy"
+            and "pascha_source_text" in row.get("source_kind", "")
+            and source_order is not None
+        ):
+            # Pascha source-text rows preserve the hour's authoritative reading
+            # order. Treat that as an absolute prophecy order so bare
+            # "Prophecy" rows are not renumbered 1..n after OT# rows have
+            # already claimed explicit positions.
+            row["slot_order"] = source_order
+            continue
         grouped[(row.get("occasion", ""), row.get("service_section", ""), row.get("service_hour", ""), row.get("slot_type", ""))].append(row)
 
     for rows in grouped.values():

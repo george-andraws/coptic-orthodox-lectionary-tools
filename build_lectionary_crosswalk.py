@@ -269,6 +269,24 @@ def passage_fields(passage: str) -> dict:
     }
 
 
+def passages_overlap(left: str, right: str) -> bool:
+    left_parsed = parse_passage(canonicalize_text_ref(left))
+    right_parsed = parse_passage(canonicalize_text_ref(right))
+    if not left_parsed or not right_parsed:
+        return False
+    if left_parsed.book_abbrev != right_parsed.book_abbrev:
+        return False
+    for left_part in left_parsed.parts:
+        left_start = (left_part.chapter_start, left_part.verse_start or 0)
+        left_end = (left_part.chapter_end, left_part.verse_end or 10**6)
+        for right_part in right_parsed.parts:
+            right_start = (right_part.chapter_start, right_part.verse_start or 0)
+            right_end = (right_part.chapter_end, right_part.verse_end or 10**6)
+            if left_start <= right_end and right_start <= left_end:
+                return True
+    return False
+
+
 def add_row(rows: List[dict], summary_counts: dict[str, Counter], passage: str, source_kind: str, **kwargs) -> None:
     passage = canonicalize_text_ref(passage)
     if not passage:
@@ -417,6 +435,7 @@ def main() -> None:
         )
 
     pascha_day_hour_keys: set[tuple[str, str]] = set()
+    pascha_day_hour_order_by_hour: dict[tuple[str, str], list[dict[str, object]]] = defaultdict(list)
 
     for idx, row in enumerate(pascha_rows, 1):
         corrected_row = apply_pascha_curated_ref_correction(row)
@@ -429,6 +448,11 @@ def main() -> None:
         for token_order, token in enumerate(extract_text_ref_tokens(source_refs), 1):
             passage = canonicalize_text_ref(token)
             pascha_day_hour_keys.add(pascha_day_passage_key(row.get('day', ''), passage))
+            pascha_day_hour_order_by_hour[(norm_key(row.get('day', '')), norm_key(row.get('hour', '')))].append({
+                'passage': passage,
+                'order': int(row.get('order') or idx),
+                'slot': row.get('slot') or '',
+            })
             add_row(
                 rows,
                 summary_counts,
@@ -515,6 +539,11 @@ def main() -> None:
         pascha_source_text_kept_count += 1
         if len(pascha_source_text_kept_samples) < 50:
             pascha_source_text_kept_samples.append(sample_pascha_row(row, passage))
+        source_order = row.get('order') or idx
+        for candidate in pascha_day_hour_order_by_hour.get((norm_key(row.get('day', '')), norm_key(row.get('hour', ''))), []):
+            if passages_overlap(str(candidate.get('passage') or ''), passage):
+                source_order = candidate.get('order') or source_order
+                break
         add_row(
             rows,
             summary_counts,
@@ -524,7 +553,7 @@ def main() -> None:
             source_table='pascha_source_text_index',
             source_file=row.get('source_file') or display_path(PASCHA_SOURCE_TEXT_CSV),
             source_row_id=row.get('source_line') or idx,
-            source_order=row.get('order') or idx,
+            source_order=source_order,
             source_token_order=1,
             liturgical_place=row.get('day') or '',
             calendar_key=f"{row.get('day','')} | {row.get('hour','')}",
