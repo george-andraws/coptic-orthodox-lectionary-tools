@@ -1,9 +1,9 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "6cc3295cad4d35ca93e7f72b1cf190a67dd4ab7e",
-  "generated_at": "2026-06-18T09:23:18.947Z",
+  "source_repo_commit": "a76640fe74adcfabe35880a8fadf5d5d5cb40114",
+  "generated_at": "2026-06-18T11:21:39.383Z",
   "occasion_index_rows": 8004,
   "daily_files": [
     {
@@ -32,7 +32,10 @@
       "occasion": "Lectionary occasion label.",
       "service_section": "Service section for the reading when present.",
       "service_hour": "Service hour for the reading when present.",
-      "slot": "Reading slot within the service context.",
+      "slot": "Original reading slot label from the source pipeline, preserved for provenance.",
+      "slot_type": "Normalized slot category, such as prophecy, psalm, gospel, pauline, catholicon, or praxis.",
+      "slot_order": "Source-backed reading order within the service hour and normalized slot family when determinable; null only for preserved unmapped source labels.",
+      "occasion_kind": "Occasion classification: specific for dated/named occasions, cycle for generic cycle or rule labels.",
       "identity_key": "Stable reading identity key used for reverse lookup.",
       "display_ref": "Human-facing reference, using MT primary with LXX inline where applicable.",
       "canonical_mt_ref": "Canonical Masoretic Text reference when available.",

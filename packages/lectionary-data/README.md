@@ -36,6 +36,9 @@ Each line in `data/reverse_lectionary_index.jsonl` is a JSON object. The publish
 - `service_section`
 - `service_hour`
 - `slot`
+- `slot_type`
+- `slot_order`
+- `occasion_kind`
 - `identity_key`
 - `display_ref`
 - `canonical_mt_ref`
@@ -67,9 +70,9 @@ Structural-only occasions without a `gregorian_date` are not present in the dail
 
 ## Provenance
 
-- Package version: 1.0.1
-- Source repo commit: 6cc3295cad4d35ca93e7f72b1cf190a67dd4ab7e
-- Generated at: 2026-06-18T09:23:18.947Z
+- Package version: 1.1.0
+- Source repo commit: a76640fe74adcfabe35880a8fadf5d5d5cb40114
+- Generated at: 2026-06-18T11:21:39.383Z
 - Occasion index rows: 8004
 
 ## License

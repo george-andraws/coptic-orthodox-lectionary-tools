@@ -33395,8 +33395,8 @@ New Testament,Mark,Mark,13,Mark 13,Mark 13:9-13,katameros_cycle,annual fixed Cop
 New Testament,Mark,Mark,13,Mark 13,Mark 13:9-13,katameros_cycle,annual fixed Coptic day,Mesra 9,,Mesra 9,,matins_gospel,AnnualReadings,Mark 13:9-13,,annual fixed Coptic day,Matins,Gospel
 New Testament,Mark,Mark,13,Mark 13,Mark 13:9-13,katameros_cycle,annual fixed Coptic day,Tubah 28,,Tubah 28,,matins_gospel,AnnualReadings,Mark 13:9-13,,annual fixed Coptic day,Matins,Gospel
 New Testament,Mark,Mark,13,Mark 13,Mark 13:32-37,pascha_day_hour,Monday Eve,Monday Eve | Eleventh Hour,,,Monday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2,,Monday Eve,Eleventh Hour,Psalm+Gospel
-New Testament,Mark,Mark,13,Mark 13,Mark 13:32-37,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
-New Testament,Mark,Mark,13,Mark 13,Mark 13:32-14:2,pascha_source_text,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Gospel,Mark 13:32-14:2,,Tuesday Eve,Eleventh Hour,Gospel
+New Testament,Mark,Mark,13,Mark 13,Mark 13:32-14:2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-14:2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
+New Testament,Mark,Mark,13,Mark 13,Mark 13:32-37,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Mark 13:32-37,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:3-9,copticchurch_date,Amshir 16,Amshir 16,2022-02-23,1738-06-16,Amshir 16,Vespers,Gospel,Mark 14:3-9,https://copticchurch.net/readings?g_year=2022&g_month=02&g_day=23,Amshir 16,Vespers,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:3-9,copticchurch_date,Amshir 16,Amshir 16,2024-02-24,1740-06-16,Amshir 16,Vespers,Gospel,Mark 14:3-9,https://copticchurch.net/readings?g_year=2024&g_month=02&g_day=24,Amshir 16,Vespers,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:3-9,copticchurch_date,Amshir 16,Amshir 16,2030-02-23,1746-06-16,Amshir 16,Vespers,Gospel,Mark 14:3-9,https://copticchurch.net/readings?g_year=2030&g_month=02&g_day=23,Amshir 16,Vespers,Gospel
@@ -33470,14 +33470,14 @@ New Testament,Mark,Mark,14,Mark 14,Mark 14:32-42,pascha_day_hour,Great Thursday 
 New Testament,Mark,Mark,14,Mark 14,Mark 14:43-54,pascha_day_hour,Great Thursday Eve,Great Thursday Eve | Ninth Hour,,,Great Thursday Eve,Ninth Hour,Psalm+Gospel,"Ps 27:3,4; Ps 34:4,5; Matt 26:47-58; Mark 14:43-54; Luke 22:47-55; John 18:10-14",,Great Thursday Eve,Ninth Hour,Psalm+Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:55-72,pascha_day_hour,Great Thursday Eve,Great Thursday Eve | Eleventh Hour,,,Great Thursday Eve,Eleventh Hour,Psalm+Gospel,Ps 2:1-5; Matt 26:59-75; Mark 14:55-72; Luke 22:56-65; John 18:15-27,,Great Thursday Eve,Eleventh Hour,Psalm+Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:1-2,pascha_day_hour,Monday Eve,Monday Eve | Eleventh Hour,,,Monday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2,,Monday Eve,Eleventh Hour,Psalm+Gospel
-New Testament,Mark,Mark,14,Mark 14,Mark 14:1-2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
+New Testament,Mark,Mark,14,Mark 14,Mark 13:32-14:2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-14:2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
+New Testament,Mark,Mark,14,Mark 14,Mark 14:1-2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Mark 14:1-2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:3-11,pascha_day_hour,Wednesday Eve,Wednesday Eve | Third Hour,,,Wednesday Eve,Third Hour,Psalm+Gospel,"Ps 55:21,1; Mark 14:3-11",,Wednesday Eve,Third Hour,Psalm+Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:26-31,pascha_source_text,Good Friday Eve,Good Friday Eve | Third Hour,,,Good Friday Eve,Third Hour,Gospel,Mark 14:26-31,,Good Friday Eve,Third Hour,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:32-42,pascha_source_text,Good Friday Eve,Good Friday Eve | Sixth Hour,,,Good Friday Eve,Sixth Hour,Gospel,Mark 14:32-42,,Good Friday Eve,Sixth Hour,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:43-54,pascha_source_text,Good Friday Eve,Good Friday Eve | Ninth Hour,,,Good Friday Eve,Ninth Hour,Gospel,Mark 14:43-54,,Good Friday Eve,Ninth Hour,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:55-72,pascha_source_text,Good Friday Eve,Good Friday Eve | Eleventh Hour,,,Good Friday Eve,Eleventh Hour,Gospel,Mark 14:55-72,,Good Friday Eve,Eleventh Hour,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:3-11,pascha_source_text,Thursday Eve,Thursday Eve | Third Hour,,,Thursday Eve,Third Hour,Gospel,Mark 14:3-11,,Thursday Eve,Third Hour,Gospel
-New Testament,Mark,Mark,14,Mark 14,Mark 13:32-14:2,pascha_source_text,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Gospel,Mark 13:32-14:2,,Tuesday Eve,Eleventh Hour,Gospel
 New Testament,Mark,Mark,14,Mark 14,Mark 14:3-9,special_service,myron_consecration,first_week_day_2,,,myron_consecration,liturgy,gospel,Mark 14:3-9,https://copticbook.wordpress.com/wp-content/uploads/2023/06/meron-and-galileon-ar.pdf,myron_consecration,liturgy,gospel
 New Testament,Mark,Mark,15,Mark 15,Mark 15:1-5,pascha_day_hour,Good Friday,Good Friday | First Hour,,,Good Friday,First Hour,Psalm+Gospel,"Ps 27:12; Ps 35:11,12,16; Matt 27:1-14; Mark 15:1-5; Luke 22:66-23:12; John 18:28-40",,Good Friday,First Hour,Psalm+Gospel
 New Testament,Mark,Mark,15,Mark 15,Mark 15:26-33,pascha_day_hour,Good Friday,Good Friday | Sixth Hour,,,Good Friday,Sixth Hour,Psalm+Gospel,"Ps 38:21,22; Ps 22:17,18,19,8,9; Matt 27:27-45; Mark 15:26-33; Luke 23:26-44; John 19:1-12",,Good Friday,Sixth Hour,Psalm+Gospel
@@ -42227,14 +42227,14 @@ Old Testament,Ezekiel,Ezek,36,Ezek 36,Ezek 36:25-29,pascha_source_text,Great Thu
 Old Testament,Ezekiel,Ezek,37,Ezek 37,Ezek 37:1-14,special_service,general_funeral,palm_sunday_general_funeral,,,general_funeral,prophecy,old_testament,Ezek 37:1-14,https://saintbishoy.ca/wp-content/uploads/Rites_Palm_Sunday_And_General_Funeral_Readings_Procession.pdf,general_funeral,prophecy,old_testament
 Old Testament,Ezekiel,Ezek,43,Ezek 43,Ezek 43:5-11,pascha_source_text,Great Thursday Eve,Great Thursday Eve | First Hour,,,Great Thursday Eve,First Hour,Prophecy,Ezek 43:5-11,,Great Thursday Eve,First Hour,Prophecy
 Old Testament,Ezekiel,Ezek,47,Ezek 47,Ezek 47:1-9,pascha_source_text,Great Thursday,Great Thursday | Liturgy of Blessing of the Water,,,Great Thursday,Liturgy of Blessing of the Water,Prophecy,Ezek 47:1-9,,Great Thursday,Liturgy of Blessing of the Water,Prophecy
-Old Testament,Genesis,Gen,1,Gen 1,Gen 1:1-31,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-31; Gen 2:1-3,,Monday,First Hour,OT1
-Old Testament,Genesis,Gen,1,Gen 1,Gen 1:1-2:3,pascha_source_text,Monday,Monday | First Hour,,,Monday,First Hour,Prophecy,Gen 1:1-2:3,,Monday,First Hour,Prophecy
-Old Testament,Genesis,Gen,2,Gen 2,Gen 2:1-3,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-31; Gen 2:1-3,,Monday,First Hour,OT1
-Old Testament,Genesis,Gen,2,Gen 2,Gen 2:15-25,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT1,Gen 2:15-25; Gen 3:1-24,,Monday,Ninth Hour,OT1
-Old Testament,Genesis,Gen,2,Gen 2,Gen 1:1-2:3,pascha_source_text,Monday,Monday | First Hour,,,Monday,First Hour,Prophecy,Gen 1:1-2:3,,Monday,First Hour,Prophecy
-Old Testament,Genesis,Gen,2,Gen 2,Gen 2:15-3:24,pascha_source_text,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,Prophecy,Gen 2:15-3:24,,Monday,Ninth Hour,Prophecy
-Old Testament,Genesis,Gen,3,Gen 3,Gen 3:1-24,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT1,Gen 2:15-25; Gen 3:1-24,,Monday,Ninth Hour,OT1
-Old Testament,Genesis,Gen,3,Gen 3,Gen 2:15-3:24,pascha_source_text,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,Prophecy,Gen 2:15-3:24,,Monday,Ninth Hour,Prophecy
+Old Testament,Genesis,Gen,1,Gen 1,Gen 1:1-2:3,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-2:3,,Monday,First Hour,OT1
+Old Testament,Genesis,Gen,1,Gen 1,Gen 1:1-31,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-31,,Monday,First Hour,OT1
+Old Testament,Genesis,Gen,2,Gen 2,Gen 1:1-2:3,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-2:3,,Monday,First Hour,OT1
+Old Testament,Genesis,Gen,2,Gen 2,Gen 2:1-3,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 2:1-3,,Monday,First Hour,OT1
+Old Testament,Genesis,Gen,2,Gen 2,Gen 2:15-25,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT1,Gen 2:15-25,,Monday,Ninth Hour,OT1
+Old Testament,Genesis,Gen,2,Gen 2,Gen 2:15-3:24,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT1,Gen 2:15-3:24,,Monday,Ninth Hour,OT1
+Old Testament,Genesis,Gen,3,Gen 3,Gen 2:15-3:24,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT1,Gen 2:15-3:24,,Monday,Ninth Hour,OT1
+Old Testament,Genesis,Gen,3,Gen 3,Gen 3:1-24,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT1,Gen 3:1-24,,Monday,Ninth Hour,OT1
 Old Testament,Genesis,Gen,6,Gen 6,Gen 6:5-9:7,pascha_day_hour,Tuesday,Tuesday | Ninth Hour,,,Tuesday,Ninth Hour,OT1,Gen 6:5-9:7,,Tuesday,Ninth Hour,OT1
 Old Testament,Genesis,Gen,7,Gen 7,Gen 6:5-9:7,pascha_day_hour,Tuesday,Tuesday | Ninth Hour,,,Tuesday,Ninth Hour,OT1,Gen 6:5-9:7,,Tuesday,Ninth Hour,OT1
 Old Testament,Genesis,Gen,8,Gen 8,Gen 6:5-9:7,pascha_day_hour,Tuesday,Tuesday | Ninth Hour,,,Tuesday,Ninth Hour,OT1,Gen 6:5-9:7,,Tuesday,Ninth Hour,OT1
@@ -42264,21 +42264,21 @@ Old Testament,Habakkuk,Hab,3,Hab 3,Hab 3:2-19,bright_saturday_service_order,PRAI
 Old Testament,Hosea,Hos,2,Hos 2,"Hos 2:1-3,2:10-11",pascha_day_hour,Good Friday,Good Friday | Ninth Hour,,,Good Friday,Ninth Hour,OT3,"Hos 2:1-3,10-11",,Good Friday,Ninth Hour,OT3
 Old Testament,Hosea,Hos,4,Hos 4,Hos 4:15-19,pascha_day_hour,Monday Eve,Monday Eve | Sixth Hour,,,Monday Eve,Sixth Hour,OT1,Hos 4:15-19; Hos 5:1-7,,Monday Eve,Sixth Hour,OT1
 Old Testament,Hosea,Hos,4,Hos 4,Hos 4:1-8,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT3,Hos 4:1-8,,Tuesday,First Hour,OT3
-Old Testament,Hosea,Hos,4,Hos 4,Hos 4:15-19,pascha_day_hour,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,OT1,Hos 4:15-19; Hos 5:1-7,,Tuesday Eve,Sixth Hour,OT1
-Old Testament,Hosea,Hos,4,Hos 4,Hos 4:15-5:7,pascha_source_text,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,Prophecy,Hos 4:15-5:7,,Tuesday Eve,Sixth Hour,Prophecy
+Old Testament,Hosea,Hos,4,Hos 4,Hos 4:15-19,pascha_day_hour,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,OT1,Hos 4:15-19,,Tuesday Eve,Sixth Hour,OT1
+Old Testament,Hosea,Hos,4,Hos 4,Hos 4:15-5:7,pascha_day_hour,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,OT1,Hos 4:15-5:7,,Tuesday Eve,Sixth Hour,OT1
 Old Testament,Hosea,Hos,5,Hos 5,Hos 5:1-7,pascha_day_hour,Monday Eve,Monday Eve | Sixth Hour,,,Monday Eve,Sixth Hour,OT1,Hos 4:15-19; Hos 5:1-7,,Monday Eve,Sixth Hour,OT1
-Old Testament,Hosea,Hos,5,Hos 5,Hos 5:1-7,pascha_day_hour,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,OT1,Hos 4:15-19; Hos 5:1-7,,Tuesday Eve,Sixth Hour,OT1
+Old Testament,Hosea,Hos,5,Hos 5,Hos 4:15-5:7,pascha_day_hour,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,OT1,Hos 4:15-5:7,,Tuesday Eve,Sixth Hour,OT1
+Old Testament,Hosea,Hos,5,Hos 5,Hos 5:1-7,pascha_day_hour,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,OT1,Hos 5:1-7,,Tuesday Eve,Sixth Hour,OT1
 Old Testament,Hosea,Hos,5,Hos 5,Hos 5:13-6:3,pascha_day_hour,Wednesday,Wednesday | First Hour,,,Wednesday,First Hour,OT3,Hos 5:13-6:3,,Wednesday,First Hour,OT3
-Old Testament,Hosea,Hos,5,Hos 5,Hos 4:15-5:7,pascha_source_text,Tuesday Eve,Tuesday Eve | Sixth Hour,,,Tuesday Eve,Sixth Hour,Prophecy,Hos 4:15-5:7,,Tuesday Eve,Sixth Hour,Prophecy
 Old Testament,Hosea,Hos,6,Hos 6,Hos 5:13-6:3,pascha_day_hour,Wednesday,Wednesday | First Hour,,,Wednesday,First Hour,OT3,Hos 5:13-6:3,,Wednesday,First Hour,OT3
 Old Testament,Hosea,Hos,9,Hos 9,Hos 9:14-10:2,pascha_source_text,Wednesday Eve,Wednesday Eve | Ninth Hour,,,Wednesday Eve,Ninth Hour,Prophecy,Hos 9:14-10:2,,Wednesday Eve,Ninth Hour,Prophecy
 Old Testament,Hosea,Hos,10,Hos 10,Hos 10:12-15,pascha_day_hour,Monday Eve,Monday Eve | Ninth Hour,,,Monday Eve,Ninth Hour,OT1,Hos 10:12-15; Hos 11:1-2,,Monday Eve,Ninth Hour,OT1
-Old Testament,Hosea,Hos,10,Hos 10,Hos 10:12-15,pascha_day_hour,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,OT1,Hos 10:12-15; Hos 11:1-2,,Tuesday Eve,Ninth Hour,OT1
-Old Testament,Hosea,Hos,10,Hos 10,Hos 10:12-11:2,pascha_source_text,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,Prophecy,Hos 10:12-11:2,,Tuesday Eve,Ninth Hour,Prophecy
+Old Testament,Hosea,Hos,10,Hos 10,Hos 10:12-11:2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,OT1,Hos 10:12-11:2,,Tuesday Eve,Ninth Hour,OT1
+Old Testament,Hosea,Hos,10,Hos 10,Hos 10:12-15,pascha_day_hour,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,OT1,Hos 10:12-15,,Tuesday Eve,Ninth Hour,OT1
 Old Testament,Hosea,Hos,10,Hos 10,Hos 9:14-10:2,pascha_source_text,Wednesday Eve,Wednesday Eve | Ninth Hour,,,Wednesday Eve,Ninth Hour,Prophecy,Hos 9:14-10:2,,Wednesday Eve,Ninth Hour,Prophecy
 Old Testament,Hosea,Hos,11,Hos 11,Hos 11:1-2,pascha_day_hour,Monday Eve,Monday Eve | Ninth Hour,,,Monday Eve,Ninth Hour,OT1,Hos 10:12-15; Hos 11:1-2,,Monday Eve,Ninth Hour,OT1
-Old Testament,Hosea,Hos,11,Hos 11,Hos 11:1-2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,OT1,Hos 10:12-15; Hos 11:1-2,,Tuesday Eve,Ninth Hour,OT1
-Old Testament,Hosea,Hos,11,Hos 11,Hos 10:12-11:2,pascha_source_text,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,Prophecy,Hos 10:12-11:2,,Tuesday Eve,Ninth Hour,Prophecy
+Old Testament,Hosea,Hos,11,Hos 11,Hos 10:12-11:2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,OT1,Hos 10:12-11:2,,Tuesday Eve,Ninth Hour,OT1
+Old Testament,Hosea,Hos,11,Hos 11,Hos 11:1-2,pascha_day_hour,Tuesday Eve,Tuesday Eve | Ninth Hour,,,Tuesday Eve,Ninth Hour,OT1,Hos 11:1-2,,Tuesday Eve,Ninth Hour,OT1
 Old Testament,Isaiah,Isa,1,Isa 1,Isa 1:19-25,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 1 day_of_week 2,, ,,prophecy,GreatLentReadings,Isa 1:19-25,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,1,Isa 1,Isa 1:2-18,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 1 day_of_week 1,, ,,prophecy,GreatLentReadings,Isa 1:2-18,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,1,Isa 1,Isa 1:2-9,pascha_day_hour,Good Friday,Good Friday | First Hour,,,Good Friday,First Hour,OT2,Isa 1:2-9,,Good Friday,First Hour,OT2
@@ -42399,10 +42399,10 @@ Old Testament,Job,Job,19,Job 19,Job 19:1-26,katameros_cycle,Great Lent/Jonah/Nin
 Old Testament,Job,Job,20,Job 20,Job 20:1-29,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 4 day_of_week 4,, ,,prophecy,GreatLentReadings,Job 20:1-29,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Job,Job,21,Job 21,Job 21:1-34,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 4 day_of_week 5,, ,,prophecy,GreatLentReadings,Job 21:1-34,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Job,Job,22,Job 22,Job 22:1-30,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 1,, ,,prophecy,GreatLentReadings,Job 22:1-30,,Great Lent/Jonah/Nineveh cycle,Prophecy,
-Old Testament,Job,Job,23,Job 23,Job 23:2-17,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT2,Job 23:2-17; Job 24:1-25,,Tuesday,First Hour,OT2
-Old Testament,Job,Job,23,Job 23,Job 23:2-24:25,pascha_source_text,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,Prophecy,Job 23:2-24:25,,Tuesday,First Hour,Prophecy
-Old Testament,Job,Job,24,Job 24,Job 24:1-25,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT2,Job 23:2-17; Job 24:1-25,,Tuesday,First Hour,OT2
-Old Testament,Job,Job,24,Job 24,Job 23:2-24:25,pascha_source_text,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,Prophecy,Job 23:2-24:25,,Tuesday,First Hour,Prophecy
+Old Testament,Job,Job,23,Job 23,Job 23:2-17,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT2,Job 23:2-17,,Tuesday,First Hour,OT2
+Old Testament,Job,Job,23,Job 23,Job 23:2-24:25,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT2,Job 23:2-24:25,,Tuesday,First Hour,OT2
+Old Testament,Job,Job,24,Job 24,Job 23:2-24:25,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT2,Job 23:2-24:25,,Tuesday,First Hour,OT2
+Old Testament,Job,Job,24,Job 24,Job 24:1-25,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT2,Job 24:1-25,,Tuesday,First Hour,OT2
 Old Testament,Job,Job,25,Job 25,Job 25:1-6,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 2,, ,,prophecy,GreatLentReadings,Job 25:1-6,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Job,Job,26,Job 26,Job 26:1-14,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 2,, ,,prophecy,GreatLentReadings,Job 26:1-14,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Job,Job,27,Job 27,Job 27:2-28:13,pascha_day_hour,Great Thursday,Great Thursday | Ninth Hour,,,Great Thursday,Ninth Hour,OT4,Job 27:2-28:13,,Great Thursday,Ninth Hour,OT4
@@ -67843,7 +67843,7 @@ Old Testament,Psalms,Ps,122,Ps 122,Ps 122:1-2,pascha_day_hour,Monday,Monday | Th
 Old Testament,Psalms,Ps,122,Ps 122,Ps 122:4,pascha_day_hour,Monday,Monday | Sixth Hour,,,Monday,Sixth Hour,Psalm+Gospel,Ps 122:4; John 2:13-17,,Monday,Sixth Hour,Psalm+Gospel
 Old Testament,Psalms,Ps,122,Ps 122,Ps 122:4,pascha_day_hour,Monday Eve,Monday Eve | Eleventh Hour,,,Monday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2,,Monday Eve,Eleventh Hour,Psalm+Gospel
 Old Testament,Psalms,Ps,122,Ps 122,Ps 122:1-2,pascha_day_hour,Tuesday,Tuesday | Third Hour,,,Tuesday,Third Hour,Psalm+Gospel,Ps 122:1-2; Mark 11:11-19,,Tuesday,Third Hour,Psalm+Gospel
-Old Testament,Psalms,Ps,122,Ps 122,Ps 122:4,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-37; Mark 14:1-2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
+Old Testament,Psalms,Ps,122,Ps 122,Ps 122:4,pascha_day_hour,Tuesday Eve,Tuesday Eve | Eleventh Hour,,,Tuesday Eve,Eleventh Hour,Psalm+Gospel,Ps 122:4; Mark 13:32-14:2,,Tuesday Eve,Eleventh Hour,Psalm+Gospel
 Old Testament,Psalms,Ps,122,Ps 122,Ps 122:1-2,special_service,church_consecration,main,,,church_consecration,part_1,psalm,Ps 122:1-2,https://saintbishoy.ca/wp-content/uploads/Rites_Book-2_Consecration.pdf,church_consecration,part_1,psalm
 Old Testament,Psalms,Ps,122,Ps 122,Ps 122:1-2,special_service,cornerstone_prayer,main,,,cornerstone_prayer,foundation_cornerstone,psalm,Ps 122:1-2,https://copticbook.wordpress.com/wp-content/uploads/2023/06/consecrations-ar-en-cop.pdf,cornerstone_prayer,foundation_cornerstone,psalm
 Old Testament,Psalms,Ps,123,Ps 123,Ps 123,agpeya,daily_hours,eleventh_hour,,,Eleventh Hour (Vespers),Eleventh Hour (Vespers),psalm,Ps 123,https://www.saintbishoy.ca/wp-content/uploads/Rites_Agpeya_Book.pdf,Eleventh Hour (Vespers),Eleventh Hour (Vespers),psalm

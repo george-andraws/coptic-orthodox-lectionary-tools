@@ -11,20 +11,20 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.0.1';
-const SOURCE_REPO_COMMIT = '6cc3295cad4d35ca93e7f72b1cf190a67dd4ab7e';
+const VERSION = '1.1.0';
+const SOURCE_REPO_COMMIT = 'a76640fe74adcfabe35880a8fadf5d5d5cb40114';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
 const ATTRIBUTION = 'Coptic lectionary data from Light and Logos (andraws.net), licensed under CC BY 4.0.';
 const REPOSITORY_URL = 'git+https://github.com/george-andraws/coptic-orthodox-lectionary-tools.git';
 const SHIPPED_YEARS = [2026, 2027, 2028];
 
-const HANDOFF_DIR = path.join(REPO_ROOT, 'out', 'handoff');
+const DESIGN_DIR = path.join(REPO_ROOT, 'out', 'design');
 const PACKAGE_DIR = path.join(REPO_ROOT, 'packages', 'lectionary-data');
 const DATA_DIR = path.join(PACKAGE_DIR, 'data');
 const DAILY_DIR = path.join(DATA_DIR, 'daily');
 
-const OCCASION_SOURCE = path.join(HANDOFF_DIR, 'reverse_lectionary_index.jsonl');
+const OCCASION_SOURCE = path.join(DESIGN_DIR, 'reverse_lectionary_index.jsonl');
 const OCCASION_DEST = path.join(DATA_DIR, 'reverse_lectionary_index.jsonl');
 
 function readGitHead() {
@@ -49,7 +49,7 @@ async function countJsonlRows(filePath) {
 }
 
 async function readDailyInfo(year) {
-  const source = path.join(HANDOFF_DIR, 'daily', `lectionary-${year}.json`);
+  const source = path.join(DESIGN_DIR, 'daily', `lectionary-${year}.json`);
   const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
   const body = await readFile(source, 'utf8');
   const parsed = JSON.parse(body);
@@ -188,6 +188,9 @@ Each line in \`data/reverse_lectionary_index.jsonl\` is a JSON object. The publi
 - \`service_section\`
 - \`service_hour\`
 - \`slot\`
+- \`slot_type\`
+- \`slot_order\`
+- \`occasion_kind\`
 - \`identity_key\`
 - \`display_ref\`
 - \`canonical_mt_ref\`
@@ -252,7 +255,10 @@ function metaJson(sourceRepoCommit, occasionIndexRows, dailyFiles) {
         occasion: 'Lectionary occasion label.',
         service_section: 'Service section for the reading when present.',
         service_hour: 'Service hour for the reading when present.',
-        slot: 'Reading slot within the service context.',
+        slot: 'Original reading slot label from the source pipeline, preserved for provenance.',
+        slot_type: 'Normalized slot category, such as prophecy, psalm, gospel, pauline, catholicon, or praxis.',
+        slot_order: 'Source-backed reading order within the service hour and normalized slot family when determinable; null only for preserved unmapped source labels.',
+        occasion_kind: 'Occasion classification: specific for dated/named occasions, cycle for generic cycle or rule labels.',
         identity_key: 'Stable reading identity key used for reverse lookup.',
         display_ref: 'Human-facing reference, using MT primary with LXX inline where applicable.',
         canonical_mt_ref: 'Canonical Masoretic Text reference when available.',
