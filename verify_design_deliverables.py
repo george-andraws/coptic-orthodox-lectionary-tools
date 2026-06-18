@@ -305,8 +305,8 @@ def verify_rows() -> None:
     reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
     if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
         fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
-    if len(reverse_index) != 8004:
-        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 8004")
+    if len(reverse_index) != 8003:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 8003")
     grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
     for row in presentation:
         grouped_index_source[occasion_index_key(row)].append(row)

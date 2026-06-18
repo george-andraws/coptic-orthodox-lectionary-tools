@@ -124,7 +124,7 @@ def classify_reading(normalized_ref: str, raw_ref: str) -> str:
 def write_csv(path: Path, rows: List[dict], fields: List[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open('w', newline='', encoding='utf-8') as f:
-        w = csv.DictWriter(f, fieldnames=fields)
+        w = csv.DictWriter(f, fieldnames=fields, lineterminator='\n')
         w.writeheader()
         w.writerows(rows)
 

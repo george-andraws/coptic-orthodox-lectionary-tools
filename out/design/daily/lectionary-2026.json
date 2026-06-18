@@ -1053,8 +1053,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -1593,8 +1593,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -1725,8 +1725,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -2937,8 +2937,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -3495,7 +3495,7 @@
   ],
   "2026-02-02": [
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Pauline Epistle",
@@ -3505,7 +3505,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Catholic Epistle",
@@ -3515,7 +3515,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Acts of the Apostles",
@@ -3525,7 +3525,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Gospel",
@@ -3535,7 +3535,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Gospel",
@@ -3545,7 +3545,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Gospel",
@@ -3555,7 +3555,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
@@ -3565,7 +3565,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
@@ -3575,7 +3575,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
@@ -3585,7 +3585,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Psalm",
@@ -3595,7 +3595,7 @@
       "removed_marker": ""
     },
     {
-      "occasion": "Fast of Ninevah",
+      "occasion": "Fast of Nineveh",
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
@@ -4843,8 +4843,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 17:1,17:2 (LXX Ps 16:1; Ps 16:2)",
-      "identity_key": "rid_79ac43303492c27a2f7f",
+      "display_ref": "Ps 17:1-2 (LXX Ps 16:1-2)",
+      "identity_key": "rid_a6f3568a289a3022b2ef",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -6759,8 +6759,8 @@
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 27:7,27:8 (LXX Ps 26:7; Ps 26:8)",
-      "identity_key": "rid_ec6950b521140d35e58b",
+      "display_ref": "Ps 27:7-8 (LXX Ps 26:7-8)",
+      "identity_key": "rid_82427ac85ae37d78b591",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -9083,8 +9083,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Gospel",
-      "display_ref": "Ps 64:1,64:2 (LXX Ps 63:1; Ps 63:2)",
-      "identity_key": "rid_d2fb2817f1ecd6226ae1",
+      "display_ref": "Ps 64:1-2 (LXX Ps 63:1-2)",
+      "identity_key": "rid_3fd4b87524624788bd66",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -9521,8 +9521,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 92:4,92:5 (LXX Ps 91:4; Ps 91:5)",
-      "identity_key": "rid_eaa71f768109773c3a94",
+      "display_ref": "Ps 92:4-5 (LXX Ps 91:4-5)",
+      "identity_key": "rid_956cefc422ba46dd5404",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -9745,8 +9745,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 97:8,97:9 (LXX Ps 96:8; Ps 96:9)",
-      "identity_key": "rid_549cd14f0d8c00dddc64",
+      "display_ref": "Ps 97:8-9 (LXX Ps 96:8-9)",
+      "identity_key": "rid_f2a6f1c45e70126cde87",
       "reading_type": "scripture",
       "removed_marker": ""
     }
@@ -9847,8 +9847,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 12:4,12:5 (LXX Ps 11:4; Ps 11:5)",
-      "identity_key": "rid_b4098dbd8424d8b43417",
+      "display_ref": "Ps 12:4-5 (LXX Ps 11:4-5)",
+      "identity_key": "rid_1f3f272b39046919058c",
       "reading_type": "scripture",
       "removed_marker": ""
     }
@@ -9919,8 +9919,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 119:10,119:11 (LXX Ps 118:10; Ps 118:11)",
-      "identity_key": "rid_c22b9c3ef81091403ebe",
+      "display_ref": "Ps 119:10-11 (LXX Ps 118:10-11)",
+      "identity_key": "rid_ab3eb5736fd6dc5700ad",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -10011,8 +10011,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 33:3,33:4 (LXX Ps 32:3; Ps 32:4)",
-      "identity_key": "rid_40fc97e8b4ca656b018b",
+      "display_ref": "Ps 33:3-4 (LXX Ps 32:3-4)",
+      "identity_key": "rid_828b55574b3bfbdd828a",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -10327,8 +10327,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 41:1,41:2 (LXX Ps 40:1; Ps 40:2)",
-      "identity_key": "rid_6b7f8a8a39561c5cb5ff",
+      "display_ref": "Ps 41:1-2 (LXX Ps 40:1-2)",
+      "identity_key": "rid_46e57842ba126ea718b7",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -10765,8 +10765,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 111:1,111:2 (LXX Ps 110:1; Ps 110:2)",
-      "identity_key": "rid_2fc8a1fa30f2ac41c0e5",
+      "display_ref": "Ps 111:1-2 (LXX Ps 110:1-2)",
+      "identity_key": "rid_5e07420731b5e5918c92",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -10887,8 +10887,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 96:5,96:6 (LXX Ps 95:5; Ps 95:6)",
-      "identity_key": "rid_abd7b00e517f081f2e62",
+      "display_ref": "Ps 96:5-6 (LXX Ps 95:5-6)",
+      "identity_key": "rid_3f2b7413d104f995b053",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -11325,8 +11325,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 146:7,146:8 (LXX Ps 145:7; Ps 145:8)",
-      "identity_key": "rid_f17749974e876a910556",
+      "display_ref": "Ps 146:7-8 (LXX Ps 145:7-8)",
+      "identity_key": "rid_639e40f5398071ff16ee",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -11549,8 +11549,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 116:1,116:2 (LXX Ps 114:1; Ps 114:2)",
-      "identity_key": "rid_64fafd2457b4613be821",
+      "display_ref": "Ps 116:1-2 (LXX Ps 114:1-2)",
+      "identity_key": "rid_39a81b1308eae48df2f1",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -11743,8 +11743,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 66:1,66:2 (LXX Ps 65:1; Ps 65:2)",
-      "identity_key": "rid_6c52de6bc9857309825a",
+      "display_ref": "Ps 66:1-2 (LXX Ps 65:1-2)",
+      "identity_key": "rid_52816e6efde456309de6",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -11865,8 +11865,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 119:49,119:50 (LXX Ps 118:49; Ps 118:50)",
-      "identity_key": "rid_8742bb664a171225c951",
+      "display_ref": "Ps 119:49-50 (LXX Ps 118:49-50)",
+      "identity_key": "rid_0b2491a84b61db9be632",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -12109,8 +12109,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 70:1,70:2 (LXX Ps 69:1; Ps 69:2)",
-      "identity_key": "rid_a369a3825ce212eace9f",
+      "display_ref": "Ps 70:1-2 (LXX Ps 69:1-2)",
+      "identity_key": "rid_a2c61fc1bb8c0b46c4c6",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -12201,8 +12201,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 129:1,129:2 (LXX Ps 128:1; Ps 128:2)",
-      "identity_key": "rid_e411cdd798bdb2fef519",
+      "display_ref": "Ps 129:1-2 (LXX Ps 128:1-2)",
+      "identity_key": "rid_e93e3a8db5025231fec9",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -12487,8 +12487,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 118:1,118:2 (LXX Ps 117:1; Ps 117:2)",
-      "identity_key": "rid_8dbac121e81951f87813",
+      "display_ref": "Ps 118:1-2 (LXX Ps 117:1-2)",
+      "identity_key": "rid_15c8d2b5e7623ed787d4",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -13261,8 +13261,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 47:4,47:5 (LXX Ps 46:4; Ps 46:5)",
-      "identity_key": "rid_24cd2c45dec578deb6f1",
+      "display_ref": "Ps 47:4-5 (LXX Ps 46:4-5)",
+      "identity_key": "rid_d2e6901b751d73539284",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -13597,8 +13597,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 98:1,98:2 (LXX Ps 97:1; Ps 97:2)",
-      "identity_key": "rid_dbcb103aa2aba4782a71",
+      "display_ref": "Ps 98:1-2 (LXX Ps 97:1-2)",
+      "identity_key": "rid_8a18690033222b1018ee",
       "reading_type": "scripture",
       "removed_marker": ""
     }
@@ -13771,8 +13771,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 145:1,145:2,145:10 (LXX Ps 144:1; Ps 144:2; Ps 144:10)",
-      "identity_key": "rid_2144cb29d1e2f2ff50ad",
+      "display_ref": "Ps 145:1-2,145:10 (LXX Ps 144:1-2; Ps 144:10)",
+      "identity_key": "rid_fe8e0064415f60879ee5",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -14403,8 +14403,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 107:2,107:3 (LXX Ps 106:2; Ps 106:3)",
-      "identity_key": "rid_fd50b21382e588e832d9",
+      "display_ref": "Ps 107:2-3 (LXX Ps 106:2-3)",
+      "identity_key": "rid_2dc83ef3e868b9b2e59d",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -15095,8 +15095,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -15309,8 +15309,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 93:3,93:4 (LXX Ps 92:3; Ps 92:4)",
-      "identity_key": "rid_787db05b870fa48dd97f",
+      "display_ref": "Ps 93:3-4 (LXX Ps 92:3-4)",
+      "identity_key": "rid_d9ef319180773f8d09a7",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -16379,8 +16379,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -16971,8 +16971,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 112:6,112:7,112:9 (LXX Ps 111:6; Ps 111:7; Ps 111:9)",
-      "identity_key": "rid_cc33e731b4d0a39ca876",
+      "display_ref": "Ps 112:6-7,112:9 (LXX Ps 111:6-7; Ps 111:9)",
+      "identity_key": "rid_40a1157eae172f27da93",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -17317,8 +17317,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 34:17,34:18 (LXX Ps 33:17; Ps 33:18)",
-      "identity_key": "rid_5c29e824d04850f4a428",
+      "display_ref": "Ps 34:17-18 (LXX Ps 33:17-18)",
+      "identity_key": "rid_9004e1a1c103d2426194",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -17663,8 +17663,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -18071,8 +18071,8 @@
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 105:26,105:27,105:45 (LXX Ps 104:26; Ps 104:27; Ps 104:45)",
-      "identity_key": "rid_5e1b44d279df177dd3ac",
+      "display_ref": "Ps 105:26-27,105:45 (LXX Ps 104:26-27; Ps 104:45)",
+      "identity_key": "rid_90cf59fdd89f35b30670",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -18397,8 +18397,8 @@
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 37:17,37:18,37:29 (LXX Ps 36:17; Ps 36:18; Ps 36:29)",
-      "identity_key": "rid_c732cadb980192a2da09",
+      "display_ref": "Ps 37:17-18,37:29 (LXX Ps 36:17-18; Ps 36:29)",
+      "identity_key": "rid_363c3afd320e6d59e7f7",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -18835,8 +18835,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -19405,8 +19405,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -20077,8 +20077,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -21393,8 +21393,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 34:17,34:18 (LXX Ps 33:17; Ps 33:18)",
-      "identity_key": "rid_5c29e824d04850f4a428",
+      "display_ref": "Ps 34:17-18 (LXX Ps 33:17-18)",
+      "identity_key": "rid_9004e1a1c103d2426194",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -21709,8 +21709,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -22515,8 +22515,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -23157,8 +23157,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -23585,8 +23585,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -23789,8 +23789,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -24075,8 +24075,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 34:17,34:18 (LXX Ps 33:17; Ps 33:18)",
-      "identity_key": "rid_5c29e824d04850f4a428",
+      "display_ref": "Ps 34:17-18 (LXX Ps 33:17-18)",
+      "identity_key": "rid_9004e1a1c103d2426194",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -24533,8 +24533,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 34:17,34:18 (LXX Ps 33:17; Ps 33:18)",
-      "identity_key": "rid_5c29e824d04850f4a428",
+      "display_ref": "Ps 34:17-18 (LXX Ps 33:17-18)",
+      "identity_key": "rid_9004e1a1c103d2426194",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -24767,8 +24767,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -26173,8 +26173,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -26539,8 +26539,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 7:10,7:11",
-      "identity_key": "rid_2891d0a936938232dde7",
+      "display_ref": "Ps 7:10-11",
+      "identity_key": "rid_fcb5bdc68b63e29434dd",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -26743,8 +26743,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10 (LXX Ps 131:9; Ps 131:10)",
-      "identity_key": "rid_18334aa05b4903567461",
+      "display_ref": "Ps 132:9-10 (LXX Ps 131:9-10)",
+      "identity_key": "rid_68a8bb81425f3cb59dbb",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -26885,8 +26885,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -28313,8 +28313,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -28405,8 +28405,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -28619,8 +28619,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -28843,8 +28843,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -28995,8 +28995,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -29219,8 +29219,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -29667,8 +29667,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -29891,8 +29891,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -30583,8 +30583,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -32201,8 +32201,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -32893,8 +32893,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 34:17,34:18 (LXX Ps 33:17; Ps 33:18)",
-      "identity_key": "rid_5c29e824d04850f4a428",
+      "display_ref": "Ps 34:17-18 (LXX Ps 33:17-18)",
+      "identity_key": "rid_9004e1a1c103d2426194",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -33311,8 +33311,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -33983,8 +33983,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -34401,8 +34401,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -34503,8 +34503,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -34941,8 +34941,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 4:3,4:6,4:7",
-      "identity_key": "rid_678b8a4f1cbd595114d7",
+      "display_ref": "Ps 4:3,4:6-7",
+      "identity_key": "rid_afa45ac004b2ffaf1257",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -35429,8 +35429,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -35551,8 +35551,8 @@
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5,110:7 (LXX Ps 109:4; Ps 109:5; Ps 109:7)",
-      "identity_key": "rid_940c06f32a7136fc8cef",
+      "display_ref": "Ps 110:4-5,110:7 (LXX Ps 109:4-5; Ps 109:7)",
+      "identity_key": "rid_e3a37ba0ba6a63a3c679",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -35561,8 +35561,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -35571,8 +35571,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 73:23,73:24,73:28 (LXX Ps 72:23; Ps 72:24; Ps 72:28)",
-      "identity_key": "rid_28c76de7752ddc212572",
+      "display_ref": "Ps 73:23-24,73:28 (LXX Ps 72:23-24; Ps 72:28)",
+      "identity_key": "rid_2e1d16bb2b56991c68e5",
       "reading_type": "scripture",
       "removed_marker": ""
     }
@@ -35633,8 +35633,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 112:6,112:7,112:9 (LXX Ps 111:6; Ps 111:7; Ps 111:9)",
-      "identity_key": "rid_cc33e731b4d0a39ca876",
+      "display_ref": "Ps 112:6-7,112:9 (LXX Ps 111:6-7; Ps 111:9)",
+      "identity_key": "rid_40a1157eae172f27da93",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -36101,8 +36101,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 110:4,110:5 (LXX Ps 109:4; Ps 109:5)",
-      "identity_key": "rid_9e228b7bc34476df1dc2",
+      "display_ref": "Ps 110:4-5 (LXX Ps 109:4-5)",
+      "identity_key": "rid_ecdab42c75f480a32a89",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -37129,8 +37129,8 @@
       "service_section": "Vespers",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 132:9,132:10,132:17,132:18 (LXX Ps 131:9; Ps 131:10; Ps 131:17; Ps 131:18)",
-      "identity_key": "rid_e922f3ef6ca5dd0c0d06",
+      "display_ref": "Ps 132:9-10,132:17-18 (LXX Ps 131:9-10; Ps 131:17-18)",
+      "identity_key": "rid_ffafdc885e429a98bc07",
       "reading_type": "scripture",
       "removed_marker": ""
     },

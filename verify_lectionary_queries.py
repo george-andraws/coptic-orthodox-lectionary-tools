@@ -122,8 +122,9 @@ def assert_known_good():
     assert any('Wednesday Eve | Eleventh Hour' in line and 'Wis 7:24-30' in line for line in checks['source_text_wisdom_7']), checks['source_text_wisdom_7']
     assert any('Tuesday | Sixth Hour' in line and 'Sir 4:20-5:2' in line for line in checks['source_text_sirach_4']), checks['source_text_sirach_4']
     assert any('Monday | Sixth Hour' in line and 'Exod 32:7-15' in line for line in checks['source_text_exodus_32']), checks['source_text_exodus_32']
-    assert any('Ps 62:7' in line and 'source=pascha_day_hour' in line for line in checks['crosswalk_psalm_62_7']), checks['crosswalk_psalm_62_7']
-    assert any('Ps 18:48' in line and 'source=pascha_day_hour' in line for line in checks['crosswalk_psalm_18_48']), checks['crosswalk_psalm_18_48']
+    assert any('Tuesday Eve | First Hour | Psalm | Ps 62:2,62:7 | source=pascha_source_text' in line for line in checks['crosswalk_psalm_62_7']), checks['crosswalk_psalm_62_7']
+    assert any('Tuesday Eve | First Hour | Psalm | Ps 62:6-7 | source=pascha_day_hour' in line for line in checks['crosswalk_psalm_62_7']), checks['crosswalk_psalm_62_7']
+    assert any('Ps 18:17,18:48' in line and 'source=pascha_day_hour' in line for line in checks['crosswalk_psalm_18_48']), checks['crosswalk_psalm_18_48']
     assert any('source=pascha_day_hour' in line or 'source=pascha_source_text' in line for line in checks['crosswalk_wisdom_2']), checks['crosswalk_wisdom_2']
     assert any('source=pascha_day_hour' in line or 'source=pascha_source_text' in line for line in checks['crosswalk_wisdom_7']), checks['crosswalk_wisdom_7']
     assert any('Wis 7' in line and 'read=yes' in line for line in checks['chapter_wisdom_7']), checks['chapter_wisdom_7']
@@ -475,7 +476,7 @@ def assert_pascha_source_text_dedupe_invariants():
 
 def assert_chapter_occurrence_row_count():
     rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
-    assert len(rows) == 71196, len(rows)
+    assert len(rows) == 71195, len(rows)
     return {'chapter_occurrence_rows': len(rows)}
 
 
@@ -520,7 +521,7 @@ def assert_wednesday_pascha_day_hour_corrections():
     assert sirach, day_hour_rows
     expected_passages = {
         'Exod 17:1-7', 'Prov 3:5-14', 'Hos 5:13-6:3', 'Wis 1:20-2:15', 'Wis 3:12-24', 'Ps 51:4', 'Ps 33:10', 'Jn 11:46-57',
-        'Exod 13:17-22', 'Sir 22:7-18', 'Prov 4:4-5:4', 'Ps 41:6,41:1', 'Lk 22:1-6',
+        'Exod 13:17-22', 'Sir 22:7-18', 'Prov 4:4-5:4', 'Ps 41:1,41:6', 'Lk 22:1-6',
         'Exod 14:13-15:1', 'Sir 23:7-14', 'Job 27:16-20', 'Job 28:1-2', 'Ps 83:2,83:5', 'Jn 12:1-8',
         'Gen 24:1-9', 'Num 20:1-13', 'Prov 1:11-35', 'Isa 59:1-17', 'Zech 11:11-14', 'Ps 41:5-6', 'Matt 26:3-16',
         'Isa 28:16-29', 'Ps 6:2-3', 'Ps 69:17', 'Jn 12:27-36',

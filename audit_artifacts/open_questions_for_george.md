@@ -91,7 +91,7 @@ Marker-format decision: this run keeps `removed_marker` as a uniform prose-patte
 See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:
 - `candidate_removed_needs_current_authority_confirmation`: 22
 - `current_authority_pending`: 249
-- `historical_witness_no_current_comparator`: 142
+- `historical_witness_no_current_comparator`: 141
 - `psalm_equivalence_unresolved`: 5
 - `true_source_disagreement`: 0
 
@@ -131,15 +131,15 @@ No true source-disagreement class was emitted in this run. Unsettled rows are cl
 - Wednesday | Eleventh Hour | Ps 69:17 (LXX Ps 68:17) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 6:2-3; Ps 69:17; John 12:27-36
 - Wednesday | Ninth Hour | Ps 41:5-6 (LXX Ps 40:5-6) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 41:5-6; Matt 26:3-16
 - Wednesday | Sixth Hour | Ps 83:2,83:5 (LXX Ps 82:2; Ps 82:5) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 83:2,5; John 12:1-8
-- Wednesday | Third Hour | Ps 41:6,41:1 (LXX Ps 40:6; Ps 40:1) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 41:6,1; Luke 22:1-6
+- Wednesday | Third Hour | Ps 41:1,41:6 (LXX Ps 40:1; Ps 40:6) | Psalm row kept unresolved because source label, verse boundary, or bundled Psalm+Gospel extraction does not yet have an encoded Brenton/KJV text-equivalence match. Source refs: Ps 41:6,1; Luke 22:1-6
 
 ### Current-authority pending class
 
 There are 249 rows not checked by a captured Coptic Reader fixture and not confirmed by two independent sources. Use `out/design/temporal_residue.csv` for the full list. Sample rows:
-- Bright Saturday | Liturgy | Ps 3:5,3:3
 - Bright Saturday | Liturgy | 1Cor 15:1-22
 - Bright Saturday | Liturgy | Acts 3:12-21
 - Bright Saturday | Liturgy | Matt 28:1-20
+- Bright Saturday | Liturgy | Ps 3:3,3:5
 - Bright Saturday | Liturgy | 1Pet 1:1-9
 - Bright Saturday | Liturgy | Ps 82:8 (LXX Ps 81:8)
 - Good Friday | Eleventh Hour | Jer 12:1-14
@@ -148,14 +148,14 @@ There are 249 rows not checked by a captured Coptic Reader fixture and not confi
 - Good Friday | Eleventh Hour | Lk 23:47-49
 - Good Friday | Eleventh Hour | Mark 15:38-41
 - Good Friday | Eleventh Hour | Jn 19:31-37
+- Good Friday | Eleventh Hour | Ps 143:6-7 (LXX Ps 142:6-7)
 - Good Friday | Eleventh Hour | Ps 31:5 (LXX Ps 30:5)
-- Good Friday | Eleventh Hour | Ps 143:6,143:7 (LXX Ps 142:6; Ps 142:7)
 - Good Friday | First Hour | Deut 8:19-9:24
 - Good Friday | First Hour | Jn 18:28-40
+- Good Friday | First Hour | Ps 35:11-12,35:16 (LXX Ps 34:11-12; Ps 34:16)
 - Good Friday | First Hour | Job 12:18-13:1
 - Good Friday | First Hour | Isa 24:1-13
 - Good Friday | First Hour | Mic 7:1-8
-- Good Friday | First Hour | Ps 35:11,35:12,35:16 (LXX Ps 34:11; Ps 34:12; Ps 34:16)
 - Good Friday | First Hour | Isa 1:2-9
 - Good Friday | First Hour | Wis 2:12-22
 - Good Friday | First Hour | Ps 27:12 (LXX Ps 26:12)

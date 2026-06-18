@@ -215,7 +215,7 @@ def write_csv(path: Path, rows: List[dict], fieldnames: Optional[List[str]]=None
                 if k not in keys: keys.append(k)
         fieldnames=keys
     with path.open('w', newline='', encoding='utf-8') as f:
-        w=csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+        w=csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore', lineterminator='\n')
         w.writeheader(); w.writerows(rows)
 
 def write_jsonl(path: Path, rows: List[dict]):

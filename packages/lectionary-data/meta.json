@@ -2,24 +2,24 @@
   "package_name": "@andraws/lectionary-data",
   "version": "1.1.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "a76640fe74adcfabe35880a8fadf5d5d5cb40114",
-  "generated_at": "2026-06-18T11:21:39.383Z",
-  "occasion_index_rows": 8004,
+  "source_repo_commit": "4a78ec59580ad31fc6a17cec03544bba81241917",
+  "generated_at": "2026-06-18T21:35:01.383Z",
+  "occasion_index_rows": 8003,
   "daily_files": [
     {
       "year": 2026,
       "rows": 360,
-      "bytes": 1110266
+      "bytes": 1109406
     },
     {
       "year": 2027,
       "rows": 359,
-      "bytes": 1109581
+      "bytes": 1108685
     },
     {
       "year": 2028,
       "rows": 360,
-      "bytes": 1107508
+      "bytes": 1106710
     }
   ],
   "shipped_years": [
