@@ -982,8 +982,9 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
     if row.get("day_title") == "Wednesday" and row.get("service_hour") in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"} and source_kind == "pascha_day_hour":
         if key in current_fixture_keys:
             return "current_confirmed_by_fixture_equivalence", "Matched the Coptic Reader Wednesday Day fixture after normalization."
-        if row.get("reading_type") in {"Psalm+Gospel", "psalm", "gospel"}:
-            return "pending_psalm_equivalence_unresolved", "Psalm or bundled Psalm+Gospel row needs screenshot-level Psalm convention review."
+        reading_type_key = re.sub(r"[^a-z0-9]+", "", (row.get("reading_type") or "").casefold())
+        if reading_type_key in {"psalmgospel", "psalmandgospel", "psalm", "gospel"}:
+            return "pending_psalm_equivalence_unresolved", "Psalm or Gospel row needs screenshot-level Psalm convention review."
         return "historical_candidate_removed", "Present in older/local Pascha data but absent from the Coptic Reader Wednesday Day fixture."
     if source_kind == "pascha_source_text":
         return "historical_witness", "Printed-source witness retained for historical comparison."

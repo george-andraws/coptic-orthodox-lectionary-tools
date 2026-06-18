@@ -54,6 +54,24 @@ for name, abbrev in BOOK_ABBREV.items():
 BOOK_NAME_BY_ABBREV['Ps'] = 'Psalms'
 BOOK_NAME_BY_ABBREV['Wis'] = 'Wisdom of Solomon'
 
+GOSPEL_BOOKS = {'Matt', 'Mark', 'Lk', 'Jn'}
+COMPOSITE_PSALM_GOSPEL_SLOTS = {'psalmgospel', 'psalmandgospel'}
+
+
+def compact_slot(value: str) -> str:
+    return re.sub(r'[^a-z0-9]+', '', (value or '').casefold())
+
+
+def slot_for_passage(original_slot: str, passage: str) -> str:
+    if compact_slot(original_slot) not in COMPOSITE_PSALM_GOSPEL_SLOTS:
+        return original_slot or ''
+    parsed = parse_passage(passage)
+    if parsed and parsed.book_abbrev == 'Ps':
+        return 'Psalm'
+    if parsed and parsed.book_abbrev in GOSPEL_BOOKS:
+        return 'Gospel'
+    return 'source_label_preserved'
+
 FIELDS = [
     'passage',
     'source_kind',
@@ -447,11 +465,12 @@ def main() -> None:
             significance_note = f"{significance_note}; {correction_note}"
         for token_order, token in enumerate(extract_text_ref_tokens(source_refs), 1):
             passage = canonicalize_text_ref(token)
+            token_slot = slot_for_passage(row.get('slot') or '', passage)
             pascha_day_hour_keys.add(pascha_day_passage_key(row.get('day', ''), passage))
             pascha_day_hour_order_by_hour[(norm_key(row.get('day', '')), norm_key(row.get('hour', '')))].append({
                 'passage': passage,
                 'order': int(row.get('order') or idx),
-                'slot': row.get('slot') or '',
+                'slot': token_slot,
             })
             add_row(
                 rows,
@@ -470,8 +489,8 @@ def main() -> None:
                 service_day=row.get('day') or '',
                 service_hour=row.get('hour') or '',
                 service_section=row.get('hour') or '',
-                reading_slot=row.get('slot') or '',
-                reading_type=row.get('slot') or '',
+                reading_slot=token_slot,
+                reading_type=token_slot,
                 source_ref=source_refs or token,
                 raw_ref=raw_refs,
                 normalized_ref=passage,
@@ -482,6 +501,7 @@ def main() -> None:
             passage = canonicalize_text_ref(superseded_ref)
             if not passage:
                 continue
+            token_slot = slot_for_passage(row.get('slot') or '', passage)
             add_row(
                 rows,
                 summary_counts,
@@ -501,8 +521,8 @@ def main() -> None:
                 service_day=row.get('day') or '',
                 service_hour=row.get('hour') or '',
                 service_section=row.get('hour') or '',
-                reading_slot=row.get('slot') or '',
-                reading_type=row.get('slot') or '',
+                reading_slot=token_slot,
+                reading_type=token_slot,
                 source_ref=superseded_ref,
                 raw_ref=raw_refs,
                 normalized_ref=passage,
@@ -573,6 +593,7 @@ def main() -> None:
     for idx, row in enumerate(bright_rows, 1):
         for token_order, token in enumerate(extract_text_ref_tokens(row.get('reference', '')), 1):
             passage = canonicalize_text_ref(token)
+            token_slot = slot_for_passage(row.get('reading_name') or '', passage)
             add_row(
                 rows,
                 summary_counts,
@@ -589,8 +610,8 @@ def main() -> None:
                 day_title='Bright Saturday',
                 service_day='Bright Saturday',
                 service_section=row.get('subsection') or row.get('section') or '',
-                reading_slot=row.get('reading_name') or '',
-                reading_type=row.get('reading_name') or '',
+                reading_slot=token_slot,
+                reading_type=token_slot,
                 source_ref=row.get('reference') or token,
                 raw_ref=row.get('reference') or '',
                 normalized_ref=passage,
