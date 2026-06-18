@@ -185,18 +185,61 @@ def source_ref_status(raw_ref: Optional[str]) -> tuple[str, str, str]:
     return 'repaired' if repaired != (raw_ref or '') else 'suspicious', ';'.join(warnings), repaired
 
 
+def _render_part(part: PassagePart) -> str:
+    if part.verse_start is None:
+        return str(part.chapter_start)
+    if part.chapter_start == part.chapter_end and part.verse_start == part.verse_end:
+        return f"{part.chapter_start}:{part.verse_start}"
+    if part.chapter_start == part.chapter_end:
+        return f"{part.chapter_start}:{part.verse_start}-{part.verse_end}"
+    return f"{part.chapter_start}:{part.verse_start}-{part.chapter_end}:{part.verse_end}"
+
+
+def _collapse_contiguous_verses(verses: list[int]) -> list[tuple[int, int]]:
+    if not verses:
+        return []
+    ranges: list[tuple[int, int]] = []
+    start = prev = verses[0]
+    for verse in verses[1:]:
+        if verse == prev + 1:
+            prev = verse
+            continue
+        ranges.append((start, prev))
+        start = prev = verse
+    ranges.append((start, prev))
+    return ranges
+
+
 def _canonical_from_parts(book_abbrev: str, parts: List[PassagePart]) -> str:
-    rendered = []
-    for part in parts:
-        if part.verse_start is None:
-            rendered.append(str(part.chapter_start))
-        elif part.chapter_start == part.chapter_end and part.verse_start == part.verse_end:
-            rendered.append(f"{part.chapter_start}:{part.verse_start}")
-        elif part.chapter_start == part.chapter_end:
-            rendered.append(f"{part.chapter_start}:{part.verse_start}-{part.verse_end}")
-        else:
-            rendered.append(f"{part.chapter_start}:{part.verse_start}-{part.chapter_end}:{part.verse_end}")
-    return f"{book_abbrev} {','.join(rendered)}"
+    # Canonicalize explicit verse-level references as sorted verse sets so
+    # contiguous comma-list forms and range forms compare equal, e.g.
+    # Ps 33:10,33:11 and Ps 33:10-11 both render as Ps 33:10-11.
+    # Cross-chapter spans stay as source-bounded ranges because expanding them
+    # safely needs chapter-length metadata that this parser does not own.
+    if parts and all(
+        part.verse_start is not None
+        and part.verse_end is not None
+        and part.chapter_start == part.chapter_end
+        and part.verse_end >= part.verse_start
+        for part in parts
+    ):
+        by_chapter: dict[int, set[int]] = {}
+        for part in parts:
+            verse_start = part.verse_start
+            verse_end = part.verse_end
+            if verse_start is None or verse_end is None:
+                continue
+            by_chapter.setdefault(part.chapter_start, set()).update(range(verse_start, verse_end + 1))
+        rendered = []
+        for chapter in sorted(by_chapter):
+            for start, end in _collapse_contiguous_verses(sorted(by_chapter[chapter])):
+                if start == end:
+                    rendered.append(f"{chapter}:{start}")
+                else:
+                    rendered.append(f"{chapter}:{start}-{end}")
+        return f"{book_abbrev} {','.join(rendered)}"
+
+    return f"{book_abbrev} {','.join(_render_part(part) for part in parts)}"
 
 
 @lru_cache(maxsize=65536)
