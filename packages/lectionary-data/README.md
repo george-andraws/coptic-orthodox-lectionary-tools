@@ -70,10 +70,10 @@ Structural-only occasions without a `gregorian_date` are not present in the dail
 
 ## Provenance
 
-- Package version: 1.1.0
-- Source repo commit: 4a78ec59580ad31fc6a17cec03544bba81241917
-- Generated at: 2026-06-18T21:35:01.383Z
-- Occasion index rows: 8003
+- Package version: 1.1.1
+- Source repo commit: 57636a15a6fb363847cd72492f531b64a8ac9c35
+- Generated at: 2026-06-18T23:06:32.780Z
+- Occasion index rows: 11923
 
 ## License
 
