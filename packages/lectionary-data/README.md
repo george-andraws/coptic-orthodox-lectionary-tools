@@ -69,9 +69,16 @@ Structural-only occasions without a `gregorian_date` are not present in the dail
 
 - Package version: 1.0.0
 - Source repo commit: d256c7affd1db09c7b77364911de64fc79d314a5
-- Generated at: 2026-06-17T11:25:45.482Z
+- Generated at: 2026-06-18T01:31:44.710Z
 - Occasion index rows: 8005
 
 ## License
 
-TODO: George needs to choose the license before publishing if this package should grant reuse rights. The package currently points npm at this README instead of inventing a license.
+This package is licensed under CC-BY-4.0.
+
+Required attribution:
+Coptic lectionary data from Light and Logos (andraws.net), licensed under CC BY 4.0.
+
+License deed: https://creativecommons.org/licenses/by/4.0/
+
+Scope: The lectionary readings and their liturgical assignments are the tradition of the Coptic Orthodox Church. This license applies to the compilation, structure, encoding, identity keys, and editorial curation in this dataset, not to the underlying tradition.

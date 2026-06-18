@@ -2,12 +2,13 @@
   "name": "@andraws/lectionary-data",
   "version": "1.0.0",
   "description": "Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readings.",
-  "license": "SEE LICENSE IN README.md",
+  "license": "CC-BY-4.0",
   "main": "index.js",
   "files": [
     "index.js",
     "meta.json",
     "README.md",
+    "LICENSE",
     "data/"
   ],
   "publishConfig": {

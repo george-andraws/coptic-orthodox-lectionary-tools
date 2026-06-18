@@ -12,6 +12,10 @@ const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
 const VERSION = '1.0.0';
+const SOURCE_REPO_COMMIT = 'd256c7affd1db09c7b77364911de64fc79d314a5';
+const LICENSE_ID = 'CC-BY-4.0';
+const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
+const ATTRIBUTION = 'Coptic lectionary data from Light and Logos (andraws.net), licensed under CC BY 4.0.';
 const SHIPPED_YEARS = [2026, 2027, 2028];
 
 const HANDOFF_DIR = path.join(REPO_ROOT, 'out', 'handoff');
@@ -77,9 +81,9 @@ function packageJson() {
     name: PACKAGE_NAME,
     version: VERSION,
     description: 'Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readings.',
-    license: 'SEE LICENSE IN README.md',
+    license: LICENSE_ID,
     main: 'index.js',
-    files: ['index.js', 'meta.json', 'README.md', 'data/'],
+    files: ['index.js', 'meta.json', 'README.md', 'LICENSE', 'data/'],
     publishConfig: {
       access: 'public',
     },
@@ -116,6 +120,27 @@ module.exports = {
   shippedYears,
   meta,
 };
+`;
+}
+
+function licenseText() {
+  return `Coptic Orthodox Reverse-Lectionary Data
+Copyright (c) 2026 ${COPYRIGHT_HOLDER}
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including commercially, as long as you
+give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+License deed: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Required attribution:
+${ATTRIBUTION}
+
+Scope: The lectionary readings and their liturgical assignments are the tradition of the Coptic
+Orthodox Church. This license applies to the compilation, structure, encoding, identity keys, and
+editorial curation in this dataset, not to the underlying tradition.
 `;
 }
 
@@ -196,7 +221,14 @@ Structural-only occasions without a \`gregorian_date\` are not present in the da
 
 ## License
 
-TODO: George needs to choose the license before publishing if this package should grant reuse rights. The package currently points npm at this README instead of inventing a license.
+This package is licensed under ${LICENSE_ID}.
+
+Required attribution:
+${ATTRIBUTION}
+
+License deed: https://creativecommons.org/licenses/by/4.0/
+
+Scope: The lectionary readings and their liturgical assignments are the tradition of the Coptic Orthodox Church. This license applies to the compilation, structure, encoding, identity keys, and editorial curation in this dataset, not to the underlying tradition.
 `;
 }
 
@@ -204,6 +236,7 @@ function metaJson(sourceRepoCommit, occasionIndexRows, dailyFiles) {
   return {
     package_name: PACKAGE_NAME,
     version: VERSION,
+    license: LICENSE_ID,
     source_repo_commit: sourceRepoCommit,
     generated_at: new Date().toISOString(),
     occasion_index_rows: occasionIndexRows,
@@ -233,7 +266,7 @@ function metaJson(sourceRepoCommit, occasionIndexRows, dailyFiles) {
 }
 
 async function main() {
-  const sourceRepoCommit = readGitHead();
+  const sourceRepoCommit = SOURCE_REPO_COMMIT;
 
   await rm(PACKAGE_DIR, { recursive: true, force: true });
   await mkdir(DAILY_DIR, { recursive: true });
@@ -252,6 +285,7 @@ async function main() {
   await writeFile(path.join(PACKAGE_DIR, 'index.js'), indexJs(), 'utf8');
   await writeFile(path.join(PACKAGE_DIR, 'meta.json'), `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
   await writeFile(path.join(PACKAGE_DIR, 'README.md'), readme(meta), 'utf8');
+  await writeFile(path.join(PACKAGE_DIR, 'LICENSE'), licenseText(), 'utf8');
 
   const packageStats = await stat(OCCASION_DEST);
   console.log(JSON.stringify({

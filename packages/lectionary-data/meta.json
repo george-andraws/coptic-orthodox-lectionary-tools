@@ -1,8 +1,9 @@
 {
   "package_name": "@andraws/lectionary-data",
   "version": "1.0.0",
+  "license": "CC-BY-4.0",
   "source_repo_commit": "d256c7affd1db09c7b77364911de64fc79d314a5",
-  "generated_at": "2026-06-17T11:25:45.482Z",
+  "generated_at": "2026-06-18T01:31:44.710Z",
   "occasion_index_rows": 8005,
   "daily_files": [
     {
