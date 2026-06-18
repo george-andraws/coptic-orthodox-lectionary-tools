@@ -54,6 +54,11 @@ def env_flag(name: str) -> bool:
 
 DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
 
+
+def normalize_copticchurch_title(value: str) -> str:
+    return (value or '').replace('Fast of Ninevah', 'Fast of Nineveh')
+
+
 READING_COLUMNS = [
     ('vespers_psalm', 'V_Psalm_Ref'),
     ('vespers_gospel', 'V_Gospel_Ref'),
@@ -227,17 +232,17 @@ def build_passage_index(cycle_rows: List[dict], books: Dict[int, str]) -> List[d
 
 def parse_copticchurch_html(html: str, date: dt.date) -> Tuple[dict, List[dict]]:
     soup = BeautifulSoup(html, 'html.parser')
-    title = soup.title.get_text(' ', strip=True) if soup.title else ''
+    title = normalize_copticchurch_title(soup.title.get_text(' ', strip=True) if soup.title else '')
     content = soup.select_one('.col-lg-9') or soup.body
     headings = content.find_all(['h1','h2','h3','h4','h5']) if content else []
     day_title = ''
     if len(headings) >= 2 and headings[1].name == 'h2':
-        day_title = headings[1].get_text(' ', strip=True)
+        day_title = normalize_copticchurch_title(headings[1].get_text(' ', strip=True))
     section = ''
     reading_type = ''
     out=[]
     for h in headings:
-        text = h.get_text(' ', strip=True)
+        text = normalize_copticchurch_title(h.get_text(' ', strip=True))
         if h.name == 'h2':
             # Ignore day title if first h2, otherwise this is service section/hour.
             if text != day_title:

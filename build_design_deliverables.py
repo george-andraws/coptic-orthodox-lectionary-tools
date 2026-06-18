@@ -328,7 +328,7 @@ GENERIC_CYCLE_OCCASION_LABELS = {
     # labels across many different dates. They are rule/cycle labels, not one
     # specific dated occasion.
     "Great Lent",
-    "Fast of Ninevah",
+    "Fast of Nineveh",
 }
 
 GOSPEL_BOOKS = {"Matt", "Mark", "Lk", "Jn"}
