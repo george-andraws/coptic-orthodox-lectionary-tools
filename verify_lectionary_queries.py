@@ -256,6 +256,58 @@ def assert_malformed_refs_accounted_for():
 
 
 
+def assert_problem3_invalid_span_repairs():
+    repair_rows = list(csv.DictReader(REPAIR_REPORT.open(newline='', encoding='utf-8'))) if REPAIR_REPORT.exists() else []
+    expected_repairs = {
+        ('Mesra 29', 'Liturgy', 'Acts of the Apostles', 'Acts 5:34:42'): 'Acts 5:34-42',
+        ('Abib 21', 'Matins', 'Gospel', 'Mk 19:9-13'): 'Mark 13:9-13',
+        ('Saturday of the fourth week of Great Lent', 'Liturgy', 'Psalm', 'Psalm 61:1  &  Psalm 610:5'): 'Psalm 61:1,5',
+        ('Mesra 23', 'Liturgy', 'Pauline Epistle', 'Rom 8:28:39'): 'Rom 8:28-39',
+        ('Mesra 27', 'Liturgy', 'Pauline Epistle', 'Rom 8:28:39'): 'Rom 8:28-39',
+        ('Mesra 25', 'Liturgy', 'Acts of the Apostles', 'Acts 18:24—  &  Acts 9:1-6'): 'Acts 18:24-28; Acts 19:1-6',
+    }
+    found = {}
+    for row in repair_rows:
+        key = (row.get('day_title', ''), row.get('service_section', ''), row.get('reading_type', ''), row.get('raw_ref', ''))
+        if key in expected_repairs and row.get('source_ref_status') == 'source_corrected':
+            found[key] = row.get('repaired_ref', '')
+    missing = {key: value for key, value in expected_repairs.items() if found.get(key) != value}
+    assert not missing, {'missing_problem3_repairs': missing, 'found': found}
+
+    crosswalk_rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
+    bad_normalized = {'Acts 5:34:42', 'Mk 19:9-13', 'Psalm 610:5', 'Rom 8:28:39', 'Wis 24:1-11', 'Acts 18:24—  &  Acts 9:1-6'}
+    normalized_hits = [
+        {'passage': row.get('passage'), 'normalized_ref': row.get('normalized_ref'), 'source_ref': row.get('source_ref')}
+        for row in crosswalk_rows
+        if row.get('passage') in bad_normalized or row.get('normalized_ref') in bad_normalized
+    ]
+    assert not normalized_hits, normalized_hits[:10]
+
+    sir_rows = [
+        row for row in crosswalk_rows
+        if row.get('source_kind') == 'pascha_day_hour'
+        and row.get('day_title') == 'Great Thursday'
+        and row.get('service_hour') == 'Third Hour'
+        and row.get('reading_slot') == 'OT2'
+        and row.get('passage') == 'Sir 24:1-11'
+    ]
+    assert sir_rows, 'Great Thursday Third Hour OT2 must be source-corrected from Wis 24:1-11 to Sir 24:1-11'
+    assert not any(
+        row.get('source_kind') == 'pascha_day_hour'
+        and row.get('day_title') == 'Great Thursday'
+        and row.get('service_hour') == 'Third Hour'
+        and row.get('reading_slot') == 'OT2'
+        and row.get('passage') == 'Wis 24:1-11'
+        for row in crosswalk_rows
+    )
+    return {
+        'source_corrected_copticchurch_cases': len(expected_repairs),
+        'great_thursday_wis_sir_corrected': True,
+        'bad_normalized_hits': 0,
+    }
+
+
+
 def normalized_key(value: object) -> str:
     return re.sub(r'\s+', ' ', str(value or '').strip()).casefold()
 
@@ -518,6 +570,7 @@ def main() -> None:
         'pascha_source_text_fully_parsed': assert_pascha_source_text_fully_parsed(),
         'four_maccabees_local_absence': assert_four_maccabees_local_absence_documented(),
         'malformed_ref_checks': assert_malformed_refs_accounted_for(),
+        'problem3_invalid_span_repairs': assert_problem3_invalid_span_repairs(),
         'duplicate_reading_tuple_guard': assert_no_duplicate_reading_tuples(),
         'hatur8_segmentation_deduped': assert_hatur8_segmentation_deduped(),
         'chapter_occurrence_label_columns': assert_chapter_occurrence_label_columns(),

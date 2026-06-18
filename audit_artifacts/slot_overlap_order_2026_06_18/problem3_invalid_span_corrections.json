@@ -1,0 +1,63 @@
+{
+  "problem3_cases": [
+    {
+      "problem": "Acts 34:42 | Mesra 29",
+      "raw_in_repo": "Acts 5:34:42",
+      "corrected": "Acts 5:34-42",
+      "source": "Katameros API api.katameros.app, queried 2026-06-18; repair note says live API returned Acts 5:34-42",
+      "basis": "sourced",
+      "location": "build_lectionary_reference.py COPTICCHURCH_SOURCE_CORRECTIONS; source_ref_repair_report.csv rows for Mesra 29"
+    },
+    {
+      "problem": "Mark 19:9-13 | Abib 21",
+      "raw_in_repo": "Mk 19:9-13",
+      "corrected": "Mark 13:9-13",
+      "source": "Katameros API api.katameros.app, queried 2026-06-18; repair note says live API returned Mark 13:9-13",
+      "basis": "sourced",
+      "location": "build_lectionary_reference.py COPTICCHURCH_SOURCE_CORRECTIONS; source_ref_repair_report.csv rows for Abib 21"
+    },
+    {
+      "problem": "Ps 610:5 | Saturday of the fourth week of Great Lent",
+      "raw_in_repo": "Psalm 61:1  &  Psalm 610:5",
+      "corrected": "Psalm 61:1,5",
+      "source": "Katameros API api.katameros.app, queried 2026-06-18; repair note says live API returned Ps 61:1,5",
+      "basis": "sourced",
+      "location": "build_lectionary_reference.py COPTICCHURCH_SOURCE_CORRECTIONS; source_ref_repair_report.csv rows for Saturday of the fourth week of Great Lent"
+    },
+    {
+      "problem": "Rom 28:39 | Mesra 23",
+      "raw_in_repo": "Rom 8:28:39",
+      "corrected": "Rom 8:28-39",
+      "source": "Katameros API api.katameros.app, queried 2026-06-18; repair note says live API returned Rom 8:28-39",
+      "basis": "sourced",
+      "location": "build_lectionary_reference.py COPTICCHURCH_SOURCE_CORRECTIONS; source_ref_repair_report.csv rows for Mesra 23"
+    },
+    {
+      "problem": "Rom 28:39 | Mesra 27",
+      "raw_in_repo": "Rom 8:28:39",
+      "corrected": "Rom 8:28-39",
+      "source": "Katameros API api.katameros.app, queried 2026-06-18; repair note says live API returned Rom 8:28-39",
+      "basis": "sourced",
+      "location": "build_lectionary_reference.py COPTICCHURCH_SOURCE_CORRECTIONS; source_ref_repair_report.csv rows for Mesra 27"
+    },
+    {
+      "problem": "Wis 24:1-11 | Great Thursday",
+      "raw_in_repo": "Wis 24:1-11",
+      "corrected": "Sir 24:1-11",
+      "source": "Katameros API api.katameros.app Great Thursday Third Hour, saved in audit_artifacts/slot_overlap_order_2026_06_18/raw/great_thursday_2026_katameros.json; extracted CSV shows Sirach 24:1-11",
+      "basis": "sourced",
+      "location": "build_lectionary_crosswalk.py PASCHA_CURATED_REF_CORRECTIONS"
+    },
+    {
+      "problem": "Acts 18:24-9:6 | Mesra 25",
+      "raw_in_repo": "Acts 18:24—  &  Acts 9:1-6",
+      "corrected": "Acts 18:24-28; Acts 19:1-6",
+      "source": "Katameros API api.katameros.app, queried 2026-06-18; repair note says live API returned Acts 18:24-28 and Acts 19:1-6",
+      "basis": "sourced",
+      "location": "build_lectionary_reference.py COPTICCHURCH_SOURCE_CORRECTIONS; source_ref_repair_report.csv rows for Mesra 25"
+    }
+  ],
+  "repair_report_rows": 104,
+  "normalized_bad_hits": [],
+  "open_items": []
+}
