@@ -339,6 +339,9 @@ def main() -> None:
 
     for idx, row in enumerate(cycle_rows, 1):
         passage = norm_passage(row)
+        source_type = row.get('source_type') or row.get('cycle') or ''
+        service_day = row.get('day_name') or row.get('day_key') or ''
+        liturgical_place = service_day if source_type == 'annual fixed Coptic day' and service_day else source_type
         add_row(
             rows,
             summary_counts,
@@ -350,11 +353,11 @@ def main() -> None:
             source_row_id=idx,
             source_order=idx,
             source_token_order=1,
-            liturgical_place=row.get('source_type') or row.get('cycle') or '',
+            liturgical_place=liturgical_place,
             calendar_key=row.get('day_key') or '',
             coptic_date=f"{row.get('month_name','')} {row.get('day','')}",
             day_title=row.get('day_name') or '',
-            service_day=row.get('day_name') or row.get('day_key') or '',
+            service_day=service_day,
             service_section=row.get('reading_slot') or '',
             reading_slot=row.get('reading_slot') or '',
             reading_type=row.get('source_table') or '',

@@ -1254,8 +1254,10 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         missing = expected_keys - actual_keys
         extra = actual_keys - expected_keys
         raise AssertionError(f"reverse_lectionary_index key mismatch: missing={len(missing)} extra={len(extra)}")
-    if len(index_rows) != 8003:
-        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 8003")
+    if len(index_rows) != 11923:
+        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11923")
+    if any(row.get("occasion") == "annual fixed Coptic day" for row in index_rows):
+        raise AssertionError("reverse_lectionary_index must resolve annual fixed Coptic day rows to specific Coptic dates")
     return index_rows, status_disagreements
 
 
