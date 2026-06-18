@@ -1,0 +1,58 @@
+[
+  {
+    "name": "palm_sunday_2026",
+    "date": "05-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/05-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/palm_sunday_2026_katameros.json",
+    "bytes": 38822,
+    "sha256": "a2388f9d888d5a3e3a0610b53554f58e07ba88b81b8980a86957847d4b56cb78"
+  },
+  {
+    "name": "pascha_monday_2026",
+    "date": "06-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/06-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/pascha_monday_2026_katameros.json",
+    "bytes": 72778,
+    "sha256": "eb4bf83ca8aef533782b250befabf8ee254bedb28dc2a7fd28341c3c9134676b"
+  },
+  {
+    "name": "pascha_tuesday_2026",
+    "date": "07-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/07-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/pascha_tuesday_2026_katameros.json",
+    "bytes": 107166,
+    "sha256": "491b1cdf9a9315795a1017fc9cb34aa073e61bbfcbe6564049c252e7e3b19e6b"
+  },
+  {
+    "name": "pascha_wednesday_2026",
+    "date": "08-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/08-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/pascha_wednesday_2026_katameros.json",
+    "bytes": 85865,
+    "sha256": "995b81a47d95b48609f66f07954f7c301f17c5cbd59427fcbf61fcc6ae675fc0"
+  },
+  {
+    "name": "great_thursday_2026",
+    "date": "09-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/09-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/great_thursday_2026_katameros.json",
+    "bytes": 133058,
+    "sha256": "06a67f49589305680687ea228f02d279802d7a9656c6cdc1ac1cd226c4bd9658"
+  },
+  {
+    "name": "good_friday_2026",
+    "date": "10-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/10-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/good_friday_2026_katameros.json",
+    "bytes": 127080,
+    "sha256": "8d9c8cb7f950ca3bbe3117f16bbe9deec5cece056dee57bca1acfeef076e9d7f"
+  },
+  {
+    "name": "bright_saturday_2026",
+    "date": "11-04-2026",
+    "url": "https://api.katameros.app/readings/gregorian/11-04-2026?languageId=2",
+    "path": "audit_artifacts/slot_overlap_order_2026_06_18/raw/bright_saturday_2026_katameros.json",
+    "bytes": 18090,
+    "sha256": "e86d25d4c0db46afe09a0cd9de9e7b52dc9c59463cbd54148e2e24d76ae1a5a3"
+  }
+]

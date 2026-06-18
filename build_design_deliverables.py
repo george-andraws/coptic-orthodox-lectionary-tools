@@ -423,6 +423,10 @@ def foundational_69_by_day_key() -> dict[str, dict]:
 
 
 def removed_marker_for(row: dict, ident: dict) -> str:
+    superseded_by_ref = row.get("superseded_by_ref", "")
+    if superseded_by_ref:
+        target = identity_for(superseded_by_ref, row.get("source_kind", ""))
+        return f"superseded by {target.get('identity_key', '')}"
     if row.get("day_title") != "Wednesday" or row.get("service_hour") not in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}:
         return ""
     if row.get("source_kind") not in {"pascha_day_hour", "pascha_source_text"}:
@@ -959,6 +963,8 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
     key = (row.get("day_title", ""), row.get("service_hour", ""), ref)
     if source_kind == "coptic_reader_fixture":
         return "current_confirmed_coptic_reader", "Current where fixture scope applies."
+    if row.get("superseded_by_ref", ""):
+        return "historical_candidate_removed", "Superseded split-span row preserved for overlap audit; authoritative source returned a continuous span."
     if removed_marker_for(row, ident):
         return "historical_candidate_removed", "Older Pascha source attests this placement, but the scoped Coptic Reader Wednesday Day fixture lacks it."
     if row.get("day_title") == "Wednesday" and row.get("service_hour") in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"} and source_kind == "pascha_day_hour":

@@ -412,7 +412,9 @@ def verify_rows() -> None:
         fail("Prov 4:4-5:4 must be normalized into Prov 4:4-27,5:1-4, not retained as a separate Wednesday Third Hour removed row")
     for row in removed_rows:
         marker = row.get("removed_marker", "")
-        if not marker.startswith("(removed, attested St. Mary Ottawa Holy Pascha") or "absent from Coptic Reader Wednesday Day fixture supplied by George" not in marker:
+        is_wednesday_fixture_marker = marker.startswith("(removed, attested St. Mary Ottawa Holy Pascha") and "absent from Coptic Reader Wednesday Day fixture supplied by George" in marker
+        is_superseded_marker = re.fullmatch(r"superseded by rid_[0-9a-f]{20}", marker) is not None
+        if not (is_wednesday_fixture_marker or is_superseded_marker):
             fail(f"Malformed removed_marker: {marker}")
     if any(r.get("display_ref") == "Isa 48:1-6" and r.get("current_status") != "historical_candidate_removed" for r in removed_rows):
         fail("Isa 48:1-6 must be retained only as a historical removed candidate")

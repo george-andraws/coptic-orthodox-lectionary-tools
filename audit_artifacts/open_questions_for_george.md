@@ -36,9 +36,9 @@ Marker-format decision: this run keeps `removed_marker` as a uniform prose-patte
 ## Temporal residue summary
 
 See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:
-- `candidate_removed_needs_current_authority_confirmation`: 10
-- `current_authority_pending`: 255
-- `historical_witness_no_current_comparator`: 148
+- `candidate_removed_needs_current_authority_confirmation`: 22
+- `current_authority_pending`: 249
+- `historical_witness_no_current_comparator`: 142
 - `psalm_equivalence_unresolved`: 5
 - `true_source_disagreement`: 0
 
@@ -46,6 +46,18 @@ No true source-disagreement class was emitted in this run. Unsettled rows are cl
 
 ### Rows with `removed_marker` populated by George's list
 
+- Monday | First Hour | Gen 2:1-3 | superseded by rid_1799bfb4477d9a219633
+- Monday | First Hour | Gen 1:1-31 | superseded by rid_1799bfb4477d9a219633
+- Monday | Ninth Hour | Gen 3:1-24 | superseded by rid_08ac8d6676963ff43fe0
+- Monday | Ninth Hour | Gen 2:15-25 | superseded by rid_08ac8d6676963ff43fe0
+- Tuesday | First Hour | Job 23:2-17 | superseded by rid_6546e2768925e859a2a6
+- Tuesday | First Hour | Job 24:1-25 | superseded by rid_6546e2768925e859a2a6
+- Tuesday Eve | Eleventh Hour | Mark 14:1-2 | superseded by rid_74d26750970f7379d7af
+- Tuesday Eve | Eleventh Hour | Mark 13:32-37 | superseded by rid_74d26750970f7379d7af
+- Tuesday Eve | Ninth Hour | Hos 10:12-15 | superseded by rid_bfa3449dafe309ebcb10
+- Tuesday Eve | Ninth Hour | Hos 11:1-2 | superseded by rid_bfa3449dafe309ebcb10
+- Tuesday Eve | Sixth Hour | Hos 4:15-19 | superseded by rid_6375e2206441e7c82c00
+- Tuesday Eve | Sixth Hour | Hos 5:1-7 | superseded by rid_6375e2206441e7c82c00
 - Wednesday | Ninth Hour | Isa 48:1-6 | (removed, attested St. Mary Ottawa Holy Pascha p. 308 line 7779 as Isa 48:1-6; absent from Coptic Reader Wednesday Day fixture supplied by George)
 - Wednesday | Ninth Hour | Isa 59:1-17 | (removed, attested St. Mary Ottawa Holy Pascha p. 320 line 8091 as Isa 59:1-17; absent from Coptic Reader Wednesday Day fixture supplied by George)
 - Wednesday | Ninth Hour | Prov 1:10-33 | (removed, attested St. Mary Ottawa Holy Pascha p. 318 line 8038 as Prov 1:10-33; absent from Coptic Reader Wednesday Day fixture supplied by George)
@@ -70,7 +82,7 @@ No true source-disagreement class was emitted in this run. Unsettled rows are cl
 
 ### Current-authority pending class
 
-There are 255 rows not checked by a captured Coptic Reader fixture and not confirmed by two independent sources. Use `out/design/temporal_residue.csv` for the full list. Sample rows:
+There are 249 rows not checked by a captured Coptic Reader fixture and not confirmed by two independent sources. Use `out/design/temporal_residue.csv` for the full list. Sample rows:
 - Bright Saturday | Liturgy | Ps 3:5,3:3
 - Bright Saturday | Liturgy | 1Cor 15:1-22
 - Bright Saturday | Liturgy | Acts 3:12-21
@@ -96,7 +108,7 @@ There are 255 rows not checked by a captured Coptic Reader fixture and not confi
 - Good Friday | First Hour | Ps 27:12 (LXX Ps 26:12)
 - Good Friday | First Hour | Jer 22:29-23:6
 - Good Friday | First Hour | Mark 15:1-5
-- ... 230 more current-authority pending rows.
+- ... 224 more current-authority pending rows.
 
 
 ## Synaxarium bridge review

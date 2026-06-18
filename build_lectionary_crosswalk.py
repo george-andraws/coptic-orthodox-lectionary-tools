@@ -63,6 +63,8 @@ FIELDS = [
     'source_row_id',
     'source_order',
     'source_token_order',
+    'superseded_by_ref',
+    'superseded_reason',
     'liturgical_place',
     'calendar_key',
     'gregorian_date',
@@ -156,6 +158,36 @@ def pascha_ref_correction_key(day: str, hour: str, slot: str, refs: str) -> tupl
 
 
 PASCHA_CURATED_REF_CORRECTIONS = {
+    pascha_ref_correction_key('Monday', 'First Hour', 'OT1', 'Gen 1:1-31; Gen 2:1-3'): {
+        'refs': 'Gen 1:1-2:3',
+        'superseded_refs': ['Gen 1:1-31', 'Gen 2:1-3'],
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Genesis ref 1:1-2:3 for Monday First Hour OT1',
+    },
+    pascha_ref_correction_key('Monday', 'Ninth Hour', 'OT1', 'Gen 2:15-25; Gen 3:1-24'): {
+        'refs': 'Gen 2:15-3:24',
+        'superseded_refs': ['Gen 2:15-25', 'Gen 3:1-24'],
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Genesis ref 2:15-3:24 for Monday Ninth Hour OT1',
+    },
+    pascha_ref_correction_key('Tuesday', 'First Hour', 'OT2', 'Job 23:2-17; Job 24:1-25'): {
+        'refs': 'Job 23:2-24:25',
+        'superseded_refs': ['Job 23:2-17', 'Job 24:1-25'],
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Job ref 23:2-24:25 for Tuesday First Hour OT2',
+    },
+    pascha_ref_correction_key('Tuesday Eve', 'Sixth Hour', 'OT1', 'Hos 4:15-19; Hos 5:1-7'): {
+        'refs': 'Hos 4:15-5:7',
+        'superseded_refs': ['Hos 4:15-19', 'Hos 5:1-7'],
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Hosea ref 4:15-5:7 for Eve of Pascha Tuesday Sixth Hour OT1',
+    },
+    pascha_ref_correction_key('Tuesday Eve', 'Ninth Hour', 'OT1', 'Hos 10:12-15; Hos 11:1-2'): {
+        'refs': 'Hos 10:12-11:2',
+        'superseded_refs': ['Hos 10:12-15', 'Hos 11:1-2'],
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Hosea ref 10:12-11:2 for Eve of Pascha Tuesday Ninth Hour OT1',
+    },
+    pascha_ref_correction_key('Tuesday Eve', 'Eleventh Hour', 'Psalm+Gospel', 'Ps 122:4; Mark 13:32-37; Mark 14:1-2'): {
+        'refs': 'Ps 122:4; Mark 13:32-14:2',
+        'superseded_refs': ['Mark 13:32-37', 'Mark 14:1-2'],
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Mark ref 13:32-14:2 for Eve of Pascha Tuesday Eleventh Hour Gospel',
+    },
     pascha_ref_correction_key('Great Thursday', 'Third Hour', 'OT2', 'Wis 24:1-11'): {
         'refs': 'Sir 24:1-11',
         'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Sir 24:1-11',
@@ -177,6 +209,7 @@ def apply_pascha_curated_ref_correction(row: dict) -> dict:
     corrected['_raw_refs'] = row.get('refs', '')
     corrected['_ref_correction_note'] = correction['note']
     corrected['refs'] = correction['refs']
+    corrected['_superseded_refs'] = correction.get('superseded_refs', [])
     return corrected
 
 
@@ -419,6 +452,37 @@ def main() -> None:
                 raw_ref=raw_refs,
                 normalized_ref=passage,
                 significance_note=significance_note,
+                provenance=row.get('source') or 'pascha_day_hour_index',
+            )
+        for superseded_order, superseded_ref in enumerate(corrected_row.get('_superseded_refs') or [], 1):
+            passage = canonicalize_text_ref(superseded_ref)
+            if not passage:
+                continue
+            add_row(
+                rows,
+                summary_counts,
+                passage,
+                'pascha_day_hour',
+                source_family='holy_pascha_curated_day_hour',
+                source_table='pascha_day_hour_index',
+                source_file=display_path(pascha_source) if pascha_source.exists() else '',
+                source_row_id=idx,
+                source_order=corrected_row.get('order') or idx,
+                source_token_order=superseded_order,
+                superseded_by_ref=source_refs,
+                superseded_reason=correction_note,
+                liturgical_place=row.get('day') or '',
+                calendar_key=f"{row.get('day','')} | {row.get('hour','')}",
+                day_title=row.get('day') or '',
+                service_day=row.get('day') or '',
+                service_hour=row.get('hour') or '',
+                service_section=row.get('hour') or '',
+                reading_slot=row.get('slot') or '',
+                reading_type=row.get('slot') or '',
+                source_ref=superseded_ref,
+                raw_ref=raw_refs,
+                normalized_ref=passage,
+                significance_note=f"{significance_note}; superseded_split_span_preserved_for_overlap_audit",
                 provenance=row.get('source') or 'pascha_day_hour_index',
             )
 
