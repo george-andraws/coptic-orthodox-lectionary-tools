@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readings.",
   "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-andraws/coptic-orthodox-lectionary-tools.git"
+  },
   "main": "index.js",
   "files": [
     "index.js",

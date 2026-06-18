@@ -16,6 +16,7 @@ const SOURCE_REPO_COMMIT = 'd256c7affd1db09c7b77364911de64fc79d314a5';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
 const ATTRIBUTION = 'Coptic lectionary data from Light and Logos (andraws.net), licensed under CC BY 4.0.';
+const REPOSITORY_URL = 'git+https://github.com/george-andraws/coptic-orthodox-lectionary-tools.git';
 const SHIPPED_YEARS = [2026, 2027, 2028];
 
 const HANDOFF_DIR = path.join(REPO_ROOT, 'out', 'handoff');
@@ -82,6 +83,10 @@ function packageJson() {
     version: VERSION,
     description: 'Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readings.',
     license: LICENSE_ID,
+    repository: {
+      type: 'git',
+      url: REPOSITORY_URL,
+    },
     main: 'index.js',
     files: ['index.js', 'meta.json', 'README.md', 'LICENSE', 'data/'],
     publishConfig: {
