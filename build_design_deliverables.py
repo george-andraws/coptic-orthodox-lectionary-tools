@@ -2428,6 +2428,59 @@ def update_open_questions(commems: list[dict], bridge: list[dict], temporal_resi
 
 This file collects only the questions that thorough research, source comparison, and independent audit could not settle during the autonomous lectionary execution run.
 
+## 2026-06-18 adjudication residue for George and Fr. Boulos
+
+Use this section for a review session with Fr. Boulos where a liturgical or theological ruling is needed. Each item separates sourced evidence, local inference, and what would resolve the question.
+
+### P2 genuine source disagreements
+
+These are not span-format duplicates. They remain open because the competing verse sets or boundaries differ.
+
+1. Great Thursday Eve, Ninth Hour: `Jer 9:6-10` vs `Jer 9:7-11`
+   - Competing options: keep `Jer 9:6-10`; keep `Jer 9:7-11`; or preserve both as separate source witnesses until a current authority resolves the boundary.
+   - Source situation: SOURCED disagreement inside the repo. The curated/API Pascha layer has `Jer 9:6-10`; the St. Mary Ottawa source-text layer has `Jer 9:7-11` in the same service hour.
+   - What would resolve it: current Coptic Reader evidence, a current printed Pascha book, or Fr. Boulos ruling which boundary should be treated as current practice.
+2. PRAISES OF THE PROPHETS, Midnight Praises: `Isa 26:9-20` vs `Isa 26:1-9`
+   - Competing options: keep `Isa 26:9-20`; keep `Isa 26:1-9`; or preserve both as source-specific rows.
+   - Source situation: SOURCED disagreement in local source rows for the same Midnight Praises placement. No controlling external source is encoded in this repo.
+   - What would resolve it: the current service book or Coptic Reader source for Praises of the Prophets, plus Fr. Boulos review if both traditions are in active use.
+3. Tuesday Eve, First Hour: `Ps 62:7,62:2` vs `Ps 62:7,62:6`
+   - Competing options: keep the verse set `{62:7, 62:2}`; keep `{62:7, 62:6}`; or preserve both as source-specific Psalm witnesses.
+   - Source situation: SOURCED disagreement after verse-set canonicalization. These are not equal sets, so CHANGE 1 intentionally did not collapse them.
+   - What would resolve it: source text or Coptic Reader Psalm text for Tuesday Eve First Hour, with Psalm numbering and verse text checked explicitly.
+4. `myron_consecration`, liturgy: `1Jn 5:5-13` vs `1Jn 5:1-21`
+   - Competing options: keep the shorter Catholic Epistle `1Jn 5:5-13`; keep the longer `1Jn 5:1-21`; or preserve both until the rite-book source is checked.
+   - Source situation: SOURCED disagreement in the local special-service layer. The repo does not encode a decisive external ruling.
+   - What would resolve it: the current Myron consecration rite book or another authoritative printed source, followed by Fr. Boulos review if the sources differ.
+
+### P2 inferred merges already applied locally, pending external confirmation
+
+These local cleanups are low-risk because they join contiguous cross-chapter segments from the same source row. They remain flagged as INFERRED until a current external source confirms the continuous form.
+
+1. Tuesday Eve Eleventh Hour: `Mark 13:32-14:2`
+   - Applied local merge: `Mark 13:32-37` plus `Mark 14:1-2` became `Mark 13:32-14:2`.
+   - Source situation: INFERRED local canonical merge of adjacent same-book segments.
+   - What would resolve it: current Coptic Reader or printed Pascha source showing the continuous Mark span.
+2. Tuesday Eve Ninth Hour: `Hos 10:12-11:2`
+   - Applied local merge: `Hos 10:12-15` plus `Hos 11:1-2` became `Hos 10:12-11:2`.
+   - Source situation: INFERRED local canonical merge of adjacent same-book segments.
+   - What would resolve it: current Coptic Reader or printed Pascha source showing the continuous Hosea span.
+3. Tuesday Eve Sixth Hour: `Hos 4:15-5:7`
+   - Applied local merge: `Hos 4:15-19` plus `Hos 5:1-7` became `Hos 4:15-5:7`.
+   - Source situation: INFERRED local canonical merge of adjacent same-book segments.
+   - What would resolve it: current Coptic Reader or printed Pascha source showing the continuous Hosea span.
+
+### P4 prophecy-ordering confirmation gaps
+
+The order audit has 47 open rows whose order is held from the St. Mary Ottawa source text but not externally cross-confirmed. Summary from `audit_artifacts/slot_overlap_order_2026_06_18/problem4_pascha_prophecy_ordering.md`:
+
+- `open_items`: 47
+- `source_text_only_open`: 44
+- `open_no_source_match`: 3
+- `mismatches_after_fix`: 0
+
+Review path: use `audit_artifacts/slot_overlap_order_2026_06_18/problem4_pascha_prophecy_ordering.md` as the row-level review agenda. What would resolve the group is a current Coptic Reader or curated/API source that confirms each source-text-only prophecy's order, or a ruling that St. Mary source-text order is sufficient for these rows.
+
 ## Youssef 15 weeks or 107 days
 
 ACCOT confirms the wording `(15 weeks or 107 days)`. Since 15 weeks is 105 days, the article reports Youssef's figure as given and notes the arithmetic issue.

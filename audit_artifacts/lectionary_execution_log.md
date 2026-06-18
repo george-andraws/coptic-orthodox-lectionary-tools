@@ -365,3 +365,12 @@
 - Auditor: `xai-oauth/grok-4.3`, using Hermes one-shot with the `file` toolset only. No web/search/fetch tools were enabled.
 - Audit artifact: `audit_artifacts/phase9_grok_split_collapse_audit.md`.
 - Final audit verdict: PASS. Grok found no sign of reading loss and confirmed the distinct-source count per reading was unchanged by the disclosure collapse.
+
+### Step 16 - 2026-06-18 cleanup adjudication prep
+- Producer: `openai-codex/gpt-5.5`.
+- Version decision: `npm view @andraws/lectionary-data versions --json` showed `1.0.0` and `1.0.1`; `1.1.0` remains unpublished and is the selected package version for this cleanup.
+- CHANGE 1 commit: `6322280` canonicalized verse-set span references so contiguous comma-list forms and range forms collapse when they represent the same sorted verse set. Targeted validation passed for `Ps 33:10,33:11` to `Ps 33:10-11`, while `Ps 62:7,62:2` and `Ps 62:7,62:6` remained distinct; `python3 -m py_compile passage_normalization.py`; `git diff --check -- passage_normalization.py`.
+- CHANGE 2 commit: `7c210b6` corrected the exact `Fast of Ninevah` source title/day-title label to `Fast of Nineveh` and left `Great Lent/Jonah/Nineveh cycle` unchanged. Targeted validation passed against cached `2026-02-02` copticchurch HTML; `python3 -m py_compile build_lectionary_reference.py build_design_deliverables.py`; `git diff --check -- build_lectionary_reference.py build_design_deliverables.py`.
+- CHANGE 3 commit: `ab0a677` retired `Psalm+Gospel` and `Psalm + Gospel` token rows by assigning each extracted passage token to `Psalm`, `Gospel`, or `source_label_preserved`. Targeted validation over existing Pascha and Bright Saturday source rows found `67` active Psalm tokens, `92` active Gospel tokens, `2` superseded Gospel audit tokens, and `0` ambiguous preserved tokens; `python3 -m py_compile build_lectionary_crosswalk.py build_design_deliverables.py`; `git diff --check -- build_lectionary_crosswalk.py build_design_deliverables.py`.
+- Documentation update: `audit_artifacts/open_questions_for_george.md` now has a 2026-06-18 adjudication section for George and Fr. Boulos covering the P2 genuine source disagreements, the P2 inferred local merges pending external confirmation, and the P4 prophecy-ordering gap pointer.
+- Full rebuild, query verifier, design verifier, package build, and `npm pack` tarball validation are intentionally deferred to the separate rebuild/package commit.
