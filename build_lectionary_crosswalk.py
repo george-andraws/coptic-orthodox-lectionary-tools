@@ -144,6 +144,40 @@ KNOWN_PASCHA_SOURCE_TEXT_MISEXTRACTIONS = {
 }
 
 
+def pascha_ref_correction_key(day: str, hour: str, slot: str, refs: str) -> tuple[str, str, str, str]:
+    return (
+        norm_key(day),
+        norm_key(hour),
+        norm_key(slot),
+        re.sub(r'\s+', ' ', (refs or '').replace('—', '-').replace('–', '-').strip()).casefold(),
+    )
+
+
+PASCHA_CURATED_REF_CORRECTIONS = {
+    pascha_ref_correction_key('Great Thursday', 'Third Hour', 'OT2', 'Wis 24:1-11'): {
+        'refs': 'Sir 24:1-11',
+        'note': 'source_corrected_from_katameros_api_2026_06_18; live API returned Sir 24:1-11',
+    },
+}
+
+
+def apply_pascha_curated_ref_correction(row: dict) -> dict:
+    key = pascha_ref_correction_key(
+        row.get('day', ''),
+        row.get('hour', ''),
+        row.get('slot', ''),
+        row.get('refs', ''),
+    )
+    correction = PASCHA_CURATED_REF_CORRECTIONS.get(key)
+    if not correction:
+        return row
+    corrected = dict(row)
+    corrected['_raw_refs'] = row.get('refs', '')
+    corrected['_ref_correction_note'] = correction['note']
+    corrected['refs'] = correction['refs']
+    return corrected
+
+
 def display_path(path: Path) -> str:
     try:
         return str(path.relative_to(WORK))
@@ -342,7 +376,14 @@ def main() -> None:
     pascha_day_hour_keys: set[tuple[str, str]] = set()
 
     for idx, row in enumerate(pascha_rows, 1):
-        for token in extract_text_ref_tokens(row.get('refs', '')):
+        corrected_row = apply_pascha_curated_ref_correction(row)
+        source_refs = corrected_row.get('refs', '')
+        raw_refs = corrected_row.get('_raw_refs') or row.get('refs', '')
+        correction_note = corrected_row.get('_ref_correction_note', '')
+        significance_note = f"Pascha source={row.get('source','')}"
+        if correction_note:
+            significance_note = f"{significance_note}; {correction_note}"
+        for token in extract_text_ref_tokens(source_refs):
             passage = canonicalize_text_ref(token)
             pascha_day_hour_keys.add(pascha_day_passage_key(row.get('day', ''), passage))
             add_row(
@@ -362,10 +403,10 @@ def main() -> None:
                 service_section=row.get('hour') or '',
                 reading_slot=row.get('slot') or '',
                 reading_type=row.get('slot') or '',
-                source_ref=row.get('refs') or token,
-                raw_ref=row.get('refs') or '',
+                source_ref=source_refs or token,
+                raw_ref=raw_refs,
                 normalized_ref=passage,
-                significance_note=f"Pascha source={row.get('source','')}",
+                significance_note=significance_note,
                 provenance=row.get('source') or 'pascha_day_hour_index',
             )
 

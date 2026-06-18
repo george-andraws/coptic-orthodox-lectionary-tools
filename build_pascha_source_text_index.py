@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
 import shutil
 from pathlib import Path
@@ -23,6 +24,13 @@ SOURCES = ROOT / 'out' / 'sources'
 SOURCE_FILE = SOURCES / 'St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt'
 VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault')
 VAULT_DATA = VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data'
+
+
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, '').strip().lower() in {'1', 'true', 'yes', 'on'}
+
+
+DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
 
 BOOK_PATTERN = (
     r'(Genesis|Gen|Exodus|Exod|Leviticus|Lev|Numbers|Num|Deuteronomy|Deut|Joshua|Josh|Judges|Judg|Ruth|'
@@ -206,7 +214,7 @@ def main() -> None:
     jsonl_path = DATA / 'pascha_source_text_index.jsonl'
     write_csv(csv_path, rows, FIELDS)
     write_jsonl(jsonl_path, rows)
-    if VAULT_DATA.exists():
+    if not DISABLE_VAULT_PUBLISH and VAULT_DATA.exists():
         shutil.copy2(csv_path, VAULT_DATA / csv_path.name)
         shutil.copy2(jsonl_path, VAULT_DATA / jsonl_path.name)
     print(json.dumps({

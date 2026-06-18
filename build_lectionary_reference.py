@@ -31,6 +31,7 @@ from passage_normalization import (
     extract_text_ref_tokens,
     iter_numeric_ref_segments,
     normalize_numeric_ref,
+    repair_source_ref,
     is_numeric_query,
     passage_matches,
     source_ref_status,
@@ -46,6 +47,13 @@ SOURCES_OUT = OUT / 'sources'
 SCRIPTS = OUT / 'scripts'
 VAULT_PACKAGE = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference')
 
+
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, '').strip().lower() in {'1', 'true', 'yes', 'on'}
+
+
+DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
+
 READING_COLUMNS = [
     ('vespers_psalm', 'V_Psalm_Ref'),
     ('vespers_gospel', 'V_Gospel_Ref'),
@@ -58,6 +66,61 @@ READING_COLUMNS = [
     ('liturgy_gospel', 'L_Gospel_Ref'),
 ]
 
+
+def correction_key(day_title: str, service_section: str, reading_type: str, raw_ref: str) -> tuple[str, str, str, str]:
+    cleaned_ref = repair_source_ref(raw_ref)
+    cleaned_ref = re.sub(r'\s+', ' ', cleaned_ref).strip()
+    return (
+        re.sub(r'\s+', ' ', (day_title or '').strip()).casefold(),
+        re.sub(r'\s+', ' ', (service_section or '').strip()).casefold(),
+        re.sub(r'\s+', ' ', (reading_type or '').strip()).casefold(),
+        cleaned_ref.casefold(),
+    )
+
+
+COPTICCHURCH_SOURCE_CORRECTIONS = {
+    correction_key('Saturday of the fourth week of Great Lent', 'Liturgy', 'Psalm', 'Psalm 61:1  &  Psalm 610:5'): {
+        'normalized_ref': 'Psalm 61:1,5',
+        'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5',
+    },
+    correction_key('Abib 21', 'Matins', 'Gospel', 'Mk 19:9-13'): {
+        'normalized_ref': 'Mark 13:9-13',
+        'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13',
+    },
+    correction_key('Mesra 23', 'Liturgy', 'Pauline Epistle', 'Rom 8:28:39'): {
+        'normalized_ref': 'Rom 8:28-39',
+        'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39',
+    },
+    correction_key('Mesra 27', 'Liturgy', 'Pauline Epistle', 'Rom 8:28:39'): {
+        'normalized_ref': 'Rom 8:28-39',
+        'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39',
+    },
+    correction_key('Mesra 25', 'Liturgy', 'Acts of the Apostles', 'Acts 18:24-  &  Acts 9:1-6'): {
+        'normalized_ref': 'Acts 18:24-28; Acts 19:1-6',
+        'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6',
+    },
+    correction_key('Mesra 29', 'Liturgy', 'Acts of the Apostles', 'Acts 5:34:42'): {
+        'normalized_ref': 'Acts 5:34-42',
+        'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42',
+    },
+}
+
+
+def apply_copticchurch_source_correction(row: dict) -> dict:
+    key = correction_key(
+        row.get('day_title', ''),
+        row.get('service_section', ''),
+        row.get('reading_type', ''),
+        row.get('raw_ref', ''),
+    )
+    correction = COPTICCHURCH_SOURCE_CORRECTIONS.get(key)
+    if not correction:
+        return row
+    row = dict(row)
+    row['normalized_ref'] = correction['normalized_ref']
+    row['parse_status'] = 'source_corrected'
+    row['normalization_warning'] = correction['normalization_warning']
+    return row
 
 
 def ensure_dirs():
@@ -186,7 +249,7 @@ def parse_copticchurch_html(html: str, date: dt.date) -> Tuple[dict, List[dict]]
             if not ref or ref.lower().startswith('readings for'):
                 continue
             parse_status, normalization_warning, repaired_ref = source_ref_status(ref)
-            out.append({
+            row = {
                 'source':'copticchurch.net daily scrape',
                 'gregorian_date': date.isoformat(),
                 'weekday': date.strftime('%A'),
@@ -198,7 +261,8 @@ def parse_copticchurch_html(html: str, date: dt.date) -> Tuple[dict, List[dict]]
                 'parse_status': parse_status,
                 'normalization_warning': normalization_warning,
                 'url': f'https://copticchurch.net/readings?g_year={date.year}&g_month={date.month:02d}&g_day={date.day:02d}'
-            })
+            }
+            out.append(apply_copticchurch_source_correction(row))
     meta={'date':date.isoformat(),'title':title,'day_title':day_title,'reading_count':len(out)}
     return meta,out
 
@@ -351,6 +415,8 @@ def write_query_script():
 
 def publish_verified_package() -> int:
     """Publish the verified local out/ package to the Obsidian reference package."""
+    if DISABLE_VAULT_PUBLISH:
+        return 0
     published = 0
     for src_dir_name in ['data', 'scripts', 'sources']:
         src_dir = OUT / src_dir_name
@@ -411,9 +477,10 @@ def main():
     (OUT/'BUILD_SUMMARY.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
     published_file_count = publish_verified_package()
     summary['published_file_count'] = published_file_count
-    summary['published_to'] = str(VAULT_PACKAGE)
+    summary['published_to'] = str(VAULT_PACKAGE) if not DISABLE_VAULT_PUBLISH else str(OUT)
     (OUT/'BUILD_SUMMARY.json').write_text(json.dumps(summary,indent=2),encoding='utf-8')
-    shutil.copy2(OUT/'BUILD_SUMMARY.json', VAULT_PACKAGE / 'BUILD_SUMMARY.json')
+    if not DISABLE_VAULT_PUBLISH:
+        shutil.copy2(OUT/'BUILD_SUMMARY.json', VAULT_PACKAGE / 'BUILD_SUMMARY.json')
     print(json.dumps(summary,indent=2))
 
 if __name__ == '__main__':

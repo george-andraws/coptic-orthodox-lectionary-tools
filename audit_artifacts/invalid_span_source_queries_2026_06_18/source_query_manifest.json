@@ -1,0 +1,91 @@
+{
+  "created_at": "2026-06-18",
+  "head_at_query_time": "6a8e6d39c64566d568a196cf0ffebe3115de03c5",
+  "api_base": "https://api.katameros.app",
+  "records": [
+    {
+      "invalid_span": "Acts 34:42",
+      "occasion": "Mesra 29",
+      "query_made": "GET /readings/gregorian/04-09-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/04-09-2026?languageId=2",
+      "raw_response_file": "raw/mesra29_2026_katameros.json",
+      "returned_reading_reference": "Acts 5:34-42",
+      "returned_slot": "Liturgy | Acts of the Apostles",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "b9b265f2dd446058dfb76a631c480ba38a5f09ac066fcd91a58924a4e0bb66d2",
+      "raw_response_bytes": 18830
+    },
+    {
+      "invalid_span": "Mark 19:9-13",
+      "occasion": "Abib 21",
+      "query_made": "GET /readings/gregorian/28-07-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/28-07-2026?languageId=2",
+      "raw_response_file": "raw/abib21_2026_katameros.json",
+      "returned_reading_reference": "Mark 13:9-13",
+      "returned_slot": "Matins | Psalm & Gospel | Gospel",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "ca4482ce47b710ac56baf7654820f8e14c6d34d13fa4875a20121558795dbe23",
+      "raw_response_bytes": 20454
+    },
+    {
+      "invalid_span": "Ps 610:5",
+      "occasion": "Saturday of the fourth week of Great Lent",
+      "query_made": "GET /readings/gregorian/14-03-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/14-03-2026?languageId=2",
+      "raw_response_file": "raw/great_lent_saturday_week4_2026_katameros.json",
+      "returned_reading_reference": "Ps 61:1,5",
+      "returned_slot": "Liturgy | Psalm & Gospel | Psalm",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "5ef34ff2912123a66162ce351d4010a24bf583d247a0749929dfb941a5b258b2",
+      "raw_response_bytes": 20290
+    },
+    {
+      "invalid_span": "Rom 28:39",
+      "occasion": "Mesra 23",
+      "query_made": "GET /readings/gregorian/29-08-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/29-08-2026?languageId=2",
+      "raw_response_file": "raw/mesra23_2026_katameros.json",
+      "returned_reading_reference": "Rom 8:28-39",
+      "returned_slot": "Liturgy | Pauline Epistle",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "2fd30381766f54b4d8d26881a3619189259fabf5723e5ad899780677492ca596",
+      "raw_response_bytes": 19361
+    },
+    {
+      "invalid_span": "Rom 28:39",
+      "occasion": "Mesra 27",
+      "query_made": "GET /readings/gregorian/02-09-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/02-09-2026?languageId=2",
+      "raw_response_file": "raw/mesra27_2026_katameros.json",
+      "returned_reading_reference": "Rom 8:28-39",
+      "returned_slot": "Liturgy | Pauline Epistle",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "aa59936f757fb1fffcb79b7d1ca91c749018abdbaf1fbfcae8f7ba5c6e11ceea",
+      "raw_response_bytes": 20275
+    },
+    {
+      "invalid_span": "Wis 24:1-11",
+      "occasion": "Great Thursday",
+      "query_made": "GET /readings/gregorian/09-04-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/09-04-2026?languageId=2",
+      "raw_response_file": "raw/great_thursday_2026_katameros.json",
+      "returned_reading_reference": "Sir 24:1-11",
+      "returned_slot": "Third Hour | OT2",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "06a67f49589305680687ea228f02d279802d7a9656c6cdc1ac1cd226c4bd9658",
+      "raw_response_bytes": 133058
+    },
+    {
+      "invalid_span": "Acts 18:24-9:6",
+      "occasion": "Mesra 25",
+      "query_made": "GET /readings/gregorian/31-08-2026?languageId=2",
+      "source_url": "https://api.katameros.app/readings/gregorian/31-08-2026?languageId=2",
+      "raw_response_file": "raw/mesra25_2026_katameros.json",
+      "returned_reading_reference": "Acts 18:24-28; Acts 19:1-6",
+      "returned_slot": "Liturgy | Acts of the Apostles",
+      "source_status": "SOURCED from Katameros API live response",
+      "raw_response_sha256": "bfe459325a5f00948796640887d1f7747f8cb576aac844161814687447d9224e",
+      "raw_response_bytes": 22007
+    }
+  ]
+}

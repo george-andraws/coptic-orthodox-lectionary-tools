@@ -1,0 +1,129 @@
+
+## abib21_2026_katameros.json title=None copticDate=21/11/1742
+Vespers | Psalm & Gospel | reading 1 | title='' | refs=Ps 34:19-20
+Vespers | Psalm & Gospel | reading 2 | title='' | refs=Matt 16:24-28
+Matins | Psalm & Gospel | reading 1 | title='' | refs=Ps 37:39-40
+Matins | Psalm & Gospel | reading 2 | title='' | refs=Mark 13:9-13
+Liturgy | Pauline Epistle | reading 1 | title='' | refs=2Cor 10:1-18
+Liturgy | Catholic Epistle | reading 1 | title='' | refs=1Pet 4:1-11
+Liturgy | Acts of the Apostles | reading 1 | title='' | refs=Acts 12:25 ; Acts 13:1-12
+Liturgy | Psalm & Gospel | reading 1 | title='' | refs=Ps 97:11-12
+Liturgy | Psalm & Gospel | reading 2 | title='' | refs=Lk 11:53-54 ; Lk 12:1-12
+
+## great_lent_saturday_week4_2026_katameros.json title=None copticDate=5/7/1742
+Matins | Psalm & Gospel | reading 1 | title='' | refs=Ps 142:5,7
+Matins | Psalm & Gospel | reading 2 | title='' | refs=Lk 16:19-31
+Liturgy | Pauline Epistle | reading 1 | title='' | refs=Phil 4:4-9
+Liturgy | Catholic Epistle | reading 1 | title='' | refs=James 3:13-18 ; James 4:1-6
+Liturgy | Acts of the Apostles | reading 1 | title='' | refs=Acts 24:24-27 ; Acts 25:1-12
+Liturgy | Psalm & Gospel | reading 1 | title='' | refs=Ps 61:1,5
+Liturgy | Psalm & Gospel | reading 2 | title='' | refs=Matt 21:33-46
+
+## great_thursday_2026_katameros.json title=Pascha Thursday copticDate=None
+First Hour | subsection 1 | reading 1 | title='' | refs=Exod 17:8-16
+First Hour | subsection 2 | reading 1 | title='' | refs=Exod 15:22-16:3
+First Hour | subsection 3 | reading 1 | title='' | refs=Isa 58:1-9
+First Hour | subsection 4 | reading 1 | title='' | refs=Ezek 18:20-32
+First Hour | Acts of the Apostles | reading 1 | title='' | refs=Acts 1:15-20
+First Hour | Psalm & Gospel | reading 1 | title='' | refs=Ps 55:21,12
+First Hour | Psalm & Gospel | reading 2 | title='' | refs=Lk 22:7-13
+Third Hour | subsection 1 | reading 1 | title='' | refs=Exod 32:30-33:5
+Third Hour | subsection 2 | reading 1 | title='' | refs=Sir 24:1-11
+Third Hour | subsection 3 | reading 1 | title='' | refs=Zech 9:11-14
+Third Hour | subsection 4 | reading 1 | title='' | refs=Prov 30:2-6
+Third Hour | Psalm & Gospel | reading 1 | title='' | refs=Ps 94:21,23
+Third Hour | Psalm & Gospel | reading 2 | title='' | refs=Matt 26:17-19
+Sixth Hour | subsection 1 | reading 1 | title='' | refs=Jer 7:2-15
+Sixth Hour | subsection 2 | reading 1 | title='' | refs=Ezek 20:39-44
+Sixth Hour | subsection 3 | reading 1 | title='' | refs=Sir 12:13-13:1
+Sixth Hour | Psalm & Gospel | reading 1 | title='' | refs=Ps 31:18,13
+Sixth Hour | Psalm & Gospel | reading 2 | title='' | refs=Mark 14:12-16
+Ninth Hour | subsection 1 | reading 1 | title='' | refs=Gen 22:1-19
+Ninth Hour | subsection 2 | reading 1 | title='' | refs=Isa 61:1-7
+Ninth Hour | subsection 3 | reading 1 | title='' | refs=Gen 14:17-20
+Ninth Hour | subsection 4 | reading 1 | title='' | refs=Job 27:2-28:13
+Ninth Hour | Psalm & Gospel | reading 1 | title='' | refs=Ps 23:1,2
+Ninth Hour | Psalm & Gospel | reading 2 | title='' | refs=Matt 26:17-19
+Eleventh hour | subsection 1 | reading 1 | title='' | refs=Isa 52:13-53:12
+Eleventh hour | subsection 2 | reading 1 | title='' | refs=Isa 19:19-25
+Eleventh hour | subsection 3 | reading 1 | title='' | refs=Zech 12:11-13:9
+Eleventh hour | subsection 3 | reading 2 | title='' | refs=Zech 14:1-4
+Eleventh hour | subsection 3 | reading 3 | title='' | refs=Zech 14:6-9
+Eleventh hour | Psalm & Gospel | reading 1 | title='' | refs=Ps 50:17,18
+Eleventh hour | Psalm & Gospel | reading 2 | title='' | refs=Jn 13:21-30
+First Hour Eve of Pascha Friday | subsection 1 | reading 1 | title='' | refs=Jer 8:17-9:6
+First Hour Eve of Pascha Friday | Psalm & Gospel | reading 1 | title='' | refs=Ps 101:1,9
+First Hour Eve of Pascha Friday | Psalm & Gospel | reading 2 | title='' | refs=Jn 13:33-38 ; Jn 14:1-25
+First Hour Eve of Pascha Friday | Psalm & Gospel | reading 3 | title='' | refs=Jn 14:26-31 ; Jn 15:1-25
+First Hour Eve of Pascha Friday | Psalm & Gospel | reading 4 | title='' | refs=Jn 15:26-27 ; Jn 16:1-33
+First Hour Eve of Pascha Friday | Psalm & Gospel | reading 5 | title='' | refs=Jn 17:1-26
+Third Hour Eve of Pascha Friday | subsection 1 | reading 1 | title='' | refs=Ezek 36:16-23
+Third Hour Eve of Pascha Friday | Psalm & Gospel | reading 1 | title='' | refs=Ps 108:1,2
+Third Hour Eve of Pascha Friday | Psalm & Gospel | reading 2 | title='' | refs=Matt 26:30-35
+Third Hour Eve of Pascha Friday | Psalm & Gospel | reading 3 | title='' | refs=Mark 14:26-31
+Third Hour Eve of Pascha Friday | Psalm & Gospel | reading 4 | title='' | refs=Lk 22:31-39
+Third Hour Eve of Pascha Friday | Psalm & Gospel | reading 5 | title='' | refs=Jn 18:1,2
+Sixth Hour Eve of Pascha Friday | subsection 1 | reading 1 | title='' | refs=Ezek 22:23-28
+Sixth Hour Eve of Pascha Friday | Psalm & Gospel | reading 1 | title='' | refs=Ps 58:2 ; Ps 68:21
+Sixth Hour Eve of Pascha Friday | Psalm & Gospel | reading 2 | title='' | refs=Matt 26:36-46
+Sixth Hour Eve of Pascha Friday | Psalm & Gospel | reading 3 | title='' | refs=Mark 14:32-42
+Sixth Hour Eve of Pascha Friday | Psalm & Gospel | reading 4 | title='' | refs=Lk 22:40-46
+Sixth Hour Eve of Pascha Friday | Psalm & Gospel | reading 5 | title='' | refs=Jn 18:3-9
+Ninth Hour Eve of Pascha Friday | subsection 1 | reading 1 | title='' | refs=Jer 9:6-10
+Ninth Hour Eve of Pascha Friday | subsection 2 | reading 1 | title='' | refs=Ezek 21:33-37
+Ninth Hour Eve of Pascha Friday | Psalm & Gospel | reading 1 | title='' | refs=Ps 27:3,4
+Ninth Hour Eve of Pascha Friday | Psalm & Gospel | reading 2 | title='' | refs=Ps 34:4,5
+Ninth Hour Eve of Pascha Friday | Psalm & Gospel | reading 3 | title='' | refs=Matt 26:47-58
+Ninth Hour Eve of Pascha Friday | Psalm & Gospel | reading 4 | title='' | refs=Mark 14:43-54
+Ninth Hour Eve of Pascha Friday | Psalm & Gospel | reading 5 | title='' | refs=Lk 22:47-55
+Ninth Hour Eve of Pascha Friday | Psalm & Gospel | reading 6 | title='' | refs=Jn 18:10-14
+Eleventh hour Eve of Pascha Friday | subsection 1 | reading 1 | title='' | refs=Isa 27:11-28:15
+Eleventh hour Eve of Pascha Friday | Psalm & Gospel | reading 1 | title='' | refs=Ps 2:1-5
+Eleventh hour Eve of Pascha Friday | Psalm & Gospel | reading 2 | title='' | refs=Matt 26:59-75
+Eleventh hour Eve of Pascha Friday | Psalm & Gospel | reading 3 | title='' | refs=Mark 14:55-72
+Eleventh hour Eve of Pascha Friday | Psalm & Gospel | reading 4 | title='' | refs=Lk 22:56-65
+Eleventh hour Eve of Pascha Friday | Psalm & Gospel | reading 5 | title='' | refs=Jn 18:15-27
+
+## mesra23_2026_katameros.json title=None copticDate=23/12/1742
+Vespers | Psalm & Gospel | reading 1 | title='' | refs=Ps 34:17-18
+Vespers | Psalm & Gospel | reading 2 | title='' | refs=Matt 10:16-22
+Matins | Psalm & Gospel | reading 1 | title='' | refs=Ps 34:19-20
+Matins | Psalm & Gospel | reading 2 | title='' | refs=Mark 8:34-38 ; Mark 9:1
+Liturgy | Pauline Epistle | reading 1 | title='' | refs=Rom 8:28-39
+Liturgy | Catholic Epistle | reading 1 | title='' | refs=1Pet 4:1-11
+Liturgy | Acts of the Apostles | reading 1 | title='' | refs=Acts 16:16-34
+Liturgy | Psalm & Gospel | reading 1 | title='' | refs=Ps 97:11-12
+Liturgy | Psalm & Gospel | reading 2 | title='' | refs=Lk 21:12-19
+
+## mesra25_2026_katameros.json title=None copticDate=25/12/1742
+Vespers | Psalm & Gospel | reading 1 | title='' | refs=Ps 42:1
+Vespers | Psalm & Gospel | reading 2 | title='' | refs=Matt 25:14-23
+Matins | Psalm & Gospel | reading 1 | title='' | refs=Ps 34:5,7
+Matins | Psalm & Gospel | reading 2 | title='' | refs=Lk 19:11-19
+Liturgy | Pauline Epistle | reading 1 | title='' | refs=Phil 3:20-21 ; Phil 4:1-9
+Liturgy | Catholic Epistle | reading 1 | title='' | refs=James 5:9-12
+Liturgy | Acts of the Apostles | reading 1 | title='' | refs=Acts 18:24-28 ; Acts 19:1-6
+Liturgy | Psalm & Gospel | reading 1 | title='' | refs=Ps 104:1,2,4
+Liturgy | Psalm & Gospel | reading 2 | title='' | refs=Lk 12:32-44
+
+## mesra27_2026_katameros.json title=None copticDate=27/12/1742
+Vespers | Psalm & Gospel | reading 1 | title='' | refs=Ps 34:17-18
+Vespers | Psalm & Gospel | reading 2 | title='' | refs=Matt 10:16-22
+Matins | Psalm & Gospel | reading 1 | title='' | refs=Ps 34:19-20
+Matins | Psalm & Gospel | reading 2 | title='' | refs=Mark 8:34-38 ; Mark 9:1
+Liturgy | Pauline Epistle | reading 1 | title='' | refs=Rom 8:28-39
+Liturgy | Catholic Epistle | reading 1 | title='' | refs=1Pet 4:1-11
+Liturgy | Acts of the Apostles | reading 1 | title='' | refs=Acts 16:16-34
+Liturgy | Psalm & Gospel | reading 1 | title='' | refs=Ps 97:11-12
+Liturgy | Psalm & Gospel | reading 2 | title='' | refs=Lk 21:12-19
+
+## mesra29_2026_katameros.json title=None copticDate=29/12/1742
+Vespers | Psalm & Gospel | reading 1 | title='' | refs=Ps 132:9,10,17,18
+Vespers | Psalm & Gospel | reading 2 | title='' | refs=Matt 15:1-11
+Matins | Psalm & Gospel | reading 1 | title='' | refs=Ps 110:4,5,7
+Matins | Psalm & Gospel | reading 2 | title='' | refs=Matt 15:12-20
+Liturgy | Pauline Epistle | reading 1 | title='' | refs=1Cor 10:25-33 ; 1Cor 11:1
+Liturgy | Catholic Epistle | reading 1 | title='' | refs=1Jn 4:15-21
+Liturgy | Acts of the Apostles | reading 1 | title='' | refs=Acts 5:34-42
+Liturgy | Psalm & Gospel | reading 1 | title='' | refs=Ps 68:35,19
+Liturgy | Psalm & Gospel | reading 2 | title='' | refs=Jn 8:21-27

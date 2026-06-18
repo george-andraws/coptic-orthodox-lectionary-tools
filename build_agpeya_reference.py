@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 from pathlib import Path
 from typing import Dict, List
 
@@ -11,6 +12,13 @@ from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens
 ROOT = Path('/Users/georgeandraws/workspace/coptic-lectionary-research')
 OUT = ROOT / 'out' / 'data'
 VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary')
+
+
+def env_flag(name: str) -> bool:
+    return os.environ.get(name, '').strip().lower() in {'1', 'true', 'yes', 'on'}
+
+
+DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
 
 SOURCE_TITLE = 'Book of Agpeya'
 SOURCE_URL = 'https://www.saintbishoy.ca/wp-content/uploads/Rites_Agpeya_Book.pdf'
@@ -287,7 +295,8 @@ ROWS: List[Dict[str, str]] = [
 
 def ensure_dirs() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    VAULT.mkdir(parents=True, exist_ok=True)
+    if not DISABLE_VAULT_PUBLISH:
+        VAULT.mkdir(parents=True, exist_ok=True)
 
 
 
@@ -357,8 +366,9 @@ def main() -> None:
     write_jsonl(OUT / 'agpeya_hour_readings.jsonl', curated)
     write_csv(OUT / 'agpeya_passage_index.csv', pidx)
     write_jsonl(OUT / 'agpeya_passage_index.jsonl', pidx)
-    write_csv(VAULT / 'agpeya_hour_readings.csv', curated)
-    write_csv(VAULT / 'agpeya_passage_index.csv', pidx)
+    if not DISABLE_VAULT_PUBLISH:
+        write_csv(VAULT / 'agpeya_hour_readings.csv', curated)
+        write_csv(VAULT / 'agpeya_passage_index.csv', pidx)
     print(json.dumps({'curated_rows': len(curated), 'passage_rows': len(pidx)}, indent=2))
 
 
