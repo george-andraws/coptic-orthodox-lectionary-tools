@@ -1,6 +1,6 @@
 residue_type,row_count,present_in_phase4,note
 current_authority_pending,255,yes,Temporal residue evidence class emitted for Phase 4 review.
-historical_witness_no_current_comparator,149,yes,Temporal residue evidence class emitted for Phase 4 review.
+historical_witness_no_current_comparator,148,yes,Temporal residue evidence class emitted for Phase 4 review.
 candidate_removed_needs_current_authority_confirmation,10,yes,Temporal residue evidence class emitted for Phase 4 review.
 psalm_equivalence_unresolved,5,yes,Temporal residue evidence class emitted for Phase 4 review.
 true_source_disagreement,0,no,True source disagreements are zero in this run; unresolved rows are classified separately by evidence class.

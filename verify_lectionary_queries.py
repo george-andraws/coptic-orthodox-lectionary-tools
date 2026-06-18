@@ -15,6 +15,10 @@ DATA = OUT / 'data'
 SCRIPT = OUT / 'scripts' / 'query_lectionary.py'
 REPAIR_REPORT = DATA / 'source_ref_repair_report.csv'
 from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage, passage_matches
+from build_bible_chapter_lectionary_index import BOOKS
+
+CHAPTER_COUNTS = {abbrev: chapters for _, _, abbrev, chapters in BOOKS}
+CHAPTER_COUNTS['Nah'] = CHAPTER_COUNTS['Nahum']
 
 SUSPICIOUS_PATTERNS = [
     re.compile(r'\d:.*[—–-]\s*$'),
@@ -419,8 +423,32 @@ def assert_pascha_source_text_dedupe_invariants():
 
 def assert_chapter_occurrence_row_count():
     rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
-    assert len(rows) == 71113, len(rows)
+    assert len(rows) == 71196, len(rows)
     return {'chapter_occurrence_rows': len(rows)}
+
+
+def assert_reverse_crosswalk_spans_valid():
+    rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
+    invalid = []
+    parsed_rows = 0
+    for row_number, row in enumerate(rows, 2):
+        passage = row.get('passage', '')
+        parsed = parse_passage(passage)
+        if not parsed:
+            invalid.append({'row_number': row_number, 'passage': passage, 'reason': 'unparsed'})
+            continue
+        parsed_rows += 1
+        chapter_count = CHAPTER_COUNTS.get(parsed.book_abbrev)
+        if chapter_count is None:
+            invalid.append({'row_number': row_number, 'passage': passage, 'reason': 'unknown_book'})
+            continue
+        for part in parsed.parts:
+            if part.chapter_start > part.chapter_end:
+                invalid.append({'row_number': row_number, 'passage': passage, 'reason': 'end_before_start'})
+            if part.chapter_start > chapter_count or part.chapter_end > chapter_count:
+                invalid.append({'row_number': row_number, 'passage': passage, 'reason': 'chapter_out_of_range', 'chapter_count': chapter_count})
+    assert not invalid, invalid[:20]
+    return {'reverse_crosswalk_rows': len(rows), 'parsed_rows': parsed_rows, 'invalid_spans': 0}
 
 def assert_wednesday_pascha_day_hour_corrections():
     rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
@@ -494,6 +522,7 @@ def main() -> None:
         'hatur8_segmentation_deduped': assert_hatur8_segmentation_deduped(),
         'chapter_occurrence_label_columns': assert_chapter_occurrence_label_columns(),
         'chapter_occurrence_row_count': assert_chapter_occurrence_row_count(),
+        'reverse_crosswalk_span_validity': assert_reverse_crosswalk_spans_valid(),
         'pascha_source_text_dedupe_invariants': assert_pascha_source_text_dedupe_invariants(),
         'wednesday_pascha_day_hour_corrections': assert_wednesday_pascha_day_hour_corrections(),
     }

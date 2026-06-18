@@ -38,7 +38,7 @@ Marker-format decision: this run keeps `removed_marker` as a uniform prose-patte
 See `out/design/temporal_residue.csv` and `out/design/temporal_residue_manifest.csv` for the full row-level list and counts. Counts by residue type:
 - `candidate_removed_needs_current_authority_confirmation`: 10
 - `current_authority_pending`: 255
-- `historical_witness_no_current_comparator`: 149
+- `historical_witness_no_current_comparator`: 148
 - `psalm_equivalence_unresolved`: 5
 - `true_source_disagreement`: 0
 

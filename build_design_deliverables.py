@@ -1057,8 +1057,8 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         missing = expected_keys - actual_keys
         extra = actual_keys - expected_keys
         raise AssertionError(f"reverse_lectionary_index key mismatch: missing={len(missing)} extra={len(extra)}")
-    if len(index_rows) != 8005:
-        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 8005")
+    if len(index_rows) != 8004:
+        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 8004")
     return index_rows, status_disagreements
 
 

@@ -108,8 +108,8 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
 
 ```json
 {
-  "reverse_lectionary_presentation_rows": 66381,
-  "reverse_lectionary_index_rows": 8005,
+  "reverse_lectionary_presentation_rows": 66378,
+  "reverse_lectionary_index_rows": 8004,
   "reverse_lectionary_index_status_disagreement_rows": 0,
   "daily_lectionary_years": {
     "2020": 3713,
@@ -117,31 +117,31 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
     "2022": 3711,
     "2023": 3683,
     "2024": 3711,
-    "2025": 3678,
+    "2025": 3677,
     "2026": 3718,
     "2027": 3714,
     "2028": 3709,
     "2029": 3716,
     "2030": 3696,
-    "2031": 3702,
+    "2031": 3701,
     "2032": 3722,
     "2033": 3711,
     "2034": 3716,
     "2035": 3708
   },
-  "daily_lectionary_total_rows": 59324,
-  "reading_identity_rows": 2657,
-  "todays_readings_rows": 9,
+  "daily_lectionary_total_rows": 59322,
+  "reading_identity_rows": 2652,
+  "todays_readings_rows": 11,
   "psalm_crosswalk_rows": 161,
-  "pascha_attestation_rows": 445,
+  "pascha_attestation_rows": 444,
   "pascha_attestation_bucket_manifest_rows": 5,
-  "temporal_classification_rows": 445,
-  "temporal_residue_rows": 419,
+  "temporal_classification_rows": 444,
+  "temporal_residue_rows": 418,
   "temporal_residue_manifest_rows": 5,
   "synaxarium_commemoration_rows": 664,
   "synaxarium_bridge_rows": 4688,
-  "passage_footprint_rows": 2656,
-  "passage_source_disclosure_rows": 66381,
+  "passage_footprint_rows": 2651,
+  "passage_source_disclosure_rows": 66378,
   "foundational_reading_collection_rows": 69
 }
 ```

@@ -780,8 +780,7 @@ copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
 copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
 copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
-copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
-copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
+copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
 copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
 copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
 copticchurch.net daily scrape,2020-03-21,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2020&g_month=03&g_day=21
@@ -2033,7 +2032,7 @@ copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Liturgy,Catholic Epistl
 copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
 copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
 copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
-copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
+copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
 copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
 copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
 copticchurch.net daily scrape,2020-07-28,Tuesday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2020&g_month=07&g_day=28
@@ -2353,7 +2352,7 @@ copticchurch.net daily scrape,2020-08-28,Friday,Mesra 22,Vespers,Psalm,Ps 105:14
 copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
 copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
 copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
-copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
+copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
 copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
 copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
 copticchurch.net daily scrape,2020-08-29,Saturday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=29
@@ -2370,7 +2369,8 @@ copticchurch.net daily scrape,2020-08-30,Sunday,The fourth Sunday of Mesra,Matin
 copticchurch.net daily scrape,2020-08-30,Sunday,The fourth Sunday of Mesra,Matins,Psalm,Ps 89:1-2,Psalm 89:1-2,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=30
 copticchurch.net daily scrape,2020-08-30,Sunday,The fourth Sunday of Mesra,Vespers,Gospel,Lk 17:20-36,Lk 17:20-36,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=30
 copticchurch.net daily scrape,2020-08-30,Sunday,The fourth Sunday of Mesra,Vespers,Psalm,"Ps 119:169,119:176","Psalm 119:169,176",ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=30
-copticchurch.net daily scrape,2020-08-31,Monday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=31
+copticchurch.net daily scrape,2020-08-31,Monday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=31
+copticchurch.net daily scrape,2020-08-31,Monday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=31
 copticchurch.net daily scrape,2020-08-31,Monday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=31
 copticchurch.net daily scrape,2020-08-31,Monday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=31
 copticchurch.net daily scrape,2020-08-31,Monday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2020&g_month=08&g_day=31
@@ -2397,7 +2397,7 @@ copticchurch.net daily scrape,2020-09-01,Tuesday,Mesra 26,Vespers,Psalm,Ps 31:19
 copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
 copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
 copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
-copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
+copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
 copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
 copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
 copticchurch.net daily scrape,2020-09-02,Wednesday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=02
@@ -2413,7 +2413,7 @@ copticchurch.net daily scrape,2020-09-03,Thursday,Mesra 28,Matins,Gospel,Lk 16:1
 copticchurch.net daily scrape,2020-09-03,Thursday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=03
 copticchurch.net daily scrape,2020-09-03,Thursday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=03
 copticchurch.net daily scrape,2020-09-03,Thursday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=03
-copticchurch.net daily scrape,2020-09-04,Friday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=04
+copticchurch.net daily scrape,2020-09-04,Friday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=04
 copticchurch.net daily scrape,2020-09-04,Friday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=04
 copticchurch.net daily scrape,2020-09-04,Friday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=04
 copticchurch.net daily scrape,2020-09-04,Friday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=04
@@ -4622,8 +4622,7 @@ copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
 copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
 copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
-copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
-copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
+copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
 copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
 copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
 copticchurch.net daily scrape,2021-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=03
@@ -5744,7 +5743,7 @@ copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Liturgy,Catholic Epis
 copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
 copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
 copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
-copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
+copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
 copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
 copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
 copticchurch.net daily scrape,2021-07-28,Wednesday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2021&g_month=07&g_day=28
@@ -6082,7 +6081,8 @@ copticchurch.net daily scrape,2021-08-30,Monday,Mesra 24,Matins,Psalm,Ps 132:17,
 copticchurch.net daily scrape,2021-08-30,Monday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=30
 copticchurch.net daily scrape,2021-08-30,Monday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=30
 copticchurch.net daily scrape,2021-08-30,Monday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=30
-copticchurch.net daily scrape,2021-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=31
+copticchurch.net daily scrape,2021-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=31
+copticchurch.net daily scrape,2021-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=31
 copticchurch.net daily scrape,2021-08-31,Tuesday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=31
 copticchurch.net daily scrape,2021-08-31,Tuesday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=31
 copticchurch.net daily scrape,2021-08-31,Tuesday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2021&g_month=08&g_day=31
@@ -6109,7 +6109,7 @@ copticchurch.net daily scrape,2021-09-01,Wednesday,Mesra 26,Vespers,Psalm,Ps 31:
 copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
 copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
 copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
-copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
+copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
 copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
 copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
 copticchurch.net daily scrape,2021-09-02,Thursday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=02
@@ -6125,7 +6125,7 @@ copticchurch.net daily scrape,2021-09-03,Friday,Mesra 28,Matins,Gospel,Lk 16:19-
 copticchurch.net daily scrape,2021-09-03,Friday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=03
 copticchurch.net daily scrape,2021-09-03,Friday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=03
 copticchurch.net daily scrape,2021-09-03,Friday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=03
-copticchurch.net daily scrape,2021-09-04,Saturday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=04
+copticchurch.net daily scrape,2021-09-04,Saturday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=04
 copticchurch.net daily scrape,2021-09-04,Saturday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=04
 copticchurch.net daily scrape,2021-09-04,Saturday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=04
 copticchurch.net daily scrape,2021-09-04,Saturday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=04
@@ -8254,8 +8254,7 @@ copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
 copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
 copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
-copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
-copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
+copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
 copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
 copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
 copticchurch.net daily scrape,2022-03-26,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2022&g_month=03&g_day=26
@@ -9456,7 +9455,7 @@ copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Liturgy,Catholic Epist
 copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
 copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
 copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
-copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
+copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
 copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
 copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
 copticchurch.net daily scrape,2022-07-28,Thursday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2022&g_month=07&g_day=28
@@ -9775,7 +9774,7 @@ copticchurch.net daily scrape,2022-08-28,Sunday,The fourth Sunday of Mesra,Vespe
 copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
 copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
 copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
-copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
+copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
 copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
 copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
 copticchurch.net daily scrape,2022-08-29,Monday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=29
@@ -9795,7 +9794,8 @@ copticchurch.net daily scrape,2022-08-30,Tuesday,Mesra 24,Matins,Psalm,Ps 132:17
 copticchurch.net daily scrape,2022-08-30,Tuesday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=30
 copticchurch.net daily scrape,2022-08-30,Tuesday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=30
 copticchurch.net daily scrape,2022-08-30,Tuesday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=30
-copticchurch.net daily scrape,2022-08-31,Wednesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=31
+copticchurch.net daily scrape,2022-08-31,Wednesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=31
+copticchurch.net daily scrape,2022-08-31,Wednesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=31
 copticchurch.net daily scrape,2022-08-31,Wednesday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=31
 copticchurch.net daily scrape,2022-08-31,Wednesday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=31
 copticchurch.net daily scrape,2022-08-31,Wednesday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2022&g_month=08&g_day=31
@@ -9822,7 +9822,7 @@ copticchurch.net daily scrape,2022-09-01,Thursday,Mesra 26,Vespers,Psalm,Ps 31:1
 copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
 copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
 copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
-copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
+copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
 copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
 copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
 copticchurch.net daily scrape,2022-09-02,Friday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=02
@@ -11870,8 +11870,7 @@ copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
 copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
 copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
-copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
-copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
+copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
 copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
 copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
 copticchurch.net daily scrape,2023-03-18,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=18
@@ -13162,7 +13161,7 @@ copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Liturgy,Catholic Epistle
 copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
 copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
 copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
-copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
+copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
 copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
 copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
 copticchurch.net daily scrape,2023-07-28,Friday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=28
@@ -13479,7 +13478,7 @@ copticchurch.net daily scrape,2023-08-28,Monday,Mesra 22,Vespers,Psalm,Ps 105:14
 copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
 copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
 copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
-copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
+copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
 copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
 copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
 copticchurch.net daily scrape,2023-08-29,Tuesday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=29
@@ -13499,7 +13498,8 @@ copticchurch.net daily scrape,2023-08-30,Wednesday,Mesra 24,Matins,Psalm,Ps 132:
 copticchurch.net daily scrape,2023-08-30,Wednesday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=30
 copticchurch.net daily scrape,2023-08-30,Wednesday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=30
 copticchurch.net daily scrape,2023-08-30,Wednesday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=30
-copticchurch.net daily scrape,2023-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=31
+copticchurch.net daily scrape,2023-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=31
+copticchurch.net daily scrape,2023-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=31
 copticchurch.net daily scrape,2023-08-31,Thursday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=31
 copticchurch.net daily scrape,2023-08-31,Thursday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=31
 copticchurch.net daily scrape,2023-08-31,Thursday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=31
@@ -13526,7 +13526,7 @@ copticchurch.net daily scrape,2023-09-01,Friday,Mesra 26,Vespers,Psalm,Ps 31:19,
 copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
 copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
 copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
-copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
+copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
 copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
 copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
 copticchurch.net daily scrape,2023-09-02,Saturday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=02
@@ -13543,7 +13543,7 @@ copticchurch.net daily scrape,2023-09-03,Sunday,The fourth Sunday of Mesra,Matin
 copticchurch.net daily scrape,2023-09-03,Sunday,The fourth Sunday of Mesra,Matins,Psalm,Ps 89:1-2,Psalm 89:1-2,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=03
 copticchurch.net daily scrape,2023-09-03,Sunday,The fourth Sunday of Mesra,Vespers,Gospel,Lk 17:20-36,Lk 17:20-36,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=03
 copticchurch.net daily scrape,2023-09-03,Sunday,The fourth Sunday of Mesra,Vespers,Psalm,"Ps 119:169,119:176","Psalm 119:169,176",ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=03
-copticchurch.net daily scrape,2023-09-04,Monday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=04
+copticchurch.net daily scrape,2023-09-04,Monday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=04
 copticchurch.net daily scrape,2023-09-04,Monday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=04
 copticchurch.net daily scrape,2023-09-04,Monday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=04
 copticchurch.net daily scrape,2023-09-04,Monday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=04
@@ -15781,8 +15781,7 @@ copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
 copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
 copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
-copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
-copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
+copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
 copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
 copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
 copticchurch.net daily scrape,2024-04-06,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=06
@@ -17183,7 +17182,7 @@ copticchurch.net daily scrape,2024-08-28,Wednesday,Mesra 22,Vespers,Psalm,Ps 105
 copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
 copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
 copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
-copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
+copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
 copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
 copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
 copticchurch.net daily scrape,2024-08-29,Thursday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=29
@@ -17203,7 +17202,8 @@ copticchurch.net daily scrape,2024-08-30,Friday,Mesra 24,Matins,Psalm,Ps 132:17,
 copticchurch.net daily scrape,2024-08-30,Friday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=30
 copticchurch.net daily scrape,2024-08-30,Friday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=30
 copticchurch.net daily scrape,2024-08-30,Friday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=30
-copticchurch.net daily scrape,2024-08-31,Saturday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=31
+copticchurch.net daily scrape,2024-08-31,Saturday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=31
+copticchurch.net daily scrape,2024-08-31,Saturday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=31
 copticchurch.net daily scrape,2024-08-31,Saturday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=31
 copticchurch.net daily scrape,2024-08-31,Saturday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=31
 copticchurch.net daily scrape,2024-08-31,Saturday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2024&g_month=08&g_day=31
@@ -17226,7 +17226,7 @@ copticchurch.net daily scrape,2024-09-01,Sunday,The fourth Sunday of Mesra,Vespe
 copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
 copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
 copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
-copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
+copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
 copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
 copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
 copticchurch.net daily scrape,2024-09-02,Monday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=02
@@ -17242,7 +17242,7 @@ copticchurch.net daily scrape,2024-09-03,Tuesday,Mesra 28,Matins,Gospel,Lk 16:19
 copticchurch.net daily scrape,2024-09-03,Tuesday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=03
 copticchurch.net daily scrape,2024-09-03,Tuesday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=03
 copticchurch.net daily scrape,2024-09-03,Tuesday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=03
-copticchurch.net daily scrape,2024-09-04,Wednesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=04
+copticchurch.net daily scrape,2024-09-04,Wednesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=04
 copticchurch.net daily scrape,2024-09-04,Wednesday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=04
 copticchurch.net daily scrape,2024-09-04,Wednesday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=04
 copticchurch.net daily scrape,2024-09-04,Wednesday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=04
@@ -19313,8 +19313,7 @@ copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
 copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
 copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
-copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
-copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
+copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
 copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
 copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
 copticchurch.net daily scrape,2025-03-22,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2025&g_month=03&g_day=22
@@ -20560,7 +20559,7 @@ copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Liturgy,Catholic Epistle
 copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
 copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
 copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
-copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
+copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
 copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
 copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
 copticchurch.net daily scrape,2025-07-28,Monday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2025&g_month=07&g_day=28
@@ -20870,7 +20869,7 @@ copticchurch.net daily scrape,2025-08-28,Thursday,Mesra 22,Vespers,Psalm,Ps 105:
 copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
 copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
 copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
-copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
+copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
 copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
 copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
 copticchurch.net daily scrape,2025-08-29,Friday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2025&g_month=08&g_day=29
@@ -20915,7 +20914,7 @@ copticchurch.net daily scrape,2025-09-01,Monday,Mesra 26,Vespers,Psalm,Ps 31:19,
 copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
 copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
 copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
-copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
+copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
 copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
 copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
 copticchurch.net daily scrape,2025-09-02,Tuesday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=02
@@ -20931,7 +20930,7 @@ copticchurch.net daily scrape,2025-09-03,Wednesday,Mesra 28,Matins,Gospel,Lk 16:
 copticchurch.net daily scrape,2025-09-03,Wednesday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=03
 copticchurch.net daily scrape,2025-09-03,Wednesday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=03
 copticchurch.net daily scrape,2025-09-03,Wednesday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=03
-copticchurch.net daily scrape,2025-09-04,Thursday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=04
+copticchurch.net daily scrape,2025-09-04,Thursday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=04
 copticchurch.net daily scrape,2025-09-04,Thursday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=04
 copticchurch.net daily scrape,2025-09-04,Thursday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=04
 copticchurch.net daily scrape,2025-09-04,Thursday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=04
@@ -22910,8 +22909,7 @@ copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
 copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
 copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
-copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
-copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
+copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
 copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
 copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
 copticchurch.net daily scrape,2026-03-14,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2026&g_month=03&g_day=14
@@ -24250,7 +24248,7 @@ copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Liturgy,Catholic Epistl
 copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
 copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
 copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
-copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
+copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
 copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
 copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
 copticchurch.net daily scrape,2026-07-28,Tuesday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2026&g_month=07&g_day=28
@@ -24570,7 +24568,7 @@ copticchurch.net daily scrape,2026-08-28,Friday,Mesra 22,Vespers,Psalm,Ps 105:14
 copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
 copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
 copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
-copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
+copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
 copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
 copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
 copticchurch.net daily scrape,2026-08-29,Saturday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=29
@@ -24587,7 +24585,8 @@ copticchurch.net daily scrape,2026-08-30,Sunday,The fourth Sunday of Mesra,Matin
 copticchurch.net daily scrape,2026-08-30,Sunday,The fourth Sunday of Mesra,Matins,Psalm,Ps 89:1-2,Psalm 89:1-2,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=30
 copticchurch.net daily scrape,2026-08-30,Sunday,The fourth Sunday of Mesra,Vespers,Gospel,Lk 17:20-36,Lk 17:20-36,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=30
 copticchurch.net daily scrape,2026-08-30,Sunday,The fourth Sunday of Mesra,Vespers,Psalm,"Ps 119:169,119:176","Psalm 119:169,176",ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=30
-copticchurch.net daily scrape,2026-08-31,Monday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=31
+copticchurch.net daily scrape,2026-08-31,Monday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=31
+copticchurch.net daily scrape,2026-08-31,Monday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=31
 copticchurch.net daily scrape,2026-08-31,Monday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=31
 copticchurch.net daily scrape,2026-08-31,Monday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=31
 copticchurch.net daily scrape,2026-08-31,Monday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2026&g_month=08&g_day=31
@@ -24614,7 +24613,7 @@ copticchurch.net daily scrape,2026-09-01,Tuesday,Mesra 26,Vespers,Psalm,Ps 31:19
 copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
 copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
 copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
-copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
+copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
 copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
 copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
 copticchurch.net daily scrape,2026-09-02,Wednesday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=02
@@ -24630,7 +24629,7 @@ copticchurch.net daily scrape,2026-09-03,Thursday,Mesra 28,Matins,Gospel,Lk 16:1
 copticchurch.net daily scrape,2026-09-03,Thursday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=03
 copticchurch.net daily scrape,2026-09-03,Thursday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=03
 copticchurch.net daily scrape,2026-09-03,Thursday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=03
-copticchurch.net daily scrape,2026-09-04,Friday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=04
+copticchurch.net daily scrape,2026-09-04,Friday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=04
 copticchurch.net daily scrape,2026-09-04,Friday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=04
 copticchurch.net daily scrape,2026-09-04,Friday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=04
 copticchurch.net daily scrape,2026-09-04,Friday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=04
@@ -26839,8 +26838,7 @@ copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
 copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
 copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
-copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
-copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
+copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
 copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
 copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
 copticchurch.net daily scrape,2027-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=03
@@ -27961,7 +27959,7 @@ copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Liturgy,Catholic Epis
 copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
 copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
 copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
-copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
+copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
 copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
 copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
 copticchurch.net daily scrape,2027-07-28,Wednesday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2027&g_month=07&g_day=28
@@ -28299,7 +28297,8 @@ copticchurch.net daily scrape,2027-08-30,Monday,Mesra 24,Matins,Psalm,Ps 132:17,
 copticchurch.net daily scrape,2027-08-30,Monday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=30
 copticchurch.net daily scrape,2027-08-30,Monday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=30
 copticchurch.net daily scrape,2027-08-30,Monday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=30
-copticchurch.net daily scrape,2027-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=31
+copticchurch.net daily scrape,2027-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=31
+copticchurch.net daily scrape,2027-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=31
 copticchurch.net daily scrape,2027-08-31,Tuesday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=31
 copticchurch.net daily scrape,2027-08-31,Tuesday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=31
 copticchurch.net daily scrape,2027-08-31,Tuesday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2027&g_month=08&g_day=31
@@ -28326,7 +28325,7 @@ copticchurch.net daily scrape,2027-09-01,Wednesday,Mesra 26,Vespers,Psalm,Ps 31:
 copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
 copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
 copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
-copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
+copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
 copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
 copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
 copticchurch.net daily scrape,2027-09-02,Thursday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=02
@@ -28342,7 +28341,7 @@ copticchurch.net daily scrape,2027-09-03,Friday,Mesra 28,Matins,Gospel,Lk 16:19-
 copticchurch.net daily scrape,2027-09-03,Friday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=03
 copticchurch.net daily scrape,2027-09-03,Friday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=03
 copticchurch.net daily scrape,2027-09-03,Friday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=03
-copticchurch.net daily scrape,2027-09-04,Saturday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=04
+copticchurch.net daily scrape,2027-09-04,Saturday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=04
 copticchurch.net daily scrape,2027-09-04,Saturday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=04
 copticchurch.net daily scrape,2027-09-04,Saturday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=04
 copticchurch.net daily scrape,2027-09-04,Saturday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=04
@@ -30380,8 +30379,7 @@ copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
 copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
 copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
-copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
-copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
+copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
 copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
 copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
 copticchurch.net daily scrape,2028-03-18,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2028&g_month=03&g_day=18
@@ -31672,7 +31670,7 @@ copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Liturgy,Catholic Epistle
 copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
 copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
 copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
-copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
+copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
 copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
 copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
 copticchurch.net daily scrape,2028-07-28,Friday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2028&g_month=07&g_day=28
@@ -31989,7 +31987,7 @@ copticchurch.net daily scrape,2028-08-28,Monday,Mesra 22,Vespers,Psalm,Ps 105:14
 copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
 copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
 copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
-copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
+copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
 copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
 copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
 copticchurch.net daily scrape,2028-08-29,Tuesday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=29
@@ -32009,7 +32007,8 @@ copticchurch.net daily scrape,2028-08-30,Wednesday,Mesra 24,Matins,Psalm,Ps 132:
 copticchurch.net daily scrape,2028-08-30,Wednesday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=30
 copticchurch.net daily scrape,2028-08-30,Wednesday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=30
 copticchurch.net daily scrape,2028-08-30,Wednesday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=30
-copticchurch.net daily scrape,2028-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=31
+copticchurch.net daily scrape,2028-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=31
+copticchurch.net daily scrape,2028-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=31
 copticchurch.net daily scrape,2028-08-31,Thursday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=31
 copticchurch.net daily scrape,2028-08-31,Thursday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=31
 copticchurch.net daily scrape,2028-08-31,Thursday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2028&g_month=08&g_day=31
@@ -32036,7 +32035,7 @@ copticchurch.net daily scrape,2028-09-01,Friday,Mesra 26,Vespers,Psalm,Ps 31:19,
 copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
 copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
 copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
-copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
+copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
 copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
 copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
 copticchurch.net daily scrape,2028-09-02,Saturday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=02
@@ -32053,7 +32052,7 @@ copticchurch.net daily scrape,2028-09-03,Sunday,The fourth Sunday of Mesra,Matin
 copticchurch.net daily scrape,2028-09-03,Sunday,The fourth Sunday of Mesra,Matins,Psalm,Ps 89:1-2,Psalm 89:1-2,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=03
 copticchurch.net daily scrape,2028-09-03,Sunday,The fourth Sunday of Mesra,Vespers,Gospel,Lk 17:20-36,Lk 17:20-36,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=03
 copticchurch.net daily scrape,2028-09-03,Sunday,The fourth Sunday of Mesra,Vespers,Psalm,"Ps 119:169,119:176","Psalm 119:169,176",ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=03
-copticchurch.net daily scrape,2028-09-04,Monday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=04
+copticchurch.net daily scrape,2028-09-04,Monday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=04
 copticchurch.net daily scrape,2028-09-04,Monday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=04
 copticchurch.net daily scrape,2028-09-04,Monday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=04
 copticchurch.net daily scrape,2028-09-04,Monday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2028&g_month=09&g_day=04
@@ -34009,8 +34008,7 @@ copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
 copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
 copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
-copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
-copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
+copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
 copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
 copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
 copticchurch.net daily scrape,2029-03-10,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2029&g_month=03&g_day=10
@@ -35406,7 +35404,7 @@ copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Liturgy,Catholic Epist
 copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
 copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
 copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
-copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
+copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
 copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
 copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
 copticchurch.net daily scrape,2029-07-28,Saturday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2029&g_month=07&g_day=28
@@ -35725,7 +35723,7 @@ copticchurch.net daily scrape,2029-08-28,Tuesday,Mesra 22,Vespers,Psalm,Ps 105:1
 copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
 copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
 copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
-copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
+copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
 copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
 copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
 copticchurch.net daily scrape,2029-08-29,Wednesday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=29
@@ -35745,7 +35743,8 @@ copticchurch.net daily scrape,2029-08-30,Thursday,Mesra 24,Matins,Psalm,Ps 132:1
 copticchurch.net daily scrape,2029-08-30,Thursday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=30
 copticchurch.net daily scrape,2029-08-30,Thursday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=30
 copticchurch.net daily scrape,2029-08-30,Thursday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=30
-copticchurch.net daily scrape,2029-08-31,Friday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=31
+copticchurch.net daily scrape,2029-08-31,Friday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=31
+copticchurch.net daily scrape,2029-08-31,Friday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=31
 copticchurch.net daily scrape,2029-08-31,Friday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=31
 copticchurch.net daily scrape,2029-08-31,Friday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=31
 copticchurch.net daily scrape,2029-08-31,Friday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2029&g_month=08&g_day=31
@@ -35786,7 +35785,7 @@ copticchurch.net daily scrape,2029-09-03,Monday,Mesra 28,Matins,Gospel,Lk 16:19-
 copticchurch.net daily scrape,2029-09-03,Monday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=03
 copticchurch.net daily scrape,2029-09-03,Monday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=03
 copticchurch.net daily scrape,2029-09-03,Monday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=03
-copticchurch.net daily scrape,2029-09-04,Tuesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=04
+copticchurch.net daily scrape,2029-09-04,Tuesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=04
 copticchurch.net daily scrape,2029-09-04,Tuesday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=04
 copticchurch.net daily scrape,2029-09-04,Tuesday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=04
 copticchurch.net daily scrape,2029-09-04,Tuesday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=04
@@ -37941,8 +37940,7 @@ copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
 copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
 copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
-copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
-copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
+copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
 copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
 copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
 copticchurch.net daily scrape,2030-03-30,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2030&g_month=03&g_day=30
@@ -39414,7 +39412,7 @@ copticchurch.net daily scrape,2030-08-28,Wednesday,Mesra 22,Vespers,Psalm,Ps 105
 copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
 copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
 copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
-copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
+copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
 copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
 copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
 copticchurch.net daily scrape,2030-08-29,Thursday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=29
@@ -39434,7 +39432,8 @@ copticchurch.net daily scrape,2030-08-30,Friday,Mesra 24,Matins,Psalm,Ps 132:17,
 copticchurch.net daily scrape,2030-08-30,Friday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=30
 copticchurch.net daily scrape,2030-08-30,Friday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=30
 copticchurch.net daily scrape,2030-08-30,Friday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=30
-copticchurch.net daily scrape,2030-08-31,Saturday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=31
+copticchurch.net daily scrape,2030-08-31,Saturday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=31
+copticchurch.net daily scrape,2030-08-31,Saturday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=31
 copticchurch.net daily scrape,2030-08-31,Saturday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=31
 copticchurch.net daily scrape,2030-08-31,Saturday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=31
 copticchurch.net daily scrape,2030-08-31,Saturday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2030&g_month=08&g_day=31
@@ -39457,7 +39456,7 @@ copticchurch.net daily scrape,2030-09-01,Sunday,The fourth Sunday of Mesra,Vespe
 copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
 copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
 copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
-copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
+copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
 copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
 copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
 copticchurch.net daily scrape,2030-09-02,Monday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=02
@@ -39473,7 +39472,7 @@ copticchurch.net daily scrape,2030-09-03,Tuesday,Mesra 28,Matins,Gospel,Lk 16:19
 copticchurch.net daily scrape,2030-09-03,Tuesday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=03
 copticchurch.net daily scrape,2030-09-03,Tuesday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=03
 copticchurch.net daily scrape,2030-09-03,Tuesday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=03
-copticchurch.net daily scrape,2030-09-04,Wednesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=04
+copticchurch.net daily scrape,2030-09-04,Wednesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=04
 copticchurch.net daily scrape,2030-09-04,Wednesday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=04
 copticchurch.net daily scrape,2030-09-04,Wednesday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=04
 copticchurch.net daily scrape,2030-09-04,Wednesday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=04
@@ -41463,8 +41462,7 @@ copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
 copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
 copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
-copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
-copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
+copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
 copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
 copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
 copticchurch.net daily scrape,2031-03-15,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2031&g_month=03&g_day=15
@@ -42800,7 +42798,7 @@ copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Liturgy,Catholic Epistle
 copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
 copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
 copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
-copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
+copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
 copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
 copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
 copticchurch.net daily scrape,2031-07-28,Monday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2031&g_month=07&g_day=28
@@ -43110,7 +43108,7 @@ copticchurch.net daily scrape,2031-08-28,Thursday,Mesra 22,Vespers,Psalm,Ps 105:
 copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
 copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
 copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
-copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
+copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
 copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
 copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
 copticchurch.net daily scrape,2031-08-29,Friday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2031&g_month=08&g_day=29
@@ -43155,7 +43153,7 @@ copticchurch.net daily scrape,2031-09-01,Monday,Mesra 26,Vespers,Psalm,Ps 31:19,
 copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
 copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
 copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
-copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
+copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
 copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
 copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
 copticchurch.net daily scrape,2031-09-02,Tuesday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=02
@@ -43171,7 +43169,7 @@ copticchurch.net daily scrape,2031-09-03,Wednesday,Mesra 28,Matins,Gospel,Lk 16:
 copticchurch.net daily scrape,2031-09-03,Wednesday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=03
 copticchurch.net daily scrape,2031-09-03,Wednesday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=03
 copticchurch.net daily scrape,2031-09-03,Wednesday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=03
-copticchurch.net daily scrape,2031-09-04,Thursday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=04
+copticchurch.net daily scrape,2031-09-04,Thursday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=04
 copticchurch.net daily scrape,2031-09-04,Thursday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=04
 copticchurch.net daily scrape,2031-09-04,Thursday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=04
 copticchurch.net daily scrape,2031-09-04,Thursday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2031&g_month=09&g_day=04
@@ -45382,8 +45380,7 @@ copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
 copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
 copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
-copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
-copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
+copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
 copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
 copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
 copticchurch.net daily scrape,2032-04-03,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=03
@@ -46504,7 +46501,7 @@ copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Liturgy,Catholic Epis
 copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
 copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
 copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
-copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
+copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
 copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
 copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
 copticchurch.net daily scrape,2032-07-28,Wednesday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2032&g_month=07&g_day=28
@@ -46842,7 +46839,8 @@ copticchurch.net daily scrape,2032-08-30,Monday,Mesra 24,Matins,Psalm,Ps 132:17,
 copticchurch.net daily scrape,2032-08-30,Monday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=30
 copticchurch.net daily scrape,2032-08-30,Monday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=30
 copticchurch.net daily scrape,2032-08-30,Monday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=30
-copticchurch.net daily scrape,2032-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=31
+copticchurch.net daily scrape,2032-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=31
+copticchurch.net daily scrape,2032-08-31,Tuesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=31
 copticchurch.net daily scrape,2032-08-31,Tuesday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=31
 copticchurch.net daily scrape,2032-08-31,Tuesday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=31
 copticchurch.net daily scrape,2032-08-31,Tuesday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2032&g_month=08&g_day=31
@@ -46869,7 +46867,7 @@ copticchurch.net daily scrape,2032-09-01,Wednesday,Mesra 26,Vespers,Psalm,Ps 31:
 copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
 copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
 copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
-copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
+copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
 copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
 copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
 copticchurch.net daily scrape,2032-09-02,Thursday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=02
@@ -46885,7 +46883,7 @@ copticchurch.net daily scrape,2032-09-03,Friday,Mesra 28,Matins,Gospel,Lk 16:19-
 copticchurch.net daily scrape,2032-09-03,Friday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=03
 copticchurch.net daily scrape,2032-09-03,Friday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=03
 copticchurch.net daily scrape,2032-09-03,Friday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=03
-copticchurch.net daily scrape,2032-09-04,Saturday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=04
+copticchurch.net daily scrape,2032-09-04,Saturday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=04
 copticchurch.net daily scrape,2032-09-04,Saturday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=04
 copticchurch.net daily scrape,2032-09-04,Saturday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=04
 copticchurch.net daily scrape,2032-09-04,Saturday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=04
@@ -49014,8 +49012,7 @@ copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
 copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
 copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
-copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
-copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
+copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
 copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
 copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
 copticchurch.net daily scrape,2033-03-26,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2033&g_month=03&g_day=26
@@ -50216,7 +50213,7 @@ copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Liturgy,Catholic Epist
 copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
 copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
 copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
-copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
+copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
 copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
 copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
 copticchurch.net daily scrape,2033-07-28,Thursday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2033&g_month=07&g_day=28
@@ -50535,7 +50532,7 @@ copticchurch.net daily scrape,2033-08-28,Sunday,The fourth Sunday of Mesra,Vespe
 copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
 copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
 copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
-copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
+copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
 copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
 copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
 copticchurch.net daily scrape,2033-08-29,Monday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=29
@@ -50555,7 +50552,8 @@ copticchurch.net daily scrape,2033-08-30,Tuesday,Mesra 24,Matins,Psalm,Ps 132:17
 copticchurch.net daily scrape,2033-08-30,Tuesday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=30
 copticchurch.net daily scrape,2033-08-30,Tuesday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=30
 copticchurch.net daily scrape,2033-08-30,Tuesday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=30
-copticchurch.net daily scrape,2033-08-31,Wednesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=31
+copticchurch.net daily scrape,2033-08-31,Wednesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=31
+copticchurch.net daily scrape,2033-08-31,Wednesday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=31
 copticchurch.net daily scrape,2033-08-31,Wednesday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=31
 copticchurch.net daily scrape,2033-08-31,Wednesday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=31
 copticchurch.net daily scrape,2033-08-31,Wednesday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2033&g_month=08&g_day=31
@@ -50582,7 +50580,7 @@ copticchurch.net daily scrape,2033-09-01,Thursday,Mesra 26,Vespers,Psalm,Ps 31:1
 copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
 copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
 copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
-copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
+copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
 copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
 copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
 copticchurch.net daily scrape,2033-09-02,Friday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=02
@@ -52561,8 +52559,7 @@ copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
 copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
 copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
-copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
-copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
+copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
 copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
 copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
 copticchurch.net daily scrape,2034-03-11,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2034&g_month=03&g_day=11
@@ -53935,7 +53932,7 @@ copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Liturgy,Catholic Epistle
 copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
 copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
 copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
-copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
+copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
 copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
 copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
 copticchurch.net daily scrape,2034-07-28,Friday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2034&g_month=07&g_day=28
@@ -54252,7 +54249,7 @@ copticchurch.net daily scrape,2034-08-28,Monday,Mesra 22,Vespers,Psalm,Ps 105:14
 copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
 copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
 copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
-copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
+copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
 copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
 copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
 copticchurch.net daily scrape,2034-08-29,Tuesday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=29
@@ -54272,7 +54269,8 @@ copticchurch.net daily scrape,2034-08-30,Wednesday,Mesra 24,Matins,Psalm,Ps 132:
 copticchurch.net daily scrape,2034-08-30,Wednesday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=30
 copticchurch.net daily scrape,2034-08-30,Wednesday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=30
 copticchurch.net daily scrape,2034-08-30,Wednesday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=30
-copticchurch.net daily scrape,2034-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=31
+copticchurch.net daily scrape,2034-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=31
+copticchurch.net daily scrape,2034-08-31,Thursday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=31
 copticchurch.net daily scrape,2034-08-31,Thursday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=31
 copticchurch.net daily scrape,2034-08-31,Thursday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=31
 copticchurch.net daily scrape,2034-08-31,Thursday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2034&g_month=08&g_day=31
@@ -54299,7 +54297,7 @@ copticchurch.net daily scrape,2034-09-01,Friday,Mesra 26,Vespers,Psalm,Ps 31:19,
 copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
 copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
 copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
-copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
+copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
 copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
 copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
 copticchurch.net daily scrape,2034-09-02,Saturday,Mesra 27,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=02
@@ -54316,7 +54314,7 @@ copticchurch.net daily scrape,2034-09-03,Sunday,The fourth Sunday of Mesra,Matin
 copticchurch.net daily scrape,2034-09-03,Sunday,The fourth Sunday of Mesra,Matins,Psalm,Ps 89:1-2,Psalm 89:1-2,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=03
 copticchurch.net daily scrape,2034-09-03,Sunday,The fourth Sunday of Mesra,Vespers,Gospel,Lk 17:20-36,Lk 17:20-36,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=03
 copticchurch.net daily scrape,2034-09-03,Sunday,The fourth Sunday of Mesra,Vespers,Psalm,"Ps 119:169,119:176","Psalm 119:169,176",ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=03
-copticchurch.net daily scrape,2034-09-04,Monday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=04
+copticchurch.net daily scrape,2034-09-04,Monday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=04
 copticchurch.net daily scrape,2034-09-04,Monday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=04
 copticchurch.net daily scrape,2034-09-04,Monday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=04
 copticchurch.net daily scrape,2034-09-04,Monday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2034&g_month=09&g_day=04
@@ -56498,8 +56496,7 @@ copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of
 copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Catholic Epistle,James 3:13-4:6,James 3:13—  &  James 4:1-6,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
 copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Gospel,Matt 21:33-45,Matthew 21:33-45,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
 copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Pauline Epistle,Phil 4:4-9,Philippians 4:4-9,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
-copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 61:1,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
-copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,Ps 610:5,Psalm 61:1  &  Psalm 610:5,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
+copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Liturgy,Psalm,"Ps 61:1,61:5",Psalm 61:1  &  Psalm 610:5,source_corrected,"source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5",https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
 copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Matins,Gospel,Lk 16:19-31,Luke 16:19-31,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
 copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:5,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
 copticchurch.net daily scrape,2035-03-31,Saturday,Saturday of the fourth week of Great Lent,Matins,Psalm,Ps 142:7,Psalm 142:5  &  Psalm 142:7,ok,,https://copticchurch.net/readings?g_year=2035&g_month=03&g_day=31
@@ -57654,7 +57651,7 @@ copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Liturgy,Catholic Epist
 copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Liturgy,Gospel,Lk 11:53-12:12,Lk 11:53—  &  Lk 12:1-12,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
 copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Liturgy,Pauline Epistle,2Cor 10:1-18,2Cor 10:1-18,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
 copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Liturgy,Psalm,Ps 97:11-12,Psalm 97:11-12,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
-copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Matins,Gospel,Mark 19:9-13,Mk 19:9-13,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
+copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Matins,Gospel,Mark 13:9-13,Mk 19:9-13,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Mark 13:9-13,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
 copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Matins,Psalm,Ps 37:39-40,Psalm 37:39-40,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
 copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
 copticchurch.net daily scrape,2035-07-28,Saturday,Abib 21,Vespers,Psalm,Ps 34:19-20,Psalm 34:19-20,ok,,https://copticchurch.net/readings?g_year=2035&g_month=07&g_day=28
@@ -57973,7 +57970,7 @@ copticchurch.net daily scrape,2035-08-28,Tuesday,Mesra 22,Vespers,Psalm,Ps 105:1
 copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Acts of the Apostles,Acts 16:16-34,Acts 16:16-34,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
 copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Catholic Epistle,1Pet 4:1-11,1Pet 4:1-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
 copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Gospel,Lk 21:12-19,Lk 21:12-19,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
-copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Pauline Epistle,Rom 28:39,Rom 8:28:39,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
+copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Pauline Epistle,Rom 8:28-39,Rom 8:28:39,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Rom 8:28-39,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
 copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Psalm,Ps 97:11,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
 copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Liturgy,Psalm,Ps 97:12,Psalm 97:11  &  Psalm 97:12,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
 copticchurch.net daily scrape,2035-08-29,Wednesday,Mesra 23,Matins,Gospel,Mark 8:34-9:1,Mk 8:34—  &  Mk 9:1-1,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=29
@@ -57993,7 +57990,8 @@ copticchurch.net daily scrape,2035-08-30,Thursday,Mesra 24,Matins,Psalm,Ps 132:1
 copticchurch.net daily scrape,2035-08-30,Thursday,Mesra 24,Matins,Psalm,Ps 132:18,Psalm 132:9  &  Psalm 132:10  &  Psalm 132:17  &  Psalm 132:18,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=30
 copticchurch.net daily scrape,2035-08-30,Thursday,Mesra 24,Vespers,Gospel,Matt 10:34-42,Matt 10:34-42,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=30
 copticchurch.net daily scrape,2035-08-30,Thursday,Mesra 24,Vespers,Psalm,Ps 89:19-21,Psalm 89:19-21,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=30
-copticchurch.net daily scrape,2035-08-31,Friday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-9:6,Acts 18:24—  &  Acts 9:1-6,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=31
+copticchurch.net daily scrape,2035-08-31,Friday,Mesra 25,Liturgy,Acts of the Apostles,Acts 18:24-28,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=31
+copticchurch.net daily scrape,2035-08-31,Friday,Mesra 25,Liturgy,Acts of the Apostles,Acts 19:1-6,Acts 18:24—  &  Acts 9:1-6,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 18:24-28 and Acts 19:1-6,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=31
 copticchurch.net daily scrape,2035-08-31,Friday,Mesra 25,Liturgy,Gospel,Lk 12:32-44,Lk 12:32-44,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=31
 copticchurch.net daily scrape,2035-08-31,Friday,Mesra 25,Liturgy,Pauline Epistle,Phil 3:20-4:9,Phil 3:20—  &  Phil 4:1-9,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=31
 copticchurch.net daily scrape,2035-08-31,Friday,Mesra 25,Liturgy,Psalm,Ps 104:1,Psalm 104:1  &  Psalm 104:2  &  Psalm 104:4,ok,,https://copticchurch.net/readings?g_year=2035&g_month=08&g_day=31
@@ -58034,7 +58032,7 @@ copticchurch.net daily scrape,2035-09-03,Monday,Mesra 28,Matins,Gospel,Lk 16:19-
 copticchurch.net daily scrape,2035-09-03,Monday,Mesra 28,Matins,Psalm,Ps 105:3-4,Psalm 105:3-4,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=03
 copticchurch.net daily scrape,2035-09-03,Monday,Mesra 28,Vespers,Gospel,Jn 15:7-16,Jn 15:7-16,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=03
 copticchurch.net daily scrape,2035-09-03,Monday,Mesra 28,Vespers,Psalm,Ps 47:8-9,Psalm 47:8-9,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=03
-copticchurch.net daily scrape,2035-09-04,Tuesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 34:42,Acts 5:34:42,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=04
+copticchurch.net daily scrape,2035-09-04,Tuesday,Mesra 29,Liturgy,Acts of the Apostles,Acts 5:34-42,Acts 5:34:42,source_corrected,source_corrected_from_katameros_api_2026_06_18; live API returned Acts 5:34-42,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=04
 copticchurch.net daily scrape,2035-09-04,Tuesday,Mesra 29,Liturgy,Catholic Epistle,1Jn 4:15-21,1Jn 4:15-21,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=04
 copticchurch.net daily scrape,2035-09-04,Tuesday,Mesra 29,Liturgy,Gospel,Jn 8:21-27,Jn 8:21-27,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=04
 copticchurch.net daily scrape,2035-09-04,Tuesday,Mesra 29,Liturgy,Pauline Epistle,1Cor 10:25-11:1,1Cor 10:25—  &  1Cor 11:1-1,ok,,https://copticchurch.net/readings?g_year=2035&g_month=09&g_day=04

@@ -9043,18 +9043,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Psalm",
-      "display_ref": "Ps 610:5",
-      "identity_key": "rid_c869710964af601e2a07",
-      "reading_type": "scripture",
-      "removed_marker": ""
-    },
-    {
-      "occasion": "Saturday of the fourth week of Great Lent",
-      "service_section": "Liturgy",
-      "service_hour": "",
-      "slot": "Psalm",
-      "display_ref": "Ps 61:1 (LXX Ps 60:1)",
-      "identity_key": "rid_525552a0a58e739b8fbb",
+      "display_ref": "Ps 61:1,61:5 (LXX Ps 60:1; Ps 60:5)",
+      "identity_key": "rid_855facb40aa67de39106",
       "reading_type": "scripture",
       "removed_marker": ""
     }
@@ -20789,8 +20779,8 @@
       "service_section": "Matins",
       "service_hour": "",
       "slot": "Gospel",
-      "display_ref": "Mark 19:9-13",
-      "identity_key": "rid_3e732659c34adf57f891",
+      "display_ref": "Mark 13:9-13",
+      "identity_key": "rid_1cacea9ee2f1397884cf",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -24123,8 +24113,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Pauline Epistle",
-      "display_ref": "Rom 28:39",
-      "identity_key": "rid_c3ec8f9c9122d0955eee",
+      "display_ref": "Rom 8:28-39",
+      "identity_key": "rid_fbdb3e0ac30d235b0b7f",
       "reading_type": "scripture",
       "removed_marker": ""
     }
@@ -24257,8 +24247,18 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Acts of the Apostles",
-      "display_ref": "Acts 18:24-9:6",
-      "identity_key": "rid_2eb58217db2a8de8fef9",
+      "display_ref": "Acts 18:24-28",
+      "identity_key": "rid_af92a19084930ccb825e",
+      "reading_type": "scripture",
+      "removed_marker": ""
+    },
+    {
+      "occasion": "Mesra 25",
+      "service_section": "Liturgy",
+      "service_hour": "",
+      "slot": "Acts of the Apostles",
+      "display_ref": "Acts 19:1-6",
+      "identity_key": "rid_d6b351115e6125d45624",
       "reading_type": "scripture",
       "removed_marker": ""
     },
@@ -24695,8 +24695,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Acts of the Apostles",
-      "display_ref": "Acts 34:42",
-      "identity_key": "rid_3f1422071f623a28c8cc",
+      "display_ref": "Acts 5:34-42",
+      "identity_key": "rid_b6226443a3aacf1e115c",
       "reading_type": "scripture",
       "removed_marker": ""
     },

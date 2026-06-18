@@ -1,0 +1,1473 @@
+/Users/georgeandraws/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+{
+  "pascha_source_text_rows": 277,
+  "parsed_rows": 277,
+  "unparsed_rows": 0,
+  "csv": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_source_text_index.csv",
+  "jsonl": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_source_text_index.jsonl"
+}
+{
+  "curated_rows": 161,
+  "passage_rows": 196
+}
+{
+  "curated_rows": 20,
+  "passage_rows": 149
+}
+{
+  "crosswalk_rows": 66349,
+  "passages": 2648,
+  "source_kind_counts": {
+    "bright_saturday_service_order": 36,
+    "copticchurch_date": 59322,
+    "katameros_cycle": 6209,
+    "special_service": 196,
+    "pascha_source_text": 152,
+    "pascha_day_hour": 285,
+    "agpeya": 149
+  },
+  "pascha_rows": 172,
+  "pascha_source_text_input_rows": 277,
+  "pascha_source_text_comparable_rows": 277,
+  "pascha_source_text_dropped_duplicates": 124,
+  "pascha_source_text_quarantined_misextractions": 1,
+  "pascha_source_text_total_dropped": 125,
+  "pascha_source_text_kept_unique": 152,
+  "bright_rows": 38,
+  "csv": "/Users/georgeandraws/workspace/coptic-lectionary-research/out4/reverse_lookup_crosswalk.csv",
+  "jsonl": "/Users/georgeandraws/workspace/coptic-lectionary-research/out4/reverse_lookup_crosswalk.jsonl",
+  "summary": "/Users/georgeandraws/workspace/coptic-lectionary-research/out4/reverse_lookup_summary.csv",
+  "dedupe": {
+    "pascha_source_text_input_rows": 277,
+    "pascha_source_text_comparable_rows": 277,
+    "dropped_duplicate_count": 124,
+    "quarantined_misextraction_count": 1,
+    "total_dropped_count": 125,
+    "kept_unique_count": 152,
+    "match_key": "same normalized day + same canonical normalized passage segment",
+    "dropped_duplicate_samples": [
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Ninth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 8:2,3",
+        "normalized_ref": "Ps 8:2,8:3",
+        "passage": "Ps 8:2,8:3",
+        "source_line": "1470",
+        "source_page": "60"
+      },
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Ninth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Matthew 21:10-17",
+        "normalized_ref": "Matt 21:10-17",
+        "passage": "Matt 21:10-17",
+        "source_line": "1489",
+        "source_page": "60"
+      },
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 22:22-23",
+        "normalized_ref": "Ps 22:22-23",
+        "passage": "Ps 22:22-23",
+        "source_line": "1677",
+        "source_page": "68"
+      },
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Matthew 20:20-28",
+        "normalized_ref": "Matt 20:20-28",
+        "passage": "Matt 20:20-28",
+        "source_line": "1678",
+        "source_page": "68"
+      },
+      {
+        "day": "Monday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 5:1-9",
+        "normalized_ref": "Isa 5:1-9",
+        "passage": "Isa 5:1-9",
+        "source_line": "2667",
+        "source_page": "109"
+      },
+      {
+        "day": "Monday",
+        "hour": "First Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Mark 11:12-24",
+        "normalized_ref": "Mark 11:12-24",
+        "passage": "Mark 11:12-24",
+        "source_line": "2801",
+        "source_page": "115"
+      },
+      {
+        "day": "Monday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 5:20-30",
+        "normalized_ref": "Isa 5:20-30",
+        "passage": "Isa 5:20-30",
+        "source_line": "2925",
+        "source_page": "119"
+      },
+      {
+        "day": "Monday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Jeremiah 9:12-19",
+        "normalized_ref": "Jer 9:12-19",
+        "passage": "Jer 9:12-19",
+        "source_line": "2976",
+        "source_page": "121"
+      },
+      {
+        "day": "Monday",
+        "hour": "Third Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 122:1-2",
+        "normalized_ref": "Ps 122:1-2",
+        "passage": "Ps 122:1-2",
+        "source_line": "3007",
+        "source_page": "123"
+      },
+      {
+        "day": "Monday",
+        "hour": "Third Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Mark 11:11-19",
+        "normalized_ref": "Mark 11:11-19",
+        "passage": "Mark 11:11-19",
+        "source_line": "3012",
+        "source_page": "123"
+      },
+      {
+        "day": "Monday",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Exodus 32:7-15",
+        "normalized_ref": "Exod 32:7-15",
+        "passage": "Exod 32:7-15",
+        "source_line": "3127",
+        "source_page": "127"
+      },
+      {
+        "day": "Monday",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Wisdom of Solomon 1:1-9",
+        "normalized_ref": "Wis 1:1-9",
+        "passage": "Wis 1:1-9",
+        "source_line": "3154",
+        "source_page": "128"
+      },
+      {
+        "day": "Monday",
+        "hour": "Sixth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 122:4",
+        "normalized_ref": "Ps 122:4",
+        "passage": "Ps 122:4",
+        "source_line": "3198",
+        "source_page": "130"
+      },
+      {
+        "day": "Monday",
+        "hour": "Sixth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 2:13-17",
+        "normalized_ref": "Jn 2:13-17",
+        "passage": "Jn 2:13-17",
+        "source_line": "3212",
+        "source_page": "131"
+      },
+      {
+        "day": "Monday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 40:1-5",
+        "normalized_ref": "Isa 40:1-5",
+        "passage": "Isa 40:1-5",
+        "source_line": "3389",
+        "source_page": "137"
+      },
+      {
+        "day": "Monday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Proverbs 1:1-9",
+        "normalized_ref": "Prov 1:1-9",
+        "passage": "Prov 1:1-9",
+        "source_line": "3424",
+        "source_page": "138"
+      },
+      {
+        "day": "Monday",
+        "hour": "Ninth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 65:5, 4",
+        "normalized_ref": "Ps 65:5,65:4",
+        "passage": "Ps 65:5,65:4",
+        "source_line": "3456",
+        "source_page": "140"
+      },
+      {
+        "day": "Monday",
+        "hour": "Ninth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Matthew 21:23-27",
+        "normalized_ref": "Matt 21:23-27",
+        "passage": "Matt 21:23-27",
+        "source_line": "3466",
+        "source_page": "140"
+      },
+      {
+        "day": "Monday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 50:1-3",
+        "normalized_ref": "Isa 50:1-3",
+        "passage": "Isa 50:1-3",
+        "source_line": "3664",
+        "source_page": "147"
+      },
+      {
+        "day": "Monday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 8:51-59",
+        "normalized_ref": "Jn 8:51-59",
+        "passage": "Jn 8:51-59",
+        "source_line": "3776",
+        "source_page": "152"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Zechariah 1:1-6",
+        "normalized_ref": "Zech 1:1-6",
+        "passage": "Zech 1:1-6",
+        "source_line": "3902",
+        "source_page": "157"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "First Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Luke 13:23-30",
+        "normalized_ref": "Lk 13:23-30",
+        "passage": "Lk 13:23-30",
+        "source_line": "3983",
+        "source_page": "160"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Malachi 1:1-9",
+        "normalized_ref": "Mal 1:1-9",
+        "passage": "Mal 1:1-9",
+        "source_line": "4047",
+        "source_page": "163"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Third Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Luke 13:31-35",
+        "normalized_ref": "Lk 13:31-35",
+        "passage": "Lk 13:31-35",
+        "source_line": "4127",
+        "source_page": "166"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Ninth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Luke 11:37-52",
+        "normalized_ref": "Lk 11:37-52",
+        "passage": "Lk 11:37-52",
+        "source_line": "4402",
+        "source_page": "177"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Amos 5:6-14",
+        "normalized_ref": "Amos 5:6-14",
+        "passage": "Amos 5:6-14",
+        "source_line": "4518",
+        "source_page": "181"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 122:4",
+        "normalized_ref": "Ps 122:4",
+        "passage": "Ps 122:4",
+        "source_line": "4554",
+        "source_page": "183"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Exodus 19:1-9",
+        "normalized_ref": "Exod 19:1-9",
+        "passage": "Exod 19:1-9",
+        "source_line": "4677",
+        "source_page": "188"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Hosea 4:1-8",
+        "normalized_ref": "Hos 4:1-8",
+        "passage": "Hos 4:1-8",
+        "source_line": "4796",
+        "source_page": "192"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "First Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 120:2, 6, 7",
+        "normalized_ref": "Ps 120:2,120:6,120:7",
+        "passage": "Ps 120:2,120:6,120:7",
+        "source_line": "4856",
+        "source_page": "195"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Ezekiel 21:3-13",
+        "normalized_ref": "Ezek 21:3-13",
+        "passage": "Ezek 21:3-13",
+        "source_line": "5253",
+        "source_page": "210"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Sirach 4:20-5:2",
+        "normalized_ref": "Sir 4:20-5:2",
+        "passage": "Sir 4:20-5:2",
+        "source_line": "5281",
+        "source_page": "211"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 1:1-9",
+        "normalized_ref": "Isa 1:1-9",
+        "passage": "Isa 1:1-9",
+        "source_line": "5331",
+        "source_page": "213"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Sixth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 18:48, 17",
+        "normalized_ref": "Ps 18:48,18:17",
+        "passage": "Ps 18:48,18:17",
+        "source_line": "5364",
+        "source_page": "215"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Sixth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 8:12-20",
+        "normalized_ref": "Jn 8:12-20",
+        "passage": "Jn 8:12-20",
+        "source_line": "5383",
+        "source_page": "216"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Genesis 6:5-9:7",
+        "normalized_ref": "Gen 6:5-9:7",
+        "passage": "Gen 6:5-9:7",
+        "source_line": "5480",
+        "source_page": "219"
+      },
+      {
+        "day": "Wednesday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Wisdom of Solomon 7:24-30",
+        "normalized_ref": "Wis 7:24-30",
+        "passage": "Wis 7:24-30",
+        "source_line": "7021",
+        "source_page": "278"
+      },
+      {
+        "day": "Wednesday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 57:1",
+        "normalized_ref": "Ps 57:1",
+        "passage": "Ps 57:1",
+        "source_line": "7055",
+        "source_page": "280"
+      },
+      {
+        "day": "Wednesday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 11:55-57",
+        "normalized_ref": "Jn 11:55-57",
+        "passage": "Jn 11:55-57",
+        "source_line": "7072",
+        "source_page": "281"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Exodus 17:1-7",
+        "normalized_ref": "Exod 17:1-7",
+        "passage": "Exod 17:1-7",
+        "source_line": "7173",
+        "source_page": "285"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Proverbs 3:5-14",
+        "normalized_ref": "Prov 3:5-14",
+        "passage": "Prov 3:5-14",
+        "source_line": "7197",
+        "source_page": "286"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Hosea 5:13-6:3",
+        "normalized_ref": "Hos 5:13-6:3",
+        "passage": "Hos 5:13-6:3",
+        "source_line": "7218",
+        "source_page": "287"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "First Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 11:46-57",
+        "normalized_ref": "Jn 11:46-57",
+        "passage": "Jn 11:46-57",
+        "source_line": "7351",
+        "source_page": "292"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Exodus 13:17-22",
+        "normalized_ref": "Exod 13:17-22",
+        "passage": "Exod 13:17-22",
+        "source_line": "7463",
+        "source_page": "296"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Sirach 22:7-18",
+        "normalized_ref": "Sir 22:7-18",
+        "passage": "Sir 22:7-18",
+        "source_line": "7493",
+        "source_page": "297"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Third Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 41:6, 1",
+        "normalized_ref": "Ps 41:6,41:1",
+        "passage": "Ps 41:6,41:1",
+        "source_line": "7596",
+        "source_page": "301"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Third Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Luke 22:1-6",
+        "normalized_ref": "Lk 22:1-6",
+        "passage": "Lk 22:1-6",
+        "source_line": "7610",
+        "source_page": "302"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Exodus 14:13-15:1",
+        "normalized_ref": "Exod 14:13-15:1",
+        "passage": "Exod 14:13-15:1",
+        "source_line": "7701",
+        "source_page": "305"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Sirach 23:7-14",
+        "normalized_ref": "Sir 23:7-14",
+        "passage": "Sir 23:7-14",
+        "source_line": "7808",
+        "source_page": "309"
+      },
+      {
+        "day": "Wednesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 83:2, 5",
+        "normalized_ref": "Ps 83:2,83:5",
+        "passage": "Ps 83:2,83:5",
+        "source_line": "7839",
+        "source_page": "311"
+      }
+    ],
+    "quarantined_misextraction_samples": [
+      {
+        "day": "Wednesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 48:1-6",
+        "normalized_ref": "Isa 48:1-6",
+        "passage": "Isa 48:1-6",
+        "source_line": "7779",
+        "source_page": "308"
+      }
+    ],
+    "kept_unique_samples": [
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Lamentations 1:1-4",
+        "normalized_ref": "Lam 1:1-4",
+        "passage": "Lam 1:1-4",
+        "source_line": "1393",
+        "source_page": "57"
+      },
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Zephaniah 3:11-20",
+        "normalized_ref": "Zeph 3:11-20",
+        "passage": "Zeph 3:11-20",
+        "source_line": "1438",
+        "source_page": "58"
+      },
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 48:12-22",
+        "normalized_ref": "Isa 48:12-22",
+        "passage": "Isa 48:12-22",
+        "source_line": "1572",
+        "source_page": "64"
+      },
+      {
+        "day": "Hosanna Sunday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Nahum 1:2-8",
+        "normalized_ref": "Nah 1:2-8",
+        "passage": "Nah 1:2-8",
+        "source_line": "1633",
+        "source_page": "66"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Zephaniah 1:2-12",
+        "normalized_ref": "Zeph 1:2-12",
+        "passage": "Zeph 1:2-12",
+        "source_line": "1782",
+        "source_page": "73"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "First Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 27:6,7",
+        "normalized_ref": "Ps 27:6,27:7",
+        "passage": "Ps 27:6,27:7",
+        "source_line": "1850",
+        "source_page": "76"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "First Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 12:20-36",
+        "normalized_ref": "Jn 12:20-36",
+        "passage": "Jn 12:20-36",
+        "source_line": "1857",
+        "source_page": "76"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Zephaniah 1:14-2:1-2",
+        "normalized_ref": "Zeph 1:14-2:2",
+        "passage": "Zeph 1:14-2:2",
+        "source_line": "1967",
+        "source_page": "80"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Third Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 28:9, 2",
+        "normalized_ref": "Ps 28:9,28:2",
+        "passage": "Ps 28:9,28:2",
+        "source_line": "2013",
+        "source_page": "82"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Third Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Luke 9:18-22",
+        "normalized_ref": "Lk 9:18-22",
+        "passage": "Lk 9:18-22",
+        "source_line": "2046",
+        "source_page": "83"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Joel 1:5-15",
+        "normalized_ref": "Joel 1:5-15",
+        "passage": "Joel 1:5-15",
+        "source_line": "2112",
+        "source_page": "86"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Sixth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 29:1,2",
+        "normalized_ref": "Ps 29:1,29:2",
+        "passage": "Ps 29:1,29:2",
+        "source_line": "2165",
+        "source_page": "88"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Sixth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Mark 10:32-34",
+        "normalized_ref": "Mark 10:32-34",
+        "passage": "Mark 10:32-34",
+        "source_line": "2178",
+        "source_page": "89"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Micah 2:3-10",
+        "normalized_ref": "Mic 2:3-10",
+        "passage": "Mic 2:3-10",
+        "source_line": "2271",
+        "source_page": "92"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Ninth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 8:2,1",
+        "normalized_ref": "Ps 8:2,8:1",
+        "passage": "Ps 8:2,8:1",
+        "source_line": "2318",
+        "source_page": "95"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Ninth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Mark 8:27-33",
+        "normalized_ref": "Mark 8:27-33",
+        "passage": "Mark 8:27-33",
+        "source_line": "2323",
+        "source_page": "95"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Micah 3:1-4",
+        "normalized_ref": "Mic 3:1-4",
+        "passage": "Mic 3:1-4",
+        "source_line": "2426",
+        "source_page": "99"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 18:17-18",
+        "normalized_ref": "Ps 18:17-18",
+        "passage": "Ps 18:17-18",
+        "source_line": "2456",
+        "source_page": "101"
+      },
+      {
+        "day": "Monday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Matthew 17:19-23",
+        "normalized_ref": "Matt 17:19-23",
+        "passage": "Matt 17:19-23",
+        "source_line": "2461",
+        "source_page": "101"
+      },
+      {
+        "day": "Monday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Genesis 1:1-2:1-3",
+        "normalized_ref": "Gen 1:1-2:3",
+        "passage": "Gen 1:1-2:3",
+        "source_line": "2579",
+        "source_page": "106"
+      },
+      {
+        "day": "Monday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Sirach 1:1-14",
+        "normalized_ref": "Sir 1:1-14",
+        "passage": "Sir 1:1-14",
+        "source_line": "2718",
+        "source_page": "111"
+      },
+      {
+        "day": "Monday",
+        "hour": "First Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 71:18-19",
+        "normalized_ref": "Ps 71:18-19",
+        "passage": "Ps 71:18-19",
+        "source_line": "2797",
+        "source_page": "115"
+      },
+      {
+        "day": "Monday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Genesis 2:15-3:24",
+        "normalized_ref": "Gen 2:15-3:24",
+        "passage": "Gen 2:15-3:24",
+        "source_line": "3308",
+        "source_page": "134"
+      },
+      {
+        "day": "Monday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Sirach 1:18-27",
+        "normalized_ref": "Sir 1:18-27",
+        "passage": "Sir 1:18-27",
+        "source_line": "3676",
+        "source_page": "148"
+      },
+      {
+        "day": "Monday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 12:3-4",
+        "normalized_ref": "Ps 12:3-4",
+        "passage": "Ps 12:3-4",
+        "source_line": "3759",
+        "source_page": "151"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "First Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 62:7, 2",
+        "normalized_ref": "Ps 62:7,62:2",
+        "passage": "Ps 62:7,62:2",
+        "source_line": "3947",
+        "source_page": "159"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Third Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 28:9, 2",
+        "normalized_ref": "Ps 28:9,28:2",
+        "passage": "Ps 28:9,28:2",
+        "source_line": "4100",
+        "source_page": "165"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Sixth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Hosea 4:15-5:7",
+        "normalized_ref": "Hos 4:15-5:7",
+        "passage": "Hos 4:15-5:7",
+        "source_line": "4197",
+        "source_page": "169"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Sixth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 29:1,2",
+        "normalized_ref": "Ps 29:1,29:2",
+        "passage": "Ps 29:1,29:2",
+        "source_line": "4249",
+        "source_page": "171"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Sixth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Luke 21:34-38",
+        "normalized_ref": "Lk 21:34-38",
+        "passage": "Lk 21:34-38",
+        "source_line": "4262",
+        "source_page": "172"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Hosea 10:12-11:2",
+        "normalized_ref": "Hos 10:12-11:2",
+        "passage": "Hos 10:12-11:2",
+        "source_line": "4362",
+        "source_page": "175"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Ninth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 33:10-11",
+        "normalized_ref": "Ps 33:10-11",
+        "passage": "Ps 33:10-11",
+        "source_line": "4393",
+        "source_page": "177"
+      },
+      {
+        "day": "Tuesday Eve",
+        "hour": "Eleventh Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Mark 13:32-14:2",
+        "normalized_ref": "Mark 13:32-14:2",
+        "passage": "Mark 13:32-14:2",
+        "source_line": "4566",
+        "source_page": "184"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "First Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Job 23:2-24:25",
+        "normalized_ref": "Job 23:2-24:25",
+        "passage": "Job 23:2-24:25",
+        "source_line": "4706",
+        "source_page": "189"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "First Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "John 8:21-29",
+        "normalized_ref": "Jn 8:21-29",
+        "passage": "Jn 8:21-29",
+        "source_line": "4877",
+        "source_page": "196"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Deuteronomy 8:11-20",
+        "normalized_ref": "Deut 8:11-20",
+        "passage": "Deut 8:11-20",
+        "source_line": "4997",
+        "source_page": "200"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Sirach 1:1-14",
+        "normalized_ref": "Sir 1:1-14",
+        "passage": "Sir 1:1-14",
+        "source_line": "5029",
+        "source_page": "201"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Job 27:2-28:2",
+        "normalized_ref": "Job 27:2-28:2",
+        "passage": "Job 27:2-28:2",
+        "source_line": "5056",
+        "source_page": "202"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Third Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "1 Kings 19:9-14",
+        "normalized_ref": "1Kgs 19:9-14",
+        "passage": "1Kgs 19:9-14",
+        "source_line": "5111",
+        "source_page": "204"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Third Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 119:154-155",
+        "normalized_ref": "Ps 119:154-155",
+        "passage": "Ps 119:154-155",
+        "source_line": "5142",
+        "source_page": "206"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Third Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Matthew 23:37-24:2",
+        "normalized_ref": "Matt 23:37-24:2",
+        "passage": "Matt 23:37-24:2",
+        "source_line": "5159",
+        "source_page": "207"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Proverbs 9:1-11",
+        "normalized_ref": "Prov 9:1-11",
+        "passage": "Prov 9:1-11",
+        "source_line": "5662",
+        "source_page": "225"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 40:9-31",
+        "normalized_ref": "Isa 40:9-31",
+        "passage": "Isa 40:9-31",
+        "source_line": "5694",
+        "source_page": "226"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Daniel 7:9-15",
+        "normalized_ref": "Dan 7:9-15",
+        "passage": "Dan 7:9-15",
+        "source_line": "5753",
+        "source_page": "228"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Proverbs 8:1-12",
+        "normalized_ref": "Prov 8:1-12",
+        "passage": "Prov 8:1-12",
+        "source_line": "5771",
+        "source_page": "229"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 25:1-3",
+        "normalized_ref": "Ps 25:1-3",
+        "passage": "Ps 25:1-3",
+        "source_line": "5847",
+        "source_page": "232"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Ninth Hour",
+        "reading_type": "Gospel",
+        "raw_ref": "Matthew 24:3-35",
+        "normalized_ref": "Matt 24:3-35",
+        "passage": "Matt 24:3-35",
+        "source_line": "5865",
+        "source_page": "233"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Isaiah 30:25-30",
+        "normalized_ref": "Isa 30:25-30",
+        "passage": "Isa 30:25-30",
+        "source_line": "6015",
+        "source_page": "238"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Prophecy",
+        "raw_ref": "Proverbs 6:20-7:4",
+        "normalized_ref": "Prov 6:20-7:4",
+        "passage": "Prov 6:20-7:4",
+        "source_line": "6036",
+        "source_page": "239"
+      },
+      {
+        "day": "Tuesday",
+        "hour": "Eleventh Hour",
+        "reading_type": "Psalm",
+        "raw_ref": "Psalm 12:3-4",
+        "normalized_ref": "Ps 12:3-4",
+        "passage": "Ps 12:3-4",
+        "source_line": "6129",
+        "source_page": "243"
+      }
+    ]
+  },
+  "published_to": [
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data"
+  ]
+}
+{
+  "chapter_rows": 1351,
+  "read_chapters": 630,
+  "unread_chapters": 721,
+  "chapter_occurrence_rows": 71196,
+  "aggregate_csv": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_index.csv",
+  "detail_csv": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_occurrences.csv",
+  "data_dir": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data",
+  "published_to": []
+}
+{
+  "artifacts": [
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/copticchurch_date_readings_2020_2035.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/copticchurch_passage_index_2020_2035.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/katameros_cycle_readings.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/katameros_cycle_passage_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_crosswalk.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/reverse_lookup_summary.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_day_hour_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/pascha_source_text_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bright_saturday_service_order.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/agpeya_hour_readings.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/agpeya_passage_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_index.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/bible_chapter_lectionary_occurrences.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/source_ref_repair_report.csv",
+    "/Users/georgeandraws/workspace/coptic-lectionary-research/out/scripts/query_lectionary.py"
+  ],
+  "false_positive_checks": {
+    "John 2": [
+      "2020-01-22 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11",
+      "2020-02-13 | Jonah's Feast | Liturgy | Gospel | John 2:12-25",
+      "2020-04-22 | Wednesday of the first week of the holy fifty days | Liturgy | Gospel | Jn 2:12-25",
+      "2020-10-01 | Tout 21 | Liturgy | Catholic Epistle | Jn 2:7-11",
+      "2020-10-03 | Tout 23 | Liturgy | Catholic Epistle | Jn 2:7-11",
+      "2020-10-16 | Baba 6 | Liturgy | Gospel | John 2:1-11",
+      "2021-01-21 | Wedding of Cana | Liturgy | Gospel | Jn 2:1 - 11",
+      "2021-02-25 | Jonah's Feast | Liturgy | Gospel | John 2:12-25"
+    ],
+    "Isa 5": [
+      "Monday | First Hour | OT2 | Isa 5:1-9 | source=pascha_day_hour",
+      "week 2 day_of_week 3 | prophecy | GreatLentReadings | Isa 5:17-25 | source=katameros_cycle",
+      "Monday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour",
+      "Tuesday | Third Hour | OT1 | Isa 5:20-30 | source=pascha_day_hour",
+      "week 2 day_of_week 2 | prophecy | GreatLentReadings | Isa 5:7-16 | source=katameros_cycle"
+    ]
+  },
+  "required_pascha_genesis_rows": {
+    "monday_first_hour": [
+      "Monday | First Hour | OT1 | Gen 1:1-31; Gen 2:1-3",
+      "Monday | First Hour | OT2 | Isa 5:1-9",
+      "Monday | First Hour | OT3 | Ps 72:1-19",
+      "Monday | First Hour | Psalm+Gospel | Ps 72:18-19; Mark 11:12-24",
+      "Monday Eve | First Hour | OT1 | Zech 1:1-6",
+      "Monday Eve | First Hour | Psalm+Gospel | Ps 62:7,6; Luke 13:23-30"
+    ],
+    "monday_ninth_hour": [
+      "Monday | Ninth Hour | OT1 | Gen 2:15-25; Gen 3:1-24",
+      "Monday | Ninth Hour | OT2 | Isa 40:1-5",
+      "Monday | Ninth Hour | OT3 | Prov 1:1-9",
+      "Monday | Ninth Hour | Psalm+Gospel | Ps 65:5,4; Matt 21:23-27",
+      "Monday Eve | Ninth Hour | OT1 | Hos 10:12-15; Hos 11:1-2",
+      "Monday Eve | Ninth Hour | Psalm+Gospel | Ps 33:10,11; Luke 11:37-52"
+    ],
+    "tuesday_ninth_hour": [
+      "Tuesday | Ninth Hour | OT1 | Gen 6:5-9:7",
+      "Tuesday | Ninth Hour | OT2 | Isa 40:1-5",
+      "Tuesday | Ninth Hour | OT3 | Prov 1:1-9",
+      "Tuesday | Ninth Hour | Psalm+Gospel | Ps 65:5,4; Matt 21:23-27",
+      "Tuesday Eve | Ninth Hour | OT1 | Hos 10:12-15; Hos 11:1-2",
+      "Tuesday Eve | Ninth Hour | Psalm+Gospel | Ps 33:10,11; Luke 11:37-52"
+    ],
+    "wednesday_sixth_hour": [
+      "Wednesday | Sixth Hour | OT1 | Exod 14:13-15:1",
+      "Wednesday | Sixth Hour | OT2 | Sir 23:7-14",
+      "Wednesday | Sixth Hour | OT3 | Job 27:16-20; Job 28:1-2",
+      "Wednesday | Sixth Hour | Psalm+Gospel | Ps 83:2,5; John 12:1-8",
+      "Wednesday Eve | Sixth Hour | OT1 | Amos 3:1-11",
+      "Wednesday Eve | Sixth Hour | Psalm+Gospel | Ps 140:1,2; John 12:36-43"
+    ],
+    "wednesday_ninth_hour": [
+      "Wednesday | Ninth Hour | OT1 | Gen 24:1-9",
+      "Wednesday | Ninth Hour | OT2 | Num 20:1-13",
+      "Wednesday | Ninth Hour | OT3 | Prov 1:11-35",
+      "Wednesday | Ninth Hour | OT4 | Isa 59:1-17",
+      "Wednesday | Ninth Hour | OT5 | Zech 11:11-14",
+      "Wednesday | Ninth Hour | Psalm+Gospel | Ps 41:5-6; Matt 26:3-16",
+      "Wednesday Eve | Ninth Hour | OT1 | Ezek 20:27-33",
+      "Wednesday Eve | Ninth Hour | Psalm+Gospel | Ps 7:1-2; John 10:29-38"
+    ],
+    "great_thursday_ninth_hour": [
+      "Great Thursday | Ninth Hour | OT1 | Gen 22:1-19",
+      "Great Thursday | Ninth Hour | OT2 | Isa 61:1-7",
+      "Great Thursday | Ninth Hour | OT3 | Gen 14:17-20",
+      "Great Thursday | Ninth Hour | OT4 | Job 27:2-28:13",
+      "Great Thursday | Ninth Hour | Psalm+Gospel | Ps 23:1,2; Matt 26:17-19",
+      "Great Thursday Eve | Ninth Hour | OT1 | Jer 9:6-10",
+      "Great Thursday Eve | Ninth Hour | OT2 | Ezek 21:33-37",
+      "Great Thursday Eve | Ninth Hour | Psalm+Gospel | Ps 27:3,4; Ps 34:4,5; Matt 26:47-58; Mark 14:43-54; Luke 22:47-55; John 18:10-14"
+    ],
+    "great_thursday_water": [
+      "Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23"
+    ],
+    "good_friday_third_hour": [
+      "Good Friday | Third Hour | OT1 | Gen 48:1-19",
+      "Good Friday | Third Hour | OT2 | Isa 50:4-9",
+      "Good Friday | Third Hour | OT3 | Isa 3:9-15",
+      "Good Friday | Third Hour | OT4 | Isa 63:1-7",
+      "Good Friday | Third Hour | OT5 | Amos 9:4-6; Amos 9:8-10",
+      "Good Friday | Third Hour | OT6 | Job 29:21-30:10",
+      "Good Friday | Third Hour | Psalm+Gospel | Ps 38:17; Ps 22:16; Matt 27:15-26; Mark 15:6-25; Luke 23:13-25; John 19:1-12"
+    ],
+    "genesis_18_crosswalk": [
+      "## reverse crosswalk results",
+      "Great Thursday | Liturgy of Blessing of the Water | OT1 | Gen 18:1-23 | source=pascha_day_hour",
+      "week 3 day_of_week 4 | prophecy | GreatLentReadings | Gen 18:17-33 | source=katameros_cycle"
+    ]
+  },
+  "known_good_checks": {
+    "isaiah53": [
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour"
+    ],
+    "isa53": [
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour"
+    ],
+    "cycle_40_5": [
+      "AnnualReadings | Tut 13 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Tut 30 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 3 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 5 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 9 |  | vespers_gospel | Matt 4:23-25; Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16"
+    ],
+    "cycle_matt_5_1": [
+      "AnnualReadings | Tut 13 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Tut 30 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 3 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 5 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16",
+      "AnnualReadings | Babah 9 |  | vespers_gospel | Matt 5:1-16 | raw=40.4:23-25*@+40.5:1-16"
+    ],
+    "agpeya_first_hour": [
+      "daily_hours | First Hour (Prime / Morning Prayer) | psalm | Psalm 1; Psalm 2; Psalm 3; Psalm 4; Psalm 5; Psalm 6; Psalm 8; Psalm 11 (12); Psalm 12 (13); Psalm 14 (15); Psalm 15 (16); Psalm 18 (19); Psalm 24 (25); Psalm 26 (27); Psalm 62 (63); Psalm 66 (67); Psalm 69 (70); Psalm 112 (113); Psalm 142 (143)",
+      "daily_hours | First Hour (Prime / Morning Prayer) | gospel | John 1:1-17"
+    ],
+    "pascha_good_friday": [
+      "Good Friday | Sixth Hour | OT1 | Num 21:1-9",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12",
+      "Good Friday | Sixth Hour | OT3 | Isa 12:2-13:10",
+      "Good Friday | Sixth Hour | OT4 | Amos 8:9-12",
+      "Good Friday | Sixth Hour | Pauline | Gal 6:14-18"
+    ],
+    "pascha_great_thursday": [
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12",
+      "Great Thursday | Eleventh Hour | OT2 | Isa 19:19-25",
+      "Great Thursday | Eleventh Hour | OT3 | Zech 12:11-14; Zech 13:1-9; Zech 14:1-4; Zech 14:6-9",
+      "Great Thursday | Eleventh Hour | Psalm+Gospel | Ps 50:17,18; John 13:21-30",
+      "Great Thursday Eve | Eleventh Hour | OT1 | Isa 27:11-28:15"
+    ],
+    "pascha_monday_sixth": [
+      "Monday | Sixth Hour | OT1 | Exod 32:7-15",
+      "Monday | Sixth Hour | OT2 | Wis 1:1-9",
+      "Monday | Sixth Hour | Psalm+Gospel | Ps 122:4; John 2:13-17",
+      "Monday Eve | Sixth Hour | OT1 | Hos 4:15-19; Hos 5:1-7",
+      "Monday Eve | Sixth Hour | Psalm+Gospel | Ps 91:2,3; John 21:34-38"
+    ],
+    "pascha_tuesday_sixth": [
+      "Tuesday | Sixth Hour | OT1 | Ezek 21:3-13",
+      "Tuesday | Sixth Hour | OT2 | Sir 4:20-5:2",
+      "Tuesday | Sixth Hour | OT3 | Isa 1:1-9",
+      "Tuesday | Sixth Hour | Psalm+Gospel | Ps 18:48,17; John 8:12-20",
+      "Tuesday Eve | Sixth Hour | OT1 | Hos 4:15-19; Hos 5:1-7"
+    ],
+    "pascha_wednesday_eve_eleventh": [
+      "Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30",
+      "Wednesday Eve | Eleventh Hour | Psalm+Gospel | Ps 57:1; John 11:55-57"
+    ],
+    "source_text_wisdom_1": [
+      "Monday | Sixth Hour | Prophecy | Wis 1:1-9 | raw=Wisdom of Solomon 1:1-9 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:3154 page=128"
+    ],
+    "source_text_wisdom_7": [
+      "Wednesday Eve | Eleventh Hour | Prophecy | Wis 7:24-30 | raw=Wisdom of Solomon 7:24-30 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:7021 page=278"
+    ],
+    "source_text_sirach_4": [
+      "Tuesday | Sixth Hour | Prophecy | Sir 4:20-5:2 | raw=Sirach 4:20-5:2 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:5281 page=211"
+    ],
+    "source_text_exodus_32": [
+      "Monday | Sixth Hour | Prophecy | Exod 32:7-15 | raw=Exodus 32:7-15 | source=out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:3127 page=127"
+    ],
+    "crosswalk_psalm_62_7": [
+      "## reverse crosswalk results",
+      "Tuesday Eve | First Hour | Psalm | Ps 62:7,62:2 | source=pascha_source_text",
+      "Monday Eve | First Hour | Psalm+Gospel | Ps 62:7,62:6 | source=pascha_day_hour",
+      "Tuesday Eve | First Hour | Psalm+Gospel | Ps 62:7,62:6 | source=pascha_day_hour",
+      "Thursday Eve | Eleventh Hour | Psalm | Ps 62:7,62:6 | source=pascha_source_text"
+    ],
+    "crosswalk_psalm_18_48": [
+      "## reverse crosswalk results",
+      "Tuesday | Sixth Hour | Psalm+Gospel | Ps 18:48,18:17 | source=pascha_day_hour"
+    ],
+    "crosswalk_wisdom_2": [
+      "## reverse crosswalk results",
+      "Wednesday | First Hour | OT4 | Wis 1:20-2:15 | source=pascha_day_hour",
+      "Good Friday | First Hour | OT6 | Wis 2:12-22 | source=pascha_day_hour",
+      "Monday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour",
+      "Tuesday | Eleventh Hour | OT2 | Wis 2:20-30 | source=pascha_day_hour"
+    ],
+    "crosswalk_wisdom_7": [
+      "## reverse crosswalk results",
+      "Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30 | source=pascha_day_hour"
+    ],
+    "chapter_wisdom_7": [
+      "Wis 7 | read=yes | occurrences=1 | sources=pascha_day_hour | places=Wednesday Eve | samples=pascha_day_hour | Wednesday Eve | Eleventh Hour | OT1 | Wis 7:24-30"
+    ],
+    "date_annunciation": [
+      "2032-04-07 | Annunciation | Liturgy | Acts of the Apostles | Acts 7:23-34",
+      "2032-04-07 | Annunciation | Liturgy | Catholic Epistle | 1Jn 1:1\u2014  &  1Jn 2:1-6",
+      "2032-04-07 | Annunciation | Liturgy | Gospel | Lk 1:26-38",
+      "2032-04-07 | Annunciation | Liturgy | Pauline Epistle | Rom 3:1-31",
+      "2032-04-07 | Annunciation | Liturgy | Psalm | Psalm 45:10-11"
+    ],
+    "fallback_cycle_only_default": [
+      "2020-03-26 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2020-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1",
+      "2021-04-08 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2021-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1",
+      "2022-03-31 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1"
+    ],
+    "fallback_cycle_only_include_crosswalk": [
+      "## date results",
+      "2020-03-26 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2020-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1",
+      "2021-04-08 | Thursday of the fifth week of Great Lent | Liturgy | Pauline Epistle | 1Corinthians 10:14\u2014  &  1Corinthians 11:1-1",
+      "2021-09-04 | Mesra 29 | Liturgy | Pauline Epistle | 1Cor 10:25\u2014  &  1Cor 11:1-1"
+    ],
+    "include_crosswalk": [
+      "## reverse crosswalk results",
+      "Great Thursday | Eleventh Hour | OT1 | Isa 52:13-53:12 | source=pascha_day_hour",
+      "Good Friday | Sixth Hour | OT2 | Isa 53:7-12 | source=pascha_day_hour"
+    ],
+    "agpeya_crosswalk": [
+      "## date results",
+      "2020-05-24 | Sunday of the fifth week of the holy fifty days | Matins | Gospel | Jn 15:4-8",
+      "2020-05-29 | Friday of the sixth week of the holy fifty days | Liturgy | Gospel | Jn 14:26-31",
+      "2020-06-01 | Monday of the seventh week of the holy fifty days and the Feast of Entry into Egypt | Liturgy | Gospel | Jn 15:1-8",
+      "2020-06-07 | Pentecost | Matins | Gospel | Jn 14:26\u2014  &  Jn 15:1-4"
+    ],
+    "palm_procession": [
+      "palm_sunday | procession | procession_station_01_main_sanctuary | psalm | Psalm 104:4; Psalm 138:1",
+      "palm_sunday | procession | procession_station_01_main_sanctuary | gospel | John 1:43-51",
+      "palm_sunday | procession | procession_station_02_holy_virgin_st_mary | psalm | Psalm 87:3,5,7",
+      "palm_sunday | procession | procession_station_02_holy_virgin_st_mary | gospel | Luke 1:39-56",
+      "palm_sunday | procession | procession_station_03_archangel_gabriel | psalm | Psalm 34:7-8"
+    ],
+    "palm_vespers": [
+      "palm_sunday | vespers | vespers | psalm | Psalm 118:26-27",
+      "palm_sunday | vespers | vespers | gospel | John 12:1-11"
+    ],
+    "palm_liturgy": [
+      "palm_sunday | liturgy | liturgy_readings | pauline | Hebrews 9:11-28",
+      "palm_sunday | liturgy | liturgy_readings | catholic | 1 Peter 4:1-11",
+      "palm_sunday | liturgy | liturgy_readings | acts | Acts 28:11-31",
+      "palm_sunday | liturgy | first_gospel | psalm | Psalm 81:3; Psalm 81:1; Psalm 81:2",
+      "palm_sunday | liturgy | first_gospel | gospel | Matthew 21:1-17"
+    ],
+    "palm_station_crosswalk": [
+      "## date results",
+      "2020-01-21 | The Second Day of Feast of Epiphany | Liturgy | Gospel | Jn 1:35 - 51",
+      "2020-10-24 | Baba 14 | Matins | Gospel | Jn 1:43-51",
+      "2020-11-17 | Hator 8 | Liturgy | Gospel | Jn 1:43-51",
+      "2021-01-20 | The Second Day of Feast of Epiphany | Liturgy | Gospel | Jn 1:35 - 51"
+    ],
+    "chapter_john2": [
+      "Jn 2 | read=yes | occurrences=97 | sources=copticchurch_date; katameros_cycle; pascha_day_hour | places=Baba 6; Nasie 6; Wedding of Cana; annual fixed Coptic day; Jonah's Feast; Wednesday of the first week of the holy fifty days; Holy Fifty Days/Pentecost cycle; Monday; Tout 21; Tout 23 | samples=copticchurch_date | Baba 6 | Liturgy | Gospel | Jn 2:1-11 || copticchurch_date | Nasie 6 | Liturgy | Gospel | Jn 2:1-11 || copticchurch_date | Wedding of Cana | Liturgy | Gospel | Jn 2:1-11 || katameros_cycle | annual fixed Coptic day | liturgy_gospel | AnnualReadings | Jn 2:1-11 || copticchurch_date | Jonah's Feast | Liturgy | Gospel | Jn 2:12-25"
+    ],
+    "chapter_obadiah": [
+      "Obad 1 | read=no | occurrences=0 | sources= | places= | samples="
+    ]
+  },
+  "parser_edge_cases": {
+    "status": "passed"
+  },
+  "pascha_source_text_fully_parsed": {
+    "rows": 277,
+    "parsed_rows": 277,
+    "unparsed_rows": 0,
+    "cross_chapter_repairs_verified": [
+      "Great Thursday | Eleventh Hour | Zech 12:11-14:3,14:6-9",
+      "Great Thursday | Liturgy of Blessing of the Water | Isa 55:1-56:1",
+      "Monday Eve | Third Hour | Zeph 1:14-2:2",
+      "Monday | First Hour | Gen 1:1-2:3"
+    ]
+  },
+  "four_maccabees_local_absence": {
+    "parser_canonical": "4Macc 1:1-12",
+    "query_rows": 0,
+    "source_text_rows": 0,
+    "indexed_source_hits": 0,
+    "chapter_index_status": {
+      "testament": "Deuterocanonical",
+      "book": "4 Maccabees",
+      "book_abbrev": "4Macc",
+      "chapter": "1",
+      "chapter_ref": "4Macc 1",
+      "is_read": "no",
+      "occurrence_count": "0",
+      "source_kinds": "",
+      "liturgical_places": "",
+      "service_sections": "",
+      "reading_types": "",
+      "sample_occurrences": ""
+    },
+    "classification": "verified_absent_from_local_lectionary_sources_not_parser_gap"
+  },
+  "malformed_ref_checks": {
+    "copticchurch_date_readings_2020_2035.csv": {
+      "rows": 50382,
+      "normalized_suspicious_count": 0,
+      "raw_suspicious_count": 19
+    },
+    "copticchurch_passage_index_2020_2035.csv": {
+      "rows": 59322,
+      "normalized_suspicious_count": 0,
+      "raw_suspicious_count": 19
+    },
+    "reverse_lookup_crosswalk.csv": {
+      "rows": 66349,
+      "normalized_suspicious_count": 0,
+      "raw_suspicious_count": 19
+    },
+    "source_ref_repair_report.csv": {
+      "rows": 104
+    }
+  },
+  "duplicate_reading_tuple_guard": {
+    "reverse_lookup_rows_checked": 66349,
+    "katameros_cycle_passage_rows_checked": 6209,
+    "duplicate_reading_tuples": 0
+  },
+  "hatur8_segmentation_deduped": {
+    "raw_ref": "19.68:17,16,17",
+    "emitted_segments": [
+      "Ps 68:17",
+      "Ps 68:16"
+    ],
+    "raw_ref_warning": "source repeats verse 17 and lists verses out of order; verifier only dedupes emission"
+  },
+  "chapter_occurrence_label_columns": {
+    "rows": 71196,
+    "katameros_rows": 6209,
+    "matins_psalm_rows": 925,
+    "liturgy_catholic_rows": 599,
+    "label_catholicon_rows": 0,
+    "required_columns": [
+      "occasion_label",
+      "reading_label",
+      "service_label"
+    ]
+  },
+  "chapter_occurrence_row_count": {
+    "chapter_occurrence_rows": 71196
+  },
+  "reverse_crosswalk_span_validity": {
+    "reverse_crosswalk_rows": 66349,
+    "parsed_rows": 66349,
+    "invalid_spans": 0
+  },
+  "pascha_source_text_dedupe_invariants": {
+    "pascha_day_hour_day_passage_keys": 283,
+    "pascha_source_text_duplicates": 0,
+    "confirmed_bad_wednesday_rows_present": 0,
+    "retained_hosanna_lamentations_rows": 1
+  },
+  "wednesday_pascha_day_hour_corrections": {
+    "wednesday_pascha_day_hour_rows": 30,
+    "isaiah_48_rows": 0,
+    "sixth_hour_sirach_23_rows": 1,
+    "restored_fuller_edition_rows": 5
+  }
+}
+fetched/parsed 500/5844
+fetched/parsed 1000/5844
+fetched/parsed 1500/5844
+fetched/parsed 2000/5844
+fetched/parsed 2500/5844
+fetched/parsed 3000/5844
+fetched/parsed 3500/5844
+fetched/parsed 4000/5844
+fetched/parsed 4500/5844
+fetched/parsed 5000/5844
+fetched/parsed 5500/5844
+{
+  "built_at": "2026-06-18T02:15:37",
+  "cycle_reading_rows": 4629,
+  "cycle_passage_segments": 6209,
+  "date_resolved_years": "2020-2035",
+  "date_resolved_days": 5844,
+  "date_resolved_reading_rows": 50382,
+  "date_resolved_passage_index_rows": 59322,
+  "date_scrape_errors": 0,
+  "source_file_count": 14,
+  "published_file_count": 0,
+  "published_to": "/Users/georgeandraws/workspace/coptic-lectionary-research/out"
+}
