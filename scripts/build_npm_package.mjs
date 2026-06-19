@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.1.4';
+const VERSION = '1.1.5';
 const SCHEMA_VERSION = '1.1.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -77,9 +77,23 @@ function classifyStructuralMissingDate(date) {
 }
 
 const SERVICE_ORDER = new Map([
-  ['Vespers', 1],
-  ['Matins', 2],
-  ['Liturgy', 3],
+  ['vespers', 1],
+  ['matins', 2],
+  ['midnightpraises', 3],
+  ['firsthour', 10],
+  ['1sthour', 10],
+  ['thirdhour', 20],
+  ['3rdhour', 20],
+  ['sixthhour', 30],
+  ['6thhour', 30],
+  ['ninthhour', 40],
+  ['9thhour', 40],
+  ['liturgyofblessingofthewater', 45],
+  ['eleventhhour', 50],
+  ['11thhour', 50],
+  ['twelfthhour', 60],
+  ['12thhour', 60],
+  ['liturgy', 99],
 ]);
 
 const LITURGY_SLOT_ORDER = new Map([
@@ -108,7 +122,13 @@ function slotType(slot) {
 }
 
 function serviceOrder(serviceSection) {
-  return SERVICE_ORDER.get(serviceSection) ?? 99;
+  const key = String(serviceSection || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  return SERVICE_ORDER.get(key) ?? 999;
+}
+
+function existingNumericOrder(value) {
+  const numeric = Number(value);
+  return Number.isFinite(numeric) ? numeric : null;
 }
 
 function slotOrder(slot, serviceSection) {
@@ -245,6 +265,37 @@ function passageVariant(left, right) {
   return Boolean(leftRef && rightRef && leftRef !== rightRef);
 }
 
+function parseReferenceShape(value) {
+  const text = String(value || '').replace(/\([^)]*\)/g, '').trim();
+  const match = text.match(/^\s*([1-3]?\s*[A-Za-z]+)\s+(\d+):(\d+)\s*-\s*(\d+)(?::(\d+))?\s*$/);
+  if (!match) return null;
+  return {
+    book: match[1].toLowerCase().replace(/\s+/g, ''),
+    startChapter: Number(match[2]),
+    startVerse: Number(match[3]),
+    endChapter: Number(match[4]),
+    endVerse: match[5] === undefined ? null : Number(match[5]),
+  };
+}
+
+function shorthandChapterVariant(left, right) {
+  const leftShape = parseReferenceShape(left.canonical_mt_ref || left.display_ref);
+  const rightShape = parseReferenceShape(right.canonical_mt_ref || right.display_ref);
+  if (!leftShape || !rightShape) return false;
+  if (leftShape.book !== rightShape.book) return false;
+  if (leftShape.startChapter !== rightShape.startChapter || leftShape.startVerse !== rightShape.startVerse) return false;
+  const leftShorthand = leftShape.endVerse === null;
+  const rightShorthand = rightShape.endVerse === null;
+  if (leftShorthand === rightShorthand) return false;
+  const shorthand = leftShorthand ? leftShape : rightShape;
+  const expanded = leftShorthand ? rightShape : leftShape;
+  return shorthand.endChapter === expanded.endChapter && expanded.endVerse !== null;
+}
+
+function passageOverlapOrShorthandVariant(left, right) {
+  return spansOverlap(left, right) || shorthandChapterVariant(left, right);
+}
+
 function projectionGroupKey(row, context) {
   return [context, normalizedService(row.service_section), normalizeContextText(row.service_hour), normalizedSlotType(row)].join('|');
 }
@@ -268,7 +319,7 @@ function suppressLowerPriorityPassageVariants(rows) {
         const left = members[leftIndex];
         const right = members[rightIndex];
         if (priority(left.row) === priority(right.row)) continue;
-        if (!spansOverlap(left.row, right.row) || !passageVariant(left.row, right.row)) continue;
+        if (!passageOverlapOrShorthandVariant(left.row, right.row) || !passageVariant(left.row, right.row)) continue;
         const preferred = priority(left.row) < priority(right.row) ? left : right;
         const lower = preferred === left ? right : left;
         if (!suppressed.has(lower.index)) {
@@ -333,6 +384,7 @@ async function projectReverseIndex() {
   const projected = suppressLowerPriorityPassageVariants(disambiguated.rows);
   await writeFile(OCCASION_DEST, `${projected.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   return {
+    rows: projected.rows,
     source_rows: parsedRows.length,
     output_rows: projected.rows.length,
     lower_priority_passage_variants_suppressed: projected.suppressions.length,
@@ -342,12 +394,100 @@ async function projectReverseIndex() {
   };
 }
 
+const PASCHA_DAY_OFFSETS = new Map([
+  ['Monday', -6],
+  ['Tuesday', -5],
+  ['Wednesday', -4],
+  ['Great Thursday', -3],
+  ['Good Friday', -2],
+  ['Bright Saturday', -1],
+]);
+
+const PASCHA_DAILY_OCCASIONS = new Map([
+  ['Monday', new Set(['Monday Eve', 'Monday'])],
+  ['Tuesday', new Set(['Tuesday Eve', 'Tuesday'])],
+  ['Wednesday', new Set(['Wednesday Eve', 'Wednesday'])],
+  ['Great Thursday', new Set(['Great Thursday Eve', 'Great Thursday'])],
+  ['Good Friday', new Set(['Good Friday'])],
+  ['Bright Saturday', new Set(['Bright Saturday'])],
+]);
+
+function paschaDateForDay(year, dayName) {
+  const pascha = new Date(`${julianPaschaGregorian(year)}T00:00:00Z`);
+  const offset = PASCHA_DAY_OFFSETS.get(dayName);
+  if (offset === undefined) throw new Error(`Unsupported Pascha day: ${dayName}`);
+  pascha.setUTCDate(pascha.getUTCDate() + offset);
+  return dateToIso(pascha);
+}
+
+function isBrightSaturdayServiceRow(row) {
+  return row.source_family === 'bright_saturday' && String(row.calendar_keys || '').startsWith('Bright Saturday');
+}
+
+function rowsForPaschaDailyDate(projectedRows, dayName) {
+  const occasions = PASCHA_DAILY_OCCASIONS.get(dayName) || new Set();
+  return projectedRows.filter((row) => {
+    if (dayName === 'Bright Saturday' && isBrightSaturdayServiceRow(row)) return true;
+    return row.source_family === 'holy_pascha_curated_day_hour' && occasions.has(String(row.occasion || ''));
+  });
+}
+
+function dailyRowFromReverse(row, dayName) {
+  const occasion = isBrightSaturdayServiceRow(row) ? 'Bright Saturday' : row.occasion;
+  const serviceHour = row.service_hour || row.service_section || '';
+  return normalizeObjectStrings({
+    occasion,
+    service_section: row.service_section || '',
+    service_hour: serviceHour,
+    slot: row.slot || '',
+    display_ref: row.display_ref || '',
+    identity_key: row.identity_key || '',
+    reading_type: row.reading_type || 'scripture',
+    removed_marker: row.removed_marker || '',
+    canonical_mt_ref: row.canonical_mt_ref || '',
+    canonical_lxx_ref: row.canonical_lxx_ref || '',
+    spans_json: row.spans_json || '[]',
+    source_family: row.source_family || '',
+    source_kind: row.source_kind || '',
+    source_locator: row.source_locator || '',
+    source_disclosure: row.source_disclosure || '[]',
+    source_disclosure_count: row.source_disclosure_count || '0',
+    hour_theme: row.hour_theme || '',
+    structural_day: dayName,
+  });
+}
+
+function dedupeDailyRows(rows) {
+  const seen = new Set();
+  const out = [];
+  for (const row of rows) {
+    const key = [row.occasion || '', row.service_section || '', row.service_hour || '', row.slot || '', row.identity_key || '', row.display_ref || ''].join('|');
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(row);
+  }
+  return out;
+}
+
+function addMissingStructuralDailyRows(sorted, year, projectedRows) {
+  const additions = [];
+  for (const dayName of PASCHA_DAILY_OCCASIONS.keys()) {
+    const date = paschaDateForDay(year, dayName);
+    if (Object.prototype.hasOwnProperty.call(sorted, date)) continue;
+    const rows = rowsForPaschaDailyDate(projectedRows, dayName).map((row) => dailyRowFromReverse(row, dayName));
+    if (!rows.length) continue;
+    sorted[date] = sortDailyReadings(dedupeDailyRows(rows));
+    additions.push({ date, day: dayName, reading_count: sorted[date].length });
+  }
+  return additions;
+}
+
 function sortDailyReadings(readings) {
   const enriched = readings.map((reading) => ({
     ...reading,
-    service_order: serviceOrder(reading.service_section),
-    slot_type: slotType(reading.slot),
-    slot_order: slotOrder(reading.slot, reading.service_section),
+    service_order: existingNumericOrder(reading.service_order) ?? serviceOrder(reading.service_section),
+    slot_type: reading.slot_type || slotType(reading.slot),
+    slot_order: existingNumericOrder(reading.slot_order) ?? slotOrder(reading.slot, reading.service_section),
   }));
   enriched.sort((a, b) => {
     const keysA = [a.service_order, a.service_section || '', a.service_hour || '', a.slot_order, a.slot || '', a.display_ref || '', a.identity_key || ''];
@@ -362,17 +502,20 @@ function sortDailyReadings(readings) {
 
 function buildStructuralDateResolver(dailyInfos) {
   const missingDatesByYear = {};
+  const structuralRowsByYear = {};
   for (const info of dailyInfos) {
     missingDatesByYear[String(info.year)] = info.missing_dates.map(classifyStructuralMissingDate);
+    structuralRowsByYear[String(info.year)] = info.structural_daily_additions || [];
   }
   return {
-    schema: 'julian_pascha_structural_gap_v1',
-    coverage: 'partial_daily_with_structural_date_resolver',
+    schema: 'julian_pascha_structural_daily_v2',
+    coverage: 'complete_daily_with_date_resolved_structural_rows',
     exported_function: 'classifyDate(date)',
     date_key_format: 'YYYY-MM-DD',
     shipped_years: SHIPPED_YEARS,
     missing_dates_by_year: missingDatesByYear,
-    contract: 'If classifyDate(date).hasDailyReadings is false and classification is holy_week_structural_only_not_in_daily, use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows. Do not treat the daily file omission as data loss.',
+    structural_daily_additions_by_year: structuralRowsByYear,
+    contract: 'All shipped civil dates have daily JSON keys. Holy Week and Bright Saturday structural rows are date-resolved into the daily files when the public copticchurch.net daily cache has no date-resolved rows for that civil date.',
     pascha_computus: 'Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range.',
   };
 }
@@ -391,7 +534,7 @@ async function countJsonlRows(filePath) {
   return rows;
 }
 
-async function readDailyInfo(year) {
+async function readDailyInfo(year, projectedRows) {
   const source = path.join(DESIGN_DIR, 'daily', `lectionary-${year}.json`);
   const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
   const body = await readFile(source, 'utf8');
@@ -413,6 +556,8 @@ async function readDailyInfo(year) {
     sorted[date] = sortDailyReadings(readings.map((reading) => normalizeObjectStrings(reading)));
   }
 
+  const structuralDailyAdditions = addMissingStructuralDailyRows(sorted, year, projectedRows);
+
   await writeFile(destination, `${JSON.stringify(sorted, null, 2)}\n`, 'utf8');
   const stats = await stat(destination);
 
@@ -428,6 +573,7 @@ async function readDailyInfo(year) {
     reading_count: readingCount,
     bytes: stats.size,
     missing_dates: missingDates,
+    structural_daily_additions: structuralDailyAdditions,
     pascha_date: julianPaschaGregorian(year),
   };
 }
@@ -551,8 +697,8 @@ Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readin
 
 - \`data/reverse_lectionary_index.jsonl\`: one JSON object per line for reverse lookup by lectionary occasion and reading identity.
 - \`data/daily/lectionary-2026.json\`, \`lectionary-2027.json\`, and \`lectionary-2028.json\`: date-resolved readings keyed by ISO date.
-- \`index.js\`: CommonJS exports for stable resolved paths, package metadata, and structural date classification.
-- \`meta.json\`: package provenance, schema version, counts, shipped years, structural date resolver contract, and schema notes. In \`daily_files\`, \`rows\` is retained as the legacy date-count field; use \`date_count\` and \`reading_count\` for explicit counts.
+- \`index.js\`: CommonJS exports for stable resolved paths, package metadata, and date classification.
+- \`meta.json\`: package provenance, schema version, counts, shipped years, structural daily materialization summary, and schema notes. In \`daily_files\`, \`rows\` is retained as the legacy date-count field; use \`date_count\` and \`reading_count\` for explicit counts.
 
 ## Usage
 
@@ -616,11 +762,11 @@ Each daily reading includes a unique \`reading_order\` within that date. The pac
 
 In \`meta.daily_files\`, \`rows\` is retained as a legacy alias for \`date_count\`. Use \`date_count\` for the number of ISO date keys and \`reading_count\` for the total number of readings across those dates.
 
-## Structural date resolver
+## Structural Holy Week / Bright Saturday daily rows
 
-The daily files intentionally omit some Holy Week / Bright Saturday dates whose readings live as structural Pascha rows in \`reverse_lectionary_index.jsonl\`. These omissions are enumerated in \`meta.structural_date_resolver.missing_dates_by_year\` and exposed through \`classifyDate(date)\`.
+The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date. As a result, every shipped civil date in ${meta.shipped_years.join(', ')} has a daily JSON key.
 
-For example, \`classifyDate('2026-04-10')\` returns \`hasDailyReadings: false\` with classification \`holy_week_structural_only_not_in_daily\`; consumers should use the reverse index for those structural rows instead of treating the date as data loss.
+\`meta.structural_date_resolver.structural_daily_additions_by_year\` lists the civil dates filled from structural Pascha/Bright Saturday rows. \`classifyDate(date)\` returns \`hasDailyReadings: true\` for every shipped civil date that has a daily key.
 
 ## Source-priority projection
 
@@ -638,7 +784,7 @@ Psalm \`display_ref\` values may include inline dual numbering, for example \`Ps
 
 ## Known limitation
 
-Structural-only occasions without a \`gregorian_date\` are not present in the daily files yet. This includes Bright Saturday and special services. Known shipped-year Holy Week / Bright Saturday daily omissions are not silent gaps; they are listed in \`meta.structural_date_resolver\` and classified by \`classifyDate(date)\`.
+Structural-only occasions outside the shipped civil-year daily scope, such as some special services, remain available through \`reverse_lectionary_index.jsonl\`. Holy Week and Bright Saturday rows for shipped civil dates are included in daily files.
 
 ## Provenance
 
@@ -696,14 +842,14 @@ function metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFil
         attestation_year_max: 'Maximum attested year in the packaged source data.',
       },
       daily_file_shape: 'Each daily JSON file maps ISO dates to an array of readings sorted by reading_order. Each reading includes reading_order, service_order, slot_type, and slot_order; slot_order may repeat within split Psalm/reading fragments, while reading_order is unique per date.',
-      structural_date_resolver: 'meta.structural_date_resolver lists shipped-year dates intentionally omitted from daily files because they are structural Holy Week/Bright Saturday rows resolved through reverse_lectionary_index.jsonl.',
+      structural_date_resolver: 'meta.structural_date_resolver documents Holy Week/Bright Saturday structural rows that were date-resolved into shipped daily files. All shipped civil dates are expected to have daily JSON keys.',
       psalm_dual_numbering: 'Psalm display_ref may include inline LXX numbering in parentheses. Use canonical_mt_ref, canonical_lxx_ref, and spans_json for machine matching.',
       canonicalization_notes: 'canonicalization_note values are source/provenance hints, not date or service resolvers.',
       multi_source_family: 'The same identity_key may appear across multiple source_family values and distinct occasions; this is expected attestation breadth, not a duplicate by itself.',
       source_priority_projection: 'When current copticchurch.net date-resolved rows overlap lower-priority cycle rows for the same normalized consumer context/service/hour/slot but disagree on passage span, the npm package omits the lower-priority variant. See meta.projection_rules for counts and examples.',
       coptic_month_spellings: 'Runtime package labels normalize Kiak to Kiahk and Baba to Babah.',
       weekday_specific_disambiguation: 'When a Sunday-specific fixed-date row has a generic sibling with the same reading identity, the generic sibling is labeled as a non-Sunday context to avoid consumer duplicate grouping.',
-      known_limitation: 'Structural-only occasions without a gregorian_date, including Bright Saturday and special services, are not in the daily files yet.',
+      known_limitation: 'Structural-only occasions outside the shipped civil-year daily scope remain available through reverse_lectionary_index.jsonl. Holy Week and Bright Saturday rows for shipped civil dates are date-resolved into daily files.',
     },
   };
 }
@@ -715,14 +861,15 @@ async function main() {
   await rm(PACKAGE_DIR, { recursive: true, force: true });
   await mkdir(DAILY_DIR, { recursive: true });
 
-  const projectionRules = await projectReverseIndex();
+  const reverseProjection = await projectReverseIndex();
+  const { rows: projectedRows, ...projectionRules } = reverseProjection;
   const occasionIndexRows = projectionRules.output_rows;
   const dailyInfos = [];
 
   for (const year of SHIPPED_YEARS) {
-    dailyInfos.push(await readDailyInfo(year));
+    dailyInfos.push(await readDailyInfo(year, projectedRows));
   }
-  const dailyFiles = dailyInfos.map(({ missing_dates, pascha_date, ...info }) => info);
+  const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);
 
   const meta = metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFiles, structuralDateResolver, projectionRules);

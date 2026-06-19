@@ -25,6 +25,10 @@ from passage_normalization import canonicalize_text_ref  # noqa: E402
 PACKAGE_DIR = ROOT / "packages" / "lectionary-data"
 SOURCE_INDEX = ROOT / "out" / "data" / "copticchurch_passage_index_2020_2035.csv"
 INLINE_LXX_RE = re.compile(r"\s*\(LXX [^)]+\)")
+STRUCTURAL_PACKAGE_SOURCE_FAMILIES = {
+    "holy_pascha_curated_day_hour",
+    "bright_saturday",
+}
 ComparisonKey = tuple[str, str, str, str]
 
 
@@ -59,16 +63,26 @@ def source_counter(source_rows: list[dict[str, str]], year: int) -> Counter[Comp
     return counter
 
 
-def package_counter(package_dir: Path, year: int) -> Counter[ComparisonKey]:
+def is_package_structural_daily_row(reading: dict[str, Any]) -> bool:
+    return bool(reading.get("structural_day")) or str(reading.get("source_family") or "") in STRUCTURAL_PACKAGE_SOURCE_FAMILIES
+
+
+def package_counter(package_dir: Path, year: int) -> tuple[Counter[ComparisonKey], int, int]:
     daily_path = package_dir / "data" / "daily" / f"lectionary-{year}.json"
     daily = load_json(daily_path)
     if not isinstance(daily, dict):
         raise AssertionError(f"{daily_path} must be a JSON object keyed by date")
     counter: Counter[ComparisonKey] = Counter()
+    skipped_structural_rows = 0
+    total_rows = 0
     for date_value, readings in daily.items():
         if not isinstance(readings, list):
             raise AssertionError(f"{daily_path} date {date_value} must contain a reading array")
         for reading in readings:
+            total_rows += 1
+            if isinstance(reading, dict) and is_package_structural_daily_row(reading):
+                skipped_structural_rows += 1
+                continue
             counter[
                 (
                     date_value,
@@ -77,7 +91,7 @@ def package_counter(package_dir: Path, year: int) -> Counter[ComparisonKey]:
                     normalize_reference_for_compare(str(reading.get("display_ref", ""))),
                 )
             ] += 1
-    return counter
+    return counter, total_rows, skipped_structural_rows
 
 
 def counter_delta_rows(year: int, source: Counter[ComparisonKey], package: Counter[ComparisonKey]) -> list[dict[str, Any]]:
@@ -124,7 +138,7 @@ def compare_copticchurch_cache(package_dir: Path = PACKAGE_DIR, source_index: Pa
 
     for year in shipped_years:
         source = source_counter(source_rows, int(year))
-        package = package_counter(package_dir, int(year))
+        package, package_total_rows, skipped_structural_rows = package_counter(package_dir, int(year))
         delta_rows = counter_delta_rows(int(year), source, package)
         comparison_rows.extend(delta_rows)
         source_count = sum(source.values())
@@ -134,7 +148,9 @@ def compare_copticchurch_cache(package_dir: Path = PACKAGE_DIR, source_index: Pa
             failures.append({"year": int(year), "mismatch_count": mismatch_count})
         year_summaries[str(year)] = {
             "source_rows": source_count,
-            "package_rows": package_count,
+            "package_rows": package_total_rows,
+            "comparable_package_rows": package_count,
+            "skipped_structural_package_rows": skipped_structural_rows,
             "unique_source_keys": len(source),
             "unique_package_keys": len(package),
             "mismatch_rows": mismatch_count,

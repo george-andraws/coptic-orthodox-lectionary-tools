@@ -52,7 +52,7 @@ python3 -m py_compile \
 python3 verify_design_deliverables.py
 python3 verify_lectionary_queries.py
 python3 scripts/verify_source_manifest.py
-python3 scripts/verify_calendar_coverage.py
+python3 scripts/verify_calendar_coverage.py --strict-complete-calendar
 python3 scripts/compare_external_sources.py
 python3 scripts/verify_package_integrity.py
 python3 scripts/verify_package_integrity.py --tarball packages/lectionary-data/andraws-lectionary-data-<version>.tgz
@@ -66,6 +66,7 @@ mkdir -p audit_artifacts/validation_release_gate_YYYY-MM-DD
 python3 scripts/verify_source_manifest.py \
   --output audit_artifacts/validation_release_gate_YYYY-MM-DD/source_manifest.json
 python3 scripts/verify_calendar_coverage.py \
+  --strict-complete-calendar \
   --output audit_artifacts/validation_release_gate_YYYY-MM-DD/calendar_coverage.json
 python3 scripts/compare_external_sources.py \
   --output audit_artifacts/validation_release_gate_YYYY-MM-DD/copticchurch_comparison.json \
@@ -146,26 +147,22 @@ Validates:
 
 - package daily files exist for all `meta.shipped_years`
 - `meta.json` exposes `schemaVersion` / `schema_version`
-- missing shipped-year dates are enumerated by `meta.structural_date_resolver`
+- every shipped civil date exists as a daily JSON key, including Holy Week and Bright Saturday dates
+- structural Holy Week/Bright Saturday rows materialized into daily files are documented in `meta.structural_date_resolver.structural_daily_additions_by_year`
 - every key is an ISO date in the correct year
 - every date maps to an array of readings
 - package daily arrays are sorted by unique `reading_order`; `slot_order` may repeat for split Psalm/reading fragments
 - package metadata count fields match actual file contents
-- missing Gregorian dates are classified
 
-Current accepted classification:
+Hard failure:
 
-- `holy_week_structural_only_not_in_daily`
+- any missing shipped civil date, including Holy Week or Bright Saturday
 
-This accepted gap means the daily files do not yet contain date-resolved Holy Week / Bright Saturday structural rows. It is acceptable only if site runtime handles those dates separately or if the package is documented as incomplete for those dates.
-
-Strict mode:
+Strict mode is required for release validation:
 
 ```bash
 python3 scripts/verify_calendar_coverage.py --strict-complete-calendar
 ```
-
-Use strict mode after Pascha and Bright Saturday rows are date-resolved into daily files.
 
 ## Gate 5: copticchurch cached external-source comparison
 
@@ -176,6 +173,7 @@ Validates:
 - shipped daily package rows match `out/data/copticchurch_passage_index_2020_2035.csv` for shipped years
 - comparison uses the split passage-index layer, not raw multi-reference date rows
 - package-only inline LXX Psalm annotations are stripped before comparison so dual-numbering display does not create false mismatches
+- explicitly marked structural Holy Week / Bright Saturday materialized rows are skipped for this copticchurch-cache parity check because those rows come from structural Pascha sources, not the public daily cache
 
 Current comparison source:
 
@@ -186,7 +184,7 @@ This is not a fresh live scrape. It validates package preservation against the r
 Hard failures:
 
 - any source-only row missing from package
-- any package-only row not present in source cache
+- any package-only row not present in source cache unless it is explicitly marked as a structural Holy Week / Bright Saturday materialized row
 - row-count mismatch after normalization
 
 ## Gate 6: package and tarball integrity

@@ -6,8 +6,8 @@ Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readin
 
 - `data/reverse_lectionary_index.jsonl`: one JSON object per line for reverse lookup by lectionary occasion and reading identity.
 - `data/daily/lectionary-2026.json`, `lectionary-2027.json`, and `lectionary-2028.json`: date-resolved readings keyed by ISO date.
-- `index.js`: CommonJS exports for stable resolved paths, package metadata, and structural date classification.
-- `meta.json`: package provenance, schema version, counts, shipped years, structural date resolver contract, and schema notes. In `daily_files`, `rows` is retained as the legacy date-count field; use `date_count` and `reading_count` for explicit counts.
+- `index.js`: CommonJS exports for stable resolved paths, package metadata, and date classification.
+- `meta.json`: package provenance, schema version, counts, shipped years, structural daily materialization summary, and schema notes. In `daily_files`, `rows` is retained as the legacy date-count field; use `date_count` and `reading_count` for explicit counts.
 
 ## Usage
 
@@ -71,11 +71,11 @@ Each daily reading includes a unique `reading_order` within that date. The packa
 
 In `meta.daily_files`, `rows` is retained as a legacy alias for `date_count`. Use `date_count` for the number of ISO date keys and `reading_count` for the total number of readings across those dates.
 
-## Structural date resolver
+## Structural Holy Week / Bright Saturday daily rows
 
-The daily files intentionally omit some Holy Week / Bright Saturday dates whose readings live as structural Pascha rows in `reverse_lectionary_index.jsonl`. These omissions are enumerated in `meta.structural_date_resolver.missing_dates_by_year` and exposed through `classifyDate(date)`.
+The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date. As a result, every shipped civil date in 2026, 2027, 2028 has a daily JSON key.
 
-For example, `classifyDate('2026-04-10')` returns `hasDailyReadings: false` with classification `holy_week_structural_only_not_in_daily`; consumers should use the reverse index for those structural rows instead of treating the date as data loss.
+`meta.structural_date_resolver.structural_daily_additions_by_year` lists the civil dates filled from structural Pascha/Bright Saturday rows. `classifyDate(date)` returns `hasDailyReadings: true` for every shipped civil date that has a daily key.
 
 ## Source-priority projection
 
@@ -93,14 +93,14 @@ Psalm `display_ref` values may include inline dual numbering, for example `Ps 10
 
 ## Known limitation
 
-Structural-only occasions without a `gregorian_date` are not present in the daily files yet. This includes Bright Saturday and special services. Known shipped-year Holy Week / Bright Saturday daily omissions are not silent gaps; they are listed in `meta.structural_date_resolver` and classified by `classifyDate(date)`.
+Structural-only occasions outside the shipped civil-year daily scope, such as some special services, remain available through `reverse_lectionary_index.jsonl`. Holy Week and Bright Saturday rows for shipped civil dates are included in daily files.
 
 ## Provenance
 
-- Package version: 1.1.4
-- Source repo commit: 0731a0aeb2bc6b11b0e1da0b795dc93a4878fa20
-- Generated at: 2026-06-19T18:21:08.289Z
-- Occasion index rows: 11430
+- Package version: 1.1.5
+- Source repo commit: 0704df9bd526c7e489187a9c1616cfb9c5a6b020
+- Generated at: 2026-06-19T18:59:41.535Z
+- Occasion index rows: 11407
 
 ## License
 

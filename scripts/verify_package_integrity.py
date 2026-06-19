@@ -226,6 +226,42 @@ def passage_variant(left: dict[str, Any], right: dict[str, Any]) -> bool:
     return bool(left_ref and right_ref and left_ref != right_ref)
 
 
+def parse_reference_shape(value: Any) -> dict[str, Any] | None:
+    text = re.sub(r"\([^)]*\)", "", str(value or "")).strip()
+    match = re.match(r"^\s*([1-3]?\s*[A-Za-z]+)\s+(\d+):(\d+)\s*-\s*(\d+)(?::(\d+))?\s*$", text)
+    if not match:
+        return None
+    return {
+        "book": re.sub(r"\s+", "", match.group(1)).casefold(),
+        "start_chapter": int(match.group(2)),
+        "start_verse": int(match.group(3)),
+        "end_chapter": int(match.group(4)),
+        "end_verse": int(match.group(5)) if match.group(5) is not None else None,
+    }
+
+
+def shorthand_chapter_variant(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_shape = parse_reference_shape(left.get("canonical_mt_ref") or left.get("display_ref"))
+    right_shape = parse_reference_shape(right.get("canonical_mt_ref") or right.get("display_ref"))
+    if not left_shape or not right_shape:
+        return False
+    if left_shape["book"] != right_shape["book"]:
+        return False
+    if left_shape["start_chapter"] != right_shape["start_chapter"] or left_shape["start_verse"] != right_shape["start_verse"]:
+        return False
+    left_shorthand = left_shape["end_verse"] is None
+    right_shorthand = right_shape["end_verse"] is None
+    if left_shorthand == right_shorthand:
+        return False
+    shorthand = left_shape if left_shorthand else right_shape
+    expanded = right_shape if left_shorthand else left_shape
+    return shorthand["end_chapter"] == expanded["end_chapter"] and expanded["end_verse"] is not None
+
+
+def passage_overlap_or_shorthand_variant(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    return spans_overlap(left, right) or shorthand_chapter_variant(left, right)
+
+
 def detect_context_passage_conflicts(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     groups: dict[tuple[str, str, str, str], list[tuple[int, dict[str, Any]]]] = {}
     for row_number, row in enumerate(rows, 1):
@@ -246,7 +282,7 @@ def detect_context_passage_conflicts(rows: list[dict[str, Any]]) -> list[dict[st
             for right_number, right in members[index + 1 :]:
                 if source_priority(left) == source_priority(right):
                     continue
-                if not spans_overlap(left, right) or not passage_variant(left, right):
+                if not passage_overlap_or_shorthand_variant(left, right) or not passage_variant(left, right):
                     continue
                 preferred_number, preferred = (left_number, left) if source_priority(left) < source_priority(right) else (right_number, right)
                 lower_number, lower = (right_number, right) if preferred is left else (left_number, left)
@@ -313,7 +349,7 @@ const result = {
   occasionIndexExists: fs.existsSync(pkg.occasionIndexPath),
   daily2026Exists: fs.existsSync(pkg.dailyYearPath(2026)),
   structuralDateResolver: pkg.structuralDateResolver,
-  classifiedStructuralGap: pkg.classifyDate('2026-04-10'),
+  classifiedStructuralDate: pkg.classifyDate('2026-04-10'),
   classifiedDailyDate: pkg.classifyDate('2026-01-01'),
 };
 console.log(JSON.stringify(result));
@@ -333,8 +369,8 @@ console.log(JSON.stringify(result));
     ok = (
         parsed.get("occasionIndexExists") is True
         and parsed.get("daily2026Exists") is True
-        and parsed.get("classifiedStructuralGap", {}).get("classification") == "holy_week_structural_only_not_in_daily"
-        and parsed.get("classifiedStructuralGap", {}).get("hasDailyReadings") is False
+        and parsed.get("classifiedStructuralDate", {}).get("classification") == "daily_file_present"
+        and parsed.get("classifiedStructuralDate", {}).get("hasDailyReadings") is True
         and parsed.get("classifiedDailyDate", {}).get("hasDailyReadings") is True
     )
     return {"status": "pass" if ok else "fail", **parsed}
@@ -451,14 +487,8 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
             end = dt.date(year, 12, 31)
             expected_dates = {(start + dt.timedelta(days=offset)).isoformat() for offset in range((end - start).days + 1)}
         missing_dates = sorted(expected_dates - set(data)) if expected_dates else []
-        resolver_dates = {
-            entry.get("date")
-            for entry in (((structural_resolver.get("missing_dates_by_year") or {}).get(str(year)) or []))
-            if isinstance(entry, dict)
-        }
-        unclassified_missing = [date_key for date_key in missing_dates if date_key not in resolver_dates]
-        if unclassified_missing:
-            failures.append({"reason": "daily_date_missing_without_structural_resolver", "year": year, "dates": unclassified_missing[:20]})
+        if missing_dates:
+            failures.append({"reason": "daily_date_missing", "year": year, "dates": missing_dates[:20], "count": len(missing_dates)})
         meta_entry = daily_meta.get(year, {})
         if meta_entry.get("rows") != counts["date_count"]:
             failures.append({"reason": "daily_meta_rows_mismatch", "year": year, "meta_rows": meta_entry.get("rows"), **counts})

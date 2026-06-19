@@ -33,7 +33,7 @@ class CalendarCoverageTests(unittest.TestCase):
         self.assertEqual(classification["classification"], "unclassified_missing_daily_date")
         self.assertEqual(classification["severity"], "fail")
 
-    def test_missing_holy_week_date_requires_structural_resolver_metadata(self) -> None:
+    def test_missing_holy_week_date_fails_strict_complete_calendar(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             package_dir = Path(tmp)
             daily_dir = package_dir / "data" / "daily"
@@ -51,15 +51,17 @@ class CalendarCoverageTests(unittest.TestCase):
                 "schemaVersion": "1.1.0",
                 "shipped_years": [2026],
                 "daily_files": [{"year": 2026, "rows": len(daily), "date_count": len(daily), "reading_count": 0}],
-                "structural_date_resolver": {"missing_dates_by_year": {"2026": []}},
+                "structural_date_resolver": {"missing_dates_by_year": {"2026": [{"date": missing}]}},
             }
             (package_dir / "meta.json").write_text(json.dumps(meta), encoding="utf-8")
-            with self.assertRaisesRegex(AssertionError, "daily_date_missing_without_structural_resolver"):
-                calendar_coverage.verify_calendar_coverage(package_dir)
-            meta["structural_date_resolver"]["missing_dates_by_year"]["2026"] = [{"date": missing}]
-            (package_dir / "meta.json").write_text(json.dumps(meta), encoding="utf-8")
-            summary = calendar_coverage.verify_calendar_coverage(package_dir)
-            self.assertEqual(summary["status"], "pass")
+            with self.assertRaisesRegex(AssertionError, "holy_week_structural_only_not_in_daily"):
+                calendar_coverage.verify_calendar_coverage(package_dir, strict_complete_calendar=True)
+
+    def test_current_package_has_complete_daily_coverage(self) -> None:
+        summary = calendar_coverage.verify_calendar_coverage(calendar_coverage.PACKAGE_DIR, strict_complete_calendar=True)
+        self.assertEqual(summary["status"], "pass")
+        for year in ["2026", "2027", "2028"]:
+            self.assertEqual(summary["years"][year]["missing_dates"], [])
 
 
 class PackageIntegrityTests(unittest.TestCase):
@@ -89,6 +91,35 @@ class PackageIntegrityTests(unittest.TestCase):
         self.assertEqual(len(conflicts), 1)
         self.assertEqual(conflicts[0]["preferred_source_family"], "ordinary_date_resolved")
         self.assertEqual(conflicts[0]["lower_priority_source_family"], "katameros_cycle")
+
+    def test_context_passage_conflict_detects_bare_chapter_end_shorthand(self) -> None:
+        def row(source_family: str, occasion: str, calendar_keys: str, service_section: str, slot: str, slot_type: str, display_ref: str, span: dict[str, int | str]) -> dict[str, str]:
+            return {
+                "occasion": occasion,
+                "calendar_keys": calendar_keys,
+                "day_titles": occasion if source_family == "ordinary_date_resolved" else "",
+                "service_section": service_section,
+                "service_hour": "",
+                "slot": slot,
+                "slot_type": slot_type,
+                "source_family": source_family,
+                "source_kind": "copticchurch_date" if source_family == "ordinary_date_resolved" else "katameros_cycle",
+                "display_ref": display_ref,
+                "canonical_mt_ref": display_ref,
+                "identity_key": f"rid_{source_family}_{display_ref}",
+                "spans_json": json.dumps([span]),
+                "removed_marker": "",
+                "current_status": "current_public_or_local_reference",
+            }
+
+        conflicts = package_integrity.detect_context_passage_conflicts([
+            row("ordinary_date_resolved", "Friday of the first week of Great Lent", "Friday of the first week of Great Lent", "Liturgy", "Acts of the Apostles", "praxis", "Acts 2:42-3:9", {"book": "Acts", "chapter_start": 2, "chapter_end": 3, "verse_start": 42, "verse_end": 9}),
+            row("katameros_cycle", "Great Lent/Jonah/Nineveh cycle", "week 1 day_of_week 5", "liturgy_acts", "liturgy_acts", "praxis", "Acts 2:42-3", {"book": "Acts", "chapter_start": 2, "chapter_end": 2, "verse_start": 42, "verse_end": 3}),
+            row("ordinary_date_resolved", "Monday of the first week of the holy fifty days", "Monday of the first week of the holy fifty days", "Liturgy", "Pauline Epistle", "pauline", "1Thess 4:13-5:11", {"book": "1Thess", "chapter_start": 4, "chapter_end": 5, "verse_start": 13, "verse_end": 11}),
+            row("katameros_cycle", "Holy Fifty Days/Pentecost cycle", "week 1 day_of_week 1", "liturgy_pauline", "liturgy_pauline", "pauline", "1Thess 4:13-5", {"book": "1Thess", "chapter_start": 4, "chapter_end": 4, "verse_start": 13, "verse_end": 5}),
+        ])
+        self.assertEqual(len(conflicts), 2)
+        self.assertEqual({conflict["lower_priority_source_family"] for conflict in conflicts}, {"katameros_cycle"})
 
     def test_legacy_month_spellings_are_detected(self) -> None:
         rows = [
@@ -158,6 +189,21 @@ class ExternalComparisonTests(unittest.TestCase):
         right = external_compare.Counter({("2026-01-01", "Liturgy", "Gospel", "Lk 1:1-4"): 1})
         rows = external_compare.counter_delta_rows(2026, left, right)
         self.assertEqual({row["status"] for row in rows}, {"source_only_missing_from_package", "package_only_extra_vs_source"})
+    def test_package_counter_skips_structural_daily_rows_for_copticchurch_compare(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            package_dir = Path(tmp)
+            daily_dir = package_dir / "data" / "daily"
+            daily_dir.mkdir(parents=True)
+            (daily_dir / "lectionary-2026.json").write_text(json.dumps({
+                "2026-04-10": [
+                    {"service_section": "First Hour", "slot": "Gospel", "display_ref": "Jn 18:1-11", "structural_day": "Good Friday", "source_family": "holy_pascha_curated_day_hour"},
+                    {"service_section": "Liturgy", "slot": "Gospel", "display_ref": "Jn 1:1-17"},
+                ]
+            }), encoding="utf-8")
+            counter, total, skipped = external_compare.package_counter(package_dir, 2026)
+            self.assertEqual(total, 2)
+            self.assertEqual(skipped, 1)
+            self.assertEqual(sum(counter.values()), 1)
 
 
 if __name__ == "__main__":
