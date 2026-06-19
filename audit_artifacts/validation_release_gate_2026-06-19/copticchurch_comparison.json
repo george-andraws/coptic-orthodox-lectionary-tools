@@ -1,0 +1,33 @@
+{
+  "comparison": "package_daily_vs_copticchurch_cached_passage_index",
+  "package_dir": "/Users/georgeandraws/workspace/coptic-lectionary-research/packages/lectionary-data",
+  "source_index": "/Users/georgeandraws/workspace/coptic-lectionary-research/out/data/copticchurch_passage_index_2020_2035.csv",
+  "years": {
+    "2026": {
+      "source_rows": 3718,
+      "package_rows": 3718,
+      "unique_source_keys": 3718,
+      "unique_package_keys": 3718,
+      "mismatch_rows": 0,
+      "status": "pass"
+    },
+    "2027": {
+      "source_rows": 3714,
+      "package_rows": 3714,
+      "unique_source_keys": 3714,
+      "unique_package_keys": 3714,
+      "mismatch_rows": 0,
+      "status": "pass"
+    },
+    "2028": {
+      "source_rows": 3709,
+      "package_rows": 3709,
+      "unique_source_keys": 3709,
+      "unique_package_keys": 3709,
+      "mismatch_rows": 0,
+      "status": "pass"
+    }
+  },
+  "failures": [],
+  "status": "pass"
+}

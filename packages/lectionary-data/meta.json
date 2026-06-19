@@ -1,25 +1,34 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.1.1",
+  "version": "1.1.4",
+  "schemaVersion": "1.1.0",
+  "schema_version": "1.1.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "57636a15a6fb363847cd72492f531b64a8ac9c35",
-  "generated_at": "2026-06-18T23:06:32.780Z",
-  "occasion_index_rows": 11923,
+  "source_repo_commit": "1afa51942ab4149b94af55eeb6a78f7fa4e88961",
+  "source_tree_dirty": true,
+  "generated_at": "2026-06-19T18:14:44.247Z",
+  "occasion_index_rows": 11430,
   "daily_files": [
     {
       "year": 2026,
       "rows": 360,
-      "bytes": 1109406
+      "date_count": 360,
+      "reading_count": 3718,
+      "bytes": 1497352
     },
     {
       "year": 2027,
       "rows": 359,
-      "bytes": 1108685
+      "date_count": 359,
+      "reading_count": 3714,
+      "bytes": 1496181
     },
     {
       "year": 2028,
       "rows": 360,
-      "bytes": 1106710
+      "date_count": 360,
+      "reading_count": 3709,
+      "bytes": 1493699
     }
   ],
   "shipped_years": [
@@ -27,6 +36,318 @@
     2027,
     2028
   ],
+  "structural_date_resolver": {
+    "schema": "julian_pascha_structural_gap_v1",
+    "coverage": "partial_daily_with_structural_date_resolver",
+    "exported_function": "classifyDate(date)",
+    "date_key_format": "YYYY-MM-DD",
+    "shipped_years": [
+      2026,
+      2027,
+      2028
+    ],
+    "missing_dates_by_year": {
+      "2026": [
+        {
+          "date": "2026-04-06",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2026-04-08",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2026-04-09",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2026-04-10",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2026-04-11",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        }
+      ],
+      "2027": [
+        {
+          "date": "2027-04-26",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2027-04-27",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2027-04-28",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2027-04-29",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2027-04-30",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2027-05-01",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        }
+      ],
+      "2028": [
+        {
+          "date": "2028-04-10",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2028-04-11",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2028-04-12",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2028-04-13",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2028-04-14",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        },
+        {
+          "date": "2028-04-15",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+        }
+      ]
+    },
+    "contract": "If classifyDate(date).hasDailyReadings is false and classification is holy_week_structural_only_not_in_daily, use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows. Do not treat the daily file omission as data loss.",
+    "pascha_computus": "Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range."
+  },
+  "projection_rules": {
+    "source_rows": 11923,
+    "output_rows": 11430,
+    "lower_priority_passage_variants_suppressed": 493,
+    "weekday_specific_contexts_disambiguated": 32,
+    "legacy_month_spellings_normalized": [
+      "Kiak -> Kiahk",
+      "Baba -> Babah"
+    ],
+    "suppressed_examples": [
+      {
+        "context_key": "abib 10|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 15:36-41",
+        "suppressed_identity_key": "rid_afeaa6e4bc0cc8f1d038"
+      },
+      {
+        "context_key": "abib 10|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 16:1-5",
+        "suppressed_identity_key": "rid_e0fbf80747507e81a74b"
+      },
+      {
+        "context_key": "abib 10|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "3Jn 1:1-15",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "3Jn 1:1-14",
+        "suppressed_identity_key": "rid_9265b95c454d37e66c9f"
+      },
+      {
+        "context_key": "abib 10|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 8:1-13",
+        "suppressed_identity_key": "rid_377779f8ff1ee868fbe6"
+      },
+      {
+        "context_key": "abib 10|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 7:18-28",
+        "suppressed_identity_key": "rid_6ccefd1363f399b4c944"
+      },
+      {
+        "context_key": "abib 11|matins||psalm",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Ps 5:11",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Ps 5:11-12",
+        "suppressed_identity_key": "rid_8dde20acf8983675fae6"
+      },
+      {
+        "context_key": "abib 12|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Acts 7:44-8:1",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 8:1",
+        "suppressed_identity_key": "rid_08a164916dec8b6a6733"
+      },
+      {
+        "context_key": "abib 12|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Acts 7:44-8:1",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 7:44-60",
+        "suppressed_identity_key": "rid_39ae4e98e33691fbccd1"
+      },
+      {
+        "context_key": "abib 12|liturgy||gospel",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Lk 11:53-12:12",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Lk 12:1-12",
+        "suppressed_identity_key": "rid_63d8fe7a9e9154128ec5"
+      },
+      {
+        "context_key": "abib 12|liturgy||gospel",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Lk 11:53-12:12",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Lk 11:53-54",
+        "suppressed_identity_key": "rid_aad3c1665271c51d6931"
+      },
+      {
+        "context_key": "abib 12|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Heb 12:13-14",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 12:3-14",
+        "suppressed_identity_key": "rid_1d81404309efbefe30e7"
+      },
+      {
+        "context_key": "abib 13|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 15:36-41",
+        "suppressed_identity_key": "rid_afeaa6e4bc0cc8f1d038"
+      },
+      {
+        "context_key": "abib 13|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 16:1-5",
+        "suppressed_identity_key": "rid_e0fbf80747507e81a74b"
+      },
+      {
+        "context_key": "abib 13|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "3Jn 1:1-15",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "3Jn 1:1-14",
+        "suppressed_identity_key": "rid_9265b95c454d37e66c9f"
+      },
+      {
+        "context_key": "abib 13|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 8:1-13",
+        "suppressed_identity_key": "rid_377779f8ff1ee868fbe6"
+      },
+      {
+        "context_key": "abib 13|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 7:18-28",
+        "suppressed_identity_key": "rid_6ccefd1363f399b4c944"
+      },
+      {
+        "context_key": "abib 16|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "1Jn 1:1-2:6",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "1Jn 1:1-10",
+        "suppressed_identity_key": "rid_b690e32a49271d81b7b9"
+      },
+      {
+        "context_key": "abib 16|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "1Jn 1:1-2:6",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "1Jn 2:1-6",
+        "suppressed_identity_key": "rid_b96ebb46849ea8d4d7a6"
+      },
+      {
+        "context_key": "abib 16|vespers||psalm",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Ps 19:1,19:4 (LXX Ps 18:1; Ps 18:4)",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Ps 19:4 (LXX Ps 18:4)",
+        "suppressed_identity_key": "rid_c83c6764eb7c45ea4eab"
+      },
+      {
+        "context_key": "abib 16|vespers||psalm",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_display_ref": "Ps 19:1,19:4 (LXX Ps 18:1; Ps 18:4)",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Ps 19:1 (LXX Ps 18:1)",
+        "suppressed_identity_key": "rid_f895fe12fbca3cc0b95e"
+      }
+    ]
+  },
   "schema_notes": {
     "occasion_index_fields": {
       "occasion": "Lectionary occasion label.",
@@ -40,14 +361,21 @@
       "display_ref": "Human-facing reference, using MT primary with LXX inline where applicable.",
       "canonical_mt_ref": "Canonical Masoretic Text reference when available.",
       "canonical_lxx_ref": "Canonical Septuagint reference when available.",
-      "spans_json": "Serialized span metadata for machine consumers.",
+      "spans_json": "Serialized span metadata for machine consumers. Empty array is allowed for named non-standard readings that cannot be represented as biblical chapter/verse spans, such as Memoirs of Job.",
       "removed_marker": "Source-derived removal or omission marker when present.",
       "hour_theme": "Theme label attached to the service hour when present.",
       "source_disclosure": "Disclosure of source coverage or source-derived status.",
       "attestation_year_min": "Minimum attested year in the packaged source data.",
       "attestation_year_max": "Maximum attested year in the packaged source data."
     },
-    "daily_file_shape": "Each daily JSON file maps ISO dates to an array of readings.",
+    "daily_file_shape": "Each daily JSON file maps ISO dates to an array of readings sorted by reading_order. Each reading includes reading_order, service_order, slot_type, and slot_order; slot_order may repeat within split Psalm/reading fragments, while reading_order is unique per date.",
+    "structural_date_resolver": "meta.structural_date_resolver lists shipped-year dates intentionally omitted from daily files because they are structural Holy Week/Bright Saturday rows resolved through reverse_lectionary_index.jsonl.",
+    "psalm_dual_numbering": "Psalm display_ref may include inline LXX numbering in parentheses. Use canonical_mt_ref, canonical_lxx_ref, and spans_json for machine matching.",
+    "canonicalization_notes": "canonicalization_note values are source/provenance hints, not date or service resolvers.",
+    "multi_source_family": "The same identity_key may appear across multiple source_family values and distinct occasions; this is expected attestation breadth, not a duplicate by itself.",
+    "source_priority_projection": "When current copticchurch.net date-resolved rows overlap lower-priority cycle rows for the same normalized consumer context/service/hour/slot but disagree on passage span, the npm package omits the lower-priority variant. See meta.projection_rules for counts and examples.",
+    "coptic_month_spellings": "Runtime package labels normalize Kiak to Kiahk and Baba to Babah.",
+    "weekday_specific_disambiguation": "When a Sunday-specific fixed-date row has a generic sibling with the same reading identity, the generic sibling is labeled as a non-Sunday context to avoid consumer duplicate grouping.",
     "known_limitation": "Structural-only occasions without a gregorian_date, including Bright Saturday and special services, are not in the daily files yet."
   }
 }

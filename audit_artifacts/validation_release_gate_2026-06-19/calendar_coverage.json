@@ -1,0 +1,155 @@
+{
+  "package_dir": "/Users/georgeandraws/workspace/coptic-lectionary-research/packages/lectionary-data",
+  "strict_complete_calendar": false,
+  "years": {
+    "2026": {
+      "calendar_days": 365,
+      "dates_present": 360,
+      "reading_count": 3718,
+      "missing_dates": [
+        {
+          "date": "2026-04-06",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2026-04-08",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2026-04-09",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2026-04-10",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2026-04-11",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        }
+      ],
+      "extra_dates": [],
+      "pascha_date": "2026-04-12"
+    },
+    "2027": {
+      "calendar_days": 365,
+      "dates_present": 359,
+      "reading_count": 3714,
+      "missing_dates": [
+        {
+          "date": "2027-04-26",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2027-04-27",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2027-04-28",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2027-04-29",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2027-04-30",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2027-05-01",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        }
+      ],
+      "extra_dates": [],
+      "pascha_date": "2027-05-02"
+    },
+    "2028": {
+      "calendar_days": 366,
+      "dates_present": 360,
+      "reading_count": 3709,
+      "missing_dates": [
+        {
+          "date": "2028-04-10",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2028-04-11",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2028-04-12",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2028-04-13",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2028-04-14",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        },
+        {
+          "date": "2028-04-15",
+          "classification": "holy_week_structural_only_not_in_daily",
+          "expected_source": "pascha_or_bright_saturday_structural_rows",
+          "severity": "known_gap",
+          "next_action": "date-resolve Pascha and Bright Saturday structural rows before requiring complete daily files"
+        }
+      ],
+      "extra_dates": [],
+      "pascha_date": "2028-04-16"
+    }
+  },
+  "warnings": [],
+  "failures": [],
+  "status": "pass"
+}

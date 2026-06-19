@@ -353,7 +353,7 @@ def copy_sources():
     # Manifest.
     files=[]
     for p in sorted(SOURCES_OUT.iterdir()):
-        if p.is_file():
+        if p.is_file() and p.name != 'SOURCE_MANIFEST.json':
             files.append({'file':p.name,'bytes':p.stat().st_size,'sha256':sha256(p)})
     (SOURCES_OUT/'SOURCE_MANIFEST.json').write_text(json.dumps(files,indent=2),encoding='utf-8')
     return files

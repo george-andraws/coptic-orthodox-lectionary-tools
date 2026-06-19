@@ -1,0 +1,214 @@
+{
+  "package_dir": "/Users/georgeandraws/workspace/coptic-lectionary-research/packages/lectionary-data",
+  "package_name": "@andraws/lectionary-data",
+  "version": "1.1.4",
+  "schemaVersion": "1.1.0",
+  "source_repo_commit": "1afa51942ab4149b94af55eeb6a78f7fa4e88961",
+  "required_files_present": true,
+  "extra_files": [],
+  "reverse_index_rows": 11430,
+  "reverse_index_duplicate_keys": 0,
+  "daily_summary": {
+    "2026": {
+      "date_count": 360,
+      "reading_count": 3718
+    },
+    "2027": {
+      "date_count": 359,
+      "reading_count": 3714
+    },
+    "2028": {
+      "date_count": 360,
+      "reading_count": 3709
+    }
+  },
+  "commonjs_exports": {
+    "status": "pass",
+    "shippedYears": [
+      2026,
+      2027,
+      2028
+    ],
+    "occasionIndexExists": true,
+    "daily2026Exists": true,
+    "structuralDateResolver": {
+      "schema": "julian_pascha_structural_gap_v1",
+      "coverage": "partial_daily_with_structural_date_resolver",
+      "exported_function": "classifyDate(date)",
+      "date_key_format": "YYYY-MM-DD",
+      "shipped_years": [
+        2026,
+        2027,
+        2028
+      ],
+      "missing_dates_by_year": {
+        "2026": [
+          {
+            "date": "2026-04-06",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2026-04-08",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2026-04-09",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2026-04-10",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2026-04-11",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          }
+        ],
+        "2027": [
+          {
+            "date": "2027-04-26",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2027-04-27",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2027-04-28",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2027-04-29",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2027-04-30",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2027-05-01",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          }
+        ],
+        "2028": [
+          {
+            "date": "2028-04-10",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2028-04-11",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2028-04-12",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2028-04-13",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2028-04-14",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          },
+          {
+            "date": "2028-04-15",
+            "classification": "holy_week_structural_only_not_in_daily",
+            "expected_source": "pascha_or_bright_saturday_structural_rows",
+            "severity": "known_gap",
+            "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added"
+          }
+        ]
+      },
+      "contract": "If classifyDate(date).hasDailyReadings is false and classification is holy_week_structural_only_not_in_daily, use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows. Do not treat the daily file omission as data loss.",
+      "pascha_computus": "Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range."
+    },
+    "classifiedStructuralGap": {
+      "date": "2026-04-10",
+      "classification": "holy_week_structural_only_not_in_daily",
+      "expected_source": "pascha_or_bright_saturday_structural_rows",
+      "severity": "known_gap",
+      "next_action": "use reverse_lectionary_index.jsonl for Pascha/Bright Saturday structural rows until daily date resolution is added",
+      "year": 2026,
+      "shippedYear": true,
+      "hasDailyReadings": false,
+      "dailyPath": "/Users/georgeandraws/workspace/coptic-lectionary-research/packages/lectionary-data/data/daily/lectionary-2026.json"
+    },
+    "classifiedDailyDate": {
+      "date": "2026-01-01",
+      "year": 2026,
+      "shippedYear": true,
+      "hasDailyReadings": true,
+      "classification": "daily_file_present",
+      "dailyPath": "/Users/georgeandraws/workspace/coptic-lectionary-research/packages/lectionary-data/data/daily/lectionary-2026.json"
+    }
+  },
+  "tarball": {
+    "tarball": "packages/lectionary-data/andraws-lectionary-data-1.1.4.tgz",
+    "files": [
+      "LICENSE",
+      "README.md",
+      "data/daily/lectionary-2026.json",
+      "data/daily/lectionary-2027.json",
+      "data/daily/lectionary-2028.json",
+      "data/reverse_lectionary_index.jsonl",
+      "index.js",
+      "meta.json",
+      "package.json"
+    ],
+    "missing": [],
+    "extra": [],
+    "status": "pass"
+  },
+  "warnings": [],
+  "failures": [],
+  "status": "pass"
+}
