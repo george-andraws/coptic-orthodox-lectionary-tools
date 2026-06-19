@@ -1,0 +1,844 @@
+study_slug,testament,book,chapter,study_passages,occasion_count,distinct_collection_types,distinct_seasons,max_occurrence_count,has_pascha,has_major_feast,has_inferred_only,has_removed_historical
+1-chronicles-01-from-adam-to-abraham-and-the-nations-around-israel,Old Testament,1 Chronicles,1,1 Chronicles 1,0,0,0,0,false,false,false,false
+1-chronicles-02-04-judah-david-and-the-prayer-of-jabez,Old Testament,1 Chronicles,2,1 Chronicles 2; 1 Chronicles 3; 1 Chronicles 4,0,0,0,0,false,false,false,false
+1-chronicles-05-east-of-jordan-privilege-and-exile,Old Testament,1 Chronicles,5,1 Chronicles 5,0,0,0,0,false,false,false,false
+1-chronicles-06-levi-priesthood-singers-and-holy-service,Old Testament,1 Chronicles,6,1 Chronicles 6,0,0,0,0,false,false,false,false
+1-chronicles-07-08-northern-tribes-and-benjamin,Old Testament,1 Chronicles,7,1 Chronicles 7; 1 Chronicles 8,0,0,0,0,false,false,false,false
+1-chronicles-09-return-jerusalem-and-holy-order,Old Testament,1 Chronicles,9,1 Chronicles 9,0,0,0,0,false,false,false,false
+1-chronicles-10-sauls-death-and-rejected-kingship,Old Testament,1 Chronicles,10,1 Chronicles 10,0,0,0,0,false,false,false,false
+1-chronicles-11-12-davids-rise-and-the-gathering-of-the-mighty,Old Testament,1 Chronicles,11,1 Chronicles 11; 1 Chronicles 12,0,0,0,0,false,false,false,false
+1-chronicles-13-16-the-ark-corrected-worship-and-davids-thanksgiving,Old Testament,1 Chronicles,13,1 Chronicles 13; 1 Chronicles 14; 1 Chronicles 15; 1 Chronicles 16,0,0,0,0,false,false,false,false
+1-chronicles-17-davidic-covenant-and-messianic-promise,Old Testament,1 Chronicles,17,1 Chronicles 17,0,0,0,0,false,false,false,false
+1-chronicles-18-20-davids-victories-and-royal-consolidation,Old Testament,1 Chronicles,18,1 Chronicles 18; 1 Chronicles 19; 1 Chronicles 20,0,0,0,0,false,false,false,false
+1-chronicles-21-census-plague-intercession-and-temple-site-mercy,Old Testament,1 Chronicles,21,1 Chronicles 21,0,0,0,0,false,false,false,false
+1-chronicles-22-david-prepares-solomon-and-the-temple,Old Testament,1 Chronicles,22,1 Chronicles 22,0,0,0,0,false,false,false,false
+1-chronicles-23-26-levites-priests-musicians-gatekeepers-and-treasurers,Old Testament,1 Chronicles,23,1 Chronicles 23; 1 Chronicles 24; 1 Chronicles 25; 1 Chronicles 26,0,0,0,0,false,false,false,false
+1-chronicles-27-civil-military-and-royal-administration,Old Testament,1 Chronicles,27,1 Chronicles 27,0,0,0,0,false,false,false,false
+1-chronicles-28-29-davids-final-charge-offering-prayer-and-solomons-accession,Old Testament,1 Chronicles,28,1 Chronicles 28; 1 Chronicles 29,1,0,1,1,true,false,true,false
+1-kings-01-02-succession-and-the-kingdom-established,Old Testament,1 Kings,1,1 Kings 1; 1 Kings 2,0,0,0,0,false,false,false,false
+1-kings-03-04-wisdom-for-the-kingdom,Old Testament,1 Kings,3,1 Kings 3; 1 Kings 4,0,0,0,0,false,false,false,false
+1-kings-05-07-building-the-temple,Old Testament,1 Kings,5,1 Kings 5; 1 Kings 6; 1 Kings 7,0,0,0,0,false,false,false,false
+1-kings-08-the-dedication-of-the-temple,Old Testament,1 Kings,8,1 Kings 8,1,0,1,1,true,false,true,false
+1-kings-09-10-glory-wisdom-and-early-warnings,Old Testament,1 Kings,9,1 Kings 9; 1 Kings 10,0,0,0,0,false,false,false,false
+1-kings-11-solomon-s-divided-heart,Old Testament,1 Kings,11,1 Kings 11,0,0,0,0,false,false,false,false
+1-kings-12-the-kingdom-divides,Old Testament,1 Kings,12,1 Kings 12,0,0,0,0,false,false,false,false
+1-kings-13-the-man-of-god-from-judah,Old Testament,1 Kings,13,1 Kings 13,0,0,0,0,false,false,false,false
+1-kings-14-16-the-downward-spiral-of-divided-kings,Old Testament,1 Kings,14,1 Kings 14; 1 Kings 15; 1 Kings 16,0,0,0,0,false,false,false,false
+1-kings-17-elijah-in-hiddenness,Old Testament,1 Kings,17,1 Kings 17,2,0,2,1,false,false,true,false
+1-kings-19-elijah-in-despair-and-the-still-small-voice,Old Testament,1 Kings,19,1 Kings 19,1,0,1,1,true,false,true,true
+1-kings-20-ahab-and-ben-hadad,Old Testament,1 Kings,20,1 Kings 20,0,0,0,0,false,false,false,false
+1-kings-21-naboth-s-vineyard,Old Testament,1 Kings,21,1 Kings 21,0,0,0,0,false,false,false,false
+1-kings-22-micaiah-false-prophets-and-ahab-s-death,Old Testament,1 Kings,22,1 Kings 22,0,0,0,0,false,false,false,false
+1-maccabees-1-canon-crisis-and-the-abomination-of-desolation,Deuterocanonical,1 Maccabees,1,1 Maccabees 1,0,0,0,0,false,false,false,false
+1-maccabees-10-jonathan-and-the-dangerous-gift-of-power,Deuterocanonical,1 Maccabees,10,1 Maccabees 10,0,0,0,0,false,false,false,false
+1-maccabees-11-shifting-kings-and-unstable-promises,Deuterocanonical,1 Maccabees,11,1 Maccabees 11,0,0,0,0,false,false,false,false
+1-maccabees-12-diplomacy-brotherhood-and-betrayal,Deuterocanonical,1 Maccabees,12,1 Maccabees 12,0,0,0,0,false,false,false,false
+1-maccabees-13-simon-and-the-restoration-of-the-people,Deuterocanonical,1 Maccabees,13,1 Maccabees 13,0,0,0,0,false,false,false,false
+1-maccabees-14-peace-until-a-faithful-prophet-should-arise,Deuterocanonical,1 Maccabees,14,1 Maccabees 14,0,0,0,0,false,false,false,false
+1-maccabees-15-recognition-resistance-and-fragile-freedom,Deuterocanonical,1 Maccabees,15,1 Maccabees 15,0,0,0,0,false,false,false,false
+1-maccabees-16-an-unfinished-deliverance,Deuterocanonical,1 Maccabees,16,1 Maccabees 16,0,0,0,0,false,false,false,false
+1-maccabees-2-mattathias-and-holy-refusal,Deuterocanonical,1 Maccabees,2,1 Maccabees 2,0,0,0,0,false,false,false,false
+1-maccabees-3-judas-the-hammer-and-courage-from-heaven,Deuterocanonical,1 Maccabees,3,1 Maccabees 3,0,0,0,0,false,false,false,false
+1-maccabees-4-the-cleansing-of-the-temple,Deuterocanonical,1 Maccabees,4,1 Maccabees 4,0,0,0,0,false,false,false,false
+1-maccabees-5-defending-the-scattered-faithful,Deuterocanonical,1 Maccabees,5,1 Maccabees 5,0,0,0,0,false,false,false,false
+1-maccabees-6-victory-death-and-the-limits-of-power,Deuterocanonical,1 Maccabees,6,1 Maccabees 6,0,0,0,0,false,false,false,false
+1-maccabees-7-false-priesthood-and-false-peace,Deuterocanonical,1 Maccabees,7,1 Maccabees 7,0,0,0,0,false,false,false,false
+1-maccabees-8-rome-and-the-temptation-of-security,Deuterocanonical,1 Maccabees,8,1 Maccabees 8,0,0,0,0,false,false,false,false
+1-maccabees-9-the-death-of-judas-and-the-burden-of-succession,Deuterocanonical,1 Maccabees,9,1 Maccabees 9,0,0,0,0,false,false,false,false
+1-samuel-1-2-hannah-samuel-and-the-corruption-of-eli-s-house,Old Testament,1 Samuel,1,1 Samuel 1; 1 Samuel 2,2,0,2,1,true,false,true,false
+1-samuel-11-12-saul-s-victory-and-samuel-s-covenant-witness,Old Testament,1 Samuel,11,1 Samuel 11; 1 Samuel 12,0,0,0,0,false,false,false,false
+1-samuel-13-15-saul-s-disobedience-and-rejection,Old Testament,1 Samuel,13,1 Samuel 13; 1 Samuel 14; 1 Samuel 15,0,0,0,0,false,false,false,false
+1-samuel-16-david-anointed-in-secret,Old Testament,1 Samuel,16,1 Samuel 16,0,0,0,0,false,false,false,false
+1-samuel-17-18-david-and-goliath-victory-and-jealousy,Old Testament,1 Samuel,17,1 Samuel 17; 1 Samuel 18,1,0,1,1,false,false,true,false
+1-samuel-19-20-friendship-under-persecution,Old Testament,1 Samuel,19,1 Samuel 19; 1 Samuel 20,0,0,0,0,false,false,false,false
+1-samuel-21-22-holy-bread-nob-and-the-cost-of-fear,Old Testament,1 Samuel,21,1 Samuel 21; 1 Samuel 22,0,0,0,0,false,false,false,false
+1-samuel-23-24-wilderness-discernment-and-mercy-toward-saul,Old Testament,1 Samuel,23,1 Samuel 23; 1 Samuel 24,1,0,1,1,false,false,true,false
+1-samuel-25-abigail-and-the-restraint-of-david,Old Testament,1 Samuel,25,1 Samuel 25,0,0,0,0,false,false,false,false
+1-samuel-26-27-mercy-repeated-and-david-among-the-philistines,Old Testament,1 Samuel,26,1 Samuel 26; 1 Samuel 27,0,0,0,0,false,false,false,false
+1-samuel-28-saul-and-the-medium-at-endor,Old Testament,1 Samuel,28,1 Samuel 28,0,0,0,0,false,false,false,false
+1-samuel-29-31-david-preserved-and-saul-falls,Old Testament,1 Samuel,29,1 Samuel 29; 1 Samuel 30; 1 Samuel 31,0,0,0,0,false,false,false,false
+1-samuel-3-speak-lord-your-servant-hears,Old Testament,1 Samuel,3,1 Samuel 3,1,0,1,1,false,false,true,false
+1-samuel-4-7-the-ark-captured-returned-and-israel-restored,Old Testament,1 Samuel,4,1 Samuel 4; 1 Samuel 5; 1 Samuel 6; 1 Samuel 7,0,0,0,0,false,false,false,false
+1-samuel-8-10-israel-asks-for-a-king-and-saul-is-anointed,Old Testament,1 Samuel,8,1 Samuel 8; 1 Samuel 9; 1 Samuel 10,0,0,0,0,false,false,false,false
+1-samuel-general-introduction,Old Testament,1 Samuel,1,1 Samuel,1,0,1,1,false,false,true,false
+2-chronicles-01-solomon-asks-for-wisdom,Old Testament,2 Chronicles,1,2 Chronicles 1,0,0,0,0,false,false,false,false
+2-chronicles-02-solomon-prepares-to-build-the-temple,Old Testament,2 Chronicles,2,2 Chronicles 2,0,0,0,0,false,false,false,false
+2-chronicles-03-04-the-temple-built-and-furnished,Old Testament,2 Chronicles,3,2 Chronicles 3; 2 Chronicles 4,0,0,0,0,false,false,false,false
+2-chronicles-05-07-dedication-of-the-temple,Old Testament,2 Chronicles,5,2 Chronicles 5; 2 Chronicles 6; 2 Chronicles 7,0,0,0,0,false,false,false,false
+2-chronicles-08-solomon-organizes-the-kingdom-and-worship,Old Testament,2 Chronicles,8,2 Chronicles 8,0,0,0,0,false,false,false,false
+2-chronicles-09-solomon-and-the-queen-of-sheba,Old Testament,2 Chronicles,9,2 Chronicles 9,0,0,0,0,false,false,false,false
+2-chronicles-10-the-kingdom-divides,Old Testament,2 Chronicles,10,2 Chronicles 10,0,0,0,0,false,false,false,false
+2-chronicles-11-12-rehoboam-humbled,Old Testament,2 Chronicles,11,2 Chronicles 11; 2 Chronicles 12,0,0,0,0,false,false,false,false
+2-chronicles-13-abijah-and-jeroboam,Old Testament,2 Chronicles,13,2 Chronicles 13,0,0,0,0,false,false,false,false
+2-chronicles-14-16-asa-reform-reliance-and-decline,Old Testament,2 Chronicles,14,2 Chronicles 14; 2 Chronicles 15; 2 Chronicles 16,0,0,0,0,false,false,false,false
+2-chronicles-17-20-jehoshaphat-teaching-danger-prayer-and-deliverance,Old Testament,2 Chronicles,17,2 Chronicles 17; 2 Chronicles 18; 2 Chronicles 19; 2 Chronicles 20,0,0,0,0,false,false,false,false
+2-chronicles-21-22-jehoram-ahaziah-and-athaliah,Old Testament,2 Chronicles,21,2 Chronicles 21; 2 Chronicles 22,0,0,0,0,false,false,false,false
+2-chronicles-23-joash-crowned-and-athaliah-overthrown,Old Testament,2 Chronicles,23,2 Chronicles 23,0,0,0,0,false,false,false,false
+2-chronicles-24-joash-repairs-the-temple-then-falls-away,Old Testament,2 Chronicles,24,2 Chronicles 24,0,0,0,0,false,false,false,false
+2-chronicles-25-amaziah-partial-obedience-and-pride,Old Testament,2 Chronicles,25,2 Chronicles 25,0,0,0,0,false,false,false,false
+2-chronicles-26-uzziah-strength-without-humility,Old Testament,2 Chronicles,26,2 Chronicles 26,0,0,0,0,false,false,false,false
+2-chronicles-27-jotham-steady-faithfulness,Old Testament,2 Chronicles,27,2 Chronicles 27,0,0,0,0,false,false,false,false
+2-chronicles-28-ahaz-false-worship-and-political-fear,Old Testament,2 Chronicles,28,2 Chronicles 28,0,0,0,0,false,false,false,false
+2-chronicles-29-31-hezekiah-restores-worship,Old Testament,2 Chronicles,29,2 Chronicles 29; 2 Chronicles 30; 2 Chronicles 31,0,0,0,0,false,false,false,false
+2-chronicles-32-hezekiah-and-sennacherib,Old Testament,2 Chronicles,32,2 Chronicles 32,0,0,0,0,false,false,false,false
+2-chronicles-33-manasseh-and-amon,Old Testament,2 Chronicles,33,2 Chronicles 33,0,0,0,0,false,false,false,false
+2-chronicles-34-35-josiah-law-covenant-and-passover,Old Testament,2 Chronicles,34,2 Chronicles 34; 2 Chronicles 35,0,0,0,0,false,false,false,false
+2-chronicles-36-fall-exile-and-cyrus,Old Testament,2 Chronicles,36,2 Chronicles 36,0,0,0,0,false,false,false,false
+2-kings-01-ahaziah-and-the-fire-of-judgment,Old Testament,2 Kings,1,2 Kings 1,0,0,0,0,false,false,false,false
+2-kings-02-elijah-s-ascent-and-elisha-s-inheritance,Old Testament,2 Kings,2,2 Kings 2,0,0,0,0,false,false,false,false
+2-kings-03-compromised-alliances-and-water-in-the-wilderness,Old Testament,2 Kings,3,2 Kings 3,0,0,0,0,false,false,false,false
+2-kings-04-elisha-s-miracles-of-life-and-provision,Old Testament,2 Kings,4,2 Kings 4,1,0,1,1,false,false,true,false
+2-kings-05-naaman-the-syrian,Old Testament,2 Kings,5,2 Kings 5,1,0,1,1,false,false,true,false
+2-kings-06-07-spiritual-sight-siege-and-unexpected-deliverance,Old Testament,2 Kings,6,2 Kings 6; 2 Kings 7,1,0,1,1,false,false,true,false
+2-kings-08-restoration-judgment-and-the-shadow-over-kings,Old Testament,2 Kings,8,2 Kings 8,0,0,0,0,false,false,false,false
+2-kings-09-10-jehu-judgment-and-zeal-without-a-clean-heart,Old Testament,2 Kings,9,2 Kings 9; 2 Kings 10,0,0,0,0,false,false,false,false
+2-kings-11-athaliah-joash-and-the-hidden-king,Old Testament,2 Kings,11,2 Kings 11,0,0,0,0,false,false,false,false
+2-kings-12-joash-repairs-the-temple,Old Testament,2 Kings,12,2 Kings 12,0,0,0,0,false,false,false,false
+2-kings-13-elisha-s-death-and-final-sign,Old Testament,2 Kings,13,2 Kings 13,0,0,0,0,false,false,false,false
+2-kings-14-15-partial-strength-and-political-collapse,Old Testament,2 Kings,14,2 Kings 14; 2 Kings 15,0,0,0,0,false,false,false,false
+2-kings-16-ahaz-and-the-imported-altar,Old Testament,2 Kings,16,2 Kings 16,0,0,0,0,false,false,false,false
+2-kings-17-the-fall-of-israel-and-the-theology-of-exile,Old Testament,2 Kings,17,2 Kings 17,0,0,0,0,false,false,false,false
+2-kings-18-19-hezekiah-sennacherib-and-the-prayer-of-faith,Old Testament,2 Kings,18,2 Kings 18; 2 Kings 19,0,0,0,0,false,false,false,false
+2-kings-20-hezekiah-s-illness-and-babylonian-envoys,Old Testament,2 Kings,20,2 Kings 20,0,0,0,0,false,false,false,false
+2-kings-21-manasseh-amon-and-catastrophic-idolatry,Old Testament,2 Kings,21,2 Kings 21,0,0,0,0,false,false,false,false
+2-kings-22-23-josiah-the-book-of-the-law-and-covenant-renewal,Old Testament,2 Kings,22,2 Kings 22; 2 Kings 23,0,0,0,0,false,false,false,false
+2-kings-24-25-the-fall-of-jerusalem-and-a-sign-of-mercy,Old Testament,2 Kings,24,2 Kings 24; 2 Kings 25,0,0,0,0,false,false,false,false
+2-maccabees-1-letters-dedication-and-memory-in-trouble,Deuterocanonical,2 Maccabees,1,2 Maccabees 1,0,0,0,0,false,false,false,false
+2-maccabees-10-cleansing-dedication-and-joy-restored,Deuterocanonical,2 Maccabees,10,2 Maccabees 10,0,0,0,0,false,false,false,false
+2-maccabees-11-mercy-letters-and-fragile-peace,Deuterocanonical,2 Maccabees,11,2 Maccabees 11,0,0,0,0,false,false,false,false
+2-maccabees-12-victory-sin-and-prayer-for-the-departed,Deuterocanonical,2 Maccabees,12,2 Maccabees 12,0,0,0,0,false,false,false,false
+2-maccabees-13-bethsura-prayer-and-deliverance-under-siege,Deuterocanonical,2 Maccabees,13,2 Maccabees 13,0,0,0,0,false,false,false,false
+2-maccabees-14-alcimus-nicanor-and-razis,Deuterocanonical,2 Maccabees,14,2 Maccabees 14,0,0,0,0,false,false,false,false
+2-maccabees-15-onias-jeremiah-and-the-defeat-of-nicanor,Deuterocanonical,2 Maccabees,15,2 Maccabees 15,0,0,0,0,false,false,false,false
+2-maccabees-2-gathering-hidden-fire-and-holy-memory,Deuterocanonical,2 Maccabees,2,2 Maccabees 2,0,0,0,0,false,false,false,false
+2-maccabees-3-heliodorus-and-the-sanctity-of-the-temple,Deuterocanonical,2 Maccabees,3,2 Maccabees 3,0,0,0,0,false,false,false,false
+2-maccabees-4-jason-menelaus-and-the-corruption-of-holy-office,Deuterocanonical,2 Maccabees,4,2 Maccabees 4,0,0,0,0,false,false,false,false
+2-maccabees-5-antiochus-violence-and-the-wounded-holy-city,Deuterocanonical,2 Maccabees,5,2 Maccabees 5,0,0,0,0,false,false,false,false
+2-maccabees-6-eleazar-and-holy-refusal,Deuterocanonical,2 Maccabees,6,2 Maccabees 6,0,0,0,0,false,false,false,false
+2-maccabees-7-the-seven-brothers-their-mother-and-resurrection-hope,Deuterocanonical,2 Maccabees,7,2 Maccabees 7,0,0,0,0,false,false,false,false
+2-maccabees-8-judas-prayer-and-courage-from-god,Deuterocanonical,2 Maccabees,8,2 Maccabees 8,0,0,0,0,false,false,false,false
+2-maccabees-9-antiochus-humbled-and-the-limits-of-blasphemous-power,Deuterocanonical,2 Maccabees,9,2 Maccabees 9,0,0,0,0,false,false,false,false
+2-samuel-1-david-laments-saul-and-jonathan,Old Testament,2 Samuel,1,2 Samuel 1,0,0,0,0,false,false,false,false
+2-samuel-11-12-david-s-fall-nathan-s-rebuke-and-repentance,Old Testament,2 Samuel,11,2 Samuel 11; 2 Samuel 12,0,0,0,0,false,false,false,false
+2-samuel-13-14-sin-in-the-house-and-absalom-s-return,Old Testament,2 Samuel,13,2 Samuel 13; 2 Samuel 14,0,0,0,0,false,false,false,false
+2-samuel-15-16-absalom-s-revolt-and-david-s-humiliation,Old Testament,2 Samuel,15,2 Samuel 15; 2 Samuel 16,0,0,0,0,false,false,false,false
+2-samuel-17-18-counsel-battle-and-absalom-s-death,Old Testament,2 Samuel,17,2 Samuel 17; 2 Samuel 18,0,0,0,0,false,false,false,false
+2-samuel-19-20-david-returns-to-a-fractured-kingdom,Old Testament,2 Samuel,19,2 Samuel 19; 2 Samuel 20,0,0,0,0,false,false,false,false
+2-samuel-2-4-a-divided-kingdom-and-the-cost-of-ambition,Old Testament,2 Samuel,2,2 Samuel 2; 2 Samuel 3; 2 Samuel 4,0,0,0,0,false,false,false,false
+2-samuel-21-famine-gibeonites-and-hard-justice,Old Testament,2 Samuel,21,2 Samuel 21,0,0,0,0,false,false,false,false
+2-samuel-22-david-s-song-of-deliverance,Old Testament,2 Samuel,22,2 Samuel 22,0,0,0,0,false,false,false,false
+2-samuel-23-last-words-and-mighty-men,Old Testament,2 Samuel,23,2 Samuel 23,0,0,0,0,false,false,false,false
+2-samuel-24-census-plague-and-the-altar-of-mercy,Old Testament,2 Samuel,24,2 Samuel 24,0,0,0,0,false,false,false,false
+2-samuel-5-david-anointed-king-and-jerusalem-taken,Old Testament,2 Samuel,5,2 Samuel 5,0,0,0,0,false,false,false,false
+2-samuel-6-the-ark-comes-to-zion,Old Testament,2 Samuel,6,2 Samuel 6,0,0,0,0,false,false,false,false
+2-samuel-7-the-covenant-of-the-house-and-the-son,Old Testament,2 Samuel,7,2 Samuel 7,0,0,0,0,false,false,false,false
+2-samuel-8-10-victory-mercy-and-the-seeds-of-war,Old Testament,2 Samuel,8,2 Samuel 8; 2 Samuel 9; 2 Samuel 10,0,0,0,0,false,false,false,false
+2-samuel-general-introduction,Old Testament,2 Samuel,2,2 Samuel,0,0,0,0,false,false,false,false
+3-maccabees-1-ptolemy-jerusalem-and-the-holy-place,Deuterocanonical,3 Maccabees,1,3 Maccabees 1,0,0,0,0,false,false,false,false
+3-maccabees-2-simon-s-prayer-and-god-s-defense-of-the-temple,Deuterocanonical,3 Maccabees,2,3 Maccabees 2,0,0,0,0,false,false,false,false
+3-maccabees-3-diaspora-faithfulness-under-suspicion,Deuterocanonical,3 Maccabees,3,3 Maccabees 3,0,0,0,0,false,false,false,false
+3-maccabees-4-gathering-humiliation-and-hidden-providence,Deuterocanonical,3 Maccabees,4,3 Maccabees 4,0,0,0,0,false,false,false,false
+3-maccabees-5-rage-delayed-by-providence,Deuterocanonical,3 Maccabees,5,3 Maccabees 5,0,0,0,0,false,false,false,false
+3-maccabees-6-eleazar-s-prayer-and-angelic-deliverance,Deuterocanonical,3 Maccabees,6,3 Maccabees 6,0,0,0,0,false,false,false,false
+3-maccabees-7-thanksgiving-judgment-and-sacred-memory,Deuterocanonical,3 Maccabees,7,3 Maccabees 7,0,0,0,0,false,false,false,false
+acts-1-1-11-the-ascended-lord-and-the-promise-of-power,New Testament,Acts,1,Acts 1:1-11,17,2,2,16,false,true,false,false
+amos-1-2-judgment-begins-around-and-comes-home,Old Testament,Amos,1,Amos 1; Amos 2,0,0,0,0,false,false,false,false
+amos-3-4-covenant-accountability,Old Testament,Amos,3,Amos 3; Amos 4,2,0,1,1,true,false,true,true
+amos-5-seek-me-and-live,Old Testament,Amos,5,Amos 5,3,0,1,1,true,false,true,true
+amos-6-woe-to-those-at-ease,Old Testament,Amos,6,Amos 6,0,0,0,0,false,false,false,false
+amos-7-8-visions-and-famine-of-the-word,Old Testament,Amos,7,Amos 7; Amos 8,1,0,1,1,true,false,true,false
+amos-9-sifted-people-and-restored-booth-of-david,Old Testament,Amos,9,Amos 9,1,0,1,1,true,false,true,true
+amos-general-introduction,Old Testament,Amos,1,Amos; Amos 1:1-2,0,0,0,0,false,false,false,false
+baruch-1-2-confession-in-exile,Deuterocanonical,Baruch,1,Baruch 1; Baruch 2,1,0,1,1,true,false,true,false
+baruch-3-4-wisdom-and-return,Deuterocanonical,Baruch,3,Baruch 3; Baruch 4,0,0,0,0,false,false,false,false
+baruch-5-put-on-the-beauty-of-glory,Deuterocanonical,Baruch,5,Baruch 5,0,0,0,0,false,false,false,false
+baruch-overview,Deuterocanonical,Baruch,1-5,Baruch 1-5,1,0,1,1,true,false,true,false
+daniel-1-holy-refusal-in-babylon,Old Testament,Daniel,1,Daniel 1,1,0,1,1,false,false,true,false
+daniel-10-12-final-vision-and-resurrection-hope,Old Testament,Daniel,10,Daniel 10; Daniel 11; Daniel 12,0,0,0,0,false,false,false,false
+daniel-2-the-stone-cut-without-hands,Old Testament,Daniel,2,Daniel 2,0,0,0,0,false,false,false,false
+daniel-3-the-fiery-furnace-and-the-three-holy-youths,Old Testament,Daniel,3,Daniel 3,1,0,1,1,true,false,true,false
+daniel-4-the-humbled-tree,Old Testament,Daniel,4,Daniel 4,0,0,0,0,false,false,false,false
+daniel-5-the-writing-on-the-wall,Old Testament,Daniel,5,Daniel 5,0,0,0,0,false,false,false,false
+daniel-6-daniel-in-the-lions-den,Old Testament,Daniel,6,Daniel 6,1,0,1,1,false,false,true,false
+daniel-7-ancient-of-days-and-the-son-of-man,Old Testament,Daniel,7,Daniel 7,1,0,1,1,true,false,true,true
+daniel-8-ram-goat-and-the-little-horn,Old Testament,Daniel,8,Daniel 8,0,0,0,0,false,false,false,false
+daniel-9-confession-and-the-seventy-weeks,Old Testament,Daniel,9,Daniel 9,1,0,1,1,true,false,true,false
+deuteronomy-1-3-remembering-the-wilderness-and-the-edge-of-promise,Old Testament,Deuteronomy,1,Deuteronomy 1; Deuteronomy 2; Deuteronomy 3,0,0,0,0,false,false,false,false
+deuteronomy-11-love-obedience-blessing-and-curse,Old Testament,Deuteronomy,11,Deuteronomy 11,1,0,1,1,false,false,true,false
+deuteronomy-12-the-place-where-the-lord-chooses-to-dwell,Old Testament,Deuteronomy,12,Deuteronomy 12,1,0,1,1,false,false,true,false
+deuteronomy-13-false-prophets-and-the-testing-of-love,Old Testament,Deuteronomy,13,Deuteronomy 13,0,0,0,0,false,false,false,false
+deuteronomy-14-holy-distinction-tithes-and-mercy,Old Testament,Deuteronomy,14,Deuteronomy 14,0,0,0,0,false,false,false,false
+deuteronomy-15-release-generosity-and-the-open-hand,Old Testament,Deuteronomy,15,Deuteronomy 15,0,0,0,0,false,false,false,false
+deuteronomy-16-feasts-justice-and-the-joy-of-worship,Old Testament,Deuteronomy,16,Deuteronomy 16,1,0,1,1,false,true,true,false
+deuteronomy-17-judgment-kingship-and-the-law-beside-the-throne,Old Testament,Deuteronomy,17,Deuteronomy 17,0,0,0,0,false,false,false,false
+deuteronomy-18-priests-levites-and-the-prophet-like-moses,Old Testament,Deuteronomy,18,Deuteronomy 18,0,0,0,0,false,false,false,false
+deuteronomy-19-cities-of-refuge-and-truthful-witness,Old Testament,Deuteronomy,19,Deuteronomy 19,0,0,0,0,false,false,false,false
+deuteronomy-20-war-fear-and-trust-in-the-lord,Old Testament,Deuteronomy,20,Deuteronomy 20,0,0,0,0,false,false,false,false
+deuteronomy-21-22-covenant-life-household-order-and-human-dignity,Old Testament,Deuteronomy,21,Deuteronomy 21; Deuteronomy 22,0,0,0,0,false,false,false,false
+deuteronomy-23-24-camp-holiness-social-mercy-and-hidden-justice,Old Testament,Deuteronomy,23,Deuteronomy 23; Deuteronomy 24,0,0,0,0,false,false,false,false
+deuteronomy-25-justice-levirate-mercy-and-amalek-remembered,Old Testament,Deuteronomy,25,Deuteronomy 25,0,0,0,0,false,false,false,false
+deuteronomy-26-firstfruits-tithes-and-covenant-confession,Old Testament,Deuteronomy,26,Deuteronomy 26,0,0,0,0,false,false,false,false
+deuteronomy-27-28-covenant-stones-blessings-and-curses,Old Testament,Deuteronomy,27,Deuteronomy 27; Deuteronomy 28,0,0,0,0,false,false,false,false
+deuteronomy-29-30-covenant-renewal-and-choose-life,Old Testament,Deuteronomy,29,Deuteronomy 29; Deuteronomy 30,0,0,0,0,false,false,false,false
+deuteronomy-31-joshua-the-law-and-the-nearness-of-departure,Old Testament,Deuteronomy,31,Deuteronomy 31,0,0,0,0,false,false,false,false
+deuteronomy-32-the-song-of-moses,Old Testament,Deuteronomy,32,Deuteronomy 32,1,0,1,1,true,false,true,false
+deuteronomy-33-the-blessing-of-moses,Old Testament,Deuteronomy,33,Deuteronomy 33,0,0,0,0,false,false,false,false
+deuteronomy-34-the-death-of-moses-and-the-hope-beyond-the-mountain,Old Testament,Deuteronomy,34,Deuteronomy 34,0,0,0,0,false,false,false,false
+deuteronomy-4-take-heed-to-yourself,Old Testament,Deuteronomy,4,Deuteronomy 4,0,0,0,0,false,false,false,false
+deuteronomy-5-the-covenant-at-horeb-and-the-ten-words,Old Testament,Deuteronomy,5,Deuteronomy 5,2,0,2,1,false,true,true,false
+deuteronomy-6-the-shema-and-the-love-of-god,Old Testament,Deuteronomy,6,Deuteronomy 6,2,0,2,1,false,true,true,false
+deuteronomy-7-a-holy-people-and-a-jealous-love,Old Testament,Deuteronomy,7,Deuteronomy 7,1,0,1,1,false,false,true,false
+deuteronomy-8-remembering-the-lord-in-the-land-of-plenty,Old Testament,Deuteronomy,8,Deuteronomy 8,3,0,2,1,true,false,true,true
+deuteronomy-9-10-stubbornness-intercession-and-the-circumcised-heart,Old Testament,Deuteronomy,9,Deuteronomy 9; Deuteronomy 10,2,0,2,1,true,false,true,false
+ecclesiastes-1-1-11-vanity-of-vanities-and-the-weariness-under-the-sun,Old Testament,Ecclesiastes,1,Ecclesiastes 1,0,0,0,0,false,false,false,false
+ecclesiastes-1-12-2-26-wisdom-pleasure-wealth-and-the-king-s-experiment,Old Testament,Ecclesiastes,1,Ecclesiastes 1,0,0,0,0,false,false,false,false
+ecclesiastes-10-folly-in-public-life-and-the-weight-of-words,Old Testament,Ecclesiastes,10,Ecclesiastes 10,0,0,0,0,false,false,false,false
+ecclesiastes-11-risk-generosity-and-sowing-before-the-unknown,Old Testament,Ecclesiastes,11,Ecclesiastes 11,0,0,0,0,false,false,false,false
+ecclesiastes-12-remember-your-creator-and-fear-god,Old Testament,Ecclesiastes,12,Ecclesiastes 12,0,0,0,0,false,false,false,false
+ecclesiastes-3-a-time-for-everything-and-eternity-in-the-heart,Old Testament,Ecclesiastes,3,Ecclesiastes 3,0,0,0,0,false,false,false,false
+ecclesiastes-4-oppression-envy-solitude-and-companionship,Old Testament,Ecclesiastes,4,Ecclesiastes 4,0,0,0,0,false,false,false,false
+ecclesiastes-5-1-7-few-words-before-god,Old Testament,Ecclesiastes,5,Ecclesiastes 5,0,0,0,0,false,false,false,false
+ecclesiastes-5-8-6-12-wealth-that-cannot-save,Old Testament,Ecclesiastes,5,Ecclesiastes 5,0,0,0,0,false,false,false,false
+ecclesiastes-7-sorrow-wisdom-and-the-straightness-god-made,Old Testament,Ecclesiastes,7,Ecclesiastes 7,0,0,0,0,false,false,false,false
+ecclesiastes-8-authority-judgment-and-hidden-providence,Old Testament,Ecclesiastes,8,Ecclesiastes 8,0,0,0,0,false,false,false,false
+ecclesiastes-9-death-joy-and-faithfulness-in-ordinary-gifts,Old Testament,Ecclesiastes,9,Ecclesiastes 9,0,0,0,0,false,false,false,false
+esther-1-2-dream-empire-and-hidden-faithfulness,Old Testament,Esther with Greek Additions,1,Esther 1; Esther 2,0,0,0,0,false,false,false,false
+esther-3-4-the-decree-the-fast-and-holy-intercession,Old Testament,Esther with Greek Additions,3,Esther 3; Esther 4,0,0,0,0,false,false,false,false
+esther-5-7-esther-before-the-king-and-haman-s-fall,Old Testament,Esther with Greek Additions,5,Esther 5; Esther 6; Esther 7,0,0,0,0,false,false,false,false
+esther-8-the-counter-decree-and-shared-deliverance,Old Testament,Esther with Greek Additions,8,Esther 8,0,0,0,0,false,false,false,false
+esther-9-10-purim-restraint-and-mordecai-s-interpretation,Old Testament,Esther with Greek Additions,9,Esther 9; Esther 10,0,0,0,0,false,false,false,false
+exodus-1-oppression-midwives-and-the-fear-of-god,Old Testament,Exodus,1,Exodus 1,0,0,0,0,false,false,false,false
+exodus-11-the-final-plague-announced,Old Testament,Exodus,11,Exodus 11,1,0,1,1,false,false,true,false
+exodus-12-passover-blood-and-the-exodus,Old Testament,Exodus,12,Exodus 12,1,0,1,1,true,false,true,true
+exodus-13-consecration-unleavened-bread-and-the-cloud,Old Testament,Exodus,13,Exodus 13,2,0,1,1,true,false,true,false
+exodus-13-consecration-unleavened-bread-and-the-pillar,Old Testament,Exodus,13,Exodus 13,2,0,1,1,true,false,true,false
+exodus-14-15-the-red-sea-crossing-and-the-song-of-moses,Old Testament,Exodus,14,Exodus 14; Exodus 15,3,0,1,1,true,false,true,true
+exodus-14-the-red-sea-crossing,Old Testament,Exodus,14,Exodus 14,2,0,1,1,true,false,true,false
+exodus-15-song-of-moses-and-bitter-waters,Old Testament,Exodus,15,Exodus 15,3,0,1,1,true,false,true,true
+exodus-16-manna-bread-from-heaven,Old Testament,Exodus,16,Exodus 16,1,0,1,1,true,false,true,true
+exodus-16-manna-bread-from-heaven-and-sabbath-training,Old Testament,Exodus,16,Exodus 16,1,0,1,1,true,false,true,true
+exodus-17-18-water-from-the-rock-amalek-and-shared-leadership,Old Testament,Exodus,17,Exodus 17; Exodus 18,3,0,1,1,true,false,true,false
+exodus-17-water-from-the-rock-and-amalek,Old Testament,Exodus,17,Exodus 17,3,0,1,1,true,false,true,false
+exodus-18-jethro-and-shared-judgment,Old Testament,Exodus,18,Exodus 18,0,0,0,0,false,false,false,false
+exodus-19-sinai-and-the-priestly-people,Old Testament,Exodus,19,Exodus 19,1,0,1,1,true,false,true,false
+exodus-2-moses-hidden-drawn-out-and-exiled,Old Testament,Exodus,2,Exodus 2,1,0,1,1,false,false,true,false
+exodus-20-the-ten-commandments,Old Testament,Exodus,20,Exodus 20,0,0,0,0,false,false,false,false
+exodus-21-23-the-book-of-the-covenant,Old Testament,Exodus,21,Exodus 21; Exodus 22; Exodus 23,0,0,0,0,false,false,false,false
+exodus-24-covenant-blood-and-the-vision-of-god,Old Testament,Exodus,24,Exodus 24,0,0,0,0,false,false,false,false
+exodus-25-27-the-tabernacle-pattern,Old Testament,Exodus,25,Exodus 25; Exodus 26; Exodus 27,0,0,0,0,false,false,false,false
+exodus-28-29-priesthood-vestments-and-consecration,Old Testament,Exodus,28,Exodus 28; Exodus 29,0,0,0,0,false,false,false,false
+exodus-3-research-notes,Old Testament,Exodus,3,Exodus 3,1,0,1,1,false,false,true,false
+exodus-3-the-burning-bush-and-the-name-of-god,Old Testament,Exodus,3,Exodus 3,1,0,1,1,false,false,true,false
+exodus-30-31-incense-atonement-craftsmen-and-sabbath,Old Testament,Exodus,30,Exodus 30; Exodus 31,0,0,0,0,false,false,false,false
+exodus-32-the-golden-calf,Old Testament,Exodus,32,Exodus 32,2,0,1,1,true,false,true,false
+exodus-33-presence-glory-and-the-friend-of-god,Old Testament,Exodus,33,Exodus 33,1,0,1,1,true,false,true,false
+exodus-34-covenant-renewed-and-moses-radiant,Old Testament,Exodus,34,Exodus 34,0,0,0,0,false,false,false,false
+exodus-35-36-willing-offerings-and-spirit-filled-craftsmanship,Old Testament,Exodus,35,Exodus 35; Exodus 36,0,0,0,0,false,false,false,false
+exodus-37-38-furnishings-and-court-completed,Old Testament,Exodus,37,Exodus 37; Exodus 38,0,0,0,0,false,false,false,false
+exodus-39-priestly-garments-completed,Old Testament,Exodus,39,Exodus 39,0,0,0,0,false,false,false,false
+exodus-4-signs-resistance-zipporah-and-return,Old Testament,Exodus,4,Exodus 4,1,0,1,1,false,false,true,false
+exodus-40-glory-fills-the-tabernacle,Old Testament,Exodus,40,Exodus 40,0,0,0,0,false,false,false,false
+exodus-5-6-pharaoh-resists-and-god-reaffirms-covenant,Old Testament,Exodus,5,Exodus 5; Exodus 6,1,0,1,1,false,false,true,false
+exodus-7-8-the-plagues-begin-and-egypts-gods-are-judged,Old Testament,Exodus,7,Exodus 7; Exodus 8,2,0,2,2,true,false,true,false
+exodus-9-10-plagues-intensify-and-pharaohs-heart-hardens,Old Testament,Exodus,9,Exodus 9; Exodus 10,1,0,1,1,false,false,true,false
+ezekiel-1-the-vision-of-divine-glory,Old Testament,Ezekiel,1,Ezekiel 1,0,0,0,0,false,false,false,false
+ezekiel-12-15-exile-signs-false-prophets-and-the-useless-vine,Old Testament,Ezekiel,12,Ezekiel 12; Ezekiel 13; Ezekiel 14; Ezekiel 15,0,0,0,0,false,false,false,false
+ezekiel-16-the-unfaithful-bride,Old Testament,Ezekiel,16,Ezekiel 16,0,0,0,0,false,false,false,false
+ezekiel-17-eagles-covenant-and-the-tender-cedar,Old Testament,Ezekiel,17,Ezekiel 17,0,0,0,0,false,false,false,false
+ezekiel-18-the-soul-that-sins-shall-die,Old Testament,Ezekiel,18,Ezekiel 18,1,0,1,1,true,false,true,false
+ezekiel-19-20-lament-and-rebellious-history,Old Testament,Ezekiel,19,Ezekiel 19; Ezekiel 20,3,0,1,1,true,false,true,true
+ezekiel-2-3-ezekiel-commissioned,Old Testament,Ezekiel,2,Ezekiel 2; Ezekiel 3,0,0,0,0,false,false,false,false
+ezekiel-21-22-sword-and-bloodguilt,Old Testament,Ezekiel,21,Ezekiel 21; Ezekiel 22,4,0,1,1,true,false,true,true
+ezekiel-23-oholah-and-oholibah,Old Testament,Ezekiel,23,Ezekiel 23,0,0,0,0,false,false,false,false
+ezekiel-24-the-boiling-pot-and-ezekiel-s-bereavement,Old Testament,Ezekiel,24,Ezekiel 24,0,0,0,0,false,false,false,false
+ezekiel-25-28-nations-and-tyre,Old Testament,Ezekiel,25,Ezekiel 25; Ezekiel 26; Ezekiel 27; Ezekiel 28,0,0,0,0,false,false,false,false
+ezekiel-29-32-egypt-judged,Old Testament,Ezekiel,29,Ezekiel 29; Ezekiel 30; Ezekiel 31; Ezekiel 32,0,0,0,0,false,false,false,false
+ezekiel-33-watchman-and-news-of-the-fall,Old Testament,Ezekiel,33,Ezekiel 33,0,0,0,0,false,false,false,false
+ezekiel-34-false-shepherds-and-the-true-shepherd,Old Testament,Ezekiel,34,Ezekiel 34,0,0,0,0,false,false,false,false
+ezekiel-35-36-edom-judged-and-israel-renewed,Old Testament,Ezekiel,35,Ezekiel 35; Ezekiel 36,2,0,1,1,true,false,true,true
+ezekiel-35-36-edom-judged-and-the-new-heart-promised,Old Testament,Ezekiel,35,Ezekiel 35; Ezekiel 36,2,0,1,1,true,false,true,true
+ezekiel-37-dry-bones-and-one-stick,Old Testament,Ezekiel,37,Ezekiel 37,1,0,1,1,false,false,true,false
+ezekiel-38-39-gog-and-magog,Old Testament,Ezekiel,38,Ezekiel 38; Ezekiel 39,0,0,0,0,false,false,false,false
+ezekiel-4-5-sign-acts-of-siege-and-judgment,Old Testament,Ezekiel,4,Ezekiel 4; Ezekiel 5,0,0,0,0,false,false,false,false
+ezekiel-40-42-visionary-temple-measured,Old Testament,Ezekiel,40,Ezekiel 40; Ezekiel 41; Ezekiel 42,0,0,0,0,false,false,false,false
+ezekiel-43-44-glory-returns-and-priestly-holiness,Old Testament,Ezekiel,43,Ezekiel 43; Ezekiel 44,1,0,1,1,true,false,true,true
+ezekiel-45-46-holy-portion-and-worship-order,Old Testament,Ezekiel,45,Ezekiel 45; Ezekiel 46,0,0,0,0,false,false,false,false
+ezekiel-47-48-river-of-life-and-restored-inheritance,Old Testament,Ezekiel,47,Ezekiel 47; Ezekiel 48,1,0,1,1,true,false,true,true
+ezekiel-47-48-river-of-life-and-the-lord-is-there,Old Testament,Ezekiel,47,Ezekiel 47; Ezekiel 48,1,0,1,1,true,false,true,true
+ezekiel-6-7-judgment-on-mountains-and-land,Old Testament,Ezekiel,6,Ezekiel 6; Ezekiel 7,0,0,0,0,false,false,false,false
+ezekiel-8-11-temple-abominations-and-departing-glory,Old Testament,Ezekiel,8,Ezekiel 8; Ezekiel 9; Ezekiel 10; Ezekiel 11,0,0,0,0,false,false,false,false
+ezra-1-2-cyrus-decree-and-the-first-return,Old Testament,Ezra,1,Ezra 1; Ezra 2,0,0,0,0,false,false,false,false
+ezra-10-covenant-correction-and-guarded-interpretation,Old Testament,Ezra,10,Ezra 10,0,0,0,0,false,false,false,false
+ezra-3-altar-worship-and-the-temple-foundation,Old Testament,Ezra,3,Ezra 3,0,0,0,0,false,false,false,false
+ezra-4-opposition-to-rebuilding,Old Testament,Ezra,4,Ezra 4,0,0,0,0,false,false,false,false
+ezra-5-6-prophets-encourage-and-the-temple-is-completed,Old Testament,Ezra,5,Ezra 5; Ezra 6,0,0,0,0,false,false,false,false
+ezra-7-ezra-the-priest-and-scribe-arrives,Old Testament,Ezra,7,Ezra 7,0,0,0,0,false,false,false,false
+ezra-8-the-journey-and-the-entrusted-vessels,Old Testament,Ezra,8,Ezra 8,0,0,0,0,false,false,false,false
+ezra-9-intercession-and-corporate-confession,Old Testament,Ezra,9,Ezra 9,0,0,0,0,false,false,false,false
+genesis-1-creation-and-the-image-of-god,Old Testament,Genesis,1,Genesis 1,1,0,1,1,true,false,true,true
+genesis-10-11-nations-babel-and-the-call-prepared,Old Testament,Genesis,10,Genesis 10; Genesis 11,0,0,0,0,false,false,false,false
+genesis-12-abram-called-and-the-promise-to-all-nations,Old Testament,Genesis,12,Genesis 12,0,0,0,0,false,false,false,false
+genesis-13-14-separation-lot-war-and-melchizedek,Old Testament,Genesis,13,Genesis 13; Genesis 14,1,0,1,1,true,false,true,false
+genesis-15-covenant-faith-and-the-smoking-furnace,Old Testament,Genesis,15,Genesis 15,0,0,0,0,false,false,false,false
+genesis-16-17-hagar-ishmael-circumcision-and-the-covenant-name,Old Testament,Genesis,16,Genesis 16; Genesis 17,0,0,0,0,false,false,false,false
+genesis-18-the-lord-visits-abraham-and-intercession-for-sodom,Old Testament,Genesis,18,Genesis 18,2,0,2,1,true,false,true,false
+genesis-19-sodom-judgment-rescue-and-tragic-aftermath,Old Testament,Genesis,19,Genesis 19,1,0,1,1,false,false,true,false
+genesis-2-eden-marriage-and-the-breath-of-life,Old Testament,Genesis,2,Genesis 2,1,0,1,1,true,false,true,true
+genesis-20-21-abimelech-isaac-born-and-hagar-comforted,Old Testament,Genesis,20,Genesis 20; Genesis 21,0,0,0,0,false,false,false,false
+genesis-22-the-binding-of-isaac,Old Testament,Genesis,22,Genesis 22,3,0,2,1,true,false,true,true
+genesis-23-24-sarah-s-burial-and-isaac-s-bride,Old Testament,Genesis,23,Genesis 23; Genesis 24,3,0,2,2,true,false,true,false
+genesis-25-26-generations-esau-jacob-and-isaac-s-sojourning,Old Testament,Genesis,25,Genesis 25; Genesis 26,0,0,0,0,false,false,false,false
+genesis-27-jacob-esau-and-the-stolen-blessing,Old Testament,Genesis,27,Genesis 27,1,0,1,1,false,false,true,false
+genesis-28-jacob-s-ladder-and-bethel,Old Testament,Genesis,28,Genesis 28,2,0,2,1,false,false,true,false
+genesis-29-30-jacob-leah-rachel-and-the-children-of-israel,Old Testament,Genesis,29,Genesis 29; Genesis 30,0,0,0,0,false,false,false,false
+genesis-3-the-fall-and-the-first-promise,Old Testament,Genesis,3,Genesis 3,1,0,1,1,true,false,true,true
+genesis-31-jacob-leaves-laban,Old Testament,Genesis,31,Genesis 31,0,0,0,0,false,false,false,false
+genesis-32-jacob-wrestles-and-becomes-israel,Old Testament,Genesis,32,Genesis 32,1,0,1,1,false,false,true,false
+genesis-33-34-reconciliation-with-esau-and-the-defilement-at-shechem,Old Testament,Genesis,33,Genesis 33; Genesis 34,0,0,0,0,false,false,false,false
+genesis-35-36-return-to-bethel-rachel-s-death-and-esau-s-line,Old Testament,Genesis,35,Genesis 35; Genesis 36,0,0,0,0,false,false,false,false
+genesis-37-joseph-betrayed-by-his-brothers,Old Testament,Genesis,37,Genesis 37,0,0,0,0,false,false,false,false
+genesis-38-judah-tamar-and-hidden-righteousness,Old Testament,Genesis,38,Genesis 38,0,0,0,0,false,false,false,false
+genesis-39-41-joseph-in-egypt-prison-and-exaltation,Old Testament,Genesis,39,Genesis 39; Genesis 40; Genesis 41,0,0,0,0,false,false,false,false
+genesis-4-cain-abel-and-the-wound-of-worship,Old Testament,Genesis,4,Genesis 4,0,0,0,0,false,false,false,false
+genesis-42-45-joseph-tests-and-reveals-himself,Old Testament,Genesis,42,Genesis 42; Genesis 43; Genesis 44; Genesis 45,0,0,0,0,false,false,false,false
+genesis-46-47-israel-goes-down-to-egypt,Old Testament,Genesis,46,Genesis 46; Genesis 47,0,0,0,0,false,false,false,false
+genesis-48-jacob-blesses-ephraim-and-manasseh,Old Testament,Genesis,48,Genesis 48,1,0,1,1,true,false,true,false
+genesis-49-jacob-blesses-the-twelve-tribes,Old Testament,Genesis,49,Genesis 49,1,0,1,1,false,false,true,false
+genesis-5-adam-s-generations-and-the-hope-of-enoch,Old Testament,Genesis,5,Genesis 5,0,0,0,0,false,false,false,false
+genesis-50-joseph-forgives-and-genesis-ends-in-hope,Old Testament,Genesis,50,Genesis 50,2,0,2,1,false,false,true,false
+genesis-6-8-noah-the-ark-flood-and-new-beginning,Old Testament,Genesis,6,Genesis 6; Genesis 7; Genesis 8,1,0,1,1,true,false,true,false
+genesis-9-covenant-with-noah-and-the-bow-in-the-clouds,Old Testament,Genesis,9,Genesis 9,1,0,1,1,true,false,true,false
+habakkuk-1-the-prophet-complains-and-god-answers,Old Testament,Habakkuk,1,Habakkuk 1,0,0,0,0,false,false,false,false
+habakkuk-2-the-just-shall-live-by-faith,Old Testament,Habakkuk,2,Habakkuk 2,0,0,0,0,false,false,false,false
+habakkuk-3-prayer-theophany-and-rejoicing-without-visible-deliverance,Old Testament,Habakkuk,3,Habakkuk 3,1,0,1,1,true,false,true,false
+haggai-1-consider-your-ways-and-rebuild-the-house,Old Testament,Haggai,1,Haggai 1,0,0,0,0,false,false,false,false
+haggai-2-greater-glory-holiness-and-the-shaking-of-nations,Old Testament,Haggai,2,Haggai 2,0,0,0,0,false,false,false,false
+hosea-1-3-covenant-love-and-wounded-marriage,Old Testament,Hosea,1,Hosea 1; Hosea 2; Hosea 3,1,0,1,1,true,false,true,false
+hosea-11-out-of-egypt-i-called-my-son,Old Testament,Hosea,11,Hosea 11,2,0,1,1,true,false,true,true
+hosea-12-13-wrestling-memory-and-death,Old Testament,Hosea,12,Hosea 12; Hosea 13,0,0,0,0,false,false,false,false
+hosea-14-return-o-israel,Old Testament,Hosea,14,Hosea 14,0,0,0,0,false,false,false,false
+hosea-4-5-no-knowledge-of-god,Old Testament,Hosea,4,Hosea 4; Hosea 5,5,0,1,1,true,false,true,true
+hosea-6-on-the-third-day-he-will-raise-us-up,Old Testament,Hosea,6,Hosea 6,2,0,1,1,true,false,true,false
+hosea-7-8-half-baked-repentance-and-sown-wind,Old Testament,Hosea,7,Hosea 7; Hosea 8,0,0,0,0,false,false,false,false
+hosea-9-10-fruit-for-the-self,Old Testament,Hosea,9,Hosea 9; Hosea 10,3,0,1,1,true,false,true,true
+isaiah-1-vision-of-sinful-judah,Old Testament,Isaiah,1,Isaiah 1,3,0,2,1,true,false,true,false
+isaiah-13-14-babylon-and-the-fallen-tyrant,Old Testament,Isaiah,13,Isaiah 13; Isaiah 14,2,0,2,1,true,false,true,false
+isaiah-15-16-oracle-concerning-moab,Old Testament,Isaiah,15,Isaiah 15; Isaiah 16,0,0,0,0,false,false,false,false
+isaiah-17-18-damascus-cush-and-the-nations,Old Testament,Isaiah,17,Isaiah 17; Isaiah 18,0,0,0,0,false,false,false,false
+isaiah-19-20-egypt-humbled-and-healed,Old Testament,Isaiah,19,Isaiah 19; Isaiah 20,1,0,1,1,true,false,true,false
+isaiah-2-4-zion-judgment-and-the-branch,Old Testament,Isaiah,2,Isaiah 2; Isaiah 3; Isaiah 4,3,0,2,1,true,false,true,true
+isaiah-21-23-watchman-desert-and-tyre,Old Testament,Isaiah,21,Isaiah 21; Isaiah 22; Isaiah 23,0,0,0,0,false,false,false,false
+isaiah-24-27-apocalypse-feast-and-resurrection-hope,Old Testament,Isaiah,24,Isaiah 24; Isaiah 25; Isaiah 26; Isaiah 27,5,0,3,2,true,false,true,false
+isaiah-28-29-woe-to-pride-and-blind-worship,Old Testament,Isaiah,28,Isaiah 28; Isaiah 29,4,0,2,1,true,false,true,false
+isaiah-30-31-woe-to-egypt-trust,Old Testament,Isaiah,30,Isaiah 30; Isaiah 31,1,0,1,1,true,false,true,true
+isaiah-32-33-righteous-king-and-zion-security,Old Testament,Isaiah,32,Isaiah 32; Isaiah 33,0,0,0,0,false,false,false,false
+isaiah-34-35-judgment-and-holy-way,Old Testament,Isaiah,34,Isaiah 34; Isaiah 35,0,0,0,0,false,false,false,false
+isaiah-36-39-hezekiah-assyria-and-babylon,Old Testament,Isaiah,36,Isaiah 36; Isaiah 37; Isaiah 38; Isaiah 39,2,0,2,1,true,false,true,false
+isaiah-40-comfort-my-people,Old Testament,Isaiah,40,Isaiah 40,3,0,2,1,true,false,true,true
+isaiah-41-42-servant-and-deliverance,Old Testament,Isaiah,41,Isaiah 41; Isaiah 42,1,0,1,1,false,false,true,false
+isaiah-43-44-new-exodus-and-true-god,Old Testament,Isaiah,43,Isaiah 43; Isaiah 44,1,0,1,1,false,false,true,false
+isaiah-45-46-cyrus-and-the-lord-alone,Old Testament,Isaiah,45,Isaiah 45; Isaiah 46,2,0,2,1,true,false,true,false
+isaiah-47-48-babylon-falls-and-israel-called,Old Testament,Isaiah,47,Isaiah 47; Isaiah 48,3,0,2,1,true,true,true,true
+isaiah-49-50-servant-mission-and-obedience,Old Testament,Isaiah,49,Isaiah 49; Isaiah 50,5,0,2,1,true,false,true,false
+isaiah-49-servant-light-to-the-nations-and-zion-remembered,Old Testament,Isaiah,49,Isaiah 49,1,0,1,1,false,false,true,false
+isaiah-5-the-vineyard-song,Old Testament,Isaiah,5,Isaiah 5,3,0,2,1,true,false,true,false
+isaiah-50-the-obedient-suffering-servant,Old Testament,Isaiah,50,Isaiah 50,4,0,1,1,true,false,true,false
+isaiah-51-52-zion-awake-and-good-news,Old Testament,Isaiah,51,Isaiah 51; Isaiah 52,2,0,1,1,true,false,true,false
+isaiah-53-the-suffering-servant,Old Testament,Isaiah,53,Isaiah 53,2,0,1,1,true,false,true,false
+isaiah-54-55-covenant-mercy-and-invitation,Old Testament,Isaiah,54,Isaiah 54; Isaiah 55,1,0,1,1,true,false,true,true
+isaiah-54-barren-zion-and-covenant-peace,Old Testament,Isaiah,54,Isaiah 54,0,0,0,0,false,false,false,false
+isaiah-55-come-to-the-waters-and-the-everlasting-covenant,Old Testament,Isaiah,55,Isaiah 55,1,0,1,1,true,false,true,true
+isaiah-56-57-inclusion-and-false-worship,Old Testament,Isaiah,56,Isaiah 56; Isaiah 57,1,0,1,1,true,false,true,true
+isaiah-58-59-true-fasting-and-intercession,Old Testament,Isaiah,58,Isaiah 58; Isaiah 59,4,0,2,1,true,false,true,true
+isaiah-6-isaiah-call,Old Testament,Isaiah,6,Isaiah 6,1,0,1,1,false,false,true,false
+isaiah-60-62-zion-glory-and-anointed-good-news,Old Testament,Isaiah,60,Isaiah 60; Isaiah 61; Isaiah 62,1,0,1,1,true,false,true,true
+isaiah-63-64-divine-warrior-and-communal-lament,Old Testament,Isaiah,63,Isaiah 63; Isaiah 64,1,0,1,1,true,false,true,false
+isaiah-65-66-new-heavens-new-earth-and-final-worship,Old Testament,Isaiah,65,Isaiah 65; Isaiah 66,1,0,1,1,false,false,true,false
+isaiah-7-8-immanuel-and-assyrian-threat,Old Testament,Isaiah,7,Isaiah 7; Isaiah 8,1,0,1,1,false,false,true,false
+isaiah-9-12-messianic-light-and-thanksgiving,Old Testament,Isaiah,9,Isaiah 9; Isaiah 10; Isaiah 11; Isaiah 12,2,0,2,1,true,false,true,false
+jeremiah-1-jeremiah-called,Old Testament,Jeremiah,1,Jeremiah 1,0,0,0,0,false,false,false,false
+jeremiah-10-idols-and-the-living-god,Old Testament,Jeremiah,10,Jeremiah 10,0,0,0,0,false,false,false,false
+jeremiah-11-12-covenant-betrayal-and-the-innocent-lamb,Old Testament,Jeremiah,11,Jeremiah 11; Jeremiah 12,1,0,1,1,true,false,true,false
+jeremiah-13-the-ruined-linen-girdle-and-bright-saturday-warning,Old Testament,Jeremiah,13,Jeremiah 13,1,0,1,1,true,false,true,false
+jeremiah-14-15-drought-intercession-and-prophetic-anguish,Old Testament,Jeremiah,14,Jeremiah 14; Jeremiah 15,0,0,0,0,false,false,false,false
+jeremiah-16-17-life-as-sign-and-the-heart-examined,Old Testament,Jeremiah,16,Jeremiah 16; Jeremiah 17,1,0,1,1,true,false,true,true
+jeremiah-16-life-as-sign-exile-and-the-nations-turning-from-idols,Old Testament,Jeremiah,16,Jeremiah 16,1,0,1,1,true,false,true,true
+jeremiah-17-trust-the-deep-heart-and-sabbath-at-the-gates,Old Testament,Jeremiah,17,Jeremiah 17:5-27,0,0,0,0,false,false,false,false
+jeremiah-18-20-potter-broken-vessel-and-pashhur,Old Testament,Jeremiah,18,Jeremiah 18; Jeremiah 19; Jeremiah 20,0,0,0,0,false,false,false,false
+jeremiah-2-3-israel-forsakes-the-lord,Old Testament,Jeremiah,2,Jeremiah 2; Jeremiah 3,0,0,0,0,false,false,false,false
+jeremiah-21-23-kings-shepherds-and-righteous-branch,Old Testament,Jeremiah,21,Jeremiah 21; Jeremiah 22; Jeremiah 23,1,0,1,1,true,false,true,false
+jeremiah-24-25-figs-and-seventy-years,Old Testament,Jeremiah,24,Jeremiah 24; Jeremiah 25,0,0,0,0,false,false,false,false
+jeremiah-26-29-prophetic-conflict-and-letters-to-exiles,Old Testament,Jeremiah,26,Jeremiah 26; Jeremiah 27; Jeremiah 28; Jeremiah 29,0,0,0,0,false,false,false,false
+jeremiah-30-31-book-of-consolation-and-new-covenant,Old Testament,Jeremiah,30,Jeremiah 30; Jeremiah 31,1,0,1,1,true,false,true,false
+jeremiah-32-33-field-purchased-and-promise-renewed,Old Testament,Jeremiah,32,Jeremiah 32; Jeremiah 33,0,0,0,0,false,false,false,false
+jeremiah-34-36-broken-promises-and-the-burned-scroll,Old Testament,Jeremiah,34,Jeremiah 34; Jeremiah 35; Jeremiah 36,0,0,0,0,false,false,false,false
+jeremiah-37-39-siege-prison-and-fall-of-jerusalem,Old Testament,Jeremiah,37,Jeremiah 37; Jeremiah 38; Jeremiah 39,0,0,0,0,false,false,false,false
+jeremiah-4-return-and-the-circumcised-heart,Old Testament,Jeremiah,4,Jeremiah 4,0,0,0,0,false,false,false,false
+jeremiah-40-41-after-the-fall,Old Testament,Jeremiah,40,Jeremiah 40; Jeremiah 41,0,0,0,0,false,false,false,false
+jeremiah-42-44-flight-to-egypt,Old Testament,Jeremiah,42,Jeremiah 42; Jeremiah 43; Jeremiah 44,1,0,1,1,true,false,true,false
+jeremiah-45-baruch,Old Testament,Jeremiah,45,Jeremiah 45,0,0,0,0,false,false,false,false
+jeremiah-46-49-oracles-against-the-nations,Old Testament,Jeremiah,46,Jeremiah 46; Jeremiah 47; Jeremiah 48; Jeremiah 49,0,0,0,0,false,false,false,false
+jeremiah-5-searching-for-faithfulness,Old Testament,Jeremiah,5,Jeremiah 5,0,0,0,0,false,false,false,false
+jeremiah-50-51-babylon-judged,Old Testament,Jeremiah,50,Jeremiah 50; Jeremiah 51,0,0,0,0,false,false,false,false
+jeremiah-52-jerusalem-destroyed,Old Testament,Jeremiah,52,Jeremiah 52,0,0,0,0,false,false,false,false
+jeremiah-6-false-peace-and-the-old-paths,Old Testament,Jeremiah,6,Jeremiah 6,0,0,0,0,false,false,false,false
+jeremiah-7-temple-sermon,Old Testament,Jeremiah,7,Jeremiah 7,1,0,1,1,true,false,true,true
+jeremiah-8-refused-repentance-and-no-balm-in-gilead,Old Testament,Jeremiah,8,Jeremiah 8,1,0,1,1,true,false,true,true
+jeremiah-9-lament-and-knowing-the-lord,Old Testament,Jeremiah,9,Jeremiah 9,3,0,1,1,true,false,true,true
+job-1-2-the-righteous-sufferer-tested,Old Testament,Job,1,Job 1; Job 2,1,0,1,2,false,false,true,false
+job-11-14-zophar-and-job-hope-beyond-death,Old Testament,Job,11,Job 11; Job 12; Job 13; Job 14,2,0,2,1,true,false,true,true
+job-15-17-second-cycle-begins,Old Testament,Job,15,Job 15; Job 16; Job 17,1,0,1,1,false,false,true,false
+job-18-21-wickedness-debate,Old Testament,Job,18,Job 18; Job 19; Job 20; Job 21,1,0,1,1,false,false,true,false
+job-22-24-eliphaz-accuses-and-job-seeks-god,Old Testament,Job,22,Job 22; Job 23; Job 24,2,0,2,1,true,false,true,true
+job-25-28-wisdom-hidden-with-god,Old Testament,Job,25,Job 25; Job 26; Job 27; Job 28,4,0,2,1,true,false,true,true
+job-29-31-job-final-defense,Old Testament,Job,29,Job 29; Job 30; Job 31,2,0,2,1,true,false,true,true
+job-3-job-lament,Old Testament,Job,3,Job 3,0,0,0,0,false,false,false,false
+job-32-34-elihu-begins,Old Testament,Job,32,Job 32; Job 33; Job 34,1,0,1,1,false,false,true,false
+job-35-37-elihu-on-god-majesty,Old Testament,Job,35,Job 35; Job 36; Job 37,1,0,1,1,false,false,true,false
+job-38-39-the-lord-answers-from-the-whirlwind,Old Testament,Job,38,Job 38; Job 39,1,0,1,1,false,false,true,false
+job-4-7-first-speeches-eliphaz-and-job,Old Testament,Job,4,Job 4; Job 5; Job 6; Job 7,0,0,0,0,false,false,false,false
+job-40-41-behemoth-and-leviathan,Old Testament,Job,40,Job 40; Job 41,1,0,1,1,false,false,true,false
+job-42-repentance-intercession-and-restoration,Old Testament,Job,42,Job 42,1,0,1,1,false,false,true,false
+job-8-10-bildad-and-job-answer,Old Testament,Job,8,Job 8; Job 9; Job 10,0,0,0,0,false,false,false,false
+joel-1-locusts-and-lament,Old Testament,Joel,1,Joel 1,1,0,1,1,true,false,true,true
+joel-2-trumpet-fasting-and-the-poured-out-spirit,Old Testament,Joel,2,Joel 2,2,0,2,2,true,false,true,true
+joel-3-spirit-and-judgment,Old Testament,Joel,3,Joel 3,1,0,1,1,false,false,true,false
+joel-4-the-lord-dwells-in-zion,Old Testament,Joel,4,Joel 4,0,0,0,0,false,false,false,false
+john-1-19-34-behold-the-lamb-witness-and-theophany,New Testament,John,1,John 1:19-34,0,0,0,0,false,false,false,false
+john-1-35-51-come-and-see,New Testament,John,1,John 1:35-51,0,0,0,0,false,false,false,false
+john-2-1-12-the-wedding-at-cana-the-first-sign,New Testament,John,2,John 2:1-12,0,0,0,0,false,false,false,false
+john-2-13-25-the-true-temple-and-the-cleansing-of-worship,New Testament,John,2,John 2:13-25,0,0,0,0,false,false,false,false
+john-3-1-21-from-night-to-new-birth,New Testament,John,3,John 3:1-21,0,0,0,0,false,false,false,false
+john-3-22-36-the-friend-of-the-bridegroom,New Testament,John,3,John 3:22-36,0,0,0,0,false,false,false,false
+john-4-1-42-living-water-for-samaria,New Testament,John,4,John 4:1-42,0,0,0,0,false,false,false,false
+john-4-43-54-trusting-the-word-before-seeing,New Testament,John,4,John 4:43-54,0,0,0,0,false,false,false,false
+john-5-1-18-rise-take-up-your-bed-and-walk,New Testament,John,5,John 5:1-18,0,0,0,0,false,false,false,false
+jonah-1-flight-storm-and-descent,Old Testament,Jonah,1,Jonah 1,1,0,1,1,true,false,true,true
+jonah-2-prayer-from-the-belly-of-the-fish,Old Testament,Jonah,2,Jonah 2,2,0,1,1,true,false,true,true
+jonah-3-nineveh-repents,Old Testament,Jonah,3,Jonah 3,0,0,0,0,false,false,false,false
+jonah-4-anger-and-the-compassion-of-god,Old Testament,Jonah,4,Jonah 4,0,0,0,0,false,false,false,false
+joshua-1-2-courage-rahab-and-the-scarlet-cord,Old Testament,Joshua,1,Joshua 1; Joshua 2,1,0,1,1,false,false,true,false
+joshua-10-southern-campaign-and-the-sun-standing-still,Old Testament,Joshua,10,Joshua 10,0,0,0,0,false,false,false,false
+joshua-11-12-northern-victory-and-the-kings-defeated,Old Testament,Joshua,11,Joshua 11; Joshua 12,0,0,0,0,false,false,false,false
+joshua-13-14-land-still-unpossessed-and-calebs-inheritance,Old Testament,Joshua,13,Joshua 13; Joshua 14,0,0,0,0,false,false,false,false
+joshua-15-17-judah-joseph-and-the-unfinished-inheritance,Old Testament,Joshua,15,Joshua 15; Joshua 16; Joshua 17,0,0,0,0,false,false,false,false
+joshua-18-19-shiloh-and-the-remaining-allotments,Old Testament,Joshua,18,Joshua 18; Joshua 19,0,0,0,0,false,false,false,false
+joshua-20-21-cities-of-refuge-levites-and-promise-fulfilled,Old Testament,Joshua,20,Joshua 20; Joshua 21,0,0,0,0,false,false,false,false
+joshua-22-the-altar-of-witness-and-unity-preserved,Old Testament,Joshua,22,Joshua 22,0,0,0,0,false,false,false,false
+joshua-23-joshua-farewell-warning,Old Testament,Joshua,23,Joshua 23,0,0,0,0,false,false,false,false
+joshua-24-choose-this-day-whom-you-will-serve,Old Testament,Joshua,24,Joshua 24,0,0,0,0,false,false,false,false
+joshua-3-4-crossing-the-jordan-and-the-memorial-stones,Old Testament,Joshua,3,Joshua 3; Joshua 4,0,0,0,0,false,false,false,false
+joshua-5-circumcision-passover-and-the-commander-of-the-lord,Old Testament,Joshua,5,Joshua 5,0,0,0,0,false,false,false,false
+joshua-6-jericho-and-the-collapse-of-pride,Old Testament,Joshua,6,Joshua 6,1,0,1,1,false,false,true,false
+joshua-7-8-achan-ai-and-covenant-renewal,Old Testament,Joshua,7,Joshua 7; Joshua 8,0,0,0,0,false,false,false,false
+joshua-9-gibeon-deception-and-rash-covenant,Old Testament,Joshua,9,Joshua 9,0,0,0,0,false,false,false,false
+judges-1-2-incomplete-conquest-and-the-pattern-of-apostasy,Old Testament,Judges,1,Judges 1; Judges 2,0,0,0,0,false,false,false,false
+judges-10-12-restless-repentance-jephthah-and-tribal-strife,Old Testament,Judges,10,Judges 10; Judges 11; Judges 12,1,0,1,1,false,false,true,false
+judges-13-14-samsons-birth-and-early-compromise,Old Testament,Judges,13,Judges 13; Judges 14,0,0,0,0,false,false,false,false
+judges-15-16-samsons-strength-bondage-and-death,Old Testament,Judges,15,Judges 15; Judges 16,0,0,0,0,false,false,false,false
+judges-17-18-micah-the-levite-and-danite-idolatry,Old Testament,Judges,17,Judges 17; Judges 18,0,0,0,0,false,false,false,false
+judges-19-gibeah-and-the-desecration-of-the-covenant-people,Old Testament,Judges,19,Judges 19,0,0,0,0,false,false,false,false
+judges-20-21-civil-war-bitter-victory-and-the-wound-of-benjamin,Old Testament,Judges,20,Judges 20; Judges 21,0,0,0,0,false,false,false,false
+judges-3-othniel-ehud-and-shamgar,Old Testament,Judges,3,Judges 3,0,0,0,0,false,false,false,false
+judges-4-5-deborah-barak-and-the-song-of-victory,Old Testament,Judges,4,Judges 4; Judges 5,0,0,0,0,false,false,false,false
+judges-6-8-gideon-called-victory-by-weakness-and-the-ephod-snare,Old Testament,Judges,6,Judges 6; Judges 7; Judges 8,0,0,0,0,false,false,false,false
+judges-9-abimelech-and-the-bramble-king,Old Testament,Judges,9,Judges 9,0,0,0,0,false,false,false,false
+judith-1-3-the-proud-king-and-the-machinery-of-domination,Deuterocanonical,Judith,1,Judith 1; Judith 2; Judith 3,0,0,0,0,false,false,false,false
+judith-10-12-chastity-and-discernment-in-the-enemy-camp,Deuterocanonical,Judith,10,Judith 10; Judith 11; Judith 12,0,0,0,0,false,false,false,false
+judith-13-the-fall-of-holofernes,Deuterocanonical,Judith,13,Judith 13,0,0,0,0,false,false,false,false
+judith-14-15-achior-s-conversion-and-the-people-s-deliverance,Deuterocanonical,Judith,14,Judith 14; Judith 15,0,0,0,0,false,false,false,false
+judith-16-judith-s-song-and-the-fear-of-the-lord,Deuterocanonical,Judith,16,Judith 16,0,0,0,0,false,false,false,false
+judith-4-6-prayer-covenant-memory-and-achior-s-witness,Deuterocanonical,Judith,4,Judith 4; Judith 5; Judith 6,0,0,0,0,false,false,false,false
+judith-7-siege-thirst-and-the-temptation-to-surrender,Deuterocanonical,Judith,7,Judith 7,0,0,0,0,false,false,false,false
+judith-8-9-judith-s-rebuke-and-prayer,Deuterocanonical,Judith,8,Judith 8; Judith 9,0,0,0,0,false,false,false,false
+lamentations-1-lonely-jerusalem,Old Testament,Lamentations,1,Lamentations 1,1,0,1,1,true,true,true,true
+lamentations-2-the-lord-s-judgment-and-tears,Old Testament,Lamentations,2,Lamentations 2,0,0,0,0,false,false,false,false
+lamentations-3-mercy-in-the-middle-of-affliction,Old Testament,Lamentations,3,Lamentations 3,1,0,1,1,true,false,true,false
+lamentations-4-5-collapse-and-final-prayer,Old Testament,Lamentations,4,Lamentations 4; Lamentations 5,1,0,1,1,true,false,true,false
+letter-of-jeremiah-1-fear-them-not,Deuterocanonical,Letter of Jeremiah,1,Letter of Jeremiah 1,0,0,0,0,false,false,false,false
+leviticus-1-3-burnt-grain-and-peace-offerings,Old Testament,Leviticus,1,Leviticus 1; Leviticus 2; Leviticus 3,0,0,0,0,false,false,false,false
+leviticus-11-12-clean-unclean-food-and-childbirth-purification,Old Testament,Leviticus,11,Leviticus 11; Leviticus 12,0,0,0,0,false,false,false,false
+leviticus-13-15-leprosy-garments-houses-and-bodily-discharges,Old Testament,Leviticus,13,Leviticus 13; Leviticus 14; Leviticus 15,0,0,0,0,false,false,false,false
+leviticus-16-the-day-of-atonement,Old Testament,Leviticus,16,Leviticus 16,0,0,0,0,false,false,false,false
+leviticus-17-blood-life-and-true-worship,Old Testament,Leviticus,17,Leviticus 17,0,0,0,0,false,false,false,false
+leviticus-18-sexual-holiness-and-covenant-boundaries,Old Testament,Leviticus,18,Leviticus 18,0,0,0,0,false,false,false,false
+leviticus-19-be-holy-for-i-the-lord-am-holy,Old Testament,Leviticus,19,Leviticus 19,0,0,0,0,false,false,false,false
+leviticus-20-22-judgment-priestly-holiness-and-acceptable-offerings,Old Testament,Leviticus,20,Leviticus 20; Leviticus 21; Leviticus 22,0,0,0,0,false,false,false,false
+leviticus-23-the-feasts-of-the-lord,Old Testament,Leviticus,23,Leviticus 23,1,0,1,1,true,false,true,true
+leviticus-24-lamp-bread-and-the-holy-name,Old Testament,Leviticus,24,Leviticus 24,0,0,0,0,false,false,false,false
+leviticus-25-sabbath-year-jubilee-and-redemption,Old Testament,Leviticus,25,Leviticus 25,0,0,0,0,false,false,false,false
+leviticus-26-blessings-warnings-exile-and-covenant-mercy,Old Testament,Leviticus,26,Leviticus 26,0,0,0,0,false,false,false,false
+leviticus-27-vows-dedications-and-what-belongs-to-the-lord,Old Testament,Leviticus,27,Leviticus 27,0,0,0,0,false,false,false,false
+leviticus-4-5-sin-guilt-confession-and-reparation,Old Testament,Leviticus,4,Leviticus 4; Leviticus 5,0,0,0,0,false,false,false,false
+leviticus-6-7-priestly-handling-of-holy-offerings,Old Testament,Leviticus,6,Leviticus 6; Leviticus 7,0,0,0,0,false,false,false,false
+leviticus-8-10-priesthood-consecrated-glory-revealed-and-strange-fire-judged,Old Testament,Leviticus,8,Leviticus 8; Leviticus 9; Leviticus 10,0,0,0,0,false,false,false,false
+luke-1-1-4-certainty-for-theophilus,New Testament,Luke,1,Luke 1:1-4,0,0,0,0,false,false,false,false
+malachi-1-polluted-offerings-and-the-great-name-among-the-nations,Old Testament,Malachi,1,Malachi 1,3,0,2,1,true,false,true,false
+malachi-2-priests-covenant-and-faithfulness,Old Testament,Malachi,2,Malachi 2,0,0,0,0,false,false,false,false
+malachi-3-the-messenger-the-lord-in-his-temple-and-refining-fire,Old Testament,Malachi,3,Malachi 3,1,0,1,1,false,false,true,false
+malachi-3-the-messenger-the-lord-in-his-temple-refining-fire-and-the-sun-of-righteousness,Old Testament,Malachi,3,Malachi 3,1,0,1,1,false,false,true,false
+mark-1-1-13-the-beginning-the-forerunner-baptism-and-wilderness,New Testament,Mark,1,Mark 1:1-13,13,1,2,16,false,true,false,false
+mark-1-14-20-the-kingdom-proclaimed-and-the-first-call,New Testament,Mark,1,Mark 1:14-20,14,1,2,16,false,false,false,false
+mark-1-21-34-authority-in-capernaum-teaching-demons-and-healing,New Testament,Mark,1,Mark 1:21-34,17,1,1,14,false,false,false,false
+mark-1-35-45-prayer-mission-and-the-cleansing-of-the-leper,New Testament,Mark,1,Mark 1:35-45,4,1,2,16,false,true,false,false
+mark-10-1-16-marriage-hardness-of-heart-and-children,New Testament,Mark,10,Mark 10:1-16,4,1,2,14,false,false,false,false
+mark-10-17-31-the-rich-man-treasure-in-heaven-and-the-impossible-made-possible,New Testament,Mark,10,Mark 10:17-31,14,0,2,16,false,false,false,false
+mark-10-32-45-the-cup-the-ransom-and-servant-greatness,New Testament,Mark,10,Mark 10:32-45,13,1,2,14,true,false,false,true
+mark-10-46-52-blind-bartimaeus-and-the-way-to-jerusalem,New Testament,Mark,10,Mark 10:46-52,2,0,1,16,false,false,true,false
+mark-11-1-11-the-king-enters-jerusalem,New Testament,Mark,11,Mark 11:1-11,4,0,4,16,true,true,true,false
+mark-11-12-26-the-fig-tree-the-temple-prayer-and-forgiveness,New Testament,Mark,11,Mark 11:12-26,4,0,2,15,true,false,true,false
+mark-11-27-12-12-authority-the-vineyard-and-the-rejected-son,New Testament,Mark,11-12,Mark 11:27-12:12,2,0,1,15,false,false,true,false
+mark-12-13-34-caesar-resurrection-and-the-great-commandment,New Testament,Mark,12,Mark 12:13-34,8,0,3,16,false,true,false,false
+mark-12-35-44-david-s-lord-the-scribes-and-the-widow-s-offering,New Testament,Mark,12,Mark 12:35-44,14,1,3,16,false,true,false,false
+mark-13-1-23-the-temple-s-fall-deception-and-endurance,New Testament,Mark,13,Mark 13:1-23,24,2,2,16,false,false,false,false
+mark-13-24-37-the-son-of-man-and-the-watchful-servant,New Testament,Mark,13,Mark 13:24-37,28,3,3,16,true,false,false,true
+mark-14-1-11-fragrance-waste-and-betrayal,New Testament,Mark,14,Mark 14:1-11,15,1,4,14,true,true,false,true
+mark-14-12-25-the-mystical-supper-and-the-blood-of-the-covenant,New Testament,Mark,14,Mark 14:12-25,1,0,1,1,true,false,true,false
+mark-14-26-52-gethsemane-watchfulness-betrayal-and-arrest,New Testament,Mark,14,Mark 14:26-52,3,0,2,13,true,false,true,true
+mark-14-53-72-christ-before-the-council-and-peter-s-denial,New Testament,Mark,14,Mark 14:53-72,2,0,1,1,true,false,true,true
+mark-15-1-20-pilate-barabbas-and-the-mocked-king,New Testament,Mark,15,Mark 15:1-20,1,0,1,1,true,false,true,false
+mark-15-21-41-the-cross-the-cry-and-the-centurion-s-confession,New Testament,Mark,15,Mark 15:21-41,1,0,1,1,true,false,true,false
+mark-15-42-47-joseph-of-arimathea-and-the-burial-of-christ,New Testament,Mark,15,Mark 15:42-47,1,0,1,1,true,false,true,false
+mark-16-1-8-the-empty-tomb-and-fearful-joy,New Testament,Mark,16,Mark 16:1-8,11,1,4,16,true,true,false,false
+mark-16-9-20-the-risen-lord-mission-and-signs,New Testament,Mark,16,Mark 16:9-20,6,0,3,16,false,true,true,false
+mark-2-1-12-the-paralytic-forgiveness-and-the-son-of-man,New Testament,Mark,2,Mark 2:1-12,4,0,2,16,false,true,false,false
+mark-2-13-22-levi-mercy-at-the-table-fasting-and-new-wine,New Testament,Mark,2,Mark 2:13-22,6,2,2,16,false,true,false,false
+mark-2-23-3-6-the-sabbath-mercy-and-the-hardened-heart,New Testament,Mark,2-3,Mark 2:23-3:6,0,0,0,0,false,false,false,false
+mark-3-20-35-a-house-divided-and-the-true-family-of-christ,New Testament,Mark,3,Mark 3:20-35,27,3,3,16,false,true,false,false
+mark-3-7-19-the-crowds-the-mountain-and-the-twelve,New Testament,Mark,3,Mark 3:7-19,20,2,2,15,false,false,false,false
+mark-4-1-20-the-parable-of-the-sower,New Testament,Mark,4,Mark 4:1-20,1,0,1,1,false,false,false,false
+mark-4-21-34-lamp-measure-hidden-growth-and-mustard-seed,New Testament,Mark,4,Mark 4:21-34,12,1,3,16,false,true,false,false
+mark-4-35-41-lord-of-the-storm,New Testament,Mark,4,Mark 4:35-41,8,0,3,16,false,true,false,false
+mark-5-1-20-the-gerasene-demoniac-and-the-man-sent-home,New Testament,Mark,5,Mark 5:1-20,0,0,0,0,false,false,false,false
+mark-5-21-43-jairus-the-woman-with-the-flow-of-blood-and-the-touch-of-faith,New Testament,Mark,5,Mark 5:21-43,2,0,1,16,false,true,true,false
+mark-6-1-13-rejection-at-nazareth-and-the-mission-of-the-twelve,New Testament,Mark,6,Mark 6:1-13,9,0,1,15,false,false,false,false
+mark-6-14-29-herod-herodias-and-the-martyrdom-of-the-forerunner,New Testament,Mark,6,Mark 6:14-29,1,1,1,14,false,false,false,false
+mark-6-30-44-bread-in-the-desert-for-the-shepherdless-sheep,New Testament,Mark,6,Mark 6:30-44,7,1,2,16,false,true,false,false
+mark-6-45-56-walking-on-the-sea-and-healing-at-gennesaret,New Testament,Mark,6,Mark 6:45-56,4,0,2,16,false,true,false,false
+mark-7-1-23-tradition-defilement-and-the-heart,New Testament,Mark,7,Mark 7:1-23,5,0,2,16,false,true,true,false
+mark-7-24-37-bread-for-the-nations-and-ears-opened,New Testament,Mark,7,Mark 7:24-37,0,0,0,0,false,false,false,false
+mark-8-1-21-the-second-feeding-the-sign-and-the-leaven-of-blindness,New Testament,Mark,8,Mark 8:1-21,3,0,2,16,false,true,true,false
+mark-8-22-30-eyes-opened-and-peter-s-confession,New Testament,Mark,8,Mark 8:22-30,21,1,3,16,true,true,false,true
+mark-8-31-9-1-the-cross-revealed-and-the-disciple-s-cross,New Testament,Mark,8-9,Mark 8:31-9:1,48,3,3,16,true,false,false,true
+mark-9-14-29-i-believe-help-my-unbelief,New Testament,Mark,9,Mark 9:14-29,6,0,2,16,false,true,true,false
+mark-9-2-13-the-transfiguration-and-the-glory-before-the-cross,New Testament,Mark,9,Mark 9:2-13,5,0,2,16,false,true,false,false
+mark-9-30-37-the-last-servant-and-the-child-in-the-midst,New Testament,Mark,9,Mark 9:30-37,12,1,3,16,false,true,false,false
+mark-9-38-50-scandal-fire-salt-and-peace,New Testament,Mark,9,Mark 9:38-50,12,1,3,16,false,true,false,false
+matthew-1-the-genealogy-of-the-king,New Testament,Matthew,1,Matthew 1:1-17,2,1,1,20,false,false,false,false
+matthew-10-1-42-the-mission-of-the-twelve,New Testament,Matthew,10,Matthew 10:1-42,144,8,3,16,false,false,false,false
+matthew-11-1-30-john-hidden-wisdom-and-the-rest-of-christ,New Testament,Matthew,11,Matthew 11:1-30,17,5,3,16,false,true,false,false
+matthew-12-1-21-sabbath-mercy-healing-and-the-servant,New Testament,Matthew,12,Matthew 12:1-21,19,4,1,14,false,false,false,false
+matthew-12-22-50-spirit-sign-repentance-and-true-kinship,New Testament,Matthew,12,Matthew 12:22-50,29,4,2,16,false,true,false,false
+matthew-13-1-23-the-parable-of-the-sower,New Testament,Matthew,13,Matthew 13:1-23,2,0,1,16,false,false,false,false
+matthew-13-24-43-wheat-tares-mustard-seed-and-leaven,New Testament,Matthew,13,Matthew 13:24-43,3,1,1,14,false,false,false,false
+matthew-13-44-52-treasure-pearl-dragnet-and-the-trained-scribe,New Testament,Matthew,13,Matthew 13:44-52,6,2,2,14,false,false,false,false
+matthew-2-emmanuel-the-magi-egypt-and-nazareth,New Testament,Matthew,1-2,Matthew 1:18-2:23,14,5,1,20,false,true,false,false
+matthew-3-john-repentance-and-the-baptism-of-christ,New Testament,Matthew,3,Matthew 3:1-17,6,2,2,16,false,true,false,false
+matthew-4-1-11-the-temptation-in-the-wilderness,New Testament,Matthew,4,Matthew 4:1-11,3,0,2,16,false,false,true,false
+matthew-4-12-25-galilee-and-the-first-call,New Testament,Matthew,4,Matthew 4:12-25,67,6,2,20,false,true,false,false
+matthew-5-1-16-beatitudes-salt-and-light,New Testament,Matthew,5,Matthew 5:1-16,51,3,4,15,true,false,false,false
+matthew-5-17-26-the-law-fulfilled-and-the-heart-reconciled,New Testament,Matthew,5,Matthew 5:17-26,3,0,1,16,false,false,true,false
+matthew-5-27-48-purity-truth-mercy-and-enemy-love,New Testament,Matthew,5,Matthew 5:27-48,4,0,2,16,false,false,false,false
+matthew-6-1-18-secret-almsgiving-prayer-and-fasting,New Testament,Matthew,6,Matthew 6:1-18,3,0,2,15,false,false,true,false
+matthew-6-19-34-treasure-the-eye-two-masters-and-anxiety,New Testament,Matthew,6,Matthew 6:19-34,2,0,1,16,false,false,true,false
+matthew-8-1-17-the-king-who-cleanses-and-heals,New Testament,Matthew,8,Matthew 8:1-17,12,1,1,14,false,false,false,false
+matthew-8-18-9-8-following-christ-into-his-authority-over-chaos-demons-and-sin,New Testament,Matthew,8-9,Matthew 8:18-9:8,4,0,2,16,false,true,true,false
+matthew-9-18-38-faith-touch-sight-speech-and-the-harvest,New Testament,Matthew,9,Matthew 9:18-38,9,1,3,16,false,true,false,false
+matthew-9-9-17-the-physician-the-table-and-the-new-wine,New Testament,Matthew,9,Matthew 9:9-17,6,1,3,16,false,true,false,false
+micah-1-the-lord-comes-in-judgment,Old Testament,Micah,1,Micah 1,1,0,1,1,true,false,true,false
+micah-2-woe-to-oppressors-and-the-gathered-remnant,Old Testament,Micah,2,Micah 2,2,0,1,1,true,false,true,true
+micah-3-corrupt-rulers-priests-and-prophets,Old Testament,Micah,3,Micah 3,1,0,1,1,true,false,true,true
+micah-4-the-mountain-of-the-lord-and-restored-zion,Old Testament,Micah,4,Micah 4,0,0,0,0,false,false,false,false
+micah-5-bethlehem-and-the-ruler-from-everlasting,Old Testament,Micah,5,Micah 5,0,0,0,0,false,false,false,false
+micah-6-what-does-the-lord-require,Old Testament,Micah,6,Micah 6,0,0,0,0,false,false,false,false
+micah-7-lament-hope-and-the-god-who-pardons,Old Testament,Micah,7,Micah 7,1,0,1,1,true,false,true,false
+nahum-1-the-lord-is-slow-to-anger-and-great-in-power,Old Testament,Nahum,1,Nahum 1,1,0,1,1,true,true,true,true
+nahum-2-the-fall-of-nineveh,Old Testament,Nahum,2,Nahum 2,0,0,0,0,false,false,false,false
+nahum-3-woe-to-the-bloody-city,Old Testament,Nahum,3,Nahum 3,0,0,0,0,false,false,false,false
+nehemiah-1-prayer-and-holy-grief,Old Testament,Nehemiah,1,Nehemiah 1,0,0,0,0,false,false,false,false
+nehemiah-10-covenant-commitments-and-the-house-of-god,Old Testament,Nehemiah,10,Nehemiah 10,0,0,0,0,false,false,false,false
+nehemiah-11-resettling-the-holy-city,Old Testament,Nehemiah,11,Nehemiah 11,0,0,0,0,false,false,false,false
+nehemiah-12-dedication-procession-and-liturgical-joy,Old Testament,Nehemiah,12,Nehemiah 12,0,0,0,0,false,false,false,false
+nehemiah-13-final-reforms,Old Testament,Nehemiah,13,Nehemiah 13,0,0,0,0,false,false,false,false
+nehemiah-2-sent-to-jerusalem,Old Testament,Nehemiah,2,Nehemiah 2,0,0,0,0,false,false,false,false
+nehemiah-3-the-builders-of-the-wall,Old Testament,Nehemiah,3,Nehemiah 3,0,0,0,0,false,false,false,false
+nehemiah-4-opposition-prayer-and-watchfulness,Old Testament,Nehemiah,4,Nehemiah 4,0,0,0,0,false,false,false,false
+nehemiah-5-internal-injustice-and-the-fear-of-god,Old Testament,Nehemiah,5,Nehemiah 5,0,0,0,0,false,false,false,false
+nehemiah-6-false-prophecy-and-completion-of-the-wall,Old Testament,Nehemiah,6,Nehemiah 6,0,0,0,0,false,false,false,false
+nehemiah-7-register-of-the-returned-exiles,Old Testament,Nehemiah,7,Nehemiah 7,0,0,0,0,false,false,false,false
+nehemiah-8-the-law-read-to-the-people,Old Testament,Nehemiah,8,Nehemiah 8,0,0,0,0,false,false,false,false
+nehemiah-9-confession-through-the-history-of-mercy,Old Testament,Nehemiah,9,Nehemiah 9,0,0,0,0,false,false,false,false
+numbers-1-2-census-and-camp-ordered-around-the-tabernacle,Old Testament,Numbers,1,Numbers 1; Numbers 2,0,0,0,0,false,false,false,false
+numbers-10-silver-trumpets-and-departure-from-sinai,Old Testament,Numbers,10,Numbers 10,1,0,1,1,false,false,true,false
+numbers-11-complaining-and-the-seventy-elders,Old Testament,Numbers,11,Numbers 11,1,0,1,1,false,false,true,false
+numbers-12-miriam-and-aaron-challenge-moses,Old Testament,Numbers,12,Numbers 12,0,0,0,0,false,false,false,false
+numbers-13-14-spies-fear-and-wilderness-judgment,Old Testament,Numbers,13,Numbers 13; Numbers 14,0,0,0,0,false,false,false,false
+numbers-15-offerings-sabbath-breaking-and-tassels,Old Testament,Numbers,15,Numbers 15,0,0,0,0,false,false,false,false
+numbers-16-korah-s-rebellion,Old Testament,Numbers,16,Numbers 16,0,0,0,0,false,false,false,false
+numbers-17-aaron-s-rod-buds,Old Testament,Numbers,17,Numbers 17,0,0,0,0,false,false,false,false
+numbers-18-priestly-duties-and-portions,Old Testament,Numbers,18,Numbers 18,0,0,0,0,false,false,false,false
+numbers-19-red-heifer-and-cleansing-from-death,Old Testament,Numbers,19,Numbers 19,0,0,0,0,false,false,false,false
+numbers-20-meribah-aaron-dies-and-edom-refuses,Old Testament,Numbers,20,Numbers 20,2,0,1,1,true,false,true,false
+numbers-21-bronze-serpent-and-wilderness-victories,Old Testament,Numbers,21,Numbers 21,1,0,1,1,true,false,true,false
+numbers-22-24-balaam-and-the-star-prophecy,Old Testament,Numbers,22,Numbers 22; Numbers 23; Numbers 24,0,0,0,0,false,false,false,false
+numbers-25-baal-peor-and-phinehas-zeal,Old Testament,Numbers,25,Numbers 25,0,0,0,0,false,false,false,false
+numbers-26-27-new-census-daughters-of-zelophehad-and-joshua,Old Testament,Numbers,26,Numbers 26; Numbers 27,0,0,0,0,false,false,false,false
+numbers-28-29-daily-festival-and-seasonal-offerings,Old Testament,Numbers,28,Numbers 28; Numbers 29,0,0,0,0,false,false,false,false
+numbers-3-4-levites-and-holy-service,Old Testament,Numbers,3,Numbers 3; Numbers 4,0,0,0,0,false,false,false,false
+numbers-30-vows-and-faithful-speech,Old Testament,Numbers,30,Numbers 30,0,0,0,0,false,false,false,false
+numbers-31-judgment-on-midian,Old Testament,Numbers,31,Numbers 31,0,0,0,0,false,false,false,false
+numbers-32-reuben-gad-and-half-manasseh-east-of-jordan,Old Testament,Numbers,32,Numbers 32,0,0,0,0,false,false,false,false
+numbers-33-the-stages-of-the-journey,Old Testament,Numbers,33,Numbers 33,0,0,0,0,false,false,false,false
+numbers-34-36-boundaries-cities-of-refuge-and-inheritance,Old Testament,Numbers,34,Numbers 34; Numbers 35; Numbers 36,0,0,0,0,false,false,false,false
+numbers-5-cleansing-the-camp-and-restitution,Old Testament,Numbers,5,Numbers 5,0,0,0,0,false,false,false,false
+numbers-6-nazirites-and-the-priestly-blessing,Old Testament,Numbers,6,Numbers 6,0,0,0,0,false,false,false,false
+numbers-7-tribal-offerings-for-the-altar,Old Testament,Numbers,7,Numbers 7,0,0,0,0,false,false,false,false
+numbers-8-lamps-and-levite-consecration,Old Testament,Numbers,8,Numbers 8,0,0,0,0,false,false,false,false
+numbers-9-second-passover-and-the-cloud,Old Testament,Numbers,9,Numbers 9,0,0,0,0,false,false,false,false
+obadiah-1-pride-brotherly-violence-and-the-kingdom-of-the-lord,Old Testament,Obadiah,1,Obadiah 1,0,0,0,0,false,false,false,false
+prayer-of-azariah-and-song-of-the-three-holy-children-1-why-this-passage-is-in-our-bible-and-our-hymns,Old Testament,Prayer of Azariah and Song of the Three Holy Children,3,Daniel 3:1-24; Greek Daniel 3:25-27,1,0,1,1,true,false,true,false
+prayer-of-azariah-and-song-of-the-three-holy-children-2-the-prayer-of-azariah,Deuterocanonical,Prayer of Azariah and Song of the Three Holy Children,3,Greek Daniel 3:25-45,0,0,0,0,false,false,false,false
+prayer-of-azariah-and-song-of-the-three-holy-children-3-the-angel-in-the-furnace,Deuterocanonical,Prayer of Azariah and Song of the Three Holy Children,3,Greek Daniel 3:46-51; Daniel 3:91-97,0,0,0,0,false,false,false,false
+prayer-of-azariah-and-song-of-the-three-holy-children-4-the-song-and-the-third-hoos,Deuterocanonical,Prayer of Azariah and Song of the Three Holy Children,3,Greek Daniel 3:52-90,0,0,0,0,false,false,false,false
+prayer-of-azariah-and-song-of-the-three-holy-children-5-bright-saturday,Old Testament,Prayer of Azariah and Song of the Three Holy Children,9,Daniel 9:4-19; Daniel 3:1-23; Greek Daniel 3:25-51; Greek Daniel 3:88-90; Revelation 15:1-3,1,0,1,1,true,false,true,false
+prayer-of-manasseh-1-the-knee-of-the-heart,Deuterocanonical,Prayer of Manasseh,1,Prayer of Manasseh 1,0,0,0,0,false,false,false,false
+proverbs-1-1-7-the-fear-of-the-lord-and-the-beginning-of-wisdom,Old Testament,Proverbs,1,Proverbs 1,5,0,2,1,true,false,true,true
+proverbs-1-8-33-the-two-voices-calling-the-soul,Old Testament,Proverbs,1,Proverbs 1,5,0,2,1,true,false,true,true
+proverbs-10-the-righteous-tongue-and-the-wise-life,Old Testament,Proverbs,10,Proverbs 10,1,0,1,1,false,false,true,false
+proverbs-11-integrity-mercy-and-the-city-that-stands,Old Testament,Proverbs,11,Proverbs 11,1,0,1,1,false,false,true,false
+proverbs-12-correction-truth-and-the-way-of-life,Old Testament,Proverbs,12,Proverbs 12,1,0,1,1,false,false,true,false
+proverbs-13-desire-discipline-and-the-tree-of-life,Old Testament,Proverbs,13,Proverbs 13,0,0,0,0,false,false,false,false
+proverbs-14-the-way-that-seems-right-and-the-house-wisdom-builds,Old Testament,Proverbs,14,Proverbs 14,0,0,0,0,false,false,false,false
+proverbs-15-a-gentle-answer-and-the-healing-tongue,Old Testament,Proverbs,15,Proverbs 15,0,0,0,0,false,false,false,false
+proverbs-16-providence-pride-and-the-hearts-way,Old Testament,Proverbs,16,Proverbs 16,0,0,0,0,false,false,false,false
+proverbs-17-friendship-fire-and-the-mercy-that-covers-injuries,Old Testament,Proverbs,17,Proverbs 17,0,0,0,0,false,false,false,false
+proverbs-18-the-name-of-the-lord-and-the-power-of-the-tongue,Old Testament,Proverbs,18,Proverbs 18,0,0,0,0,false,false,false,false
+proverbs-19-counsel-mercy-and-the-fear-of-the-lord,Old Testament,Proverbs,19,Proverbs 19,0,0,0,0,false,false,false,false
+proverbs-2-wisdom-as-hidden-treasure,Old Testament,Proverbs,2,Proverbs 2,1,0,1,1,false,false,true,false
+proverbs-20-wine-weights-and-the-lamp-of-the-lord,Old Testament,Proverbs,20,Proverbs 20,0,0,0,0,false,false,false,false
+proverbs-21-the-kings-heart-justice-and-the-lords-help,Old Testament,Proverbs,21,Proverbs 21,0,0,0,0,false,false,false,false
+proverbs-22-1-16-a-good-name-generosity-and-the-training-of-the-heart,Old Testament,Proverbs,22,Proverbs 22,0,0,0,0,false,false,false,false
+proverbs-22-17-24-22-the-sayings-of-the-wise-and-the-heart-that-learns,Old Testament,Proverbs,22,Proverbs 22,0,0,0,0,false,false,false,false
+proverbs-24-23-34-judgment-vengeance-and-the-vineyard-of-the-sluggard,Old Testament,Proverbs,24,Proverbs 24,0,0,0,0,false,false,false,false
+proverbs-25-26-glory-enemies-fools-and-self-control,Old Testament,Proverbs,25,Proverbs 25; Proverbs 26,0,0,0,0,false,false,false,false
+proverbs-27-29-friendship-correction-justice-and-the-fear-of-man,Old Testament,Proverbs,27,Proverbs 27; Proverbs 28; Proverbs 29,0,0,0,0,false,false,false,false
+proverbs-3-trust-in-the-lord-with-all-your-heart,Old Testament,Proverbs,3,Proverbs 3,3,0,2,1,true,false,true,false
+proverbs-30-agur-humility-before-mystery,Old Testament,Proverbs,30,Proverbs 30,1,0,1,1,true,false,true,true
+proverbs-31-lemuel-wise-household-and-valiant-woman,Old Testament,Proverbs,31,Proverbs 31,0,0,0,0,false,false,false,false
+proverbs-4-guard-your-heart,Old Testament,Proverbs,4,Proverbs 4,3,0,2,1,true,false,true,true
+proverbs-5-the-bitter-end-of-secret-desire,Old Testament,Proverbs,5,Proverbs 5,3,0,2,1,true,false,true,true
+proverbs-6-fire-in-the-bosom-and-the-discipline-of-diligence,Old Testament,Proverbs,6,Proverbs 6,1,0,1,1,true,false,true,true
+proverbs-7-the-way-to-the-chambers-of-death,Old Testament,Proverbs,7,Proverbs 7,1,0,1,1,true,false,true,true
+proverbs-8-wisdom-speaks-and-christ-the-eternal-word,Old Testament,Proverbs,8,Proverbs 8,2,0,2,1,true,false,true,true
+proverbs-9-two-banquets-wisdom-and-folly,Old Testament,Proverbs,9,Proverbs 9,3,0,2,1,true,false,true,true
+psalm-1-lxx-1-the-blessed-man-and-the-two-ways,Old Testament,Psalms,1,Psalm 1,11,1,3,13,false,false,false,false
+psalm-10-lxx-9-22-39-the-hidden-god-and-the-poor,Old Testament,Psalms,10,Psalm 10,0,0,0,0,false,false,false,false
+psalm-100-lxx-99-make-a-joyful-noise-to-the-lord,Old Testament,Psalms,100,Psalm 100,6,0,4,16,false,false,false,false
+psalm-101-lxx-100-i-will-sing-of-mercy-and-judgment,Old Testament,Psalms,101,Psalm 101,5,0,4,16,false,true,false,false
+psalm-102-lxx-101-bless-the-lord-o-my-soul,Old Testament,Psalms,102,Psalm 102,20,2,4,16,true,true,false,true
+psalm-103-lxx-102-bless-the-lord-o-my-soul-part-2,Old Testament,Psalms,103,Psalm 103,5,1,2,14,false,false,false,false
+psalm-104-lxx-103-bless-the-lord-o-my-soul,Old Testament,Psalms,104,Psalm 104,18,3,3,16,false,true,false,false
+psalm-105-lxx-104-give-thanks-to-the-lord,Old Testament,Psalms,105,Psalm 105,50,4,3,16,false,true,false,false
+psalm-106-lxx-105-give-thanks-to-the-lord-for-he-is-good,Old Testament,Psalms,106,Psalm 106,9,1,2,16,false,true,false,false
+psalm-107-lxx-106-give-thanks-to-the-lord-for-he-is-good,Old Testament,Psalms,107,Psalm 107,50,2,2,16,false,true,false,false
+psalm-108-lxx-107-o-god-my-heart-is-ready,Old Testament,Psalms,108,Psalm 108,3,0,2,16,true,true,true,false
+psalm-109-lxx-108-o-god-pass-not-over-my-praise-in-silence,Old Testament,Psalms,109,Psalm 109,0,0,0,0,false,false,false,false
+psalm-11-lxx-10-the-lord-is-in-his-holy-temple,Old Testament,Psalms,11,Psalm 11,0,0,0,0,false,false,false,false
+psalm-110-lxx-109-the-lord-said-to-my-lord,Old Testament,Psalms,110,Psalm 110,95,5,3,20,false,true,false,false
+psalm-111-lxx-110-i-will-give-thee-thanks-o-lord-with-my-whole-heart,Old Testament,Psalms,111,Psalm 111,4,0,2,16,false,true,true,false
+psalm-112-lxx-111-blessed-is-the-man-that-fears-the-lord,Old Testament,Psalms,112,Psalm 112,35,3,4,16,false,true,false,false
+psalm-113-lxx-112-praise-the-lord-ye-servants-of-his,Old Testament,Psalms,113,Psalm 113,29,3,2,14,false,false,false,false
+psalm-114-lxx-113-1-8-at-the-going-forth-of-israel-from-egypt,Old Testament,Psalms,114,Psalm 114,1,0,1,1,false,false,true,false
+psalm-115-lxx-113-9-26-not-to-us-o-lord-but-to-thy-name-give-glory,Old Testament,Psalms,115,Psalm 115,7,1,2,16,false,true,false,false
+psalm-116-lxx-114-115-the-cup-of-salvation-in-the-land-of-the-living,Old Testament,Psalms,116,Psalm 116,13,2,5,16,false,true,false,false
+psalm-117-lxx-116-praise-the-lord-all-ye-nations,Old Testament,Psalms,117,Psalm 117,4,0,3,16,false,false,true,false
+psalm-118-lxx-117-give-thanks-to-the-lord-for-he-is-good,Old Testament,Psalms,118,Psalm 118,20,2,6,16,true,true,false,false
+psalm-119-lxx-118-blessed-are-the-undefiled-in-the-way,Old Testament,Psalms,119,Psalm 119,28,2,5,16,true,true,false,true
+psalm-12-lxx-11-pure-words-in-a-double-hearted-generation,Old Testament,Psalms,12,Psalm 12,9,0,5,16,true,true,true,true
+psalm-120-lxx-119-in-my-distress-i-cried-to-the-lord,Old Testament,Psalms,120,Psalm 120,3,0,2,1,true,false,true,false
+psalm-121-lxx-120-i-lift-up-my-eyes-to-the-hills,Old Testament,Psalms,121,Psalm 121,3,0,1,1,false,false,true,false
+psalm-122-lxx-121-i-was-glad-when-they-said-to-me,Old Testament,Psalms,122,Psalm 122,10,0,4,16,true,false,true,false
+psalm-123-lxx-122-unto-thee-have-i-lifted-up-mine-eyes,Old Testament,Psalms,123,Psalm 123,2,0,1,1,false,false,true,false
+psalm-124-lxx-123-if-it-had-not-been-the-lord-who-was-on-our-side,Old Testament,Psalms,124,Psalm 124,2,0,1,1,false,false,true,false
+psalm-125-lxx-124-they-that-trust-in-the-lord-shall-be-as-mount-sion,Old Testament,Psalms,125,Psalm 125,2,0,1,1,false,false,true,false
+psalm-126-lxx-125-when-the-lord-turned-the-captivity-of-sion,Old Testament,Psalms,126,Psalm 126,2,0,1,1,false,false,true,false
+psalm-127-lxx-126-except-the-lord-build-the-house,Old Testament,Psalms,127,Psalm 127,6,0,3,16,false,true,true,false
+psalm-128-lxx-127-blessed-are-all-they-that-fear-the-lord,Old Testament,Psalms,128,Psalm 128,5,0,3,16,false,false,false,false
+psalm-129-lxx-128-many-a-time-have-they-warred-against-me,Old Testament,Psalms,129,Psalm 129,9,0,4,16,false,true,true,false
+psalm-13-lxx-12-how-long-o-lord,Old Testament,Psalms,13,Psalm 13,15,1,5,16,true,true,false,false
+psalm-130-lxx-129-out-of-the-depths-i-have-cried,Old Testament,Psalms,130,Psalm 130,6,0,3,14,true,false,true,false
+psalm-131-lxx-130-my-heart-is-not-exalted,Old Testament,Psalms,131,Psalm 131,3,0,1,1,false,false,true,false
+psalm-132-lxx-131-lord-remember-david-and-all-his-meekness,Old Testament,Psalms,132,Psalm 132,108,6,5,15,false,true,false,false
+psalm-133-lxx-132-behold-how-good-and-pleasant,Old Testament,Psalms,133,Psalm 133,3,0,1,1,false,false,true,false
+psalm-134-lxx-133-bless-ye-the-lord-by-night,Old Testament,Psalms,134,Psalm 134,5,1,2,16,false,false,false,false
+psalm-135-lxx-134-praise-the-name-of-the-lord,Old Testament,Psalms,135,Psalm 135,14,1,2,16,false,true,false,false
+psalm-136-lxx-135-his-mercy-endures-forever,Old Testament,Psalms,136,Psalm 136,3,0,1,16,false,true,true,false
+psalm-137-lxx-136-by-the-rivers-of-babylon,Old Testament,Psalms,137,Psalm 137,3,0,1,1,false,false,true,false
+psalm-138-lxx-137-before-the-angels-i-will-sing,Old Testament,Psalms,138,Psalm 138,16,3,5,16,false,true,false,false
+psalm-139-lxx-138-whither-shall-i-go-from-thy-spirit,Old Testament,Psalms,139,Psalm 139,9,1,2,14,false,false,false,false
+psalm-14-lxx-13-the-fool-and-the-salvation-from-zion,Old Testament,Psalms,14,Psalm 14,1,0,1,13,false,false,true,false
+psalm-140-lxx-139-rescue-me-from-the-evil-man,Old Testament,Psalms,140,Psalm 140,2,0,1,1,true,false,true,true
+psalm-141-lxx-140-let-my-prayer-be-set-forth-as-incense,Old Testament,Psalms,141,Psalm 141,3,0,1,1,false,false,true,false
+psalm-142-lxx-141-bring-my-soul-out-of-prison,Old Testament,Psalms,142,Psalm 142,5,0,3,16,false,false,true,false
+psalm-143-lxx-142-teach-me-to-do-thy-will,Old Testament,Psalms,143,Psalm 143,14,1,4,16,true,false,false,true
+psalm-144-lxx-143-blessed-be-the-lord-my-god,Old Testament,Psalms,144,Psalm 144,10,1,1,16,false,true,false,false
+psalm-145-lxx-144-i-will-exalt-thee-my-god-and-king,Old Testament,Psalms,145,Psalm 145,24,5,3,16,false,false,false,false
+psalm-146-lxx-145-put-not-your-trust-in-princes,Old Testament,Psalms,146,Psalm 146,17,1,3,16,false,true,false,false
+psalm-147-lxx-146-147-he-heals-the-broken-in-heart,Old Testament,Psalms,147,Psalm 147,5,0,2,15,false,true,true,false
+psalm-148-lxx-148-praise-the-lord-from-the-heavens,Old Testament,Psalms,148,Psalm 148,2,0,1,14,false,false,true,false
+psalm-149-lxx-149-sing-to-the-lord-a-new-song,Old Testament,Psalms,149,Psalm 149,3,1,1,14,false,false,false,false
+psalm-15-lxx-14-who-may-dwell-on-the-holy-mountain,Old Testament,Psalms,15,Psalm 15,11,1,3,15,false,true,false,false
+psalm-150-lxx-150-let-everything-that-has-breath-praise-the-lord,Old Testament,Psalms,150,Psalm 150,0,0,0,0,false,false,false,false
+psalm-151-lxx-151-i-was-small-among-my-brethren,Old Testament,Psalms,151,Psalm 151,0,0,0,0,false,false,false,false
+psalm-16-lxx-15-the-holy-one-who-does-not-see-corruption,Old Testament,Psalms,16,Psalm 16,15,2,5,16,true,true,false,false
+psalm-17-lxx-16-keep-me-as-the-apple-of-your-eye,Old Testament,Psalms,17,Psalm 17,6,0,2,16,false,false,false,false
+psalm-18-lxx-17-the-lord-my-rock-and-deliverer,Old Testament,Psalms,18,Psalm 18,44,2,4,16,true,true,false,true
+psalm-19-lxx-18-the-heavens-declare-the-glory-of-god,Old Testament,Psalms,19,Psalm 19,40,5,5,16,false,true,false,false
+psalm-2-lxx-2-the-son-and-the-nations,Old Testament,Psalms,2,Psalm 2,7,1,4,20,true,true,false,true
+psalm-20-lxx-19-may-the-lord-hear-you-in-the-day-of-trouble,Old Testament,Psalms,20,Psalm 20,6,0,3,16,false,true,false,false
+psalm-21-lxx-20-the-crown-and-joy-of-the-king,Old Testament,Psalms,21,Psalm 21,19,2,2,16,true,false,false,true
+psalm-22-lxx-21-the-suffering-servant-and-the-praise-of-the-resurrection,Old Testament,Psalms,22,Psalm 22,10,1,4,16,true,true,false,true
+psalm-23-lxx-22-the-shepherd-the-table-and-the-house-of-the-lord,Old Testament,Psalms,23,Psalm 23,12,0,5,15,true,true,true,true
+psalm-24-lxx-23-the-king-of-glory-enters,Old Testament,Psalms,24,Psalm 24,16,1,5,16,false,true,false,false
+psalm-25-lxx-24-teach-me-your-paths,Old Testament,Psalms,25,Psalm 25,10,0,5,16,true,true,true,true
+psalm-26-lxx-25-i-have-loved-the-beauty-of-thy-house,Old Testament,Psalms,26,Psalm 26,8,1,4,16,false,true,false,false
+psalm-27-lxx-26-the-lord-is-my-light-and-my-saviour,Old Testament,Psalms,27,Psalm 27,16,0,6,16,true,true,true,true
+psalm-28-lxx-27-save-thy-people-and-bless-thine-inheritance,Old Testament,Psalms,28,Psalm 28,13,0,5,16,true,true,false,true
+psalm-29-lxx-28-the-voice-of-the-lord-upon-the-waters,Old Testament,Psalms,29,Psalm 29,9,1,5,16,true,true,false,true
+psalm-3-lxx-3-the-betrayed-king-sleeps-and-rises,Old Testament,Psalms,3,Psalm 3,4,0,2,1,true,false,true,false
+psalm-30-lxx-29-mourning-turned-into-joy,Old Testament,Psalms,30,Psalm 30,8,1,4,16,false,true,false,false
+psalm-31-lxx-30-into-thy-hands-i-commit-my-spirit,Old Testament,Psalms,31,Psalm 31,15,1,5,16,true,true,false,true
+psalm-32-lxx-31-blessed-is-the-forgiven-man,Old Testament,Psalms,32,Psalm 32,43,5,5,16,true,true,false,false
+psalm-33-lxx-32-the-new-song-and-the-counsel-of-the-lord,Old Testament,Psalms,33,Psalm 33,38,4,4,16,true,true,false,true
+psalm-34-lxx-33-taste-and-see-that-the-lord-is-good,Old Testament,Psalms,34,Psalm 34,89,9,6,16,true,true,false,false
+psalm-35-lxx-34-contend-o-lord-with-those-who-contend-with-me,Old Testament,Psalms,35,Psalm 35,9,1,3,16,true,false,false,true
+psalm-36-lxx-35-in-thy-light-we-shall-see-light,Old Testament,Psalms,36,Psalm 36,5,1,2,16,false,true,false,false
+psalm-37-lxx-36-the-meek-shall-inherit-the-earth,Old Testament,Psalms,37,Psalm 37,34,3,2,16,true,false,false,true
+psalm-38-lxx-37-wounded-by-sin-and-silent-before-accusers,Old Testament,Psalms,38,Psalm 38,9,0,4,16,true,false,false,false
+psalm-39-lxx-38-a-stranger-before-thee,Old Testament,Psalms,39,Psalm 39,5,0,3,16,false,true,true,false
+psalm-4-lxx-4-peace-in-the-night,Old Testament,Psalms,4,Psalm 4,67,4,4,16,false,false,false,false
+psalm-40-lxx-39-a-body-hast-thou-prepared-me,Old Testament,Psalms,40,Psalm 40,36,1,4,16,true,true,false,true
+psalm-41-lxx-40-the-betrayed-friend-and-the-poor-man,Old Testament,Psalms,41,Psalm 41,14,1,5,16,true,true,false,true
+psalm-42-lxx-41-as-the-hart-longs-for-the-living-god,Old Testament,Psalms,42,Psalm 42,12,3,3,20,false,true,false,false
+psalm-43-lxx-42-send-forth-thy-light-and-thy-truth,Old Testament,Psalms,43,Psalm 43,4,0,2,16,false,true,true,false
+psalm-44-lxx-43-for-thy-sake-we-are-killed-all-the-day,Old Testament,Psalms,44,Psalm 44,2,0,1,16,false,true,true,false
+psalm-45-lxx-44-the-king-the-bride-and-the-oil-of-gladness,Old Testament,Psalms,45,Psalm 45,86,8,5,20,true,true,false,false
+psalm-46-lxx-45-be-still-and-know-that-i-am-god,Old Testament,Psalms,46,Psalm 46,18,1,3,15,false,false,false,false
+psalm-47-lxx-46-the-king-ascends-with-a-shout,Old Testament,Psalms,47,Psalm 47,10,1,3,16,false,true,false,false
+psalm-48-lxx-47-the-city-of-the-great-king,Old Testament,Psalms,48,Psalm 48,13,1,3,16,false,true,false,false
+psalm-49-lxx-48-no-man-can-redeem-his-brother,Old Testament,Psalms,49,Psalm 49,0,0,0,0,false,false,false,false
+psalm-5-lxx-5-morning-prayer-and-the-house-of-mercy,Old Testament,Psalms,5,Psalm 5,49,1,4,16,false,true,false,false
+psalm-50-lxx-49-the-god-of-gods-calls-for-true-worship,Old Testament,Psalms,50,Psalm 50,10,2,2,20,true,false,false,false
+psalm-51-lxx-50-have-mercy-upon-me-o-god,Old Testament,Psalms,51,Psalm 51,13,1,5,16,true,true,false,true
+psalm-52-lxx-51-the-deceitful-tongue-and-the-fruitful-olive,Old Testament,Psalms,52,Psalm 52,6,3,2,16,false,true,false,false
+psalm-53-lxx-52-the-fool-repeated-and-the-salvation-from-zion,Old Testament,Psalms,53,Psalm 53,0,0,0,0,false,false,false,false
+psalm-54-lxx-53-save-me-by-thy-name,Old Testament,Psalms,54,Psalm 54,3,0,2,16,false,true,true,false
+psalm-55-lxx-54-betrayed-by-a-familiar-friend,Old Testament,Psalms,55,Psalm 55,8,0,2,16,true,false,true,true
+psalm-56-lxx-55-tears-before-god-in-the-land-of-the-living,Old Testament,Psalms,56,Psalm 56,1,0,1,16,false,false,true,false
+psalm-57-lxx-56-under-the-shadow-of-thy-wings,Old Testament,Psalms,57,Psalm 57,11,0,5,16,true,true,false,false
+psalm-58-lxx-57-judge-rightly-you-sons-of-men,Old Testament,Psalms,58,Psalm 58,1,0,1,1,true,false,true,false
+psalm-59-lxx-58-deliver-me-from-bloody-men,Old Testament,Psalms,59,Psalm 59,4,0,2,16,true,false,false,true
+psalm-6-lxx-6-tears-healing-and-the-eighth-day,Old Testament,Psalms,6,Psalm 6,9,0,5,15,true,false,false,true
+psalm-60-lxx-59-the-banner-given-to-those-who-fear-thee,Old Testament,Psalms,60,Psalm 60,17,1,2,16,false,false,false,false
+psalm-61-lxx-60-lead-me-to-the-rock-that-is-higher-than-i,Old Testament,Psalms,61,Psalm 61,21,1,3,16,false,false,false,false
+psalm-62-lxx-61-my-soul-is-subject-to-god-alone,Old Testament,Psalms,62,Psalm 62,5,1,2,13,true,false,true,true
+psalm-63-lxx-62-thirsting-for-thee-in-a-dry-land,Old Testament,Psalms,63,Psalm 63,9,0,4,16,false,true,false,false
+psalm-64-lxx-63-hidden-arrows-and-righteous-joy,Old Testament,Psalms,64,Psalm 64,7,1,3,16,true,true,false,false
+psalm-65-lxx-64-praise-in-zion-and-the-crown-of-the-year,Old Testament,Psalms,65,Psalm 65,53,5,4,16,true,true,false,true
+psalm-66-lxx-65-through-fire-and-water-into-refreshment,Old Testament,Psalms,66,Psalm 66,35,4,2,16,false,true,false,false
+psalm-67-lxx-66-let-the-nations-give-thanks,Old Testament,Psalms,67,Psalm 67,10,0,3,16,false,true,false,false
+psalm-68-lxx-67-let-god-arise-and-scatter-his-enemies,Old Testament,Psalms,68,Psalm 68,125,12,5,16,true,true,false,false
+psalm-69-lxx-68-zeal-for-thy-house-and-the-gall-of-reproach,Old Testament,Psalms,69,Psalm 69,12,0,3,16,true,true,false,true
+psalm-7-lxx-7-the-righteous-judge-and-the-pit-of-the-wicked,Old Testament,Psalms,7,Psalm 7,8,1,3,16,true,true,false,true
+psalm-70-lxx-69-o-god-make-haste-to-help-me,Old Testament,Psalms,70,Psalm 70,12,1,3,16,false,true,false,false
+psalm-71-lxx-70-forsake-me-not-when-my-strength-fails,Old Testament,Psalms,71,Psalm 71,3,0,2,16,true,false,false,true
+psalm-72-lxx-71-the-king-of-peace-and-the-poor,Old Testament,Psalms,72,Psalm 72,16,3,3,20,true,true,false,false
+psalm-73-lxx-72-until-i-entered-the-sanctuary-of-god,Old Testament,Psalms,73,Psalm 73,54,2,1,15,false,false,false,false
+psalm-74-lxx-73-arise-o-god-plead-your-cause,Old Testament,Psalms,74,Psalm 74,4,1,2,16,false,true,false,false
+psalm-75-lxx-74-the-cup-in-the-hand-of-the-lord,Old Testament,Psalms,75,Psalm 75,0,0,0,0,false,false,false,false
+psalm-76-lxx-75-god-is-known-in-judah,Old Testament,Psalms,76,Psalm 76,2,1,1,20,false,false,false,false
+psalm-77-lxx-76-in-the-night-i-remembered-god,Old Testament,Psalms,77,Psalm 77,7,2,2,16,false,true,false,false
+psalm-78-lxx-77-tell-the-coming-generation,Old Testament,Psalms,78,Psalm 78,16,2,3,16,false,true,false,false
+psalm-79-lxx-78-help-us-for-the-glory-of-your-name,Old Testament,Psalms,79,Psalm 79,5,0,2,16,false,false,false,false
+psalm-8-lxx-8-the-son-of-man-crowned-with-glory,Old Testament,Psalms,8,Psalm 8,37,2,4,16,true,true,false,true
+psalm-80-lxx-79-shepherd-of-israel-turn-us,Old Testament,Psalms,80,Psalm 80,10,1,3,16,true,true,false,false
+psalm-81-lxx-80-rejoice-in-god-our-helper,Old Testament,Psalms,81,Psalm 81,5,1,3,15,false,false,false,false
+psalm-82-lxx-81-god-stands-in-the-assembly-of-gods,Old Testament,Psalms,82,Psalm 82,4,0,3,14,true,true,false,false
+psalm-83-lxx-82-o-god-who-shall-be-compared-to-thee,Old Testament,Psalms,83,Psalm 83,6,0,2,16,true,false,false,false
+psalm-84-lxx-83-how-amiable-are-thy-tabernacles,Old Testament,Psalms,84,Psalm 84,8,1,3,16,false,true,false,false
+psalm-85-lxx-84-o-lord-thou-hast-taken-pleasure-in-thy-land,Old Testament,Psalms,85,Psalm 85,6,0,3,16,false,false,false,false
+psalm-86-lxx-85-incline-thine-ear-o-lord,Old Testament,Psalms,86,Psalm 86,18,0,4,16,false,true,false,false
+psalm-87-lxx-86-glorious-things-are-spoken-of-thee,Old Testament,Psalms,87,Psalm 87,18,1,3,16,false,true,false,false
+psalm-88-lxx-87-free-among-the-dead,Old Testament,Psalms,88,Psalm 88,9,1,3,16,true,false,false,true
+psalm-89-lxx-88-i-will-sing-of-thy-mercies,Old Testament,Psalms,89,Psalm 89,85,2,4,16,false,true,false,false
+psalm-9-lxx-9-1-21-thanksgiving-at-the-gates-of-death,Old Testament,Psalms,9,Psalm 9,66,3,3,16,false,true,false,false
+psalm-90-lxx-89-lord-thou-hast-been-our-refuge,Old Testament,Psalms,90,Psalm 90,4,0,2,16,false,true,false,false
+psalm-91-lxx-90-he-that-dwelleth-in-the-secret-place,Old Testament,Psalms,91,Psalm 91,20,1,5,14,true,true,false,false
+psalm-92-lxx-91-it-is-a-good-thing-to-give-thanks,Old Testament,Psalms,92,Psalm 92,17,3,2,16,false,true,false,false
+psalm-93-lxx-92-the-lord-reigneth,Old Testament,Psalms,93,Psalm 93,10,2,3,14,false,false,false,false
+psalm-94-lxx-93-o-lord-god-to-whom-vengeance-belongeth,Old Testament,Psalms,94,Psalm 94,1,0,1,1,true,false,true,false
+psalm-95-lxx-94-o-come-let-us-sing-unto-the-lord,Old Testament,Psalms,95,Psalm 95,4,0,2,15,false,false,true,false
+psalm-96-lxx-95-o-sing-unto-the-lord-a-new-song,Old Testament,Psalms,96,Psalm 96,35,3,3,16,false,true,false,false
+psalm-97-lxx-96-the-lord-reigneth-let-the-earth-rejoice,Old Testament,Psalms,97,Psalm 97,64,8,5,16,false,true,false,false
+psalm-98-lxx-97-o-sing-unto-the-lord-a-new-song,Old Testament,Psalms,98,Psalm 98,12,2,4,16,false,true,false,false
+psalm-99-lxx-98-the-lord-reigneth-let-the-people-tremble,Old Testament,Psalms,99,Psalm 99,67,3,4,16,false,true,false,false
+ruth-1-famine-exile-and-holy-clinging,Old Testament,Ruth,1,Ruth 1,0,0,0,0,false,false,false,false
+ruth-2-gleaning-grace-and-the-field-of-boaz,Old Testament,Ruth,2,Ruth 2,0,0,0,0,false,false,false,false
+ruth-3-at-the-threshing-floor,Old Testament,Ruth,3,Ruth 3,0,0,0,0,false,false,false,false
+ruth-4-redemption-at-the-gate-and-the-birth-of-obed,Old Testament,Ruth,4,Ruth 4,0,0,0,0,false,false,false,false
+sirach-1-2-wisdom-fear-and-the-furnace,Deuterocanonical,Sirach,1,Sirach 1; Sirach 2,3,0,2,1,true,false,true,true
+sirach-12-14-friendship-enemies-and-wealth,Deuterocanonical,Sirach,12,Sirach 12; Sirach 13; Sirach 14,0,0,0,0,false,false,false,false
+sirach-15-18-freedom-sin-mercy-and-return,Deuterocanonical,Sirach,15,Sirach 15; Sirach 16; Sirach 17; Sirach 18,0,0,0,0,false,false,false,false
+sirach-19-23-the-mouth-and-the-passions,Deuterocanonical,Sirach,19,Sirach 19; Sirach 20; Sirach 21; Sirach 22; Sirach 23,3,0,1,1,true,false,true,true
+sirach-24-wisdom-in-the-congregation,Deuterocanonical,Sirach,24,Sirach 24,1,0,1,1,true,false,true,false
+sirach-25-26-household-wisdom-and-marriage,Deuterocanonical,Sirach,25,Sirach 25; Sirach 26,0,0,0,0,false,false,false,false
+sirach-27-31-anger-forgiveness-money-and-feasting,Deuterocanonical,Sirach,27,Sirach 27; Sirach 28; Sirach 29; Sirach 30; Sirach 31,0,0,0,0,false,false,false,false
+sirach-3-4-honor-humility-and-the-poor,Deuterocanonical,Sirach,3,Sirach 3; Sirach 4,2,0,2,1,true,false,true,false
+sirach-32-35-worship-sacrifice-and-justice,Deuterocanonical,Sirach,32,Sirach 32; Sirach 33; Sirach 34; Sirach 35,0,0,0,0,false,false,false,false
+sirach-36-39-counsel-medicine-grief-work-and-the-scribe,Deuterocanonical,Sirach,36,Sirach 36; Sirach 37; Sirach 38; Sirach 39,0,0,0,0,false,false,false,false
+sirach-40-43-death-shame-and-creation-s-praise,Deuterocanonical,Sirach,40,Sirach 40; Sirach 41; Sirach 42; Sirach 43,0,0,0,0,false,false,false,false
+sirach-44-49-let-us-now-praise-famous-men,Deuterocanonical,Sirach,44,Sirach 44; Sirach 45; Sirach 46; Sirach 47; Sirach 48; Sirach 49,0,0,0,0,false,false,false,false
+sirach-5-7-presumption-speech-and-repentance,Deuterocanonical,Sirach,5,Sirach 5; Sirach 6; Sirach 7,2,0,2,1,true,false,true,false
+sirach-50-51-worship-and-the-pursuit-of-wisdom,Deuterocanonical,Sirach,50,Sirach 50; Sirach 51,0,0,0,0,false,false,false,false
+sirach-8-11-discernment-under-power,Deuterocanonical,Sirach,8,Sirach 8; Sirach 9; Sirach 10; Sirach 11,1,0,1,1,false,false,true,false
+song-of-songs-1-1-2-7-kiss-fragrance-and-the-first-entrance-into-love,Old Testament,Song of Songs,1-2,Song of Songs 1:1-2:7,0,0,0,0,false,false,false,false
+song-of-songs-2-8-3-5-the-beloved-comes-and-the-bride-seeks-by-night,Old Testament,Song of Songs,2-3,Song of Songs 2:8-3:5,0,0,0,0,false,false,false,false
+song-of-songs-3-6-5-1-the-wedding-procession-and-the-enclosed-garden,Old Testament,Song of Songs,3-5,Song of Songs 3:6-5:1,0,0,0,0,false,false,false,false
+song-of-songs-5-2-6-3-i-slept-but-my-heart-was-awake,Old Testament,Song of Songs,5-6,Song of Songs 5:2-6:3,0,0,0,0,false,false,false,false
+song-of-songs-6-4-8-4-renewed-beauty-desire-and-the-return-of-the-bride,Old Testament,Song of Songs,6-8,Song of Songs 6:4-8:4,0,0,0,0,false,false,false,false
+song-of-songs-8-5-14-love-strong-as-death-and-the-seal-upon-the-heart,Old Testament,Song of Songs,8,Song of Songs 8:5-14,0,0,0,0,false,false,false,false
+susanna-innocence-vindicated,Deuterocanonical,Susanna,1,Susanna 1,0,0,0,0,false,false,false,false
+tobit-1-2-righteousness-in-exile-and-the-blindness-of-the-just,Deuterocanonical,Tobit,1,Tobit 1; Tobit 2,1,0,1,1,false,false,true,false
+tobit-11-12-sight-restored-and-raphael-revealed,Deuterocanonical,Tobit,11,Tobit 11; Tobit 12,1,0,1,1,false,false,true,false
+tobit-13-14-the-new-jerusalem-nineveh-s-fall-and-faithful-death,Deuterocanonical,Tobit,13,Tobit 13; Tobit 14,1,0,1,1,false,false,true,false
+tobit-3-two-prayers-heard-before-god,Deuterocanonical,Tobit,3,Tobit 3,1,0,1,1,false,false,true,false
+tobit-4-a-father-s-testament,Deuterocanonical,Tobit,4,Tobit 4,1,0,1,1,false,false,true,false
+tobit-5-6-the-hidden-guide-and-the-fish-by-the-river,Deuterocanonical,Tobit,5,Tobit 5; Tobit 6,1,0,1,1,false,false,true,false
+tobit-7-8-marriage-prayer-and-the-defeat-of-the-destroyer,Deuterocanonical,Tobit,7,Tobit 7; Tobit 8,1,0,1,1,false,false,true,false
+tobit-9-10-waiting-anxiety-and-mercy-hidden-in-delay,Deuterocanonical,Tobit,9,Tobit 9; Tobit 10,1,0,1,1,false,false,true,false
+wisdom-of-solomon-1-love-righteousness-and-seek-god-simply,Deuterocanonical,Wisdom of Solomon,1,Wisdom of Solomon 1,2,0,1,1,true,false,true,true
+wisdom-of-solomon-10-1-11-14-wisdom-guiding-the-righteous-through-history,Deuterocanonical,Wisdom of Solomon,10,Wisdom of Solomon 10; Wisdom of Solomon 11:1-14,0,0,0,0,false,false,false,false
+wisdom-of-solomon-11-15-12-27-mercy-measure-and-judgment,Deuterocanonical,Wisdom of Solomon,11,Wisdom of Solomon 11:15-26; Wisdom of Solomon 12:1-27,1,0,1,1,true,false,true,false
+wisdom-of-solomon-13-15-beauty-creation-and-the-madness-of-idolatry,Deuterocanonical,Wisdom of Solomon,13,Wisdom of Solomon 13; Wisdom of Solomon 14; Wisdom of Solomon 15,1,0,1,1,true,false,true,false
+wisdom-of-solomon-16-17-signs-manna-and-darkness,Deuterocanonical,Wisdom of Solomon,16,Wisdom of Solomon 16; Wisdom of Solomon 17,0,0,0,0,false,false,false,false
+wisdom-of-solomon-18-19-pascha-the-word-and-new-creation,Deuterocanonical,Wisdom of Solomon,18,Wisdom of Solomon 18; Wisdom of Solomon 19,0,0,0,0,false,false,false,false
+wisdom-of-solomon-2-the-righteous-son-condemned,Deuterocanonical,Wisdom of Solomon,2,Wisdom of Solomon 2,4,0,1,1,true,false,true,true
+wisdom-of-solomon-3-4-the-righteous-in-the-hand-of-god,Deuterocanonical,Wisdom of Solomon,3,Wisdom of Solomon 3; Wisdom of Solomon 4,1,0,1,1,true,false,true,true
+wisdom-of-solomon-5-final-vindication-and-the-armor-of-creation,Deuterocanonical,Wisdom of Solomon,5,Wisdom of Solomon 5,0,0,0,0,false,false,false,false
+wisdom-of-solomon-6-1-21-rulers-under-judgment,Deuterocanonical,Wisdom of Solomon,6,Wisdom of Solomon 6:1-21,0,0,0,0,false,false,false,false
+wisdom-of-solomon-6-22-8-21-wisdom-brightness-and-friendship-with-god,Deuterocanonical,Wisdom of Solomon,6-8,Wisdom of Solomon 6:22-8:21,1,0,1,1,true,false,true,false
+wisdom-of-solomon-9-solomon-s-prayer-for-wisdom,Deuterocanonical,Wisdom of Solomon,9,Wisdom of Solomon 9,0,0,0,0,false,false,false,false
+zechariah-1-return-to-me-and-the-horsemen-among-the-myrtle-trees,Old Testament,Zechariah,1,Zechariah 1,2,0,1,1,true,false,true,false
+zechariah-10-11-shepherds-flock-and-thirty-pieces-of-silver,Old Testament,Zechariah,10,Zechariah 10; Zechariah 11,4,0,1,1,true,false,true,true
+zechariah-12-they-shall-look-on-me-whom-they-pierced,Old Testament,Zechariah,12,Zechariah 12,1,0,1,1,true,false,true,true
+zechariah-13-the-fountain-opened-and-the-shepherd-struck,Old Testament,Zechariah,13,Zechariah 13,1,0,1,1,true,false,true,true
+zechariah-14-the-lord-shall-be-king-over-all-the-earth,Old Testament,Zechariah,14,Zechariah 14,2,0,1,1,true,false,true,true
+zechariah-2-the-measuring-line-and-the-lord-dwelling-in-zion,Old Testament,Zechariah,2,Zechariah 2,0,0,0,0,false,false,false,false
+zechariah-3-joshua-the-high-priest-and-the-branch,Old Testament,Zechariah,3,Zechariah 3,0,0,0,0,false,false,false,false
+zechariah-4-lampstand-olive-trees-and-not-by-might,Old Testament,Zechariah,4,Zechariah 4,0,0,0,0,false,false,false,false
+zechariah-5-6-wickedness-removed-and-the-priest-king-crowned,Old Testament,Zechariah,5,Zechariah 5; Zechariah 6,0,0,0,0,false,false,false,false
+zechariah-7-8-fasting-truth-mercy-and-the-nations-seeking-god,Old Testament,Zechariah,7,Zechariah 7; Zechariah 8,1,0,1,1,false,false,true,false
+zechariah-9-your-king-comes-humble-and-riding-on-a-donkey,Old Testament,Zechariah,9,Zechariah 9,2,0,2,1,true,false,true,false
+zephaniah-1-the-day-of-the-lord-against-false-security,Old Testament,Zephaniah,1,Zephaniah 1,1,0,1,1,true,false,true,true
+zephaniah-2-seek-the-lord-and-the-nations-judged,Old Testament,Zephaniah,2,Zephaniah 2,1,0,1,1,true,false,true,true
+zephaniah-3-the-lord-in-your-midst-and-the-rejoicing-daughter-of-zion,Old Testament,Zephaniah,3,Zephaniah 3,2,0,2,1,true,true,true,true
