@@ -55,11 +55,21 @@ function classifyDate(date) {
   };
 }
 
+function isRemovedReading(row) {
+  return Boolean(row && (row.active === false || String(row.status || '').toLowerCase() === 'removed'));
+}
+
+function isActiveReading(row) {
+  return !isRemovedReading(row);
+}
+
 module.exports = {
   occasionIndexPath,
   dailyDir,
   dailyYearPath,
   classifyDate,
+  isRemovedReading,
+  isActiveReading,
   structuralDateResolver,
   shippedYears,
   meta,

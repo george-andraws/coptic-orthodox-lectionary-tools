@@ -154,6 +154,52 @@ def source_priority(row: dict[str, Any]) -> int:
     return SOURCE_PRIORITY.get(str(row.get("source_family") or ""), 100)
 
 
+def is_removed_projection_row(row: dict[str, Any]) -> bool:
+    return row.get("active") is False or str(row.get("status") or "").casefold() == "removed"
+
+
+REQUIRED_REMOVED_PROJECTION_FIELDS = [
+    "active",
+    "status",
+    "removed_marker",
+    "removal_reason",
+    "removal_context_key",
+    "preferred_source_family",
+    "preferred_display_ref",
+    "preferred_identity_key",
+    "consumer_note",
+    "retained_for",
+]
+
+
+def validate_removed_projection_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    failures: list[dict[str, Any]] = []
+    for row_number, row in enumerate(rows, 1):
+        if not is_removed_projection_row(row):
+            continue
+        missing_fields = [field for field in REQUIRED_REMOVED_PROJECTION_FIELDS if row.get(field) in (None, "")]
+        if row.get("active") is not False:
+            missing_fields.append("active:false")
+        if str(row.get("status") or "").casefold() != "removed":
+            missing_fields.append("status:removed")
+        if missing_fields:
+            failures.append({
+                "reason": "removed_projection_row_missing_annotation",
+                "row": row_number,
+                "display_ref": row.get("display_ref"),
+                "missing_fields": sorted(set(missing_fields)),
+            })
+        note = str(row.get("consumer_note") or "")
+        if note and "provenance" not in note.casefold():
+            failures.append({
+                "reason": "removed_projection_row_consumer_note_not_user_facing",
+                "row": row_number,
+                "display_ref": row.get("display_ref"),
+                "consumer_note": note,
+            })
+    return failures
+
+
 def mapped_cycle_contexts(row: dict[str, Any]) -> set[str]:
     contexts: set[str] = set()
     source_family = str(row.get("source_family") or "")
@@ -265,6 +311,8 @@ def passage_overlap_or_shorthand_variant(left: dict[str, Any], right: dict[str, 
 def detect_context_passage_conflicts(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     groups: dict[tuple[str, str, str, str], list[tuple[int, dict[str, Any]]]] = {}
     for row_number, row in enumerate(rows, 1):
+        if is_removed_projection_row(row):
+            continue
         if str(row.get("removed_marker") or "").strip():
             continue
         if str(row.get("current_status") or "").casefold().startswith("superseded"):
@@ -351,6 +399,8 @@ const result = {
   structuralDateResolver: pkg.structuralDateResolver,
   classifiedStructuralDate: pkg.classifyDate('2026-04-10'),
   classifiedDailyDate: pkg.classifyDate('2026-01-01'),
+  isRemovedHelper: pkg.isRemovedReading({active: false, status: 'removed'}),
+  isActiveHelper: pkg.isActiveReading({display_ref: 'Jn 1:1-17'}),
 };
 console.log(JSON.stringify(result));
 """
@@ -372,6 +422,8 @@ console.log(JSON.stringify(result));
         and parsed.get("classifiedStructuralDate", {}).get("classification") == "daily_file_present"
         and parsed.get("classifiedStructuralDate", {}).get("hasDailyReadings") is True
         and parsed.get("classifiedDailyDate", {}).get("hasDailyReadings") is True
+        and parsed.get("isRemovedHelper") is True
+        and parsed.get("isActiveHelper") is True
     )
     return {"status": "pass" if ok else "fail", **parsed}
 
@@ -414,16 +466,24 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
 
     duplicate_keys: dict[tuple[Any, ...], int] = {}
     duplicate_count = 0
+    removed_projection_rows = 0
+    active_reverse_rows = 0
     for row_number, row in enumerate(reverse_rows, 1):
+        is_removed = is_removed_projection_row(row)
+        if is_removed:
+            removed_projection_rows += 1
+        else:
+            active_reverse_rows += 1
         missing = [field for field in REQUIRED_REVERSE_FIELDS if field not in row]
         if missing:
             failures.append({"reason": "reverse_row_missing_required_fields", "row": row_number, "fields": missing})
             continue
-        key = (row.get("occasion"), row.get("service_section"), row.get("service_hour"), row.get("slot"), row.get("identity_key"))
-        if key in duplicate_keys:
-            duplicate_count += 1
-        else:
-            duplicate_keys[key] = row_number
+        if not is_removed:
+            key = (row.get("occasion"), row.get("service_section"), row.get("service_hour"), row.get("slot"), row.get("identity_key"))
+            if key in duplicate_keys:
+                duplicate_count += 1
+            else:
+                duplicate_keys[key] = row_number
         for json_field in ["spans_json", "source_disclosure"]:
             try:
                 parsed = json.loads(row.get(json_field) or "[]")
@@ -435,7 +495,17 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
                 if str(row.get("source_disclosure_count", "")) != expected_count:
                     failures.append({"reason": "source_disclosure_count_mismatch", "row": row_number, "expected": expected_count, "actual": row.get("source_disclosure_count")})
     if duplicate_count:
-        failures.append({"reason": "duplicate_reverse_index_keys", "duplicate_count": duplicate_count})
+        failures.append({"reason": "duplicate_active_reverse_index_keys", "duplicate_count": duplicate_count})
+
+    removed_projection_failures = validate_removed_projection_rows(reverse_rows)
+    failures.extend(removed_projection_failures)
+
+    projection_rules = meta.get("projection_rules") or {}
+    if isinstance(projection_rules, dict):
+        if projection_rules.get("active_rows") is not None and projection_rules.get("active_rows") != active_reverse_rows:
+            failures.append({"reason": "projection_active_row_count_mismatch", "meta": projection_rules.get("active_rows"), "actual": active_reverse_rows})
+        if projection_rules.get("removed_rows_included") is not None and projection_rules.get("removed_rows_included") != removed_projection_rows:
+            failures.append({"reason": "projection_removed_row_count_mismatch", "meta": projection_rules.get("removed_rows_included"), "actual": removed_projection_rows})
 
     legacy_month_spellings = find_legacy_month_spellings(reverse_rows)
     if legacy_month_spellings:
@@ -519,6 +589,8 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         "required_files_present": not missing_files,
         "extra_files": extra_files,
         "reverse_index_rows": len(reverse_rows),
+        "active_reverse_index_rows": active_reverse_rows,
+        "removed_projection_rows": removed_projection_rows,
         "reverse_index_duplicate_keys": duplicate_count,
         "daily_summary": daily_summary,
         "commonjs_exports": commonjs,

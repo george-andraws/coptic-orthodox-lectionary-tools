@@ -11,8 +11,8 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.1.5';
-const SCHEMA_VERSION = '1.1.0';
+const VERSION = '1.1.6';
+const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
 const ATTRIBUTION = 'Coptic lectionary data from Light and Logos (andraws.net), licensed under CC BY 4.0.';
@@ -300,6 +300,29 @@ function projectionGroupKey(row, context) {
   return [context, normalizedService(row.service_section), normalizeContextText(row.service_hour), normalizedSlotType(row)].join('|');
 }
 
+function isProjectionRemovedRow(row) {
+  return row?.active === false || String(row?.status || '').toLowerCase() === 'removed';
+}
+
+function annotateRemovedProjectionRow(row, suppression) {
+  return normalizeObjectStrings({
+    ...row,
+    active: false,
+    status: 'removed',
+    removed_marker: row.removed_marker || 'removed_by_source_priority_projection',
+    removal_reason: 'lower_priority_overlap_with_date_resolved_source',
+    removal_context_key: suppression.context_key,
+    removal_effective_version: VERSION,
+    preferred_source_family: suppression.preferred_source_family,
+    preferred_source_kind: suppression.preferred_source_kind,
+    preferred_source_locator: suppression.preferred_source_locator,
+    preferred_identity_key: suppression.preferred_identity_key,
+    preferred_display_ref: suppression.preferred_display_ref,
+    retained_for: 'provenance_only',
+    consumer_note: 'Retained for provenance only because a higher-priority date-resolved source supplies the active reading for this context. Ignore this row by default in active lookups.',
+  });
+}
+
 function suppressLowerPriorityPassageVariants(rows) {
   const groups = new Map();
   for (const [index, row] of rows.entries()) {
@@ -326,6 +349,9 @@ function suppressLowerPriorityPassageVariants(rows) {
           suppressed.set(lower.index, {
             context_key: contextKey,
             preferred_source_family: preferred.row.source_family || '',
+            preferred_source_kind: preferred.row.source_kind || '',
+            preferred_source_locator: preferred.row.source_locator || '',
+            preferred_identity_key: preferred.row.identity_key || '',
             preferred_display_ref: preferred.row.display_ref || '',
             suppressed_source_family: lower.row.source_family || '',
             suppressed_display_ref: lower.row.display_ref || '',
@@ -336,8 +362,14 @@ function suppressLowerPriorityPassageVariants(rows) {
     }
   }
 
+  const outputRows = rows.map((row, index) => {
+    const suppression = suppressed.get(index);
+    return suppression ? annotateRemovedProjectionRow(row, suppression) : row;
+  });
+
   return {
-    rows: rows.filter((_row, index) => !suppressed.has(index)),
+    rows: outputRows,
+    activeRows: outputRows.filter((row) => !isProjectionRemovedRow(row)),
     suppressions: [...suppressed.values()],
   };
 }
@@ -385,9 +417,13 @@ async function projectReverseIndex() {
   await writeFile(OCCASION_DEST, `${projected.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   return {
     rows: projected.rows,
+    activeRows: projected.activeRows,
     source_rows: parsedRows.length,
     output_rows: projected.rows.length,
+    active_rows: projected.activeRows.length,
+    removed_rows_included: projected.suppressions.length,
     lower_priority_passage_variants_suppressed: projected.suppressions.length,
+    lower_priority_passage_variants_retained_as_removed: projected.suppressions.length,
     weekday_specific_contexts_disambiguated: disambiguated.disambiguated,
     legacy_month_spellings_normalized: ['Kiak -> Kiahk', 'Baba -> Babah'],
     suppressed_examples: projected.suppressions.slice(0, 20),
@@ -655,11 +691,21 @@ function classifyDate(date) {
   };
 }
 
+function isRemovedReading(row) {
+  return Boolean(row && (row.active === false || String(row.status || '').toLowerCase() === 'removed'));
+}
+
+function isActiveReading(row) {
+  return !isRemovedReading(row);
+}
+
 module.exports = {
   occasionIndexPath,
   dailyDir,
   dailyYearPath,
   classifyDate,
+  isRemovedReading,
+  isActiveReading,
   structuralDateResolver,
   shippedYears,
   meta,
@@ -710,6 +756,7 @@ console.log(lectionaryData.dailyYearPath(2026));
 console.log(lectionaryData.shippedYears);
 console.log(lectionaryData.meta.source_repo_commit);
 console.log(lectionaryData.classifyDate('2026-04-10'));
+console.log(lectionaryData.isActiveReading({ display_ref: 'Jn 1:1-17' }));
 \`\`\`
 
 ## Exports
@@ -718,6 +765,8 @@ console.log(lectionaryData.classifyDate('2026-04-10'));
 - \`dailyDir\`: absolute path to \`data/daily\`.
 - \`dailyYearPath(year)\`: returns the absolute path for a shipped daily lectionary JSON file.
 - \`classifyDate(date)\`: classifies a shipped ISO date as present in daily JSON or as a documented structural-only Holy Week/Bright Saturday gap.
+- \`isRemovedReading(row)\`: returns true for rows marked \`active: false\` or \`status: "removed"\`.
+- \`isActiveReading(row)\`: convenience negation of \`isRemovedReading(row)\`; use this to filter active reverse-index rows.
 - \`structuralDateResolver\`: resolver metadata copied from \`meta.structural_date_resolver\`.
 - \`shippedYears\`: frozen array of shipped daily years.
 - \`meta\`: parsed \`meta.json\`.
@@ -743,6 +792,20 @@ Each line in \`data/reverse_lectionary_index.jsonl\` is a JSON object. The publi
 - \`source_disclosure\`
 - \`attestation_year_min\`
 - \`attestation_year_max\`
+
+Rows that were removed from active lookup by source-priority projection include additional fields:
+
+- \`active: false\`
+- \`status: "removed"\`
+- \`removal_reason\`
+- \`removal_context_key\`
+- \`preferred_source_family\`
+- \`preferred_display_ref\`
+- \`preferred_identity_key\`
+- \`consumer_note\`
+- \`retained_for: "provenance_only"\`
+
+Consumers should filter with \`isActiveReading(row)\` unless they are building an audit/provenance view.
 
 ### Dual-numbering display references
 
@@ -770,7 +833,9 @@ The package date-resolves Holy Week and Bright Saturday structural rows into the
 
 ## Source-priority projection
 
-The package projects the raw reverse index into a consumer-safe runtime index. When a copticchurch.net date-resolved row and a lower-priority local cycle row overlap the same normalized consumer occasion, service, service hour, and slot type but disagree on the passage span, the lower-priority variant is omitted from the npm package. This keeps current-practice rows authoritative while retaining non-conflicting local witnesses.
+The package projects the raw reverse index into a consumer-safe runtime index. When a copticchurch.net date-resolved row and a lower-priority local cycle row overlap the same normalized consumer occasion, service, service hour, and slot type but disagree on the passage span, the lower-priority variant is retained as inactive provenance rather than used as an active lookup row.
+
+Inactive projection rows are marked with \`active: false\`, \`status: "removed"\`, \`removed_marker: "removed_by_source_priority_projection"\`, a \`consumer_note\`, and preferred-reading fields such as \`preferred_source_family\`, \`preferred_display_ref\`, and \`preferred_identity_key\`. Use \`isActiveReading(row)\` to exclude these rows from active lookups.
 
 For fixed-date rows with a Sunday-specific counterpart, generic rows are disambiguated as non-Sunday contexts rather than silently duplicated.
 
@@ -840,13 +905,22 @@ function metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFil
         source_disclosure: 'Disclosure of source coverage or source-derived status.',
         attestation_year_min: 'Minimum attested year in the packaged source data.',
         attestation_year_max: 'Maximum attested year in the packaged source data.',
+        active: 'Optional. False only for rows retained as inactive provenance after source-priority projection. Missing means active for backwards compatibility.',
+        status: 'Optional. Set to removed for rows retained as inactive provenance after source-priority projection.',
+        removal_reason: 'Optional. Reason an inactive provenance row is excluded from active lookup.',
+        removal_context_key: 'Optional. Normalized consumer context/service/hour/slot key that triggered source-priority removal.',
+        preferred_source_family: 'Optional. Source family of the active preferred row for an inactive provenance row.',
+        preferred_display_ref: 'Optional. Display reference of the active preferred row for an inactive provenance row.',
+        preferred_identity_key: 'Optional. Identity key of the active preferred row for an inactive provenance row.',
+        consumer_note: 'Optional. User-facing explanation for inactive provenance rows.',
+        retained_for: 'Optional. Set to provenance_only for inactive rows kept for auditability.',
       },
       daily_file_shape: 'Each daily JSON file maps ISO dates to an array of readings sorted by reading_order. Each reading includes reading_order, service_order, slot_type, and slot_order; slot_order may repeat within split Psalm/reading fragments, while reading_order is unique per date.',
       structural_date_resolver: 'meta.structural_date_resolver documents Holy Week/Bright Saturday structural rows that were date-resolved into shipped daily files. All shipped civil dates are expected to have daily JSON keys.',
       psalm_dual_numbering: 'Psalm display_ref may include inline LXX numbering in parentheses. Use canonical_mt_ref, canonical_lxx_ref, and spans_json for machine matching.',
       canonicalization_notes: 'canonicalization_note values are source/provenance hints, not date or service resolvers.',
       multi_source_family: 'The same identity_key may appear across multiple source_family values and distinct occasions; this is expected attestation breadth, not a duplicate by itself.',
-      source_priority_projection: 'When current copticchurch.net date-resolved rows overlap lower-priority cycle rows for the same normalized consumer context/service/hour/slot but disagree on passage span, the npm package omits the lower-priority variant. See meta.projection_rules for counts and examples.',
+      source_priority_projection: 'When current copticchurch.net date-resolved rows overlap lower-priority cycle rows for the same normalized consumer context/service/hour/slot but disagree on passage span, the npm package marks the lower-priority variant as active:false/status:removed and retains it for provenance. Active consumers should filter with isActiveReading(row). See meta.projection_rules for counts and examples.',
       coptic_month_spellings: 'Runtime package labels normalize Kiak to Kiahk and Baba to Babah.',
       weekday_specific_disambiguation: 'When a Sunday-specific fixed-date row has a generic sibling with the same reading identity, the generic sibling is labeled as a non-Sunday context to avoid consumer duplicate grouping.',
       known_limitation: 'Structural-only occasions outside the shipped civil-year daily scope remain available through reverse_lectionary_index.jsonl. Holy Week and Bright Saturday rows for shipped civil dates are date-resolved into daily files.',
@@ -862,12 +936,12 @@ async function main() {
   await mkdir(DAILY_DIR, { recursive: true });
 
   const reverseProjection = await projectReverseIndex();
-  const { rows: projectedRows, ...projectionRules } = reverseProjection;
+  const { rows: _projectedRows, activeRows: activeProjectedRows, ...projectionRules } = reverseProjection;
   const occasionIndexRows = projectionRules.output_rows;
   const dailyInfos = [];
 
   for (const year of SHIPPED_YEARS) {
-    dailyInfos.push(await readDailyInfo(year, projectedRows));
+    dailyInfos.push(await readDailyInfo(year, activeProjectedRows));
   }
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);

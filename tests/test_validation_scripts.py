@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from scripts import compare_external_sources as external_compare
+from scripts import compare_package_active_equivalence as active_equivalence
 from scripts import verify_calendar_coverage as calendar_coverage
 from scripts import verify_package_integrity as package_integrity
 from scripts import verify_source_manifest as source_manifest
@@ -149,6 +150,86 @@ class PackageIntegrityTests(unittest.TestCase):
             path.write_text('{"a": 1}\nnot-json\n', encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "line 2"):
                 package_integrity.parse_jsonl(path)
+    def test_removed_projection_rows_are_ignored_by_context_conflict_detector(self) -> None:
+        preferred = {
+            "occasion": "Friday of the first week of Great Lent",
+            "calendar_keys": "Friday of the first week of Great Lent",
+            "day_titles": "Friday of the first week of Great Lent",
+            "service_section": "Liturgy",
+            "service_hour": "",
+            "slot": "Acts of the Apostles",
+            "slot_type": "praxis",
+            "source_family": "ordinary_date_resolved",
+            "display_ref": "Acts 2:42-3:9",
+            "canonical_mt_ref": "Acts 2:42-3:9",
+            "identity_key": "rid_preferred",
+            "spans_json": '[{"book":"Acts","chapter_start":2,"chapter_end":3,"verse_start":42,"verse_end":9}]',
+            "removed_marker": "",
+            "current_status": "current_public_or_local_reference",
+        }
+        removed = {
+            "occasion": "Great Lent/Jonah/Nineveh cycle",
+            "calendar_keys": "week 1 day_of_week 5",
+            "day_titles": "",
+            "service_section": "liturgy_acts",
+            "service_hour": "",
+            "slot": "liturgy_acts",
+            "slot_type": "praxis",
+            "source_family": "katameros_cycle",
+            "display_ref": "Acts 2:42-3",
+            "canonical_mt_ref": "Acts 2:42-3",
+            "identity_key": "rid_removed",
+            "spans_json": '[{"book":"Acts","chapter_start":2,"chapter_end":2,"verse_start":42,"verse_end":3}]',
+            "active": False,
+            "status": "removed",
+            "removed_marker": "removed_by_source_priority_projection",
+            "removal_reason": "lower_priority_overlap_with_date_resolved_source",
+            "preferred_source_family": "ordinary_date_resolved",
+            "preferred_display_ref": "Acts 2:42-3:9",
+            "consumer_note": "Retained for provenance only. Ignore by default in active lookups.",
+        }
+        self.assertEqual(package_integrity.detect_context_passage_conflicts([preferred, removed]), [])
+
+    def test_removed_projection_rows_require_user_facing_annotation(self) -> None:
+        rows = [{"active": False, "status": "removed", "display_ref": "Acts 2:42-3"}]
+        failures = package_integrity.validate_removed_projection_rows(rows)
+        self.assertEqual(failures[0]["reason"], "removed_projection_row_missing_annotation")
+        self.assertIn("consumer_note", failures[0]["missing_fields"])
+
+
+class ActiveEquivalenceTests(unittest.TestCase):
+    def write_package(self, package_dir: Path, reverse_rows: list[dict], daily: dict[str, dict]) -> None:
+        (package_dir / "data" / "daily").mkdir(parents=True)
+        (package_dir / "data" / "reverse_lectionary_index.jsonl").write_text(
+            "".join(json.dumps(row, sort_keys=True) + "\n" for row in reverse_rows),
+            encoding="utf-8",
+        )
+        for year, data in daily.items():
+            (package_dir / "data" / "daily" / f"lectionary-{year}.json").write_text(json.dumps(data, sort_keys=True), encoding="utf-8")
+
+    def test_active_equivalence_allows_extra_removed_rows_only(self) -> None:
+        active_row = {"occasion": "A", "service_section": "Liturgy", "service_hour": "", "slot": "Gospel", "identity_key": "rid_active", "display_ref": "Jn 1:1-17"}
+        removed_row = {"occasion": "B", "service_section": "Liturgy", "service_hour": "", "slot": "Gospel", "identity_key": "rid_removed", "display_ref": "Acts 2:42-3", "active": False, "status": "removed"}
+        with tempfile.TemporaryDirectory() as tmp:
+            baseline = Path(tmp) / "baseline"
+            candidate = Path(tmp) / "candidate"
+            daily = {"2026": {"2026-01-01": [{"display_ref": "Jn 1:1-17"}]}}
+            self.write_package(baseline, [active_row], daily)
+            self.write_package(candidate, [active_row, removed_row], daily)
+            summary = active_equivalence.compare_packages(baseline, candidate)
+            self.assertEqual(summary["status"], "pass")
+            self.assertEqual(summary["candidate_removed_rows"], 1)
+
+    def test_active_equivalence_fails_when_active_rows_change(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            baseline = Path(tmp) / "baseline"
+            candidate = Path(tmp) / "candidate"
+            daily = {"2026": {"2026-01-01": []}}
+            self.write_package(baseline, [{"identity_key": "rid_a", "display_ref": "Jn 1:1-17"}], daily)
+            self.write_package(candidate, [{"identity_key": "rid_b", "display_ref": "Lk 1:1-4"}], daily)
+            summary = active_equivalence.compare_packages(baseline, candidate)
+            self.assertEqual(summary["status"], "fail")
+            self.assertTrue(summary["failures"])
 
 
 class SourceManifestTests(unittest.TestCase):

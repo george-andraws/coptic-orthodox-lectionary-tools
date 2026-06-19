@@ -19,6 +19,7 @@ console.log(lectionaryData.dailyYearPath(2026));
 console.log(lectionaryData.shippedYears);
 console.log(lectionaryData.meta.source_repo_commit);
 console.log(lectionaryData.classifyDate('2026-04-10'));
+console.log(lectionaryData.isActiveReading({ display_ref: 'Jn 1:1-17' }));
 ```
 
 ## Exports
@@ -27,6 +28,8 @@ console.log(lectionaryData.classifyDate('2026-04-10'));
 - `dailyDir`: absolute path to `data/daily`.
 - `dailyYearPath(year)`: returns the absolute path for a shipped daily lectionary JSON file.
 - `classifyDate(date)`: classifies a shipped ISO date as present in daily JSON or as a documented structural-only Holy Week/Bright Saturday gap.
+- `isRemovedReading(row)`: returns true for rows marked `active: false` or `status: "removed"`.
+- `isActiveReading(row)`: convenience negation of `isRemovedReading(row)`; use this to filter active reverse-index rows.
 - `structuralDateResolver`: resolver metadata copied from `meta.structural_date_resolver`.
 - `shippedYears`: frozen array of shipped daily years.
 - `meta`: parsed `meta.json`.
@@ -52,6 +55,20 @@ Each line in `data/reverse_lectionary_index.jsonl` is a JSON object. The publish
 - `source_disclosure`
 - `attestation_year_min`
 - `attestation_year_max`
+
+Rows that were removed from active lookup by source-priority projection include additional fields:
+
+- `active: false`
+- `status: "removed"`
+- `removal_reason`
+- `removal_context_key`
+- `preferred_source_family`
+- `preferred_display_ref`
+- `preferred_identity_key`
+- `consumer_note`
+- `retained_for: "provenance_only"`
+
+Consumers should filter with `isActiveReading(row)` unless they are building an audit/provenance view.
 
 ### Dual-numbering display references
 
@@ -79,7 +96,9 @@ The package date-resolves Holy Week and Bright Saturday structural rows into the
 
 ## Source-priority projection
 
-The package projects the raw reverse index into a consumer-safe runtime index. When a copticchurch.net date-resolved row and a lower-priority local cycle row overlap the same normalized consumer occasion, service, service hour, and slot type but disagree on the passage span, the lower-priority variant is omitted from the npm package. This keeps current-practice rows authoritative while retaining non-conflicting local witnesses.
+The package projects the raw reverse index into a consumer-safe runtime index. When a copticchurch.net date-resolved row and a lower-priority local cycle row overlap the same normalized consumer occasion, service, service hour, and slot type but disagree on the passage span, the lower-priority variant is retained as inactive provenance rather than used as an active lookup row.
+
+Inactive projection rows are marked with `active: false`, `status: "removed"`, `removed_marker: "removed_by_source_priority_projection"`, a `consumer_note`, and preferred-reading fields such as `preferred_source_family`, `preferred_display_ref`, and `preferred_identity_key`. Use `isActiveReading(row)` to exclude these rows from active lookups.
 
 For fixed-date rows with a Sunday-specific counterpart, generic rows are disambiguated as non-Sunday contexts rather than silently duplicated.
 
@@ -97,10 +116,10 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.1.5
-- Source repo commit: 85bb332a7141e8af265d3473cf7ca89ef230dbef
-- Generated at: 2026-06-19T19:02:27.945Z
-- Occasion index rows: 11407
+- Package version: 1.1.6
+- Source repo commit: 9596b4567b9f96e4762ba3291bc2e9ecfb829469
+- Generated at: 2026-06-19T19:30:16.296Z
+- Occasion index rows: 11923
 
 ## License
 

@@ -48,6 +48,7 @@ python3 -m py_compile \
   scripts/verify_package_integrity.py \
   scripts/verify_source_manifest.py \
   scripts/compare_external_sources.py \
+  scripts/compare_package_active_equivalence.py \
   tests/test_validation_scripts.py
 python3 verify_design_deliverables.py
 python3 verify_lectionary_queries.py
@@ -55,6 +56,9 @@ python3 scripts/verify_source_manifest.py
 python3 scripts/verify_calendar_coverage.py --strict-complete-calendar
 python3 scripts/compare_external_sources.py
 python3 scripts/verify_package_integrity.py
+# For releases that add inactive/removed provenance rows, install the previous package version
+# into a temporary baseline dir and compare active behavior against the candidate package.
+python3 scripts/compare_package_active_equivalence.py <previous-package-dir> packages/lectionary-data
 python3 scripts/verify_package_integrity.py --tarball packages/lectionary-data/andraws-lectionary-data-<version>.tgz
 git diff --check
 ```
@@ -73,6 +77,9 @@ python3 scripts/compare_external_sources.py \
   --csv-output audit_artifacts/validation_release_gate_YYYY-MM-DD/copticchurch_comparison.csv
 python3 scripts/verify_package_integrity.py \
   --output audit_artifacts/validation_release_gate_YYYY-MM-DD/package_integrity.json
+python3 scripts/compare_package_active_equivalence.py \
+  <previous-package-dir> packages/lectionary-data \
+  --output audit_artifacts/validation_release_gate_YYYY-MM-DD/active_equivalence.json
 python3 scripts/verify_package_integrity.py \
   --tarball packages/lectionary-data/andraws-lectionary-data-<version>.tgz \
   --output audit_artifacts/validation_release_gate_YYYY-MM-DD/package_tarball_integrity.json
@@ -197,7 +204,8 @@ Validates:
 - required runtime files exist
 - reverse-index JSONL parses
 - `meta.occasion_index_rows` matches actual JSONL row count
-- reverse-index duplicate keys are zero
+- reverse-index duplicate active keys are zero
+- inactive source-priority provenance rows are marked with `active: false`, `status: "removed"`, a removal reason, preferred reading fields, and a user-facing `consumer_note`
 - package reverse-index rows have no legacy `Kiak` or `Baba` spellings in consumer-facing labels; runtime labels use `Kiahk` and `Babah`
 - package reverse-index rows have no unresolved source-priority passage conflicts where lower-priority cycle rows overlap current copticchurch.net rows for the same normalized consumer context/service/hour/slot but disagree on the passage span
 - every row has required runtime fields
@@ -221,6 +229,24 @@ meta.json
 package.json
 ```
 
+## Gate 7: active package equivalence for provenance-only releases
+
+Script: `scripts/compare_package_active_equivalence.py`
+
+Use this gate when a release adds inactive/removed provenance rows but should not change active consumer behavior.
+
+Validates:
+
+- active reverse-index rows match the previous published baseline
+- daily files match the previous published baseline
+- candidate-only additions are limited to rows marked inactive/removed
+
+Hard failures:
+
+- any active row added, removed, or changed unexpectedly
+- any shipped daily file changed unexpectedly
+- missing baseline package directory
+
 ## High-confidence fixes policy
 
 Fix immediately when:
@@ -240,8 +266,8 @@ Do not auto-fix when:
 
 ## Current known limitations
 
-1. Shipped daily files cover 2026-2028 but omit Holy Week / Bright Saturday structural dates.
-2. Structural-only occasions, Bright Saturday service-order rows, and special services are in the reverse/supporting layers, not daily files.
+1. Shipped daily files cover 2026-2028 with complete civil-date coverage, including Holy Week and Bright Saturday structural rows where copticchurch.net daily cache lacks date-resolved rows.
+2. Structural-only occasions outside the shipped civil-year daily scope remain available through the reverse/supporting layers, not daily files.
 3. Coptic Reader validation is fixture-limited. Do not mark rows as Coptic Reader-confirmed outside captured fixture scope.
 4. `rows` in `meta.daily_files` is retained as a legacy alias for `date_count`. Use `date_count` and `reading_count` going forward.
 
