@@ -3,7 +3,7 @@
   "package_name": "@andraws/lectionary-data",
   "version": "1.1.4",
   "schemaVersion": "1.1.0",
-  "source_repo_commit": "1afa51942ab4149b94af55eeb6a78f7fa4e88961",
+  "source_repo_commit": "0731a0aeb2bc6b11b0e1da0b795dc93a4878fa20",
   "required_files_present": true,
   "extra_files": [],
   "reverse_index_rows": 11430,

@@ -98,8 +98,8 @@ Structural-only occasions without a `gregorian_date` are not present in the dail
 ## Provenance
 
 - Package version: 1.1.4
-- Source repo commit: 1afa51942ab4149b94af55eeb6a78f7fa4e88961
-- Generated at: 2026-06-19T18:14:44.247Z
+- Source repo commit: 0731a0aeb2bc6b11b0e1da0b795dc93a4878fa20
+- Generated at: 2026-06-19T18:21:08.289Z
 - Occasion index rows: 11430
 
 ## License
