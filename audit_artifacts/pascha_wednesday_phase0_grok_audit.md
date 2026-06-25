@@ -1,0 +1,55 @@
+# Phase 0 Grok Audit - Pascha Wednesday Classification
+
+- Verdict: PASS WITH FIXES
+
+- Findings
+  - Provenance trace is substantially correct:
+    - True current-practice authority is the Coptic Reader fixture at `tests/fixtures/pascha_wednesday_day_coptic_reader.json`.
+    - Generated reverse index path is correctly identified as `out/design/reverse_lectionary_index.jsonl`, with copies to `packages/lectionary-data/data/reverse_lectionary_index.jsonl` and `out/handoff/reverse_lectionary_index.jsonl`.
+    - Builder chain is correctly described: `build_design_deliverables.py` reads `out/data/reverse_lookup_crosswalk.csv`, injects the Coptic Reader fixture, and supplements from `out/data/pascha_source_text_index.csv`.
+    - Source-layer path through `build_lectionary_crosswalk.py`, `out/data/pascha_day_hour_index.csv`, and `out2/pascha_day_hour_index.csv` is accurate.
+  - The main fixture match is accurate against Section 7.1:
+    - First, Third, Sixth, Ninth, and Eleventh Hour Coptic Reader readings are correctly represented.
+    - The report correctly preserves Coptic Reader readings as shown, including `Prov 1:11-35`, `Psalm 41:6, 1`, `Psalm 83:2, 5`, and Eleventh Hour `Psalm 6:2-3, 68:17`.
+  - Section 3 carried findings are mostly respected:
+    - Isaiah 48:1-6, Isaiah 59:1-17, Zechariah 11:11-14, extra Proverbs, and Job 27-28 are correctly treated as likely historical or removed candidates, not simple bugs to delete.
+    - Psalm differences are correctly routed as numbering or range artifacts rather than auto-corrections.
+  - A/B/C classification is mostly reasonable, but not fully clean:
+    - Category A is reasonable for exact current/local duplicate attestations and obvious same-reading collapses, provided source disclosure is retained.
+    - Category C is reasonable for Psalm numbering seams and the Proverbs 1 range artifact.
+    - Category B is too broad in one important case: the Coptic Reader fixture row `Memoirs of Job` is current authority, not old-edition-only or removed. It should not be classified as B.
+  - B removed/historical routing is mostly correct, but needs clearer wording:
+    - Isaiah 48:1-6, Isaiah 59:1-17, Zechariah 11:11-14, extra Proverbs, and Job 27-28 fit Section 3’s historical-candidate finding.
+    - Wisdom 1:20-2:15 and Wisdom 3:12-24 are absent from Coptic Reader, but Section 3 does not explicitly name Wisdom among the carried removed findings. They can be routed as unresolved B candidates, but the report should not imply they are already confirmed by Section 3.
+  - C numbering/range routing is correct in principle:
+    - Psalm 41, Psalm 83, Psalm 6, Psalm 68/69, and Proverbs 1 should be routed as proposed-not-applied.
+    - The Phase 1 scope correctly says not to renumber C rows now.
+  - Phase 1 proposed scope is safe in principle:
+    - It avoids deleting B rows.
+    - It avoids renumbering C rows.
+    - It correctly requires retaining source attestations when collapsing A rows.
+    - The special handling note for the First Hour Psalm composite is necessary and should stay.
+
+- Required changes before Phase 1
+  - Reclassify `Memoirs of Job` from Category B.
+    - Recommended route: Category C or a clearly named unresolved named-reading bucket, because it is current in Coptic Reader but not verse-resolved.
+    - Do not describe the Coptic Reader `Memoirs of Job` row as removed or historical.
+  - Clarify the Job rows:
+    - `Job 27:16-20`, `Job 28:1-2`, and `Job 27:16-28:2` may be historical readings or may relate to the current named `Memoirs of Job`.
+    - Keep them routed to George, but phrase as unresolved historical-versus-named-reading mapping, not as settled deletion candidates.
+  - Clarify Wisdom rows:
+    - `Wis 1:20-2:15` and `Wis 3:12-24` are absent from Coptic Reader, but they are not named in Section 3’s carried removed list.
+    - Mark them as unresolved B candidates, not confirmed Section 3 removed findings.
+  - Fix count labeling:
+    - The report mixes record counts and unique routed item counts. Make the distinction explicit for B and C.
+    - Example: “B=13 record rows, 9 unique routed identities before reclassifying Memoirs of Job” and “C=17 record rows, 15 unique routed identities.”
+  - Keep the Phase 1 scope wording that says:
+    - Do not delete B rows.
+    - Do not renumber C rows.
+    - Retain all attestations in source disclosure when collapsing A rows.
+
+- Notes on B/C routing
+  - B should mean old-edition-only, likely removed, historical, or unresolved absent-from-Coptic-Reader candidate.
+  - B must not include a current Coptic Reader row such as `Memoirs of Job`.
+  - C should cover numbering seams, verse-range artifacts, and unresolved reference mapping where the reading itself is current or plausibly current.
+  - For Phase 1, B and C should both be routed to `audit_artifacts/open_questions_for_george.md` as proposed-not-applied. B can later become historical/removed after adjudication. C can later be normalized only after a verified LXX/MT or range decision.

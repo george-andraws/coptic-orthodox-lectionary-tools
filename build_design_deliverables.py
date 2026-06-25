@@ -26,6 +26,41 @@ AUDIT = ROOT / "audit_artifacts"
 FIXTURE = ROOT / "tests" / "fixtures" / "pascha_wednesday_day_coptic_reader.json"
 SYNAX = ROOT / "out3" / "synaxarium_day_index.csv"
 
+PASCHA_WEDNESDAY_HOURS = {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}
+PASCHA_WEDNESDAY_LABEL = "Wednesday of Holy Pascha"
+PASCHA_WEDNESDAY_CURRENT_STATUSES = {
+    "current_confirmed_coptic_reader",
+    "current_confirmed_by_fixture_equivalence",
+}
+PASCHA_WEDNESDAY_EXACT_SOURCE_ATTESTATION_STATUSES = {
+    *PASCHA_WEDNESDAY_CURRENT_STATUSES,
+    "historical_witness",
+}
+PASCHA_WEDNESDAY_COMPOSITE_ATTESTATION_SPLITS = {
+    # St. Mary prints the First Hour Psalm pair as one source-text row. Split it
+    # only for attestation so it can collapse with the two current fixture rows.
+    ("pascha_source_text", "7341"): ["Ps 51:4", "Ps 33:10"],
+}
+PASCHA_WEDNESDAY_CATEGORY_A_IDENTITY_KEYS = {
+    "rid_03fee652493b21f24f4e",  # Ps 51:4
+    "rid_2397fc80704f44df38d6",  # Hos 5:13-6:3
+    "rid_2743446b52a2479a34ac",  # Jn 12:27-36
+    "rid_277b3bf74110c25ffb6e",  # Isa 28:16-29
+    "rid_39fa796fd662e4a38893",  # Prov 3:5-14
+    "rid_3a7b3b128117ad907040",  # Exod 13:17-22
+    "rid_448071a4438a77092116",  # Num 20:1-13
+    "rid_467e73392b86e856773a",  # Jn 11:46-57
+    "rid_49c878d9ac64a1791795",  # Sir 22:7-18
+    "rid_70dcf815719cbba3ec68",  # Gen 24:1-9
+    "rid_8c5876bf280fd5764810",  # Jn 12:1-8
+    "rid_95b8bc94505475351957",  # Sir 23:7-14
+    "rid_9905be0bd5f113e1fd65",  # Exod 17:1-7
+    "rid_e2e0dbf183569f4ac715",  # Ps 33:10
+    "rid_ecefcd5c90972a53de97",  # Lk 22:1-6
+    "rid_ee62ed11065129a5f12c",  # Matt 26:3-16
+    "rid_ffbd3a8ab8e47edbca9d",  # Exod 14:13-15:1
+}
+
 OUT.mkdir(parents=True, exist_ok=True)
 AUDIT.mkdir(parents=True, exist_ok=True)
 
@@ -492,6 +527,29 @@ def load_removed_pascha_source_text_supplement(base_rows: list[dict]) -> list[di
             "provenance": f"{source_row.get('source_file', '')}:{source_line}; source_page={source_row.get('source_page', '')}",
         })
     return rows
+
+
+def expand_pascha_wednesday_composite_attestations(rows: list[dict]) -> list[dict]:
+    expanded: list[dict] = []
+    for row in rows:
+        split_refs = PASCHA_WEDNESDAY_COMPOSITE_ATTESTATION_SPLITS.get(
+            (row.get("source_kind", ""), str(row.get("source_row_id", "")))
+        )
+        if not split_refs:
+            expanded.append(row)
+            continue
+        for token_order, split_ref in enumerate(split_refs, 1):
+            split_row = dict(row)
+            split_row["passage"] = split_ref
+            split_row["normalized_ref"] = split_ref
+            split_row["normalized_segment"] = split_ref
+            split_row["source_token_order"] = token_order
+            split_row["provenance"] = (
+                f"{row.get('provenance', '')}; split from composite Psalm source_ref="
+                f"{row.get('source_ref') or row.get('raw_ref') or row.get('passage', '')}"
+            ).strip("; ")
+            expanded.append(split_row)
+    return expanded
 
 
 def norm_space(value: str) -> str:
@@ -999,7 +1057,7 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
     base_rows = read_csv(DATA / "reverse_lookup_crosswalk.csv")
     supplement_rows = load_removed_pascha_source_text_supplement(base_rows)
     fixture_rows = load_fixture_rows()
-    all_rows = base_rows + supplement_rows + fixture_rows
+    all_rows = expand_pascha_wednesday_composite_attestations(base_rows + supplement_rows + fixture_rows)
     current_keys = fixture_current_keys(fixture_rows)
     identities: dict[str, dict] = {}
     presentation_rows = []
@@ -1169,7 +1227,43 @@ def choose_removed_marker(markers: Iterable[str]) -> str:
     return sorted(marker_set)[0] if marker_set else ""
 
 
+def is_pascha_wednesday_compatible_status_group(rows: list[dict], statuses: list[str], markers: list[str]) -> bool:
+    return (
+        all(is_pascha_wednesday_exact_attestation(row) for row in rows)
+        and set(statuses).issubset(PASCHA_WEDNESDAY_EXACT_SOURCE_ATTESTATION_STATUSES)
+        and not set(markers)
+    )
+
+
+def is_pascha_wednesday_exact_attestation(row: dict) -> bool:
+    if row.get("day_title") != "Wednesday" or row.get("service_hour") not in PASCHA_WEDNESDAY_HOURS:
+        return False
+    if row.get("removed_marker"):
+        return False
+    if row.get("identity_key", "") not in PASCHA_WEDNESDAY_CATEGORY_A_IDENTITY_KEYS:
+        return False
+    source_kind = row.get("source_kind", "")
+    status = row.get("current_status", "")
+    if source_kind in {"pascha_day_hour", "coptic_reader_fixture"}:
+        return status in PASCHA_WEDNESDAY_CURRENT_STATUSES
+    if source_kind == "pascha_source_text":
+        source_row_id = str(row.get("source_row_id", ""))
+        return (
+            (source_kind, source_row_id) in PASCHA_WEDNESDAY_COMPOSITE_ATTESTATION_SPLITS
+            and status in PASCHA_WEDNESDAY_EXACT_SOURCE_ATTESTATION_STATUSES
+        )
+    return False
+
+
 def occasion_index_key(row: dict) -> tuple[str, str, str, str, str]:
+    if is_pascha_wednesday_exact_attestation(row):
+        return (
+            PASCHA_WEDNESDAY_LABEL,
+            row.get("service_section", ""),
+            row.get("service_hour", ""),
+            slot_type_for(row),
+            row.get("identity_key", ""),
+        )
     return (
         row.get("occasion", ""),
         row.get("service_section", ""),
@@ -1189,7 +1283,8 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
     for key, rows in sorted(grouped.items(), key=lambda item: item[0]):
         statuses = ordered_unique(row.get("current_status", "") for row in rows)
         markers = ordered_unique(row.get("removed_marker", "") for row in rows)
-        if len(set(statuses)) > 1 or len(set(markers)) > 1:
+        compatible_status_group = is_pascha_wednesday_compatible_status_group(rows, statuses, markers)
+        if not compatible_status_group and (len(set(statuses)) > 1 or len(set(markers)) > 1):
             status_disagreements.append({
                 "occasion": key[0],
                 "service_section": key[1],
@@ -1241,7 +1336,7 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
             "attestation_year_max": str(max(years)) if years else "",
             "attestation_years": "; ".join(str(year) for year in sorted(set(years))),
             "collapsed_row_count": str(len(rows)),
-            "_slot_explicit_order": explicit_slot_order(first),
+            "_slot_explicit_order": None if any(is_pascha_wednesday_exact_attestation(row) for row in rows) else explicit_slot_order(first),
             "_slot_source_order": min(source_orders) if source_orders else None,
             "_slot_source_token_order": min(source_token_orders) if source_token_orders else None,
         })
@@ -1254,8 +1349,8 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         missing = expected_keys - actual_keys
         extra = actual_keys - expected_keys
         raise AssertionError(f"reverse_lectionary_index key mismatch: missing={len(missing)} extra={len(extra)}")
-    if len(index_rows) != 11923:
-        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11923")
+    if len(index_rows) != 11905:
+        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11905")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in index_rows):
         raise AssertionError("reverse_lectionary_index must resolve annual fixed Coptic day rows to specific Coptic dates")
     return index_rows, status_disagreements

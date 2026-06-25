@@ -16,6 +16,39 @@ ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "out" / "design"
 BRENTON = Path("/Users/georgeandraws/workspace/extract_brenton.py")
 
+PASCHA_WEDNESDAY_HOURS = {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}
+PASCHA_WEDNESDAY_LABEL = "Wednesday of Holy Pascha"
+PASCHA_WEDNESDAY_CURRENT_STATUSES = {
+    "current_confirmed_coptic_reader",
+    "current_confirmed_by_fixture_equivalence",
+}
+PASCHA_WEDNESDAY_EXACT_SOURCE_ATTESTATION_STATUSES = {
+    *PASCHA_WEDNESDAY_CURRENT_STATUSES,
+    "historical_witness",
+}
+PASCHA_WEDNESDAY_COMPOSITE_ATTESTATION_SPLITS = {
+    ("pascha_source_text", "7341"): ["Ps 51:4", "Ps 33:10"],
+}
+PASCHA_WEDNESDAY_CATEGORY_A_IDENTITY_KEYS = {
+    "rid_03fee652493b21f24f4e",
+    "rid_2397fc80704f44df38d6",
+    "rid_2743446b52a2479a34ac",
+    "rid_277b3bf74110c25ffb6e",
+    "rid_39fa796fd662e4a38893",
+    "rid_3a7b3b128117ad907040",
+    "rid_448071a4438a77092116",
+    "rid_467e73392b86e856773a",
+    "rid_49c878d9ac64a1791795",
+    "rid_70dcf815719cbba3ec68",
+    "rid_8c5876bf280fd5764810",
+    "rid_95b8bc94505475351957",
+    "rid_9905be0bd5f113e1fd65",
+    "rid_e2e0dbf183569f4ac715",
+    "rid_ecefcd5c90972a53de97",
+    "rid_ee62ed11065129a5f12c",
+    "rid_ffbd3a8ab8e47edbca9d",
+}
+
 FORBIDDEN_WORDS = ["delve", "multifaceted", "additionally", "landscape", "underscore", "foster", "interplay"]
 TEXT_FILES = [
     ROOT / "coptic-lectionary-and-synaxarium.md",
@@ -82,7 +115,55 @@ def norm(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def simple_slot_type_for(row: dict) -> str:
+    slot = str(row.get("slot", "") or row.get("reading_slot", ""))
+    compact = re.sub(r"[^a-z0-9]+", "", slot.casefold())
+    if re.fullmatch(r"ot\d*", compact) or compact == "prophecy":
+        return "prophecy"
+    if compact in {"psalm", "psalms"}:
+        return "psalm"
+    if compact == "gospel":
+        return "gospel"
+    return slot
+
+
+def is_pascha_wednesday_exact_attestation(row: dict) -> bool:
+    if row.get("day_title") != "Wednesday" or row.get("service_hour") not in PASCHA_WEDNESDAY_HOURS:
+        return False
+    if row.get("removed_marker"):
+        return False
+    if row.get("identity_key", "") not in PASCHA_WEDNESDAY_CATEGORY_A_IDENTITY_KEYS:
+        return False
+    source_kind = row.get("source_kind", "")
+    status = row.get("current_status", "")
+    if source_kind in {"pascha_day_hour", "coptic_reader_fixture"}:
+        return status in PASCHA_WEDNESDAY_CURRENT_STATUSES
+    if source_kind == "pascha_source_text":
+        source_row_id = str(row.get("source_row_id", ""))
+        return (
+            (source_kind, source_row_id) in PASCHA_WEDNESDAY_COMPOSITE_ATTESTATION_SPLITS
+            and status in PASCHA_WEDNESDAY_EXACT_SOURCE_ATTESTATION_STATUSES
+        )
+    return False
+
+
+def is_pascha_wednesday_compatible_status_group(rows: list[dict], statuses: set[str], markers: set[str]) -> bool:
+    return (
+        all(is_pascha_wednesday_exact_attestation(row) for row in rows)
+        and statuses.issubset(PASCHA_WEDNESDAY_EXACT_SOURCE_ATTESTATION_STATUSES)
+        and markers == {""}
+    )
+
+
 def occasion_index_key(row: dict) -> tuple[str, str, str, str, str]:
+    if is_pascha_wednesday_exact_attestation(row):
+        return (
+            PASCHA_WEDNESDAY_LABEL,
+            row.get("service_section", ""),
+            row.get("service_hour", ""),
+            simple_slot_type_for(row),
+            row.get("identity_key", ""),
+        )
     return (
         row.get("occasion", ""),
         row.get("service_section", ""),
@@ -305,8 +386,8 @@ def verify_rows() -> None:
     reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
     if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
         fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
-    if len(reverse_index) != 11923:
-        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11923")
+    if len(reverse_index) != 11905:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11905")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in reverse_index):
         fail("reverse_lectionary_index must not expose annual fixed Coptic day as an occasion")
     grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
@@ -334,9 +415,10 @@ def verify_rows() -> None:
         source_rows = grouped_index_source[occasion_index_key(row)]
         statuses = set(r.get("current_status", "") for r in source_rows)
         markers = set(r.get("removed_marker", "") for r in source_rows)
-        if len(statuses) > 1:
+        compatible_status_group = is_pascha_wednesday_compatible_status_group(source_rows, statuses, markers)
+        if len(statuses) > 1 and not compatible_status_group:
             fail(f"reverse_lectionary_index source current_status disagreement not flagged separately: {occasion_index_key(row)} {statuses}")
-        if len(markers) > 1:
+        if len(markers) > 1 and not compatible_status_group:
             fail(f"reverse_lectionary_index source removed_marker disagreement not flagged separately: {occasion_index_key(row)} {markers}")
         if row.get("calendar_keys", "") != join_unique(r.get("calendar_key", "") for r in source_rows):
             fail(f"reverse_lectionary_index calendar key union mismatch: {occasion_index_key(row)}")

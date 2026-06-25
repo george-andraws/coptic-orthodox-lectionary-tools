@@ -1,0 +1,11 @@
+# Phase 0 Grok Audit Pass 2 - Pascha Wednesday Classification
+- Verdict: PASS
+- Confirmation of fixed items
+  - Coptic Reader `Memoirs of Job` is no longer classified as B. It is correctly treated as current authority, placed in C as an unresolved named-reading mapping item.
+  - Job 27-28 rows are now clearly framed as unresolved historical-versus-current-named-reading mapping, not as confirmed removals.
+  - `Wis 1:20-2:15` and `Wis 3:12-24` are now described as unresolved B candidates, not confirmed Section 3 removed findings.
+  - The summary now clearly distinguishes record rows from unique identities.
+- Any remaining blocker before Phase 1
+  - No blocker. Phase 1 can proceed if it limits applied changes to Category A collapse and Pascha Wednesday occasion normalization, with B and C routed as open questions.
+- One-sentence scope guidance for Phase 1
+  - Collapse only Category A duplicates into single attested readings, normalize the Pascha Wednesday occasion label, and leave all B and C items unapplied pending George’s review.
