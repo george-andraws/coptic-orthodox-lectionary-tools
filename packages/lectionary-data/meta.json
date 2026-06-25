@@ -4,31 +4,31 @@
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "8a670b8fa7a4affc3ad3711e134d01a6d56bc0f7",
+  "source_repo_commit": "a854e1585fefef5d96ce3e96202e43da5ed4e5fe",
   "source_tree_dirty": false,
-  "generated_at": "2026-06-19T19:33:38.114Z",
-  "occasion_index_rows": 11923,
+  "generated_at": "2026-06-25T21:36:42.283Z",
+  "occasion_index_rows": 11905,
   "daily_files": [
     {
       "year": 2026,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 3980,
-      "bytes": 1922537
+      "reading_count": 3963,
+      "bytes": 1896198
     },
     {
       "year": 2027,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4022,
-      "bytes": 1994036
+      "reading_count": 4005,
+      "bytes": 1967697
     },
     {
       "year": 2028,
       "rows": 366,
       "date_count": 366,
-      "reading_count": 4017,
-      "bytes": 1991554
+      "reading_count": 4000,
+      "bytes": 1965215
     }
   ],
   "shipped_years": [
@@ -61,7 +61,7 @@
         {
           "date": "2026-04-08",
           "day": "Wednesday",
-          "reading_count": 45
+          "reading_count": 28
         },
         {
           "date": "2026-04-09",
@@ -93,7 +93,7 @@
         {
           "date": "2027-04-28",
           "day": "Wednesday",
-          "reading_count": 45
+          "reading_count": 28
         },
         {
           "date": "2027-04-29",
@@ -125,7 +125,7 @@
         {
           "date": "2028-04-12",
           "day": "Wednesday",
-          "reading_count": 45
+          "reading_count": 28
         },
         {
           "date": "2028-04-13",
@@ -148,12 +148,12 @@
     "pascha_computus": "Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range."
   },
   "projection_rules": {
-    "source_rows": 11923,
-    "output_rows": 11923,
-    "active_rows": 11407,
-    "removed_rows_included": 516,
-    "lower_priority_passage_variants_suppressed": 516,
-    "lower_priority_passage_variants_retained_as_removed": 516,
+    "source_rows": 11905,
+    "output_rows": 11905,
+    "active_rows": 11390,
+    "removed_rows_included": 515,
+    "lower_priority_passage_variants_suppressed": 515,
+    "lower_priority_passage_variants_retained_as_removed": 515,
     "weekday_specific_contexts_disambiguated": 32,
     "legacy_month_spellings_normalized": [
       "Kiak -> Kiahk",
