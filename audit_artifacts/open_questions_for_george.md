@@ -109,6 +109,72 @@ Rows absent from the Wednesday Day Coptic Reader fixture but present in older or
 
 Marker-format decision: this run keeps `removed_marker` as a uniform prose-pattern string that includes the older source and current comparator. A later model pass should decide whether to keep that pattern or split it into a single controlled token plus a separate note field.
 
+## Pascha Wednesday B/C adjudication for George and Fr. Boulos
+
+This section records Pascha Wednesday items that Phase 1 did not apply. They remain present in the data pending review.
+
+### B. Candidate removed or historical readings
+
+Proposed status for these items: `removed/historical, retain with valid_to citation`, pending George and Fr. Boulos review. No deletion is proposed here.
+
+1. First Hour, OT4: `Wis 1:20-2:15`
+   - Section 3 match: Wisdom first-hour candidate, but not confirmed by Section 3 as a named removed item.
+   - Evidence: present in older/local Pascha data and absent from the Coptic Reader Wednesday Day fixture.
+   - Proposed status: unresolved old-edition candidate. Flag separately as possible Wisdom-versus-Sirach source-label issue before assigning valid_to.
+2. First Hour, OT5: `Wis 3:12-24`
+   - Section 3 match: Wisdom first-hour candidate, but not confirmed by Section 3 as a named removed item.
+   - Evidence: present in older/local Pascha data and absent from the Coptic Reader Wednesday Day fixture.
+   - Proposed status: unresolved old-edition candidate. Flag separately as possible Wisdom-versus-Sirach source-label issue before assigning valid_to.
+3. Third Hour, Prophecy/OT3: `Job 27:16-28:2`
+   - Section 3 match: Job 27 to 28 candidate.
+   - Evidence: St. Mary source text gives `Job 27:16-28:2`; Coptic Reader gives only named `Memoirs of Job` in Sixth Hour.
+   - Proposed status: unresolved historical-versus-current-named-reading mapping. Retain as historical pending review.
+4. Third Hour, OT3/Prophecy: `Prov 4:4-27,5:1-4`
+   - Section 3 match: extra Proverbs candidate.
+   - Evidence: present in older/local Pascha data and absent from the Coptic Reader Wednesday Day fixture.
+   - Proposed status: removed/historical, retain with valid_to citation if George and Fr. Boulos confirm it is not current.
+5. Sixth Hour, OT3 split rows: `Job 27:16-20` and `Job 28:1-2`
+   - Section 3 match: Job 27 to 28 candidate.
+   - Evidence: local corrected day/hour layer splits the Job span; Coptic Reader gives only named `Memoirs of Job` without verse boundaries.
+   - Proposed status: unresolved historical-versus-current-named-reading mapping. Retain as historical pending review.
+6. Ninth Hour, Prophecy: `Isa 48:1-6`
+   - Section 3 match: Isaiah 48 candidate removed reading.
+   - Evidence: St. Mary source text p. 308 line 7779; absent from Coptic Reader Wednesday Day fixture.
+   - Proposed status: removed/historical, retain with valid_to citation if confirmed.
+7. Ninth Hour, OT4/Prophecy: `Isa 59:1-17`
+   - Section 3 match: Isaiah 59 candidate removed reading.
+   - Evidence: St. Mary source text p. 320 line 8091; absent from Coptic Reader Wednesday Day fixture.
+   - Proposed status: removed/historical, retain with valid_to citation if confirmed.
+8. Ninth Hour, OT5/Prophecy: `Zech 11:11-14`
+   - Section 3 match: Zechariah 11 candidate removed reading.
+   - Evidence: St. Mary source text p. 322 line 8133; absent from Coptic Reader Wednesday Day fixture.
+   - Proposed status: removed/historical, retain with valid_to citation if confirmed.
+
+### C. Numbering, verse-range, and named-reading artifacts
+
+All items below are proposed-not-applied. They should not be renumbered or merged until George and Fr. Boulos approve the resolution.
+
+1. Third Hour Psalm: local `Ps 41:1,41:6` vs Coptic Reader `Ps 41:6` and `Ps 41:1`
+   - Brenton finding: LXX `Ps 41:6` reads, "Wherefore art thou very sad, O my soul?" and matches the known MT example `Ps 42:5`.
+   - Open seam: Coptic Reader `Ps 41:1` still lacks an exact MT text match in this repo.
+   - Proposed resolution: preserve Coptic Reader LXX labels; keep local composite pending Psalm text review.
+2. Sixth Hour Psalm: local `Ps 83:2,83:5` vs Coptic Reader `Ps 83:2` and `Ps 83:5`
+   - Brenton finding: LXX `Ps 83:2` reads, "How amiable are thy tabernacles," matching MT `Ps 84:1`; LXX `Ps 83:5` reads, "Blessed are they that dwell in thy house," matching MT `Ps 84:4`.
+   - Proposed resolution: preserve Coptic Reader LXX labels and treat the local MT/LXX annotation as pending correction.
+3. Ninth Hour Proverbs: older `Prov 1:10-33` vs current `Prov 1:11-35`
+   - Text finding: standard Proverbs 1 has 33 verses, so `Prov 1:35` is impossible as a normal chapter reference.
+   - Proposed resolution: retain both as source variants pending source review; do not apply a range correction here.
+4. Ninth Hour Psalm: local `Ps 41:5-6` vs Coptic Reader/source-text `Ps 41:5-7`
+   - Brenton finding: LXX `Ps 40:6-8` reads the three-verse seam, "Mine enemies have spoken evil," "And if he came to see me," and "All my enemies whispered," matching the encoded MT example `Ps 41:5-7`.
+   - Proposed resolution: keep Coptic Reader/source-text `Ps 41:5-7` as current candidate and leave local `Ps 41:5-6` pending review.
+5. Eleventh Hour Psalm: local `Ps 6:2-3` vs Coptic Reader LXX `Ps 6:2-3` mapped to MT `Ps 6:1-2`
+   - Brenton finding: LXX `Ps 6:2-3` reads, "O Lord, rebuke me not in thy wrath" and "Pity me, O Lord; for I am weak," matching the encoded MT example `Ps 6:1-2`.
+   - Proposed resolution: preserve the Coptic Reader LXX label and leave local MT-primary `Ps 6:2-3` pending review.
+6. Eleventh Hour Psalm: local `Ps 69:17` vs Coptic Reader LXX `Ps 68:17`
+   - Brenton finding: LXX `Ps 68:17` reads, "Hear me, O Lord; for thy mercy is good," matching the encoded MT example `Ps 69:16`.
+   - Proposed resolution: preserve Coptic Reader LXX `Ps 68:17` and mark local `Ps 69:17` as proposed-not-applied pending approval.
+
+
 ## Phase 7 Step 4 data-review findings
 
 - Proverbs 4 duplicate: `Prov 4:4-27,5:1-4` and `Prov 4:4-5:4` are the same continuous Proverbs span, stored two ways. The generator now normalizes the compact form to the explicit two-segment form, so the Wednesday Third Hour historical reading is one identity while retaining source-row provenance.
