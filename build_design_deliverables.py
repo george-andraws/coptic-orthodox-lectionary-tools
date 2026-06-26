@@ -1197,6 +1197,80 @@ def build_collapsed_source_disclosure(rows: Iterable[dict]) -> tuple[list[dict],
     return disclosure, representative_locators
 
 
+SOURCE_FAMILY_AUTHORITY_PRECEDENCE = {
+    "coptic_reader": 0,
+    "holy_pascha": 1,
+    "holy_pascha_curated_day_hour": 2,
+}
+
+
+def is_katameros_derived_source(family: str, kind: str) -> bool:
+    combined = f"{family} {kind}".lower()
+    return "katameros" in combined
+
+
+def source_family_authority_key(source: dict) -> tuple[int, str, str, str, str]:
+    family = source.get("source_family", "")
+    kind = source.get("source_kind", "")
+    if family in SOURCE_FAMILY_AUTHORITY_PRECEDENCE:
+        priority = SOURCE_FAMILY_AUTHORITY_PRECEDENCE[family]
+    elif is_katameros_derived_source(family, kind):
+        priority = 90
+    else:
+        priority = 50
+    return (
+        priority,
+        family,
+        kind,
+        source.get("source_edition", ""),
+        source.get("source_title", ""),
+    )
+
+
+def choose_collapsed_scalar_source(source_disclosure: list[dict], rows: list[dict]) -> tuple[dict, dict]:
+    if source_disclosure:
+        winning_source = sorted(source_disclosure, key=source_family_authority_key)[0]
+    else:
+        winning_source = {
+            "source_family": rows[0].get("source_family", "") if rows else "",
+            "source_kind": rows[0].get("source_kind", "") if rows else "",
+            "source_edition": rows[0].get("source_edition", "") if rows else "",
+            "source_title": rows[0].get("source_title", "") if rows else "",
+            "source_locator": rows[0].get("source_locator", "") if rows else "",
+        }
+
+    winning_key = (
+        winning_source.get("source_family", ""),
+        winning_source.get("source_kind", ""),
+        winning_source.get("source_edition", ""),
+        winning_source.get("source_title", ""),
+    )
+    winning_row = next((row for row in rows if source_disclosure_key(row) == winning_key), rows[0] if rows else {})
+    return winning_source, winning_row
+
+
+def assert_atomic_scalar_fields(index_rows: list[dict]) -> None:
+    fields = ["source_family", "source_kind"]
+    violations = []
+    for row in index_rows:
+        for field in fields:
+            value = str(row.get(field, ""))
+            if " || " in value:
+                violations.append({
+                    "field": field,
+                    "identity_key": row.get("identity_key", ""),
+                    "occasion": row.get("occasion", ""),
+                    "display_ref": row.get("display_ref", ""),
+                    "value": value,
+                })
+    if violations:
+        preview = "; ".join(
+            f"{item['field']} identity_key={item['identity_key']} occasion={item['occasion']} value={item['value']}"
+            for item in violations[:10]
+        )
+        raise AssertionError(f"reverse_lectionary_index atomic scalar join violation count={len(violations)}: {preview}")
+
+
 def source_disclosure_json(rows: Iterable[dict]) -> str:
     disclosure, _ = build_collapsed_source_disclosure(rows)
     return json.dumps(disclosure, ensure_ascii=False, separators=(",", ":"))
@@ -1302,7 +1376,8 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         slot_type = slot_type_for(first)
         source_orders = [value for value in (int_or_none(row.get("source_order")) for row in rows) if value is not None]
         source_token_orders = [value for value in (int_or_none(row.get("source_token_order")) for row in rows) if value is not None]
-        source_disclosure, representative_locators = build_collapsed_source_disclosure(rows)
+        source_disclosure, _representative_locators = build_collapsed_source_disclosure(rows)
+        winning_source, winning_row = choose_collapsed_scalar_source(source_disclosure, rows)
         index_rows.append({
             "occasion": key[0],
             "calendar_keys": join_unique(row.get("calendar_key", "") for row in rows),
@@ -1324,12 +1399,12 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
             "reading_name": first.get("reading_name", ""),
             "authority_tier": join_unique(row.get("authority_tier", "") for row in rows),
             "current_status": chosen_status,
-            "provenance": join_unique(row.get("provenance", "") for row in rows),
-            "source_family": join_unique(row.get("source_family", "") for row in rows),
-            "source_kind": join_unique(row.get("source_kind", "") for row in rows),
-            "source_edition": join_unique(row.get("source_edition", "") for row in rows),
-            "source_locator": " || ".join(representative_locators),
-            "source_title": join_unique(row.get("source_title", "") for row in rows),
+            "provenance": winning_row.get("provenance", ""),
+            "source_family": winning_source.get("source_family", ""),
+            "source_kind": winning_source.get("source_kind", ""),
+            "source_edition": winning_source.get("source_edition", winning_row.get("source_edition", "")),
+            "source_locator": winning_source.get("source_locator", winning_row.get("source_locator", "")),
+            "source_title": winning_source.get("source_title", winning_row.get("source_title", "")),
             "source_disclosure_count": str(len(source_disclosure)),
             "source_disclosure": json.dumps(source_disclosure, ensure_ascii=False, separators=(",", ":")),
             "attestation_year_min": str(min(years)) if years else "",
@@ -1353,6 +1428,7 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11905")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in index_rows):
         raise AssertionError("reverse_lectionary_index must resolve annual fixed Coptic day rows to specific Coptic dates")
+    assert_atomic_scalar_fields(index_rows)
     return index_rows, status_disagreements
 
 

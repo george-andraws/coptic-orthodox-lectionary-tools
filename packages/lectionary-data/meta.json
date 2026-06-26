@@ -1,12 +1,12 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.1.6",
+  "version": "1.1.8",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "a854e1585fefef5d96ce3e96202e43da5ed4e5fe",
-  "source_tree_dirty": false,
-  "generated_at": "2026-06-25T21:36:42.283Z",
+  "source_repo_commit": "bd10e4371e510c6c794cdd14851f8a0bb6e5f312",
+  "source_tree_dirty": true,
+  "generated_at": "2026-06-26T01:00:39.965Z",
   "occasion_index_rows": 11905,
   "daily_files": [
     {
@@ -154,6 +154,13 @@
     "removed_rows_included": 515,
     "lower_priority_passage_variants_suppressed": 515,
     "lower_priority_passage_variants_retained_as_removed": 515,
+    "removal_effective_version_baseline": {
+      "source_version": "1.1.6",
+      "entry_count": 516,
+      "distinct_identity_key_count": 249,
+      "duplicate_identity_key_count": 70
+    },
+    "removal_effective_version_baseline_miss_count": 0,
     "weekday_specific_contexts_disambiguated": 32,
     "legacy_month_spellings_normalized": [
       "Kiak -> Kiahk",

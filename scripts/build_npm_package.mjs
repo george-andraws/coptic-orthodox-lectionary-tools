@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.1.7';
+const VERSION = '1.1.8';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -26,6 +26,12 @@ const DAILY_DIR = path.join(DATA_DIR, 'daily');
 
 const OCCASION_SOURCE = path.join(DESIGN_DIR, 'reverse_lectionary_index.jsonl');
 const OCCASION_DEST = path.join(DATA_DIR, 'reverse_lectionary_index.jsonl');
+const REMOVAL_EFFECTIVE_VERSION_BASELINE = path.join(
+  REPO_ROOT,
+  'scripts',
+  'package_baselines',
+  'removal_effective_versions_1.1.6.json',
+);
 
 function readGitHead() {
   return execFileSync('git', ['rev-parse', 'HEAD'], {
@@ -304,7 +310,78 @@ function isProjectionRemovedRow(row) {
   return row?.active === false || String(row?.status || '').toLowerCase() === 'removed';
 }
 
-function annotateRemovedProjectionRow(row, suppression) {
+async function loadRemovalEffectiveVersionBaseline() {
+  const body = await readFile(REMOVAL_EFFECTIVE_VERSION_BASELINE, 'utf8');
+  const baseline = JSON.parse(body);
+  const entriesByIdentityKey = baseline.entries_by_identity_key || {};
+  for (const [identityKey, entries] of Object.entries(entriesByIdentityKey)) {
+    if (!Array.isArray(entries) || entries.length === 0) {
+      throw new Error(`Invalid removal effective-version baseline for identity_key=${identityKey}`);
+    }
+    for (const entry of entries) {
+      if (!entry.removal_effective_version) {
+        throw new Error(`Missing removal_effective_version in baseline for identity_key=${identityKey}`);
+      }
+      if (!entry.removal_context_key) {
+        throw new Error(`Missing removal_context_key in baseline for identity_key=${identityKey}`);
+      }
+    }
+  }
+  return baseline;
+}
+
+function resolveRemovalEffectiveVersion(row, suppression, baseline) {
+  const identityKey = String(row.identity_key || '');
+  const contextKey = String(suppression.context_key || '');
+  const entries = baseline.entries_by_identity_key?.[identityKey] || [];
+  if (entries.length === 0) {
+    return { value: '', reason: 'identity_key not found in baseline' };
+  }
+  if (entries.length === 1) {
+    return { value: entries[0].removal_effective_version, reason: 'matched unique identity_key' };
+  }
+  const exact = entries.find((entry) => entry.removal_context_key === contextKey);
+  if (exact) {
+    return { value: exact.removal_effective_version, reason: 'matched identity_key and removal_context_key' };
+  }
+  return { value: '', reason: 'duplicated identity_key requires exact removal_context_key baseline match' };
+}
+
+function removalBaselineMiss(row, suppression, reason) {
+  return normalizeObjectStrings({
+    identity_key: row.identity_key || '',
+    occasion: row.occasion || '',
+    service_section: row.service_section || '',
+    service_hour: row.service_hour || '',
+    slot: row.slot || '',
+    removal_context_key: suppression.context_key || '',
+    display_ref: row.display_ref || '',
+    reason,
+  });
+}
+
+function formatRemovalBaselineMisses(misses) {
+  const rows = misses.map((miss) => [
+    `identity_key=${miss.identity_key}`,
+    `occasion=${miss.occasion}`,
+    `service_section=${miss.service_section}`,
+    `service_hour=${miss.service_hour}`,
+    `slot=${miss.slot}`,
+    `removal_context_key=${miss.removal_context_key}`,
+  ].join(' | '));
+  return [
+    `Removal effective-version baseline miss for ${misses.length} projection-removed row(s).`,
+    'Every projection-removed row must resolve to scripts/package_baselines/removal_effective_versions_1.1.6.json; refusing to default to package VERSION.',
+    ...rows,
+  ].join('\n');
+}
+
+function annotateRemovedProjectionRow(row, suppression, baseline, baselineMisses) {
+  const resolved = resolveRemovalEffectiveVersion(row, suppression, baseline);
+  if (!resolved.value) {
+    baselineMisses.push(removalBaselineMiss(row, suppression, resolved.reason));
+    return row;
+  }
   return normalizeObjectStrings({
     ...row,
     active: false,
@@ -312,7 +389,7 @@ function annotateRemovedProjectionRow(row, suppression) {
     removed_marker: row.removed_marker || 'removed_by_source_priority_projection',
     removal_reason: 'lower_priority_overlap_with_date_resolved_source',
     removal_context_key: suppression.context_key,
-    removal_effective_version: VERSION,
+    removal_effective_version: resolved.value,
     preferred_source_family: suppression.preferred_source_family,
     preferred_source_kind: suppression.preferred_source_kind,
     preferred_source_locator: suppression.preferred_source_locator,
@@ -323,7 +400,7 @@ function annotateRemovedProjectionRow(row, suppression) {
   });
 }
 
-function suppressLowerPriorityPassageVariants(rows) {
+function suppressLowerPriorityPassageVariants(rows, removalEffectiveVersionBaseline) {
   const groups = new Map();
   for (const [index, row] of rows.entries()) {
     if (String(row.removed_marker || '').trim()) continue;
@@ -362,15 +439,21 @@ function suppressLowerPriorityPassageVariants(rows) {
     }
   }
 
+  const baselineMisses = [];
   const outputRows = rows.map((row, index) => {
     const suppression = suppressed.get(index);
-    return suppression ? annotateRemovedProjectionRow(row, suppression) : row;
+    return suppression ? annotateRemovedProjectionRow(row, suppression, removalEffectiveVersionBaseline, baselineMisses) : row;
   });
+
+  if (baselineMisses.length > 0) {
+    throw new Error(formatRemovalBaselineMisses(baselineMisses));
+  }
 
   return {
     rows: outputRows,
     activeRows: outputRows.filter((row) => !isProjectionRemovedRow(row)),
     suppressions: [...suppressed.values()],
+    baseline_miss_count: baselineMisses.length,
   };
 }
 
@@ -400,6 +483,7 @@ function disambiguateWeekdaySpecificRows(rows) {
 }
 
 async function projectReverseIndex() {
+  const removalEffectiveVersionBaseline = await loadRemovalEffectiveVersionBaseline();
   const body = await readFile(OCCASION_SOURCE, 'utf8');
   const parsedRows = body
     .split(/\r?\n/)
@@ -413,7 +497,7 @@ async function projectReverseIndex() {
     });
 
   const disambiguated = disambiguateWeekdaySpecificRows(parsedRows);
-  const projected = suppressLowerPriorityPassageVariants(disambiguated.rows);
+  const projected = suppressLowerPriorityPassageVariants(disambiguated.rows, removalEffectiveVersionBaseline);
   await writeFile(OCCASION_DEST, `${projected.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   return {
     rows: projected.rows,
@@ -424,6 +508,13 @@ async function projectReverseIndex() {
     removed_rows_included: projected.suppressions.length,
     lower_priority_passage_variants_suppressed: projected.suppressions.length,
     lower_priority_passage_variants_retained_as_removed: projected.suppressions.length,
+    removal_effective_version_baseline: {
+      source_version: removalEffectiveVersionBaseline.source_version,
+      entry_count: removalEffectiveVersionBaseline.entry_count,
+      distinct_identity_key_count: removalEffectiveVersionBaseline.distinct_identity_key_count,
+      duplicate_identity_key_count: removalEffectiveVersionBaseline.duplicate_identity_key_count,
+    },
+    removal_effective_version_baseline_miss_count: projected.baseline_miss_count,
     weekday_specific_contexts_disambiguated: disambiguated.disambiguated,
     legacy_month_spellings_normalized: ['Kiak -> Kiahk', 'Baba -> Babah'],
     suppressed_examples: projected.suppressions.slice(0, 20),

@@ -1,0 +1,5230 @@
+{
+  "distinct_identity_key_count": 249,
+  "duplicate_identity_key_count": 70,
+  "duplicate_identity_keys": {
+    "rid_061a5da1ef8a9cd07088": 4,
+    "rid_0719aba1fd722ef13383": 8,
+    "rid_08a164916dec8b6a6733": 5,
+    "rid_0bff5db63a2c5e0a7e42": 2,
+    "rid_13c299dc39a55b6388b2": 4,
+    "rid_15681ed41647cf793d1e": 3,
+    "rid_19722b9c6693793c1415": 2,
+    "rid_1d81404309efbefe30e7": 4,
+    "rid_25de9d034254f5c883a1": 3,
+    "rid_2c2baf95a89bbcfaf288": 5,
+    "rid_2c689744523478f2749d": 5,
+    "rid_2dc4f93407546fc3d949": 6,
+    "rid_31aa9fef167c209304c7": 5,
+    "rid_35897a8bf8b3ae6c8d79": 6,
+    "rid_377779f8ff1ee868fbe6": 7,
+    "rid_39ae4e98e33691fbccd1": 5,
+    "rid_3ea189be98ad416c9c45": 6,
+    "rid_4443600214caa17fcaee": 7,
+    "rid_48e4d010b6ec36c5473d": 8,
+    "rid_49ec2692527bb2cc95ab": 8,
+    "rid_4a842b1c90617c4d3350": 3,
+    "rid_52fb38bc354ae011f654": 2,
+    "rid_5d4036fe50c9b3b18f71": 5,
+    "rid_63d8fe7a9e9154128ec5": 8,
+    "rid_657ca0718814bb870b2b": 2,
+    "rid_67b2497331d9ece43cef": 2,
+    "rid_67c328d6558e62a60206": 3,
+    "rid_6888c5d780ea42c035e4": 4,
+    "rid_6c2449103a57f2d93626": 10,
+    "rid_6ccefd1363f399b4c944": 7,
+    "rid_7c71f36964601d23c46a": 2,
+    "rid_80b8f58fe4c9388d024c": 9,
+    "rid_84b0ceac54e75b9ed91d": 3,
+    "rid_87e05d7e20cff84baf7b": 2,
+    "rid_8dde20acf8983675fae6": 5,
+    "rid_90d87e492ba18fe753e9": 4,
+    "rid_915f84e5b3e078a5a962": 7,
+    "rid_9265b95c454d37e66c9f": 8,
+    "rid_92aae2895a59ca365431": 9,
+    "rid_9b6d3b88a15fb8b0e49a": 2,
+    "rid_a13e38e3d727d1d7e70d": 6,
+    "rid_a35338e5e59379513f20": 2,
+    "rid_a4b6e37a52931a1cb056": 2,
+    "rid_a5eea66eba2812446a0c": 2,
+    "rid_aa342d8a21a0ede1e723": 3,
+    "rid_aad3c1665271c51d6931": 9,
+    "rid_af92a19084930ccb825e": 7,
+    "rid_afeaa6e4bc0cc8f1d038": 11,
+    "rid_b690e32a49271d81b7b9": 2,
+    "rid_b8edd2df4e607254182b": 2,
+    "rid_b96ebb46849ea8d4d7a6": 2,
+    "rid_ba68661deadf64018e16": 2,
+    "rid_bbf8de01e04d3ce0d57a": 5,
+    "rid_bc9bf43f3795d2c1c256": 2,
+    "rid_c83c6764eb7c45ea4eab": 3,
+    "rid_c9ff9a72883959072149": 5,
+    "rid_d48e87fae9231ecbf09e": 5,
+    "rid_d6b351115e6125d45624": 7,
+    "rid_d7b1a7a5187554872006": 2,
+    "rid_d8ced3aa3d7f74be44bd": 4,
+    "rid_e0fbf80747507e81a74b": 10,
+    "rid_e2d77d40134145b5f4c6": 8,
+    "rid_e2dfce853c59d563a227": 8,
+    "rid_e450b6e902cf563db41e": 4,
+    "rid_e7ea1bbca9d7c1374493": 4,
+    "rid_ebbe04c6430f7793ddc3": 4,
+    "rid_ebdf693905a6caa039cc": 8,
+    "rid_f54d6885def502dfee8f": 2,
+    "rid_f895fe12fbca3cc0b95e": 2,
+    "rid_fa7da2e5db1139d1ff76": 4
+  },
+  "entries_by_identity_key": {
+    "rid_000333f2b55f4f89b928": [
+      {
+        "display_ref": "Jer 9:7-11",
+        "occasion": "Great Thursday Eve",
+        "removal_context_key": "great thursday eve|ninth hour|ninth hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Ninth Hour",
+        "service_section": "Ninth Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_0026b32602acd250761d": [
+      {
+        "display_ref": "Ps 47:6-7 (LXX Ps 46:6-7)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the sixth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_00de28edc62a694408d5": [
+      {
+        "display_ref": "Ps 62:2,62:7 (LXX Ps 61:2; Ps 61:7)",
+        "occasion": "Tuesday Eve",
+        "removal_context_key": "tuesday eve|first hour|first hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_01e603002a1f96667f8e": [
+      {
+        "display_ref": "1Jn 3:1",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the third week of the holy fifty days|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_027380b484c903e50881": [
+      {
+        "display_ref": "Amos 9:4-5,9:7-10",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|third hour|third hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Third Hour",
+        "service_section": "Third Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_028a87a704c4fc02b6f4": [
+      {
+        "display_ref": "1Thess 4:13-5",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the first week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_02b35b44f1d297c9e858": [
+      {
+        "display_ref": "Ps 106:4-5 (LXX Ps 105:4-5)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the first week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_04f24211186bc48c60f0": [
+      {
+        "display_ref": "Ps 5:3-4",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the second week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_061a5da1ef8a9cd07088": [
+      {
+        "display_ref": "Heb 4:14-16",
+        "occasion": "Amshir 11",
+        "removal_context_key": "amshir 11|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 4:14-16",
+        "occasion": "Amshir 20",
+        "removal_context_key": "amshir 20|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 4:14-16",
+        "occasion": "Babah 16",
+        "removal_context_key": "babah 16|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 4:14-16",
+        "occasion": "Babah 18",
+        "removal_context_key": "babah 18|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_0719aba1fd722ef13383": [
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:10 (LXX Ps 131:10)",
+        "occasion": "Mesra 29",
+        "removal_context_key": "mesra 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_074f82179a447e761e63": [
+      {
+        "display_ref": "Ps 6:2-3,69:17 (LXX Ps 6:2-3,69:17; Ps 68:17)",
+        "occasion": "Wednesday",
+        "removal_context_key": "wednesday|eleventh hour|eleventh hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Eleventh Hour",
+        "service_section": "Eleventh Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_08a164916dec8b6a6733": [
+      {
+        "display_ref": "Acts 8:1",
+        "occasion": "Abib 12",
+        "removal_context_key": "abib 12|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 8:1",
+        "occasion": "Abib 24",
+        "removal_context_key": "abib 24|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 8:1",
+        "occasion": "Abib 4",
+        "removal_context_key": "abib 4|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 8:1",
+        "occasion": "Amshir 6",
+        "removal_context_key": "amshir 6|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 8:1",
+        "occasion": "Mesra 9",
+        "removal_context_key": "mesra 9|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_08c0b16a6c966da7728e": [
+      {
+        "display_ref": "Ps 51:2-3 (LXX Ps 50:2-3)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the seventh week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_0bff5db63a2c5e0a7e42": [
+      {
+        "display_ref": "Phil 3:20-21",
+        "occasion": "Babah 24",
+        "removal_context_key": "babah 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Phil 3:20-21",
+        "occasion": "Mesra 25",
+        "removal_context_key": "mesra 25|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_0d47201196df41908f58": [
+      {
+        "display_ref": "Jn 17:1-8",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_0f3829504fa23a82482d": [
+      {
+        "display_ref": "Ps 33:10,51:4 (LXX Ps 32:10; Ps 50:4)",
+        "occasion": "Wednesday",
+        "removal_context_key": "wednesday|first hour|first hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_10ece6581a376b45b8d1": [
+      {
+        "display_ref": "Ps 54:1-2 (LXX Ps 53:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "tuesday of the fourth week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_13c299dc39a55b6388b2": [
+      {
+        "display_ref": "Ps 68:11 (LXX Ps 67:11)",
+        "occasion": "Abib 18",
+        "removal_context_key": "abib 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 68:11 (LXX Ps 67:11)",
+        "occasion": "Abib 29",
+        "removal_context_key": "abib 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 68:11 (LXX Ps 67:11)",
+        "occasion": "Amshir 10",
+        "removal_context_key": "amshir 10|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 68:11 (LXX Ps 67:11)",
+        "occasion": "Amshir 21",
+        "removal_context_key": "amshir 21|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_15681ed41647cf793d1e": [
+      {
+        "display_ref": "Ps 96:1-2 (LXX Ps 95:1-2)",
+        "occasion": "Abib 2",
+        "removal_context_key": "abib 2|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      },
+      {
+        "display_ref": "Ps 96:1-2 (LXX Ps 95:1-2)",
+        "occasion": "Abib 9",
+        "removal_context_key": "abib 9|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      },
+      {
+        "display_ref": "Ps 96:1-2 (LXX Ps 95:1-2)",
+        "occasion": "Babah 30",
+        "removal_context_key": "babah 30|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_18480321110d96187aca": [
+      {
+        "display_ref": "Gal 6:1-2",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fifth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_18ea75ead4c353d5a479": [
+      {
+        "display_ref": "Eph 2:19-3",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the second week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_19722b9c6693793c1415": [
+      {
+        "display_ref": "Rom 5:1-5",
+        "occasion": "Amshir 1",
+        "removal_context_key": "amshir 1|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Rom 5:1-5",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the fifth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_19e4a5eed4b8f0ad9f77": [
+      {
+        "display_ref": "Acts 28:1-10",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "lazarus saturday of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_1cd81b3be87ebbd640b0": [
+      {
+        "display_ref": "Ps 5:1-2",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the first week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_1d81404309efbefe30e7": [
+      {
+        "display_ref": "Heb 12:3-14",
+        "occasion": "Abib 12",
+        "removal_context_key": "abib 12|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 12:3-14",
+        "occasion": "Abib 24",
+        "removal_context_key": "abib 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 12:3-14",
+        "occasion": "Abib 4",
+        "removal_context_key": "abib 4|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 12:3-14",
+        "occasion": "Mesra 9",
+        "removal_context_key": "mesra 9|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_1edc6c0651dcbab543f4": [
+      {
+        "display_ref": "Ps 86:12-13 (LXX Ps 85:12-13)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "monday of the seventh week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_2085cfd33c7ff758f1c4": [
+      {
+        "display_ref": "Ps 84:1 (LXX Ps 83:2)",
+        "occasion": "Wednesday of Holy Pascha",
+        "removal_context_key": "wednesday|sixth hour|sixth hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Sixth Hour",
+        "service_section": "Sixth Hour",
+        "slot": "psalm"
+      }
+    ],
+    "rid_220cef5e132d1eca30c2": [
+      {
+        "display_ref": "Ps 91:13-14 (LXX Ps 90:13-14)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the seventh week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_24b546792e756182e162": [
+      {
+        "display_ref": "Ps 41:2 (LXX Ps 40:2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the second week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_25de9d034254f5c883a1": [
+      {
+        "display_ref": "Ps 97:11-12 (LXX Ps 96:11-12)",
+        "occasion": "Abib 27",
+        "removal_context_key": "abib 27|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      },
+      {
+        "display_ref": "Ps 97:11-12 (LXX Ps 96:11-12)",
+        "occasion": "Mesra 23",
+        "removal_context_key": "mesra 23|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      },
+      {
+        "display_ref": "Ps 97:11-12 (LXX Ps 96:11-12)",
+        "occasion": "Mesra 27",
+        "removal_context_key": "mesra 27|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_268f49e0e01001f2a5df": [
+      {
+        "display_ref": "2Tim 3:1-17",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the seventh week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_29e925870813b04ae8ef": [
+      {
+        "display_ref": "Acts 27:38-44",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "lazarus saturday of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_29f76ed87fb595ab88fa": [
+      {
+        "display_ref": "1Tim 2:1-3",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the sixth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_2a121454a5d3724644ea": [
+      {
+        "display_ref": "Acts 25:1-12",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_2c2baf95a89bbcfaf288": [
+      {
+        "display_ref": "Acts 28:1-6",
+        "occasion": "Abib 20",
+        "removal_context_key": "abib 20|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 28:1-6",
+        "occasion": "Amshir 25",
+        "removal_context_key": "amshir 25|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 28:1-6",
+        "occasion": "Amshir 28",
+        "removal_context_key": "amshir 28|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 28:1-6",
+        "occasion": "Babah 15",
+        "removal_context_key": "babah 15|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 28:1-6",
+        "occasion": "Babah 19",
+        "removal_context_key": "babah 19|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_2c689744523478f2749d": [
+      {
+        "display_ref": "1Pet 2:18-25",
+        "occasion": "Abib 3",
+        "removal_context_key": "abib 3|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 2:18-25",
+        "occasion": "Babah 11",
+        "removal_context_key": "babah 11|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 2:18-25",
+        "occasion": "Babah 17",
+        "removal_context_key": "babah 17|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 2:18-25",
+        "occasion": "Babah 2",
+        "removal_context_key": "babah 2|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 2:18-25",
+        "occasion": "Mesra 18",
+        "removal_context_key": "mesra 18|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_2cd04e32de642e573200": [
+      {
+        "display_ref": "Ps 61:5 (LXX Ps 60:5)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_2cd865e2b8ccb91791e8": [
+      {
+        "display_ref": "Ps 19:2 (LXX Ps 18:2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the fifth week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_2ce1fd311c68fff21d91": [
+      {
+        "display_ref": "Ps 42:8 (LXX Ps 41:8)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the second week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_2d0732bdc68361156d84": [
+      {
+        "display_ref": "Ps 147:1-2 (LXX Ps 146:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the sixth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_2dc4f93407546fc3d949": [
+      {
+        "display_ref": "Mark 9:1",
+        "occasion": "Abib 19",
+        "removal_context_key": "abib 19|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 9:1",
+        "occasion": "Abib 27",
+        "removal_context_key": "abib 27|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 9:1",
+        "occasion": "Abib 30",
+        "removal_context_key": "abib 30|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 9:1",
+        "occasion": "Mesra 20",
+        "removal_context_key": "mesra 20|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 9:1",
+        "occasion": "Mesra 23",
+        "removal_context_key": "mesra 23|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 9:1",
+        "occasion": "Mesra 27",
+        "removal_context_key": "mesra 27|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      }
+    ],
+    "rid_31aa9fef167c209304c7": [
+      {
+        "display_ref": "Acts 27:42-44",
+        "occasion": "Abib 20",
+        "removal_context_key": "abib 20|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 27:42-44",
+        "occasion": "Amshir 25",
+        "removal_context_key": "amshir 25|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 27:42-44",
+        "occasion": "Amshir 28",
+        "removal_context_key": "amshir 28|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 27:42-44",
+        "occasion": "Babah 15",
+        "removal_context_key": "babah 15|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 27:42-44",
+        "occasion": "Babah 19",
+        "removal_context_key": "babah 19|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_338e2bc70e8019e2a483": [
+      {
+        "display_ref": "Ps 108:3-4 (LXX Ps 107:3-4)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the seventh week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_3433e71542d75009e7f6": [
+      {
+        "display_ref": "Ps 67:5-7 (LXX Ps 66:5-7)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "tuesday of the fourth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_35897a8bf8b3ae6c8d79": [
+      {
+        "display_ref": "Acts 13:1-12",
+        "occasion": "Abib 21",
+        "removal_context_key": "abib 21|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 13:1-12",
+        "occasion": "Abib 25",
+        "removal_context_key": "abib 25|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 13:1-12",
+        "occasion": "Babah 10",
+        "removal_context_key": "babah 10|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 13:1-12",
+        "occasion": "Babah 28",
+        "removal_context_key": "babah 28|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 13:1-12",
+        "occasion": "Babah 4",
+        "removal_context_key": "babah 4|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 13:1-12",
+        "occasion": "Babah 8",
+        "removal_context_key": "babah 8|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_377779f8ff1ee868fbe6": [
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Abib 10",
+        "removal_context_key": "abib 10|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Abib 13",
+        "removal_context_key": "abib 13|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Amshir 22",
+        "removal_context_key": "amshir 22|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Amshir 24",
+        "removal_context_key": "amshir 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Babah 23",
+        "removal_context_key": "babah 23|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Mesra 11",
+        "removal_context_key": "mesra 11|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 8:1-13",
+        "occasion": "Mesra 24",
+        "removal_context_key": "mesra 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_39a81b1308eae48df2f1": [
+      {
+        "display_ref": "Ps 116:1-2 (LXX Ps 114:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "tuesday of the sixth week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_39ae4e98e33691fbccd1": [
+      {
+        "display_ref": "Acts 7:44-60",
+        "occasion": "Abib 12",
+        "removal_context_key": "abib 12|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 7:44-60",
+        "occasion": "Abib 24",
+        "removal_context_key": "abib 24|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 7:44-60",
+        "occasion": "Abib 4",
+        "removal_context_key": "abib 4|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 7:44-60",
+        "occasion": "Amshir 6",
+        "removal_context_key": "amshir 6|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 7:44-60",
+        "occasion": "Mesra 9",
+        "removal_context_key": "mesra 9|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_3b91d939a733d182a68b": [
+      {
+        "display_ref": "Ps 97:7-9 (LXX Ps 96:7-9)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the first week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_3c38471e9828c00a8af8": [
+      {
+        "display_ref": "Matt 23:13-39",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fifth week of great lent|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_3cd19c837969972cfdaf": [
+      {
+        "display_ref": "Ps 110:1-2 (LXX Ps 109:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "friday of the sixth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_3de2395545ee6abe244b": [
+      {
+        "display_ref": "Ps 118:14-16 (LXX Ps 117:14-16)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the fourth week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_3e62e1b53bdc96843a32": [
+      {
+        "display_ref": "Ps 138:1-2 (LXX Ps 137:1-2)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the fifth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_3ea189be98ad416c9c45": [
+      {
+        "display_ref": "Mark 8:34-38",
+        "occasion": "Abib 19",
+        "removal_context_key": "abib 19|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 8:34-38",
+        "occasion": "Abib 27",
+        "removal_context_key": "abib 27|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 8:34-38",
+        "occasion": "Abib 30",
+        "removal_context_key": "abib 30|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 8:34-38",
+        "occasion": "Mesra 20",
+        "removal_context_key": "mesra 20|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 8:34-38",
+        "occasion": "Mesra 23",
+        "removal_context_key": "mesra 23|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      },
+      {
+        "display_ref": "Mark 8:34-38",
+        "occasion": "Mesra 27",
+        "removal_context_key": "mesra 27|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      }
+    ],
+    "rid_3ebb200b973b2da07ef5": [
+      {
+        "display_ref": "Ps 112:9 (LXX Ps 111:9)",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_401f30d0c23d534559b6": [
+      {
+        "display_ref": "Lk 12:1-3",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the sixth week of the holy fifty days|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      }
+    ],
+    "rid_42416f33506e9fc5b9aa": [
+      {
+        "display_ref": "Rom 14:19-15",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the second week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_4443600214caa17fcaee": [
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4-6 (LXX Ps 109:4-6)",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_4592fb05f153b21853d0": [
+      {
+        "display_ref": "Ps 26:2-3 (LXX Ps 25:2-3)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the sixth week of great lent|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_459d5b9ccee8e5bb221f": [
+      {
+        "display_ref": "Phil 2:4-11",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|ninth hour|ninth hour|pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Ninth Hour",
+        "service_section": "Ninth Hour",
+        "slot": "Pauline"
+      }
+    ],
+    "rid_4649092dba18f20b9ce8": [
+      {
+        "display_ref": "Ps 118:19-20 (LXX Ps 117:19-20)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the second week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_4894d98027c95908e291": [
+      {
+        "display_ref": "Rom 4:13-25",
+        "occasion": "Amshir 1",
+        "removal_context_key": "amshir 1|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_48e4d010b6ec36c5473d": [
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:18 (LXX Ps 131:18)",
+        "occasion": "Mesra 29",
+        "removal_context_key": "mesra 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_49ec2692527bb2cc95ab": [
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Abib 20",
+        "removal_context_key": "abib 20|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Abib 25",
+        "removal_context_key": "abib 25|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Amshir 25",
+        "removal_context_key": "amshir 25|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Amshir 28",
+        "removal_context_key": "amshir 28|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Babah 15",
+        "removal_context_key": "babah 15|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Babah 19",
+        "removal_context_key": "babah 19|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Babah 28",
+        "removal_context_key": "babah 28|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:39 (LXX Ps 17:39)",
+        "occasion": "Babah 8",
+        "removal_context_key": "babah 8|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_4a842b1c90617c4d3350": [
+      {
+        "display_ref": "2Tim 4:1-18",
+        "occasion": "Abib 2",
+        "removal_context_key": "abib 2|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-18",
+        "occasion": "Abib 9",
+        "removal_context_key": "abib 9|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-18",
+        "occasion": "Babah 30",
+        "removal_context_key": "babah 30|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_4af80e7a6f8ba1d41eb7": [
+      {
+        "display_ref": "Ps 42:5 (LXX Ps 41:6)",
+        "occasion": "Wednesday of Holy Pascha",
+        "removal_context_key": "wednesday|third hour|third hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Third Hour",
+        "service_section": "Third Hour",
+        "slot": "psalm"
+      }
+    ],
+    "rid_4b0cf96841bb1c8ced14": [
+      {
+        "display_ref": "1Pet 4:15-19",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the fifth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_4cead10d349a8e5ed3cb": [
+      {
+        "display_ref": "Gal 5:16-26",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fifth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_525552a0a58e739b8fbb": [
+      {
+        "display_ref": "Ps 61:1 (LXX Ps 60:1)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_52fb38bc354ae011f654": [
+      {
+        "display_ref": "2Cor 12:1-12",
+        "occasion": "Abib 6",
+        "removal_context_key": "abib 6|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 12:1-12",
+        "occasion": "Babah 26",
+        "removal_context_key": "babah 26|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_539f18f1cda22dd4474d": [
+      {
+        "display_ref": "Ps 9:13-14",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the sixth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_54852cee6c6bdc46f72f": [
+      {
+        "display_ref": "Ps 119:49 (LXX Ps 118:49)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the fourth week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_5605110ab19d4dac04d3": [
+      {
+        "display_ref": "Ps 20:5-6 (LXX Ps 19:5-6)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the third week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_562685130a71f3ea6163": [
+      {
+        "display_ref": "1Cor 14:1-4",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the seventh week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_5684a0aa4ead3f993667": [
+      {
+        "display_ref": "Ps 118:18-19 (LXX Ps 117:18-19)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "tuesday of the fifth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_57a1cad6b6b00bb5d348": [
+      {
+        "display_ref": "James 4:11-5",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the fourth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_5848ce8891009ef845d3": [
+      {
+        "display_ref": "Heb 12:28-29",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the second week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_5998abd7f8444a457159": [
+      {
+        "display_ref": "Rom 7:8",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_59a4739e08bb44f1596a": [
+      {
+        "display_ref": "Ps 73:24 (LXX Ps 72:24)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_5a50638a444324892993": [
+      {
+        "display_ref": "1Cor 10:14-33",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the fifth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_5b0fc2504fb6492012ec": [
+      {
+        "display_ref": "1Jn 4:18-5",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the fifth week of the holy fifty days|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_5b7bb53937400f09bbf0": [
+      {
+        "display_ref": "1Pet 5:1-5",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the fifth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_5d4036fe50c9b3b18f71": [
+      {
+        "display_ref": "1Pet 3:1-7",
+        "occasion": "Abib 3",
+        "removal_context_key": "abib 3|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 3:1-7",
+        "occasion": "Babah 11",
+        "removal_context_key": "babah 11|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 3:1-7",
+        "occasion": "Babah 17",
+        "removal_context_key": "babah 17|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 3:1-7",
+        "occasion": "Babah 2",
+        "removal_context_key": "babah 2|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 3:1-7",
+        "occasion": "Mesra 18",
+        "removal_context_key": "mesra 18|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_5d8c3d9ac563f4f03e39": [
+      {
+        "display_ref": "Exod 15:23-16:3",
+        "occasion": "Great Thursday",
+        "removal_context_key": "great thursday|first hour|first hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_5e07420731b5e5918c92": [
+      {
+        "display_ref": "Ps 111:1-2 (LXX Ps 110:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the second week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_5eace5c3d10681815f4c": [
+      {
+        "display_ref": "1Cor 4:16-5",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the first week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_61374420c6cbbff78e3d": [
+      {
+        "display_ref": "Ps 119:50 (LXX Ps 118:50)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the fourth week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_635c3219553c42e258c9": [
+      {
+        "display_ref": "James 4:1-6",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_636b325ce818d089c903": [
+      {
+        "display_ref": "Ps 84:4 (LXX Ps 83:5)",
+        "occasion": "Wednesday of Holy Pascha",
+        "removal_context_key": "wednesday|sixth hour|sixth hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Sixth Hour",
+        "service_section": "Sixth Hour",
+        "slot": "psalm"
+      }
+    ],
+    "rid_63d8fe7a9e9154128ec5": [
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Abib 12",
+        "removal_context_key": "abib 12|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Abib 21",
+        "removal_context_key": "abib 21|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Abib 24",
+        "removal_context_key": "abib 24|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Abib 4",
+        "removal_context_key": "abib 4|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Amshir 6",
+        "removal_context_key": "amshir 6|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Babah 10",
+        "removal_context_key": "babah 10|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Babah 4",
+        "removal_context_key": "babah 4|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 12:1-12",
+        "occasion": "Mesra 9",
+        "removal_context_key": "mesra 9|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_646c3f9b562becc071a7": [
+      {
+        "display_ref": "Ps 31:5,143:6-7 (LXX Ps 30:5; Ps 142:6-7)",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|eleventh hour|eleventh hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Eleventh Hour",
+        "service_section": "Eleventh Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_657ca0718814bb870b2b": [
+      {
+        "display_ref": "1Cor 12:31",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the seventh week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "1Cor 12:31",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the fourth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_67a92aa1446f714f69f6": [
+      {
+        "display_ref": "Ps 57:8-10 (LXX Ps 56:8-10)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the third week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_67b2497331d9ece43cef": [
+      {
+        "display_ref": "Heb 12:1-2",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 12:1-2",
+        "occasion": "Mesra 8",
+        "removal_context_key": "mesra 8|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_67c072b2705a17ca8b8b": [
+      {
+        "display_ref": "1Pet 2:1-6",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "lazarus saturday of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_67c328d6558e62a60206": [
+      {
+        "display_ref": "Ps 46:1 (LXX Ps 45:1)",
+        "occasion": "Abib 23",
+        "removal_context_key": "abib 23|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 46:1 (LXX Ps 45:1)",
+        "occasion": "Babah 29",
+        "removal_context_key": "babah 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 46:1 (LXX Ps 45:1)",
+        "occasion": "Mesra 10",
+        "removal_context_key": "mesra 10|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_6888c5d780ea42c035e4": [
+      {
+        "display_ref": "2Pet 1:19-21",
+        "occasion": "Amshir 26",
+        "removal_context_key": "amshir 26|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "2Pet 1:19-21",
+        "occasion": "Babah 21",
+        "removal_context_key": "babah 21|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "2Pet 1:19-21",
+        "occasion": "Mesra 22",
+        "removal_context_key": "mesra 22|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "2Pet 1:19-21",
+        "occasion": "Mesra 4",
+        "removal_context_key": "mesra 4|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_6c2449103a57f2d93626": [
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Abib 2",
+        "removal_context_key": "abib 2|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Abib 9",
+        "removal_context_key": "abib 9|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Babah 30",
+        "removal_context_key": "babah 30|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 3:10-17",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_6c402f1ab8b919ad82a0": [
+      {
+        "display_ref": "James 3:13-4",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the fourth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_6cb1bc0ea05277b5d636": [
+      {
+        "display_ref": "Ps 97:1-2 (LXX Ps 96:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the first week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_6ccefd1363f399b4c944": [
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Abib 10",
+        "removal_context_key": "abib 10|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Abib 13",
+        "removal_context_key": "abib 13|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Amshir 22",
+        "removal_context_key": "amshir 22|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Amshir 24",
+        "removal_context_key": "amshir 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Babah 23",
+        "removal_context_key": "babah 23|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Mesra 11",
+        "removal_context_key": "mesra 11|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 7:18-28",
+        "occasion": "Mesra 24",
+        "removal_context_key": "mesra 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_6d7f911b76ec9151af5c": [
+      {
+        "display_ref": "2Pet 2:1-6",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the sixth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_7002fcf1a7d6c8d16f97": [
+      {
+        "display_ref": "Isa 58:1-11",
+        "occasion": "Great Thursday",
+        "removal_context_key": "great thursday|first hour|first hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_70428ebc4e8c9db0312c": [
+      {
+        "display_ref": "Job 29:21-25,30:1-10",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|third hour|third hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Third Hour",
+        "service_section": "Third Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_7344598c4ea5627c3711": [
+      {
+        "display_ref": "Matt 16:1-12",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the second week of great lent|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      }
+    ],
+    "rid_73a621b6f24ed178706e": [
+      {
+        "display_ref": "Ps 27:8-9 (LXX Ps 26:8-9)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the second week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_74be0aacf15ff74b3470": [
+      {
+        "display_ref": "Heb 13:1-16",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the second week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_7727752ced614b97f28b": [
+      {
+        "display_ref": "Ps 6:1-2 (LXX Ps 6:2-3)",
+        "occasion": "Wednesday of Holy Pascha",
+        "removal_context_key": "wednesday|eleventh hour|eleventh hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Eleventh Hour",
+        "service_section": "Eleventh Hour",
+        "slot": "psalm"
+      }
+    ],
+    "rid_7a86e72c0ef4688be58e": [
+      {
+        "display_ref": "Ps 73:23 (LXX Ps 72:23)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_7b236fc4fd0b2fc92efb": [
+      {
+        "display_ref": "Job 12:17-13:1",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|first hour|first hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_7be13c51ae363ec3e53b": [
+      {
+        "display_ref": "Ps 9:11-12",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the sixth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_7c71f36964601d23c46a": [
+      {
+        "display_ref": "Matt 23:13-36",
+        "occasion": "Mesra 22",
+        "removal_context_key": "mesra 22|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Matt 23:13-36",
+        "occasion": "Mesra 4",
+        "removal_context_key": "mesra 4|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_803afb731900e6362ade": [
+      {
+        "display_ref": "Ps 107:1-2 (LXX Ps 106:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "friday of the first week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_80b8f58fe4c9388d024c": [
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Amshir 5",
+        "removal_context_key": "amshir 5|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 5:1-16",
+        "occasion": "Mesra 5",
+        "removal_context_key": "mesra 5|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_81ec93428a4dbd706bbc": [
+      {
+        "display_ref": "Acts 25:13-26",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the fourth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_81fb85b8761bc4df76fc": [
+      {
+        "display_ref": "Rom 7:5",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_820d690bf91bf530f9c5": [
+      {
+        "display_ref": "Ps 35:1-2 (LXX Ps 34:1-2)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "monday of the sixth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_82ad1abb09570e9f512c": [
+      {
+        "display_ref": "1Jn 2:26-29",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the third week of the holy fifty days|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_84a8756517ae6de8bcee": [
+      {
+        "display_ref": "Jn 1:9-15",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the first week of the holy fifty days|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      }
+    ],
+    "rid_84b0ceac54e75b9ed91d": [
+      {
+        "display_ref": "1Pet 1:25",
+        "occasion": "Abib 6",
+        "removal_context_key": "abib 6|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 1:25",
+        "occasion": "Babah 26",
+        "removal_context_key": "babah 26|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 1:25",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "lazarus saturday of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_84db6ef2fca9e7270f03": [
+      {
+        "display_ref": "James 2:1",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the sixth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_861283882dce98f3f02f": [
+      {
+        "display_ref": "Acts 2:42-3",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the first week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_86bd2d2977a235dd5397": [
+      {
+        "display_ref": "2Cor 4:5-15",
+        "occasion": "annual Sundays by Coptic month/week",
+        "removal_context_key": "babah 2|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_87863daae4060491f95f": [
+      {
+        "display_ref": "Rom 7:1",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_87e05d7e20cff84baf7b": [
+      {
+        "display_ref": "Ps 9:14",
+        "occasion": "Amshir 16",
+        "removal_context_key": "amshir 16|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 9:14",
+        "occasion": "Mesra 7",
+        "removal_context_key": "mesra 7|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_889722eaaeb8ab72a4d0": [
+      {
+        "display_ref": "Titus 2:11-15",
+        "occasion": "Babah 14",
+        "removal_context_key": "babah 14|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_8a3699fd82bfa2a98685": [
+      {
+        "display_ref": "James 3:13-18",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_8d74265cc8197a81ff45": [
+      {
+        "display_ref": "Ps 79:8-9 (LXX Ps 78:8-9)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the sixth week of great lent|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_8dde20acf8983675fae6": [
+      {
+        "display_ref": "Ps 5:11-12",
+        "occasion": "Abib 11",
+        "removal_context_key": "abib 11|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 5:11-12",
+        "occasion": "Abib 22",
+        "removal_context_key": "abib 22|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 5:11-12",
+        "occasion": "Amshir 13",
+        "removal_context_key": "amshir 13|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 5:11-12",
+        "occasion": "Amshir 17",
+        "removal_context_key": "amshir 17|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 5:11-12",
+        "occasion": "Amshir 23",
+        "removal_context_key": "amshir 23|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_8de677a83131680a7fb8": [
+      {
+        "display_ref": "Rom 14:10-23",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "monday of the seventh week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_8e5ed2d7fe4d61f8aac5": [
+      {
+        "display_ref": "Ps 136:1-2 (LXX Ps 135:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the fifth week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_8eae32534ce55c8fd946": [
+      {
+        "display_ref": "Ps 23:4,88:6 (LXX Ps 22:4; Ps 87:6)",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|twelfth hour|twelfth hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Twelfth Hour",
+        "service_section": "Twelfth Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_9040452dcc0a4b36f90e": [
+      {
+        "display_ref": "Ps 112:7 (LXX Ps 111:7)",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_90d87e492ba18fe753e9": [
+      {
+        "display_ref": "Ps 4:3",
+        "occasion": "Abib 19",
+        "removal_context_key": "abib 19|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:3",
+        "occasion": "Abib 30",
+        "removal_context_key": "abib 30|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:3",
+        "occasion": "Mesra 20",
+        "removal_context_key": "mesra 20|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:3",
+        "occasion": "Mesra 8",
+        "removal_context_key": "mesra 8|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_915f84e5b3e078a5a962": [
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Tim 4:1-22",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_9265b95c454d37e66c9f": [
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Abib 10",
+        "removal_context_key": "abib 10|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Abib 13",
+        "removal_context_key": "abib 13|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Amshir 22",
+        "removal_context_key": "amshir 22|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Amshir 24",
+        "removal_context_key": "amshir 24|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Babah 23",
+        "removal_context_key": "babah 23|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the first week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Mesra 11",
+        "removal_context_key": "mesra 11|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "3Jn 1:1-14",
+        "occasion": "Mesra 24",
+        "removal_context_key": "mesra 24|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_92aae2895a59ca365431": [
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Amshir 5",
+        "removal_context_key": "amshir 5|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      },
+      {
+        "display_ref": "Matt 4:23-25",
+        "occasion": "Mesra 5",
+        "removal_context_key": "mesra 5|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_93b98611dd28c5cf78fc": [
+      {
+        "display_ref": "Rom 7:4",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_96d4235e8228a22f109b": [
+      {
+        "display_ref": "Ps 42:11 (LXX Ps 41:11)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the second week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_9830b2bdd818213f8ed8": [
+      {
+        "display_ref": "Zech 12:11-14:3,14:6-9",
+        "occasion": "Great Thursday",
+        "removal_context_key": "great thursday|eleventh hour|eleventh hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Eleventh Hour",
+        "service_section": "Eleventh Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_997a336e893674f0482c": [
+      {
+        "display_ref": "Ps 12:5 (LXX Ps 11:5)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "friday of the first week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_99eb64d64e88c7d02f29": [
+      {
+        "display_ref": "Ps 9:1-2",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the second week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_9b6d3b88a15fb8b0e49a": [
+      {
+        "display_ref": "Phil 4:1-9",
+        "occasion": "Babah 24",
+        "removal_context_key": "babah 24|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Phil 4:1-9",
+        "occasion": "Mesra 25",
+        "removal_context_key": "mesra 25|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_9bbac1c68abe911f06f2": [
+      {
+        "display_ref": "Ps 38:18-19 (LXX Ps 37:18-19)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the seventh week of great lent|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_9c927e9afe30d7a8741e": [
+      {
+        "display_ref": "1Cor 15:57-16",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_9d1b6700d4ba95e0849f": [
+      {
+        "display_ref": "2Pet 1:20-21",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the sixth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_a0e9e96f99e92a52e7e1": [
+      {
+        "display_ref": "Rom 7:7",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_a13e38e3d727d1d7e70d": [
+      {
+        "display_ref": "Acts 12:25",
+        "occasion": "Abib 21",
+        "removal_context_key": "abib 21|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 12:25",
+        "occasion": "Abib 25",
+        "removal_context_key": "abib 25|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 12:25",
+        "occasion": "Babah 10",
+        "removal_context_key": "babah 10|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 12:25",
+        "occasion": "Babah 28",
+        "removal_context_key": "babah 28|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 12:25",
+        "occasion": "Babah 4",
+        "removal_context_key": "babah 4|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 12:25",
+        "occasion": "Babah 8",
+        "removal_context_key": "babah 8|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_a1d6bb53bb294507ab59": [
+      {
+        "display_ref": "Acts 11:26-12",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the fourth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_a35338e5e59379513f20": [
+      {
+        "display_ref": "1Pet 2:1-10",
+        "occasion": "Abib 6",
+        "removal_context_key": "abib 6|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Pet 2:1-10",
+        "occasion": "Babah 26",
+        "removal_context_key": "babah 26|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_a4af8cee45fc46547534": [
+      {
+        "display_ref": "Matt 20:29-34",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the third week of the holy fifty days|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      }
+    ],
+    "rid_a4b6e37a52931a1cb056": [
+      {
+        "display_ref": "Acts 6:1-15",
+        "occasion": "Abib 6",
+        "removal_context_key": "abib 6|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 6:1-15",
+        "occasion": "Babah 26",
+        "removal_context_key": "babah 26|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_a5863c59d0537664e6c2": [
+      {
+        "display_ref": "1Cor 14:1",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the fourth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_a5eea66eba2812446a0c": [
+      {
+        "display_ref": "2Cor 11:16-33",
+        "occasion": "Abib 6",
+        "removal_context_key": "abib 6|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 11:16-33",
+        "occasion": "Babah 26",
+        "removal_context_key": "babah 26|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_a6e2e4ec1bd040fc86cc": [
+      {
+        "display_ref": "Acts 27:1-8",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the fifth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_a747a3c6577e1853dca7": [
+      {
+        "display_ref": "Ps 119:164-165 (LXX Ps 118:164-165)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the seventh week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_a957214de809fb6c875f": [
+      {
+        "display_ref": "LXX Ps 41:1 (MT equivalent pending)",
+        "occasion": "Wednesday of Holy Pascha",
+        "removal_context_key": "wednesday|third hour|third hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Third Hour",
+        "service_section": "Third Hour",
+        "slot": "psalm"
+      }
+    ],
+    "rid_a9e8d8b0e27f61200a72": [
+      {
+        "display_ref": "Zech 11:14",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|first hour|first hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_a9ff1e082fbe413ebb80": [
+      {
+        "display_ref": "Eph 1:15-2",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the first week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_aa342d8a21a0ede1e723": [
+      {
+        "display_ref": "Ps 34:19-20 (LXX Ps 33:19-20)",
+        "occasion": "Abib 27",
+        "removal_context_key": "abib 27|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 34:19-20 (LXX Ps 33:19-20)",
+        "occasion": "Mesra 23",
+        "removal_context_key": "mesra 23|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      },
+      {
+        "display_ref": "Ps 34:19-20 (LXX Ps 33:19-20)",
+        "occasion": "Mesra 27",
+        "removal_context_key": "mesra 27|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_aad3c1665271c51d6931": [
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Abib 12",
+        "removal_context_key": "abib 12|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Abib 21",
+        "removal_context_key": "abib 21|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Abib 24",
+        "removal_context_key": "abib 24|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Abib 4",
+        "removal_context_key": "abib 4|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Amshir 6",
+        "removal_context_key": "amshir 6|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Babah 10",
+        "removal_context_key": "babah 10|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Babah 4",
+        "removal_context_key": "babah 4|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Mesra 9",
+        "removal_context_key": "mesra 9|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      },
+      {
+        "display_ref": "Lk 11:53-54",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the sixth week of the holy fifty days|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      }
+    ],
+    "rid_ab3cb646b4eaef329869": [
+      {
+        "display_ref": "Acts 24:24-27",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_ab632d2b2397a6423d50": [
+      {
+        "display_ref": "Ps 86:5 (LXX Ps 85:5)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the fifth week of great lent|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_af0b43b1958764dbfba3": [
+      {
+        "display_ref": "Ps 8:4-5",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the second week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_af92a19084930ccb825e": [
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Amshir 12",
+        "removal_context_key": "amshir 12|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Amshir 19",
+        "removal_context_key": "amshir 19|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Amshir 3",
+        "removal_context_key": "amshir 3|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Babah 13",
+        "removal_context_key": "babah 13|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Babah 25",
+        "removal_context_key": "babah 25|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 18:24-28",
+        "occasion": "Babah 7",
+        "removal_context_key": "babah 7|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_afeaa6e4bc0cc8f1d038": [
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Abib 10",
+        "removal_context_key": "abib 10|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Abib 13",
+        "removal_context_key": "abib 13|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Abib 2",
+        "removal_context_key": "abib 2|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Abib 9",
+        "removal_context_key": "abib 9|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Amshir 22",
+        "removal_context_key": "amshir 22|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Amshir 24",
+        "removal_context_key": "amshir 24|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Babah 23",
+        "removal_context_key": "babah 23|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Babah 30",
+        "removal_context_key": "babah 30|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the fifth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Mesra 11",
+        "removal_context_key": "mesra 11|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 15:36-41",
+        "occasion": "Mesra 24",
+        "removal_context_key": "mesra 24|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_b12c328eec8b0a237b95": [
+      {
+        "display_ref": "Ps 69:1-2,69:21 (LXX Ps 68:1-2; Ps 68:21)",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|ninth hour|ninth hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Ninth Hour",
+        "service_section": "Ninth Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_b1fe260a5343dfc9de9f": [
+      {
+        "display_ref": "1Pet 1:25-2",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "friday of the first week of the holy fifty days|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_b38a29bc371b749485c7": [
+      {
+        "display_ref": "Ps 12:4 (LXX Ps 11:4)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "friday of the first week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_b3add5908ba377b5d205": [
+      {
+        "display_ref": "Ps 105:4 (LXX Ps 104:4)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the fourth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_b43cdc5c84cc8567eec1": [
+      {
+        "display_ref": "Ps 106:1-2 (LXX Ps 105:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the first week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_b48b6083dd376d8cf66b": [
+      {
+        "display_ref": "Acts 21:40-22",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the first week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_b690e32a49271d81b7b9": [
+      {
+        "display_ref": "1Jn 1:1-10",
+        "occasion": "Abib 16",
+        "removal_context_key": "abib 16|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Jn 1:1-10",
+        "occasion": "Amshir 29",
+        "removal_context_key": "amshir 29|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_b75c8eea6342a50f8d4b": [
+      {
+        "display_ref": "Ps 47:3-4 (LXX Ps 46:3-4)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "tuesday of the sixth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_b8edd2df4e607254182b": [
+      {
+        "display_ref": "Ps 9:11",
+        "occasion": "Amshir 16",
+        "removal_context_key": "amshir 16|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 9:11",
+        "occasion": "Mesra 7",
+        "removal_context_key": "mesra 7|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_b96ebb46849ea8d4d7a6": [
+      {
+        "display_ref": "1Jn 2:1-6",
+        "occasion": "Abib 16",
+        "removal_context_key": "abib 16|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "1Jn 2:1-6",
+        "occasion": "Amshir 29",
+        "removal_context_key": "amshir 29|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_b9c13c5810d2ec2c12af": [
+      {
+        "display_ref": "Lk 4:42-5",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the seventh week of the holy fifty days|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      }
+    ],
+    "rid_b9ddd2319b9e55d2f689": [
+      {
+        "display_ref": "1Jn 1:8-2",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the first week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_b9fe985101ca0adf8b14": [
+      {
+        "display_ref": "Ps 105:3 (LXX Ps 104:3)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the fourth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_ba442d60cf6148032cbf": [
+      {
+        "display_ref": "Titus 3:1-7",
+        "occasion": "Babah 14",
+        "removal_context_key": "babah 14|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_ba4d527396fcbea3fe59": [
+      {
+        "display_ref": "Jn 6:70-7",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the fifth week of the holy fifty days|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      }
+    ],
+    "rid_ba68661deadf64018e16": [
+      {
+        "display_ref": "1Cor 11:1",
+        "occasion": "Mesra 29",
+        "removal_context_key": "mesra 29|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "1Cor 11:1",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the fifth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_ba8b9ebb4bc497c3bc29": [
+      {
+        "display_ref": "Ps 32:1-2 (LXX Ps 31:1-2)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the sixth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_baf5c06fe64501b81dec": [
+      {
+        "display_ref": "Ps 33:5-6 (LXX Ps 32:5-6)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the seventh week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_bb7f30bbbe62390f4ba9": [
+      {
+        "display_ref": "Ps 36:5-6 (LXX Ps 35:5-6)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the fifth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_bbf8de01e04d3ce0d57a": [
+      {
+        "display_ref": "2Cor 5:1-11",
+        "occasion": "Abib 3",
+        "removal_context_key": "abib 3|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 5:1-11",
+        "occasion": "Babah 11",
+        "removal_context_key": "babah 11|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 5:1-11",
+        "occasion": "Babah 17",
+        "removal_context_key": "babah 17|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 5:1-11",
+        "occasion": "Babah 2",
+        "removal_context_key": "babah 2|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 5:1-11",
+        "occasion": "Mesra 18",
+        "removal_context_key": "mesra 18|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_bc9bf43f3795d2c1c256": [
+      {
+        "display_ref": "1Cor 13:1-13",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the seventh week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "1Cor 13:1-13",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "thursday of the fourth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_bd07fc822f703792544b": [
+      {
+        "display_ref": "Ps 111:1 (LXX Ps 110:1)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the second week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_c0d054a72aa91e6530fc": [
+      {
+        "display_ref": "Acts 4:36-5",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "monday of the second week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_c1c72b89be8e8808ee92": [
+      {
+        "display_ref": "James 1:22-27",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the sixth week of great lent|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_c1d60b035931158ae984": [
+      {
+        "display_ref": "Ps 41:5-7 (LXX Ps 40:6-8)",
+        "occasion": "Wednesday",
+        "removal_context_key": "wednesday|ninth hour|ninth hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Ninth Hour",
+        "service_section": "Ninth Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_c1d6d2964ca10e7e16b0": [
+      {
+        "display_ref": "Rom 5:20-6",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the fifth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_c4f0dfbb907beb3b04bb": [
+      {
+        "display_ref": "Acts 26:19-32",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the fifth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_c6fabd24cc894ceac1b5": [
+      {
+        "display_ref": "Ps 118:16-17 (LXX Ps 117:16-17)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the fifth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_c7eb1b93e16f07615b88": [
+      {
+        "display_ref": "Jonah 1:10-2:7",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|twelfth hour|twelfth hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Twelfth Hour",
+        "service_section": "Twelfth Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_c83c6764eb7c45ea4eab": [
+      {
+        "display_ref": "Ps 19:4 (LXX Ps 18:4)",
+        "occasion": "Abib 16",
+        "removal_context_key": "abib 16|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 19:4 (LXX Ps 18:4)",
+        "occasion": "Amshir 29",
+        "removal_context_key": "amshir 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 19:4 (LXX Ps 18:4)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the fifth week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_c8a9cfc456d2d44ffecf": [
+      {
+        "display_ref": "Ps 65:2-3 (LXX Ps 64:2-3)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fifth week of great lent|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_c9ff9a72883959072149": [
+      {
+        "display_ref": "Ps 110:4 (LXX Ps 109:4)",
+        "occasion": "Abib 3",
+        "removal_context_key": "abib 3|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4 (LXX Ps 109:4)",
+        "occasion": "Babah 11",
+        "removal_context_key": "babah 11|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4 (LXX Ps 109:4)",
+        "occasion": "Babah 17",
+        "removal_context_key": "babah 17|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4 (LXX Ps 109:4)",
+        "occasion": "Babah 2",
+        "removal_context_key": "babah 2|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 110:4 (LXX Ps 109:4)",
+        "occasion": "Mesra 18",
+        "removal_context_key": "mesra 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_ca5544de60b6a4593c80": [
+      {
+        "display_ref": "Matt 6:19-33",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the first week of great lent|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_cf0b25f3e901a3016d43": [
+      {
+        "display_ref": "Ps 73:28 (LXX Ps 72:28)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_d31629051a77981128c4": [
+      {
+        "display_ref": "Ps 63:1-2 (LXX Ps 62:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the second week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_d48e87fae9231ecbf09e": [
+      {
+        "display_ref": "2Cor 4:5-18",
+        "occasion": "Abib 3",
+        "removal_context_key": "abib 3|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 4:5-18",
+        "occasion": "Babah 11",
+        "removal_context_key": "babah 11|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 4:5-18",
+        "occasion": "Babah 17",
+        "removal_context_key": "babah 17|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 4:5-18",
+        "occasion": "Babah 2",
+        "removal_context_key": "babah 2|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "2Cor 4:5-18",
+        "occasion": "Mesra 18",
+        "removal_context_key": "mesra 18|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_d5c6b4ed8367a4bcb035": [
+      {
+        "display_ref": "1Cor 10:25-32",
+        "occasion": "Mesra 29",
+        "removal_context_key": "mesra 29|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_d6b351115e6125d45624": [
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Amshir 12",
+        "removal_context_key": "amshir 12|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Amshir 19",
+        "removal_context_key": "amshir 19|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Amshir 3",
+        "removal_context_key": "amshir 3|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Babah 13",
+        "removal_context_key": "babah 13|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Babah 25",
+        "removal_context_key": "babah 25|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 19:1-6",
+        "occasion": "Babah 7",
+        "removal_context_key": "babah 7|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_d6dd000b6b54502d2a36": [
+      {
+        "display_ref": "Rom 3:1-17",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the second week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_d7b1a7a5187554872006": [
+      {
+        "display_ref": "Acts 7:1-2",
+        "occasion": "Abib 6",
+        "removal_context_key": "abib 6|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 7:1-2",
+        "occasion": "Babah 26",
+        "removal_context_key": "babah 26|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_d8ced3aa3d7f74be44bd": [
+      {
+        "display_ref": "Ps 68:35 (LXX Ps 67:35)",
+        "occasion": "Abib 18",
+        "removal_context_key": "abib 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 68:35 (LXX Ps 67:35)",
+        "occasion": "Abib 29",
+        "removal_context_key": "abib 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 68:35 (LXX Ps 67:35)",
+        "occasion": "Amshir 10",
+        "removal_context_key": "amshir 10|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 68:35 (LXX Ps 67:35)",
+        "occasion": "Amshir 21",
+        "removal_context_key": "amshir 21|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_d95947cf2246bd112ea3": [
+      {
+        "display_ref": "1Jn 4:15-5",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "saturday of the fourth week of the holy fifty days|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_d99225409123d304d021": [
+      {
+        "display_ref": "Ps 112:6 (LXX Ps 111:6)",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_dde584a3104557793d51": [
+      {
+        "display_ref": "Ps 97:7-8 (LXX Ps 96:7-8)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the fourth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_ddeaff53e4f24c3789a5": [
+      {
+        "display_ref": "Rom 7:6",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_de30b6b116f3b39af967": [
+      {
+        "display_ref": "Rom 14:19-23",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the first week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_df811cff75c8edc4bb8c": [
+      {
+        "display_ref": "1Cor 5:9-6",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "monday of the third week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_dfb5c42784e17c69fec8": [
+      {
+        "display_ref": "Eph 4:17-32",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the fourth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_e0fbf80747507e81a74b": [
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Abib 10",
+        "removal_context_key": "abib 10|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Abib 13",
+        "removal_context_key": "abib 13|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Abib 2",
+        "removal_context_key": "abib 2|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Abib 9",
+        "removal_context_key": "abib 9|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Amshir 22",
+        "removal_context_key": "amshir 22|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Amshir 24",
+        "removal_context_key": "amshir 24|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Babah 23",
+        "removal_context_key": "babah 23|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Babah 30",
+        "removal_context_key": "babah 30|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Mesra 11",
+        "removal_context_key": "mesra 11|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      },
+      {
+        "display_ref": "Acts 16:1-5",
+        "occasion": "Mesra 24",
+        "removal_context_key": "mesra 24|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_e14a8c6fa7cab6a53d85": [
+      {
+        "display_ref": "Isa 61:1-6",
+        "occasion": "Great Thursday",
+        "removal_context_key": "great thursday|ninth hour|ninth hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Ninth Hour",
+        "service_section": "Ninth Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_e14ddc8c797ff249498e": [
+      {
+        "display_ref": "Ps 86:6 (LXX Ps 85:6)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the fifth week of great lent|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_e2d77d40134145b5f4c6": [
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:17 (LXX Ps 131:17)",
+        "occasion": "Mesra 29",
+        "removal_context_key": "mesra 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_e2dfce853c59d563a227": [
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Abib 20",
+        "removal_context_key": "abib 20|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Abib 25",
+        "removal_context_key": "abib 25|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Amshir 25",
+        "removal_context_key": "amshir 25|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Amshir 28",
+        "removal_context_key": "amshir 28|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Babah 15",
+        "removal_context_key": "babah 15|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Babah 19",
+        "removal_context_key": "babah 19|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Babah 28",
+        "removal_context_key": "babah 28|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 18:34 (LXX Ps 17:34)",
+        "occasion": "Babah 8",
+        "removal_context_key": "babah 8|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_e31ee5a2e3c2b282b9b1": [
+      {
+        "display_ref": "Rom 7:2",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_e450b6e902cf563db41e": [
+      {
+        "display_ref": "Ps 4:6",
+        "occasion": "Abib 19",
+        "removal_context_key": "abib 19|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:6",
+        "occasion": "Abib 30",
+        "removal_context_key": "abib 30|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:6",
+        "occasion": "Mesra 20",
+        "removal_context_key": "mesra 20|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:6",
+        "occasion": "Mesra 8",
+        "removal_context_key": "mesra 8|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_e47c580d856e6fb95669": [
+      {
+        "display_ref": "2Thess 2:13-3",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "sunday of the fourth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_e5d69fb5a4aec6bb95dc": [
+      {
+        "display_ref": "Rom 15:1-7",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the first week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_e7ea1bbca9d7c1374493": [
+      {
+        "display_ref": "Heb 5:1-14",
+        "occasion": "Amshir 11",
+        "removal_context_key": "amshir 11|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 5:1-14",
+        "occasion": "Amshir 20",
+        "removal_context_key": "amshir 20|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 5:1-14",
+        "occasion": "Babah 16",
+        "removal_context_key": "babah 16|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 5:1-14",
+        "occasion": "Babah 18",
+        "removal_context_key": "babah 18|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_e9c6d0396bf6f23aa8ef": [
+      {
+        "display_ref": "Acts 16:1-3",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the fifth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_e9cac5a77676e66601d0": [
+      {
+        "display_ref": "Ps 27:12,35:11-12,35:16 (LXX Ps 26:12; Ps 34:11-12; Ps 34:16)",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|first hour|first hour|psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "First Hour",
+        "service_section": "First Hour",
+        "slot": "Psalm"
+      }
+    ],
+    "rid_e9ffb4c8193ca5db1abd": [
+      {
+        "display_ref": "Mark 8:34-9",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "friday of the sixth week of the holy fifty days|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      }
+    ],
+    "rid_eba9faff727a2e6010c7": [
+      {
+        "display_ref": "2Tim 4:1-5",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the seventh week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_ebbe04c6430f7793ddc3": [
+      {
+        "display_ref": "Ps 4:7",
+        "occasion": "Abib 19",
+        "removal_context_key": "abib 19|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:7",
+        "occasion": "Abib 30",
+        "removal_context_key": "abib 30|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:7",
+        "occasion": "Mesra 20",
+        "removal_context_key": "mesra 20|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 4:7",
+        "occasion": "Mesra 8",
+        "removal_context_key": "mesra 8|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_ebdf693905a6caa039cc": [
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Amshir 14",
+        "removal_context_key": "amshir 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Amshir 18",
+        "removal_context_key": "amshir 18|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Amshir 27",
+        "removal_context_key": "amshir 27|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Babah 3",
+        "removal_context_key": "babah 3|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Babah 5",
+        "removal_context_key": "babah 5|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Babah 9",
+        "removal_context_key": "babah 9|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Mesra 14",
+        "removal_context_key": "mesra 14|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 132:9 (LXX Ps 131:9)",
+        "occasion": "Mesra 29",
+        "removal_context_key": "mesra 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_eff4cec622f24d97cade": [
+      {
+        "display_ref": "Ps 19:1-2 (LXX Ps 18:1-2)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "monday of the third week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_effc7629b9f4de1d428f": [
+      {
+        "display_ref": "Matt 15:39",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the second week of great lent|matins||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_gospel",
+        "slot": "matins_gospel"
+      }
+    ],
+    "rid_f06f0107c87a0bec0793": [
+      {
+        "display_ref": "Ps 105:5 (LXX Ps 104:5)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the fourth week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_f255dc86622c22f90539": [
+      {
+        "display_ref": "1Pet 2:11-25",
+        "occasion": "Mesra 12",
+        "removal_context_key": "mesra 12|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_f3218602262fbf2b6fa4": [
+      {
+        "display_ref": "Rom 4:14-25",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "wednesday of the fifth week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_f32b16534de5e0c82e1d": [
+      {
+        "display_ref": "Acts 22:7-24",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the fourth week of great lent|liturgy||praxis",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_acts",
+        "slot": "liturgy_acts"
+      }
+    ],
+    "rid_f37d35ed16fced80ff31": [
+      {
+        "display_ref": "Ps 119:33-34 (LXX Ps 118:33-34)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the fourth week of the holy fifty days|matins||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "matins_psalm",
+        "slot": "matins_psalm"
+      }
+    ],
+    "rid_f54d6885def502dfee8f": [
+      {
+        "display_ref": "Heb 11:32-40",
+        "occasion": "Amshir 15",
+        "removal_context_key": "amshir 15|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      },
+      {
+        "display_ref": "Heb 11:32-40",
+        "occasion": "Mesra 8",
+        "removal_context_key": "mesra 8|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_f75042aca038319a7c0f": [
+      {
+        "display_ref": "Ps 127:2-3 (LXX Ps 126:2-3)",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "thursday of the fourth week of the holy fifty days|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_f7a094ed3139d3192734": [
+      {
+        "display_ref": "Rom 15:1-2",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "monday of the seventh week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_f80ce34ef4f5435430fe": [
+      {
+        "display_ref": "Matt 21:33-46",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "saturday of the fourth week of great lent|liturgy||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_gospel",
+        "slot": "liturgy_gospel"
+      }
+    ],
+    "rid_f88add215ab929ba33aa": [
+      {
+        "display_ref": "Ps 16:1-2 (LXX Ps 15:1-2)",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "friday of the third week of great lent|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_f895fe12fbca3cc0b95e": [
+      {
+        "display_ref": "Ps 19:1 (LXX Ps 18:1)",
+        "occasion": "Abib 16",
+        "removal_context_key": "abib 16|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      },
+      {
+        "display_ref": "Ps 19:1 (LXX Ps 18:1)",
+        "occasion": "Amshir 29",
+        "removal_context_key": "amshir 29|vespers||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_psalm",
+        "slot": "vespers_psalm"
+      }
+    ],
+    "rid_fa7da2e5db1139d1ff76": [
+      {
+        "display_ref": "2Pet 2:1-8",
+        "occasion": "Amshir 26",
+        "removal_context_key": "amshir 26|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "2Pet 2:1-8",
+        "occasion": "Babah 21",
+        "removal_context_key": "babah 21|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "2Pet 2:1-8",
+        "occasion": "Mesra 22",
+        "removal_context_key": "mesra 22|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      },
+      {
+        "display_ref": "2Pet 2:1-8",
+        "occasion": "Mesra 4",
+        "removal_context_key": "mesra 4|liturgy||catholicon",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_catholic",
+        "slot": "liturgy_catholic"
+      }
+    ],
+    "rid_fa9737841503cc362b7b": [
+      {
+        "display_ref": "Zech 14:6-11",
+        "occasion": "Good Friday",
+        "removal_context_key": "good friday|ninth hour|ninth hour|prophecy",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "Ninth Hour",
+        "service_section": "Ninth Hour",
+        "slot": "Prophecy"
+      }
+    ],
+    "rid_fbe32b3c34da672e1120": [
+      {
+        "display_ref": "Rom 9:15-29",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "tuesday of the first week of great lent|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_fcb5bdc68b63e29434dd": [
+      {
+        "display_ref": "Ps 7:10-11",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "tuesday of the third week of the holy fifty days|liturgy||psalm",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_psalm",
+        "slot": "liturgy_psalm"
+      }
+    ],
+    "rid_fcfd6daed1517f487d84": [
+      {
+        "display_ref": "Rom 7:3",
+        "occasion": "Holy Fifty Days/Pentecost cycle",
+        "removal_context_key": "wednesday of the sixth week of the holy fifty days|liturgy||pauline",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "liturgy_pauline",
+        "slot": "liturgy_pauline"
+      }
+    ],
+    "rid_fd87f1ef66f205cfdb85": [
+      {
+        "display_ref": "Matt 6:34-7",
+        "occasion": "Great Lent/Jonah/Nineveh cycle",
+        "removal_context_key": "sunday of the first week of great lent|vespers||gospel",
+        "removal_effective_version": "1.1.6",
+        "service_hour": "",
+        "service_section": "vespers_gospel",
+        "slot": "vespers_gospel"
+      }
+    ]
+  },
+  "entry_count": 516,
+  "lookup_strategy": "Lookup by identity_key first. If that identity has multiple baseline entries, require exact removal_context_key as the tiebreaker. Do not default misses to package VERSION.",
+  "package": "@andraws/lectionary-data",
+  "removal_effective_version_counts": {
+    "1.1.6": 516
+  },
+  "removed_marker": "removed_by_source_priority_projection",
+  "schema": "removal_effective_versions_baseline/v1",
+  "source": "published npm tarball @andraws/lectionary-data@1.1.6",
+  "source_version": "1.1.6"
+}
