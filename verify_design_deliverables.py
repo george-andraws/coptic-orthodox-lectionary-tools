@@ -12,6 +12,8 @@ import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from build_design_deliverables import source_family_authority_key
+
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "out" / "design"
 BRENTON = Path("/Users/georgeandraws/workspace/extract_brenton.py")
@@ -386,8 +388,8 @@ def verify_rows() -> None:
     reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
     if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
         fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
-    if len(reverse_index) != 11905:
-        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11905")
+    if len(reverse_index) != 11916:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11916")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in reverse_index):
         fail("reverse_lectionary_index must not expose annual fixed Coptic day as an occasion")
     grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
@@ -422,20 +424,25 @@ def verify_rows() -> None:
             fail(f"reverse_lectionary_index source removed_marker disagreement not flagged separately: {occasion_index_key(row)} {markers}")
         if row.get("calendar_keys", "") != join_unique(r.get("calendar_key", "") for r in source_rows):
             fail(f"reverse_lectionary_index calendar key union mismatch: {occasion_index_key(row)}")
-        if row.get("source_family", "") != join_unique(r.get("source_family", "") for r in source_rows):
-            fail(f"reverse_lectionary_index source_family union mismatch: {occasion_index_key(row)}")
-        if row.get("source_kind", "") != join_unique(r.get("source_kind", "") for r in source_rows):
-            fail(f"reverse_lectionary_index source_kind union mismatch: {occasion_index_key(row)}")
+        expected_disclosure, representative_locators = expected_source_disclosure(source_rows)
+        winning_source = sorted(expected_disclosure, key=source_family_authority_key)[0]
+        if row.get("source_family", "") != winning_source.get("source_family", ""):
+            fail(f"reverse_lectionary_index source_family winner mismatch: {occasion_index_key(row)}")
+        if row.get("source_kind", "") != winning_source.get("source_kind", ""):
+            fail(f"reverse_lectionary_index source_kind winner mismatch: {occasion_index_key(row)}")
+        if row.get("source_edition", "") != winning_source.get("source_edition", ""):
+            fail(f"reverse_lectionary_index source_edition winner mismatch: {occasion_index_key(row)}")
+        if row.get("source_title", "") != winning_source.get("source_title", ""):
+            fail(f"reverse_lectionary_index source_title winner mismatch: {occasion_index_key(row)}")
+        if row.get("source_locator", "") != winning_source.get("source_locator", ""):
+            fail(f"reverse_lectionary_index source_locator winner mismatch: {occasion_index_key(row)}")
+        if " || " in row.get("source_family", "") or " || " in row.get("source_kind", ""):
+            fail(f"reverse_lectionary_index atomic source scalar contains display join: {occasion_index_key(row)}")
         years = sorted(year for year in (gregorian_year(r.get("gregorian_date", "")) for r in source_rows) if year is not None)
         expected_min = str(min(years)) if years else ""
         expected_max = str(max(years)) if years else ""
         if row.get("attestation_year_min", "") != expected_min or row.get("attestation_year_max", "") != expected_max:
             fail(f"reverse_lectionary_index attestation year span mismatch: {occasion_index_key(row)}")
-        expected_disclosure, representative_locators = expected_source_disclosure(source_rows)
-        if row.get("source_locator", "") != " || ".join(representative_locators):
-            fail(f"reverse_lectionary_index representative locator mismatch: {occasion_index_key(row)}")
-        if " || " in row.get("source_locator", "") and len(representative_locators) == 1:
-            fail(f"reverse_lectionary_index stores repeated same-source locators: {occasion_index_key(row)}")
         disclosure = json.loads(row.get("source_disclosure", "[]") or "[]")
         if disclosure != expected_disclosure:
             fail(f"reverse_lectionary_index collapsed source disclosure mismatch: {occasion_index_key(row)}")
