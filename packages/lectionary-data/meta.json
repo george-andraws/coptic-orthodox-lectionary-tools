@@ -1,13 +1,13 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "bd10e4371e510c6c794cdd14851f8a0bb6e5f312",
-  "source_tree_dirty": true,
-  "generated_at": "2026-06-26T01:00:39.965Z",
-  "occasion_index_rows": 11905,
+  "source_repo_commit": "e140223cae1128aeb2d4feee30e4ad7e71654bdc",
+  "source_tree_dirty": false,
+  "generated_at": "2026-07-12T19:30:04.019Z",
+  "occasion_index_rows": 11916,
   "daily_files": [
     {
       "year": 2026,
@@ -148,9 +148,9 @@
     "pascha_computus": "Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range."
   },
   "projection_rules": {
-    "source_rows": 11905,
-    "output_rows": 11905,
-    "active_rows": 11390,
+    "source_rows": 11916,
+    "output_rows": 11916,
+    "active_rows": 11401,
     "removed_rows_included": 515,
     "lower_priority_passage_variants_suppressed": 515,
     "lower_priority_passage_variants_retained_as_removed": 515,
