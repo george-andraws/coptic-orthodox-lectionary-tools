@@ -108,8 +108,8 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
 
 ```json
 {
-  "reverse_lectionary_presentation_rows": 66389,
-  "reverse_lectionary_index_rows": 11916,
+  "reverse_lectionary_presentation_rows": 66396,
+  "reverse_lectionary_index_rows": 11923,
   "reverse_lectionary_index_status_disagreement_rows": 0,
   "daily_lectionary_years": {
     "2020": 3713,
@@ -130,7 +130,7 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
     "2035": 3708
   },
   "daily_lectionary_total_rows": 59322,
-  "reading_identity_rows": 2629,
+  "reading_identity_rows": 2633,
   "todays_readings_rows": 10,
   "psalm_crosswalk_rows": 161,
   "pascha_attestation_rows": 442,
@@ -140,8 +140,8 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
   "temporal_residue_manifest_rows": 5,
   "synaxarium_commemoration_rows": 664,
   "synaxarium_bridge_rows": 4688,
-  "passage_footprint_rows": 2628,
-  "passage_source_disclosure_rows": 66389,
+  "passage_footprint_rows": 2632,
+  "passage_source_disclosure_rows": 66396,
   "foundational_reading_collection_rows": 69
 }
 ```

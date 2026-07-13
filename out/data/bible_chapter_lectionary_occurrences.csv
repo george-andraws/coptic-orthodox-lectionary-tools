@@ -1,5 +1,7 @@
 testament,book,book_abbrev,chapter,chapter_ref,passage,source_kind,liturgical_place,calendar_key,gregorian_date,coptic_date,day_title,service_section,reading_type,source_ref,url,occasion_label,service_label,reading_label
 Deuterocanonical,Baruch,Bar,2,Bar 2,Bar 2:11-16,bright_saturday_service_order,PRAISES OF THE PROPHETS,Bright Saturday | Midnight Praises,,,Bright Saturday,Midnight Praises,Prayer of Baruch,Baruch 2:11-16,,Bright Saturday,Midnight Praises,Prayer of Baruch
+Deuterocanonical,Baruch,Bar,3,Bar 3,Bar 3:36-4:4,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Bar 3:36-4:4,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
+Deuterocanonical,Baruch,Bar,4,Bar 4,Bar 3:36-4:4,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Bar 3:36-4:4,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Deuterocanonical,Sirach,Sir,1,Sir 1,Sir 1:1-14,pascha_source_text,Monday,Monday | First Hour,,,Monday,First Hour,Prophecy,Sir 1:1-14,,Monday,First Hour,Prophecy
 Deuterocanonical,Sirach,Sir,1,Sir 1,Sir 1:18-27,pascha_source_text,Monday,Monday | Eleventh Hour,,,Monday,Eleventh Hour,Prophecy,Sir 1:18-27,,Monday,Eleventh Hour,Prophecy
 Deuterocanonical,Sirach,Sir,1,Sir 1,Sir 1:1-14,pascha_source_text,Tuesday,Tuesday | Third Hour,,,Tuesday,Third Hour,Prophecy,Sir 1:1-14,,Tuesday,Third Hour,Prophecy
@@ -42229,9 +42231,11 @@ Old Testament,Ezekiel,Ezek,22,Ezek 22,Ezek 22:17-22,pascha_source_text,Wednesday
 Old Testament,Ezekiel,Ezek,22,Ezek 22,Ezek 22:23-28,pascha_source_text,Wednesday Eve,Wednesday Eve | First Hour,,,Wednesday Eve,First Hour,Prophecy,Ezek 22:23-28,,Wednesday Eve,First Hour,Prophecy
 Old Testament,Ezekiel,Ezek,36,Ezek 36,Ezek 36:16-23,pascha_day_hour,Great Thursday Eve,Great Thursday Eve | Third Hour,,,Great Thursday Eve,Third Hour,OT1,Ezek 36:16-23,,Great Thursday Eve,Third Hour,OT1
 Old Testament,Ezekiel,Ezek,36,Ezek 36,Ezek 36:25-29,pascha_source_text,Great Thursday,Great Thursday | Liturgy of Blessing of the Water,,,Great Thursday,Liturgy of Blessing of the Water,Prophecy,Ezek 36:25-29,,Great Thursday,Liturgy of Blessing of the Water,Prophecy
+Old Testament,Ezekiel,Ezek,36,Ezek 36,Ezek 36:24-29,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Ezek 36:24-29,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Old Testament,Ezekiel,Ezek,37,Ezek 37,Ezek 37:1-14,special_service,general_funeral,palm_sunday_general_funeral,,,general_funeral,prophecy,old_testament,Ezek 37:1-14,https://saintbishoy.ca/wp-content/uploads/Rites_Palm_Sunday_And_General_Funeral_Readings_Procession.pdf,general_funeral,prophecy,old_testament
 Old Testament,Ezekiel,Ezek,43,Ezek 43,Ezek 43:5-11,pascha_source_text,Great Thursday Eve,Great Thursday Eve | First Hour,,,Great Thursday Eve,First Hour,Prophecy,Ezek 43:5-11,,Great Thursday Eve,First Hour,Prophecy
 Old Testament,Ezekiel,Ezek,47,Ezek 47,Ezek 47:1-9,pascha_source_text,Great Thursday,Great Thursday | Liturgy of Blessing of the Water,,,Great Thursday,Liturgy of Blessing of the Water,Prophecy,Ezek 47:1-9,,Great Thursday,Liturgy of Blessing of the Water,Prophecy
+Old Testament,Ezekiel,Ezek,47,Ezek 47,Ezek 47:1-9,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Ezek 47:1-9,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Old Testament,Genesis,Gen,1,Gen 1,Gen 1:1-2:3,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-2:3,,Monday,First Hour,OT1
 Old Testament,Genesis,Gen,1,Gen 1,Gen 1:1-31,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-31,,Monday,First Hour,OT1
 Old Testament,Genesis,Gen,2,Gen 2,Gen 1:1-2:3,pascha_day_hour,Monday,Monday | First Hour,,,Monday,First Hour,OT1,Gen 1:1-2:3,,Monday,First Hour,OT1
@@ -42266,6 +42270,7 @@ Old Testament,Genesis,Gen,49,Gen 49,Gen 49:33,katameros_cycle,Great Lent/Jonah/N
 Old Testament,Genesis,Gen,50,Gen 50,Gen 50:1-26,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 7 day_of_week 5,, ,,prophecy,GreatLentReadings,Gen 50:1-26,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Genesis,Gen,50,Gen 50,Gen 50:4-25,special_service,funeral,men_passion_week,,,funeral,at_burial_site_override,old_testament,Gen 50:4-25,https://saintbishoy.ca/wp-content/uploads/Readings_Funeral_Updated.pdf,funeral,at_burial_site_override,old_testament
 Old Testament,Habakkuk,Hab,3,Hab 3,Hab 3:2-19,bright_saturday_service_order,PRAISES OF THE PROPHETS,Bright Saturday | Midnight Praises,,,Bright Saturday,Midnight Praises,Prayer of Habakkuk,Habakkuk 3:2-19,,Bright Saturday,Midnight Praises,Prayer of Habakkuk
+Old Testament,Habakkuk,Hab,3,Hab 3,Hab 3:2-19,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Hab 3:2-19,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Old Testament,Hosea,Hos,2,Hos 2,"Hos 2:1-3,2:10-11",pascha_day_hour,Good Friday,Good Friday | Ninth Hour,,,Good Friday,Ninth Hour,OT3,"Hos 2:1-3,10-11",,Good Friday,Ninth Hour,OT3
 Old Testament,Hosea,Hos,4,Hos 4,Hos 4:15-19,pascha_day_hour,Monday Eve,Monday Eve | Sixth Hour,,,Monday Eve,Sixth Hour,OT1,Hos 4:15-19; Hos 5:1-7,,Monday Eve,Sixth Hour,OT1
 Old Testament,Hosea,Hos,4,Hos 4,Hos 4:1-8,pascha_day_hour,Tuesday,Tuesday | First Hour,,,Tuesday,First Hour,OT3,Hos 4:1-8,,Tuesday,First Hour,OT3
@@ -42307,6 +42312,7 @@ Old Testament,Isaiah,Isa,6,Isa 6,Isa 6:1-12,katameros_cycle,Great Lent/Jonah/Nin
 Old Testament,Isaiah,Isa,7,Isa 7,Isa 7:1-14,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 2 day_of_week 5,, ,,prophecy,GreatLentReadings,Isa 7:1-14,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,8,Isa 8,Isa 8:13-9,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 3 day_of_week 1,, ,,prophecy,GreatLentReadings,Isa 8:13-9,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,9,Isa 9,Isa 9:9-21,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 3 day_of_week 3,, ,,prophecy,GreatLentReadings,Isa 9:9-21,,Great Lent/Jonah/Nineveh cycle,Prophecy,
+Old Testament,Isaiah,Isa,9,Isa 9,Isa 9:1-2,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Isa 9:1-2,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Old Testament,Isaiah,Isa,10,Isa 10,Isa 10:1-4,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 3 day_of_week 3,, ,,prophecy,GreatLentReadings,Isa 10:1-4,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,10,Isa 10,Isa 10:12-21,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 3 day_of_week 2,, ,,prophecy,GreatLentReadings,Isa 10:12-21,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,11,Isa 11,Isa 11:10-16,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 3 day_of_week 4,, ,,prophecy,GreatLentReadings,Isa 11:10-16,,Great Lent/Jonah/Nineveh cycle,Prophecy,
@@ -42332,6 +42338,7 @@ Old Testament,Isaiah,Isa,28,Isa 28,Isa 28:16-29,pascha_day_hour,Wednesday,Wednes
 Old Testament,Isaiah,Isa,29,Isa 29,Isa 29:12-23,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 4 day_of_week 5,, ,,prophecy,GreatLentReadings,Isa 29:12-23,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,30,Isa 30,Isa 30:25-30,pascha_source_text,Tuesday,Tuesday | Eleventh Hour,,,Tuesday,Eleventh Hour,Prophecy,Isa 30:25-30,,Tuesday,Eleventh Hour,Prophecy
 Old Testament,Isaiah,Isa,35,Isa 35,Isa 35:1-10,special_service,liturgy_of_the_waters,apostles_feast_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Isa 35:1-10,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
+Old Testament,Isaiah,Isa,35,Isa 35,Isa 35:1-2,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Isa 35:1-2,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Old Testament,Isaiah,Isa,37,Isa 37,Isa 37:33-38,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 1,, ,,prophecy,GreatLentReadings,Isa 37:33-38,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,38,Isa 38,Isa 38:10-20,bright_saturday_service_order,PRAISES OF THE PROPHETS,Bright Saturday | Midnight Praises,,,Bright Saturday,Midnight Praises,Prayer of Hezekiah,Isaiah 38:10-20,,Bright Saturday,Midnight Praises,Prayer of Hezekiah
 Old Testament,Isaiah,Isa,38,Isa 38,Isa 38:1-6,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 1,, ,,prophecy,GreatLentReadings,Isa 38:1-6,,Great Lent/Jonah/Nineveh cycle,Prophecy,
@@ -42340,6 +42347,7 @@ Old Testament,Isaiah,Isa,40,Isa 40,Isa 40:9-31,katameros_cycle,Great Lent/Jonah/
 Old Testament,Isaiah,Isa,40,Isa 40,Isa 40:1-5,pascha_day_hour,Monday,Monday | Ninth Hour,,,Monday,Ninth Hour,OT2,Isa 40:1-5,,Monday,Ninth Hour,OT2
 Old Testament,Isaiah,Isa,40,Isa 40,Isa 40:1-5,pascha_day_hour,Tuesday,Tuesday | Ninth Hour,,,Tuesday,Ninth Hour,OT2,Isa 40:1-5,,Tuesday,Ninth Hour,OT2
 Old Testament,Isaiah,Isa,40,Isa 40,Isa 40:9-31,pascha_source_text,Tuesday,Tuesday | Ninth Hour,,,Tuesday,Ninth Hour,Prophecy,Isa 40:9-31,,Tuesday,Ninth Hour,Prophecy
+Old Testament,Isaiah,Isa,40,Isa 40,Isa 40:1-5,special_service,liturgy_of_the_waters,epiphany_laqan,,,liturgy_of_the_waters,prophecies,old_testament,Isa 40:1-5,https://copticreader.org/,liturgy_of_the_waters,prophecies,old_testament
 Old Testament,Isaiah,Isa,41,Isa 41,Isa 41:4-14,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 3,, ,,prophecy,GreatLentReadings,Isa 41:4-14,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,42,Isa 42,Isa 42:5-16,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 4,, ,,prophecy,GreatLentReadings,Isa 42:5-16,,Great Lent/Jonah/Nineveh cycle,Prophecy,
 Old Testament,Isaiah,Isa,43,Isa 43,Isa 43:1-9,katameros_cycle,Great Lent/Jonah/Nineveh cycle,week 5 day_of_week 5,, ,,prophecy,GreatLentReadings,Isa 43:1-9,,Great Lent/Jonah/Nineveh cycle,Prophecy,

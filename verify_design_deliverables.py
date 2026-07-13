@@ -388,8 +388,8 @@ def verify_rows() -> None:
     reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
     if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
         fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
-    if len(reverse_index) != 11916:
-        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11916")
+    if len(reverse_index) != 11923:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11923")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in reverse_index):
         fail("reverse_lectionary_index must not expose annual fixed Coptic day as an occasion")
     grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)

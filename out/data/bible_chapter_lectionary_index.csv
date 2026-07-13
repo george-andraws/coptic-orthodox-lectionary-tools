@@ -686,7 +686,7 @@ Old Testament,Isaiah,Isa,5,Isa 5,yes,5,pascha_day_hour; katameros_cycle,Monday; 
 Old Testament,Isaiah,Isa,6,Isa 6,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 6:1-12
 Old Testament,Isaiah,Isa,7,Isa 7,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 7:1-14
 Old Testament,Isaiah,Isa,8,Isa 8,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 8:13-9
-Old Testament,Isaiah,Isa,9,Isa 9,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 9:9-21
+Old Testament,Isaiah,Isa,9,Isa 9,yes,2,special_service; katameros_cycle,liturgy_of_the_waters; Great Lent/Jonah/Nineveh cycle,prophecies; prophecy,old_testament; GreatLentReadings,special_service | liturgy_of_the_waters | prophecies | old_testament | Isa 9:1-2 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 9:9-21
 Old Testament,Isaiah,Isa,10,Isa 10,yes,2,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 10:1-4 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 10:12-21
 Old Testament,Isaiah,Isa,11,Isa 11,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 11:10-16
 Old Testament,Isaiah,Isa,12,Isa 12,yes,2,katameros_cycle; pascha_day_hour,Great Lent/Jonah/Nineveh cycle; Good Friday,prophecy; Sixth Hour,GreatLentReadings; OT3,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 12:1-2 || pascha_day_hour | Good Friday | Sixth Hour | OT3 | Isa 12:2-13:10
@@ -712,12 +712,12 @@ Old Testament,Isaiah,Isa,31,Isa 31,no,0,,,,,
 Old Testament,Isaiah,Isa,32,Isa 32,no,0,,,,,
 Old Testament,Isaiah,Isa,33,Isa 33,no,0,,,,,
 Old Testament,Isaiah,Isa,34,Isa 34,no,0,,,,,
-Old Testament,Isaiah,Isa,35,Isa 35,yes,1,special_service,liturgy_of_the_waters,prophecies,old_testament,special_service | liturgy_of_the_waters | prophecies | old_testament | Isa 35:1-10
+Old Testament,Isaiah,Isa,35,Isa 35,yes,2,special_service,liturgy_of_the_waters,prophecies,old_testament,special_service | liturgy_of_the_waters | prophecies | old_testament | Isa 35:1-10 || special_service | liturgy_of_the_waters | prophecies | old_testament | Isa 35:1-2
 Old Testament,Isaiah,Isa,36,Isa 36,no,0,,,,,
 Old Testament,Isaiah,Isa,37,Isa 37,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 37:33-38
 Old Testament,Isaiah,Isa,38,Isa 38,yes,2,katameros_cycle; bright_saturday_service_order,Great Lent/Jonah/Nineveh cycle; PRAISES OF THE PROPHETS,prophecy; Midnight Praises,GreatLentReadings; Prayer of Hezekiah,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 38:1-6 || bright_saturday_service_order | PRAISES OF THE PROPHETS | Midnight Praises | Prayer of Hezekiah | Isa 38:10-20
 Old Testament,Isaiah,Isa,39,Isa 39,no,0,,,,,
-Old Testament,Isaiah,Isa,40,Isa 40,yes,5,pascha_day_hour; katameros_cycle; pascha_source_text,Monday; Tuesday; Great Lent/Jonah/Nineveh cycle,Ninth Hour; prophecy,OT2; GreatLentReadings; Prophecy,pascha_day_hour | Monday | Ninth Hour | OT2 | Isa 40:1-5 || pascha_day_hour | Tuesday | Ninth Hour | OT2 | Isa 40:1-5 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 40:1-8 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 40:9-31 || pascha_source_text | Tuesday | Ninth Hour | Prophecy | Isa 40:9-31
+Old Testament,Isaiah,Isa,40,Isa 40,yes,6,pascha_day_hour; special_service; katameros_cycle; pascha_source_text,Monday; Tuesday; liturgy_of_the_waters; Great Lent/Jonah/Nineveh cycle,Ninth Hour; prophecies; prophecy,OT2; old_testament; GreatLentReadings; Prophecy,pascha_day_hour | Monday | Ninth Hour | OT2 | Isa 40:1-5 || pascha_day_hour | Tuesday | Ninth Hour | OT2 | Isa 40:1-5 || special_service | liturgy_of_the_waters | prophecies | old_testament | Isa 40:1-5 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 40:1-8 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 40:9-31
 Old Testament,Isaiah,Isa,41,Isa 41,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 41:4-14
 Old Testament,Isaiah,Isa,42,Isa 42,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 42:5-16
 Old Testament,Isaiah,Isa,43,Isa 43,yes,3,katameros_cycle; special_service,Great Lent/Jonah/Nineveh cycle; liturgy_of_the_waters,prophecy; prophecies,GreatLentReadings; old_testament,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 43:1-9 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Isa 43:10-28 || special_service | liturgy_of_the_waters | prophecies | old_testament | Isa 43:16-44:6
@@ -836,7 +836,7 @@ Old Testament,Ezekiel,Ezek,32,Ezek 32,no,0,,,,,
 Old Testament,Ezekiel,Ezek,33,Ezek 33,no,0,,,,,
 Old Testament,Ezekiel,Ezek,34,Ezek 34,no,0,,,,,
 Old Testament,Ezekiel,Ezek,35,Ezek 35,no,0,,,,,
-Old Testament,Ezekiel,Ezek,36,Ezek 36,yes,2,pascha_day_hour; pascha_source_text,Great Thursday Eve; Great Thursday,Third Hour; Liturgy of Blessing of the Water,OT1; Prophecy,pascha_day_hour | Great Thursday Eve | Third Hour | OT1 | Ezek 36:16-23 || pascha_source_text | Great Thursday | Liturgy of Blessing of the Water | Prophecy | Ezek 36:25-29
+Old Testament,Ezekiel,Ezek,36,Ezek 36,yes,3,pascha_day_hour; special_service; pascha_source_text,Great Thursday Eve; liturgy_of_the_waters; Great Thursday,Third Hour; prophecies; Liturgy of Blessing of the Water,OT1; old_testament; Prophecy,pascha_day_hour | Great Thursday Eve | Third Hour | OT1 | Ezek 36:16-23 || special_service | liturgy_of_the_waters | prophecies | old_testament | Ezek 36:24-29 || pascha_source_text | Great Thursday | Liturgy of Blessing of the Water | Prophecy | Ezek 36:25-29
 Old Testament,Ezekiel,Ezek,37,Ezek 37,yes,1,special_service,general_funeral,prophecy,old_testament,special_service | general_funeral | prophecy | old_testament | Ezek 37:1-14
 Old Testament,Ezekiel,Ezek,38,Ezek 38,no,0,,,,,
 Old Testament,Ezekiel,Ezek,39,Ezek 39,no,0,,,,,
@@ -847,7 +847,7 @@ Old Testament,Ezekiel,Ezek,43,Ezek 43,yes,1,pascha_source_text,Great Thursday Ev
 Old Testament,Ezekiel,Ezek,44,Ezek 44,no,0,,,,,
 Old Testament,Ezekiel,Ezek,45,Ezek 45,no,0,,,,,
 Old Testament,Ezekiel,Ezek,46,Ezek 46,no,0,,,,,
-Old Testament,Ezekiel,Ezek,47,Ezek 47,yes,1,pascha_source_text,Great Thursday,Liturgy of Blessing of the Water,Prophecy,pascha_source_text | Great Thursday | Liturgy of Blessing of the Water | Prophecy | Ezek 47:1-9
+Old Testament,Ezekiel,Ezek,47,Ezek 47,yes,2,pascha_source_text; special_service,Great Thursday; liturgy_of_the_waters,Liturgy of Blessing of the Water; prophecies,Prophecy; old_testament,pascha_source_text | Great Thursday | Liturgy of Blessing of the Water | Prophecy | Ezek 47:1-9 || special_service | liturgy_of_the_waters | prophecies | old_testament | Ezek 47:1-9
 Old Testament,Ezekiel,Ezek,48,Ezek 48,no,0,,,,,
 Old Testament,Daniel,Dan,1,Dan 1,yes,1,katameros_cycle,Great Lent/Jonah/Nineveh cycle,prophecy,GreatLentReadings,katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Dan 1:1-42
 Old Testament,Daniel,Dan,2,Dan 2,no,0,,,,,
@@ -904,7 +904,7 @@ Old Testament,Nahum,Nahum,2,Nahum 2,no,0,,,,,
 Old Testament,Nahum,Nahum,3,Nahum 3,no,0,,,,,
 Old Testament,Habakkuk,Hab,1,Hab 1,no,0,,,,,
 Old Testament,Habakkuk,Hab,2,Hab 2,no,0,,,,,
-Old Testament,Habakkuk,Hab,3,Hab 3,yes,1,bright_saturday_service_order,PRAISES OF THE PROPHETS,Midnight Praises,Prayer of Habakkuk,bright_saturday_service_order | PRAISES OF THE PROPHETS | Midnight Praises | Prayer of Habakkuk | Hab 3:2-19
+Old Testament,Habakkuk,Hab,3,Hab 3,yes,2,bright_saturday_service_order; special_service,PRAISES OF THE PROPHETS; liturgy_of_the_waters,Midnight Praises; prophecies,Prayer of Habakkuk; old_testament,bright_saturday_service_order | PRAISES OF THE PROPHETS | Midnight Praises | Prayer of Habakkuk | Hab 3:2-19 || special_service | liturgy_of_the_waters | prophecies | old_testament | Hab 3:2-19
 Old Testament,Zephaniah,Zeph,1,Zeph 1,yes,2,pascha_source_text,Monday Eve,Third Hour; First Hour,Prophecy,pascha_source_text | Monday Eve | Third Hour | Prophecy | Zeph 1:14-2:2 || pascha_source_text | Monday Eve | First Hour | Prophecy | Zeph 1:2-12
 Old Testament,Zephaniah,Zeph,2,Zeph 2,yes,1,pascha_source_text,Monday Eve,Third Hour,Prophecy,pascha_source_text | Monday Eve | Third Hour | Prophecy | Zeph 1:14-2:2
 Old Testament,Zephaniah,Zeph,3,Zeph 3,yes,2,pascha_source_text; katameros_cycle,Hosanna Sunday; Great Lent/Jonah/Nineveh cycle,Ninth Hour; prophecy,Prophecy; GreatLentReadings,pascha_source_text | Hosanna Sunday | Ninth Hour | Prophecy | Zeph 3:11-20 || katameros_cycle | Great Lent/Jonah/Nineveh cycle | prophecy | GreatLentReadings | Zeph 3:14-20
@@ -1030,8 +1030,8 @@ Deuterocanonical,Sirach,Sir,50,Sir 50,no,0,,,,,
 Deuterocanonical,Sirach,Sir,51,Sir 51,no,0,,,,,
 Deuterocanonical,Baruch,Bar,1,Bar 1,no,0,,,,,
 Deuterocanonical,Baruch,Bar,2,Bar 2,yes,1,bright_saturday_service_order,PRAISES OF THE PROPHETS,Midnight Praises,Prayer of Baruch,bright_saturday_service_order | PRAISES OF THE PROPHETS | Midnight Praises | Prayer of Baruch | Bar 2:11-16
-Deuterocanonical,Baruch,Bar,3,Bar 3,no,0,,,,,
-Deuterocanonical,Baruch,Bar,4,Bar 4,no,0,,,,,
+Deuterocanonical,Baruch,Bar,3,Bar 3,yes,1,special_service,liturgy_of_the_waters,prophecies,old_testament,special_service | liturgy_of_the_waters | prophecies | old_testament | Bar 3:36-4:4
+Deuterocanonical,Baruch,Bar,4,Bar 4,yes,1,special_service,liturgy_of_the_waters,prophecies,old_testament,special_service | liturgy_of_the_waters | prophecies | old_testament | Bar 3:36-4:4
 Deuterocanonical,Baruch,Bar,5,Bar 5,no,0,,,,,
 Deuterocanonical,Baruch,Bar,6,Bar 6,no,0,,,,,
 Deuterocanonical,1 Maccabees,1Macc,1,1Macc 1,no,0,,,,,
