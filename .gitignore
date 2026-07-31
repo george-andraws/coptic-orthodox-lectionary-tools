@@ -16,6 +16,9 @@ out/design/reverse_lectionary_presentation.jsonl
 # npm package build artifacts
 packages/lectionary-data/*.tgz
 
+# Generated source-page caches; preserve locally but never stage
+audit_artifacts/**/cache/
+
 # Include required SQLite source/package databases for reproducible local rebuilds
 !sources/katameros-api/Core/KatamerosDatabase.db
 !out/sources/KatamerosDatabase.sqlite

@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / 'out' / 'data'
 SOURCES = ROOT / 'out' / 'sources'
 SOURCE_FILE = SOURCES / 'St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt'
-VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault')
+VAULT = Path.home() / 'Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault'
 VAULT_DATA = VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data'
 
 

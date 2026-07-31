@@ -16,7 +16,7 @@ from build_design_deliverables import source_family_authority_key
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "out" / "design"
-BRENTON = Path("/Users/georgeandraws/workspace/extract_brenton.py")
+BRENTON = Path.home() / "workspace" / "extract_brenton.py"
 
 PASCHA_WEDNESDAY_HOURS = {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}
 PASCHA_WEDNESDAY_LABEL = "Wednesday of Holy Pascha"

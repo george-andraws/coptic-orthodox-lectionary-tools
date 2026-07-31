@@ -9,9 +9,9 @@ from typing import Dict, List
 
 from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens
 
-ROOT = Path('/Users/georgeandraws/workspace/coptic-lectionary-research')
+ROOT = Path.home() / 'workspace' / 'coptic-lectionary-research'
 OUT = ROOT / 'out' / 'data'
-VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary')
+VAULT = Path.home() / 'Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary'
 
 
 def env_flag(name: str) -> bool:

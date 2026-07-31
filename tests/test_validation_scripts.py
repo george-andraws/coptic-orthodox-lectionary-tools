@@ -257,6 +257,32 @@ class SourceManifestTests(unittest.TestCase):
             self.assertEqual(summary["files_checked"], 1)
             self.assertEqual(summary["status"], "pass")
 
+    def test_manifest_ignores_sqlite_runtime_sidecars(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            sources = Path(tmp)
+            database = sources / "sample.sqlite"
+            database.write_bytes(b"sqlite-data")
+            digest = source_manifest.sha256_file(database)
+            (sources / "SOURCE_MANIFEST.json").write_text(
+                json.dumps([{"file": database.name, "bytes": database.stat().st_size, "sha256": digest}]),
+                encoding="utf-8",
+            )
+            for suffix in ("-wal", "-shm", "-journal"):
+                (sources / f"{database.name}{suffix}").write_bytes(b"runtime-only")
+
+            summary = source_manifest.verify_source_manifest(sources)
+
+            self.assertEqual(summary["status"], "pass")
+
+    def test_manifest_still_rejects_other_unmanifested_files(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            sources = Path(tmp)
+            (sources / "SOURCE_MANIFEST.json").write_text("[]", encoding="utf-8")
+            (sources / "unexpected.txt").write_text("not manifested", encoding="utf-8")
+
+            with self.assertRaisesRegex(AssertionError, "unmanifested_source_files"):
+                source_manifest.verify_source_manifest(sources)
+
 
 class ExternalComparisonTests(unittest.TestCase):
     def test_reference_normalization_strips_inline_lxx_display(self) -> None:

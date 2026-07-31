@@ -476,7 +476,9 @@ def assert_pascha_source_text_dedupe_invariants():
 
 def assert_chapter_occurrence_row_count():
     rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
-    assert len(rows) == 71195, len(rows)
+    # e140223 added 13 Apostles Feast Lakkan chapter occurrences and 4c38963
+    # added 8 Theophany Lakkan occurrences to the previous 71,195-row baseline.
+    assert len(rows) == 71216, len(rows)
     return {'chapter_occurrence_rows': len(rows)}
 
 

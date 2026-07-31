@@ -26,7 +26,7 @@ def env_flag(name: str) -> bool:
     return os.environ.get(name, '').strip().lower() in {'1', 'true', 'yes', 'on'}
 
 
-VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault')
+VAULT = Path.home() / 'Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault'
 REF = VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary'
 LOCAL = REF / 'Coptic Orthodox Lectionary Reference'
 DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')

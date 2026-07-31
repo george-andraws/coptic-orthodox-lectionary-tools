@@ -14,6 +14,11 @@ SOURCES_DIR = ROOT / "out" / "sources"
 MANIFEST_NAME = "SOURCE_MANIFEST.json"
 
 
+def is_transient_sqlite_sidecar(path: Path) -> bool:
+    """Return whether a file is a SQLite runtime sidecar, not source data."""
+    return path.name.endswith((".sqlite-wal", ".sqlite-shm", ".sqlite-journal"))
+
+
 def sha256_file(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as handle:
@@ -71,7 +76,13 @@ def verify_source_manifest(sources_dir: Path = SOURCES_DIR) -> dict[str, Any]:
         if expected_sha != actual_sha:
             failures.append({"entry": index, "file": file_name, "reason": "sha256_mismatch", "expected": expected_sha, "actual": actual_sha})
 
-    source_files = {path.name for path in sources_dir.iterdir() if path.is_file() and path.name != MANIFEST_NAME}
+    source_files = {
+        path.name
+        for path in sources_dir.iterdir()
+        if path.is_file()
+        and path.name != MANIFEST_NAME
+        and not is_transient_sqlite_sidecar(path)
+    }
     unmanifested = sorted(source_files - seen)
     if unmanifested:
         failures.append({"reason": "unmanifested_source_files", "files": unmanifested})

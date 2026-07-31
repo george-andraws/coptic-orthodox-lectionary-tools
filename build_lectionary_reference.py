@@ -45,7 +45,7 @@ OUT = WORK / 'out'
 DATA = OUT / 'data'
 SOURCES_OUT = OUT / 'sources'
 SCRIPTS = OUT / 'scripts'
-VAULT_PACKAGE = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference')
+VAULT_PACKAGE = Path.home() / 'Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference'
 
 
 def env_flag(name: str) -> bool:

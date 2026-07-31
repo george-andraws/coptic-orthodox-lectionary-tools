@@ -5,7 +5,7 @@ Operational notes for rebuilding, validating, querying, and maintaining George's
 ## Project location
 
 ```bash
-cd /Users/georgeandraws/workspace/coptic-lectionary-research
+cd "$HOME/workspace/coptic-lectionary-research"
 ```
 
 ## What this package contains

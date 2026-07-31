@@ -97,8 +97,8 @@ autonomously.
 
 - **Site:** Light and Logos, https://andraws.net. Coptic Orthodox Bible study. Quartz 5 static
   site, Cloudflare Workers, audio on R2 at media.andraws.net. Site repo: `coptic-corpus`.
-- **Lectionary data repo:** `coptic-lectionary-research` (local path uses `/Users/georgeandraws/...`
-  for native agents). Contains the ingestion/build scripts (`build_lectionary_reference.py`,
+- **Lectionary data repo:** canonical GitHub repo `george-andraws/coptic-orthodox-lectionary-tools`; local working folder remains `$HOME/workspace/coptic-lectionary-research`
+  for native agents. Contains the ingestion/build scripts (`build_lectionary_reference.py`,
   `build_lectionary_crosswalk.py`, `build_bible_chapter_lectionary_index.py`,
   `build_pascha_source_text_index.py`), the occurrence CSV (~71k rows),
   `reverse_lookup_crosswalk.csv`, the local Katameros SQLite

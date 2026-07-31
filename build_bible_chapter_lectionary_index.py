@@ -24,7 +24,7 @@ def env_flag(name: str) -> bool:
 
 
 DATA = env_path('LECTIONARY_DATA_DIR', env_path('LECTIONARY_WORK_OUT_DATA', ROOT / 'out' / 'data'))
-VAULT = Path('/Users/georgeandraws/Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault')
+VAULT = Path.home() / 'Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault'
 VAULT_DATA = env_path('LECTIONARY_VAULT_DATA', VAULT / 'Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary/Coptic Orthodox Lectionary Reference/data')
 DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
 
