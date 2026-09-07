@@ -19,7 +19,7 @@ console.log(lectionaryData.dailyYearPath(2026));
 console.log(lectionaryData.shippedYears);
 console.log(lectionaryData.meta.source_repo_commit);
 console.log(lectionaryData.classifyDate('2026-04-10'));
-console.log(lectionaryData.isActiveReading({ display_ref: 'Jn 1:1-17' }));
+console.log(lectionaryData.isCurrentReading({ display_ref: 'Jn 1:1-17' }));
 ```
 
 ## Exports
@@ -29,7 +29,8 @@ console.log(lectionaryData.isActiveReading({ display_ref: 'Jn 1:1-17' }));
 - `dailyYearPath(year)`: returns the absolute path for a shipped daily lectionary JSON file.
 - `classifyDate(date)`: classifies a shipped ISO date as present in daily JSON or as a documented structural-only Holy Week/Bright Saturday gap.
 - `isRemovedReading(row)`: returns true for rows marked `active: false` or `status: "removed"`.
-- `isActiveReading(row)`: convenience negation of `isRemovedReading(row)`; use this to filter active reverse-index rows.
+- `isActiveReading(row)`: backwards-compatible convenience negation of `isRemovedReading(row)`; it does not exclude every historical or superseded state.
+- `isCurrentReading(row)`: returns true only for unmarked legacy rows or supported current-status values; removal markers, superseded rows, and historical witnesses are false.
 - `structuralDateResolver`: resolver metadata copied from `meta.structural_date_resolver`.
 - `shippedYears`: frozen array of shipped daily years.
 - `meta`: parsed `meta.json`.
@@ -68,7 +69,7 @@ Rows that were removed from active lookup by source-priority projection include 
 - `consumer_note`
 - `retained_for: "provenance_only"`
 
-Consumers should filter with `isActiveReading(row)` unless they are building an audit/provenance view.
+Default consumers should filter with `isCurrentReading(row)`. `isActiveReading(row)` retains its narrower backwards-compatible meaning and is appropriate only when historical/source-marked rows are intentionally included.
 
 ### Dual-numbering display references
 
@@ -90,7 +91,7 @@ In `meta.daily_files`, `rows` is retained as a legacy alias for `date_count`. Us
 
 ## Structural Holy Week / Bright Saturday daily rows
 
-The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date. As a result, every shipped civil date in 2026, 2027, 2028 has a daily JSON key.
+The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date, and replaces a verified Annunciation collision under the documented exception rule. As a result, every shipped civil date in 2026, 2027, 2028 has a daily JSON key.
 
 `meta.structural_date_resolver.structural_daily_additions_by_year` lists the civil dates filled from structural Pascha/Bright Saturday rows. `classifyDate(date)` returns `hasDailyReadings: true` for every shipped civil date that has a daily key.
 
@@ -98,7 +99,7 @@ The package date-resolves Holy Week and Bright Saturday structural rows into the
 
 The package projects the raw reverse index into a consumer-safe runtime index. When a copticchurch.net date-resolved row and a lower-priority local cycle row overlap the same normalized consumer occasion, service, service hour, and slot type but disagree on the passage span, the lower-priority variant is retained as inactive provenance rather than used as an active lookup row.
 
-Inactive projection rows are marked with `active: false`, `status: "removed"`, `removed_marker: "removed_by_source_priority_projection"`, a `consumer_note`, and preferred-reading fields such as `preferred_source_family`, `preferred_display_ref`, and `preferred_identity_key`. Use `isActiveReading(row)` to exclude these rows from active lookups.
+Inactive projection rows are marked with `active: false`, `status: "removed"`, `removed_marker: "removed_by_source_priority_projection"`, a `consumer_note`, and preferred-reading fields such as `preferred_source_family`, `preferred_display_ref`, and `preferred_identity_key`. Use `isCurrentReading(row)` for default current-reading lookups.
 
 For fixed-date rows with a Sunday-specific counterpart, generic rows are disambiguated as non-Sunday contexts rather than silently duplicated.
 
@@ -116,10 +117,10 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.1.11
-- Source repo commit: 37d474beecd55cb44bd3a527347df1bf81601c87
-- Generated at: 2026-09-07T00:14:48.466Z
-- Occasion index rows: 11923
+- Package version: 1.2.0
+- Source repo commit: 83210fbfb4124a1d65f8b26d7eace6a5c5dbf9ce
+- Generated at: 2026-09-07T13:17:36.240Z
+- Occasion index rows: 11921
 
 ## License
 

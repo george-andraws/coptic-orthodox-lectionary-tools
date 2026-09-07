@@ -25,6 +25,15 @@ function classifyDate(date) {
     throw new TypeError('date must be an ISO YYYY-MM-DD string.');
   }
   const year = Number(date.slice(0, 4));
+  const month = Number(date.slice(5, 7));
+  const day = Number(date.slice(8, 10));
+  if (year === 0) throw new RangeError('date must use Gregorian year 0001 or later.');
+  const parsed = new Date(0);
+  parsed.setUTCHours(0, 0, 0, 0);
+  parsed.setUTCFullYear(year, month - 1, day);
+  if (parsed.getUTCFullYear() !== year || parsed.getUTCMonth() + 1 !== month || parsed.getUTCDate() !== day) {
+    throw new RangeError('date must be a real Gregorian calendar date.');
+  }
   if (!shippedYears.includes(year)) {
     return {
       date,
@@ -63,6 +72,16 @@ function isActiveReading(row) {
   return !isRemovedReading(row);
 }
 
+function isCurrentReading(row) {
+  if (!row || typeof row !== 'object' || Array.isArray(row) || row.active === false || row.status === 'removed') return false;
+  if (/^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b/i.test(String(row.removed_marker || '').trim())) return false;
+  const status = String(row.current_status || row.status || '').trim().toLowerCase();
+  if (!status) return true;
+  if (status === 'removed' || status.startsWith('superseded') || status === 'historical_candidate_removed' || status === 'historical_witness') return false;
+  if (['current', 'current_public_or_local_reference', 'current_working_source_not_coptic_reader_checked', 'current_confirmed_coptic_reader', 'current_confirmed_by_fixture_equivalence', 'pending_psalm_equivalence_unresolved'].includes(status)) return true;
+  throw new RangeError('Unknown explicit reading status: ' + status);
+}
+
 module.exports = {
   occasionIndexPath,
   dailyDir,
@@ -70,6 +89,7 @@ module.exports = {
   classifyDate,
   isRemovedReading,
   isActiveReading,
+  isCurrentReading,
   structuralDateResolver,
   shippedYears,
   meta,
