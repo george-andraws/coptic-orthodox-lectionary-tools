@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2026-01-04",
+    "section": "Liturgy",
+    "reading": "Catholic Epistle",
+    "target": "Fourth Sunday Kiahk: 1Jn 2:24-33",
+    "context": "Selected Season 4th Sunday of Koiahk Koiahk 26, 1742 Sunday, January 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2026-01-04-liturgy-catholic-epistle.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-01-04",
+    "section": "Matins",
+    "reading": "",
+    "target": "Kiahk4 Ps95:10-12",
+    "context": "Selected Season 4th Sunday of Koiahk Koiahk 26, 1742 Sunday, January 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2026-01-04-matins-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-02-18",
+    "section": "Liturgy",
+    "reading": "Psalm and Gospel",
+    "target": "Lent1Wed Ps24:16,20",
+    "context": "Selected Season 1st Week of Great Fast Meshir 11, 1742 Wednesday, February 18, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2026-02-18-liturgy-psalm-and-gospel.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-02-19",
+    "section": "Liturgy",
+    "reading": "Psalm and Gospel",
+    "target": "Lent1Thu Ps117:14,18",
+    "context": "Selected Season 1st Week of Great Fast Meshir 12, 1742 Thursday, February 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Michael",
+    "text_file": "2026-02-19-liturgy-psalm-and-gospel.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-03-15",
+    "section": "Matins",
+    "reading": "",
+    "target": "Lent4Sun Ps31:33",
+    "context": "Selected Season 4th Sunday of Great Fast Paremhotep 6, 1742 Sunday, March 15, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2026-03-15-matins-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-03-22",
+    "section": "Matins",
+    "reading": "",
+    "target": "Lent5Sun Ps101:12",
+    "context": "Selected Season 5th Sunday of Great Fast Paremhotep 13, 1742 Sunday, March 22, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great St. Macarius of Alexandria",
+    "text_file": "2026-03-22-matins-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-03-11",
+    "section": "Liturgy",
+    "reading": "Pauline Epistle",
+    "target": "Lent4Wed Eph4:17-33",
+    "context": "Selected Season 4th Week of Great Fast Paremhotep 2, 1742 Wednesday, March 11, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2026-03-11-liturgy-pauline-epistle.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-09-01",
+    "section": "Liturgy",
+    "reading": "Pauline Epistle",
+    "target": "Mesra26 Rom7:14-27",
+    "context": "Selected Season Standard Mesore 26, 1739 Friday, September 1, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2023-09-01-liturgy-pauline-epistle.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-08-11",
+    "section": "Liturgy",
+    "reading": "Psalm and Gospel",
+    "target": "Mesra5 Matt3:23-5:16",
+    "context": "Selected Season St. Mary's Fast Mesore 5, 1739 Friday, August 11, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2023-08-11-liturgy-psalm-and-gospel.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-11-17",
+    "section": "Liturgy",
+    "reading": "Pauline Epistle",
+    "target": "EXCLUDED: Hatur 7, not Hatur 8; do not use for correction",
+    "context": "Selected Season Standard Hathor 7, 1740 Friday, November 17, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. George Prince of Martyrs",
+    "text_file": "2023-11-17-liturgy-pauline-epistle.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-11-26",
+    "section": "Liturgy",
+    "reading": "Pauline Epistle",
+    "target": "Hatur3Sunday 1Thess1:1-12",
+    "context": "Selected Season Nativity Fast 3rd Sunday of Hathor Sunday, November 26, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Nopher the Anchorite",
+    "text_file": "2023-11-26-liturgy-pauline-epistle.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-11-18",
+    "section": "Liturgy",
+    "reading": "Pauline Epistle",
+    "target": "Hatur8 verified Coptic conversion",
+    "context": "Selected Season Standard Hathor 8, 1740 Saturday, November 18, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nFour Incorporeal Creatures",
+    "text_file": "2023-11-18-liturgy-pauline-epistle.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-09-17",
+    "section": "Liturgy",
+    "reading": "Psalm and Gospel",
+    "target": "FirstSundayThoout Ps31:26",
+    "context": "Selected Season Coptic New Year Period 1st Sunday of Thoout Sunday, September 17, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2023-09-17-liturgy-psalm-and-gospel.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-08-22",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Mesra16 Lk10:38-52",
+    "context": "Selected Season Assumption of the Body of St. Mary Mesore 16, 1739 Tuesday, August 22, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+    "text_file": "2023-08-22-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2022-12-12",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Kiahk3 Lk10:38-52",
+    "context": "Selected Season 1st Week of Koiahk Koiahk 3, 1739 Monday, December 12, 2022\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God St. Pistavros",
+    "text_file": "2022-12-12-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2024-01-30",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Toba21 Lk10:38-52",
+    "context": "Selected Season Standard Tobe 21, 1740 Tuesday, January 30, 2024\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God St. Hilaria",
+    "text_file": "2024-01-30-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2029-01-29",
+    "section": "Vespers",
+    "reading": "",
+    "target": "JonahFastMonday Lk10:38-52",
+    "context": "Selected Season Jonah's Fast Tobe 21, 1745 Monday, January 29, 2029\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God St. Hilaria",
+    "text_file": "2029-01-29-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-07-11",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Abib4 Ps68:65",
+    "context": "Selected Season Apostles' Fast Epep 4, 1739 Tuesday, July 11, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Apakir and St. John",
+    "text_file": "2023-07-11-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-07-19",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Abib12 Ps68:65",
+    "context": "Selected Season Standard Epep 12, 1739 Wednesday, July 19, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Michael",
+    "text_file": "2023-07-19-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-07-31",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Abib24 Ps68:65",
+    "context": "Selected Season Standard Epep 24, 1739 Monday, July 31, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Apanoub of Nehis",
+    "text_file": "2023-07-31-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-08-07",
+    "section": "Vespers",
+    "reading": "",
+    "target": "StMaryFast Ps68:65",
+    "context": "Selected Season St. Mary's Fast Mesore 1, 1739 Monday, August 7, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Apoli, Son of Justus",
+    "text_file": "2023-08-07-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-08-15",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Mesra9 Ps68:65",
+    "context": "Selected Season St. Mary's Fast Mesore 9, 1739 Tuesday, August 15, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2023-08-15-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2023-09-09",
+    "section": "Vespers",
+    "reading": "",
+    "target": "Nasie4 Ps68:65",
+    "context": "Selected Season Standard Nesi 4, 1739 Saturday, September 9, 2023\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "text_file": "2023-09-09-vespers-.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  },
+  {
+    "date": "2026-04-10",
+    "section": "Pascha Friday Sixth Hour",
+    "reading": "Psalm",
+    "target": "GoodFridaySixth composite Ps21 vs MT22",
+    "context": "Selected GreatFriday; Special>Pascha>Friday>6thHour; document explicitly GreatFriday(TheSixthHour)",
+    "text_file": "2026-04-10-good-friday-sixth.txt",
+    "source": "Coptic Reader 3.7 https://copticreader.org/app/"
+  }
+]

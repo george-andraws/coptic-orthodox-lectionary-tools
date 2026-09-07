@@ -458,6 +458,8 @@ def foundational_69_by_day_key() -> dict[str, dict]:
 
 
 def removed_marker_for(row: dict, ident: dict) -> str:
+    if row.get("superseded_reason") == "coptic_reader_no_service":
+        return "removed_by_coptic_reader_no_service"
     superseded_by_ref = row.get("superseded_by_ref", "")
     if superseded_by_ref:
         target = identity_for(superseded_by_ref, row.get("source_kind", ""))
@@ -1034,6 +1036,8 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
     key = (row.get("day_title", ""), row.get("service_hour", ""), ref)
     if source_kind == "coptic_reader_fixture":
         return "current_confirmed_coptic_reader", "Current where fixture scope applies."
+    if row.get("superseded_reason") == "coptic_reader_no_service":
+        return "historical_candidate_removed", "Coptic Reader states that Vespers are not prayed in this exact Jonah Fast context."
     if row.get("superseded_by_ref", ""):
         return "historical_candidate_removed", "Superseded split-span row preserved for overlap audit; authoritative source returned a continuous span."
     if removed_marker_for(row, ident):
@@ -1425,15 +1429,30 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         missing = expected_keys - actual_keys
         extra = actual_keys - expected_keys
         raise AssertionError(f"reverse_lectionary_index key mismatch: missing={len(missing)} extra={len(extra)}")
-    if len(index_rows) != 11923:
-        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11923")
+    # Resurrection's duplicate 1Pet attestation collapses, while the authoritative
+    # Good Friday Sixth Hour composite contributes three distinct Psalm segments.
+    if len(index_rows) != 11921:
+        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11921 after authoritative source corrections")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in index_rows):
         raise AssertionError("reverse_lectionary_index must resolve annual fixed Coptic day rows to specific Coptic dates")
     assert_atomic_scalar_fields(index_rows)
     return index_rows, status_disagreements
 
 
-DAILY_READING_FIELDS = ["occasion", "service_section", "service_hour", "slot", "display_ref", "identity_key", "reading_type", "removed_marker"]
+DAILY_READING_FIELDS = ["occasion", "service_section", "service_hour", "slot", "display_ref", "identity_key", "reading_type", "removed_marker", "current_status", "source_kind", "source_family", "source_file", "source_row_id", "source_disclosure"] + ["spans_json", "canonical_mt_ref", "canonical_lxx_ref", "slot_type", "slot_order", "service_order", "source_locator", "reading_name", "source_group_key", "superseded_by_ref"]
+
+
+def is_current_presentation(row: dict) -> bool:
+    if row.get("active") is False or row.get("status") == "removed":
+        return False
+    if re.search(r"^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b", str(row.get("removed_marker") or "").strip(), re.I):
+        return False
+    status = str(row.get("current_status") or row.get("status") or "").strip().lower()
+    if status in {"historical_witness", "historical_candidate_removed", "removed"} or status.startswith("superseded"):
+        return False
+    if status in {"", "current", "current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "current_public_or_local_reference", "current_working_source_not_coptic_reader_checked", "pending_psalm_equivalence_unresolved"}:
+        return True
+    raise ValueError(f"Unknown explicit reading status: {status}")
 
 
 def build_daily_year_files(presentation_rows: list[dict]) -> dict[int, dict[str, list[dict]]]:
@@ -1446,7 +1465,17 @@ def build_daily_year_files(presentation_rows: list[dict]) -> dict[int, dict[str,
             date_obj = dt.date.fromisoformat(date_value)
         except ValueError as exc:
             raise AssertionError(f"Invalid gregorian_date in presentation row: {date_value}") from exc
-        by_year[date_obj.year][date_value].append({field: row.get(field, "") for field in DAILY_READING_FIELDS})
+        if not is_current_presentation(row):
+            continue
+        daily_row = {field: row.get(field, "") for field in DAILY_READING_FIELDS}
+        daily_row["source_group_key"] = row.get("source_group_key") or "|".join(str(row.get(field) or "") for field in ("source_kind", "source_row_id", "occasion", "service_hour", "slot"))
+        daily_row["source_disclosure"] = json.dumps([{
+            "source_kind": row.get("source_kind", ""),
+            "source_family": row.get("source_family", ""),
+            "source_file": row.get("source_file", ""),
+            "source_row_id": row.get("source_row_id", ""),
+        }], ensure_ascii=False, separators=(",", ":"))
+        by_year[date_obj.year][date_value].append(daily_row)
     return {year: dict(sorted(days.items())) for year, days in sorted(by_year.items())}
 
 

@@ -59,7 +59,7 @@ QUERY_BOOK_ALIASES = {
     '4maccabees': '4Macc', '4 maccabees': '4Macc', '4macc': '4Macc', 'iv maccabees': '4Macc',
 }
 
-REF_TOKEN_RE = re.compile(r'(?P<book>\d+)\.(?P<chapter>\d+):(?P<verses>[0-9,\-–— ]+\*?)')
+REF_TOKEN_RE = re.compile(r'(?P<book>\d+)\.(?P<chapter>\d+):(?P<verses>[0-9:,\-–— ]+\*?)')
 TEXT_BOOK_PATTERN = (
     r'(Genesis|Gen|Exodus|Exod|Exo|Leviticus|Lev|Numbers|Num|Deuteronomy|Deut|Joshua|Josh|Judges|Judg|Ruth|'
     r'1\s*Samuel|1Sam|2\s*Samuel|2Sam|1\s*Kings|1Kgs|2\s*Kings|2Kgs|1\s*Chronicles|1Chr|2\s*Chronicles|2Chr|'
@@ -435,34 +435,26 @@ def iter_numeric_ref_segments(raw: str, books: Dict[int, str]):
         book = books.get(bid, f'Book{bid}')
         chapter = int(m.group('chapter'))
         verses = m.group('verses').replace('*', '').strip()
-        for part in re.split(r'\s*,\s*', verses):
-            part = part.strip()
-            if not part:
-                continue
-            segment_key = (bid, chapter, part)
+        abbrev = BOOK_ABBREV.get(book, book)
+        parsed = parse_passage(f'{abbrev} {chapter}:{verses}')
+        if parsed is None:
+            continue
+        for part in parsed.parts:
+            rendered = _render_part(part)
+            segment_key = (bid, part.chapter_start, rendered)
             if segment_key in seen_segments:
                 continue
             seen_segments.add(segment_key)
-            if '-' in part or '–' in part or '—' in part:
-                nums = re.split(r'[-–—]', part, maxsplit=1)
-                try:
-                    start, end = int(nums[0]), int(nums[1])
-                except Exception:
-                    start = end = None
-            else:
-                try:
-                    start = end = int(part)
-                except Exception:
-                    start = end = None
             yield {
                 'book': book,
-                'book_abbrev': BOOK_ABBREV.get(book, book),
-                'chapter': chapter,
-                'verse_start': start,
-                'verse_end': end,
+                'book_abbrev': abbrev,
+                'chapter': part.chapter_start,
+                'chapter_end': part.chapter_end,
+                'verse_start': part.verse_start,
+                'verse_end': part.verse_end,
                 'raw_segment': m.group(0),
-                'normalized_segment': f"{BOOK_ABBREV.get(book, book)} {chapter}:{part}",
-                'canonical_segment': f"{BOOK_ABBREV.get(book, book)} {chapter}:{part}",
+                'normalized_segment': f'{abbrev} {rendered}',
+                'canonical_segment': f'{abbrev} {rendered}',
             }
 
 

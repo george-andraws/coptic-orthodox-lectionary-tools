@@ -67,7 +67,7 @@ BOOKS: List[Tuple[str, str, str, int]] = [
     ('Old Testament', 'Obadiah', 'Obad', 1),
     ('Old Testament', 'Jonah', 'Jonah', 4),
     ('Old Testament', 'Micah', 'Mic', 7),
-    ('Old Testament', 'Nahum', 'Nahum', 3),
+    ('Old Testament', 'Nahum', 'Nah', 3),
     ('Old Testament', 'Habakkuk', 'Hab', 3),
     ('Old Testament', 'Zephaniah', 'Zeph', 3),
     ('Old Testament', 'Haggai', 'Hag', 2),

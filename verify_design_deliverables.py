@@ -388,8 +388,8 @@ def verify_rows() -> None:
     reverse_index = read_jsonl(OUT / "reverse_lectionary_index.jsonl")
     if summary.get("reverse_lectionary_index_rows") != len(reverse_index):
         fail(f"reverse_lectionary_index row count {len(reverse_index)} != summary {summary.get('reverse_lectionary_index_rows')}")
-    if len(reverse_index) != 11923:
-        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11923")
+    if len(reverse_index) != 11920:
+        fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11920 after authoritative source attestation collapse")
     if any(row.get("occasion") == "annual fixed Coptic day" for row in reverse_index):
         fail("reverse_lectionary_index must not expose annual fixed Coptic day as an occasion")
     grouped_index_source: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
@@ -461,8 +461,25 @@ def verify_rows() -> None:
         date_value = row.get("gregorian_date", "")
         if not date_value:
             continue
+        marker = str(row.get("removed_marker") or "").strip()
+        status = str(row.get("current_status") or row.get("status") or "").strip().lower()
+        if re.search(r"^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b", marker, re.I):
+            continue
+        if status in {"historical_witness", "historical_candidate_removed", "removed"} or status.startswith("superseded"):
+            continue
+        allowed_current = {"", "current", "current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "current_public_or_local_reference", "current_working_source_not_coptic_reader_checked", "pending_psalm_equivalence_unresolved"}
+        if status not in allowed_current:
+            fail(f"unknown explicit status in dated presentation row: {status}")
         year = date_value[:4]
-        expected_daily_by_year[year][date_value].append({field: row.get(field, "") for field in daily_fields})
+        expected_row = {field: row.get(field, "") for field in daily_fields}
+        expected_row["source_group_key"] = row.get("source_group_key") or "|".join(str(row.get(field) or "") for field in ("source_kind", "source_row_id", "occasion", "service_hour", "slot"))
+        expected_row["source_disclosure"] = json.dumps([{
+            "source_kind": row.get("source_kind", ""),
+            "source_family": row.get("source_family", ""),
+            "source_file": row.get("source_file", ""),
+            "source_row_id": row.get("source_row_id", ""),
+        }], ensure_ascii=False, separators=(",", ":"))
+        expected_daily_by_year[year][date_value].append(expected_row)
     expected_year_counts = {year: sum(len(readings) for readings in days.values()) for year, days in sorted(expected_daily_by_year.items())}
     if summary.get("daily_lectionary_years") != expected_year_counts:
         fail(f"daily_lectionary_years summary mismatch: {summary.get('daily_lectionary_years')} != {expected_year_counts}")

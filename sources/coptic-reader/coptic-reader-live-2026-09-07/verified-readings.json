@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2023-09-17",
+    "occasion": "1st Sunday of Thoout",
+    "service": "Liturgy",
+    "slot": "Pauline Epistle",
+    "source": "Coptic Reader web app 3.7",
+    "source_url": "https://copticreader.org/app/#/document",
+    "reference": "1 Timothy 1:12-19",
+    "evidence_text": "2023-09-17-pauline.txt",
+    "evidence_screenshot": "2023-09-17-pauline.png"
+  },
+  {
+    "date": "2023-07-14",
+    "occasion": "Epep/Abib 7",
+    "service": "Liturgy",
+    "slot": "Gospel",
+    "source": "Coptic Reader web app 3.7",
+    "source_url": "https://copticreader.org/app/#/document",
+    "reference": "Mark 9:33-41",
+    "evidence_text": "2023-07-14-gospel.txt",
+    "evidence_screenshot": "2023-07-14-gospel.png",
+    "context_screenshot": "2023-07-14-context.png"
+  },
+  {
+    "date": "2024-02-10",
+    "occasion": "Meshir/Amshir 2",
+    "service": "Liturgy",
+    "slot": "Gospel",
+    "source": "Coptic Reader web app 3.7",
+    "source_url": "https://copticreader.org/app/#/document",
+    "reference": "Mark 9:33-41",
+    "evidence_text": "2024-02-10-gospel.txt",
+    "evidence_screenshot": "2024-02-10-gospel.png",
+    "context_screenshot": "2024-02-10-context.png"
+  },
+  {
+    "date": "2020-02-10",
+    "occasion": "Jonah\u2019s Fast, Monday (first day); Meshir 2",
+    "service": "Liturgy",
+    "slot": "Gospel",
+    "source": "Coptic Reader web app 3.7",
+    "source_url": "https://copticreader.org/app/#/document",
+    "reference": "Matthew 12:35-45",
+    "evidence_text": "2020-02-10-gospel.txt",
+    "evidence_screenshot": "2020-02-10-gospel.png",
+    "context_screenshot": "2020-02-10-context.png"
+  },
+  {
+    "date": "2026-04-12",
+    "occasion": "Resurrection Sunday",
+    "cycle_week": 0,
+    "cycle_day_of_week": 0,
+    "service": "Liturgy",
+    "slot": "Catholic Epistle",
+    "source": "Coptic Reader web app 3.7",
+    "source_url": "https://copticreader.org/app/#/document",
+    "reference": "1 Peter 3:15-4:6",
+    "evidence_text": "2026-04-12-catholic.txt",
+    "evidence_screenshot": "2026-04-12-catholic.png",
+    "context_screenshot": "2026-04-12-context.png"
+  }
+]

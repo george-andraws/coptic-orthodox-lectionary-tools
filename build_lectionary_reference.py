@@ -39,6 +39,7 @@ from passage_normalization import (
     passage_matches,
     source_ref_status,
 )
+from calendar_resolution import resolve_current_date_rows
 
 WORK = Path(__file__).resolve().parent
 SRC = WORK / 'sources'
@@ -117,6 +118,32 @@ COPTICCHURCH_SOURCE_CORRECTIONS = {
     },
 }
 
+
+def load_coptic_reader_corrections() -> dict:
+    overlay_path = SRC / 'lectionary_corrections.json'
+    if not overlay_path.exists():
+        return {}
+    overlay = json.loads(overlay_path.read_text(encoding='utf-8'))
+    corrections = {}
+    for item in overlay.get('copticchurch_date', []):
+        key = correction_key(item['day_title'], item['service_section'], item['reading_type'], item['expected_raw_ref'])
+        value = {
+            'normalized_ref': item['corrected_ref'],
+            'normalization_warning': f"source_corrected_from_{item['authority'].replace(' ', '_').lower()}; evidence={item['evidence']}; verified_date={item['verified_date']}",
+        }
+        if key in corrections and corrections[key] != value:
+            raise RuntimeError(f'Conflicting Coptic Reader corrections for {key}')
+        corrections[key] = value
+    return corrections
+
+
+COPTICCHURCH_SOURCE_CORRECTIONS.update(load_coptic_reader_corrections())
+
+SUPPRESSED_DATE_CONTEXTS = {
+    (item.get('gregorian_date', ''), item['day_title'], item['service_section']): item
+    for item in json.loads((SRC / 'lectionary_corrections.json').read_text(encoding='utf-8')).get('suppressed_date_contexts', [])
+}
+
 KATAMEROS_CYCLE_CORRECTIONS = {
     ("SundayReadings", "Bashans 3", "liturgy_catholic", "62.43.4:15-21*@+62.5:1-4"): {
         "normalized_ref": "1Jn 4:15-21; 1Jn 5:1-4",
@@ -124,6 +151,17 @@ KATAMEROS_CYCLE_CORRECTIONS = {
         "normalization_warning": "source_corrected; verified 1 John 4:15-21 and 5:1-4 in https://ukmidcopts.org/pdf/Katameros_Sundays.pdf printed p227; malformed raw prefix retained",
     },
 }
+
+for item in json.loads((SRC / 'lectionary_corrections.json').read_text(encoding='utf-8')).get('katameros_cycle', []):
+    key = (item['source_table'], item['day_key'], item['reading_slot'], item['expected_raw_ref'])
+    value = {
+        'normalized_ref': item['corrected_ref'],
+        'numeric_ref': item['corrected_numeric_ref'],
+        'normalization_warning': f"source_corrected_from_{item['authority'].replace(' ', '_').lower()}; evidence={item['evidence']}; verified_date={item['verified_date']}",
+    }
+    if key in KATAMEROS_CYCLE_CORRECTIONS and KATAMEROS_CYCLE_CORRECTIONS[key] != value:
+        raise RuntimeError(f'Conflicting Coptic Reader cycle correction for {key}')
+    KATAMEROS_CYCLE_CORRECTIONS[key] = value
 
 def apply_copticchurch_source_correction(row: dict) -> dict:
     key = correction_key(
@@ -133,12 +171,20 @@ def apply_copticchurch_source_correction(row: dict) -> dict:
         row.get('raw_ref', ''),
     )
     correction = COPTICCHURCH_SOURCE_CORRECTIONS.get(key)
-    if not correction:
+    suppression = (
+        SUPPRESSED_DATE_CONTEXTS.get((row.get('gregorian_date', ''), row.get('day_title', ''), row.get('service_section', '')))
+        or SUPPRESSED_DATE_CONTEXTS.get(('', row.get('day_title', ''), row.get('service_section', '')))
+    )
+    if not correction and not suppression:
         return row
     row = dict(row)
-    row['normalized_ref'] = correction['normalized_ref']
-    row['parse_status'] = 'source_corrected'
-    row['normalization_warning'] = correction['normalization_warning']
+    if correction:
+        row['normalized_ref'] = correction['normalized_ref']
+        row['parse_status'] = 'source_corrected'
+        row['normalization_warning'] = correction['normalization_warning']
+    if suppression:
+        row['superseded_reason'] = suppression['reason']
+        row['correction_source'] = suppression['evidence']
     return row
 
 
@@ -358,6 +404,12 @@ def build_date_passage_index(rows: List[dict]) -> List[dict]:
                 'source_ref_status': r.get('parse_status','ok'),
                 'normalization_warning': warning,
                 'url': r['url'],
+                'source_occasion': r.get('source_occasion', ''),
+                'source_order': r.get('source_order', ''),
+                'source_slot': r.get('source_slot', ''),
+                'source_raw_refs': r.get('source_raw_refs', ''),
+                'correction_source': r.get('correction_source', ''),
+                'superseded_reason': r.get('superseded_reason', ''),
             })
         if r.get('parse_status') and r.get('parse_status') != 'ok':
             repaired_report.append({
@@ -382,6 +434,9 @@ def copy_sources():
     for p in PDFS.glob('*'):
         if p.suffix.lower() in ['.pdf','.txt']:
             shutil.copy2(p, SOURCES_OUT / p.name)
+    correction_overlay = WORK / 'sources' / 'lectionary_corrections.json'
+    if correction_overlay.exists():
+        shutil.copy2(correction_overlay, SOURCES_OUT / correction_overlay.name)
     # Manifest.
     files=[]
     for p in sorted(SOURCES_OUT.iterdir()):
@@ -410,6 +465,81 @@ def copy_special_datasets():
             shutil.copy2(existing, DATA / name)
     if missing:
         raise FileNotFoundError('Missing required Pascha/Bright Saturday artifacts: ' + ', '.join(missing))
+    apply_lectionary_corrections()
+
+
+def apply_lectionary_corrections():
+    overlay_path = WORK / 'sources' / 'lectionary_corrections.json'
+    overlay = json.loads(overlay_path.read_text(encoding='utf-8'))
+    for source_path, expected_hash in overlay['source_fingerprints'].items():
+        actual_hash = sha256(WORK / source_path)
+        if actual_hash != expected_hash:
+            raise RuntimeError(f'Lectionary correction source drift: {source_path} expected {expected_hash}, got {actual_hash}')
+
+    corrections = overlay['pascha_day_hour']
+    csv_path = DATA / 'pascha_day_hour_index.csv'
+    with csv_path.open(newline='', encoding='utf-8') as handle:
+        reader = csv.DictReader(handle)
+        rows = list(reader)
+        fieldnames = list(reader.fieldnames or [])
+    for correction in corrections:
+        context = [row for row in rows if all(row.get(key) == correction[key] for key in ('day', 'hour', 'slot'))]
+        expected_source = f"{correction['source_path']}:{correction['source_line']}"
+        raw_matches = [row for row in context if row.get('refs') == correction['expected_raw_ref']]
+        corrected_matches = [row for row in context if (
+            row.get('refs') == correction['corrected_ref']
+            and row.get('raw_refs') == correction['expected_raw_ref']
+            and row.get('correction_source') == expected_source
+        )]
+        previous_matches = [row for row in context if (
+            row.get('refs') in correction.get('previous_corrected_refs', [])
+            and row.get('raw_refs') == correction['expected_raw_ref']
+            and row.get('correction_source') == expected_source
+        )]
+        if len(context) != 1 or len(raw_matches) + len(corrected_matches) + len(previous_matches) != 1:
+            raise RuntimeError(
+                f"Lectionary correction drift or ambiguous source: context={len(context)}, "
+                f"raw={len(raw_matches)}, corrected={len(corrected_matches)}, previous={len(previous_matches)}: {correction}"
+            )
+        if corrected_matches:
+            continue
+        if previous_matches:
+            previous_matches[0]['refs'] = correction['corrected_ref']
+            continue
+        raw_matches[0]['raw_refs'] = raw_matches[0]['refs']
+        raw_matches[0]['refs'] = correction['corrected_ref']
+        raw_matches[0]['correction_source'] = expected_source
+    for name in ('raw_refs', 'correction_source'):
+        if name not in fieldnames:
+            fieldnames.append(name)
+    write_csv(csv_path, rows, fieldnames)
+    write_jsonl(DATA / 'pascha_day_hour_index.jsonl', rows)
+
+
+def build_current_date_sidecars():
+    raw_path = DATA / 'copticchurch_date_readings_2020_2035.csv'
+    pascha_path = DATA / 'pascha_day_hour_index.csv'
+    with raw_path.open(newline='', encoding='utf-8') as handle:
+        raw_rows = list(csv.DictReader(handle))
+    with pascha_path.open(newline='', encoding='utf-8') as handle:
+        pascha_rows = list(csv.DictReader(handle))
+    # Use the same source-approved continuous references as the reverse pipeline.
+    # Otherwise a calendar override can resurrect superseded split fragments.
+    from build_lectionary_crosswalk import apply_pascha_curated_ref_correction
+    corrected_pascha = []
+    for row in pascha_rows:
+        corrected = apply_pascha_curated_ref_correction(row)
+        if corrected.get('_raw_refs'):
+            corrected['raw_refs'] = corrected.get('raw_refs') or corrected['_raw_refs']
+            corrected['correction_source'] = corrected.get('correction_source') or corrected.get('_ref_correction_note', '')
+        corrected_pascha.append(corrected)
+    current_rows = resolve_current_date_rows(raw_rows, corrected_pascha)
+    write_csv(DATA / 'copticchurch_date_readings_current_2020_2035.csv', current_rows)
+    write_jsonl(DATA / 'copticchurch_date_readings_current_2020_2035.jsonl', current_rows)
+    passage_rows = build_date_passage_index(current_rows)
+    write_csv(DATA / 'copticchurch_passage_index_current_2020_2035.csv', passage_rows)
+    write_jsonl(DATA / 'copticchurch_passage_index_current_2020_2035.jsonl', passage_rows)
+    return current_rows, passage_rows
 
 
 def run_special_service_build():
@@ -491,6 +621,7 @@ def main():
     write_jsonl(DATA/'copticchurch_passage_index_2020_2035.jsonl', didx)
     (DATA/'copticchurch_scrape_errors.json').write_text(json.dumps(errors,indent=2),encoding='utf-8')
     copy_special_datasets()
+    current_date_rows, current_date_index = build_current_date_sidecars()
     run_pascha_source_text_build()
     run_special_service_build()
     run_agpeya_build()
@@ -508,6 +639,8 @@ def main():
         'date_resolved_days': len(metas),
         'date_resolved_reading_rows': len(date_rows),
         'date_resolved_passage_index_rows': len(didx),
+        'current_date_resolved_reading_rows': len(current_date_rows),
+        'current_date_resolved_passage_index_rows': len(current_date_index),
         'date_scrape_errors': len(errors),
         'source_file_count': len(source_files),
     }

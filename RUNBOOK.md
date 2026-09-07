@@ -106,11 +106,14 @@ Expected result:
 
 ## Query examples
 
-Use the generated helper:
+Use the generated helper, or the identical source template at the repository root. Data paths are relative to the script location, not the current working directory: root defaults to `out/data`, generated `out/scripts` defaults to its sibling `out/data`. Override with `--data-dir` for isolated datasets; missing directories fail with an actionable error.
 
 ```bash
+python3 query_lectionary.py --data-dir ./out/data --chapter "Nahum 1"
 python3 out/scripts/query_lectionary.py --help
 ```
+
+`--include-crosswalk` remains supported. Regeneration must keep the source and generated helper byte-identical.
 
 Date-resolved readings:
 

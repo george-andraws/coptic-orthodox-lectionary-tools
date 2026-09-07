@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Query George's local Coptic Orthodox lectionary reference package.
 
 Examples:
@@ -8,12 +9,41 @@ Examples:
   python3 query_lectionary.py --pascha-day "Good Friday" --hour "Sixth Hour"
 """
 import argparse, csv
+from typing import Optional
 from pathlib import Path
 
 from passage_normalization import contains_any, is_numeric_query, parse_passage, passage_matches, query_variants
 
+
+def resolve_data_dir(explicit: Optional[str] = None) -> Path:
+    """Resolve data dir with deterministic layout-aware defaults.
+
+    - If --data-dir given: use it (error helpfully if missing).
+    - Root source (query at project root): defaults to ./out/data
+    - Generated copy (in .../out/scripts/): defaults to enclosing .../out/data
+    No fallback to unrelated paths like parent-of-root/data.
+    """
+    if explicit:
+        d = Path(explicit).expanduser().resolve()
+        if not d.exists() or not d.is_dir():
+            raise FileNotFoundError(
+                f"Data directory not found: {d}\n"
+                "Provide --data-dir to a valid data/ dir containing the CSVs.\n"
+                "Root source layout defaults to <root>/out/data; generated (out/scripts) defaults to its enclosing out/data."
+            )
+        return d
+    # deterministic by this script's location (works regardless of cwd)
+    script = Path(__file__).resolve()
+    if script.parent.name == 'scripts':
+        # generated layout
+        return script.parents[1] / 'data'
+    else:
+        # root source template
+        return script.parent / 'out' / 'data'
+
+
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / 'data'
+DATA = resolve_data_dir()
 
 def rows(path):
     with open(path, newline='', encoding='utf-8') as f:
@@ -204,7 +234,9 @@ def agpeya_lines(query, limit):
     return lines[:limit]
 
 def main():
+    global DATA
     ap=argparse.ArgumentParser()
+    ap.add_argument('--data-dir', help='Explicit CSV data directory; default is root/out/data or generated scripts/../data')
     ap.add_argument('--date', help='Gregorian date YYYY-MM-DD, using copticchurch.net date-resolved cache')
     ap.add_argument('--passage', help='Find date-resolved occurrences by passage text, e.g. "John 20" or "Jn 20:1"')
     ap.add_argument('--cycle-passage', help='Find core Katameros cycle occurrences by normalized/raw passage text, e.g. "Isa 2" or "40.5"')
@@ -217,16 +249,26 @@ def main():
     ap.add_argument('--include-crosswalk', action='store_true', help='For --passage lookups, append reverse-crosswalk matches instead of using it only as a fallback')
     ap.add_argument('--limit', type=int, default=80)
     args=ap.parse_args()
+    try:
+        DATA = resolve_data_dir(args.data_dir)
+        if not DATA.is_dir():
+            raise FileNotFoundError(f"Data directory not found: {DATA}. Build the reference data or pass --data-dir.")
+    except FileNotFoundError as exc:
+        ap.error(str(exc))
     if args.date:
         lines=[]
-        for r in rows(DATA/'copticchurch_date_readings_2020_2035.csv'):
+        current_path = DATA/'copticchurch_date_readings_current_2020_2035.csv'
+        date_path = current_path if current_path.exists() else DATA/'copticchurch_date_readings_2020_2035.csv'
+        for r in rows(date_path):
             if r['gregorian_date']==args.date:
                 lines.append(f"{r['gregorian_date']} | {r['day_title']} | {r['service_section']} | {r['reading_type']} | {r['raw_ref']}")
         print_unique(lines, args.limit)
         return
     if args.passage:
         lines=[]
-        for r in rows(DATA/'copticchurch_passage_index_2020_2035.csv'):
+        current_path = DATA/'copticchurch_passage_index_current_2020_2035.csv'
+        passage_path = current_path if current_path.exists() else DATA/'copticchurch_passage_index_2020_2035.csv'
+        for r in rows(passage_path):
             if passage_matches(args.passage, r.get('matched_ref','')) or passage_matches(args.passage, r.get('raw_ref','')):
                 lines.append(f"{r['gregorian_date']} | {r['day_title']} | {r['service_section']} | {r['reading_type']} | {r['raw_ref']}")
         crosswalk = crosswalk_lines(args.passage, args.limit)

@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "source_fingerprints": {
+    "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt": "d37ef1df5ff9e5caadfe77a2b45a6e21b66bf69005715c93ed11e7004f1c872d",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-09-17-pauline.txt": "ed55086b62c1546a6f84e00ea89499b313b459642db13b2ef54065d123e185bf",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-09-17-pauline.png": "2f535cbd6c0146c2f021b62b5832406b1ff1f45bd3317a1dc22c9c4f07ca843a",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-07-14-gospel.txt": "60bc32bcfddcaba74c4fc724c81a863395fa0e10cad799769f941ebdaceb9052",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-07-14-gospel.png": "41444e2aa6cbc9dcf8d1e6c406c57502ddc7623f35ddfea64813d01b47b033dc",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-07-14-context.png": "8fc7e9172cee1f7dbdb9e8738f2c8012835a7a6333198d9209129f3d6ab63fe7",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2024-02-10-gospel.txt": "60bc32bcfddcaba74c4fc724c81a863395fa0e10cad799769f941ebdaceb9052",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2024-02-10-gospel.png": "41444e2aa6cbc9dcf8d1e6c406c57502ddc7623f35ddfea64813d01b47b033dc",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2024-02-10-context.png": "c4128b151ba91fc7498ff9e13717acf05946247d50a6c684cfe935547619fb2d",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2020-02-10-gospel.txt": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2020-02-10-gospel.png": "72c7c89802c4c4cd5e9eecfa72c28711600ce9b1a8ad770d7caa45f32337d70a",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2020-02-10-context.png": "4f31b628019e0f55ef18611be2659014eee6d5db99a31c106c31680155c2544e",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2026-04-12-catholic.txt": "d203fe53999c9877ddd3ec5e08f222022d3ca288f0f94c337a0e7b49d578e75c",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2026-04-12-catholic.png": "c9074ff2553291f5f57d9e96e13c27364efe2ecf93198e66bebee4f3c6bbc774",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/2026-04-12-context.png": "17072fbc5f47fc979147f2b10c5ad36af589a95986daa2bb0ab54893e252773d",
+    "sources/coptic-reader/coptic-reader-live-2026-09-07/verified-readings.json": "047408674c2778f507a85c8bc2950ffa05ea2b09a8b1c4aa5bf179de19588231"
+    ,"sources/coptic-reader/remaining-2026-09-07/SHA256SUMS": "317e6bab23107f8fdf8a95a9b937dce178edf4edecd0b43e818587610b40de57"
+  },
+  "copticchurch_date": [
+    {
+      "day_title": "The first Sunday of Tout",
+      "service_section": "Liturgy",
+      "reading_type": "Pauline Epistle",
+      "expected_raw_ref": "1Tim 1:12-27",
+      "corrected_ref": "1Tim 1:12-19",
+      "authority": "Coptic Reader web app 3.7",
+      "verified_date": "2023-09-17",
+      "evidence": "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-09-17-pauline.txt"
+    },
+    {
+      "day_title": "Abib 7",
+      "service_section": "Liturgy",
+      "reading_type": "Gospel",
+      "expected_raw_ref": "Matt 9:33 - 41",
+      "corrected_ref": "Mark 9:33-41",
+      "authority": "Coptic Reader web app 3.7",
+      "verified_date": "2023-07-14",
+      "evidence": "sources/coptic-reader/coptic-reader-live-2026-09-07/2023-07-14-gospel.txt"
+    },
+    {
+      "day_title": "Amshir 2",
+      "service_section": "Liturgy",
+      "reading_type": "Gospel",
+      "expected_raw_ref": "Matt 9:33 - 41",
+      "corrected_ref": "Mark 9:33-41",
+      "authority": "Coptic Reader web app 3.7",
+      "verified_date": "2024-02-10",
+      "evidence": "sources/coptic-reader/coptic-reader-live-2026-09-07/2024-02-10-gospel.txt"
+    },
+    {
+      "day_title": "Fast of Nineveh",
+      "service_section": "Liturgy",
+      "reading_type": "Gospel",
+      "expected_raw_ref": "Matt 9:33 - 41",
+      "corrected_ref": "Matt 12:35-45",
+      "authority": "Coptic Reader web app 3.7",
+      "verified_date": "2020-02-10",
+      "evidence": "sources/coptic-reader/coptic-reader-live-2026-09-07/2020-02-10-gospel.txt"
+    },
+    {"day_title":"fourth Sunday of Christmas Fast","service_section":"Liturgy","reading_type":"Catholic Epistle","expected_raw_ref":"1Jn 2:24-33","corrected_ref":"1Jn 2:24-3:3","authority":"Coptic Reader web app 3.7","verified_date":"2026-01-04","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-01-04-liturgy-catholic-epistle.txt"},
+    {"day_title":"Wednesday of the fourth week of Great Lent","service_section":"Liturgy","reading_type":"Pauline Epistle","expected_raw_ref":"Ephesians 4:17-33","corrected_ref":"Eph 4:17-32","authority":"Coptic Reader web app 3.7","verified_date":"2026-03-11","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-03-11-liturgy-pauline-epistle.txt"},
+    {"day_title":"Mesra 26","service_section":"Liturgy","reading_type":"Pauline Epistle","expected_raw_ref":"Rom 7:14-27","corrected_ref":"Rom 8:14-27","authority":"Coptic Reader web app 3.7","verified_date":"2023-09-01","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-09-01-liturgy-pauline-epistle.txt"},
+    {"day_title":"Mesra 5","service_section":"Liturgy","reading_type":"Gospel","expected_raw_ref":"Matt 3:23—  &  Matt 5:1-16","corrected_ref":"Matt 4:23-5:16","authority":"Coptic Reader web app 3.7","verified_date":"2023-08-11","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-08-11-liturgy-psalm-and-gospel.txt"},
+    {"day_title":"Kiak 3","service_section":"Vespers","reading_type":"Gospel","expected_raw_ref":"Lk 10:38-52","corrected_ref":"Lk 10:38-42","authority":"Coptic Reader web app 3.7","verified_date":"2022-12-12","evidence":"sources/coptic-reader/remaining-2026-09-07/2022-12-12-vespers-.txt"},
+    {"day_title":"Mesra 16 (St Mary's Feast)","service_section":"Vespers","reading_type":"Gospel","expected_raw_ref":"Lk 10:38-52","corrected_ref":"Lk 10:38-42","authority":"Coptic Reader web app 3.7","verified_date":"2023-08-22","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-08-22-vespers-.txt"},
+    {"day_title":"Toba 21","service_section":"Vespers","reading_type":"Gospel","expected_raw_ref":"Lk 10:38-52","corrected_ref":"Lk 10:38-42","authority":"Coptic Reader web app 3.7","verified_date":"2024-01-30","evidence":"sources/coptic-reader/remaining-2026-09-07/2024-01-30-vespers-.txt"},
+    {"day_title":"The first Sunday of Tout","service_section":"Liturgy","reading_type":"Psalm","expected_raw_ref":"Psalm 31:26  &  Psalm 31:19","corrected_ref":"Ps 31:23; Ps 31:19","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-09-17","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-09-17-liturgy-psalm-and-gospel.txt"},
+    {"day_title":"Sunday of the fourth week of Great Lent","service_section":"Matins","reading_type":"Psalm","expected_raw_ref":"Psalm 31:24  &  Psalm 31:33","corrected_ref":"Ps 31:24; Ps 31:23","authority":"Coptic Reader text aligned to NKJV","verified_date":"2026-03-15","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-03-15-matins-.txt"},
+    {"day_title":"Sunday of the fifth week of Great Lent","service_section":"Matins","reading_type":"Psalm","expected_raw_ref":"Psalm 101:1  &  Psalm 101:2  &  Psalm 101:12","corrected_ref":"Ps 102:1-2; Ps 102:12","authority":"Coptic Reader text aligned to NKJV","verified_date":"2026-03-22","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-03-22-matins-.txt"},
+    {"day_title":"fourth Sunday of Christmas Fast","service_section":"Matins","reading_type":"Psalm","expected_raw_ref":"Psalm 95:10-12","corrected_ref":"Ps 96:11; Ps 96:12; Ps 96:13","authority":"Coptic Reader text aligned to NKJV","verified_date":"2026-01-04","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-01-04-matins-.txt"},
+    {"day_title":"The fourth Sunday of Kiak","service_section":"Liturgy","reading_type":"Catholic Epistle","expected_raw_ref":"1Jn 2:24-33","corrected_ref":"1Jn 2:24-3:3","authority":"Coptic Reader web app 3.7","verified_date":"2026-01-04","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-01-04-liturgy-catholic-epistle.txt"},
+    {"day_title":"The fourth Sunday of Kiak","service_section":"Matins","reading_type":"Psalm","expected_raw_ref":"Psalm 95:10-12","corrected_ref":"Ps 96:11-13","authority":"Coptic Reader text aligned to NKJV","verified_date":"2026-01-04","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-01-04-matins-.txt"},
+    {"day_title":"Wednesday of the first week of Great Lent","service_section":"Liturgy","reading_type":"Psalm","expected_raw_ref":"Psalm 24:20  &  Psalm 24:16","corrected_ref":"Ps 25:20; Ps 25:16","authority":"Coptic Reader text aligned to NKJV","verified_date":"2026-02-18","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-02-18-liturgy-psalm-and-gospel.txt"},
+    {"day_title":"Thursday of the first week of Great Lent","service_section":"Liturgy","reading_type":"Psalm","expected_raw_ref":"Psalm 117:14  &  Psalm 117:18","corrected_ref":"Ps 118:14; Ps 118:18","authority":"Coptic Reader text aligned to NKJV","verified_date":"2026-02-19","evidence":"sources/coptic-reader/remaining-2026-09-07/2026-02-19-liturgy-psalm-and-gospel.txt"},
+    {"day_title":"Abib 4","service_section":"Vespers","reading_type":"Psalm","expected_raw_ref":"Psalm 68:65  &  Psalm 68:3","corrected_ref":"Ps 68:35; Ps 68:3","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-07-11","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-07-11-vespers-.txt"},
+    {"day_title":"Abib 12","service_section":"Vespers","reading_type":"Psalm","expected_raw_ref":"Psalm 68:65  &  Psalm 68:3","corrected_ref":"Ps 68:35; Ps 68:3","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-07-19","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-07-19-vespers-.txt"},
+    {"day_title":"Abib 24","service_section":"Vespers","reading_type":"Psalm","expected_raw_ref":"Psalm 68:65  &  Psalm 68:3","corrected_ref":"Ps 68:35; Ps 68:3","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-07-31","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-07-31-vespers-.txt"},
+    {"day_title":"St Mary's Fast","service_section":"Vespers","reading_type":"Psalm","expected_raw_ref":"Psalm 68:65  &  Psalm 68:3","corrected_ref":"Ps 68:35; Ps 68:3","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-08-07","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-08-07-vespers-.txt"},
+    {"day_title":"Mesra 9","service_section":"Vespers","reading_type":"Psalm","expected_raw_ref":"Psalm 68:65  &  Psalm 68:3","corrected_ref":"Ps 68:35; Ps 68:3","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-08-15","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-08-15-vespers-.txt"},
+    {"day_title":"Nasie 4","service_section":"Vespers","reading_type":"Psalm","expected_raw_ref":"Psalm 68:65  &  Psalm 68:3","corrected_ref":"Ps 68:35; Ps 68:3","authority":"Coptic Reader text aligned to NKJV","verified_date":"2023-09-09","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-09-09-vespers-.txt"}
+  ],
+  "suppressed_date_contexts": [
+    {"day_title":"Fast of Nineveh","service_section":"Vespers","reason":"coptic_reader_no_service","authority":"Coptic Reader web app 3.7","evidence":"sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"},
+    {"day_title":"Tuesday of Ninevah's Fast","service_section":"Vespers","reason":"coptic_reader_no_service","authority":"Coptic Reader web app 3.7","evidence":"sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"},
+    {"day_title":"Wednesday of Ninevah's Fast","service_section":"Vespers","reason":"coptic_reader_no_service","authority":"Coptic Reader web app 3.7","evidence":"sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"}
+  ],
+  "projection_removal_effective_versions": [
+    {"identity_key":"rid_6f1130ce3e266074cbdd","display_ref":"Ps 102:2 (LXX Ps 101:2)","occasion":"Great Lent/Jonah/Nineveh cycle","removal_context_key":"sunday of the fifth week of great lent|matins||psalm","removal_effective_version":"1.2.0","service_hour":"","service_section":"matins_psalm","slot":"matins_psalm","reason":"Coptic Reader companion Psalm correction aligns the date-resolved composite"},
+    {"identity_key":"rid_87ed1d1d81677262f6d3","display_ref":"Ps 102:1 (LXX Ps 101:1)","occasion":"Great Lent/Jonah/Nineveh cycle","removal_context_key":"sunday of the fifth week of great lent|matins||psalm","removal_effective_version":"1.2.0","service_hour":"","service_section":"matins_psalm","slot":"matins_psalm","reason":"Coptic Reader companion Psalm correction aligns the date-resolved composite"}
+  ],
+  "katameros_cycle": [
+    {
+      "source_table": "PentecostReadings",
+      "day_key": "week 0 day_of_week 0",
+      "reading_slot": "liturgy_catholic",
+      "expected_raw_ref": "60.3:25-4:6",
+      "corrected_numeric_ref": "60.3:15-4:6",
+      "corrected_ref": "1Pet 3:15-4:6",
+      "authority": "Coptic Reader web app 3.7",
+      "verified_date": "2026-04-12",
+      "evidence": "sources/coptic-reader/coptic-reader-live-2026-09-07/2026-04-12-catholic.txt"
+    },
+    {"source_table":"AnnualReadings","day_key":"Hatur 8","reading_slot":"liturgy_pauline","expected_raw_ref":"58.12:21-39*@+58.13:1-2","corrected_numeric_ref":"58.12:21-13:2","corrected_ref":"Heb 12:21-13:2","authority":"Coptic Reader web app 3.7","verified_date":"2023-11-18","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-11-18-liturgy-pauline-epistle.txt"},
+    {"source_table":"SundayReadings","day_key":"Hatur 3","reading_slot":"liturgy_pauline","expected_raw_ref":"52.1:1-12","corrected_numeric_ref":"53.1:1-12","corrected_ref":"2Thess 1:1-12","authority":"Coptic Reader web app 3.7","verified_date":"2023-11-26","evidence":"sources/coptic-reader/remaining-2026-09-07/2023-11-26-liturgy-pauline-epistle.txt"}
+  ],
+  "pascha_day_hour": [
+    {
+      "day": "Monday Eve",
+      "hour": "Sixth Hour",
+      "slot": "Psalm+Gospel",
+      "expected_raw_ref": "Ps 91:2,3; John 21:34-38",
+      "previous_corrected_refs": ["Ps 28:1-2; Mark 10:32-34"],
+      "corrected_ref": "Ps 29:1-2; Mark 10:32-34",
+      "source_path": "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+      "source_line": 2178,
+      "coptic_reader_evidence": "sources/coptic-reader/monday-eve-sixth-hour-2026-09-07/Screenshot_20260907_045920_Coptic_Reader.jpg",
+      "convention_note": "Coptic Reader authoritative source prints Psalm 28:1-2 LXX; normalized MT-primary display is Psalm 29:1-2"
+    },
+    {
+      "day": "Tuesday Eve",
+      "hour": "Sixth Hour",
+      "slot": "Psalm+Gospel",
+      "expected_raw_ref": "Ps 91:2,3; John 21:34-38",
+      "corrected_ref": "Ps 91:2,3; Luke 21:34-38",
+      "source_path": "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+      "source_line": 4262
+    },
+    {
+      "day": "Good Friday",
+      "hour": "Sixth Hour",
+      "slot": "Psalm+Gospel",
+      "expected_raw_ref": "Ps 38:21,22; Ps 22:17,18,19,8,9; Matt 27:27-45; Mark 15:26-33; Luke 23:26-44; John 19:1-12",
+      "corrected_ref": "Ps 38:21-22; Ps 22:16-18; Ps 22:7-8; Matt 27:27-45; Mark 15:26-33; Luke 23:26-44; John 19:1-12",
+      "source_path": "sources/coptic-reader/remaining-2026-09-07/2026-04-10-good-friday-sixth.txt",
+      "source_line": 1,
+      "coptic_reader_printed_ref": "Psalm 37:21-22, 21:16-18,8",
+      "convention_note": "Coptic Reader printed reference and source order are preserved here; refs is the text-aligned MT-primary composite. The introductory liturgical expansion is not represented as a canonical verse."
+    }
+  ],
+  "calendar_overlays": [
+    {
+      "feast": "Annunciation",
+      "scope": "Holy Week only",
+      "rule": "UK Midlands Katameros Days p.22 rule 13: Annunciation yields during the non-repeatable Lord-events window",
+      "replacement_source": "out/data/pascha_day_hour_index.csv",
+      "unsupported_collision_policy": "fail"
+    }
+  ],
+  "unresolved_source_variants": [
+    {
+      "context": "Monday Eve Sixth Hour Psalm",
+      "local_ref": "Ps 91:2,3",
+      "ottawa_english_ref": "Ps 29:1-2",
+      "evidence": [
+        "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt:2164-2178",
+        "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_Trilingual.txt:4790"
+      ],
+      "decision": "resolved by Coptic Reader authoritative screenshot; source prints LXX Psalm 28:1-2 and normalized MT-primary display is Psalm 29:1-2; raw preserved",
+      "coptic_reader_evidence": "sources/coptic-reader/monday-eve-sixth-hour-2026-09-07/Screenshot_20260907_045920_Coptic_Reader.jpg"
+    }
+  ]
+}

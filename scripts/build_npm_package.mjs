@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.1.11';
+const VERSION = '1.2.0';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -32,6 +32,7 @@ const REMOVAL_EFFECTIVE_VERSION_BASELINE = path.join(
   'package_baselines',
   'removal_effective_versions_1.1.6.json',
 );
+const SOURCE_CORRECTIONS = path.join(REPO_ROOT, 'sources', 'lectionary_corrections.json');
 
 function readGitHead() {
   return execFileSync('git', ['rev-parse', 'HEAD'], {
@@ -53,7 +54,10 @@ function dateToIso(date) {
 
 function allDatesForYear(year) {
   const out = [];
-  for (let date = new Date(Date.UTC(year, 0, 1)); date.getUTCFullYear() === year; date.setUTCDate(date.getUTCDate() + 1)) {
+  const first = new Date(0);
+  first.setUTCHours(0, 0, 0, 0);
+  first.setUTCFullYear(year, 0, 1);
+  for (let date = first; date.getUTCFullYear() === year; date.setUTCDate(date.getUTCDate() + 1)) {
     out.push(dateToIso(date));
   }
   return out;
@@ -133,8 +137,9 @@ function serviceOrder(serviceSection) {
 }
 
 function existingNumericOrder(value) {
+  if (value === null || value === undefined || typeof value === 'boolean' || (typeof value === 'string' && value.trim() === '')) return null;
   const numeric = Number(value);
-  return Number.isFinite(numeric) ? numeric : null;
+  return Number.isInteger(numeric) && numeric > 0 ? numeric : null;
 }
 
 function slotOrder(slot, serviceSection) {
@@ -313,6 +318,18 @@ function isProjectionRemovedRow(row) {
 async function loadRemovalEffectiveVersionBaseline() {
   const body = await readFile(REMOVAL_EFFECTIVE_VERSION_BASELINE, 'utf8');
   const baseline = JSON.parse(body);
+  const correctionOverlay = JSON.parse(await readFile(SOURCE_CORRECTIONS, 'utf8'));
+  for (const entry of correctionOverlay.projection_removal_effective_versions || []) {
+    const entries = baseline.entries_by_identity_key[entry.identity_key] || [];
+    if (entries.some((existing) => existing.removal_context_key === entry.removal_context_key)) {
+      throw new Error(`Duplicate source-correction removal baseline for identity_key=${entry.identity_key}`);
+    }
+    baseline.entries_by_identity_key[entry.identity_key] = [...entries, entry];
+  }
+  const allEntries = Object.values(baseline.entries_by_identity_key).flat();
+  baseline.entry_count = allEntries.length;
+  baseline.distinct_identity_key_count = Object.keys(baseline.entries_by_identity_key).length;
+  baseline.source_version = `${baseline.source_version}+source-corrections-${VERSION}`;
   const entriesByIdentityKey = baseline.entries_by_identity_key || {};
   for (const [identityKey, entries] of Object.entries(entriesByIdentityKey)) {
     if (!Array.isArray(entries) || entries.length === 0) {
@@ -554,6 +571,7 @@ function isBrightSaturdayServiceRow(row) {
 function rowsForPaschaDailyDate(projectedRows, dayName) {
   const occasions = PASCHA_DAILY_OCCASIONS.get(dayName) || new Set();
   return projectedRows.filter((row) => {
+    if (!isCurrentReading(row)) return false;
     if (dayName === 'Bright Saturday' && isBrightSaturdayServiceRow(row)) return true;
     return row.source_family === 'holy_pascha_curated_day_hour' && occasions.has(String(row.occasion || ''));
   });
@@ -570,6 +588,15 @@ function dailyRowFromReverse(row, dayName) {
     display_ref: row.display_ref || '',
     identity_key: row.identity_key || '',
     reading_type: row.reading_type || 'scripture',
+    slot_type: row.slot_type || slotType(row.slot),
+    slot_order: existingNumericOrder(row.slot_order),
+    service_order: existingNumericOrder(row.service_order) ?? serviceOrder(serviceHour || row.service_section),
+    source_group_key: row.source_group_key || [row.source_kind || '', row.source_row_id || '', row.occasion || '', serviceHour, row.slot || ''].join('|'),
+    current_status: row.current_status || '',
+    active: row.active,
+    status: row.status || '',
+    superseded_by_ref: row.superseded_by_ref || '',
+    superseded_reason: row.superseded_reason || '',
     removed_marker: row.removed_marker || '',
     canonical_mt_ref: row.canonical_mt_ref || '',
     canonical_lxx_ref: row.canonical_lxx_ref || '',
@@ -600,25 +627,36 @@ function addMissingStructuralDailyRows(sorted, year, projectedRows) {
   const additions = [];
   for (const dayName of PASCHA_DAILY_OCCASIONS.keys()) {
     const date = paschaDateForDay(year, dayName);
-    if (Object.prototype.hasOwnProperty.call(sorted, date)) continue;
+    const hasExistingRows = Object.prototype.hasOwnProperty.call(sorted, date) && sorted[date].length > 0;
+    const annunciationCollision = sorted[date]?.some((row) => /annunciation/i.test(String(row.occasion || row.day_title || '')));
+    if (hasExistingRows && !annunciationCollision) continue;
     const rows = rowsForPaschaDailyDate(projectedRows, dayName).map((row) => dailyRowFromReverse(row, dayName));
     if (!rows.length) continue;
-    sorted[date] = sortDailyReadings(dedupeDailyRows(rows));
+    if (annunciationCollision) {
+      const sourceRule = 'UK Midlands Katameros Days p.22 rule 13: Annunciation yields during the non-repeatable Lord events window';
+      sorted[date] = sortDailyReadings(dedupeDailyRows(rows.map((row) => ({ ...row, correction_reason: sourceRule }))));
+    } else {
+      sorted[date] = sortDailyReadings(dedupeDailyRows(rows));
+    }
     additions.push({ date, day: dayName, reading_count: sorted[date].length });
   }
   return additions;
 }
 
 function sortDailyReadings(readings) {
-  const enriched = readings.map((reading) => ({
+  const enriched = readings.filter(isCurrentReading).map((reading) => ({
     ...reading,
     service_order: existingNumericOrder(reading.service_order) ?? serviceOrder(reading.service_section),
     slot_type: reading.slot_type || slotType(reading.slot),
     slot_order: existingNumericOrder(reading.slot_order) ?? slotOrder(reading.slot, reading.service_section),
   }));
   enriched.sort((a, b) => {
-    const keysA = [a.service_order, a.service_section || '', a.service_hour || '', a.slot_order, a.slot || '', a.display_ref || '', a.identity_key || ''];
-    const keysB = [b.service_order, b.service_section || '', b.service_hour || '', b.slot_order, b.slot || '', b.display_ref || '', b.identity_key || ''];
+    const numeric = a.service_order - b.service_order
+      || serviceOrder(a.service_hour || a.service_section) - serviceOrder(b.service_hour || b.service_section)
+      || a.slot_order - b.slot_order;
+    if (numeric) return numeric;
+    const keysA = [a.service_section || '', a.service_hour || '', a.slot || '', a.source_group_key || '', a.display_ref || '', a.identity_key || ''];
+    const keysB = [b.service_section || '', b.service_hour || '', b.slot || '', b.source_group_key || '', b.display_ref || '', b.identity_key || ''];
     return keysA < keysB ? -1 : keysA > keysB ? 1 : 0;
   });
   return enriched.map((reading, index) => ({
@@ -642,7 +680,7 @@ function buildStructuralDateResolver(dailyInfos) {
     shipped_years: SHIPPED_YEARS,
     missing_dates_by_year: missingDatesByYear,
     structural_daily_additions_by_year: structuralRowsByYear,
-    contract: 'All shipped civil dates have daily JSON keys. Holy Week and Bright Saturday structural rows are date-resolved into the daily files when the public copticchurch.net daily cache has no date-resolved rows for that civil date.',
+    contract: 'All shipped civil dates have daily JSON keys. Holy Week and Bright Saturday structural rows fill missing public-cache dates; the verified Annunciation collision is replaced under the documented exception rule rather than unioned.',
     pascha_computus: 'Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range.',
   };
 }
@@ -724,6 +762,16 @@ function packageJson() {
   };
 }
 
+function isCurrentReading(row) {
+  if (!row || typeof row !== 'object' || Array.isArray(row) || row.active === false || row.status === 'removed') return false;
+  if (/^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b/i.test(String(row.removed_marker || '').trim())) return false;
+  const status = String(row.current_status || row.status || '').trim().toLowerCase();
+  if (!status) return true;
+  if (status === 'removed' || status.startsWith('superseded') || status === 'historical_candidate_removed' || status === 'historical_witness') return false;
+  if (['current', 'current_public_or_local_reference', 'current_working_source_not_coptic_reader_checked', 'current_confirmed_coptic_reader', 'current_confirmed_by_fixture_equivalence', 'pending_psalm_equivalence_unresolved'].includes(status)) return true;
+  throw new RangeError('Unknown explicit reading status: ' + status);
+}
+
 function indexJs() {
   return `'use strict';
 
@@ -752,6 +800,15 @@ function classifyDate(date) {
     throw new TypeError('date must be an ISO YYYY-MM-DD string.');
   }
   const year = Number(date.slice(0, 4));
+  const month = Number(date.slice(5, 7));
+  const day = Number(date.slice(8, 10));
+  if (year === 0) throw new RangeError('date must use Gregorian year 0001 or later.');
+  const parsed = new Date(0);
+  parsed.setUTCHours(0, 0, 0, 0);
+  parsed.setUTCFullYear(year, month - 1, day);
+  if (parsed.getUTCFullYear() !== year || parsed.getUTCMonth() + 1 !== month || parsed.getUTCDate() !== day) {
+    throw new RangeError('date must be a real Gregorian calendar date.');
+  }
   if (!shippedYears.includes(year)) {
     return {
       date,
@@ -790,6 +847,8 @@ function isActiveReading(row) {
   return !isRemovedReading(row);
 }
 
+${isCurrentReading.toString()}
+
 module.exports = {
   occasionIndexPath,
   dailyDir,
@@ -797,6 +856,7 @@ module.exports = {
   classifyDate,
   isRemovedReading,
   isActiveReading,
+  isCurrentReading,
   structuralDateResolver,
   shippedYears,
   meta,
@@ -847,7 +907,7 @@ console.log(lectionaryData.dailyYearPath(2026));
 console.log(lectionaryData.shippedYears);
 console.log(lectionaryData.meta.source_repo_commit);
 console.log(lectionaryData.classifyDate('2026-04-10'));
-console.log(lectionaryData.isActiveReading({ display_ref: 'Jn 1:1-17' }));
+console.log(lectionaryData.isCurrentReading({ display_ref: 'Jn 1:1-17' }));
 \`\`\`
 
 ## Exports
@@ -857,7 +917,8 @@ console.log(lectionaryData.isActiveReading({ display_ref: 'Jn 1:1-17' }));
 - \`dailyYearPath(year)\`: returns the absolute path for a shipped daily lectionary JSON file.
 - \`classifyDate(date)\`: classifies a shipped ISO date as present in daily JSON or as a documented structural-only Holy Week/Bright Saturday gap.
 - \`isRemovedReading(row)\`: returns true for rows marked \`active: false\` or \`status: "removed"\`.
-- \`isActiveReading(row)\`: convenience negation of \`isRemovedReading(row)\`; use this to filter active reverse-index rows.
+- \`isActiveReading(row)\`: backwards-compatible convenience negation of \`isRemovedReading(row)\`; it does not exclude every historical or superseded state.
+- \`isCurrentReading(row)\`: returns true only for unmarked legacy rows or supported current-status values; removal markers, superseded rows, and historical witnesses are false.
 - \`structuralDateResolver\`: resolver metadata copied from \`meta.structural_date_resolver\`.
 - \`shippedYears\`: frozen array of shipped daily years.
 - \`meta\`: parsed \`meta.json\`.
@@ -896,7 +957,7 @@ Rows that were removed from active lookup by source-priority projection include 
 - \`consumer_note\`
 - \`retained_for: "provenance_only"\`
 
-Consumers should filter with \`isActiveReading(row)\` unless they are building an audit/provenance view.
+Default consumers should filter with \`isCurrentReading(row)\`. \`isActiveReading(row)\` retains its narrower backwards-compatible meaning and is appropriate only when historical/source-marked rows are intentionally included.
 
 ### Dual-numbering display references
 
@@ -918,7 +979,7 @@ In \`meta.daily_files\`, \`rows\` is retained as a legacy alias for \`date_count
 
 ## Structural Holy Week / Bright Saturday daily rows
 
-The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date. As a result, every shipped civil date in ${meta.shipped_years.join(', ')} has a daily JSON key.
+The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date, and replaces a verified Annunciation collision under the documented exception rule. As a result, every shipped civil date in ${meta.shipped_years.join(', ')} has a daily JSON key.
 
 \`meta.structural_date_resolver.structural_daily_additions_by_year\` lists the civil dates filled from structural Pascha/Bright Saturday rows. \`classifyDate(date)\` returns \`hasDailyReadings: true\` for every shipped civil date that has a daily key.
 
@@ -926,7 +987,7 @@ The package date-resolves Holy Week and Bright Saturday structural rows into the
 
 The package projects the raw reverse index into a consumer-safe runtime index. When a copticchurch.net date-resolved row and a lower-priority local cycle row overlap the same normalized consumer occasion, service, service hour, and slot type but disagree on the passage span, the lower-priority variant is retained as inactive provenance rather than used as an active lookup row.
 
-Inactive projection rows are marked with \`active: false\`, \`status: "removed"\`, \`removed_marker: "removed_by_source_priority_projection"\`, a \`consumer_note\`, and preferred-reading fields such as \`preferred_source_family\`, \`preferred_display_ref\`, and \`preferred_identity_key\`. Use \`isActiveReading(row)\` to exclude these rows from active lookups.
+Inactive projection rows are marked with \`active: false\`, \`status: "removed"\`, \`removed_marker: "removed_by_source_priority_projection"\`, a \`consumer_note\`, and preferred-reading fields such as \`preferred_source_family\`, \`preferred_display_ref\`, and \`preferred_identity_key\`. Use \`isCurrentReading(row)\` for default current-reading lookups.
 
 For fixed-date rows with a Sunday-specific counterpart, generic rows are disambiguated as non-Sunday contexts rather than silently duplicated.
 

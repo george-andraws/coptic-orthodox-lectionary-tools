@@ -66,6 +66,12 @@ class CalendarCoverageTests(unittest.TestCase):
 
 
 class PackageIntegrityTests(unittest.TestCase):
+    def test_historical_and_source_removed_rows_are_not_current_bounds_candidates(self) -> None:
+        self.assertFalse(package_integrity.is_current_reference_row({"current_status": "historical_witness"}))
+        self.assertFalse(package_integrity.is_current_reference_row({"current_status": "historical_candidate_removed"}))
+        self.assertFalse(package_integrity.is_current_reference_row({"removed_marker": "removed_by_coptic_reader_no_service"}))
+        self.assertTrue(package_integrity.is_current_reference_row({"current_status": "current_public_or_local_reference"}))
+
     def test_context_passage_conflict_detects_lower_priority_overlap(self) -> None:
         def row(source_family: str, display_ref: str, spans_json: str) -> dict[str, str]:
             return {

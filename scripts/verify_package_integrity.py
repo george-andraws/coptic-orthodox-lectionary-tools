@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import argparse
+import datetime
+from collections import Counter
 import json
 import re
 import subprocess
@@ -44,6 +46,107 @@ REQUIRED_REVERSE_FIELDS = [
     "attestation_year_min",
     "attestation_year_max",
 ]
+
+
+VERSE_BOUNDS = json.loads((Path(__file__).parent / "data/reference-verse-bounds.json").read_text())
+
+
+def is_real_iso_date(value: Any) -> bool:
+    if not isinstance(value, str) or not ISO_DATE.fullmatch(value):
+        return False
+    try:
+        return datetime.date.fromisoformat(value).isoformat() == value
+    except ValueError:
+        return False
+
+
+def validate_reference_span(span: Any) -> dict[str, Any]:
+    """Validate shape/order everywhere; never guess an unsupported versification."""
+    def fail(reason):
+        return {"status": "fail", "reason": reason}
+    if not isinstance(span, dict) or not isinstance(span.get("book"), str) or not span["book"].strip():
+        return fail("invalid_span_object_or_book")
+    values = {}
+    for key in ("chapter_start", "chapter_end", "verse_start", "verse_end"):
+        value = span.get(key)
+        if key.startswith("verse") and value in (None, ""):
+            values[key] = None
+            continue
+        if isinstance(value, bool) or not (isinstance(value, int) or isinstance(value, str) and value.isdecimal()):
+            return fail("non_integer_" + key)
+        values[key] = int(value)
+        if values[key] < 1:
+            return fail("non_positive_" + key)
+    cs, ce, vs, ve = (values[k] for k in ("chapter_start", "chapter_end", "verse_start", "verse_end"))
+    if ce < cs or ce == cs and vs is not None and ve is not None and ve < vs:
+        return fail("reversed_span")
+    convention = span.get("source_convention") or span.get("convention")
+    counts = VERSE_BOUNDS["books"].get(span["book"])
+    supported_conventions = (None, "", "mt_nkjv", "kjv", "english_kjv", "modern_english_reference") if span["book"] in VERSE_BOUNDS["nt_books"] else ("mt_nkjv", "kjv", "english_kjv")
+    if counts is None or convention not in supported_conventions:
+        return {"status": "unverified", "reason": "unsupported_versification", "book": span["book"]}
+    if cs > len(counts) or ce > len(counts):
+        return fail("chapter_out_of_bounds")
+    # NIV splits the KJV/NKJV final verse of 3 John into 14 and 15.
+    # https://www.biblegateway.com/passage/?search=3%20John%201%3A15&version=NIV
+    if span["book"] == "3Jn" and convention in (None, "", "modern_english_reference") and max(vs or 1, ve or 1) == 15:
+        return {"status": "unverified", "reason": "ambiguous_3john_versification", "book": "3Jn"}
+    if vs is not None and vs > counts[cs - 1] or ve is not None and ve > counts[ce - 1]:
+        return fail("verse_out_of_bounds")
+    return {"status": "pass", "convention": VERSE_BOUNDS["convention"]}
+
+
+def reverse_matches_for_daily(row: dict, candidates: list[dict]) -> list[dict]:
+    """Join the exact reference and occurrence, never a convenient valid sibling."""
+    def key(value):
+        return (
+            value.get("identity_key"), value.get("display_ref"),
+            " ".join(str(value.get("occasion") or value.get("day_title") or "").split()).casefold(),
+            " ".join(str(value.get("service_hour") or value.get("service_section") or "").split()).casefold(),
+            value.get("slot"),
+        )
+    return [candidate for candidate in candidates if key(candidate) == key(row)]
+
+
+def validate_row_reference_bounds(row: dict[str, Any]) -> dict[str, Any]:
+    try:
+        spans = json.loads(row.get("spans_json") or "[]")
+    except (ValueError, TypeError):
+        return {"failures": [{"reason": "invalid_spans_json"}], "unverified": []}
+    if not spans and row.get("reading_type") in {"non_scripture", "named-reading"}:
+        return {"failures": [], "unverified": []}
+    if not isinstance(spans, list) or not spans:
+        return {"failures": [{"reason": "missing_or_non_array_spans"}], "unverified": []}
+    results = [validate_reference_span(span) for span in spans]
+    return {"failures": [x for x in results if x["status"] == "fail"],
+            "unverified": [x for x in results if x["status"] == "unverified"]}
+
+
+def compare_tarball_bytes(package_dir: Path, tarball: Path) -> dict[str, Any]:
+    """Read archive members without extracting paths or executing archive code."""
+    mismatched, missing, unexpected, duplicate = [], [], [], []
+    seen = set()
+    with tarfile.open(tarball, "r:gz") as archive:
+        for member in archive.getmembers():
+            if member.isdir():
+                continue
+            name = member.name.removeprefix("package/")
+            if name in seen:
+                duplicate.append(name)
+            seen.add(name)
+            parts = Path(name).parts
+            if not member.isfile() or not member.name.startswith("package/") or Path(name).is_absolute() or ".." in parts:
+                unexpected.append(member.name)
+                continue
+            target = package_dir / name
+            if not target.is_file():
+                unexpected.append(name)
+            elif archive.extractfile(member).read() != target.read_bytes():
+                mismatched.append(name)
+    missing = sorted(list_package_files(package_dir) - seen)
+    return {"status": "fail" if mismatched or missing or unexpected or duplicate else "pass",
+            "mismatched": sorted(mismatched), "missing": missing,
+            "unexpected": sorted(unexpected), "duplicate": sorted(duplicate)}
 
 
 def load_json(path: Path) -> Any:
@@ -156,6 +259,19 @@ def source_priority(row: dict[str, Any]) -> int:
 
 def is_removed_projection_row(row: dict[str, Any]) -> bool:
     return row.get("active") is False or str(row.get("status") or "").casefold() == "removed"
+
+
+def is_current_reference_row(row: dict[str, Any]) -> bool:
+    """Mirror the package's explicit current-reading contract for bounds gates."""
+    if is_removed_projection_row(row):
+        return False
+    marker = str(row.get("removed_marker") or "").strip().casefold()
+    if marker.startswith(("superseded", "removed", "omitted")) or "removed in" in marker or "source omitted" in marker:
+        return False
+    status = str(row.get("current_status") or row.get("status") or "").strip().casefold()
+    if status in {"historical_candidate_removed", "historical_witness", "removed"} or status.startswith("superseded"):
+        return False
+    return True
 
 
 REQUIRED_REMOVED_PROJECTION_FIELDS = [
@@ -412,7 +528,7 @@ console.log(JSON.stringify(result));
             capture_output=True,
         )
     except FileNotFoundError:
-        return {"status": "skipped", "reason": "node executable not found"}
+        return {"status": "fail", "reason": "node executable not found; runtime contract was not verified"}
     except subprocess.CalledProcessError as exc:
         return {"status": "fail", "stdout": exc.stdout, "stderr": exc.stderr}
     parsed = json.loads(completed.stdout)
@@ -429,6 +545,8 @@ console.log(JSON.stringify(result));
 
 
 def validate_package_integrity(package_dir: Path, tarball: Path | None = None, strict_file_set: bool = False) -> dict[str, Any]:
+    package_dir = package_dir.resolve()
+    unverified_spans = Counter()
     failures: list[dict[str, Any]] = []
     warnings: list[str] = []
 
@@ -478,6 +596,11 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if missing:
             failures.append({"reason": "reverse_row_missing_required_fields", "row": row_number, "fields": missing})
             continue
+        if is_current_reference_row(row):
+            bounds = validate_row_reference_bounds(row)
+            if bounds["failures"]:
+                failures.append({"reason": "invalid_current_reverse_span", "row": row_number, "display_ref": row.get("display_ref"), "details": bounds["failures"]})
+            unverified_spans.update(x["book"] for x in bounds["unverified"])
         if not is_removed:
             key = (row.get("occasion"), row.get("service_section"), row.get("service_hour"), row.get("slot"), row.get("identity_key"))
             if key in duplicate_keys:
@@ -515,6 +638,9 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     if context_passage_conflicts:
         failures.append({"reason": "package_context_passage_conflict", "examples": context_passage_conflicts[:20], "count": len(context_passage_conflicts)})
 
+    reverse_by_identity = {}
+    for row in reverse_rows:
+        reverse_by_identity.setdefault(row.get("identity_key"), []).append(row)
     shipped_years = meta.get("shipped_years", [])
     daily_meta = {entry.get("year"): entry for entry in meta.get("daily_files", [])}
     daily_summary: dict[str, Any] = {}
@@ -524,7 +650,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if not isinstance(data, dict):
             failures.append({"reason": "daily_file_not_object", "year": year})
             continue
-        malformed_dates = sorted(date_key for date_key in data if not ISO_DATE.fullmatch(date_key))
+        malformed_dates = sorted(date_key for date_key in data if not is_real_iso_date(date_key))
         wrong_year_dates = sorted(date_key for date_key in data if ISO_DATE.fullmatch(date_key) and int(date_key[:4]) != year)
         non_array_dates = sorted(date_key for date_key, readings in data.items() if not isinstance(readings, list))
         if malformed_dates:
@@ -545,6 +671,20 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
             for index, reading in enumerate(readings, 1):
                 if not isinstance(reading, dict):
                     continue
+                if "spans_json" in reading:
+                    reference_rows = [reading]
+                else:
+                    matches = reverse_by_identity.get(reading.get("identity_key"), [])
+                    matches = reverse_matches_for_daily(reading, matches)
+                    if not matches:
+                        failures.append({"reason": "no_exact_reverse_match_for_daily_display_ref", "date": date_key, "reading_index": index, "display_ref": reading.get("display_ref"), "identity_key": reading.get("identity_key")})
+                        continue
+                    reference_rows = matches
+                checked = [validate_row_reference_bounds(r) for r in reference_rows]
+                bounds = {key: [item for result in checked for item in result[key]] for key in ("failures", "unverified")}
+                if bounds["failures"]:
+                    failures.append({"reason": "invalid_daily_span", "date": date_key, "reading_index": index, "display_ref": reading.get("display_ref"), "details": bounds["failures"]})
+                unverified_spans.update(x["book"] for x in bounds["unverified"])
                 for field in ["reading_order", "service_order", "slot_type", "slot_order"]:
                     if field not in reading:
                         failures.append({"reason": "daily_reading_missing_order_field", "year": year, "date": date_key, "reading_index": index, "field": field})
@@ -577,6 +717,9 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     tarball_summary = None
     if tarball:
         tarball_summary = validate_tarball_file_set(tarball)
+        tarball_summary["byte_comparison"] = compare_tarball_bytes(package_dir, tarball)
+        if tarball_summary["byte_comparison"]["status"] != "pass":
+            failures.append({"reason": "tarball_bytes_mismatch", **tarball_summary["byte_comparison"]})
         if tarball_summary["status"] != "pass":
             failures.append({"reason": "tarball_file_set_mismatch", **tarball_summary})
 
@@ -588,6 +731,8 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         "source_repo_commit": meta.get("source_repo_commit"),
         "required_files_present": not missing_files,
         "extra_files": extra_files,
+        "reference_bounds_scope": VERSE_BOUNDS["scope_note"],
+        "unverified_span_counts_by_book": dict(sorted(unverified_spans.items())),
         "reverse_index_rows": len(reverse_rows),
         "active_reverse_index_rows": active_reverse_rows,
         "removed_projection_rows": removed_projection_rows,

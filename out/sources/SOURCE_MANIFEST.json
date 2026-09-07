@@ -5,16 +5,6 @@
     "sha256": "b6a1bbfa96543b7028bba77ad33df5cb018d21ec7bde1335247c2bd86ff43784"
   },
   {
-    "file": "KatamerosDatabase.sqlite-shm",
-    "bytes": 32768,
-    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
-  },
-  {
-    "file": "KatamerosDatabase.sqlite-wal",
-    "bytes": 0,
-    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-  },
-  {
     "file": "St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf",
     "bytes": 7417864,
     "sha256": "afddea9372689625409370be0c466b0d99d4279fea57221f177dd18f105413d1"
@@ -73,5 +63,10 @@
     "file": "UK_Midlands_Katameros_Sundays.txt",
     "bytes": 925121,
     "sha256": "bf49a59e64b36668fd50bf0e12ba493129de0effca7fd5a67ec3bce01aa1a9f7"
+  },
+  {
+    "file": "lectionary_corrections.json",
+    "bytes": 15901,
+    "sha256": "612ff3c82d2200286036f0c044ccf4cb8174bb88d2b4a8841cca938e34fdc3d6"
   }
 ]

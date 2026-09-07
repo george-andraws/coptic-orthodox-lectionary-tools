@@ -1,0 +1,52 @@
+{
+  "sources": {
+    "ottawa_pascha": {
+      "path": "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt",
+      "sha256": "d37ef1df5ff9e5caadfe77a2b45a6e21b66bf69005715c93ed11e7004f1c872d"
+    },
+    "uk_midlands_days": {
+      "path": "out/sources/UK_Midlands_Katameros_Days.txt",
+      "sha256": "b81d990f48d0923fc94b6db020a28836073e13ff8b00b021efc55b741e261168"
+    }
+  },
+  "pascha_reference_corrections": [
+    {
+      "day": "Monday Eve",
+      "hour": "Sixth Hour",
+      "slot": "Psalm+Gospel",
+      "expected_raw_ref": "Ps 91:2,3; John 21:34-38",
+      "corrected_ref": "Ps 29:1-2; Mark 10:32-34",
+      "source": "ottawa_pascha",
+      "source_page": 89,
+      "source_line": 2178,
+      "source_raw_citation": "Mark 10:32-34",
+      "normalized_citation": "Mark 10:32-34",
+      "convention": "printed_civil_day_label",
+      "confidence": "high",
+      "coptic_reader_evidence": "sources/coptic-reader/monday-eve-sixth-hour-2026-09-07/Screenshot_20260907_045920_Coptic_Reader.jpg",
+      "convention_note": "Coptic Reader authoritative source prints Psalm 28:1-2 LXX; normalized MT-primary display is Psalm 29:1-2"
+    },
+    {
+      "day": "Tuesday Eve",
+      "hour": "Sixth Hour",
+      "slot": "Psalm+Gospel",
+      "expected_raw_ref": "Ps 91:2,3; John 21:34-38",
+      "corrected_ref": "Ps 91:2,3; Luke 21:34-38",
+      "source": "ottawa_pascha",
+      "source_page": 172,
+      "source_line": 4262,
+      "source_raw_citation": "Luke 21:34- 38",
+      "normalized_citation": "Lk 21:34-38",
+      "convention": "printed_civil_day_label",
+      "confidence": "high"
+    }
+  ],
+  "annunciation_exception": {
+    "source": "uk_midlands_days",
+    "source_page": 22,
+    "rule": "Annunciation is not used from the last Friday of Lent through the second day of Pentecost because the Lord's events are not repeatable.",
+    "verified_collision_date": "2026-04-07",
+    "expected_structural_day": "Tuesday",
+    "confidence": "high"
+  }
+}

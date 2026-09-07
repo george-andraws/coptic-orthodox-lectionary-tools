@@ -18,7 +18,6 @@ from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens
 from build_bible_chapter_lectionary_index import BOOKS
 
 CHAPTER_COUNTS = {abbrev: chapters for _, _, abbrev, chapters in BOOKS}
-CHAPTER_COUNTS['Nah'] = CHAPTER_COUNTS['Nahum']
 
 SUSPICIOUS_PATTERNS = [
     re.compile(r'\d:.*[—–-]\s*$'),
@@ -107,8 +106,8 @@ def assert_known_good():
         'chapter_john2': run([sys.executable, str(SCRIPT), '--chapter', 'John 2', '--limit', '5']),
         'chapter_obadiah': run([sys.executable, str(SCRIPT), '--chapter', 'Obadiah 1', '--limit', '5']),
     }
-    assert any('Good Friday | Sixth Hour | OT2 | Isa 53:7-12' in line for line in checks['isaiah53']), checks['isaiah53']
-    assert any('Good Friday | Sixth Hour | OT2 | Isa 53:7-12' in line for line in checks['isa53']), checks['isa53']
+    assert any('Good Friday | Sixth Hour | Prophecy | Isa 53:7-12' in line for line in checks['isaiah53']), checks['isaiah53']
+    assert any('Good Friday | Sixth Hour | Prophecy | Isa 53:7-12' in line for line in checks['isa53']), checks['isa53']
     assert checks['cycle_40_5'], checks['cycle_40_5']
     assert any('Matt 5:1-16' in line or 'Matt 5:1' in line for line in checks['cycle_matt_5_1']), checks['cycle_matt_5_1']
     assert any('First Hour (Prime / Morning Prayer)' in line and 'John 1:1-17' in line for line in checks['agpeya_first_hour']), checks['agpeya_first_hour']
@@ -476,9 +475,12 @@ def assert_pascha_source_text_dedupe_invariants():
 
 def assert_chapter_occurrence_row_count():
     rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
-    # e140223 added 13 Apostles Feast Lakkan chapter occurrences and 4c38963
-    # added 8 Theophany Lakkan occurrences to the previous 71,195-row baseline.
-    assert len(rows) == 71216, len(rows)
+    # Pin the complete regenerated occurrence set after the source-backed
+    # calendar overlays, continuous-reference corrections, and attestation dedupe.
+    # Semantic fixtures independently constrain the changes; a matching count
+    # alone cannot establish correctness. Preserve all companion Psalm fragments,
+    # including the three ordered Good Friday Sixth Hour MT-aligned parts.
+    assert len(rows) == 71380, len(rows)
     return {'chapter_occurrence_rows': len(rows)}
 
 

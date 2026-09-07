@@ -175,7 +175,23 @@ def pascha_ref_correction_key(day: str, hour: str, slot: str, refs: str) -> tupl
     )
 
 
+def overlay_pascha_ref_corrections() -> dict:
+    overlay = json.loads((WORK / 'sources' / 'lectionary_corrections.json').read_text(encoding='utf-8'))
+    result = {}
+    for correction in overlay['pascha_day_hour']:
+        result[pascha_ref_correction_key(
+            correction['day'], correction['hour'], correction['slot'], correction['expected_raw_ref']
+        )] = {
+            'refs': correction['corrected_ref'],
+            'superseded_refs': [part.strip() for part in correction['expected_raw_ref'].split(';')
+                                if part.strip() not in correction['corrected_ref']],
+            'note': f"source_corrected_from_{correction['source_path']}:{correction['source_line']}",
+        }
+    return result
+
+
 PASCHA_CURATED_REF_CORRECTIONS = {
+    **overlay_pascha_ref_corrections(),
     pascha_ref_correction_key('Monday', 'First Hour', 'OT1', 'Gen 1:1-31; Gen 2:1-3'): {
         'refs': 'Gen 1:1-2:3',
         'superseded_refs': ['Gen 1:1-31', 'Gen 2:1-3'],
@@ -324,7 +340,8 @@ def add_row(rows: List[dict], summary_counts: dict[str, Counter], passage: str, 
 
 def main() -> None:
     cycle_rows = read_csv(WORK_OUT_DATA / 'katameros_cycle_passage_index.csv')
-    date_rows = read_csv(WORK_OUT_DATA / 'copticchurch_passage_index_2020_2035.csv')
+    current_date_index = WORK_OUT_DATA / 'copticchurch_passage_index_current_2020_2035.csv'
+    date_rows = read_csv(current_date_index if current_date_index.exists() else WORK_OUT_DATA / 'copticchurch_passage_index_2020_2035.csv')
     special_rows = read_csv(WORK_OUT_DATA / 'special_service_passage_index.csv')
     agpeya_rows = read_csv(WORK_OUT_DATA / 'agpeya_passage_index.csv')
     pascha_source = PASCHA_CSV if PASCHA_CSV.exists() else PASCHA_FALLBACK_CSV
@@ -352,7 +369,7 @@ def main() -> None:
             source_table=row.get('source_table') or '',
             source_file='sources/katameros-api/Core/KatamerosDatabase.db',
             source_row_id=idx,
-            source_order=idx,
+            source_order=row.get('source_order') or idx,
             source_token_order=1,
             liturgical_place=liturgical_place,
             calendar_key=row.get('day_key') or '',
@@ -372,16 +389,17 @@ def main() -> None:
     for idx, row in enumerate(date_rows, 1):
         passage = norm_passage(row)
         g = row.get('gregorian_date') or ''
+        resolved_pascha = bool(row.get('source_occasion'))
         add_row(
             rows,
             summary_counts,
             passage,
-            'copticchurch_date',
-            source_family='ordinary_date_resolved',
+            'pascha_day_hour' if resolved_pascha else 'copticchurch_date',
+            source_family='holy_pascha_curated_day_hour' if resolved_pascha else 'ordinary_date_resolved',
             source_table='copticchurch_date_readings_2020_2035',
-            source_file='cache/copticchurch_html',
+            source_file='out/data/pascha_day_hour_index.csv' if resolved_pascha else 'cache/copticchurch_html',
             source_row_id=idx,
-            source_order=idx,
+            source_order=row.get('source_order') or idx,
             source_token_order=1,
             liturgical_place=row.get('day_title') or '',
             calendar_key=row.get('day_title') or '',
@@ -389,11 +407,14 @@ def main() -> None:
             coptic_date=coptic_date_for(g),
             day_title=row.get('day_title') or '',
             service_day=row.get('day_title') or '',
+            service_hour=row.get('service_section') if row.get('source_occasion') else '',
             service_section=row.get('service_section') or '',
+            reading_slot=row.get('source_slot') or '',
             reading_type=row.get('reading_type') or '',
             source_ref=row.get('matched_ref') or row.get('raw_ref') or '',
             raw_ref=row.get('raw_ref') or '',
             normalized_ref=row.get('matched_ref') or '',
+            superseded_reason=row.get('superseded_reason') or '',
             significance_note=row.get('service_section') or row.get('reading_type') or '',
             url=row.get('url') or '',
             provenance=row.get('source') or 'copticchurch.net daily scrape',
@@ -462,8 +483,8 @@ def main() -> None:
     for idx, row in enumerate(pascha_rows, 1):
         corrected_row = apply_pascha_curated_ref_correction(row)
         source_refs = corrected_row.get('refs', '')
-        raw_refs = corrected_row.get('_raw_refs') or row.get('refs', '')
-        correction_note = corrected_row.get('_ref_correction_note', '')
+        raw_refs = corrected_row.get('_raw_refs') or row.get('raw_refs') or row.get('refs', '')
+        correction_note = corrected_row.get('_ref_correction_note', '') or row.get('correction_source', '')
         significance_note = f"Pascha source={row.get('source','')}"
         if correction_note:
             significance_note = f"{significance_note}; {correction_note}"
