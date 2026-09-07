@@ -117,8 +117,8 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 ## Provenance
 
 - Package version: 1.1.11
-- Source repo commit: 11a0c7ea38a8784f406c4bc40657d555b8e7e0f3
-- Generated at: 2026-09-07T00:13:50.660Z
+- Source repo commit: 7b95175c21e22bc429d4fe344fc38ca64d997a0c
+- Generated at: 2026-09-07T00:14:32.350Z
 - Occasion index rows: 11923
 
 ## License
