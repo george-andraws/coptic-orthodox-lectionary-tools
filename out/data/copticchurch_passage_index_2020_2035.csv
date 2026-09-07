@@ -963,7 +963,7 @@ copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
 copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
 copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
-copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
+copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
 copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
 copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
 copticchurch.net daily scrape,2020-04-12,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2020&g_month=04&g_day=12
@@ -2706,7 +2706,7 @@ copticchurch.net daily scrape,2020-09-30,Wednesday,Tout 20,Matins,Psalm,Ps 8:2-3
 copticchurch.net daily scrape,2020-09-30,Wednesday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=30
 copticchurch.net daily scrape,2020-09-30,Wednesday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2020&g_month=09&g_day=30
 copticchurch.net daily scrape,2020-10-01,Thursday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=01
-copticchurch.net daily scrape,2020-10-01,Thursday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=01
+copticchurch.net daily scrape,2020-10-01,Thursday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=01
 copticchurch.net daily scrape,2020-10-01,Thursday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=01
 copticchurch.net daily scrape,2020-10-01,Thursday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=01
 copticchurch.net daily scrape,2020-10-01,Thursday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=01
@@ -2726,7 +2726,7 @@ copticchurch.net daily scrape,2020-10-02,Friday,Tout 22,Matins,Psalm,Ps 5:12,Psa
 copticchurch.net daily scrape,2020-10-02,Friday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=02
 copticchurch.net daily scrape,2020-10-02,Friday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=02
 copticchurch.net daily scrape,2020-10-03,Saturday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=03
-copticchurch.net daily scrape,2020-10-03,Saturday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=03
+copticchurch.net daily scrape,2020-10-03,Saturday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=03
 copticchurch.net daily scrape,2020-10-03,Saturday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=03
 copticchurch.net daily scrape,2020-10-03,Saturday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=03
 copticchurch.net daily scrape,2020-10-03,Saturday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2020&g_month=10&g_day=03
@@ -4807,7 +4807,7 @@ copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
 copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
 copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
-copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
+copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
 copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
 copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
 copticchurch.net daily scrape,2021-04-25,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2021&g_month=04&g_day=25
@@ -6416,7 +6416,7 @@ copticchurch.net daily scrape,2021-09-30,Thursday,Tout 20,Matins,Psalm,Ps 8:2-3,
 copticchurch.net daily scrape,2021-09-30,Thursday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=30
 copticchurch.net daily scrape,2021-09-30,Thursday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2021&g_month=09&g_day=30
 copticchurch.net daily scrape,2021-10-01,Friday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2021&g_month=10&g_day=01
-copticchurch.net daily scrape,2021-10-01,Friday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2021&g_month=10&g_day=01
+copticchurch.net daily scrape,2021-10-01,Friday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2021&g_month=10&g_day=01
 copticchurch.net daily scrape,2021-10-01,Friday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2021&g_month=10&g_day=01
 copticchurch.net daily scrape,2021-10-01,Friday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2021&g_month=10&g_day=01
 copticchurch.net daily scrape,2021-10-01,Friday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2021&g_month=10&g_day=01
@@ -8438,7 +8438,7 @@ copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
 copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
 copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
-copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
+copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
 copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
 copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
 copticchurch.net daily scrape,2022-04-17,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2022&g_month=04&g_day=17
@@ -10129,7 +10129,7 @@ copticchurch.net daily scrape,2022-09-30,Friday,Tout 20,Matins,Psalm,Ps 8:2-3,Ps
 copticchurch.net daily scrape,2022-09-30,Friday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=30
 copticchurch.net daily scrape,2022-09-30,Friday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=30
 copticchurch.net daily scrape,2022-10-01,Saturday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=01
-copticchurch.net daily scrape,2022-10-01,Saturday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=01
+copticchurch.net daily scrape,2022-10-01,Saturday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=01
 copticchurch.net daily scrape,2022-10-01,Saturday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=01
 copticchurch.net daily scrape,2022-10-01,Saturday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=01
 copticchurch.net daily scrape,2022-10-01,Saturday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=01
@@ -10148,7 +10148,7 @@ copticchurch.net daily scrape,2022-10-02,Sunday,The third Sunday of Tout,Matins,
 copticchurch.net daily scrape,2022-10-02,Sunday,The third Sunday of Tout,Vespers,Gospel,Mark 1:29-34,Mk 1:29-34,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=02
 copticchurch.net daily scrape,2022-10-02,Sunday,The third Sunday of Tout,Vespers,Psalm,Ps 9:1-2,Psalm 9:1-2,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=02
 copticchurch.net daily scrape,2022-10-03,Monday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=03
-copticchurch.net daily scrape,2022-10-03,Monday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=03
+copticchurch.net daily scrape,2022-10-03,Monday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=03
 copticchurch.net daily scrape,2022-10-03,Monday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=03
 copticchurch.net daily scrape,2022-10-03,Monday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=03
 copticchurch.net daily scrape,2022-10-03,Monday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2022&g_month=10&g_day=03
@@ -12053,7 +12053,7 @@ copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
 copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
 copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
-copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
+copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
 copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
 copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
 copticchurch.net daily scrape,2023-04-09,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=09
@@ -13842,7 +13842,7 @@ copticchurch.net daily scrape,2023-10-01,Sunday,The third Sunday of Tout,Matins,
 copticchurch.net daily scrape,2023-10-01,Sunday,The third Sunday of Tout,Vespers,Gospel,Mark 1:29-34,Mk 1:29-34,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=01
 copticchurch.net daily scrape,2023-10-01,Sunday,The third Sunday of Tout,Vespers,Psalm,Ps 9:1-2,Psalm 9:1-2,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=01
 copticchurch.net daily scrape,2023-10-02,Monday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=02
-copticchurch.net daily scrape,2023-10-02,Monday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=02
+copticchurch.net daily scrape,2023-10-02,Monday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=02
 copticchurch.net daily scrape,2023-10-02,Monday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=02
 copticchurch.net daily scrape,2023-10-02,Monday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=02
 copticchurch.net daily scrape,2023-10-02,Monday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=02
@@ -13862,7 +13862,7 @@ copticchurch.net daily scrape,2023-10-03,Tuesday,Tout 22,Matins,Psalm,Ps 5:12,Ps
 copticchurch.net daily scrape,2023-10-03,Tuesday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=03
 copticchurch.net daily scrape,2023-10-03,Tuesday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=03
 copticchurch.net daily scrape,2023-10-04,Wednesday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=04
-copticchurch.net daily scrape,2023-10-04,Wednesday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=04
+copticchurch.net daily scrape,2023-10-04,Wednesday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=04
 copticchurch.net daily scrape,2023-10-04,Wednesday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=04
 copticchurch.net daily scrape,2023-10-04,Wednesday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=04
 copticchurch.net daily scrape,2023-10-04,Wednesday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2023&g_month=10&g_day=04
@@ -15963,7 +15963,7 @@ copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
 copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
 copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
-copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
+copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
 copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
 copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
 copticchurch.net daily scrape,2024-04-28,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2024&g_month=04&g_day=28
@@ -17539,7 +17539,7 @@ copticchurch.net daily scrape,2024-09-30,Monday,Tout 20,Matins,Psalm,Ps 8:2-3,Ps
 copticchurch.net daily scrape,2024-09-30,Monday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=30
 copticchurch.net daily scrape,2024-09-30,Monday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2024&g_month=09&g_day=30
 copticchurch.net daily scrape,2024-10-01,Tuesday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=01
-copticchurch.net daily scrape,2024-10-01,Tuesday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=01
+copticchurch.net daily scrape,2024-10-01,Tuesday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=01
 copticchurch.net daily scrape,2024-10-01,Tuesday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=01
 copticchurch.net daily scrape,2024-10-01,Tuesday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=01
 copticchurch.net daily scrape,2024-10-01,Tuesday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=01
@@ -17559,7 +17559,7 @@ copticchurch.net daily scrape,2024-10-02,Wednesday,Tout 22,Matins,Psalm,Ps 5:12,
 copticchurch.net daily scrape,2024-10-02,Wednesday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=02
 copticchurch.net daily scrape,2024-10-02,Wednesday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=02
 copticchurch.net daily scrape,2024-10-03,Thursday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=03
-copticchurch.net daily scrape,2024-10-03,Thursday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=03
+copticchurch.net daily scrape,2024-10-03,Thursday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=03
 copticchurch.net daily scrape,2024-10-03,Thursday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=03
 copticchurch.net daily scrape,2024-10-03,Thursday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=03
 copticchurch.net daily scrape,2024-10-03,Thursday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2024&g_month=10&g_day=03
@@ -19497,7 +19497,7 @@ copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
 copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
 copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
-copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
+copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
 copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
 copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
 copticchurch.net daily scrape,2025-04-13,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2025&g_month=04&g_day=13
@@ -21222,7 +21222,7 @@ copticchurch.net daily scrape,2025-09-30,Tuesday,Tout 20,Matins,Psalm,Ps 8:2-3,P
 copticchurch.net daily scrape,2025-09-30,Tuesday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=30
 copticchurch.net daily scrape,2025-09-30,Tuesday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2025&g_month=09&g_day=30
 copticchurch.net daily scrape,2025-10-01,Wednesday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=01
-copticchurch.net daily scrape,2025-10-01,Wednesday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=01
+copticchurch.net daily scrape,2025-10-01,Wednesday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=01
 copticchurch.net daily scrape,2025-10-01,Wednesday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=01
 copticchurch.net daily scrape,2025-10-01,Wednesday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=01
 copticchurch.net daily scrape,2025-10-01,Wednesday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=01
@@ -21242,7 +21242,7 @@ copticchurch.net daily scrape,2025-10-02,Thursday,Tout 22,Matins,Psalm,Ps 5:12,P
 copticchurch.net daily scrape,2025-10-02,Thursday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=02
 copticchurch.net daily scrape,2025-10-02,Thursday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=02
 copticchurch.net daily scrape,2025-10-03,Friday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=03
-copticchurch.net daily scrape,2025-10-03,Friday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=03
+copticchurch.net daily scrape,2025-10-03,Friday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=03
 copticchurch.net daily scrape,2025-10-03,Friday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=03
 copticchurch.net daily scrape,2025-10-03,Friday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=03
 copticchurch.net daily scrape,2025-10-03,Friday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2025&g_month=10&g_day=03
@@ -23094,7 +23094,7 @@ copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
 copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
 copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
-copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
+copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
 copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
 copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
 copticchurch.net daily scrape,2026-04-05,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=05
@@ -24922,7 +24922,7 @@ copticchurch.net daily scrape,2026-09-30,Wednesday,Tout 20,Matins,Psalm,Ps 8:2-3
 copticchurch.net daily scrape,2026-09-30,Wednesday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=30
 copticchurch.net daily scrape,2026-09-30,Wednesday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=30
 copticchurch.net daily scrape,2026-10-01,Thursday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=01
-copticchurch.net daily scrape,2026-10-01,Thursday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=01
+copticchurch.net daily scrape,2026-10-01,Thursday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=01
 copticchurch.net daily scrape,2026-10-01,Thursday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=01
 copticchurch.net daily scrape,2026-10-01,Thursday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=01
 copticchurch.net daily scrape,2026-10-01,Thursday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=01
@@ -24942,7 +24942,7 @@ copticchurch.net daily scrape,2026-10-02,Friday,Tout 22,Matins,Psalm,Ps 5:12,Psa
 copticchurch.net daily scrape,2026-10-02,Friday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=02
 copticchurch.net daily scrape,2026-10-02,Friday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=02
 copticchurch.net daily scrape,2026-10-03,Saturday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=03
-copticchurch.net daily scrape,2026-10-03,Saturday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=03
+copticchurch.net daily scrape,2026-10-03,Saturday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=03
 copticchurch.net daily scrape,2026-10-03,Saturday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=03
 copticchurch.net daily scrape,2026-10-03,Saturday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=03
 copticchurch.net daily scrape,2026-10-03,Saturday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=03
@@ -27023,7 +27023,7 @@ copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
 copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
 copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
-copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
+copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
 copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
 copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
 copticchurch.net daily scrape,2027-04-25,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=25
@@ -28641,7 +28641,7 @@ copticchurch.net daily scrape,2027-10-01,Friday,Tout 20,Matins,Psalm,Ps 8:2-3,Ps
 copticchurch.net daily scrape,2027-10-01,Friday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=01
 copticchurch.net daily scrape,2027-10-01,Friday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=01
 copticchurch.net daily scrape,2027-10-02,Saturday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=02
-copticchurch.net daily scrape,2027-10-02,Saturday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=02
+copticchurch.net daily scrape,2027-10-02,Saturday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=02
 copticchurch.net daily scrape,2027-10-02,Saturday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=02
 copticchurch.net daily scrape,2027-10-02,Saturday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=02
 copticchurch.net daily scrape,2027-10-02,Saturday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=02
@@ -28660,7 +28660,7 @@ copticchurch.net daily scrape,2027-10-03,Sunday,The third Sunday of Tout,Matins,
 copticchurch.net daily scrape,2027-10-03,Sunday,The third Sunday of Tout,Vespers,Gospel,Mark 1:29-34,Mk 1:29-34,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=03
 copticchurch.net daily scrape,2027-10-03,Sunday,The third Sunday of Tout,Vespers,Psalm,Ps 9:1-2,Psalm 9:1-2,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=03
 copticchurch.net daily scrape,2027-10-04,Monday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=04
-copticchurch.net daily scrape,2027-10-04,Monday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=04
+copticchurch.net daily scrape,2027-10-04,Monday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=04
 copticchurch.net daily scrape,2027-10-04,Monday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=04
 copticchurch.net daily scrape,2027-10-04,Monday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=04
 copticchurch.net daily scrape,2027-10-04,Monday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=04
@@ -30562,7 +30562,7 @@ copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
 copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
 copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
-copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
+copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
 copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
 copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
 copticchurch.net daily scrape,2028-04-09,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=09
@@ -32362,7 +32362,7 @@ copticchurch.net daily scrape,2028-10-02,Monday,Tout 22,Matins,Psalm,Ps 5:12,Psa
 copticchurch.net daily scrape,2028-10-02,Monday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=02
 copticchurch.net daily scrape,2028-10-02,Monday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=02
 copticchurch.net daily scrape,2028-10-03,Tuesday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=03
-copticchurch.net daily scrape,2028-10-03,Tuesday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=03
+copticchurch.net daily scrape,2028-10-03,Tuesday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=03
 copticchurch.net daily scrape,2028-10-03,Tuesday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=03
 copticchurch.net daily scrape,2028-10-03,Tuesday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=03
 copticchurch.net daily scrape,2028-10-03,Tuesday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2028&g_month=10&g_day=03
@@ -34192,7 +34192,7 @@ copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
 copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
 copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
-copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
+copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
 copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
 copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
 copticchurch.net daily scrape,2029-04-01,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2029&g_month=04&g_day=01
@@ -36078,7 +36078,7 @@ copticchurch.net daily scrape,2029-09-30,Sunday,The third Sunday of Tout,Matins,
 copticchurch.net daily scrape,2029-09-30,Sunday,The third Sunday of Tout,Vespers,Gospel,Mark 1:29-34,Mk 1:29-34,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=30
 copticchurch.net daily scrape,2029-09-30,Sunday,The third Sunday of Tout,Vespers,Psalm,Ps 9:1-2,Psalm 9:1-2,ok,,https://copticchurch.net/readings?g_year=2029&g_month=09&g_day=30
 copticchurch.net daily scrape,2029-10-01,Monday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=01
-copticchurch.net daily scrape,2029-10-01,Monday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=01
+copticchurch.net daily scrape,2029-10-01,Monday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=01
 copticchurch.net daily scrape,2029-10-01,Monday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=01
 copticchurch.net daily scrape,2029-10-01,Monday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=01
 copticchurch.net daily scrape,2029-10-01,Monday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=01
@@ -36098,7 +36098,7 @@ copticchurch.net daily scrape,2029-10-02,Tuesday,Tout 22,Matins,Psalm,Ps 5:12,Ps
 copticchurch.net daily scrape,2029-10-02,Tuesday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=02
 copticchurch.net daily scrape,2029-10-02,Tuesday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=02
 copticchurch.net daily scrape,2029-10-03,Wednesday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=03
-copticchurch.net daily scrape,2029-10-03,Wednesday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=03
+copticchurch.net daily scrape,2029-10-03,Wednesday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=03
 copticchurch.net daily scrape,2029-10-03,Wednesday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=03
 copticchurch.net daily scrape,2029-10-03,Wednesday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=03
 copticchurch.net daily scrape,2029-10-03,Wednesday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2029&g_month=10&g_day=03
@@ -38121,7 +38121,7 @@ copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
 copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
 copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
-copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
+copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
 copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
 copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
 copticchurch.net daily scrape,2030-04-21,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2030&g_month=04&g_day=21
@@ -39769,7 +39769,7 @@ copticchurch.net daily scrape,2030-09-30,Monday,Tout 20,Matins,Psalm,Ps 8:2-3,Ps
 copticchurch.net daily scrape,2030-09-30,Monday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=30
 copticchurch.net daily scrape,2030-09-30,Monday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2030&g_month=09&g_day=30
 copticchurch.net daily scrape,2030-10-01,Tuesday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=01
-copticchurch.net daily scrape,2030-10-01,Tuesday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=01
+copticchurch.net daily scrape,2030-10-01,Tuesday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=01
 copticchurch.net daily scrape,2030-10-01,Tuesday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=01
 copticchurch.net daily scrape,2030-10-01,Tuesday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=01
 copticchurch.net daily scrape,2030-10-01,Tuesday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=01
@@ -39789,7 +39789,7 @@ copticchurch.net daily scrape,2030-10-02,Wednesday,Tout 22,Matins,Psalm,Ps 5:12,
 copticchurch.net daily scrape,2030-10-02,Wednesday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=02
 copticchurch.net daily scrape,2030-10-02,Wednesday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=02
 copticchurch.net daily scrape,2030-10-03,Thursday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=03
-copticchurch.net daily scrape,2030-10-03,Thursday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=03
+copticchurch.net daily scrape,2030-10-03,Thursday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=03
 copticchurch.net daily scrape,2030-10-03,Thursday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=03
 copticchurch.net daily scrape,2030-10-03,Thursday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=03
 copticchurch.net daily scrape,2030-10-03,Thursday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2030&g_month=10&g_day=03
@@ -41647,7 +41647,7 @@ copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
 copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
 copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
-copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
+copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
 copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
 copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
 copticchurch.net daily scrape,2031-04-06,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2031&g_month=04&g_day=06
@@ -43467,7 +43467,7 @@ copticchurch.net daily scrape,2031-10-01,Wednesday,Tout 20,Matins,Psalm,Ps 8:2-3
 copticchurch.net daily scrape,2031-10-01,Wednesday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=01
 copticchurch.net daily scrape,2031-10-01,Wednesday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=01
 copticchurch.net daily scrape,2031-10-02,Thursday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=02
-copticchurch.net daily scrape,2031-10-02,Thursday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=02
+copticchurch.net daily scrape,2031-10-02,Thursday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=02
 copticchurch.net daily scrape,2031-10-02,Thursday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=02
 copticchurch.net daily scrape,2031-10-02,Thursday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=02
 copticchurch.net daily scrape,2031-10-02,Thursday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=02
@@ -43487,7 +43487,7 @@ copticchurch.net daily scrape,2031-10-03,Friday,Tout 22,Matins,Psalm,Ps 5:12,Psa
 copticchurch.net daily scrape,2031-10-03,Friday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=03
 copticchurch.net daily scrape,2031-10-03,Friday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=03
 copticchurch.net daily scrape,2031-10-04,Saturday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=04
-copticchurch.net daily scrape,2031-10-04,Saturday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=04
+copticchurch.net daily scrape,2031-10-04,Saturday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=04
 copticchurch.net daily scrape,2031-10-04,Saturday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=04
 copticchurch.net daily scrape,2031-10-04,Saturday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=04
 copticchurch.net daily scrape,2031-10-04,Saturday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2031&g_month=10&g_day=04
@@ -45565,7 +45565,7 @@ copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
 copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
 copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
-copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
+copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
 copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
 copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
 copticchurch.net daily scrape,2032-04-25,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2032&g_month=04&g_day=25
@@ -47174,7 +47174,7 @@ copticchurch.net daily scrape,2032-09-30,Thursday,Tout 20,Matins,Psalm,Ps 8:2-3,
 copticchurch.net daily scrape,2032-09-30,Thursday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=30
 copticchurch.net daily scrape,2032-09-30,Thursday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2032&g_month=09&g_day=30
 copticchurch.net daily scrape,2032-10-01,Friday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2032&g_month=10&g_day=01
-copticchurch.net daily scrape,2032-10-01,Friday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2032&g_month=10&g_day=01
+copticchurch.net daily scrape,2032-10-01,Friday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2032&g_month=10&g_day=01
 copticchurch.net daily scrape,2032-10-01,Friday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2032&g_month=10&g_day=01
 copticchurch.net daily scrape,2032-10-01,Friday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2032&g_month=10&g_day=01
 copticchurch.net daily scrape,2032-10-01,Friday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2032&g_month=10&g_day=01
@@ -49196,7 +49196,7 @@ copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
 copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
 copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
-copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
+copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
 copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
 copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
 copticchurch.net daily scrape,2033-04-17,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2033&g_month=04&g_day=17
@@ -50887,7 +50887,7 @@ copticchurch.net daily scrape,2033-09-30,Friday,Tout 20,Matins,Psalm,Ps 8:2-3,Ps
 copticchurch.net daily scrape,2033-09-30,Friday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=30
 copticchurch.net daily scrape,2033-09-30,Friday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2033&g_month=09&g_day=30
 copticchurch.net daily scrape,2033-10-01,Saturday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=01
-copticchurch.net daily scrape,2033-10-01,Saturday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=01
+copticchurch.net daily scrape,2033-10-01,Saturday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=01
 copticchurch.net daily scrape,2033-10-01,Saturday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=01
 copticchurch.net daily scrape,2033-10-01,Saturday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=01
 copticchurch.net daily scrape,2033-10-01,Saturday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=01
@@ -50906,7 +50906,7 @@ copticchurch.net daily scrape,2033-10-02,Sunday,The third Sunday of Tout,Matins,
 copticchurch.net daily scrape,2033-10-02,Sunday,The third Sunday of Tout,Vespers,Gospel,Mark 1:29-34,Mk 1:29-34,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=02
 copticchurch.net daily scrape,2033-10-02,Sunday,The third Sunday of Tout,Vespers,Psalm,Ps 9:1-2,Psalm 9:1-2,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=02
 copticchurch.net daily scrape,2033-10-03,Monday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=03
-copticchurch.net daily scrape,2033-10-03,Monday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=03
+copticchurch.net daily scrape,2033-10-03,Monday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=03
 copticchurch.net daily scrape,2033-10-03,Monday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=03
 copticchurch.net daily scrape,2033-10-03,Monday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=03
 copticchurch.net daily scrape,2033-10-03,Monday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2033&g_month=10&g_day=03
@@ -52740,7 +52740,7 @@ copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
 copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
 copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
-copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
+copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
 copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
 copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
 copticchurch.net daily scrape,2034-04-02,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2034&g_month=04&g_day=02
@@ -54624,7 +54624,7 @@ copticchurch.net daily scrape,2034-10-02,Monday,Tout 22,Matins,Psalm,Ps 5:12,Psa
 copticchurch.net daily scrape,2034-10-02,Monday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=02
 copticchurch.net daily scrape,2034-10-02,Monday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=02
 copticchurch.net daily scrape,2034-10-03,Tuesday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=03
-copticchurch.net daily scrape,2034-10-03,Tuesday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=03
+copticchurch.net daily scrape,2034-10-03,Tuesday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=03
 copticchurch.net daily scrape,2034-10-03,Tuesday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=03
 copticchurch.net daily scrape,2034-10-03,Tuesday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=03
 copticchurch.net daily scrape,2034-10-03,Tuesday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2034&g_month=10&g_day=03
@@ -56680,7 +56680,7 @@ copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Catholic Epi
 copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Gospel,Matt 21:1-17,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
 copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Gospel,Mark 11:1-11,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
 copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Gospel,Lk 19:29-48,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
-copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Gospel,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
+copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Psalm,Ps 64:1-2,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,passage_type_corrected; Psalm within Gospel service group,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
 copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Gospel,Jn 12:12-19,"Mt 21:1-17  &  Mk 11:1-11  &  Lk 19:29-48  &  Psalm 64:1,2  &  Jn 12:12-19",ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
 copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Pauline Epistle,Heb 9:11-28,Heb 9:11-28,ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
 copticchurch.net daily scrape,2035-04-22,Sunday,Palm Sunday,Liturgy,Psalm,Ps 80:3,Psalm 80:3  &  Psalm 80:1  &  Psalm 80:2,ok,,https://copticchurch.net/readings?g_year=2035&g_month=04&g_day=22
@@ -58336,7 +58336,7 @@ copticchurch.net daily scrape,2035-10-01,Monday,Tout 20,Matins,Psalm,Ps 8:2-3,Ps
 copticchurch.net daily scrape,2035-10-01,Monday,Tout 20,Vespers,Gospel,Matt 26:6-13,Matt 26:6 - 13,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=01
 copticchurch.net daily scrape,2035-10-01,Monday,Tout 20,Vespers,Psalm,Ps 68:25-26,Psalm 68:25-26,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=01
 copticchurch.net daily scrape,2035-10-02,Tuesday,Tout 21,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=02
-copticchurch.net daily scrape,2035-10-02,Tuesday,Tout 21,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=02
+copticchurch.net daily scrape,2035-10-02,Tuesday,Tout 21,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=02
 copticchurch.net daily scrape,2035-10-02,Tuesday,Tout 21,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=02
 copticchurch.net daily scrape,2035-10-02,Tuesday,Tout 21,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=02
 copticchurch.net daily scrape,2035-10-02,Tuesday,Tout 21,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=02
@@ -58356,7 +58356,7 @@ copticchurch.net daily scrape,2035-10-03,Wednesday,Tout 22,Matins,Psalm,Ps 5:12,
 copticchurch.net daily scrape,2035-10-03,Wednesday,Tout 22,Vespers,Gospel,Matt 16:24-28,Matt 16:24-28,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=03
 copticchurch.net daily scrape,2035-10-03,Wednesday,Tout 22,Vespers,Psalm,Ps 4:6-8,Psalm 4:6-8,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=03
 copticchurch.net daily scrape,2035-10-04,Thursday,Tout 23,Liturgy,Acts of the Apostles,Acts 19:11-17,Acts 19:11-17,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=04
-copticchurch.net daily scrape,2035-10-04,Thursday,Tout 23,Liturgy,Catholic Epistle,Jn 2:7-11,Jn 2:7-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=04
+copticchurch.net daily scrape,2035-10-04,Thursday,Tout 23,Liturgy,Catholic Epistle,1Jn 2:7-11,Jn 2:7-11,source_corrected,source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=04
 copticchurch.net daily scrape,2035-10-04,Thursday,Tout 23,Liturgy,Gospel,Mark 3:28-35,Mk 3:28-35,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=04
 copticchurch.net daily scrape,2035-10-04,Thursday,Tout 23,Liturgy,Pauline Epistle,Phil 1:1-11,Phil 1:1-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=04
 copticchurch.net daily scrape,2035-10-04,Thursday,Tout 23,Liturgy,Psalm,Ps 16:10-11,Psalm 16:10-11,ok,,https://copticchurch.net/readings?g_year=2035&g_month=10&g_day=04

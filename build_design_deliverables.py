@@ -17,7 +17,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Iterable
 
-from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage
+from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage, validate_reading_slot
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "out" / "data"
@@ -626,24 +626,25 @@ def slot_type_for(row: dict) -> str:
     compact = re.sub(r"[^a-z0-9]+", "", slot_l)
     if re.fullmatch(r"ot\d*", compact) or compact == "prophecy":
         return "prophecy"
-    if compact in {"psalm", "psalms", "matinspsalm", "vesperspsalm", "liturgypsalm"}:
-        return "psalm"
-    if compact in {"gospel", "matinsgospel", "vespersgospel", "liturgygospel", "firstgospel", "secondgospel", "thirdgospel", "fourthgospel"}:
-        return "gospel"
-    if compact in {"pauline", "paulineepistle", "litur gypauline".replace(" ", ""), "liturgy_pauline".replace("_", "")}:
-        return "pauline"
-    if compact in {"catholic", "catholicon", "catholicepistle", "liturgycatholic"}:
-        return "catholicon"
-    if compact in {"praxis", "acts", "actsoftheapostles", "liturgyacts"}:
-        return "praxis"
-    if compact in {"psalmgospel", "psalmandgospel"}:
-        return slot_type_from_books(row)
-    # Generic section labels in special-service rows can still be classified by
-    # the canonical scripture book. This is inferred, so the original slot stays
-    # available for provenance in the `slot` field.
-    if compact in {"liturgy", "mainreadings", "liturgyreadings", "part1", "part2", "part3", "part4", "part5", "part6", "atburialsite", "atburialsiteoverride"} or compact.startswith("processionstation"):
-        return slot_type_from_books(row)
-    return "source_label_preserved"
+    if compact in {"psalm", "psalms", "matinspsalm", "vesperspsalm", "liturgypsalm", "firstpsalm", "secondpsalm", "thirdpsalm", "fourthpsalm"}:
+        slot_type = "psalm"
+    elif compact in {"gospel", "matinsgospel", "vespersgospel", "liturgygospel", "firstgospel", "secondgospel", "thirdgospel", "fourthgospel"}:
+        slot_type = "gospel"
+    elif compact in {"pauline", "paulineepistle", "litur gypauline".replace(" ", ""), "liturgy_pauline".replace("_", "")}:
+        slot_type = "pauline"
+    elif compact in {"catholic", "catholicon", "catholicepistle", "liturgycatholic"}:
+        slot_type = "catholicon"
+    elif compact in {"praxis", "acts", "actsoftheapostles", "liturgyacts"}:
+        slot_type = "praxis"
+    elif compact in {"psalmgospel", "psalmandgospel"}:
+        slot_type = slot_type_from_books(row)
+    elif compact in {"liturgy", "mainreadings", "liturgyreadings", "part1", "part2", "part3", "part4", "part5", "part6", "atburialsite", "atburialsiteoverride"} or compact.startswith("processionstation"):
+        slot_type = slot_type_from_books(row)
+    else:
+        slot_type = "source_label_preserved"
+    for book in span_books(row):
+        validate_reading_slot(slot_type, book)
+    return slot_type
 
 
 def explicit_slot_order(row: dict) -> int | None:

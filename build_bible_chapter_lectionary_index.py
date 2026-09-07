@@ -170,7 +170,7 @@ def occurrence_labels(row: dict) -> dict[str, str]:
     occasion = row.get('day_title') or row.get('liturgical_place') or row.get('calendar_key') or ''
     if row.get('source_kind') == 'katameros_cycle':
         service_label, reading_label = KATAMEROS_SLOT_LABELS.get(
-            row.get('service_section', ''),
+            row.get('reading_slot') or row.get('service_section', ''),
             (row.get('service_section', ''), row.get('reading_type', '')),
         )
     else:

@@ -12,7 +12,7 @@ from typing import Iterable, List, Optional
 
 from convertdate import coptic
 
-from passage_normalization import BOOK_ABBREV, canonicalize_text_ref, extract_text_ref_tokens, parse_passage
+from passage_normalization import BOOK_ABBREV, canonicalize_text_ref, extract_text_ref_tokens, parse_passage, passage_reading_slot
 
 WORK = Path(__file__).resolve().parent
 
@@ -63,9 +63,9 @@ def compact_slot(value: str) -> str:
 
 
 def slot_for_passage(original_slot: str, passage: str) -> str:
-    if compact_slot(original_slot) not in COMPOSITE_PSALM_GOSPEL_SLOTS:
-        return original_slot or ''
     parsed = parse_passage(passage)
+    if compact_slot(original_slot) not in COMPOSITE_PSALM_GOSPEL_SLOTS:
+        return passage_reading_slot(original_slot or '', parsed.book_abbrev if parsed else '')
     if parsed and parsed.book_abbrev == 'Ps':
         return 'Psalm'
     if parsed and parsed.book_abbrev in GOSPEL_BOOKS:
@@ -317,6 +317,7 @@ def add_row(rows: List[dict], summary_counts: dict[str, Counter], passage: str, 
     })
     base.update(passage_fields(passage))
     base.update({k: '' if v is None else v for k, v in kwargs.items()})
+    base['reading_slot'] = slot_for_passage(base['reading_slot'], passage)
     rows.append(base)
     summary_counts[passage][source_kind] += 1
 
@@ -358,7 +359,7 @@ def main() -> None:
             coptic_date=f"{row.get('month_name','')} {row.get('day','')}",
             day_title=row.get('day_name') or '',
             service_day=service_day,
-            service_section=row.get('reading_slot') or '',
+            service_section=row.get('service_section') or row.get('reading_slot') or '',
             reading_slot=row.get('reading_slot') or '',
             reading_type=row.get('source_table') or '',
             source_ref=row.get('normalized_segment') or row.get('canonical_segment') or row.get('normalized_ref') or row.get('raw_ref') or '',

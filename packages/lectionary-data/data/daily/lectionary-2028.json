@@ -13126,6 +13126,20 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Psalm",
+      "display_ref": "Ps 64:1-2 (LXX Ps 63:1-2)",
+      "identity_key": "rid_3fd4b87524624788bd66",
+      "reading_type": "scripture",
+      "removed_marker": "",
+      "service_order": 99,
+      "slot_type": "psalm",
+      "slot_order": 4
+    },
+    {
+      "reading_order": 10,
+      "occasion": "Palm Sunday",
+      "service_section": "Liturgy",
+      "service_hour": "",
+      "slot": "Psalm",
       "display_ref": "Ps 80:1 (LXX Ps 79:1)",
       "identity_key": "rid_f4c5e100aaa72f01709e",
       "reading_type": "scripture",
@@ -13135,7 +13149,7 @@
       "slot_order": 4
     },
     {
-      "reading_order": 10,
+      "reading_order": 11,
       "occasion": "Palm Sunday",
       "service_section": "Liturgy",
       "service_hour": "",
@@ -13149,7 +13163,7 @@
       "slot_order": 4
     },
     {
-      "reading_order": 11,
+      "reading_order": 12,
       "occasion": "Palm Sunday",
       "service_section": "Liturgy",
       "service_hour": "",
@@ -13163,7 +13177,7 @@
       "slot_order": 4
     },
     {
-      "reading_order": 12,
+      "reading_order": 13,
       "occasion": "Palm Sunday",
       "service_section": "Liturgy",
       "service_hour": "",
@@ -13177,7 +13191,7 @@
       "slot_order": 5
     },
     {
-      "reading_order": 13,
+      "reading_order": 14,
       "occasion": "Palm Sunday",
       "service_section": "Liturgy",
       "service_hour": "",
@@ -13191,7 +13205,7 @@
       "slot_order": 5
     },
     {
-      "reading_order": 14,
+      "reading_order": 15,
       "occasion": "Palm Sunday",
       "service_section": "Liturgy",
       "service_hour": "",
@@ -13205,27 +13219,13 @@
       "slot_order": 5
     },
     {
-      "reading_order": 15,
+      "reading_order": 16,
       "occasion": "Palm Sunday",
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Gospel",
       "display_ref": "Matt 21:1-17",
       "identity_key": "rid_c41957d659db423dcab9",
-      "reading_type": "scripture",
-      "removed_marker": "",
-      "service_order": 99,
-      "slot_type": "gospel",
-      "slot_order": 5
-    },
-    {
-      "reading_order": 16,
-      "occasion": "Palm Sunday",
-      "service_section": "Liturgy",
-      "service_hour": "",
-      "slot": "Gospel",
-      "display_ref": "Ps 64:1-2 (LXX Ps 63:1-2)",
-      "identity_key": "rid_3fd4b87524624788bd66",
       "reading_type": "scripture",
       "removed_marker": "",
       "service_order": 99,
@@ -38682,8 +38682,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Catholic Epistle",
-      "display_ref": "Jn 2:7-11",
-      "identity_key": "rid_a78c62353ebad422fd72",
+      "display_ref": "1Jn 2:7-11",
+      "identity_key": "rid_d645179dd4d1959e51bc",
       "reading_type": "scripture",
       "removed_marker": "",
       "service_order": 99,

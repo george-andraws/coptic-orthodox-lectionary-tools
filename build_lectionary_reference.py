@@ -31,6 +31,9 @@ from passage_normalization import (
     extract_text_ref_tokens,
     iter_numeric_ref_segments,
     normalize_numeric_ref,
+    parse_passage,
+    passage_reading_slot,
+    validate_reading_slot,
     repair_source_ref,
     is_numeric_query,
     passage_matches,
@@ -84,6 +87,10 @@ def correction_key(day_title: str, service_section: str, reading_type: str, raw_
 
 
 COPTICCHURCH_SOURCE_CORRECTIONS = {
+    **{correction_key(f'Tout {day}', 'Liturgy', 'Catholic Epistle', 'Jn 2:7-11'): {
+        'normalized_ref': '1Jn 2:7-11',
+        'normalization_warning': 'source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2',
+    } for day in (21, 23)},
     correction_key('Saturday of the fourth week of Great Lent', 'Liturgy', 'Psalm', 'Psalm 61:1  &  Psalm 610:5'): {
         'normalized_ref': 'Psalm 61:1,5',
         'normalization_warning': 'source_corrected_from_katameros_api_2026_06_18; live API returned Ps 61:1,5',
@@ -110,6 +117,13 @@ COPTICCHURCH_SOURCE_CORRECTIONS = {
     },
 }
 
+KATAMEROS_CYCLE_CORRECTIONS = {
+    ("SundayReadings", "Bashans 3", "liturgy_catholic", "62.43.4:15-21*@+62.5:1-4"): {
+        "normalized_ref": "1Jn 4:15-21; 1Jn 5:1-4",
+        "numeric_ref": "62.4:15-21*@+62.5:1-4",
+        "normalization_warning": "source_corrected; verified 1 John 4:15-21 and 5:1-4 in https://ukmidcopts.org/pdf/Katameros_Sundays.pdf printed p227; malformed raw prefix retained",
+    },
+}
 
 def apply_copticchurch_source_correction(row: dict) -> dict:
     key = correction_key(
@@ -170,6 +184,7 @@ def export_cycle_tables(books: Dict[int, str]) -> List[dict]:
                 raw = (base.get(col) or '').strip()
                 if not raw:
                     continue
+                correction = KATAMEROS_CYCLE_CORRECTIONS.get((table, day_key, slot, raw), {})
                 rows_out.append({
                     'source': 'katameros-api sqlite',
                     'source_table': table,
@@ -186,10 +201,12 @@ def export_cycle_tables(books: Dict[int, str]) -> List[dict]:
                     'other': base.get('Other') or '',
                     'reading_slot': slot,
                     'raw_ref': raw,
-                    'normalized_ref': normalize_numeric_ref(raw, books),
+                    'normalized_ref': correction.get('normalized_ref') or normalize_numeric_ref(raw, books),
+                    'normalization_warning': correction.get('normalization_warning', ''),
                 })
             if table == 'GreatLentReadings' and (base.get('Prophecy') or '').strip():
                 raw = base.get('Prophecy').strip()
+                correction = {}
                 rows_out.append({
                     'source': 'katameros-api sqlite',
                     'source_table': table,
@@ -202,7 +219,8 @@ def export_cycle_tables(books: Dict[int, str]) -> List[dict]:
                     'season': base.get('Seasonal_Tune') or '', 'other': '',
                     'reading_slot': 'prophecy',
                     'raw_ref': raw,
-                    'normalized_ref': normalize_numeric_ref(raw, books),
+                    'normalized_ref': correction.get('normalized_ref') or normalize_numeric_ref(raw, books),
+                    'normalization_warning': correction.get('normalization_warning', ''),
                 })
     con.close()
     return rows_out
@@ -226,8 +244,16 @@ def write_jsonl(path: Path, rows: List[dict]):
 def build_passage_index(cycle_rows: List[dict], books: Dict[int, str]) -> List[dict]:
     out=[]
     for r in cycle_rows:
-        for seg in iter_numeric_ref_segments(r.get('raw_ref',''), books) or []:
-            out.append({**seg, **{k:r.get(k,'') for k in ['source','source_table','source_type','cycle','day_key','month_number','month_name','day','week','day_of_week','day_name','season','other','reading_slot','raw_ref','normalized_ref']}})
+        correction = KATAMEROS_CYCLE_CORRECTIONS.get((r.get('source_table'), r.get('day_key'), r.get('reading_slot'), r.get('raw_ref')), {})
+        numeric_ref = correction.get('numeric_ref', r.get('raw_ref', ''))
+        for seg in iter_numeric_ref_segments(numeric_ref, books) or []:
+            item = {**seg, **{k:r.get(k,'') for k in ['source','source_table','source_type','cycle','day_key','month_number','month_name','day','week','day_of_week','day_name','season','other','reading_slot','raw_ref','normalized_ref','normalization_warning']}}
+            item['service_section'] = r.get('reading_slot', '')
+            item['reading_slot'] = passage_reading_slot(item['reading_slot'], seg['book_abbrev'])
+            validate_reading_slot(item['reading_slot'], seg['book_abbrev'])
+            if item['reading_slot'] != item['service_section']:
+                item['normalization_warning'] = f"passage_type_corrected; Psalm within {item['service_section']} service group"
+            out.append(item)
     return out
 
 def parse_copticchurch_html(html: str, date: dt.date) -> Tuple[dict, List[dict]]:
@@ -314,17 +340,23 @@ def build_date_passage_index(rows: List[dict]) -> List[dict]:
     for r in rows:
         ref_for_extract = r.get('normalized_ref') or r.get('raw_ref','')
         for token in extract_text_ref_tokens(ref_for_extract):
+            parsed = parse_passage(token)
+            reading_type = passage_reading_slot(r['reading_type'], parsed.book_abbrev if parsed else '')
+            validate_reading_slot(reading_type, parsed.book_abbrev if parsed else '')
+            warning = r.get('normalization_warning', '')
+            if reading_type != r['reading_type']:
+                warning = '; '.join(filter(None, [warning, f"passage_type_corrected; Psalm within {r['reading_type']} service group"]))
             out.append({
                 'source': r['source'],
                 'gregorian_date': r['gregorian_date'],
                 'weekday': r['weekday'],
                 'day_title': r['day_title'],
                 'service_section': r['service_section'],
-                'reading_type': r['reading_type'],
+                'reading_type': reading_type,
                 'matched_ref': canonicalize_text_ref(token),
                 'raw_ref': r['raw_ref'],
                 'source_ref_status': r.get('parse_status','ok'),
-                'normalization_warning': r.get('normalization_warning',''),
+                'normalization_warning': warning,
                 'url': r['url'],
             })
         if r.get('parse_status') and r.get('parse_status') != 'ok':

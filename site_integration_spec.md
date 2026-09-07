@@ -130,8 +130,8 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
     "2035": 3708
   },
   "daily_lectionary_total_rows": 59322,
-  "reading_identity_rows": 2633,
-  "todays_readings_rows": 10,
+  "reading_identity_rows": 2631,
+  "todays_readings_rows": 12,
   "psalm_crosswalk_rows": 161,
   "pascha_attestation_rows": 442,
   "pascha_attestation_bucket_manifest_rows": 5,
@@ -140,7 +140,7 @@ Use them to explain the reverse lectionary design, Psalm numbering, Pascha attes
   "temporal_residue_manifest_rows": 5,
   "synaxarium_commemoration_rows": 664,
   "synaxarium_bridge_rows": 4688,
-  "passage_footprint_rows": 2632,
+  "passage_footprint_rows": 2630,
   "passage_source_disclosure_rows": 66396,
   "foundational_reading_collection_rows": 69
 }

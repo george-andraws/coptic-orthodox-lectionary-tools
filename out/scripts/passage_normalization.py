@@ -378,10 +378,40 @@ def passage_matches(query: Optional[str], candidate: Optional[str]) -> bool:
     return any(compact(v) == hay for v in query_variants_list)
 
 
+def validate_reading_slot(slot: str, book: str) -> None:
+    """Reject impossible book/type assignments; unknown service labels stay intact."""
+    key = re.sub(r'[^a-z0-9]', '', (slot or '').casefold())
+    allowed = None
+    if key in {'gospel', 'matinsgospel', 'vespersgospel', 'liturgygospel', 'firstgospel', 'secondgospel', 'thirdgospel', 'fourthgospel'}:
+        allowed = {'Matt', 'Mark', 'Lk', 'Jn'}
+    elif key in {'catholic', 'catholicon', 'catholicepistle', 'liturgycatholic'}:
+        allowed = {'James', '1Pet', '2Pet', '1Jn', '2Jn', '3Jn', 'Jude'}
+    elif key in {'pauline', 'paulineepistle', 'liturgypauline'}:
+        allowed = {'Rom', '1Cor', '2Cor', 'Gal', 'Eph', 'Phil', 'Col', '1Thess', '2Thess', '1Tim', '2Tim', 'Titus', 'Phlm', 'Heb'}
+    elif key in {'psalm', 'psalms', 'matinspsalm', 'vesperspsalm', 'liturgypsalm', 'firstpsalm', 'secondpsalm', 'thirdpsalm', 'fourthpsalm'}:
+        allowed = {'Ps'}
+    elif key in {'acts', 'actsoftheapostles', 'praxis', 'liturgyacts'}:
+        allowed = {'Acts'}
+    if allowed is not None and book not in allowed:
+        raise ValueError(f'impossible book/slot pair: slot={slot!r}, book={book!r}')
+
+
+def passage_reading_slot(slot: str, book: str) -> str:
+    """Type a Psalm inside a Gospel service without changing the service group."""
+    compact_slot = re.sub(r'[^a-z0-9]', '', (slot or '').casefold())
+    gospel_slots = {'gospel', 'matinsgospel', 'vespersgospel', 'liturgygospel',
+                    'firstgospel', 'secondgospel', 'thirdgospel', 'fourthgospel'}
+    if book == 'Ps' and compact_slot in gospel_slots:
+        return re.sub('gospel', lambda m: 'Psalm' if m.group(0)[0].isupper() else 'psalm', slot, flags=re.I)
+    return slot
+
+
 def normalize_numeric_ref(raw: Optional[str], books: Dict[int, str]) -> str:
     if not raw:
         return ''
     s = raw.strip()
+    if re.search(r'\d+\.\d+\.\d+', s):
+        raise ValueError(f"malformed double numeric book code cannot be salvaged: {raw}")
 
     def repl(m):
         bid = int(m.group('book'))
@@ -397,6 +427,8 @@ def normalize_numeric_ref(raw: Optional[str], books: Dict[int, str]) -> str:
 def iter_numeric_ref_segments(raw: str, books: Dict[int, str]):
     if not raw:
         return
+    if re.search(r'\d+\.\d+\.\d+', raw):
+        raise ValueError(f"malformed double numeric book code cannot be salvaged: {raw}")
     seen_segments: set[tuple[int, int, str]] = set()
     for m in REF_TOKEN_RE.finditer(raw):
         bid = int(m.group('book'))
