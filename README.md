@@ -1,8 +1,20 @@
-# Coptic Lectionary Research Package
+# Coptic Orthodox Lectionary Tools
 
-Local reference package for Coptic Orthodox lectionary research and study generation.
+Source pipelines, validation tools and the published `@andraws/lectionary-data` runtime package for Coptic Orthodox reading lookup and date-based Synaxarium display.
 
-## Main build
+## Current runtime release
+
+**Version 1.3.0 is published on npm.** It preserves the existing CommonJS reading APIs and 2026-2028 daily files, and adds the audited Coptic Reader single-year 1743 catalog: 366 Coptic days, 868 titles, exact public field allowlists and one pure calendar converter.
+
+- [Package API and schema](packages/lectionary-data/README.md)
+- [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
+- [Broader lectionary validation plan](docs/LECTIONARY_VALIDATION_PLAN.md)
+
+The consuming site is `george-andraws/coptic-corpus`, built locally from `/Users/ga/code/coptic-corpus/stgeorge-lessons`. It pins the published version exactly and displays Synaxarium after Praxis using one shared date service. This does not create a saint-to-reading relationship.
+
+The repository has distinct layers: research/capture material, generated reference data under `out/`, and the npm runtime under `packages/lectionary-data`. Do not confuse research Synaxarium bridges with the public titles catalog. Older execution briefs and generated internal specs are historical records, not the current npm contract.
+
+## Research-layer build
 
 Run from this directory:
 
@@ -25,7 +37,9 @@ Some copticchurch.net source rows contain malformed raw refs such as `Mk 14:-39`
 
 ## Synaxarium
 
-`build_synaxarium_index.py` is intentionally separate from the lectionary build. It produces a St-Takla Synaxarium source map under `out_synaxarium/`; it is not currently part of `BUILD_SUMMARY.json` or `query_lectionary.py`.
+The production catalog is built by `scripts/build_synaxarium.py` from the audited `synaxarium_from_coptic_reader.jsonl` and `coptic_reader_index.json` files, then checked by `scripts/validate_synaxarium.py` and the existing package-integrity gate. See the [current release workflow](docs/SYNAXARIUM_RELEASE.md).
+
+`build_synaxarium_index.py` is a separate legacy research tool producing a St-Takla source map under `out_synaxarium/`. It is not the source of the published Coptic Reader catalog and is not integrated into `BUILD_SUMMARY.json` or `query_lectionary.py`. Preserve its evidence separately; do not ship its raw text, review metadata or bridge records as public catalog fields.
 
 ## Bible chapter index
 

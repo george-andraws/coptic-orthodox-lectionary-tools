@@ -2,6 +2,8 @@
 
 Generated: 2026-06-16
 
+> Historical research/design record. The current production contract is [Synaxarium 1.3.0](docs/SYNAXARIUM_RELEASE.md) and the [package README](packages/lectionary-data/README.md). The old bridge schemas, fixed model assignments and execution autonomy below are not current release instructions. The public catalog is date-based only; production push and phone acceptance remain separately authorized. Preserve this record as history rather than using it to recreate superseded behavior.
+
 ## Purpose
 
 This spec defines the additive design layer produced in this repo for George's Coptic lectionary project. It preserves the existing validated package in `out/data/` and adds identity, attestation, temporal status, Synaxarium commemoration storage, Synaxarium reading bridge records, and site-facing outputs in `out/design/`.

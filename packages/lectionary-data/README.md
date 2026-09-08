@@ -1,12 +1,14 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index and date-resolved daily readings packaged for npm consumers.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Published release: **1.3.0**.
 
 ## What this package contains
 
 - `data/reverse_lectionary_index.jsonl`: one JSON object per line for reverse lookup by lectionary occasion and reading identity.
 - `data/daily/lectionary-2026.json`, `lectionary-2027.json`, and `lectionary-2028.json`: date-resolved readings keyed by ISO date.
-- `index.js`: CommonJS exports for stable resolved paths, package metadata, and date classification.
+- `data/synaxarium/synaxarium.json`: 366 Coptic day objects with 868 audited Coptic Reader commemoration titles and common/leap-year validity flags.
+- `calendar.js`: pure Gregorian-to-Coptic conversion and the frozen public month slugs, also suitable for browser bundling.
+- `index.js`: CommonJS exports for stable paths, reading metadata/classification, the Synaxarium API and the calendar module.
 - `meta.json`: package provenance, schema version, counts, shipped years, structural daily materialization summary, and schema notes. In `daily_files`, `rows` is retained as the legacy date-count field; use `date_count` and `reading_count` for explicit counts.
 
 ## Usage
@@ -58,7 +60,9 @@ Each commemoration has only `id`, `title`, `type`, `rank`, `displayOrder`, `disp
 
 The readings and commemorations may share a Coptic date, but they are not liturgically linked. This catalog supplies no explanation for the choice of readings and makes no assertion that the Synaxarium is prescribed aloud at a given service.
 
-Repository maintainers can regenerate with `python3 scripts/build_synaxarium.py SOURCE_DIR`, then run `npm run synaxarium:validate` and `npm run lectionary:validate` from the package directory. The source fingerprint fixture stays in the repository tests, outside the published package. The lectionary integrity gate includes synaxarium validation. Existing reading data and its provenance remain unchanged.
+Repository maintainers can regenerate with `python3 scripts/build_synaxarium.py SOURCE_DIR`, then run `npm run synaxarium:validate` and `npm run lectionary:validate` from the package directory. The source fingerprint fixture stays in the repository tests, outside the published package. The lectionary integrity gate includes synaxarium validation. Existing reading data and its provenance remain unchanged. These maintainer commands require the source checkout; scripts and fingerprint fixtures are not included in an isolated npm installation.
+
+The consuming site uses compact civil/Coptic date headings, an expanded Synaxarium entry after Praxis, and an expanded Today in the Church card. Consumers must keep the date-based catalog independent of reading selection, even when rendering it between reading slots. No full Synaxarium narratives are included.
 
 ## Occasion index schema
 
@@ -142,10 +146,14 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.2.0
-- Source repo commit: 83210fbfb4124a1d65f8b26d7eace6a5c5dbf9ce
-- Generated at: 2026-09-07T13:17:36.240Z
-- Occasion index rows: 11921
+- Published package version: 1.3.0.
+- Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
+- Preserved reading-source repo commit: 83210fbfb4124a1d65f8b26d7eace6a5c5dbf9ce.
+- Preserved reading-data generation time: 2026-09-07T13:17:36.240Z.
+- Occasion index rows: 11921.
+- Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.
+
+Repository documentation may be corrected after publication. Such edits do not mutate the immutable npm 1.3.0 artifact; publishing updated packed documentation requires a separately authorized new version.
 
 ## License
 

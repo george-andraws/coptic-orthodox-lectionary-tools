@@ -1,6 +1,8 @@
 # Lectionary Data Validation Plan
 
-Last updated: 2026-06-19
+Last updated: 2026-09-08
+
+Current runtime release: published `@andraws/lectionary-data@1.3.0`. See [Synaxarium runtime contract and release workflow](SYNAXARIUM_RELEASE.md). Research/design-layer gates below still describe their own artifacts; they do not authorize shipping a Synaxarium reading bridge or private review fields.
 
 ## Purpose
 
@@ -27,22 +29,25 @@ Use source authority tiers. Do not merge all sources into one undifferentiated t
 | 3 | Katameros SQLite/API source | Structured cycle source for annual, Sunday, Great Lent, and Holy Fifty readings |
 | 4 | St. Mary Ottawa / UKMID Katameros PDFs and extracted text | Printed witness, Pascha source text, and historical comparison |
 | 5 | Curated special-service, Bright Saturday, and Agpeya data | Local structured source with explicit provenance |
-| 6 | Synaxarium bridge | Discovery-link layer only, not proof of assigned proper readings |
+| 6 | Legacy Synaxarium bridge | Internal research/discovery only, not a production public-catalog input or proof of assigned proper readings |
 
 Rules:
 
 - Coptic Reader governs only where fixture/captured data exists.
 - Do not invent Coptic Reader extraction. Use locked fixtures or a documented reproducible access path.
 - Printed Pascha witnesses are retained and classified. They are not automatically current authority when Coptic Reader differs.
-- Synaxarium bridge rows must show basis/confidence and must not be presented as direct proper-reading proof.
+- Internal legacy bridge rows retain their research basis/confidence. The 1.3.0 public catalog has no bridge fields or reading associations; its separate audited Coptic Reader scope is all 366 fixed days in capture year 1743, not confirmation of every lectionary reading.
 - Psalm comparisons must normalize MT/LXX numbering before diffing.
 
 ## Release validation commands
 
-Run from repo root:
+Run from repo root. The full list covers research/design rebuilds as well as the npm package. For a Synaxarium-only change, follow the narrower current release guide rather than rerunning unrelated research generators:
 
 ```bash
-python3 -m unittest tests/test_validation_scripts.py
+# Use an existing environment with these dependencies, or this isolated uv environment:
+uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate python -m unittest discover -s tests
+node --test tests/synaxarium.test.cjs
+python3 scripts/validate_synaxarium.py
 python3 -m py_compile \
   scripts/verify_calendar_coverage.py \
   scripts/verify_package_integrity.py \
@@ -212,7 +217,8 @@ Validates:
 - `spans_json` and `source_disclosure` parse
 - `source_disclosure_count` matches parsed disclosure length
 - daily `rows`, `date_count`, and `reading_count` match actual files
-- CommonJS exports resolve package paths
+- CommonJS exports resolve package paths, the Synaxarium lookup/meta and the pure calendar converter
+- Synaxarium integrity passes the same acceptance path, including exact source fingerprints, public field allowlists, all 366 day keys and 868 unique records
 - tarball file set is exactly the expected runtime set when `--tarball` is supplied
 
 Expected runtime tarball file set:
@@ -220,6 +226,8 @@ Expected runtime tarball file set:
 ```text
 LICENSE
 README.md
+calendar.js
+data/synaxarium/synaxarium.json
 data/daily/lectionary-2026.json
 data/daily/lectionary-2027.json
 data/daily/lectionary-2028.json
@@ -247,6 +255,18 @@ Hard failures:
 - any shipped daily file changed unexpectedly
 - missing baseline package directory
 
+## Gate 8: audited Synaxarium catalog
+
+Script: `scripts/validate_synaxarium.py`, called by package integrity. Builder: `scripts/build_synaxarium.py`. Source fingerprint fixture: `tests/fixtures/synaxarium-1743.json`, outside npm files.
+
+Require 366 exact frozen Coptic keys and 868 unique records. Preserve source IDs, canonical titles, types and order. Rank/displayOrder are capture priority, not liturgical precedence. Group IDs remain null. Nasie 6 must be leap-only.
+
+Reject missing/substituted days, duplicate/malformed IDs, invalid slugs, per-day count mismatches even with an unchanged total, changed source projections, malformed records, invalid types/order/grouping, incorrect year flags and any unknown/private field at day or record level. Run all seeded mutation tests, not just the passing catalog check.
+
+Verify the one package calendar converter against source-index civil dates, independent conversion samples, early years, Gregorian centuries, Coptic new year/Nasie 6 and multiple timezones. No bounded captured-year map or timezone-dependent offset is acceptable.
+
+The 1.3.0 release recorded 58 passing Python tests, 3 passing Node tests, all 366 capture dates matching, and 5,716 independent convertdate samples with zero mismatches. These are historical release results to rerun for relevant changes.
+
 ## High-confidence fixes policy
 
 Fix immediately when:
@@ -268,7 +288,7 @@ Do not auto-fix when:
 
 1. Shipped daily files cover 2026-2028 with complete civil-date coverage, including Holy Week and Bright Saturday structural rows where copticchurch.net daily cache lacks date-resolved rows.
 2. Structural-only occasions outside the shipped civil-year daily scope remain available through the reverse/supporting layers, not daily files.
-3. Coptic Reader validation is fixture-limited. Do not mark rows as Coptic Reader-confirmed outside captured fixture scope.
+3. Coptic Reader reading validation remains fixture-limited. The separate Synaxarium title catalog covers all 366 fixed days of capture year 1743; this does not broaden the authority of uncaptured reading rows.
 4. `rows` in `meta.daily_files` is retained as a legacy alias for `date_count`. Use `date_count` and `reading_count` going forward.
 
 ## Package update decision rule
@@ -279,9 +299,11 @@ Recommend an npm package update when any runtime package file changes:
 - `meta.json`
 - `README.md`
 - `index.js`
+- `calendar.js`
+- `data/synaxarium/synaxarium.json`
 - `data/reverse_lectionary_index.jsonl`
 - `data/daily/*.json`
 
 Do not recommend an npm package update for repo-only validation scripts, docs, or audit artifacts unless the package runtime files also changed.
 
-Because npm versions are immutable, if the current published version already exists, bump to the next patch version and validate the tarball before George publishes.
+Because npm versions are immutable, choose an appropriate new semantic version and revalidate before an explicitly authorized publication. Backward-compatible data/API additions used a minor bump for 1.3.0; documentation-only or corrective releases may use a patch. Updating source docs alone does not publish a new artifact. Stop on publication failure, and distinguish npm processing/availability from site installation, Git push, deployment and phone acceptance.

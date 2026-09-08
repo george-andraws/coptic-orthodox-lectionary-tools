@@ -1,5 +1,7 @@
 # 05 — Coptic Lectionary: Design & Hermes Execution Brief
 
+> Historical research/design record. The current production contract is [Synaxarium 1.3.0](docs/SYNAXARIUM_RELEASE.md) and the [package README](packages/lectionary-data/README.md). The old bridge schemas, fixed model assignments and execution autonomy below are not current release instructions. The public catalog is date-based only; production push and phone acceptance remain separately authorized. Preserve this record as history rather than using it to recreate superseded behavior.
+
 This file is both the design for an accurate, usable Coptic lectionary dataset and the
 execution brief for the **Hermes** agent to carry it out end to end. Hermes acts as an
 **orchestrator**: it reads this file, runs the phases in order, spawns subagent instances or uses
