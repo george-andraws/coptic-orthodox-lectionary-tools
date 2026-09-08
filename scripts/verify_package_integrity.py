@@ -17,12 +17,14 @@ ROOT = Path(__file__).resolve().parents[1]
 PACKAGE_DIR = ROOT / "packages" / "lectionary-data"
 ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 REQUIRED_PACKAGE_FILES = {
+    "calendar.js",
     "LICENSE",
     "README.md",
     "data/daily/lectionary-2026.json",
     "data/daily/lectionary-2027.json",
     "data/daily/lectionary-2028.json",
     "data/reverse_lectionary_index.jsonl",
+    "data/synaxarium/synaxarium.json",
     "index.js",
     "meta.json",
     "package.json",
@@ -517,6 +519,12 @@ const result = {
   classifiedDailyDate: pkg.classifyDate('2026-01-01'),
   isRemovedHelper: pkg.isRemovedReading({active: false, status: 'removed'}),
   isActiveHelper: pkg.isActiveReading({display_ref: 'Jn 1:1-17'}),
+  synaxariumPathExists: fs.existsSync(pkg.synaxariumPath),
+  synaxForTout1Count: (pkg.synaxariumForCopticDay('tout', 1) || {}).commemorations.length,
+  gregToCopticNewYear: pkg.gregorianToCoptic(2026, 9, 11),
+  gregToCopticNasie6: pkg.gregorianToCoptic(2027, 9, 11),
+  synaxMetaSource: pkg.synaxariumMeta.source,
+  frozenSlugsCount: (pkg.frozenMonthSlugs || []).length,
 };
 console.log(JSON.stringify(result));
 """
@@ -540,6 +548,14 @@ console.log(JSON.stringify(result));
         and parsed.get("classifiedDailyDate", {}).get("hasDailyReadings") is True
         and parsed.get("isRemovedHelper") is True
         and parsed.get("isActiveHelper") is True
+        and parsed.get("synaxariumPathExists") is True
+        and parsed.get("synaxForTout1Count") == 5
+        and parsed.get("gregToCopticNewYear", {}).get("monthSlug") == "tout"
+        and parsed.get("gregToCopticNewYear", {}).get("day") == 1
+        and parsed.get("gregToCopticNasie6", {}).get("monthSlug") == "nasie"
+        and parsed.get("gregToCopticNasie6", {}).get("day") == 6
+        and parsed.get("synaxMetaSource") == "Coptic Reader, Diocese of the Southern US, current-practice, single-year 1743 capture"
+        and parsed.get("frozenSlugsCount") == 13
     )
     return {"status": "pass" if ok else "fail", **parsed}
 
@@ -710,6 +726,11 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
             failures.append({"reason": "daily_meta_reading_count_mismatch", "year": year, "meta_reading_count": meta_entry.get("reading_count"), **counts})
         daily_summary[str(year)] = counts
 
+
+    # synaxarium extension (integrated into lectionary package acceptance path)
+    synax_summary = validate_synaxarium_integrity(package_dir)
+    if synax_summary.get("status") != "pass":
+        failures.append({"reason": "synaxarium_integrity_failed", "details": synax_summary.get("failures", [])})
     commonjs = validate_commonjs_exports(package_dir)
     if commonjs.get("status") == "fail":
         failures.append({"reason": "commonjs_exports_failed", "details": commonjs})
@@ -740,10 +761,21 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         "daily_summary": daily_summary,
         "commonjs_exports": commonjs,
         "tarball": tarball_summary,
+        "synaxarium": synax_summary,
         "warnings": warnings,
         "failures": failures,
         "status": "pass" if not failures else "fail",
     }
+
+
+
+def validate_synaxarium_integrity(package_dir):
+    # Works both as a direct script and when imported by the test suite.
+    try:
+        from scripts.validate_synaxarium import validate_synaxarium_integrity as validate
+    except ModuleNotFoundError:
+        from validate_synaxarium import validate_synaxarium_integrity as validate
+    return validate(package_dir)
 
 
 def main(argv: list[str] | None = None) -> int:

@@ -82,6 +82,31 @@ function isCurrentReading(row) {
   throw new RangeError('Unknown explicit reading status: ' + status);
 }
 
+const { gregorianToCoptic, frozenMonthSlugs } = require('./calendar');
+const synaxariumPath = path.resolve(packageRoot, 'data', 'synaxarium', 'synaxarium.json');
+const synaxariumMeta = Object.freeze({
+  day_count: 366,
+  total_commemorations: 868,
+  source: 'Coptic Reader, Diocese of the Southern US, current-practice, single-year 1743 capture',
+});
+let synaxarium;
+function synaxariumForCopticDay(monthSlug, day) {
+  if (!frozenMonthSlugs.includes(monthSlug)) throw new RangeError('Invalid Coptic month slug.');
+  if (!Number.isInteger(day) || day < 1 || day > (monthSlug === 'nasie' ? 6 : 30)) {
+    throw new RangeError('Invalid Coptic day.');
+  }
+  if (!synaxarium) {
+    synaxarium = require('./data/synaxarium/synaxarium.json');
+    for (const value of Object.values(synaxarium)) {
+      value.commemorations.forEach(Object.freeze);
+      Object.freeze(value.commemorations);
+      Object.freeze(value);
+    }
+    Object.freeze(synaxarium);
+  }
+  return synaxarium[`${monthSlug}-${day}`];
+}
+
 module.exports = {
   occasionIndexPath,
   dailyDir,
@@ -93,4 +118,9 @@ module.exports = {
   structuralDateResolver,
   shippedYears,
   meta,
+  synaxariumPath,
+  synaxariumForCopticDay,
+  synaxariumMeta,
+  gregorianToCoptic,
+  frozenMonthSlugs,
 };

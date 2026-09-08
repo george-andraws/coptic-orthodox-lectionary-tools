@@ -35,6 +35,31 @@ console.log(lectionaryData.isCurrentReading({ display_ref: 'Jn 1:1-17' }));
 - `shippedYears`: frozen array of shipped daily years.
 - `meta`: parsed `meta.json`.
 
+## Synaxarium co-display catalog
+
+`data/synaxarium/synaxarium.json` contains 366 fixed Coptic days and 868 titles from the audited single-year 1743 capture. Source: Coptic Reader, Diocese of the Southern US, current-practice, single-year 1743 capture.
+
+```js
+const { gregorianToCoptic, synaxariumForCopticDay, synaxariumMeta } = require('@andraws/lectionary-data');
+const date = gregorianToCoptic(2026, 9, 11);
+const day = synaxariumForCopticDay(date.monthSlug, date.day);
+console.log(day.commemorations, synaxariumMeta);
+```
+
+- `gregorianToCoptic(year, month, day)`: pure proleptic Gregorian conversion for valid civil dates in years 0001 through 9999, independent of shipped reading years and local timezone. Returns `{ year, monthSlug, day }`. Pre-epoch Coptic years use astronomical numbering.
+- `synaxariumForCopticDay(monthSlug, day)`: immutable day object with an ordered `commemorations` array and `validInCommonYear` / `validInLeapYear`. Only Nasie 6 is leap-only. Invalid month/day arguments throw `RangeError`.
+- `synaxariumMeta`: `day_count`, `total_commemorations`, and `source`.
+- `synaxariumPath`: absolute catalog path. `frozenMonthSlugs`: immutable ordered month list.
+- `calendar.js`: the same dependency-free converter module, suitable for bundling in a browser without the Node path-based entry point.
+
+Frozen slugs: `tout`, `baba`, `hatour`, `kiahk`, `toba`, `amshir`, `baramhat`, `baramouda`, `bashans`, `paona`, `abib`, `mesra`, `nasie`.
+
+Each commemoration has only `id`, `title`, `type`, `rank`, `displayOrder`, `displayGroupId`. IDs and titles preserve the audited capture exactly. Types are lexical catalog classifications, not new historical findings. Lower `rank` is first: rank and displayOrder preserve capture order, not a claim about liturgical precedence. `displayGroupId` is null because no grouping decisions were authorized. No entries are merged or split.
+
+The readings and commemorations may share a Coptic date, but they are not liturgically linked. This catalog supplies no explanation for the choice of readings and makes no assertion that the Synaxarium is prescribed aloud at a given service.
+
+Repository maintainers can regenerate with `python3 scripts/build_synaxarium.py SOURCE_DIR`, then run `npm run synaxarium:validate` and `npm run lectionary:validate` from the package directory. The source fingerprint fixture stays in the repository tests, outside the published package. The lectionary integrity gate includes synaxarium validation. Existing reading data and its provenance remain unchanged.
+
 ## Occasion index schema
 
 Each line in `data/reverse_lectionary_index.jsonl` is a JSON object. The published field set is:
