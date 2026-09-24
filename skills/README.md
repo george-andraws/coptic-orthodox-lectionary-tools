@@ -11,7 +11,7 @@ This directory contains portable, repository-owned copies of the lectionary skil
 
 ## Use in a checkout
 
-1. Clone this repository, check out `publication/lectionary-skills-20260923`, and set `REPO_ROOT` to the clone root. The skills use `$REPO_ROOT` as a placeholder. Before any rebuild, export `LECTIONARY_DISABLE_VAULT_PUBLISH=1` to disable legacy maintainer-specific vault output defaults.
+1. Clone this repository, check out `main`, and set `REPO_ROOT` to the clone root. The skills use `$REPO_ROOT` as a placeholder. Before any rebuild, export `LECTIONARY_DISABLE_VAULT_PUBLISH=1` to disable legacy maintainer-specific vault output defaults.
 
    To install in Hermes, copy both complete directories under `skills/` into `${HERMES_HOME:-$HOME/.hermes}/skills/` and start a new session. Keep the repository checkout available for the package scripts, data, runbook, and release instructions.
 2. Read the matching `SKILL.md` and only the referenced support file needed for the task.
