@@ -1,0 +1,65 @@
+{
+  "civil_date": "2026-03-19",
+  "context": "Selected Season Feast of the Cross Paremhotep 10, 1742 Thursday, March 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-19",
+      "context": "Selected Season Feast of the Cross Paremhotep 10, 1742 Thursday, March 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:30:33.070Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-03-19",
+      "context": "Selected Season Feast of the Cross Paremhotep 10, 1742 Thursday, March 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:30:38.167Z",
+      "raw_reference_lines": [
+        "\tPsalms 59:3",
+        "\tJohn 12:26-36"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 59:3",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394"
+        },
+        {
+          "raw_ref": "\tJohn 12:26-36",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

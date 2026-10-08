@@ -1,0 +1,289 @@
+[
+  {
+    "text": "Close\nSwitch to Scroll Scroll\nSelect year April 2027\nPrevious month\nNext month\n1, Thursday, April 1, 2027\n2, Friday, April 2, 2027\n3, Saturday, April 3, 2027\n4, Sunday, April 4, 2027\n5, Monday, April 5, 2027\n6, Tuesday, April 6, 2027\n7, Wednesday, April 7, 2027\n8, Thursday, April 8, 2027\n9, Friday, April 9, 2027\n10, Saturday, April 10, 2027\n11, Sunday, April 11, 2027\n12, Monday, April 12, 2027\n13, Tuesday, April 13, 2027\n14, Wednesday, April 14, 2027\n15, Thursday, April 15, 2027\n16, Friday, April 16, 2027\n17, Saturday, April 17, 2027\n18, Sunday, April 18, 2027\n19, Monday, April 19, 2027\n20, Tuesday, April 20, 2027\n21, Wednesday, April 21, 2027\n22, Thursday, April 22, 2027\n23, Friday, April 23, 2027\n24, Saturday, April 24, 2027\n25, Sunday, April 25, 2027\n26, Monday, April 26, 2027\n27, Tuesday, April 27, 2027\n28, Wednesday, April 28, 2027\n29, Thursday, April 29, 2027\n30, Friday, April 30, 2027\nCancel\nOK\nThursday, April 8, 2027",
+    "role": "dialog",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "Close",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "Switch to Scroll Scroll",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "",
+    "role": "switch",
+    "current": null,
+    "selected": null,
+    "label": "Morning\nMorning\nMorning"
+  },
+  {
+    "text": "Select year April 2027",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "Previous month",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "Next month",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "1, Thursday, April 1, 2027\n2, Friday, April 2, 2027\n3, Saturday, April 3, 2027\n4, Sunday, April 4, 2027\n5, Monday, April 5, 2027\n6, Tuesday, April 6, 2027\n7, Wednesday, April 7, 2027\n8, Thursday, April 8, 2027\n9, Friday, April 9, 2027\n10, Saturday, April 10, 2027\n11, Sunday, April 11, 2027\n12, Monday, April 12, 2027\n13, Tuesday, April 13, 2027\n14, Wednesday, April 14, 2027\n15, Thursday, April 15, 2027\n16, Friday, April 16, 2027\n17, Saturday, April 17, 2027\n18, Sunday, April 18, 2027\n19, Monday, April 19, 2027\n20, Tuesday, April 20, 2027\n21, Wednesday, April 21, 2027\n22, Thursday, April 22, 2027\n23, Friday, April 23, 2027\n24, Saturday, April 24, 2027\n25, Sunday, April 25, 2027\n26, Monday, April 26, 2027\n27, Tuesday, April 27, 2027\n28, Wednesday, April 28, 2027\n29, Thursday, April 29, 2027\n30, Friday, April 30, 2027",
+    "role": "group",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "1, Thursday, April 1, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "2, Friday, April 2, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "3, Saturday, April 3, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "4, Sunday, April 4, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "5, Monday, April 5, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "6, Tuesday, April 6, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "7, Wednesday, April 7, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "8, Thursday, April 8, 2027",
+    "role": "button",
+    "current": "true",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "9, Friday, April 9, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "10, Saturday, April 10, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "11, Sunday, April 11, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "12, Monday, April 12, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "13, Tuesday, April 13, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "14, Wednesday, April 14, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "15, Thursday, April 15, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "16, Friday, April 16, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "17, Saturday, April 17, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "18, Sunday, April 18, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "19, Monday, April 19, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "20, Tuesday, April 20, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "21, Wednesday, April 21, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "22, Thursday, April 22, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "23, Friday, April 23, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "24, Saturday, April 24, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "25, Sunday, April 25, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "26, Monday, April 26, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "27, Tuesday, April 27, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "28, Wednesday, April 28, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "29, Thursday, April 29, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "30, Friday, April 30, 2027",
+    "role": "button",
+    "current": "false",
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "Cancel",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "OK",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  },
+  {
+    "text": "Dismiss",
+    "role": "button",
+    "current": null,
+    "selected": null,
+    "label": null
+  }
+]

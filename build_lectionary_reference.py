@@ -8,6 +8,7 @@ Sources used:
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import datetime as dt
 import hashlib
@@ -39,7 +40,13 @@ from passage_normalization import (
     passage_matches,
     source_ref_status,
 )
-from calendar_resolution import resolve_current_date_rows
+from calendar_resolution import resolve_current_date_rows, julian_pascha_gregorian, apply_sunday_cycle_overlays, SUNDAY_CYCLE_CONTEXTS
+from reading_context_overlays import is_current_source_row, load_fixture, apply_annual_cycle_hardening, apply_annual_dated_hardening
+from matins_source_projection import (
+    candidate_matins_index,
+    is_dated_matins_candidate,
+    project_dated_matins_source,
+)
 
 WORK = Path(__file__).resolve().parent
 SRC = WORK / 'sources'
@@ -87,7 +94,7 @@ def correction_key(day_title: str, service_section: str, reading_type: str, raw_
     )
 
 
-COPTICCHURCH_SOURCE_CORRECTIONS = {
+COPTICCHURCH_SOURCE_CORRECTIONS: dict = {
     **{correction_key(f'Tout {day}', 'Liturgy', 'Catholic Epistle', 'Jn 2:7-11'): {
         'normalized_ref': '1Jn 2:7-11',
         'normalization_warning': 'source_corrected; verified 1 John 2:7-11 at https://api.katameros.app/readings/gregorian/01-10-2026?languageId=2',
@@ -129,8 +136,23 @@ def load_coptic_reader_corrections() -> dict:
         key = correction_key(item['day_title'], item['service_section'], item['reading_type'], item['expected_raw_ref'])
         value = {
             'normalized_ref': item['corrected_ref'],
-            'normalization_warning': f"source_corrected_from_{item['authority'].replace(' ', '_').lower()}; evidence={item['evidence']}; verified_date={item['verified_date']}",
+            'normalization_warning': f"source_corrected_from_{item['authority'].replace(' ', '_').lower()}; evidence={item['evidence']}",
         }
+        if item['authority'] == 'George user-supplied correction':
+            path = WORK / item['evidence']
+            if (Path(item['evidence']).is_absolute() or not path.resolve().is_relative_to(WORK)
+                    or hashlib.sha256(path.read_bytes()).hexdigest() != overlay['source_fingerprints'][item['evidence']]):
+                raise RuntimeError('User correction evidence drift or invalid path')
+            fixture = json.loads(path.read_text(encoding='utf-8'))
+            context = fixture['context']
+            if (fixture['authority'] != item['authority'] or fixture['literal_user_instruction'] != item['user_instruction']
+                    or any(context[field] != item[field] for field in
+                           ('day_title', 'service_section', 'reading_type', 'expected_raw_ref', 'corrected_ref',
+                            'expected_source', 'expected_url_prefix'))):
+                raise RuntimeError('User correction policy/fixture context disagreement')
+            value['source_qualification'] = context
+        else:
+            value['normalization_warning'] += f"; verified_date={item['verified_date']}"
         if key in corrections and corrections[key] != value:
             raise RuntimeError(f'Conflicting Coptic Reader corrections for {key}')
         corrections[key] = value
@@ -171,6 +193,15 @@ def apply_copticchurch_source_correction(row: dict) -> dict:
         row.get('raw_ref', ''),
     )
     correction = COPTICCHURCH_SOURCE_CORRECTIONS.get(key)
+    if correction and correction.get('source_qualification'):
+        qualified = correction['source_qualification']
+        if (not is_current_source_row(row)
+                or any(row.get(field, '') != qualified[field] for field in
+                       ('day_title', 'service_section', 'reading_type'))
+                or row.get('raw_ref') != qualified['expected_raw_ref']
+                or row.get('source') != qualified['expected_source']
+                or not row.get('url', '').startswith(qualified['expected_url_prefix'])):
+            correction = None
     suppression = (
         SUPPRESSED_DATE_CONTEXTS.get((row.get('gregorian_date', ''), row.get('day_title', ''), row.get('service_section', '')))
         or SUPPRESSED_DATE_CONTEXTS.get(('', row.get('day_title', ''), row.get('service_section', '')))
@@ -252,7 +283,7 @@ def export_cycle_tables(books: Dict[int, str]) -> List[dict]:
                 })
             if table == 'GreatLentReadings' and (base.get('Prophecy') or '').strip():
                 raw = base.get('Prophecy').strip()
-                correction = {}
+                correction = KATAMEROS_CYCLE_CORRECTIONS.get((table, day_key, 'prophecy', raw), {})
                 rows_out.append({
                     'source': 'katameros-api sqlite',
                     'source_table': table,
@@ -269,7 +300,16 @@ def export_cycle_tables(books: Dict[int, str]) -> List[dict]:
                     'normalization_warning': correction.get('normalization_warning', ''),
                 })
     con.close()
-    return rows_out
+    return annual_cycle_rows(apply_sunday_cycle_overlays(rows_out))
+
+
+def annual_cycle_rows(rows: List[dict]) -> List[dict]:
+    if not any(r.get('source_table') == 'AnnualReadings' and r.get('day_key') == 'Tut 16'
+               and is_current_source_row(r) for r in rows):
+        return rows
+    fixture = load_fixture(SRC / 'coptic-reader/annual-reconciled-2026-10-07')
+    return apply_annual_cycle_hardening(rows, fixture)
+
 
 def write_csv(path: Path, rows: List[dict], fieldnames: Optional[List[str]]=None):
     if not fieldnames:
@@ -287,13 +327,31 @@ def write_jsonl(path: Path, rows: List[dict]):
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False, sort_keys=True)+'\n')
 
-def build_passage_index(cycle_rows: List[dict], books: Dict[int, str]) -> List[dict]:
+def build_passage_index(cycle_rows: List[dict], books: Dict[int, str], *, include_inactive: bool = False) -> List[dict]:
     out=[]
+    cycle_rows = annual_cycle_rows(apply_sunday_cycle_overlays(cycle_rows))
     for r in cycle_rows:
+        if not include_inactive and not is_current_source_row(r):
+            continue
         correction = KATAMEROS_CYCLE_CORRECTIONS.get((r.get('source_table'), r.get('day_key'), r.get('reading_slot'), r.get('raw_ref')), {})
-        numeric_ref = correction.get('numeric_ref', r.get('raw_ref', ''))
+        rule = SUNDAY_CYCLE_CONTEXTS.get(r.get('day_key', ''))
+        qualified_sunday = (rule and r.get('source') == 'katameros-api sqlite'
+                            and r.get('source_table') == 'SundayReadings'
+                            and str(r.get('month_number')) == str(rule[0])
+                            and str(r.get('day')) == '5' and r.get('reading_slot') == 'liturgy_acts'
+                            and r.get('raw_ref') == rule[1] and is_current_source_row(r))
+        numeric_ref = ((r.get('numeric_ref') if qualified_sunday or (
+            r.get('source_table') == 'AnnualReadings' and r.get('day_key') == 'Tut 16'
+            and r.get('reading_slot') == 'liturgy_catholic' and is_current_source_row(r)) else None)
+            or correction.get('numeric_ref', r.get('raw_ref', '')))
         for seg in iter_numeric_ref_segments(numeric_ref, books) or []:
             item = {**seg, **{k:r.get(k,'') for k in ['source','source_table','source_type','cycle','day_key','month_number','month_name','day','week','day_of_week','day_name','season','other','reading_slot','raw_ref','normalized_ref','normalization_warning']}}
+            if qualified_sunday:
+                item.update({key: r[key] for key in ('numeric_ref', 'correction_source') if key in r})
+            if not is_current_source_row(r):
+                item.update({key: r[key] for key in ('active', 'state', 'status', 'current_status',
+                             'include_in_current_index', 'superseded_reason',
+                             'removal_reason', 'removed_reason', 'removal_effective_version') if key in r})
             item['service_section'] = r.get('reading_slot', '')
             item['reading_slot'] = passage_reading_slot(item['reading_slot'], seg['book_abbrev'])
             validate_reading_slot(item['reading_slot'], seg['book_abbrev'])
@@ -302,7 +360,48 @@ def build_passage_index(cycle_rows: List[dict], books: Dict[int, str]) -> List[d
             out.append(item)
     return out
 
-def parse_copticchurch_html(html: str, date: dt.date) -> Tuple[dict, List[dict]]:
+def authenticate_recurring_supplement(supplement: dict, overlay: dict) -> None:
+    """Authenticate an exact, complete seasonal source table before projection."""
+    def authenticate(relative, expected=None):
+        path = WORK / relative
+        if Path(relative).is_absolute() or not path.resolve().is_relative_to(WORK.resolve()):
+            raise RuntimeError('Recurring supplement evidence path escapes repository')
+        declared = overlay['source_fingerprints'].get(relative)
+        if not declared or (expected and expected != declared) or sha256(path) != declared:
+            raise RuntimeError(f'Recurring supplement source drift: {relative}')
+        return path
+    evidence = authenticate(supplement['evidence'])
+    for relative, expected in supplement.get('evidence_fingerprints', {}).items():
+        authenticate(relative, expected)
+    printed = [line.strip() for line in evidence.read_text(encoding='utf-8').splitlines() if line.startswith('\t')]
+    readings = supplement['readings']
+    if printed != [r['printed_ref'] for r in readings] or len(printed) != len(set(printed)):
+        raise RuntimeError('Recurring supplement printed references/order disagree with primary evidence')
+    for order, reading in enumerate(readings, 1):
+        canonical = canonicalize_text_ref(reading['printed_ref'])
+        parsed = parse_passage(canonical)
+        if not parsed or canonical != reading['normalized_ref']:
+            raise RuntimeError('Recurring supplement normalized reference is unresolved or truncated')
+        if (reading['source_order'], reading['source_slot']) != (order, f'OT{order}'):
+            raise RuntimeError('Recurring supplement source slot/order disagrees')
+    date = dt.date.fromisoformat(supplement['verified_date'])
+    if (date - julian_pascha_gregorian(date.year)).days != supplement['pascha_offset_days']:
+        raise RuntimeError('Recurring supplement verified date/offset disagrees')
+    if supplement.get('oracle_evidence'):
+        oracle = json.loads(authenticate(supplement['oracle_evidence']).read_text())
+        if (oracle['civil_date'] != supplement['verified_date'] or oracle['service'] != supplement['service_section']
+                or not oracle['source_qualified'] or oracle['raw_reference_lines'] != ['\t' + p for p in printed]):
+            raise RuntimeError('Recurring supplement capture context disagrees')
+        context = (evidence.parent / 'context.txt').read_text()
+        if context != oracle['context'] or context != supplement['source_verified_context']:
+            raise RuntimeError('Recurring supplement selected context disagrees')
+        week_names = {'second': 2, 'third': 3, 'fourth': 4, 'fifth': 5}
+        match = re.fullmatch(r'(Monday|Tuesday|Wednesday|Thursday|Friday) of the (second|third|fourth|fifth) week of Great Lent', supplement['day_title'])
+        if not match or match[1] != date.strftime('%A') or f'{week_names[match[2]]}' not in context.split('Week of Great Fast', 1)[0]:
+            raise RuntimeError('Recurring supplement selected occasion disagrees')
+
+
+def parse_copticchurch_html(html: str, date: dt.date, *, candidate_matins_context: Optional[dict] = None) -> Tuple[dict, List[dict]]:
     soup = BeautifulSoup(html, 'html.parser')
     title = normalize_copticchurch_title(soup.title.get_text(' ', strip=True) if soup.title else '')
     content = soup.select_one('.col-lg-9') or soup.body
@@ -340,10 +439,42 @@ def parse_copticchurch_html(html: str, date: dt.date) -> Tuple[dict, List[dict]]
                 'url': f'https://copticchurch.net/readings?g_year={date.year}&g_month={date.month:02d}&g_day={date.day:02d}'
             }
             out.append(apply_copticchurch_source_correction(row))
+    # Supplement only an independently verified recurring movable context.
+    # The upstream HTML and its existing references remain untouched.
+    overlay = json.loads((SRC / 'lectionary_corrections.json').read_text(encoding='utf-8'))
+    for supplement in overlay.get('recurring_date_supplements', []):
+        target = julian_pascha_gregorian(date.year) + dt.timedelta(days=supplement['pascha_offset_days'])
+        if date != target or day_title != supplement['day_title']:
+            continue
+        authenticate_recurring_supplement(supplement, overlay)
+        existing = [row for row in out if row['service_section'] == supplement['service_section'] and row['reading_type'] == supplement['reading_type']]
+        if existing:
+            # Do not silently duplicate or override newly recovered upstream rows.
+            raise RuntimeError(f'Recurring supplement overlaps upstream readings on {date}')
+        insertion_index = next((i for i, row in enumerate(out) if row['service_section'] == supplement['service_section']), len(out))
+        for offset, reading in enumerate(supplement['readings']):
+            out.insert(insertion_index + offset, {
+                'source': 'Coptic Reader verified recurring supplement',
+                'gregorian_date': date.isoformat(), 'weekday': date.strftime('%A'),
+                'day_title': day_title, 'service_section': supplement['service_section'],
+                'reading_type': supplement['reading_type'],
+                'raw_ref': reading['printed_ref'], 'normalized_ref': reading['normalized_ref'],
+                'parse_status': 'source_supplement',
+                'normalization_warning': f"verified recurring context; evidence={supplement['evidence']}; verified_date={supplement['verified_date']}; captured_at={supplement['captured_at']}",
+                'source_order': reading['source_order'], 'source_slot': reading['source_slot'],
+                'correction_source': supplement['evidence'], 'url': 'https://copticreader.org/app/',
+            })
     meta={'date':date.isoformat(),'title':title,'day_title':day_title,'reading_count':len(out)}
+    if candidate_matins_context is not None:
+        if candidate_matins_context.get('civil_date') != date.isoformat():
+            raise ValueError('Candidate Matins context disagrees with parsed civil date')
+        projection = project_dated_matins_source(out, candidate_matins_context)
+        out = projection['active']
+        meta['reading_count'] = len(out)
+        meta['matins_source_projection'] = {key: value for key, value in projection.items() if key != 'active'}
     return meta,out
 
-def fetch_date(date: dt.date, cache: Path) -> Tuple[dict,List[dict]]:
+def fetch_date(date: dt.date, cache: Path, *, candidate_matins_context: Optional[dict] = None) -> Tuple[dict,List[dict]]:
     fp = cache / f'{date.isoformat()}.html'
     if fp.exists() and fp.stat().st_size > 1000:
         html = fp.read_text(encoding='utf-8', errors='ignore')
@@ -354,7 +485,7 @@ def fetch_date(date: dt.date, cache: Path) -> Tuple[dict,List[dict]]:
         html=r.text
         fp.write_text(html,encoding='utf-8')
         time.sleep(0.05)
-    return parse_copticchurch_html(html,date)
+    return parse_copticchurch_html(html,date,candidate_matins_context=candidate_matins_context)
 
 def scrape_copticchurch(start_year=2020, end_year=2035):
     cache = WORK / 'cache' / 'copticchurch_html'
@@ -377,13 +508,30 @@ def scrape_copticchurch(start_year=2020, end_year=2035):
             if i % 500 == 0:
                 print(f'fetched/parsed {i}/{len(dates)}')
     metas.sort(key=lambda x:x['date'])
-    rows.sort(key=lambda x:(x['gregorian_date'],x['service_section'],x['reading_type'],x['raw_ref']))
+    rows.sort(key=lambda x:(x['gregorian_date'], x['service_section'],
+                            0 if x['source'] == 'Coptic Reader verified recurring supplement' else 1,
+                            int(x.get('source_order') or 0), x['reading_type'], x['raw_ref']))
     return metas, rows, errors
 
-def build_date_passage_index(rows: List[dict]) -> List[dict]:
+def build_date_passage_index(rows: List[dict], *, include_inactive: bool = False,
+                             include_candidate_matins: bool = False,
+                             repair_report_root: Optional[Path] = None) -> List[dict]:
+    if type(include_inactive) is not bool or type(include_candidate_matins) is not bool:
+        raise ValueError('Date-index lane controls require literal booleans')
     out=[]
     repaired_report=[]
-    for r in rows:
+    # Authenticate held candidates even in the excluding lane: exclusion is
+    # not authentication, and erased markers must never permit raw MT fallback.
+    candidate_positions = {i for i, r in enumerate(rows) if is_dated_matins_candidate(r)}
+    candidate_index = iter(candidate_matins_index(rows) if candidate_positions else [])
+    for i, r in enumerate(rows):
+        if i in candidate_positions:
+            candidate = next(candidate_index)
+            if include_candidate_matins:
+                out.append(candidate)
+            continue
+        if not include_inactive and not is_current_source_row(r):
+            continue
         ref_for_extract = r.get('normalized_ref') or r.get('raw_ref','')
         for token in extract_text_ref_tokens(ref_for_extract):
             parsed = parse_passage(token)
@@ -410,6 +558,10 @@ def build_date_passage_index(rows: List[dict]) -> List[dict]:
                 'source_raw_refs': r.get('source_raw_refs', ''),
                 'correction_source': r.get('correction_source', ''),
                 'superseded_reason': r.get('superseded_reason', ''),
+                **({key: r[key] for key in ('active', 'state', 'status',
+                     'include_in_current_index', 'removal_reason', 'removed_reason',
+                     'removal_effective_version') if key in r} if not is_current_source_row(r) else {}),
+                **({key: r.get(key, '') for key in ('source_convention', 'canonicalization_confidence', 'canonicalization_note')} if r.get('parse_status') == 'source_boundary_overlay' else {}),
             })
         if r.get('parse_status') and r.get('parse_status') != 'ok':
             repaired_report.append({
@@ -423,9 +575,11 @@ def build_date_passage_index(rows: List[dict]) -> List[dict]:
                 'normalization_warning': r.get('normalization_warning',''),
                 'url': r.get('url',''),
             })
-    if repaired_report:
-        write_csv(DATA/'source_ref_repair_report.csv', repaired_report)
-        write_jsonl(DATA/'source_ref_repair_report.jsonl', repaired_report)
+    # Partial helper/test queries must never overwrite a complete build receipt.
+    if repaired_report and repair_report_root is not None:
+        target = Path(repair_report_root)
+        write_csv(target/'source_ref_repair_report.csv', repaired_report)
+        write_jsonl(target/'source_ref_repair_report.jsonl', repaired_report)
     return out
 
 def copy_sources():
@@ -534,9 +688,14 @@ def build_current_date_sidecars():
             corrected['correction_source'] = corrected.get('correction_source') or corrected.get('_ref_correction_note', '')
         corrected_pascha.append(corrected)
     current_rows = resolve_current_date_rows(raw_rows, corrected_pascha)
+    annual = apply_annual_dated_hardening(current_rows, load_fixture(SRC / 'coptic-reader/annual-reconciled-2026-10-07'))
+    current_rows = annual['active']
+    write_csv(DATA / 'annual_dated_readings_history.csv', annual['history'])
+    write_jsonl(DATA / 'annual_dated_readings_history.jsonl', annual['history'])
+    write_jsonl(DATA / 'annual_dated_repair_events.jsonl', annual['events'])
     write_csv(DATA / 'copticchurch_date_readings_current_2020_2035.csv', current_rows)
     write_jsonl(DATA / 'copticchurch_date_readings_current_2020_2035.jsonl', current_rows)
-    passage_rows = build_date_passage_index(current_rows)
+    passage_rows = build_date_passage_index(current_rows, repair_report_root=DATA)
     write_csv(DATA / 'copticchurch_passage_index_current_2020_2035.csv', passage_rows)
     write_jsonl(DATA / 'copticchurch_passage_index_current_2020_2035.jsonl', passage_rows)
     return current_rows, passage_rows
@@ -603,7 +762,7 @@ def publish_verified_package() -> int:
     return published
 
 
-def main():
+def main(preserve_legacy_passage_snapshot=False):
     ensure_dirs()
     books=load_books()
     cycle_rows=export_cycle_tables(books)
@@ -616,9 +775,15 @@ def main():
     write_csv(DATA/'copticchurch_date_meta_2020_2035.csv', metas)
     write_csv(DATA/'copticchurch_date_readings_2020_2035.csv', date_rows)
     write_jsonl(DATA/'copticchurch_date_readings_2020_2035.jsonl', date_rows)
-    didx=build_date_passage_index(date_rows)
-    write_csv(DATA/'copticchurch_passage_index_2020_2035.csv', didx)
-    write_jsonl(DATA/'copticchurch_passage_index_2020_2035.jsonl', didx)
+    if preserve_legacy_passage_snapshot:
+        # Current helpers use the current-date sidecars below. The unqualified
+        # raw passage snapshot predates unrelated corrections and is historical.
+        with (DATA/'copticchurch_passage_index_2020_2035.csv').open(newline='', encoding='utf-8') as handle:
+            didx = list(csv.DictReader(handle))
+    else:
+        didx=build_date_passage_index(date_rows, repair_report_root=DATA)
+        write_csv(DATA/'copticchurch_passage_index_2020_2035.csv', didx)
+        write_jsonl(DATA/'copticchurch_passage_index_2020_2035.jsonl', didx)
     (DATA/'copticchurch_scrape_errors.json').write_text(json.dumps(errors,indent=2),encoding='utf-8')
     copy_special_datasets()
     current_date_rows, current_date_index = build_current_date_sidecars()
@@ -639,6 +804,7 @@ def main():
         'date_resolved_days': len(metas),
         'date_resolved_reading_rows': len(date_rows),
         'date_resolved_passage_index_rows': len(didx),
+        'legacy_passage_snapshot_preserved': preserve_legacy_passage_snapshot,
         'current_date_resolved_reading_rows': len(current_date_rows),
         'current_date_resolved_passage_index_rows': len(current_date_index),
         'date_scrape_errors': len(errors),
@@ -654,4 +820,6 @@ def main():
     print(json.dumps(summary,indent=2))
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--preserve-legacy-passage-snapshot', action='store_true', help='Rebuild all current-date surfaces without promoting unrelated corrections into the historical unqualified raw passage snapshot.')
+    main(preserve_legacy_passage_snapshot=parser.parse_args().preserve_legacy_passage_snapshot)

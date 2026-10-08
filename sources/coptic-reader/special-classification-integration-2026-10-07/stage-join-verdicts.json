@@ -1,0 +1,4955 @@
+[
+  {
+    "legacy_row": 118,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "vespers"
+    ],
+    "legacy_raw_ref": "Psalm 23:5-6",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 3,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "offering_of_evening_incense",
+        "printed_ref": "Psalms 23:5-6",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1570,
+            "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲣⲟⲩϩⲓ"
+          },
+          {
+            "line": 1571,
+            "text": "رفع بخور عشية"
+          },
+          {
+            "line": 1572,
+            "text": "\tPsalms 23:5-6"
+          },
+          {
+            "line": 1573,
+            "text": "(مزامير 23: 5-6)"
+          },
+          {
+            "line": 1574,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 1575,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 1576,
+            "text": "In the presence of those who afflict me: You have anointed my head with oil; and Your cup makes me drunk like power. Your mercy shall follow me all the days of my life: and my dwelling shall be in the house of the Lord unto length of days. Alleluia."
+          },
+          {
+            "line": 1577,
+            "text": "مُقابل الذين يحزنونني دهنت بالزيت رأسي. وكأسك روتني مثل الصرف. ورحمتك تدركني جميع أيام حياتي. ومسكني في بيت الرب إلى مدى الأيام. هَلليلُويا."
+          },
+          {
+            "line": 1578,
+            "text": "\tLuke 23:50-24:12"
+          },
+          {
+            "line": 1579,
+            "text": "(لوقا 23: 50-24: 12)"
+          },
+          {
+            "line": 1580,
+            "text": "50 Now behold, there was a man named Joseph, a council member, a good and just man."
+          },
+          {
+            "line": 1581,
+            "text": "Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ ⲓⲱⲥⲏⲫ ⲉⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ ⲉ̀ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲡⲉ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ."
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 119,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "vespers"
+    ],
+    "legacy_raw_ref": "Luke 23:50-56; Luke 24:1-12",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 4,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "offering_of_evening_incense",
+        "printed_ref": "Luke 23:50-24:12",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1574,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 1575,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 1576,
+            "text": "In the presence of those who afflict me: You have anointed my head with oil; and Your cup makes me drunk like power. Your mercy shall follow me all the days of my life: and my dwelling shall be in the house of the Lord unto length of days. Alleluia."
+          },
+          {
+            "line": 1577,
+            "text": "مُقابل الذين يحزنونني دهنت بالزيت رأسي. وكأسك روتني مثل الصرف. ورحمتك تدركني جميع أيام حياتي. ومسكني في بيت الرب إلى مدى الأيام. هَلليلُويا."
+          },
+          {
+            "line": 1578,
+            "text": "\tLuke 23:50-24:12"
+          },
+          {
+            "line": 1579,
+            "text": "(لوقا 23: 50-24: 12)"
+          },
+          {
+            "line": 1580,
+            "text": "50 Now behold, there was a man named Joseph, a council member, a good and just man."
+          },
+          {
+            "line": 1581,
+            "text": "Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ ⲓⲱⲥⲏⲫ ⲉⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ ⲉ̀ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲡⲉ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ."
+          },
+          {
+            "line": 1582,
+            "text": "50 وَإِذَا رَجُلٌ اسْمُهُ يُوسُفُ وَكَانَ مُشِيراً وَرَجُلاً صَالِحاً بَارّاً -"
+          },
+          {
+            "line": 1583,
+            "text": "51 He had not consented to their decision and deed. He was from Arimathea, a city of the Jews, who himself was also waiting for the kingdom of God."
+          },
+          {
+            "line": 1584,
+            "text": "Ⲫⲁⲓ ⲛⲁϥϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭ ⲛⲓ ⲛⲉⲙ ⲧⲟⲩⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗ ⲉⲛ ⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲡⲉ ⲟⲩⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲫⲏ ⲉⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁϫⲉⲛ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲫϯ."
+          },
+          {
+            "line": 1585,
+            "text": "51 هَذَا لَمْ يَكُنْ مُوافِقاً لِرَأْيِهِمْ وَعَمَلِهِمْ وَهُوَ مِنَ الرَّامَةِ مَدِينَةٍ لِلْيَهُودِ. وَكَانَ هُوَ أَيْضاً يَنْتَظِرُ مَلَكُوتَ اللهِ."
+          },
+          {
+            "line": 1586,
+            "text": "52 This man went to Pilate and asked for the body of Jesus."
+          },
+          {
+            "line": 1587,
+            "text": "Ⲫⲁⲓ ⲉⲧⲁϥⲓ̀ ϩⲁ ⲡⲓⲗⲁⲧⲟⲥ ϥⲉⲣⲉⲧⲓⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦."
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 120,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "matins"
+    ],
+    "legacy_raw_ref": "Psalm 51:12-13",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 5,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "offering_of_morning_incense",
+        "printed_ref": "Psalms 51:12-13",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1636,
+            "text": "12 فَقَامَ بُطْرُسُ وَرَكَضَ إِلَى الْقَبْرِ فَانْحَنَى وَنَظَرَ الأَكْفَانَ مَوْضُوعَةً وَحْدَهَا فَمَضَى مُتَعَجِّباً فِي نَفْسِهِ مِمَّا كَانَ."
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1638,
+            "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+          },
+          {
+            "line": 1639,
+            "text": "رفع بخور باكر"
+          },
+          {
+            "line": 1640,
+            "text": "\tPsalms 51:12-13"
+          },
+          {
+            "line": 1641,
+            "text": "(مزامير 51: 12-13)"
+          },
+          {
+            "line": 1642,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 1643,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 1644,
+            "text": "Give me the joy of Your salvation, and uphold me with a directing spirit. Then I shall teach the transgressors Your ways; and the ungodly men shall turn to You."
+          },
+          {
+            "line": 1645,
+            "text": "رُدَّ لِي بَهْجَةَ خَلاَصِكَ وَبِرُوحٍ مُنْتَدِبَةٍ اعْضُدْنِي. فَأُعَلِّمَ الأَثَمَةَ طُرُقَكَ وَالْخُطَاةُ إِلَيْكَ يَرْجِعُونَ."
+          },
+          {
+            "line": 1646,
+            "text": "\tMark 16:1-20"
+          },
+          {
+            "line": 1647,
+            "text": "(مرقس 16: 1-20)"
+          },
+          {
+            "line": 1648,
+            "text": "1 Now when the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, that they might come and anoint Him."
+          },
+          {
+            "line": 1649,
+            "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ Ⲙⲁⲣⲓⲁ̀ ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ ⲛⲉⲙ Ⲙⲁⲣⲓⲁ̀ ⲛ̀ⲧⲉ Ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ ⲥⲁⲗⲱⲙⲏⲁⲩϣⲉⲛⲱⲟⲩ ⲁⲩϣⲱⲡ ⲛ̀ϩⲁⲛⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩⲒ̀ ⲛ̀ⲧⲟⲩⲑⲁϩⲥϥ."
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 121,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "matins"
+    ],
+    "legacy_raw_ref": "Mark 16",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 6,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "offering_of_morning_incense",
+        "printed_ref": "Mark 16:1-20",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1642,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 1643,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 1644,
+            "text": "Give me the joy of Your salvation, and uphold me with a directing spirit. Then I shall teach the transgressors Your ways; and the ungodly men shall turn to You."
+          },
+          {
+            "line": 1645,
+            "text": "رُدَّ لِي بَهْجَةَ خَلاَصِكَ وَبِرُوحٍ مُنْتَدِبَةٍ اعْضُدْنِي. فَأُعَلِّمَ الأَثَمَةَ طُرُقَكَ وَالْخُطَاةُ إِلَيْكَ يَرْجِعُونَ."
+          },
+          {
+            "line": 1646,
+            "text": "\tMark 16:1-20"
+          },
+          {
+            "line": 1647,
+            "text": "(مرقس 16: 1-20)"
+          },
+          {
+            "line": 1648,
+            "text": "1 Now when the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, that they might come and anoint Him."
+          },
+          {
+            "line": 1649,
+            "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ Ⲙⲁⲣⲓⲁ̀ ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ ⲛⲉⲙ Ⲙⲁⲣⲓⲁ̀ ⲛ̀ⲧⲉ Ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ ⲥⲁⲗⲱⲙⲏⲁⲩϣⲉⲛⲱⲟⲩ ⲁⲩϣⲱⲡ ⲛ̀ϩⲁⲛⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩⲒ̀ ⲛ̀ⲧⲟⲩⲑⲁϩⲥϥ."
+          },
+          {
+            "line": 1650,
+            "text": "1 وَبَعْدَمَا مَضَى السَّبْتُ اشْتَرَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ أُمُّ يَعْقُوبَ وَسَالُومَةُ حَنُوطاً لِيَأْتِينَ وَيَدْهَنَّهُ."
+          },
+          {
+            "line": 1651,
+            "text": "2 Very early in the morning, on the first day of the week, they came to the tomb when the sun had risen."
+          },
+          {
+            "line": 1652,
+            "text": "Ⲟⲩⲟϩ ⲛ̀ϩⲁⲛⲁ̀ⲧⲟⲟⲩⲓ̀ ⲉ̀ⲙⲁϣⲱ ⲙ̀ⲫ̀ⲟⲩⲁⲓ ⲛ̀ⲛⲓⲥⲁⲃⲃⲁⲧⲟⲛ ⲁⲩⲓ̀ ⲉ̀ⲡⲓⲙ̀ϩⲁⲩ ⲉ̀ⲧⲁ ⲫ̀ⲣⲏ ϣⲁⲓ."
+          },
+          {
+            "line": 1653,
+            "text": "2 وَبَاكِراً جِدّاً فِي أَوَّلِ الأُسْبُوعِ أَتَيْنَ إِلَى الْقَبْرِ إِذْ طَلَعَتِ الشَّمْسُ."
+          },
+          {
+            "line": 1654,
+            "text": "3 And they said among themselves, “Who will roll away the stone from the door of the tomb for us?”"
+          },
+          {
+            "line": 1655,
+            "text": "Ⲟⲩⲟϩ ⲛⲁⲩϫⲱ ⲙ̀ⲙⲟⲥ ⲛ̀ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ ϫⲉ ⲛⲓⲙ ⲉⲑⲛⲁⲥ̀ⲕⲉⲣⲕⲉⲣ ⲙ̀ⲡⲓⲱ̀ⲛⲓ ⲛⲁⲛ ⲉ̀ⲃⲟⲗ ϩⲓⲣⲱϥ ⲙ̀ⲡⲓⲙ̀ϩⲁⲩ."
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 122,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Hebrews 9:11-28; Hebrews 10:1-24",
+    "reading_type": "pauline",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 7,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "liturgy_of_the_word",
+        "printed_ref": "Hebrews 9:11-10:24",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1706,
+            "text": "Ⲛⲏⲇⲉ ⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ⲃⲟⲗ ⲁⲩϩⲓⲱⲓϣ ϧⲉⲛ ⲙⲁⲓ ⲛⲓⲃⲉⲛ ⲟⲩⲟϩ ⲛⲁⲣⲉ Ⲡⲟ︦ⲥ︦ ⲉⲣϩⲱⲃ ⲛⲉⲙⲱⲟⲩ ⲡⲉ ⲟⲩⲟϩ ⲉϥⲧⲁϫⲣⲟ ⲙ̀ⲡⲓⲥⲁϫⲓ ⲛ̀ⲧⲉ ⲛⲓⲙⲏⲓⲛⲓ ⲉⲑⲙⲟϣⲓ ⲛ̀ⲥⲱⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ ⲁ̀ⲙⲏⲛ ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲍⲱⲏⲥ ⲕⲁⲧⲁ ⲙⲁⲣⲕⲟⲛ ⲉ̀ⲛⲉⲏⲣⲏⲛⲏⲧⲱ ⲕ︦ⲱ︦ ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 1707,
+            "text": "20 وَأَمَّا هُمْ فَخَرَجُوا وَكَرَزُوا فِي كُلِّ مَكَانٍ وَالرَّبُّ يَعْمَلُ مَعَهُمْ وَيُثَبِّتُ الْكَلاَمَ بِالآيَاتِ التَّابِعَةِ. آمِينَ."
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 1709,
+            "text": "قداسُ الكلمة"
+          },
+          {
+            "line": 1710,
+            "text": "\tHebrews 9:11-10:24"
+          },
+          {
+            "line": 1711,
+            "text": "(العبرانيين 9: 11-10: 24)"
+          },
+          {
+            "line": 1712,
+            "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 1713,
+            "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين."
+          },
+          {
+            "line": 1714,
+            "text": "11 But Christ came as High Priest of the good things to come, with the greater and more perfect tabernacle not made with hands, that is, not of this creation."
+          },
+          {
+            "line": 1715,
+            "text": "Ⲡⲭ︦ⲥ︦ ⲇⲉ ⲉⲧⲁϥⲓ̀ ⲡⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲛ̀ⲧⲉ ⲛⲓⲁⲅⲁⲑⲟⲛ ⲉⲑⲛⲁϣⲱⲡⲓ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ϯⲛⲓϣϯ ⲛ̀ⲥ̀ⲕⲏⲛⲏⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ⲟⲩⲙⲟⲩⲛⲕ ⲛ̀ϫⲓϫ ⲁⲛ ⲧⲉ ⲉⲧⲉ ⲫⲁⲓ ⲡⲉ ϫⲉ ⲑⲁ ⲡⲁⲓⲥⲱⲛⲧ ⲁⲛ ⲧⲉ."
+          },
+          {
+            "line": 1716,
+            "text": "11 وَأَمَّا الْمَسِيحُ، وَهُوَ قَدْ جَاءَ رَئِيسَ كَهَنَةٍ لِلْخَيْرَاتِ الْعَتِيدَةِ، فَبِالْمَسْكَنِ الأَعْظَمِ وَالأَكْمَلِ، غَيْرِ الْمَصْنُوعِ بِيَدٍ، أَيِ الَّذِي لَيْسَ مِنْ هَذِهِ الْخَلِيقَةِ."
+          },
+          {
+            "line": 1717,
+            "text": "12 Not with the blood of goats and calves, but with His own blood He entered the Most Holy Place once for all, having obtained eternal redemption."
+          },
+          {
+            "line": 1718,
+            "text": "Ⲟⲩⲇⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡ̀ⲥ̀ⲛⲟϥ ⲛ̀ⲧⲉ ϩⲁⲛⲃⲁⲣⲏ ⲓⲧ ⲁⲛ ⲧⲉ ⲛⲉⲙ ϩⲁⲛⲙⲁⲥⲓ ⲁⲗⲗⲁ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉϥⲥ̀ⲛⲟϥ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟϥ ⲉ̀ⲁϥⲓ̀ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲉⲑⲟⲩⲁⲃ ⲛ̀ⲟⲩⲥⲟⲡ ⲉ̀ⲁϥϫⲓⲙⲓ ⲛ̀ⲟⲩⲥⲱϯ ⲛ̀ⲉ̀ⲛⲉϩ."
+          },
+          {
+            "line": 1719,
+            "text": "12 وَلَيْسَ بِدَمِ تُيُوسٍ وَعُجُولٍ، بَلْ بِدَمِ نَفْسِهِ، دَخَلَ مَرَّةً وَاحِدَةً إِلَى الأَقْدَاسِ، فَوَجَدَ فِدَاءً أَبَدِيّاً."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 123,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "1 John 4:7-21; 1 John 5:1-21",
+    "reading_type": "catholic",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 8,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "liturgy_of_the_word",
+        "printed_ref": "1 John 4:7-5:21",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 1838,
+            "text": "Ⲙⲁⲣⲉⲛϯϩ̀ⲑⲏⲛ ⲉ̀ⲛⲉⲛⲉⲣⲏⲟⲩ ϧⲉⲛ ⲟⲩ ⲭⲟϩ ⲛ̀ⲧⲉ ⲟⲩⲁⲅⲁⲡⲏ ⲛⲉⲙ ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉ̀ⲛⲁⲛⲉⲩ."
+          },
+          {
+            "line": 1839,
+            "text": "24 وَلْنُلاَحِظْ بَعْضُنَا بَعْضاً لِلتَّحْرِيضِ عَلَى الْمَحَبَّةِ وَالأَعْمَالِ الْحَسَنَةِ،"
+          },
+          {
+            "line": 1840,
+            "text": "The grace of God the Father be with you all. Amen."
+          },
+          {
+            "line": 1841,
+            "text": "نعمة الله الآب تكون مع جميعِكم. آمين."
+          },
+          {
+            "line": 1842,
+            "text": "\t1 John 4:7-5:21"
+          },
+          {
+            "line": 1843,
+            "text": "(1 يوحنا 4: 7-5: 21)"
+          },
+          {
+            "line": 1844,
+            "text": "The Catholic Epistle from the first Epistle of our teacher St. John. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 1845,
+            "text": "الكاثوليكون من رسالة يوحنا الرسول الأولى. بركته تكون معنا. آمين."
+          },
+          {
+            "line": 1846,
+            "text": "7 Beloved, let us love one another, for love is of God; and everyone who loves is born of God and knows God."
+          },
+          {
+            "line": 1847,
+            "text": "Ⲛⲁⲙⲉⲛⲣⲁϯ ⲙⲁⲣⲉⲛⲙⲉⲛⲣⲉ ⲛⲉⲛⲉⲣⲏⲟⲩ ϫⲉ ϯⲁⲅⲁⲡⲏ ⲟⲩⲉ̀ⲃⲟⲗ ⲙ̀ⲫϯ ⲧⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲉⲣⲁⲅⲁⲡⲁⲛ ⲉⲧⲁⲩⲙⲁⲥϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲫϯ ⲟⲩⲟϩ ϥ̀ⲥⲱⲟⲩⲛ ⲙ̀ⲫϯ."
+          },
+          {
+            "line": 1848,
+            "text": "7 أَيُّهَا الأَحِبَّاءُ، لِنُحِبَّ بَعْضُنَا بَعْضاً، لأَنَّ الْمَحَبَّةَ هِيَ مِنَ اللهِ، وَكُلُّ مَنْ يُحِبُّ فَقَدْ وُلِدَ مِنَ اللهِ وَيَعْرِفُ اللهَ."
+          },
+          {
+            "line": 1849,
+            "text": "8 He who does not love does not know God, for God is love."
+          },
+          {
+            "line": 1850,
+            "text": "Ⲫⲏⲉⲧⲉⲛ̀ϥ̀ⲉⲣⲁⲅⲁⲡⲁⲛ ⲁⲛ ⲙ̀ⲡⲉϥⲥⲟⲩⲉⲛ ⲫϯ ϫⲉ ⲫϯ ⲟⲩⲁⲅⲁⲡⲏ ⲡⲉ."
+          },
+          {
+            "line": 1851,
+            "text": "8 وَمَنْ لاَ يُحِبُّ لَمْ يَعْرِفِ اللهَ، لأَنَّ اللهَ مَحَبَّةٌ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 124,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Acts 13:13-49",
+    "reading_type": "acts",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 9,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "liturgy_of_the_word",
+        "printed_ref": "Acts 13:13-49",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 1953,
+            "text": "21 أَيُّهَا الأَوْلاَدُ احْفَظُوا أَنْفُسَكُمْ مِنَ الأَصْنَامِ. آمِينَ."
+          },
+          {
+            "line": 1954,
+            "text": "Do not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen."
+          },
+          {
+            "line": 1955,
+            "text": "Ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 1956,
+            "text": "لا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين."
+          },
+          {
+            "line": 1957,
+            "text": "\tActs 13:13-49"
+          },
+          {
+            "line": 1958,
+            "text": "(اعمال 13: 13-49)"
+          },
+          {
+            "line": 1959,
+            "text": "A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen."
+          },
+          {
+            "line": 1960,
+            "text": "فصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين."
+          },
+          {
+            "line": 1961,
+            "text": "13 Now when Paul and his party set sail from Paphos, they came to Perga in Pamphylia; and John, departing from them, returned to Jerusalem."
+          },
+          {
+            "line": 1962,
+            "text": "Ⲉ̀ⲧⲁⲩⲓ̀ ⲇⲉ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲁⲫⲟⲩ ⲛ̀ϫⲉ ⲛⲁ ⲡⲁⲩⲗⲟⲥ ⲛⲉⲙ ⲡⲁⲣⲛⲁⲃⲁⲥ ⲁⲩⲓ̀ ⲉ̀ⲡⲉⲣⲅⲏⲛ̀ⲧⲉ ϯⲡⲁⲙⲫⲓⲗⲓⲁ̀ Ⲓⲱⲁⲛⲛⲏⲥ ⲇⲉ ⲁϥⲫⲱⲣϫ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲱⲟⲩ ⲁϥⲕⲟⲧϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀Ⲓⲗ︦ⲏ︦ⲙ︦."
+          },
+          {
+            "line": 1963,
+            "text": "13 ثُمَّ أَقْلَعَ بُولُسُ وَمَنْ مَعَهُ مِنْ بَافُوسَ وَأَتَوْا إِلَى بَرْجَةَ بَمْفِيلِيَّةَ. وَأَمَّا يُوحَنَّا فَفَارَقَهُمْ وَرَجَعَ إِلَى أُورُشَلِيمَ."
+          },
+          {
+            "line": 1964,
+            "text": "14 But when they departed from Perga, they came to Antioch in Pisidia, and went into the synagogue on the Sabbath day and sat down."
+          },
+          {
+            "line": 1965,
+            "text": "Ⲛ̀ⲑⲱⲟⲩ ⲇⲉ ⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲉⲣⲅⲏⲁⲩⲓ̀ ⲉ̀ⲧ̀ⲁⲛϯⲟⲭⲓⲁ̀ ⲛ̀ⲧⲉ ϯⲡⲓⲥⲓⲇⲓⲁ̀ ⲟⲩⲟϩ ⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ϯⲥⲩⲛⲁⲅⲱⲅⲏ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ ⲛⲓⲥⲁⲃⲃⲁⲧⲟⲛ ⲁⲩϩⲉⲙⲥⲓ."
+          },
+          {
+            "line": 1966,
+            "text": "14 وَأَمَّا هُمْ فَجَازُوا مِنْ بَرْجَةَ وَأَتَوْا إِلَى أَنْطَاكِيَةَ بِيسِيدِيَّةَ وَدَخَلُوا الْمَجْمَعَ يَوْمَ السَّبْتِ وَجَلَسُوا."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 125,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Psalm 45:7-8",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 10,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "liturgy_of_the_word",
+        "printed_ref": "Psalms 45:7-8",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 2071,
+            "text": "49 وَانْتَشَرَتْ كَلِمَةُ الرَّبِّ فِي كُلِّ الْكُورَةِ."
+          },
+          {
+            "line": 2072,
+            "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+          },
+          {
+            "line": 2073,
+            "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 2074,
+            "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+          },
+          {
+            "line": 2075,
+            "text": "\tPsalms 45:7-8"
+          },
+          {
+            "line": 2076,
+            "text": "(مزامير 45: 7-8)"
+          },
+          {
+            "line": 2077,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 2078,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 2079,
+            "text": "You have loved righteousness, and hated iniquity; therefore, God, Your God, has anointed You with the oil of gladness more than Your fellows. Myrrh and aloes and cassia are from Your garments, and out of the ivory palaces, with which they have gladdened You"
+          },
+          {
+            "line": 2080,
+            "text": "أَحْبَبْتَ الْبِرَّ وَأَبْغَضْتَ الإِثْمَ مِنْ أَجْلِ ذَلِكَ مَسَحَكَ اللهُ إِلَهُكَ بِدُهْنِ الاِبْتِهَاجِ أَكْثَرَ مِنْ رُفَقَائِكَ. كُلُّ ثِيَابِكَ مُرٌّ وَعُودٌ وَسَلِيخَةٌ. مِنْ قُصُورِ الْعَاجِ سَرَّتْكَ الأَوْتَارُ."
+          },
+          {
+            "line": 2081,
+            "text": "\tJohn 19:38-20:18"
+          },
+          {
+            "line": 2082,
+            "text": "(يوحنا 19: 38-20: 18)"
+          },
+          {
+            "line": 2083,
+            "text": "38 After this, Joseph of Arimathea, being a disciple of Jesus, but secretly, for fear of the Jews, asked Pilate that he might take away the body of Jesus; and Pilate gave him permission. So he came and took the body of Jesus."
+          },
+          {
+            "line": 2084,
+            "text": "Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏⲫ ⲡⲓⲣⲉⲙⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀ⲡⲓⲗⲁⲧⲟⲥ ⲉ̀ⲟⲩⲙⲁⲑⲏ ⲧⲏⲥ ϩⲱϥ ⲡⲉ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲓⲟⲩⲇⲁⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲟⲩⲟϩ ⲁϥⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛ̀ϫⲉ ⲡⲓⲗⲁⲧⲟⲥ ⲉ̀ⲧⲏⲓϥ ⲁϥⲓ̀ ⲟⲩⲛ ⲟⲩⲟϩ ⲁϥⲱⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 126,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Psalm 89:20-21",
+    "reading_type": "psalm",
+    "verdict": "unresolved_reader_join",
+    "confidence": "unresolved",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Official Myron PDF page 35 gives a second liturgy Psalm (printed 88:14-15, corresponding in legacy to Psalm 89:20-21). Reader entire Oil of Gladness liturgy table has only Psalms 45:7-8. No same-stage Reader replacement is proven; do not join to Myron Consecration Psalms 89:19,20,21 merely because of shared words/book.",
+    "reader_evidence": [],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 127,
+    "legacy_context": [
+      "myron_consecration",
+      "consecration_day",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "John 19:38-42; John 20:1-18",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+        "ordinal": 11,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Oil of Gladness"
+        ],
+        "section": "liturgy_of_the_word",
+        "printed_ref": "John 19:38-20:18",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+        "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+        "lines": [
+          {
+            "line": 1568,
+            "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+          },
+          {
+            "line": 1569,
+            "text": "Offering of Evening Incense"
+          },
+          {
+            "line": 1637,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 1708,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 2077,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 2078,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 2079,
+            "text": "You have loved righteousness, and hated iniquity; therefore, God, Your God, has anointed You with the oil of gladness more than Your fellows. Myrrh and aloes and cassia are from Your garments, and out of the ivory palaces, with which they have gladdened You"
+          },
+          {
+            "line": 2080,
+            "text": "أَحْبَبْتَ الْبِرَّ وَأَبْغَضْتَ الإِثْمَ مِنْ أَجْلِ ذَلِكَ مَسَحَكَ اللهُ إِلَهُكَ بِدُهْنِ الاِبْتِهَاجِ أَكْثَرَ مِنْ رُفَقَائِكَ. كُلُّ ثِيَابِكَ مُرٌّ وَعُودٌ وَسَلِيخَةٌ. مِنْ قُصُورِ الْعَاجِ سَرَّتْكَ الأَوْتَارُ."
+          },
+          {
+            "line": 2081,
+            "text": "\tJohn 19:38-20:18"
+          },
+          {
+            "line": 2082,
+            "text": "(يوحنا 19: 38-20: 18)"
+          },
+          {
+            "line": 2083,
+            "text": "38 After this, Joseph of Arimathea, being a disciple of Jesus, but secretly, for fear of the Jews, asked Pilate that he might take away the body of Jesus; and Pilate gave him permission. So he came and took the body of Jesus."
+          },
+          {
+            "line": 2084,
+            "text": "Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏⲫ ⲡⲓⲣⲉⲙⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀ⲡⲓⲗⲁⲧⲟⲥ ⲉ̀ⲟⲩⲙⲁⲑⲏ ⲧⲏⲥ ϩⲱϥ ⲡⲉ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲓⲟⲩⲇⲁⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲟⲩⲟϩ ⲁϥⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛ̀ϫⲉ ⲡⲓⲗⲁⲧⲟⲥ ⲉ̀ⲧⲏⲓϥ ⲁϥⲓ̀ ⲟⲩⲛ ⲟⲩⲟϩ ⲁϥⲱⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦."
+          },
+          {
+            "line": 2085,
+            "text": "38 ثُمَّ إِنَّ يُوسُفَ الَّذِي مِنَ الرَّامَةِ وَهُوَ تِلْمِيذُ يَسُوعَ وَلَكِنْ خُفْيَةً لِسَبَبِ الْخَوْفِ مِنَ الْيَهُودِ سَأَلَ بِيلاَطُسَ أَنْ يَأْخُذَ جَسَدَ يَسُوعَ فَأَذِنَ بِيلاَطُسُ. فَجَاءَ وَأَخَذَ جَسَدَ يَسُوعَ."
+          },
+          {
+            "line": 2086,
+            "text": "39 And Nicodemus, who at first came to Jesus by night, also came, bringing a mixture of myrrh and aloes, about a hundred pounds."
+          },
+          {
+            "line": 2087,
+            "text": "Ⲁϥⲓ̀ ⲇⲉ ϩⲱϥ ⲛ̀ϫⲉ ⲛⲓⲕⲟⲇⲏⲙⲟⲥ ⲫⲏⲉⲧⲁϥⲓ̀ ϩⲁ Ⲓⲏ︦ⲥ︦ ⲛ̀ϫⲱⲣϩ ⲛ̀ϣⲟⲣⲡ ⲉ̀ⲟⲩⲟⲛ ⲟⲩⲙⲓⲅⲙⲁ ⲛ̀ⲧⲟⲧϥ ⲟⲩϣⲁⲗ ⲛⲉⲙ ⲟⲩⲁ̀ⲗⲗⲟⲏ ⲛⲁⲩⲣ︦ ⲛ̀ⲗⲓⲧⲣⲁ."
+          },
+          {
+            "line": 2088,
+            "text": "39 وَجَاءَ أَيْضاً نِيقُودِيمُوسُ الَّذِي أَتَى أَوَّلاً إِلَى يَسُوعَ لَيْلاً وَهُوَ حَامِلٌ مَزِيجَ مُرٍّ وَعُودٍ نَحْوَ مِئَةِ مَناً."
+          },
+          {
+            "line": 2089,
+            "text": "40 Then they took the body of Jesus, and bound it in strips of linen with the spices, as the custom of the Jews is to bury."
+          },
+          {
+            "line": 2090,
+            "text": "Ⲁⲩϭⲓ ⲟⲩⲛ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲟⲩⲟϩ ⲁⲩⲕⲟⲩⲗⲱⲗϥ ⲛ̀ϩⲁⲛϣⲉⲛⲧⲱ ⲛ̀ⲓⲁⲩ ⲛⲉⲙ ⲛⲓⲥ̀ⲑⲟⲓ ⲕⲁⲧⲁ ϯⲕⲁϩⲥ ⲛ̀ⲧⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲉⲩⲕⲱⲥ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      34,
+      35
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 128,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "matins"
+    ],
+    "legacy_raw_ref": "Psalm 51:7-8",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 1,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_offering_of_morning_incense",
+        "printed_ref": "Psalms 51:7-8",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 6,
+            "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+          },
+          {
+            "line": 7,
+            "text": "رفع بخور باكر"
+          },
+          {
+            "line": 8,
+            "text": "\tPsalms 51:7-8"
+          },
+          {
+            "line": 9,
+            "text": "(مزامير 51: 7-8)"
+          },
+          {
+            "line": 10,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 11,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 12,
+            "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Make me hear joy and gladness, That the afflicted bones may rejoice."
+          },
+          {
+            "line": 13,
+            "text": "Ⲉⲕⲉ̀ⲛⲟⲩϫϧ ⲉ̀ϫⲱⲓ ⲙ̀ⲡⲉⲕϣⲉⲛϩⲩⲥⲱⲡⲟⲛ ⲉⲓⲉ̀ⲧⲟⲩⲃⲟ: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲉⲓⲉ̀ⲟⲩⲃⲁϣ ⲉ̀ϩⲟⲧⲉ ⲟⲩⲭⲓⲱⲛ. Ⲉⲕⲉ̀ⲑ̀ⲣⲓⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲑⲉⲗⲏⲗ ⲛⲉⲙ ⲟⲩⲟⲩⲛⲟϥ: ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲛⲓⲕⲁⲥ ⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ: ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 14,
+            "text": "تَنْضَحُ عَلَيَّ بزُوفَاكَ فَأَطْهُرُ، وَتَغسِلُنِي فَأَبْيَضُّ أَكْثَرَ مِنَ الثَّلْجِ. تُسْمِعُنِي سُرُورًا وَفَرَحًا، فَتَبْتَهِجُ الْعِظَامُ الْمُتَوَاضِعَةُ."
+          },
+          {
+            "line": 15,
+            "text": "\tJohn 1:18-42"
+          },
+          {
+            "line": 16,
+            "text": "(يوحنا 1: 18-42)"
+          },
+          {
+            "line": 17,
+            "text": "18 No one has seen God at any time. The only begotten Son, who is in the bosom of the Father, He has declared Him."
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 129,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "matins"
+    ],
+    "legacy_raw_ref": "John 1:18-42",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 2,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_offering_of_morning_incense",
+        "printed_ref": "John 1:18-42",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 11,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 12,
+            "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Make me hear joy and gladness, That the afflicted bones may rejoice."
+          },
+          {
+            "line": 13,
+            "text": "Ⲉⲕⲉ̀ⲛⲟⲩϫϧ ⲉ̀ϫⲱⲓ ⲙ̀ⲡⲉⲕϣⲉⲛϩⲩⲥⲱⲡⲟⲛ ⲉⲓⲉ̀ⲧⲟⲩⲃⲟ: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲉⲓⲉ̀ⲟⲩⲃⲁϣ ⲉ̀ϩⲟⲧⲉ ⲟⲩⲭⲓⲱⲛ. Ⲉⲕⲉ̀ⲑ̀ⲣⲓⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲑⲉⲗⲏⲗ ⲛⲉⲙ ⲟⲩⲟⲩⲛⲟϥ: ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲛⲓⲕⲁⲥ ⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ: ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 14,
+            "text": "تَنْضَحُ عَلَيَّ بزُوفَاكَ فَأَطْهُرُ، وَتَغسِلُنِي فَأَبْيَضُّ أَكْثَرَ مِنَ الثَّلْجِ. تُسْمِعُنِي سُرُورًا وَفَرَحًا، فَتَبْتَهِجُ الْعِظَامُ الْمُتَوَاضِعَةُ."
+          },
+          {
+            "line": 15,
+            "text": "\tJohn 1:18-42"
+          },
+          {
+            "line": 16,
+            "text": "(يوحنا 1: 18-42)"
+          },
+          {
+            "line": 17,
+            "text": "18 No one has seen God at any time. The only begotten Son, who is in the bosom of the Father, He has declared Him."
+          },
+          {
+            "line": 18,
+            "text": "Ⲫϯ ⲙ̀ⲡⲉ ϩ̀ⲗⲓ ⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲉ̀ⲛⲉϩ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏ ⲥ ⲛ̀ⲛⲟⲩϯ ⲫⲏⲉⲧⲭⲏ ϧⲉⲛ ⲕⲉⲛϥ ⲙ̀ⲡⲉϥⲓⲱⲧ ⲛ̀ⲑⲟϥ ⲡⲉⲧⲁϥⲥⲁϫⲓ."
+          },
+          {
+            "line": 19,
+            "text": "18 اَللَّهُ لَمْ يَرَهُ أَحَدٌ قَطُّ. اَلاِبْنُ الْوَحِيدُ الَّذِي هُوَ فِي حِضْنِ الآبِ هُوَ خَبَّرَ."
+          },
+          {
+            "line": 20,
+            "text": "19 Now this is the testimony of John, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”"
+          },
+          {
+            "line": 21,
+            "text": "Ⲟⲩⲟϩ ⲑⲁⲓ ⲧⲉ ϯⲙⲉⲧⲙⲉⲑⲣⲉ ⲛ̀ⲧⲉ ⲓⲱⲁⲛⲛⲏⲥ ϩⲟⲧⲉ ⲉⲧⲁⲩⲟⲩⲱⲣⲡ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲓ̀ⲗ︦ⲏ︦ⲙ︦ ⲛ̀ϩⲁⲛⲟⲩⲏⲃ ⲛⲉⲙ ϩⲁⲛⲗⲉⲩⲓⲧⲏⲥ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣⲉⲛϥ ϫⲉ ⲛ̀ⲑⲟⲕ ⲛⲓⲙ."
+          },
+          {
+            "line": 22,
+            "text": "19 وَهَذِهِ هِيَ شَهَادَةُ يُوحَنَّا حِينَ أَرْسَلَ الْيَهُودُ مِنْ أُورُشَلِيمَ كَهَنَةً وَلاَوِيِّينَ لِيَسْأَلُوهُ: «مَنْ أَنْتَ؟»"
+          },
+          {
+            "line": 23,
+            "text": "20 He confessed, and did not deny, but confessed, “I am not the Christ.”"
+          },
+          {
+            "line": 24,
+            "text": "Ⲟⲩⲟϩ ⲁϥⲟⲩⲱⲛϩ ⲙ̀ⲡⲉϥϫⲱⲗ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲁϥⲟⲩⲱⲛϩ ϫⲉ ⲁ̀ⲛⲟⲕ ⲁⲛ ⲡⲉ Ⲡⲭ︦ⲥ︦."
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 130,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Hebrews 7:26-28; Hebrews 8; Hebrews 9:1-10",
+    "reading_type": "pauline",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 3,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_liturgy_of_the_word",
+        "printed_ref": "Hebrews 7:26-9:10",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 90,
+            "text": "Ⲫⲁⲓ ⲁϥⲉ̀ⲛϥ ϩⲁ Ⲓⲏ︦ⲥ︦ ⲉⲧⲁϥϫⲟⲩϣⲧ ⲇⲉ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲛ̀ⲑⲟⲕ ⲡⲉ ⲥⲓⲙⲱⲛ ⲡ̀ϣⲏⲣⲓ ⲛ̀ⲓⲱⲁⲛⲛⲏⲥ ⲛ̀ⲑⲟⲕ ⲉⲩⲉ̀ⲙⲟⲩϯ ⲉ̀ⲣⲟⲕ ϫⲉ ⲕⲏⲫⲁ ⲫⲏ ⲉ̀ϣⲁⲩⲟⲩⲁϩⲙⲉϥ ϫⲉ ⲡⲉⲧⲣⲟⲥ."
+          },
+          {
+            "line": 91,
+            "text": "42 فَجَاءَ بِهِ إِلَى يَسُوعَ. فَنَظَرَ إِلَيْهِ يَسُوعُ وَقَالَ: «أَنْتَ سِمْعَانُ بْنُ يُونَا. أَنْتَ تُدْعَى صَفَا» (الَّذِي تَفْسِيرُهُ: بُطْرُسُ)."
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 93,
+            "text": "قداسُ الكلمة"
+          },
+          {
+            "line": 94,
+            "text": "\tHebrews 7:26-9:10"
+          },
+          {
+            "line": 95,
+            "text": "(العبرانيين 7: 26-9: 10)"
+          },
+          {
+            "line": 96,
+            "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 97,
+            "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين."
+          },
+          {
+            "line": 98,
+            "text": "26 For such a High Priest was fitting for us, who is holy, harmless, undefiled, separate from sinners, and has become higher than the heavens;"
+          },
+          {
+            "line": 99,
+            "text": "Ⲟⲩⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲅⲁⲣ ⲙ̀ⲡⲁⲓⲣⲏϯ ⲉ̀ⲛⲁϥⲥⲁⲓⲱⲟⲩ ⲛⲁⲛ ⲉϥⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲁⲧⲡⲉⲧϩⲱⲟⲩ ⲛ̀ⲁⲧⲥⲱϥ ⲉϥⲫⲱⲣϫ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲣⲉϥⲉⲣⲛⲟⲃⲓ ⲟⲩⲟϩ ⲁϥϭⲓⲥⲓ ⲥⲁⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ̀."
+          },
+          {
+            "line": 100,
+            "text": "26 لأَنَّهُ كَانَ يَلِيقُ بِنَا رَئِيسُ كَهَنَةٍ مِثْلُ هَذَا، قُدُّوسٌ بِلاَ شَرٍّ وَلاَ دَنَسٍ، قَدِ انْفَصَلَ عَنِ الْخُطَاةِ وَصَارَ أَعْلَى مِنَ السَّمَاوَاتِ"
+          },
+          {
+            "line": 101,
+            "text": "27 who does not need daily, as those high priests, to offer up sacrifices, first for His own sins and then for the people’s, for this He did once for all when He offered up Himself."
+          },
+          {
+            "line": 102,
+            "text": "Ⲫⲁⲓ ⲉⲧⲉ ⲙ̀ⲙⲟⲛ ⲁⲛⲁⲅⲕⲏ ⲧⲟⲓ ⲉ̀ⲣⲟϥ ⲙ̀ⲙⲏⲛⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲓⲁⲣⲭⲏⲉⲣⲉⲩⲥ ⲉ̀ϣⲁⲩⲉⲛ ϣⲟⲩϣⲱⲟⲩϣⲓ ⲛ̀ϩ̀ⲣⲏⲓ ⲛ̀ϣⲟⲣⲡ ⲉ̀ϫⲉⲛ ⲛⲟⲩⲛⲟⲃⲓ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲱⲟⲩ ⲙⲉⲛⲉⲛⲥⲱⲥ ϣⲁⲩⲓ̀ⲛⲓ ⲉ̀ϫⲉⲛ ⲛⲁ ⲡⲓⲗⲁⲟⲥ ⲫⲁⲓ ⲅⲁⲣ ⲁϥⲁⲓϥ ⲉ̀ⲁϥⲉ̀ⲛϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲟⲩⲥⲟⲡ."
+          },
+          {
+            "line": 103,
+            "text": "27 الَّذِي لَيْسَ لَهُ اضْطِرَارٌ كُلَّ يَوْمٍ مِثْلُ رُؤَسَاءِ الْكَهَنَةِ أَنْ يُقَدِّمَ ذَبَائِحَ أَوَّلاً عَنْ خَطَايَا نَفْسِهِ ثُمَّ عَنْ خَطَايَا الشَّعْبِ، لأَنَّهُ فَعَلَ هَذَا مَرَّةً وَاحِدَةً، إِذْ قَدَّمَ نَفْسَهُ."
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 131,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "1 Peter 3:8-22; 1 Peter 4:1-11",
+    "reading_type": "catholic",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 4,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_liturgy_of_the_word",
+        "printed_ref": "1 Peter 3:8-4:11",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 174,
+            "text": "Ⲙⲟⲛⲟⲛ ⲉ̀ϫⲉⲛ ϩⲁⲛⲟⲩⲱⲙ ⲛⲉⲙ ϩⲁⲛⲥⲱ ⲛⲉⲙ ϩⲁⲛⲱⲙⲥ ⲉⲩϣⲉⲃⲓⲏⲟⲩⲧ ⲉⲧⲉ ϩⲁⲛⲙⲉⲑⲙⲏⲓ ⲛ̀ⲧⲉ ⲧ̀ⲥⲁⲣⲝ ⲛⲉ ϣⲁ ⲡ̀ⲥⲏⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲧⲁϩⲟ ⲉ̀ⲣⲁⲧϥ."
+          },
+          {
+            "line": 175,
+            "text": "10 وَهِيَ قَائِمَةٌ بِأَطْعِمَةٍ وَأَشْرِبَةٍ وَغَسَلاَتٍ مُخْتَلِفَةٍ وَفَرَائِضَ جَسَدِيَّةٍ فَقَطْ، مَوْضُوعَةٍ إِلَى وَقْتِ الإِصْلاَحِ."
+          },
+          {
+            "line": 176,
+            "text": "The grace of God the Father be with you all. Amen."
+          },
+          {
+            "line": 177,
+            "text": "نعمة الله الآب تكون مع جميعِكم. آمين."
+          },
+          {
+            "line": 178,
+            "text": "\t1 Peter 3:8-4:11"
+          },
+          {
+            "line": 179,
+            "text": "(1 بطرس 3: 8-4: 11)"
+          },
+          {
+            "line": 180,
+            "text": "The Catholic Epistle from the first Epistle of our teacher St. Peter. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 181,
+            "text": "الكاثوليكون من رسالة بطرس الرسول الأولى. بركته تكون معنا. آمين."
+          },
+          {
+            "line": 182,
+            "text": "8 Finally, all of you be of one mind, having compassion for one another; love as brothers, be tenderhearted, be courteous;"
+          },
+          {
+            "line": 183,
+            "text": "Ⲡ̀ϫⲱⲕ ⲇⲉ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ⲟⲩⲙⲉⲩⲓ ⲛ̀ⲟⲩⲱⲧ ⲧⲏⲣⲟⲩ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ϣ̀ⲫⲏⲣ ⲛ̀ϭⲓϧⲓⲥⲓ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲙ̀ⲙⲁⲓⲥⲟⲛ ⲛ̀ϣⲁⲛⲑ̀ⲙⲁϧⲧ ⲉⲣⲉⲧⲉⲛⲑⲉⲃⲓⲏ ⲟⲩⲧ."
+          },
+          {
+            "line": 184,
+            "text": "8 وَالنِّهَايَةُ، كُونُوا جَمِيعاً مُتَّحِدِي الرَّأْيِ بِحِسٍّ وَاحِدٍ، ذَوِي مَحَبَّةٍ أَخَوِيَّةٍ، مُشْفِقِينَ، لُطَفَاءَ،"
+          },
+          {
+            "line": 185,
+            "text": "9 not returning evil for evil or reviling for reviling, but on the contrary blessing, knowing that you were called to this, that you may inherit a blessing."
+          },
+          {
+            "line": 186,
+            "text": "Ⲛ̀ⲧⲉⲧⲉⲛϯ ⲛ̀ⲟⲩⲡⲉⲧϩⲱⲟⲩ ⲁⲛ ϧⲁ ⲟⲩⲡⲉⲧϩⲱⲟⲩ ⲟⲩⲇⲉ ⲟⲩϩⲱⲟⲩϣ ϧⲁ ⲟⲩϩⲱⲟⲩϣ ⲡⲉⲧⲟⲩⲃⲏϥ ⲇⲉ ⲉⲣⲉⲧⲉⲛⲥ̀ⲙⲟⲩ ϫⲉ ⲉⲧⲁⲩⲑⲁϩⲉⲙ ⲑⲏⲛⲟⲩ ⲉ̀ⲡⲁⲓϩⲱⲃ ϩⲓⲛⲁ ⲛ̀ⲧⲉⲧⲉⲛⲉⲣⲕ̀ⲗⲏ ⲣⲟⲛⲟⲙⲓⲛ ⲙ̀ⲡⲓⲥ̀ⲙⲟⲩ."
+          },
+          {
+            "line": 187,
+            "text": "9 غَيْرَ مُجَازِينَ عَنْ شَرٍّ بِشَرٍّ أَوْ عَنْ شَتِيمَةٍ بِشَتِيمَةٍ، بَلْ بِالْعَكْسِ مُبَارِكِينَ، عَالِمِينَ أَنَّكُمْ لِهَذَا دُعِيتُمْ لِكَيْ تَرِثُوا بَرَكَةً."
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 132,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Acts 18:24-28; Acts 19:1-20",
+    "reading_type": "acts",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 5,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_liturgy_of_the_word",
+        "printed_ref": "Acts 18:24-19:20",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 259,
+            "text": "11 إِنْ كَانَ يَتَكَلَّمُ أَحَدٌ فَكَأَقْوَالِ اللهِ، وَإِنْ كَانَ يَخْدِمُ أَحَدٌ فَكَأَنَّهُ مِنْ قُوَّةٍ يَمْنَحُهَا اللهُ، لِكَيْ يَتَمَجَّدَ اللهُ فِي كُلِّ شَيْءٍ بِيَسُوعَ الْمَسِيحِ، الَّذِي لَهُ الْمَجْدُ وَالسُّلْطَانُ إِلَى أَبَدِ الآبِدِينَ. آمِينَ."
+          },
+          {
+            "line": 260,
+            "text": "Do not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen."
+          },
+          {
+            "line": 261,
+            "text": "Ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 262,
+            "text": "لا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين."
+          },
+          {
+            "line": 263,
+            "text": "\tActs 18:24-19:20"
+          },
+          {
+            "line": 264,
+            "text": "(اعمال 18: 24-19: 20)"
+          },
+          {
+            "line": 265,
+            "text": "A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen."
+          },
+          {
+            "line": 266,
+            "text": "فصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين."
+          },
+          {
+            "line": 267,
+            "text": "24 Now a certain Jew named Apollos, born at Alexandria, an eloquent man and mighty in the Scriptures, came to Ephesus."
+          },
+          {
+            "line": 268,
+            "text": "Ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲒⲟⲩⲇⲁⲓ ⲇⲉ ⲡⲉ ⲡⲉϥⲣⲁⲛ ⲡⲉ ⲁ̀ⲡⲉⲗⲗⲏⲥ ⲉ̀ⲟⲩⲣⲉⲙⲣⲁⲕⲟϯ ⲡⲉ ϧⲉⲛ ⲡⲉϥⲅⲉⲛⲟⲥ ⲉ̀ⲟⲩⲣⲱⲙⲓ ⲡⲉ ⲛ̀ⲗⲟⲅⲓⲙⲟⲥ ⲉ̀ⲁϥⲉⲣⲕⲁⲧⲁⲛⲧⲁⲛ ⲉ̀ⲉⲫⲉⲥⲟⲥⲉ ⲟⲩⲟⲛϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲛⲓⲅ̀ⲣⲁⲫⲏ."
+          },
+          {
+            "line": 269,
+            "text": "24 ثُمَّ أَقْبَلَ إِلَى أَفَسُسَ يَهُودِيٌّ اسْمُهُ أَبُلُّوسُ إِسْكَنْدَرِيُّ الْجِنْسِ رَجُلٌ فَصِيحٌ مُقْتَدِرٌ فِي الْكُتُبِ."
+          },
+          {
+            "line": 270,
+            "text": "25 This man had been instructed in the way of the Lord; and being fervent in spirit, he spoke and taught accurately the things of the Lord, though he knew only the baptism of John."
+          },
+          {
+            "line": 271,
+            "text": "Ⲫⲁⲓ ⲛⲉ ⲁⲩⲉⲣⲕⲁⲑⲏⲕⲓⲛ ⲙ̀ⲙⲟϥ ⲉ̀ⲡⲓⲙⲱⲓⲧ ⲛ̀ⲧⲉ Ⲡⲟ︦ⲥ︦ ⲟⲩⲟϩ ⲉϥϧⲏⲙ ϧⲉⲛ ⲡⲓⲡⲛ︦ⲁ︦ ⲛⲁϥⲥⲁϫⲓ ⲟⲩⲟϩ ⲛⲁϥϯⲥ̀ⲃⲱ ϧⲉⲛ ⲟⲩⲧⲁϫⲣⲟ ⲉⲑⲃⲉ Ⲓⲏ︦ⲥ︦ ⲉ̀ⲡⲓⲱⲙⲥ ⲛ̀ⲧⲉ Ⲓⲱⲁⲛⲛⲏⲥ ⲙ̀ⲙⲁⲩⲁⲧϥ ⲉ̀ⲧⲉϥⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟϥ."
+          },
+          {
+            "line": 272,
+            "text": "25 كَانَ هَذَا خَبِيراً فِي طَرِيقِ الرَّبِّ. وَكَانَ وَهُوَ حَارٌّ بِالرُّوحِ يَتَكَلَّمُ وَيُعَلِّمُ بِتَدْقِيقٍ مَا يَخْتَصُّ بِالرَّبِّ. عَارِفاً مَعْمُودِيَّةَ يُوحَنَّا فَقَطْ."
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 133,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Psalm 132:1",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 6,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_liturgy_of_the_word",
+        "printed_ref": "Psalms 133:1",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 341,
+            "text": "20 هَكَذَا كَانَتْ كَلِمَةُ الرَّبِّ تَنْمُو وَتَقْوَى بِشِدَّةٍ."
+          },
+          {
+            "line": 342,
+            "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+          },
+          {
+            "line": 343,
+            "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 344,
+            "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+          },
+          {
+            "line": 345,
+            "text": "\tPsalms 133:1"
+          },
+          {
+            "line": 346,
+            "text": "(مزامير 133: 1)"
+          },
+          {
+            "line": 347,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 348,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 349,
+            "text": "Behold! What is so good, or what so pleasant, as for brothers dwelling together?"
+          },
+          {
+            "line": 350,
+            "text": "هُوَذَا مَا أَحْسَنَ وَمَا أَجْمَلَ أَنْ يَسْكُنَ الإِخْوَةُ مَعاً!"
+          },
+          {
+            "line": 351,
+            "text": "\tMatthew 26:6-13"
+          },
+          {
+            "line": 352,
+            "text": "(متى 26: 6-13)"
+          },
+          {
+            "line": 353,
+            "text": "6 And when Jesus was in Bethany at the house of Simon the leper,"
+          },
+          {
+            "line": 354,
+            "text": "Ⲓⲏ︦ⲥ︦ ⲇⲉ ⲉϥⲭⲏ ϧⲉⲛ Ⲃⲏⲑⲁⲛⲓⲁ̀ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲕⲥⲉϩⲧ."
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 134,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_1",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Matthew 26:6-13",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 7,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "first_liturgy_liturgy_of_the_word",
+        "printed_ref": "Matthew 26:6-13",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 347,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 348,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 349,
+            "text": "Behold! What is so good, or what so pleasant, as for brothers dwelling together?"
+          },
+          {
+            "line": 350,
+            "text": "هُوَذَا مَا أَحْسَنَ وَمَا أَجْمَلَ أَنْ يَسْكُنَ الإِخْوَةُ مَعاً!"
+          },
+          {
+            "line": 351,
+            "text": "\tMatthew 26:6-13"
+          },
+          {
+            "line": 352,
+            "text": "(متى 26: 6-13)"
+          },
+          {
+            "line": 353,
+            "text": "6 And when Jesus was in Bethany at the house of Simon the leper,"
+          },
+          {
+            "line": 354,
+            "text": "Ⲓⲏ︦ⲥ︦ ⲇⲉ ⲉϥⲭⲏ ϧⲉⲛ Ⲃⲏⲑⲁⲛⲓⲁ̀ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲕⲥⲉϩⲧ."
+          },
+          {
+            "line": 355,
+            "text": "6 وَفِيمَا كَانَ يَسُوعُ فِي بَيْتِ عَنْيَا فِي بَيْتِ سِمْعَانَ الأَبْرَصِ"
+          },
+          {
+            "line": 356,
+            "text": "7 a woman came to Him having an alabaster flask of very costly fragrant oil, and she poured it on His head as He sat at the table."
+          },
+          {
+            "line": 357,
+            "text": "Ⲁⲥⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲟⲩⲥ̀ϩⲓⲙⲓ ⲉ̀ⲣⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲕⲓ ⲛ̀ⲥⲟϫⲉⲛ ⲛ̀ⲧⲟⲧⲥ ⲉ̀ⲛⲁϣⲉ ⲛ̀ⲥⲟⲩⲉⲛϥ ⲟⲩⲟϩ ⲁⲥϫⲟϣϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲧⲉϥⲁ̀ⲫⲉ ⲉϥⲣⲱⲧⲉⲃ."
+          },
+          {
+            "line": 358,
+            "text": "7 تَقَدَّمَتْ إِلَيْهِ امْرَأَةٌ مَعَهَا قَارُورَةُ طِيبٍ كَثِيرِ الثَّمَنِ فَسَكَبَتْهُ عَلَى رَأْسِهِ وَهُوَ مُتَّكِئٌ."
+          },
+          {
+            "line": 359,
+            "text": "8 But when His disciples saw it, they were indignant, saying, “Why this waste?"
+          },
+          {
+            "line": 360,
+            "text": "Ⲉ̀ⲧⲁⲩⲛⲁⲩ ⲇⲉ ⲛ̀ϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲁⲩⲭ̀ⲣⲉⲙⲣⲉⲙ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲡⲁⲓⲧⲁⲕⲟ ⲟⲩ ⲡⲉ."
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 135,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "matins"
+    ],
+    "legacy_raw_ref": "Psalm 28:3-4",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 8,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_offering_of_morning_incense",
+        "printed_ref": "Psalms 29:3-4",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 379,
+            "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+          },
+          {
+            "line": 380,
+            "text": "رفع بخور باكر"
+          },
+          {
+            "line": 381,
+            "text": "\tPsalms 29:3-4"
+          },
+          {
+            "line": 382,
+            "text": "(مزامير 29: 3-4)"
+          },
+          {
+            "line": 383,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 384,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 385,
+            "text": "The voice of the Lord is over the waters; The God of glory thunders; The Lord is over many waters. The voice of the Lord is powerful. The voice of the Lord is full of majesty."
+          },
+          {
+            "line": 386,
+            "text": "Ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ ⲁϥⲉⲣϧⲁⲣⲁⲃⲁⲓ: Ⲡⲟ︦ⲥ︦ ϩⲓϫⲉⲛ ϩⲁⲛⲙⲱⲟⲩ ⲉⲩⲟϣ: ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩϫⲟⲙ: ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲉⲧⲥⲁⲓⲉ̀. ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 387,
+            "text": "صوت الرب على المياه إله المجد أرعد، الرب على المياه الكثيرة، صوت الرب بقوة، صوت الرب بجلال عظيم. هلليلويا"
+          },
+          {
+            "line": 388,
+            "text": "\tJohn 3:22-4:2"
+          },
+          {
+            "line": 389,
+            "text": "(يوحنا 3: 22-4: 2)"
+          },
+          {
+            "line": 390,
+            "text": "22 After these things Jesus and His disciples came into the land of Judea, and there He remained with them and baptized."
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 136,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "matins"
+    ],
+    "legacy_raw_ref": "John 3:22-36; John 4:1-2",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 9,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_offering_of_morning_incense",
+        "printed_ref": "John 3:22-4:2",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 384,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 385,
+            "text": "The voice of the Lord is over the waters; The God of glory thunders; The Lord is over many waters. The voice of the Lord is powerful. The voice of the Lord is full of majesty."
+          },
+          {
+            "line": 386,
+            "text": "Ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ ⲁϥⲉⲣϧⲁⲣⲁⲃⲁⲓ: Ⲡⲟ︦ⲥ︦ ϩⲓϫⲉⲛ ϩⲁⲛⲙⲱⲟⲩ ⲉⲩⲟϣ: ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩϫⲟⲙ: ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲉⲧⲥⲁⲓⲉ̀. ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 387,
+            "text": "صوت الرب على المياه إله المجد أرعد، الرب على المياه الكثيرة، صوت الرب بقوة، صوت الرب بجلال عظيم. هلليلويا"
+          },
+          {
+            "line": 388,
+            "text": "\tJohn 3:22-4:2"
+          },
+          {
+            "line": 389,
+            "text": "(يوحنا 3: 22-4: 2)"
+          },
+          {
+            "line": 390,
+            "text": "22 After these things Jesus and His disciples came into the land of Judea, and there He remained with them and baptized."
+          },
+          {
+            "line": 391,
+            "text": "Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲛⲉⲙ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉ̀ⲡ̀ⲕⲁϩⲓ ⲛ̀ⲧⲉ ϯⲓⲟⲩⲇⲉⲁ̀ ⲟⲩⲟϩ ⲛⲁϥⲭⲏ ⲙ̀ⲙⲁⲩ ⲛⲉⲙⲱⲟⲩ ⲡⲉ ⲉϥϯⲱⲙⲥ."
+          },
+          {
+            "line": 392,
+            "text": "22 وَبَعْدَ هَذَا جَاءَ يَسُوعُ وَتلاَمِيذُهُ إِلَى أَرْضِ الْيَهُودِيَّةِ وَمَكَثَ مَعَهُمْ هُنَاكَ وَكَانَ يُعَمِّدُ."
+          },
+          {
+            "line": 393,
+            "text": "23 Now John also was baptizing in Aenon near Salim, because there was much water there. And they came and were baptized."
+          },
+          {
+            "line": 394,
+            "text": "Ⲛⲁⲣⲉ ⲡ̀ⲕⲉⲓⲱⲁⲛⲛⲏⲥ ⲇⲉ ϯⲱⲙⲥ ⲡⲉ ϧⲉⲛ ⲉ̀ⲛⲱⲛ ϧⲁⲧⲉⲛ ⲥⲁⲗⲓⲙ ϫⲉ ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲏϣ ⲙ̀ⲙⲱⲟⲩ ⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ⲛⲁⲩⲛⲏⲟⲩ ⲟⲩⲟϩ ⲛⲁⲩϭⲓⲱⲙⲥ ⲡⲉ."
+          },
+          {
+            "line": 395,
+            "text": "23 وَكَانَ يُوحَنَّا أَيْضاً يُعَمِّدُ فِي عَيْنِ نُونٍ بِقُرْبِ سَالِيمَ لأَنَّهُ كَانَ هُنَاكَ مِيَاهٌ كَثِيرَةٌ وَكَانُوا يَأْتُونَ وَيَعْتَمِدُونَ -"
+          },
+          {
+            "line": 396,
+            "text": "24 For John had not yet been thrown into prison."
+          },
+          {
+            "line": 397,
+            "text": "Ⲛⲉ ⲙ̀ⲡⲁⲧⲟⲩϩⲓⲟⲩⲓ̀ ⲇⲉ ⲛ̀ⲓⲱⲁⲛⲛⲏⲥ ⲉ̀ⲡ̀ϣ̀ⲧⲉⲕⲟ ⲡⲉ."
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 137,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Hebrews 1:1-14; Hebrews 2:1-4",
+    "reading_type": "pauline",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 10,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_liturgy_of_the_word",
+        "printed_ref": "Hebrews 1:1-2:4",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 439,
+            "text": "Ⲕⲉⲧⲟⲓ Ⲓⲏ︦ⲥ︦ ⲛ̀ⲑⲟϥ ⲁⲛ ⲉ̀ⲛⲁϥϯⲱⲙⲥ ⲁⲗⲗⲁ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲛⲉ."
+          },
+          {
+            "line": 440,
+            "text": "2 مَعَ أَنَّ يَسُوعَ نَفْسَهُ لَمْ يَكُنْ يُعَمِّدُ بَلْ تلاَمِيذُهُ -"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 442,
+            "text": "قداسُ الكلمة"
+          },
+          {
+            "line": 443,
+            "text": "\tHebrews 1:1-2:4"
+          },
+          {
+            "line": 444,
+            "text": "(العبرانيين 1: 1-2: 4)"
+          },
+          {
+            "line": 445,
+            "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 446,
+            "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين."
+          },
+          {
+            "line": 447,
+            "text": "1 God, who at various times and in various ways spoke in time past to the fathers by the prophets,"
+          },
+          {
+            "line": 448,
+            "text": "Ϧⲉⲛ ⲟⲩⲑⲟ ⲛ̀ⲣⲏϯ ⲛⲉⲙ ⲟⲩⲙⲏϣ ⲛ̀ⲥ̀ⲙⲟⲧ ⲓⲥϫⲉⲛ ϩⲏ ⲁ ⲫϯ ⲥⲁϫⲓ ⲛⲉⲙ ⲛⲉⲛⲓⲟϯ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ."
+          },
+          {
+            "line": 449,
+            "text": "1 اَللهُ، بَعْدَ مَا كَلَّمَ الآبَاءَ بِالأَنْبِيَاءِ قَدِيماً، بِأَنْوَاعٍ وَطُرُقٍ كَثِيرَةٍ،"
+          },
+          {
+            "line": 450,
+            "text": "2 has in these last days spoken to us by His Son, whom He has appointed heir of all things, through whom also He made the worlds;"
+          },
+          {
+            "line": 451,
+            "text": "Ⲉ̀ⲡ̀ϧⲁⲉ̀ ⲇⲉ ⲛ̀ⲧⲉ ⲛⲁⲓⲉ̀ϩⲟⲟⲩ ⲛⲁⲓ ⲁϥⲥⲁϫⲓ ⲛⲉⲙⲁⲛ ϧⲉⲛ ⲟⲩϣⲏⲣⲓ ⲫⲁⲓ ⲉⲧⲁϥⲭⲁϥ ⲛ̀ⲕ̀ⲗⲏ ⲣⲟⲛⲟⲙⲟⲥ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲟⲩⲟϩ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ ⲁϥⲑⲁⲙⲓⲉ̀ ⲛ̀ⲛⲓⲉⲛⲉϩ."
+          },
+          {
+            "line": 452,
+            "text": "2 كَلَّمَنَا فِي هَذِهِ الأَيَّامِ الأَخِيرَةِ فِي ابْنِهِ - الَّذِي جَعَلَهُ وَارِثاً لِكُلِّ شَيْءٍ، الَّذِي بِهِ أَيْضاً عَمِلَ الْعَالَمِينَ."
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 138,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "1 Peter 1:10-25; 1 Peter 2:1-10",
+    "reading_type": "catholic",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 11,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_liturgy_of_the_word",
+        "printed_ref": "1 Peter 1:10-2:10",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 499,
+            "text": "Ⲉⲣⲉ ⲫϯ ⲉⲣⲙⲉⲑⲣⲉ ⲛⲉⲙⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲙⲏ ⲓⲛⲓ ⲛⲉⲙ ϩⲁⲛϣ̀ⲫⲏⲣⲓ ⲛⲉⲙ ϩⲁⲛϫⲟⲙ ⲛ̀ⲟⲩⲑⲟ ⲛ̀ⲣⲏϯ ⲛⲉⲙ ϩⲁⲛⲧⲟⲓ ⲙ̀ⲫⲱϣ ⲛ̀ⲧⲉ ⲡⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ ⲕⲁⲧⲁ ⲡⲉⲧⲉϩⲛⲁϥ."
+          },
+          {
+            "line": 500,
+            "text": "4 شَاهِداً اللهُ مَعَهُمْ بِآيَاتٍ وَعَجَائِبَ وَقُوَّاتٍ مُتَنَّوِعَةٍ وَمَوَاهِبِ الرُّوحِ الْقُدُسِ، حَسَبَ إِرَادَتِهِ؟"
+          },
+          {
+            "line": 501,
+            "text": "The grace of God the Father be with you all. Amen."
+          },
+          {
+            "line": 502,
+            "text": "نعمة الله الآب تكون مع جميعِكم. آمين."
+          },
+          {
+            "line": 503,
+            "text": "\t1 Peter 1:10-2:10"
+          },
+          {
+            "line": 504,
+            "text": "(1 بطرس 1: 10-2: 10)"
+          },
+          {
+            "line": 505,
+            "text": "The Catholic Epistle from the first Epistle of our teacher St. Peter. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 506,
+            "text": "الكاثوليكون من رسالة بطرس الرسول الأولى. بركته تكون معنا. آمين."
+          },
+          {
+            "line": 507,
+            "text": "10 Of this salvation the prophets have inquired and searched carefully, who prophesied of the grace that would come to you,"
+          },
+          {
+            "line": 508,
+            "text": "Ⲉⲑⲃⲉⲫⲁⲓ ⲛⲟϩⲉⲙ ⲅⲁⲣ ⲁⲩⲕⲱϯ ⲛ̀ϫⲉ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ ⲟⲩⲟϩ ⲁⲩϧⲟⲧϧⲉⲧ ⲛⲏⲉⲧⲁⲩⲉⲣⲡ̀ⲣⲟⲫⲏ ⲧⲉⲩⲓⲛ ϧⲁ ⲡⲓϩ̀ⲙⲟⲧ ⲉⲧⲁϥϣⲱⲡⲓ ϧⲉⲛ ⲑⲏⲛⲟⲩ."
+          },
+          {
+            "line": 509,
+            "text": "10 الْخَلاَصَ الَّذِي فَتَّشَ وَبَحَثَ عَنْهُ أَنْبِيَاءُ، الَّذِينَ تَنَبَّأُوا عَنِ النِّعْمَةِ الَّتِي لأَجْلِكُمْ،"
+          },
+          {
+            "line": 510,
+            "text": "11 searching what, or what manner of time, the Spirit of Christ who was in them was indicating when He testified beforehand the sufferings of Christ and the glories that would follow."
+          },
+          {
+            "line": 511,
+            "text": "Ⲉⲩϧⲟⲧϧⲉⲧ ⲛ̀ⲥⲁ ⲡⲓⲥⲏⲟⲩ ⲉⲧⲁ ⲡⲓⲡⲛ︦ⲁ︦ ⲛ̀ⲧⲉ Ⲡⲭ︦ⲥ︦ ⲥⲁϫⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲉ̀ⲁⲩⲉⲣϣⲟⲣⲡ ⲛ̀ⲉⲣⲙⲉⲑⲣⲉ ϧⲁ ⲛⲓⲙ̀ⲕⲁⲩϩ ⲛ̀ⲧⲉ Ⲡⲭ︦ⲥ︦ ⲛⲉⲙ ⲛⲓⲱⲟⲩ ⲉⲑⲛⲏⲟⲩ ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ."
+          },
+          {
+            "line": 512,
+            "text": "11 بَاحِثِينَ أَيُّ وَقْتٍ أَوْ مَا الْوَقْتُ الَّذِي كَانَ يَدُلُّ عَلَيْهِ رُوحُ الْمَسِيحِ الَّذِي فِيهِمْ، إِذْ سَبَقَ فَشَهِدَ بِالآلاَمِ الَّتِي لِلْمَسِيحِ وَالأَمْجَادِ الَّتِي بَعْدَهَا."
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 139,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Acts 2:22-47; Acts 3:1-10",
+    "reading_type": "acts",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 12,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_liturgy_of_the_word",
+        "printed_ref": "Acts 2:22-3:10",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 584,
+            "text": "10 الَّذِينَ قَبْلاً لَمْ تَكُونُوا شَعْباً، وَأَمَّا الآنَ فَأَنْتُمْ شَعْبُ اللهِ. الَّذِينَ كُنْتُمْ غَيْرَ مَرْحُومِينَ، وَأَمَّا الآنَ فَمَرْحُومُونَ."
+          },
+          {
+            "line": 585,
+            "text": "Do not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen."
+          },
+          {
+            "line": 586,
+            "text": "Ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 587,
+            "text": "لا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين."
+          },
+          {
+            "line": 588,
+            "text": "\tActs 2:22-3:10"
+          },
+          {
+            "line": 589,
+            "text": "(اعمال 2: 22-3: 10)"
+          },
+          {
+            "line": 590,
+            "text": "A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen."
+          },
+          {
+            "line": 591,
+            "text": "فصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين."
+          },
+          {
+            "line": 592,
+            "text": "22 “Men of Israel, hear these words: Jesus of Nazareth, a Man attested by God to you by miracles, wonders, and signs which God did through Him in your midst, as you yourselves also know—"
+          },
+          {
+            "line": 593,
+            "text": "Ⲛⲓⲣⲱⲙⲓ ⲛⲓⲓⲥⲣⲁⲏⲗⲓⲧⲏⲥ ⲥⲱⲧⲉⲙ ⲉ̀ⲛⲁⲥⲁϫⲓ ⲛⲁⲓ Ⲓⲏ︦ⲥ︦ ⲡⲓⲚⲁⲍⲱⲣⲉⲟⲥ ⲟⲩⲣⲱⲙⲓ ⲉⲁ Ⲫϯ ⲟⲩⲟⲛϩϥ ⲉ̀ⲃⲟⲗ ϣⲁⲣⲱⲧⲉⲛ ⲡⲉ ϧⲉⲛ ϩⲁⲛϫⲟⲙ ⲛⲉⲙ ϩⲁⲛⲙⲏⲓⲛⲓ ⲛⲉⲙ ϩⲁⲛϣ̀ⲫⲏⲣⲓ ⲛⲏⲉ̀ⲧⲁ Ⲫϯ ⲁⲓⲧⲟⲩ ⲉ̀ⲃⲟⲗϩⲓⲧⲟⲧϥ ϧⲉⲛ ⲧⲉⲧⲉⲛⲙⲏϯ ⲕⲁⲧⲁⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲛ̀ⲑⲱⲧⲉⲛ."
+          },
+          {
+            "line": 594,
+            "text": "22 «أَيُّهَا الرِّجَالُ الإِسْرَائِيلِيُّونَ اسْمَعُوا هَذِهِ الأَقْوَالَ: يَسُوعُ النَّاصِرِيُّ رَجُلٌ قَدْ تَبَرْهَنَ لَكُمْ مِنْ قِبَلِ اللهِ بِقُوَّاتٍ وَعَجَائِبَ وَآيَاتٍ صَنَعَهَا اللهُ بِيَدِهِ فِي وَسَطِكُمْ كَمَا أَنْتُمْ أَيْضاً تَعْلَمُونَ."
+          },
+          {
+            "line": 595,
+            "text": "23 Him, being delivered by the determined purpose and foreknowledge of God, you have taken by lawless hands, have crucified, and put to death;"
+          },
+          {
+            "line": 596,
+            "text": "Ⲫⲁⲓ ϧⲉⲛ ⲡⲓⲥⲟϭⲛⲓ ⲉⲧⲑⲏϣ ⲛⲉⲙ ⲡⲓϣⲟⲣⲡ ⲛ̀ⲉ̀ⲙⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉ̀ⲁⲧⲉⲧⲉⲛⲧⲏⲓϥ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ⲛⲉⲛϫⲓϫ ⲛ̀ⲛⲓⲁ̀ⲛⲟⲙⲟⲥ ⲉ̀ⲁ̀ⲣⲉⲧⲉⲛⲁϣϥ ⲟⲩⲟϩ ⲁ̀ⲣⲉⲧⲉⲛϧⲟⲑⲃⲉϥ."
+          },
+          {
+            "line": 597,
+            "text": "23 هَذَا أَخَذْتُمُوهُ مُسَلَّماً بِمَشُورَةِ اللهِ الْمَحْتُومَةِ وَعِلْمِهِ السَّابِقِ وَبِأَيْدِي أَثَمَةٍ صَلَبْتُمُوهُ وَقَتَلْتُمُوهُ."
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 140,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Psalm 129:2-5",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 13,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_liturgy_of_the_word",
+        "printed_ref": "Psalms 130:2-5",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 699,
+            "text": "10 وَعَرَفُوهُ أَنَّهُ هُوَ الَّذِي كَانَ يَجْلِسُ لأَجْلِ الصَّدَقَةِ عَلَى بَابِ الْهَيْكَلِ الْجَمِيلِ فَامْتَلأُوا دَهْشَةً وَحَيْرَةً مِمَّا حَدَثَ لَهُ."
+          },
+          {
+            "line": 700,
+            "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+          },
+          {
+            "line": 701,
+            "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 702,
+            "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+          },
+          {
+            "line": 703,
+            "text": "\tPsalms 130:2-5"
+          },
+          {
+            "line": 704,
+            "text": "(مزامير 130: 2-5)"
+          },
+          {
+            "line": 705,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 706,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 707,
+            "text": "O Lord, hear my voice; let Your ears be attentive to the voice of my supplication. If You, O Lord, should mark iniquities, O Lord, who shall stand? For through You is forgiveness. For Your name's sake I have waited for You, O Lord."
+          },
+          {
+            "line": 708,
+            "text": "يَا رَبُّ اسْمَعْ صَوْتِي. لِتَكُنْ أُذُنَاكَ مُصْغِيَتَيْنِ إِلَى صَوْتِ تَضَرُّعَاتِي. إِنْ كُنْتَ تُرَاقِبُ الآثَامَ يَا رَبُّ يَا سَيِّدُ فَمَنْ يَقِفُ؟ لأَنَّ عِنْدَكَ الْمَغْفِرَةَ. لِكَيْ يُخَافَ مِنْكَ. انْتَظَرْتُكَ يَا رَبُّ. انْتَظَرَتْ نَفْسِي وَبِكَلاَمِهِ رَجَوْتُ."
+          },
+          {
+            "line": 709,
+            "text": "\tMark 14:3-9"
+          },
+          {
+            "line": 710,
+            "text": "(مرقس 14: 3-9)"
+          },
+          {
+            "line": 711,
+            "text": "3 And being in Bethany at the house of Simon the leper, as He sat at the table, a woman came having an alabaster flask of very costly oil of spikenard. Then she broke the flask and poured it on His head."
+          },
+          {
+            "line": 712,
+            "text": "Ⲟⲩⲟϩ ⲉϥⲭⲏ ϧⲉⲛ Ⲃⲏⲑⲁⲛⲓⲁ̀ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲕⲥⲉϩⲧ ⲉϥⲣⲱⲧⲉⲃ ⲁⲥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲥ̀ϩⲓⲙⲓ ⲉ̀ⲣⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲕⲓ ⲛ̀ⲥⲟϫⲉⲛ ⲛⲛⲁⲣⲇⲟⲥ ⲛ̀ⲧⲟⲧⲥ ⲙ̀ⲡⲓⲥ̀ⲧⲓⲕⲏⲉ̀ⲛⲁϣⲉ ⲛ̀ⲥⲟⲩⲉⲛϥ ⲉ̀ⲁⲥϧⲟⲙϧⲉⲙ ⲙ̀ⲡⲓⲙⲟⲕⲓ ⲉ̀ⲁⲥϫⲟϣϥ ⲉ̀ϫⲉⲛ ⲧⲉϥⲁ̀ⲫⲉ"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 141,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_2",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Mark 14:3-9",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 14,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "second_liturgy_liturgy_of_the_word",
+        "printed_ref": "Mark 14:3-9",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 705,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 706,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 707,
+            "text": "O Lord, hear my voice; let Your ears be attentive to the voice of my supplication. If You, O Lord, should mark iniquities, O Lord, who shall stand? For through You is forgiveness. For Your name's sake I have waited for You, O Lord."
+          },
+          {
+            "line": 708,
+            "text": "يَا رَبُّ اسْمَعْ صَوْتِي. لِتَكُنْ أُذُنَاكَ مُصْغِيَتَيْنِ إِلَى صَوْتِ تَضَرُّعَاتِي. إِنْ كُنْتَ تُرَاقِبُ الآثَامَ يَا رَبُّ يَا سَيِّدُ فَمَنْ يَقِفُ؟ لأَنَّ عِنْدَكَ الْمَغْفِرَةَ. لِكَيْ يُخَافَ مِنْكَ. انْتَظَرْتُكَ يَا رَبُّ. انْتَظَرَتْ نَفْسِي وَبِكَلاَمِهِ رَجَوْتُ."
+          },
+          {
+            "line": 709,
+            "text": "\tMark 14:3-9"
+          },
+          {
+            "line": 710,
+            "text": "(مرقس 14: 3-9)"
+          },
+          {
+            "line": 711,
+            "text": "3 And being in Bethany at the house of Simon the leper, as He sat at the table, a woman came having an alabaster flask of very costly oil of spikenard. Then she broke the flask and poured it on His head."
+          },
+          {
+            "line": 712,
+            "text": "Ⲟⲩⲟϩ ⲉϥⲭⲏ ϧⲉⲛ Ⲃⲏⲑⲁⲛⲓⲁ̀ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲕⲥⲉϩⲧ ⲉϥⲣⲱⲧⲉⲃ ⲁⲥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲥ̀ϩⲓⲙⲓ ⲉ̀ⲣⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲕⲓ ⲛ̀ⲥⲟϫⲉⲛ ⲛⲛⲁⲣⲇⲟⲥ ⲛ̀ⲧⲟⲧⲥ ⲙ̀ⲡⲓⲥ̀ⲧⲓⲕⲏⲉ̀ⲛⲁϣⲉ ⲛ̀ⲥⲟⲩⲉⲛϥ ⲉ̀ⲁⲥϧⲟⲙϧⲉⲙ ⲙ̀ⲡⲓⲙⲟⲕⲓ ⲉ̀ⲁⲥϫⲟϣϥ ⲉ̀ϫⲉⲛ ⲧⲉϥⲁ̀ⲫⲉ"
+          },
+          {
+            "line": 713,
+            "text": "3 وَفِيمَا هُوَ فِي بَيْتِ عَنْيَا فِي بَيْتِ سِمْعَانَ الأَبْرَصِ وَهُوَ مُتَّكِئٌ جَاءَتِ امْرَأَةٌ مَعَهَا قَارُورَةُ طِيبِ نَارِدِينٍ خَالِصٍ كَثِيرِ الثَّمَنِ. فَكَسَرَتِ الْقَارُورَةَ وَسَكَبَتْهُ عَلَى رَأْسِهِ."
+          },
+          {
+            "line": 714,
+            "text": "4 But there were some who were indignant among themselves, and said, “Why was this fragrant oil wasted?"
+          },
+          {
+            "line": 715,
+            "text": "Ⲛⲁⲣⲉ ϩⲁⲛⲟⲩⲟⲛ ⲇⲉ ⲭ̀ⲣⲉⲙⲣⲉⲙ ⲛⲉⲙ ⲛ̀ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲉⲑⲃⲉ ⲟⲩ ⲁⲡⲁⲓⲧⲁⲕⲟ ⲛ̀ⲧⲉ ⲡⲁⲓⲥⲟϫⲉⲛ ϣⲱⲡⲓ."
+          },
+          {
+            "line": 716,
+            "text": "4 وَكَانَ قَوْمٌ مُغْتَاظِينَ فِي أَنْفُسِهِمْ فَقَالُوا: «لِمَاذَا كَانَ تَلَفُ الطِّيبِ هَذَا؟"
+          },
+          {
+            "line": 717,
+            "text": "5 For it might have been sold for more than three hundred denarii and given to the poor.” And they criticized her sharply."
+          },
+          {
+            "line": 718,
+            "text": "Ⲛⲉ ⲟⲩⲟⲛϣ̀ϫⲟⲙ ⲅⲁⲣ ⲉ̀ϯ ⲙ̀ⲫⲁⲓ ⲉ̀ⲃⲟⲗ ⲥⲁⲡ̀ϣⲱⲓ ⲛ̀ⲧ︦ ⲛ̀ⲥⲁⲑⲉⲣⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩⲧⲏⲓⲧⲟⲩ ⲛ̀ⲛⲓϩⲏⲕⲓ ⲟⲩⲟϩ ⲛⲁⲩⲙ̀ⲃⲟⲛ ⲉ̀ⲣⲟⲥ ⲡⲉ."
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      35,
+      36
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 142,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "matins"
+    ],
+    "legacy_raw_ref": "Psalm 31:1-2",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 15,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_offering_of_morning_incense",
+        "printed_ref": "Psalms 32:1-2",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 734,
+            "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+          },
+          {
+            "line": 735,
+            "text": "رفع بخور باكر"
+          },
+          {
+            "line": 736,
+            "text": "\tPsalms 32:1-2"
+          },
+          {
+            "line": 737,
+            "text": "(مزامير 32: 1-2)"
+          },
+          {
+            "line": 738,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 739,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 740,
+            "text": "Blessed is he whose transgression is forgiven, Whose sin is covered. Blessed is the man to whom the Lord does not impute iniquity."
+          },
+          {
+            "line": 741,
+            "text": "Ⲱⲟⲩⲛⲓⲁ̀ⲧⲟⲩ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲭⲱ ⲛ̀ⲛⲟⲩⲁ̀ⲛⲟⲙⲓⲁ ⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲩϩⲱⲃⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲛⲟⲩⲛⲟⲃⲓ: Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲣⲱⲙⲓ: Ⲉ̀ⲧⲉ ⲙ̀ⲡⲉ Ⲡⲟ︦ⲥ︦ ⲉⲡ ⲛⲟⲃⲓ ⲉ̀ⲣⲟϥ ⲁⲛ: ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 742,
+            "text": "طُوبَاهُمُ الَّذِينَ تُرِكَتْ لَهُمْ آثَامُهُمْ، وَالَّذِينَ سُتِرَتْ خَطَايَاهُمْ. طُوبَى لِلرَّجُلِ، الَّذِي لَمْ يَحْسِبْ لَهُ الرَّبُّ خَطِيَّةً."
+          },
+          {
+            "line": 743,
+            "text": "\tJohn 3:1-21"
+          },
+          {
+            "line": 744,
+            "text": "(يوحنا 3: 1-21)"
+          },
+          {
+            "line": 745,
+            "text": "1 There was a man of the Pharisees named Nicodemus, a ruler of the Jews."
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 143,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "matins"
+    ],
+    "legacy_raw_ref": "John 3:1-21",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 16,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_offering_of_morning_incense",
+        "printed_ref": "John 3:1-21",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 739,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 740,
+            "text": "Blessed is he whose transgression is forgiven, Whose sin is covered. Blessed is the man to whom the Lord does not impute iniquity."
+          },
+          {
+            "line": 741,
+            "text": "Ⲱⲟⲩⲛⲓⲁ̀ⲧⲟⲩ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲭⲱ ⲛ̀ⲛⲟⲩⲁ̀ⲛⲟⲙⲓⲁ ⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲩϩⲱⲃⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲛⲟⲩⲛⲟⲃⲓ: Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲣⲱⲙⲓ: Ⲉ̀ⲧⲉ ⲙ̀ⲡⲉ Ⲡⲟ︦ⲥ︦ ⲉⲡ ⲛⲟⲃⲓ ⲉ̀ⲣⲟϥ ⲁⲛ: ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 742,
+            "text": "طُوبَاهُمُ الَّذِينَ تُرِكَتْ لَهُمْ آثَامُهُمْ، وَالَّذِينَ سُتِرَتْ خَطَايَاهُمْ. طُوبَى لِلرَّجُلِ، الَّذِي لَمْ يَحْسِبْ لَهُ الرَّبُّ خَطِيَّةً."
+          },
+          {
+            "line": 743,
+            "text": "\tJohn 3:1-21"
+          },
+          {
+            "line": 744,
+            "text": "(يوحنا 3: 1-21)"
+          },
+          {
+            "line": 745,
+            "text": "1 There was a man of the Pharisees named Nicodemus, a ruler of the Jews."
+          },
+          {
+            "line": 746,
+            "text": "Ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲣⲱⲙⲓ ⲇⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲁⲣⲓⲥⲉⲟⲥ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ ⲛⲓⲕⲟⲇⲏⲙⲟⲥ ⲟⲩⲁⲣ ⲭⲱⲛ ⲛ̀ⲧⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ."
+          },
+          {
+            "line": 747,
+            "text": "1 كَانَ إِنْسَانٌ مِنَ الْفَرِّيسِيِّينَ اسْمُهُ نِيقُودِيمُوسُ رَئِيسٌ لِلْيَهُودِ."
+          },
+          {
+            "line": 748,
+            "text": "2 This man came to Jesus by night and said to Him, “Rabbi, we know that You are a teacher come from God; for no one can do these signs that You do unless God is with him.”"
+          },
+          {
+            "line": 749,
+            "text": "Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁ Ⲓⲏ︦ⲥ︦ ⲛ̀ⲉ̀ϫⲱⲣϩ ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲣⲁⲃⲃⲓ ⲧⲉⲛⲉ̀ⲙⲓ ϫⲉ ⲉⲧⲁⲕⲒ̀ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲫϯ ⲛ̀ⲣⲉϥϯⲥ̀ⲃⲱ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲅⲁⲣ ⲛ̀ϩ̀ⲗⲓ ⲉ̀ⲉⲣ ⲛⲁⲓⲙⲏⲓⲛⲓ ⲉⲧⲉⲕⲓ̀ⲣⲓ ⲙ̀ⲙⲱⲟⲩ ⲁⲣⲉϣ̀ⲧⲉⲙ ⲫϯ ϣⲱⲡⲓ ⲛⲉⲙⲁϥ."
+          },
+          {
+            "line": 750,
+            "text": "2 هَذَا جَاءَ إِلَى يَسُوعَ لَيْلاً وَقَالَ لَهُ: «يَا مُعَلِّمُ نَعْلَمُ أَنَّكَ قَدْ أَتَيْتَ مِنَ اللَّهِ مُعَلِّماً لأَنْ لَيْسَ أَحَدٌ يَقْدِرُ أَنْ يَعْمَلَ هَذِهِ الآيَاتِ الَّتِي أَنْتَ تَعْمَلُ إِنْ لَمْ يَكُنِ اللَّهُ مَعَهُ»."
+          },
+          {
+            "line": 751,
+            "text": "3 Jesus answered and said to him, “Most assuredly, I say to you, unless one is born again, he cannot see the kingdom of God.”"
+          },
+          {
+            "line": 752,
+            "text": "Ⲁϥⲉⲣⲟⲩⲱ ⲇⲉ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲁⲙⲏⲛ ⲁⲙⲏⲛ ϯϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲁⲕ ϫⲉ ⲁⲩϣ̀ⲧⲉⲙⲙⲉⲥ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲕⲉⲥⲟⲡ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ ⲉ̀ⲛⲁⲩ ⲉ̀ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲫϯ."
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 144,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Titus 2:11-15; Titus 3:1-7",
+    "reading_type": "pauline",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Proven third-liturgy Pauline stage, NOT identical source text: legacy/official Titus 2:11-3:7 differs from Reader 1 Timothy 2:11-3:7. Reader authority applies only with preserved source-qualified conflict; no title correction permitted.",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 17,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_liturgy_of_the_word",
+        "printed_ref": "1 Timothy 2:11-3:7",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 806,
+            "text": "Ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲛ̀ϯⲙⲉⲑⲙⲏⲓ ϣⲁϥⲓ̀ ϩⲁ ⲡⲓⲟⲩⲱⲓⲛⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲛⲉϥϩ̀ⲃⲏⲟⲩⲓ̀ ϫⲉ ⲉⲧⲁϥⲁⲓⲧⲟⲩ ϧⲉⲛ ⲫϯ."
+          },
+          {
+            "line": 807,
+            "text": "21 وَأَمَّا مَنْ يَفْعَلُ الْحَقَّ فَيُقْبِلُ إِلَى النُّورِ لِكَيْ تَظْهَرَ أَعْمَالُهُ أَنَّهَا بِاللَّهِ مَعْمُولَةٌ»."
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 809,
+            "text": "قداسُ الكلمة"
+          },
+          {
+            "line": 810,
+            "text": "\t1 Timothy 2:11-3:7"
+          },
+          {
+            "line": 811,
+            "text": "(1 تيموثاوس 2: 11-3: 7)"
+          },
+          {
+            "line": 812,
+            "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the first Epistle of our teacher Paul to Timothy. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 813,
+            "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الأولى الى تيموثاوس بركته تكون معنا. آمين."
+          },
+          {
+            "line": 814,
+            "text": "11 Let a woman learn in silence with all submission."
+          },
+          {
+            "line": 815,
+            "text": "Ⲟⲩⲥ̀ϩⲓⲙⲓ ⲙⲁⲣⲉⲥϭⲓⲥ̀ⲃⲱ ϧⲉⲛ ⲟⲩⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ϭⲛⲉϫⲱϥ ⲛⲓⲃⲉⲛ."
+          },
+          {
+            "line": 816,
+            "text": "11 لِتَتَعَلَّمِ الْمَرْأَةُ بِسُكُوتٍ فِي كُلِّ خُضُوعٍ."
+          },
+          {
+            "line": 817,
+            "text": "12 And I do not permit a woman to teach or to have authority over a man, but to be in silence."
+          },
+          {
+            "line": 818,
+            "text": "Ϯⲟⲩⲁϩⲥⲁϩⲛⲓ ⲇⲉ ⲁⲛ ⲛ̀ⲥ̀ϩⲓⲙⲓ ⲉ̀ϯⲥ̀ⲃⲱ ⲟⲩⲇⲉ ⲉⲑⲣⲉⲥⲉⲣϫⲱϫ ⲉ̀ⲡⲉⲥϩⲁⲓ ⲁⲗⲗⲁ ⲙⲁⲣⲉⲥ ϭⲓⲥ̀ⲃⲱ ϧⲉⲛ ⲟⲩⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ."
+          },
+          {
+            "line": 819,
+            "text": "12 وَلَكِنْ لَسْتُ آذَنُ لِلْمَرْأَةِ أَنْ تُعَلِّمَ وَلاَ تَتَسَلَّطَ عَلَى الرَّجُلِ، بَلْ تَكُونُ فِي سُكُوتٍ،"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 145,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "1 John 5:5-13",
+    "reading_type": "catholic",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 18,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_liturgy_of_the_word",
+        "printed_ref": "1 John 5:5-13",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 848,
+            "text": "Ⲥⲉⲙⲡ̀ϣⲁ ⲇⲉ ⲟⲛ ⲛ̀ⲧⲉ ⲕⲉⲙⲉⲧⲙⲉⲑⲣⲉ ⲉ̀ⲛⲁⲛⲉϥ ϣⲱⲡⲓ ϧⲁⲣⲟϥ ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲥⲁⲃⲟⲗ ϩⲓⲛⲁ ⲛ̀ⲧⲉϥϣ̀ⲧⲉⲙϩⲉⲓ ⲉ̀ⲟⲩϣⲱϣ ⲛⲉⲙ ⲟⲩⲫⲁϣ ⲛ̀ⲧⲉ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲥ."
+          },
+          {
+            "line": 849,
+            "text": "7 وَيَجِبُ أَيْضاً أَنْ تَكُونَ لَهُ شَهَادَةٌ حَسَنَةٌ مِنَ الَّذِينَ هُمْ مِنْ خَارِجٍ، لِئَلاَّ يَسْقُطَ فِي تَعْيِيرٍ وَفَخِّ إِبْلِيسَ."
+          },
+          {
+            "line": 850,
+            "text": "The grace of God the Father be with you all. Amen."
+          },
+          {
+            "line": 851,
+            "text": "نعمة الله الآب تكون مع جميعِكم. آمين."
+          },
+          {
+            "line": 852,
+            "text": "\t1 John 5:5-13"
+          },
+          {
+            "line": 853,
+            "text": "(1 يوحنا 5: 5-13)"
+          },
+          {
+            "line": 854,
+            "text": "The Catholic Epistle from the first Epistle of our teacher St. John. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 855,
+            "text": "الكاثوليكون من رسالة يوحنا الرسول الأولى. بركته تكون معنا. آمين."
+          },
+          {
+            "line": 856,
+            "text": "5 Who is he who overcomes the world, but he who believes that Jesus is the Son of God?"
+          },
+          {
+            "line": 857,
+            "text": "Ⲛⲓⲙ ⲇⲉ ⲡⲉ ⲫⲏ ⲉⲧϭⲣⲏⲟⲩⲧ ⲉⲡⲓⲕⲟⲥⲙⲟⲥ ⲉⲃⲏⲗ ⲉⲫⲏ ⲉⲑⲛⲁϩϯ ϫⲉ Ⲓⲏ︦ⲥ︦ ⲡⲉ ⲡϣⲏⲣⲓ ⲙ̀Ⲫϯ"
+          },
+          {
+            "line": 858,
+            "text": "5 مَنْ هُوَ الَّذِي يَغْلِبُ الْعَالَمَ، إِلاَّ الَّذِي يُؤْمِنُ أَنَّ يَسُوعَ هُوَ ابْنُ اللهِ؟"
+          },
+          {
+            "line": 859,
+            "text": "6 This is He who came by water and blood—Jesus Christ; not only by water, but by water and blood. And it is the Spirit who bears witness, because the Spirit is truth."
+          },
+          {
+            "line": 860,
+            "text": "Ⲫⲁⲓ ⲡⲉ ⲫⲏ ⲉⲧⲁϥⲓ ⲉⲃⲟⲗ ϩⲓⲧⲉⲛ ⲟⲩⲙⲱⲟⲩ ⲛⲉⲙ ⲟⲩⲥⲛⲟϥ ⲛⲉⲙ ⲟⲩⲡ︦ⲛ︦ⲁ︦ Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ϧⲉⲛ ⲡⲓⲙⲱⲟⲩ ⲙ̀ⲙⲁⲩⲁⲧϥ ⲁⲛ ⲁⲗⲗⲁ ⲛⲉⲙ ϧⲉⲛ ⲡⲓⲙⲱⲟⲩ ⲛⲉⲙ ϧⲉⲛ ⲡⲓⲥⲛⲟϥ ⲟⲩⲟϩ ⲡⲓⲡ︦ⲛ︦ⲁ︦ ⲡⲉⲧⲉⲣⲙⲉⲑⲣⲉ ϫⲉ ⲡⲓⲡ︦ⲛ︦ⲁ︦ ⲡⲉ ϯⲙⲉⲑⲙⲏⲓ"
+          },
+          {
+            "line": 861,
+            "text": "6 هَذَا هُوَ الَّذِي أَتَى بِمَاءٍ وَدَمٍ، يَسُوعُ الْمَسِيحُ. لاَ بِالْمَاءِ فَقَطْ، بَلْ بِالْمَاءِ وَالدَّمِ. وَالرُّوحُ هُوَ الَّذِي يَشْهَدُ، لأَنَّ الرُّوحَ هُوَ الْحَقُّ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 146,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Acts 8:26-39",
+    "reading_type": "acts",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 19,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_liturgy_of_the_word",
+        "printed_ref": "Acts 8:26-39",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 882,
+            "text": "13 كَتَبْتُ هَذَا إِلَيْكُمْ أَنْتُمُ الْمُؤْمِنِينَ بِاسْمِ ابْنِ اللهِ لِكَيْ تَعْلَمُوا أَنَّ لَكُمْ حَيَاةً أَبَدِيَّةً، وَلِكَيْ تُؤْمِنُوا بِاسْمِ ابْنِ اللهِ."
+          },
+          {
+            "line": 883,
+            "text": "Do not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen."
+          },
+          {
+            "line": 884,
+            "text": "Ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 885,
+            "text": "لا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين."
+          },
+          {
+            "line": 886,
+            "text": "\tActs 8:26-39"
+          },
+          {
+            "line": 887,
+            "text": "(اعمال 8: 26-39)"
+          },
+          {
+            "line": 888,
+            "text": "A reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen."
+          },
+          {
+            "line": 889,
+            "text": "فصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين."
+          },
+          {
+            "line": 890,
+            "text": "26 Now an angel of the Lord spoke to Philip, saying, “Arise and go toward the south along the road which goes down from Jerusalem to Gaza.” This is desert."
+          },
+          {
+            "line": 891,
+            "text": "Ⲟⲩⲁⲅⲅⲉⲗⲟⲥ ⲇⲉ ⲛ̀ⲧⲉ Ⲡⲟ︦ⲥ︦ ⲁϥⲥⲁϫⲓ ⲛⲉⲙ Ⲫⲓⲗⲓⲡⲡⲟⲥ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲧⲱⲛⲕ ⲙⲁϣⲉⲛⲁⲕ ⲙ̀ⲫ̀ⲛⲁⲩ ⲙ̀ⲙⲉⲣⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲙⲱⲓⲧ ⲉ̀ⲧⲉⲕⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ Ⲓⲗ︦ⲏ︦ⲙ︦ ⲉ̀ⲅⲁⲍⲁ ⲫⲁⲓ ⲟⲩϣⲁϥⲉ ⲡⲉ."
+          },
+          {
+            "line": 892,
+            "text": "26 ثُمَّ إِنَّ مَلاَكَ الرَّبِّ قَالَ لِفِيلُبُّسَ: «قُمْ وَاذْهَبْ نَحْوَ الْجَنُوبِ عَلَى الطَّرِيقِ الْمُنْحَدِرَةِ مِنْ أُورُشَلِيمَ إِلَى غَزَّةَ» الَّتِي هِيَ بَرِّيَّةٌ."
+          },
+          {
+            "line": 893,
+            "text": "27 So he arose and went. And behold, a man of Ethiopia, a eunuch of great authority under Candace the queen of the Ethiopians, who had charge of all her treasury, and had come to Jerusalem to worship,"
+          },
+          {
+            "line": 894,
+            "text": "Ⲟⲩⲟϩ ⲁϥⲧⲱⲛϥ ⲁϥϣⲉⲛⲁϥ ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲉⲑⲱϣ ⲛ̀ⲥⲓⲟⲩⲣ ⲛ̀ⲣⲉⲙⲛ̀ϫⲟⲙ ⲛ̀ⲕⲁⲛⲇⲁⲕⲏⲥ ⲛ̀ⲧⲉ ϯⲟⲩⲣⲱ ⲛ̀ⲧⲉ ⲛⲓⲉⲑⲁⲩϣ ⲫⲁⲓ ⲛⲁϥⲭⲏ ϩⲓϫⲉⲛ ⲧⲉⲥⲅⲁⲍⲁ ⲧⲏⲣⲥ ⲛⲉ ⲁϥⲓ ⲡⲉ ⲉ̀ⲟⲩⲱϣⲧ ϧⲉⲛ Ⲓⲗ︦ⲏ︦ⲙ︦."
+          },
+          {
+            "line": 895,
+            "text": "27 فَقَامَ وَذَهَبَ. وَإِذَا رَجُلٌ حَبَشِيٌّ خَصِيٌّ وَزِيرٌ لِكَنْدَاكَةَ مَلِكَةِ الْحَبَشَةِ كَانَ عَلَى جَمِيعِ خَزَائِنِهَا - فَهَذَا كَانَ قَدْ جَاءَ إِلَى أُورُشَلِيمَ لِيَسْجُدَ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 147,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Psalm 65:1; Psalm 65:6",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 20,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_liturgy_of_the_word",
+        "printed_ref": "Psalms 66:1,6",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 931,
+            "text": "39 وَلَمَّا صَعِدَا مِنَ الْمَاءِ خَطَفَ رُوحُ الرَّبِّ فِيلُبُّسَ فَلَمْ يُبْصِرْهُ الْخَصِيُّ أَيْضاً وَذَهَبَ فِي طَرِيقِهِ فَرِحاً."
+          },
+          {
+            "line": 932,
+            "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+          },
+          {
+            "line": 933,
+            "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+          },
+          {
+            "line": 934,
+            "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+          },
+          {
+            "line": 935,
+            "text": "\tPsalms 66:1,6"
+          },
+          {
+            "line": 936,
+            "text": "(مزامير 66: 1,6)"
+          },
+          {
+            "line": 937,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 938,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 939,
+            "text": "Make a joyful shout to God, all the earth! He turned the sea into dry land; They went through the river on foot. There we will rejoice in Him."
+          },
+          {
+            "line": 940,
+            "text": "اِهْتِفِي لِلَّهِ يَا كُلَّ الأَرْضِ. حَوَّلَ الْبَحْرَ إِلَى يَبَسٍ وَفِي النَّهْرِ عَبَرُوا بِالرِّجْلِ. هُنَاكَ فَرِحْنَا بِهِ."
+          },
+          {
+            "line": 941,
+            "text": "\tMatthew 28:16-20"
+          },
+          {
+            "line": 942,
+            "text": "(متى 28: 16-20)"
+          },
+          {
+            "line": 943,
+            "text": "16 Then the eleven disciples went away into Galilee, to the mountain which Jesus had appointed for them."
+          },
+          {
+            "line": 944,
+            "text": "Ⲡⲓ ⲓ︦ⲁ︦ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ ⲁⲩϣⲉⲛⲱⲟⲩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϯⲄⲁⲗⲓⲗⲉⲁ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲉ̀ⲧⲁ Ⲓⲏ︦ⲥ︦ ϯⲛⲉⲓ ⲛⲱⲟⲩ ⲉ̀ⲣⲟϥ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 148,
+    "legacy_context": [
+      "myron_consecration",
+      "first_week_day_3",
+      "liturgy"
+    ],
+    "legacy_raw_ref": "Matthew 28:16-20",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+        "ordinal": 21,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Oil",
+          "Pre-sanctified Chrism"
+        ],
+        "section": "third_liturgy_liturgy_of_the_word",
+        "printed_ref": "Matthew 28:16-20",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+        "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+        "lines": [
+          {
+            "line": 1,
+            "text": "Reservation of the Pre-sanctified Chrism"
+          },
+          {
+            "line": 3,
+            "text": "The leaven (from the presanctified Myron) can be added either once or in three installments, in which case three liturgies are celebrated during the same week and the leaven of the Myron and the Hagelion are added at the conclusion of each. As for the readings of these liturgies, they are as follows:"
+          },
+          {
+            "line": 4,
+            "text": "First Liturgy"
+          },
+          {
+            "line": 5,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 92,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 377,
+            "text": "Second Liturgy"
+          },
+          {
+            "line": 378,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 441,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 732,
+            "text": "Third Liturgy"
+          },
+          {
+            "line": 733,
+            "text": "Offering of Morning Incense"
+          },
+          {
+            "line": 808,
+            "text": "Liturgy of the Word"
+          },
+          {
+            "line": 937,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 938,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 939,
+            "text": "Make a joyful shout to God, all the earth! He turned the sea into dry land; They went through the river on foot. There we will rejoice in Him."
+          },
+          {
+            "line": 940,
+            "text": "اِهْتِفِي لِلَّهِ يَا كُلَّ الأَرْضِ. حَوَّلَ الْبَحْرَ إِلَى يَبَسٍ وَفِي النَّهْرِ عَبَرُوا بِالرِّجْلِ. هُنَاكَ فَرِحْنَا بِهِ."
+          },
+          {
+            "line": 941,
+            "text": "\tMatthew 28:16-20"
+          },
+          {
+            "line": 942,
+            "text": "(متى 28: 16-20)"
+          },
+          {
+            "line": 943,
+            "text": "16 Then the eleven disciples went away into Galilee, to the mountain which Jesus had appointed for them."
+          },
+          {
+            "line": 944,
+            "text": "Ⲡⲓ ⲓ︦ⲁ︦ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ ⲁⲩϣⲉⲛⲱⲟⲩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϯⲄⲁⲗⲓⲗⲉⲁ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲉ̀ⲧⲁ Ⲓⲏ︦ⲥ︦ ϯⲛⲉⲓ ⲛⲱⲟⲩ ⲉ̀ⲣⲟϥ."
+          },
+          {
+            "line": 945,
+            "text": "16 وَأَمَّا الأَحَدَ عَشَرَ تِلْمِيذاً فَانْطَلَقُوا إِلَى الْجَلِيلِ إِلَى الْجَبَلِ حَيْثُ أَمَرَهُمْ يَسُوعُ."
+          },
+          {
+            "line": 946,
+            "text": "17 When they saw Him, they worshiped Him; but some doubted."
+          },
+          {
+            "line": 947,
+            "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁⲩⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲁⲩⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ϩⲁⲛⲟⲩⲟⲛ ⲇⲉ ⲁⲩϭⲓⲥⲁⲛⲓⲥ."
+          },
+          {
+            "line": 948,
+            "text": "17 وَلَمَّا رَأَوْهُ سَجَدُوا لَهُ وَلَكِنَّ بَعْضَهُمْ شَكُّوا."
+          },
+          {
+            "line": 949,
+            "text": "18 And Jesus came and spoke to them, saying, “All authority has been given to Me in heaven and on earth."
+          },
+          {
+            "line": 950,
+            "text": "Ⲟⲩⲟϩ ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲁϥⲥⲁϫⲓ ⲛⲉⲙⲱⲟⲩ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲁⲩϯ ⲉⲣϣⲓϣⲓ ⲛⲓⲃⲉⲛ ⲛⲏⲓ ϧⲉⲛ ⲧ̀ⲫⲉ ⲛⲉⲙ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      36,
+      37
+    ],
+    "official_book_evidence_file": "official-myron-page-evidence.json"
+  },
+  {
+    "legacy_row": 172,
+    "legacy_context": [
+      "church_consecration",
+      "main",
+      "part_1"
+    ],
+    "legacy_raw_ref": "Hebrews 9:1-10",
+    "reading_type": "pauline",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Book Part 1 is Foundation Cornerstone for a New Church, not the separate Reader Church consecration rite. Join only to Reader Cornerstone; shares existing legacy cornerstone/main evidence, so not an extra current appointment. Reader Heb 9:1-11 and Luke 9:28-36 control over printed book 9:1-10 and 9:28-35.",
+    "reader_evidence": [
+      {
+        "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+        "ordinal": 3,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Cornerstone"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Hebrews 9:1-11",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+        "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Laying of the Foundation Stone of a Church"
+          },
+          {
+            "line": 503,
+            "text": "\tHymn of the Virtues"
+          },
+          {
+            "line": 504,
+            "text": "(Ϯⲙⲏϯ ⲥ̀ⲛⲟⲩϯ...)"
+          },
+          {
+            "line": 505,
+            "text": "\tThe Blessed"
+          },
+          {
+            "line": 506,
+            "text": "(Ⲧⲟⲩ ⲙⲁⲕⲁⲣⲓⲱ)"
+          },
+          {
+            "line": 507,
+            "text": "\tHebrews 9:1-11"
+          },
+          {
+            "line": 508,
+            "text": "(العبرانيين 9: 1-11)"
+          },
+          {
+            "line": 509,
+            "text": "Reader:"
+          },
+          {
+            "line": 510,
+            "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 511,
+            "text": "القارﺉُ:"
+          },
+          {
+            "line": 512,
+            "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين."
+          },
+          {
+            "line": 513,
+            "text": "1 Then indeed, even the first covenant had ordinances of divine service and the earthly sanctuary."
+          },
+          {
+            "line": 514,
+            "text": "Ϯϩⲟⲩⲓϯ ⲙⲉⲛ ⲟⲩⲛ ⲉ̀ⲟⲩⲟⲛⲧⲁⲥ ⲛ̀ϩⲁⲛⲙⲉⲑⲙⲏ ⲓ ⲛ̀ϣⲉⲙϣⲓ ⲙ̀ⲙⲁⲩ ⲛⲉⲙ ⲟⲩⲁⲅⲓⲟⲛ ⲛ̀ⲥⲟⲗⲥⲉⲗ."
+          },
+          {
+            "line": 515,
+            "text": "1 ثُمَّ الْعَهْدُ الأَوَّلُ كَانَ لَهُ أَيْضاً فَرَائِضُ خِدْمَةٍ وَالْقُدْسُ الْعَالَمِيُّ،"
+          },
+          {
+            "line": 516,
+            "text": "2 For a tabernacle was prepared: the first part, in which was the lampstand, the table, and the showbread, which is called the sanctuary;"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      3,
+      7,
+      22,
+      27,
+      28,
+      29
+    ],
+    "official_book_evidence_file": "official-consecration-page-evidence.json"
+  },
+  {
+    "legacy_row": 173,
+    "legacy_context": [
+      "church_consecration",
+      "main",
+      "part_1"
+    ],
+    "legacy_raw_ref": "Psalm 127:1; Psalm 122:1-2",
+    "reading_type": "psalm",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Book Part 1 is Foundation Cornerstone for a New Church, not the separate Reader Church consecration rite. Join only to Reader Cornerstone; shares existing legacy cornerstone/main evidence, so not an extra current appointment. Reader Heb 9:1-11 and Luke 9:28-36 control over printed book 9:1-10 and 9:28-35.",
+    "reader_evidence": [
+      {
+        "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+        "ordinal": 4,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Cornerstone"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalms 127:1; 122:1-2",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+        "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Laying of the Foundation Stone of a Church"
+          },
+          {
+            "line": 673,
+            "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+          },
+          {
+            "line": 674,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 675,
+            "text": "Psalm"
+          },
+          {
+            "line": 676,
+            "text": "المزمور"
+          },
+          {
+            "line": 677,
+            "text": "\tPsalms 127:1; 122:1-2"
+          },
+          {
+            "line": 678,
+            "text": "(مزامير 127: 1; 122: 1-2)"
+          },
+          {
+            "line": 679,
+            "text": "Reader:"
+          },
+          {
+            "line": 680,
+            "text": "Unless the Lord builds the house, those who build it have labored in vain. Unless the Lord guards the city, the watchmen have watched in vain. I was glad for those who said to me, \"We will go into the house of the Lord.\" Our feet stood in the courts of Jerusalem."
+          },
+          {
+            "line": 681,
+            "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+          },
+          {
+            "line": 682,
+            "text": "Ⲁⲣⲉϣⲧⲉⲙ Ⲡϭⲟⲓⲥ ⲕⲱϯ ⲛⲟⲩⲏⲓ ⲁⲩϭⲓϧⲓⲥⲓ ⲉⲫⲗⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲏ ⲉⲧⲕⲱⲧ ⲙ̀ⲙⲟϥ ⲁⲣⲉϣⲧⲉⲙ Ⲡϭⲟⲓⲥ ⲣⲱⲓⲥ ⲉⲟⲩⲡⲟⲗⲓⲥ ⲁⲩⲉⲣϣⲣⲱⲓⲥ ⲉⲫⲗⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲏ ⲉⲧⲁⲣⲉϩ. Ⲁⲓⲟⲩⲛⲟϥ ⲉ̀ϫⲉⲛ ⲛⲏ ⲉⲧⲁⲩϫⲟⲥ ⲛⲏⲓ ϫⲉ ⲧⲉⲛⲛⲁϣⲉⲛⲁⲛ ⲉⲡⲏⲓ ⲙ̀Ⲡϭⲟⲓⲥ: ⲛⲉⲛϭⲁⲗⲁⲩϫ ⲁⲩⲟϩⲓ ⲁⲩⲟϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ϧⲉⲛ ⲛⲓⲁⲩⲗⲏⲟⲩ ⲛ̀ⲧⲉ ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ."
+          },
+          {
+            "line": 683,
+            "text": "القارﺉُ:"
+          },
+          {
+            "line": 684,
+            "text": "إن لم يبن الرب البيتَ فباطلا تعب البناءون، وإن لم يحرس الرب المدينة فباطلا سهر الحراس. فرحت بالقائلين لي إلى بيت الرب نذهب. وقفت أرجلنا في ديار أورشليم."
+          },
+          {
+            "line": 685,
+            "text": "People:"
+          },
+          {
+            "line": 686,
+            "text": "Alleluia."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      3,
+      7,
+      22,
+      27,
+      28,
+      29
+    ],
+    "official_book_evidence_file": "official-consecration-page-evidence.json"
+  },
+  {
+    "legacy_row": 174,
+    "legacy_context": [
+      "church_consecration",
+      "main",
+      "part_1"
+    ],
+    "legacy_raw_ref": "Luke 9:28-35",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Book Part 1 is Foundation Cornerstone for a New Church, not the separate Reader Church consecration rite. Join only to Reader Cornerstone; shares existing legacy cornerstone/main evidence, so not an extra current appointment. Reader Heb 9:1-11 and Luke 9:28-36 control over printed book 9:1-10 and 9:28-35.",
+    "reader_evidence": [
+      {
+        "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+        "ordinal": 5,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Cornerstone"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Luke 9:28-36",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+        "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Laying of the Foundation Stone of a Church"
+          },
+          {
+            "line": 703,
+            "text": "القارﺉُ:"
+          },
+          {
+            "line": 704,
+            "text": "مباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين."
+          },
+          {
+            "line": 705,
+            "text": "Gospel"
+          },
+          {
+            "line": 706,
+            "text": "الإنجيل"
+          },
+          {
+            "line": 707,
+            "text": "\tLuke 9:28-36"
+          },
+          {
+            "line": 708,
+            "text": "(لوقا 9: 28-36)"
+          },
+          {
+            "line": 709,
+            "text": "Reader:"
+          },
+          {
+            "line": 710,
+            "text": "28 Now it came to pass, about eight days after these sayings, that He took Peter, John, and James and went up on the mountain to pray."
+          },
+          {
+            "line": 711,
+            "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+          },
+          {
+            "line": 712,
+            "text": "Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓⲥⲁϫⲓ ⲛⲁⲩ ⲏ︦ ⲛ̀ⲉ̀ϩⲟⲟⲩ ⲁϥⲱⲗⲓ ⲙⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ ⲓⲱⲁⲛⲛⲏⲥ ⲁϥϣⲉ ⲛⲁϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲉ̀ⲉⲣⲡ̀ⲣⲟⲥⲉⲩⲭⲉⲥⲑⲉ."
+          },
+          {
+            "line": 713,
+            "text": "القارﺉُ:"
+          },
+          {
+            "line": 714,
+            "text": "28 وَبَعْدَ هَذَا الْكَلاَمِ بِنَحْوِ ثَمَانِيَةِ أَيَّامٍ أَخَذَ بُطْرُسَ وَيُوحَنَّا وَيَعْقُوبَ وَصَعِدَ إِلَى جَبَلٍ لِيُصَلِّيَ."
+          },
+          {
+            "line": 715,
+            "text": "29 As He prayed, the appearance of His face was altered, and His robe became white and glistening."
+          },
+          {
+            "line": 716,
+            "text": "Ⲟⲩⲟϩ ⲁⲥϣⲱⲡⲓ ϧⲉⲛ ⲡϫⲓⲛⲑ̀ⲣⲉϥⲉⲣⲡ̀ⲣⲟⲥⲉⲩⲭ ⲉⲥⲑⲉ ⲁϥϣⲱⲃⲧ ⲛ̀ϫⲉ ⲡⲁⲟⲩⲁⲛ ⲛ̀ⲧⲉ ⲡⲉϥϩⲟ ⲟⲩⲟϩ ⲡⲉϥϭⲓϩ̀ⲃⲟⲥ ⲁϥⲟⲩⲃⲁϣ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲉϥϩⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲉ̀ⲃⲟⲗ."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      3,
+      7,
+      22,
+      27,
+      28,
+      29
+    ],
+    "official_book_evidence_file": "official-consecration-page-evidence.json"
+  },
+  {
+    "legacy_row": 175,
+    "legacy_context": [
+      "altar_consecration",
+      "main",
+      "part_3"
+    ],
+    "legacy_raw_ref": "Hebrews 13:10-16",
+    "reading_type": "pauline",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "",
+    "reader_evidence": [
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 7,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Hebrews 13:10-16",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          },
+          {
+            "line": 80,
+            "text": "\tHymn of the Virtues"
+          },
+          {
+            "line": 81,
+            "text": "(Ϯⲙⲏϯ ⲥ̀ⲛⲟⲩϯ...)"
+          },
+          {
+            "line": 82,
+            "text": "\tThe Blessed"
+          },
+          {
+            "line": 83,
+            "text": "(Ⲧⲟⲩ ⲙⲁⲕⲁⲣⲓⲱ)"
+          },
+          {
+            "line": 84,
+            "text": "\tHebrews 13:10-16"
+          },
+          {
+            "line": 85,
+            "text": "(العبرانيين 13: 10-16)"
+          },
+          {
+            "line": 86,
+            "text": "Reader:"
+          },
+          {
+            "line": 87,
+            "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen."
+          },
+          {
+            "line": 88,
+            "text": "القارﺉُ:"
+          },
+          {
+            "line": 89,
+            "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين."
+          },
+          {
+            "line": 90,
+            "text": "10 We have an altar from which those who serve the tabernacle have no right to eat."
+          },
+          {
+            "line": 91,
+            "text": "Ⲉ̀ⲟⲩⲟⲛ̀ⲧⲁⲛ ⲙ̀ⲙⲁⲩ ⲛ̀ⲟⲩⲙⲁ ⲛ̀ⲉⲣϣⲱⲟⲩϣⲓ ⲫⲁⲓ ⲉⲧⲉ ⲙ̀ⲙⲟⲛⲧⲟⲩ ⲉⲣϣⲓϣⲓ ⲉ̀ⲟⲩⲱⲙ ⲉ̀ⲃⲟⲗ ⲛ̀ϧⲏⲧϥ ⲛ̀ϫⲉ ⲛⲏⲉⲧϣⲉⲙϣⲓ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ."
+          },
+          {
+            "line": 92,
+            "text": "10 لَنَا «مَذْبَحٌ» لاَ سُلْطَانَ لِلَّذِينَ يَخْدِمُونَ الْمَسْكَنَ أَنْ يَأْكُلُوا مِنْهُ."
+          },
+          {
+            "line": 93,
+            "text": "11 For the bodies of those animals, whose blood is brought into the sanctuary by the high priest for sin, are burned outside the camp."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      5,
+      133,
+      143,
+      144
+    ],
+    "official_book_evidence_file": "official-consecration-page-evidence.json"
+  },
+  {
+    "legacy_row": 176,
+    "legacy_context": [
+      "altar_consecration",
+      "main",
+      "part_3"
+    ],
+    "legacy_raw_ref": "Psalm 23; Psalm 24; Psalm 26; Psalm 27; Psalm 85; Psalm 93",
+    "reading_type": "psalm",
+    "verdict": "proven_prescribed_psalm_prayers_not_assigned_lessons",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Aggregate legacy row corresponds to first/second incense prescribed whole-Psalm prayers. Do not join it to assigned Psalm 51:19 or the later Psalm 26:8,7. Printed book headings contain internal number discrepancies; this is stage/prayer classification, not canonical-coordinate acceptance.",
+    "reader_evidence": [
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 1,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalm 22",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 4,
+            "text": "البخور الأول"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 6,
+            "text": "يقف الأسقف على مائدة المذبح ويقف الكهنة حوله ثم يرفع البخور ويتلو المزمور 22 والمزمور 23"
+          },
+          {
+            "line": 7,
+            "text": "\tPsalm 22 - The Lord is He who shepherds me..."
+          },
+          {
+            "line": 8,
+            "text": "(المزمور الثاني والعشرون - الربُّ يرعاني...)"
+          },
+          {
+            "line": 9,
+            "text": "Bishop:"
+          },
+          {
+            "line": 10,
+            "text": "The Lord is He who shepherds me; I shall need nothing. In a place of green pasture, there He has made me dwell; by the water of rest, He has tended me. He has restored my soul; He has guided me into the paths of righteousness, for His name’s sake. Even if I walk in the midst of the shadow of death, I shall not fear evil things, for You are with me; Your rod and Your staff, these comfort me. You have prepared a table before me in the presence of those who afflict me. You have anointed my head with oil, and Your cup makes me drunk like power. Your mercy shall follow me all the days of my life, and my dwelling shall be in the house of the Lord unto length of days. ALLELUIA."
+          },
+          {
+            "line": 11,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 12,
+            "text": "الرب يَرعاني فلا يُعوزُني شيءٌ. في مَرَاعٍ خُضرٍ يُسكنني. على ماء الراحة يوردني. يَردُّ نفسي. يَهديني إلى سُبُل البرِّ من أجل اسمه. إن سلكتُ في وسط ظلال الموت، فلا أخاف شراً لأنك معي. عصاك وعُكازُك هما يعزيانني. هيأتَ قُدامي مائدةً تِجاه مُضايقيَّ. مسحتَ بالزيتِ رأسي، وكأسُك رَوَتني مثل الصرَّف. ورحمَتك تدركني جميع أيام حياتي، ومسكني في بيت الرب مدى الأيام. هللويا."
+          },
+          {
+            "line": 13,
+            "text": "\tPsalm 23 - The earth and its fullness..."
+          },
+          {
+            "line": 14,
+            "text": "(المزمور الثالث والعشرون - للربِّ الأرضُ ومِلؤها...)"
+          },
+          {
+            "line": 15,
+            "text": "Bishop:"
+          },
+          {
+            "line": 16,
+            "text": "The earth and its fullness are the Lord’s; the world and all that dwell in it. He has founded it upon the seas, and prepared it upon the rivers."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          }
+        ]
+      },
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 2,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalm 23",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 9,
+            "text": "Bishop:"
+          },
+          {
+            "line": 10,
+            "text": "The Lord is He who shepherds me; I shall need nothing. In a place of green pasture, there He has made me dwell; by the water of rest, He has tended me. He has restored my soul; He has guided me into the paths of righteousness, for His name’s sake. Even if I walk in the midst of the shadow of death, I shall not fear evil things, for You are with me; Your rod and Your staff, these comfort me. You have prepared a table before me in the presence of those who afflict me. You have anointed my head with oil, and Your cup makes me drunk like power. Your mercy shall follow me all the days of my life, and my dwelling shall be in the house of the Lord unto length of days. ALLELUIA."
+          },
+          {
+            "line": 11,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 12,
+            "text": "الرب يَرعاني فلا يُعوزُني شيءٌ. في مَرَاعٍ خُضرٍ يُسكنني. على ماء الراحة يوردني. يَردُّ نفسي. يَهديني إلى سُبُل البرِّ من أجل اسمه. إن سلكتُ في وسط ظلال الموت، فلا أخاف شراً لأنك معي. عصاك وعُكازُك هما يعزيانني. هيأتَ قُدامي مائدةً تِجاه مُضايقيَّ. مسحتَ بالزيتِ رأسي، وكأسُك رَوَتني مثل الصرَّف. ورحمَتك تدركني جميع أيام حياتي، ومسكني في بيت الرب مدى الأيام. هللويا."
+          },
+          {
+            "line": 13,
+            "text": "\tPsalm 23 - The earth and its fullness..."
+          },
+          {
+            "line": 14,
+            "text": "(المزمور الثالث والعشرون - للربِّ الأرضُ ومِلؤها...)"
+          },
+          {
+            "line": 15,
+            "text": "Bishop:"
+          },
+          {
+            "line": 16,
+            "text": "The earth and its fullness are the Lord’s; the world and all that dwell in it. He has founded it upon the seas, and prepared it upon the rivers."
+          },
+          {
+            "line": 17,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 18,
+            "text": "للرب الأرض وملؤها، المسكونة وجميع الساكنين فيها. هو على البحار أسسها، وعلى الأنهار هيأها."
+          },
+          {
+            "line": 19,
+            "text": "Who shall go up to the mountain of the Lord, and who shall stand in His holy place? He that is pure in his hands, and clean in his heart; who has not lifted up his soul in vanity, nor sworn deceitfully to his neighbor. He shall receive a blessing from the Lord, and mercy from God his Savior. This is the generation of those who seek the Lord, who seek the face of the God of Jacob."
+          },
+          {
+            "line": 20,
+            "text": "مَن يَصعد إلى جبل الرب، أو مَن يقوم في موضع قدسه؟ الطاهر اليدين، النّقي القلب، الذي لم يَحمِل نَفسَه إلى الباطل، ولم يَحلف بالغِش. هذا ينال بركة من الرب ورحمة من الله مخلصه. هذا هو جيل الذين يطلبون الرب، ويبتغون وجه إله يعقوب."
+          },
+          {
+            "line": 21,
+            "text": "Lift up your gates, you princes, and be lifted up, you everlasting doors, and the King of glory shall come in. Who is this King of glory? The Lord who is strong and mighty, the Lord who is mighty in war. Lift up your gates, you princes, and be lifted up, you everlasting doors, and the King of glory shall come in. Who is this King of glory? The Lord of hosts, He is this King of glory. ALLELUIA."
+          },
+          {
+            "line": 22,
+            "text": "ارفعوا أيها الرؤساء أبوابكم، وارتفعي أيتها الأبواب الدهرية، فيدخل ملك المجد. من هو هذا ملك المجد؟ الرب العزيز القدير، الرب القوي في الحروب. ارفعوا أيها الرؤساء أبوابكم، وارتفعي أيتها الأبواب الدهرية، فيدخل ملك المجد. من هو هذا ملك المجد؟ رب القوات، هذا هو ملك المجد. هللويا."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          }
+        ]
+      },
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 3,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalm 25",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 24,
+            "text": "البخور الثانى"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          },
+          {
+            "line": 26,
+            "text": "ثم يرفع الأسقف البخور ثانية ويصلب بإصبعه الكبير على المذبح بغير ميرون ثم يتلو المزامير التالية:"
+          },
+          {
+            "line": 27,
+            "text": "\tPsalm 25 - Judge me, O Lord..."
+          },
+          {
+            "line": 28,
+            "text": "(المزمور الخامس والعشرون - احكم لي ياربُّ...)"
+          },
+          {
+            "line": 29,
+            "text": "Bishop:"
+          },
+          {
+            "line": 30,
+            "text": "Judge me, O Lord, for I have walked in my innocence, and trusted in the Lord; I shall not be weakened. Prove me, O Lord, and try me; purify my heart and my reins. For your mercy is before my eyes, and I am pleased with your truth. I have not sat with the vain council, nor shall I enter in with the transgressors. I have hated the assembly of evil doers, and shall not sit with ungodly men."
+          },
+          {
+            "line": 31,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 32,
+            "text": "احْكُم لي يا رب، فإني بِدِعَتي سَلَكتُ، وعلى الرب توكلتُ فلا أضعف. إختبرني يا رب وجَرِّبني. نَقِّ قلبي وكُليَتَيّ، لأن رحمتك أمام عَينَيَّ هي، وقد ارتَضيت بحَقِّك. لم أجلس مع محفل باطل، ومع مخالفي الناموس لم أدخل. أبغضتُ مجمع الأشرار، ومع المنافقين لم أجلس."
+          },
+          {
+            "line": 33,
+            "text": "I will wash my hands in purity, and go around Your altar, O Lord, to hear the voice of Your praise, and to speak of all Your wonderful works. O Lord, I have loved the beauty of Your house, and the dwelling place of Your glory. Do not destroy my soul together with the ungodly, nor my life with bloody men, in whose hands are iniquity, and their right hand is filled with bribe. But I have walked in my innocence; save me, and have mercy upon me. My foot stood in uprightness; in the congregations I will praise You, O Lord. ALLELUIA."
+          },
+          {
+            "line": 34,
+            "text": "أغسلُ يديَّ بالنقاوة، وأطوف بمذبحك يا رب، لأسمع صوت تسبحتك، وأنطِق بجميع عجائبك. يا رب أحببتُ جمال بيتك، وموضع مَسكن مجدك. فلا تُهلك مع المنافقين نَفسي، ولا مع رجال الدماء حياتي، الذين في أيديهم الإثم، يمينهم امتلأت رشوةً. أما أنا فَبِدعَتِي سلكتُ، أنقذني وارحمني، لأن رِجلي وَقَفَت في الاستقامة. في الجماعات أباركُك يا رب. هللويا."
+          },
+          {
+            "line": 35,
+            "text": "\tPsalm 26 - The Lord is my light..."
+          },
+          {
+            "line": 36,
+            "text": "(المزمور السادس والعشرون - الربّ نوري...)"
+          }
+        ]
+      },
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 4,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalm 26",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          },
+          {
+            "line": 31,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 32,
+            "text": "احْكُم لي يا رب، فإني بِدِعَتي سَلَكتُ، وعلى الرب توكلتُ فلا أضعف. إختبرني يا رب وجَرِّبني. نَقِّ قلبي وكُليَتَيّ، لأن رحمتك أمام عَينَيَّ هي، وقد ارتَضيت بحَقِّك. لم أجلس مع محفل باطل، ومع مخالفي الناموس لم أدخل. أبغضتُ مجمع الأشرار، ومع المنافقين لم أجلس."
+          },
+          {
+            "line": 33,
+            "text": "I will wash my hands in purity, and go around Your altar, O Lord, to hear the voice of Your praise, and to speak of all Your wonderful works. O Lord, I have loved the beauty of Your house, and the dwelling place of Your glory. Do not destroy my soul together with the ungodly, nor my life with bloody men, in whose hands are iniquity, and their right hand is filled with bribe. But I have walked in my innocence; save me, and have mercy upon me. My foot stood in uprightness; in the congregations I will praise You, O Lord. ALLELUIA."
+          },
+          {
+            "line": 34,
+            "text": "أغسلُ يديَّ بالنقاوة، وأطوف بمذبحك يا رب، لأسمع صوت تسبحتك، وأنطِق بجميع عجائبك. يا رب أحببتُ جمال بيتك، وموضع مَسكن مجدك. فلا تُهلك مع المنافقين نَفسي، ولا مع رجال الدماء حياتي، الذين في أيديهم الإثم، يمينهم امتلأت رشوةً. أما أنا فَبِدعَتِي سلكتُ، أنقذني وارحمني، لأن رِجلي وَقَفَت في الاستقامة. في الجماعات أباركُك يا رب. هللويا."
+          },
+          {
+            "line": 35,
+            "text": "\tPsalm 26 - The Lord is my light..."
+          },
+          {
+            "line": 36,
+            "text": "(المزمور السادس والعشرون - الربّ نوري...)"
+          },
+          {
+            "line": 37,
+            "text": "Bishop:"
+          },
+          {
+            "line": 38,
+            "text": "The Lord is my light and my salvation; whom will I fear? The Lord is the defender of my life; of whom will I be afraid? When the wicked drew near against me to eat up my flesh, those who distress me and my enemies, they fainted and fell. Though an army should fight me, my heart shall not be afraid; though war should rise up against me, in this I am confident."
+          },
+          {
+            "line": 39,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 40,
+            "text": "الرب نوري وخلاصي ممن أخاف؟‍! الرب عاضِد حياتي ممن أجزع؟! عندما يقترب مني الأشرار ليأكلوا لحمي، مضايقي وأعدائي عثروا وسقطوا. وإن يحاربني جيشٌ فلن يخاف قلبي؛ وإن قام عليّ قتالٌ ففي هذا أنا أطمئن."
+          },
+          {
+            "line": 41,
+            "text": "One thing I have asked of the Lord, this also I will seek, that I should dwell in the house of the Lord all the days of my life, that I should behold the fair beauty of the Lord, and visit His holy temple. For in the day of my afflictions He hid me in His tabernacle; He sheltered me in the secret of His tabernacle; He set me up on a rock."
+          },
+          {
+            "line": 42,
+            "text": "واحدة سألت من الرب وإياها ألتمس: أن أسكن في بيت الرب كلَّ أيام حياتي، لكي أَنظر نعيم الرب وأتفرس في هيكله المقدس. لأنه أخفاني في خيمته. في يوم شدتي سترني بستر مظلته، وعلى صخرة رفعني."
+          },
+          {
+            "line": 43,
+            "text": "And now, behold, He has lifted up my head over my enemies; I went round and offered in His tabernacle a sacrifice of joy; I shall sing, and sing psalms to the Lord."
+          },
+          {
+            "line": 44,
+            "text": "والآن هوذا قد رَفع رأسي على أعدائي. طُفت وذبحت في مظلته ذبيحة التهليل. أسبح وأُرتل للرب."
+          }
+        ]
+      },
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 5,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalm 83",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          },
+          {
+            "line": 43,
+            "text": "And now, behold, He has lifted up my head over my enemies; I went round and offered in His tabernacle a sacrifice of joy; I shall sing, and sing psalms to the Lord."
+          },
+          {
+            "line": 44,
+            "text": "والآن هوذا قد رَفع رأسي على أعدائي. طُفت وذبحت في مظلته ذبيحة التهليل. أسبح وأُرتل للرب."
+          },
+          {
+            "line": 45,
+            "text": "Hear, O Lord, my voice which I have uttered aloud; have mercy on me, and hearken to me. For You are He to whom my heart said, “I have sought Your face; Your face, O Lord, I will seek.” Do not turn away Your face from me, do not reject Your servant in anger. Be a helper to me, and do not forsake me; and do not overlook me, O God my Savior. For my father and my mother have forsaken me, but the Lord has accepted me unto Himself. Set a law for me, O Lord, in Your ways, and guide me in a right path, because of my enemies. Do not deliver me over to the hands of those who afflict me; for unjust witnesses have risen up against me, and injustice has lied to itself. I believe that I shall see the goodness of the Lord in the land of the living. Wait for the Lord; be of good cheer and let your heart be strengthened, and wait for the Lord. ALLELUIA."
+          },
+          {
+            "line": 46,
+            "text": "استمع يا رب صوتي الذي به دعوتك. ارحمني واستجب لي، فإن لك قال قلبي: «طلبتُ وجهك، ولوجهك يا رب ألتمس». لا تحجب وجهك عني، ولا تنبذ بغضب عبدك. كن لي معيناً. لا تخذلني ولا ترفضني يا الله مخلصي، فإن أبي وأمي قد تركاني وأما الرب فقَبِلَني. علمني يا رب طُريقك، واهدني في سبيلٍ مستقيمٍ من أجل أعدائي. لا تُسلمني إلى مرام مضايقي، لأنه قد قام عليّ شهودُ زورٍ، وكذب الظلم لذاته، وأنا أؤمن أني أُعاين خيرات الرب في أرض الأحياء. اِنتظر الرب، تَقَوَّ وليتشدد قلبك، واِنتظر الرب. هللويا."
+          },
+          {
+            "line": 47,
+            "text": "\tPsalm 83 - How beloved are Your dwellings..."
+          },
+          {
+            "line": 48,
+            "text": "(المزمور الثالث والثمانون - مساكنُكَ محبوبةٌ...)"
+          },
+          {
+            "line": 49,
+            "text": "Bishop:"
+          },
+          {
+            "line": 50,
+            "text": "How beloved are Your dwellings, O Lord, God of hosts! My soul longs, and faints for the courts of the Lord; my heart and my flesh have exulted in the living God. For, the sparrow has found for himself a home, and the turtledove for herself a nest, where she may lay her young; Your altars, O Lord, God of hosts, my King, and my God."
+          },
+          {
+            "line": 51,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 52,
+            "text": "مَساكِنُك محبوبة يا رب إله القوات. تشتاق وتذوب نفسي للدخول إلى ديار الرب. قلبي وجسمي قد ابتهجا بالإله الحي. لأن العصفور وَجَد له بيتاً، واليمامة عُشاً لِتضع فيه أفراخَها. مذابحَك يا رب إله القوات، ملكي وإلهي."
+          },
+          {
+            "line": 53,
+            "text": "Blessed are all who dwell in Your house; they will praise You forever and ever. Blessed is the man whose help is from You, O Lord; he sets paths upward in his heart in the valley of weeping, in the place which he has appointed, for there the Law-Giver will grant blessings. They shall go from strength to strength; the God of gods shall be revealed in Zion."
+          },
+          {
+            "line": 54,
+            "text": "طوبى لكل السُّكان في بيتك، يباركونكَ إلى الأبد. طوبى للرجل الذي نُصْرَتُهُ من عندك يا رب، رتب مَصَاعِد في قلبه. في وادي البكاء، في المكان الذي قرره، لأن البركات يُعطيها واضع الناموس. يسيرون من قوةٍ إلى قوة، يَتجلى إله الآلهة في صهيون."
+          },
+          {
+            "line": 55,
+            "text": "O Lord, God of hosts, hear my prayer; hearken, O God of Jacob. Behold, O God our defender, and look upon the face of Your anointed. For one day in Your courts is better than thousands. I chose to throw myself down in the house of God, more than to dwell in the tents of the sinners. For the Lord God loves mercy and truth; He shall give grace and glory; the Lord shall not withhold good things from those who walk in innocence. O Lord God of hosts, blessed is the man who hopes in You. ALLELUIA."
+          },
+          {
+            "line": 56,
+            "text": "أيها الرب إلهُ القُوّات، استمع صلاتي. أنصِت يا إله يعقوب، وانظر أيها الإله ناصرُنا، واطَّلِع إلى وجهِ مسيحِك. لأنَّ يوماً صالحاً في ديارك خيرٌ من آلاف. اخترتُ لنفسي أن أُطرَحَ على بابِ بيتِ الله، أفضلَ من أن أَسكُنَ في مظالِّ الخطاة. لأن الرب الإله يُحب الرحمة والحق، ويعطي مجداً ونعمة. الرب لا يمنع الخيرات عن السالكين بالدِّعَة. يا رب إله القوات، طوبى للإنسان المتكل عليك. هللويا."
+          }
+        ]
+      },
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 6,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Psalm 92",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 3,
+            "text": "The First Incense"
+          },
+          {
+            "line": 5,
+            "text": "The bishop stands at the altar with all the clergy surrounding him. He offers incense and prays the entirety of Psalms 22 and 23."
+          },
+          {
+            "line": 23,
+            "text": "The Second Incense"
+          },
+          {
+            "line": 25,
+            "text": "The Bishop offers the incense again and he signs the cross with his thumb upon the altar without the chrism. Then he begins the twenty-fifth Psalm verse by verse."
+          },
+          {
+            "line": 53,
+            "text": "Blessed are all who dwell in Your house; they will praise You forever and ever. Blessed is the man whose help is from You, O Lord; he sets paths upward in his heart in the valley of weeping, in the place which he has appointed, for there the Law-Giver will grant blessings. They shall go from strength to strength; the God of gods shall be revealed in Zion."
+          },
+          {
+            "line": 54,
+            "text": "طوبى لكل السُّكان في بيتك، يباركونكَ إلى الأبد. طوبى للرجل الذي نُصْرَتُهُ من عندك يا رب، رتب مَصَاعِد في قلبه. في وادي البكاء، في المكان الذي قرره، لأن البركات يُعطيها واضع الناموس. يسيرون من قوةٍ إلى قوة، يَتجلى إله الآلهة في صهيون."
+          },
+          {
+            "line": 55,
+            "text": "O Lord, God of hosts, hear my prayer; hearken, O God of Jacob. Behold, O God our defender, and look upon the face of Your anointed. For one day in Your courts is better than thousands. I chose to throw myself down in the house of God, more than to dwell in the tents of the sinners. For the Lord God loves mercy and truth; He shall give grace and glory; the Lord shall not withhold good things from those who walk in innocence. O Lord God of hosts, blessed is the man who hopes in You. ALLELUIA."
+          },
+          {
+            "line": 56,
+            "text": "أيها الرب إلهُ القُوّات، استمع صلاتي. أنصِت يا إله يعقوب، وانظر أيها الإله ناصرُنا، واطَّلِع إلى وجهِ مسيحِك. لأنَّ يوماً صالحاً في ديارك خيرٌ من آلاف. اخترتُ لنفسي أن أُطرَحَ على بابِ بيتِ الله، أفضلَ من أن أَسكُنَ في مظالِّ الخطاة. لأن الرب الإله يُحب الرحمة والحق، ويعطي مجداً ونعمة. الرب لا يمنع الخيرات عن السالكين بالدِّعَة. يا رب إله القوات، طوبى للإنسان المتكل عليك. هللويا."
+          },
+          {
+            "line": 57,
+            "text": "\tPsalm 92 - The Lord has reigned; He has clothed..."
+          },
+          {
+            "line": 58,
+            "text": "(المزمور الثاني والتسعون - الربُّ قد ملكَ، ولبسَ...)"
+          },
+          {
+            "line": 59,
+            "text": "Bishop:"
+          },
+          {
+            "line": 60,
+            "text": "The Lord has reigned; He has clothed Himself with beauty. The Lord has clothed and girded Himself with strength; for He has established the world, which shall not be moved. Your throne is prepared from the beginning; You are from everlasting. The rivers have lifted up, O Lord; the rivers have lifted up their voices; the rivers shall lift up their voices, from the voices of many waters. The billows of the waves of the sea are wonderful; the Lord is wonderful in the highest. His testimonies are very sure; holiness is worthy of Your house, O Lord, unto length of days. ALLELUIA."
+          },
+          {
+            "line": 61,
+            "text": "الأسقف:"
+          },
+          {
+            "line": 62,
+            "text": "الرب قد مَلَك ولَبس الجلال، لَبسَ الرب القوة وتمنطق بها، لأنه ثبّت المسكونة فلن تتزعزع. كرسيك ثابتٌ منذ البدء، وأنتَ هو منذ الأزل. رَفَعَت الأنهارُ يا رب، رفعت الأنهار صوتها، ترفع الأنهار صوتها من صوت مياه كثيرة. عجيبة هي أهوال البحر، وعجيبٌ هو الرب في الأعالي. شهاداتُه صادقة جداً. لِبَيتك ينبغي التقديس يا رب طول الأيام. هللويا."
+          },
+          {
+            "line": 63,
+            "text": "\tPrayer of Incense for the Pauline"
+          },
+          {
+            "line": 64,
+            "text": "(اوشية بخور البولس)"
+          },
+          {
+            "line": 65,
+            "text": "\tO Lord of knowledge..."
+          },
+          {
+            "line": 66,
+            "text": "(Ⲡϭⲟⲓⲥ ⲛ̀ⲧⲉ ϯⲅ̀ⲛⲱⲥⲓⲥ...)"
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      5,
+      133,
+      134,
+      135,
+      136,
+      137,
+      139,
+      140,
+      141
+    ],
+    "official_book_evidence_file": "official-consecration-page-evidence.json"
+  },
+  {
+    "legacy_row": 177,
+    "legacy_context": [
+      "altar_consecration",
+      "main",
+      "part_3"
+    ],
+    "legacy_raw_ref": "Luke 19:1-10",
+    "reading_type": "gospel",
+    "verdict": "proven_stage_assigned_reading",
+    "confidence": "confirmed",
+    "proposed_join_only": true,
+    "canonical_psalm_coordinates_approved": false,
+    "note": "Late post-consecration Luke Gospel, not initial altar Gospel Matthew 16:13-19. Full Reader surroundings prove both are distinct.",
+    "reader_evidence": [
+      {
+        "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+        "ordinal": 11,
+        "navigation": [
+          "Special",
+          "Consecrations",
+          "Altar"
+        ],
+        "section": "main_readings",
+        "printed_ref": "Luke 19:1-10",
+        "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt",
+        "sha256": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+        "lines": [
+          {
+            "line": 1,
+            "text": "The Consecration of the Altar"
+          },
+          {
+            "line": 1358,
+            "text": "The Third Incense"
+          },
+          {
+            "line": 1424,
+            "text": "\tConsecration of the Altar"
+          },
+          {
+            "line": 1889,
+            "text": "\tPrayer of Incense to the Son"
+          },
+          {
+            "line": 1891,
+            "text": "Then the Psalm shall be read:"
+          },
+          {
+            "line": 1893,
+            "text": "\tPsalms 26:8, 7"
+          },
+          {
+            "line": 1898,
+            "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+          },
+          {
+            "line": 1899,
+            "text": "Lord, I have loved the habitation of Your house, And the place where Your glory dwells. That I may proclaim with the voice of thanksgiving, And tell of all Your wondrous works."
+          },
+          {
+            "line": 1900,
+            "text": "Ⲡⲟ︦ⲥ︦ ⲁⲓⲙⲉⲛⲣⲉ ϯⲙⲉⲧⲥⲁⲓⲉ̀ ⲛ̀ⲧⲉ ⲡⲉⲕⲏⲓ: ⲛⲉⲙ ⲡ̀ⲧⲟⲡⲟⲥ ⲙ̀ⲫ̀ⲙⲁⲛϣⲱⲡⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲱ̀ⲟⲩ: ⲉ̀ⲡ̀ϫⲓⲛⲧⲁⲥⲱⲧⲉⲙ ⲉ̀ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲉⲕⲥ̀ⲙⲟⲩ: ⲟⲩⲟϩ ⲛ̀ⲧⲁⲥⲁϫⲓ ⲛ̀ⲛⲉⲕϣ̀ⲫⲏⲣⲓ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦."
+          },
+          {
+            "line": 1901,
+            "text": "يارب أحببت جمال بيتك، وموضع مسكن مجدك، لكي أسمع صوت تسبحتك، وأنطق بجميع عجائبك. هلليلويا"
+          },
+          {
+            "line": 1902,
+            "text": "\tLuke 19:1-10"
+          },
+          {
+            "line": 1903,
+            "text": "(لوقا 19: 1-10)"
+          },
+          {
+            "line": 1904,
+            "text": "Reader:"
+          },
+          {
+            "line": 1905,
+            "text": "A reading from the Gospel according to our teacher Saint Luke the Evangelist, and the pure disciple. May his blessings be with us all."
+          },
+          {
+            "line": 1906,
+            "text": "القارﺉُ:"
+          },
+          {
+            "line": 1907,
+            "text": "فصلٌ من بشارة الإنجيل لمعلمنا مارلوقا البشير، التلميذُ الطاهر، بركاتهُ على جميعنا."
+          },
+          {
+            "line": 1908,
+            "text": "1 Then Jesus entered and passed through Jericho."
+          },
+          {
+            "line": 1909,
+            "text": "Ⲟⲩⲟϩ ⲉⲧⲁϥϣⲉ ⲉ̀ϧⲟⲩⲛ ⲛⲁϥⲙⲟϣⲓ ⲡⲉ ϧⲉⲛ ⲓⲉⲣⲓⲭⲱ."
+          },
+          {
+            "line": 1910,
+            "text": "1 ثُمَّ دَخَلَ وَاجْتَازَ فِي أَرِيحَا."
+          },
+          {
+            "line": 1911,
+            "text": "2 Now behold, there was a man named Zacchaeus who was a chief tax collector, and he was rich."
+          }
+        ]
+      }
+    ],
+    "official_book_pages": [
+      5,
+      195,
+      196,
+      197
+    ],
+    "official_book_evidence_file": "official-consecration-page-evidence.json"
+  }
+]

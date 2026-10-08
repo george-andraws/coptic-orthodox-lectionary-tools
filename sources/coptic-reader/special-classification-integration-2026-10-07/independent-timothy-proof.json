@@ -1,0 +1,93 @@
+{
+  "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+  "source_sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+  "witness": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/special-context-reconciliation/1-timothy-NKJV.html",
+  "witness_sha256": "bf93c8042bbdcfeedf792a7fb9ae7a0869c25f06f637fed6eb83fea50f079a02",
+  "full_verses": 12,
+  "verses": [
+    {
+      "coordinate": "1 Timothy 2:11",
+      "source_line": 814,
+      "source": "11 Let a woman learn in silence with all submission.",
+      "independently_reparsed_witness": "Let a woman learn in silence with all submission. ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 2:12",
+      "source_line": 817,
+      "source": "12 And I do not permit a woman to teach or to have authority over a man, but to be in silence.",
+      "independently_reparsed_witness": "And  I do not permit a woman to teach or to have authority over a man, but to be in silence. ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 2:13",
+      "source_line": 820,
+      "source": "13 For Adam was formed first, then Eve.",
+      "independently_reparsed_witness": "For Adam was formed first, then Eve. ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 2:14",
+      "source_line": 823,
+      "source": "14 And Adam was not deceived, but the woman being deceived, fell into transgression.",
+      "independently_reparsed_witness": "And Adam was not deceived, but the woman being deceived, fell into transgression. ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 2:15",
+      "source_line": 826,
+      "source": "15 Nevertheless she will be saved in childbearing if they continue in faith, love, and holiness, with self-control.",
+      "independently_reparsed_witness": "Nevertheless she will be saved in childbearing if they continue in faith, love, and holiness, with self-control.",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:1",
+      "source_line": 829,
+      "source": "1 This is a faithful saying: If a man desires the position of a bishop, he desires a good work.",
+      "independently_reparsed_witness": "This  is  a faithful saying: If a man desires the position of a  bishop, he desires a good work. ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:2",
+      "source_line": 832,
+      "source": "2 A bishop then must be blameless, the husband of one wife, temperate, sober-minded, of good behavior, hospitable, able to teach;",
+      "independently_reparsed_witness": "A bishop then must be blameless, the husband of one wife, temperate, sober-minded, of good behavior, hospitable, able to teach; ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:3",
+      "source_line": 835,
+      "source": "3 not given to wine, not violent, not greedy for money, but gentle, not quarrelsome, not covetous;",
+      "independently_reparsed_witness": "not  given to wine, not violent,  not greedy for money, but gentle, not quarrelsome, not  covetous; ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:4",
+      "source_line": 838,
+      "source": "4 one who rules his own house well, having his children in submission with all reverence",
+      "independently_reparsed_witness": "one who rules his own house well, having  his  children in submission with all reverence ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:5",
+      "source_line": 841,
+      "source": "5 (for if a man does not know how to rule his own house, how will he take care of the church of God?);",
+      "independently_reparsed_witness": "(for if a man does not know how to rule his own house, how will he take care of the church of God?); ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:6",
+      "source_line": 844,
+      "source": "6 not a novice, lest being puffed up with pride he fall into the same condemnation as the devil.",
+      "independently_reparsed_witness": "not a  novice, lest being puffed up with pride he fall into the  same  condemnation as the devil. ",
+      "passed": true
+    },
+    {
+      "coordinate": "1 Timothy 3:7",
+      "source_line": 847,
+      "source": "7 Moreover he must have a good testimony among those who are outside, lest he fall into reproach and the snare of the devil.",
+      "independently_reparsed_witness": "Moreover he must have a good testimony among those who are outside, lest he fall into reproach and the  snare of the devil.",
+      "passed": true
+    }
+  ]
+}

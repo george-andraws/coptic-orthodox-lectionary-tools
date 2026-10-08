@@ -1,0 +1,65 @@
+{
+  "civil_date": "2026-04-05",
+  "context": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great",
+  "documents": [
+    {
+      "civil_date": "2026-04-05",
+      "context": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:34:32.378Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-04-05",
+      "context": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:34:45.567Z",
+      "raw_reference_lines": [
+        "\tPsalms 67:19, 35",
+        "\tLuke 19:1-10"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "e378f4c19bcef5cebf389f977d12f91377d45407c123cb38c5405a3d335448d1",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 67:19, 35",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "6bce2b494334b47887ebfa13c26039c8357f558216ff0ee51940b347e9ebd067"
+        },
+        {
+          "raw_ref": "\tLuke 19:1-10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "d050ebb882ab674a6ae97e7a6e2da926fc2b29f0644d57440e28983e0dc190fd"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

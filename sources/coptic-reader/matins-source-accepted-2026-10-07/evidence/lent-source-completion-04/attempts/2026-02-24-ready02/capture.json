@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-02-24",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 17, 1742 Tuesday, February 24, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-24",
+      "context": "Selected Season 2nd Week of Great Fast Meshir 17, 1742 Tuesday, February 24, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:06.108Z",
+      "raw_reference_lines": [
+        "\tPsalms 40:4, 12",
+        "\tLuke 12:22-31"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "e80dbdd55a8de0e9ad704e54938a597f5d10ef37fe73f6ef2dfad826ccd7bc33",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 40:4, 12",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "ad501483cdb403b3c3f4026e21799d4d372cd3d49753923d2d506ad68701344b"
+        },
+        {
+          "raw_ref": "\tLuke 12:22-31",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "ee841e27262a78e1a7b23617b7cae26a29d0709ad61c352c7c5930e78eef7a5f"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

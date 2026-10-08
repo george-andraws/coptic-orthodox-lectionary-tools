@@ -1,0 +1,65 @@
+{
+  "civil_date": "2026-03-14",
+  "context": "Selected Season 4th Week of Great Fast Paremhotep 5, 1742 Saturday, March 14, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-14",
+      "context": "Selected Season 4th Week of Great Fast Paremhotep 5, 1742 Saturday, March 14, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:18.542Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-03-14",
+      "context": "Selected Season 4th Week of Great Fast Paremhotep 5, 1742 Saturday, March 14, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:23.779Z",
+      "raw_reference_lines": [
+        "\tPsalms 141:5, 7",
+        "\tLuke 16:19-31"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "d4a0d87692520a730f7488dab034da59433224ad9668e18ee9819eef1950e1da",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 141:5, 7",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "bfaacbbc29a30e90aef07805e0da8459ce9986276d199f4075ae9253498e132f"
+        },
+        {
+          "raw_ref": "\tLuke 16:19-31",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "0373084afe554555caee5671f851b1e38e310ef0f30f6e33ea97c4564cf84261"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+..EEEE.....
+======================================================================
+ERROR: test_design_validator_accepts_source_verified_daily_artifacts (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_accepts_source_verified_daily_artifacts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 104, in test_design_validator_accepts_source_verified_daily_artifacts
+    validator.verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 480, in verify_rows
+    expected_row["slot_order"] = int(row["source_order"])
+                                     ~~~^^^^^^^^^^^^^^^^
+KeyError: 'source_order'
+
+======================================================================
+ERROR: test_design_validator_rejects_missing_reordered_and_truncated_prophecies (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_rejects_missing_reordered_and_truncated_prophecies) (mutation='missing')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 127, in test_design_validator_rejects_missing_reordered_and_truncated_prophecies
+    validator.verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 480, in verify_rows
+    expected_row["slot_order"] = int(row["source_order"])
+                                     ~~~^^^^^^^^^^^^^^^^
+KeyError: 'source_order'
+
+======================================================================
+ERROR: test_design_validator_rejects_missing_reordered_and_truncated_prophecies (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_rejects_missing_reordered_and_truncated_prophecies) (mutation='reordered')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 127, in test_design_validator_rejects_missing_reordered_and_truncated_prophecies
+    validator.verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 480, in verify_rows
+    expected_row["slot_order"] = int(row["source_order"])
+                                     ~~~^^^^^^^^^^^^^^^^
+KeyError: 'source_order'
+
+======================================================================
+ERROR: test_design_validator_rejects_missing_reordered_and_truncated_prophecies (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_rejects_missing_reordered_and_truncated_prophecies) (mutation='truncated')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 127, in test_design_validator_rejects_missing_reordered_and_truncated_prophecies
+    validator.verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 480, in verify_rows
+    expected_row["slot_order"] = int(row["source_order"])
+                                     ~~~^^^^^^^^^^^^^^^^
+KeyError: 'source_order'
+
+----------------------------------------------------------------------
+Ran 9 tests in 60.071s
+
+FAILED (errors=4)

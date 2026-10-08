@@ -1,0 +1,192 @@
+[
+  {
+    "civil_date": "2026-02-05",
+    "occasion_key": "JonahPassover@-66",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-02-14",
+    "occasion_key": "BeforeFast@-57",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-02-15",
+    "occasion_key": "Presentation@-56",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-02-21",
+    "occasion_key": "GreatFast@-50",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-02-22",
+    "occasion_key": "GreatFast@-49",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-02-28",
+    "occasion_key": "GreatFast@-43",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-01",
+    "occasion_key": "GreatFast@-42",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-07",
+    "occasion_key": "GreatFast@-36",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-08",
+    "occasion_key": "GreatFast@-35",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-14",
+    "occasion_key": "GreatFast@-29",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-15",
+    "occasion_key": "GreatFast@-28",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-19",
+    "occasion_key": "Cross@-24",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-21",
+    "occasion_key": "GreatFast@-22",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-22",
+    "occasion_key": "GreatFast@-21",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-28",
+    "occasion_key": "GreatFast@-15",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-03-29",
+    "occasion_key": "GreatFast@-14",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2026-04-05",
+    "occasion_key": "GreatFast@-7",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2027-03-07",
+    "occasion_key": "BeforeFast@-56",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  },
+  {
+    "civil_date": "2027-04-07",
+    "occasion_key": "Annunciation@-25",
+    "source_body_literal": "Prophecies\nالنبوآت\nNo prophecies are read on this day.",
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/Matins-Prophecies.txt",
+    "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "explicit_rubric": true,
+    "absence_scope": "Prophecies only; Matins Psalm and Gospel not suppressed",
+    "verdict": "accepted_explicit_source_absence"
+  }
+]

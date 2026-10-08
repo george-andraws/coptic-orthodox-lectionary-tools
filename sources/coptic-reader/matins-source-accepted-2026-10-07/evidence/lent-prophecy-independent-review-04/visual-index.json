@@ -1,0 +1,2034 @@
+[
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies-reference-01.png",
+    "label": "00 2026-02-02 ref1 Jonah 1:1-2:1",
+    "kind": "reference",
+    "doc": 0,
+    "sheet": "visual-00.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.png",
+    "label": "00 2026-02-02 context.png",
+    "kind": "context",
+    "doc": 0,
+    "sheet": "visual-00.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.png",
+    "label": "00 2026-02-02 picker.png",
+    "kind": "context",
+    "doc": 0,
+    "sheet": "visual-00.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies-reference-01.png",
+    "label": "01 2026-02-03 ref1 Jonah 2:2-10",
+    "kind": "reference",
+    "doc": 1,
+    "sheet": "visual-00.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.png",
+    "label": "01 2026-02-03 context.png",
+    "kind": "context",
+    "doc": 1,
+    "sheet": "visual-00.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.png",
+    "label": "01 2026-02-03 picker.png",
+    "kind": "context",
+    "doc": 1,
+    "sheet": "visual-00.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies-reference-01.png",
+    "label": "02 2026-02-04 ref1 Jonah 3:1-4:11",
+    "kind": "reference",
+    "doc": 2,
+    "sheet": "visual-00.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.png",
+    "label": "02 2026-02-04 context.png",
+    "kind": "context",
+    "doc": 2,
+    "sheet": "visual-00.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.png",
+    "label": "02 2026-02-04 picker.png",
+    "kind": "context",
+    "doc": 2,
+    "sheet": "visual-01.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/Prophecies-rubric-or-empty.png",
+    "label": "03 2026-02-05 ref1 rubric",
+    "kind": "reference",
+    "doc": 3,
+    "sheet": "visual-01.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/2026-02-05/context.png",
+    "label": "03 2026-02-05 context.png",
+    "kind": "context",
+    "doc": 3,
+    "sheet": "visual-01.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/2026-02-05/picker.png",
+    "label": "03 2026-02-05 picker.png",
+    "kind": "context",
+    "doc": 3,
+    "sheet": "visual-01.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/Prophecies-rubric-or-empty.png",
+    "label": "04 2026-02-14 ref1 rubric",
+    "kind": "reference",
+    "doc": 4,
+    "sheet": "visual-01.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/2026-02-14/context.png",
+    "label": "04 2026-02-14 context.png",
+    "kind": "context",
+    "doc": 4,
+    "sheet": "visual-01.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/2026-02-14/picker.png",
+    "label": "04 2026-02-14 picker.png",
+    "kind": "context",
+    "doc": 4,
+    "sheet": "visual-01.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Prophecies-rubric-or-empty.png",
+    "label": "05 2026-02-15 ref1 rubric",
+    "kind": "reference",
+    "doc": 5,
+    "sheet": "visual-01.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/context.png",
+    "label": "05 2026-02-15 context.png",
+    "kind": "context",
+    "doc": 5,
+    "sheet": "visual-02.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/picker.png",
+    "label": "05 2026-02-15 picker.png",
+    "kind": "context",
+    "doc": 5,
+    "sheet": "visual-02.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Prophecies-reference-01.png",
+    "label": "06 2026-02-16 ref1 Exodus 2:23-3:5",
+    "kind": "reference",
+    "doc": 6,
+    "sheet": "visual-02.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Prophecies-reference-02.png",
+    "label": "06 2026-02-16 ref2 Isaiah 1:2-18",
+    "kind": "reference",
+    "doc": 6,
+    "sheet": "visual-02.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/context.png",
+    "label": "06 2026-02-16 context.png",
+    "kind": "context",
+    "doc": 6,
+    "sheet": "visual-02.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/picker.png",
+    "label": "06 2026-02-16 picker.png",
+    "kind": "context",
+    "doc": 6,
+    "sheet": "visual-02.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies-reference-01.png",
+    "label": "07 2026-02-17 ref1 Isaiah 1:19-2:2-3",
+    "kind": "reference",
+    "doc": 7,
+    "sheet": "visual-02.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies-reference-02.png",
+    "label": "07 2026-02-17 ref2 Zechariah 8:7-13",
+    "kind": "reference",
+    "doc": 7,
+    "sheet": "visual-02.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/context.png",
+    "label": "07 2026-02-17 context.png",
+    "kind": "context",
+    "doc": 7,
+    "sheet": "visual-03.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/picker.png",
+    "label": "07 2026-02-17 picker.png",
+    "kind": "context",
+    "doc": 7,
+    "sheet": "visual-03.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Prophecies-reference-01.png",
+    "label": "08 2026-02-18 ref1 Isaiah 2:3-11",
+    "kind": "reference",
+    "doc": 8,
+    "sheet": "visual-03.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Prophecies-reference-02.png",
+    "label": "08 2026-02-18 ref2 Joel 2:12-26",
+    "kind": "reference",
+    "doc": 8,
+    "sheet": "visual-03.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/context.png",
+    "label": "08 2026-02-18 context.png",
+    "kind": "context",
+    "doc": 8,
+    "sheet": "visual-03.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/picker.png",
+    "label": "08 2026-02-18 picker.png",
+    "kind": "context",
+    "doc": 8,
+    "sheet": "visual-03.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies-reference-01.png",
+    "label": "09 2026-02-19 ref1 Isaiah 2:11-19",
+    "kind": "reference",
+    "doc": 9,
+    "sheet": "visual-03.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies-reference-02.png",
+    "label": "09 2026-02-19 ref2 Zechariah 8:18-23",
+    "kind": "reference",
+    "doc": 9,
+    "sheet": "visual-03.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/context.png",
+    "label": "09 2026-02-19 context.png",
+    "kind": "context",
+    "doc": 9,
+    "sheet": "visual-04.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/picker.png",
+    "label": "09 2026-02-19 picker.png",
+    "kind": "context",
+    "doc": 9,
+    "sheet": "visual-04.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies-reference-01.png",
+    "label": "10 2026-02-20 ref1 Deuteronomy 6:3-7:26",
+    "kind": "reference",
+    "doc": 10,
+    "sheet": "visual-04.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies-reference-02.png",
+    "label": "10 2026-02-20 ref2 Isaiah 3:1-14",
+    "kind": "reference",
+    "doc": 10,
+    "sheet": "visual-04.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/context.png",
+    "label": "10 2026-02-20 context.png",
+    "kind": "context",
+    "doc": 10,
+    "sheet": "visual-04.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/picker.png",
+    "label": "10 2026-02-20 picker.png",
+    "kind": "context",
+    "doc": 10,
+    "sheet": "visual-04.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Prophecies-rubric-or-empty.png",
+    "label": "11 2026-02-21 ref1 rubric",
+    "kind": "reference",
+    "doc": 11,
+    "sheet": "visual-04.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/context.png",
+    "label": "11 2026-02-21 context.png",
+    "kind": "context",
+    "doc": 11,
+    "sheet": "visual-04.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/picker.png",
+    "label": "11 2026-02-21 picker.png",
+    "kind": "context",
+    "doc": 11,
+    "sheet": "visual-05.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Prophecies-rubric-or-empty.png",
+    "label": "12 2026-02-22 ref1 rubric",
+    "kind": "reference",
+    "doc": 12,
+    "sheet": "visual-05.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/context.png",
+    "label": "12 2026-02-22 context.png",
+    "kind": "context",
+    "doc": 12,
+    "sheet": "visual-05.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/picker.png",
+    "label": "12 2026-02-22 picker.png",
+    "kind": "context",
+    "doc": 12,
+    "sheet": "visual-05.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Prophecies-rubric-or-empty.png",
+    "label": "13 2026-02-28 ref1 rubric",
+    "kind": "reference",
+    "doc": 13,
+    "sheet": "visual-05.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/context.png",
+    "label": "13 2026-02-28 context.png",
+    "kind": "context",
+    "doc": 13,
+    "sheet": "visual-05.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/picker.png",
+    "label": "13 2026-02-28 picker.png",
+    "kind": "context",
+    "doc": 13,
+    "sheet": "visual-05.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Prophecies-rubric-or-empty.png",
+    "label": "14 2026-03-01 ref1 rubric",
+    "kind": "reference",
+    "doc": 14,
+    "sheet": "visual-05.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/context.png",
+    "label": "14 2026-03-01 context.png",
+    "kind": "context",
+    "doc": 14,
+    "sheet": "visual-06.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/picker.png",
+    "label": "14 2026-03-01 picker.png",
+    "kind": "context",
+    "doc": 14,
+    "sheet": "visual-06.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Prophecies-rubric-or-empty.png",
+    "label": "15 2026-03-07 ref1 rubric",
+    "kind": "reference",
+    "doc": 15,
+    "sheet": "visual-06.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/context.png",
+    "label": "15 2026-03-07 context.png",
+    "kind": "context",
+    "doc": 15,
+    "sheet": "visual-06.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/picker.png",
+    "label": "15 2026-03-07 picker.png",
+    "kind": "context",
+    "doc": 15,
+    "sheet": "visual-06.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Prophecies-rubric-or-empty.png",
+    "label": "16 2026-03-08 ref1 rubric",
+    "kind": "reference",
+    "doc": 16,
+    "sheet": "visual-06.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/context.png",
+    "label": "16 2026-03-08 context.png",
+    "kind": "context",
+    "doc": 16,
+    "sheet": "visual-06.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/picker.png",
+    "label": "16 2026-03-08 picker.png",
+    "kind": "context",
+    "doc": 16,
+    "sheet": "visual-06.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Prophecies-rubric-or-empty.png",
+    "label": "17 2026-03-14 ref1 rubric",
+    "kind": "reference",
+    "doc": 17,
+    "sheet": "visual-07.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/context.png",
+    "label": "17 2026-03-14 context.png",
+    "kind": "context",
+    "doc": 17,
+    "sheet": "visual-07.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/picker.png",
+    "label": "17 2026-03-14 picker.png",
+    "kind": "context",
+    "doc": 17,
+    "sheet": "visual-07.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Prophecies-rubric-or-empty.png",
+    "label": "18 2026-03-15 ref1 rubric",
+    "kind": "reference",
+    "doc": 18,
+    "sheet": "visual-07.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/context.png",
+    "label": "18 2026-03-15 context.png",
+    "kind": "context",
+    "doc": 18,
+    "sheet": "visual-07.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/picker.png",
+    "label": "18 2026-03-15 picker.png",
+    "kind": "context",
+    "doc": 18,
+    "sheet": "visual-07.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Prophecies-rubric-or-empty.png",
+    "label": "19 2026-03-19 ref1 rubric",
+    "kind": "reference",
+    "doc": 19,
+    "sheet": "visual-07.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/context.png",
+    "label": "19 2026-03-19 context.png",
+    "kind": "context",
+    "doc": 19,
+    "sheet": "visual-07.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/picker.png",
+    "label": "19 2026-03-19 picker.png",
+    "kind": "context",
+    "doc": 19,
+    "sheet": "visual-08.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Prophecies-rubric-or-empty.png",
+    "label": "20 2026-03-21 ref1 rubric",
+    "kind": "reference",
+    "doc": 20,
+    "sheet": "visual-08.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/context.png",
+    "label": "20 2026-03-21 context.png",
+    "kind": "context",
+    "doc": 20,
+    "sheet": "visual-08.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/picker.png",
+    "label": "20 2026-03-21 picker.png",
+    "kind": "context",
+    "doc": 20,
+    "sheet": "visual-08.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Prophecies-rubric-or-empty.png",
+    "label": "21 2026-03-22 ref1 rubric",
+    "kind": "reference",
+    "doc": 21,
+    "sheet": "visual-08.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/context.png",
+    "label": "21 2026-03-22 context.png",
+    "kind": "context",
+    "doc": 21,
+    "sheet": "visual-08.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/picker.png",
+    "label": "21 2026-03-22 picker.png",
+    "kind": "context",
+    "doc": 21,
+    "sheet": "visual-08.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Prophecies-rubric-or-empty.png",
+    "label": "22 2026-03-28 ref1 rubric",
+    "kind": "reference",
+    "doc": 22,
+    "sheet": "visual-08.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/context.png",
+    "label": "22 2026-03-28 context.png",
+    "kind": "context",
+    "doc": 22,
+    "sheet": "visual-09.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/picker.png",
+    "label": "22 2026-03-28 picker.png",
+    "kind": "context",
+    "doc": 22,
+    "sheet": "visual-09.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Prophecies-rubric-or-empty.png",
+    "label": "23 2026-03-29 ref1 rubric",
+    "kind": "reference",
+    "doc": 23,
+    "sheet": "visual-09.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/context.png",
+    "label": "23 2026-03-29 context.png",
+    "kind": "context",
+    "doc": 23,
+    "sheet": "visual-09.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/picker.png",
+    "label": "23 2026-03-29 picker.png",
+    "kind": "context",
+    "doc": 23,
+    "sheet": "visual-09.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-01.png",
+    "label": "24 2026-03-30 ref1 Proverbs 10:1-16",
+    "kind": "reference",
+    "doc": 24,
+    "sheet": "visual-09.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-02.png",
+    "label": "24 2026-03-30 ref2 Isaiah 48:17-49:4",
+    "kind": "reference",
+    "doc": 24,
+    "sheet": "visual-09.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-03.png",
+    "label": "24 2026-03-30 ref3 Job 38:1-36",
+    "kind": "reference",
+    "doc": 24,
+    "sheet": "visual-09.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/context.png",
+    "label": "24 2026-03-30 context.png",
+    "kind": "context",
+    "doc": 24,
+    "sheet": "visual-10.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/picker.png",
+    "label": "24 2026-03-30 picker.png",
+    "kind": "context",
+    "doc": 24,
+    "sheet": "visual-10.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Prophecies-reference-01.png",
+    "label": "25 2026-03-31 ref1 Proverbs 10:17-32",
+    "kind": "reference",
+    "doc": 25,
+    "sheet": "visual-10.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Prophecies-reference-02.png",
+    "label": "25 2026-03-31 ref2 Isaiah 49:6-10",
+    "kind": "reference",
+    "doc": 25,
+    "sheet": "visual-10.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Prophecies-reference-03.png",
+    "label": "25 2026-03-31 ref3 Job 38:37-39:30",
+    "kind": "reference",
+    "doc": 25,
+    "sheet": "visual-10.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/context.png",
+    "label": "25 2026-03-31 context.png",
+    "kind": "context",
+    "doc": 25,
+    "sheet": "visual-10.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/picker.png",
+    "label": "25 2026-03-31 picker.png",
+    "kind": "context",
+    "doc": 25,
+    "sheet": "visual-10.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-01.png",
+    "label": "26 2026-04-01 ref1 Proverbs 10:32-11:13",
+    "kind": "reference",
+    "doc": 26,
+    "sheet": "visual-10.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-02.png",
+    "label": "26 2026-04-01 ref2 Isaiah 58:1-11",
+    "kind": "reference",
+    "doc": 26,
+    "sheet": "visual-11.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-03.png",
+    "label": "26 2026-04-01 ref3 Job 40:6-41:34",
+    "kind": "reference",
+    "doc": 26,
+    "sheet": "visual-11.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/context.png",
+    "label": "26 2026-04-01 context.png",
+    "kind": "context",
+    "doc": 26,
+    "sheet": "visual-11.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/picker.png",
+    "label": "26 2026-04-01 picker.png",
+    "kind": "context",
+    "doc": 26,
+    "sheet": "visual-11.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-01.png",
+    "label": "27 2026-04-02 ref1 Proverbs 11:13-26",
+    "kind": "reference",
+    "doc": 27,
+    "sheet": "visual-11.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-02.png",
+    "label": "27 2026-04-02 ref2 Isaiah 65:8-16",
+    "kind": "reference",
+    "doc": 27,
+    "sheet": "visual-11.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-03.png",
+    "label": "27 2026-04-02 ref3 Job 42:1-6",
+    "kind": "reference",
+    "doc": 27,
+    "sheet": "visual-11.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/context.png",
+    "label": "27 2026-04-02 context.png",
+    "kind": "context",
+    "doc": 27,
+    "sheet": "visual-11.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/picker.png",
+    "label": "27 2026-04-02 picker.png",
+    "kind": "context",
+    "doc": 27,
+    "sheet": "visual-12.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-01.png",
+    "label": "28 2026-04-04 ref1 Genesis 49:1-28",
+    "kind": "reference",
+    "doc": 28,
+    "sheet": "visual-12.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-02.png",
+    "label": "28 2026-04-04 ref2 Isaiah 40:9-31",
+    "kind": "reference",
+    "doc": 28,
+    "sheet": "visual-12.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-03.png",
+    "label": "28 2026-04-04 ref3 Zephaniah 3:14-20",
+    "kind": "reference",
+    "doc": 28,
+    "sheet": "visual-12.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-04.png",
+    "label": "28 2026-04-04 ref4 Zechariah 9:9-15",
+    "kind": "reference",
+    "doc": 28,
+    "sheet": "visual-12.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/context.png",
+    "label": "28 2026-04-04 context.png",
+    "kind": "context",
+    "doc": 28,
+    "sheet": "visual-12.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/picker.png",
+    "label": "28 2026-04-04 picker.png",
+    "kind": "context",
+    "doc": 28,
+    "sheet": "visual-12.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Prophecies-rubric-or-empty.png",
+    "label": "29 2026-04-05 ref1 rubric",
+    "kind": "reference",
+    "doc": 29,
+    "sheet": "visual-12.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/context.png",
+    "label": "29 2026-04-05 context.png",
+    "kind": "context",
+    "doc": 29,
+    "sheet": "visual-13.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/picker.png",
+    "label": "29 2026-04-05 picker.png",
+    "kind": "context",
+    "doc": 29,
+    "sheet": "visual-13.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Prophecies-rubric-or-empty.png",
+    "label": "30 2027-03-07 ref1 rubric",
+    "kind": "reference",
+    "doc": 30,
+    "sheet": "visual-13.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/context.png",
+    "label": "30 2027-03-07 context.png",
+    "kind": "context",
+    "doc": 30,
+    "sheet": "visual-13.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/picker.png",
+    "label": "30 2027-03-07 picker.png",
+    "kind": "context",
+    "doc": 30,
+    "sheet": "visual-13.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/reference-01.png",
+    "label": "31 2026-02-23 ref1 Exodus 3:6-14",
+    "kind": "reference",
+    "doc": 31,
+    "sheet": "visual-13.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/reference-02.png",
+    "label": "31 2026-02-23 ref2 Isaiah 4:2-5:7",
+    "kind": "reference",
+    "doc": 31,
+    "sheet": "visual-13.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/context.png",
+    "label": "31 2026-02-23 context.png",
+    "kind": "context",
+    "doc": 31,
+    "sheet": "visual-13.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/picker.png",
+    "label": "31 2026-02-23 picker.png",
+    "kind": "context",
+    "doc": 31,
+    "sheet": "visual-14.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/reference-01.png",
+    "label": "32 2026-02-24 ref1 Job 19:1-27",
+    "kind": "reference",
+    "doc": 32,
+    "sheet": "visual-14.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/reference-02.png",
+    "label": "32 2026-02-24 ref2 Isaiah 5:7-16",
+    "kind": "reference",
+    "doc": 32,
+    "sheet": "visual-14.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/context.png",
+    "label": "32 2026-02-24 context.png",
+    "kind": "context",
+    "doc": 32,
+    "sheet": "visual-14.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/picker.png",
+    "label": "32 2026-02-24 picker.png",
+    "kind": "context",
+    "doc": 32,
+    "sheet": "visual-14.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/reference-01.png",
+    "label": "33 2026-02-25 ref1 Exodus 2:11-20",
+    "kind": "reference",
+    "doc": 33,
+    "sheet": "visual-14.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/reference-02.png",
+    "label": "33 2026-02-25 ref2 Isaiah 5:17-25",
+    "kind": "reference",
+    "doc": 33,
+    "sheet": "visual-14.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/context.png",
+    "label": "33 2026-02-25 context.png",
+    "kind": "context",
+    "doc": 33,
+    "sheet": "visual-14.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/picker.png",
+    "label": "33 2026-02-25 picker.png",
+    "kind": "context",
+    "doc": 33,
+    "sheet": "visual-15.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/reference-01.png",
+    "label": "34 2026-02-26 ref1 Deuteronomy 5:15-22",
+    "kind": "reference",
+    "doc": 34,
+    "sheet": "visual-15.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/reference-02.png",
+    "label": "34 2026-02-26 ref2 Isaiah 6:1-12",
+    "kind": "reference",
+    "doc": 34,
+    "sheet": "visual-15.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/context.png",
+    "label": "34 2026-02-26 context.png",
+    "kind": "context",
+    "doc": 34,
+    "sheet": "visual-15.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/picker.png",
+    "label": "34 2026-02-26 picker.png",
+    "kind": "context",
+    "doc": 34,
+    "sheet": "visual-15.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-01.png",
+    "label": "35 2026-02-27 ref1 Deuteronomy 8:1-9:4",
+    "kind": "reference",
+    "doc": 35,
+    "sheet": "visual-15.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-02.png",
+    "label": "35 2026-02-27 ref2 1 Samuel 17:1-18:4",
+    "kind": "reference",
+    "doc": 35,
+    "sheet": "visual-15.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-03.png",
+    "label": "35 2026-02-27 ref3 Isaiah 7:1-14",
+    "kind": "reference",
+    "doc": 35,
+    "sheet": "visual-15.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-04.png",
+    "label": "35 2026-02-27 ref4 Job 11:1-20",
+    "kind": "reference",
+    "doc": 35,
+    "sheet": "visual-16.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/context.png",
+    "label": "35 2026-02-27 context.png",
+    "kind": "context",
+    "doc": 35,
+    "sheet": "visual-16.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/picker.png",
+    "label": "35 2026-02-27 picker.png",
+    "kind": "context",
+    "doc": 35,
+    "sheet": "visual-16.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/reference-01.png",
+    "label": "36 2026-03-02 ref1 Proverbs 1:20-33",
+    "kind": "reference",
+    "doc": 36,
+    "sheet": "visual-16.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/reference-02.png",
+    "label": "36 2026-03-02 ref2 Isaiah 8:13-9:7",
+    "kind": "reference",
+    "doc": 36,
+    "sheet": "visual-16.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/context.png",
+    "label": "36 2026-03-02 context.png",
+    "kind": "context",
+    "doc": 36,
+    "sheet": "visual-16.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/picker.png",
+    "label": "36 2026-03-02 picker.png",
+    "kind": "context",
+    "doc": 36,
+    "sheet": "visual-16.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/reference-01.png",
+    "label": "37 2026-03-03 ref1 Proverbs 2:1-15",
+    "kind": "reference",
+    "doc": 37,
+    "sheet": "visual-16.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/reference-02.png",
+    "label": "37 2026-03-03 ref2 Isaiah 10:12-20",
+    "kind": "reference",
+    "doc": 37,
+    "sheet": "visual-17.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/context.png",
+    "label": "37 2026-03-03 context.png",
+    "kind": "context",
+    "doc": 37,
+    "sheet": "visual-17.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/picker.png",
+    "label": "37 2026-03-03 picker.png",
+    "kind": "context",
+    "doc": 37,
+    "sheet": "visual-17.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/context.png",
+    "label": "38 2026-03-04 context.png",
+    "kind": "context",
+    "doc": 38,
+    "sheet": "visual-17.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/picker.png",
+    "label": "38 2026-03-04 picker.png",
+    "kind": "context",
+    "doc": 38,
+    "sheet": "visual-17.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-01.png",
+    "label": "39 2026-03-05 ref1 Genesis 18:17-19:29",
+    "kind": "reference",
+    "doc": 39,
+    "sheet": "visual-17.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-02.png",
+    "label": "39 2026-03-05 ref2 Proverbs 2:16-3:4",
+    "kind": "reference",
+    "doc": 39,
+    "sheet": "visual-17.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-03.png",
+    "label": "39 2026-03-05 ref3 Isaiah 11:10-12:2",
+    "kind": "reference",
+    "doc": 39,
+    "sheet": "visual-17.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/context.png",
+    "label": "39 2026-03-05 context.png",
+    "kind": "context",
+    "doc": 39,
+    "sheet": "visual-18.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/picker.png",
+    "label": "39 2026-03-05 picker.png",
+    "kind": "context",
+    "doc": 39,
+    "sheet": "visual-18.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-01.png",
+    "label": "40 2026-03-06 ref1 Deuteronomy 9:7-10:11",
+    "kind": "reference",
+    "doc": 40,
+    "sheet": "visual-18.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-02.png",
+    "label": "40 2026-03-06 ref2 1 Samuel 23:26-24:22",
+    "kind": "reference",
+    "doc": 40,
+    "sheet": "visual-18.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-03.png",
+    "label": "40 2026-03-06 ref3 Isaiah 13:2-13",
+    "kind": "reference",
+    "doc": 40,
+    "sheet": "visual-18.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-04.png",
+    "label": "40 2026-03-06 ref4 Job 15:1-35",
+    "kind": "reference",
+    "doc": 40,
+    "sheet": "visual-18.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-05.png",
+    "label": "40 2026-03-06 ref5 Sirach 2:1-3:4",
+    "kind": "reference",
+    "doc": 40,
+    "sheet": "visual-18.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.png",
+    "label": "40 2026-03-06 context.png",
+    "kind": "context",
+    "doc": 40,
+    "sheet": "visual-18.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.png",
+    "label": "40 2026-03-06 picker.png",
+    "kind": "context",
+    "doc": 40,
+    "sheet": "visual-19.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-01.png",
+    "label": "41 2026-03-09 ref1 Genesis 27:1-41",
+    "kind": "reference",
+    "doc": 41,
+    "sheet": "visual-19.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-02.png",
+    "label": "41 2026-03-09 ref2 Isaiah 14:24-32",
+    "kind": "reference",
+    "doc": 41,
+    "sheet": "visual-19.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-03.png",
+    "label": "41 2026-03-09 ref3 Job 16:1-17:16",
+    "kind": "reference",
+    "doc": 41,
+    "sheet": "visual-19.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/context.png",
+    "label": "41 2026-03-09 context.png",
+    "kind": "context",
+    "doc": 41,
+    "sheet": "visual-19.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/picker.png",
+    "label": "41 2026-03-09 picker.png",
+    "kind": "context",
+    "doc": 41,
+    "sheet": "visual-19.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-01.png",
+    "label": "42 2026-03-10 ref1 Genesis 28:10-22",
+    "kind": "reference",
+    "doc": 42,
+    "sheet": "visual-19.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-02.png",
+    "label": "42 2026-03-10 ref2 Isaiah 25:1-26:8",
+    "kind": "reference",
+    "doc": 42,
+    "sheet": "visual-19.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-03.png",
+    "label": "42 2026-03-10 ref3 Job 18:1-21",
+    "kind": "reference",
+    "doc": 42,
+    "sheet": "visual-20.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-04.png",
+    "label": "42 2026-03-10 ref4 Sirach 8, 9, 10:1",
+    "kind": "reference",
+    "doc": 42,
+    "sheet": "visual-20.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.png",
+    "label": "42 2026-03-10 context.png",
+    "kind": "context",
+    "doc": 42,
+    "sheet": "visual-20.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.png",
+    "label": "42 2026-03-10 picker.png",
+    "kind": "context",
+    "doc": 42,
+    "sheet": "visual-20.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-01.png",
+    "label": "43 2026-03-11 ref1 Exodus 7:14-8:19",
+    "kind": "reference",
+    "doc": 43,
+    "sheet": "visual-20.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-02.png",
+    "label": "43 2026-03-11 ref2 Joel 2:28-32",
+    "kind": "reference",
+    "doc": 43,
+    "sheet": "visual-20.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-03.png",
+    "label": "43 2026-03-11 ref3 Job 1:1-22",
+    "kind": "reference",
+    "doc": 43,
+    "sheet": "visual-20.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-04.png",
+    "label": "43 2026-03-11 ref4 Isaiah 26:21-27:9",
+    "kind": "reference",
+    "doc": 43,
+    "sheet": "visual-20.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/context.png",
+    "label": "43 2026-03-11 context.png",
+    "kind": "context",
+    "doc": 43,
+    "sheet": "visual-21.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/picker.png",
+    "label": "43 2026-03-11 picker.png",
+    "kind": "context",
+    "doc": 43,
+    "sheet": "visual-21.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-01.png",
+    "label": "44 2026-03-12 ref1 Genesis 32:1-30",
+    "kind": "reference",
+    "doc": 44,
+    "sheet": "visual-21.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-02.png",
+    "label": "44 2026-03-12 ref2 Isaiah 28:14-22",
+    "kind": "reference",
+    "doc": 44,
+    "sheet": "visual-21.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-03.png",
+    "label": "44 2026-03-12 ref3 Job 20:1-29",
+    "kind": "reference",
+    "doc": 44,
+    "sheet": "visual-21.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-04.png",
+    "label": "44 2026-03-12 ref4 Daniel 6:1-27",
+    "kind": "reference",
+    "doc": 44,
+    "sheet": "visual-21.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/context.png",
+    "label": "44 2026-03-12 context.png",
+    "kind": "context",
+    "doc": 44,
+    "sheet": "visual-21.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/picker.png",
+    "label": "44 2026-03-12 picker.png",
+    "kind": "context",
+    "doc": 44,
+    "sheet": "visual-21.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-01.png",
+    "label": "45 2026-03-13 ref1 Deuteronomy 10:12-11:28",
+    "kind": "reference",
+    "doc": 45,
+    "sheet": "visual-22.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-02.png",
+    "label": "45 2026-03-13 ref2 Isaiah 29:13-23",
+    "kind": "reference",
+    "doc": 45,
+    "sheet": "visual-22.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-03.png",
+    "label": "45 2026-03-13 ref3 Job 21:1-34",
+    "kind": "reference",
+    "doc": 45,
+    "sheet": "visual-22.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-04.png",
+    "label": "45 2026-03-13 ref4 Daniel 14:1-42",
+    "kind": "reference",
+    "doc": 45,
+    "sheet": "visual-22.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.png",
+    "label": "45 2026-03-13 context.png",
+    "kind": "context",
+    "doc": 45,
+    "sheet": "visual-22.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.png",
+    "label": "45 2026-03-13 picker.png",
+    "kind": "context",
+    "doc": 45,
+    "sheet": "visual-22.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-01.png",
+    "label": "46 2026-03-16 ref1 Proverbs 3:5-18",
+    "kind": "reference",
+    "doc": 46,
+    "sheet": "visual-22.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-02.png",
+    "label": "46 2026-03-16 ref2 Isaiah 37:33-38:6",
+    "kind": "reference",
+    "doc": 46,
+    "sheet": "visual-22.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-03.png",
+    "label": "46 2026-03-16 ref3 Job 22:1-30",
+    "kind": "reference",
+    "doc": 46,
+    "sheet": "visual-23.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/context.png",
+    "label": "46 2026-03-16 context.png",
+    "kind": "context",
+    "doc": 46,
+    "sheet": "visual-23.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/picker.png",
+    "label": "46 2026-03-16 picker.png",
+    "kind": "context",
+    "doc": 46,
+    "sheet": "visual-23.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-01.png",
+    "label": "47 2026-03-17 ref1 Numbers 10:35-11:35",
+    "kind": "reference",
+    "doc": 47,
+    "sheet": "visual-23.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-02.png",
+    "label": "47 2026-03-17 ref2 Proverbs 3:19-4:9",
+    "kind": "reference",
+    "doc": 47,
+    "sheet": "visual-23.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-03.png",
+    "label": "47 2026-03-17 ref3 Isaiah 40:1-8",
+    "kind": "reference",
+    "doc": 47,
+    "sheet": "visual-23.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-04.png",
+    "label": "47 2026-03-17 ref4 Job 25:1-6",
+    "kind": "reference",
+    "doc": 47,
+    "sheet": "visual-23.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-05.png",
+    "label": "47 2026-03-17 ref5 Job 26:1-14",
+    "kind": "reference",
+    "doc": 47,
+    "sheet": "visual-23.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/context.png",
+    "label": "47 2026-03-17 context.png",
+    "kind": "context",
+    "doc": 47,
+    "sheet": "visual-24.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/picker.png",
+    "label": "47 2026-03-17 picker.png",
+    "kind": "context",
+    "doc": 47,
+    "sheet": "visual-24.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-01.png",
+    "label": "48 2026-03-18 ref1 Exodus 8:20-9:35",
+    "kind": "reference",
+    "doc": 48,
+    "sheet": "visual-24.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-02.png",
+    "label": "48 2026-03-18 ref2 Isaiah 41:4-14",
+    "kind": "reference",
+    "doc": 48,
+    "sheet": "visual-24.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-03.png",
+    "label": "48 2026-03-18 ref3 Joel 3:9-21",
+    "kind": "reference",
+    "doc": 48,
+    "sheet": "visual-24.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-04.png",
+    "label": "48 2026-03-18 ref4 Job 28:12-28",
+    "kind": "reference",
+    "doc": 48,
+    "sheet": "visual-24.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-05.png",
+    "label": "48 2026-03-18 ref5 Proverbs 4:10-19",
+    "kind": "reference",
+    "doc": 48,
+    "sheet": "visual-24.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.png",
+    "label": "48 2026-03-18 context.png",
+    "kind": "context",
+    "doc": 48,
+    "sheet": "visual-24.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.png",
+    "label": "48 2026-03-18 picker.png",
+    "kind": "context",
+    "doc": 48,
+    "sheet": "visual-25.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-01.png",
+    "label": "49 2026-03-20 ref1 Deuteronomy 11:29-12:27",
+    "kind": "reference",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-02.png",
+    "label": "49 2026-03-20 ref2 1 Kings 17:2-24",
+    "kind": "reference",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-03.png",
+    "label": "49 2026-03-20 ref3 Proverbs 5:1-12",
+    "kind": "reference",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-04.png",
+    "label": "49 2026-03-20 ref4 Isaiah 43:1-9",
+    "kind": "reference",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-05.png",
+    "label": "49 2026-03-20 ref5 Job 30:9-32:5",
+    "kind": "reference",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.png",
+    "label": "49 2026-03-20 context.png",
+    "kind": "context",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.png",
+    "label": "49 2026-03-20 picker.png",
+    "kind": "context",
+    "doc": 49,
+    "sheet": "visual-25.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-01.png",
+    "label": "50 2026-03-23 ref1 Proverbs 8:1-11",
+    "kind": "reference",
+    "doc": 50,
+    "sheet": "visual-26.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-02.png",
+    "label": "50 2026-03-23 ref2 Isaiah 43:10-28",
+    "kind": "reference",
+    "doc": 50,
+    "sheet": "visual-26.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-03.png",
+    "label": "50 2026-03-23 ref3 Job 32:6-16",
+    "kind": "reference",
+    "doc": 50,
+    "sheet": "visual-26.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.png",
+    "label": "50 2026-03-23 context.png",
+    "kind": "context",
+    "doc": 50,
+    "sheet": "visual-26.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.png",
+    "label": "50 2026-03-23 picker.png",
+    "kind": "context",
+    "doc": 50,
+    "sheet": "visual-26.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-01.png",
+    "label": "51 2026-03-24 ref1 Proverbs 8:12-21",
+    "kind": "reference",
+    "doc": 51,
+    "sheet": "visual-26.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-02.png",
+    "label": "51 2026-03-24 ref2 Isaiah 44:1-8",
+    "kind": "reference",
+    "doc": 51,
+    "sheet": "visual-26.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-03.png",
+    "label": "51 2026-03-24 ref3 Job 32:17-33:33",
+    "kind": "reference",
+    "doc": 51,
+    "sheet": "visual-26.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.png",
+    "label": "51 2026-03-24 context.png",
+    "kind": "context",
+    "doc": 51,
+    "sheet": "visual-27.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.png",
+    "label": "51 2026-03-24 picker.png",
+    "kind": "context",
+    "doc": 51,
+    "sheet": "visual-27.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-01.png",
+    "label": "52 2026-03-25 ref1 Exodus 10:1-11:10",
+    "kind": "reference",
+    "doc": 52,
+    "sheet": "visual-27.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-02.png",
+    "label": "52 2026-03-25 ref2 Isaiah 44:21-28",
+    "kind": "reference",
+    "doc": 52,
+    "sheet": "visual-27.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-03.png",
+    "label": "52 2026-03-25 ref3 Proverbs 8:22-36",
+    "kind": "reference",
+    "doc": 52,
+    "sheet": "visual-27.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-04.png",
+    "label": "52 2026-03-25 ref4 Job 34:1-37",
+    "kind": "reference",
+    "doc": 52,
+    "sheet": "visual-27.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.png",
+    "label": "52 2026-03-25 context.png",
+    "kind": "context",
+    "doc": 52,
+    "sheet": "visual-27.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.png",
+    "label": "52 2026-03-25 picker.png",
+    "kind": "context",
+    "doc": 52,
+    "sheet": "visual-27.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-01.png",
+    "label": "53 2026-03-26 ref1 2 Kings 4:8-41",
+    "kind": "reference",
+    "doc": 53,
+    "sheet": "visual-28.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-02.png",
+    "label": "53 2026-03-26 ref2 Isaiah 45:1-10",
+    "kind": "reference",
+    "doc": 53,
+    "sheet": "visual-28.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-03.png",
+    "label": "53 2026-03-26 ref3 Proverbs 9:1-11",
+    "kind": "reference",
+    "doc": 53,
+    "sheet": "visual-28.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-04.png",
+    "label": "53 2026-03-26 ref4 Job 35:1-16",
+    "kind": "reference",
+    "doc": 53,
+    "sheet": "visual-28.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.png",
+    "label": "53 2026-03-26 context.png",
+    "kind": "context",
+    "doc": 53,
+    "sheet": "visual-28.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.png",
+    "label": "53 2026-03-26 picker.png",
+    "kind": "context",
+    "doc": 53,
+    "sheet": "visual-28.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-01.png",
+    "label": "54 2026-03-27 ref1 Genesis 22:1-18",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-28.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-02.png",
+    "label": "54 2026-03-27 ref2 Isaiah 45:11-17",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-28.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-03.png",
+    "label": "54 2026-03-27 ref3 Proverbs 9:12-18",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-04.png",
+    "label": "54 2026-03-27 ref4 Job 36:1-33",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-05.png",
+    "label": "54 2026-03-27 ref5 Job 37:1-24",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-06.png",
+    "label": "54 2026-03-27 ref6 Tobit 1-3:6",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-07.png",
+    "label": "54 2026-03-27 ref7 Tobit 3:7-23",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-08.png",
+    "label": "54 2026-03-27 ref8 Tobit 3:24-6:9",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-09.png",
+    "label": "54 2026-03-27 ref9 Tobit 6:10-9:12",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-10.png",
+    "label": "54 2026-03-27 ref10 Tobit 10:1-11:21",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-29.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-11.png",
+    "label": "54 2026-03-27 ref11 Tobit 12:1-14:17",
+    "kind": "reference",
+    "doc": 54,
+    "sheet": "visual-30.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.png",
+    "label": "54 2026-03-27 context.png",
+    "kind": "context",
+    "doc": 54,
+    "sheet": "visual-30.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.png",
+    "label": "54 2026-03-27 picker.png",
+    "kind": "context",
+    "doc": 54,
+    "sheet": "visual-30.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-01.png",
+    "label": "55 2027-04-08 ref1 Isaiah 42:5-16",
+    "kind": "reference",
+    "doc": 55,
+    "sheet": "visual-30.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-02.png",
+    "label": "55 2027-04-08 ref2 Proverbs 4:20-27",
+    "kind": "reference",
+    "doc": 55,
+    "sheet": "visual-30.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-03.png",
+    "label": "55 2027-04-08 ref3 Job 29:2-20",
+    "kind": "reference",
+    "doc": 55,
+    "sheet": "visual-30.jpg",
+    "cell": 5
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.png",
+    "label": "55 2027-04-08 context.png",
+    "kind": "context",
+    "doc": 55,
+    "sheet": "visual-30.jpg",
+    "cell": 6
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.png",
+    "label": "55 2027-04-08 picker.png",
+    "kind": "context",
+    "doc": 55,
+    "sheet": "visual-30.jpg",
+    "cell": 7
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/home-selected.png",
+    "label": "2028-04-07 home-selected.png",
+    "kind": "context",
+    "doc": "supplement",
+    "sheet": "visual-31.jpg",
+    "cell": 0
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/picker-selected.png",
+    "label": "2028-04-07 picker-selected.png",
+    "kind": "context",
+    "doc": "supplement",
+    "sheet": "visual-31.jpg",
+    "cell": 1
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/home-selected.png",
+    "label": "2027-04-07 home-selected.png",
+    "kind": "context",
+    "doc": "supplement",
+    "sheet": "visual-31.jpg",
+    "cell": 2
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/picker-selected.png",
+    "label": "2027-04-07 picker-selected.png",
+    "kind": "context",
+    "doc": "supplement",
+    "sheet": "visual-31.jpg",
+    "cell": 3
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-02-29/home-selected.png",
+    "label": "2028-02-29 home-selected.png",
+    "kind": "context",
+    "doc": "supplement",
+    "sheet": "visual-31.jpg",
+    "cell": 4
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-02-29/picker-selected.png",
+    "label": "2028-02-29 picker-selected.png",
+    "kind": "context",
+    "doc": "supplement",
+    "sheet": "visual-31.jpg",
+    "cell": 5
+  }
+]

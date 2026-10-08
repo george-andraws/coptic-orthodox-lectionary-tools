@@ -1,0 +1,714 @@
+[
+  {
+    "civil_date": "2026-02-02",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-02/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies-reference-01.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-03",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-03/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies-reference-01.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-04",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-04/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies-reference-01.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-05",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-14",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-15",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-16",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "c8007a0978980f19d128229550a7e08065566da79aab085ccbe739988e2f099a",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-16/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Prophecies-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-17",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "de51133e56296249d5aa786d0513c3e46463b7ce472d96ee2b5e82440053eefd",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-17/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-18",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "4f48b79a99969369c10e0f20d3a29ff36098e21c792f66366cc8325c3accdda9",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-18/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Prophecies-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-19",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "fa80b20e92306a3e2c370b16969558ebe67c8faae90f0467d7fda1a88d736030",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-19/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-20",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "cd53bbf51fa87f2b03af855a26785c88fe4153d098f91a7ced15e61002d15d3b",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-20/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-21",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-22",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-28",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-01",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-07",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-08",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-14",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-15",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-19",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-21",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-22",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-28",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-29",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-30",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "c9f87e17eafedf480dbb740267eb021f270e93a036812219da74901651abf329",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-30/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-02.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-03.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-31",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "4e97696512c026551b3d497572ba82b635827cf87dc8b910f7a951822db05dcf",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-31/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Prophecies-reference-02.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Prophecies-reference-03.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-01",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "9c966152f26ae36fa87820522e2d8ebfbbb457667bcb5f7b436c5bb80d957e54",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-01/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-02.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-03.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-02",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "a65840e3485e150b70674df0bbeb8fc46eb669779a7e2f74df276556b6719b35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-02/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-02.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-03.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-04",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "fb65fefcf53e6554c2522bed2f9725bcaf7507c682ba8e4230aaf8930c7dca0b",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-04/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-02.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-03.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-04.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-05",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  },
+  {
+    "civil_date": "2027-03-07",
+    "slot": "Prophecies",
+    "fresh_body_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-14/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Prophecies.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-07/Matins-Prophecies.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Prophecies-rubric-or-empty.png"
+    ]
+  }
+]

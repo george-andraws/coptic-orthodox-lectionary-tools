@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-04-03",
+  "context": "Selected Season Last Friday of Great Fast Paremhotep 25, 1742 Friday, April 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-04-03",
+      "context": "Selected Season Last Friday of Great Fast Paremhotep 25, 1742 Friday, April 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:34:37.483Z",
+      "raw_reference_lines": [
+        "\tPsalms 31:11-12",
+        "\tLuke 16:19-31"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 31:11-12",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "feef8979d6cdbd2ec32b94b3b50981f679db753fdd7e3ffe299b71a7d55e9205"
+        },
+        {
+          "raw_ref": "\tLuke 16:19-31",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "fe2245d87ddf0cd4d7add6e5413f4699c05ef4b97112bd6e6e25438e9b0e8a05"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

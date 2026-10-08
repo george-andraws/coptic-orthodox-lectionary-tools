@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-02-23",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 16, 1742 Monday, February 23, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mikhail El-Behirey",
+  "documents": [
+    {
+      "civil_date": "2026-02-23",
+      "context": "Selected Season 2nd Week of Great Fast Meshir 16, 1742 Monday, February 23, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mikhail El-Behirey",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:03.635Z",
+      "raw_reference_lines": [
+        "\tPsalms 39:10",
+        "\tMark 9:25-29"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "8ea1400e119631e50179bbbfe6a2fdf8687f5a9bce695e258976d13d22d9d9bd",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 39:10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "95fa5c4bbb7d78f144f5a0acf6ad4dbfb467d1232f06587c7a8d44fe0fa97b75"
+        },
+        {
+          "raw_ref": "\tMark 9:25-29",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "91aab8bfbbe3661c23d285ad24ff9aa53f4758396939c388813be0dd8559afab"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

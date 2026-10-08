@@ -1,0 +1,68 @@
+{
+  "civil_date": "2026-02-04",
+  "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+  "documents": [
+    {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:13.705Z",
+      "raw_reference_lines": [
+        "\tJonah 3:1-4:11"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies.txt",
+      "text_sha256": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJonah 3:1-4:11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies-reference-01.png",
+          "sha256": "fcd851943d3c4626f1891ea9e3a6771f890fee6f6491d1ac1ed515cda2a37a7c"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:19.442Z",
+      "raw_reference_lines": [
+        "\tPsalms 102:12, 11",
+        "\tMatthew 11:25-30"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 102:12, 11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "ebbfb4283b9a3ecf622b5dc53e05f4af75e108dec8974f44b4d90a198ef119f9"
+        },
+        {
+          "raw_ref": "\tMatthew 11:25-30",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "f8d4331f42c1e941c435708fab5030c679b2030e9d7a2d74ddae03872e469121"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

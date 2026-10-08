@@ -1,0 +1,111 @@
+{
+  "verdict": "PASS_SOURCE_ONLY",
+  "new_candidate_documents": 31,
+  "old_original_scope_documents": 28,
+  "distinct_occasion_keys": 58,
+  "assigned_tables": 39,
+  "explicit_absence_tables": 19,
+  "new_headings": 29,
+  "new_ready_images": 47,
+  "packet_artifacts_rehashed": 1765,
+  "evidence_files_rehashed": 916,
+  "source_inputs_rehashed": 11,
+  "old_body_match_bindings": 355,
+  "supported_computed_candidates": 880,
+  "collision_candidates": 34,
+  "mutations": [
+    {
+      "name": "wrong_civil_date",
+      "rejected": true
+    },
+    {
+      "name": "wrong_service",
+      "rejected": true
+    },
+    {
+      "name": "wrong_navigation",
+      "rejected": true
+    },
+    {
+      "name": "wrong_actual_occasion",
+      "rejected": true
+    },
+    {
+      "name": "wrong_occasion_key",
+      "rejected": true
+    },
+    {
+      "name": "wrong_pascha_offset_days",
+      "rejected": true
+    },
+    {
+      "name": "wrong_weekday",
+      "rejected": true
+    },
+    {
+      "name": "wrong_semantic_state",
+      "rejected": true
+    },
+    {
+      "name": "wrong_source_qualified",
+      "rejected": true
+    },
+    {
+      "name": "removed_heading",
+      "rejected": true
+    },
+    {
+      "name": "reordered_headings",
+      "rejected": true
+    },
+    {
+      "name": "omitted_prophecy_block",
+      "rejected": true
+    },
+    {
+      "name": "reordered_blocks",
+      "rejected": true
+    },
+    {
+      "name": "removed_document",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_alias_as_appointment",
+      "rejected": true
+    },
+    {
+      "name": "omitted_ready_image",
+      "rejected": true
+    },
+    {
+      "name": "promoted_old_loading_image",
+      "rejected": true
+    },
+    {
+      "name": "wrong_utf8_offset",
+      "rejected": true
+    },
+    {
+      "name": "truncated_entire_body",
+      "rejected": true
+    },
+    {
+      "name": "blank_false_absence",
+      "rejected": true
+    },
+    {
+      "name": "forged_consistently_rehashed_false_absence",
+      "rejected": true
+    },
+    {
+      "name": "truncated_body_envelope",
+      "rejected": true
+    }
+  ],
+  "runtime_tests_or_builds_run": false,
+  "production_files_changed": false,
+  "canonical_coordinates_accepted": false,
+  "recurrence_accepted": false,
+  "activation_accepted": false
+}

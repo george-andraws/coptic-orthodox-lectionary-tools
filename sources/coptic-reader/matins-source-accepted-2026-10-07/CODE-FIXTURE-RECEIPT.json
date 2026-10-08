@@ -1,0 +1,19 @@
+{
+  "verdict": "VERIFIED_CANDIDATE_ONLY_UPSTREAM_IMPLEMENTATION",
+  "accepted_source_corpus_sha256": "5f7558115e4743e08febe5e5ecd7f350573c3b80af1d517951db6cc0db9526d2",
+  "source_fingerprints_sha256": "b660243a6c145c3890b5ead2dd71681f95594fc8b4bb03ec30d0886979641589",
+  "scoped_code_hashes": {
+    "build_lectionary_reference.py": "ae6589292a6113cf7184fa0c6d9f6296de6adbdbbffdbf4278eb8e712c91a734",
+    "matins_source_projection.py": "be593ef67959393540d6117fcdb8f614bc2ca90b7dee61c67537c59e0ed6de72"
+  },
+  "source_record_bytes_unchanged": true,
+  "original_producer_flags_unchanged": true,
+  "owned_artifacts_excluding_this_receipt": 981,
+  "owned_artifact_manifest_sha256": "26e87d6268e1ea7d807d4f03a31ca9948bc42e933b02c24911f7fdf0016d0bc4",
+  "audit_report_sha256": "d8dfa938c8c99c6869b5560faadb36ecd70ed2905e04fe03e03ba06cdf66c4d2",
+  "candidate_only": true,
+  "canonical_approval": false,
+  "runtime_activation": false,
+  "recurrence_approval": false,
+  "default_promotion_requires_later_independent_review": true
+}

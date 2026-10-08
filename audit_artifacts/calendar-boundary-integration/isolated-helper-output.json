@@ -1,0 +1,28 @@
+{
+  "dates": [
+    "2026-04-03",
+    "2026-04-07",
+    "2027-04-07",
+    "2028-04-06",
+    "2028-04-07",
+    "2028-04-08"
+  ],
+  "row_counts": {
+    "2026-04-03": 7,
+    "2026-04-07": 38,
+    "2027-04-07": 9,
+    "2028-04-06": 7,
+    "2028-04-07": 11,
+    "2028-04-08": 7
+  },
+  "files": {
+    "copticchurch_passage_index_current_2020_2035.jsonl": "e95353c56c7288722b67928316a8ba9582d6c4e2fcca21c423b8713048959399",
+    "copticchurch_date_readings_current_2020_2035.csv": "db1882428218d810d2cfdff77447b687c9bf2783f9ccba3a2fb42b647a419fc7",
+    "copticchurch_passage_index_current_2020_2035.csv": "b0b782a64ff87a240becd57bba395af23ecb69f96ce8084bfe91084216263552",
+    "pascha_day_hour_index.csv": "4a4d530076e77391c09e70cfea82741514bec3c3d1fd35dab677bf774d4be763",
+    "copticchurch_date_readings_2020_2035.csv": "d77630f62aa3882ad6a4db70ef7eb3286e65d47e2890907e7d3525108121583b",
+    "source_ref_repair_report.csv": "3118694eebfad467a28517d3b44d67f49d3fbdda2fa7b3522041c1c7cd635b1f",
+    "source_ref_repair_report.jsonl": "2dc66b8c5a90d5ffd6ba72d40239f7bd0665a4cf9095eb3d5ebf4ed79637619c",
+    "copticchurch_date_readings_current_2020_2035.jsonl": "35ddd32e9fa7a6e2b35ace40d0aeb59126528220f8e98348e77890c861558564"
+  }
+}

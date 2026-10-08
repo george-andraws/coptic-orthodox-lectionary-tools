@@ -1,0 +1,65 @@
+{
+  "civil_date": "2026-03-22",
+  "context": "Selected Season 5th Sunday of Great Fast Paremhotep 13, 1742 Sunday, March 22, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great St. Macarius of Alexandria",
+  "documents": [
+    {
+      "civil_date": "2026-03-22",
+      "context": "Selected Season 5th Sunday of Great Fast Paremhotep 13, 1742 Sunday, March 22, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great St. Macarius of Alexandria",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:30:50.490Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "981f8052fcaa0346708d66595f4ff7998c1ca860c81964a76e6a02f1c01578ab"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-03-22",
+      "context": "Selected Season 5th Sunday of Great Fast Paremhotep 13, 1742 Sunday, March 22, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius the Great St. Macarius of Alexandria",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:30:56.029Z",
+      "raw_reference_lines": [
+        "\tPsalms 101:1, 10",
+        "\tMatthew 21:33-46"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "a7769942c0c86a4f2ea31670de9984880327250d1d3cd5f95d8190cc9b4082e3",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 101:1, 10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "c78fe844b31aaa63ea5cc955856947573a7ff5dc6dff45f61bd75d0798147b57"
+        },
+        {
+          "raw_ref": "\tMatthew 21:33-46",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "0c84838b1d9f611898501bc3228cdf2bbce3d12a478d90d7e88d9699034e176a"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

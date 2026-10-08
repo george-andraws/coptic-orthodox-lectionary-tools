@@ -1,0 +1,55 @@
+{
+  "schema": "qualified-user-lectionary-correction-v1",
+  "authority": "George user-supplied correction",
+  "literal_user_instruction": "correction: Mesra 19 reading needs to be James 1:12-21",
+  "context": {
+    "day_title": "Mesra 19",
+    "service_section": "Liturgy",
+    "reading_type": "Catholic Epistle",
+    "expected_raw_ref": "Jm 1:1-12",
+    "corrected_ref": "James 1:12-21",
+    "expected_source": "copticchurch.net daily scrape",
+    "expected_url_prefix": "https://copticchurch.net/readings?"
+  },
+  "scope": "Only current exact matching source rows; retained history is not restored. No new Reader capture or verification is claimed.",
+  "source_fingerprints": {
+    "cache/copticchurch_html/2020-08-25.html": "8b0803a94e1403312300174c0291f43c4c11af3388c73748f0b21aef6b4a4692",
+    "cache/copticchurch_html/2021-08-25.html": "47db5bee8a4e6f88add10465788a00bc11d49cadefaedb9e079be0741210096d",
+    "cache/copticchurch_html/2022-08-25.html": "0b168dda788302069c7c61012dcc8e51110d662b60d087371232a92b1c59f96e",
+    "cache/copticchurch_html/2023-08-25.html": "93112d387360022ac7eed9d66a9411046d0a0fcbc001080cdc4472ccd9df04b6",
+    "cache/copticchurch_html/2025-08-25.html": "2059f89b85ada22dddda725df3e136b413fd7c20bff19de3240681685518556d",
+    "cache/copticchurch_html/2026-08-25.html": "75f9a08c183e2424b64b6e2a8840ed408daa88e53524a1bb9ccb08a03ef769bb",
+    "cache/copticchurch_html/2027-08-25.html": "a5373158dfd6f64069b57d96d24e6c98958628d65b97702af9b424395e4203a9",
+    "cache/copticchurch_html/2028-08-25.html": "95c6776b9a3e4ea0bd6f6c0348805b97ecbe20382aed0a298f5c759e0856df4d",
+    "cache/copticchurch_html/2029-08-25.html": "6430e79aaf104b83143add44027b5619328a3517d4635e199b1c2e2190768204",
+    "cache/copticchurch_html/2031-08-25.html": "77bae72dbe4a11871eb0c60598178948c8e360a215202bcf3bf219e2b8db93ae",
+    "cache/copticchurch_html/2032-08-25.html": "78324a95a7c087babf41a7d713ee19d851e2ab9520f6b606c27094312f9aef64",
+    "cache/copticchurch_html/2033-08-25.html": "f895efae6df71492343b9107e0be150b4a1c24fe6ff0d7592a8fd8547d375195",
+    "cache/copticchurch_html/2034-08-25.html": "bb9dc8ecb46dc0ebfa6c5fd2693b84e37a38b37e0eebda641c51357eda4e82d4",
+    "cache/copticchurch_html/2035-08-25.html": "b32ec4382daa53d24ac3f873cf595db6fc9b450d4afe172c06478e4013fd647c"
+  },
+  "existing_cycle_witness": {
+    "path": "sources/katameros-api/Core/KatamerosDatabase.db",
+    "sha256": "b6a1bbfa96543b7028bba77ad33df5cb018d21ec7bde1335247c2bd86ff43784",
+    "table": "AnnualReadings",
+    "row": {
+      "Id": 349,
+      "Month_Number": 12,
+      "Month_Name": "Mesra",
+      "Day": 19,
+      "Other": "2/27",
+      "Day_Tune": "",
+      "DayName": "",
+      "Season": "",
+      "V_Psalm_Ref": "19.112:1-2",
+      "V_Gospel_Ref": "40.25:14-23",
+      "M_Psalm_Ref": "19.132:1,2,9,10",
+      "M_Gospel_Ref": "42.6:17-23",
+      "P_Gospel_Ref": "58.11:17-31",
+      "C_Gospel_Ref": "59.1:12-21",
+      "X_Gospel_Ref": "44.19:11-20",
+      "L_Psalm_Ref": "19.1:1",
+      "L_Gospel_Ref": "40.4:23-25*@+40.5:1-16"
+    }
+  }
+}

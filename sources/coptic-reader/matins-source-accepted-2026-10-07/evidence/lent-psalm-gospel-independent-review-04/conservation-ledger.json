@@ -1,0 +1,67 @@
+{
+  "all_reused_documents": 33,
+  "reused_unique_child_keys": 32,
+  "PG_candidates": 55,
+  "PG_new_distinct_frontier": 53,
+  "PG_existing_keys": 5,
+  "PG_duplicate_date_witnesses": [
+    "2026-02-24",
+    "2026-04-03"
+  ],
+  "PG_union_occasions": 58,
+  "full_inventory_child_keys": 116,
+  "same_body_distinct_appointments": [
+    {
+      "sha256": "4bdc1f867ba24c94101704ad60af76957f5980b15733376801fdf8a57847a05b",
+      "appointments": [
+        {
+          "date": "2026-03-16",
+          "key": "GreatFast@-27"
+        },
+        {
+          "date": "2026-04-04",
+          "key": "GreatFast@-8"
+        }
+      ]
+    },
+    {
+      "sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "appointments": [
+        {
+          "date": "2026-03-30",
+          "key": "GreatFast@-13"
+        },
+        {
+          "date": "2026-04-03",
+          "key": "GreatFast@-9"
+        },
+        {
+          "date": "2028-04-07",
+          "key": "GreatFast@-9"
+        }
+      ]
+    }
+  ],
+  "no_prophecies_PG_retained": [
+    "Annunciation@-25",
+    "BeforeFast@-56",
+    "BeforeFast@-57",
+    "Cross@-24",
+    "GreatFast@-14",
+    "GreatFast@-15",
+    "GreatFast@-21",
+    "GreatFast@-22",
+    "GreatFast@-28",
+    "GreatFast@-29",
+    "GreatFast@-35",
+    "GreatFast@-36",
+    "GreatFast@-42",
+    "GreatFast@-43",
+    "GreatFast@-49",
+    "GreatFast@-50",
+    "GreatFast@-7",
+    "JonahPassover@-66",
+    "Presentation@-56"
+  ],
+  "collision_scope": "Cross2026-03-19 distinct from ordinary fifth Thursday2027-04-08; Presentation2026-02-15 distinct from preFastSunday2027-03-07; Annunciation2027-04-07 distinct from actual LastFriday2028-04-07"
+}

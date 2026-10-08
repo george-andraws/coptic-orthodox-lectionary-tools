@@ -1,0 +1,57 @@
+TAP version 13
+# Subtest: readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata
+not ok 1 - readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata
+  ---
+  duration_ms: 194.55675
+  type: 'test'
+  location: '/Users/ga/workspace/synaxarium-package-release/tests/npm_builder_preservation.test.cjs:9:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Command failed: /Users/ga/.hermes/node/bin/node /Users/ga/.hermes/cache/scratch/lectionary-builder-XKE9Bx/scripts/build_npm_package.mjs
+    file:///Users/ga/.hermes/cache/scratch/lectionary-builder-XKE9Bx/scripts/build_npm_package.mjs:516
+      const disambiguated 
+            ^^^^^^^^^^^^^
+    
+    SyntaxError: Missing initializer in const declaration
+        at compileSourceTextModule (node:internal/modules/esm/utils:346:16)
+        at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)
+        at #translate (node:internal/modules/esm/loader:559:20)
+        at afterLoad (node:internal/modules/esm/loader:612:29)
+        at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)
+        at #createModuleJob (node:internal/modules/esm/loader:640:36)
+        at #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)
+        at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)
+        at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)
+    
+    Node.js v22.22.3
+    
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    compileSourceTextModule (node:internal/modules/esm/utils:346:16)
+    ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:110:18)
+    #translate (node:internal/modules/esm/loader:559:20)
+    afterLoad (node:internal/modules/esm/loader:612:29)
+    ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:617:12)
+    #createModuleJob (node:internal/modules/esm/loader:640:36)
+    #getJobFromResolveResult (node:internal/modules/esm/loader:353:34)
+    ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:321:41)
+    async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:680:25)
+    genericNodeError (node:internal/errors:983:15)
+    wrappedFn (node:internal/errors:537:14)
+    checkExecSyncError (node:child_process:916:11)
+    execFileSync (node:child_process:952:15)
+    TestContext.<anonymous> (/Users/ga/workspace/synaxarium-package-release/tests/npm_builder_preservation.test.cjs:29:5)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 0
+# fail 1
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 245.401292

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py", line 82, in <module>
+    assert row_counter(a) == row_counter(existing), relative
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: out/data/copticchurch_passage_index_2020_2035.csv

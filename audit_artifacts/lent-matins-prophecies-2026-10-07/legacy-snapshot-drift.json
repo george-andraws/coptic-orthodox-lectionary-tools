@@ -1,0 +1,88 @@
+{
+  "classification": "pre-existing stale legacy raw passage snapshot, not a current helper/package regression",
+  "builder_function_unchanged_from_HEAD": true,
+  "baseline_rows": 59322,
+  "regenerated_existing_rows": 59312,
+  "old_rows_not_equal": 521,
+  "regenerated_rows_not_equal": 511,
+  "examples_old": [
+    {
+      "day_title": "The fourth Sunday of Kiak",
+      "gregorian_date": "2020-01-05",
+      "matched_ref": "1Jn 2:24-33",
+      "raw_ref": "1Jn 2:24-33",
+      "reading_type": "Catholic Epistle",
+      "service_section": "Liturgy",
+      "source": "copticchurch.net daily scrape",
+      "source_ref_status": "ok",
+      "url": "https://copticchurch.net/readings?g_year=2020&g_month=01&g_day=05",
+      "weekday": "Sunday"
+    },
+    {
+      "day_title": "The fourth Sunday of Kiak",
+      "gregorian_date": "2020-01-05",
+      "matched_ref": "Ps 95:10-12",
+      "raw_ref": "Psalm 95:10-12",
+      "reading_type": "Psalm",
+      "service_section": "Matins",
+      "source": "copticchurch.net daily scrape",
+      "source_ref_status": "ok",
+      "url": "https://copticchurch.net/readings?g_year=2020&g_month=01&g_day=05",
+      "weekday": "Sunday"
+    },
+    {
+      "day_title": "Toba 21",
+      "gregorian_date": "2020-01-30",
+      "matched_ref": "Lk 10:38-52",
+      "raw_ref": "Lk 10:38-52",
+      "reading_type": "Gospel",
+      "service_section": "Vespers",
+      "source": "copticchurch.net daily scrape",
+      "source_ref_status": "ok",
+      "url": "https://copticchurch.net/readings?g_year=2020&g_month=01&g_day=30",
+      "weekday": "Thursday"
+    }
+  ],
+  "examples_regenerated": [
+    {
+      "day_title": "The fourth Sunday of Kiak",
+      "gregorian_date": "2020-01-05",
+      "matched_ref": "1Jn 2:24-3:3",
+      "normalization_warning": "source_corrected_from_coptic_reader_web_app_3.7; evidence=sources/coptic-reader/remaining-2026-09-07/2026-01-04-liturgy-catholic-epistle.txt; verified_date=2026-01-04",
+      "raw_ref": "1Jn 2:24-33",
+      "reading_type": "Catholic Epistle",
+      "service_section": "Liturgy",
+      "source": "copticchurch.net daily scrape",
+      "source_ref_status": "source_corrected",
+      "url": "https://copticchurch.net/readings?g_year=2020&g_month=01&g_day=05",
+      "weekday": "Sunday"
+    },
+    {
+      "day_title": "The fourth Sunday of Kiak",
+      "gregorian_date": "2020-01-05",
+      "matched_ref": "Ps 96:11-13",
+      "normalization_warning": "source_corrected_from_coptic_reader_text_aligned_to_nkjv; evidence=sources/coptic-reader/remaining-2026-09-07/2026-01-04-matins-.txt; verified_date=2026-01-04",
+      "raw_ref": "Psalm 95:10-12",
+      "reading_type": "Psalm",
+      "service_section": "Matins",
+      "source": "copticchurch.net daily scrape",
+      "source_ref_status": "source_corrected",
+      "url": "https://copticchurch.net/readings?g_year=2020&g_month=01&g_day=05",
+      "weekday": "Sunday"
+    },
+    {
+      "day_title": "Toba 21",
+      "gregorian_date": "2020-01-30",
+      "matched_ref": "Lk 10:38-42",
+      "normalization_warning": "source_corrected_from_coptic_reader_web_app_3.7; evidence=sources/coptic-reader/remaining-2026-09-07/2024-01-30-vespers-.txt; verified_date=2024-01-30",
+      "raw_ref": "Lk 10:38-52",
+      "reading_type": "Gospel",
+      "service_section": "Vespers",
+      "source": "copticchurch.net daily scrape",
+      "source_ref_status": "source_corrected",
+      "url": "https://copticchurch.net/readings?g_year=2020&g_month=01&g_day=30",
+      "weekday": "Thursday"
+    }
+  ],
+  "disposition": "Restore both unqualified legacy passage-index snapshots byte-for-byte to HEAD. Current-date sidecars, date helpers, crosswalk, chapter indexes and package carry all 64 supplemented readings. Do not promote unrelated historical-source corrections in this bounded task."
+}

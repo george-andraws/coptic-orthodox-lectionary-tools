@@ -1,0 +1,1623 @@
+{
+  "schema": "lent-corrections-02-immutable-receipt-v1",
+  "proposal_only": true,
+  "final_approval": false,
+  "runtime_activation": false,
+  "production_contract_implemented": false,
+  "independent_corrected_review_approved": false,
+  "parent_review_receipt_sha256": "63ff2bca517a94d194f85a81162e94df21e04c5558139ecceb265a72540e0f6d",
+  "counts": {
+    "scope_tables": 11,
+    "scope_printed_readings": 51,
+    "source_numbered_verses": 1298,
+    "candidate_tables": 10,
+    "candidate_readings": 40,
+    "staged_tables": 1,
+    "staged_readings": 11,
+    "runtime_activated_tables": 0,
+    "runtime_activated_readings": 0,
+    "cpdv_sirach_daniel_matches": 117
+  },
+  "test_cases": 679,
+  "input_bindings": [
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/Prophecies.txt",
+      "sha256": "7d3d1d86c1ce9405ba68434591b3aeed9f0e80f9de33b01dd68cebaa9304403a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.txt",
+      "sha256": "4f67f4fae6bd84286c6d4c20af7e02ffa840cb8ae08f7bb40e118fe422a18b67",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.png",
+      "sha256": "29837c5c5fd60bb547a188251f780096eb9a39072d224c6b8fe8484a5fb5365a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.json",
+      "sha256": "7d1cdb42643d7549fa1844d894102ba57bee0f8ab69f3eac35ea3a62c66e5a96",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.png",
+      "sha256": "ffce0ef153b3ccb01667d8e289c9781ca370a7af7c5d0d12b0986bdc40f2268e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-01.png",
+      "sha256": "7a0a3e963c598fc506296d78e830da02e97644574c60fb201404d63681d553d8",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-02.png",
+      "sha256": "a7641bb4404b7552d7b6015ead86a299b6271140c599cc9a0054e4dfe95900a9",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-03.png",
+      "sha256": "05179b0b5866d4210c686930ba9bf21505c11768f2de31a52752cb664ea5f00f",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-04.png",
+      "sha256": "5a335980388c9b785ad119cfe52490833cccf1cf9e86fd0b0a8637faf1cdf3c0",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-05.png",
+      "sha256": "5a24ee7b83f5876fbb75f467551fee96c8ace3a7ebf45833ac4e613078c523ed",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/Prophecies.txt",
+      "sha256": "88bacc36d43a4626e2c4dba29ee89544000819b024dc1c9930abf7f3da0dccd8",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.txt",
+      "sha256": "aa02025afcb77efe2b331021d2a31708e94630d6b1b384d8080a6091c8dc3af7",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.png",
+      "sha256": "59183c02efb6e5281d75ab1333f92d59ce197e696ec6a92aa7e9e25aed1a7f90",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.json",
+      "sha256": "7189a2f8603c28a848b60fb4973de7b853320f4e032a00b3a7c4f6843846403d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.png",
+      "sha256": "1eed3ec8782eb5da6bb1ce3bcba6a960b24952e9d7680ca4a95f6da512ed458d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-01.png",
+      "sha256": "45800d5f3185dac8529dcdf38129ac4e2fd83d5fd7aa1e7cacb04ebc0e766f5a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-02.png",
+      "sha256": "3252e540e4e5c0b9d9b7ec7c411e5d330c584b3b88fb29530c1b89f66e47619d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-03.png",
+      "sha256": "45d0163206975d15096dae5be0a0a36e814291a4867243617ce2d2082fe943a7",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-04.png",
+      "sha256": "6a947dc3a045efccd482459843fcc98f2ba64e775f9c44066c0f280b530a74a4",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/Prophecies.txt",
+      "sha256": "a66c8668544137d85350b2ce78729ddfccc4cbabbae903982ce665ee7ed76dc3",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.txt",
+      "sha256": "b7ca3c07f23a1c22e6a90c0a5fd388cd165d88bb1b22032e4c96eeb2e1934426",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.png",
+      "sha256": "7e7563048e980593107a292711ca69a88c9bcd420cfc6d36dea0085ab641e8dd",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.json",
+      "sha256": "e7820f199d98d071401cb331ce2132aaaa47185180e90bd90d094f0bb7033c6b",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.png",
+      "sha256": "b97f43e816275572f6a08f3de6e8e469cafdddfc4992ccac584226caf42c05e0",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-01.png",
+      "sha256": "2a7aa09f1e5af38006f7d9743e9698c4f25aa99fc502fdf6733aa82a4e0913dc",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-02.png",
+      "sha256": "24302a082e856b7b346eba05bb9b048f57fb437ee684774bae2e0afcb07e4906",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-03.png",
+      "sha256": "09e9d0849fe1eaabd125861d29a1f38f4c3159687344682f222641301dcd6a70",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-04.png",
+      "sha256": "820e21ab6d5b0bfdf05926a4aedc9fd2067636adbe94e4a52ec96509903c351a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/Prophecies.txt",
+      "sha256": "a564435959acc831c44d3a17d24acf5db78c3c0a12be4b5cd75048b14d85743f",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.txt",
+      "sha256": "19774c0baed8727c938b06edb0edd2ab426348b7016c035eb8b157e4013727c2",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.png",
+      "sha256": "49a9105b2da826ac73620276852b2a54701b66617edc99bc67ae59644f9b9020",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.json",
+      "sha256": "d7ccf527e4a84cade71e8c07e1e75ed6ca8f497b6c43f90778a2b564eebba74a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.png",
+      "sha256": "1ea67d8c9a4c129515329bd8a92c338f708b008e641cdb04f409e51dc0a51e30",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-01.png",
+      "sha256": "fe3fcfc8f95f1f25c7b805555cda03be2964d213be320a38e98c56e03b8fb9c8",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-02.png",
+      "sha256": "fc8f7b286d60656fabc3fbcd893e598aa8ec8650641725f9e66c6dfb40d7d542",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-03.png",
+      "sha256": "1fae561f1bf916c8780f62e4a99637ec8d70d22b2e9f5270fafe40a629e34209",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-04.png",
+      "sha256": "5b8a7699604593eac2bb7bc44262db2ef8bf93f6b18513f8f39295399b255aad",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-05.png",
+      "sha256": "6d36d2c4b8e4783fd27f79ccf6f93443a1148c284479a4844122e397e532eecc",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/Prophecies.txt",
+      "sha256": "73c3e84338467405f2fa64614c8eb0b2259d0816aac0c3d699a75790aa9ed1b8",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.txt",
+      "sha256": "c8d8756e1c6f600fc8ff3a473dcee22271366f7c9e8607a3531ccfab252d6874",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.png",
+      "sha256": "1fc94dbfeeea367bd80292438a63565824a7fd8136bcaf60b63a93db106aea09",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.json",
+      "sha256": "6e7210c496c1c834133f7a2ba03f38a1659439665d294b1a7123b6ea26b8009a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.png",
+      "sha256": "d69da96624d343ec0990f907808bb67ffcd409188b39546c1a2d83a562e15d6a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-01.png",
+      "sha256": "640ae3ff345e9e5c4c614b5c2f0dfc492aebc32f920f54fa0c5b6ecea02e8328",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-02.png",
+      "sha256": "a533842d38fa28320c7bc8c73bd1d360a2902f6052d8a07ce3afdad1d762c58d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-03.png",
+      "sha256": "191e047c3c59d558847fc92b8f114009f8f51d068b476a2817041634120392d8",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-04.png",
+      "sha256": "b72c11582ebd3b3f261eaa3f15c2fa2d336130d0c7678227dae409b2f749dfeb",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-05.png",
+      "sha256": "691870bba710b49680e6a4ee9e64f5dbecc84863c73e7ac8a45adee395441092",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/Prophecies.txt",
+      "sha256": "3ef440502dfc2293291b5b1a8175afac8acb59fab75c56f6d1f5c46a7f5a8b17",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.txt",
+      "sha256": "ebc55107590254ddf46a3437043d24d7270a4c6f2954b4884411f211f45358ca",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.png",
+      "sha256": "bd5277077baa2cc87abf735368f53971256141b536153183c8a8e8c6239a22e1",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.json",
+      "sha256": "b38adb32a8d27453aeea4d82d2d7f8769fb95be2023d42c4115bce97ed677586",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.png",
+      "sha256": "f6dff33a1141f1d51bf4ea0dea5343a3189f4f3206d21159b85c2642b82b2c7f",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-01.png",
+      "sha256": "ac3a65bf961613ab549927dfb9f14eb9aeab3cc9c429a1979111bf6e0902d9e5",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-02.png",
+      "sha256": "b3332cebbeeb3cc8230bf055a4daf81082655523c1794e28997228376b206d04",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-03.png",
+      "sha256": "8e5015a88f871498fbcedf0d7d581c0f816820409eaf978dd5499cb5329ec80f",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/Prophecies.txt",
+      "sha256": "4307e0205467038ca738fb867cdbae7128f1250467b14131c808e3032d867758",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.txt",
+      "sha256": "020c8d7fffba6921fa4a978c18f16314b1b778fdba6af007e29ff036813665bc",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.png",
+      "sha256": "3fc22079c926ddc60972bd99efe0f4dd9bc6ebe4d7382d01dea58e2f63ee2ae7",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.json",
+      "sha256": "a7f0ebd9799c196a91bd5800a56b455dc650c635d777420439346f3ab5c5464e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.png",
+      "sha256": "ebc4b545d97eebca930a83c23526dc6363c0cb736f8228f39bc17b09ae1276fc",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-01.png",
+      "sha256": "8fdf321589d3657bdb14fdbb27932500eae35cbc8b386fdfa72901fb0ecefdab",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-02.png",
+      "sha256": "d08a2b42bd202ecb74dd9b68a73adc38ea5ab701d3ee986a44cebdcca5a0f1ac",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-03.png",
+      "sha256": "70706e8c4f955e4db6e6d7b4d718e0302fe8be49687db15a8dc5c40856d2b71c",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/Prophecies.txt",
+      "sha256": "3822b4e1c89f55462df53aa2017a95645cd5918a715f141393240a8c1854bc0e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.txt",
+      "sha256": "1a443db91ba626f29dd1ca875a0b5679e76e4f0074a006033fc747ae5b4c224e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.png",
+      "sha256": "ca3fe5297c7888eeba7b5994a1c71e9939946a5dad24c74706b1eb189cf15ac8",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.json",
+      "sha256": "00b1c4a6400b864ebf2bdc937fab67de9dd3fea08968f58976bd93a7621ad585",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.png",
+      "sha256": "29d19c17a91e49b70db2b52206895b011e83e20fc0890dbfd8631fab2bd6e12d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-01.png",
+      "sha256": "fcbdc71139b880bab6279557e1530f368085466011360e943ba386c74dea7673",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-02.png",
+      "sha256": "33744484841806584c4cd97a709a0ea8e8465b43cdd0d54d17717d69d1372550",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-03.png",
+      "sha256": "80be1f11bb1cae1005c05b80a4b022a173f5c858f9b18f03fea542eda2f8439d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-04.png",
+      "sha256": "91b3d32ae5ea0dbbb5f9ef1244fbd344de54d3a3e59d8c66de1cc600d8856f4d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/Prophecies.txt",
+      "sha256": "9ae07f446b6e9c11a3c141a5f3e863e30efbc002bc3f0ac0365c9b26e5b27859",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.txt",
+      "sha256": "bb49b734236983b322744c185be41efd9d5b401f09b920347adc7302a60b643b",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.png",
+      "sha256": "2e66da4de64061af3dda6aa49f303f4e7aa79988eb75115192a50132eaf84052",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.json",
+      "sha256": "93c5d1d8b0f885a2a53455dd8c884a91a2fde100440af8781375b4b7c72607f6",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.png",
+      "sha256": "c5310d55490b2fe3dcc092bd06f6a557200ed37dbdd11a870335a647c67b6ba5",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-01.png",
+      "sha256": "aefd87e225e7e0e50bfa26b8d647e134b6e5b19b40a3ba13df16ad95157accb1",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-02.png",
+      "sha256": "5331efb7633249ad9e0e6bad54c9c6095c5c8c23b9d5b53216519919b8a66051",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-03.png",
+      "sha256": "c416c88c231c4668bce56ed742008bad4f337352927a97b52cb901101ecb2861",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-04.png",
+      "sha256": "0c8f4ae674ad11ebccdabd77a02a532f6959d8983ff2f7be7ad96d2de6a7c93d",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/Prophecies.txt",
+      "sha256": "66ced0e3cb795367d15dbc54d5ab6bf7e2d61fd1d94d925f02539917a2c03a87",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.txt",
+      "sha256": "4f2c44c8c8620d435c6b9c1e1ed1f32ff27c3e5da419eb1664bad3edc94ba278",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.png",
+      "sha256": "5f792d0836a06ad1683185a2642bd4712fa068d295d229ba7f849fc074dd0371",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.json",
+      "sha256": "990995fab98f0c21600e8796a31710f3fb5de602012a4aed2b0ab5aa1e5d35df",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.png",
+      "sha256": "08bcca7f57cff8c268304df083f0e8106d9a3924bd18055987819f1d8f3878f3",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-01.png",
+      "sha256": "41381b9f6c4b68bc27071ee142bd3942e3740af6ae5e2e287b3b50209288adb7",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-02.png",
+      "sha256": "bb4de0945a3e48c192e262de029060e8c4e6989e2f1b81eaa7c76c3267611c7b",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-03.png",
+      "sha256": "b460a138d1de0ff8002692babc3d3465c5a538f7e6b779c0158cfea3e29af517",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-04.png",
+      "sha256": "1a4773d68225a4a026b2fb433d01c3679e63727c1fd468bca4c68791f2f7cb6e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-05.png",
+      "sha256": "cdb435dae726c045be596f094de1746df251ba9a4feb33188bd23e6459ac8b6a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-06.png",
+      "sha256": "c3ba08261ca10f855f3240bd2778978a13cfc532896f2c7addbfd1500d26a21b",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-07.png",
+      "sha256": "eb26e88c0fea4e6a1ade6ccc9d4f4e2babc24bec8d26f9eb746f2c850154436e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-08.png",
+      "sha256": "1ee295abf6a55db765b20de32e5779f22c53e441240ba6f74bd2b21994e589e2",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-09.png",
+      "sha256": "816584ef077b2fbc2c1bfb67e43b024e13a1a4f6726da569445d6b8672f86438",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-10.png",
+      "sha256": "93b1b0e9779bc346a1e6e5d14a8e809d301cfb93b14a33cf4f9e33c3cd2bff0a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-11.png",
+      "sha256": "452f5ea4fb4cd0636e5bb30194ddb1d1aeea2d178efb37ad34341d480e4f03d6",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/Prophecies.txt",
+      "sha256": "7483cb007b0fd0b45d92870c36e957aca08f43cefa37429dec6da120880fac20",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.txt",
+      "sha256": "e820791b072203226dc79b148fe378a1a9fa290c33e9901b543368aef3257e6f",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.png",
+      "sha256": "1a94050c9f1adf68e0a7870381371a3294909f639bc3940ac6e32fbd801afe9c",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.json",
+      "sha256": "3108b2fcfab094119993eee9ad9d2e9a4e8c3b5e492fdde824aedc7cfff84219",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.png",
+      "sha256": "b802c366f5db03fafe050bffcc9bd21f3a4d76ab55e726edb4de5a7ae3d15c1e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-01.png",
+      "sha256": "0b6959d82e01705e2c93764f3be081713d534277bc9fbe86254b387d55b4c403",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-02.png",
+      "sha256": "4fa66f87116a7479319f8fede04e8afda9d68a5d78ff01039d3c67b8c75c1e10",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-03.png",
+      "sha256": "168f82a3f789c9e9d7e92e997d2e697f1c44c0dcf43410827eff048408014962",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-normalization/normalization-oracle.json",
+      "sha256": "40212c6adf266cd869cc12008cca184214e51df530de75b81caef476c451f70e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-normalization/REPORT.md",
+      "sha256": "fec6b024442d809cda02205e2bd123f3387eda5058ddfeb0b5c3571a80144bd6",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-normalization/bounded-public-witnesses.json",
+      "sha256": "cc1a122b4223f872355a56b208529fd156cd204b84f356549547ddf82fa55724",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-normalization/verification-receipt.json",
+      "sha256": "916fbdea41e6adb7b965292d4a3c073d8a44cfeb3a0e451bef55a4361a1a31c7",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-normalization/proposed-overlay.json",
+      "sha256": "2ce8d74d1cc9bb6c5a056cc02b40b64c43a63a82ec5062a4d33ba33beb78d469",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/combined-qualified-oracle.json",
+      "sha256": "d9b7f55f8445f4d991bdcd376d551207133ce2eafddbf54b26b73b79e7d8a14a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+      "sha256": "d516a1df5728b9f49cacd03e8b2ab3425d23bee026b5226d4fdb07ecbf39c64b",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-integration/intended-context-ledger.json",
+      "sha256": "07289c6daf014f0f6b145d6708951f19358969bc2468a0c2b2adc0474b728760",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/date-applicability-discovery/cross-baramhat/4ffd554b-0eac-4225-9e56-7da5f79e9629/home-selected.txt",
+      "sha256": "dcd71b54ee27d0e04b4bb0c084e872b9f7d1a71957cac5f718467fc245357b27",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/scripts/data/reference-verse-bounds.json",
+      "sha256": "1b31c1c35ef725e6bf1a626d3909f5cedac97f98597f772643ec6737111d8ab3",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/.hermes/cache/web/ccat.sas.upenn.edu-bd9f1a8648.md",
+      "sha256": "104945674aedee89b5fc4e473b7b7942af3ccfeb0f3923bbb0d6383dbdc27a4a",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/date-applicability-discovery/cross-baramhat/4ffd554b-0eac-4225-9e56-7da5f79e9629/home-selected.png",
+      "sha256": "8170055d45db91b75084afdd6464c7d9ca6e76fae3c98ecb507a234fd8c7489e",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/date-applicability-discovery/cross-baramhat/4ffd554b-0eac-4225-9e56-7da5f79e9629/date-panel-selected.png",
+      "sha256": "fa78900301bef98420da28dbe105dc66bedd56ff93d8b9807f2dd0cb7f143007",
+      "kind": "review_source_input"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/REPORT.md",
+      "sha256": "b6a5d1a1970a7a5cc4165550bb9e09d00b61b13aeee45aa89dfc34bc8c63e2c4",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/additional-public-extraction.json",
+      "sha256": "125053dafe3eb9523159955b4b10a047e2aaa9f66f353d42153a983460e9e8c6",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/adversarial-results.json",
+      "sha256": "4ce492b4bf5f268437fecd536ce2aca87dbeccc683ff4cf6464437f694f02bcc",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/boundary-witness-recheck.json",
+      "sha256": "a71a7205693cf5dc907583ee5d8fc94e2a8175951f5ecc8a5ca68e0855f18297",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/compare.py",
+      "sha256": "a6e4accd1893901ded511303f4ab88ab66799afd9137e7605493b271d17bdbe2",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/context-verification.json",
+      "sha256": "cf876260070bd238cfd82f7a9206029b567db28d575f8c46c05dce84058f2f43",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/edition-seams.json",
+      "sha256": "345ae2279ecf19cb8fa7d09c7e0209344acc59d33d6ed00de29b2ee78f6c3c64",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/finalize.py",
+      "sha256": "52d7ac452ce5c4022d1996fa2214080e737317536435f9a43816b95b51581668",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/full-range-witnesses.json",
+      "sha256": "542bff2a42726e4baf287b6c281efc18b99f73f036f7afc8cc232d4edcfc3a83",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/independent-body-comparisons.json",
+      "sha256": "863710836a5be19c2b7dfd274cecc276f3e20171fff55fa986bb2b4398e701ad",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/per-reading-verdicts.json",
+      "sha256": "5571f0431de27b58d96e4b5cb320d90863ef65a83f991cd9e0a437fc513ddbb3",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/per-table-verdicts.json",
+      "sha256": "9f1f6a89374d89e4d0e03734fc26051f0613e22081a5a635aa71dbfd9686d302",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/public-witness-retrieval.json",
+      "sha256": "831850040ce569413c7016dcb725ac4ed21d4a704fd62bc7c7cd52aca006eb2d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/review.py",
+      "sha256": "5863c727cf3c40c6a35818f445be139ade8c6aee62ffd4aa634134a81562da45",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/source-rehash.json",
+      "sha256": "289df6892144dddabf69bb91f81d098b188907343dcba7e6fe7a4b954f8fabbe",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/verdicts.py",
+      "sha256": "c1e4ad4b992a59307397fed813fc870ede2ec3cd161e50d9bad88df8e618969c",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/08f19187dbd4d4b5.html",
+      "sha256": "3d12914342934f757512db06270dbd1a8007b5eb078d8a3416791b3931a3c371",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/1037eac1d115f831.html",
+      "sha256": "62326123454267a06993c0ba59935eaeb8ad25e53422d65cf56e216ab941aacc",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/2330ea9d723a3e17.html",
+      "sha256": "e2c81fa81f0006522effd68729dd658788cd3143756624f6cc91ac566379b497",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/239f90fb2cc5b40e.html",
+      "sha256": "536e904476922234025ab16b707cc34cb5a4eed3460bb825b192ca0856cfbf30",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/24b59410a15bf4f8.html",
+      "sha256": "f4d0a140eb59d6dbeccc957aeaa01f14acf9900c35acb6d6035efa08bcf8bb6d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/28e6262641d9dc25.html",
+      "sha256": "04ef8180726549dec25fdf29a66577dd4360fb25bab90ef8bac208453700b1e1",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/2a7920e8d3ca9613.html",
+      "sha256": "1b374f822f2b847d37f7eaa71b8b93999124f022d7905e59660e9f532d624102",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/30df3721ff691cd5.html",
+      "sha256": "7cde44f650e2f9c492693a33c29bf9c5640b7859176bd729bdf17dd60a2617fc",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/5bc5a3b68a38af7a.html",
+      "sha256": "35e29ddec8d378582f093db6c97e4783f29b4c2c2714858e895bf6af80963e51",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/5db40fc98fb8dd30.html",
+      "sha256": "534148efae626bd0c4d10e67c153f50865a60938ad0cb09bed36cefab7c54233",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/6396f1ed6e1e622b.html",
+      "sha256": "264d15e0e50e27526550339d7d21764a29cded404f881f802cb23df4270bd75d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/652b29172fa9c557.html",
+      "sha256": "406de299afc4adb9aa33f18a98a60f5a1bab642675961b8fa82a9446f5b7373a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/6717a35ed84db08c.html",
+      "sha256": "d10487bd23007c5f74457c396d5a790f27207aa99b88960fe621364fd44a885a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/699237f8ac45b420.html",
+      "sha256": "e186616c60edd6ae3a8eb7761123595c67af368b40d21f34214c1b809db533ef",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/6ddc2928f97ace07.html",
+      "sha256": "aed8339e9e351fc0ce390f62845d0d9acdb70cca3121794c0cb89b8ab9efcf46",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/6edc89cdaf2b37f8.html",
+      "sha256": "54c32529fb1c7c390b440f19d895fca79cc8c6071de8f6971f26b992ae95b359",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/780333e589ff882f.html",
+      "sha256": "e4622a3409299d5c5e19e0b2da428ae326ad5263ad7fafc115617849c9b6f05b",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/7c431cfb98febd85.html",
+      "sha256": "d7134fe6fc8ca1721adca0561bd1b5edd9c62c1334daafab696ea5a53717c9d9",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/7ecf637e1c9703b0.html",
+      "sha256": "8a95751b922368bc2e8dec94f6ff44031627dc61ca6124511f12c54db09223c5",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/803361807dc1cc66.html",
+      "sha256": "687038926b9c291e2141d2d722e52acf00a66b60d264e3ff204129ce0b46e0a8",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/ad980c70f5119448.html",
+      "sha256": "67023b1bdf16c5d7578118aa563b633092b441c2b9a124fd2d77a8084eb13865",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/aed612123458d83d.html",
+      "sha256": "66b70bb9655de9a5a6876f8906968f62f8453d37a5767889acc967b9ea413236",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/bd9f1a864823408d.pdf",
+      "sha256": "109937f330e2830ef5b8f4bc0240c0444f21f6e21507e8d07109ab83e39323ad",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/bfb970530b18d2fa.html",
+      "sha256": "666f46ecb5abbc5b247ed882602fc58174647360bfaadbdcd9c64a6e59d303e1",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/c11b6b3bee488cad.html",
+      "sha256": "0638d2c35f31b92eb5ef7fe253066273de8906f8f39db8e16bc7d7c9e7cb1c5f",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/c237aa858a67976b.html",
+      "sha256": "9f3d5dcadf927056bd6790f2588814c55ef5cfa730f05d3bbeac94735ee5848e",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/cb62f7a00cbd02c5.html",
+      "sha256": "146a6aed6f0e22022fa66d8ad89b6b7221f255186663c765523778e5b96170a2",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/cc5d646c8d4e960d.html",
+      "sha256": "b967a6a0cc10ad5c9bcc9e7eb1df5c307709160ad74c3dbdd879399b442a27cc",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/d0a7d786b00b6d3e.html",
+      "sha256": "71342e7ed89f1b0ad6bab221fce4e7d57fede6192a513fc489b47c20a9a6334a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/d343e83a3d7a673c.html",
+      "sha256": "a29064030ace6e1ae46ec55330e43e595dc108669e4abf7d2714b991cc92ccca",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/dcd51d96ba26cafa.html",
+      "sha256": "280989b38ca2ecc023f65e920061f852fa14fa1dff8f9dc3c69ef3dbc5991ee0",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/de2573f3dc821ead.html",
+      "sha256": "14e2f9990d1dca31f6a3f7f4b7b169b5b4239305d4e7c498a7a097dc44682c04",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/e405706e18483a6a.html",
+      "sha256": "2d8b2b27a97b26be050f73fb93f9191ae4c2711a1551005c22cafbb738d3465c",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/ea25664171d061d5.html",
+      "sha256": "4795b6701518636eca84d120ca08fe6270c38286c186d2bf55d3d046418048e3",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/f49e910ef7fd29f2.html",
+      "sha256": "9583e798f05f5f15a3ff11ae4fbbec7fcbd6136625902258c53dd66b578df87a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/ff442498f733d83b.html",
+      "sha256": "e44c62479cabfe713a01a519fb5f4ddeb975307720bb81349c521f0a1a13b7af",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-004ac1c41f6a3e14.html",
+      "sha256": "db8657f3c1929619327e3c92a41f20eb7f4b05c5e726ca12b0f2dcf29b6bd4ea",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-05890810621f00eb.html",
+      "sha256": "36bef580a5d7b45b6ea615771b5b43368f5d98081b72293c03297a70e14a50ec",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-0ce96e56b313b28e.html",
+      "sha256": "a94b27f489a195eb14b1d0ddb939b86d56ec0ef0079dd624272e4021b369e1e9",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-1415b547bc5ded84.html",
+      "sha256": "808e6bafe7696bc86bba5f566b4b84cda6bd37c45ed4c4a3d2534bc780facbdd",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-1f50369271d79fe0.html",
+      "sha256": "9e034a0f7da05944f63b2af64313d3c9c8be84dea535ef1ce3656572bc1d57fa",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-28a0a1510cca4efd.html",
+      "sha256": "690b83c9695ea6dab87512203701b0bcefa1772c804bbab6fdc6b7072be47f5d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-29362c744a4ae984.html",
+      "sha256": "bc0465ff234dcf55970f88cb29aa473acd501c4ecbf56abd5b0dc76eda87c19d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-29b3c7ceb4dd3767.html",
+      "sha256": "cb8ab36ebe24bcbbbed4dc975a3e13a44be386dc235c340377cf023290bdca8c",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-30c1b122aa49a376.html",
+      "sha256": "a5e54bd5b83720d5cf13ed9653be4fe60a51ec7a33cde859d17e6d6bea136922",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-34238aefa4998362.html",
+      "sha256": "67f29897b2727374c5d9188efff374da273fce3219a07c0dfef4bf407d65eae3",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-382e08d0af399d9b.html",
+      "sha256": "412c44a13dd9facf2b40781f3e970ebe245d4acb31c1a6f85d40b8867586c4a8",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-3d6d48a21f27c93c.html",
+      "sha256": "ca63c01a0cbc534cfc418630008364238a3ef840b1a492cae86d93b4629ab8dd",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-47de80ae5db47cbd.html",
+      "sha256": "e12d97ab80408e76f7feedbc76730b1ff15893be313ea2ebadc5c5f45a54c684",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-4928348cc5d14135.html",
+      "sha256": "629692b36e83880ae30f3dfc0488e0bbb8746df316b87092cbac4976f5a9ecc2",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-4a11923e6b63b2e4.html",
+      "sha256": "8c03d924151a303faf1c166aedaf41ab0d622f37489dbc7fb5006ec4e00f0678",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-530f9c43aee2565a.html",
+      "sha256": "798f23810c4901607590eef6724754236d2f992c93b569ab12142fc03eef8e71",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-56c020191be2e6e9.html",
+      "sha256": "f735ab3acbbe4636a074425e7b3373af36e34bc6e3349003cf3043183dabd850",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-6e40a74ac5b646e3.html",
+      "sha256": "c35477d351323eaf74df50b05e5251941975a7cb592699697b7d619af58d6a4e",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-73d1c380ccbd1029.html",
+      "sha256": "85878f74d74eaefda0ecbe0f0157ef5e89d66ba8fd5cd2dab149005f30ba907b",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-75fee3d22365c267.html",
+      "sha256": "57e9064891472a6af691f64ccc011b1a1a70a70ff57f4de1603848288d3dc57a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-793a2281139e0df8.html",
+      "sha256": "d77b8c6f4e76a846f7075773a8bdca78a8976705d2876794ec6e443712181c60",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-7c970956be4a7a69.html",
+      "sha256": "174809b710de31d30d2785674ab4e166068ed158a684a7a2af634c2fee4aadf3",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-7e2cbdf5997e3aef.html",
+      "sha256": "1e6a28d5ecb706f8133f3dfeae70a6badc4e0de09fc02a24af3bff7e586ea1a0",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-82cca271944f4215.html",
+      "sha256": "2d1e09c4ed35f2e9be7b16d77a33b2f0f5fc0d10db21727aaa1d6bafbeddda8a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-832dd8340bac8e05.html",
+      "sha256": "31deadf84bc15d0b8a6f42652a123861e3fc75048e3c5e164e12ad65d9383122",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-925bedf9ad814f01.html",
+      "sha256": "1ac73e3c7b95fadfb913975dbb09c7d8fc7267654e98a21f5ef29c0697d9e6ec",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-996b31ecbc109596.html",
+      "sha256": "b0adb1ebc6d7a9de9a0537b40d226ff14184ae15389b188925aead76a333e76d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-9d42beb3245a661d.html",
+      "sha256": "a110c408ea42a53c58a781fe63e42b81e604cf258643a751e204b137c214d166",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-b41e7ee99065e257.html",
+      "sha256": "bc0759bd4dcf19427d10e34d8bac5086b64045618846f534fcd53e7045f47d98",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-b5347fad4ff59456.html",
+      "sha256": "55946423234cdf49867e07bf1d4d64f9607e2e40ccbe87e28dc283fbba4ce833",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-bb8398f5efc4e168.html",
+      "sha256": "053e1935a4ee16119a3ea7ddac02edf71462baa6027af3ab0b75d0e4cf8ac5c6",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-bc5994a5817f3a70.html",
+      "sha256": "b264b620f7dc5be44051f181b07cf9aeda968e5e58c3d3892a8ab04a0f576c30",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-c04f50b7acff1e17.html",
+      "sha256": "ab418ec2f9f3e9ff308e4e19a1476be3095c78c1b7bb5f2fd3a0873162e6c98a",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-c8272191aae7cee2.html",
+      "sha256": "d4357a324c41fc63003844bbba932433494c797d29a197b6b53cf98887f94cf8",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-c877f35cc3f0b102.html",
+      "sha256": "3d030083e32bacb8290de6e6b91e155b901ef4770408dc9e34b495a675d10475",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-cbf40826d827f549.html",
+      "sha256": "f4e65255826506f1ddedc8519b9de9b6738dc53d073af26460e3d75f8a6eb98d",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-cf50f810caf5803a.html",
+      "sha256": "2e3b5d320ca2a8b9aa3e5842a7a0023d04267e75baa91a5dfcd84f1f7ce6dd35",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-d0e736029ebcb18c.html",
+      "sha256": "46b0ae1d209083718dbc6c605c43b8dcafc1b1b054dbc0165e7227b254f8695b",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-ef92bbaa29596645.html",
+      "sha256": "624f7f14991631945b332b9a2929cf2f1f5adcd21807b90a1179015c23d80912",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-efdd095dbf703278.html",
+      "sha256": "112b8d1b1281c3e7d3d21fb787aacf362650fbe3c851c90463aae648325b5115",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-faf1212f1b3ea6b9.html",
+      "sha256": "cccbf5b376497b90f472f61ab8e06673f52c75c64e47f3efdbc6e6f59f06ea4f",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/full-ff2d70072833fddc.html",
+      "sha256": "4fa87aad49ebc042ca884a19a66e09ffe5e4a5334ed034da7f483158f0d724e3",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/witnesses/nets-seam-review.txt",
+      "sha256": "de2bd1ae5796e083fa72684a6d082e604801c00f673a2a70373980f24bfad032",
+      "kind": "review_output"
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-deuterocanonical-independent-review/FINAL-RECEIPT.json",
+      "sha256": "63ff2bca517a94d194f85a81162e94df21e04c5558139ecceb265a72540e0f6d",
+      "kind": "independent_receipt"
+    }
+  ],
+  "output_manifest": [
+    {
+      "path": "REPORT.md",
+      "bytes": 7894,
+      "sha256": "50625367364bf985f6f3f265e77bdb62ec65336b53dea61d95396d113f2a0659"
+    },
+    {
+      "path": "adversarial-results.json",
+      "bytes": 98966,
+      "sha256": "d046cdb50ab79cc495f2740b3f67f5c4f3d1aa964578e79c3a2eaeb996c69f60"
+    },
+    {
+      "path": "conservation.json",
+      "bytes": 906,
+      "sha256": "14a766d0858eb711d8a9af28b3d1927c44dfbe3cea7ed62b96ab642858a4bab8"
+    },
+    {
+      "path": "five-defect-correction-ledger.json",
+      "bytes": 9686,
+      "sha256": "c67543503866cafb35e420a037c7db02932c3a0d511bfc770db898aa5241630e"
+    },
+    {
+      "path": "independent-evidence/review-evidence.json",
+      "bytes": 1172828,
+      "sha256": "225077cf6c95b0cb4240a0ac8a4fedae84674d4979cbcdd3db7160d4f1165b21"
+    },
+    {
+      "path": "independent-evidence/witness-bindings.json",
+      "bytes": 26173,
+      "sha256": "7e6e28a76b3817d9bd02e441db9dccc023891e08c73c714b3cc3958752baaa35"
+    },
+    {
+      "path": "independent-evidence/witnesses/08f19187dbd4d4b5.html",
+      "bytes": 16438,
+      "sha256": "3d12914342934f757512db06270dbd1a8007b5eb078d8a3416791b3931a3c371"
+    },
+    {
+      "path": "independent-evidence/witnesses/1037eac1d115f831.html",
+      "bytes": 340489,
+      "sha256": "62326123454267a06993c0ba59935eaeb8ad25e53422d65cf56e216ab941aacc"
+    },
+    {
+      "path": "independent-evidence/witnesses/2330ea9d723a3e17.html",
+      "bytes": 612577,
+      "sha256": "e2c81fa81f0006522effd68729dd658788cd3143756624f6cc91ac566379b497"
+    },
+    {
+      "path": "independent-evidence/witnesses/239f90fb2cc5b40e.html",
+      "bytes": 15333,
+      "sha256": "536e904476922234025ab16b707cc34cb5a4eed3460bb825b192ca0856cfbf30"
+    },
+    {
+      "path": "independent-evidence/witnesses/24b59410a15bf4f8.html",
+      "bytes": 11092,
+      "sha256": "f4d0a140eb59d6dbeccc957aeaa01f14acf9900c35acb6d6035efa08bcf8bb6d"
+    },
+    {
+      "path": "independent-evidence/witnesses/28e6262641d9dc25.html",
+      "bytes": 612253,
+      "sha256": "04ef8180726549dec25fdf29a66577dd4360fb25bab90ef8bac208453700b1e1"
+    },
+    {
+      "path": "independent-evidence/witnesses/2a7920e8d3ca9613.html",
+      "bytes": 5234,
+      "sha256": "1b374f822f2b847d37f7eaa71b8b93999124f022d7905e59660e9f532d624102"
+    },
+    {
+      "path": "independent-evidence/witnesses/30df3721ff691cd5.html",
+      "bytes": 614506,
+      "sha256": "7cde44f650e2f9c492693a33c29bf9c5640b7859176bd729bdf17dd60a2617fc"
+    },
+    {
+      "path": "independent-evidence/witnesses/5bc5a3b68a38af7a.html",
+      "bytes": 12734,
+      "sha256": "35e29ddec8d378582f093db6c97e4783f29b4c2c2714858e895bf6af80963e51"
+    },
+    {
+      "path": "independent-evidence/witnesses/5db40fc98fb8dd30.html",
+      "bytes": 526748,
+      "sha256": "534148efae626bd0c4d10e67c153f50865a60938ad0cb09bed36cefab7c54233"
+    },
+    {
+      "path": "independent-evidence/witnesses/6396f1ed6e1e622b.html",
+      "bytes": 624273,
+      "sha256": "264d15e0e50e27526550339d7d21764a29cded404f881f802cb23df4270bd75d"
+    },
+    {
+      "path": "independent-evidence/witnesses/652b29172fa9c557.html",
+      "bytes": 612665,
+      "sha256": "406de299afc4adb9aa33f18a98a60f5a1bab642675961b8fa82a9446f5b7373a"
+    },
+    {
+      "path": "independent-evidence/witnesses/6717a35ed84db08c.html",
+      "bytes": 618006,
+      "sha256": "d10487bd23007c5f74457c396d5a790f27207aa99b88960fe621364fd44a885a"
+    },
+    {
+      "path": "independent-evidence/witnesses/699237f8ac45b420.html",
+      "bytes": 12597,
+      "sha256": "e186616c60edd6ae3a8eb7761123595c67af368b40d21f34214c1b809db533ef"
+    },
+    {
+      "path": "independent-evidence/witnesses/6ddc2928f97ace07.html",
+      "bytes": 427643,
+      "sha256": "aed8339e9e351fc0ce390f62845d0d9acdb70cca3121794c0cb89b8ab9efcf46"
+    },
+    {
+      "path": "independent-evidence/witnesses/6edc89cdaf2b37f8.html",
+      "bytes": 15010,
+      "sha256": "54c32529fb1c7c390b440f19d895fca79cc8c6071de8f6971f26b992ae95b359"
+    },
+    {
+      "path": "independent-evidence/witnesses/780333e589ff882f.html",
+      "bytes": 625873,
+      "sha256": "e4622a3409299d5c5e19e0b2da428ae326ad5263ad7fafc115617849c9b6f05b"
+    },
+    {
+      "path": "independent-evidence/witnesses/7c431cfb98febd85.html",
+      "bytes": 9099,
+      "sha256": "d7134fe6fc8ca1721adca0561bd1b5edd9c62c1334daafab696ea5a53717c9d9"
+    },
+    {
+      "path": "independent-evidence/witnesses/7ecf637e1c9703b0.html",
+      "bytes": 332734,
+      "sha256": "8a95751b922368bc2e8dec94f6ff44031627dc61ca6124511f12c54db09223c5"
+    },
+    {
+      "path": "independent-evidence/witnesses/803361807dc1cc66.html",
+      "bytes": 200647,
+      "sha256": "687038926b9c291e2141d2d722e52acf00a66b60d264e3ff204129ce0b46e0a8"
+    },
+    {
+      "path": "independent-evidence/witnesses/ad980c70f5119448.html",
+      "bytes": 5480,
+      "sha256": "67023b1bdf16c5d7578118aa563b633092b441c2b9a124fd2d77a8084eb13865"
+    },
+    {
+      "path": "independent-evidence/witnesses/aed612123458d83d.html",
+      "bytes": 236994,
+      "sha256": "66b70bb9655de9a5a6876f8906968f62f8453d37a5767889acc967b9ea413236"
+    },
+    {
+      "path": "independent-evidence/witnesses/bd9f1a864823408d.pdf",
+      "bytes": 661437,
+      "sha256": "109937f330e2830ef5b8f4bc0240c0444f21f6e21507e8d07109ab83e39323ad"
+    },
+    {
+      "path": "independent-evidence/witnesses/bfb970530b18d2fa.html",
+      "bytes": 1668,
+      "sha256": "666f46ecb5abbc5b247ed882602fc58174647360bfaadbdcd9c64a6e59d303e1"
+    },
+    {
+      "path": "independent-evidence/witnesses/c11b6b3bee488cad.html",
+      "bytes": 239566,
+      "sha256": "0638d2c35f31b92eb5ef7fe253066273de8906f8f39db8e16bc7d7c9e7cb1c5f"
+    },
+    {
+      "path": "independent-evidence/witnesses/c237aa858a67976b.html",
+      "bytes": 6853,
+      "sha256": "9f3d5dcadf927056bd6790f2588814c55ef5cfa730f05d3bbeac94735ee5848e"
+    },
+    {
+      "path": "independent-evidence/witnesses/cb62f7a00cbd02c5.html",
+      "bytes": 240348,
+      "sha256": "146a6aed6f0e22022fa66d8ad89b6b7221f255186663c765523778e5b96170a2"
+    },
+    {
+      "path": "independent-evidence/witnesses/cc5d646c8d4e960d.html",
+      "bytes": 93841,
+      "sha256": "b967a6a0cc10ad5c9bcc9e7eb1df5c307709160ad74c3dbdd879399b442a27cc"
+    },
+    {
+      "path": "independent-evidence/witnesses/d0a7d786b00b6d3e.html",
+      "bytes": 4099,
+      "sha256": "71342e7ed89f1b0ad6bab221fce4e7d57fede6192a513fc489b47c20a9a6334a"
+    },
+    {
+      "path": "independent-evidence/witnesses/d343e83a3d7a673c.html",
+      "bytes": 235196,
+      "sha256": "a29064030ace6e1ae46ec55330e43e595dc108669e4abf7d2714b991cc92ccca"
+    },
+    {
+      "path": "independent-evidence/witnesses/dcd51d96ba26cafa.html",
+      "bytes": 13115,
+      "sha256": "280989b38ca2ecc023f65e920061f852fa14fa1dff8f9dc3c69ef3dbc5991ee0"
+    },
+    {
+      "path": "independent-evidence/witnesses/de2573f3dc821ead.html",
+      "bytes": 337282,
+      "sha256": "14e2f9990d1dca31f6a3f7f4b7b169b5b4239305d4e7c498a7a097dc44682c04"
+    },
+    {
+      "path": "independent-evidence/witnesses/e405706e18483a6a.html",
+      "bytes": 4823,
+      "sha256": "2d8b2b27a97b26be050f73fb93f9191ae4c2711a1551005c22cafbb738d3465c"
+    },
+    {
+      "path": "independent-evidence/witnesses/ea25664171d061d5.html",
+      "bytes": 6503,
+      "sha256": "4795b6701518636eca84d120ca08fe6270c38286c186d2bf55d3d046418048e3"
+    },
+    {
+      "path": "independent-evidence/witnesses/f49e910ef7fd29f2.html",
+      "bytes": 44846,
+      "sha256": "9583e798f05f5f15a3ff11ae4fbbec7fcbd6136625902258c53dd66b578df87a"
+    },
+    {
+      "path": "independent-evidence/witnesses/ff442498f733d83b.html",
+      "bytes": 13206,
+      "sha256": "e44c62479cabfe713a01a519fb5f4ddeb975307720bb81349c521f0a1a13b7af"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-004ac1c41f6a3e14.html",
+      "bytes": 258441,
+      "sha256": "db8657f3c1929619327e3c92a41f20eb7f4b05c5e726ca12b0f2dcf29b6bd4ea"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-05890810621f00eb.html",
+      "bytes": 203737,
+      "sha256": "36bef580a5d7b45b6ea615771b5b43368f5d98081b72293c03297a70e14a50ec"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-0ce96e56b313b28e.html",
+      "bytes": 209236,
+      "sha256": "a94b27f489a195eb14b1d0ddb939b86d56ec0ef0079dd624272e4021b369e1e9"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-1415b547bc5ded84.html",
+      "bytes": 259883,
+      "sha256": "808e6bafe7696bc86bba5f566b4b84cda6bd37c45ed4c4a3d2534bc780facbdd"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-1f50369271d79fe0.html",
+      "bytes": 265595,
+      "sha256": "9e034a0f7da05944f63b2af64313d3c9c8be84dea535ef1ce3656572bc1d57fa"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-28a0a1510cca4efd.html",
+      "bytes": 280304,
+      "sha256": "690b83c9695ea6dab87512203701b0bcefa1772c804bbab6fdc6b7072be47f5d"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-29362c744a4ae984.html",
+      "bytes": 207959,
+      "sha256": "bc0465ff234dcf55970f88cb29aa473acd501c4ecbf56abd5b0dc76eda87c19d"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-29b3c7ceb4dd3767.html",
+      "bytes": 214820,
+      "sha256": "cb8ab36ebe24bcbbbed4dc975a3e13a44be386dc235c340377cf023290bdca8c"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-30c1b122aa49a376.html",
+      "bytes": 198819,
+      "sha256": "a5e54bd5b83720d5cf13ed9653be4fe60a51ec7a33cde859d17e6d6bea136922"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-34238aefa4998362.html",
+      "bytes": 266787,
+      "sha256": "67f29897b2727374c5d9188efff374da273fce3219a07c0dfef4bf407d65eae3"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-382e08d0af399d9b.html",
+      "bytes": 207227,
+      "sha256": "412c44a13dd9facf2b40781f3e970ebe245d4acb31c1a6f85d40b8867586c4a8"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-3d6d48a21f27c93c.html",
+      "bytes": 200451,
+      "sha256": "ca63c01a0cbc534cfc418630008364238a3ef840b1a492cae86d93b4629ab8dd"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-47de80ae5db47cbd.html",
+      "bytes": 202405,
+      "sha256": "e12d97ab80408e76f7feedbc76730b1ff15893be313ea2ebadc5c5f45a54c684"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-4928348cc5d14135.html",
+      "bytes": 197162,
+      "sha256": "629692b36e83880ae30f3dfc0488e0bbb8746df316b87092cbac4976f5a9ecc2"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-4a11923e6b63b2e4.html",
+      "bytes": 204294,
+      "sha256": "8c03d924151a303faf1c166aedaf41ab0d622f37489dbc7fb5006ec4e00f0678"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-530f9c43aee2565a.html",
+      "bytes": 328758,
+      "sha256": "798f23810c4901607590eef6724754236d2f992c93b569ab12142fc03eef8e71"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-56c020191be2e6e9.html",
+      "bytes": 209098,
+      "sha256": "f735ab3acbbe4636a074425e7b3373af36e34bc6e3349003cf3043183dabd850"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-6e40a74ac5b646e3.html",
+      "bytes": 210579,
+      "sha256": "c35477d351323eaf74df50b05e5251941975a7cb592699697b7d619af58d6a4e"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-73d1c380ccbd1029.html",
+      "bytes": 279217,
+      "sha256": "85878f74d74eaefda0ecbe0f0157ef5e89d66ba8fd5cd2dab149005f30ba907b"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-75fee3d22365c267.html",
+      "bytes": 276501,
+      "sha256": "57e9064891472a6af691f64ccc011b1a1a70a70ff57f4de1603848288d3dc57a"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-793a2281139e0df8.html",
+      "bytes": 284074,
+      "sha256": "d77b8c6f4e76a846f7075773a8bdca78a8976705d2876794ec6e443712181c60"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-7c970956be4a7a69.html",
+      "bytes": 195688,
+      "sha256": "174809b710de31d30d2785674ab4e166068ed158a684a7a2af634c2fee4aadf3"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-7e2cbdf5997e3aef.html",
+      "bytes": 201875,
+      "sha256": "1e6a28d5ecb706f8133f3dfeae70a6badc4e0de09fc02a24af3bff7e586ea1a0"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-82cca271944f4215.html",
+      "bytes": 201175,
+      "sha256": "2d1e09c4ed35f2e9be7b16d77a33b2f0f5fc0d10db21727aaa1d6bafbeddda8a"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-832dd8340bac8e05.html",
+      "bytes": 209631,
+      "sha256": "31deadf84bc15d0b8a6f42652a123861e3fc75048e3c5e164e12ad65d9383122"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-925bedf9ad814f01.html",
+      "bytes": 212495,
+      "sha256": "1ac73e3c7b95fadfb913975dbb09c7d8fc7267654e98a21f5ef29c0697d9e6ec"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-996b31ecbc109596.html",
+      "bytes": 215063,
+      "sha256": "b0adb1ebc6d7a9de9a0537b40d226ff14184ae15389b188925aead76a333e76d"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-9d42beb3245a661d.html",
+      "bytes": 197548,
+      "sha256": "a110c408ea42a53c58a781fe63e42b81e604cf258643a751e204b137c214d166"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-b41e7ee99065e257.html",
+      "bytes": 205565,
+      "sha256": "bc0759bd4dcf19427d10e34d8bac5086b64045618846f534fcd53e7045f47d98"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-b5347fad4ff59456.html",
+      "bytes": 197800,
+      "sha256": "55946423234cdf49867e07bf1d4d64f9607e2e40ccbe87e28dc283fbba4ce833"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-bb8398f5efc4e168.html",
+      "bytes": 205634,
+      "sha256": "053e1935a4ee16119a3ea7ddac02edf71462baa6027af3ab0b75d0e4cf8ac5c6"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-bc5994a5817f3a70.html",
+      "bytes": 209585,
+      "sha256": "b264b620f7dc5be44051f181b07cf9aeda968e5e58c3d3892a8ab04a0f576c30"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-c04f50b7acff1e17.html",
+      "bytes": 214187,
+      "sha256": "ab418ec2f9f3e9ff308e4e19a1476be3095c78c1b7bb5f2fd3a0873162e6c98a"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-c8272191aae7cee2.html",
+      "bytes": 196200,
+      "sha256": "d4357a324c41fc63003844bbba932433494c797d29a197b6b53cf98887f94cf8"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-c877f35cc3f0b102.html",
+      "bytes": 211075,
+      "sha256": "3d030083e32bacb8290de6e6b91e155b901ef4770408dc9e34b495a675d10475"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-cbf40826d827f549.html",
+      "bytes": 212835,
+      "sha256": "f4e65255826506f1ddedc8519b9de9b6738dc53d073af26460e3d75f8a6eb98d"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-cf50f810caf5803a.html",
+      "bytes": 199200,
+      "sha256": "2e3b5d320ca2a8b9aa3e5842a7a0023d04267e75baa91a5dfcd84f1f7ce6dd35"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-d0e736029ebcb18c.html",
+      "bytes": 216773,
+      "sha256": "46b0ae1d209083718dbc6c605c43b8dcafc1b1b054dbc0165e7227b254f8695b"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-ef92bbaa29596645.html",
+      "bytes": 193499,
+      "sha256": "624f7f14991631945b332b9a2929cf2f1f5adcd21807b90a1179015c23d80912"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-efdd095dbf703278.html",
+      "bytes": 202135,
+      "sha256": "112b8d1b1281c3e7d3d21fb787aacf362650fbe3c851c90463aae648325b5115"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-faf1212f1b3ea6b9.html",
+      "bytes": 206768,
+      "sha256": "cccbf5b376497b90f472f61ab8e06673f52c75c64e47f3efdbc6e6f59f06ea4f"
+    },
+    {
+      "path": "independent-evidence/witnesses/full-ff2d70072833fddc.html",
+      "bytes": 206625,
+      "sha256": "4fa87aad49ebc042ca884a19a66e09ffe5e4a5334ed034da7f483158f0d724e3"
+    },
+    {
+      "path": "independent-evidence/witnesses/nets-seam-review.txt",
+      "bytes": 3720,
+      "sha256": "de2bd1ae5796e083fa72684a6d082e604801c00f673a2a70373980f24bfad032"
+    },
+    {
+      "path": "normalization-candidate.json",
+      "bytes": 1652556,
+      "sha256": "36a3a6ed9d66e8db847d0246b8fabc75cfdf221d6cf7e1ed9085a015f32bf690"
+    },
+    {
+      "path": "per-field-correction-ledger.json",
+      "bytes": 1171824,
+      "sha256": "75d36669930331256b39057152963918d385a1e8973f2f397e1388f18718f166"
+    },
+    {
+      "path": "per-review-obligation-dispositions.json",
+      "bytes": 124782,
+      "sha256": "29f8846dfb2b74dcc77ed6da75cfa8f35950dbde62f04215fdc945c8c8ce79c7"
+    },
+    {
+      "path": "proposed-overlay.json",
+      "bytes": 1614353,
+      "sha256": "b0a4674a96e834502358e9f731b5ebc8db417409002b31aa6011589a29f21d8d"
+    },
+    {
+      "path": "revise_and_verify.py",
+      "bytes": 39184,
+      "sha256": "b4e4445f0477be26a91814779f9b0f943ee454980dfde8f5a1b4ecf8a27f0722"
+    },
+    {
+      "path": "source-bodies/2026-03-06.txt",
+      "bytes": 51046,
+      "sha256": "7d3d1d86c1ce9405ba68434591b3aeed9f0e80f9de33b01dd68cebaa9304403a"
+    },
+    {
+      "path": "source-bodies/2026-03-10.txt",
+      "bytes": 33217,
+      "sha256": "88bacc36d43a4626e2c4dba29ee89544000819b024dc1c9930abf7f3da0dccd8"
+    },
+    {
+      "path": "source-bodies/2026-03-13.txt",
+      "bytes": 48510,
+      "sha256": "a66c8668544137d85350b2ce78729ddfccc4cbabbae903982ce665ee7ed76dc3"
+    },
+    {
+      "path": "source-bodies/2026-03-18.txt",
+      "bytes": 39525,
+      "sha256": "a564435959acc831c44d3a17d24acf5db78c3c0a12be4b5cd75048b14d85743f"
+    },
+    {
+      "path": "source-bodies/2026-03-20.txt",
+      "bytes": 50328,
+      "sha256": "73c3e84338467405f2fa64614c8eb0b2259d0816aac0c3d699a75790aa9ed1b8"
+    },
+    {
+      "path": "source-bodies/2026-03-23.txt",
+      "bytes": 14354,
+      "sha256": "3ef440502dfc2293291b5b1a8175afac8acb59fab75c56f6d1f5c46a7f5a8b17"
+    },
+    {
+      "path": "source-bodies/2026-03-24.txt",
+      "bytes": 16670,
+      "sha256": "4307e0205467038ca738fb867cdbae7128f1250467b14131c808e3032d867758"
+    },
+    {
+      "path": "source-bodies/2026-03-25.txt",
+      "bytes": 37776,
+      "sha256": "3822b4e1c89f55462df53aa2017a95645cd5918a715f141393240a8c1854bc0e"
+    },
+    {
+      "path": "source-bodies/2026-03-26.txt",
+      "bytes": 28204,
+      "sha256": "9ae07f446b6e9c11a3c141a5f3e863e30efbc002bc3f0ac0365c9b26e5b27859"
+    },
+    {
+      "path": "source-bodies/2026-03-27.txt",
+      "bytes": 154409,
+      "sha256": "66ced0e3cb795367d15dbc54d5ab6bf7e2d61fd1d94d925f02539917a2c03a87"
+    },
+    {
+      "path": "source-bodies/2027-04-08.txt",
+      "bytes": 13911,
+      "sha256": "7483cb007b0fd0b45d92870c36e957aca08f43cefa37429dec6da120880fac20"
+    },
+    {
+      "path": "supplementary-brenton-extraction.json",
+      "bytes": 9511,
+      "sha256": "08ff488d669ff59dc83596f6c1e8816ada1458c347cc15ef70115d30cb76648d"
+    },
+    {
+      "path": "table-correction-ledger.json",
+      "bytes": 12153,
+      "sha256": "a899e2e0b28b9084b762447c285af6c10bc642209b50f6beecc7f8a2613e89e8"
+    },
+    {
+      "path": "unchanged-source-fields.json",
+      "bytes": 32171,
+      "sha256": "c1d31dff8ec444cda75ebed388874af1779398817a1dcfc7aae338b17dbc5bd1"
+    }
+  ],
+  "hash_contract": "receipt_payload_sha256 is SHA256 canonical UTF8 JSON sort_keys=true separators=comma/colon ensure_ascii=false excluding only receipt_payload_sha256; output manifest excludes receipt and bytecode",
+  "receipt_payload_sha256": "018b6dedc9f1a49ffd7653e1b95a1b39cd1f3ece694299e1b998a02547c46bc4"
+}

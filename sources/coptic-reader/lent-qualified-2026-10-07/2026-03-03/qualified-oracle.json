@@ -1,0 +1,58 @@
+{
+  "civil_date": "2026-03-03",
+  "context": "Selected Season 3rd Week of Great Fast Meshir 24, 1742 Tuesday, March 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:17:34.270Z",
+  "raw_reference_lines": [
+    "\tProverbs 2:1-15",
+    "\tIsaiah 10:12-20"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/Prophecies.txt",
+  "text_sha256": "020687341f1e233c466c0272872d5b87f60f28d0191b6a61a3807feb3be892c3",
+  "screenshot_sha256": "6d499783d8fa1ab91d351f13226d2b79486a4d8d58e6dbf19c18e4541a191aca",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/context.txt",
+      "sha256": "af2d20b974275314107770ed5ac3958ba2b3383e3c95a2ab93ff96d4ee63f25f"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/context.png",
+      "sha256": "0ba87d7c92e1e7c713e6054d0fe879a00b2903fd14c60b1df8582f6cbf26a945"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/picker.json",
+      "sha256": "c0a530c707dd7587bbc1f91212352eda62c04314444124dd4479e12ad3c55212"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/picker.png",
+      "sha256": "a259fb27f89c1615c8df1dca61197d28615177c934108d1fee51a8b379de3a30"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tProverbs 2:1-15",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/reference-01.png",
+      "sha256": "6d499783d8fa1ab91d351f13226d2b79486a4d8d58e6dbf19c18e4541a191aca"
+    },
+    {
+      "raw_ref": "\tIsaiah 10:12-20",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-03/reference-02.png",
+      "sha256": "a3b356470620ecb22ab57e6adbdfb78083957b00fc03060afb44c3f58ef85f90"
+    }
+  ],
+  "source_gate": {
+    "visible_heading": true,
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

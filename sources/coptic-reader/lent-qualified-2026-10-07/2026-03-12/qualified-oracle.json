@@ -1,0 +1,69 @@
+{
+  "civil_date": "2026-03-12",
+  "context": "Selected Season 4th Week of Great Fast Paremhotep 3, 1742 Thursday, March 12, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:26:02.062Z",
+  "raw_reference_lines": [
+    "\tGenesis 32:1-30",
+    "\tIsaiah 28:14-22",
+    "\tJob 20:1-29",
+    "\tDaniel 6:1-27"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/Prophecies.txt",
+  "text_sha256": "986de1b8b57a004554054ffc23255da6732fc6ab12c708fb1d5fa2737a7bff39",
+  "screenshot_sha256": "d5f15c24f6468b993e723e7e292642ad0a4b0d740d9f7902ca575bcf0bda25ba",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/context.txt",
+      "sha256": "3ee39419911e51e7d187e50f999b74d69cdccc80f6d22a96a2c4e72e97a92742"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/context.png",
+      "sha256": "821c3cd3889f15853ef25e51779d0ffc829237423587af0c4391a2d39c67c3e2"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/picker.json",
+      "sha256": "450400d072e83f4df121fca1ad708671aaaf65377fa7a6daa2a9a56d038fc69c"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/picker.png",
+      "sha256": "eca765a6ccc3244d102dc696a16a1e7c7ec931d9730fba58b425d2cc7c52d29d"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tGenesis 32:1-30",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/reference-01.png",
+      "sha256": "d5f15c24f6468b993e723e7e292642ad0a4b0d740d9f7902ca575bcf0bda25ba"
+    },
+    {
+      "raw_ref": "\tIsaiah 28:14-22",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/reference-02.png",
+      "sha256": "487e0a463f32db76d6f29bbd8fe4236809eba643c3908c517cd9fc2b32386e96"
+    },
+    {
+      "raw_ref": "\tJob 20:1-29",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/reference-03.png",
+      "sha256": "a9b1e050334a54bf19050d730bb070320dc0839c61711b4a75ed5ecd6d5408d1"
+    },
+    {
+      "raw_ref": "\tDaniel 6:1-27",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/reference-04.png",
+      "sha256": "2e7d94c4281f814a8edca05ea083ef5da7525966187fc79cd672caede9b741ed"
+    }
+  ],
+  "source_gate": {
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

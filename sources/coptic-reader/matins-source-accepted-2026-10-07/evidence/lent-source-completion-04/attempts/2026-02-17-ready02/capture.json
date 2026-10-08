@@ -1,0 +1,74 @@
+{
+  "civil_date": "2026-02-17",
+  "context": "Selected Season 1st Week of Great Fast Meshir 10, 1742 Tuesday, February 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-17",
+      "context": "Selected Season 1st Week of Great Fast Meshir 10, 1742 Tuesday, February 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:48.393Z",
+      "raw_reference_lines": [
+        "\tIsaiah 1:19-2:2-3",
+        "\tZechariah 8:7-13"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies.txt",
+      "text_sha256": "de51133e56296249d5aa786d0513c3e46463b7ce472d96ee2b5e82440053eefd",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tIsaiah 1:19-2:2-3",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies-reference-01.png",
+          "sha256": "c42922f4ec4c7d7a571d03d429c3aa2bd1ce54c0e5918fb89ccbe42af0a89bb0"
+        },
+        {
+          "raw_ref": "\tZechariah 8:7-13",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Prophecies-reference-02.png",
+          "sha256": "9f6db3b6303ac3a521f15d35b3420c6edaba250753e95ae8b432766f44e02899"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-17",
+      "context": "Selected Season 1st Week of Great Fast Meshir 10, 1742 Tuesday, February 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:53.867Z",
+      "raw_reference_lines": [
+        "\tPsalms 22:1, 2",
+        "\tMatthew 9:10-15"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "fcba221d1e2ece0afbc615e0879bc1f93111d8fb162627cd5af2d5224c1a66e0",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 22:1, 2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "5ac36cde36829375c7275cae7171b8e7fad1313d3c4d393bc41ace573236942a"
+        },
+        {
+          "raw_ref": "\tMatthew 9:10-15",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "87e9a4900d90e564a29988f17f1bfb04b426431f95647e10c695e8d09271b37d"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

@@ -1,0 +1,1098 @@
+{
+  "scope": "reviewer-owned serialized source evidence/inventory; NOT production consumer enforcement",
+  "probes": [
+    {
+      "name": "wrong_civil_date",
+      "rejected": true
+    },
+    {
+      "name": "wrong_service",
+      "rejected": true
+    },
+    {
+      "name": "wrong_navigation",
+      "rejected": true
+    },
+    {
+      "name": "wrong_actual_occasion",
+      "rejected": true
+    },
+    {
+      "name": "wrong_occasion_key",
+      "rejected": true
+    },
+    {
+      "name": "wrong_pascha_offset_days",
+      "rejected": true
+    },
+    {
+      "name": "wrong_weekday",
+      "rejected": true
+    },
+    {
+      "name": "wrong_semantic_state",
+      "rejected": true
+    },
+    {
+      "name": "wrong_source_qualified",
+      "rejected": true
+    },
+    {
+      "name": "removed_heading",
+      "rejected": true
+    },
+    {
+      "name": "reordered_headings",
+      "rejected": true
+    },
+    {
+      "name": "omitted_prophecy_block",
+      "rejected": true
+    },
+    {
+      "name": "reordered_blocks",
+      "rejected": true
+    },
+    {
+      "name": "removed_document",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_alias_as_appointment",
+      "rejected": true
+    },
+    {
+      "name": "omitted_ready_image",
+      "rejected": true
+    },
+    {
+      "name": "promoted_old_loading_image",
+      "rejected": true
+    },
+    {
+      "name": "wrong_utf8_offset",
+      "rejected": true
+    },
+    {
+      "name": "truncated_entire_body",
+      "rejected": true
+    },
+    {
+      "name": "blank_false_absence",
+      "rejected": true
+    },
+    {
+      "name": "forged_consistently_rehashed_false_absence",
+      "rejected": true
+    },
+    {
+      "name": "truncated_body_envelope",
+      "rejected": true
+    }
+  ],
+  "per_context": [
+    {
+      "civil_date": "2026-02-02",
+      "occasion_key": "JonahFast@-69",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-03",
+      "occasion_key": "JonahFast@-68",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-04",
+      "occasion_key": "JonahFast@-67",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-05",
+      "occasion_key": "JonahPassover@-66",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-14",
+      "occasion_key": "BeforeFast@-57",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-15",
+      "occasion_key": "Presentation@-56",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-16",
+      "occasion_key": "GreatFast@-55",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-17",
+      "occasion_key": "GreatFast@-54",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-18",
+      "occasion_key": "GreatFast@-53",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-19",
+      "occasion_key": "GreatFast@-52",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-20",
+      "occasion_key": "GreatFast@-51",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-21",
+      "occasion_key": "GreatFast@-50",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-22",
+      "occasion_key": "GreatFast@-49",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-28",
+      "occasion_key": "GreatFast@-43",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-01",
+      "occasion_key": "GreatFast@-42",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-07",
+      "occasion_key": "GreatFast@-36",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-08",
+      "occasion_key": "GreatFast@-35",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-14",
+      "occasion_key": "GreatFast@-29",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-15",
+      "occasion_key": "GreatFast@-28",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-19",
+      "occasion_key": "Cross@-24",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-21",
+      "occasion_key": "GreatFast@-22",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-22",
+      "occasion_key": "GreatFast@-21",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-28",
+      "occasion_key": "GreatFast@-15",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-29",
+      "occasion_key": "GreatFast@-14",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-30",
+      "occasion_key": "GreatFast@-13",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-31",
+      "occasion_key": "GreatFast@-12",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-04-01",
+      "occasion_key": "GreatFast@-11",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-04-02",
+      "occasion_key": "GreatFast@-10",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-04-04",
+      "occasion_key": "GreatFast@-8",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-04-05",
+      "occasion_key": "GreatFast@-7",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2027-03-07",
+      "occasion_key": "BeforeFast@-56",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-23",
+      "occasion_key": "GreatFast@-48",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-24",
+      "occasion_key": "GreatFast@-47",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-25",
+      "occasion_key": "GreatFast@-46",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-26",
+      "occasion_key": "GreatFast@-45",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-02-27",
+      "occasion_key": "GreatFast@-44",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-02",
+      "occasion_key": "GreatFast@-41",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-03",
+      "occasion_key": "GreatFast@-40",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-04",
+      "occasion_key": "GreatFast@-39",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-05",
+      "occasion_key": "GreatFast@-38",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-06",
+      "occasion_key": "GreatFast@-37",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-09",
+      "occasion_key": "GreatFast@-34",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-10",
+      "occasion_key": "GreatFast@-33",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-11",
+      "occasion_key": "GreatFast@-32",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-12",
+      "occasion_key": "GreatFast@-31",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-13",
+      "occasion_key": "GreatFast@-30",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-16",
+      "occasion_key": "GreatFast@-27",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-17",
+      "occasion_key": "GreatFast@-26",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-18",
+      "occasion_key": "GreatFast@-25",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-20",
+      "occasion_key": "GreatFast@-23",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-23",
+      "occasion_key": "GreatFast@-20",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-24",
+      "occasion_key": "GreatFast@-19",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-25",
+      "occasion_key": "GreatFast@-18",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-26",
+      "occasion_key": "GreatFast@-17",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2026-03-27",
+      "occasion_key": "GreatFast@-16",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2027-04-08",
+      "occasion_key": "GreatFast@-24",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2028-04-07",
+      "occasion_key": "GreatFast@-9",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2027-04-07",
+      "occasion_key": "Annunciation@-25",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    },
+    {
+      "civil_date": "2028-02-29",
+      "occasion_key": "GreatFast@-47",
+      "checks": [
+        "complete_raw_utf8_body_hash",
+        "literal_heading_order",
+        "heading_line_and_utf8_offset",
+        "full_ordered_block_envelopes",
+        "actual_civil_weekday_and_Pascha_offset",
+        "numeric_Coptic_date_crosscheck",
+        "source_home_actual_occasion",
+        "service_navigation",
+        "explicit_rubric_or_assigned_table",
+        "original_scope_flags_preserved"
+      ],
+      "verdict": "PASS"
+    }
+  ]
+}

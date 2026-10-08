@@ -1,0 +1,65 @@
+{
+  "civil_date": "2026-02-21",
+  "context": "Selected Season 1st Week of Great Fast Meshir 14, 1742 Saturday, February 21, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Severus Patriarch of Antioch",
+  "documents": [
+    {
+      "civil_date": "2026-02-21",
+      "context": "Selected Season 1st Week of Great Fast Meshir 14, 1742 Saturday, February 21, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Severus Patriarch of Antioch",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:26:06.946Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "31eb8e3cdf6f001f83a3a60b9406e46d46094dda6f00288de5a26db3021a1b3d"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-21",
+      "context": "Selected Season 1st Week of Great Fast Meshir 14, 1742 Saturday, February 21, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Severus Patriarch of Antioch",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:26:12.188Z",
+      "raw_reference_lines": [
+        "\tPsalms 118:39",
+        "\tMatthew 5:25-37"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "5eba1230712ee15edcc946f1dc7fc78f43f9b18a3ebf27fb386f01011f5634b2",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 118:39",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "c7b289f54d51ee4e349a18612de2c5a2549983f1ccdafa922233e7400812191f"
+        },
+        {
+          "raw_ref": "\tMatthew 5:25-37",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "7e566d01686ff0559ed061c95ed6c0e32a9d7b797c823835b65c40ab342e0b8c"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

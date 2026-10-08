@@ -1,0 +1,24 @@
+test_april_7_2028_complete_source_table_replaces_wrong_annunciation (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_april_7_2028_complete_source_table_replaces_wrong_annunciation) ... FAIL
+
+======================================================================
+FAIL: test_april_7_2028_complete_source_table_replaces_wrong_annunciation (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_april_7_2028_complete_source_table_replaces_wrong_annunciation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/tests/test_lent_annunciation_boundary.py", line 50, in test_april_7_2028_complete_source_table_replaces_wrong_annunciation
+    self.assertEqual(signature(current), EXPECTED)
+AssertionError: Lists differ: [('Liturgy', 'Acts of the Apostles', 'Acts 7[486 chars],7')] != [('Matins', 'Prophecy', 'Genesis 49:33-50:26[597 chars]35')]
+
+First differing element 0:
+('Liturgy', 'Acts of the Apostles', 'Acts 7:23-34', 'Acts 7:23-34')
+('Matins', 'Prophecy', 'Genesis 49:33-50:26', 'Gen 49:33-50:26')
+
+Second list contains 2 additional elements.
+First extra element 9:
+('Liturgy', 'Psalm', 'Psalms 97:8', 'Ps 98:8-9')
+
+Diff is 1384 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 1 test in 0.031s
+
+FAILED (failures=1)

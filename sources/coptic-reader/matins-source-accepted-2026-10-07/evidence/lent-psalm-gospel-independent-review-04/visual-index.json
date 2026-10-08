@@ -1,0 +1,662 @@
+[
+  {
+    "date": "2026-02-02",
+    "raw_ref": "\tPsalms 102:1, 7",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "1032558421c00fb2522f183c69778c5ddbe507fe7163c53698ff706343a3a793"
+  },
+  {
+    "date": "2026-02-02",
+    "raw_ref": "\tMatthew 7:6-12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "9cf5b922bd64dd17918deb9762ad5195b37993a9a92802df50157cb2f46120d0"
+  },
+  {
+    "date": "2026-02-03",
+    "raw_ref": "\tPsalms 102:13, 8-9",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "f973879b7abbade3087e9febe121b6519fed763525183ea303804e1dd1f9f8b1"
+  },
+  {
+    "date": "2026-02-03",
+    "raw_ref": "\tLuke 13:6-9",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "66dbd99b2be31f63137baf6f9bd66718af8a3ff0a91c907a66c785f3576d0e68"
+  },
+  {
+    "date": "2026-02-04",
+    "raw_ref": "\tPsalms 102:12, 11",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "ebbfb4283b9a3ecf622b5dc53e05f4af75e108dec8974f44b4d90a198ef119f9"
+  },
+  {
+    "date": "2026-02-04",
+    "raw_ref": "\tMatthew 11:25-30",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "f8d4331f42c1e941c435708fab5030c679b2030e9d7a2d74ddae03872e469121"
+  },
+  {
+    "date": "2026-02-15",
+    "raw_ref": "\tPsalms 65:12,13",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02"
+  },
+  {
+    "date": "2026-02-15",
+    "raw_ref": "\tLuke 2:40-52",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e"
+  },
+  {
+    "date": "2026-02-16",
+    "raw_ref": "\tPsalms 6:1-2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "b1dab786ae51f411ba1fb5b8927e0e4577883b08fc39ae2359bf230fc2156ba9"
+  },
+  {
+    "date": "2026-02-16",
+    "raw_ref": "\tMatthew 12:24-34",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "fe78f8b4d003c48dc2189ff3313e6a8f6331b3bd7f589ecba5966ad797684637"
+  },
+  {
+    "date": "2026-02-17",
+    "raw_ref": "\tPsalms 22:1, 2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "5ac36cde36829375c7275cae7171b8e7fad1313d3c4d393bc41ace573236942a"
+  },
+  {
+    "date": "2026-02-17",
+    "raw_ref": "\tMatthew 9:10-15",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "87e9a4900d90e564a29988f17f1bfb04b426431f95647e10c695e8d09271b37d"
+  },
+  {
+    "date": "2026-02-18",
+    "raw_ref": "\tPsalms 24:5-6",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "583efbc93cd673da690ab852bb33f82584e77ac4e768d8408ff4369999670448"
+  },
+  {
+    "date": "2026-02-18",
+    "raw_ref": "\tLuke 6:24-34",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "0645ed6b58a830de7dcb6f5c3718ffbc86e4cab0568385025d093ab6f1451850"
+  },
+  {
+    "date": "2026-02-19",
+    "raw_ref": "\tPsalms 23:1-2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel-reference-01.png",
+    "sha256": "2ea9c6d21925bec07ea8f1a6d37280499bcb6c3f4f3fcd45e9cea85698e9a7dc"
+  },
+  {
+    "date": "2026-02-19",
+    "raw_ref": "\tLuke 8:22-25",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel-reference-02.png",
+    "sha256": "fa8b2e6ca93a84e2cb5e34251916f366a244cbf53b692692119dfc7967e67af5"
+  },
+  {
+    "date": "2026-02-20",
+    "raw_ref": "\tPsalms 29: 1-2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "b06a707639267f68ab564f31066a0b53153321a48f2e6097622f2ea2d33bbfcc"
+  },
+  {
+    "date": "2026-02-20",
+    "raw_ref": "\tLuke 5:12-16",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "41a8c58f3f99521e6819d99f4dc907375471ffc5219fdd403b03cbf6b4b074fe"
+  },
+  {
+    "date": "2026-02-21",
+    "raw_ref": "\tPsalms 118:39",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "c7b289f54d51ee4e349a18612de2c5a2549983f1ccdafa922233e7400812191f"
+  },
+  {
+    "date": "2026-02-21",
+    "raw_ref": "\tMatthew 5:25-37",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "7e566d01686ff0559ed061c95ed6c0e32a9d7b797c823835b65c40ab342e0b8c"
+  },
+  {
+    "date": "2026-02-22",
+    "raw_ref": "\tPsalms 17: 1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "ed193c817a1b2fbab9947d8d50c229f0fecf932cc007671982c34f499df50bd8"
+  },
+  {
+    "date": "2026-02-22",
+    "raw_ref": "\tMatthew 7:22-29",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "5810448083dff0e236fcbbe24da89f8797b80df89f20a95bfc9d08108d4f3a73"
+  },
+  {
+    "date": "2026-02-23",
+    "raw_ref": "\tPsalms 39:10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "95fa5c4bbb7d78f144f5a0acf6ad4dbfb467d1232f06587c7a8d44fe0fa97b75"
+  },
+  {
+    "date": "2026-02-23",
+    "raw_ref": "\tMark 9:25-29",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "91aab8bfbbe3661c23d285ad24ff9aa53f4758396939c388813be0dd8559afab"
+  },
+  {
+    "date": "2026-02-24",
+    "raw_ref": "\tPsalms 40:4, 12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "ad501483cdb403b3c3f4026e21799d4d372cd3d49753923d2d506ad68701344b"
+  },
+  {
+    "date": "2026-02-24",
+    "raw_ref": "\tLuke 12:22-31",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "ee841e27262a78e1a7b23617b7cae26a29d0709ad61c352c7c5930e78eef7a5f"
+  },
+  {
+    "date": "2026-02-25",
+    "raw_ref": "\tPsalms 17:17-18",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "a4c4129728f096a260a9eb4f0af652bb04212275617912817b128a29ea6ba13b"
+  },
+  {
+    "date": "2026-02-25",
+    "raw_ref": "\tMatthew 5:17-24",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "e03903d1702cf0cf71f8f110172b22db21773d981c73022a7dd4dd2c610b7404"
+  },
+  {
+    "date": "2026-02-26",
+    "raw_ref": "\tPsalms 27:10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "6ff6c7302171f0147ccf80e7633f9ff4081d5bbbcf490ef1cfe63c9a0aa9f39d"
+  },
+  {
+    "date": "2026-02-26",
+    "raw_ref": "\tMatthew 11:20-30",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "42a82662b7b01417fb79f6d0f65084f521828421d9ac0acebcb9434fe65ae6e4"
+  },
+  {
+    "date": "2026-02-27",
+    "raw_ref": "\tPsalms 114:6",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "f7e4879a6aa5e2130a9ff6edd813122314bf786c70c46941dfdbbf809fe250ae"
+  },
+  {
+    "date": "2026-02-27",
+    "raw_ref": "\tMatthew 15:39-16:12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "bacb91905723bbe217d647c14d4c348634975ed980e097e0f977fb21d1836d7b"
+  },
+  {
+    "date": "2026-02-28",
+    "raw_ref": "\tPsalms 24:7,10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "e1142dec131cae23a7d563285b95e794aa8eeef0426b50b798bca9c0a08c2162"
+  },
+  {
+    "date": "2026-02-28",
+    "raw_ref": "\tMark 9:43-50",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "8f479210a9da2f04dcb1632fb095231a50f1def51653eadca467eb9471597ab3"
+  },
+  {
+    "date": "2026-03-01",
+    "raw_ref": "\tPsalms 56:1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "34440d4f198b55db7ac5cab03a97c8ce2f07837d32c278542d175fc7739011c8"
+  },
+  {
+    "date": "2026-03-01",
+    "raw_ref": "\tLuke 4:1-13",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "82a04bd274a54a1b385303d1a9b65af31417db743e9db4c4077f96809fe682c8"
+  },
+  {
+    "date": "2026-03-02",
+    "raw_ref": "\tPsalms 31: 1-2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "62c433e5bd0a6dcaafb56014eb71439387610ac37b23884bf46e7dde841c3700"
+  },
+  {
+    "date": "2026-03-02",
+    "raw_ref": "\tLuke 19:11-28",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "e41753114393cc3ab3cf2fe60bea12d64481b7fdf62b6775c595c8654d2ad0b3"
+  },
+  {
+    "date": "2026-03-03",
+    "raw_ref": "\tPsalms 31:11",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "a3b5338ef9ff2a3e39dc7d0d4830e48103c04e6f694d4a57cc5cafb8c069259e"
+  },
+  {
+    "date": "2026-03-03",
+    "raw_ref": "\tLuke 12:54-59",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "aaec90d01d686cfe76000551b0fe3ed5d246c2b0f0a587ec5b681cc2da257cc5"
+  },
+  {
+    "date": "2026-03-04",
+    "raw_ref": "\tPsalms 26:5",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "7cff602471609c2db860c528c50da550410513ac0b285672364d0aac5e40de63"
+  },
+  {
+    "date": "2026-03-04",
+    "raw_ref": "\tLuke 13:18-22",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "fb821cd28ddab556e2c8be8a3898548bf8c695b320e24f50e94b4dec9cff0a2e"
+  },
+  {
+    "date": "2026-03-05",
+    "raw_ref": "\tPsalms 9: 7-8",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "457c4795102e4988340c2a4330d2c8ce8075543216c7c488932713d9583091fb"
+  },
+  {
+    "date": "2026-03-05",
+    "raw_ref": "\tLuke 20:20-26",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "777e43f7841d20865f30b7461e3f9373f959b36ac0dfaab2e681004622396062"
+  },
+  {
+    "date": "2026-03-06",
+    "raw_ref": "\tPsalms 15:10-11",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "3da87a7c71d7213e5aa81fb6e536f5d2ffb3529924c7dd27d3b6653aa7f661da"
+  },
+  {
+    "date": "2026-03-06",
+    "raw_ref": "\tLuke 20:27-38",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "7cbfd511abd495c7551e6884112f1b22ca02f36f6b705126c967b741390cd529"
+  },
+  {
+    "date": "2026-03-07",
+    "raw_ref": "\tPsalms 129: 1-2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "bfa58ab50567474071d9d31f659c7c0df7bf35ca786bcc46f25b47ff46787898"
+  },
+  {
+    "date": "2026-03-07",
+    "raw_ref": "\tMark 10:17-27",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "49508b1cd2a773382061f10a7f72768d6a71c5174d6c49e1763786e0ae7c51d5"
+  },
+  {
+    "date": "2026-03-08",
+    "raw_ref": "\tPsalms 54:1, 14",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "9a8c72efd830c35bb1871fcb151672c66935fd9543e65b663d3cfe1dd73067fe"
+  },
+  {
+    "date": "2026-03-08",
+    "raw_ref": "\tMatthew 20:1-16",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "93feceac57a588ee61f3d88bdd1bbe89e7c1a83b5bc2b717087f8701f4008d04"
+  },
+  {
+    "date": "2026-03-09",
+    "raw_ref": "\tPsalms 54:1, 26:11",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "e7f29c557f63d8b37caba5cfb497988618e113aeb688885cc7e9084b87322cef"
+  },
+  {
+    "date": "2026-03-09",
+    "raw_ref": "\tLuke 14:7-15",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "83662f40eefcd1965e3de539b9b980216f57b78418f1713bfb9f57df0bf1408c"
+  },
+  {
+    "date": "2026-03-10",
+    "raw_ref": "\tPsalms 16:1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "c4e83928ea40cdd96eafcce2dd908db4452204213d3a89bfad6c9b4ec5d4229c"
+  },
+  {
+    "date": "2026-03-10",
+    "raw_ref": "\tMatthew 21:28-32",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "da6831d93d18d2b4f00617cc680285eca67b2fbfa339a9f0277cacfa93ee2d14"
+  },
+  {
+    "date": "2026-03-11",
+    "raw_ref": "\tPsalms 17:38, 41",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "75a2e8688f3aff95e14b014be20697f3df40b72923ceccf76aceee8c725718ab"
+  },
+  {
+    "date": "2026-03-11",
+    "raw_ref": "\tLuke 14:16-24",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "1261f8931883a7c3eac4f733042068b760208575878af8a59684f4acd6ce817a"
+  },
+  {
+    "date": "2026-03-12",
+    "raw_ref": "\tPsalms 11:9",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "80f6be920c6849708f047050820538b9d2f92612a9706c9eaf1480fe350d4946"
+  },
+  {
+    "date": "2026-03-12",
+    "raw_ref": "\tMark 3:7-12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "19f63bfb547992478398ddb3308eb9b9ff9b0e8cfade3c84610d880835568f6b"
+  },
+  {
+    "date": "2026-03-13",
+    "raw_ref": "\tPsalms 27:7-8",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "db3ae906f3fb2c4c702ad5622a9e3066ef52701735a81f071a4a5d5c4114d4f5"
+  },
+  {
+    "date": "2026-03-13",
+    "raw_ref": "\tLuke 4:31-37",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "d510dd50090f0c527c43852cecb240a7901930ed9af29db9b7c3fd3515f23ea4"
+  },
+  {
+    "date": "2026-03-14",
+    "raw_ref": "\tPsalms 141:5, 7",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "bfaacbbc29a30e90aef07805e0da8459ce9986276d199f4075ae9253498e132f"
+  },
+  {
+    "date": "2026-03-14",
+    "raw_ref": "\tLuke 16:19-31",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "0373084afe554555caee5671f851b1e38e310ef0f30f6e33ea97c4564cf84261"
+  },
+  {
+    "date": "2026-03-15",
+    "raw_ref": "\tPsalms 30:28, 26",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "8fdb502e9e79eea847c1c7fb8a4e8f7f9b863b25bef1474aae95dac528418f82"
+  },
+  {
+    "date": "2026-03-15",
+    "raw_ref": "\tMatthew 22:1-14",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "153f04841d24d736b7c8b3a3ada42c7bddd6df7add0e7872c9b18cff305100c9"
+  },
+  {
+    "date": "2026-03-16",
+    "raw_ref": "\tPsalms 87:2-3",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "b7bba407eb3400c6c0820a378dde319c220e83dba6bcd323206926d36602ca9f"
+  },
+  {
+    "date": "2026-03-16",
+    "raw_ref": "\tLuke 12:16-21",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "1bfb12d2ced25981be64e6a3b02ff851dbd45a9d728fc9e1d577cb99bbd19a12"
+  },
+  {
+    "date": "2026-03-17",
+    "raw_ref": "\tPsalms 85:5-6",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "31b490322a6b1a964f8c9fb3d118954be1f2486649fb78849f9bc749f8432ab2"
+  },
+  {
+    "date": "2026-03-17",
+    "raw_ref": "\tMark 9:14-24",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "e85198e69838c2722c87f1f1ed1fed6fa091e355471e326906e0ba49ad396e61"
+  },
+  {
+    "date": "2026-03-18",
+    "raw_ref": "\tPsalms 54:1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "6e25e401c756204973e87f0de61f25890dfe01dda0186a5a926425eb095b874b"
+  },
+  {
+    "date": "2026-03-18",
+    "raw_ref": "\tMark 10:1-12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "4588686f54338c3c70dd13cad9527c79f8937ca7fe9a2447c8c5ac62c2322023"
+  },
+  {
+    "date": "2026-03-19",
+    "raw_ref": "\tPsalms 59:3",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394"
+  },
+  {
+    "date": "2026-03-19",
+    "raw_ref": "\tJohn 12:26-36",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c"
+  },
+  {
+    "date": "2026-03-20",
+    "raw_ref": "\tPsalms 85:8, 9",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "5a694cdfbef569f809ee9367c91c8d520e99fe1a81eba59aaab382332b05d05e"
+  },
+  {
+    "date": "2026-03-20",
+    "raw_ref": "\tMark 12:28-34",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "ac6e5773127645b61feebb0fe292ce9c9e9f212583591a8271c95c8ec03cccba"
+  },
+  {
+    "date": "2026-03-21",
+    "raw_ref": "\tPsalms 64:2-3",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "d53f34cd18a7afbf7de5afd2480dffffa312c6687a2b74d9cd18686e93d0bb84"
+  },
+  {
+    "date": "2026-03-21",
+    "raw_ref": "\tLuke 15:3-10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "99059d70d313127a6bcc2eea67f2343a261c2ff5675d8867daa514b4854b4c3b"
+  },
+  {
+    "date": "2026-03-22",
+    "raw_ref": "\tPsalms 101:1, 10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "c78fe844b31aaa63ea5cc955856947573a7ff5dc6dff45f61bd75d0798147b57"
+  },
+  {
+    "date": "2026-03-22",
+    "raw_ref": "\tMatthew 21:33-46",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "0c84838b1d9f611898501bc3228cdf2bbce3d12a478d90d7e88d9699034e176a"
+  },
+  {
+    "date": "2026-03-23",
+    "raw_ref": "\tPsalms 37:9",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "0d1f3d415a8579493d4ef7831c458efb7c82f9854c48ddb8b45baecbdcdb8309"
+  },
+  {
+    "date": "2026-03-23",
+    "raw_ref": "\tMark 12:1-12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "82248ca88bca839210f7e448af1621bc5abe6b9fe56c8e33c1c94b2753449df4"
+  },
+  {
+    "date": "2026-03-24",
+    "raw_ref": "\tPsalms 34:15",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "237d51290a2ab24ce325cd47cf72fb65072a834fb9a1fd4b233f4360e068b9b7"
+  },
+  {
+    "date": "2026-03-24",
+    "raw_ref": "\tLuke 4:22-30",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "3f0ba08923fa8f7564f79afeea37d6920b2267769b67aa75d9ce2f9ffa87a458"
+  },
+  {
+    "date": "2026-03-25",
+    "raw_ref": "\tPsalms 101:14, 17",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "9b6aa9fdac43394b966022386e1bdabc144ceb9d53654d8463b705ef8fa20258"
+  },
+  {
+    "date": "2026-03-25",
+    "raw_ref": "\tMark 7:1-20",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "e271e7222764470dcf2e836201fd0f21977b1957f17134d14235092e5fb92a92"
+  },
+  {
+    "date": "2026-03-26",
+    "raw_ref": "\tPsalms 9:9-10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "9f51aa2b448f926b3294af08ade9ce81c9e68c414ca01c4869ae0899b6f3b53e"
+  },
+  {
+    "date": "2026-03-26",
+    "raw_ref": "\tLuke 20:9-19",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "0594b40ff6eb5238c26361795374fd9a0901ae4c2d389a0e903a1bba1ab7a4b4"
+  },
+  {
+    "date": "2026-03-27",
+    "raw_ref": "\tPsalms 50:7-8",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "89ef4c9ab4835aa27f2034f9fd90ed6295d525c79ee222e959c8374385cd6804"
+  },
+  {
+    "date": "2026-03-27",
+    "raw_ref": "\tJohn 3:14-21",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "ab0cd9d4732a919781f821ed430812311581ff29be43ba4cfad470aff875314a"
+  },
+  {
+    "date": "2026-03-28",
+    "raw_ref": "\tPsalms 78:7-8",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "febf494e710c14fcd242e75543aa3256e3b509d2bf9ee2cc56b601025684606a"
+  },
+  {
+    "date": "2026-03-28",
+    "raw_ref": "\tMatthew 9:1-8",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "4675126eb11cb9cb3c779d7f5727b51956a3ee476654b8c1f2e47742243b8035"
+  },
+  {
+    "date": "2026-03-29",
+    "raw_ref": "\tPsalms 25:1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "e91baccc9d91af38a6ba65089d38d44ec31d9532cf35d3d6fc980b9b6f54e788"
+  },
+  {
+    "date": "2026-03-29",
+    "raw_ref": "\tMatthew 23:1-39",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "c948cbc9694c47270d30db88fcea045db86f9628f7d86b8742fd1b61f2398f1f"
+  },
+  {
+    "date": "2026-03-30",
+    "raw_ref": "\tPsalms 31:11-12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "feef8979d6cdbd2ec32b94b3b50981f679db753fdd7e3ffe299b71a7d55e9205"
+  },
+  {
+    "date": "2026-03-30",
+    "raw_ref": "\tLuke 16:19-31",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "fe2245d87ddf0cd4d7add6e5413f4699c05ef4b97112bd6e6e25438e9b0e8a05"
+  },
+  {
+    "date": "2026-03-31",
+    "raw_ref": "\tPsalms 37:18",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "c2c03bd3aba4ec1b714edd7ed656dfecc11fe68016409ce295ad5edc3dee8be5"
+  },
+  {
+    "date": "2026-03-31",
+    "raw_ref": "\tLuke 17:1-10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "dff1a19cb4e53df49ddc6bcb92e094f3338ad7679250c21eb81092bf6cd43a92"
+  },
+  {
+    "date": "2026-04-01",
+    "raw_ref": "\tPsalms 56:1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "239dd7561d9c359f9cb904cc64b8fa7e7955b6611d5f5d912bdf604699c6ad83"
+  },
+  {
+    "date": "2026-04-01",
+    "raw_ref": "\tLuke 14:28-35",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "cf6b0cf50d63384e62cc9055ca1841134146fee066cdc161f329e698791a1bde"
+  },
+  {
+    "date": "2026-04-02",
+    "raw_ref": "\tPsalms 62:1",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "57fad6eed5cb3b12ccd6ec7a554848815e37051ca1332a849a3e438bcfd5a12e"
+  },
+  {
+    "date": "2026-04-02",
+    "raw_ref": "\tMatthew 20:20-28",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "f4253bbe139fd38f758c73ebc379eecf92e81b1a0a75056e81f760f99334acbb"
+  },
+  {
+    "date": "2026-04-03",
+    "raw_ref": "\tPsalms 31:11-12",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "feef8979d6cdbd2ec32b94b3b50981f679db753fdd7e3ffe299b71a7d55e9205"
+  },
+  {
+    "date": "2026-04-03",
+    "raw_ref": "\tLuke 16:19-31",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "fe2245d87ddf0cd4d7add6e5413f4699c05ef4b97112bd6e6e25438e9b0e8a05"
+  },
+  {
+    "date": "2026-04-04",
+    "raw_ref": "\tPsalms 87:2-3",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "b7bba407eb3400c6c0820a378dde319c220e83dba6bcd323206926d36602ca9f"
+  },
+  {
+    "date": "2026-04-04",
+    "raw_ref": "\tLuke 12:16-21",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "1bfb12d2ced25981be64e6a3b02ff851dbd45a9d728fc9e1d577cb99bbd19a12"
+  },
+  {
+    "date": "2026-04-05",
+    "raw_ref": "\tPsalms 67:19, 35",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "6bce2b494334b47887ebfa13c26039c8357f558216ff0ee51940b347e9ebd067"
+  },
+  {
+    "date": "2026-04-05",
+    "raw_ref": "\tLuke 19:1-10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "d050ebb882ab674a6ae97e7a6e2da926fc2b29f0644d57440e28983e0dc190fd"
+  },
+  {
+    "date": "2027-03-07",
+    "raw_ref": "\tPsalms 99: 1-2",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "03c5842e97c845303612fdd377a9b143ce15a2800698a39db42cb729138c8a2c"
+  },
+  {
+    "date": "2027-03-07",
+    "raw_ref": "\tLuke 17:3-10",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "dfad9d262f213670ae57ef8871c9e9ace85dd54e7713c0a3e65e646cf5e87912"
+  },
+  {
+    "date": "2027-04-08",
+    "raw_ref": "\tPsalms 85:13",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel-reference-01.png",
+    "sha256": "846501cd51179a79b952f7dd8306b8382be54b0f9e74df438da19359c6d1ff13"
+  },
+  {
+    "date": "2027-04-08",
+    "raw_ref": "\tLuke 9:37-43",
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel-reference-02.png",
+    "sha256": "af7e9c4b6a50e653aaca62308bb67556abe0503b8ab4242db43980e5a8505b71"
+  }
+]

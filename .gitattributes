@@ -1,0 +1,5 @@
+# Primary-source captures and hash-addressed witness objects retain exact bytes.
+# Do not normalize line endings or apply code whitespace cleanup to this evidence.
+sources/coptic-reader/**/*.html -text -whitespace
+tests/fixtures/edition_fragment_contract_v1/objects/* -text -whitespace
+audit_artifacts/lent-matins-prophecies-2026-10-07/builder-red.log -text -whitespace

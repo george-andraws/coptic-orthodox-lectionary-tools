@@ -1,0 +1,53 @@
+..FFFF.....
+======================================================================
+FAIL: test_design_validator_accepts_source_verified_daily_artifacts (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_accepts_source_verified_daily_artifacts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 104, in test_design_validator_accepts_source_verified_daily_artifacts
+    validator.verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 499, in verify_rows
+    fail(f"daily file {path} does not exactly match dated presentation rows")
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 96, in fail
+    raise AssertionError(message)
+AssertionError: daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows
+
+======================================================================
+FAIL: test_design_validator_rejects_missing_reordered_and_truncated_prophecies (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_rejects_missing_reordered_and_truncated_prophecies) (mutation='missing')
+----------------------------------------------------------------------
+AssertionError: daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 126, in test_design_validator_rejects_missing_reordered_and_truncated_prophecies
+    with self.assertRaisesRegex(AssertionError, 'lectionary-2026.json does not exactly match'):
+AssertionError: "lectionary-2026.json does not exactly match" does not match "daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows"
+
+======================================================================
+FAIL: test_design_validator_rejects_missing_reordered_and_truncated_prophecies (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_rejects_missing_reordered_and_truncated_prophecies) (mutation='reordered')
+----------------------------------------------------------------------
+AssertionError: daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 126, in test_design_validator_rejects_missing_reordered_and_truncated_prophecies
+    with self.assertRaisesRegex(AssertionError, 'lectionary-2026.json does not exactly match'):
+AssertionError: "lectionary-2026.json does not exactly match" does not match "daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows"
+
+======================================================================
+FAIL: test_design_validator_rejects_missing_reordered_and_truncated_prophecies (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_rejects_missing_reordered_and_truncated_prophecies) (mutation='truncated')
+----------------------------------------------------------------------
+AssertionError: daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 126, in test_design_validator_rejects_missing_reordered_and_truncated_prophecies
+    with self.assertRaisesRegex(AssertionError, 'lectionary-2026.json does not exactly match'):
+AssertionError: "lectionary-2026.json does not exactly match" does not match "daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows"
+
+----------------------------------------------------------------------
+Ran 9 tests in 62.689s
+
+FAILED (failures=4)

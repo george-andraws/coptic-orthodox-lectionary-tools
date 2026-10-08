@@ -46,7 +46,7 @@ QUERY_BOOK_ALIASES = {
     'colossians': 'Col', 'col': 'Col', '1thessalonians': '1Thess', '1 thessalonians': '1Thess', '1thess': '1Thess',
     '2thessalonians': '2Thess', '2 thessalonians': '2Thess', '2thess': '2Thess', '1timothy': '1Tim', '1 timothy': '1Tim',
     '2timothy': '2Tim', '2 timothy': '2Tim', 'titus': 'Titus', 'philemon': 'Phlm', 'phlm': 'Phlm',
-    'hebrews': 'Heb', 'heb': 'Heb', 'james': 'James', 'jas': 'James',
+    'hebrews': 'Heb', 'heb': 'Heb', 'james': 'James', 'jas': 'James', 'jm': 'James',
     '1peter': '1Pet', '1 peter': '1Pet', '1pet': '1Pet', '2peter': '2Pet', '2 peter': '2Pet', '2pet': '2Pet',
     '1john': '1Jn', '1 john': '1Jn', '1jn': '1Jn', '2john': '2Jn', '2 john': '2Jn', '2jn': '2Jn',
     '3john': '3Jn', '3 john': '3Jn', '3jn': '3Jn', 'jude': 'Jude', 'revelation': 'Rev', 'rev': 'Rev', 'apocalypse': 'Rev',
@@ -70,11 +70,11 @@ TEXT_BOOK_PATTERN = (
     r'1\s*Maccabees|1Macc|2\s*Maccabees|2Macc|3\s*Maccabees|3Macc|4\s*Maccabees|4Macc|'
     r'John|Jn|Acts|Romans|Rom|1\s*Corinthians|1Cor|2\s*Corinthians|2Cor|Galatians|Gal|Ephesians|Eph|'
     r'Philippians|Phil|Colossians|Col|1\s*Thessalonians|1Thess|2\s*Thessalonians|2Thess|1\s*Timothy|1Tim|2\s*Timothy|2Tim|'
-    r'Titus|Philemon|Phlm|Hebrews|Heb|James|Jas|1\s*Peter|1Pet|2\s*Peter|2Pet|1\s*John|1Jn|2\s*John|2Jn|3\s*John|3Jn|Jude|'
+    r'Titus|Philemon|Phlm|Hebrews|Heb|James|Jas|Jm|1\s*Peter|1Pet|2\s*Peter|2Pet|1\s*John|1Jn|2\s*John|2Jn|3\s*John|3Jn|Jude|'
     r'Revelation|Rev|Apocalypse)'
 )
 TEXT_REF_RE = re.compile(
-    TEXT_BOOK_PATTERN + r'\.?\s*\d+(?::\s*-?[0-9][0-9:,\s\-–—]*)?\s*[-–—]?',
+    TEXT_BOOK_PATTERN + r'\.?\s*\d+(?:\s*:\s*-?[0-9][0-9:,\s\-–—]*)?\s*[-–—]?',
     re.I,
 )
 ALT_PAIRS = [('Psalm', 'Ps'), ('Psalms', 'Ps'), ('John', 'Jn'), ('Luke', 'Lk'), ('Matthew', 'Matt'), ('Isaiah', 'Isa'), ('Romans', 'Rom'), ('Wisdom of Solomon', 'Wis'), ('Wisdom', 'Wis'), ('Sirach', 'Sir')]
@@ -244,6 +244,68 @@ def _canonical_from_parts(book_abbrev: str, parts: List[PassagePart]) -> str:
 
 @lru_cache(maxsize=65536)
 def parse_passage(text: Optional[str]) -> Optional[ParsedPassage]:
+    # A semicolon is a disjoint component boundary, not a covering range.
+    # Accept repeated explicit same-book labels and numeric continuations only;
+    # reject the entire expression if any component is invalid/different-book.
+    if text and ';' in text:
+        components = text.split(';')
+        if any(not item.strip() for component in components
+               for item in component.split(':', 1)[-1].split(',')):
+            return None
+        first_token = _clean_token_spacing(normalize_text_query(components[0]))
+        first_label = re.fullmatch(r'([1-4]?[A-Za-z]+)\s+(.+)', first_token)
+        if not first_label:
+            return None
+        first_book = first_label[1]
+        # Validate complete numeric productions before the permissive legacy
+        # parser can reinterpret C:V:V as a new chapter or discard text.
+        # First item: V[-(V | C:V[-V] | V-C:V)]. Subsequent comma
+        # items may additionally start with C:V. Whole chapters stay valid.
+        endpoint = r'[0-9]+(?:[:][0-9]+(?:-[0-9]+)?|-[0-9]+:[0-9]+)?'
+        verse = rf'[0-9]+(?:-{endpoint})?'
+        body_grammar = rf'[0-9]+(?::{verse}(?:,(?:[0-9]+:)?{verse})*)?'
+        for index, component in enumerate(components):
+            if index and re.match(r'^\s*\d+\s*:', component):
+                component = first_book + ' ' + component.strip()
+            token = _clean_token_spacing(normalize_text_query(component))
+            match = re.fullmatch(r'([1-4]?[A-Za-z]+)\s+(.+)', token)
+            if (not match or match[1] not in BOOK_ABBREV.values()
+                    or not re.fullmatch(body_grammar, match[2])):
+                return None
+            body = match[2]
+            if ':' in body:
+                # Shortened cross-chapter source ranges carry intermediate
+                # verse endpoints too: validate those instead of ignoring them.
+                for item in body.split(':', 1)[1].split(','):
+                    start, sep, end = item.partition('-')
+                    if not sep:
+                        continue
+                    if ':' in end and '-' in end:
+                        start_verse = int(start.rsplit(':', 1)[-1])
+                        if '-' in end.split(':', 1)[0]:
+                            intermediate = int(end.split('-', 1)[0])
+                            if intermediate <= 0 or intermediate < start_verse:
+                                return None
+                        else:
+                            end_start, end_verse = map(int, end.split(':', 1)[1].split('-'))
+                            if end_start <= 0 or end_start > end_verse:
+                                return None
+        first = parse_passage(components[0])
+        if not first or not first.parts:
+            return None
+        parts = list(first.parts)
+        for component in components[1:]:
+            component = component.strip()
+            if re.match(r'^\d+\s*:', component):
+                component = first.book_abbrev + ' ' + component
+            parsed = parse_passage(component)
+            if not parsed or not parsed.parts or parsed.book_abbrev != first.book_abbrev:
+                return None
+            parts.extend(parsed.parts)
+        if any((part.chapter_start, part.verse_start or 0) >
+               (part.chapter_end, part.verse_end or 0) for part in parts):
+            return None
+        return ParsedPassage(first.book_abbrev, _canonical_from_parts(first.book_abbrev, parts), parts)
     token = _clean_token_spacing(normalize_text_query(text))
     if not token:
         return None

@@ -338,6 +338,120 @@ def add_row(rows: List[dict], summary_counts: dict[str, Counter], passage: str, 
     summary_counts[passage][source_kind] += 1
 
 
+def displaced_date_history(raw_rows: list[dict], current_rows: list[dict]) -> list[dict]:
+    """Retain displaced dated Annunciation evidence, never as an undated rule."""
+    dates = {r['gregorian_date'] for r in current_rows if r.get('source') in {
+        'Coptic Reader verified calendar boundary', 'generated current-date overlay from local Holy Week source'}}
+    return [dict(r, historical_source_row_id=i, superseded_reason='calendar_context_displaced')
+            for i, r in enumerate(raw_rows, 1) if r['gregorian_date'] in dates and r.get('day_title') == 'Annunciation']
+
+
+from sunday_consumer_contracts import STATE_FIELDS as CONSUMER_STATE_FIELDS, bind_context
+
+
+def date_source_transport(row: dict, sunday_oracle: dict | None = None) -> dict:
+    """Existing provenance CSV cell is the lossless transport, not a new schema."""
+    state = {k: row[k] for k in CONSUMER_STATE_FIELDS if k in row and row[k] not in (None, '')}
+    result: dict = {'state': state} if state else {}
+    if row.get('source') != 'Coptic Reader source-qualified Sunday policy':
+        return result
+    warning = row.get('normalization_warning', '')
+    match = re.search(r'Sunday selection (\w+):(\d+);', warning)
+    if not match or row.get('correction_source') != 'sources/coptic-reader/sunday-qualified-2026-10-07/accepted-oracle.json':
+        raise RuntimeError('Unqualified Sunday consumer provenance')
+    if sunday_oracle is None:
+        from calendar_resolution import load_sunday_evidence
+        sunday_oracle = load_sunday_evidence()
+    table_id = match[1] + '-' + match[2]
+    table = next((t for t in sunday_oracle['tables'] if t['id'] == table_id), None)
+    result.update(source=row['source'], correction_source=row['correction_source'],
+                  normalization_warning=warning, table_id=table_id,
+                  existing_numeric_source_ref=row.get('source_raw_refs') or row.get('raw_ref', ''),
+                  evidenceLocator=row.get('evidenceLocator') or row['correction_source'],
+                  source_capture_date=table['date'] if table else '',
+                  normalization_state='HELD' if row.get('reading_type') == 'Psalm' else 'source_qualified')
+    if table:
+        matches = [(doc, block) for doc in table['documents']
+                   if doc['label'].split('-')[0] == row.get('service_section')
+                   for block in doc['assigned_blocks']
+                   if (block['printed_ref'].startswith('Psalms ') if row.get('reading_type') == 'Psalm'
+                       else canonicalize_text_ref(block['printed_ref']) == norm_passage(row))]
+        if len(matches) != 1:
+            raise RuntimeError('Sunday source slot/context does not qualify a literal block')
+        doc, block = matches[0]
+        result.update(source_block=block, source_document_sha256=doc['textSha256'],
+                      source_document_path=str(Path(row['correction_source']).parent / doc['textPath']),
+                      evidenceLocator=f"{Path(row['correction_source']).parent / doc['textPath']}:lines {block['line_start']}-{block['line_end']}")
+    return result
+
+
+def project_date_rows(date_rows: list[dict]) -> list[dict]:
+    """Project source-qualified date rows without renumbering legacy source IDs."""
+    policy = json.loads((WORK / "sources/lectionary_corrections.json").read_text())
+    rules = policy.get("recurring_date_supplements", [])
+    rows = []
+    summary_counts = defaultdict(Counter)
+    idx = 0
+    sunday_oracle = None
+    if any(r.get('source') == 'Coptic Reader source-qualified Sunday policy' for r in date_rows):
+        from calendar_resolution import load_sunday_evidence
+        sunday_oracle = load_sunday_evidence()
+    for row in date_rows:
+        transport = date_source_transport(row, sunday_oracle)
+        sunday = row.get('source') == 'Coptic Reader source-qualified Sunday policy'
+        passage = norm_passage(row)
+        g = row.get('gregorian_date') or ''
+        resolved_pascha = bool(row.get('source_occasion'))
+        reader_supplement = row.get('source') == 'Coptic Reader verified recurring supplement'
+        boundary = row.get('source') == 'Coptic Reader verified calendar boundary'
+        if not reader_supplement and not boundary and not row.get('superseded_reason'):
+            idx += 1
+        rule = next((r for r in rules if r['evidence'] == row.get('correction_source')), {})
+        if reader_supplement and not rule:
+            raise RuntimeError('Unqualified Reader crosswalk source')
+        source_id = rule.get('source_id', '')
+        source_row_id = (f"{source_id}:{g}:{row['source_slot']}" if reader_supplement else
+                         f"boundary:{row['correction_source']}:{g}:{row['source_order']}" if boundary else
+                         row.get('historical_source_row_id') or idx)
+        previous_count = len(rows)
+        add_row(
+            rows,
+            summary_counts,
+            passage,
+            'pascha_day_hour' if resolved_pascha else 'copticchurch_date',
+            source_family='coptic_reader_verified_sunday_policy' if sunday else ('coptic_reader_verified_calendar_boundary' if boundary else ('coptic_reader_verified_supplement' if reader_supplement else ('holy_pascha_curated_day_hour' if resolved_pascha else 'ordinary_date_resolved'))),
+            source_table='copticchurch_date_readings_2020_2035',
+            source_file=row['correction_source'] if reader_supplement or boundary or sunday else ('out/data/pascha_day_hour_index.csv' if resolved_pascha else 'cache/copticchurch_html'),
+            source_row_id=source_row_id,
+            source_order=row.get('source_order') or idx,
+            source_token_order=1,
+            liturgical_place=(f"{row['day_title']} (superseded date {g})" if row.get('superseded_reason') == 'calendar_context_displaced' else row.get('day_title') or ''),
+            calendar_key=row.get('day_title') or '',
+            gregorian_date=g,
+            coptic_date=coptic_date_for(g),
+            day_title=row.get('day_title') or '',
+            service_day=row.get('day_title') or '',
+            service_hour=row.get('service_section') if row.get('source_occasion') else '',
+            service_section=row.get('service_section') or '',
+            reading_slot=row.get('source_slot') or '',
+            reading_type=row.get('reading_type') or '',
+            source_ref=(row.get('raw_ref') if (reader_supplement and not rule.get('legacy_projection_compatible')) or boundary else row.get('matched_ref')) or row.get('raw_ref') or '',
+            raw_ref=row.get('raw_ref') or '',
+            normalized_ref=row.get('matched_ref') or '',
+            superseded_reason=row.get('superseded_reason') or '',
+            significance_note=row.get('service_section') or row.get('reading_type') or '',
+            url=row.get('url') or '',
+            provenance='; '.join(filter(None, [row.get('source') or 'copticchurch.net daily scrape', row.get('normalization_warning') if (reader_supplement and not rule.get('legacy_projection_compatible')) or boundary else '', row.get('canonicalization_note') if boundary else ''])),
+        )
+        if transport and len(rows) > previous_count:
+            if sunday:
+                bind_context(rows[-1], transport)
+            rows[-1]['provenance'] = json.dumps({'consumer_source_transport': transport,
+                'legacy_provenance': rows[-1]['provenance']}, ensure_ascii=False, sort_keys=True)
+
+    return rows
+
+
 def main() -> None:
     cycle_rows = read_csv(WORK_OUT_DATA / 'katameros_cycle_passage_index.csv')
     current_date_index = WORK_OUT_DATA / 'copticchurch_passage_index_current_2020_2035.csv'
@@ -386,39 +500,11 @@ def main() -> None:
             provenance=row.get('source') or 'katameros-api sqlite',
         )
 
-    for idx, row in enumerate(date_rows, 1):
-        passage = norm_passage(row)
-        g = row.get('gregorian_date') or ''
-        resolved_pascha = bool(row.get('source_occasion'))
-        add_row(
-            rows,
-            summary_counts,
-            passage,
-            'pascha_day_hour' if resolved_pascha else 'copticchurch_date',
-            source_family='holy_pascha_curated_day_hour' if resolved_pascha else 'ordinary_date_resolved',
-            source_table='copticchurch_date_readings_2020_2035',
-            source_file='out/data/pascha_day_hour_index.csv' if resolved_pascha else 'cache/copticchurch_html',
-            source_row_id=idx,
-            source_order=row.get('source_order') or idx,
-            source_token_order=1,
-            liturgical_place=row.get('day_title') or '',
-            calendar_key=row.get('day_title') or '',
-            gregorian_date=g,
-            coptic_date=coptic_date_for(g),
-            day_title=row.get('day_title') or '',
-            service_day=row.get('day_title') or '',
-            service_hour=row.get('service_section') if row.get('source_occasion') else '',
-            service_section=row.get('service_section') or '',
-            reading_slot=row.get('source_slot') or '',
-            reading_type=row.get('reading_type') or '',
-            source_ref=row.get('matched_ref') or row.get('raw_ref') or '',
-            raw_ref=row.get('raw_ref') or '',
-            normalized_ref=row.get('matched_ref') or '',
-            superseded_reason=row.get('superseded_reason') or '',
-            significance_note=row.get('service_section') or row.get('reading_type') or '',
-            url=row.get('url') or '',
-            provenance=row.get('source') or 'copticchurch.net daily scrape',
-        )
+    date_rows += displaced_date_history(read_csv(WORK_OUT_DATA / "copticchurch_passage_index_2020_2035.csv"), date_rows)
+    projected_dates = project_date_rows(date_rows)
+    rows.extend(projected_dates)
+    for row in projected_dates:
+        summary_counts[row["passage"]][row["source_kind"]] += 1
 
     for idx, row in enumerate(special_rows, 1):
         passage = norm_passage(row)

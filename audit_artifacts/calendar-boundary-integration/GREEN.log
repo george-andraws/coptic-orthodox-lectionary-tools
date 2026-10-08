@@ -1,0 +1,11 @@
+test_2026_pascha_and_2027_annunciation_preserved (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_2026_pascha_and_2027_annunciation_preserved) ... ok
+test_april_7_2028_complete_source_table_replaces_wrong_annunciation (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_april_7_2028_complete_source_table_replaces_wrong_annunciation) ... ok
+test_exact_offset_and_feast_collision_required (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_exact_offset_and_feast_collision_required) ... ok
+test_fixture_corruptions_fail_closed_even_with_updated_outer_hash (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_fixture_corruptions_fail_closed_even_with_updated_outer_hash) ... ok
+test_passage_helper_uses_exact_normalized_boundaries_and_preserves_printed (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_passage_helper_uses_exact_normalized_boundaries_and_preserves_printed) ... ok
+test_raw_overlap_with_seasonal_table_is_rejected_not_duplicated (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_raw_overlap_with_seasonal_table_is_rejected_not_duplicated) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.295s
+
+OK

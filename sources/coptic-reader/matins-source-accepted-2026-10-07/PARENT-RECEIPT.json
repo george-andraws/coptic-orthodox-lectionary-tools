@@ -1,0 +1,37 @@
+{
+  "verified_review_packets": {
+    "lent-prophecy-independent-review-04": {
+      "receipt_sha256": "475df5a7c78f5cd053143a629fdcc3cbdee1a04740e16e16361f000f98119993",
+      "artifacts": 49,
+      "hash_mismatches": []
+    },
+    "lent-psalm-gospel-independent-review-04": {
+      "receipt_sha256": "4a4d4d73e64f3722c1c601acb343852b8f834743a7a41f98aeebbb6bfd85980b",
+      "artifacts": 41,
+      "hash_mismatches": []
+    },
+    "annual129-independent-review-03": {
+      "receipt_sha256": "374a7c59cb66b4be0803c66a16f9a7ee23a84e5f8feca29a6c5bffb057227c87",
+      "artifacts": 10,
+      "hash_mismatches": []
+    }
+  },
+  "accepted_source_corpus": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/parent-accepted-matins-source-04/accepted-source-corpus.json",
+  "accepted_source_corpus_sha256": "5f7558115e4743e08febe5e5ecd7f350573c3b80af1d517951db6cc0db9526d2",
+  "unique_child_contexts": 116,
+  "unique_occasions": 58,
+  "dated_documents": 119,
+  "complete_exact_dated_pairs": 59,
+  "partial_exact_dated_pairs": [
+    {
+      "civil_date": "2026-04-03",
+      "occasion_key": "GreatFast@-9",
+      "captured_children": [
+        "Psalm and Gospel"
+      ]
+    }
+  ],
+  "source_only": true,
+  "release_ready": false,
+  "site_hold": true
+}

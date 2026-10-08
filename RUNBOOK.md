@@ -29,6 +29,26 @@ Primary data families:
 
 Synaxarium is separate. See [Synaxarium](#synaxarium).
 
+## Current implementation and preserved snapshots
+
+The implementation/release checkout is `synaxarium-package-release`; `coptic-lectionary-research` is the older research/archive checkout. Resolve the actual repository root and Git state before running commands. Isolate changes when a checkout contains unrelated work.
+
+The unqualified `out/data/copticchurch_passage_index_2020_2035.csv/.jsonl` files are **preserved historical snapshots**, not freshly reconciled exports. Current query helpers, crosswalks and release preservation checks use `copticchurch_passage_index_current_2020_2035.csv/.jsonl` and the corresponding current-date sidecars. Do not silently fall back to historical snapshots when verifying current behavior. Historical Today/handoff/prose snapshots likewise do not prove current runtime completeness.
+
+For isolated reading reconciliations, use explicit preservation modes:
+
+```bash
+LECTIONARY_DISABLE_VAULT_PUBLISH=1 python3 build_lectionary_reference.py --preserve-legacy-passage-snapshot
+LECTIONARY_DISABLE_VAULT_PUBLISH=1 python3 build_design_deliverables.py --data-only
+node scripts/build_npm_package.mjs
+```
+
+The source builder still writes generated/cache artifacts; disabling vault publication is not a read-only switch. The design `--data-only` mode retains historical prose and the date-specific Today snapshot while regenerating current data. The npm builder preserves current calendar/catalog APIs, exports, schema, Synaxarium, README and license; verify its supported-version guard before changing a release version.
+
+`compare_external_sources.py` defaults to the reconciled current sidecar. Its `--legacy-snapshot` option is an explicit historical diagnostic, not the release parity oracle. The strict preservation gate qualifies full date/occasion/service/hour/slot/reference/order/family contexts, retains multiplicity, and authenticates exact Vespers no-service evidence before disposition. It discloses structural rows outside cached-source scope. A pass proves preservation within that scope, **not primary-source reading completeness**; independent rendered Coptic Reader/direct-service oracles must cover the excluded structural lane.
+
+Daily calendar-overlay OT metadata must carry the direct source's positive `source_order`. OT labels only validate that existing order; they must not manufacture missing order or replace the unknown-order sentinel during validation. The design oracle independently joins current-date appointments to direct Pascha context/order and retains exact daily equality.
+
 ## Standard full rebuild
 
 Run this from the project root:

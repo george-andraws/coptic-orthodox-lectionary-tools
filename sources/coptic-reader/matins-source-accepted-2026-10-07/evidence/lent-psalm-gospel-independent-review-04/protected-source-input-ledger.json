@@ -1,0 +1,46 @@
+[
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "sha256": "d516a1df5728b9f49cacd03e8b2ab3425d23bee026b5226d4fdb07ecbf39c64b"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/combined-qualified-oracle.json",
+    "sha256": "d9b7f55f8445f4d991bdcd376d551207133ce2eafddbf54b26b73b79e7d8a14a"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/ordinary-coverage-current/accepted-contexts-03.jsonl",
+    "sha256": "10bf06ab609734f305be9ae86ef278a6ee5447fd4663e1195caa65e13f1b9df3"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-a/accepted-dated-oracle.jsonl",
+    "sha256": "25393076282ad518a2ef522260b6f3a3c927179c61085e8f4813cc7a8f859fc4"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-a/FINAL-RECEIPT.json",
+    "sha256": "eecd2e0beaafe66ec90ecb3ba2d106c474c39ec23362f9629cc842c6eda016f2"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-b/FINAL-RECEIPT.json",
+    "sha256": "fe03bdebc1b583cd209e2c738041cbd119505f2a2c88aa25f2f06ff0ec6be987"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-b/accepted-dated-oracle.jsonl",
+    "sha256": "fc6d3b63ad84cd7bf2557d32472c4eed651f610244519bfd892e9e9426bd7013"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-corrections-independent-review-02/FINAL-RECEIPT.json",
+    "sha256": "266c7611e5911cfef28bba80b48373d409c14e7a06e3bce38a558c63b367800b"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/out/data/katameros_cycle_readings.csv",
+    "sha256": "d5a77b5042da442eb33eaac4cf74b7e00a703173a52b15e7a8c74ca62c97af25"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/calendar_resolution.py",
+    "sha256": "6136d14cf09df12bc1f5d6728345d6983d4f1ebe9a54bb4114d6950ef0d5c475"
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/packages/lectionary-data/calendar.js",
+    "sha256": "71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830"
+  }
+]

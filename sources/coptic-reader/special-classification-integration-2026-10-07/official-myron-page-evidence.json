@@ -1,0 +1,38 @@
+{
+  "pdf": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/web_special_service_sources/meron-and-galileon-ar.pdf",
+  "sha256": "1c1b60b08ac0726bf941595d7506f394ea4a8318c7bd44ed2478a8d92ee3074f",
+  "method": "direct visual inspection of rendered original PDF pages 34-37; PDF has no text layer",
+  "pages": [
+    {
+      "pdf_page": 34,
+      "heading": "خامساً - قداس القربان يوم التقديس",
+      "translation": "Fifth: Liturgy of the offering on the day of sanctification",
+      "rubric": "Vespers Psalm 22:5-6; Luke 23:50-56 and 24:1-12; Matins Psalm 50:12-13"
+    },
+    {
+      "pdf_page": 35,
+      "headings": [
+        "إنجيل باكر (مرقس أصحاح ١٦ كله)",
+        "سادساً - ترتيب الأسبوع الأول",
+        "أ - فصول اليوم الأول"
+      ],
+      "translation": "Matins Gospel Mark chapter 16 entirely; Sixth: Order of the first week; A: lessons of the first day",
+      "rubric": "Myron leaven may be added once or in three installments; three liturgies are celebrated during this week and Myron/Hagelion leaven added at each conclusion; consecration liturgy Pauline Heb 9:11-28 and 10:1-24, Catholic 1 Jn 4:7-21 and 5:1-21, Acts 13:13-49, Psalm 44:7-8 and Psalm 88:14-15, Gospel Jn 19:38-42 and 20:1-18"
+    },
+    {
+      "pdf_page": 36,
+      "headings": [
+        "ب - فصول اليوم الثاني",
+        "ج - فصول اليوم الثالث"
+      ],
+      "translation": "B: lessons of the second day; C: lessons of the third day",
+      "rubric": "First: Jn 1:18-42, Heb 7:26-28, chapter 8 entire and 9:1-10, 1 Pet 3:8-22 and 4:1-11, Acts 18:24-28 and 19:1-20, Ps 132:1, Mt 26:6-13. Second: Ps 28:3-4, Jn 3:22-36 and 4:1-2, Heb 1:1-14 and 2:1-4, 1 Pet 1:10-25 and 2:1-10, Acts 2:22-47 and 3:1-10, Ps 129:2-5, Mk 14:3-9. Third Matins: Ps 31:1-2, Jn 3:1-21"
+    },
+    {
+      "pdf_page": 37,
+      "heading": "سابعاً - طقس إيداع الخميرة المقدسة",
+      "translation": "Seventh: Rite of depositing the holy leaven",
+      "rubric": "Third liturgy: Titus 2:11-15 and 3:1-7, 1 Jn 5:5-13, Acts 8:26-39, Ps 65:1,6, Mt 28:16-20. This Titus table differs from Reader 1 Timothy 2:11-3:7; retain source-qualified conflict, not a text-match join"
+    }
+  ]
+}

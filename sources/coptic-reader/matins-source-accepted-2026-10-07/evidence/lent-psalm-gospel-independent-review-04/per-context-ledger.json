@@ -1,0 +1,1817 @@
+[
+  {
+    "civil_date": "2026-02-02",
+    "occasion_key": "JonahFast@-69",
+    "actual_home_line": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 25
+    },
+    "offset": -69,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-00.jpg"
+  },
+  {
+    "civil_date": "2026-02-03",
+    "occasion_key": "JonahFast@-68",
+    "actual_home_line": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 26
+    },
+    "offset": -68,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-00.jpg"
+  },
+  {
+    "civil_date": "2026-02-04",
+    "occasion_key": "JonahFast@-67",
+    "actual_home_line": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 27
+    },
+    "offset": -67,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-00.jpg"
+  },
+  {
+    "civil_date": "2026-02-15",
+    "occasion_key": "Presentation@-56",
+    "actual_home_line": "Selected Season Presentation of the Lord Christ in the Temple 2nd Sunday of Meshir Sunday, February 15, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 8
+    },
+    "offset": -56,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-00.jpg"
+  },
+  {
+    "civil_date": "2026-02-16",
+    "occasion_key": "GreatFast@-55",
+    "actual_home_line": "Selected Season First Monday of Great Fast Meshir 9, 1742 Monday, February 16, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 9
+    },
+    "offset": -55,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-00.jpg"
+  },
+  {
+    "civil_date": "2026-02-17",
+    "occasion_key": "GreatFast@-54",
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 10, 1742 Tuesday, February 17, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 10
+    },
+    "offset": -54,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-00.jpg"
+  },
+  {
+    "civil_date": "2026-02-18",
+    "occasion_key": "GreatFast@-53",
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 11, 1742 Wednesday, February 18, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 11
+    },
+    "offset": -53,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-19",
+    "occasion_key": "GreatFast@-52",
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 12, 1742 Thursday, February 19, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 12
+    },
+    "offset": -52,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-20",
+    "occasion_key": "GreatFast@-51",
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 13, 1742 Friday, February 20, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 13
+    },
+    "offset": -51,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-21",
+    "occasion_key": "GreatFast@-50",
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 14, 1742 Saturday, February 21, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 14
+    },
+    "offset": -50,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-22",
+    "occasion_key": "GreatFast@-49",
+    "actual_home_line": "Selected Season 1st Sunday of Great Fast Meshir 15, 1742 Sunday, February 22, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 15
+    },
+    "offset": -49,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-23",
+    "occasion_key": "GreatFast@-48",
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 16, 1742 Monday, February 23, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 16
+    },
+    "offset": -48,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/2026-02-23/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/2026-02-23/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/2026-02-23/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/2026-02-23/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-24",
+    "occasion_key": "GreatFast@-47",
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 17, 1742 Tuesday, February 24, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 17
+    },
+    "offset": -47,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/2026-02-24/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/2026-02-24/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/2026-02-24/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/2026-02-24/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-25",
+    "occasion_key": "GreatFast@-46",
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 18, 1742 Wednesday, February 25, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 18
+    },
+    "offset": -46,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/2026-02-25/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/2026-02-25/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/2026-02-25/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/2026-02-25/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-01.jpg"
+  },
+  {
+    "civil_date": "2026-02-26",
+    "occasion_key": "GreatFast@-45",
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 19, 1742 Thursday, February 26, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 19
+    },
+    "offset": -45,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/2026-02-26/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/2026-02-26/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/2026-02-26/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/2026-02-26/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-02-27",
+    "occasion_key": "GreatFast@-44",
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 20, 1742 Friday, February 27, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 20
+    },
+    "offset": -44,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/2026-02-27/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/2026-02-27/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/2026-02-27/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/2026-02-27/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-02-28",
+    "occasion_key": "GreatFast@-43",
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 21, 1742 Saturday, February 28, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 21
+    },
+    "offset": -43,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-03-01",
+    "occasion_key": "GreatFast@-42",
+    "actual_home_line": "Selected Season 2nd Sunday of Great Fast Meshir 22, 1742 Sunday, March 1, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 22
+    },
+    "offset": -42,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-03-02",
+    "occasion_key": "GreatFast@-41",
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 23, 1742 Monday, March 2, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 23
+    },
+    "offset": -41,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/2026-03-02/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/2026-03-02/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/2026-03-02/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/2026-03-02/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-03-03",
+    "occasion_key": "GreatFast@-40",
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 24, 1742 Tuesday, March 3, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 24
+    },
+    "offset": -40,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/2026-03-03/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/2026-03-03/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/2026-03-03/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/2026-03-03/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-03-04",
+    "occasion_key": "GreatFast@-39",
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 25, 1742 Wednesday, March 4, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 25
+    },
+    "offset": -39,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/2026-03-04/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/2026-03-04/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/2026-03-04/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/2026-03-04/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-03-05",
+    "occasion_key": "GreatFast@-38",
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 26, 1742 Thursday, March 5, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 26
+    },
+    "offset": -38,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/2026-03-05/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/2026-03-05/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/2026-03-05/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/2026-03-05/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-02.jpg"
+  },
+  {
+    "civil_date": "2026-03-06",
+    "occasion_key": "GreatFast@-37",
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 27, 1742 Friday, March 6, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 27
+    },
+    "offset": -37,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/2026-03-06/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/2026-03-06/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/2026-03-06/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/2026-03-06/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-07",
+    "occasion_key": "GreatFast@-36",
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 28, 1742 Saturday, March 7, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 28
+    },
+    "offset": -36,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-08",
+    "occasion_key": "GreatFast@-35",
+    "actual_home_line": "Selected Season 3rd Sunday of Great Fast Meshir 29, 1742 Sunday, March 8, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 29
+    },
+    "offset": -35,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-09",
+    "occasion_key": "GreatFast@-34",
+    "actual_home_line": "Selected Season 4th Week of Great Fast Meshir 30, 1742 Monday, March 9, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 30
+    },
+    "offset": -34,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/2026-03-09/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/2026-03-09/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/2026-03-09/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/2026-03-09/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-10",
+    "occasion_key": "GreatFast@-33",
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 1, 1742 Tuesday, March 10, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 1
+    },
+    "offset": -33,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/2026-03-10/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/2026-03-10/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/2026-03-10/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/2026-03-10/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-11",
+    "occasion_key": "GreatFast@-32",
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 2, 1742 Wednesday, March 11, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 2
+    },
+    "offset": -32,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/2026-03-11/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/2026-03-11/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/2026-03-11/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/2026-03-11/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-12",
+    "occasion_key": "GreatFast@-31",
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 3, 1742 Thursday, March 12, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 3
+    },
+    "offset": -31,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/2026-03-12/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/2026-03-12/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/2026-03-12/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/2026-03-12/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-13",
+    "occasion_key": "GreatFast@-30",
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 4, 1742 Friday, March 13, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 4
+    },
+    "offset": -30,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/2026-03-13/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/2026-03-13/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/2026-03-13/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/2026-03-13/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-03.jpg"
+  },
+  {
+    "civil_date": "2026-03-14",
+    "occasion_key": "GreatFast@-29",
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 5, 1742 Saturday, March 14, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 5
+    },
+    "offset": -29,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-15",
+    "occasion_key": "GreatFast@-28",
+    "actual_home_line": "Selected Season 4th Sunday of Great Fast Paremhotep 6, 1742 Sunday, March 15, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 6
+    },
+    "offset": -28,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-16",
+    "occasion_key": "GreatFast@-27",
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 7, 1742 Monday, March 16, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 7
+    },
+    "offset": -27,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/2026-03-16/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/2026-03-16/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/2026-03-16/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/2026-03-16/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-17",
+    "occasion_key": "GreatFast@-26",
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 8, 1742 Tuesday, March 17, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 8
+    },
+    "offset": -26,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/2026-03-17/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/2026-03-17/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/2026-03-17/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/2026-03-17/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-18",
+    "occasion_key": "GreatFast@-25",
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 9, 1742 Wednesday, March 18, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 9
+    },
+    "offset": -25,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/2026-03-18/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/2026-03-18/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/2026-03-18/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/2026-03-18/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-19",
+    "occasion_key": "Cross@-24",
+    "actual_home_line": "Selected Season Feast of the Cross Paremhotep 10, 1742 Thursday, March 19, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 10
+    },
+    "offset": -24,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-20",
+    "occasion_key": "GreatFast@-23",
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 11, 1742 Friday, March 20, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 11
+    },
+    "offset": -23,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/2026-03-20/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/2026-03-20/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/2026-03-20/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/2026-03-20/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-21",
+    "occasion_key": "GreatFast@-22",
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 12, 1742 Saturday, March 21, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 12
+    },
+    "offset": -22,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-04.jpg"
+  },
+  {
+    "civil_date": "2026-03-22",
+    "occasion_key": "GreatFast@-21",
+    "actual_home_line": "Selected Season 5th Sunday of Great Fast Paremhotep 13, 1742 Sunday, March 22, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 13
+    },
+    "offset": -21,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-23",
+    "occasion_key": "GreatFast@-20",
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 14, 1742 Monday, March 23, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 14
+    },
+    "offset": -20,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/2026-03-23/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/2026-03-23/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/2026-03-23/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/2026-03-23/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-24",
+    "occasion_key": "GreatFast@-19",
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 15, 1742 Tuesday, March 24, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 15
+    },
+    "offset": -19,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/2026-03-24/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/2026-03-24/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/2026-03-24/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/2026-03-24/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-25",
+    "occasion_key": "GreatFast@-18",
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 16, 1742 Wednesday, March 25, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 16
+    },
+    "offset": -18,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/2026-03-25/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/2026-03-25/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/2026-03-25/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/2026-03-25/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-26",
+    "occasion_key": "GreatFast@-17",
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 17, 1742 Thursday, March 26, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 17
+    },
+    "offset": -17,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/2026-03-26/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/2026-03-26/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/2026-03-26/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/2026-03-26/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-27",
+    "occasion_key": "GreatFast@-16",
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 18, 1742 Friday, March 27, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 18
+    },
+    "offset": -16,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/2026-03-27/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/2026-03-27/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/2026-03-27/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/2026-03-27/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-28",
+    "occasion_key": "GreatFast@-15",
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 19, 1742 Saturday, March 28, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 19
+    },
+    "offset": -15,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-29",
+    "occasion_key": "GreatFast@-14",
+    "actual_home_line": "Selected Season 6th Sunday of Great Fast Paremhotep 20, 1742 Sunday, March 29, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 20
+    },
+    "offset": -14,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-05.jpg"
+  },
+  {
+    "civil_date": "2026-03-30",
+    "occasion_key": "GreatFast@-13",
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 21, 1742 Monday, March 30, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 21
+    },
+    "offset": -13,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2026-03-31",
+    "occasion_key": "GreatFast@-12",
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 22, 1742 Tuesday, March 31, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 22
+    },
+    "offset": -12,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2026-04-01",
+    "occasion_key": "GreatFast@-11",
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 23, 1742 Wednesday, April 1, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 23
+    },
+    "offset": -11,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2026-04-02",
+    "occasion_key": "GreatFast@-10",
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 24, 1742 Thursday, April 2, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 24
+    },
+    "offset": -10,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2026-04-03",
+    "occasion_key": "GreatFast@-9",
+    "actual_home_line": "Selected Season Last Friday of Great Fast Paremhotep 25, 1742 Friday, April 3, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 25
+    },
+    "offset": -9,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/2026-04-03/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/2026-04-03/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/2026-04-03/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/2026-04-03/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2026-04-04",
+    "occasion_key": "GreatFast@-8",
+    "actual_home_line": "Selected Season Lazarus Saturday Paremhotep 26, 1742 Saturday, April 4, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 26
+    },
+    "offset": -8,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2026-04-05",
+    "occasion_key": "GreatFast@-7",
+    "actual_home_line": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026",
+    "Coptic": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 27
+    },
+    "offset": -7,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2027-03-07",
+    "occasion_key": "BeforeFast@-56",
+    "actual_home_line": "Selected Season Sunday before the Great Fast Meshir 28, 1743 Sunday, March 7, 2027",
+    "Coptic": {
+      "year": 1743,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 28
+    },
+    "offset": -56,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-06.jpg"
+  },
+  {
+    "civil_date": "2027-04-08",
+    "occasion_key": "GreatFast@-24",
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 30, 1743 Thursday, April 8, 2027",
+    "Coptic": {
+      "year": 1743,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 30
+    },
+    "offset": -24,
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "primary_context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/2027-04-08/context.txt"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/2027-04-08/context.png"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/2027-04-08/picker.json"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/2027-04-08/picker.png"
+      }
+    ],
+    "verified": true,
+    "visual_home_sheet": "contexts-ready-07.jpg"
+  }
+]

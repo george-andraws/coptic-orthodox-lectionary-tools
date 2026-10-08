@@ -1,0 +1,74 @@
+{
+  "civil_date": "2026-02-20",
+  "context": "Selected Season 1st Week of Great Fast Meshir 13, 1742 Friday, February 20, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-20",
+      "context": "Selected Season 1st Week of Great Fast Meshir 13, 1742 Friday, February 20, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:26:09.872Z",
+      "raw_reference_lines": [
+        "\tDeuteronomy 6:3-7:26",
+        "\tIsaiah 3:1-14"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies.txt",
+      "text_sha256": "cd53bbf51fa87f2b03af855a26785c88fe4153d098f91a7ced15e61002d15d3b",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tDeuteronomy 6:3-7:26",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies-reference-01.png",
+          "sha256": "32f6c0c464f1011b1a0fb4e4858f325e7c159ac662f454cb19987d572acfe316"
+        },
+        {
+          "raw_ref": "\tIsaiah 3:1-14",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Prophecies-reference-02.png",
+          "sha256": "36956a86323005ec128f5363b9ee64bb7ae47b1ca952e1ce9db8e20b29ec5a43"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-20",
+      "context": "Selected Season 1st Week of Great Fast Meshir 13, 1742 Friday, February 20, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:26:14.783Z",
+      "raw_reference_lines": [
+        "\tPsalms 29: 1-2",
+        "\tLuke 5:12-16"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "91f8d28aaff463b0182fe0d8547efd920491059bd6cd25bd2326948100c5f10a",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 29: 1-2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "b06a707639267f68ab564f31066a0b53153321a48f2e6097622f2ea2d33bbfcc"
+        },
+        {
+          "raw_ref": "\tLuke 5:12-16",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "41a8c58f3f99521e6819d99f4dc907375471ffc5219fdd403b03cbf6b4b074fe"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

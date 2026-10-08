@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-26",
+  "context": "Selected Season 6th Week of Great Fast Paremhotep 17, 1742 Thursday, March 26, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-26",
+      "context": "Selected Season 6th Week of Great Fast Paremhotep 17, 1742 Thursday, March 26, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:31:12.752Z",
+      "raw_reference_lines": [
+        "\tPsalms 9:9-10",
+        "\tLuke 20:9-19"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "78062fcaececfdf41309699139552013cef8801e98f52ec0f959fff7085da955",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 9:9-10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "9f51aa2b448f926b3294af08ade9ce81c9e68c414ca01c4869ae0899b6f3b53e"
+        },
+        {
+          "raw_ref": "\tLuke 20:9-19",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "0594b40ff6eb5238c26361795374fd9a0901ae4c2d389a0e903a1bba1ab7a4b4"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

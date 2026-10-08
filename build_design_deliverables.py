@@ -8,6 +8,7 @@ root Markdown deliverables requested by 05-LECTIONARY-DESIGN.md.
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import datetime as dt
 import hashlib
@@ -18,6 +19,8 @@ from pathlib import Path
 from typing import Iterable
 
 from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage, validate_reading_slot
+import source_reading_contracts as source_contracts
+import sunday_consumer_contracts as sunday_contracts
 
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "out" / "data"
@@ -65,6 +68,14 @@ OUT.mkdir(parents=True, exist_ok=True)
 AUDIT.mkdir(parents=True, exist_ok=True)
 
 SOURCE_REGISTRY = [
+    {
+        "source_key": "coptic_reader_lent_week3_wednesday",
+        "title": "Coptic Reader, official Southern US publisher, Third-Week Great Fast Wednesday Matins",
+        "url": "https://copticreader.org/app/",
+        "edition": "Saved authenticated capture 2026-10-07; selected 2026-03-04",
+        "authority_tier": "current_authority",
+        "default_locator": "sources/coptic-reader/lent-week3-wednesday-2026-10-07/coptic-reader-2026-03-04-matins-prophecies.txt",
+    },
     {
         "source_key": "coptic_reader_fixture_wednesday_day",
         "title": "Coptic Reader app, Pascha Wednesday Day fixture supplied by George",
@@ -458,6 +469,8 @@ def foundational_69_by_day_key() -> dict[str, dict]:
 
 
 def removed_marker_for(row: dict, ident: dict) -> str:
+    if row.get("superseded_reason") == "calendar_context_displaced":
+        return "superseded_calendar_date:" + row["gregorian_date"]
     if row.get("superseded_reason") == "coptic_reader_no_service":
         return "removed_by_coptic_reader_no_service"
     superseded_by_ref = row.get("superseded_by_ref", "")
@@ -855,9 +868,54 @@ def source_convention(row: dict) -> str:
     return "modern_english_reference"
 
 
-def identity_for(passage: str, source_kind: str = "") -> dict:
+def consumer_source_transport(row: dict) -> dict:
+    provenance = row.get('provenance') or ''
+    if isinstance(provenance, str) and provenance.lstrip().startswith('{'):
+        try:
+            value = json.loads(provenance)
+        except ValueError:
+            if 'consumer_source_transport' in provenance:
+                raise ValueError('Malformed consumer source transport')
+            return {}
+        transport = value.get('consumer_source_transport', {})
+        if not isinstance(transport, dict) or not isinstance(transport.get('state', {}), dict):
+            raise ValueError('Malformed consumer source state')
+        return transport
+    return {}
+
+
+def consumer_source_is_current(row: dict) -> bool:
+    return sunday_contracts.is_current(row)
+
+
+def identity_for(passage: str, source_kind: str = "", source_contract: dict | None = None, *, source_transport: dict | None = None) -> dict:
+    if source_contract is not None:
+        reading = source_contracts.validate_envelope(source_contract)
+        parser_input = reading['printed_ref'] if source_contract['lane'] == 'psalm' else reading.get('canonical_edition_ref') or reading['normalized_literal_ref']
+        if passage != parser_input:
+            raise ValueError('source contract expanded parser input mismatch')
+        return source_contracts.identity(source_contract)
+    if source_kind == source_contracts.CONTRACT_KIND:
+        raise ValueError('source contract required for edition-qualified identity')
     passage = normalize_source_ref(passage, source_kind)
     parsed = parse_passage(passage)
+    if source_transport and source_transport.get('normalization_state') == 'HELD':
+        if not parsed or parsed.book_abbrev != 'Ps' or source_transport.get('source') != 'Coptic Reader source-qualified Sunday policy':
+            raise ValueError('Sunday Psalm hold has wrong source/book')
+        note = source_transport['normalization_warning']
+        convention = 'existing_numeric_source_coordinates_alignment_held'
+        spans = [{'source_ref': passage, 'source_convention': convention,
+                  'canonical_mt_ref': '', 'canonical_lxx_ref': '', 'confidence': 'held',
+                  'validation_basis': note, 'book': 'Ps', 'chapter_start': p.chapter_start,
+                  'verse_start': p.verse_start, 'chapter_end': p.chapter_end, 'verse_end': p.verse_end}
+                 for p in parsed.parts]
+        key = 'sunday_psalm_alignment_held|' + passage
+        return {'identity_key': 'rid_' + hashlib.sha256(key.encode()).hexdigest()[:20],
+                'reading_type': 'scripture', 'reading_name': '', 'source_label': passage,
+                'display_ref': passage + ' (Reader Psalm alignment HELD)',
+                'canonical_mt_ref': '', 'canonical_lxx_ref': '', 'source_convention': convention,
+                'canonicalization_confidence': 'held', 'canonicalization_note': note,
+                'spans_json': json.dumps(spans, ensure_ascii=False, sort_keys=True)}
     ptype = passage_type(passage)
     canonical_mt = passage if parsed else ""
     canonical_lxx = canonical_mt
@@ -980,6 +1038,12 @@ def load_fixture_rows() -> list[dict]:
 
 
 def source_key_for(row: dict) -> str:
+    if source_contracts.is_candidate(row):
+        return 'coptic_reader_edition_fragment_candidate'
+    if row.get('source_family') in {'coptic_reader_verified_supplement', 'coptic_reader_verified_calendar_boundary'}:
+        return SEASONAL_SOURCE_KEYS[row['source_file']]
+    if row.get('source_family') == 'coptic_reader_verified_sunday_policy':
+        return 'coptic_reader_sunday_policy'
     sk = row.get("source_kind", "")
     if sk == "coptic_reader_fixture":
         return "coptic_reader_fixture_wednesday_day"
@@ -994,14 +1058,49 @@ def source_key_for(row: dict) -> str:
     return sk or "unknown"
 
 
+_seasonal_policy = json.loads((ROOT / 'sources/lectionary_corrections.json').read_text())
+for _rule in _seasonal_policy.get('recurring_date_supplements', []) + _seasonal_policy.get('calendar_boundary_tables', []):
+    _key = _rule['source_key']
+    if any(row['source_key'] == _key for row in SOURCE_REGISTRY):
+        continue
+    SOURCE_REGISTRY.append({
+        'source_key': _key, 'title': 'Coptic Reader: ' + _rule['day_title'],
+        'url': 'https://copticreader.org/app/#/document',
+        'edition': 'Saved primary capture; selected ' + _rule['verified_date'],
+        'authority_tier': 'current_authority', 'default_locator': _rule['evidence'],
+    })
+SEASONAL_SOURCE_KEYS = {_rule['evidence']: _rule['source_key'] for _rule in
+    _seasonal_policy.get('recurring_date_supplements', []) + _seasonal_policy.get('calendar_boundary_tables', [])}
 SOURCE_REGISTRY_BY_KEY = {row["source_key"]: row for row in SOURCE_REGISTRY}
+CANDIDATE_SOURCE_REGISTRY = {
+    'source_key': 'coptic_reader_edition_fragment_candidate',
+    'title': 'Coptic Reader independently reviewed edition/fragment research metadata',
+    'url': 'https://copticreader.org/app/#/document',
+    'edition': 'Hash-bound captured source body; candidate projection only, no activation approval',
+    'default_locator': 'tests/fixtures/edition_fragment_contract_v1/bindings.json',
+    'authority_tier': 'current_authority',
+}
 
 
 def source_registry_for_key(source_key: str) -> dict:
+    if source_key == 'coptic_reader_sunday_policy':
+        return {'source_key': source_key, 'title': 'Coptic Reader source-qualified Sunday policy',
+                'url': 'https://copticreader.org/app/', 'edition': 'Saved accepted whole tables; Psalm alignment HELD',
+                'default_locator': 'sources/coptic-reader/sunday-qualified-2026-10-07/accepted-oracle.json',
+                'authority_tier': 'current_authority'}
+    if source_key == CANDIDATE_SOURCE_REGISTRY['source_key']:
+        return CANDIDATE_SOURCE_REGISTRY
     return SOURCE_REGISTRY_BY_KEY.get(source_key, {})
 
 
+SOURCE_REGISTRY.append(source_registry_for_key('coptic_reader_sunday_policy'))
+SOURCE_REGISTRY_BY_KEY['coptic_reader_sunday_policy'] = SOURCE_REGISTRY[-1]
+
+
 def source_locator_for(row: dict, registry_entry: dict) -> str:
+    transport = consumer_source_transport(row)
+    if transport.get('evidenceLocator'):
+        return transport['evidenceLocator']
     locators = []
     row_url = row.get("url", "")
     source_file = row.get("source_file", "")
@@ -1031,10 +1130,18 @@ def fixture_current_keys(fixture_rows: list[dict]) -> set[tuple[str, str, str]]:
 
 
 def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str, str]]) -> tuple[str, str]:
+    if source_contracts.is_candidate(row):
+        return 'unknown', 'Reviewed normalization metadata only; consumer eligibility and runtime activation remain false.'
+    if not consumer_source_is_current(row) and not row.get('superseded_by_ref') and row.get('superseded_reason') not in {'calendar_context_displaced', 'coptic_reader_no_service'}:
+        return 'historical_candidate_removed', 'Explicit source removal/inactive/supersession state retained; no restoration.'
+    if row.get('source_family') == 'coptic_reader_verified_sunday_policy':
+        return ('pending_psalm_equivalence_unresolved', ident['canonicalization_note']) if ident.get('canonicalization_confidence') == 'held' else ('current_public_or_local_reference', 'Source-qualified Sunday policy; capture and recurrence qualifications preserved in provenance.')
     source_kind = row.get("source_kind", "")
     ref = canonical_ref(ident.get("canonical_mt_ref") or ident.get("source_label") or row.get("passage", ""))
     key = (row.get("day_title", ""), row.get("service_hour", ""), ref)
-    if source_kind == "coptic_reader_fixture":
+    if row.get('superseded_reason') == 'calendar_context_displaced':
+        return 'historical_candidate_removed', 'Raw Annunciation appointment displaced on this civil date only; uncaptured noncollision feasts are not suppressed.'
+    if source_kind == "coptic_reader_fixture" or row.get('source_family') in {'coptic_reader_verified_supplement', 'coptic_reader_verified_calendar_boundary'}:
         return "current_confirmed_coptic_reader", "Current where fixture scope applies."
     if row.get("superseded_reason") == "coptic_reader_no_service":
         return "historical_candidate_removed", "Coptic Reader states that Vespers are not prayed in this exact Jonah Fast context."
@@ -1058,11 +1165,21 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
     return "unknown", "No status rule matched."
 
 
-def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
-    base_rows = read_csv(DATA / "reverse_lookup_crosswalk.csv")
-    supplement_rows = load_removed_pascha_source_text_supplement(base_rows)
-    fixture_rows = load_fixture_rows()
-    all_rows = expand_pascha_wednesday_composite_attestations(base_rows + supplement_rows + fixture_rows)
+def validate_sunday_source_rows(rows: list[dict], *, transport_mode: sunday_contracts.TransportMode = 'presentation') -> None:
+    sunday_contracts.validate_rows(rows, transport_mode=transport_mode)
+
+
+def build_reverse_presentation(source_rows: list[dict] | None = None, *, candidate_projection: bool = False) -> tuple[list[dict], dict[str, dict]]:
+    if source_rows is None:
+        base_rows = read_csv(DATA / "reverse_lookup_crosswalk.csv")
+        supplement_rows = load_removed_pascha_source_text_supplement(base_rows)
+        fixture_rows = load_fixture_rows()
+        all_rows = expand_pascha_wednesday_composite_attestations(base_rows + supplement_rows + fixture_rows)
+    else:
+        all_rows = source_rows
+        fixture_rows = []
+    source_contracts.validate_consumer_rows(all_rows, candidate_projection=candidate_projection, serialized=False, transport_mode="raw")
+    validate_sunday_source_rows(all_rows, transport_mode='raw')
     current_keys = fixture_current_keys(fixture_rows)
     identities: dict[str, dict] = {}
     presentation_rows = []
@@ -1071,7 +1188,7 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
             passage = row.get("normalized_segment") or row.get("normalized_ref") or row.get("source_ref") or row.get("passage") or ""
         else:
             passage = row.get("passage") or row.get("normalized_segment") or row.get("normalized_ref") or row.get("source_ref") or ""
-        ident = identity_for(passage, row.get("source_kind", ""))
+        ident = identity_for(passage, row.get("source_kind", ""), source_contracts.row_envelope(row), source_transport=consumer_source_transport(row))
         identities[ident["identity_key"]] = ident
         current_status, status_note = status_for(row, ident, current_keys)
         removed_marker = removed_marker_for(row, ident)
@@ -1114,6 +1231,7 @@ def build_reverse_presentation() -> tuple[list[dict], dict[str, dict]]:
             "url": row.get("url", ""),
             "provenance": row.get("provenance", ""),
         })
+    source_contracts.validate_consumer_rows(presentation_rows, candidate_projection=candidate_projection, transport_mode="presentation")
     return presentation_rows, identities
 
 
@@ -1174,6 +1292,8 @@ def source_disclosure_key(row: dict) -> tuple[str, str, str, str]:
 
 
 def build_collapsed_source_disclosure(rows: Iterable[dict]) -> tuple[list[dict], list[str]]:
+    rows = list(rows)
+    validate_sunday_source_rows(rows)
     grouped: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
     for row in rows:
         grouped[source_disclosure_key(row)].append(row)
@@ -1182,12 +1302,21 @@ def build_collapsed_source_disclosure(rows: Iterable[dict]) -> tuple[list[dict],
     representative_locators: list[str] = []
     for key, source_rows in sorted(grouped.items(), key=lambda item: item[0]):
         family, kind, edition, title = key
-        item = {
+        item: dict = {
             "source_family": family,
             "source_kind": kind,
             "source_edition": edition,
             "source_title": title,
         }
+        contracts = [source_contracts.row_envelope(row) for row in source_rows if source_contracts.is_candidate(row)]
+        if contracts:
+            if len(contracts) != len(source_rows) or any(e != contracts[0] for e in contracts):
+                raise ValueError('source contract disclosure cannot collapse distinct source bodies')
+            item[source_contracts.CONTRACT_KEY] = contracts[0]
+        transports = ordered_unique(json.dumps(consumer_source_transport(row), ensure_ascii=False, sort_keys=True)
+                                    for row in source_rows if consumer_source_transport(row))
+        if transports:
+            item['consumer_source_transport'] = [json.loads(value) for value in transports]
         locators = ordered_unique(row.get("source_locator", "") for row in source_rows)
         if locators:
             item["source_locator"] = locators[0]
@@ -1203,6 +1332,8 @@ def build_collapsed_source_disclosure(rows: Iterable[dict]) -> tuple[list[dict],
 
 
 SOURCE_FAMILY_AUTHORITY_PRECEDENCE = {
+    "coptic_reader_verified_supplement": 0,
+    "coptic_reader_verified_calendar_boundary": 0,
     "coptic_reader": 0,
     "holy_pascha": 1,
     "holy_pascha_curated_day_hour": 2,
@@ -1352,7 +1483,71 @@ def occasion_index_key(row: dict) -> tuple[str, str, str, str, str]:
     )
 
 
-def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[dict], list[dict]]:
+def is_seasonal_compatible_status_group(rows: list[dict], statuses, markers) -> bool:
+    """Exact primary-source equivalence is attestation breadth, not disagreement.
+
+    Keep every dated row's original confidence; only the collapsed scalar chooses
+    the strongest scoped authority. Never accept a removed or mismatched span.
+    """
+    allowed = {'current_confirmed_coptic_reader', 'current_public_or_local_reference'}
+    if not rows or not set(statuses).issubset(allowed) or any(markers):
+        return False
+    if len({occasion_index_key(r) for r in rows}) != 1:
+        return False
+    primary = [r for r in rows if r.get('source_family') == 'coptic_reader_verified_calendar_boundary']
+    if not primary:
+        return False
+    from calendar_resolution import load_last_friday_boundary, julian_pascha_gregorian
+    rule, table = load_last_friday_boundary()
+    for row in primary:
+        date = dt.date.fromisoformat(row['gregorian_date'])
+        if (date - julian_pascha_gregorian(date.year)).days != rule['pascha_offset_days'] or date.strftime('%m-%d') != '04-07' or row.get('source_file') != rule['evidence']:
+            return False
+        expected = {(rule['day_title'], r['service_section'], '', r['source_slot'], identity_for(r['normalized_ref'], 'copticchurch_date')['identity_key']) for r in table['readings']}
+        if occasion_index_key(row) not in expected:
+            return False
+    return True
+
+
+def verify_reverse_index_contract(rows: list[dict]) -> None:
+    """Fail closed against the enumerated independent seasonal delta oracle."""
+    policy = json.loads((ROOT / 'sources/lectionary_corrections.json').read_text())
+    relative = policy['seasonal_reverse_index_contract']
+    path = ROOT / relative
+    if Path(relative).is_absolute() or not path.resolve().is_relative_to(ROOT.resolve()):
+        raise AssertionError('Reverse index contract escapes repository')
+    if hashlib.sha256(path.read_bytes()).hexdigest() != policy['source_fingerprints'][relative]:
+        raise AssertionError('Reverse index contract source drift')
+    contract = json.loads(path.read_text())
+    intended = {tuple(key) for key in contract['intended_keys']}
+    if (len(intended) != contract['expected_reverse_count']
+            or len(contract['added_keys']) != contract['added_count']
+            or len(contract['removed_keys']) != contract['removed_count']
+            or contract['baseline_reverse_count'] + contract['added_count'] - contract['removed_count'] != len(intended)):
+        raise AssertionError('Reverse index contract counts do not reconcile')
+    actual = [occasion_index_key(row) for row in rows]
+    if len(actual) != len(intended) or set(actual) != intended:
+        raise AssertionError(f'Reverse index violates intended source ledger: expected={len(intended)} actual={len(actual)} missing={len(intended-set(actual))} extra={len(set(actual)-intended)}; independently merge any additional approved source-family delta before building')
+
+
+def authenticated_edition_builder_inputs(rows: list[dict], transport_mode: str) -> list[dict]:
+    if transport_mode == 'presentation':
+        return rows
+    candidates = [row for row in rows if source_contracts.is_candidate(row)]
+    if not candidates:
+        return rows
+    raw = source_contracts.rehydrate_output_rows(candidates, transport_mode=transport_mode)
+    projected, _ = build_reverse_presentation(raw, candidate_projection=True)
+    replacements = iter(projected)
+    return [next(replacements) if source_contracts.is_candidate(row) else row for row in rows]
+
+
+def build_reverse_lectionary_index(presentation_rows: list[dict], *, candidate_projection: bool = False, transport_mode: str = 'output') -> tuple[list[dict], list[dict]]:
+    source_contracts.validate_consumer_rows(presentation_rows, candidate_projection=candidate_projection, transport_mode=transport_mode)
+    presentation_rows = authenticated_edition_builder_inputs(presentation_rows, transport_mode)
+    validate_sunday_source_rows(presentation_rows)
+    if not candidate_projection and any(source_contracts.is_candidate(row) for row in presentation_rows):
+        raise ValueError('source contract candidates cannot enter current reverse index')
     grouped: dict[tuple[str, str, str, str, str], list[dict]] = defaultdict(list)
     for row in presentation_rows:
         grouped[occasion_index_key(row)].append(row)
@@ -1362,7 +1557,7 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
     for key, rows in sorted(grouped.items(), key=lambda item: item[0]):
         statuses = ordered_unique(row.get("current_status", "") for row in rows)
         markers = ordered_unique(row.get("removed_marker", "") for row in rows)
-        compatible_status_group = is_pascha_wednesday_compatible_status_group(rows, statuses, markers)
+        compatible_status_group = is_pascha_wednesday_compatible_status_group(rows, statuses, markers) or is_seasonal_compatible_status_group(rows, statuses, markers)
         if not compatible_status_group and (len(set(statuses)) > 1 or len(set(markers)) > 1):
             status_disagreements.append({
                 "occasion": key[0],
@@ -1421,6 +1616,12 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
             "_slot_source_token_order": min(source_token_orders) if source_token_orders else None,
         })
 
+    for output in index_rows:
+        if sunday_contracts.is_sunday(output):
+            p = sunday_contracts.provenance(output)
+            p['consumer_source_envelopes'] = json.loads(output['source_disclosure'])[0]['consumer_source_transport']
+            output['provenance'] = json.dumps(p, ensure_ascii=False, sort_keys=True)
+    sunday_contracts.validate_rows(index_rows, transport_mode='reverse')
     assign_slot_orders(index_rows)
 
     expected_keys = set(grouped)
@@ -1431,11 +1632,13 @@ def build_reverse_lectionary_index(presentation_rows: list[dict]) -> tuple[list[
         raise AssertionError(f"reverse_lectionary_index key mismatch: missing={len(missing)} extra={len(extra)}")
     # Resurrection's duplicate 1Pet attestation collapses, while the authoritative
     # Good Friday Sixth Hour composite contributes three distinct Psalm segments.
-    if len(index_rows) != 11921:
-        raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11921 after authoritative source corrections")
+    # The verified recurring Third-Week Wednesday adds four occasion-level prophecies.
+    if not candidate_projection:
+        verify_reverse_index_contract(index_rows)
     if any(row.get("occasion") == "annual fixed Coptic day" for row in index_rows):
         raise AssertionError("reverse_lectionary_index must resolve annual fixed Coptic day rows to specific Coptic dates")
     assert_atomic_scalar_fields(index_rows)
+    source_contracts.validate_consumer_rows(index_rows, candidate_projection=candidate_projection, transport_mode="reverse")
     return index_rows, status_disagreements
 
 
@@ -1443,6 +1646,15 @@ DAILY_READING_FIELDS = ["occasion", "service_section", "service_hour", "slot", "
 
 
 def is_current_presentation(row: dict) -> bool:
+    explicit = str(row.get('current_status') or '').strip().lower()
+    known_current = {'current_confirmed_coptic_reader', 'current_confirmed_by_fixture_equivalence',
+                     'current_public_or_local_reference', 'current_working_source_not_coptic_reader_checked'}
+    if explicit.startswith('current_') and explicit not in known_current:
+        raise ValueError(f'Unknown explicit reading status: {explicit}')
+    if not consumer_source_is_current(row):
+        return False
+    if source_contracts.is_candidate(row):
+        return False
     if row.get("active") is False or row.get("status") == "removed":
         return False
     if re.search(r"^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b", str(row.get("removed_marker") or "").strip(), re.I):
@@ -1455,7 +1667,18 @@ def is_current_presentation(row: dict) -> bool:
     raise ValueError(f"Unknown explicit reading status: {status}")
 
 
-def build_daily_year_files(presentation_rows: list[dict]) -> dict[int, dict[str, list[dict]]]:
+def build_daily_year_files(presentation_rows: list[dict], *, candidate_projection: bool = False, transport_mode: str = 'output') -> dict[int, dict[str, list[dict]]]:
+    source_contracts.validate_consumer_rows(presentation_rows, candidate_projection=candidate_projection, transport_mode=transport_mode)
+    presentation_rows = authenticated_edition_builder_inputs(presentation_rows, transport_mode)
+    validate_sunday_source_rows(presentation_rows)
+    boundary_orders = {}
+    ordinary_sections = {'Vespers': 0, 'Matins': 1, 'Liturgy': 2}
+    ordinary_slots = {'pauline': 0, 'catholicon': 1, 'praxis': 2, 'psalm': 3, 'gospel': 4}
+    def ordinary_scope(row):
+        return (row.get('source_kind') == 'copticchurch_date'
+                and row.get('source_family') == 'ordinary_date_resolved'
+                and row.get('service_section') in ordinary_sections
+                and not row.get('service_hour'))
     by_year: dict[int, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for row in presentation_rows:
         date_value = row.get("gregorian_date", "")
@@ -1465,17 +1688,78 @@ def build_daily_year_files(presentation_rows: list[dict]) -> dict[int, dict[str,
             date_obj = dt.date.fromisoformat(date_value)
         except ValueError as exc:
             raise AssertionError(f"Invalid gregorian_date in presentation row: {date_value}") from exc
-        if not is_current_presentation(row):
+        if not (candidate_projection or is_current_presentation(row)):
             continue
         daily_row = {field: row.get(field, "") for field in DAILY_READING_FIELDS}
+        if ordinary_scope(row):
+            # Explicit ordinary service/slot labels supply stage identity; Bible
+            # coordinates and fragment order are never used to sort readings.
+            declared_type = slot_type_for(row)
+            if declared_type in ordinary_slots:
+                if daily_row.get('slot_type') not in ('', None, declared_type):
+                    raise AssertionError('Ordinary source slot type disagrees with its explicit label')
+                daily_row['slot_type'] = declared_type
+                if daily_row.get('slot_order') in ('', None):
+                    daily_row['slot_order'] = 1
+        if row.get('source_family') in {'coptic_reader_verified_supplement', 'coptic_reader_verified_calendar_boundary'} and re.fullmatch(r'OT\d+', row.get('slot', '')):
+            daily_row['slot_type'] = 'prophecy'
+            daily_row['slot_order'] = int(row['source_order'])
+        elif (
+            row.get("source_kind") == "pascha_day_hour"
+            and row.get("source_family") == "holy_pascha_curated_day_hour"
+            and re.fullmatch(r"OT\d+", row.get("slot", ""))
+        ):
+            # Calendar overlays already carry direct Pascha order upstream.
+            # Transport it before the npm projection can substitute unknown=99;
+            # the slot label validates this order, never supplies a missing one.
+            source_order = int_or_none(row.get("source_order"))
+            if source_order is None or source_order < 1 or source_order != explicit_slot_order(row):
+                raise AssertionError(f"Invalid Pascha source slot order: {row.get('source_order')!r} for {row.get('slot')}")
+            daily_row["slot_type"] = "prophecy"
+            daily_row["slot_order"] = source_order
         daily_row["source_group_key"] = row.get("source_group_key") or "|".join(str(row.get(field) or "") for field in ("source_kind", "source_row_id", "occasion", "service_hour", "slot"))
+        if row.get("source_family") == "coptic_reader_verified_calendar_boundary":
+            boundary_orders[daily_row["source_group_key"]] = int(row["source_order"])
         daily_row["source_disclosure"] = json.dumps([{
             "source_kind": row.get("source_kind", ""),
             "source_family": row.get("source_family", ""),
             "source_file": row.get("source_file", ""),
             "source_row_id": row.get("source_row_id", ""),
         }], ensure_ascii=False, separators=(",", ":"))
+        if consumer_source_transport(row):
+            daily_row['source_disclosure'] = source_disclosure_json([row])
+        if source_contracts.is_candidate(row):
+            daily_row['slot_type'] = 'prophecy' if row['slot'].startswith('OT') else 'psalm'
+            daily_row['slot_order'] = int(row['source_order'])
+            daily_row['source_disclosure'] = source_disclosure_json([row])
+        if sunday_contracts.is_sunday(daily_row):
+            source_contracts.validate_consumer_rows([dict(daily_row, gregorian_date=date_value)], transport_mode='daily')
         by_year[date_obj.year][date_value].append(daily_row)
+    for days in by_year.values():
+        for date_value, readings in days.items():
+            boundary = [r for r in readings if r.get('source_family') == 'coptic_reader_verified_calendar_boundary']
+            if boundary:
+                if len(boundary) != len(readings):
+                    raise AssertionError('Boundary overlaps upstream daily rows')
+                days[date_value] = sorted(boundary, key=lambda r: boundary_orders[r['source_group_key']])
+                continue
+            prophecies = [row for row in readings if row.get('source_family') == 'coptic_reader_verified_supplement']
+            originals = [row for row in readings if row.get('source_family') != 'coptic_reader_verified_supplement']
+            if originals and all(ordinary_scope(row) and row.get('slot_type') in ordinary_slots for row in originals):
+                originals = sorted(originals, key=lambda row: (
+                    ordinary_sections[row['service_section']], ordinary_slots[row['slot_type']]))
+                # Stable sorting keeps companion fragments in their supplied
+                # order; no merge, dedupe or verse-coordinate sorting occurs.
+            if not prophecies:
+                days[date_value] = originals
+                continue
+            insertion_index = next((i for i, row in enumerate(originals) if row['service_section'] == 'Matins'), len(originals))
+            # Insert only the authenticated supplementary group before Matins;
+            # retain every original row after the ordinary stage-order projection.
+            days[date_value] = originals[:insertion_index] + sorted(prophecies, key=lambda row: row['slot_order']) + originals[insertion_index:]
+    for days in by_year.values():
+        for date_value, readings in days.items():
+            source_contracts.validate_consumer_rows([dict(row, gregorian_date=date_value) for row in readings], candidate_projection=candidate_projection, transport_mode="daily")
     return {year: dict(sorted(days.items())) for year, days in sorted(by_year.items())}
 
 
@@ -1536,6 +1820,11 @@ def build_psalm_crosswalk() -> list[dict]:
 
 
 def row_citation(row: dict) -> str:
+    validate_sunday_source_rows([row])
+    return _row_citation_unchecked(row)
+
+
+def _row_citation_unchecked(row: dict) -> str:
     parts = [
         f"source_key={row.get('source_key', '')}",
         f"source_title={row.get('source_title', '')}",
@@ -1962,7 +2251,10 @@ def build_footprint(presentation_rows: list[dict]) -> list[dict]:
 
 
 
-def build_passage_source_disclosure(presentation_rows: list[dict]) -> list[dict]:
+def build_passage_source_disclosure(presentation_rows: list[dict], *, transport_mode: str = 'output') -> list[dict]:
+    source_contracts.validate_consumer_rows(presentation_rows, transport_mode=transport_mode)
+    presentation_rows = authenticated_edition_builder_inputs(presentation_rows, transport_mode)
+    validate_sunday_source_rows(presentation_rows)
     rows = []
     for row in presentation_rows:
         rows.append({
@@ -1985,6 +2277,7 @@ def build_passage_source_disclosure(presentation_rows: list[dict]) -> list[dict]
             "removed_marker": row.get("removed_marker", ""),
             "citation": row_citation(row),
         })
+    source_contracts.validate_passage_disclosure_output(rows, presentation_rows)
     return rows
 
 
@@ -2003,8 +2296,8 @@ def write_schema() -> dict:
             "occasion": ["annual_fixed_day", "annual_sunday", "great_lent_weekday", "great_lent_sunday", "jonah_fast", "holy_week_hour", "pascha_hour", "bright_saturday", "holy_fifty", "lord_feast", "theotokos_feast", "saint_commemoration", "martyr_commemoration", "patriarch_commemoration", "special_service", "agpeya_hour"],
             "occasion_type": {"alias_for": "occasion", "reason": "Use occasion in emitted rows; occasion_type is retained as the conceptual vocabulary name."},
             "source_authority_tier": ["current_authority", "public_current_practice_reference", "working_local_source", "historical_printed_witness", "scholarly_structural", "synaxarium_text_source", "unclassified"],
-            "source_convention": ["modern_english_reference", "mt_nkjv", "lxx_liturgical_or_fixture_label"],
-            "canonicalization_confidence": ["high", "medium", "low", "n/a"],
+            "source_convention": ["modern_english_reference", "mt_nkjv", "lxx_liturgical_or_fixture_label", "existing_numeric_source_coordinates_alignment_held"],
+            "canonicalization_confidence": ["high", "medium", "low", "n/a", "held"],
             "current_status": ["current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "pending_psalm_equivalence_unresolved", "historical_candidate_removed", "historical_witness", "current_working_source_not_coptic_reader_checked", "current_public_or_local_reference", "unknown"],
             "slot_type": SLOT_TYPE_VOCAB,
             "occasion_kind": ["specific", "cycle"],
@@ -2032,7 +2325,7 @@ def write_schema() -> dict:
         },
         "tables": {
             "reading_identity": ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"],
-            "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
+            "reverse_lectionary_presentation": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "source_label", "source_order", "source_token_order", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
             "reverse_lectionary_index": ["occasion", "calendar_keys", "day_titles", "service_section", "service_hour", "slot", "slot_type", "slot_order", "occasion_kind", "identity_key", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "spans_json", "removed_marker", "hour_theme", "reading_type", "reading_name", "authority_tier", "current_status", "provenance", "source_family", "source_kind", "source_edition", "source_locator", "source_title", "source_disclosure_count", "source_disclosure", "attestation_year_min", "attestation_year_max", "attestation_years", "collapsed_row_count"],
             "daily_lectionary_year": DAILY_READING_FIELDS,
             "todays_readings_current_practice": ["identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance"],
@@ -2778,11 +3071,11 @@ Ottawa taxonomy coverage flag: 11 of the 69 Ottawa dated entries have no emitted
     (AUDIT / "open_questions_for_george.md").write_text(text, encoding="utf-8")
 
 
-def main() -> None:
+def main(data_only: bool = False) -> None:
     schema = write_schema()
     presentation_rows, identities = build_reverse_presentation()
-    reverse_index_rows, reverse_index_status_disagreements = build_reverse_lectionary_index(presentation_rows)
-    daily_year_files = build_daily_year_files(presentation_rows)
+    reverse_index_rows, reverse_index_status_disagreements = build_reverse_lectionary_index(presentation_rows, transport_mode="presentation")
+    daily_year_files = build_daily_year_files(presentation_rows, transport_mode="presentation")
     psalm_rows = build_psalm_crosswalk()
     attestation, temporal = build_attestation(presentation_rows)
     attestation_bucket_manifest = build_attestation_bucket_manifest(attestation, schema)
@@ -2790,12 +3083,12 @@ def main() -> None:
     temporal_residue_manifest = build_temporal_residue_manifest(temporal_residue)
     commems, bridge = build_synaxarium()
     foundational_69 = build_foundational_reading_collections_69()
-    today_rows = build_today_rows(presentation_rows)
+    today_rows = read_csv(OUT / "todays_readings_current_practice.csv") if data_only else build_today_rows(presentation_rows)
     footprint = build_footprint(presentation_rows)
-    passage_source_disclosure = build_passage_source_disclosure(presentation_rows)
+    passage_source_disclosure = build_passage_source_disclosure(presentation_rows, transport_mode="presentation")
 
     presentation_fields = [
-        "identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance",
+        "identity_key", "reading_type", "reading_name", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json", "current_status", "status_note", "removed_marker", "source_key", "source_title", "source_edition", "source_locator", "source_url", "source_kind", "source_family", "source_file", "source_row_id", "source_label", "source_order", "source_token_order", "authority_tier", "occasion", "calendar_key", "gregorian_date", "coptic_date", "day_title", "service_day", "service_hour", "service_section", "reading_slot", "slot", "order", "hour_theme", "source_ref", "raw_ref", "url", "provenance",
     ]
     identity_fields = ["identity_key", "reading_type", "reading_name", "source_label", "display_ref", "canonical_mt_ref", "canonical_lxx_ref", "source_convention", "canonicalization_confidence", "canonicalization_note", "spans_json"]
     write_csv(OUT / "reading_identity.csv", identities.values(), identity_fields)
@@ -2808,8 +3101,12 @@ def main() -> None:
             stale.unlink()
     for year, days in daily_year_files.items():
         write_json(daily_dir / f"lectionary-{year}.json", days)
-    write_csv(OUT / "todays_readings_current_practice.csv", today_rows, presentation_fields)
-    write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
+    if not data_only:
+        # Explicit fixed-date reference snapshot, not the supported dynamic
+        # daily feed. Preserve its historical CSV schema independently.
+        write_csv(OUT / "todays_readings_current_practice.csv", today_rows,
+                  schema["tables"]["todays_readings_current_practice"])
+        write_jsonl(OUT / "todays_readings_current_practice.jsonl", today_rows)
     write_csv(OUT / "psalm_mt_lxx_crosswalk.csv", psalm_rows, ["mt_psalm", "lxx_psalm", "map_direction", "mapping_scope", "confidence", "validation_basis", "note"])
     write_jsonl(OUT / "psalm_mt_lxx_crosswalk.jsonl", psalm_rows)
     write_csv(OUT / "pascha_attestation.csv", attestation, ["day_title", "service_hour", "identity_key", "display_ref", "source_count", "sources", "source_titles", "source_editions", "source_locators", "bucket", "statuses", "removed_marker", "citation", "attestation_note"])
@@ -2838,8 +3135,9 @@ def main() -> None:
     write_csv(OUT / "foundational_reading_collections_69.csv", foundational_69, foundational_fields)
     write_jsonl(OUT / "foundational_reading_collections_69.jsonl", foundational_69)
 
-    write_article()
-    write_spec(schema)
+    if not data_only:
+        write_article()
+        write_spec(schema)
     summary = {
         "reverse_lectionary_presentation_rows": len(presentation_rows),
         "reverse_lectionary_index_rows": len(reverse_index_rows),
@@ -2860,11 +3158,14 @@ def main() -> None:
         "passage_source_disclosure_rows": len(passage_source_disclosure),
         "foundational_reading_collection_rows": len(foundational_69),
     }
-    write_site_integration_spec(summary)
-    update_open_questions(commems, bridge, temporal_residue)
+    if not data_only:
+        write_site_integration_spec(summary)
+        update_open_questions(commems, bridge, temporal_residue)
     (OUT / "BUILD_DESIGN_SUMMARY.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--data-only', action='store_true', help='Preserve historical prose and the date-specific Today snapshot while rebuilding indexes and daily files.')
+    main(data_only=parser.parse_args().data_only)

@@ -1,0 +1,154 @@
+{
+  "generated_at_utc": "2026-10-07T20:38:01.502358+00:00",
+  "decision": "ACCEPT_PRIMARY_DATED_CAPTURE_ORACLES_WITH_OPEN_CALENDAR_DATA_CONFLICTS",
+  "output_root": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/sunday-independent-review",
+  "producer_source_root": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/sunday-applicability-recovery",
+  "implementation_root": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07",
+  "verification_command": "PYTHONDONTWRITEBYTECODE=1 python3 /Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/sunday-independent-review/review.py",
+  "summary": {
+    "accepted_tables": 12,
+    "accepted_documents": 84,
+    "accepted_probe_contexts": 32,
+    "per_context_ledger_entries": 44,
+    "hash_declarations_checked": 733,
+    "manifest_png_paths_inspected": 424,
+    "distinct_png_sha256_inspected": 244,
+    "literal_reference_images_inspected": 108,
+    "corruption_probes_detected": 10,
+    "seed_states": {
+      "whole_table_source_qualified": 9,
+      "primary_context_verified_whole_table_pending": 12,
+      "bounded_policy_replaced_template_retained": 4
+    },
+    "numeric_package_calendar_matches": 32,
+    "actual_calendar_resolution_dates": 32,
+    "implementation_inputs_unchanged": true,
+    "dotnet_runtime": "unavailable; C# branch diagnostic only",
+    "pending_whole_tables": 12
+  },
+  "review_artifact_sha256": {
+    "contact-17.jpg": "413f247a9bebf9085a071d56ba6e17858dbb208e53848a3e951c020bb949048b",
+    "contact-03.jpg": "2264c8a1fa2508aad6dd0d8bbba13493ca4b6e5fb56236b7c6d3ee169d3decee",
+    "summary.json": "450b310ae49226082fe3402294dab0172054fb7d44d2347ba132a2356c98b912",
+    "accepted-oracle.json": "b673677c0493634366a8c3fb454e61dfdb34fc340212cafe77d1b33417cd5f2c",
+    "contact-02.jpg": "4efbf83558fc470a65aa1ce5d0488a324f467e928feaef70e5d0b3b0026a5655",
+    "contact-16.jpg": "fe9ded5b2f1c16b7dbfc4c72e5b26d70be84bfcaab4bc81c6db9595f38af2a1b",
+    "contact-00.jpg": "92cf9379484fafc045b251870df21f3ab81723af6f4d2f8a2505ab682cb48151",
+    "contact-14.jpg": "84e0f6bf7926f107aa2b343685698054b565ad569621e9ff9c53b5f57d59b606",
+    "literal-09.jpg": "702e510fa8503eab1818274456e4b088532196bcce980550e02f036c5f7edd73",
+    "calendar-context-comparison.json": "81652199386f812b06a6df53a059fccb909bb70e94d5c987494a09b2e4267db2",
+    "literal-08.jpg": "eeabe0ebd4f8407bfe7d3e2568f045e1630b8bb9557e7affc71a729774e5e9a0",
+    "contact-15.jpg": "406199ce7581f02335c00a8f90bc496141a0cfe6fc09291c8552fbd0e4e7c10b",
+    "contact-01.jpg": "03f27595146854db3bb3fb7aa9a24131da67be88b924b95824aaf1106bd29999",
+    "contact-05.jpg": "609aa4860696366d48558e43c92cf639805b3c0c07231590126bd5e009bb8143",
+    "contact-11.jpg": "b8e9b3e4cc6c6b0c21ae8dd8f1f2f01e563f8ce421e35aea869c76a1bb8263db",
+    "contact-10.jpg": "7a61a1f74823dba186684c2ada8c7b43639bb2f79503c68cf8eae5227ee4ad9d",
+    "contact-04.jpg": "49abb3a0c2e7f84bc5044f111095b34a992e84668fa6a7fe2d5f16526edebdb2",
+    "contact-12.jpg": "061f3203b684284fce922c85228d99f5a2f38e68d7925e3eb6f9dbf2b516e9d9",
+    "contact-06.jpg": "e0c05b9bd729bbb6f01e3f74f0f32b4b6e748ac4e8806069c825db187143bf1f",
+    "publisher-rules-verification.json": "df14f4c9fb75b9ed8ec593341005b6d628ab2a1b8fd945c7115401bc47af0443",
+    "contact-07.jpg": "a4d0cad7e891bbaaca81fa2dbe49e6533473f90aaca96310568f2c9ffcf92383",
+    "contact-13.jpg": "4365ee63473b8efc73bb5fb91efc67438d49c9c048b0c966d2cb94a77093d168",
+    "calendar-data-mismatches.json": "55feb61efed7121dda0fafb39d3d48189bcc3fc8820a3adb98ddbf8c1180c0d9",
+    "REPORT.md": "5541a30a41dffbab784b6c02dac5873e4afc0ce9ffbaa94b62ff78b79a80b30f",
+    "corruption-probes.json": "3124663df8850384bbff41ad1cb7a5901b77bbf05ba67f39cd041b6c53d0e61e",
+    "document-verdicts.json": "13a3cd640713f82d08e71a8ec5e55f6534f8ee3b0add623afef5d4984d62715c",
+    "finalize_receipt.py": "cf2dc03072e3b7f41a85b48b3763d633a23425a8c02eed70b9d1e172d3e217fd",
+    "review.py": "7ad53bc69ef3237fe46b162bc37ea57002f1f5683e32b1067ec49b0daba3d00c",
+    "seed-verdict-ledger.json": "e5a3369b69f992f130e2d7776aaf2483b76a6adc6a89b8f05189d2754440ef59",
+    "executed-package-calendar.json": "8a8334527129e73fa57814ca7a7579f4e6981635422394dd188e3e1d4bb2723c",
+    "implementation-input-hashes.json": "2741e908dc3e17d2e4cc087d55d9a4432f8beb91d3f58fce733740b007acad02",
+    "hash-checks.json": "2d59755021455f5890499689cbb7f4fb3bcdc082ec03f6e3dbd90e19c4a4d217",
+    "visual-index.json": "def704dba8e9e726270cbfccf7c48bc134ad2706dfb54ff8e8fbc6a8e3b8ccb3",
+    "supported-policy-survey-review.json": "5877719c982769944e83954167ff9f2f2e5c366b3177df1229d30402083457af",
+    "visual-verdicts.json": "1af9c89a9e5d5ee50d002285ddae3ba0c68badfad6a5cb0e0f65190f341e680a",
+    "official-reader-help-fresh.html": "21b77dc3b6ceb40cf1d7e6174f914930b142b3439c4b1625499ccaf31f9cfb11",
+    "per-context-verdict-ledger.json": "7560443800e263c7010fe8c517234797a2a96e96654d0b8238c5d34635aa64d0",
+    "literal-17.jpg": "e9fb777efcdc16be8108932549c16373af9a2f437106f1e70085a522cde99288",
+    "literal-03.jpg": "f9b324648ea672a4eae81917fd008ffa3293885a2b8caa3316f74f39b5b44d7f",
+    "literal-02.jpg": "5cf9ed0a3ff4dd932141b4c29ce0f5fa7336de34306d41679ed1616226c3cfd6",
+    "literal-16.jpg": "f1d2d85d99584d0486b3ba9add7b3861e7ee4672fe8fdc248f3d3b07bb4b65c8",
+    "source-input-hashes.json": "041ded373ac86fce33da4998c71a4722e1e3d037bf820f10d9bfb0dcca03766d",
+    "contact-09.jpg": "e72f1bcb7d67bd5e15a8b6e9b90e8671fc379399d207805470e5be2099f79330",
+    "literal-00.jpg": "5b7e070a044e457fa5912ec36bd83642c6506bb735b2ac8630404bf4e4b8408a",
+    "literal-14.jpg": "9486a1b99457d65641a82488e750b1735e6d2cd050d716a492a63d777683f819",
+    "literal-15.jpg": "18d12d86f2f3ec181c334a1947b11e30375898c8dd313916133ce978805ebe2a",
+    "literal-01.jpg": "4baf82cb282dbe815b4ef423b18f9b265515753b5e3dafdc1411e78f36e5c975",
+    "contact-08.jpg": "5eb0caeb7ee1cb371684931ad62a4ddfd80b7c3f6f65cfb7dc48a1bbc38a4fbb",
+    "contact-20.jpg": "972e203676df9269d193da9f549fb599d1e5924dbf7cf823f43545b91cfcab99",
+    "contact-18.jpg": "ed70254d16dea6a9cef0cd27176761fb0c5e1f43911913e5af86ac129568aa98",
+    "literal-05.jpg": "22e12c87b83f9bdc9ceb5a06037fda82fb27a531bea11e5c4858128da3edd393",
+    "literal-11.jpg": "ffb74b49a1697c490f9337851e246f5f48769c24913fa7eceea970362e0af888",
+    "literal-10.jpg": "034a63f1c26b552a863d50ed18dab0ace6e97659e12cceff54b2ade8d0fc1543",
+    "literal-04.jpg": "bbf1f490bf635661b381fb32d653319ade66711f35c26199d02513549b49a1a8",
+    "contact-19.jpg": "b722c33f483debb6040264d54d32947308d85f014cd8534a03481e995c2f1702",
+    "executed-calendar-resolution.json": "5382b1af426be6bdaa5783f8ca04018af50c7f9444081a3e85082806ada17d9d",
+    "literal-12.jpg": "7897ee111f4a95732e052bef9637a08b6716774effb9ac76ba30586f3c454dc9",
+    "literal-06.jpg": "54ba51d589d479553700b290c42a2a325d1ed222701d96fcd3db22e36a2e11ce",
+    "literal-07.jpg": "8c2c8eed7b835e96253a768f36d5a16ecaf9c2830482ac643df6ac2c39e67c57",
+    "literal-13.jpg": "f726649754ed3265bf3d1674f4348bfff9838511a7c58ed20d8c2b595e1de20d"
+  },
+  "source_manifest": {
+    "path": "source-input-hashes.json",
+    "sha256": "041ded373ac86fce33da4998c71a4722e1e3d037bf820f10d9bfb0dcca03766d",
+    "files": 800
+  },
+  "implementation_manifest": {
+    "path": "implementation-input-hashes.json",
+    "sha256": "2741e908dc3e17d2e4cc087d55d9a4432f8beb91d3f58fce733740b007acad02",
+    "files": 33
+  },
+  "source_table_conflicts": [
+    {
+      "id": "SundayReadings-62",
+      "date": "2028-08-06",
+      "column": "X_Gospel_Ref",
+      "source_ref": "44.14:1-9",
+      "reader_ref": "Acts 24:1-9"
+    },
+    {
+      "id": "SundayReadings-65",
+      "date": "2026-06-07",
+      "column": "X_Gospel_Ref",
+      "source_ref": "44.14:1-9",
+      "reader_ref": "Acts 24:1-9"
+    },
+    {
+      "id": "SundayReadings-56",
+      "date": "2021-10-10",
+      "column": "X_Gospel_Ref",
+      "source_ref": "44.18:9-12",
+      "reader_ref": "Acts 18:9-21"
+    },
+    {
+      "id": "SundayReadings-66",
+      "date": "2024-07-07",
+      "column": "X_Gospel_Ref",
+      "source_ref": "44.14:1-9",
+      "reader_ref": "Acts 24:1-9"
+    }
+  ],
+  "daily_output_conflicts": {
+    "supported_design": {
+      "compared_tables": 12,
+      "nonPsalm_reference_mismatches": 24,
+      "slot_order_mismatches": 12
+    },
+    "shipped_package": {
+      "compared_tables": 9,
+      "nonPsalm_reference_mismatches": 24,
+      "slot_order_mismatches": 5
+    }
+  },
+  "unresolved": [
+    "12 context-qualified seeds still need whole capture",
+    "4 bounded-policy replacement templates retained, not generic capture completeness",
+    "Psalm canonical MT/LXX verse-equivalence not certified",
+    "C# API runtime not exercised: .NET absent",
+    "confirmed calendar/data/order mismatches not repaired"
+  ],
+  "self_exclusions": [
+    "final-receipt.json",
+    "final-receipt.sha256"
+  ]
+}

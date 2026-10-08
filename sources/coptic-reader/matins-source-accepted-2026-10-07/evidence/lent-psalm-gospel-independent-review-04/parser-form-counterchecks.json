@@ -1,0 +1,12 @@
+{
+  "positive_literal_forms": [
+    "\tPsalms 29 :10-11",
+    "\tPsalms 99: 1-2",
+    "\tPsalms 54:1, 26:11",
+    "\tPsalms 119",
+    "\tMatthew 15:39-16:12"
+  ],
+  "all_preserved": true,
+  "chapter_only_in_actual_PG": [],
+  "chapter_only_note": "none observed in these 60 source documents; synthetic parser support is not source evidence"
+}

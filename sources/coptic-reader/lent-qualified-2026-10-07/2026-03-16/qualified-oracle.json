@@ -1,0 +1,63 @@
+{
+  "civil_date": "2026-03-16",
+  "context": "Selected Season 5th Week of Great Fast Paremhotep 7, 1742 Monday, March 16, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:26:21.295Z",
+  "raw_reference_lines": [
+    "\tProverbs 3:5-18",
+    "\tIsaiah 37:33-38:6",
+    "\tJob 22:1-30"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/Prophecies.txt",
+  "text_sha256": "21152192d74d99cad55df041e8f711eff3cc95b1d2a1e328ddff083ce0f160af",
+  "screenshot_sha256": "e0c3e4c7be639333d08e8e5c3dacfd28f98ea89fe6bc81eba45888abd4dff1cc",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/context.txt",
+      "sha256": "cb6f8ae14774853f7c2c2d565b1ec4ccf50b4fd75392d05bc3df8bf3528abd5c"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/context.png",
+      "sha256": "96a521275d9749b583edec25c540306476011761fa0c764c5e5c1f628dc6cb4e"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/picker.json",
+      "sha256": "5cd7e3e7f89978dbd59c4111851dec575338995ed3d714309202ca656e70c93b"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/picker.png",
+      "sha256": "8194c248a986adf0354bab0b9163db665d4b5b0870d10272e7806870ce9af66b"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tProverbs 3:5-18",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/reference-01.png",
+      "sha256": "e0c3e4c7be639333d08e8e5c3dacfd28f98ea89fe6bc81eba45888abd4dff1cc"
+    },
+    {
+      "raw_ref": "\tIsaiah 37:33-38:6",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/reference-02.png",
+      "sha256": "51de39a7add3a63f08c8a36e60ce6c4600e1016dcb3e3d4e555e2eac469d96fe"
+    },
+    {
+      "raw_ref": "\tJob 22:1-30",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-16/reference-03.png",
+      "sha256": "1beb64d8d763f8116c07c5ebb1ab96fd68c6973f2a9f8805375857e86650603f"
+    }
+  ],
+  "source_gate": {
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

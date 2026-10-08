@@ -1,0 +1,20 @@
+.....F
+======================================================================
+FAIL: test_source_boundary_and_current_date_helper_order (test_lent_matins_prophecies.LentMatinsProphecies.test_source_boundary_and_current_date_helper_order)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 51, in test_source_boundary_and_current_date_helper_order
+    self.assertEqual([row['raw_ref'] for row in matins[:4]], PRINTED)
+AssertionError: Lists differ: ['Psalm 26:4', 'Luke 13:18-22', 'Exodus 4:19-6:13', 'Joel 2:21-27'] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+First differing element 0:
+'Psalm 26:4'
+'Exodus 4:19-6:13'
+
+- ['Psalm 26:4', 'Luke 13:18-22', 'Exodus 4:19-6:13', 'Joel 2:21-27']
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.392s
+
+FAILED (failures=1)

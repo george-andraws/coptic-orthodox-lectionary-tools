@@ -1,0 +1,1447 @@
+{
+  "id": "AnnualReadings-129",
+  "acceptedDate": "2024-01-18",
+  "coptic": [
+    5,
+    9,
+    1740
+  ],
+  "weekday": "Thursday",
+  "occasion": "Standard",
+  "printedReferences": [
+    "Psalms 111:1",
+    "Matthew 25:14-23",
+    "Psalms 131:1,7",
+    "Luke 6:17-23",
+    "Hebrews 11:17-31",
+    "James 1:12-21",
+    "Acts 19:11-20",
+    "Psalms 1:1,2",
+    "Matthew 4:23-5:16"
+  ],
+  "documents": [
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Vespers",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Vespers.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Vespers.png",
+      "textSha256": "8eff1b6f28ea19dfd1a6c7d9582c0952a45f132bc2b724cbc400eef94d1ef16b",
+      "screenshotSha256": "6f908b971ef887618463057a93fe064d81841c52b743888cc6acadb78a741a7d",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:19.233Z",
+      "printedReferences": [
+        "Psalms 111:1",
+        "Matthew 25:14-23"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Psalms 111:1",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Vespers-reference-0.png",
+          "sha256": "6f908b971ef887618463057a93fe064d81841c52b743888cc6acadb78a741a7d"
+        },
+        {
+          "printedReference": "Matthew 25:14-23",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Vespers-reference-1.png",
+          "sha256": "093b021d093bc8af12b50f033b3a0234145d4ab3a624166837c49473bd9d109c"
+        }
+      ],
+      "originalTableId": "AnnualReadings-57",
+      "originalDate": "2026-11-06",
+      "originalHomeContext": "Selected Season Standard Paope 27, 1743 Friday, November 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius Bishop of Edkow",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    },
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Matins-Prophecies",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-37/6de4d337-2dbb-4156-b995-7bb70cb783e0/Matins-Prophecies.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-37/6de4d337-2dbb-4156-b995-7bb70cb783e0/Matins-Prophecies.png",
+      "textSha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "screenshotSha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:22.340Z",
+      "printedReferences": [],
+      "referenceScreenshots": [],
+      "originalTableId": "AnnualReadings-37",
+      "originalDate": "2026-10-17",
+      "originalHomeContext": "Selected Season Standard Paope 7, 1743 Saturday, October 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Pishoy and St. Paul of Tammah",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    },
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Matins-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Matins-Psalm_and_Gospel.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Matins-Psalm_and_Gospel.png",
+      "textSha256": "3e632348867c27914a20f5e0192de61a0b20139aabffff8be60efdf7384e44a9",
+      "screenshotSha256": "1cd8f6ab439a8d9aa09a915a014a0eabaf61002f4da7d8e69c03f37b5f28fabd",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:25.216Z",
+      "printedReferences": [
+        "Psalms 131:1,7",
+        "Luke 6:17-23"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Psalms 131:1,7",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Matins-Psalm_and_Gospel-reference-0.png",
+          "sha256": "1cd8f6ab439a8d9aa09a915a014a0eabaf61002f4da7d8e69c03f37b5f28fabd"
+        },
+        {
+          "printedReference": "Luke 6:17-23",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Matins-Psalm_and_Gospel-reference-1.png",
+          "sha256": "6c20e40923de1609910ceb8654558c43868a56166e1ca7dd6baedeceacb406fb"
+        }
+      ],
+      "originalTableId": "AnnualReadings-57",
+      "originalDate": "2026-11-06",
+      "originalHomeContext": "Selected Season Standard Paope 27, 1743 Friday, November 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius Bishop of Edkow",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    },
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Liturgy-Pauline Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Pauline_Epistle.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Pauline_Epistle.png",
+      "textSha256": "d94781c655f4206f25935a4a108e7da1bcd457b60331543edef260cb02720a04",
+      "screenshotSha256": "82f493de7970f119d44cea54a91b6906bb529b3581d62d8f572eabba0b1ed294",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:29.581Z",
+      "printedReferences": [
+        "Hebrews 11:17-31"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Hebrews 11:17-31",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Pauline_Epistle-reference-0.png",
+          "sha256": "8d06deb33a16907b7ddf68e2bd9a727c713cb24732b3348b0be32ff347e34a16"
+        }
+      ],
+      "originalTableId": "AnnualReadings-57",
+      "originalDate": "2026-11-06",
+      "originalHomeContext": "Selected Season Standard Paope 27, 1743 Friday, November 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius Bishop of Edkow",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    },
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Liturgy-Catholic Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Catholic_Epistle.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Catholic_Epistle.png",
+      "textSha256": "1d0e307f21d4762f2d79237442059039dff4441d563cf88764fd793a2e254998",
+      "screenshotSha256": "3aea225cef3b2ad79fd4eab87ce9a194b0cfee37aa08395e7d4ab2178e6231c2",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:32.248Z",
+      "printedReferences": [
+        "James 1:12-21"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "James 1:12-21",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Catholic_Epistle-reference-0.png",
+          "sha256": "3aea225cef3b2ad79fd4eab87ce9a194b0cfee37aa08395e7d4ab2178e6231c2"
+        }
+      ],
+      "originalTableId": "AnnualReadings-57",
+      "originalDate": "2026-11-06",
+      "originalHomeContext": "Selected Season Standard Paope 27, 1743 Friday, November 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius Bishop of Edkow",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    },
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Liturgy-Praxis",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Praxis.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Praxis.png",
+      "textSha256": "e3a7d01f8b3e6861c146f056086cf83d0cdb3a9ab647c9847f51185c20ca428c",
+      "screenshotSha256": "13e11fca7d4ff8a91e4e6c78b9a77b76ac4acec451471404bf52486f8b0a520a",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:34.873Z",
+      "printedReferences": [
+        "Acts 19:11-20"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Acts 19:11-20",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Praxis-reference-0.png",
+          "sha256": "13e11fca7d4ff8a91e4e6c78b9a77b76ac4acec451471404bf52486f8b0a520a"
+        }
+      ],
+      "originalTableId": "AnnualReadings-57",
+      "originalDate": "2026-11-06",
+      "originalHomeContext": "Selected Season Standard Paope 27, 1743 Friday, November 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius Bishop of Edkow",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    },
+    {
+      "context": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "label": "Liturgy-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Psalm_and_Gospel.txt",
+      "screenshotPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Psalm_and_Gospel.png",
+      "textSha256": "8b1170660617bc5f5be156e7c8159f955597544e19a6a069c70b53d49ca55f30",
+      "screenshotSha256": "5b4488cceac37956d77a91b67e3d2f16ce4d6c101bf9e41bb9df21ce3045702d",
+      "buttons": [],
+      "capturedAt": "2026-10-07T22:15:37.306Z",
+      "printedReferences": [
+        "Psalms 1:1,2",
+        "Matthew 4:23-5:16"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Psalms 1:1,2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Psalm_and_Gospel-reference-0.png",
+          "sha256": "5b4488cceac37956d77a91b67e3d2f16ce4d6c101bf9e41bb9df21ce3045702d"
+        },
+        {
+          "printedReference": "Matthew 4:23-5:16",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Psalm_and_Gospel-reference-1.png",
+          "sha256": "eb65f325f3d92dcad6ab09f101eb0a45809dfce7e34b7ed284ef231ffe136f2d"
+        }
+      ],
+      "originalTableId": "AnnualReadings-57",
+      "originalDate": "2026-11-06",
+      "originalHomeContext": "Selected Season Standard Paope 27, 1743 Friday, November 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Macarius Bishop of Edkow",
+      "originManifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/tables.jsonl",
+      "sourceProbe": true,
+      "reusedImmutableEvidence": true
+    }
+  ],
+  "readings": [
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 0,
+      "headingOrder": 0,
+      "sourceAppointmentOrdinal": 0,
+      "serviceDocument": "Vespers",
+      "printedReference": "Psalms 111:1",
+      "literalHeadingLine": "\tPsalms 111:1",
+      "headingLine": 7,
+      "byteStart": 851,
+      "byteEnd": 2675,
+      "blockLiteral": "\tPsalms 111:1\n(مزامير 111: 1)\nBlessed is the man who fears the Lord, Who delights greatly in His commandments. His descendants will be mighty on earth; The generation of the upright will be blessed.\nⲰⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲙⲁⲓⲣⲱⲙⲓ ⲉⲧⲉⲣϩⲟϯ ϧⲁⲧϩⲏ ⲙ̀Ⲡⲟ︦ⲥ︦: ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲉϥⲉⲛⲧⲟⲗⲏ ⲉϥⲉ̀ⲟⲩⲱϣⲥ ⲉ̀ⲙⲁϣⲱ: ⲉϥⲉ̀ϫⲉⲙϫⲟⲙ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀ϫⲉ ⲡⲉϥϫ̀ⲣⲟϫ: ⲉⲩⲉ̀ⲥ̀ⲙⲟⲩ ⲉ̀ϯⲅⲉⲛⲉⲁ̀ ⲛ̀ⲧⲉ ⲛⲏⲉⲧⲥⲟⲩⲧⲱⲛ. ⲁ︦ⲗ︦.\nطُوبَى لِلرَّجُلِ الْخَائِفِ مِنَ الرَّبِّ. وَيَهْوَى وَصَايَاه جِدًّا. يَقْوَى نَسْلُهُ عَلَى الأَرْضِ، وَيُبَارَكُ جِيلُ الْمُسْتَقِيمِينَ. هَلِّلُويَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nVespers Gospel\nالإنجيل\n",
+      "blockSha256": "9a8d19a8bc5a81f68d15f9b437e4be5ae584b75eec49c5e33a55b58bbe9a74d2",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Vespers.txt",
+      "documentSha256": "8eff1b6f28ea19dfd1a6c7d9582c0952a45f132bc2b724cbc400eef94d1ef16b",
+      "verseLines": [],
+      "isPsalm": true,
+      "boundaryCheck": {
+        "pass": true,
+        "scope": "printed Psalm reference/body preserved; canonical MT/LXX coordinate adjudication held"
+      },
+      "canonicalPsalmStatus": "PENDING_EDITION_TEXT_QUALIFICATION"
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 0,
+      "headingOrder": 1,
+      "sourceAppointmentOrdinal": 1,
+      "serviceDocument": "Vespers",
+      "printedReference": "Matthew 25:14-23",
+      "literalHeadingLine": "\tMatthew 25:14-23",
+      "headingLine": 34,
+      "byteStart": 2675,
+      "byteEnd": 8790,
+      "blockLiteral": "\tMatthew 25:14-23\n(متى 25: 14-23)\n14 “There was a man traveling to a far country, who called his own servants and delivered his goods to them.\nⲘ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲛ̀ⲟⲩⲣⲱⲙⲓ ⲉϥⲛⲁϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲉⲙⲙⲟ ⲁϥⲙⲟⲩϯ ⲉ̀ⲛⲉϥⲉ̀ⲃⲓⲁⲓⲕ ⲟⲩⲟϩ ⲁϥϯ ⲙ̀ⲡⲉⲧⲉⲛⲧⲁϥ ⲉ̀ⲧⲟⲧⲟⲩ.\n14 وَكَأَنَّمَا إنْسَانٌ مُسَافِرٌ دَعَا عَبِيدَهُ وَسَلَّمَهُمْ أَمْوَالَهُ،\n15 And to one he gave five talents, to another two, and to another one, to each according to his own ability; and immediately he went on a journey.\nⲞⲩⲁⲓ ⲙⲉⲛ ⲁϥϯ ⲛⲁϥ ⲛ̀ⲉ︦ ⲛ̀ϫⲓⲛϭⲱⲣ ⲕⲉⲟⲩⲁⲓ ⲇⲉ ⲁϥϯ ⲛⲁϥ ⲛ̀ ⲃ︦ ⲕⲉⲟⲩⲁⲓ ⲇⲉ ⲁϥϯ ⲛⲁϥ ⲛ̀ⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲧⲉϥϫⲟⲙ ⲟⲩⲟϩ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲉⲙⲙⲟ.\n15 فَأَعْطَى وَاحِدًا خَمْسَ وَزَنَاتٍ، وَآخَرَ وَزْنَتَيْنِ، وَآخَرَ وَزْنَةً. كُلَّ وَاحِدٍ عَلَى قَدْرِ طَاقَتِهِ. وَسَافَرَ.\n16 Then he who had received the five talents went and traded with them, and made another five talents.\nⲀϥϣⲉⲛⲁϥ ⲇⲉ ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧϭⲓ ⲙ̀ⲡⲓⲉ︦ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁϥⲉⲣϩⲱⲃ ⲛ̀ϧⲏⲧⲟⲩ ⲟⲩⲟϩ ⲁϥϫ̀ⲫⲉ ⲕⲉ ⲉ︦.\n16 فَمَضَى الَّذِي أَخَذَ الْخَمْسَ وَزَنَاتٍ وَتَاجَرَ بِهَا، فَرَبِحَ خَمْسًا أُخَرَ.\n17 And likewise he who had received two gained two more also.\nⲠⲁⲓⲣⲏϯ ⲟⲛ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓ ⲃ︦ ⲁϥϫ̀ⲫⲉ ⲕⲉ ⲃ︦.\n17 وَهكَذَا أَيْضًا الَّذِي أَخَذَ الاثْنَتَيْنِ، رَبِحَ اثْنَتَيْنِ أُخْرَيَيْنِ.\n18 But he who had received one went and dug in the ground, and hid his lord’s money.\nⲪⲏ ⲇⲉ ⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓⲟⲩⲁⲓ ⲁϥϣⲉⲛⲁϥ ⲁϥϣⲱⲕⲓ ⲛ̀ⲟⲩⲕⲁϩⲓ ⲟⲩⲟϩ ⲁϥⲭⲱⲡ ⲙ̀ⲡⲓϩⲁⲧ ⲛ̀ⲧⲉ ⲡⲉϥⲟ︦ⲥ︦.\n18 وَأمَّا الَّذِي أَخَذَ الْوَاحِدةَ فَمَضَى وَحَفَرَ في الأَرْضِ وَأَخْفَى فِضَّةَ سَيِّدِهِ.\n19 After a long time the lord of those servants came and settled accounts with them.\nⲘⲉⲛⲉⲛⲥⲁ ⲟⲩⲛⲓϣϯ ⲇⲉ ⲛ̀ⲥⲏⲟⲩ ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲡⲟ︦ⲥ︦ ⲛ̀ⲛⲓⲉ̀ⲃⲓⲁⲓⲕ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ⲁϥϥⲓⲱⲡ ⲛⲉⲙⲱⲟⲩ.\n19 وَبَعْدَ زَمَانٍ طَوِيلٍ جَاءَ سَيِّدُ أُولئِكَ الْعَبِيدِ وَحَاسَبَهُمْ.\n20 “So he who had received five talents came and brought five other talents, saying, ‘Lord, you delivered to me five talents; look, I have gained five more talents besides them.’\nⲀϥⲓ̀ ⲇⲉ ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓ ⲉ︦ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁϥⲉⲛ ⲕⲉ ⲉ︦ ⲛ̀ϫⲓⲛϭⲱⲣ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲡⲁⲟ︦ⲥ︦ ⲉ︦ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁⲕⲧⲏⲓⲧⲟⲩ ⲛⲏⲓ ⲓⲥ ⲕⲉ ⲉ︦ ⲛ̀ϫⲓⲛϭⲱⲣ ⲁⲓϫ̀ⲫⲱⲟⲩ.\n20 فَجَاءَ الَّذِي أَخَذَ الْخَمْسَ وَزَنَاتٍ وَقَدَّمَ خَمْسَ وَزَنَاتٍ أُخَرَ قَائِلًا: يا سَيِّدِي، خَمْسَ وَزَنَاتٍ أَعْطيتَنِي. هُوَذَا خَمْسُ وَزَنَاتٍ أُخَرُ رَبِحْتُهَا.\n21 His lord said to him, ‘Well done, good and faithful servant; you were faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’\nⲠⲉϫⲉ ⲡⲉϥⲟ︦ⲥ︦ ⲇⲉ ⲛⲁϥ ϫⲉ ⲕⲁⲗⲱⲥ ⲡⲓⲃⲱⲕ ⲉⲑⲛⲁⲛⲉϥ ⲟⲩⲟϩ ⲉⲧⲉⲛϩⲟⲧ ⲉ̀ⲡⲓⲇⲏ ⲁⲕϣⲱⲡⲓ ⲉⲕⲉⲛϩⲟⲧ ϧⲉⲛ ϩⲁⲛⲕⲟⲩϫⲓ ⲉⲓⲉ̀ⲭⲁⲕ ϩⲓϫⲉⲛ ϩⲁⲛⲛⲓϣϯ ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲫ̀ⲣⲁϣⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲟ︦ⲥ︦.\n21 فَقَالَ لَهُ سَيِّدُهُ: حَسنًا أيُّهَا الْعَبْدُ الصَّالِحُ وَالأمِينُ، كُنْتَ أمِينًا في الْقَلِيلِ فَأُقِيمُكَ عَلَى الْكَثِيرِ. اُدْخُلْ إِلَى فَرَحِ سَيِّدِكَ.\n22 He also who had received two talents came and said, ‘Lord, you delivered to me two talents; look, I have gained two more talents besides them.’\nⲀϥⲓ̀ ⲇⲉ ⲛ̀ϫⲉ ⲫⲏⲉ̀ⲧⲁϥϭⲓ ⲙ̀ⲡⲓϫⲓⲛϭⲱⲣ ⲃ︦ ⲡⲉϫⲁϥ ϫⲉ ⲡⲁⲟ︦ⲥ︦ ϫⲓⲛϭⲱⲣ ⲃ︦ ⲡⲉⲧⲁⲕⲧⲏⲓⲧⲟⲩ ⲛⲏⲓ ⲓⲥ ⲕⲉ ⲃ︦ ⲁⲓϫ̀ⲫⲱⲟⲩ.\n22 ثُمَّ جَاءَ الَّذِي أَخَذَ الْوَزْنَتَيْنِ وَقَالَ: يا سَيِّدِي، وَزْنَتَيْنِ سَلَّمْتَنِي. هُوَذا وَزْنَتَانِ أُخْرَيَانِ رَبِحْتُهُمَا.\n23 His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’\nⲠⲉϫⲉ ⲡⲉϥⲟ︦ⲥ︦ ⲇⲉ ⲛⲁϥ ϫⲉ ⲕⲁⲗⲱⲥ ⲡⲓⲃⲱⲕ ⲉⲑⲛⲁⲛⲉϥ ⲟⲩⲟϩ ⲉⲧⲉⲛϩⲟⲧ ⲉ̀ⲡⲓⲇⲏ ⲁⲕϣⲱⲡⲓ ⲉⲕⲉⲛϩⲟⲧ ϧⲉⲛ ϩⲁⲛⲕⲟⲩϫⲓ ⲉⲓⲉ̀ⲭⲁⲕ ϩⲓϫⲉⲛ ϩⲁⲛⲛⲓϣϯ ⲙⲁϣⲉⲛⲁⲕ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲫ̀ⲣⲁϣⲓ ⲛ̀ⲧⲉ ⲡⲉⲕⲟ︦ⲥ︦.\n23 قَالَ لَهُ سَيِّدُهُ: نِعِمَّا أيُّهَا الْعَبْدُ الصَّالِحُ وَالأَمِينُ، كُنْتَ أَمِينًا في الْقَلِيلِ فَأُقِيمُكَ عَلَى الْكَثِيرِ. اُدْخُلْ إِلَى فَرَحِ سَيِّدِكَ.",
+      "blockSha256": "6009a891911a8be711d6c6cd91de29c32c58db4db0dcffb7e9780192baf523ab",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Vespers.txt",
+      "documentSha256": "8eff1b6f28ea19dfd1a6c7d9582c0952a45f132bc2b724cbc400eef94d1ef16b",
+      "verseLines": [
+        {
+          "line": 36,
+          "number": 14,
+          "literal": "14 “There was a man traveling to a far country, who called his own servants and delivered his goods to them."
+        },
+        {
+          "line": 39,
+          "number": 15,
+          "literal": "15 And to one he gave five talents, to another two, and to another one, to each according to his own ability; and immediately he went on a journey."
+        },
+        {
+          "line": 42,
+          "number": 16,
+          "literal": "16 Then he who had received the five talents went and traded with them, and made another five talents."
+        },
+        {
+          "line": 45,
+          "number": 17,
+          "literal": "17 And likewise he who had received two gained two more also."
+        },
+        {
+          "line": 48,
+          "number": 18,
+          "literal": "18 But he who had received one went and dug in the ground, and hid his lord’s money."
+        },
+        {
+          "line": 51,
+          "number": 19,
+          "literal": "19 After a long time the lord of those servants came and settled accounts with them."
+        },
+        {
+          "line": 54,
+          "number": 20,
+          "literal": "20 “So he who had received five talents came and brought five other talents, saying, ‘Lord, you delivered to me five talents; look, I have gained five more talents besides them.’"
+        },
+        {
+          "line": 57,
+          "number": 21,
+          "literal": "21 His lord said to him, ‘Well done, good and faithful servant; you were faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’"
+        },
+        {
+          "line": 60,
+          "number": 22,
+          "literal": "22 He also who had received two talents came and said, ‘Lord, you delivered to me two talents; look, I have gained two more talents besides them.’"
+        },
+        {
+          "line": 63,
+          "number": 23,
+          "literal": "23 His lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your lord.’"
+        }
+      ],
+      "isPsalm": false,
+      "boundaryCheck": {
+        "pass": true,
+        "observedVerseRun": [
+          [
+            25,
+            14
+          ],
+          [
+            25,
+            15
+          ],
+          [
+            25,
+            16
+          ],
+          [
+            25,
+            17
+          ],
+          [
+            25,
+            18
+          ],
+          [
+            25,
+            19
+          ],
+          [
+            25,
+            20
+          ],
+          [
+            25,
+            21
+          ],
+          [
+            25,
+            22
+          ],
+          [
+            25,
+            23
+          ]
+        ],
+        "first": [
+          25,
+          14
+        ],
+        "last": [
+          25,
+          23
+        ],
+        "scope": "source English numbered body and printed boundaries; no external edition equivalence"
+      },
+      "canonicalPsalmStatus": null
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 2,
+      "headingOrder": 0,
+      "sourceAppointmentOrdinal": 2,
+      "serviceDocument": "Matins-Psalm and Gospel",
+      "printedReference": "Psalms 131:1,7",
+      "literalHeadingLine": "\tPsalms 131:1,7",
+      "headingLine": 7,
+      "byteStart": 849,
+      "byteEnd": 2849,
+      "blockLiteral": "\tPsalms 131:1,7\n(مزامير 131: 1,7)\nLord, remember David And all his afflictions; How he swore to the Lord, And vowed to the Mighty One of Jacob: Let Your priests be clothed with righteousness, And let Your saints shout for joy. For Your servant David's sake.\nⲀⲣⲓⲫ̀ⲙⲉⲩⲓ̀ Ⲡⲟ︦ⲥ︦ ⲛ̀Ⲇⲁⲩⲓⲇ ⲛⲉⲙ ⲧⲉϥⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ ⲧⲏⲣⲥ: ⲙ̀ⲫ̀ⲣⲏϯ ⲧⲁϥⲱⲣⲕ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁϥⲧⲱⲃϩ ⲙ̀Ⲫϯ ⲛ̀Ⲓⲁⲕⲱⲃ: ⲛⲉⲕⲟⲩⲏⲃ ⲉⲩⲉ̀ϯϩⲓⲱ̀ⲧⲩ ⲛ̀ⲟⲩⲙⲉⲑⲙⲏⲓ: ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛ̀ⲧⲁⲕ ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲉⲑⲃⲉ Ⲇⲁⲩⲓⲇ ⲡⲉⲕⲃⲱⲕ. ⲁ︦ⲗ︦.\nاُذْكُرْ يَا رَبُّ دَاودَ وَكُلَّ دَعَتِهِ. كَمَا أَقْسَمَ لِلرَّبِّ وَنَذَرَ لإلَهِ يَعْقُوبَ. كَهَنَتُكَ يَلْبَسُونَ الْبِرَّ، وقِدِّيسُوكَ يَبْتَهِجُونَ مِنْ أَجْلِ دَاودَ عَبْدِكَ. هَلِّلُويَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل\n",
+      "blockSha256": "a572b29df613f07f1f04ff6e015a02d249bddace1e172976adf58ee686d26242",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Matins-Psalm_and_Gospel.txt",
+      "documentSha256": "3e632348867c27914a20f5e0192de61a0b20139aabffff8be60efdf7384e44a9",
+      "verseLines": [],
+      "isPsalm": true,
+      "boundaryCheck": {
+        "pass": true,
+        "scope": "printed Psalm reference/body preserved; canonical MT/LXX coordinate adjudication held"
+      },
+      "canonicalPsalmStatus": "PENDING_EDITION_TEXT_QUALIFICATION"
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 2,
+      "headingOrder": 1,
+      "sourceAppointmentOrdinal": 3,
+      "serviceDocument": "Matins-Psalm and Gospel",
+      "printedReference": "Luke 6:17-23",
+      "literalHeadingLine": "\tLuke 6:17-23",
+      "headingLine": 34,
+      "byteStart": 2849,
+      "byteEnd": 8091,
+      "blockLiteral": "\tLuke 6:17-23\n(لوقا 6: 17-23)\n17 And He came down with them and stood on a level place with a crowd of His disciples and a great multitude of people from all Judea and Jerusalem, and from the seacoast of Tyre and Sidon, who came to hear Him and be healed of their diseases,\nⲞⲩⲟϩ ⲉⲧⲁϥⲓ̀ ⲉ̀ϧ̀ⲣⲏⲓ ⲛⲉⲙⲱⲟⲩ ϥⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧϥ ϧⲉⲛ ⲟⲩⲙⲁⲛ̀ⲕⲟⲓ ⲛⲉⲙ ⲟⲩⲙⲏϣ ⲛ̀ⲧⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲛⲉⲙ ⲕⲉⲙⲏϣ ⲉϥⲟϣ ⲛ̀ⲧⲉ ⲡⲓⲗⲁⲟⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲓⲟⲩⲇⲉⲁ̀ ⲧⲏⲣⲥ ⲛⲉⲙ ⲓⲗ︦ⲏ︦ⲙ︦ ⲛⲉⲙ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϯⲡⲁⲣⲁⲗⲓⲁ̀ ⲛ̀ⲧⲉ ⲧⲩⲣⲟⲥ ⲛⲉⲙ ⲧ̀ⲥⲓⲇⲱⲛ ⲛⲏⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟϥ ⲟⲩⲟϩ ⲛ̀ⲧⲉϥⲧⲁⲗϭⲱⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲟⲩϣⲱⲛⲓ.\n17 وَنَزَلَ مَعَهُمْ وَوَقَفَ في مَوْضِعٍ خَلَاءٍ، مَعَ جَمْعٍ مِنْ تَلَامِيذِهِ، وَجُمْهورٍ كَثِيرٍ مِنَ الشَّعْبِ، مِنْ جَمِيعِ الْيَهُودِيَّةِ وَأُورُشَلِيمَ وَمِنْ سَاحِلِ صُورَ وَصَيْدَا، الَّذِينَ جَاءُوا لِيَسْمَعُوا مِنهُ وَيَشفِيَهِمْ مِنْ أَمْرَاضِهِمْ،\n18 as well as those who were tormented with unclean spirits. And they were healed.\nⲞⲩⲟϩ ⲛⲏⲉ̀ⲧⲁⲩⲧ̀ϩⲉⲙⲕⲟ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲡ︦ⲛ︦ⲁ︦ ⲛ̀ⲁ̀ⲕⲁⲑⲁⲣⲧⲟⲛ ⲛⲁϥⲉⲣⲫⲁϧⲣⲓ ⲉ̀ⲣⲱⲟⲩ.\n18 وَالْمُعَذَّبُونَ مِنَ الأَرْوَاحِ النَّجِسَةِ كَانَ يَشْفِيهِمْ.\n19 And the whole multitude sought to touch Him, for power went out from Him and healed them all.\nⲞⲩⲟϩ ⲛⲁⲣⲉ ⲡⲓⲙⲏϣ ⲧⲏⲣϥ ⲕⲱϯ ⲛ̀ⲥⲁ ϭⲓ ⲛⲉⲙⲁϥ ϫⲉ ⲟⲩⲏⲓ ⲁⲥ̀ⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲟϥ ⲛ̀ϫⲉ ⲟⲩϫⲟⲙ ⲟⲩⲟϩ ⲛⲁϥⲧⲁⲗϭⲟ ⲙ̀ⲙⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲡⲉ.\n19 وَكَانَ كُلُّ الْجَمْعِ يَطْلُبُ أَنْ يَلْمِسَهُ؛ لِأَنَّ قُوَّةً كَانَتْ تَخْرُجُ مِنْهُ وَتَشْفِي الْجَمِيعَ.\n20 Then He lifted up His eyes toward His disciples, and said: “Blessed are you poor, For yours is the kingdom of God.\nⲞⲩⲟϩ ⲛ̀ⲑⲟϥ ⲉⲧⲁϥϥⲁⲓ ⲛ̀ⲛⲉϥⲃⲁⲗ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲛⲁϥϫⲱ ⲙ̀ⲙⲟⲥ ⲱⲟⲩⲛ̀ⲓⲁⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲛⲓϩⲏⲕⲓ ϫⲉ ⲑⲱⲧⲉⲛ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲫϯ.\n20 وَرَفَعَ عَيْنَيْهِ إِلَى تَلَامِيذِهِ وَقَالَ لَهُمْ: \" طُوبَاكُمْ أيُّهَا الْمَسَاكِينُ بِالرُّوحِ؛ لِأَنَّ لَكُمْ مَلَكُوتَ اللَّهِ.\n21 Blessed are you who hunger now, For you shall be filled. Blessed are you who weep now, For you shall laugh.\nⲰⲟⲩⲛ̀ⲓⲁⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲛⲏ ⲧϩⲟⲕⲉⲣ ϯⲛⲟⲩ ϫⲉ ⲧⲉⲧⲉⲛⲛⲁⲥⲓ ⲱⲟⲩⲛ̀ⲓⲁⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲛⲏⲉⲧⲣⲓⲙⲓ ϯⲛⲟⲩ ϫⲉ ⲧⲉⲧⲉⲛⲛⲁⲥⲱⲃⲓ.\n21 طُوبَاكُمْ أيُّهَا الْجِيَاعُ الآنَ؛ لِأَنَّكُمْ تُشْبَعُونَ. طُوبَاكُمْ أيُّهَا الْبَاكُونَ الآنَ؛ لِأَنَّكُمْ سَتَضْحَكُونَ.\n22 Blessed are you when men hate you, And when they exclude you, And revile you, and cast out your name as evil, For the Son of Man’s sake.\nⲰⲟⲩⲛ̀ⲓⲁⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲉϣⲱⲡ ⲛⲧⲟⲩⲙⲉⲥⲧⲉ ⲑⲏⲛⲟⲩ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩⲟⲩⲉⲧ ⲑⲏⲛⲟⲩ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩϣⲉϣ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲧⲟⲩϩⲓ ⲡⲉⲧⲉⲛⲣⲁⲛ ⲉ̀ⲃⲟⲗ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲡⲉⲧϩⲱⲟⲩ ⲉⲑⲃⲉ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ.\n22 طُوبَاكُمْ إِذا أبْغَضَكُمُ النَّاسُ، وَأَفْرَزُوكُمْ وَعَيَّرُوكُمْ، وَأَخْرَجُوا اسْمَكُمْ كَشِرِّيرٍ مِنْ أَجْلِ ابْنِ الْإِنْسَانِ.\n23 Rejoice in that day and leap for joy! For indeed your reward is great in heaven, For in like manner their fathers did to the prophets.\nⲢⲁϣⲓ ϧⲉⲛ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ⲑⲉⲗⲏⲗ ϩⲏⲡⲡⲉ ⲅⲁⲣ ⲡⲉⲧⲉⲛⲃⲉⲭⲉ ⲟⲩⲛⲓϣϯ ⲡⲉ ⲛ̀ϩ̀ⲣⲏⲓ ⲉⲛ ⲧ̀ⲫⲉ ⲛⲁⲓ ⲅⲁⲣ ⲉ̀ⲛⲁⲩⲓ̀ⲣⲓ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ ⲛ̀ϫⲉ ⲛⲟⲩⲓⲟϯ.\n23 افْرَحُوا في ذلِكَ الْيَوْمِ وَتَهَلَّلُوا، فَهُوَذَا أَجْرُكُمْ عَظِيمٌ في السَّمَاءِ؛ لِأَنَّ آبَاءَهُمْ هكَذَا كَانُوا يَفْعَلُونَ بِالأَنْبِيَاءِ \".",
+      "blockSha256": "47974a33d91a1708fd24990be5cf9b80753324384c4171d9860061481f2fb87d",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Matins-Psalm_and_Gospel.txt",
+      "documentSha256": "3e632348867c27914a20f5e0192de61a0b20139aabffff8be60efdf7384e44a9",
+      "verseLines": [
+        {
+          "line": 36,
+          "number": 17,
+          "literal": "17 And He came down with them and stood on a level place with a crowd of His disciples and a great multitude of people from all Judea and Jerusalem, and from the seacoast of Tyre and Sidon, who came to hear Him and be healed of their diseases,"
+        },
+        {
+          "line": 39,
+          "number": 18,
+          "literal": "18 as well as those who were tormented with unclean spirits. And they were healed."
+        },
+        {
+          "line": 42,
+          "number": 19,
+          "literal": "19 And the whole multitude sought to touch Him, for power went out from Him and healed them all."
+        },
+        {
+          "line": 45,
+          "number": 20,
+          "literal": "20 Then He lifted up His eyes toward His disciples, and said: “Blessed are you poor, For yours is the kingdom of God."
+        },
+        {
+          "line": 48,
+          "number": 21,
+          "literal": "21 Blessed are you who hunger now, For you shall be filled. Blessed are you who weep now, For you shall laugh."
+        },
+        {
+          "line": 51,
+          "number": 22,
+          "literal": "22 Blessed are you when men hate you, And when they exclude you, And revile you, and cast out your name as evil, For the Son of Man’s sake."
+        },
+        {
+          "line": 54,
+          "number": 23,
+          "literal": "23 Rejoice in that day and leap for joy! For indeed your reward is great in heaven, For in like manner their fathers did to the prophets."
+        }
+      ],
+      "isPsalm": false,
+      "boundaryCheck": {
+        "pass": true,
+        "observedVerseRun": [
+          [
+            6,
+            17
+          ],
+          [
+            6,
+            18
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            6,
+            21
+          ],
+          [
+            6,
+            22
+          ],
+          [
+            6,
+            23
+          ]
+        ],
+        "first": [
+          6,
+          17
+        ],
+        "last": [
+          6,
+          23
+        ],
+        "scope": "source English numbered body and printed boundaries; no external edition equivalence"
+      },
+      "canonicalPsalmStatus": null
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 3,
+      "headingOrder": 0,
+      "sourceAppointmentOrdinal": 4,
+      "serviceDocument": "Liturgy-Pauline Epistle",
+      "printedReference": "Hebrews 11:17-31",
+      "literalHeadingLine": "\tHebrews 11:17-31",
+      "headingLine": 17,
+      "byteStart": 502,
+      "byteEnd": 9645,
+      "blockLiteral": "\tHebrews 11:17-31\n(العبرانيين 11: 17-31)\nReader:\nPaul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen.\nالقارﺉُ:\nبولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين.\n17 By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises offered up his only begotten son,\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲁⲃⲣⲁⲁⲙ ⲁϥⲓ̀ⲛⲓ ⲛ̀ Ⲓ̀ⲥⲁⲁⲕ ⲉ̀ϩ̀ⲣⲏⲓ ⲉⲩⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲙ̀ⲙⲟϥ ⲁϥⲓ̀ⲛⲓ ⲙ̀ⲡⲉϥϣⲏ ⲣⲓ ⲙ̀ⲙⲁⲩⲁⲧϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲛ̀ϫⲉ ⲫⲏⲉⲧⲁϥϣⲉⲡ ⲛⲓⲱϣ ⲉ̀ⲣⲟϥ.\n17 بِالْإِيمَانِ قَرَّبَ إبْرَاهِيمُ إسْحَاقَ حِينَ جُرِّبَ. وَقَرَّبَ ابْنَهُ الوَحِيدَ ذَاكَ الَّذِي قَبِلَ الْمَوَاعِيدَ بِسَبَبِهِ،\n18 of whom it was said, “In Isaac your seed shall be called,”\nⲪⲏⲉⲧⲁⲩⲥⲁϫⲓ ⲛⲉⲙⲁϥ ϫⲉ ϧⲉⲛ Ⲓ̀ⲥⲁⲁⲕ ⲉⲩⲉ̀ⲑⲁϩⲉⲙ ⲟⲩϫ̀ⲣⲟϫ ⲛⲁⲕ.\n18 الَّذِي قِيلَ لَهُ: \" إِنَّهُ بِإسْحَاقَ يُدْعَى لَكَ نَسْلٌ \".\n19 concluding that God was able to raise him up, even from the dead, from which he also received him in a figurative sense.\nⲞⲩⲟϩ ⲁϥⲙⲟⲕⲙⲉⲕ ϫⲉ ⲟⲩⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲫϯ ⲉⲧⲟⲩⲛⲟⲥϥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ ⲉⲑⲃⲉⲫⲁⲓ ⲁϥϭⲓⲧϥ ϧⲉⲛ ⲟⲩⲡⲁⲣⲁⲃⲟⲗⲏ.\n19 وَافْتَكَرَ في نَفْسِهِ أَنَّ اللَّهَ قَادِرٌ أَنْ يُقِيمَهُ مِنَ الأمْوَاتِ، فَمِنْ أجْلِ هذَا أخَذَهُ بِمِثَالٍ.\n20 By faith Isaac blessed Jacob and Esau concerning things to come.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲉⲑⲃⲉ ⲛⲏⲉⲑⲛⲁϣⲱⲡⲓ ⲁϥⲥ̀ⲙⲟⲩ ⲛ̀ϫⲉ Ⲓ̀ⲥⲁⲁⲕ ⲉ̀ⲓⲁⲕⲱⲃ ⲛⲉⲙ ⲏⲥⲁⲩ.\n20 بِالْإِيمَانِ مِنْ أجْلِ مَا سَيَكُونُ بَارَكَ إسْحَاقُ يَعْقُوبَ وَعِيسُوَ.\n21 By faith Jacob, when he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲓⲁⲕⲱⲃ ⲉϥⲛⲁⲙⲟⲩ ⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲫ̀ⲟⲩⲁⲓ ⲫ̀ⲟⲩⲁⲓ ⲛ̀ⲛⲉⲛϣⲏⲣⲓ ⲛ̀ⲓⲱⲥⲏⲫ ⲟⲩⲟϩ ⲁϥⲟⲩⲱϣⲧ ⲉ̀ϫⲉⲛ ϩ̀ⲑⲏϥ ⲙ̀ⲡⲉϥϣ̀ⲫⲱⲧ.\n21 بِالْإِيمَانِ يَعْقُوبُ عِنْدَ مَوْتِهِ بَارَكَ كُلَّ وَاحِدٍ مِنْ ابْنَيْ يُوسُفَ، وَسَجَدَ عَلَى رَأْسِ عَصَاهُ.\n22 By faith Joseph, when he was dying, made mention of the departure of the children of Israel, and gave instructions concerning his bones.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲓⲱⲥⲏⲫ ⲉϥⲛⲁⲙⲟⲩ ⲁϥⲉⲣⲫ̀ⲙⲉⲩⲓ ⲙ̀ⲡ̀ϫⲓⲛⲓ̀ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲉⲛϣⲏⲣⲓ ⲙ̀ⲡ̀ⲓⲥ︦ⲗ︦ ⲟⲩⲟϩ ⲁϥϩⲟⲛϩⲉⲛ ⲉⲑⲃⲉ ⲛⲉϥⲕⲁⲥ.\n22 بِالْإِيمَانِ يُوسُفُ عِنْدَ مَوْتِهِ ذَكَرَ خُرُوجَ بَنِي إسْرَائِيلَ وَأَوْصَى مِنْ أجْلِ عِظَامِهِ.\n23 By faith Moses, when he was born, was hidden three months by his parents, because they saw he was a beautiful child; and they were not afraid of the king’s command.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲙⲱⲩ̀ⲥⲏⲥ ⲉⲧⲁⲩⲙⲁⲥϥ ⲁⲩⲭⲟⲡϥ ⲛ̀ⲅ︦ ⲛ̀ⲁ̀ⲃⲟⲧ ⲛ̀ϫⲉ ⲛⲉϥⲓⲟϯ ϫⲉ ⲁⲩⲛⲁⲩ ⲉ̀ⲡⲓⲁ̀ⲗⲟⲩ ϫⲉ ⲟⲩⲁⲥⲧⲓⲟⲥ ⲡⲉ ⲟⲩⲟϩ ⲙ̀ⲡⲟⲩⲉⲣϩⲟϯ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲓϩⲱⲡ ⲛ̀ⲧⲉ ⲡ̀ⲟⲩⲣⲟ.\n23 بِالْإِيمَانِ مُوسَى، لَمَّا وُلِدَ، أخْفَاهُ أبَوَاهُ ثَلَاثَةَ أَشْهُرٍ، لِأَنَّهُمَا رَأَيَا الصَّبِيَّ جَمِيلًا، وَلَمْ يَخَافَا مِنْ أمْرِ الْمَلِكِ.\n24 By faith Moses, when he became of age, refused to be called the son of Pharaoh’s daughter,\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲙⲱⲩ̀ⲥⲏⲥ ⲉⲧⲁϥⲉⲣⲛⲓϣϯ ⲁϥϫⲱⲗ ⲉ̀ⲃⲟⲗ ⲉ̀ϣ̀ⲧⲉⲙⲉⲑⲣⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲡ̀ϣⲏⲣⲓ ⲛ̀ⲧ̀ϣⲉⲣⲓ ⲙ̀ⲫⲁⲣⲁⲱ.\n24 بِالْإِيمَانِ مُوسَى لَمَّا كَبِرَ أَنْكَرَ أَنْ يُدْعَى ابْنًا لابْنَةِ فِرْعَوْنَ،\n25 choosing rather to suffer affliction with the people of God than to enjoy the passing pleasures of sin,\nⲘⲁⲗⲗⲟⲛ ⲉ̀ⲁϥⲟⲩⲱϣ ⲉ̀ϣⲉⲡⲙ̀ⲕⲁϩ ⲛⲉⲙ ⲡⲓⲗⲁⲟⲥ ⲛ̀ⲧⲉ ⲫϯ ⲉ̀ϩⲟⲧⲉ ⲛ̀ⲧⲉϥϭⲓⲙⲏ ϧⲉⲛ ⲫ̀ⲛⲟⲃⲓ ⲡ̀ⲣⲟⲥ ⲟⲩⲥⲏⲟⲩ.\n25 وَشَاءَ بالأحْرَى أَنْ يَتَألَّمَ مَعَ شَعْبِ اللَّهِ أفْضَلَ مِنْ أَنْ يَتَنَعَّمَ بِالْخَطِيَّةِ زَمَنًا يَسِيرًا،\n26 esteeming the reproach of Christ greater riches than the treasures in Egypt; for he looked to the reward.\nⲈ̀ⲁϥⲭⲁ ⲡ̀ϣⲱϣ ⲙ̀Ⲡⲭ︦ⲥ︦ ⲛ̀ⲧⲟⲧϥ ϫⲉ ⲟⲩⲙⲉⲧⲣⲁⲙⲁⲟ̀ ⲉⲛⲁⲁⲥ ⲧⲉ ⲉ̀ϩⲟⲧⲉ ⲛⲓⲁϩⲱⲣ ⲛ̀ⲧⲉ ⲭⲏⲙⲓ ⲉ̀ⲛⲁϥϫⲟⲩϣⲧ ⲅⲁⲣ ⲉ̀ⲃⲟⲗ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲓϣⲉⲃⲓⲉ ⲃⲉⲭⲉ.\n26 إذْ جَعَلَ عَارَ الْمَسِيحِ عِنْدَهُ أَنَّهُ غِنًى عَظِيمٌ أوْفَرُ مِنْ كُنُوزِ مِصْرَ؛ لِأَنَّهُ كَانَ يَنْتَظِرُ حُسْنَ الْمُجَازَاةِ.\n27 By faith he forsook Egypt, not fearing the wrath of the king; for he endured as seeing Him who is invisible.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲁϥⲭⲁ ⲭⲏⲙⲓ ⲛ̀ⲥⲱϥ ⲙ̀ⲡⲉϥⲉⲣϩⲟϯ ϧⲁⲧ̀ϩⲏ ⲙ̀ⲡⲓⲙ̀ⲃⲟⲛ ⲛ̀ⲧⲉ ⲡ̀ⲟⲩⲣⲟ ⲡⲓⲁⲑⲛⲁⲩ ⲅⲁⲣ ⲉ̀ⲣⲟϥ ⲛⲁϥⲙⲟⲩⲛ ⲉ̀ⲣⲟϥ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲁⲓ ⲉϥⲛⲁⲩ ⲉ̀ⲣⲟϥ.\n27 بِالْإِيمَانِ تَرَكَ مِصْرَ وَلَمْ يَخَفْ مِنْ غَضَبِ الْمَلِكِ، لِأَنَّهُ تَشَدَّدَ، كَأَنَّهُ يَرَى مَنْ لَا يُرَى.\n28 By faith he kept the Passover and the sprinkling of blood, lest he who destroyed the firstborn should touch them.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲁϥⲓ̀ⲣⲓ ⲙ̀ⲡⲓⲡⲁⲥⲭⲁ ⲛⲉⲙ ⲡⲓⲫⲱⲛ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲡⲓⲥ̀ⲛⲟϥ ϩⲓⲛⲁ ⲛ̀ⲧⲉϣ̀ⲧⲉⲙ ⲡⲓⲣⲉϥⲧⲁⲕⲟ ϭⲓ ⲛⲉⲙ ⲛⲟⲩϣⲟⲣⲡ ⲙ̀ⲙⲓⲥⲓ.\n28 بِالْإِيمَانِ صَنَعَ الْفِصْحَ وَرَشَّ الدَّمَ لِئَلَّا يَمَسَّ الْمُهْلِكُ أبْكَارَهُمْ.\n29 By faith they passed through the Red Sea as by dry land, whereas the Egyptians, attempting to do so, were drowned.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲁⲩⲥⲓⲛⲓ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲫ̀ⲓⲟⲙ ⲛ̀ϣⲁⲣⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲟⲩⲕⲁϩⲓ ⲉϥϣⲟⲩⲱⲟⲩ ⲫⲏⲉⲧⲁⲩϭⲓⲡⲓⲣⲁ ⲛ̀ϧⲏⲧϥ ⲛ̀ϫⲉ ⲛⲓⲣⲉⲙⲛ̀ⲭⲏ ⲙⲓ ⲁⲩⲱⲙⲥ ⲉ̀ϧ̀ⲣⲏⲓ.\n29 بِالْإِيمَانِ عَبَرُوا في الْبَحْرِ الأَحْمَرِ كَمَا في أَرْضٍ يَابِسَةٍ، الأَمْرُ الَّذِي لَمَّا شَرَعَ فِيهِ الْمِصْرِيُّونَ غَرِقُوا.\n30 By faith the walls of Jericho fell down after they were encircled for seven days.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲛⲓⲥⲟⲃⲧ ⲛ̀ⲧⲉ ⲓⲉⲣⲓⲭⲱ ⲁⲩϩⲉⲓ ⲉⲧⲁⲩⲕⲱϯ ⲉ̀ⲣⲱⲟⲩ ⲛ̀ⲍ︦ ⲛ̀ⲉ̀ϩⲟⲟⲩ.\n30 بِالْإِيمَانِ سَقَطَتْ أَسْوَارُ أَرِيحَا بَعْدَمَا طِيفَ حَوْلَهَا سَبْعَةَ أيَّامٍ.\n31 By faith the harlot Rahab did not perish with those who did not believe, when she had received the spies with peace.\nϦⲉⲛ ⲟⲩⲛⲁϩϯ ⲣⲁⲁⲃ ϯⲡⲟⲣⲛⲏ ⲙ̀ⲡⲉⲥⲧⲁⲕⲟ ⲛⲉⲙ ⲛⲏⲉⲧⲁⲩⲉⲣⲁⲧⲥⲱⲧⲉⲙ ⲉⲧⲁⲥϣⲏ ⲡ ⲛⲓϫⲏⲣ ⲉ̀ⲣⲟⲥ ϧⲉⲛ ⲟⲩϩⲓⲣⲏⲛⲏ.\n31 بِالْإِيمَانِ رَاحَابُ الزَّانِيَةُ لَمْ تَهْلِكْ مَعَ العُصَاةِ، إذْ قَبِلَتِ الْجَاسُوسَيْنِ بِسَلَامٍ.\nThe grace of God the Father be with you all. Amen.\nنعمة الله الآب تكون مع جميعِكم. آمين.",
+      "blockSha256": "b33a2e55203c2b44c6cb8b0e278a11c43251c6845555c7897c481249e028e17b",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Pauline_Epistle.txt",
+      "documentSha256": "d94781c655f4206f25935a4a108e7da1bcd457b60331543edef260cb02720a04",
+      "verseLines": [
+        {
+          "line": 23,
+          "number": 17,
+          "literal": "17 By faith Abraham, when he was tested, offered up Isaac, and he who had received the promises offered up his only begotten son,"
+        },
+        {
+          "line": 26,
+          "number": 18,
+          "literal": "18 of whom it was said, “In Isaac your seed shall be called,”"
+        },
+        {
+          "line": 29,
+          "number": 19,
+          "literal": "19 concluding that God was able to raise him up, even from the dead, from which he also received him in a figurative sense."
+        },
+        {
+          "line": 32,
+          "number": 20,
+          "literal": "20 By faith Isaac blessed Jacob and Esau concerning things to come."
+        },
+        {
+          "line": 35,
+          "number": 21,
+          "literal": "21 By faith Jacob, when he was dying, blessed each of the sons of Joseph, and worshiped, leaning on the top of his staff."
+        },
+        {
+          "line": 38,
+          "number": 22,
+          "literal": "22 By faith Joseph, when he was dying, made mention of the departure of the children of Israel, and gave instructions concerning his bones."
+        },
+        {
+          "line": 41,
+          "number": 23,
+          "literal": "23 By faith Moses, when he was born, was hidden three months by his parents, because they saw he was a beautiful child; and they were not afraid of the king’s command."
+        },
+        {
+          "line": 44,
+          "number": 24,
+          "literal": "24 By faith Moses, when he became of age, refused to be called the son of Pharaoh’s daughter,"
+        },
+        {
+          "line": 47,
+          "number": 25,
+          "literal": "25 choosing rather to suffer affliction with the people of God than to enjoy the passing pleasures of sin,"
+        },
+        {
+          "line": 50,
+          "number": 26,
+          "literal": "26 esteeming the reproach of Christ greater riches than the treasures in Egypt; for he looked to the reward."
+        },
+        {
+          "line": 53,
+          "number": 27,
+          "literal": "27 By faith he forsook Egypt, not fearing the wrath of the king; for he endured as seeing Him who is invisible."
+        },
+        {
+          "line": 56,
+          "number": 28,
+          "literal": "28 By faith he kept the Passover and the sprinkling of blood, lest he who destroyed the firstborn should touch them."
+        },
+        {
+          "line": 59,
+          "number": 29,
+          "literal": "29 By faith they passed through the Red Sea as by dry land, whereas the Egyptians, attempting to do so, were drowned."
+        },
+        {
+          "line": 62,
+          "number": 30,
+          "literal": "30 By faith the walls of Jericho fell down after they were encircled for seven days."
+        },
+        {
+          "line": 65,
+          "number": 31,
+          "literal": "31 By faith the harlot Rahab did not perish with those who did not believe, when she had received the spies with peace."
+        }
+      ],
+      "isPsalm": false,
+      "boundaryCheck": {
+        "pass": true,
+        "observedVerseRun": [
+          [
+            11,
+            17
+          ],
+          [
+            11,
+            18
+          ],
+          [
+            11,
+            19
+          ],
+          [
+            11,
+            20
+          ],
+          [
+            11,
+            21
+          ],
+          [
+            11,
+            22
+          ],
+          [
+            11,
+            23
+          ],
+          [
+            11,
+            24
+          ],
+          [
+            11,
+            25
+          ],
+          [
+            11,
+            26
+          ],
+          [
+            11,
+            27
+          ],
+          [
+            11,
+            28
+          ],
+          [
+            11,
+            29
+          ],
+          [
+            11,
+            30
+          ],
+          [
+            11,
+            31
+          ]
+        ],
+        "first": [
+          11,
+          17
+        ],
+        "last": [
+          11,
+          31
+        ],
+        "scope": "source English numbered body and printed boundaries; no external edition equivalence"
+      },
+      "canonicalPsalmStatus": null
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 4,
+      "headingOrder": 0,
+      "sourceAppointmentOrdinal": 5,
+      "serviceDocument": "Liturgy-Catholic Epistle",
+      "printedReference": "James 1:12-21",
+      "literalHeadingLine": "\tJames 1:12-21",
+      "headingLine": 5,
+      "byteStart": 118,
+      "byteEnd": 7166,
+      "blockLiteral": "\tJames 1:12-21\n(يعقوب 1: 12-21)\nThe Catholic Epistle from the Epistle of our teacher St. James. May his holy blessings be with us. Amen.\nالكاثوليكون من رسالة يعقوب الرسول. بركته تكون معنا. آمين.\n12 Blessed is the man who endures temptation; for when he has been approved, he will receive the crown of life which the Lord has promised to those who love Him.\nⲞⲩⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉ ⲡⲓⲣⲱⲙⲓ ⲫⲏⲉⲑⲛⲁⲁ̀ⲙⲟⲛⲓ ⲛ̀ⲧⲟⲧϥ ϧⲉⲛ ⲟⲩⲡⲓⲣⲁⲥⲙⲟⲥ ϫⲉ ⲁϥϣⲁⲛⲉⲣ ⲟⲩⲥⲱⲧⲡ ϥ̀ⲛⲁϭⲓ ⲙ̀ⲡⲓⲭ̀ⲗⲟⲙ ⲛ̀ⲧⲉ ⲡ̀ⲱⲛϧ ⲫⲏⲉⲧⲁϥⲱϣ ⲙ̀ⲙⲟϥ ⲛ̀ⲛⲏⲉⲑⲛⲁⲙⲉⲛⲣⲓⲧϥ.\n12 طُوبَى لِلرَّجُلِ الَّذِي يَصْبِرُ في التَّجْرِبَةِ، لِأَنَّهُ إِذَا صَارَ مُخْتَارًا يَنَالُ إِكْلِيلَ الْحَيَاةِ، الَّذِي وَعَدَ بِهِ الرَّبُّ لِلَّذِينَ يُحِبُّونَهُ.\n13 Let no one say when he is tempted, “I am tempted by God”; for God cannot be tempted by evil, nor does He Himself tempt anyone.\nⲘ̀ⲡⲉⲛⲑ̀ⲣⲉ ϩ̀ⲗⲓ ϫⲟⲥ ⲉⲩⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲙ̀ⲙⲟϥ ϫⲉ ⲫϯ ⲡⲉⲧⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲙ̀ⲙⲟⲓ ⲫϯ ⲅⲁⲣ ϥ̀ⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲁⲛ ϧⲉⲛ ϩⲁⲛⲡⲉⲧϩⲱⲟⲩ ϥ̀ⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲇⲉ ⲛ̀ⲑⲟϥ ⲛ̀ϩ̀ⲗⲓ ⲁⲛ.\n13 لَا يَقُلْ أَحَدٌ إِذَا جُرِّبَ: \" إِنَّ اللَّهَ قَدْ جَرَّبَنِي \"؛ لِأَنَّ اللَّهَ لَا يُجَرَّبُ بِالشُّرُورِ،وَهُوَ لَا يُجَرِّبُ أَحَدًا.\n14 But each one is tempted when he is drawn away by his own desires and enticed.\nⲠⲓⲟⲩⲁⲓ ⲇⲉ ⲡⲓⲟⲩⲁⲓ ⲉⲩⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲙ̀ⲙⲟϥ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲧⲉϥⲉⲡⲓⲑⲩⲙⲓⲁ ⲙ̀ⲙⲓⲛ ⲙ̀ⲙⲟϥ ⲉⲥⲥⲱⲕ ⲙ̀ⲙⲟϥ ⲟⲩⲟϩ ⲉⲥⲥⲟⲡⲥⲉⲡ ⲙ̀ⲙⲟϥ.\n14 وَلَكِنَّ كُلَّ وَاحِدٍ يُجَرَّبُ إذَا انْجَذَبَ وَانْخَدَعَ مِنْ شَهْوَةِ نَفْسِهِ.\n15 Then, when desire has conceived, it gives birth to sin; and sin, when it is full-grown, brings forth death.\nⲒⲧⲁ ϯⲉⲡⲓⲑⲩⲙⲓⲁ ⲁⲥϣⲁⲛⲉⲣⲃⲟⲕⲓ ϣⲁⲥⲙⲉⲥ ⲫ̀ⲛⲟⲃⲓ ⲫ̀ⲛⲟⲃⲓ ⲇⲉ ⲁϥϣⲁⲛϫⲱⲕ ⲉ̀ⲃⲟⲗ ϣⲁϥϫ̀ⲫⲟ ⲙ̀ⲫ̀ⲙⲟⲩ.\n15 ثُمَّ إِنَّ الشَّهْوَةَ إِذَا حَبِلَتْ فَإِنَّهَا تَلِدُ خَطِيَّةً، وَأَمَّا الْخَطِيَّةُ إِذَا كَمَلَتْ فَإِنَّهَا تَلِدُ الْمَوْتَ.\n16 Do not be deceived, my beloved brethren.\nⲘ̀ⲡⲉⲣⲥⲱⲣⲉⲙ ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲛⲁⲙⲉⲛⲣⲁϯ.\n16 لَا تَضِلُّوا يَا إِخْوَتِي وَأَحِبَّائِي.\n17 Every good gift and every perfect gift is from above, and comes down from the Father of lights, with whom there is no variation or shadow of turning.\nⲦⲁⲓⲟ ⲛⲓⲃⲉⲛ ⲉⲑⲛⲁⲛⲉⲩ ⲛⲉⲙ ⲇⲱⲣⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϫⲏⲕ ⲉ̀ⲃⲟⲗ ϩⲁⲛⲉ̀ⲃⲟⲗ ⲙ̀ⲡ̀ϣⲱⲓ ⲛⲉ ⲉⲩⲛⲏⲟⲩ ⲉⲡⲉⲥⲏⲧ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲫ̀ⲓⲱⲧ ⲛ̀ⲧⲉ ⲛⲓⲟⲩⲱⲓⲛⲓ ⲫⲏⲉⲧⲉ ⲙ̀ⲙⲟⲛ ϣⲓⲃϯ ⲛⲁϩⲣⲁϥ ⲟⲩⲇⲉ ⲟⲩⲥ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲟⲩϧⲏⲓⲃⲓ ⲉ̀ⲁⲥⲥⲓⲛⲓ.\n17 كُلُّ عَطِيَّةٍ صَالِحَةٍ وَكُلُّ مَوْهِبَةٍ تَامَّةٍ هِيَ مِنْ فَوْقُ، نَازِلَةٌ مِنْ عِنْدِ أَبِي الْأَنوَارِ، الَّذِي لَيْسَ عِنْدَهُ تَغْيِيرٌ وَلَا شِبْهُ ظِلٍّ يَزُولُ.\n18 Of His own will He brought us forth by the word of truth, that we might be a kind of firstfruits of His creatures.\nⲀϥⲟⲩⲱϣ ⲁϥϫ̀ⲫⲟⲛ ϧⲉⲛ ⲡ̀ⲥⲁϫⲓ ⲛ̀ⲧⲉ ϯⲙⲉⲑⲙⲏⲓ ⲉⲑⲣⲉⲛϣⲱⲡⲓ ⲛ̀ⲟⲩⲁⲡⲁⲣⲭⲏ ⲛ̀ⲧⲉ ⲛⲉϥⲥⲱⲛⲧ.\n18 قَدْ شَاءَ فَوَلَدَنَا بِكَلِمَةِ الْحَقِّ لِكَيْ نَكُونَ بَاكُورَةَ خَلَائِقِهِ.\n19 So then, my beloved brethren, let every man be swift to hear, slow to speak, slow to wrath;\nⲦⲉⲛⲥⲱⲟⲩⲛ ⲇⲉ ⲛⲁⲥ̀ⲛⲏⲟⲩ ⲛⲁⲙⲉⲛⲣⲁϯ ⲙⲁⲣⲉϥϣⲱⲡⲓ ⲇⲉ ⲛ̀ϫⲉ ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ ⲉϥⲓⲏⲥ ⲉϥⲛⲁⲥⲱⲧⲉⲙ ⲉϥϩⲟⲣϣ ⲉϥⲛⲁⲥⲁϫⲓ ⲉϥϩ̀ⲣⲟϣ ⲉϥⲛⲁϫⲱⲛⲧ.\n19 وَاعْلَمُوا يَا إخْوَتِي الأحِبَّاءَ، لِيَكُنْ كُلُّ إِنْسَانٍ مِنكُمْ مُسْرِعًا في الاسْتِمَاعِ، مُبْطِئًا في التَّكَلُّمِ، مُبْطِئًا في الْغَضَبِ،\n20 for the wrath of man does not produce the righteousness of God.\nⲠ̀ϫⲱⲛⲧ ⲅⲁⲣ ⲙ̀ⲫ̀ⲣⲱⲙⲓ ⲙ̀ⲡⲁϥⲉⲣϩⲱⲃ ⲉ̀ϯⲙⲉⲑⲙⲏⲓ ⲛ̀ⲧⲉ ⲫϯ.\n20 لِأَنَّ غَضَبَ الْإِنْسَانِ لَا يَصْنَعُ بِرَّ اللَّهِ.\n21 Therefore lay aside all filthiness and overflow of wickedness, and receive with meekness the implanted word, which is able to save your souls.\nⲈⲑⲃⲉⲫⲁⲓ ⲭⲁ ⲑⲱⲗⲉⲃ ⲛⲓⲃⲉⲛ ⲉ̀ϧ̀ⲣⲏⲓ ⲛⲉⲙ ⲡ̀ϩⲟⲩⲟ̀ ⲛ̀ⲧⲉ ϯⲕⲁⲕⲓⲁ ϧⲉⲛ ⲟⲩⲙⲉⲧⲣⲉⲙⲣⲁⲩϣ ϣⲉⲡ ⲡⲓⲥⲁϫⲓ ⲉ̀ⲣⲱⲧⲉⲛ ⲉϥⲣⲏⲧ ⲙ̀ⲃⲉⲣⲓ ⲫⲏⲉⲧⲉ ⲟⲩⲟⲛ ϣ̀ϫⲟⲙ ⲙ̀ⲙⲟϥ ⲉ̀ⲛⲟϩⲉⲙ ⲛ̀ⲛⲉⲧⲉⲛⲯⲩⲭⲏ.\n21 لِذلِكَ اطْرَحُوا كُلَّ نَجَاسَةٍ وَكَثْرَةَ الشَّرِّ، وَاقْبَلُوا بِوَدَاعَةٍ الْكَلِمَةَ الْمَغْرُوسَةَ جَدِيدًا، الَّتِي يُمْكِنُهَا أَنْ تُخَلِّصَ نُفُوسَكُمْ.\nDo not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ.\nلا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين.\n\tConclusion to the Coptic Catholic Epistle\n(Ⲛⲁⲥ̀ⲛⲏⲟⲩ...)",
+      "blockSha256": "8ef71e441b44426e4a6aba2bd88561e9dd9fb267df7ae200d39a37fb48d78e23",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Catholic_Epistle.txt",
+      "documentSha256": "1d0e307f21d4762f2d79237442059039dff4441d563cf88764fd793a2e254998",
+      "verseLines": [
+        {
+          "line": 9,
+          "number": 12,
+          "literal": "12 Blessed is the man who endures temptation; for when he has been approved, he will receive the crown of life which the Lord has promised to those who love Him."
+        },
+        {
+          "line": 12,
+          "number": 13,
+          "literal": "13 Let no one say when he is tempted, “I am tempted by God”; for God cannot be tempted by evil, nor does He Himself tempt anyone."
+        },
+        {
+          "line": 15,
+          "number": 14,
+          "literal": "14 But each one is tempted when he is drawn away by his own desires and enticed."
+        },
+        {
+          "line": 18,
+          "number": 15,
+          "literal": "15 Then, when desire has conceived, it gives birth to sin; and sin, when it is full-grown, brings forth death."
+        },
+        {
+          "line": 21,
+          "number": 16,
+          "literal": "16 Do not be deceived, my beloved brethren."
+        },
+        {
+          "line": 24,
+          "number": 17,
+          "literal": "17 Every good gift and every perfect gift is from above, and comes down from the Father of lights, with whom there is no variation or shadow of turning."
+        },
+        {
+          "line": 27,
+          "number": 18,
+          "literal": "18 Of His own will He brought us forth by the word of truth, that we might be a kind of firstfruits of His creatures."
+        },
+        {
+          "line": 30,
+          "number": 19,
+          "literal": "19 So then, my beloved brethren, let every man be swift to hear, slow to speak, slow to wrath;"
+        },
+        {
+          "line": 33,
+          "number": 20,
+          "literal": "20 for the wrath of man does not produce the righteousness of God."
+        },
+        {
+          "line": 36,
+          "number": 21,
+          "literal": "21 Therefore lay aside all filthiness and overflow of wickedness, and receive with meekness the implanted word, which is able to save your souls."
+        }
+      ],
+      "isPsalm": false,
+      "boundaryCheck": {
+        "pass": true,
+        "observedVerseRun": [
+          [
+            1,
+            12
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            14
+          ],
+          [
+            1,
+            15
+          ],
+          [
+            1,
+            16
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            1,
+            18
+          ],
+          [
+            1,
+            19
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            21
+          ]
+        ],
+        "first": [
+          1,
+          12
+        ],
+        "last": [
+          1,
+          21
+        ],
+        "scope": "source English numbered body and printed boundaries; no external edition equivalence"
+      },
+      "canonicalPsalmStatus": null
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 5,
+      "headingOrder": 0,
+      "sourceAppointmentOrdinal": 6,
+      "serviceDocument": "Liturgy-Praxis",
+      "printedReference": "Acts 19:11-20",
+      "literalHeadingLine": "\tActs 19:11-20",
+      "headingLine": 5,
+      "byteStart": 85,
+      "byteEnd": 8085,
+      "blockLiteral": "\tActs 19:11-20\n(اعمال 19: 11-20)\nA reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen.\nفصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين.\n11 Now God worked unusual miracles by the hands of Paul,\nⲚⲁϥⲓ̀ⲣⲓ ⲇⲉ ⲛ̀ϩⲁⲛϫⲟⲙ ⲛ̀ϫⲉ Ⲫϯ ⲛ̀ϩⲁⲛⲕⲟⲩϫⲓ ⲁⲛ ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲛⲉⲛϫⲓϫ ⲙ̀ⲡⲁⲩⲗⲟⲥ.\n11 وَكَانَ اللَّهُ يَصْنَعُ عَلَى يَدَيْ بُولُسَ قُوَّاتٍ كَثِيرَةً،\n12 so that even handkerchiefs or aprons were brought from his body to the sick, and the diseases left them and the evil spirits went out of them.\nϨⲱⲥⲇⲉ ⲛ̀ⲥⲉϭⲓ ⲛ̀ϩⲁⲛⲥⲟⲩⲇⲁⲣⲓⲟⲛ ⲛⲉⲙ ϩⲁⲛⲥⲓⲙⲓⲕⲩⲛⲑⲓⲛⲟⲛ ⲉ̀ⲃⲟⲗϩⲓ ⲡⲉϥⲥⲱⲙⲁ ⲛ̀ⲥⲉⲭⲁⲩ ϩⲓϫⲉⲛ ⲛⲏⲉⲧϣⲱⲛⲓ ⲟⲩⲟϩ ⲛⲉϣⲁⲩϣⲉⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ ϩⲓⲱⲧⲟⲩ ⲛ̀ϫⲉ ⲛⲓϣⲱⲛⲓ ⲟⲩⲟϩ ⲛⲓⲡⲛ︦ⲁ︦ ⲉⲧϩⲱⲟⲩ ⲛⲁⲩⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ⲡⲉ.\n12 حَتَّى إِنَّهُمْ كَانُوا يَأخُذُونَ مَنادِيلَ وَخِرَقًا مِنْ عَلَى جَسَدِهِ وَيَضَعُونَهَا عَلَى الْمَرْضَى، فَتَزُولُ عَنْهُمُ الأمْرَاضُ، وَتَخْرُجُ الأرْوَاحُ الشِّرِّيرَةُ.\n13 Then some of the itinerant Jewish exorcists took it upon themselves to call the name of the Lord Jesus over those who had evil spirits, saying, “We exorcise you by the Jesus whom Paul preaches.”\nⲀⲩϩⲓⲧⲟⲧⲟⲩ ⲇⲉ ⲛ̀ϫⲉ ϩⲁⲛⲟⲩⲟⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲒⲟⲩⲇⲁⲓ ⲉⲩⲕⲱϯ ⲛ̀ⲉⲝⲟⲣⲅⲓⲥⲧⲏⲥ ⲉ̀ϫⲉ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ ⲉ̀ϫⲉⲛ ⲛⲏⲉ̀ⲧⲉ ⲛⲓⲡⲛ︦ⲁ︦ ⲉⲧϩⲱⲟⲩ ϩⲓⲱⲧⲟⲩ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ϯⲧⲁⲣⲕⲟ ⲙ̀ⲙⲱⲧⲉⲛ ⲛ̀Ⲓⲏ︦ⲥ︦ ⲫⲏⲉ̀ⲧⲉ ⲡⲁⲩⲗⲟⲥ ϩⲓⲱⲓϣ ⲙ̀ⲙⲟϥ.\n13 فَابْتَدَأ قَوْمٌ مِنَ الْيَهُودِ الطَّوَّافِينَ الْمُعَزِّمِينَ أَنْ يُسَمُّوا بِاسْمِ الرَّبِّ يَسُوعَ عَلَى الَّذِينَ بِهِمُ الأرْوَاحُ الشِّرِّيرَةُ قَائِلِينَ: \" نَسْتَحْلِفُكُمْ بيَسُوعَ الَّذِي يَكْرِزُ بِهِ بُولُسُ! \"\n14 Also there were seven sons of Sceva, a Jewish chief priest, who did so.\nⲚⲉ ⲟⲩⲟⲛ ⲍ︦ ⲇⲉ ⲛ̀ϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲟⲩⲁⲓ ϫⲉ ⲥ̀ⲕⲉⲩⲁ ⲉ̀ⲟⲩⲒⲟⲩⲇⲁⲓ ⲛ̀ⲁⲣⲭⲏⲉ̀ⲣⲉⲩⲥ ⲉⲩⲓ̀ⲣⲓ ⲙ̀ⲫⲁⲓ.\n14 وَكَانَ سَبْعَةُ بَنِينَ لِوَاحدٍ يُدْعَى سَكَاوَا، يَهُودِيٍّ رَئِيسِ كَهَنَةٍ، يَفْعَلُونَ هَذَا.\n15 And the evil spirit answered and said, “Jesus I know, and Paul I know; but who are you?”\nⲀϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ ⲡⲓⲡⲛ︦ⲁ︦ ⲉⲧϩⲱⲟⲩ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ Ⲓⲏ︦ⲥ︦ ϯⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟϥ ⲟⲩⲟϩ ⲡ̀ⲕⲉⲡⲁⲩⲗⲟⲥ ϯⲉ̀ⲙⲓ ⲉ̀ⲣⲟϥ ⲛ̀ⲑⲱⲧⲉⲛ ⲇⲉ ⲛ̀ⲑⲱⲧⲉⲛ ⲛⲓⲙ.\n15 فَأجَابَ الرُّوحُ الشِّرِّيرُ وَقَالَ لَهُمْ: \" أمَّا يَسُوعُ فَأَنَا أَعْرِفُهُ، وَبُولُسُ أَنَا أَعْلَمُهُ، وَأمَّا أَنْتُمْ فَمَنْ أَنْتُمْ؟ \".\n16 Then the man in whom the evil spirit was leaped on them, overpowered them, and prevailed against them, so that they fled out of that house naked and wounded.\nⲞⲩⲟϩ ⲁϥϩⲓⲧϥ ⲉ̀ϧ̀ⲣⲏⲓ ⲡ̀ⲉϫⲱⲟⲩ ⲛ̀ϫⲉ ⲡⲓⲣⲱⲙⲓ ⲉ̀ⲧⲉ ⲡⲓⲡⲛ︦ⲁ︦ ⲉⲧϩⲱⲟⲩ ⲛⲉⲙⲁϥ ⲁϥⲉⲣⲟ︦ⲥ︦ ⲉ̀ⲣⲱⲟⲩ ⲉⲩⲥⲟⲡ ⲁϥϫⲉⲙϫⲟⲙ ⲉ̀ϩ̀ⲣⲏⲓ ⲡ̀ⲉϫⲱⲟⲩ ϩⲱⲥⲧⲉ ⲛ̀ⲥⲉⲫⲱⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲏⲓ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲉⲩⲃⲏϣ ⲉⲣⲡⲉϫⲱⲟⲩ ⲫⲏϧ.\n16 فَوَثَبَ عَلَيْهِمُ الرَّجُلُ الَّذِي كَانَ بِهِ الرُّوحُ الشِّرِّيرُ، وَتَسَلَّطَ وَقَوِيَ عَلَيْهمْ، حَتَّى هَرَبُوا مِنْ ذَلِكَ الْبَيْتِ عُرَاةً مَشْدُوخِي الرُّؤوسِ.\n17 This became known both to all Jews and Greeks dwelling in Ephesus; and fear fell on them all, and the name of the Lord Jesus was magnified.\nⲪⲁⲓ ⲇⲉ ⲁϥϣⲱⲡⲓ ⲉϥⲟⲩⲟⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲒⲟⲩⲇⲁⲓ ⲧⲏⲣⲟⲩ ⲛⲉⲙ ⲛⲓⲟⲩⲉⲓⲛⲓⲛ ⲉⲧϣⲟⲡ ϧⲉⲛ ⲉ̀ⲫⲉⲥⲟⲥ ⲟⲩⲟϩ ⲟⲩϩⲟϯ ⲁⲥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲡ̀ⲉϫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲟⲩⲟϩ ⲛⲁϥⲛⲏⲟⲩ ⲛ̀ϭⲓⲥⲓ ⲛ̀ϫⲉ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦.\n17 وَصَارَ هَذَا ظَاهِرًا لِجَمِيعِ الْيَهُودِ وَالْيُونَانِيِّينَ السَّاكِنِينَ في أَفَسُسَ. فَوَقَعَ خَوْفٌ عَلَى جَمِيعِهِمْ، وَكَانَ اسْمُ الرَّبِّ يَسُوعَ يَتَعَظَّمُ.\n18 And many who had believed came confessing and telling their deeds.\nⲞⲩⲙⲏϣ ⲇⲉ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉ̀ⲧⲁⲩⲛⲁϩϯ ⲛⲁⲩⲛⲏⲟⲩ ⲡⲉ ⲉⲩⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲉⲩϫⲱ ⲛ̀ⲛⲟⲩϩ̀ⲃⲏⲟⲩⲓ̀.\n18 وَكَانَ كَثِيرُونَ مِنَ الَّذِينَ آمَنُوا يَأْتُونَ مُعْتَرِفِينَ وَمُخْبِرِينَ بِأَفْعَالِهِمْ،\n19 Also, many of those who had practiced magic brought their books together and burned them in the sight of all. And they counted up the value of them, and it totaled fifty thousand pieces of silver.\nϨⲁⲛⲙⲏϣ ⲇⲉ ϧⲉⲛ ⲛⲏⲉ̀ⲛⲁⲩⲓ̀ⲣⲓ ⲛ̀ⲛⲓⲙⲉⲧⲡⲉⲣⲓⲉⲣⲅⲟⲥ ⲉ̀ⲁⲩⲓ̀ⲛⲓ ⲛ̀ⲛⲟⲩϫⲱⲙ ⲁⲩⲣⲟⲕϩⲟⲩ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲟⲩⲟϩ ⲁⲩϥⲓⲱⲡ ⲛ̀ⲛⲟⲩⲧⲓⲙⲏⲉ̀ⲁⲩϫⲉⲙⲟⲩ ⲉ̀ⲟⲩⲟⲛ ⲉ︦ ⲛ̀ⲑ̀ⲃⲁ ⲛ̀ϩⲁⲧ ⲙ̀ⲙⲁⲩ.\n19 وَكَانَ كَثِيرُونَ مِنَ الَّذِينَ يَسْتَعْمِلُونَ السِّحْرَ يُقَدِّمُونَ كُتُبَهُمْ وَيُحرِّقُونَهَا أمَامَ الْجَمِيعِ. وَحَسَبُوا أَثْمَانَهَا فَوَجَدُوهَا تُقَدَّرُ بِخَمْسِ رَبَوَاتٍ مِنَ الْفِضَّةِ.\n20 So the word of the Lord grew mightily and prevailed.\nⲠⲁⲓⲣⲏϯ ⲇⲉ ϧⲉⲛ ⲟⲩⲁⲙⲁϩⲓ ⲁϥⲁⲓⲁⲓ ⲛ̀ϫⲉ ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲟⲩⲟϩ ⲁϥϫⲉⲙϫⲟⲙ.\n20 هكَذَا كَانَتْ كَلِمَةُ الرَّبِّ تَنْمُو وَتَقْوَى بِشِدَّةٍ.\nThe word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.\nⲠⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ.\nوكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين.\n\tConclusion to the Coptic Praxis\n(Ⲡⲓⲥⲁϫⲓ...)",
+      "blockSha256": "8bf18c0ec5556b569a1fad177ca92116f1f143931955db3a3fd7a0be26d35bbd",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Praxis.txt",
+      "documentSha256": "e3a7d01f8b3e6861c146f056086cf83d0cdb3a9ab647c9847f51185c20ca428c",
+      "verseLines": [
+        {
+          "line": 9,
+          "number": 11,
+          "literal": "11 Now God worked unusual miracles by the hands of Paul,"
+        },
+        {
+          "line": 12,
+          "number": 12,
+          "literal": "12 so that even handkerchiefs or aprons were brought from his body to the sick, and the diseases left them and the evil spirits went out of them."
+        },
+        {
+          "line": 15,
+          "number": 13,
+          "literal": "13 Then some of the itinerant Jewish exorcists took it upon themselves to call the name of the Lord Jesus over those who had evil spirits, saying, “We exorcise you by the Jesus whom Paul preaches.”"
+        },
+        {
+          "line": 18,
+          "number": 14,
+          "literal": "14 Also there were seven sons of Sceva, a Jewish chief priest, who did so."
+        },
+        {
+          "line": 21,
+          "number": 15,
+          "literal": "15 And the evil spirit answered and said, “Jesus I know, and Paul I know; but who are you?”"
+        },
+        {
+          "line": 24,
+          "number": 16,
+          "literal": "16 Then the man in whom the evil spirit was leaped on them, overpowered them, and prevailed against them, so that they fled out of that house naked and wounded."
+        },
+        {
+          "line": 27,
+          "number": 17,
+          "literal": "17 This became known both to all Jews and Greeks dwelling in Ephesus; and fear fell on them all, and the name of the Lord Jesus was magnified."
+        },
+        {
+          "line": 30,
+          "number": 18,
+          "literal": "18 And many who had believed came confessing and telling their deeds."
+        },
+        {
+          "line": 33,
+          "number": 19,
+          "literal": "19 Also, many of those who had practiced magic brought their books together and burned them in the sight of all. And they counted up the value of them, and it totaled fifty thousand pieces of silver."
+        },
+        {
+          "line": 36,
+          "number": 20,
+          "literal": "20 So the word of the Lord grew mightily and prevailed."
+        }
+      ],
+      "isPsalm": false,
+      "boundaryCheck": {
+        "pass": true,
+        "observedVerseRun": [
+          [
+            19,
+            11
+          ],
+          [
+            19,
+            12
+          ],
+          [
+            19,
+            13
+          ],
+          [
+            19,
+            14
+          ],
+          [
+            19,
+            15
+          ],
+          [
+            19,
+            16
+          ],
+          [
+            19,
+            17
+          ],
+          [
+            19,
+            18
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            19,
+            20
+          ]
+        ],
+        "first": [
+          19,
+          11
+        ],
+        "last": [
+          19,
+          20
+        ],
+        "scope": "source English numbered body and printed boundaries; no external edition equivalence"
+      },
+      "canonicalPsalmStatus": null
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 6,
+      "headingOrder": 0,
+      "sourceAppointmentOrdinal": 7,
+      "serviceDocument": "Liturgy-Psalm and Gospel",
+      "printedReference": "Psalms 1:1,2",
+      "literalHeadingLine": "\tPsalms 1:1,2",
+      "headingLine": 7,
+      "byteStart": 851,
+      "byteEnd": 2661,
+      "blockLiteral": "\tPsalms 1:1,2\n(مزامير 1: 1,2)\nBlessed is the man Who walks not in the counsel of the ungodly, Nor stands in the path of sinners, Nor sits in the seat of the scornful.\nⲞⲩⲙⲁⲕⲁⲣⲓⲟⲥ ⲡⲉ ⲡⲓⲣⲱⲙⲓ: ⲉ̀ⲧⲉ ⲙ̀ⲡⲉϥϣⲉ ϧⲉⲛ ⲡ̀ⲥϭⲛⲓ ⲛ̀ⲧⲉ ⲛⲓⲁ̀ⲥⲉⲃⲏⲥ: ⲟⲩⲇⲉ ⲙ̀ⲡⲉϥⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧϥ ϩⲓ ⲫ̀ⲙⲱⲓⲧ ⲛ̀ⲧⲉ ⲛⲓⲣⲉϥⲉⲣⲛⲃⲓ: ⲟⲩⲇⲉ ⲙ̀ⲡⲉϥϩⲁⲙⲥⲓ ϩⲓ ⲧ̀ⲕⲁⲇⲉⲑⲣⲁ ⲛ̀ⲧⲉ ⲛⲓⲗⲟⲓⲙⲟⲥ. ⲁ︦ⲗ︦.\nطُوبَى لِلرَّجُلِ، الَّذِي لَمْ يَسْلُكْ في مَشُورَةِ الْمُنَافِقِينَ، وَفي طَرِيقِ الْخُطَاةِ لَمْ يَقِفْ، وَفي مَجْلِسِ الْمُسْتَهْزِئِينَ لَمْ يَجْلِسْ. هَلِّلُويَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nLiturgy Gospel\nالإنجيل\n",
+      "blockSha256": "c4fe9a6c41e8a5f8b4f2a9b60662c855a6793eb303eb5a10e37cd1828db822b9",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Psalm_and_Gospel.txt",
+      "documentSha256": "8b1170660617bc5f5be156e7c8159f955597544e19a6a069c70b53d49ca55f30",
+      "verseLines": [],
+      "isPsalm": true,
+      "boundaryCheck": {
+        "pass": true,
+        "scope": "printed Psalm reference/body preserved; canonical MT/LXX coordinate adjudication held"
+      },
+      "canonicalPsalmStatus": "PENDING_EDITION_TEXT_QUALIFICATION"
+    },
+    {
+      "id": "AnnualReadings-129",
+      "date": "2024-01-18",
+      "documentOrder": 6,
+      "headingOrder": 1,
+      "sourceAppointmentOrdinal": 8,
+      "serviceDocument": "Liturgy-Psalm and Gospel",
+      "printedReference": "Matthew 4:23-5:16",
+      "literalHeadingLine": "\tMatthew 4:23-5:16",
+      "headingLine": 34,
+      "byteStart": 2661,
+      "byteEnd": 12973,
+      "blockLiteral": "\tMatthew 4:23-5:16\n(متى 4: 23-5: 16)\n23 And Jesus went about all Galilee, teaching in their synagogues, preaching the gospel of the kingdom, and healing all kinds of sickness and all kinds of disease among the people.\nⲞⲩⲟϩ ⲛⲁϥⲕⲱϯ ⲡⲉ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ϧⲉⲛ ϯⲄⲁⲗⲓⲗⲉⲁ̀ ⲧⲏⲣⲥ ⲉϥϯⲥ̀ⲃⲱ ϧⲉⲛ ⲛⲟⲩⲥⲩⲛⲁⲅⲱⲅⲏ ⲟⲩⲟϩ ⲉϥϩⲓⲱⲓϣ ⲙ̀ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲟⲩⲟϩ ⲉϥⲉⲣⲫⲁϧⲣⲓ ⲉ̀ϣⲱⲛⲓ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ⲓⲁⲃⲓ ⲛⲓⲃⲉⲛ ⲉⲧϧⲉⲛ ⲡⲓⲗⲁⲟⲥ.\n23 وَكَانَ يَسُوعُ يَطُوفُ في كُلِّ الْجَلِيلِ يُعَلِّمُ في مَجَامِعِهِمْ، وَيَكْرِزُ بِبِشَارَةِ الْمَلَكُوتِ، وَيَشْفِي كُلَّ مَرَضٍ وَكُلَّ وَجَعٍ في الشَّعْبِ.\n24 Then His fame went throughout all Syria; and they brought to Him all sick people who were afflicted with various diseases and torments, and those who were demon-possessed, epileptics, and paralytics; and He healed them.\nⲞⲩⲟϩ ⲁ̀ ⲧⲉϥⲥ̀ⲙⲏ ⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲤⲩⲣⲓⲁ̀ ⲧⲏⲣⲥ ⲟⲩⲟϩ ⲁⲩⲓ̀ⲛⲓ ⲛⲁϥ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϩⲉⲙⲕⲏⲟⲩⲧ ϧⲉⲛ ⲛⲟⲩϣⲱⲛⲓ ⲛⲉⲙ ⲟⲩⲙ̀ⲕⲁⲩϩ ⲛ̀ⲟⲩⲙⲏϣ ⲛ̀ⲣⲏϯ ⲛⲏⲉ̀ⲧⲉ ⲛⲓⲇⲉⲙⲱⲛ ⲛⲉⲙⲱⲟⲩ ⲛⲉⲙ ⲛⲏⲉⲧⲟⲓ ⲙ̀ⲡⲉⲣⲙⲟⲩ ⲛⲉⲙ ⲛⲏⲉⲧϣⲏⲗ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲁϥⲉⲣⲫⲁϧⲣⲓ ⲉ̀ⲣⲱⲟⲩ.\n24 فَذَاعَ خَبَرُهُ في جَمِيعِ سُورِيَّةَ. فَأحْضَرُوا إلَيْهِ جَمِيعَ السُّقَمَاءِ بِالأَمْرَاضِ وَالأَوْجَاعِ الْمُخْتَلِفَةِ، وَالْمَجَانِينَ وَالْمَصْرُوعِينَ وَالْمَفْلُوجِينَ، فَشَفَاهُمْ.\n25 Great multitudes followed Him—from Galilee, and from Decapolis, Jerusalem, Judea, and beyond the Jordan.\nⲞⲩⲟϩ ⲁⲩⲙⲟϣⲓ ⲛ̀ⲥⲱϥ ⲛ̀ϫⲉ ϩⲁⲛⲛⲓϣϯ ⲙ̀ⲙⲏϣ ⲉ̀ⲃⲟⲗϧⲉⲛ ϯⲄⲁⲗⲓⲗⲉⲁ̀ ⲛⲉⲙ ϯⲙⲏϯ ⲙ̀ⲃⲁⲕⲓ ⲛⲉⲙ Ⲓⲗ︦ⲏ︦ⲙ︦ ⲛⲉⲙ ϯⲒⲟⲩⲇⲉⲁ̀ ⲛⲉⲙ ϩⲓⲙⲏⲣ ⲙⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ\n25 وَتَبِعَهُ جُمُوعٌ كَثِيرَةٌ مِنَ الْجَلِيلِ وَالْعَشْرِ الْمُدُنِ وَأُورُشَلِيمَ وَالْيَهُودِيَّةِ وَمِنْ عَبْرِ الأُرْدُنِّ.\n1 And seeing the multitudes, He went up on a mountain, and when He was seated His disciples came to Him.\nⲈ̀ⲧⲁϥⲛⲁⲩ ⲇⲉ ⲉ̀ⲛⲓⲙⲏϣ ⲁϥϣⲉⲛⲁϥ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϩⲉⲙⲥⲓ ⲁⲩⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ.\n1 وَلَمَّا رَأى الْجُمُوعَ صَعِدَ إِلَى الْجَبَلِ، فَلَمَّا جَلَسَ جَاءَ إلَيْهِ تَلَامِيذُهُ.\n2 Then He opened His mouth and taught them, saying:\nⲞⲩⲟϩ ⲉ̀ⲧⲁϥⲟⲩⲱⲛ ⲛ̀ⲣⲱϥ ⲛⲁϥϯⲥ̀ⲃⲱ ⲛⲱⲟⲩ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ.\n2 فَفَتَحَ فَاهُ وَعَلَّمَهُمْ قَائِلًا:\n3 “Blessed are the poor in spirit, For theirs is the kingdom of heaven.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲓϩⲏⲕⲓ ϧⲉⲛ ⲡⲓⲡⲛ︦ⲁ︦ ϫⲉ ⲑⲱⲟⲩ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀.\n3 \" طُوبَى لِلْمَسَاكِينِ بِالرُّوحِ؛ لِأَنَّ لَهُمْ مَلَكُوتَ السَّمَاوَاتِ.\n4 Blessed are those who mourn, For they shall be comforted.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲏⲉ̀ⲧⲉⲣϩⲏⲃⲓ ϯⲛⲟⲩ ϫⲉ ⲛ̀ⲑⲱⲟⲩ ⲡⲉⲧⲟⲩⲛⲁϯϩⲟ ⲉ̀ⲣⲱⲟⲩ.\n4 طُوبَى لِلْحَزَانَى الآنَ؛ لِأَنَّهُمْ يَتَعَزَّوْنَ.\n5 Blessed are the meek, For they shall inherit the earth.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲓⲣⲉⲙⲣⲁⲩϣ ϫⲉ ⲛ̀ⲑⲱⲟⲩ ⲡⲉⲑⲛⲁⲉⲣⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲓⲛ ⲙ̀ⲡⲓⲕⲁϩⲓ.\n5 طُوبَى لِلْوُدَعَاءِ؛ لِأَنَّهُمْ يَرِثُونَ الأَرْضَ.\n6 Blessed are those who hunger and thirst for righteousness, For they shall be filled.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲏⲉⲧϩⲟⲕⲉⲣ ⲛⲉⲙ ⲛⲏⲉⲧⲟ̀ⲃⲓ ⲛ̀ϯⲙⲉⲑⲙⲏⲓ ϫⲉ ⲛ̀ⲑⲱⲟⲩ ⲡⲉⲑⲛⲁⲥⲓ.\n6 طُوبَى لِلْجِيَاعِ وَالْعِطَاشِ إِلَى الْبِرِّ؛ لِأَنَّهُمْ يُشْبَعُونَ.\n7 Blessed are the merciful, For they shall obtain mercy.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲓⲛⲁⲏⲧ ϫⲉ ⲛ̀ⲑⲱⲟⲩ ⲡⲉⲧⲟⲩⲛⲁⲛⲁⲓ ⲛⲱⲟⲩ.\n7 طُوبَى لِلْرُّحَمَاءِ؛ لِأَنَّهُمْ يُرْحَمُونَ.\n8 Blessed are the pure in heart, For they shall see God.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲏⲉⲑⲟⲩⲁⲃ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ ϫⲉ ⲛ̀ⲑⲱⲟⲩ ⲡⲉⲑⲛⲁⲛⲁⲩ ⲉ̀ⲫϯ.\n8 طُوبَى لأَنْقِيَاءِ الْقَلْبِ؛ لِأَنَّهُمْ يُعَايِنُونَ اللَّهَ.\n9 Blessed are the peacemakers, For they shall be called sons of God.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲓⲣⲉϥⲉⲣϩⲓⲣⲏⲛⲏ ϫⲉ ⲛ̀ⲑⲱⲟⲩ ⲡⲉⲧⲟⲩⲛⲁ̀ⲙⲟⲩϯ ⲉ̀ⲣⲱⲟⲩ ϫⲉ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲫϯ.\n9 طُوبَى لِصَانِعِي السَّلَامِ؛ لِأَنَّهُمْ أبْنَاءَ اللَّهِ يُدْعَوْنَ.\n10 Blessed are those who are persecuted for righteousness’ sake, For theirs is the kingdom of heaven.\nⲰⲟⲩⲛⲓⲁⲧⲟⲩ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩϭⲟϫⲓ ⲛ̀ⲥⲱⲟⲩ ⲉⲑⲃⲉ ϯⲙⲉⲑⲙⲏⲓ ϫⲉ ⲑⲱⲟⲩ ⲧⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ̀.\n10 طُوبَى لِلْمَطْرُودِينَ مِنْ أَجْلِ الْبِرِّ؛ لِأَنَّ لَهُمْ مَلَكُوتَ السَّمَاوَاتِ.\n11 “Blessed are you when they revile and persecute you, and say all kinds of evil against you falsely for My sake.\nⲰⲟⲩⲛ̀ⲓⲁⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲉ̀ϣⲱⲡ ⲁⲩϣⲁⲛϭⲟϫⲓ ⲛ̀ⲥⲁ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲥⲉϣⲉϣ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲥⲉϫⲉ ⲡⲉⲧϩⲱⲟⲩ ⲛⲓⲃⲉⲛ ⲛ̀ⲥⲁ ⲑⲏⲛⲟⲩ ⲉⲩϫⲉ ⲙⲉⲑⲛⲟⲩϫ ⲉ̀ⲣⲱⲧⲉⲛ ⲉⲑⲃⲏⲧ.\n11 طُوبَاكُمْ إذَا طَرَدُوكُمْ وَعَيَّرُوكُمْ وَقَالُوا عَلَيْكُمْ كُلَّ كَلِمَةٍ شِرِّيرَةٍ، مِنْ أَجْلِي، كَاذِبِينَ.\n12 Rejoice and be exceedingly glad, for great is your reward in heaven, for so they persecuted the prophets who were before you.\nⲢⲁϣⲓ ⲟⲩⲟϩ ⲑⲉⲗⲏⲗ ϫⲉ ⲡⲉⲧⲉⲛⲃⲉⲭⲉ ⲟⲩⲛⲓϣϯ ⲡⲉ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲡⲁⲓⲣⲏϯ ⲅⲁⲣ ⲁⲩϭⲟϫⲓ ⲛ̀ⲥⲁ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ ⲉ̀ⲛⲁⲩϧⲁϫⲱⲧⲉⲛ.\n12 اِفْرَحُوا وَتَهَلَّلُوا؛ لِأَنَّ أَجْرَكُمْ عَظِيمٌ في السَّمَاوَاتِ، لِأَنَّهُمْ هكَذَا طَرَدُوا الأَنْبِيَاءَ الَّذِينَ قَبْلَكُمْ.\n13 “You are the salt of the earth; but if the salt loses its flavor, how shall it be seasoned? It is then good for nothing but to be thrown out and trampled underfoot by men.\nⲚ̀ⲑⲱⲧⲉⲛ ⲡⲉ ⲡ̀ϩ̀ⲙⲟⲩ ⲙ̀ⲡⲓⲕⲁϩⲓ ⲉ̀ϣⲱⲡ ⲇⲉ ⲛ̀ⲧⲉ ⲡⲓϩ̀ⲙⲟⲩ ⲗⲱϥ ⲁⲩⲛⲁⲙⲟⲗϩϥ ⲛ̀ⲟⲩ ⲙ̀ⲡⲁϥϣ̀ϫⲉⲙϫⲟⲙ ϫⲉ ⲉ̀ϩ̀ⲗⲓ ⲉ̀ⲃⲏⲗ ⲛ̀ⲥⲉϩⲓⲧϥ ⲉ̀ⲃⲟⲗ ⲛ̀ⲥⲉϩⲱⲙⲓ ⲉ̀ϫⲱϥ ⲛ̀ϫⲉ ⲛⲓⲣⲱⲙⲓ.\n13 أَنْتُمْ مِلْحُ الأَرْضِ، وَإذَا فَسَدَ الْمِلْحُ فَبِمَاذَا يُمَلَّحُ؟ لَا يَصْلُحُ بَعْدُ لِشَىْءٍ، إِلَّا لأَنْ يُطْرَحَ خَارِجًا وَيُدَاسَ مِنَ النَّاسِ.\n14 “You are the light of the world. A city that is set on a hill cannot be hidden.\nⲚ̀ⲑⲱⲧⲉⲛ ⲡⲉ ⲫ̀ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲛ̀ⲧⲉ ⲟⲩⲃⲁⲕⲓ ⲭⲱⲡ ⲉⲥⲭⲏ ϩⲓϫⲉⲛ ⲟⲩⲧⲱⲟⲩ.\n14 أَنْتُمْ نُورُ الْعَالَمِ. لَا يُمْكِنُ أَنْ تُخْفَى مَدِينَةٌ مَوْضُوعَةٌ عَلَى جَبَلٍ،\n15 Nor do they light a lamp and put it under a basket, but on a lampstand, and it gives light to all who are in the house.\nⲞⲩⲇⲉ ⲙ̀ⲡⲁⲩϭⲉⲣⲉ ⲟⲩϧⲏⲃⲥ ⲛ̀ⲥⲉⲭⲁϥ ϧⲁ ⲟⲩⲙⲉⲛⲧ ⲁⲗⲗⲁ ⲉ̀ϣⲁⲩⲭⲁϥ ϩⲓϫⲉⲛ ϯⲗⲩⲭⲛⲓⲁ̀ ⲟⲩⲟϩ ϣⲁϥⲉ̀ⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲏⲓ.\n15 وَلَا يُوقِدُونَ سِرَاجًا وَيَضَعُونَهُ تَحْتَ مِكْيَالٍ، بَلْ يَضَعُونَهُ عَلَى الْمَنَارَةِ فَيُضِيءُ لِكُلِّ مَنْ في الْبَيْتِ.\n16 Let your light so shine before men, that they may see your good works and glorify your Father in heaven.\nⲠⲁⲓⲣⲏϯ ⲙⲁⲣⲉ ⲡⲉⲧⲉⲛⲟⲩⲱⲓⲛⲓ ⲉⲣⲟⲩⲱⲓⲛⲓ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲣⲱⲙⲓ ϩⲟⲡⲱⲥ ⲛ̀ⲥⲉⲛⲁⲩ ⲉ̀ⲛⲉⲧⲉⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉⲑⲛⲁⲛⲉⲩ ⲟⲩⲟϩ ⲛ̀ⲥⲉϯⲱ̀ⲟⲩ ⲙ̀ⲡⲉⲧⲉⲛⲓⲱⲧ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀.\n16 فَلْيُضِئْ نُورُكُمْ هكَذَا قُدَّامَ النَّاس، لِكَيْ يَرَوْا أَعْمَالَكُمُ الْحَسَنَةَ، وَيُمَجِّدُوا أَبَاكُمُ الَّذِي في السَّمَاوَاتِ \".",
+      "blockSha256": "f89ed716dfc46668eb6f00301b6742acb8035e04dbb4bf505d7b5cc2fa599f64",
+      "documentPath": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-57/a3529349-74b7-481f-a0b0-2d0250a9a39e/Liturgy-Psalm_and_Gospel.txt",
+      "documentSha256": "8b1170660617bc5f5be156e7c8159f955597544e19a6a069c70b53d49ca55f30",
+      "verseLines": [
+        {
+          "line": 36,
+          "number": 23,
+          "literal": "23 And Jesus went about all Galilee, teaching in their synagogues, preaching the gospel of the kingdom, and healing all kinds of sickness and all kinds of disease among the people."
+        },
+        {
+          "line": 39,
+          "number": 24,
+          "literal": "24 Then His fame went throughout all Syria; and they brought to Him all sick people who were afflicted with various diseases and torments, and those who were demon-possessed, epileptics, and paralytics; and He healed them."
+        },
+        {
+          "line": 42,
+          "number": 25,
+          "literal": "25 Great multitudes followed Him—from Galilee, and from Decapolis, Jerusalem, Judea, and beyond the Jordan."
+        },
+        {
+          "line": 45,
+          "number": 1,
+          "literal": "1 And seeing the multitudes, He went up on a mountain, and when He was seated His disciples came to Him."
+        },
+        {
+          "line": 48,
+          "number": 2,
+          "literal": "2 Then He opened His mouth and taught them, saying:"
+        },
+        {
+          "line": 51,
+          "number": 3,
+          "literal": "3 “Blessed are the poor in spirit, For theirs is the kingdom of heaven."
+        },
+        {
+          "line": 54,
+          "number": 4,
+          "literal": "4 Blessed are those who mourn, For they shall be comforted."
+        },
+        {
+          "line": 57,
+          "number": 5,
+          "literal": "5 Blessed are the meek, For they shall inherit the earth."
+        },
+        {
+          "line": 60,
+          "number": 6,
+          "literal": "6 Blessed are those who hunger and thirst for righteousness, For they shall be filled."
+        },
+        {
+          "line": 63,
+          "number": 7,
+          "literal": "7 Blessed are the merciful, For they shall obtain mercy."
+        },
+        {
+          "line": 66,
+          "number": 8,
+          "literal": "8 Blessed are the pure in heart, For they shall see God."
+        },
+        {
+          "line": 69,
+          "number": 9,
+          "literal": "9 Blessed are the peacemakers, For they shall be called sons of God."
+        },
+        {
+          "line": 72,
+          "number": 10,
+          "literal": "10 Blessed are those who are persecuted for righteousness’ sake, For theirs is the kingdom of heaven."
+        },
+        {
+          "line": 75,
+          "number": 11,
+          "literal": "11 “Blessed are you when they revile and persecute you, and say all kinds of evil against you falsely for My sake."
+        },
+        {
+          "line": 78,
+          "number": 12,
+          "literal": "12 Rejoice and be exceedingly glad, for great is your reward in heaven, for so they persecuted the prophets who were before you."
+        },
+        {
+          "line": 81,
+          "number": 13,
+          "literal": "13 “You are the salt of the earth; but if the salt loses its flavor, how shall it be seasoned? It is then good for nothing but to be thrown out and trampled underfoot by men."
+        },
+        {
+          "line": 84,
+          "number": 14,
+          "literal": "14 “You are the light of the world. A city that is set on a hill cannot be hidden."
+        },
+        {
+          "line": 87,
+          "number": 15,
+          "literal": "15 Nor do they light a lamp and put it under a basket, but on a lampstand, and it gives light to all who are in the house."
+        },
+        {
+          "line": 90,
+          "number": 16,
+          "literal": "16 Let your light so shine before men, that they may see your good works and glorify your Father in heaven."
+        }
+      ],
+      "isPsalm": false,
+      "boundaryCheck": {
+        "pass": true,
+        "observedVerseRun": [
+          [
+            4,
+            23
+          ],
+          [
+            4,
+            24
+          ],
+          [
+            4,
+            25
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            11
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            5,
+            13
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            5,
+            16
+          ]
+        ],
+        "first": [
+          4,
+          23
+        ],
+        "last": [
+          5,
+          16
+        ],
+        "scope": "source English numbered body and printed boundaries; no external edition equivalence"
+      },
+      "canonicalPsalmStatus": null
+    }
+  ],
+  "tableTextSha256": "826366fd244494e1214ea9182814b273aae666f35a68038fee1725390b4781bf",
+  "independentAcceptance": true,
+  "acceptanceScope": "exact dated saved rendered-hash witness only",
+  "recurringAcceptance": false,
+  "releaseReady": false,
+  "parentManifestUpdated": false,
+  "originalSeed": {
+    "id": "AnnualReadings-129",
+    "date": "2026-01-17",
+    "alternate_dates": [
+      "2028-01-18",
+      "2025-01-17",
+      "2024-01-18",
+      "2023-01-17",
+      "2022-01-17",
+      "2020-01-18",
+      "2029-01-17",
+      "2030-01-17",
+      "2031-01-17",
+      "2033-01-17",
+      "2034-01-17",
+      "2035-01-17"
+    ],
+    "family": "AnnualReadings",
+    "key": {
+      "Id": 129,
+      "Month_Number": 5,
+      "Month_Name": "Tubah",
+      "Day": 9,
+      "DayName": ""
+    },
+    "seed_signature": "3312b0e0205c263b376c73b8d40c4cb7853c298d0b6c2beeb65b4f50fbac662c",
+    "status": "planned",
+    "source_fields": [
+      {
+        "V_Psalm_Ref": "19.112:1-2",
+        "V_Gospel_Ref": "40.25:14-23"
+      },
+      {
+        "M_Psalm_Ref": "19.132:1,2,9,10",
+        "M_Gospel_Ref": "42.6:17-23"
+      },
+      {
+        "P_Gospel_Ref": "58.11:17-31",
+        "C_Gospel_Ref": "59.1:12-21",
+        "X_Gospel_Ref": "44.19:11-20",
+        "L_Psalm_Ref": "19.1:1",
+        "L_Gospel_Ref": "40.4:23-25*@+40.5:1-16"
+      }
+    ],
+    "warning": "seed candidate, not source identity or authority absence"
+  },
+  "originalCapture": {
+    "id": "AnnualReadings-129",
+    "date": "2026-01-17",
+    "family": "AnnualReadings",
+    "key": {
+      "Id": 129,
+      "Month_Number": 5,
+      "Month_Name": "Tubah",
+      "Day": 9,
+      "DayName": ""
+    },
+    "homeContext": "Selected Season Theophany Paramoun Tobe 9, 1742 Saturday, January 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "status": "whole_ordinary_scripture_table_captured",
+    "documents": [
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Vespers",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Vespers.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Vespers.png",
+        "textSha256": "03bba3f4d41704dc98c67cf9425f9e9104df8da868dffede6aec742d58ff1ed8",
+        "screenshotSha256": "f0af6044b0a1af68b4900bb5c65c00cdb4f9ef6546f3c28a61a06e84d9dab51d",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:38:54.010Z",
+        "printedReferences": [
+          "Psalms 41:1,6",
+          "Matthew 4:12-22"
+        ],
+        "referenceScreenshots": [
+          {
+            "printedReference": "Psalms 41:1,6",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Vespers-reference-0.png",
+            "sha256": "f0af6044b0a1af68b4900bb5c65c00cdb4f9ef6546f3c28a61a06e84d9dab51d"
+          },
+          {
+            "printedReference": "Matthew 4:12-22",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Vespers-reference-1.png",
+            "sha256": "a01d00c8050a01d3e4862c6e618ea710d9492243c6ded6e195b3f255e1eb7f97"
+          }
+        ]
+      },
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Matins-Prophecies",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Matins-Prophecies.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Matins-Prophecies.png",
+        "textSha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+        "screenshotSha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:38:58.141Z",
+        "printedReferences": [],
+        "referenceScreenshots": []
+      },
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Matins-Psalm and Gospel",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Matins-Psalm_and_Gospel.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Matins-Psalm_and_Gospel.png",
+        "textSha256": "4a379cec348ebe3a886670528ad4b3e81f6c11d285bd642cb3848a7da70a78e6",
+        "screenshotSha256": "d1d04aad7b69f5d6d29a43af2293d42c002009ad6ceb5d8aeb100c14edf86561",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:39:00.983Z",
+        "printedReferences": [
+          "Psalms 41:8,9",
+          "John 3:22-29"
+        ],
+        "referenceScreenshots": [
+          {
+            "printedReference": "Psalms 41:8,9",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Matins-Psalm_and_Gospel-reference-0.png",
+            "sha256": "d1d04aad7b69f5d6d29a43af2293d42c002009ad6ceb5d8aeb100c14edf86561"
+          },
+          {
+            "printedReference": "John 3:22-29",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Matins-Psalm_and_Gospel-reference-1.png",
+            "sha256": "5d8c66ef029bdda38b71bb99bf44f6ea5c4c33ec7688f85e662dd70c55f827c9"
+          }
+        ]
+      },
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Liturgy-Pauline Epistle",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Pauline_Epistle.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Pauline_Epistle.png",
+        "textSha256": "6903c174d6f2283170297f427d4b2e93445738b4f56b5a04da515d1e4a74256a",
+        "screenshotSha256": "a40a7015f562b88d0dbeece5b7f0a646116c3604c70e4089d842a7938e7c90f1",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:39:06.227Z",
+        "printedReferences": [
+          "1 Corinthians 1:1-17"
+        ],
+        "referenceScreenshots": [
+          {
+            "printedReference": "1 Corinthians 1:1-17",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Pauline_Epistle-reference-0.png",
+            "sha256": "95b577ab0c6ffe1260f0a7db8c1fcc9470b2b75ac1cae4d2312e9f6e5acd9119"
+          }
+        ]
+      },
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Liturgy-Catholic Epistle",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Catholic_Epistle.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Catholic_Epistle.png",
+        "textSha256": "9d4fb4f31c1b62a9da027ea4f034e0008273678802748dd4a467022f5494eefc",
+        "screenshotSha256": "5b849cc0b46d05ed7be45b8b5002c8ba88dbcd5c14bc2987e6564db068f5e9c8",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:39:09.127Z",
+        "printedReferences": [
+          "2 Peter 1:12-19"
+        ],
+        "referenceScreenshots": [
+          {
+            "printedReference": "2 Peter 1:12-19",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Catholic_Epistle-reference-0.png",
+            "sha256": "5b849cc0b46d05ed7be45b8b5002c8ba88dbcd5c14bc2987e6564db068f5e9c8"
+          }
+        ]
+      },
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Liturgy-Praxis",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Praxis.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Praxis.png",
+        "textSha256": "881006949722b6470af35ca21f8142fe7618e0e6f91177dbcb1c347499b6f525",
+        "screenshotSha256": "e997f3f0ebf1db6cf204130eaed63cfd7e23d772214d06c622ad9220fec451b6",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:39:12.365Z",
+        "printedReferences": [
+          "Acts 16:25-34"
+        ],
+        "referenceScreenshots": [
+          {
+            "printedReference": "Acts 16:25-34",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Praxis-reference-0.png",
+            "sha256": "e997f3f0ebf1db6cf204130eaed63cfd7e23d772214d06c622ad9220fec451b6"
+          }
+        ]
+      },
+      {
+        "context": "AnnualReadings-129",
+        "date": "2026-01-17",
+        "label": "Liturgy-Psalm and Gospel",
+        "url": "https://copticreader.org/app/#/document",
+        "type": "rendered_reading_document",
+        "textPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Psalm_and_Gospel.txt",
+        "screenshotPath": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Psalm_and_Gospel.png",
+        "textSha256": "b5a5db854ae7912c604deacb4ba7d00a19861e34e415fb46c52a93f2b2c46bfa",
+        "screenshotSha256": "a0f52c296bcb7cc8bfe738fa85c8656e1cd98ed000efe33187a48d2bcfc915da",
+        "buttons": [],
+        "capturedAt": "2026-10-07T19:39:15.159Z",
+        "printedReferences": [
+          "Psalms 44:3,4",
+          "Luke 3:1-18"
+        ],
+        "referenceScreenshots": [
+          {
+            "printedReference": "Psalms 44:3,4",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Psalm_and_Gospel-reference-0.png",
+            "sha256": "a0f52c296bcb7cc8bfe738fa85c8656e1cd98ed000efe33187a48d2bcfc915da"
+          },
+          {
+            "printedReference": "Luke 3:1-18",
+            "path": "AnnualReadings-129/edb51d9e-387a-406d-8563-8163a5e0db58/Liturgy-Psalm_and_Gospel-reference-1.png",
+            "sha256": "9c246e3b15bb7286155eed5d5de57cee5bb79c1d4fd86decdcfd1d1849b5b81e"
+          }
+        ]
+      }
+    ],
+    "orderedPrintedReferences": [
+      {
+        "slot": "Vespers",
+        "refs": [
+          "Psalms 41:1,6",
+          "Matthew 4:12-22"
+        ]
+      },
+      {
+        "slot": "Matins-Prophecies",
+        "refs": []
+      },
+      {
+        "slot": "Matins-Psalm and Gospel",
+        "refs": [
+          "Psalms 41:8,9",
+          "John 3:22-29"
+        ]
+      },
+      {
+        "slot": "Liturgy-Pauline Epistle",
+        "refs": [
+          "1 Corinthians 1:1-17"
+        ]
+      },
+      {
+        "slot": "Liturgy-Catholic Epistle",
+        "refs": [
+          "2 Peter 1:12-19"
+        ]
+      },
+      {
+        "slot": "Liturgy-Praxis",
+        "refs": [
+          "Acts 16:25-34"
+        ]
+      },
+      {
+        "slot": "Liturgy-Psalm and Gospel",
+        "refs": [
+          "Psalms 44:3,4",
+          "Luke 3:1-18"
+        ]
+      }
+    ],
+    "tableTextSha256": "2707c7076cc8723ce71e20fb324026dbd5fb7b39be2ec7dc6c02e00244bb49bc",
+    "note": "Synaxarion and Antiphonary excluded; rubric documents retained; literal printed Psalm refs not normalized"
+  },
+  "contextOnlyDate": "2023-01-17"
+}

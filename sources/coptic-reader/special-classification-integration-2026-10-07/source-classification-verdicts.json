@@ -1,0 +1,3932 @@
+[
+  {
+    "row": 261,
+    "capture_id": "e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4",
+    "ordinal": 9,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 2"
+    ],
+    "printed_ref": "1 Chronicles 15:2-16:43",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4.txt",
+    "sha256": "55f9982c6bfd765306cc6816dac9c0a12906d2865d2453c79bf696402f323a95",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1201,
+        "text": "Lord have mercy."
+      },
+      {
+        "line": 1202,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1203,
+        "text": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      },
+      {
+        "line": 1204,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1205,
+        "text": "يا ربُّ ارحَمْ."
+      },
+      {
+        "line": 1206,
+        "text": "People:"
+      },
+      {
+        "line": 1207,
+        "text": "Glory be to our God."
+      },
+      {
+        "line": 1208,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1209,
+        "text": "Ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+      },
+      {
+        "line": 1210,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1211,
+        "text": "المجد لله."
+      },
+      {
+        "line": 1212,
+        "text": "\t1 Chronicles 15:2-16:43"
+      },
+      {
+        "line": 1213,
+        "text": "(1 اخبار 15: 2-16: 43)"
+      },
+      {
+        "line": 1214,
+        "text": "Reader:"
+      },
+      {
+        "line": 1215,
+        "text": "A reading from 1 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 1216,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1217,
+        "text": "من 1 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 1218,
+        "text": "2 Then David said, “No one may carry the ark of God but the Levites, for the Lord has chosen them to carry the ark of God and to minister before Him forever.”"
+      },
+      {
+        "line": 1219,
+        "text": "2 حِينَئِذٍ قَالَ دَاوُدُ: «لَيْسَ لأَحَدٍ أَنْ يَحْمِلَ تَابُوتَ اللَّهِ إِلاَّ لِلاَّوِيِّينَ, لأَنَّ الرَّبَّ إِنَّمَا اخْتَارَهُمْ لِحَمْلِ تَابُوتِ اللَّهِ وَلِخِدْمَتِهِ إِلَى الأَبَدِ»."
+      },
+      {
+        "line": 1220,
+        "text": "3 And David gathered all Israel together at Jerusalem, to bring up the ark of the Lord to its place, which he had prepared for it."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 262,
+    "capture_id": "e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4",
+    "ordinal": 10,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 2"
+    ],
+    "printed_ref": "1 Chronicles 28:2-29:22",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4.txt",
+    "sha256": "55f9982c6bfd765306cc6816dac9c0a12906d2865d2453c79bf696402f323a95",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1443,
+        "text": "Lord have mercy."
+      },
+      {
+        "line": 1444,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1445,
+        "text": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      },
+      {
+        "line": 1446,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1447,
+        "text": "يا ربُّ ارحَمْ."
+      },
+      {
+        "line": 1448,
+        "text": "People:"
+      },
+      {
+        "line": 1449,
+        "text": "Glory be to our God."
+      },
+      {
+        "line": 1450,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1451,
+        "text": "Ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+      },
+      {
+        "line": 1452,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1453,
+        "text": "المجد لله."
+      },
+      {
+        "line": 1454,
+        "text": "\t1 Chronicles 28:2-29:22"
+      },
+      {
+        "line": 1455,
+        "text": "(1 اخبار 28: 2-29: 22)"
+      },
+      {
+        "line": 1456,
+        "text": "Reader:"
+      },
+      {
+        "line": 1457,
+        "text": "A reading from 1 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 1458,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1459,
+        "text": "من 1 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 1460,
+        "text": "2 Then King David rose to his feet and said, “Hear me, my brethren and my people: I had it in my heart to build a house of rest for the ark of the covenant of the Lord, and for the footstool of our God, and had made preparations to build it."
+      },
+      {
+        "line": 1461,
+        "text": "2 وَوَقَفَ دَاوُدُ الْمَلِكُ وَقَالَ: «اِسْمَعُونِي يَا إِخْوَتِي وَشَعْبِي. كَانَ فِي قَلْبِي أَنْ أَبْنِيَ بَيْتَ قَرَارٍ لِتَابُوتِ عَهْدِ الرَّبِّ وَلِمَوْطِئِ قَدَمَيْ إِلَهِنَا, وَقَدْ هَيَّأْتُ لِلْبِنَاءِ."
+      },
+      {
+        "line": 1462,
+        "text": "3 But God said to me, ‘You shall not build a house for My name, because you have been a man of war and have shed blood.’"
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 263,
+    "capture_id": "e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4",
+    "ordinal": 11,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 2"
+    ],
+    "printed_ref": "2 Chronicles 3:1-6:11",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4.txt",
+    "sha256": "55f9982c6bfd765306cc6816dac9c0a12906d2865d2453c79bf696402f323a95",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1636,
+        "text": "Lord have mercy."
+      },
+      {
+        "line": 1637,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1638,
+        "text": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      },
+      {
+        "line": 1639,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1640,
+        "text": "يا ربُّ ارحَمْ."
+      },
+      {
+        "line": 1641,
+        "text": "People:"
+      },
+      {
+        "line": 1642,
+        "text": "Glory be to our God."
+      },
+      {
+        "line": 1643,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1644,
+        "text": "Ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+      },
+      {
+        "line": 1645,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1646,
+        "text": "المجد لله."
+      },
+      {
+        "line": 1647,
+        "text": "\t2 Chronicles 3:1-6:11"
+      },
+      {
+        "line": 1648,
+        "text": "(2 اخبار 3: 1-6: 11)"
+      },
+      {
+        "line": 1649,
+        "text": "Reader:"
+      },
+      {
+        "line": 1650,
+        "text": "A reading from 2 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 1651,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1652,
+        "text": "من 2 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 1653,
+        "text": "1 Now Solomon began to build the house of the Lord at Jerusalem on Mount Moriah, where the Lord had appeared to his father David, at the place that David had prepared on the threshing floor of Ornan the Jebusite."
+      },
+      {
+        "line": 1654,
+        "text": "1 وَشَرَعَ سُلَيْمَانُ فِي بِنَاءِ بَيْتِ الرَّبِّ فِي أُورُشَلِيمَ فِي جَبَلِ الْمُرِيَّا حَيْثُ تَرَاءَى لِدَاوُدَ أَبِيهِ حَيْثُ هَيَّأَ دَاوُدُ مَكَاناً فِي بَيْدَرِ أُرْنَانَ الْيَبُوسِيِّ."
+      },
+      {
+        "line": 1655,
+        "text": "2 And he began to build on the second day of the second month in the fourth year of his reign."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 264,
+    "capture_id": "e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4",
+    "ordinal": 12,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 2"
+    ],
+    "printed_ref": "1 Kings 8:22-61",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4.txt",
+    "sha256": "55f9982c6bfd765306cc6816dac9c0a12906d2865d2453c79bf696402f323a95",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1902,
+        "text": "Lord have mercy."
+      },
+      {
+        "line": 1903,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1904,
+        "text": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ."
+      },
+      {
+        "line": 1905,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1906,
+        "text": "يا ربُّ ارحَمْ."
+      },
+      {
+        "line": 1907,
+        "text": "People:"
+      },
+      {
+        "line": 1908,
+        "text": "Glory be to our God."
+      },
+      {
+        "line": 1909,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 1910,
+        "text": "Ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+      },
+      {
+        "line": 1911,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 1912,
+        "text": "المجد لله."
+      },
+      {
+        "line": 1913,
+        "text": "\t1 Kings 8:22-61"
+      },
+      {
+        "line": 1914,
+        "text": "(1 ملوك 8: 22-61)"
+      },
+      {
+        "line": 1915,
+        "text": "Reader:"
+      },
+      {
+        "line": 1916,
+        "text": "A reading from 1 Kings, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 1917,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1918,
+        "text": "من 1 ملوك بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 1919,
+        "text": "22 Then Solomon stood before the altar of the Lord in the presence of all the assembly of Israel, and spread out his hands toward heaven;"
+      },
+      {
+        "line": 1920,
+        "text": "22 وَوَقَفَ سُلَيْمَانُ أَمَامَ مَذْبَحِ الرَّبِّ تُجَاهَ كُلِّ جَمَاعَةِ إِسْرَائِيلَ، وَبَسَطَ يَدَيْهِ إِلَى السَّمَاءِ"
+      },
+      {
+        "line": 1921,
+        "text": "23 and he said: “Lord God of Israel, there is no God in heaven above or on earth below like You, who keep Your covenant and mercy with Your servants who walk before You with all their hearts."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 265,
+    "capture_id": "7cf87171-27ce-4d78-bff2-e606e0166eef-4",
+    "ordinal": 1,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 3"
+    ],
+    "printed_ref": "2 Chronicles 7:1-6",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cf87171-27ce-4d78-bff2-e606e0166eef-4.txt",
+    "sha256": "dcde52879dea64749f2a72f29751bf65435af32c7b574c715664c68720395537",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1,
+        "text": "Church Consecration (Part 3)"
+      },
+      {
+        "line": 2,
+        "text": "Ⲡϫⲓⲛⲉⲣⲁⲅⲓⲁⲍⲓⲛ ⲛ̀ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲙ̀ⲃⲉⲣⲓ"
+      },
+      {
+        "line": 3,
+        "text": "People:"
+      },
+      {
+        "line": 4,
+        "text": "Glory be to our God."
+      },
+      {
+        "line": 5,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 6,
+        "text": "Ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+      },
+      {
+        "line": 7,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 8,
+        "text": "المجد لله."
+      },
+      {
+        "line": 9,
+        "text": "\t2 Chronicles 7:1-6"
+      },
+      {
+        "line": 10,
+        "text": "(2 اخبار 7: 1-6)"
+      },
+      {
+        "line": 11,
+        "text": "Reader:"
+      },
+      {
+        "line": 12,
+        "text": "A reading from 2 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 13,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 14,
+        "text": "من 2 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 15,
+        "text": "1 When Solomon had finished praying, fire came down from heaven and consumed the burnt offering and the sacrifices; and the glory of the Lord filled the temple."
+      },
+      {
+        "line": 16,
+        "text": "1 وَلَمَّا انْتَهَى سُلَيْمَانُ مِنَ الصَّلاَةِ نَزَلَتِ النَّارُ مِنَ السَّمَاءِ وَأَكَلَتِ الْمُحْرَقَةَ وَالذَّبَائِحَ وَمَلَأَ مَجْدُ الرَّبِّ الْبَيْتَ."
+      },
+      {
+        "line": 17,
+        "text": "2 And the priests could not enter the house of the Lord, because the glory of the Lord had filled the Lord’s house."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 266,
+    "capture_id": "7cf87171-27ce-4d78-bff2-e606e0166eef-4",
+    "ordinal": 2,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 3"
+    ],
+    "printed_ref": "2 Chronicles 7:7-18",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/7cf87171-27ce-4d78-bff2-e606e0166eef-4.txt",
+    "sha256": "dcde52879dea64749f2a72f29751bf65435af32c7b574c715664c68720395537",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 338,
+        "text": "Grant Your people oneness of heart. Give dignity to the world, good temper to the air."
+      },
+      {
+        "line": 339,
+        "text": "Ⲡⲓⲟⲩⲏⲃ:"
+      },
+      {
+        "line": 340,
+        "text": "Ⲁⲣⲓϩ̀ⲙⲟⲧ ⲙ̀ⲡⲉⲕⲗⲁⲟⲥ ⲛ̀ϯⲙⲉⲧϩⲏⲧ ⲛ̀ⲟⲩⲱⲧ: ⲙⲟⲓ ⲛ̀ⲟⲩⲥⲉⲙⲛⲓ ⲙ̀ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲟⲩⲑⲱⲧ ⲉ̀ⲛⲁⲛⲉϥ ⲙ̀ⲡⲓⲁ̀ⲏⲣ."
+      },
+      {
+        "line": 341,
+        "text": "الكاهنُ:"
+      },
+      {
+        "line": 342,
+        "text": "أَنعِمْ على شعبِكَ بوحدانيةِ القلبِ. أَعطِ طُمأنينةً للعالمِ، ومزاجاً حسناً للهواءِ."
+      },
+      {
+        "line": 343,
+        "text": "People:"
+      },
+      {
+        "line": 344,
+        "text": "Glory be to our God."
+      },
+      {
+        "line": 345,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 346,
+        "text": "Ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+      },
+      {
+        "line": 347,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 348,
+        "text": "المجد لله."
+      },
+      {
+        "line": 349,
+        "text": "\t2 Chronicles 7:7-18"
+      },
+      {
+        "line": 350,
+        "text": "(2 اخبار 7: 7-18)"
+      },
+      {
+        "line": 351,
+        "text": "Reader:"
+      },
+      {
+        "line": 352,
+        "text": "A reading from 2 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 353,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 354,
+        "text": "من 2 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 355,
+        "text": "7 Furthermore Solomon consecrated the middle of the court that was in front of the house of the Lord; for there he offered burnt offerings and the fat of the peace offerings, because the bronze altar which Solomon had made was not able to receive the burnt offerings, the grain offerings, and the fat."
+      },
+      {
+        "line": 356,
+        "text": "7 وَقَدَّسَ سُلَيْمَانُ وَسَطَ الدَّارِ الَّتِي أَمَامَ بَيْتِ الرَّبِّ لأَنَّهُ قَرَّبَ هُنَاكَ الْمُحْرَقَاتِ وَشَحْمَ ذَبَائِحِ السَّلاَمَةِ لأَنَّ مَذْبَحَ النُّحَاسِ الَّذِي عَمِلَهُ سُلَيْمَانُ لَمْ يَكْفِ لأَنْ يَسَعَ الْمُحْرَقَاتِ وَالتَّقْدِمَاتِ وَالشَّحْمَ."
+      },
+      {
+        "line": 357,
+        "text": "8 At that time Solomon kept the feast seven days, and all Israel with him, a very great assembly from the entrance of Hamath to the Brook of Egypt."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 273,
+    "capture_id": "ce9791b2-2e0c-435e-b651-2a64a3044b76-4",
+    "ordinal": 4,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Church",
+      "Part 4"
+    ],
+    "printed_ref": "Revelation 21",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/ce9791b2-2e0c-435e-b651-2a64a3044b76-4.txt",
+    "sha256": "b13e758f9232184b7ab500f0064bb1ac0353b338edc16a8a25f6e83033e5341d",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "revelation",
+    "evidence": [
+      {
+        "line": 355,
+        "text": "now and at all times and unto the age of all ages. Amen."
+      },
+      {
+        "line": 356,
+        "text": "Ϯⲛⲟⲩ ⲛⲉⲙ ⲛ̀ⲥⲏⲟⲩ ⲛⲓⲃⲉⲛ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 357,
+        "text": "الآنَ وكلَّ أوانٍ وإلى دهرِ الدهورِ كلِّها. آمين."
+      },
+      {
+        "line": 358,
+        "text": "The introduction to Revelation is chanted in the Bright Saturday tune:"
+      },
+      {
+        "line": 359,
+        "text": "People:"
+      },
+      {
+        "line": 360,
+        "text": "The blessings of the evangelist and theologian: John the virgin: shall come upon this congregation: all say Amen so be it."
+      },
+      {
+        "line": 361,
+        "text": "Ⲡⲓⲗⲁⲟⲥ:"
+      },
+      {
+        "line": 362,
+        "text": "Ⲉⲣⲉ ⲡⲓⲥ̀ⲙⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲑⲉⲟ̀ⲗⲟⲅⲟⲥ ⲛ̀ⲉⲩⲁⲅⲅⲉⲗⲓⲥⲧⲏⲥ Ⲓⲱⲁⲛⲛⲓⲥ ⲡⲓⲡⲁⲣⲑⲉⲛⲟⲥ: ⲉϥⲉ̀ⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲁⲓⲗⲁⲟⲥ ⲁ̀ϫⲟⲥ ⲧⲏⲣⲟⲩ: ϫⲉ ⲁ̀ⲙⲏⲛ ⲉⲥⲉ̀ϣⲱⲡⲓ."
+      },
+      {
+        "line": 363,
+        "text": "الشعبُ:"
+      },
+      {
+        "line": 364,
+        "text": "بركة اللاهوتي الإنجيلي يوحنا البتول تأتي وتحل على هذا الشعب كله ، قولوا كلكم آمين يكون"
+      },
+      {
+        "line": 365,
+        "text": "At the mentioning of the foundation of the new Jerusalem (Chapter 21), the priest chants, “I saw the walls (Ⲁⲛⲟⲕ ⲁⲓⲛⲁⲩ)...” and the people respond with, “Our Savior is in its Midst (Ⲉⲣⲉ Ⲡⲉⲛⲥⲱⲧⲏⲣ).”"
+      },
+      {
+        "line": 366,
+        "text": "\tRevelation 21"
+      },
+      {
+        "line": 367,
+        "text": "(رؤيا 21)"
+      },
+      {
+        "line": 368,
+        "text": "Reader:"
+      },
+      {
+        "line": 369,
+        "text": "1 Now I saw a new heaven and a new earth, for the first heaven and the first earth had passed away. Also there was no more sea."
+      },
+      {
+        "line": 370,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 371,
+        "text": "Ⲟⲩⲟϩ ⲁⲓⲛⲁⲩ ⲉ̀ⲟⲩⲫⲉ ⲙ̀ⲃⲉⲣⲓ ⲛⲉⲙ ⲟⲩⲕⲁϩⲓ ⲙ̀ⲃⲉⲣⲓ ϯⲫⲉ ⲅⲁⲣ ⲛ̀ϩⲟⲩⲓϯ ⲛⲉⲙ ⲡⲓⲕⲁϩⲓ ⲁⲩϣⲉ ⲛⲱⲟⲩ ⲟⲩⲟϩ ⲙ̀ⲙⲟⲛ ⲓⲟⲙ ϫⲉ."
+      },
+      {
+        "line": 372,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 373,
+        "text": "1 ثُمَّ رَأَيْتُ سَمَاءً جَدِيدَةً وَأَرْضاً جَدِيدَةً، لأَنَّ السَّمَاءَ الأُولَى وَالأَرْضَ الأُولَى مَضَتَا، وَالْبَحْرُ لاَ يُوجَدُ فِي مَا بَعْدُ."
+      },
+      {
+        "line": 374,
+        "text": "2 Then I, John, saw the holy city, New Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 299,
+    "capture_id": "aa5bede0-5d9d-40e6-9586-c40061c26ae3-3",
+    "ordinal": 4,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Monk"
+    ],
+    "printed_ref": "Sirach 2:1-9",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aa5bede0-5d9d-40e6-9586-c40061c26ae3-3.txt",
+    "sha256": "3cd17432cb09afe84ba9516a55b7634da98c434bdc4e02f8c683961ef055e481",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 311,
+        "text": "6 “Therefore you shall keep the commandments of the Lord your God, to walk in His ways and to fear Him."
+      },
+      {
+        "line": 312,
+        "text": "6 وَاحْفَظْ وَصَايَا الرَّبِّ إِلهِكَ لِتَسْلُكَ فِي طُرُقِهِ وَتَتَّقِيَهُ"
+      },
+      {
+        "line": 313,
+        "text": "7 For the Lord your God is bringing you into a good land, a land of brooks of water, of fountains and springs, that flow out of valleys and hills;"
+      },
+      {
+        "line": 314,
+        "text": "7 لأَنَّ الرَّبَّ إِلهَكَ آتٍ بِكَ إِلى أَرْضٍ جَيِّدَةٍ أَرْضِ أَنْهَارٍ مِنْ عُيُونٍ وَغِمَارٍ تَنْبَعُ فِي البِقَاعِ وَالجِبَالِ."
+      },
+      {
+        "line": 315,
+        "text": "8 a land of wheat and barley, of vines and fig trees and pomegranates, a land of olive oil and honey;"
+      },
+      {
+        "line": 316,
+        "text": "8 أَرْضِ حِنْطَةٍ وَشَعِيرٍ وَكَرْمٍ وَتِينٍ وَرُمَّانٍ. أَرْضِ زَيْتُونِ زَيْتٍ وَعَسَلٍ."
+      },
+      {
+        "line": 317,
+        "text": "9 a land in which you will eat bread without scarcity, in which you will lack nothing; a land whose stones are iron and out of whose hills you can dig copper."
+      },
+      {
+        "line": 318,
+        "text": "9 أَرْضٌ ليْسَ بِالمَسْكَنَةِ تَأْكُلُ فِيهَا خُبْزاً وَلا يُعْوِزُكَ فِيهَا شَيْءٌ. أَرْضٌ حِجَارَتُهَا حَدِيدٌ وَمِنْ جِبَالِهَا تَحْفُرُ نُحَاساً."
+      },
+      {
+        "line": 319,
+        "text": "Glory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen."
+      },
+      {
+        "line": 320,
+        "text": "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 321,
+        "text": "مجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين."
+      },
+      {
+        "line": 322,
+        "text": "\tSirach 2:1-9"
+      },
+      {
+        "line": 323,
+        "text": "(يشوع بن سيراخ 2: 1-9)"
+      },
+      {
+        "line": 324,
+        "text": "Reader:"
+      },
+      {
+        "line": 325,
+        "text": "A reading from Sirach, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 326,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 327,
+        "text": "من يشوع بن سيراخ بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 328,
+        "text": "1 Son, when you apply yourself to the service of God, stand in justice and in fear, and prepare your soul for temptation."
+      },
+      {
+        "line": 329,
+        "text": "1 يَا بُنَيَّ، إِنْ أَقْبَلْتَ لِخِدْمَةِ الرَّبِّ الإِلهِ، فَاثْبُتْ عَلَى الْبِرِّ وَالتَّقْوَى، وَأَعْدِدْ نَفْسَكَ لِلتَّجْرِبَةِ."
+      },
+      {
+        "line": 330,
+        "text": "2 Humble your heart, and persevere. Incline your ear, and accept words of understanding. And you should not hurry away in the time of distress."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 309,
+    "capture_id": "27fdfd9c-6def-46fe-b327-d9c998d414af-3",
+    "ordinal": 4,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Nuns"
+    ],
+    "printed_ref": "Sirach 2:1-9",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/27fdfd9c-6def-46fe-b327-d9c998d414af-3.txt",
+    "sha256": "a13bdfb2930174fa81ab2146b09765b9b5db51a69bccc3f5031c2a473f58c71d",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 313,
+        "text": "6 “Therefore you shall keep the commandments of the Lord your God, to walk in His ways and to fear Him."
+      },
+      {
+        "line": 314,
+        "text": "6 وَاحْفَظْ وَصَايَا الرَّبِّ إِلهِكَ لِتَسْلُكَ فِي طُرُقِهِ وَتَتَّقِيَهُ"
+      },
+      {
+        "line": 315,
+        "text": "7 For the Lord your God is bringing you into a good land, a land of brooks of water, of fountains and springs, that flow out of valleys and hills;"
+      },
+      {
+        "line": 316,
+        "text": "7 لأَنَّ الرَّبَّ إِلهَكَ آتٍ بِكَ إِلى أَرْضٍ جَيِّدَةٍ أَرْضِ أَنْهَارٍ مِنْ عُيُونٍ وَغِمَارٍ تَنْبَعُ فِي البِقَاعِ وَالجِبَالِ."
+      },
+      {
+        "line": 317,
+        "text": "8 a land of wheat and barley, of vines and fig trees and pomegranates, a land of olive oil and honey;"
+      },
+      {
+        "line": 318,
+        "text": "8 أَرْضِ حِنْطَةٍ وَشَعِيرٍ وَكَرْمٍ وَتِينٍ وَرُمَّانٍ. أَرْضِ زَيْتُونِ زَيْتٍ وَعَسَلٍ."
+      },
+      {
+        "line": 319,
+        "text": "9 a land in which you will eat bread without scarcity, in which you will lack nothing; a land whose stones are iron and out of whose hills you can dig copper."
+      },
+      {
+        "line": 320,
+        "text": "9 أَرْضٌ ليْسَ بِالمَسْكَنَةِ تَأْكُلُ فِيهَا خُبْزاً وَلا يُعْوِزُكَ فِيهَا شَيْءٌ. أَرْضٌ حِجَارَتُهَا حَدِيدٌ وَمِنْ جِبَالِهَا تَحْفُرُ نُحَاساً."
+      },
+      {
+        "line": 321,
+        "text": "Glory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen."
+      },
+      {
+        "line": 322,
+        "text": "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 323,
+        "text": "مجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين."
+      },
+      {
+        "line": 324,
+        "text": "\tSirach 2:1-9"
+      },
+      {
+        "line": 325,
+        "text": "(يشوع بن سيراخ 2: 1-9)"
+      },
+      {
+        "line": 326,
+        "text": "Reader:"
+      },
+      {
+        "line": 327,
+        "text": "A reading from Sirach, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 328,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 329,
+        "text": "من يشوع بن سيراخ بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 330,
+        "text": "1 Son, when you apply yourself to the service of God, stand in justice and in fear, and prepare your soul for temptation."
+      },
+      {
+        "line": 331,
+        "text": "1 يَا بُنَيَّ، إِنْ أَقْبَلْتَ لِخِدْمَةِ الرَّبِّ الإِلهِ، فَاثْبُتْ عَلَى الْبِرِّ وَالتَّقْوَى، وَأَعْدِدْ نَفْسَكَ لِلتَّجْرِبَةِ."
+      },
+      {
+        "line": 332,
+        "text": "2 Humble your heart, and persevere. Incline your ear, and accept words of understanding. And you should not hurry away in the time of distress."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 327,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 12,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 2:1-17",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1013,
+        "text": "12 مَا دَامَ الْمَلِكُ فِي مَجْلِسِهِ أَفَاحَ نَارِدِينِي رَائِحَتَهُ."
+      },
+      {
+        "line": 1014,
+        "text": "13 A bundle of myrrh is my beloved to me, That lies all night between my breasts."
+      },
+      {
+        "line": 1015,
+        "text": "13 صُرَّةُ الْمُرِّ حَبِيبِي لِي. بَيْنَ ثَدْيَيَّ يَبِيتُ."
+      },
+      {
+        "line": 1016,
+        "text": "14 My beloved is to me a cluster of henna blooms In the vineyards of En Gedi."
+      },
+      {
+        "line": 1017,
+        "text": "14 طَاقَةُ فَاغِيَةٍ حَبِيبِي لِي فِي كُرُومِ عَيْنِ جَدْيٍ."
+      },
+      {
+        "line": 1018,
+        "text": "15 Behold, you are fair, my love! Behold, you are fair! You have dove’s eyes."
+      },
+      {
+        "line": 1019,
+        "text": "15 هَا أَنْتِ جَمِيلَةٌ يَا حَبِيبَتِي، هَا أَنْتِ جَمِيلَةٌ. عَيْنَاكِ حَمَامَتَانِ."
+      },
+      {
+        "line": 1020,
+        "text": "16 Behold, you are handsome, my beloved! Yes, pleasant! Also our bed is green."
+      },
+      {
+        "line": 1021,
+        "text": "16 هَا أَنْتَ جَمِيلٌ يَا حَبِيبِي وَحُلْوٌ، وَسَرِيرُنَا أَخْضَرُ."
+      },
+      {
+        "line": 1022,
+        "text": "17 The beams of our houses are cedar, And our rafters of fir."
+      },
+      {
+        "line": 1023,
+        "text": "17 جَوَائِزُ بَيْتِنَا أَرْزٌ، وَرَوَافِدُنَا سَرْوٌ."
+      },
+      {
+        "line": 1024,
+        "text": "\tSong of Solomon 2:1-17"
+      },
+      {
+        "line": 1025,
+        "text": "(نشيد الانشاد 2: 1-17)"
+      },
+      {
+        "line": 1026,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1027,
+        "text": "1 I am the rose of Sharon, And the lily of the valleys."
+      },
+      {
+        "line": 1028,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1029,
+        "text": "1 أَنَا نَرْجِسُ شَارُونَ، سَوْسَنَةُ الأَوْدِيَةِ."
+      },
+      {
+        "line": 1030,
+        "text": "2 Like a lily among thorns, So is my love among the daughters."
+      },
+      {
+        "line": 1031,
+        "text": "2 كَالسَّوْسَنَةِ بَيْنَ الشَّوْكِ كَذلِكَ حَبِيبَتِي بَيْنَ الْبَنَاتِ."
+      },
+      {
+        "line": 1032,
+        "text": "3 Like an apple tree among the trees of the woods, So is my beloved among the sons. I sat down in his shade with great delight, And his fruit was sweet to my taste."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 328,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 13,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 3:1-11",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1051,
+        "text": "12 الزُّهُورُ ظَهَرَتْ فِي الأَرْضِ. بَلَغَ أَوَانُ الْقَضْبِ، وَصَوْتُ الْيَمَامَةِ سُمِعَ فِي أَرْضِنَا."
+      },
+      {
+        "line": 1052,
+        "text": "13 The fig tree puts forth her green figs, And the vines with the tender grapes Give a good smell. Rise up, my love, my fair one, And come away!"
+      },
+      {
+        "line": 1053,
+        "text": "13 التِّينَةُ أَخْرَجَتْ فِجَّهَا، وَقُعَالُ الْكُرُومِ تُفِيحُ رَائِحَتَهَا. قُومِي يَا حَبِيبَتِي، يَا جَمِيلَتِي وَتَعَالَيْ."
+      },
+      {
+        "line": 1054,
+        "text": "14 “O my dove, in the clefts of the rock, In the secret places of the cliff, Let me see your face, Let me hear your voice; For your voice is sweet, And your face is lovely.”"
+      },
+      {
+        "line": 1055,
+        "text": "14 يَا حَمَامَتِي فِي مَحَاجِئِ الصَّخْرِ، فِي سِتْرِ الْمَعَاقِلِ، أَرِينِي وَجْهَكِ، أَسْمِعِينِي صَوْتَكِ، لأَنَّ صَوْتَكِ لَطِيفٌ وَوَجْهَكِ جَمِيلٌ."
+      },
+      {
+        "line": 1056,
+        "text": "15 Catch us the foxes, The little foxes that spoil the vines, For our vines have tender grapes."
+      },
+      {
+        "line": 1057,
+        "text": "15 خُذُوا لَنَا الثَّعَالِبَ، الثَّعَالِبَ الصِّغَارَ الْمُفْسِدَةَ الْكُرُومِ، لأَنَّ كُرُومَنَا قَدْ أَقْعَلَتْ."
+      },
+      {
+        "line": 1058,
+        "text": "16 My beloved is mine, and I am his. He feeds his flock among the lilies."
+      },
+      {
+        "line": 1059,
+        "text": "16 حَبِيبِي لِي وَأَنَا لَهُ. الرَّاعِي بَيْنَ السَّوْسَنِ."
+      },
+      {
+        "line": 1060,
+        "text": "17 Until the day breaks And the shadows flee away, Turn, my beloved, And be like a gazelle Or a young stag Upon the mountains of Bether."
+      },
+      {
+        "line": 1061,
+        "text": "17 إِلَى أَنْ يَفِيحَ النَّهَارُ وَتَنْهَزِمَ الظِّلاَلُ، ارْجعْ وَأَشْبِهْ يَا حَبِيبِي الظَّبْيَ أَوْ غُفْرَ الأَيَائِلِ عَلَى الْجِبَالِ الْمُشَعَّبَةِ."
+      },
+      {
+        "line": 1062,
+        "text": "\tSong of Solomon 3:1-11"
+      },
+      {
+        "line": 1063,
+        "text": "(نشيد الانشاد 3: 1-11)"
+      },
+      {
+        "line": 1064,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1065,
+        "text": "1 By night on my bed I sought the one I love; I sought him, but I did not find him."
+      },
+      {
+        "line": 1066,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1067,
+        "text": "1 فِي اللَّيْلِ عَلَى فِرَاشِي طَلَبْتُ مَنْ تُحِبُّهُ نَفْسِي. طَلَبْتُهُ فَمَا وَجَدْتُهُ."
+      },
+      {
+        "line": 1068,
+        "text": "2 “I will rise now,” I said, “And go about the city; In the streets and in the squares I will seek the one I love.” I sought him, but I did not find him."
+      },
+      {
+        "line": 1069,
+        "text": "2 إِنِّي أَقُومُ وَأَطُوفُ فِي الْمَدِينَةِ، فِي الأَسْوَاقِ وَفِي الشَّوَارِعِ، أَطْلُبُ مَنْ تُحِبُّهُ نَفْسِي. طَلَبْتُهُ فَمَا وَجَدْتُهُ."
+      },
+      {
+        "line": 1070,
+        "text": "3 The watchmen who go about the city found me; I said, “Have you seen the one I love?”"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 329,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 14,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 4:1-16",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1077,
+        "text": "6 مَنْ هذِهِ الطَّالِعَةُ مِنَ الْبَرِّيَّةِ كَأَعْمِدَةٍ مِنْ دُخَانٍ، مُعَطَّرَةً بِالْمُرِّ وَاللُّبَانِ وَبِكُلِّ أَذِرَّةِ التَّاجِرِ؟"
+      },
+      {
+        "line": 1078,
+        "text": "7 Behold, it is Solomon’s couch, With sixty valiant men around it, Of the valiant of Israel."
+      },
+      {
+        "line": 1079,
+        "text": "7 هُوَذَا تَخْتُ سُلَيْمَانَ حَوْلَهُ سِتُّونَ جَبَّارًا مِنْ جَبَابِرَةِ إِسْرَائِيلَ."
+      },
+      {
+        "line": 1080,
+        "text": "8 They all hold swords, Being expert in war. Every man has his sword on his thigh Because of fear in the night."
+      },
+      {
+        "line": 1081,
+        "text": "8 كُلُّهُمْ قَابِضُونَ سُيُوفًا وَمُتَعَلِّمُونَ الْحَرْبَ. كُلُّ رَجُل سَيْفُهُ عَلَى فَخْذِهِ مِنْ هَوْلِ اللَّيْلِ."
+      },
+      {
+        "line": 1082,
+        "text": "9 Of the wood of Lebanon Solomon the King Made himself a palanquin:"
+      },
+      {
+        "line": 1083,
+        "text": "9 اَلْمَلِكُ سُلَيْمَانُ عَمِلَ لِنَفْسِهِ تَخْتًا مِنْ خَشَبِ لُبْنَانَ."
+      },
+      {
+        "line": 1084,
+        "text": "10 He made its pillars of silver, Its support of gold, Its seat of purple, Its interior paved with love By the daughters of Jerusalem."
+      },
+      {
+        "line": 1085,
+        "text": "10 عَمِلَ أَعْمِدَتَهُ فِضَّةً، وَرَوَافِدَهُ ذَهَبًا، وَمَقْعَدَهُ أُرْجُوانًا، وَوَسَطَهُ مَرْصُوفًا مَحَبَّةً مِنْ بَنَاتِ أُورُشَلِيمَ."
+      },
+      {
+        "line": 1086,
+        "text": "11 Go forth, O daughters of Zion, And see King Solomon with the crown With which his mother crowned him On the day of his wedding, The day of the gladness of his heart."
+      },
+      {
+        "line": 1087,
+        "text": "11 اُخْرُجْنَ يَا بَنَاتِ صِهْيَوْنَ، وَانْظُرْنَ الْمَلِكَ سُلَيْمَانَ بِالتَّاجِ الَّذِي تَوَّجَتْهُ بِهِ أُمُّهُ فِي يَوْمِ عُرْسِهِ، وَفِي يَوْمِ فَرَحِ قَلْبِهِ."
+      },
+      {
+        "line": 1088,
+        "text": "\tSong of Solomon 4:1-16"
+      },
+      {
+        "line": 1089,
+        "text": "(نشيد الانشاد 4: 1-16)"
+      },
+      {
+        "line": 1090,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1091,
+        "text": "1 Behold, you are fair, my love! Behold, you are fair! You have dove’s eyes behind your veil. Your hair is like a flock of goats, Going down from Mount Gilead."
+      },
+      {
+        "line": 1092,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1093,
+        "text": "1 هَا أَنْتِ جَمِيلَةٌ يَا حَبِيبَتِي، هَا أَنْتِ جَمِيلَةٌ! عَيْنَاكِ حَمَامَتَانِ مِنْ تَحْتِ نَقَابِكِ. شَعْرُكِ كَقَطِيعِ مِعْزٍ رَابِضٍ عَلَى جَبَلِ جِلْعَادَ."
+      },
+      {
+        "line": 1094,
+        "text": "2 Your teeth are like a flock of shorn sheep Which have come up from the washing, Every one of which bears twins, And none is barren among them."
+      },
+      {
+        "line": 1095,
+        "text": "2 أَسْنَانُكِ كَقَطِيعِ الْجَزَائِزِ الصَّادِرَةِ مِنَ الْغَسْلِ، اللَّوَاتِي كُلُّ وَاحِدَةٍ مُتْئِمٌ، وَلَيْسَ فِيهِنَّ عَقِيمٌ."
+      },
+      {
+        "line": 1096,
+        "text": "3 Your lips are like a strand of scarlet, And your mouth is lovely. Your temples behind your veil Are like a piece of pomegranate."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 330,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 15,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 5:1-16",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1113,
+        "text": "11 شَفَتَاكِ يَا عَرُوسُ تَقْطُرَانِ شَهْدًا. تَحْتَ لِسَانِكِ عَسَلٌ وَلَبَنٌ، وَرَائِحَةُ ثِيَابِكِ كَرَائِحَةِ لُبْنَانَ."
+      },
+      {
+        "line": 1114,
+        "text": "12 A garden enclosed Is my sister, my spouse, A spring shut up, A fountain sealed."
+      },
+      {
+        "line": 1115,
+        "text": "12 أُخْتِي الْعَرُوسُ جَنَّةٌ مُغْلَقَةٌ، عَيْنٌ مُقْفَلَةٌ، يَنْبُوعٌ مَخْتُومٌ."
+      },
+      {
+        "line": 1116,
+        "text": "13 Your plants are an orchard of pomegranates With pleasant fruits, Fragrant henna with spikenard,"
+      },
+      {
+        "line": 1117,
+        "text": "13 أَغْرَاسُكِ فِرْدَوْسُ رُمَّانٍ مَعَ أَثْمَارٍ نَفِيسَةٍ، فَاغِيَةٍ وَنَارِدِينٍ."
+      },
+      {
+        "line": 1118,
+        "text": "14 Spikenard and saffron, Calamus and cinnamon, With all trees of frankincense, Myrrh and aloes, With all the chief spices—"
+      },
+      {
+        "line": 1119,
+        "text": "14 نَارِدِينٍ وَكُرْكُمٍ. قَصَبِ الذَّرِيرَةِ وَقِرْفَةٍ، مَعَ كُلِّ عُودِ اللُّبَانِ. مُرٌّ وَعُودٌ مَعَ كُلِّ أَنْفَسِ الأَطْيَابِ."
+      },
+      {
+        "line": 1120,
+        "text": "15 A fountain of gardens, A well of living waters, And streams from Lebanon."
+      },
+      {
+        "line": 1121,
+        "text": "15 يَنْبُوعُ جَنَّاتٍ، بِئْرُ مِيَاهٍ حَيَّةٍ، وَسُيُولٌ مِنْ لُبْنَانَ."
+      },
+      {
+        "line": 1122,
+        "text": "16 Awake, O north wind, And come, O south! Blow upon my garden, That its spices may flow out. Let my beloved come to his garden And eat its pleasant fruits."
+      },
+      {
+        "line": 1123,
+        "text": "16 اِسْتَيْقِظِي يَا رِيحَ الشَّمَالِ، وَتَعَالَيْ يَا رِيحَ الْجَنُوبِ! هَبِّي عَلَى جَنَّتِي فَتَقْطُرَ أَطْيَابُهَا. لِيَأْتِ حَبِيبِي إِلَى جَنَّتِهِ وَيَأْكُلْ ثَمَرَهُ النَّفِيسَ."
+      },
+      {
+        "line": 1124,
+        "text": "\tSong of Solomon 5:1-16"
+      },
+      {
+        "line": 1125,
+        "text": "(نشيد الانشاد 5: 1-16)"
+      },
+      {
+        "line": 1126,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1127,
+        "text": "1 I have come to my garden, my sister, my spouse; I have gathered my myrrh with my spice; I have eaten my honeycomb with my honey; I have drunk my wine with my milk. Eat, O friends! Drink, yes, drink deeply, O beloved ones!"
+      },
+      {
+        "line": 1128,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1129,
+        "text": "1 قَدْ دَخَلْتُ جَنَّتِي يَا أُخْتِي الْعَرُوسُ. قَطَفْتُ مُرِّي مَعَ طِيبِي. أَكَلْتُ شَهْدِي مَعَ عَسَلِي. شَرِبْتُ خَمْرِي مَعَ لَبَنِي. كُلُوا أَيُّهَا الأَصْحَابُ. اشْرَبُوا وَاسْكَرُوا أَيُّهَا الأَحِبَّاءُ."
+      },
+      {
+        "line": 1130,
+        "text": "2 I sleep, but my heart is awake; It is the voice of my beloved! He knocks, saying, “Open for me, my sister, my love, My dove, my perfect one; For my head is covered with dew, My locks with the drops of the night.”"
+      },
+      {
+        "line": 1131,
+        "text": "2 أَنَا نَائِمَةٌ وَقَلْبِي مُسْتَيْقِظٌ. صَوْتُ حَبِيبِي قَارِعًا: «اِفْتَحِي لِي يَا أُخْتِي، يَا حَبِيبَتِي، يَا حَمَامَتِي، يَا كَامِلَتِي! لأَنَّ رَأْسِي امْتَلأَ مِنَ الطَّلِّ، وَقُصَصِي مِنْ نُدَى اللَّيْلِ»."
+      },
+      {
+        "line": 1132,
+        "text": "3 I have taken off my robe; How can I put it on again? I have washed my feet; How can I defile them?"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 331,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 16,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 6:1-13",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1149,
+        "text": "11 رَأْسُهُ ذَهَبٌ إِبْرِيزٌ. قُصَصُهُ مُسْتَرْسِلَةٌ حَالِكَةٌ كَالْغُرَابِ."
+      },
+      {
+        "line": 1150,
+        "text": "12 His eyes are like doves By the rivers of waters, Washed with milk, And fitly set."
+      },
+      {
+        "line": 1151,
+        "text": "12 عَيْنَاهُ كَالْحَمَامِ عَلَى مَجَارِي الْمِيَاهِ، مَغْسُولَتَانِ بِاللَّبَنِ، جَالِسَتَانِ فِي وَقْبَيْهِمَا."
+      },
+      {
+        "line": 1152,
+        "text": "13 His cheeks are like a bed of spices, Banks of scented herbs. His lips are lilies, Dripping liquid myrrh."
+      },
+      {
+        "line": 1153,
+        "text": "13 خَدَّاهُ كَخَمِيلَةِ الطِّيبِ وَأَتْلاَمِ رَيَاحِينَ ذَكِيَّةٍ. شَفَتَاهُ سُوْسَنٌ تَقْطُرَانِ مُرًّا مَائِعًا."
+      },
+      {
+        "line": 1154,
+        "text": "14 His hands are rods of gold Set with beryl. His body is carved ivory Inlaid with sapphires."
+      },
+      {
+        "line": 1155,
+        "text": "14 يَدَاهُ حَلْقَتَانِ مِنْ ذَهَبٍ، مُرَصَّعَتَانِ بِالزَّبَرْجَدِ. بَطْنُهُ عَاجٌ أَبْيَضُ مُغَلَّفٌ بِالْيَاقُوتِ الأَزْرَقِ."
+      },
+      {
+        "line": 1156,
+        "text": "15 His legs are pillars of marble Set on bases of fine gold. His countenance is like Lebanon, Excellent as the cedars."
+      },
+      {
+        "line": 1157,
+        "text": "15 سَاقَاهُ عَمُودَا رُخَامٍ، مُؤَسَّسَتَانِ عَلَى قَاعِدَتَيْنِ مِنْ إِبْرِيزٍ. طَلْعَتُهُ كَلُبْنَانَ. فَتًى كَالأَرْزِ."
+      },
+      {
+        "line": 1158,
+        "text": "16 His mouth is most sweet, Yes, he is altogether lovely. This is my beloved, And this is my friend, O daughters of Jerusalem!"
+      },
+      {
+        "line": 1159,
+        "text": "16 حَلْقُهُ حَلاَوَةٌ وَكُلُّهُ مُشْتَهَيَاتٌ. هذَا حَبِيبِي، وَهذَا خَلِيلِي، يَا بَنَاتِ أُورُشَلِيمَ."
+      },
+      {
+        "line": 1160,
+        "text": "\tSong of Solomon 6:1-13"
+      },
+      {
+        "line": 1161,
+        "text": "(نشيد الانشاد 6: 1-13)"
+      },
+      {
+        "line": 1162,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1163,
+        "text": "1 Where has your beloved gone, O fairest among women? Where has your beloved turned aside, That we may seek him with you?"
+      },
+      {
+        "line": 1164,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1165,
+        "text": "1 أَيْنَ ذَهَبَ حَبِيبُكِ أَيَّتُهَا الْجَمِيلَةُ بَيْنَ النِّسَاءِ؟ أَيْنَ تَوَجَّهَ حَبِيبُكِ فَنَطْلُبَهُ مَعَكِ؟"
+      },
+      {
+        "line": 1166,
+        "text": "2 My beloved has gone to his garden, To the beds of spices, To feed his flock in the gardens, And to gather lilies."
+      },
+      {
+        "line": 1167,
+        "text": "2 حَبِيبِي نَزَلَ إِلَى جَنَّتِهِ، إِلَى خَمَائِلِ الطِّيبِ، لِيَرْعَى فِي الْجَنَّاتِ، وَيَجْمَعَ السَّوْسَنَ."
+      },
+      {
+        "line": 1168,
+        "text": "3 I am my beloved’s, And my beloved is mine. He feeds his flock among the lilies."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 332,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 17,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 7:1-13",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1179,
+        "text": "8 هُنَّ سِتُّونَ مَلِكَةً وَثَمَانُونَ سُرِّيَّةً وَعَذَارَى بِلاَ عَدَدٍ."
+      },
+      {
+        "line": 1180,
+        "text": "9 My dove, my perfect one, Is the only one, The only one of her mother, The favorite of the one who bore her. The daughters saw her And called her blessed, The queens and the concubines, And they praised her."
+      },
+      {
+        "line": 1181,
+        "text": "9 وَاحِدَةٌ هِيَ حَمَامَتِي كَامِلَتِي. الْوَحِيدَةُ لأُمِّهَا هِيَ. عَقِيلَةُ وَالِدَتِهَا هِيَ. رَأَتْهَا الْبَنَاتُ فَطَوَّبْنَهَا. الْمَلِكَاتُ وَالسَّرَارِيُّ فَمَدَحْنَهَا."
+      },
+      {
+        "line": 1182,
+        "text": "10 Who is she who looks forth as the morning, Fair as the moon, Clear as the sun, Awesome as an army with banners?"
+      },
+      {
+        "line": 1183,
+        "text": "10 مَنْ هِيَ الْمُشْرِفَةُ مِثْلَ الصَّبَاحِ، جَمِيلَةٌ كَالْقَمَرِ، طَاهِرَةٌ كَالشَّمْسِ، مُرْهِبَةٌ كَجَيْشٍ بِأَلْوِيَةٍ؟"
+      },
+      {
+        "line": 1184,
+        "text": "11 I went down to the garden of nuts To see the verdure of the valley, To see whether the vine had budded And the pomegranates had bloomed."
+      },
+      {
+        "line": 1185,
+        "text": "11 نَزَلْتُ إِلَى جَنَّةِ الْجَوْزِ لأَنْظُرَ إِلَى خُضَرِ الْوَادِي، وَلأَنْظُرَ: هَلْ أَقْعَلَ الْكَرْمُ؟ هَلْ نَوَّرَ الرُّمَّانُ؟"
+      },
+      {
+        "line": 1186,
+        "text": "12 Before I was even aware, My soul had made me As the chariots of my noble people."
+      },
+      {
+        "line": 1187,
+        "text": "12 فَلَمْ أَشْعُرْ إِلاَّ وَقَدْ جَعَلَتْنِي نَفْسِي بَيْنَ مَرْكَبَاتِ قَوْمِ شَرِيفٍ."
+      },
+      {
+        "line": 1188,
+        "text": "13 Return, return, O Shulamite; Return, return, that we may look upon you! What would you see in the Shulamite— As it were, the dance of the two camps?"
+      },
+      {
+        "line": 1189,
+        "text": "13 اِرْجِعِي، ارْجِعِي يَا شُولَمِّيثُ. ارْجِعِي، ارْجِعِي فَنَنْظُرَ إِلَيْكِ. مَاذَا تَرَوْنَ فِي شُولَمِّيثَ، مِثْلَ رَقْصِ صَفَّيْنِ؟"
+      },
+      {
+        "line": 1190,
+        "text": "\tSong of Solomon 7:1-13"
+      },
+      {
+        "line": 1191,
+        "text": "(نشيد الانشاد 7: 1-13)"
+      },
+      {
+        "line": 1192,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1193,
+        "text": "1 How beautiful are your feet in sandals, O prince’s daughter! The curves of your thighs are like jewels, The work of the hands of a skillful workman."
+      },
+      {
+        "line": 1194,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1195,
+        "text": "1 مَا أَجْمَلَ رِجْلَيْكِ بِالنَّعْلَيْنِ يَا بِنْتَ الْكَرِيمِ! دَوَائِرُ فَخْذَيْكِ مِثْلُ الْحَلِيِّ، صَنْعَةِ يَدَيْ صَنَّاعٍ."
+      },
+      {
+        "line": 1196,
+        "text": "2 Your navel is a rounded goblet; It lacks no blended beverage. Your waist is a heap of wheat Set about with lilies."
+      },
+      {
+        "line": 1197,
+        "text": "2 سُرَّتُكِ كَأْسٌ مُدَوَّرَةٌ، لاَ يُعْوِزُهَا شَرَابٌ مَمْزُوجٌ. بَطْنُكِ صُبْرَةُ حِنْطَةٍ مُسَيَّجَةٌ بِالسَّوْسَنِ."
+      },
+      {
+        "line": 1198,
+        "text": "3 Your two breasts are like two fawns, Twins of a gazelle."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 333,
+    "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+    "ordinal": 18,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Consecration"
+    ],
+    "printed_ref": "Song of Solomon 8:1-14",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt",
+    "sha256": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 1209,
+        "text": "8 قُلْتُ: «إِنِّي أَصْعَدُ إِلَى النَّخْلَةِ وَأُمْسِكُ بِعُذُوقِهَا». وَتَكُونُ ثَدْيَاكِ كَعَنَاقِيدِ الْكَرْمِ، وَرَائِحَةُ أَنْفِكِ كَالتُّفَّاحِ،"
+      },
+      {
+        "line": 1210,
+        "text": "9 And the roof of your mouth like the best wine. The wine goes down smoothly for my beloved, Moving gently the lips of sleepers."
+      },
+      {
+        "line": 1211,
+        "text": "9 .وَحَنَكُكِ كَأَجْوَدِ الْخَمْرِ. لِحَبِيبِي السَّائِغَةُ الْمُرَقْرِقَةُ السَّائِحَةُ عَلَى شِفَاهِ النَّائِمِينَ"
+      },
+      {
+        "line": 1212,
+        "text": "10 I am my beloved’s, And his desire is toward me."
+      },
+      {
+        "line": 1213,
+        "text": "10 أَنَا لِحَبِيبِي، وَإِلَيَّ اشْتِيَاقُهُ."
+      },
+      {
+        "line": 1214,
+        "text": "11 Come, my beloved, Let us go forth to the field; Let us lodge in the villages."
+      },
+      {
+        "line": 1215,
+        "text": "11 تَعَالَ يَا حَبِيبِي لِنَخْرُجْ إِلَى الْحَقْلِ، وَلْنَبِتْ فِي الْقُرَى."
+      },
+      {
+        "line": 1216,
+        "text": "12 Let us get up early to the vineyards; Let us see if the vine has budded, Whether the grape blossoms are open, And the pomegranates are in bloom. There I will give you my love."
+      },
+      {
+        "line": 1217,
+        "text": "12 لِنُبَكِّرَنَّ إِلَى الْكُرُومِ، لِنَنْظُرَ: هَلْ أَزْهَرَ الْكَرْمُ؟ هَلْ تَفَتَّحَ الْقُعَالُ؟ هَلْ نَوَّرَ الرُّمَّانُ؟ هُنَالِكَ أُعْطِيكَ حُبِّي."
+      },
+      {
+        "line": 1218,
+        "text": "13 The mandrakes give off a fragrance, And at our gates are pleasant fruits, All manner, new and old, Which I have laid up for you, my beloved."
+      },
+      {
+        "line": 1219,
+        "text": "13 اَللُّفَّاحُ يَفُوحُ رَائِحَةً، وَعِنْدَ أَبْوَابِنَا كُلُّ النَّفَائِسِ مِنْ جَدِيدَةٍ وَقَدِيمَةٍ، ذَخَرْتُهَا لَكَ يَا حَبِيبِي."
+      },
+      {
+        "line": 1220,
+        "text": "\tSong of Solomon 8:1-14"
+      },
+      {
+        "line": 1221,
+        "text": "(نشيد الانشاد 8: 1-14)"
+      },
+      {
+        "line": 1222,
+        "text": "Bishop:"
+      },
+      {
+        "line": 1223,
+        "text": "1 Oh, that you were like my brother, Who nursed at my mother’s breasts! If I should find you outside, I would kiss you; I would not be despised."
+      },
+      {
+        "line": 1224,
+        "text": "الأسقف:"
+      },
+      {
+        "line": 1225,
+        "text": "1 لَيْتَكَ كَأَخٍ لِي الرَّاضِعِ ثَدْيَيْ أُمِّي، فَأَجِدَكَ فِي الْخَارِجِ وَأُقَبِّلَكَ وَلاَ يُخْزُونَنِي."
+      },
+      {
+        "line": 1226,
+        "text": "2 I would lead you and bring you Into the house of my mother, She who used to instruct me. I would cause you to drink of spiced wine, Of the juice of my pomegranate."
+      },
+      {
+        "line": 1227,
+        "text": "2 وَأَقُودُكَ وَأَدْخُلُ بِكَ بَيْتَ أُمِّي، وَهِيَ تُعَلِّمُنِي، فَأَسْقِيكَ مِنَ الْخَمْرِ الْمَمْزُوجَةِ مِنْ سُلاَفِ رُمَّانِي."
+      },
+      {
+        "line": 1228,
+        "text": "3 His left hand is under my head, And his right hand embraces me."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 984,
+        "text": "\tSong of Solomon 1:1-17"
+      },
+      {
+        "line": 986,
+        "text": "Bishop:"
+      },
+      {
+        "line": 987,
+        "text": "A reading from the Book of Song of Solomon of Solomon the prophet. May his holy blessings be with us. Amen."
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 342,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 9,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "1 Kings 19:9-18",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 588,
+        "text": "1 It happened after this that David inquired of the Lord, saying, “Shall I go up to any of the cities of Judah?” And the Lord said to him, “Go up.” David said, “Where shall I go up?” And He said, “To Hebron.”"
+      },
+      {
+        "line": 589,
+        "text": "1 وَكَانَ بَعْدَ ذَلِكَ أَنَّ دَاوُدَ سَأَلَ الرَّبَّ: «أَأَصْعَدُ إِلَى إِحْدَى مَدَائِنِ يَهُوذَا؟» فَقَالَ لَهُ الرَّبُّ: «اصْعَدْ». فَقَالَ دَاوُدُ: «إِلَى أَيْنَ أَصْعَدُ؟» فَقَالَ: «إِلَى حَبْرُونَ»."
+      },
+      {
+        "line": 590,
+        "text": "2 So David went up there, and his two wives also, Ahinoam the Jezreelitess, and Abigail the widow of Nabal the Carmelite."
+      },
+      {
+        "line": 591,
+        "text": "2 فَصَعِدَ دَاوُدُ إِلَى هُنَاكَ هُوَ وَامْرَأَتَاهُ أَخِينُوعَمُ الْيَزْرَعِيلِيَّةُ وَأَبِيجَايِلُ امْرَأَةُ نَابَالَ الْكَرْمَلِيِّ."
+      },
+      {
+        "line": 592,
+        "text": "3 And David brought up the men who were with him, every man with his household. So they dwelt in the cities of Hebron."
+      },
+      {
+        "line": 593,
+        "text": "3 وَأَصْعَدَ دَاوُدُ رِجَالَهُ الَّذِينَ مَعَهُ كُلَّ وَاحِدٍ وَبَيْتَهُ وَسَكَنُوا فِي مُدُنِ حَبْرُونَ."
+      },
+      {
+        "line": 594,
+        "text": "4 Then the men of Judah came, and there they anointed David king over the house of Judah. And they told David, saying, “The men of Jabesh Gilead were the ones who buried Saul.”"
+      },
+      {
+        "line": 595,
+        "text": "4 وَأَتَى رِجَالُ يَهُوذَا وَمَسَحُوا هُنَاكَ دَاوُدَ مَلِكاً عَلَى بَيْتِ يَهُوذَا. وَأَخْبَرُوا دَاوُدَ: «إِنَّ رِجَالَ يَابِيشَ جِلْعَادَ هُمُ الَّذِينَ دَفَنُوا شَاوُلَ»."
+      },
+      {
+        "line": 596,
+        "text": "Glory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen."
+      },
+      {
+        "line": 597,
+        "text": "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 598,
+        "text": "مجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين."
+      },
+      {
+        "line": 599,
+        "text": "\t1 Kings 19:9-18"
+      },
+      {
+        "line": 600,
+        "text": "(1 ملوك 19: 9-18)"
+      },
+      {
+        "line": 601,
+        "text": "Reader:"
+      },
+      {
+        "line": 602,
+        "text": "A reading from 1 Kings, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 603,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 604,
+        "text": "من 1 ملوك بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 605,
+        "text": "9 And there he went into a cave, and spent the night in that place; and behold, the word of the Lord came to him, and He said to him, “What are you doing here, Elijah?”"
+      },
+      {
+        "line": 606,
+        "text": "9 وَدَخَلَ هُنَاكَ الْمَغَارَةَ وَبَاتَ فِيهَا. وَكَانَ كَلاَمُ الرَّبِّ إِلَيْهِ: [مَا لَكَ هَهُنَا يَا إِيلِيَّا؟]"
+      },
+      {
+        "line": 607,
+        "text": "10 So he said, “I have been very zealous for the Lord God of hosts; for the children of Israel have forsaken Your covenant, torn down Your altars, and killed Your prophets with the sword. I alone am left; and they seek to take my life.”"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 343,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 10,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "1 Chronicles 11:1-5",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 617,
+        "text": "15 Then the Lord said to him: “Go, return on your way to the Wilderness of Damascus; and when you arrive, anoint Hazael as king over Syria."
+      },
+      {
+        "line": 618,
+        "text": "15 فَقَالَ لَهُ الرَّبُّ: [اذْهَبْ رَاجِعاً فِي طَرِيقِكَ إِلَى بَرِّيَّةِ دِمِشْقَ، وَادْخُلْ وَامْسَحْ حَزَائِيلَ مَلِكاً عَلَى أَرَامَ،"
+      },
+      {
+        "line": 619,
+        "text": "16 Also you shall anoint Jehu the son of Nimshi as king over Israel. And Elisha the son of Shaphat of Abel Meholah you shall anoint as prophet in your place."
+      },
+      {
+        "line": 620,
+        "text": "16 وَامْسَحْ يَاهُوَ بْنَ نِمْشِي مَلِكاً عَلَى إِسْرَائِيلَ، وَامْسَحْ أَلِيشَعَ بْنَ شَافَاطَ مِنْ آبَلَ مَحُولَةَ نَبِيّاً عِوَضاً عَنْكَ."
+      },
+      {
+        "line": 621,
+        "text": "17 It shall be that whoever escapes the sword of Hazael, Jehu will kill; and whoever escapes the sword of Jehu, Elisha will kill."
+      },
+      {
+        "line": 622,
+        "text": "17 فَالَّذِي يَنْجُو مِنْ سَيْفِ حَزَائِيلَ يَقْتُلُهُ يَاهُو، وَالَّذِي يَنْجُو مِنْ سَيْفِ يَاهُو يَقْتُلُهُ أَلِيشَعُ."
+      },
+      {
+        "line": 623,
+        "text": "18 Yet I have reserved seven thousand in Israel, all whose knees have not bowed to Baal, and every mouth that has not kissed him.”"
+      },
+      {
+        "line": 624,
+        "text": "18 وَقَدْ أَبْقَيْتُ فِي إِسْرَائِيلَ سَبْعَةَ آلاَفٍ، كُلَّ الرُّكَبِ الَّتِي لَمْ تَجْثُ لِلْبَعْلِ وَكُلَّ فَمٍ لَمْ يُقَبِّلْهُ]."
+      },
+      {
+        "line": 625,
+        "text": "Glory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen."
+      },
+      {
+        "line": 626,
+        "text": "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 627,
+        "text": "مجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين."
+      },
+      {
+        "line": 628,
+        "text": "\t1 Chronicles 11:1-5"
+      },
+      {
+        "line": 629,
+        "text": "(1 اخبار 11: 1-5)"
+      },
+      {
+        "line": 630,
+        "text": "Reader:"
+      },
+      {
+        "line": 631,
+        "text": "A reading from 1 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 632,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 633,
+        "text": "من 1 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 634,
+        "text": "1 Then all Israel came together to David at Hebron, saying, “Indeed we are your bone and your flesh."
+      },
+      {
+        "line": 635,
+        "text": "1 وَاجْتَمَعَ كُلُّ رِجَالِ إِسْرَائِيلَ إِلَى دَاوُدَ فِي حَبْرُونَ قَائِلِينَ: «هُوَذَا عَظْمُكَ وَلَحْمُكَ نَحْنُ."
+      },
+      {
+        "line": 636,
+        "text": "2 Also, in time past, even when Saul was king, you were the one who led Israel out and brought them in; and the Lord your God said to you, ‘You shall shepherd My people Israel, and be ruler over My people Israel.’”"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 344,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 11,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "1 Chronicles 29:20-25",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 636,
+        "text": "2 Also, in time past, even when Saul was king, you were the one who led Israel out and brought them in; and the Lord your God said to you, ‘You shall shepherd My people Israel, and be ruler over My people Israel.’”"
+      },
+      {
+        "line": 637,
+        "text": "2 وَمُنْذُ أَمْسِ وَمَا قَبْلَهُ حِينَ كَانَ شَاوُلُ مَلِكاً كُنْتَ أَنْتَ تُخْرِجُ وَتُدْخِلُ إِسْرَائِيلَ, وَقَدْ قَالَ لَكَ الرَّبُّ إِلَهُكَ: أَنْتَ تَرْعَى شَعْبِي إِسْرَائِيلَ وَأَنْتَ تَكُونُ رَئِيساً لِشَعْبِي إِسْرَائِيلَ»."
+      },
+      {
+        "line": 638,
+        "text": "3 Therefore all the elders of Israel came to the king at Hebron, and David made a covenant with them at Hebron before the Lord. And they anointed David king over Israel, according to the word of the Lord by Samuel."
+      },
+      {
+        "line": 639,
+        "text": "3 وَجَاءَ جَمِيعُ شُيُوخِ إِسْرَائِيلَ إِلَى الْمَلِكِ إِلَى حَبْرُونَ, فَقَطَعَ دَاوُدُ مَعَهُمْ عَهْداً فِي حَبْرُونَ أَمَامَ الرَّبِّ, وَمَسَحُوا دَاوُدَ مَلِكاً عَلَى إِسْرَائِيلَ حَسَبَ كَلاَمِ الرَّبِّ عَنْ يَدِ صَمُوئِيلَ."
+      },
+      {
+        "line": 640,
+        "text": "4 And David and all Israel went to Jerusalem, which is Jebus, where the Jebusites were, the inhabitants of the land."
+      },
+      {
+        "line": 641,
+        "text": "4 وَذَهَبَ دَاوُدُ وَكُلُّ إِسْرَائِيلَ إِلَى أُورُشَلِيمَ (أَيْ يَبُوسَ). وَهُنَاكَ الْيَبُوسِيُّونَ سُكَّانُ الأَرْضِ."
+      },
+      {
+        "line": 642,
+        "text": "5 But the inhabitants of Jebus said to David, “You shall not come in here!” Nevertheless David took the stronghold of Zion (that is, the City of David)."
+      },
+      {
+        "line": 643,
+        "text": "5 وَقَالَ سُكَّانُ يَبُوسَ لِدَاوُدَ: «لاَ تَدْخُلْ إِلَى هُنَا». فَأَخَذَ دَاوُدُ حِصْنَ صِهْيَوْنَ (هِيَ مَدِينَةُ دَاوُدَ)."
+      },
+      {
+        "line": 644,
+        "text": "Glory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen."
+      },
+      {
+        "line": 645,
+        "text": "Ⲟⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 646,
+        "text": "مجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين."
+      },
+      {
+        "line": 647,
+        "text": "\t1 Chronicles 29:20-25"
+      },
+      {
+        "line": 648,
+        "text": "(1 اخبار 29: 20-25)"
+      },
+      {
+        "line": 649,
+        "text": "Reader:"
+      },
+      {
+        "line": 650,
+        "text": "A reading from 1 Chronicles, may its holy blessings be with us. Amen."
+      },
+      {
+        "line": 651,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 652,
+        "text": "من 1 اخبار بركته المقدسة تكون معنا. آمين."
+      },
+      {
+        "line": 653,
+        "text": "20 Then David said to all the assembly, “Now bless the Lord your God.” So all the assembly blessed the Lord God of their fathers, and bowed their heads and prostrated themselves before the Lord and the king."
+      },
+      {
+        "line": 654,
+        "text": "20 ثُمَّ قَالَ دَاوُدُ لِكُلِّ الْجَمَاعَةِ: «بَارِكُوا الرَّبَّ إِلَهَكُمْ». فَبَارَكَ كُلُّ الْجَمَاعَةِ الرَّبَّ إِلَهَ آبَائِهِمْ, وَخَرُّوا وَسَجَدُوا لِلرَّبِّ وَلِلْمَلِكِ."
+      },
+      {
+        "line": 655,
+        "text": "21 And they made sacrifices to the Lord and offered burnt offerings to the Lord on the next day: a thousand bulls, a thousand rams, a thousand lambs, with their drink offerings, and sacrifices in abundance for all Israel."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 367,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 34,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Proverbs 8:22-31",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 795,
+        "text": "(مزامير 133: 1-3)"
+      },
+      {
+        "line": 796,
+        "text": "Reader:"
+      },
+      {
+        "line": 797,
+        "text": "Behold! What is so good, or what so pleasant, as for brothers dwelling together? It is as ointment upon the head, that came down upon beard, the beard of Aaron that came down to the fringe of his clothing; as the dew of Hermon, that comes down upon the mountain of Zion: for there the Lord commanded the blessing and the life forever. Alleluia."
+      },
+      {
+        "line": 798,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 799,
+        "text": "هوذا ما أحسن وما أحلى أن يسكن الأخوة معاً. كالطيب الكائن على الرأس الذي ينزل على اللحية، لحية هارون النازلة على جيب قميصه. مثل ندى حرمون المنحدر على جبل صهيون. لأن هناك أمر الرب بالبركة والحياة إلى الأبد. هَلليلُويا."
+      },
+      {
+        "line": 800,
+        "text": "\tPsalms 134:1-3"
+      },
+      {
+        "line": 801,
+        "text": "(مزامير 134: 1-3)"
+      },
+      {
+        "line": 802,
+        "text": "Reader:"
+      },
+      {
+        "line": 803,
+        "text": "Behold, bless the Lord, O you the servants of the Lord, who stand in the house of the Lord, in the courts of the house of our God. In the nights lift up your hands unto the Holies, and bless the Lord. The Lord shall bless you out of Zion, He who made heaven and earth. Alleluia."
+      },
+      {
+        "line": 804,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 805,
+        "text": "ها باركوا الرب يا عبيد الرب. القائمين في بيت الرب. في ديار بيت إلهنا. بالليالي ارفعوا أيديكم إلى القدس وباركوا الرب. يباركك الرب من صهيون الذي خلق السماء والأرض. هَلليلُويا."
+      },
+      {
+        "line": 806,
+        "text": "\tProverbs 8:22-31"
+      },
+      {
+        "line": 807,
+        "text": "(أمثال 8: 22-31)"
+      },
+      {
+        "line": 808,
+        "text": "Reader:"
+      },
+      {
+        "line": 809,
+        "text": "22 “The Lord possessed me at the beginning of His way, Before His works of old."
+      },
+      {
+        "line": 810,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 811,
+        "text": "22 «اَلرَّبُّ قَنَانِي أَوَّلَ طَرِيقِهِ مِنْ قَبْلِ أَعْمَالِهِ مُنْذُ الْقِدَمِ."
+      },
+      {
+        "line": 812,
+        "text": "23 I have been established from everlasting, From the beginning, before there was ever an earth."
+      },
+      {
+        "line": 813,
+        "text": "23 مُنْذُ الأَزَلِ مُسِحْتُ مُنْذُ الْبَدْءِ مُنْذُ أَوَائِلِ الأَرْضِ."
+      },
+      {
+        "line": 814,
+        "text": "24 When there were no depths I was brought forth, When there were no fountains abounding with water."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 368,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 35,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Isaiah 61:1-11",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 819,
+        "text": "26 إِذْ لَمْ يَكُنْ قَدْ صَنَعَ الأَرْضَ بَعْدُ وَلاَ الْبَرَارِيَّ وَلاَ أَوَّلَ أَعْفَارِ الْمَسْكُونَةِ."
+      },
+      {
+        "line": 820,
+        "text": "27 When He prepared the heavens, I was there, When He drew a circle on the face of the deep,"
+      },
+      {
+        "line": 821,
+        "text": "27 لَمَّا ثَبَّتَ السَّمَاوَاتِ كُنْتُ هُنَاكَ أَنَا. لَمَّا رَسَمَ دَائِرَةً عَلَى وَجْهِ الْغَمْرِ."
+      },
+      {
+        "line": 822,
+        "text": "28 When He established the clouds above, When He strengthened the fountains of the deep,"
+      },
+      {
+        "line": 823,
+        "text": "28 لَمَّا أَثْبَتَ السُّحُبَ مِنْ فَوْقُ. لَمَّا تَشَدَّدَتْ يَنَابِيعُ الْغَمْرِ."
+      },
+      {
+        "line": 824,
+        "text": "29 When He assigned to the sea its limit, So that the waters would not transgress His command, When He marked out the foundations of the earth,"
+      },
+      {
+        "line": 825,
+        "text": "29 لَمَّا وَضَعَ لِلْبَحْرِ حَدَّهُ فَلاَ تَتَعَدَّى الْمِيَاهُ تُخْمَهُ لَمَّا رَسَمَ أُسُسَ الأَرْضِ"
+      },
+      {
+        "line": 826,
+        "text": "30 Then I was beside Him as a master craftsman; And I was daily His delight, Rejoicing always before Him,"
+      },
+      {
+        "line": 827,
+        "text": "30 كُنْتُ عِنْدَهُ صَانِعاً وَكُنْتُ كُلَّ يَوْمٍ لَذَّتَهُ فَرِحَةً دَائِماً قُدَّامَهُ."
+      },
+      {
+        "line": 828,
+        "text": "31 Rejoicing in His inhabited world, And my delight was with the sons of men."
+      },
+      {
+        "line": 829,
+        "text": "31 فَرِحَةً فِي مَسْكُونَةِ أَرْضِهِ وَلَذَّاتِي مَعَ بَنِي آدَمٍَ."
+      },
+      {
+        "line": 830,
+        "text": "\tIsaiah 61:1-11"
+      },
+      {
+        "line": 831,
+        "text": "(اشعياء 61: 1-11)"
+      },
+      {
+        "line": 832,
+        "text": "Reader:"
+      },
+      {
+        "line": 833,
+        "text": "1 “The Spirit of the Lord God is upon Me, Because the Lord has anointed Me To preach good tidings to the poor; He has sent Me to heal the brokenhearted, To proclaim liberty to the captives, And the opening of the prison to those who are bound;"
+      },
+      {
+        "line": 834,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 835,
+        "text": "1 رُوحُ السَّيِّدِ الرَّبِّ عَلَيَّ لأَنَّ الرَّبَّ مَسَحَنِي لأُبَشِّرَ الْمَسَاكِينَ أَرْسَلَنِي لأَعْصِبَ مُنْكَسِرِي الْقَلْبِ لأُنَادِيَ لِلْمَسْبِيِّينَ بِالْعِتْقِ وَلِلْمَأْسُورِينَ بِالإِطْلاَقِ."
+      },
+      {
+        "line": 836,
+        "text": "2 To proclaim the acceptable year of the Lord, And the day of vengeance of our God; To comfort all who mourn,"
+      },
+      {
+        "line": 837,
+        "text": "2 لأُنَادِيَ بِسَنَةٍ مَقْبُولَةٍ لِلرَّبِّ وَبِيَوْمِ انْتِقَامٍ لإِلَهِنَا. لأُعَزِّيَ كُلَّ النَّائِحِينَ."
+      },
+      {
+        "line": 838,
+        "text": "3 To console those who mourn in Zion, To give them beauty for ashes, The oil of joy for mourning, The garment of praise for the spirit of heaviness; That they may be called trees of righteousness, The planting of the Lord, that He may be glorified.”"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 369,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 36,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Daniel 9:20-27",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "old_testament",
+    "evidence": [
+      {
+        "line": 845,
+        "text": "6 أَمَّا أَنْتُمْ فَتُدْعَوْنَ كَهَنَةَ الرَّبِّ تُسَمُّونَ خُدَّامَ إِلَهِنَا. تَأْكُلُونَ ثَرْوَةَ الأُمَمِ وَعَلَى مَجْدِهِمْ تَتَأَمَّرُونَ."
+      },
+      {
+        "line": 846,
+        "text": "7 Instead of your shame you shall have double honor, And instead of confusion they shall rejoice in their portion. Therefore in their land they shall possess double; Everlasting joy shall be theirs."
+      },
+      {
+        "line": 847,
+        "text": "7 عِوَضاً عَنْ خِزْيِكُمْ ضِعْفَانِ وَعِوَضاً عَنِ الْخَجَلِ يَبْتَهِجُونَ بِنَصِيبِهِمْ. لِذَلِكَ يَرِثُونَ فِي أَرْضِهِمْ ضِعْفَيْنِ. بَهْجَةٌ أَبَدِيَّةٌ تَكُونُ لَهُمْ."
+      },
+      {
+        "line": 848,
+        "text": "8 “For I, the Lord, love justice; I hate robbery for burnt offering; I will direct their work in truth, And will make with them an everlasting covenant."
+      },
+      {
+        "line": 849,
+        "text": "8 لأَنِّي أَنَا الرَّبُّ مُحِبُّ الْعَدْلِ مُبْغِضُ الْمُخْتَلِسِ بِالظُّلْمِ. وَأَجْعَلُ أُجْرَتَهُمْ أَمِينَةً وَأَقْطَعُ لَهُمْ عَهْداً أَبَدِيّاً."
+      },
+      {
+        "line": 850,
+        "text": "9 Their descendants shall be known among the Gentiles, And their offspring among the people. All who see them shall acknowledge them, That they are the posterity whom the Lord has blessed.”"
+      },
+      {
+        "line": 851,
+        "text": "9 وَيُعْرَفُ بَيْنَ الأُمَمِ نَسْلُهُمْ وَذُرِّيَّتُهُمْ فِي وَسَطِ الشُّعُوبِ. كُلُّ الَّذِينَ يَرُونَهُمْ يَعْرِفُونَهُمْ أَنَّهُمْ نَسْلٌ بَارَكَهُ الرَّبُّ."
+      },
+      {
+        "line": 852,
+        "text": "10 I will greatly rejoice in the Lord, My soul shall be joyful in my God; For He has clothed me with the garments of salvation, He has covered me with the robe of righteousness, As a bridegroom decks himself with ornaments, And as a bride adorns herself with her jewels."
+      },
+      {
+        "line": 853,
+        "text": "10 فَرَحاً أَفْرَحُ بِالرَّبِّ. تَبْتَهِجُ نَفْسِي بِإِلَهِي لأَنَّهُ قَدْ أَلْبَسَنِي ثِيَابَ الْخَلاَصِ. كَسَانِي رِدَاءَ الْبِرِّ مِثْلَ عَرِيسٍ يَتَزَيَّنُ بِعِمَامَةٍ وَمِثْلَ عَرُوسٍ تَتَزَيَّنُ بِحُلِيِّهَا."
+      },
+      {
+        "line": 854,
+        "text": "11 For as the earth brings forth its bud, As the garden causes the things that are sown in it to spring forth, So the Lord God will cause righteousness and praise to spring forth before all the nations."
+      },
+      {
+        "line": 855,
+        "text": "11 لأَنَّهُ كَمَا أَنَّ الأَرْضَ تُخْرِجُ نَبَاتَهَا وَكَمَا أَنَّ الْجَنَّةَ تُنْبِتُ مَزْرُوعَاتِهَا هَكَذَا السَّيِّدُ الرَّبُّ يُنْبِتُ بِرّاً وَتَسْبِيحاً أَمَامَ كُلِّ الأُمَمِ."
+      },
+      {
+        "line": 856,
+        "text": "\tDaniel 9:20-27"
+      },
+      {
+        "line": 857,
+        "text": "(دانيال 9: 20-27)"
+      },
+      {
+        "line": 858,
+        "text": "Reader:"
+      },
+      {
+        "line": 859,
+        "text": "20 Now while I was speaking, praying, and confessing my sin and the sin of my people Israel, and presenting my supplication before the Lord my God for the holy mountain of my God,"
+      },
+      {
+        "line": 860,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 861,
+        "text": "20 وَبَيْنَمَا أَنَا أَتَكَلَّمُ وَأُصَلِّي وَأَعْتَرِفُ بِخَطِيَّتِي وَخَطِيَّةِ شَعْبِي إِسْرَائِيلَ وَأَطْرَحُ تَضَرُّعِي أَمَامَ الرَّبِّ إِلَهِي عَنْ جَبَلِ قُدْسِ إِلَهِي"
+      },
+      {
+        "line": 862,
+        "text": "21 yes, while I was speaking in prayer, the man Gabriel, whom I had seen in the vision at the beginning, being caused to fly swiftly, reached me about the time of the evening offering."
+      },
+      {
+        "line": 863,
+        "text": "21 وَأَنَا مُتَكَلِّمٌ بَعْدُ بِالصَّلاَةِ إِذَا بِالرَّجُلِ جِبْرَائِيلَ الَّذِي رَأَيْتُهُ فِي الرُّؤْيَا فِي الاِبْتِدَاءِ مُطَاراً وَاغِفاً لَمَسَنِي عِنْدَ وَقْتِ تَقْدِمَةِ الْمَسَاءِ."
+      },
+      {
+        "line": 864,
+        "text": "22 And he informed me, and talked with me, and said, “O Daniel, I have now come forth to give you skill to understand."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 372,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 39,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Acts 2:1-42",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "acts",
+    "evidence": [
+      {
+        "line": 1153,
+        "text": "Ⲥⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲛⲓⲡ︦ⲛ︦ⲁ︦ ⲛⲉⲙ ⲛⲓⲯⲩⲭⲏ ⲛ̀ⲧⲉ ⲛⲓⲑ̀ⲙⲏⲓ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ."
+      },
+      {
+        "line": 1154,
+        "text": "باركوا الرب يا أرواح وأنفُسَ الصديقين، سبِّحوه وزيدوه علوَّاً إلى الآباد."
+      },
+      {
+        "line": 1155,
+        "text": "Bless the Lord, O you holy and humble of heart: praise Him and exalt Him above all forever."
+      },
+      {
+        "line": 1156,
+        "text": "Ⲥⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲛⲉⲙ ⲛⲏⲉⲧⲑⲉⲃⲓⲏⲟⲩⲧ ϧⲉⲛ ⲡⲟⲩϩⲏⲧ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ."
+      },
+      {
+        "line": 1157,
+        "text": "باركوا الرب أيها القديسون والمتواضعو القلوب، سبِّحوه وزيدوه علوَّاً إلى الآباد."
+      },
+      {
+        "line": 1158,
+        "text": "Bless the Lord, O Hananiah, Azariah, and Mishael: praise Him and exalt Him above all forever."
+      },
+      {
+        "line": 1159,
+        "text": "Ⲥⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ Ⲁⲛⲁⲛⲓⲁⲥ Ⲁⲍⲁⲣⲓⲁⲥ Ⲙⲓⲥⲁⲏⲗ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ."
+      },
+      {
+        "line": 1160,
+        "text": "باركوا الرب يا حنانيا وعزاريا وميصائيل، سبِّحوه وزيدوه علوَّاً إلى الآباد."
+      },
+      {
+        "line": 1161,
+        "text": "Bless the Lord, O you who worship the Lord, the God of our fathers: praise Him and exalt Him above all forever."
+      },
+      {
+        "line": 1162,
+        "text": "Ⲥⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲛⲏⲉⲧⲉⲣⲥⲉⲃⲉⲥⲑⲉ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲫϯ ⲛ̀ⲧⲉ ⲛⲉⲛⲓⲟϯ: ϩⲱⲥ ⲉ̀ⲣⲟϥ ⲁ̀ⲣⲓϩⲟⲩⲟ̀ ϭⲁⲥϥ ϣⲁ ⲛⲓⲉ̀ⲛⲉϩ."
+      },
+      {
+        "line": 1163,
+        "text": "باركوا الرب يا عابدي الرب إله آبائنا، سبِّحوه وزيدوه علوَّاً إلى الآباد."
+      },
+      {
+        "line": 1164,
+        "text": "\tActs 2:1-42"
+      },
+      {
+        "line": 1165,
+        "text": "(اعمال 2: 1-42)"
+      },
+      {
+        "line": 1166,
+        "text": "Reader:"
+      },
+      {
+        "line": 1167,
+        "text": "1 When the Day of Pentecost had fully come, they were all with one accord in one place."
+      },
+      {
+        "line": 1168,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 1169,
+        "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϫⲱⲕ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ ⲡⲓⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ ϯⲡⲉⲛⲧⲏⲕⲟⲥⲧⲏⲛⲁⲩⲑⲟⲩⲏⲧ ⲧⲏⲣⲟⲩ ⲡⲉ ϩⲓ ⲟⲩⲙⲁ."
+      },
+      {
+        "line": 1170,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1171,
+        "text": "1 وَلَمَّا حَضَرَ يَوْمُ الْخَمْسِينَ كَانَ الْجَمِيعُ مَعاً بِنَفْسٍ وَاحِدَةٍ"
+      },
+      {
+        "line": 1172,
+        "text": "2 And suddenly there came a sound from heaven, as of a rushing mighty wind, and it filled the whole house where they were sitting."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 373,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 40,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Acts 8:14-17",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "acts",
+    "evidence": [
+      {
+        "line": 1284,
+        "text": "Ⲫⲱⲧⲉⲛ ⲅⲁⲣ ⲡⲉ ⲡⲓⲱϣ ⲛⲉⲙ ⲛⲉⲧⲉⲛⲓⲟϯ ⲛⲉⲙ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲟⲩⲏⲟⲩ ⲛⲏⲉ̀ⲧⲉ Ⲡⲟ︦ⲥ︦ ⲡⲉⲛⲛⲟⲩϯ ⲛⲁⲑⲁϩⲙⲟⲩ."
+      },
+      {
+        "line": 1285,
+        "text": "39 لأَنَّ الْمَوْعِدَ هُوَ لَكُمْ وَلأَوْلاَدِكُمْ وَلِكُلِّ الَّذِينَ عَلَى بُعْدٍ كُلِّ مَنْ يَدْعُوهُ الرَّبُّ إِلَهُنَا»."
+      },
+      {
+        "line": 1286,
+        "text": "40 And with many other words he testified and exhorted them, saying, “Be saved from this perverse generation.”"
+      },
+      {
+        "line": 1287,
+        "text": "Ⲛ̀ϧ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲕⲉⲙⲏϣ ⲛ̀ⲥⲁϫⲓ ⲛⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲛⲱⲟⲩ ⲟⲩⲟϩ ⲛⲁϥϧⲱⲛϫ ⲉ̀ⲣⲱⲟⲩ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲛⲁϩⲉⲙ ⲑⲏⲛⲟⲩ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲅⲉ̀ⲛⲉⲁ̀ ⲉⲧⲕⲟⲗϫ."
+      },
+      {
+        "line": 1288,
+        "text": "40 وَبِأَقْوَالٍ أُخَرَ كَثِيرَةٍ كَانَ يَشْهَدُ لَهُمْ وَيَعِظُهُمْ قَائِلاً: «اخْلُصُوا مِنْ هَذَا الْجِيلِ الْمُلْتَوِي»."
+      },
+      {
+        "line": 1289,
+        "text": "41 Then those who gladly received his word were baptized; and that day about three thousand souls were added to them."
+      },
+      {
+        "line": 1290,
+        "text": "Ⲛⲏⲙⲉⲛ ⲟⲩⲛ ⲉ̀ⲧⲁⲩϣⲉⲡ ⲡⲓⲥⲁϫⲓ ⲉ̀ⲣⲱⲟⲩ ⲁⲩⲟⲙⲥⲟⲩ ⲟⲩⲟϩ ⲁⲩⲟⲩⲟϩ ⲉ̀ⲣⲱⲟⲩ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲛ̀ϫⲉ ⲅ︦ ⲛ̀ϣⲟ ⲙ̀ⲯⲩⲭⲏ."
+      },
+      {
+        "line": 1291,
+        "text": "41 فَقَبِلُوا كَلاَمَهُ بِفَرَحٍ وَاعْتَمَدُوا وَانْضَمَّ فِي ذَلِكَ الْيَوْمِ نَحْوُ ثَلاَثَةِ آلاَفِ نَفْسٍ."
+      },
+      {
+        "line": 1292,
+        "text": "42 And they continued steadfastly in the apostles’ doctrine and fellowship, in the breaking of bread, and in prayers."
+      },
+      {
+        "line": 1293,
+        "text": "Ⲛⲁⲩⲙⲏⲛ ⲇⲉ ⲉ̀ϯⲥ̀ⲃⲱ ⲛ̀ⲧⲉ ⲛⲓⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲉⲙ ϯⲙⲉⲧϣ̀ⲫⲏⲣ ⲛ̀ⲧⲉ ⲡⲓⲫⲱϣ ⲛ̀ⲧⲉ ⲡⲓⲱⲓⲕ ⲛⲉⲙ ϯⲡⲣⲟⲥⲉⲩⲭⲏ."
+      },
+      {
+        "line": 1294,
+        "text": "42 وَكَانُوا يُواظِبُونَ عَلَى تَعْلِيمِ الرُّسُلِ وَالشَّرِكَةِ وَكَسْرِ الْخُبْزِ وَالصَّلَوَاتِ."
+      },
+      {
+        "line": 1295,
+        "text": "\tActs 8:14-17"
+      },
+      {
+        "line": 1296,
+        "text": "(اعمال 8: 14-17)"
+      },
+      {
+        "line": 1297,
+        "text": "Reader:"
+      },
+      {
+        "line": 1298,
+        "text": "14 Now when the apostles who were at Jerusalem heard that Samaria had received the word of God, they sent Peter and John to them,"
+      },
+      {
+        "line": 1299,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 1300,
+        "text": "Ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲇⲉ ⲛ̀ϫⲉ ⲛⲓⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲉⲧϧⲉⲛ Ⲓⲗ︦ⲏ︦ⲙ︦ ϫⲉ ⲁ̀ ϯⲕⲉⲥⲁⲘⲁⲣⲓⲁ̀ ϣⲉⲡ ⲡⲓⲥⲁϫⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉ̀ⲣⲟⲥ ⲁⲩⲟⲩⲱⲣⲡ ⲙ̀Ⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ Ⲓⲱⲁⲛⲛⲏⲥ ϣⲁⲣⲱⲟⲩ."
+      },
+      {
+        "line": 1301,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1302,
+        "text": "14 وَلَمَّا سَمِعَ الرُّسُلُ الَّذِينَ فِي أُورُشَلِيمَ أَنَّ السَّامِرَةَ قَدْ قَبِلَتْ كَلِمَةَ اللهِ أَرْسَلُوا إِلَيْهِمْ بُطْرُسَ وَيُوحَنَّا"
+      },
+      {
+        "line": 1303,
+        "text": "15 who, when they had come down, prayed for them that they might receive the Holy Spirit."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 374,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 41,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Acts 10:34-48",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "acts",
+    "evidence": [
+      {
+        "line": 1301,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1302,
+        "text": "14 وَلَمَّا سَمِعَ الرُّسُلُ الَّذِينَ فِي أُورُشَلِيمَ أَنَّ السَّامِرَةَ قَدْ قَبِلَتْ كَلِمَةَ اللهِ أَرْسَلُوا إِلَيْهِمْ بُطْرُسَ وَيُوحَنَّا"
+      },
+      {
+        "line": 1303,
+        "text": "15 who, when they had come down, prayed for them that they might receive the Holy Spirit."
+      },
+      {
+        "line": 1304,
+        "text": "Ⲛⲁⲓ ⲉ̀ⲧⲁⲩⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲙⲁⲩ ⲛⲁⲩⲧⲱⲃϩ ⲡ̀ⲉϫⲱⲟⲩ ϩⲓⲛⲁ ⲛ̀ⲥⲉϭⲓ ⲙ̀ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ."
+      },
+      {
+        "line": 1305,
+        "text": "15 اللَّذَيْنِ لَمَّا نَزَلاَ صَلَّيَا لأَجْلِهِمْ لِكَيْ يَقْبَلُوا الرُّوحَ الْقُدُسَ"
+      },
+      {
+        "line": 1306,
+        "text": "16 For as yet He had fallen upon none of them. They had only been baptized in the name of the Lord Jesus."
+      },
+      {
+        "line": 1307,
+        "text": "Ⲛⲉⲙ̀ⲡⲁⲧⲉϥⲓ̀ ⲅⲁⲣ ⲉ̀ϫⲉⲛ ⲟⲩⲟⲛ ⲙ̀ⲙⲱⲟⲩ ⲙⲁⲗⲗⲟⲛ ⲇⲉ ⲛⲁⲩϭⲓⲱⲙⲥ ⲡⲉ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲓⲏ︦ⲥ︦."
+      },
+      {
+        "line": 1308,
+        "text": "16 لأَنَّهُ لَمْ يَكُنْ قَدْ حَلَّ بَعْدُ عَلَى أَحَدٍ مِنْهُمْ - غَيْرَ أَنَّهُمْ كَانُوا مُعْتَمِدِينَ بِاسْمِ الرَّبِّ يَسُوعَ."
+      },
+      {
+        "line": 1309,
+        "text": "17 Then they laid hands on them, and they received the Holy Spirit."
+      },
+      {
+        "line": 1310,
+        "text": "Ⲧⲟⲧⲉ ⲁⲩⲭⲁϫⲓϫ ⲡ̀ⲉϫⲱⲟⲩ ⲟⲩⲟϩ ⲛⲁⲩ ϭⲓ ⲙ̀ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ."
+      },
+      {
+        "line": 1311,
+        "text": "17 حِينَئِذٍ وَضَعَا الأَيَادِيَ عَلَيْهِمْ فَقَبِلُوا الرُّوحَ الْقُدُسَ."
+      },
+      {
+        "line": 1312,
+        "text": "\tActs 10:34-48"
+      },
+      {
+        "line": 1313,
+        "text": "(اعمال 10: 34-48)"
+      },
+      {
+        "line": 1314,
+        "text": "Reader:"
+      },
+      {
+        "line": 1315,
+        "text": "34 Then Peter opened his mouth and said: “In truth I perceive that God shows no partiality."
+      },
+      {
+        "line": 1316,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 1317,
+        "text": "Ⲉ̀ⲧⲁϥⲟⲩⲱⲛ ⲇⲉ ⲛ̀ⲣⲱϥ ⲛ̀ϫⲉ Ⲡⲉⲧⲣⲟⲥ ⲡⲉϫⲁϥ ϫⲉ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ ϯⲛⲁⲩ ϫⲉ ⲟⲩⲣⲉϥϭⲓϩⲟ ⲁⲛ ⲡⲉ ⲫϯ."
+      },
+      {
+        "line": 1318,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1319,
+        "text": "34 فَقَالَ بُطْرُسُ: «بِالْحَقِّ أَنَا أَجِدُ أَنَّ اللهَ لاَ يَقْبَلُ الْوُجُوهَ."
+      },
+      {
+        "line": 1320,
+        "text": "35 But in every nation whoever fears Him and works righteousness is accepted by Him."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 375,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 42,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Acts 13:1-4",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "acts",
+    "evidence": [
+      {
+        "line": 1351,
+        "text": "Ⲟⲩⲟϩ ⲁⲩⲧⲱⲙⲧ ⲛ̀ϫⲉ ⲛⲓⲉ̀ⲃⲟⲗϧⲉⲛ ⲡ̀ⲥⲉⲃⲓ ⲛⲓⲡⲓⲥⲧⲟⲥ ⲉ̀ⲧⲁⲩⲓ̀ ⲛⲉⲙ Ⲡⲉⲧⲣⲟⲥ ϫⲉ ⲁ̀ ϯⲇⲱⲣⲉⲁ̀ ⲛ̀ⲧⲉ ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ ⲁⲥⲫⲱⲛ ⲉ̀ⲃⲟⲗ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲛⲓⲕⲉⲉⲑⲛⲟⲥ."
+      },
+      {
+        "line": 1352,
+        "text": "45 فَانْدَهَشَ الْمُؤْمِنُونَ الَّذِينَ مِنْ أَهْلِ الْخِتَانِ كُلُّ مَنْ جَاءَ مَعَ بُطْرُسَ لأَنَّ مَوْهِبَةَ الرُّوحِ الْقُدُسِ قَدِ انْسَكَبَتْ عَلَى الْأُمَمِ أَيْضاً -"
+      },
+      {
+        "line": 1353,
+        "text": "46 For they heard them speak with tongues and magnify God. Then Peter answered,"
+      },
+      {
+        "line": 1354,
+        "text": "Ⲛⲁⲩⲥⲱⲧⲉⲙ ⲅⲁⲣ ⲉ̀ⲣⲱⲟⲩ ⲡⲉ ⲉⲩⲥⲁϫⲓ ϧⲉⲛ ϩⲁⲛⲗⲁⲥ ⲟⲩⲟϩ ⲉⲩϭⲓⲥⲓ ⲙ̀Ⲫϯ ⲧⲟⲧⲉ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲡⲉⲧⲣⲟⲥ."
+      },
+      {
+        "line": 1355,
+        "text": "46 لأَنَّهُمْ كَانُوا يَسْمَعُونَهُمْ يَتَكَلَّمُونَ بِأَلْسِنَةٍ وَيُعَظِّمُونَ اللهَ. حِينَئِذٍ قَالَ بُطْرُسُ:"
+      },
+      {
+        "line": 1356,
+        "text": "47 “Can anyone forbid water, that these should not be baptized who have received the Holy Spirit just as we have?”"
+      },
+      {
+        "line": 1357,
+        "text": "Ϫⲉ ⲙⲏ ⲧⲓ ⲟⲩⲟⲛϣ̀ϫⲟⲙ ⲛ̀ⲧⲉ ϩ̀ⲗⲓ ⲧⲁϩⲛⲟ ⲙ̀ⲡⲓⲙⲱⲟⲩ ⲉ̀ϣ̀ⲧⲉⲙⲑⲣⲉ ⲛⲁⲓ ϭⲓⲱⲙⲥ ⲛⲁⲓ ⲉ̀ⲧⲁⲩϭⲓ ⲙ̀ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ ⲙ̀ⲡⲉⲛⲣⲏϯ ϩⲱⲛ."
+      },
+      {
+        "line": 1358,
+        "text": "47 «أَتُرَى يَسْتَطِيعُ أَحَدٌ أَنْ يَمْنَعَ الْمَاءَ حَتَّى لاَ يَعْتَمِدَ هَؤُلاَءِ الَّذِينَ قَبِلُوا الرُّوحَ الْقُدُسَ كَمَا نَحْنُ أَيْضاً؟»"
+      },
+      {
+        "line": 1359,
+        "text": "48 And he commanded them to be baptized in the name of the Lord. Then they asked him to stay a few days."
+      },
+      {
+        "line": 1360,
+        "text": "Ⲁϥⲟⲩⲁϩⲥⲁϩⲛⲓ ⲇⲉ ⲛⲱⲟⲩ ⲉⲑⲣⲟⲩⲟⲙⲥⲟⲩ ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲛ̀Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ⲧⲟⲧⲉ ⲁⲩϯϩⲟ ⲉ̀ⲣⲟϥ ⲉⲑⲣⲉϥϣⲱⲡⲓ ϧⲁⲧⲟⲧⲟⲩ ⲛ̀ϩⲁⲛⲉ̀ϩⲟⲟⲩ."
+      },
+      {
+        "line": 1361,
+        "text": "48 وَأَمَرَ أَنْ يَعْتَمِدُوا بِاسْمِ الرَّبِّ. حِينَئِذٍ سَأَلُوهُ أَنْ يَمْكُثَ أَيَّاماً."
+      },
+      {
+        "line": 1362,
+        "text": "\tActs 13:1-4"
+      },
+      {
+        "line": 1363,
+        "text": "(اعمال 13: 1-4)"
+      },
+      {
+        "line": 1364,
+        "text": "Reader:"
+      },
+      {
+        "line": 1365,
+        "text": "1 Now in the church that was at Antioch there were certain prophets and teachers: Barnabas, Simeon who was called Niger, Lucius of Cyrene, Manaen who had been brought up with Herod the tetrarch, and Saul."
+      },
+      {
+        "line": 1366,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 1367,
+        "text": "Ⲛⲉ ⲟⲩⲟⲛ ϩⲁⲛⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲇⲉ ⲛⲉⲙ ϩⲁⲛⲣⲉϥϯⲥ̀ⲃⲱ ϧⲉⲛ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲧ̀ⲁⲛ ϯⲟⲭⲓⲁ̀ ⲃⲁⲣⲛⲁⲃⲁⲥ ⲛⲉⲙ Ⲥⲓⲙⲱⲛ ⲫⲏⲉ̀ⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲛⲓⲕⲉⲣ ⲛⲉⲙ ⲗⲟⲩⲕⲓⲟⲥ ⲡⲓⲔⲩⲣⲓⲛⲛⲉⲟⲥ ⲛⲉⲙ ⲙⲁⲛⲁⲏⲡⲓϣ̀ⲫⲏⲣ ⲛ̀ϣⲁⲛϣ ⲛ̀ⲧⲉ Ⲏ̀ⲣⲱⲇⲏⲥ ⲡⲓⲧⲉⲧⲣⲁⲁⲣⲭⲏⲥ ⲛⲉⲙ ⲥⲁⲩⲗⲟⲥ."
+      },
+      {
+        "line": 1368,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1369,
+        "text": "1 وَكَانَ فِي أَنْطَاكِيَةَ فِي الْكَنِيسَةِ هُنَاكَ أَنْبِيَاءُ وَمُعَلِّمُونَ: بَرْنَابَا وَسِمْعَانُ الَّذِي يُدْعَى نِيجَرَ وَلُوكِيُوسُ الْقَيْرَوَانِيُّ وَمَنَايِنُ الَّذِي تَرَبَّى مَعَ هِيرُودُسَ رَئِيسِ الرُّبْعِ وَشَاوُلُ."
+      },
+      {
+        "line": 1370,
+        "text": "2 As they ministered to the Lord and fasted, the Holy Spirit said, “Now separate to Me Barnabas and Saul for the work to which I have called them.”"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 376,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 43,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "Acts 19:1-8",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "acts",
+    "evidence": [
+      {
+        "line": 1368,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1369,
+        "text": "1 وَكَانَ فِي أَنْطَاكِيَةَ فِي الْكَنِيسَةِ هُنَاكَ أَنْبِيَاءُ وَمُعَلِّمُونَ: بَرْنَابَا وَسِمْعَانُ الَّذِي يُدْعَى نِيجَرَ وَلُوكِيُوسُ الْقَيْرَوَانِيُّ وَمَنَايِنُ الَّذِي تَرَبَّى مَعَ هِيرُودُسَ رَئِيسِ الرُّبْعِ وَشَاوُلُ."
+      },
+      {
+        "line": 1370,
+        "text": "2 As they ministered to the Lord and fasted, the Holy Spirit said, “Now separate to Me Barnabas and Saul for the work to which I have called them.”"
+      },
+      {
+        "line": 1371,
+        "text": "Ⲉⲩϣⲉⲙϣⲓ ⲇⲉ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲉⲩⲉⲣⲛⲏⲥⲧⲉⲩⲓⲛ ⲡⲉϫⲉ ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ ϫⲉ ⲫⲱⲣϫ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲃⲁⲣⲛⲁⲃⲁⲥ ⲛⲉⲙ ⲥⲁⲩⲗⲟⲥ ⲉ̀ⲡⲓϩⲱⲃ ⲉ̀ⲧⲁⲓⲑⲁϩⲙⲟⲩ ⲉ̀ⲣⲟϥ."
+      },
+      {
+        "line": 1372,
+        "text": "2 وَبَيْنَمَا هُمْ يَخْدِمُونَ الرَّبَّ وَيَصُومُونَ قَالَ الرُّوحُ الْقُدُسُ: «أَفْرِزُوا لِي بَرْنَابَا وَشَاوُلَ لِلْعَمَلِ الَّذِي دَعَوْتُهُمَا إِلَيْهِ»."
+      },
+      {
+        "line": 1373,
+        "text": "3 Then, having fasted and prayed, and laid hands on them, they sent them away."
+      },
+      {
+        "line": 1374,
+        "text": "Ⲧⲟⲧⲉ ⲉ̀ⲧⲁⲩⲉⲣⲛⲏⲥⲧⲉⲩⲓⲛ ⲟⲩⲟϩ ⲉ̀ⲧⲁⲩⲧⲱⲃϩ ⲁⲩⲭⲁϫⲓϫ ⲡ̀ⲉϫⲱⲟⲩ ⲟⲩⲟϩ ⲁⲩⲭⲁⲩ ⲉ̀ⲃⲟⲗ."
+      },
+      {
+        "line": 1375,
+        "text": "3 فَصَامُوا حِينَئِذٍ وَصَلُّوا وَوَضَعُوا عَلَيْهِمَا الأَيَادِيَ ثُمَّ أَطْلَقُوهُمَا."
+      },
+      {
+        "line": 1376,
+        "text": "4 So, being sent out by the Holy Spirit, they went down to Seleucia, and from there they sailed to Cyprus."
+      },
+      {
+        "line": 1377,
+        "text": "Ⲛ̀ⲑⲱⲟⲩ ⲙⲉⲛ ⲟⲩⲛ ⲉ̀ⲧⲁⲩⲟⲩⲟⲣⲡⲟⲩ ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ ⲁⲩⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲥⲉⲗⲉⲩⲕⲓⲁ̀ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲁⲩ ⲁⲩⲉⲣϩⲱⲧ ⲉ̀ⲕⲩⲡⲣⲟⲥ."
+      },
+      {
+        "line": 1378,
+        "text": "4 فَهَذَانِ إِذْ أُرْسِلاَ مِنَ الرُّوحِ الْقُدُسِ انْحَدَرَا إِلَى سَلُوكِيَةَ وَمِنْ هُنَاكَ سَافَرَا فِي الْبَحْرِ إِلَى قُبْرُسَ."
+      },
+      {
+        "line": 1379,
+        "text": "\tActs 19:1-8"
+      },
+      {
+        "line": 1380,
+        "text": "(اعمال 19: 1-8)"
+      },
+      {
+        "line": 1381,
+        "text": "Reader:"
+      },
+      {
+        "line": 1382,
+        "text": "1 And it happened, while Apollos was at Corinth, that Paul, having passed through the upper regions, came to Ephesus. And finding some disciples"
+      },
+      {
+        "line": 1383,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 1384,
+        "text": "Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲉ̀ⲣⲉ ⲁⲡⲉⲗⲗⲏⲥ ϧⲉⲛ ⲕⲟⲣⲓⲛⲑⲟⲥ ⲡⲁⲩⲗⲟⲥ ⲇⲉ ⲉ̀ⲧⲁϥⲥⲉⲡ ⲛⲓⲙⲁ ⲉⲧⲥⲁⲡ̀ϣⲱⲓ ⲉⲑⲣⲉϥⲓ̀ ⲉ̀ⲉⲫⲉⲥⲟⲥ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϫⲓⲙⲓ ⲛ̀ϩⲁⲛⲙⲁⲑⲏⲧⲏⲥ."
+      },
+      {
+        "line": 1385,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1386,
+        "text": "1 فَحَدَثَ فِيمَا كَانَ أَبُلُّوسُ فِي كُورِنْثُوسَ أَنَّ بُولُسَ بَعْدَ مَا اجْتَازَ فِي النَّوَاحِي الْعَالِيَةِ جَاءَ إِلَى أَفَسُسَ. فَإِذْ وَجَدَ تَلاَمِيذَ"
+      },
+      {
+        "line": 1387,
+        "text": "2 he said to them, “Did you receive the Holy Spirit when you believed?” So they said to him, “We have not so much as heard whether there is a Holy Spirit.”"
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 377,
+    "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+    "ordinal": 44,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Myron",
+      "Preparation"
+    ],
+    "printed_ref": "1 John 2:20-29",
+    "section": "main_readings",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+    "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "catholic",
+    "evidence": [
+      {
+        "line": 1397,
+        "text": "Ⲉ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲇⲉ ⲁⲩϭⲓⲱⲙⲥ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲓⲏ︦ⲥ︦."
+      },
+      {
+        "line": 1398,
+        "text": "5 فَلَمَّا سَمِعُوا اعْتَمَدُوا بِاسْمِ الرَّبِّ يَسُوعَ."
+      },
+      {
+        "line": 1399,
+        "text": "6 And when Paul had laid hands on them, the Holy Spirit came upon them, and they spoke with tongues and prophesied."
+      },
+      {
+        "line": 1400,
+        "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁ ⲡⲁⲩⲗⲟⲥ ⲭⲁ ϫⲓϫ ⲡ̀ⲉϫⲱⲟⲩ ⲁϥⲓ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲡ̀ⲉϫⲱⲟⲩ ⲛ̀ϫⲉ ⲡⲠⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ ⲛⲁⲩⲥⲁϫⲓ ⲇⲉ ϧⲉⲛ ⲫ̀ⲗⲁⲥ ⲟⲩⲟϩ ⲛⲁⲩⲉⲣⲡ̀ⲣⲟⲫⲏⲧⲉⲩⲓⲛ."
+      },
+      {
+        "line": 1401,
+        "text": "6 وَلَمَّا وَضَعَ بُولُسُ يَدَيْهِ عَلَيْهِمْ حَلَّ الرُّوحُ الْقُدُسُ عَلَيْهِمْ فَطَفِقُوا يَتَكَلَّمُونَ بِلُغَاتٍ وَيَتَنَبَّأُونَ."
+      },
+      {
+        "line": 1402,
+        "text": "7 Now the men were about twelve in all."
+      },
+      {
+        "line": 1403,
+        "text": "Ⲛ̀ⲑⲱⲟⲩ ⲇⲉ ⲧⲏⲣⲟⲩ ⲛⲁⲩⲉⲣ ⲓ︦ⲃ︦ ⲛ̀ⲣⲱⲙⲓ."
+      },
+      {
+        "line": 1404,
+        "text": "7 وَكَانَ جَمِيعُ الرِّجَالِ نَحْوَ اثْنَيْ عَشَرَ."
+      },
+      {
+        "line": 1405,
+        "text": "8 And he went into the synagogue and spoke boldly for three months, reasoning and persuading concerning the things of the kingdom of God."
+      },
+      {
+        "line": 1406,
+        "text": "Ⲉ̀ⲧⲁϥϣⲉ ⲇⲉ ⲉ̀ϧⲟⲩⲛ ⲉ̀ϯⲥⲩⲛⲁⲅⲱⲅⲏ ⲛⲁϥⲟⲩⲟⲛϩ ⲙ̀ⲙⲟϥ ⲉ̀ⲃⲟⲗ ⲛ̀ⲅ︦ ⲛ̀ⲁ̀ⲃⲟⲧ ⲉϥⲥⲁϫⲓ ⲟⲩⲟϩ ⲉϥⲑⲱⲧ ⲙ̀ⲡⲟⲩϩⲏⲧ ⲉⲑⲃⲉ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲫϯ."
+      },
+      {
+        "line": 1407,
+        "text": "8 ثُمَّ دَخَلَ الْمَجْمَعَ وَكَانَ يُجَاهِرُ مُدَّةَ ثَلاَثَةِ أَشْهُرٍ مُحَاجّاً وَمُقْنِعاً فِي مَا يَخْتَصُّ بِمَلَكُوتِ اللهِ."
+      },
+      {
+        "line": 1408,
+        "text": "\t1 John 2:20-29"
+      },
+      {
+        "line": 1409,
+        "text": "(1 يوحنا 2: 20-29)"
+      },
+      {
+        "line": 1410,
+        "text": "Reader:"
+      },
+      {
+        "line": 1411,
+        "text": "20 But you have an anointing from the Holy One, and you know all things."
+      },
+      {
+        "line": 1412,
+        "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+      },
+      {
+        "line": 1413,
+        "text": "Ⲟⲩⲟϩ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲱⲧⲉⲛ ⲟⲩⲟⲛⲧⲟⲧⲉⲛ ⲛ̀ⲟⲩⲑⲱϩⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉⲑⲟⲩⲁⲃ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲛ̀ϩⲱⲃ ⲛⲓⲃⲉⲛ."
+      },
+      {
+        "line": 1414,
+        "text": "القارﺉُ:"
+      },
+      {
+        "line": 1415,
+        "text": "20 وَأَمَّا أَنْتُمْ فَلَكُمْ مَسْحَةٌ مِنَ الْقُدُّوسِ وَتَعْلَمُونَ كُلَّ شَيْءٍ."
+      },
+      {
+        "line": 1416,
+        "text": "21 I have not written to you because you do not know the truth, but because you know it, and that no lie is of the truth."
+      }
+    ],
+    "governing_rubric": [
+      {
+        "line": 318,
+        "text": "His Holiness the Pope, the Metropolitans, and the Bishops, start reading these verses from the old and the new testaments which are related to the Holy Chrismation, and the descent of the Holy Spirit:"
+      }
+    ],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 381,
+    "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+    "ordinal": 4,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Oil of Gladness"
+    ],
+    "printed_ref": "Luke 23:50-24:12",
+    "section": "offering_of_evening_incense",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+    "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 1567,
+        "text": "(صلاة النوم)"
+      },
+      {
+        "line": 1568,
+        "text": "The Lamb is offered and the holy liturgy is completed as customary. It is to be noted that the liturgy on the day of the sanctification of the holy Myron has special readings:"
+      },
+      {
+        "line": 1569,
+        "text": "Offering of Evening Incense"
+      },
+      {
+        "line": 1570,
+        "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲣⲟⲩϩⲓ"
+      },
+      {
+        "line": 1571,
+        "text": "رفع بخور عشية"
+      },
+      {
+        "line": 1572,
+        "text": "\tPsalms 23:5-6"
+      },
+      {
+        "line": 1573,
+        "text": "(مزامير 23: 5-6)"
+      },
+      {
+        "line": 1574,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 1575,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 1576,
+        "text": "In the presence of those who afflict me: You have anointed my head with oil; and Your cup makes me drunk like power. Your mercy shall follow me all the days of my life: and my dwelling shall be in the house of the Lord unto length of days. Alleluia."
+      },
+      {
+        "line": 1577,
+        "text": "مُقابل الذين يحزنونني دهنت بالزيت رأسي. وكأسك روتني مثل الصرف. ورحمتك تدركني جميع أيام حياتي. ومسكني في بيت الرب إلى مدى الأيام. هَلليلُويا."
+      },
+      {
+        "line": 1578,
+        "text": "\tLuke 23:50-24:12"
+      },
+      {
+        "line": 1579,
+        "text": "(لوقا 23: 50-24: 12)"
+      },
+      {
+        "line": 1580,
+        "text": "50 Now behold, there was a man named Joseph, a council member, a good and just man."
+      },
+      {
+        "line": 1581,
+        "text": "Ⲟⲩⲟϩ ϩⲏⲡⲡⲉ ⲓⲥ ⲟⲩⲣⲱⲙⲓ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ ⲓⲱⲥⲏⲫ ⲉⲟⲩⲃⲟⲩⲗⲉⲩⲧⲏⲥ ⲡⲉ ⲉ̀ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲁⲅⲁⲑⲟⲥ ⲡⲉ ⲟⲩⲟϩ ⲛ̀ⲑ̀ⲙⲏⲓ."
+      },
+      {
+        "line": 1582,
+        "text": "50 وَإِذَا رَجُلٌ اسْمُهُ يُوسُفُ وَكَانَ مُشِيراً وَرَجُلاً صَالِحاً بَارّاً -"
+      },
+      {
+        "line": 1583,
+        "text": "51 He had not consented to their decision and deed. He was from Arimathea, a city of the Jews, who himself was also waiting for the kingdom of God."
+      },
+      {
+        "line": 1584,
+        "text": "Ⲫⲁⲓ ⲛⲁϥϯⲙⲁϯ ⲁⲛ ⲡⲉ ϧⲉⲛ ⲡⲟⲩⲥⲟϭ ⲛⲓ ⲛⲉⲙ ⲧⲟⲩⲡ̀ⲣⲁⲝⲓⲥ ⲛⲉ ⲟⲩⲉ̀ⲃⲟⲗ ⲉⲛ ⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲡⲉ ⲟⲩⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲫⲏ ⲉⲛⲁϥϫⲟⲩϣⲧ ⲉ̀ⲃⲟⲗ ϧⲁϫⲉⲛ ϯⲙⲉⲧⲟⲩⲣⲟ ⲛ̀ⲧⲉ ⲫϯ."
+      },
+      {
+        "line": 1585,
+        "text": "51 هَذَا لَمْ يَكُنْ مُوافِقاً لِرَأْيِهِمْ وَعَمَلِهِمْ وَهُوَ مِنَ الرَّامَةِ مَدِينَةٍ لِلْيَهُودِ. وَكَانَ هُوَ أَيْضاً يَنْتَظِرُ مَلَكُوتَ اللهِ."
+      },
+      {
+        "line": 1586,
+        "text": "52 This man went to Pilate and asked for the body of Jesus."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 383,
+    "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+    "ordinal": 6,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Oil of Gladness"
+    ],
+    "printed_ref": "Mark 16:1-20",
+    "section": "offering_of_morning_incense",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+    "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 1635,
+        "text": "Ⲉⲧⲣⲟⲥ ⲇⲉ ⲁϥⲧⲱⲛϥ ⲁϥϭⲟϫⲓ ⲉ̀ⲡⲓⲙ̀ϩⲁⲩ ⲟⲩⲟϩ ⲉⲧⲁϥⲥⲟⲙⲥ ⲉ̀ϧⲟⲩⲛ ⲁϥⲛⲁⲩ ⲉ̀ⲛⲓϩ̀ⲃⲱⲥ ⲙ̀ⲙⲁⲩⲁⲧⲟⲩ ⲟⲩⲟϩ ⲁϥϣⲉ ⲛⲁϥ ⲉ̀ⲡⲉϥⲏⲓ ⲉϥⲉⲣϣ̀ⲫⲏⲣⲓ ⲙⲫⲏⲉⲧⲁϥϣⲱⲡⲓ."
+      },
+      {
+        "line": 1636,
+        "text": "12 فَقَامَ بُطْرُسُ وَرَكَضَ إِلَى الْقَبْرِ فَانْحَنَى وَنَظَرَ الأَكْفَانَ مَوْضُوعَةً وَحْدَهَا فَمَضَى مُتَعَجِّباً فِي نَفْسِهِ مِمَّا كَانَ."
+      },
+      {
+        "line": 1637,
+        "text": "Offering of Morning Incense"
+      },
+      {
+        "line": 1638,
+        "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+      },
+      {
+        "line": 1639,
+        "text": "رفع بخور باكر"
+      },
+      {
+        "line": 1640,
+        "text": "\tPsalms 51:12-13"
+      },
+      {
+        "line": 1641,
+        "text": "(مزامير 51: 12-13)"
+      },
+      {
+        "line": 1642,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 1643,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 1644,
+        "text": "Give me the joy of Your salvation, and uphold me with a directing spirit. Then I shall teach the transgressors Your ways; and the ungodly men shall turn to You."
+      },
+      {
+        "line": 1645,
+        "text": "رُدَّ لِي بَهْجَةَ خَلاَصِكَ وَبِرُوحٍ مُنْتَدِبَةٍ اعْضُدْنِي. فَأُعَلِّمَ الأَثَمَةَ طُرُقَكَ وَالْخُطَاةُ إِلَيْكَ يَرْجِعُونَ."
+      },
+      {
+        "line": 1646,
+        "text": "\tMark 16:1-20"
+      },
+      {
+        "line": 1647,
+        "text": "(مرقس 16: 1-20)"
+      },
+      {
+        "line": 1648,
+        "text": "1 Now when the Sabbath was past, Mary Magdalene, Mary the mother of James, and Salome bought spices, that they might come and anoint Him."
+      },
+      {
+        "line": 1649,
+        "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲛ̀ϫⲉ ⲡⲓⲥⲁⲃⲃⲁⲧⲟⲛ Ⲙⲁⲣⲓⲁ̀ ϯⲘⲁⲅⲇⲁⲗⲓⲛⲏ ⲛⲉⲙ Ⲙⲁⲣⲓⲁ̀ ⲛ̀ⲧⲉ Ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ ⲥⲁⲗⲱⲙⲏⲁⲩϣⲉⲛⲱⲟⲩ ⲁⲩϣⲱⲡ ⲛ̀ϩⲁⲛⲥ̀ⲑⲟⲓⲛⲟⲩϥⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩⲒ̀ ⲛ̀ⲧⲟⲩⲑⲁϩⲥϥ."
+      },
+      {
+        "line": 1650,
+        "text": "1 وَبَعْدَمَا مَضَى السَّبْتُ اشْتَرَتْ مَرْيَمُ الْمَجْدَلِيَّةُ وَمَرْيَمُ أُمُّ يَعْقُوبَ وَسَالُومَةُ حَنُوطاً لِيَأْتِينَ وَيَدْهَنَّهُ."
+      },
+      {
+        "line": 1651,
+        "text": "2 Very early in the morning, on the first day of the week, they came to the tomb when the sun had risen."
+      },
+      {
+        "line": 1652,
+        "text": "Ⲟⲩⲟϩ ⲛ̀ϩⲁⲛⲁ̀ⲧⲟⲟⲩⲓ̀ ⲉ̀ⲙⲁϣⲱ ⲙ̀ⲫ̀ⲟⲩⲁⲓ ⲛ̀ⲛⲓⲥⲁⲃⲃⲁⲧⲟⲛ ⲁⲩⲓ̀ ⲉ̀ⲡⲓⲙ̀ϩⲁⲩ ⲉ̀ⲧⲁ ⲫ̀ⲣⲏ ϣⲁⲓ."
+      },
+      {
+        "line": 1653,
+        "text": "2 وَبَاكِراً جِدّاً فِي أَوَّلِ الأُسْبُوعِ أَتَيْنَ إِلَى الْقَبْرِ إِذْ طَلَعَتِ الشَّمْسُ."
+      },
+      {
+        "line": 1654,
+        "text": "3 And they said among themselves, “Who will roll away the stone from the door of the tomb for us?”"
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 388,
+    "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+    "ordinal": 11,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Oil of Gladness"
+    ],
+    "printed_ref": "John 19:38-20:18",
+    "section": "liturgy_of_the_word",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt",
+    "sha256": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 2070,
+        "text": "Ⲛⲁⲩⲕⲱϯ ⲇⲉ ⲛⲉⲙ ⲡⲓⲥⲁϫⲓ ⲛ̀ⲧⲉ Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ϯⲭⲱⲣⲁ ⲧⲏⲣⲥ."
+      },
+      {
+        "line": 2071,
+        "text": "49 وَانْتَشَرَتْ كَلِمَةُ الرَّبِّ فِي كُلِّ الْكُورَةِ."
+      },
+      {
+        "line": 2072,
+        "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+      },
+      {
+        "line": 2073,
+        "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 2074,
+        "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+      },
+      {
+        "line": 2075,
+        "text": "\tPsalms 45:7-8"
+      },
+      {
+        "line": 2076,
+        "text": "(مزامير 45: 7-8)"
+      },
+      {
+        "line": 2077,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 2078,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 2079,
+        "text": "You have loved righteousness, and hated iniquity; therefore, God, Your God, has anointed You with the oil of gladness more than Your fellows. Myrrh and aloes and cassia are from Your garments, and out of the ivory palaces, with which they have gladdened You"
+      },
+      {
+        "line": 2080,
+        "text": "أَحْبَبْتَ الْبِرَّ وَأَبْغَضْتَ الإِثْمَ مِنْ أَجْلِ ذَلِكَ مَسَحَكَ اللهُ إِلَهُكَ بِدُهْنِ الاِبْتِهَاجِ أَكْثَرَ مِنْ رُفَقَائِكَ. كُلُّ ثِيَابِكَ مُرٌّ وَعُودٌ وَسَلِيخَةٌ. مِنْ قُصُورِ الْعَاجِ سَرَّتْكَ الأَوْتَارُ."
+      },
+      {
+        "line": 2081,
+        "text": "\tJohn 19:38-20:18"
+      },
+      {
+        "line": 2082,
+        "text": "(يوحنا 19: 38-20: 18)"
+      },
+      {
+        "line": 2083,
+        "text": "38 After this, Joseph of Arimathea, being a disciple of Jesus, but secretly, for fear of the Jews, asked Pilate that he might take away the body of Jesus; and Pilate gave him permission. So he came and took the body of Jesus."
+      },
+      {
+        "line": 2084,
+        "text": "Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ ⲓⲱⲥⲏⲫ ⲡⲓⲣⲉⲙⲁⲣⲓⲙⲁⲑⲉⲁⲥ ⲁϥϯϩⲟ ⲉ̀ⲡⲓⲗⲁⲧⲟⲥ ⲉ̀ⲟⲩⲙⲁⲑⲏ ⲧⲏⲥ ϩⲱϥ ⲡⲉ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲛⲁϥⲭⲏⲡ ⲇⲉ ⲡⲉ ⲉⲑⲃⲉ ⲧ̀ϩⲟϯ ⲛ̀ⲛⲓⲓⲟⲩⲇⲁⲓ ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲱⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦ ⲟⲩⲟϩ ⲁϥⲟⲩⲁϩⲥⲁϩⲛⲓ ⲛ̀ϫⲉ ⲡⲓⲗⲁⲧⲟⲥ ⲉ̀ⲧⲏⲓϥ ⲁϥⲓ̀ ⲟⲩⲛ ⲟⲩⲟϩ ⲁϥⲱⲗⲓ ⲙ̀ⲡⲓⲥⲱⲙⲁ ⲛ̀ⲧⲉ Ⲓⲏ︦ⲥ︦."
+      },
+      {
+        "line": 2085,
+        "text": "38 ثُمَّ إِنَّ يُوسُفَ الَّذِي مِنَ الرَّامَةِ وَهُوَ تِلْمِيذُ يَسُوعَ وَلَكِنْ خُفْيَةً لِسَبَبِ الْخَوْفِ مِنَ الْيَهُودِ سَأَلَ بِيلاَطُسَ أَنْ يَأْخُذَ جَسَدَ يَسُوعَ فَأَذِنَ بِيلاَطُسُ. فَجَاءَ وَأَخَذَ جَسَدَ يَسُوعَ."
+      },
+      {
+        "line": 2086,
+        "text": "39 And Nicodemus, who at first came to Jesus by night, also came, bringing a mixture of myrrh and aloes, about a hundred pounds."
+      },
+      {
+        "line": 2087,
+        "text": "Ⲁϥⲓ̀ ⲇⲉ ϩⲱϥ ⲛ̀ϫⲉ ⲛⲓⲕⲟⲇⲏⲙⲟⲥ ⲫⲏⲉⲧⲁϥⲓ̀ ϩⲁ Ⲓⲏ︦ⲥ︦ ⲛ̀ϫⲱⲣϩ ⲛ̀ϣⲟⲣⲡ ⲉ̀ⲟⲩⲟⲛ ⲟⲩⲙⲓⲅⲙⲁ ⲛ̀ⲧⲟⲧϥ ⲟⲩϣⲁⲗ ⲛⲉⲙ ⲟⲩⲁ̀ⲗⲗⲟⲏ ⲛⲁⲩⲣ︦ ⲛ̀ⲗⲓⲧⲣⲁ."
+      },
+      {
+        "line": 2088,
+        "text": "39 وَجَاءَ أَيْضاً نِيقُودِيمُوسُ الَّذِي أَتَى أَوَّلاً إِلَى يَسُوعَ لَيْلاً وَهُوَ حَامِلٌ مَزِيجَ مُرٍّ وَعُودٍ نَحْوَ مِئَةِ مَناً."
+      },
+      {
+        "line": 2089,
+        "text": "40 Then they took the body of Jesus, and bound it in strips of linen with the spices, as the custom of the Jews is to bury."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 390,
+    "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+    "ordinal": 2,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Pre-sanctified Chrism"
+    ],
+    "printed_ref": "John 1:18-42",
+    "section": "first_liturgy_offering_of_morning_incense",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+    "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 4,
+        "text": "First Liturgy"
+      },
+      {
+        "line": 5,
+        "text": "Offering of Morning Incense"
+      },
+      {
+        "line": 6,
+        "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+      },
+      {
+        "line": 7,
+        "text": "رفع بخور باكر"
+      },
+      {
+        "line": 8,
+        "text": "\tPsalms 51:7-8"
+      },
+      {
+        "line": 9,
+        "text": "(مزامير 51: 7-8)"
+      },
+      {
+        "line": 10,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 11,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 12,
+        "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Make me hear joy and gladness, That the afflicted bones may rejoice."
+      },
+      {
+        "line": 13,
+        "text": "Ⲉⲕⲉ̀ⲛⲟⲩϫϧ ⲉ̀ϫⲱⲓ ⲙ̀ⲡⲉⲕϣⲉⲛϩⲩⲥⲱⲡⲟⲛ ⲉⲓⲉ̀ⲧⲟⲩⲃⲟ: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲉⲓⲉ̀ⲟⲩⲃⲁϣ ⲉ̀ϩⲟⲧⲉ ⲟⲩⲭⲓⲱⲛ. Ⲉⲕⲉ̀ⲑ̀ⲣⲓⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲑⲉⲗⲏⲗ ⲛⲉⲙ ⲟⲩⲟⲩⲛⲟϥ: ⲉⲩⲉ̀ⲑⲉⲗⲏⲗ ⲛ̀ϫⲉ ⲛⲓⲕⲁⲥ ⲉⲧⲑⲉⲃⲓⲏ̀ⲟⲩⲧ: ⲁ︦ⲗ︦."
+      },
+      {
+        "line": 14,
+        "text": "تَنْضَحُ عَلَيَّ بزُوفَاكَ فَأَطْهُرُ، وَتَغسِلُنِي فَأَبْيَضُّ أَكْثَرَ مِنَ الثَّلْجِ. تُسْمِعُنِي سُرُورًا وَفَرَحًا، فَتَبْتَهِجُ الْعِظَامُ الْمُتَوَاضِعَةُ."
+      },
+      {
+        "line": 15,
+        "text": "\tJohn 1:18-42"
+      },
+      {
+        "line": 16,
+        "text": "(يوحنا 1: 18-42)"
+      },
+      {
+        "line": 17,
+        "text": "18 No one has seen God at any time. The only begotten Son, who is in the bosom of the Father, He has declared Him."
+      },
+      {
+        "line": 18,
+        "text": "Ⲫϯ ⲙ̀ⲡⲉ ϩ̀ⲗⲓ ⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲉ̀ⲛⲉϩ ⲡⲓⲙⲟⲛⲟⲅⲉⲛⲏ ⲥ ⲛ̀ⲛⲟⲩϯ ⲫⲏⲉⲧⲭⲏ ϧⲉⲛ ⲕⲉⲛϥ ⲙ̀ⲡⲉϥⲓⲱⲧ ⲛ̀ⲑⲟϥ ⲡⲉⲧⲁϥⲥⲁϫⲓ."
+      },
+      {
+        "line": 19,
+        "text": "18 اَللَّهُ لَمْ يَرَهُ أَحَدٌ قَطُّ. اَلاِبْنُ الْوَحِيدُ الَّذِي هُوَ فِي حِضْنِ الآبِ هُوَ خَبَّرَ."
+      },
+      {
+        "line": 20,
+        "text": "19 Now this is the testimony of John, when the Jews sent priests and Levites from Jerusalem to ask him, “Who are you?”"
+      },
+      {
+        "line": 21,
+        "text": "Ⲟⲩⲟϩ ⲑⲁⲓ ⲧⲉ ϯⲙⲉⲧⲙⲉⲑⲣⲉ ⲛ̀ⲧⲉ ⲓⲱⲁⲛⲛⲏⲥ ϩⲟⲧⲉ ⲉⲧⲁⲩⲟⲩⲱⲣⲡ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲓ̀ⲗ︦ⲏ︦ⲙ︦ ⲛ̀ϩⲁⲛⲟⲩⲏⲃ ⲛⲉⲙ ϩⲁⲛⲗⲉⲩⲓⲧⲏⲥ ϩⲓⲛⲁ ⲛ̀ⲧⲟⲩϣⲉⲛϥ ϫⲉ ⲛ̀ⲑⲟⲕ ⲛⲓⲙ."
+      },
+      {
+        "line": 22,
+        "text": "19 وَهَذِهِ هِيَ شَهَادَةُ يُوحَنَّا حِينَ أَرْسَلَ الْيَهُودُ مِنْ أُورُشَلِيمَ كَهَنَةً وَلاَوِيِّينَ لِيَسْأَلُوهُ: «مَنْ أَنْتَ؟»"
+      },
+      {
+        "line": 23,
+        "text": "20 He confessed, and did not deny, but confessed, “I am not the Christ.”"
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 395,
+    "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+    "ordinal": 7,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Pre-sanctified Chrism"
+    ],
+    "printed_ref": "Matthew 26:6-13",
+    "section": "first_liturgy_liturgy_of_the_word",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+    "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 340,
+        "text": "Ⲡⲁⲓⲣⲏϯ ⲇⲉ ϧⲉⲛ ⲟⲩⲁⲙⲁϩⲓ ⲁϥⲁⲓⲁⲓ ⲛ̀ϫⲉ ⲡ̀ⲥⲁϫⲓ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲟⲩⲟϩ ⲁϥϫⲉⲙϫⲟⲙ."
+      },
+      {
+        "line": 341,
+        "text": "20 هَكَذَا كَانَتْ كَلِمَةُ الرَّبِّ تَنْمُو وَتَقْوَى بِشِدَّةٍ."
+      },
+      {
+        "line": 342,
+        "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+      },
+      {
+        "line": 343,
+        "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 344,
+        "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+      },
+      {
+        "line": 345,
+        "text": "\tPsalms 133:1"
+      },
+      {
+        "line": 346,
+        "text": "(مزامير 133: 1)"
+      },
+      {
+        "line": 347,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 348,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 349,
+        "text": "Behold! What is so good, or what so pleasant, as for brothers dwelling together?"
+      },
+      {
+        "line": 350,
+        "text": "هُوَذَا مَا أَحْسَنَ وَمَا أَجْمَلَ أَنْ يَسْكُنَ الإِخْوَةُ مَعاً!"
+      },
+      {
+        "line": 351,
+        "text": "\tMatthew 26:6-13"
+      },
+      {
+        "line": 352,
+        "text": "(متى 26: 6-13)"
+      },
+      {
+        "line": 353,
+        "text": "6 And when Jesus was in Bethany at the house of Simon the leper,"
+      },
+      {
+        "line": 354,
+        "text": "Ⲓⲏ︦ⲥ︦ ⲇⲉ ⲉϥⲭⲏ ϧⲉⲛ Ⲃⲏⲑⲁⲛⲓⲁ̀ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲕⲥⲉϩⲧ."
+      },
+      {
+        "line": 355,
+        "text": "6 وَفِيمَا كَانَ يَسُوعُ فِي بَيْتِ عَنْيَا فِي بَيْتِ سِمْعَانَ الأَبْرَصِ"
+      },
+      {
+        "line": 356,
+        "text": "7 a woman came to Him having an alabaster flask of very costly fragrant oil, and she poured it on His head as He sat at the table."
+      },
+      {
+        "line": 357,
+        "text": "Ⲁⲥⲓ̀ ϩⲁⲣⲟϥ ⲛ̀ϫⲉ ⲟⲩⲥ̀ϩⲓⲙⲓ ⲉ̀ⲣⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲕⲓ ⲛ̀ⲥⲟϫⲉⲛ ⲛ̀ⲧⲟⲧⲥ ⲉ̀ⲛⲁϣⲉ ⲛ̀ⲥⲟⲩⲉⲛϥ ⲟⲩⲟϩ ⲁⲥϫⲟϣϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲧⲉϥⲁ̀ⲫⲉ ⲉϥⲣⲱⲧⲉⲃ."
+      },
+      {
+        "line": 358,
+        "text": "7 تَقَدَّمَتْ إِلَيْهِ امْرَأَةٌ مَعَهَا قَارُورَةُ طِيبٍ كَثِيرِ الثَّمَنِ فَسَكَبَتْهُ عَلَى رَأْسِهِ وَهُوَ مُتَّكِئٌ."
+      },
+      {
+        "line": 359,
+        "text": "8 But when His disciples saw it, they were indignant, saying, “Why this waste?"
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 397,
+    "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+    "ordinal": 9,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Pre-sanctified Chrism"
+    ],
+    "printed_ref": "John 3:22-4:2",
+    "section": "second_liturgy_offering_of_morning_incense",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+    "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 377,
+        "text": "Second Liturgy"
+      },
+      {
+        "line": 378,
+        "text": "Offering of Morning Incense"
+      },
+      {
+        "line": 379,
+        "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+      },
+      {
+        "line": 380,
+        "text": "رفع بخور باكر"
+      },
+      {
+        "line": 381,
+        "text": "\tPsalms 29:3-4"
+      },
+      {
+        "line": 382,
+        "text": "(مزامير 29: 3-4)"
+      },
+      {
+        "line": 383,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 384,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 385,
+        "text": "The voice of the Lord is over the waters; The God of glory thunders; The Lord is over many waters. The voice of the Lord is powerful. The voice of the Lord is full of majesty."
+      },
+      {
+        "line": 386,
+        "text": "Ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϩⲓϫⲉⲛ ⲛⲓⲙⲱⲟⲩ Ⲫϯ ⲛ̀ⲧⲉ ⲡ̀ⲱ̀ⲟⲩ ⲁϥⲉⲣϧⲁⲣⲁⲃⲁⲓ: Ⲡⲟ︦ⲥ︦ ϩⲓϫⲉⲛ ϩⲁⲛⲙⲱⲟⲩ ⲉⲩⲟϣ: ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩϫⲟⲙ: ⲡ̀ϧ̀ⲣⲱⲟⲩ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩⲛⲓϣϯ ⲙ̀ⲙⲉⲧⲥⲁⲓⲉ̀. ⲁ︦ⲗ︦."
+      },
+      {
+        "line": 387,
+        "text": "صوت الرب على المياه إله المجد أرعد، الرب على المياه الكثيرة، صوت الرب بقوة، صوت الرب بجلال عظيم. هلليلويا"
+      },
+      {
+        "line": 388,
+        "text": "\tJohn 3:22-4:2"
+      },
+      {
+        "line": 389,
+        "text": "(يوحنا 3: 22-4: 2)"
+      },
+      {
+        "line": 390,
+        "text": "22 After these things Jesus and His disciples came into the land of Judea, and there He remained with them and baptized."
+      },
+      {
+        "line": 391,
+        "text": "Ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲇⲉ ⲁϥⲓ̀ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲛⲉⲙ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲉ̀ⲡ̀ⲕⲁϩⲓ ⲛ̀ⲧⲉ ϯⲓⲟⲩⲇⲉⲁ̀ ⲟⲩⲟϩ ⲛⲁϥⲭⲏ ⲙ̀ⲙⲁⲩ ⲛⲉⲙⲱⲟⲩ ⲡⲉ ⲉϥϯⲱⲙⲥ."
+      },
+      {
+        "line": 392,
+        "text": "22 وَبَعْدَ هَذَا جَاءَ يَسُوعُ وَتلاَمِيذُهُ إِلَى أَرْضِ الْيَهُودِيَّةِ وَمَكَثَ مَعَهُمْ هُنَاكَ وَكَانَ يُعَمِّدُ."
+      },
+      {
+        "line": 393,
+        "text": "23 Now John also was baptizing in Aenon near Salim, because there was much water there. And they came and were baptized."
+      },
+      {
+        "line": 394,
+        "text": "Ⲛⲁⲣⲉ ⲡ̀ⲕⲉⲓⲱⲁⲛⲛⲏⲥ ⲇⲉ ϯⲱⲙⲥ ⲡⲉ ϧⲉⲛ ⲉ̀ⲛⲱⲛ ϧⲁⲧⲉⲛ ⲥⲁⲗⲓⲙ ϫⲉ ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲏϣ ⲙ̀ⲙⲱⲟⲩ ⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ⲛⲁⲩⲛⲏⲟⲩ ⲟⲩⲟϩ ⲛⲁⲩϭⲓⲱⲙⲥ ⲡⲉ."
+      },
+      {
+        "line": 395,
+        "text": "23 وَكَانَ يُوحَنَّا أَيْضاً يُعَمِّدُ فِي عَيْنِ نُونٍ بِقُرْبِ سَالِيمَ لأَنَّهُ كَانَ هُنَاكَ مِيَاهٌ كَثِيرَةٌ وَكَانُوا يَأْتُونَ وَيَعْتَمِدُونَ -"
+      },
+      {
+        "line": 396,
+        "text": "24 For John had not yet been thrown into prison."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 402,
+    "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+    "ordinal": 14,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Pre-sanctified Chrism"
+    ],
+    "printed_ref": "Mark 14:3-9",
+    "section": "second_liturgy_liturgy_of_the_word",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+    "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 698,
+        "text": "Ⲛⲁⲩⲥⲱⲟⲩⲛ ⲇⲉ ⲙ̀ⲙⲟϥ ⲡⲉ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲫⲏⲉ̀ⲛⲁϥϩⲉⲙⲥⲓ ⲉϥϣⲁⲧ ⲙⲉⲑⲛⲁⲓ ϧⲁⲧⲉⲛ ϯⲥⲁⲓⲏ̀ⲙ̀ⲡⲩⲗⲏⲛ̀ⲧⲉ ⲡⲓⲉⲣⲫⲉⲓ ⲁⲩⲙⲟϩ ⲧⲏⲣⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲟⲩϩⲟϯ ⲛⲉⲙ ⲟⲩⲙⲉ̀ⲧⲉⲃⲏⲛ̀ϧ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲫⲁⲓ ⲉ̀ⲧⲁϥϣⲱⲡⲓ."
+      },
+      {
+        "line": 699,
+        "text": "10 وَعَرَفُوهُ أَنَّهُ هُوَ الَّذِي كَانَ يَجْلِسُ لأَجْلِ الصَّدَقَةِ عَلَى بَابِ الْهَيْكَلِ الْجَمِيلِ فَامْتَلأُوا دَهْشَةً وَحَيْرَةً مِمَّا حَدَثَ لَهُ."
+      },
+      {
+        "line": 700,
+        "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+      },
+      {
+        "line": 701,
+        "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 702,
+        "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+      },
+      {
+        "line": 703,
+        "text": "\tPsalms 130:2-5"
+      },
+      {
+        "line": 704,
+        "text": "(مزامير 130: 2-5)"
+      },
+      {
+        "line": 705,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 706,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 707,
+        "text": "O Lord, hear my voice; let Your ears be attentive to the voice of my supplication. If You, O Lord, should mark iniquities, O Lord, who shall stand? For through You is forgiveness. For Your name's sake I have waited for You, O Lord."
+      },
+      {
+        "line": 708,
+        "text": "يَا رَبُّ اسْمَعْ صَوْتِي. لِتَكُنْ أُذُنَاكَ مُصْغِيَتَيْنِ إِلَى صَوْتِ تَضَرُّعَاتِي. إِنْ كُنْتَ تُرَاقِبُ الآثَامَ يَا رَبُّ يَا سَيِّدُ فَمَنْ يَقِفُ؟ لأَنَّ عِنْدَكَ الْمَغْفِرَةَ. لِكَيْ يُخَافَ مِنْكَ. انْتَظَرْتُكَ يَا رَبُّ. انْتَظَرَتْ نَفْسِي وَبِكَلاَمِهِ رَجَوْتُ."
+      },
+      {
+        "line": 709,
+        "text": "\tMark 14:3-9"
+      },
+      {
+        "line": 710,
+        "text": "(مرقس 14: 3-9)"
+      },
+      {
+        "line": 711,
+        "text": "3 And being in Bethany at the house of Simon the leper, as He sat at the table, a woman came having an alabaster flask of very costly oil of spikenard. Then she broke the flask and poured it on His head."
+      },
+      {
+        "line": 712,
+        "text": "Ⲟⲩⲟϩ ⲉϥⲭⲏ ϧⲉⲛ Ⲃⲏⲑⲁⲛⲓⲁ̀ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀Ⲥⲓⲙⲱⲛ ⲡⲓⲕⲁⲕⲥⲉϩⲧ ⲉϥⲣⲱⲧⲉⲃ ⲁⲥⲓ̀ ⲛ̀ϫⲉ ⲟⲩⲥ̀ϩⲓⲙⲓ ⲉ̀ⲣⲉ ⲟⲩⲟⲛ ⲟⲩⲙⲟⲕⲓ ⲛ̀ⲥⲟϫⲉⲛ ⲛⲛⲁⲣⲇⲟⲥ ⲛ̀ⲧⲟⲧⲥ ⲙ̀ⲡⲓⲥ̀ⲧⲓⲕⲏⲉ̀ⲛⲁϣⲉ ⲛ̀ⲥⲟⲩⲉⲛϥ ⲉ̀ⲁⲥϧⲟⲙϧⲉⲙ ⲙ̀ⲡⲓⲙⲟⲕⲓ ⲉ̀ⲁⲥϫⲟϣϥ ⲉ̀ϫⲉⲛ ⲧⲉϥⲁ̀ⲫⲉ"
+      },
+      {
+        "line": 713,
+        "text": "3 وَفِيمَا هُوَ فِي بَيْتِ عَنْيَا فِي بَيْتِ سِمْعَانَ الأَبْرَصِ وَهُوَ مُتَّكِئٌ جَاءَتِ امْرَأَةٌ مَعَهَا قَارُورَةُ طِيبِ نَارِدِينٍ خَالِصٍ كَثِيرِ الثَّمَنِ. فَكَسَرَتِ الْقَارُورَةَ وَسَكَبَتْهُ عَلَى رَأْسِهِ."
+      },
+      {
+        "line": 714,
+        "text": "4 But there were some who were indignant among themselves, and said, “Why was this fragrant oil wasted?"
+      },
+      {
+        "line": 715,
+        "text": "Ⲛⲁⲣⲉ ϩⲁⲛⲟⲩⲟⲛ ⲇⲉ ⲭ̀ⲣⲉⲙⲣⲉⲙ ⲛⲉⲙ ⲛ̀ⲛⲟⲩⲉ̀ⲣⲏⲟⲩ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲉⲑⲃⲉ ⲟⲩ ⲁⲡⲁⲓⲧⲁⲕⲟ ⲛ̀ⲧⲉ ⲡⲁⲓⲥⲟϫⲉⲛ ϣⲱⲡⲓ."
+      },
+      {
+        "line": 716,
+        "text": "4 وَكَانَ قَوْمٌ مُغْتَاظِينَ فِي أَنْفُسِهِمْ فَقَالُوا: «لِمَاذَا كَانَ تَلَفُ الطِّيبِ هَذَا؟"
+      },
+      {
+        "line": 717,
+        "text": "5 For it might have been sold for more than three hundred denarii and given to the poor.” And they criticized her sharply."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 404,
+    "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+    "ordinal": 16,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Pre-sanctified Chrism"
+    ],
+    "printed_ref": "John 3:1-21",
+    "section": "third_liturgy_offering_of_morning_incense",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+    "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 732,
+        "text": "Third Liturgy"
+      },
+      {
+        "line": 733,
+        "text": "Offering of Morning Incense"
+      },
+      {
+        "line": 734,
+        "text": "Ⲡⲧⲁⲗⲟ Ⲙⲡⲓⲥⲑⲟⲓⲛⲟⲩϥⲓ ⲛ̀ⲧⲉ Ϩⲁⲛⲁ̀ⲧⲟⲩⲓ"
+      },
+      {
+        "line": 735,
+        "text": "رفع بخور باكر"
+      },
+      {
+        "line": 736,
+        "text": "\tPsalms 32:1-2"
+      },
+      {
+        "line": 737,
+        "text": "(مزامير 32: 1-2)"
+      },
+      {
+        "line": 738,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 739,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 740,
+        "text": "Blessed is he whose transgression is forgiven, Whose sin is covered. Blessed is the man to whom the Lord does not impute iniquity."
+      },
+      {
+        "line": 741,
+        "text": "Ⲱⲟⲩⲛⲓⲁ̀ⲧⲟⲩ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲭⲱ ⲛ̀ⲛⲟⲩⲁ̀ⲛⲟⲙⲓⲁ ⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲩϩⲱⲃⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲛⲟⲩⲛⲟⲃⲓ: Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲡⲓⲣⲱⲙⲓ: Ⲉ̀ⲧⲉ ⲙ̀ⲡⲉ Ⲡⲟ︦ⲥ︦ ⲉⲡ ⲛⲟⲃⲓ ⲉ̀ⲣⲟϥ ⲁⲛ: ⲁ︦ⲗ︦."
+      },
+      {
+        "line": 742,
+        "text": "طُوبَاهُمُ الَّذِينَ تُرِكَتْ لَهُمْ آثَامُهُمْ، وَالَّذِينَ سُتِرَتْ خَطَايَاهُمْ. طُوبَى لِلرَّجُلِ، الَّذِي لَمْ يَحْسِبْ لَهُ الرَّبُّ خَطِيَّةً."
+      },
+      {
+        "line": 743,
+        "text": "\tJohn 3:1-21"
+      },
+      {
+        "line": 744,
+        "text": "(يوحنا 3: 1-21)"
+      },
+      {
+        "line": 745,
+        "text": "1 There was a man of the Pharisees named Nicodemus, a ruler of the Jews."
+      },
+      {
+        "line": 746,
+        "text": "Ⲛⲉ ⲟⲩⲟⲛ ⲟⲩⲣⲱⲙⲓ ⲇⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲁⲣⲓⲥⲉⲟⲥ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲡⲉ ⲛⲓⲕⲟⲇⲏⲙⲟⲥ ⲟⲩⲁⲣ ⲭⲱⲛ ⲛ̀ⲧⲉ ⲛⲓⲓⲟⲩⲇⲁⲓ."
+      },
+      {
+        "line": 747,
+        "text": "1 كَانَ إِنْسَانٌ مِنَ الْفَرِّيسِيِّينَ اسْمُهُ نِيقُودِيمُوسُ رَئِيسٌ لِلْيَهُودِ."
+      },
+      {
+        "line": 748,
+        "text": "2 This man came to Jesus by night and said to Him, “Rabbi, we know that You are a teacher come from God; for no one can do these signs that You do unless God is with him.”"
+      },
+      {
+        "line": 749,
+        "text": "Ⲫⲁⲓ ⲁϥⲓ̀ ϩⲁ Ⲓⲏ︦ⲥ︦ ⲛ̀ⲉ̀ϫⲱⲣϩ ⲟⲩⲟϩ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲣⲁⲃⲃⲓ ⲧⲉⲛⲉ̀ⲙⲓ ϫⲉ ⲉⲧⲁⲕⲒ̀ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲫϯ ⲛ̀ⲣⲉϥϯⲥ̀ⲃⲱ ⲙ̀ⲙⲟⲛ ϣ̀ϫⲟⲙ ⲅⲁⲣ ⲛ̀ϩ̀ⲗⲓ ⲉ̀ⲉⲣ ⲛⲁⲓⲙⲏⲓⲛⲓ ⲉⲧⲉⲕⲓ̀ⲣⲓ ⲙ̀ⲙⲱⲟⲩ ⲁⲣⲉϣ̀ⲧⲉⲙ ⲫϯ ϣⲱⲡⲓ ⲛⲉⲙⲁϥ."
+      },
+      {
+        "line": 750,
+        "text": "2 هَذَا جَاءَ إِلَى يَسُوعَ لَيْلاً وَقَالَ لَهُ: «يَا مُعَلِّمُ نَعْلَمُ أَنَّكَ قَدْ أَتَيْتَ مِنَ اللَّهِ مُعَلِّماً لأَنْ لَيْسَ أَحَدٌ يَقْدِرُ أَنْ يَعْمَلَ هَذِهِ الآيَاتِ الَّتِي أَنْتَ تَعْمَلُ إِنْ لَمْ يَكُنِ اللَّهُ مَعَهُ»."
+      },
+      {
+        "line": 751,
+        "text": "3 Jesus answered and said to him, “Most assuredly, I say to you, unless one is born again, he cannot see the kingdom of God.”"
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  },
+  {
+    "row": 409,
+    "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+    "ordinal": 21,
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Oil",
+      "Pre-sanctified Chrism"
+    ],
+    "printed_ref": "Matthew 28:16-20",
+    "section": "third_liturgy_liturgy_of_the_word",
+    "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt",
+    "sha256": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "classification": "assigned_reading",
+    "proposed_reading_type": "gospel",
+    "evidence": [
+      {
+        "line": 930,
+        "text": "Ⲉ̀ⲧⲁⲩⲓ̀ ⲇⲉ ⲉ̀ⲡ̀ϣⲱⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲙⲱⲟⲩ ⲟⲩⲡⲛ︦ⲁ︦ ⲛ̀ⲧⲉ Ⲡⲟ︦ⲥ︦ ⲁϥϩⲱⲗⲉⲙ ⲙ̀Ⲫⲓⲗⲓⲡⲡⲟⲥ ⲟⲩⲟϩ ⲙ̀ⲡⲉϥϫⲉⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ ⲡⲓⲥⲓⲟⲩⲣ ⲛⲁϥⲙⲟϣⲓ ⲅⲁⲣ ϩⲓ ⲡⲉϥⲙⲱⲓⲧ ⲉϥⲣⲁϣⲓ."
+      },
+      {
+        "line": 931,
+        "text": "39 وَلَمَّا صَعِدَا مِنَ الْمَاءِ خَطَفَ رُوحُ الرَّبِّ فِيلُبُّسَ فَلَمْ يُبْصِرْهُ الْخَصِيُّ أَيْضاً وَذَهَبَ فِي طَرِيقِهِ فَرِحاً."
+      },
+      {
+        "line": 932,
+        "text": "The word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen."
+      },
+      {
+        "line": 933,
+        "text": "Ⲡⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ."
+      },
+      {
+        "line": 934,
+        "text": "وكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين."
+      },
+      {
+        "line": 935,
+        "text": "\tPsalms 66:1,6"
+      },
+      {
+        "line": 936,
+        "text": "(مزامير 66: 1,6)"
+      },
+      {
+        "line": 937,
+        "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+      },
+      {
+        "line": 938,
+        "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+      },
+      {
+        "line": 939,
+        "text": "Make a joyful shout to God, all the earth! He turned the sea into dry land; They went through the river on foot. There we will rejoice in Him."
+      },
+      {
+        "line": 940,
+        "text": "اِهْتِفِي لِلَّهِ يَا كُلَّ الأَرْضِ. حَوَّلَ الْبَحْرَ إِلَى يَبَسٍ وَفِي النَّهْرِ عَبَرُوا بِالرِّجْلِ. هُنَاكَ فَرِحْنَا بِهِ."
+      },
+      {
+        "line": 941,
+        "text": "\tMatthew 28:16-20"
+      },
+      {
+        "line": 942,
+        "text": "(متى 28: 16-20)"
+      },
+      {
+        "line": 943,
+        "text": "16 Then the eleven disciples went away into Galilee, to the mountain which Jesus had appointed for them."
+      },
+      {
+        "line": 944,
+        "text": "Ⲡⲓ ⲓ︦ⲁ︦ ⲙ̀ⲙⲁⲑⲏⲧⲏⲥ ⲁⲩϣⲉⲛⲱⲟⲩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϯⲄⲁⲗⲓⲗⲉⲁ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲉ̀ⲧⲁ Ⲓⲏ︦ⲥ︦ ϯⲛⲉⲓ ⲛⲱⲟⲩ ⲉ̀ⲣⲟϥ."
+      },
+      {
+        "line": 945,
+        "text": "16 وَأَمَّا الأَحَدَ عَشَرَ تِلْمِيذاً فَانْطَلَقُوا إِلَى الْجَلِيلِ إِلَى الْجَبَلِ حَيْثُ أَمَرَهُمْ يَسُوعُ."
+      },
+      {
+        "line": 946,
+        "text": "17 When they saw Him, they worshiped Him; but some doubted."
+      },
+      {
+        "line": 947,
+        "text": "Ⲟⲩⲟϩ ⲉ̀ⲧⲁⲩⲛⲁⲩ ⲉ̀ⲣⲟϥ ⲁⲩⲟⲩⲱϣⲧ ⲙ̀ⲙⲟϥ ϩⲁⲛⲟⲩⲟⲛ ⲇⲉ ⲁⲩϭⲓⲥⲁⲛⲓⲥ."
+      },
+      {
+        "line": 948,
+        "text": "17 وَلَمَّا رَأَوْهُ سَجَدُوا لَهُ وَلَكِنَّ بَعْضَهُمْ شَكُّوا."
+      },
+      {
+        "line": 949,
+        "text": "18 And Jesus came and spoke to them, saying, “All authority has been given to Me in heaven and on earth."
+      }
+    ],
+    "governing_rubric": [],
+    "confidence": "confirmed",
+    "implementation_unchanged": true
+  }
+]

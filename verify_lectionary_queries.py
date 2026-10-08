@@ -7,6 +7,7 @@ import re
 import filecmp
 import subprocess
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -474,14 +475,38 @@ def assert_pascha_source_text_dedupe_invariants():
 
 
 def assert_chapter_occurrence_row_count():
-    rows = list(csv.DictReader((DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8')))
-    # Pin the complete regenerated occurrence set after the source-backed
-    # calendar overlays, continuous-reference corrections, and attestation dedupe.
-    # Semantic fixtures independently constrain the changes; a matching count
-    # alone cannot establish correctness. Preserve all companion Psalm fragments,
-    # including the three ordered Good Friday Sixth Hour MT-aligned parts.
-    assert len(rows) == 71380, len(rows)
-    return {'chapter_occurrence_rows': len(rows)}
+    """Check exact source-context membership, including duplicate multiplicity.
+
+    The independently source-qualified crosswalk is the input to this structural
+    gate. Primary assignment/normalization oracles remain separate; a matching
+    generated count must never substitute for them.
+    """
+    with (DATA / 'bible_chapter_lectionary_occurrences.csv').open(newline='', encoding='utf-8') as handle:
+        rows = list(csv.DictReader(handle))
+    with (DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8') as handle:
+        sources = list(csv.DictReader(handle))
+    context_fields = ('passage', 'source_kind', 'liturgical_place', 'calendar_key',
+                      'gregorian_date', 'coptic_date', 'day_title', 'service_section',
+                      'reading_type', 'source_ref', 'url')
+    expected = Counter()
+    for source in sources:
+        parsed = parse_passage(source.get('passage', ''))
+        assert parsed is not None, ('Unparsed chapter source', source.get('passage'))
+        assert parsed.book_abbrev in CHAPTER_COUNTS, ('Unknown chapter book', parsed.book_abbrev)
+        chapters = {chapter for part in parsed.parts
+                    for chapter in range(max(1, part.chapter_start),
+                                         min(CHAPTER_COUNTS[parsed.book_abbrev], part.chapter_end) + 1)}
+        for chapter in chapters:
+            expected[(parsed.book_abbrev, str(chapter), f'{parsed.book_abbrev} {chapter}',
+                      *(source.get(field, '') for field in context_fields))] += 1
+    actual = Counter((row.get('book_abbrev', ''), row.get('chapter', ''), row.get('chapter_ref', ''),
+                      *(row.get(field, '') for field in context_fields)) for row in rows)
+    assert actual == expected, {
+        'expected': sum(expected.values()), 'actual': sum(actual.values()),
+        'missing': list((expected - actual).items())[:10],
+        'extra': list((actual - expected).items())[:10],
+    }
+    return {'chapter_occurrence_rows': len(rows), 'source_context_membership_verified': True}
 
 
 def assert_reverse_crosswalk_spans_valid():

@@ -1,0 +1,58 @@
+{
+  "civil_date": "2026-02-23",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 16, 1742 Monday, February 23, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mikhail El-Behirey",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:14:31.612Z",
+  "raw_reference_lines": [
+    "\tExodus 3:6-14",
+    "\tIsaiah 4:2-5:7"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/Prophecies.txt",
+  "text_sha256": "d2ef907817fb42505b858a2dfdfa59d25d63abe2443abe32dace7a6586fbbb0f",
+  "screenshot_sha256": "37c482941ceb5b3bf4e51c6dc7520777a33fe7fdf35491f069a37f368e8f2743",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/context.txt",
+      "sha256": "6cb8bfa9c8979d4efcdccee11ae9f7f2bf96bd100c10ec49fed71acbc29e2a48"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/context.png",
+      "sha256": "c39056382efb8f20010211cf5e9719755220df0ef675db805515c0c841296479"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/picker.json",
+      "sha256": "d356d14289510718966c6f2a2eafc862c907a65038d2ee2f6ace7dc40d3100f0"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/picker.png",
+      "sha256": "330b082768e48c09723ab472b898e967c87cdc2e29588058c63d853eec68d5c0"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tExodus 3:6-14",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/reference-01.png",
+      "sha256": "37c482941ceb5b3bf4e51c6dc7520777a33fe7fdf35491f069a37f368e8f2743"
+    },
+    {
+      "raw_ref": "\tIsaiah 4:2-5:7",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-23/reference-02.png",
+      "sha256": "3affa532913d8712386cb6a7a5a25ffc8d1e79ac8daae0b9aaa77baf0c335d54"
+    }
+  ],
+  "source_gate": {
+    "visible_heading": true,
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

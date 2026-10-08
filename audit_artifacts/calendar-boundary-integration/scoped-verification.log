@@ -1,0 +1,64 @@
+test_2026_pascha_and_2027_annunciation_preserved (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_2026_pascha_and_2027_annunciation_preserved) ... ok
+test_april_7_2028_complete_source_table_replaces_wrong_annunciation (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_april_7_2028_complete_source_table_replaces_wrong_annunciation) ... ok
+test_exact_offset_and_feast_collision_required (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_exact_offset_and_feast_collision_required) ... ok
+test_fixture_corruptions_fail_closed_even_with_updated_outer_hash (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_fixture_corruptions_fail_closed_even_with_updated_outer_hash) ... ok
+test_passage_helper_uses_exact_normalized_boundaries_and_preserves_printed (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_passage_helper_uses_exact_normalized_boundaries_and_preserves_printed) ... ok
+test_raw_overlap_with_seasonal_table_is_rejected_not_duplicated (test_lent_annunciation_boundary.LastFridayAnnunciationBoundary.test_raw_overlap_with_seasonal_table_is_rejected_not_duplicated) ... ok
+test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) ... ok
+test_source_boundary_and_current_date_helper_order (test_lent_matins_prophecies.LentMatinsProphecies.test_source_boundary_and_current_date_helper_order) ... ok
+test_primary_fingerprint_and_printed_reference_drift_fail_closed (test_lent_matins_prophecies.LentMatinsProphecies.test_primary_fingerprint_and_printed_reference_drift_fail_closed) ... ok
+test_no_adjacent_or_other_week_or_wrong_title_enrichment (test_lent_matins_prophecies.LentMatinsProphecies.test_no_adjacent_or_other_week_or_wrong_title_enrichment) ... ok
+test_context_qualified_cycle_correction_retains_raw_api (test_lent_matins_prophecies.LentMatinsProphecies.test_context_qualified_cycle_correction_retains_raw_api) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.610s
+
+OK
+{
+  "source_scope": "calendar boundary and source passage helper only",
+  "baseline_source_sha256": "4dc81de0ee6d707e045df055f899ddd4c3b6441c5cdd8f46218ae8c022067394",
+  "compared_civil_dates": 5752,
+  "unchanged_civil_dates": 5750,
+  "changed_dates": [
+    "2023-04-07",
+    "2028-04-07"
+  ],
+  "raw_source_count": 50446,
+  "current_source_before_count": 50564,
+  "current_source_after_count": 50568,
+  "target_before_count": 9,
+  "target_after_count": 11,
+  "boundary_collision_counts": {
+    "2023-04-07": {
+      "before": 9,
+      "after": 11
+    },
+    "2028-04-07": {
+      "before": 9,
+      "after": 11
+    }
+  },
+  "recurrence_disclosure": "2023-04-07 has the same exact Annunciation AND Last-Friday -9 collision; applies the 2028 verified recurring context, not a fresh 2023 capture",
+  "suppressed_service": "Vespers",
+  "missing_matins_prophecies_restored": 4,
+  "raw_removed_context": {
+    "date": "2028-04-07",
+    "occasion": "Annunciation",
+    "reason": "superseded by independently captured Last Friday complete table; preserve historical source rows"
+  },
+  "recurring_prophecy_scope": "exact Last Friday -9 AND Annunciation feast collision; no noncollision enrichment",
+  "isolated_actual_helper": "build_current_date_sidecars",
+  "unrun": [
+    "full builders",
+    "design/site",
+    "npm install/pack/publish",
+    "deploy",
+    "vault",
+    "commits"
+  ],
+  "parent_followup": [
+    "recognize boundary source provenance in crosswalk/design",
+    "preserve raw Annunciation as context-qualified superseded history",
+    "full serialized rebuild and release gates remain held"
+  ]
+}

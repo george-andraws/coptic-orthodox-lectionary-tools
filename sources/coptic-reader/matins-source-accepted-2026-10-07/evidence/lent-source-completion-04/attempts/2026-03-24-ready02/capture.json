@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-24",
+  "context": "Selected Season 6th Week of Great Fast Paremhotep 15, 1742 Tuesday, March 24, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-24",
+      "context": "Selected Season 6th Week of Great Fast Paremhotep 15, 1742 Tuesday, March 24, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:30:55.735Z",
+      "raw_reference_lines": [
+        "\tPsalms 34:15",
+        "\tLuke 4:22-30"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "beb26a8cb97853d35211fd17e6e8096ba3df5b2bb19a6aef34a99c807c489237",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 34:15",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "237d51290a2ab24ce325cd47cf72fb65072a834fb9a1fd4b233f4360e068b9b7"
+        },
+        {
+          "raw_ref": "\tLuke 4:22-30",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "3f0ba08923fa8f7564f79afeea37d6920b2267769b67aa75d9ce2f9ffa87a458"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

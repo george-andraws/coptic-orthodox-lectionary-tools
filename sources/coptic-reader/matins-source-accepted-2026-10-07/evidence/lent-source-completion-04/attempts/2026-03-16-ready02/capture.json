@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-16",
+  "context": "Selected Season 5th Week of Great Fast Paremhotep 7, 1742 Monday, March 16, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-16",
+      "context": "Selected Season 5th Week of Great Fast Paremhotep 7, 1742 Monday, March 16, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:34.712Z",
+      "raw_reference_lines": [
+        "\tPsalms 87:2-3",
+        "\tLuke 12:16-21"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "4bdc1f867ba24c94101704ad60af76957f5980b15733376801fdf8a57847a05b",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 87:2-3",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "b7bba407eb3400c6c0820a378dde319c220e83dba6bcd323206926d36602ca9f"
+        },
+        {
+          "raw_ref": "\tLuke 12:16-21",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "1bfb12d2ced25981be64e6a3b02ff851dbd45a9d728fc9e1d577cb99bbd19a12"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

@@ -2,15 +2,18 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import json
 import os
+import re
 from pathlib import Path
 from typing import List, Dict
 
-from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens
+from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage
+from reading_context_overlays import is_current_source_row
 
-ROOT = Path.home() / 'workspace' / 'coptic-lectionary-research'
-OUT = ROOT / 'out' / 'data'
+ROOT = Path(__file__).resolve().parent
+OUT = Path(os.environ.get('LECTIONARY_SPECIAL_OUTPUT_DIR', str(ROOT / 'out' / 'data')))
 VAULT = Path.home() / 'Library/CloudStorage/GoogleDrive-georgeandraws@gmail.com/My Drive/HermesAI/obsidian-vault/Hermes/04-Reference/Coptic Orthodox Lessons/References/Lectionary'
 
 
@@ -1985,24 +1988,451 @@ ROWS: List[Dict[str, str]] = [
 ]
 
 
+FIXTURE_DIR = Path(__file__).resolve().parent / 'sources/coptic-reader/special-reconciled-2026-10-07'
+FIXTURE_MANIFEST_SHA256 = '44b75adac4ef6b45d3d46ac2f51cf8b1ad356b9ebeb0ab37d7dd5c4ad5f40284'
+READER_NOTE_PREFIX = 'Coptic Reader assigned block; evidence='
+
+
+def load_reader_fixture(directory: Path = FIXTURE_DIR) -> tuple[dict, list[dict]]:
+    """Fail closed on changed primary bytes, context inventory or assigned headings."""
+    data = (directory / 'manifest.json').read_bytes()
+    if hashlib.sha256(data).hexdigest() != FIXTURE_MANIFEST_SHA256:
+        raise RuntimeError('special Reader manifest source drift')
+    manifest = json.loads(data)
+    for name, expected_hash in manifest['files'].items():
+        if hashlib.sha256((directory / name).read_bytes()).hexdigest() != expected_hash:
+            raise RuntimeError(f'special Reader source drift: {name}')
+    oracle = json.loads((directory / 'assigned-scripture-oracle.json').read_text())
+    documents = json.loads((directory / 'document-dispositions.json').read_text())
+    if len(documents) != manifest['document_count']:
+        raise RuntimeError('special Reader document inventory drift')
+    doc_by_id = {d['provenance']['captureId']: d for d in documents}
+    if len(doc_by_id) != len(documents):
+        raise RuntimeError('special Reader duplicate document context')
+    texts = {key: (directory / 'raw' / f'{key}.txt').read_text() for key in doc_by_id}
+    for block in oracle:
+        p = block['provenance']
+        doc = doc_by_id[p['captureId']]
+        text = texts[p['captureId']]
+        if (p['navigation'] != doc['path'] or
+                text.splitlines()[block['lineNumber'] - 1] != block['rawHeading'] or
+                not text[block['characterOffset']:].startswith(block['rawHeading'])):
+            raise RuntimeError('special Reader assigned heading/context drift')
+    assigned = [b for b in oracle if b['kind'] == 'assigned_scripture_reading']
+    if len(assigned) != manifest['assigned_reading_count']:
+        raise RuntimeError('special Reader assigned count drift')
+    for context in manifest['contexts']:
+        blocks = [b for b in assigned if b['provenance']['navigation'] == context['navigation']]
+        if (len(blocks) != context['assigned_count'] or
+                any(b['provenance']['captureId'] != context['capture_id'] for b in blocks) or
+                [b['lineNumber'] for b in blocks] != sorted(b['lineNumber'] for b in blocks)):
+            raise RuntimeError('special Reader assigned order/context inventory drift')
+    return manifest, oracle
+
+
+READER_MANIFEST, READER_ORACLE = load_reader_fixture()
+LEGACY_ROWS = [dict(row) for row in ROWS]
+BOUNDARY_CORRECTIONS = {
+    (c['service_family'], c['service_variant'], c['reading_type'], c['expected_raw_ref']): c
+    for c in READER_MANIFEST['boundary_corrections']
+}
+for correction_key in BOUNDARY_CORRECTIONS:
+    if sum((r['service_family'], r['service_variant'], r['reading_type'], r['raw_ref']) == correction_key
+           for r in LEGACY_ROWS) != 1:
+        raise RuntimeError('special Reader boundary correction target drift')
+
+
+def reader_ref_for_index(printed_ref: str) -> str:
+    # Expand an omitted book after a semicolon, not a Psalm number or verse.
+    # The shared tokenizer otherwise silently loses "122:1-2" in the Cornerstone Psalm.
+    book = re.match(r'^((?:[1-4] )?[A-Za-z][A-Za-z ]*?)\s+\d', printed_ref)
+    if not book:
+        raise RuntimeError(f'special Reader unrecognized printed reference: {printed_ref}')
+    return '; '.join(f'{book.group(1)} {part.strip()}'
+                     if index > 0 and re.match(r'^\d+(?=[:;,]|$)', part.strip())
+                     else part.strip() for index, part in enumerate(printed_ref.split(';')))
+
+
+def reader_section(block: dict) -> str:
+    """Keep explicit multi-liturgy stages; do not equate them to legacy day variants."""
+    text = (FIXTURE_DIR / 'raw' / f"{block['provenance']['captureId']}.txt").read_text()
+    prior = text.splitlines()[:block['lineNumber'] - 1]
+    stages = ['First Liturgy', 'Second Liturgy', 'Third Liturgy']
+    services = ['Offering of Evening Incense', 'Offering of Morning Incense', 'Liturgy of the Word']
+    stage = next((line for line in reversed(prior) if line in stages), '')
+    service = next((line for line in reversed(prior) if line in services), '')
+    return re.sub(r'[^a-z0-9]+', '_', ' '.join([stage, service]).lower()).strip('_') or 'rendered_document'
+
+
+def reader_reading_type(block: dict) -> str:
+    reference = block['printedRef']
+    if reference.startswith(('Psalm ', 'Psalms ')):
+        return 'psalm'
+    if reference.startswith('Acts '):
+        return 'acts'
+    if reference.startswith(('James ', '1 Peter ', '2 Peter ', '1 John ', '2 John ', '3 John ', 'Jude ')):
+        return 'catholic'
+    if reference.startswith(('Matthew ', 'Mark ', 'Luke ', 'John ')):
+        # Church consecration includes split Magnificat/Benedictus/Simeon canticles.
+        if 'Church' in block['provenance']['navigation'] and reference.startswith(('Luke 1:', 'Luke 2:29')):
+            return 'canticle'
+        return 'gospel'
+    if reference.startswith(('Romans ', '1 Corinthians ', '2 Corinthians ', 'Galatians ', 'Ephesians ',
+                             'Philippians ', 'Colossians ', '1 Timothy ', '2 Timothy ', 'Titus ', 'Hebrews ')):
+        return 'pauline'
+    return 'old_testament' if not reference.startswith('Revelation ') else 'revelation'
+
+
+def build_reader_rows() -> list[dict]:
+    rows = []
+    for context in READER_MANIFEST['contexts']:
+        for block in READER_ORACLE:
+            if (block['kind'] != 'assigned_scripture_reading' or
+                    block['provenance']['navigation'] != context['navigation']):
+                continue
+            p = block['provenance']
+            evidence = {
+                'navigation': p['navigation'], 'capture_id': p['captureId'],
+                'ordinal': block['ordinalWithinDocument'], 'line': block['lineNumber'],
+                'raw_heading': block['rawHeading'], 'raw_text_sha256': p['rawTextSha256'],
+                'numbering': p['numberingConvention'], 'status': 'source_confirmed_assigned',
+                'dedicated_reference_screenshot': block['referenceScreenshotAvailable'],
+            }
+            rows.append({
+                'service_family': context['service_family'], 'service_variant': context['service_variant'],
+                'section': reader_section(block), 'reading_type': reader_reading_type(block),
+                'raw_ref': block['printedRef'],
+                'source_title': 'Coptic Reader: ' + ' / '.join(p['navigation']),
+                'source_url': p['sourceUrl'],
+                'source_page': f"sources/coptic-reader/special-reconciled-2026-10-07/raw/{p['captureId']}.txt#line={block['lineNumber']}",
+                'notes': READER_NOTE_PREFIX + json.dumps(evidence, ensure_ascii=False, sort_keys=True),
+            })
+    return rows
+
+
+def validate_reader_rows(rows: list[dict]) -> None:
+    """Independent captured oracle controls count, order, endpoints and source context."""
+    actual = [r for r in rows if r['service_variant'].startswith('coptic_reader__')]
+    expected = build_reader_rows()
+    # All existing schema fields participate, including provenance/status in notes.
+    if actual != expected:
+        raise RuntimeError('special Reader assigned readings omitted/reordered/truncated/wrong context or status')
+
+
+ROWS += build_reader_rows()
+
+
+PROJECTION_DIR = ROOT / 'sources/coptic-reader/special-context-projection-2026-10-07'
+PROJECTION_MANIFEST_SHA256 = 'cad392515629f98d3685ba0c1f0f8254d1c3d420c398b82ce3a9bc1a24e03c4d'
+PROJECTION_MARKER = '; projection='
+
+
+def load_projection_fixture(directory: Path = PROJECTION_DIR) -> list[dict]:
+    data = (directory / 'manifest.json').read_bytes()
+    if hashlib.sha256(data).hexdigest() != PROJECTION_MANIFEST_SHA256:
+        raise RuntimeError('special projection manifest source drift')
+    manifest = json.loads(data)
+    for name, expected in manifest['files'].items():
+        if hashlib.sha256((directory / name).read_bytes()).hexdigest() != expected:
+            raise RuntimeError(f'special projection source drift: {name}')
+    records = json.loads((directory / 'records.json').read_text())
+    if len(records) != manifest['records']:
+        raise RuntimeError('special projection inventory drift')
+    identities = set()
+    for record in records:
+        identity = (record['capture_id'], record['ordinal'])
+        if identity in identities:
+            raise RuntimeError('special projection duplicate source identity')
+        identities.add(identity)
+        text = (directory / 'raw' / (record['capture_id'] + '.txt')).read_text()
+        if (text.splitlines()[record['line'] - 1] != record['raw_heading'] or
+                not text[record['offset']:].startswith(record['raw_heading'])):
+            raise RuntimeError('special projection heading/context drift')
+    return records
+
+
+def projection_metadata(row: dict) -> dict | None:
+    return json.loads(row['notes'].split(PROJECTION_MARKER, 1)[1]) if PROJECTION_MARKER in row['notes'] else None
+
+
+def projection_note(meta: dict) -> str:
+    meta['projection_status'] = meta['status']
+    meta['status'] = 'current' if meta['is_active'] else 'removed'
+    meta['active'] = meta['is_active']
+    meta['include_in_current_index'] = meta['is_active']
+    meta['state'] = 'current' if meta['is_active'] else ('superseded' if meta['projection_status'] in {'superseded', 'coalesced_attestation'} else 'held')
+    if not meta['is_active']:
+        meta['removal_reason'] = '; '.join(meta['reasons'])
+        meta['removal_effective_version'] = 'special-context-projection-2026-10-07'
+    return json.dumps(meta, ensure_ascii=False, sort_keys=True)
+
+
+def _project_special_contexts_base() -> list[dict]:
+    """Retain literal history; join by pinned navigation, never passage alone.
+
+    Unclassified rubrics and unaligned Psalm coordinates fail closed in the index.
+    """
+    records = load_projection_fixture()
+    legacy = [dict(row) for row in LEGACY_ROWS]
+    history = {}
+    projected = []
+    for record in records:
+        navigation = record['navigation']
+        target = record['legacy_context']
+        family = target[0] if target else next((c['service_family'] for c in READER_MANIFEST['contexts']
+                                               if c['navigation'] == navigation),
+                                              'wedding_crowning' if 'Crowning' in navigation else 'special_service')
+        variant = target[1] if target else re.sub(r'[^a-z0-9]+', '_', '_'.join(navigation[1:]).lower()).strip('_')
+        kind = record['reading_type']
+        candidates = [(i, r) for i, r in enumerate(legacy)
+                      if target and [r['service_family'], r['service_variant']] == target
+                      and r['reading_type'] == kind]
+        if len(candidates) > 1:
+            # Reference equality only disambiguates inside an already proved
+            # rite/navigation + reading-rubric join; never a cross-rite join.
+            exact = [(i, r) for i, r in candidates
+                     if canonicalize_text_ref(r['raw_ref']) ==
+                     canonicalize_text_ref(reader_ref_for_index(record['printed_ref']))]
+            if len(exact) == 1:
+                candidates = exact
+        section = candidates[0][1]['section'] if len(candidates) == 1 else record['section']
+        reasons = []
+        if not record['selected']:
+            reasons.append('older_capture_attestation_not_additional_occurrence')
+        if not record['date_verified']:
+            reasons.append('date_context_unqualified')
+        if record['kind'] != 'assigned_scripture_reading':
+            reasons.append(record['kind'])
+        if kind == 'unclassified':
+            reasons.append('source_rubric_unclassified')
+        if kind == 'psalm' and not record['canonical_mt_ref']:
+            reasons.append('canonical_psalm_coordinates_held')
+        canonical = record['canonical_mt_ref'] if kind == 'psalm' else canonicalize_text_ref(reader_ref_for_index(record['printed_ref']))
+        if not is_current_source_row(record):
+            reasons.append('parent_source_ineligible')
+        meta = dict({key: record[key] for key in PROJECTION_SOURCE_FIELDS if key in record},
+                    is_active=not reasons, status='current' if not reasons else 'held',
+                    reasons=reasons, canonical_ref=canonical if kind != 'psalm' or record['canonical_mt_ref'] else '',
+                    legacy_attestations=[])
+        if record['selected'] and record['kind'] == 'assigned_scripture_reading' and len(candidates) == 1:
+            i, old = candidates[0]
+            same = canonicalize_text_ref(reader_ref_for_index(record['printed_ref'])) == canonicalize_text_ref(old['raw_ref'])
+            meta['legacy_attestations'] = [dict(old)]
+            history[i] = {'is_active': False, 'status': 'coalesced_attestation' if same else 'superseded',
+                          'reasons': ['context_qualified_reader_authority'], 'replacement_capture': record['capture_id'],
+                          'replacement_ordinal': record['ordinal'], 'navigation': navigation,
+                          'canonical_ref': ''}
+        projected.append({'service_family': family, 'service_variant': variant,
+                          'section': section, 'reading_type': kind, 'raw_ref': record['printed_ref'],
+                          'source_title': 'Coptic Reader: ' + ' / '.join(navigation),
+                          'source_url': 'https://copticreader.org/app/#/document',
+                          'source_page': f"sources/coptic-reader/special-context-projection-2026-10-07/raw/{record['capture_id']}.txt#line={record['line']}",
+                          'notes': 'Source-bound appointment evidence' + PROJECTION_MARKER + projection_note(meta)})
+    joined = {tuple(r['legacy_context']) for r in records if r['legacy_context']}
+    for i, row in enumerate(legacy):
+        meta = history.get(i)
+        if meta is None:
+            ambiguous = (row['service_family'], row['service_variant']) in joined or row['service_family'] in {'myron_consecration', 'church_consecration', 'altar_consecration'}
+            meta = {'is_active': not ambiguous and row['reading_type'] != 'psalm',
+                    'status': 'held' if ambiguous or row['reading_type'] == 'psalm' else 'legacy_current',
+                    'reasons': ['legacy_stage_join_unproven'] if ambiguous else (['legacy_psalm_coordinates_unqualified'] if row['reading_type'] == 'psalm' else []),
+                    'canonical_ref': '' if ambiguous or row['reading_type'] == 'psalm' else canonicalize_text_ref(row['raw_ref'])}
+        row['notes'] += PROJECTION_MARKER + projection_note(meta)
+    return legacy + projected
+
+
+# Only source evidence fields may cross the projection boundary. Eligibility is
+# evaluated on the original payload before these producer-controlled fields exist.
+PROJECTION_SOURCE_FIELDS = (
+    'capture_id', 'navigation', 'ordinal', 'line', 'offset', 'raw_heading',
+    'printed_ref', 'raw_text_sha256', 'context', 'kind', 'reading_type', 'rubric',
+    'section', 'selected', 'legacy_context', 'canonical_mt_ref',
+    'normalization_proof', 'date_verified',
+)
+CLASSIFICATION_DIR = ROOT / 'sources/coptic-reader/special-classification-integration-2026-10-07'
+CLASSIFICATION_MANIFEST_SHA256 = 'bf09f32ef23d7feddb6c8ecf08d5b2dcd7034ba9addfb25e8b438443526141d9'
+
+
+def load_classification_overlay(directory: Path = CLASSIFICATION_DIR) -> dict:
+    data = (directory / 'manifest.json').read_bytes()
+    if hashlib.sha256(data).hexdigest() != CLASSIFICATION_MANIFEST_SHA256:
+        raise RuntimeError('special classification manifest source drift')
+    manifest = json.loads(data)
+    for name, expected in manifest['files'].items():
+        if hashlib.sha256((directory / name).read_bytes()).hexdigest() != expected:
+            raise RuntimeError(f'special classification source drift: {name}')
+    classifications = json.loads((directory / 'source-classification-verdicts.json').read_text())
+    stages = json.loads((directory / 'stage-join-verdicts.json').read_text())
+    records = load_projection_fixture()
+    by_identity = {(r['capture_id'], r['ordinal']): r for r in records}
+
+    def verify_evidence(proof: dict, lines: list[dict]) -> dict:
+        record = by_identity[(proof['capture_id'], proof['ordinal'])]
+        if (record['navigation'] != proof['navigation'] or record['section'] != proof['section'] or
+                record['printed_ref'] != proof['printed_ref'] or record['raw_text_sha256'] != proof['sha256']):
+            raise RuntimeError('special classification stage/context drift')
+        # Resolve source locally rather than trusting a personal absolute pointer.
+        raw = PROJECTION_DIR / 'raw' / (proof['capture_id'] + '.txt')
+        if hashlib.sha256(raw.read_bytes()).hexdigest() != proof['sha256']:
+            raise RuntimeError('special classification primary source drift')
+        text = raw.read_text().splitlines()
+        if any(text[line['line'] - 1] != line['text'] for line in lines):
+            raise RuntimeError('special classification rubric drift')
+        return record
+
+    if len(classifications) != manifest['classifications'] or len({(p['capture_id'], p['ordinal']) for p in classifications}) != len(classifications):
+        raise RuntimeError('special classification inventory drift')
+    for proof in classifications:
+        record = verify_evidence(proof, proof['evidence'] + proof['governing_rubric'])
+        if (record['kind'] != 'assigned_scripture_reading' or record['reading_type'] != 'unclassified' or
+                proof['classification'] != 'assigned_reading' or proof['confidence'] != 'confirmed'):
+            raise RuntimeError('special classification assignment drift')
+    if sum(p['verdict'] == 'proven_stage_assigned_reading' for p in stages) != manifest['stage_joins']:
+        raise RuntimeError('special stage join inventory drift')
+    for proof in stages:
+        old = LEGACY_ROWS[proof['legacy_row']]  # review row identifiers are zero-based
+        if ([old['service_family'], old['service_variant'], old['section']] != proof['legacy_context'] or
+                old['raw_ref'] != proof['legacy_raw_ref'] or old['reading_type'] != proof['reading_type']):
+            raise RuntimeError('special legacy stage source drift')
+        for evidence in proof['reader_evidence']:
+            verify_evidence(evidence, evidence['lines'])
+    return {'manifest': manifest, 'classifications': classifications, 'stages': stages}
+
+
+def _replace_projection_metadata(row: dict, meta: dict) -> None:
+    # Drop only producer state; retained primary metadata and literal notes survive.
+    for key in ('active', 'include_in_current_index', 'state', 'removal_reason', 'removal_effective_version', 'projection_status'):
+        meta.pop(key, None)
+    row['notes'] = row['notes'].split(PROJECTION_MARKER)[0] + PROJECTION_MARKER + projection_note(meta)
+
+
+def _required_projection_metadata(row: dict) -> dict:
+    meta = projection_metadata(row)
+    if meta is None:
+        raise RuntimeError('missing special projection metadata')
+    return meta
+
+
+def project_special_contexts() -> list[dict]:
+    rows = _project_special_contexts_base()
+    overlay = load_classification_overlay()
+    sources = {(_required_projection_metadata(r)['capture_id'], _required_projection_metadata(r)['ordinal']): r for r in rows[len(LEGACY_ROWS):]}
+    for proof in overlay['classifications']:
+        row = sources[(proof['capture_id'], proof['ordinal'])]
+        meta = _required_projection_metadata(row)
+        row['reading_type'] = meta['reading_type'] = proof['proposed_reading_type']
+        meta['assignment_proof'] = {key: proof[key] for key in ('capture_id', 'ordinal', 'navigation', 'printed_ref', 'section', 'sha256', 'classification', 'proposed_reading_type', 'evidence', 'governing_rubric', 'confidence')}
+        meta['reasons'].remove('source_rubric_unclassified')
+        # Assignment approval does not supply an edition/coordinate crosswalk.
+        if row['raw_ref'].startswith('Sirach '):
+            meta['source_edition'] = 'unverified_source_edition'
+            meta['reasons'].append('deuterocanonical_edition_coordinates_held')
+            meta['canonical_ref'] = ''
+        meta['is_active'] = not meta['reasons'] and is_current_source_row(row)
+        meta['status'] = 'current' if meta['is_active'] else 'held'
+        _replace_projection_metadata(row, meta)
+
+    for proof in overlay['stages']:
+        index = proof['legacy_row']
+        old = rows[index]
+        old_meta = _required_projection_metadata(old)
+        stage_proof = {key: proof[key] for key in ('legacy_row', 'legacy_context', 'legacy_raw_ref', 'reading_type', 'verdict', 'confidence', 'canonical_psalm_coordinates_approved', 'note', 'reader_evidence', 'official_book_pages', 'official_book_evidence_file') if key in proof}
+        old_meta.update(is_active=False, canonical_ref='', stage_join_proof=stage_proof)
+        if proof['verdict'] == 'unresolved_reader_join':
+            old_meta.update(status='held', reasons=['unresolved_reader_join'])
+        elif proof['verdict'] == 'proven_prescribed_psalm_prayers_not_assigned_lessons':
+            old_meta.update(status='prescribed_prayer', kind='prescribed_psalm_prayer', reasons=['prescribed_psalm_prayer_not_assigned_reading'])
+        else:
+            evidence, = proof['reader_evidence']
+            target = sources[(evidence['capture_id'], evidence['ordinal'])]
+            target_meta = _required_projection_metadata(target)
+            # The exact capture+ordinal+stage proof controls, not book/ref similarity.
+            if (not target_meta['selected'] or target_meta['kind'] != 'assigned_scripture_reading' or
+                    target['reading_type'] != proof['reading_type']):
+                raise RuntimeError('special stage target is not selected assigned evidence')
+            if LEGACY_ROWS[index] in target_meta['legacy_attestations']:
+                raise RuntimeError('special duplicate legacy stage attestation')
+            target_meta['legacy_attestations'].append(dict(LEGACY_ROWS[index]))
+            same = canonicalize_text_ref(old['raw_ref']) == canonicalize_text_ref(reader_ref_for_index(evidence['printed_ref']))
+            conflict = 'source_book_conflict' if index == 144 else ('same_reference' if same else 'source_qualified_literal_reference_difference')
+            old_meta.update(status='coalesced_attestation' if same else 'superseded', reasons=['context_qualified_reader_authority'],
+                            replacement_capture=evidence['capture_id'], replacement_ordinal=evidence['ordinal'],
+                            navigation=evidence['navigation'], conflict_type=conflict, authoritative_printed_ref=evidence['printed_ref'])
+            target_meta.setdefault('stage_join_proofs', []).append(stage_proof)
+            if index == 144:
+                target_meta.setdefault('source_conflicts', []).append({'legacy_row': index, 'legacy_raw_ref': old['raw_ref'],
+                    'authoritative_printed_ref': evidence['printed_ref'], 'conflict_type': conflict,
+                    'authority': 'Coptic Reader', 'body_proof': 'independent-timothy-proof.json'})
+            target_meta['status'] = target_meta['projection_status']
+            _replace_projection_metadata(target, target_meta)
+        _replace_projection_metadata(old, old_meta)
+    return rows
+
+
+def validate_projection_rows(rows: list[dict]) -> None:
+    if rows != project_special_contexts():
+        raise RuntimeError('special projection omitted/reordered/changed context, canonical reference or active state')
+
+
 def ensure_dirs() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     if not DISABLE_VAULT_PUBLISH:
         VAULT.mkdir(parents=True, exist_ok=True)
 
 
+def ordered_reader_ref(printed_ref: str) -> str:
+    """Keep ordered components, not the canonical verse-set serialization."""
+    expanded = reader_ref_for_index(printed_ref)
+    if ';' not in expanded:
+        return canonicalize_text_ref(expanded)
+    components = [part.strip() for part in expanded.split(';')]
+    parsed = [parse_passage(part) for part in components]
+    # Keep the historically supported multi-book tokenizer lane separate.
+    if all(part and part.parts for part in parsed) and len({part.book_abbrev for part in parsed if part is not None}) > 1:
+        return canonicalize_text_ref(expanded)
+    if parse_passage(expanded) is None:
+        raise ValueError('Malformed complete Reader reference: ' + printed_ref)
+    return '; '.join(dict.fromkeys(canonicalize_text_ref(part) for part in components))
+
+
 def canonicalize_row_refs(row: Dict[str, str]) -> Dict[str, str]:
     row = dict(row)
-    row['canonical_ref'] = canonicalize_text_ref(row['raw_ref'])
+    if not is_current_source_row(row):
+        row['canonical_ref'] = ''
+        return row
+    projection = projection_metadata(row)
+    if projection is not None:
+        row['canonical_ref'] = projection['canonical_ref'] if projection['is_active'] and is_current_source_row(projection) else ''
+        return row
+    key = (row['service_family'], row['service_variant'], row['reading_type'], row['raw_ref'])
+    correction = BOUNDARY_CORRECTIONS.get(key)
+    effective_ref = correction['corrected_ref'] if correction else row['raw_ref']
+    if row['service_variant'].startswith('coptic_reader__'):
+        row['canonical_ref'] = ordered_reader_ref(effective_ref)
+    else:
+        row['canonical_ref'] = canonicalize_text_ref(effective_ref)
+    if correction:
+        # Preserve raw source and the old provenance; disclose the bound supersession.
+        note = '; Reader boundary supersession=' + json.dumps(correction, ensure_ascii=False, sort_keys=True)
+        if note not in row['notes']:
+            row['notes'] += note
     return row
 
 
 def build_passage_index(rows: List[Dict[str, str]]) -> List[Dict[str, str]]:
     out: List[Dict[str, str]] = []
     for row in rows:
+        if not is_current_source_row(row):
+            continue
+        projection = projection_metadata(row)
+        if projection is not None and (not projection['is_active'] or not is_current_source_row(projection)):
+            continue
         base = canonicalize_row_refs(row)
         seen = set()
-        for seg in extract_text_ref_tokens(base['raw_ref']):
+        key = (base['service_family'], base['service_variant'], base['reading_type'], base['raw_ref'])
+        indexed_ref = (base['canonical_ref'] if projection is not None or key in BOUNDARY_CORRECTIONS or
+                       base['service_variant'].startswith('coptic_reader__') else base['raw_ref'])
+        for seg in extract_text_ref_tokens(indexed_ref):
             normalized = canonicalize_text_ref(seg)
             if not normalized:
                 continue
@@ -2044,9 +2474,13 @@ def write_jsonl(path: Path, rows: List[Dict[str, str]]) -> None:
 
 
 def main() -> None:
+    load_reader_fixture()
+    validate_reader_rows(ROWS)
+    projected = project_special_contexts()
+    validate_projection_rows(projected)
     ensure_dirs()
-    curated = [canonicalize_row_refs(r) for r in ROWS]
-    pidx = build_passage_index(ROWS)
+    curated = [canonicalize_row_refs(r) for r in projected]
+    pidx = build_passage_index(projected)
     write_csv(OUT / 'special_service_readings_curated.csv', curated)
     write_jsonl(OUT / 'special_service_readings_curated.jsonl', curated)
     write_csv(OUT / 'special_service_passage_index.csv', pidx)

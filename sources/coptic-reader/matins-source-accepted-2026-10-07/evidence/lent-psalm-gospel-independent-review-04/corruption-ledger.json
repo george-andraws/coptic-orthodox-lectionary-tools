@@ -1,0 +1,87 @@
+[
+  {
+    "name": "wrong civil context",
+    "rejected": true,
+    "reason": "civil-date"
+  },
+  {
+    "name": "wrong actual feast",
+    "rejected": true,
+    "reason": "actual-occasion"
+  },
+  {
+    "name": "full body hash",
+    "rejected": true,
+    "reason": "full-body-hash"
+  },
+  {
+    "name": "literal heading dropped",
+    "rejected": true,
+    "reason": "literal-headings"
+  },
+  {
+    "name": "heading tab removed",
+    "rejected": true,
+    "reason": "literal-headings"
+  },
+  {
+    "name": "heading reorder",
+    "rejected": true,
+    "reason": "literal-headings"
+  },
+  {
+    "name": "ordered blocks reversed",
+    "rejected": true,
+    "reason": "block-heading-order"
+  },
+  {
+    "name": "source envelope endpoint shortened",
+    "rejected": true,
+    "reason": "body-envelope"
+  },
+  {
+    "name": "ready image omitted",
+    "rejected": true,
+    "reason": "image-order"
+  },
+  {
+    "name": "image order reversed",
+    "rejected": true,
+    "reason": "image-order"
+  },
+  {
+    "name": "false qualification",
+    "rejected": true,
+    "reason": "false-qualification"
+  },
+  {
+    "name": "false Psalm canonicalization",
+    "rejected": true,
+    "reason": "false-Psalm-conversion"
+  },
+  {
+    "name": "body endpoint truncation",
+    "rejected": true,
+    "reason": "full-body-hash"
+  },
+  {
+    "name": "duplicate dated witness",
+    "rejected": true,
+    "reason": "independent conservation/scope contract"
+  },
+  {
+    "name": "false all-year qualification",
+    "rejected": true,
+    "reason": "independent conservation/scope contract"
+  },
+  {
+    "name": "no-prophecies erases PG",
+    "rejected": true,
+    "reason": "independent conservation/scope contract"
+  },
+  {
+    "name": "samebody dedup loses appointments",
+    "rejected": true,
+    "reason": "independent conservation/scope contract"
+  }
+]

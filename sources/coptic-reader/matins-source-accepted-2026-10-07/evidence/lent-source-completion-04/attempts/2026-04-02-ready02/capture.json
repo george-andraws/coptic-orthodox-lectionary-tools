@@ -1,0 +1,80 @@
+{
+  "civil_date": "2026-04-02",
+  "context": "Selected Season 7th Week of Great Fast Paremhotep 24, 1742 Thursday, April 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+  "documents": [
+    {
+      "civil_date": "2026-04-02",
+      "context": "Selected Season 7th Week of Great Fast Paremhotep 24, 1742 Thursday, April 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:33:38.153Z",
+      "raw_reference_lines": [
+        "\tProverbs 11:13-26",
+        "\tIsaiah 65:8-16",
+        "\tJob 42:1-6"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies.txt",
+      "text_sha256": "a65840e3485e150b70674df0bbeb8fc46eb669779a7e2f74df276556b6719b35",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tProverbs 11:13-26",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-01.png",
+          "sha256": "9a5119ebf0cbeedc543b8154adf4e91c39c8d219a43c10906c9ff94d2f2c50c0"
+        },
+        {
+          "raw_ref": "\tIsaiah 65:8-16",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-02.png",
+          "sha256": "f480e7b5349d540978c4a36b5db89e5b1185fe30f65f70b5e7f950ae23ba0a9e"
+        },
+        {
+          "raw_ref": "\tJob 42:1-6",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Prophecies-reference-03.png",
+          "sha256": "dac9446959a0015730ae5c78b54ccc603fa0c03c8a317444d794d0a10c532474"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-04-02",
+      "context": "Selected Season 7th Week of Great Fast Paremhotep 24, 1742 Thursday, April 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:33:45.194Z",
+      "raw_reference_lines": [
+        "\tPsalms 62:1",
+        "\tMatthew 20:20-28"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "015165522ebd7363ebd68117fd01e8a1bf29e4372b008a5a0715716fad9e7ef1",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 62:1",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "57fad6eed5cb3b12ccd6ec7a554848815e37051ca1332a849a3e438bcfd5a12e"
+        },
+        {
+          "raw_ref": "\tMatthew 20:20-28",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "f4253bbe139fd38f758c73ebc379eecf92e81b1a0a75056e81f760f99334acbb"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

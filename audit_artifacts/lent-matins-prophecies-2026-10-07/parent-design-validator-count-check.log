@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 841, in <module>
+    main()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 834, in main
+    verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 499, in verify_rows
+    fail(f"daily file {path} does not exactly match dated presentation rows")
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 96, in fail
+    raise AssertionError(message)
+AssertionError: daily file /Users/ga/workspace/synaxarium-package-release/out/design/daily/lectionary-2020.json does not exactly match dated presentation rows

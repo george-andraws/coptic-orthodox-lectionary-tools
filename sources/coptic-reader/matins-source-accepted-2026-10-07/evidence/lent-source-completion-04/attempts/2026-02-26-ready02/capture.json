@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-02-26",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 19, 1742 Thursday, February 26, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-26",
+      "context": "Selected Season 2nd Week of Great Fast Meshir 19, 1742 Thursday, February 26, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:20.418Z",
+      "raw_reference_lines": [
+        "\tPsalms 27:10",
+        "\tMatthew 11:20-30"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "096f2fc9b9b35171fced7894e0b039a06e6d7e2e161db2f6227fc64fbfb5d714",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 27:10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "6ff6c7302171f0147ccf80e7633f9ff4081d5bbbcf490ef1cfe63c9a0aa9f39d"
+        },
+        {
+          "raw_ref": "\tMatthew 11:20-30",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "42a82662b7b01417fb79f6d0f65084f521828421d9ac0acebcb9434fe65ae6e4"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

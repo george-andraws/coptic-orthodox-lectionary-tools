@@ -1,0 +1,234 @@
+[
+  {
+    "date": "2026-02-02",
+    "occasion": "Jonah's Fast",
+    "Readings_menu": "Back\nVespers\nMatins\nLiturgy",
+    "Liturgy_menu": "Back\nPauline Epistle\nCatholic Epistle\nPraxis\nSynaxarion\nPsalm and Gospel",
+    "Vespers_rubric": "Vespers and Vesper Praises are not prayed during Jonah's Fast, weekdays of the Great Fast, Pascha Week, the Paramouns, and the Feast of the Resurrection. During the Feasts of the Nativity and Theophany, Vespers and Vesper Praises are prayed only if the feast falls on a Sunday or Monday.",
+    "accepted_scope": "observed dated menu inventory and explicit no-Vespers; NOT uncaptured Liturgy assignments",
+    "files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/Vespers-rubric.png",
+        "sha256": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/Vespers-rubric.txt",
+        "sha256": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/2026-02-02-before-day.png",
+        "sha256": "fc0c797d4324d50e92be34974e99bd0b87385176ce9b02c829ff934a6ad33729"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/Liturgy-menu.txt",
+        "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/Readings-menu.png",
+        "sha256": "3e0d3a8d61f689ebee3c413f5b35faea6bbf4b6f3f6ed7ece082639b55f26bfd"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/Liturgy-menu.png",
+        "sha256": "e586fbd874e0385dd0cb1c167abbb46adb64af8478419d5d1e842da0f08606df"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/Readings-menu.txt",
+        "sha256": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/receipt.json",
+        "sha256": "f15e8f598271577bcbdc56ab957511d0b9528ad4b35f4ff2e32b284edc9ebfee"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/2026-02-02/context.png",
+        "sha256": "d50cd33c52c27a16dad770edc1ff707d388f0fa112b77b4016562308c91cc255"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/2026-02-02/picker.png",
+        "sha256": "e5f6ff00db3ed148c446dfd95dbd88f7ea0b8b5bb19c4df6f6a961a3322e8d98"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/2026-02-02/picker.json",
+        "sha256": "949ae73ecf797d1fa5c5669d95b19d2182956931ba7c20d1378cd1c090505265"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-02/2026-02-02/context.txt",
+        "sha256": "15d3113523ef274611b3e9b380d9078c5f5621cb888f06f92515a911f13acb97"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-03",
+    "occasion": "Jonah's Fast",
+    "Readings_menu": "Back\nVespers\nMatins\nLiturgy\nAntiphonary\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+    "Liturgy_menu": "Back\nPauline Epistle\nCatholic Epistle\nPraxis\nSynaxarion\nPsalm and Gospel",
+    "Vespers_rubric": "Vespers and Vesper Praises are not prayed during Jonah's Fast, weekdays of the Great Fast, Pascha Week, the Paramouns, and the Feast of the Resurrection. During the Feasts of the Nativity and Theophany, Vespers and Vesper Praises are prayed only if the feast falls on a Sunday or Monday.",
+    "accepted_scope": "observed dated menu inventory and explicit no-Vespers; NOT uncaptured Liturgy assignments",
+    "files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/Vespers-rubric.png",
+        "sha256": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/Vespers-rubric.txt",
+        "sha256": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/2026-02-03-before-day.png",
+        "sha256": "fc0c797d4324d50e92be34974e99bd0b87385176ce9b02c829ff934a6ad33729"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/Liturgy-menu.txt",
+        "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/Readings-menu.png",
+        "sha256": "8d71521af134d5ca06bd6b2b72ac899a0f997c905120d9c962d8bc6f35f708bc"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/Liturgy-menu.png",
+        "sha256": "e586fbd874e0385dd0cb1c167abbb46adb64af8478419d5d1e842da0f08606df"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/Readings-menu.txt",
+        "sha256": "d5c5b5e071454cf2b8ea7671c1307986ae2aac1467d31558d79dbd9e3bd586cd"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/receipt.json",
+        "sha256": "77fc0ab73e905781a57579ccfb95b7fb27f93fee94a310071697dd03e5d9e859"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/2026-02-03/context.png",
+        "sha256": "9d41509167f06548b973b3291c66d2bd079c0e2eeeebd000ae5e491a2c302f4b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/2026-02-03/picker.png",
+        "sha256": "62df3bc80c087d151582f8c2f70120f0786ee8ada9f1d6fcbb4b06d4a92f0e74"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/2026-02-03/picker.json",
+        "sha256": "a263ca4e60a220bf35d0378abb5b976aeed8ea05f0caccdf37676ea7652eebc1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-03/2026-02-03/context.txt",
+        "sha256": "c82a41b9da974f3a6b15266bc1ed38d5ad8d88a3d8d80f5dc5f0702efffb5cd3"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "occasion": "Jonah's Fast",
+    "Readings_menu": "Back\nVespers\nMatins\nLiturgy\nAntiphonary\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+    "Liturgy_menu": "Back\nPauline Epistle\nCatholic Epistle\nPraxis\nSynaxarion\nPsalm and Gospel",
+    "Vespers_rubric": "Vespers and Vesper Praises are not prayed during Jonah's Fast, weekdays of the Great Fast, Pascha Week, the Paramouns, and the Feast of the Resurrection. During the Feasts of the Nativity and Theophany, Vespers and Vesper Praises are prayed only if the feast falls on a Sunday or Monday.",
+    "accepted_scope": "observed dated menu inventory and explicit no-Vespers; NOT uncaptured Liturgy assignments",
+    "files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/Vespers-rubric.png",
+        "sha256": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/2026-02-04-before-day.png",
+        "sha256": "40b540ef9a9c119232bdb244349e62ff27fd8d4af079c4609e6d3c1886bbc830"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/Vespers-rubric.txt",
+        "sha256": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/Liturgy-menu.txt",
+        "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/Readings-menu.png",
+        "sha256": "fa78e2f800eb0d3b5f517f4c842b8479715fb06328947da7a6a9c281be418381"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/Liturgy-menu.png",
+        "sha256": "e586fbd874e0385dd0cb1c167abbb46adb64af8478419d5d1e842da0f08606df"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/Readings-menu.txt",
+        "sha256": "34d6b0486454932ccac6133dbe24375d6a31d2e077041c836edfd7f788df6ea7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/receipt.json",
+        "sha256": "4e0c53b6ac7b9f5a439ae30e94ad73f64eae4be36a50b09cc7b6c7e271f47311"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/2026-02-04/context.png",
+        "sha256": "7d2383846e5fffdca141c3cc6171bb002d9d720ba5adca097b402a70423a2272"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/2026-02-04/picker.png",
+        "sha256": "376d0edf9a6d77c7b307276b1194eb1a18097a6fe322069f285950a5ab943e0e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/2026-02-04/picker.json",
+        "sha256": "25d7bd4cdc2e6388ab9b9e74cc7192e73a0b69a590a543f5a24f428a81915e22"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-04/2026-02-04/context.txt",
+        "sha256": "3cfd42bd7b26fd6460e9aaaa3a7f90e815eb446afdc645a6ac3edf504983a9e0"
+      }
+    ]
+  },
+  {
+    "date": "2026-02-05",
+    "occasion": "Jonah's Passover",
+    "Readings_menu": "Back\nVespers\nMatins\nLiturgy\nAntiphonary",
+    "Liturgy_menu": "Back\nPauline Epistle\nCatholic Epistle\nPraxis\nSynaxarion\nPsalm and Gospel",
+    "Vespers_rubric": "Vespers and Vesper Praises are not prayed during Jonah's Fast, weekdays of the Great Fast, Pascha Week, the Paramouns, and the Feast of the Resurrection. During the Feasts of the Nativity and Theophany, Vespers and Vesper Praises are prayed only if the feast falls on a Sunday or Monday.",
+    "accepted_scope": "observed dated menu inventory and explicit no-Vespers; NOT uncaptured Liturgy assignments",
+    "files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/Vespers-rubric.png",
+        "sha256": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/Vespers-rubric.txt",
+        "sha256": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/2026-02-05-before-day.png",
+        "sha256": "fc0c797d4324d50e92be34974e99bd0b87385176ce9b02c829ff934a6ad33729"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/Liturgy-menu.txt",
+        "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/Readings-menu.png",
+        "sha256": "3e0d3a8d61f689ebee3c413f5b35faea6bbf4b6f3f6ed7ece082639b55f26bfd"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/Liturgy-menu.png",
+        "sha256": "e586fbd874e0385dd0cb1c167abbb46adb64af8478419d5d1e842da0f08606df"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/Readings-menu.txt",
+        "sha256": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/receipt.json",
+        "sha256": "daf87d704976d8257f0e188b7331f452725d56fcc9abb1b6a45f281daf58c3fe"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/2026-02-05/context.png",
+        "sha256": "2a0075e6f72b35a29bdbcea85e8783f4cc96833f26e66bb65415889081c111f0"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/2026-02-05/picker.png",
+        "sha256": "46b37a736cfa2f89f2411d7eed65126ecf0f0f39d97867860d27d6e7f1c5539c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/2026-02-05/picker.json",
+        "sha256": "e67a58ada71a1496965076eeb00caa73e5485d2c1f4fccbb88ae90a0df00c30b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/jonah-service-inventory/2026-02-05/2026-02-05/context.txt",
+        "sha256": "9e5a0bf1bddf245159734f4df4521cf808e946f6da86c6957b1e5016ff855943"
+      }
+    ]
+  }
+]

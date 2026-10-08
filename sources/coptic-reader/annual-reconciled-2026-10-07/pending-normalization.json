@@ -1,0 +1,591 @@
+[
+  {
+    "id": "AnnualReadings-12",
+    "date": "2026-09-22",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "Romans 4:13-5:5",
+    "comparison_segments": "Rom 4:13-25; Rom 5:1-5",
+    "actual_refs": [
+      "Rom 4:13-  &  Rom 5:1-5"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 12",
+        "gregorian_date": "2026-09-22",
+        "normalization_warning": "",
+        "normalized_ref": "Rom 4:13-  &  Rom 5:1-5",
+        "parse_status": "ok",
+        "raw_ref": "Rom 4:13—  &  Rom 5:1-5",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=22",
+        "weekday": "Tuesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-13",
+    "date": "2026-09-23",
+    "layer": "current_date_source",
+    "slot": "vespers_gospel",
+    "source_ref": "Matthew 4:23-5:16",
+    "comparison_segments": "Matt 4:23-25; Matt 5:1-16",
+    "actual_refs": [
+      "Matt 4:23-  &  Matt 5:1-16"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 13",
+        "gregorian_date": "2026-09-23",
+        "normalization_warning": "",
+        "normalized_ref": "Matt 4:23-  &  Matt 5:1-16",
+        "parse_status": "ok",
+        "raw_ref": "Matt 4:23—  &  Matt 5:1-16",
+        "reading_type": "Gospel",
+        "service_section": "Vespers",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=23",
+        "weekday": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-13",
+    "date": "2026-09-23",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "2 Timothy 3:10-4:22",
+    "comparison_segments": "2Tim 3:10-17; 2Tim 4:1-22",
+    "actual_refs": [
+      "2Tim 3:10-  &  2Tim 4:1-22"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 13",
+        "gregorian_date": "2026-09-23",
+        "normalization_warning": "",
+        "normalized_ref": "2Tim 3:10-  &  2Tim 4:1-22",
+        "parse_status": "ok",
+        "raw_ref": "2Tim 3:10—  &  2Tim 4:1-22",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=23",
+        "weekday": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-15",
+    "date": "2026-09-25",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "2 Corinthians 11:16-12:12",
+    "comparison_segments": "2Cor 11:16-33; 2Cor 12:1-12",
+    "actual_refs": [
+      "2Cor 11:16-  &  2Cor 12:1-12"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 15",
+        "gregorian_date": "2026-09-25",
+        "normalization_warning": "",
+        "normalized_ref": "2Cor 11:16-  &  2Cor 12:1-12",
+        "parse_status": "ok",
+        "raw_ref": "2Cor 11:16—  &  2Cor 12:1-12",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=25",
+        "weekday": "Friday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-15",
+    "date": "2026-09-25",
+    "layer": "current_date_source",
+    "slot": "liturgy_catholic",
+    "source_ref": "1 Peter 1:25-2:10",
+    "comparison_segments": "1Pet 1:25; 1Pet 2:1-10",
+    "actual_refs": [
+      "1Pet 1:25-  &  1Pet 2:1-10"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 15",
+        "gregorian_date": "2026-09-25",
+        "normalization_warning": "",
+        "normalized_ref": "1Pet 1:25-  &  1Pet 2:1-10",
+        "parse_status": "ok",
+        "raw_ref": "1Pet 1:25—  &  1Pet 2:1-10",
+        "reading_type": "Catholic Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=25",
+        "weekday": "Friday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-15",
+    "date": "2026-09-25",
+    "layer": "current_date_source",
+    "slot": "liturgy_acts",
+    "source_ref": "Acts 6:1-7:2",
+    "comparison_segments": "Acts 6:1-15; Acts 7:1-2",
+    "actual_refs": [
+      "Acts 6:1-  &  Acts 7:1-2"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 15",
+        "gregorian_date": "2026-09-25",
+        "normalization_warning": "",
+        "normalized_ref": "Acts 6:1-  &  Acts 7:1-2",
+        "parse_status": "ok",
+        "raw_ref": "Acts 6:1—  &  Acts 7:1-2",
+        "reading_type": "Acts of the Apostles",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=25",
+        "weekday": "Friday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-19",
+    "date": "2026-09-29",
+    "layer": "current_date_source",
+    "slot": "matins_gospel",
+    "source_ref": "Mark 8:34-9:1",
+    "comparison_segments": "Mark 8:34-38; Mark 9:1",
+    "actual_refs": [
+      "Mk 8:34-  &  Mk 9:1-1"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 19 (Feast of the Cross)",
+        "gregorian_date": "2026-09-29",
+        "normalization_warning": "",
+        "normalized_ref": "Mk 8:34-  &  Mk 9:1-1",
+        "parse_status": "ok",
+        "raw_ref": "Mk 8:34—  &  Mk 9:1-1",
+        "reading_type": "Gospel",
+        "service_section": "Matins",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=09&g_day=29",
+        "weekday": "Tuesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-27",
+    "date": "2026-10-07",
+    "layer": "current_date_source",
+    "slot": "matins_gospel",
+    "source_ref": "Mark 8:34-9:1",
+    "comparison_segments": "Mark 8:34-38; Mark 9:1",
+    "actual_refs": [
+      "Mk 8:34-  &  Mk 9:1-1"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Tout 27",
+        "gregorian_date": "2026-10-07",
+        "normalization_warning": "",
+        "normalized_ref": "Mk 8:34-  &  Mk 9:1-1",
+        "parse_status": "ok",
+        "raw_ref": "Mk 8:34—  &  Mk 9:1-1",
+        "reading_type": "Gospel",
+        "service_section": "Matins",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=07",
+        "weekday": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-34",
+    "date": "2026-10-14",
+    "layer": "current_date_source",
+    "slot": "liturgy_acts",
+    "source_ref": "Acts 12:25-13:12",
+    "comparison_segments": "Acts 12:25; Acts 13:1-12",
+    "actual_refs": [
+      "Acts 12:25-  &  Acts 13:1-12"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 4",
+        "gregorian_date": "2026-10-14",
+        "normalization_warning": "",
+        "normalized_ref": "Acts 12:25-  &  Acts 13:1-12",
+        "parse_status": "ok",
+        "raw_ref": "Acts 12:25—  &  Acts 13:1-12",
+        "reading_type": "Acts of the Apostles",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=14",
+        "weekday": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-34",
+    "date": "2026-10-14",
+    "layer": "current_date_source",
+    "slot": "liturgy_gospel",
+    "source_ref": "Luke 11:53-12:12",
+    "comparison_segments": "Lk 11:53-54; Lk 12:1-12",
+    "actual_refs": [
+      "Lk 11:53-  &  Lk 12:1-12"
+    ],
+    "verdict": "pending_malformed_reference_normalization",
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 4",
+        "gregorian_date": "2026-10-14",
+        "normalization_warning": "",
+        "normalized_ref": "Lk 11:53-  &  Lk 12:1-12",
+        "parse_status": "ok",
+        "raw_ref": "Lk 11:53—  &  Lk 12:1-12",
+        "reading_type": "Gospel",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=14",
+        "weekday": "Wednesday"
+      }
+    ]
+  },
+  {
+    "id": "AnnualReadings-37",
+    "date": "2026-10-17",
+    "layer": "current_date_source",
+    "slot": "liturgy_acts",
+    "source_ref": "Acts 18:24-19:6",
+    "comparison_segments": "Acts 18:24-28; Acts 19:1-6",
+    "actual_refs": [
+      "Acts 18:24-  &  Acts 19:1-6"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 7",
+        "gregorian_date": "2026-10-17",
+        "normalization_warning": "",
+        "normalized_ref": "Acts 18:24-  &  Acts 19:1-6",
+        "parse_status": "ok",
+        "raw_ref": "Acts 18:24—  &  Acts 19:1-6",
+        "reading_type": "Acts of the Apostles",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=17",
+        "weekday": "Saturday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-38",
+    "date": "2027-10-19",
+    "layer": "current_date_source",
+    "slot": "liturgy_acts",
+    "source_ref": "Acts 12:25-13:12",
+    "comparison_segments": "Acts 12:25; Acts 13:1-12",
+    "actual_refs": [
+      "Acts 12:25-  &  Acts 13:1-12"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 8",
+        "gregorian_date": "2027-10-19",
+        "normalization_warning": "",
+        "normalized_ref": "Acts 12:25-  &  Acts 13:1-12",
+        "parse_status": "ok",
+        "raw_ref": "Acts 12:25—  &  Acts 13:1-12",
+        "reading_type": "Acts of the Apostles",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=19",
+        "weekday": "Tuesday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-44",
+    "date": "2026-10-24",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "Titus 2:11-3:7",
+    "comparison_segments": "Titus 2:11-15; Titus 3:1-7",
+    "actual_refs": [
+      "Titus 2:11-  &  Titus 3:1-7"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 14",
+        "gregorian_date": "2026-10-24",
+        "normalization_warning": "",
+        "normalized_ref": "Titus 2:11-  &  Titus 3:1-7",
+        "parse_status": "ok",
+        "raw_ref": "Titus 2:11—  &  Titus 3:1-7",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=24",
+        "weekday": "Saturday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-45",
+    "date": "2027-10-26",
+    "layer": "current_date_source",
+    "slot": "liturgy_acts",
+    "source_ref": "Acts 27:42-28:6",
+    "comparison_segments": "Acts 27:42-44; Acts 28:1-6",
+    "actual_refs": [
+      "Acts 27:42-  &  Acts 28:1-6"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 15",
+        "gregorian_date": "2027-10-26",
+        "normalization_warning": "",
+        "normalized_ref": "Acts 27:42-  &  Acts 28:1-6",
+        "parse_status": "ok",
+        "raw_ref": "Acts 27:42—  &  Acts 28:1-6",
+        "reading_type": "Acts of the Apostles",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2027&g_month=10&g_day=26",
+        "weekday": "Tuesday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-46",
+    "date": "2026-10-26",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "Hebrews 4:14-5:14",
+    "comparison_segments": "Heb 4:14-16; Heb 5:1-14",
+    "actual_refs": [
+      "Heb 4:14-  &  Heb 5:1-14"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 16",
+        "gregorian_date": "2026-10-26",
+        "normalization_warning": "",
+        "normalized_ref": "Heb 4:14-  &  Heb 5:1-14",
+        "parse_status": "ok",
+        "raw_ref": "Heb 4:14—  &  Heb 5:1-14",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=10&g_day=26",
+        "weekday": "Monday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-54",
+    "date": "2026-11-03",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "Philippians 3:20-4:9",
+    "comparison_segments": "Phil 3:20-21; Phil 4:1-9",
+    "actual_refs": [
+      "Phil 3:20-  &  Phil 4:1-9"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 24",
+        "gregorian_date": "2026-11-03",
+        "normalization_warning": "",
+        "normalized_ref": "Phil 3:20-  &  Phil 4:1-9",
+        "parse_status": "ok",
+        "raw_ref": "Phil 3:20—  &  Phil 4:1-9",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=11&g_day=03",
+        "weekday": "Tuesday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-57",
+    "date": "2026-11-06",
+    "layer": "current_date_source",
+    "slot": "liturgy_gospel",
+    "source_ref": "Matthew 4:23-5:16",
+    "comparison_segments": "Matt 4:23-25; Matt 5:1-16",
+    "actual_refs": [
+      "Matt 4:23- - Matt 5:1-16"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 27",
+        "gregorian_date": "2026-11-06",
+        "normalization_warning": "",
+        "normalized_ref": "Matt 4:23- - Matt 5:1-16",
+        "parse_status": "ok",
+        "raw_ref": "Matt 4:23— - Matt 5:1-16",
+        "reading_type": "Gospel",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=11&g_day=06",
+        "weekday": "Friday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-60",
+    "date": "2026-11-09",
+    "layer": "current_date_source",
+    "slot": "liturgy_pauline",
+    "source_ref": "2 Timothy 3:10-4:18",
+    "comparison_segments": "2Tim 3:10-17; 2Tim 4:1-18",
+    "actual_refs": [
+      "2Tim 3:10-  &  2Tim 4:1-18"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 30",
+        "gregorian_date": "2026-11-09",
+        "normalization_warning": "",
+        "normalized_ref": "2Tim 3:10-  &  2Tim 4:1-18",
+        "parse_status": "ok",
+        "raw_ref": "2Tim 3:10—  &  2Tim 4:1-18",
+        "reading_type": "Pauline Epistle",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=11&g_day=09",
+        "weekday": "Monday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  },
+  {
+    "id": "AnnualReadings-60",
+    "date": "2026-11-09",
+    "layer": "current_date_source",
+    "slot": "liturgy_acts",
+    "source_ref": "Acts 15:36-16:5",
+    "comparison_segments": "Acts 15:36-41; Acts 16:1-5",
+    "actual_refs": [
+      "Acts 15:36-  &  Acts 16:1-5"
+    ],
+    "actual_rows": [
+      {
+        "correction_source": "",
+        "day_title": "Baba 30",
+        "gregorian_date": "2026-11-09",
+        "normalization_warning": "",
+        "normalized_ref": "Acts 15:36-  &  Acts 16:1-5",
+        "parse_status": "ok",
+        "raw_ref": "Acts 15:36—  &  Acts 16:1-5",
+        "reading_type": "Acts of the Apostles",
+        "service_section": "Liturgy",
+        "source": "copticchurch.net daily scrape",
+        "source_order": "",
+        "source_slot": "",
+        "superseded_reason": "",
+        "url": "https://copticchurch.net/readings?g_year=2026&g_month=11&g_day=09",
+        "weekday": "Monday"
+      }
+    ],
+    "verdict": "pending_malformed_reference_normalization"
+  }
+]

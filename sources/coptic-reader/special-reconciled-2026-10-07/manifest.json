@@ -1,0 +1,758 @@
+{
+  "source_url": "https://copticreader.org/app/#/document",
+  "source_snapshot": "fresh-special-continuation-01",
+  "completeness_claimed": false,
+  "document_count": 73,
+  "assigned_reading_count": 333,
+  "assigned_context_count": 48,
+  "files": {
+    "raw/9d3e3f0d-57b8-4a81-aa54-db883544e5e5-2.txt": "8292a7661d0870dccb9afd003dceaa277c17df5624f2bcb9c1af656babfaedc7",
+    "raw/469a6ae1-627a-450b-9ed6-d1be214cff2b-2.txt": "5196cf3caed4a8365da8ec0dcee422818127212f8960eb00716c6888e9bfb86a",
+    "raw/f95e79ea-1b72-41ac-86f4-8a4fa2d9d717-2.txt": "1bd624447d1027da9ab5e739491aca455f4e2e50297945f04bf72d5eba125619",
+    "raw/56360c89-490d-415e-8b34-f7116549cafe-2.txt": "c32871b13d1d334bac1782240132ce1d936a7f0d5ec731387a4b9b7c62fb519d",
+    "raw/871e3244-5cec-4c65-973a-7a5d362f4ed0-2.txt": "4b2a764ca719d6b647fa9e50310348d88845b721cea93662ae213897dab05ae3",
+    "raw/df401622-cc84-4d1a-ae68-0109c1d3b179-2.txt": "bce18a1efc265253bcd9469fe7833300f005e1c9179a7991b1d1c91e6a82e5ba",
+    "raw/39e1ed75-8047-461e-a37d-ffec9e608df8-2.txt": "44b16126c7af6e0cd7c1f8e8bc85426e77d6342fe258c9bfaa82b1c2009241b3",
+    "raw/4d07572f-d74b-4098-89e9-c2e9abdca3d6-2.txt": "cb15ef8bd7c7298d1898308fa5766e19c3d16e5667110e9fb0f990cd574f136f",
+    "raw/89011504-daa2-48de-ad0b-02fd7dbd1f6e-2.txt": "2142d8826fb7552703d33b4b600700c5ce4a0af4eecfd87a6df562332fc878c8",
+    "raw/c90e3161-de25-4a3b-b983-06c197327dbb-2.txt": "916def2799dc71e617d5f9236202c554ffea942ffa1ecbb5d5b16fde554decf2",
+    "raw/abe7af0a-2c53-4852-b179-51477ecd6237-2.txt": "e591f50451a899f8a2c14eb4cb7837d49d411a34f2d8b52e97144807edcfc551",
+    "raw/c6bed1fa-7840-4640-87d4-ba9bb218308e-2.txt": "81c43c70ecfcb1f197cc654924640515ab2d094fe353a314e607f2a00024c422",
+    "raw/27e0e53a-0c4b-465d-8341-902272e737c9-2.txt": "8289c2affb55d9e9f06973d28bd93c1843a249a08b36a7f3632defa1789c6e67",
+    "raw/e5da19dd-41b3-4da6-a550-bb7836405190-3.txt": "9bc7c73a1f34629716f91a63e35abf7c268f65fb04bc4b249232b6608128d125",
+    "raw/8b95beac-f8fd-4f15-b4a5-f0377907ee14-3.txt": "f9e41948ada0eb065cc645e1800303e89b33c4841fcb739c566934ab490f6282",
+    "raw/f2283a3d-dddb-44af-acd0-aabf90d417c8-3.txt": "316d6761a323c5177f20ec9aedea5957df09996fdf139676c90bb31947bce6d5",
+    "raw/8c67f222-214a-442d-83f1-2de9561a1039-3.txt": "8382160538f16db27e1eaaf8c8536769b8621af90307f37dcff6bfb4453a1935",
+    "raw/11f58b90-b038-4ff7-88de-b31b31bba8b3-3.txt": "945d194f5854e20470529cd5adfab906c52bfe6b7375d0fedf03701589294fd9",
+    "raw/6e85a4f3-e91c-4345-bb5f-95a9c44c4f7e-3.txt": "cfab28c52e6fb04f6fab29130e2605af00cc47a351e57eb12ccb2681aaf67679",
+    "raw/b0ca8b8f-9263-43f5-83b6-f398596ec0e5-3.txt": "d0b5167864650416c3c35a70b75a217e242696cb7acfad5926708cbbf97c6ddf",
+    "raw/7cb85838-8571-4034-ad04-b041a2fe2d98-3.txt": "eb879324cad00d327e935a351ba34a38452d468629d3b87c6bd0a45d5835cd30",
+    "raw/d9dec20c-cd40-49f5-a56c-5c9297e690d9-3.txt": "7f6f9b72b45d1ec39cad03d40ff569b5e8e3a5ddc7586eb476848f786300f742",
+    "raw/babaa501-2a4f-4763-ada7-2eb2fbc10a3e-4.txt": "c27ed3579227f7965974b9a7318534b80f487c25771634b6a82bd16a24f942b3",
+    "raw/3be6d985-1e71-48de-be3f-f514479981b7-4.txt": "7a6fddd6237caf33e8c31319d0ed22932de38cf7e156fe54434856afbd015faf",
+    "raw/e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4.txt": "55f9982c6bfd765306cc6816dac9c0a12906d2865d2453c79bf696402f323a95",
+    "raw/7cf87171-27ce-4d78-bff2-e606e0166eef-4.txt": "dcde52879dea64749f2a72f29751bf65435af32c7b574c715664c68720395537",
+    "raw/ce9791b2-2e0c-435e-b651-2a64a3044b76-4.txt": "b13e758f9232184b7ab500f0064bb1ac0353b338edc16a8a25f6e83033e5341d",
+    "raw/6dab2a0a-f043-45da-ae97-88d25c7fe8c5-4.txt": "93efb63577bc8a1e475ceb16e3f5099bea1f4ea2d41e73dcbffaa68f45c2b670",
+    "raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+    "raw/f1318d8e-708b-4a2a-88d4-a5cc6ffe8147-3.txt": "5b9c60736a485cda5fd0da15a38b7444352bc95db924482d6229f44626fc2058",
+    "raw/aa5bede0-5d9d-40e6-9586-c40061c26ae3-3.txt": "3cd17432cb09afe84ba9516a55b7634da98c434bdc4e02f8c683961ef055e481",
+    "raw/27fdfd9c-6def-46fe-b327-d9c998d414af-3.txt": "a13bdfb2930174fa81ab2146b09765b9b5db51a69bccc3f5031c2a473f58c71d",
+    "raw/1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5.txt": "e54001495f9c58f652abe1db2bd5edd2676a4c503d1fee46c699a1301a044a35",
+    "raw/48293fed-3da7-43d7-94bc-75d27a812600-5.txt": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+    "raw/e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4.txt": "d7267004335121ebbea7b77c352530748b1702f8fb8c0deabb01b96d04f369be",
+    "raw/aba4ce45-7734-4586-910e-d72d7575a879-4.txt": "c1e9685173143193db89e0ad82b740666e5b868de151d5525fcbf65feeeb28a2",
+    "raw/d34ce765-b34a-49e7-a7ea-3a320e7aa0d9-4.txt": "354a774d5197782a3ef437141226d5084a417c1572f7cb72c7d6bfea56c79f05",
+    "raw/44172885-5248-4d18-84ea-60497eed6641-4.txt": "2e9a18985deebeb6bac186066a3ef9d980976b4cb764c034ffa61e0108dfdc96",
+    "raw/5426107b-ddeb-4c4d-b729-2fbd79e34588-4.txt": "28b234ef4a9a5fa881754481778f8fd3caa718c973f4c53008e63b28d5cc2c06",
+    "raw/bd9854a9-ff82-452f-9f1f-5e3daad49ce8-4.txt": "2ccd098606e871d49396f9e47eb4e3658a7608aaa36e9fa38845b4ade8ab4bf3",
+    "raw/78898ddd-c49d-4b4b-b9a0-02f2f5b57819-4.txt": "0cae55881f01598e179ddf01fef5fa16abd02b6ce48f72720bd655c8446d3486",
+    "raw/16f7b10c-b3eb-484c-b21b-5735a76cc316-4.txt": "87118523e9b3c6e30717e47e2ae3d63e868831b2a8a0dafd920147d0442f2c2a",
+    "raw/d30cae2a-861d-480f-b123-f992a3e11359-4.txt": "22701fe16dbca7adbb65ec30530c0842c7165b808b1cd7bca71d56c5525ebb36",
+    "raw/8ec20ed7-097a-43bf-969f-499fdeb64482-4.txt": "e5536ed8426c4d92fa1c7d4bdf6a636ff3d1023da1ae6379ed7b24d30c793dc5",
+    "raw/62e3f139-373a-4936-8a7c-2d234d3dc093-4.txt": "c0b2eef781af6646193df2c450854e0c2d308bedd85fe1c69c18ddf9c6b5cebb",
+    "raw/3ecb25ae-d1b8-4cdc-ad4b-64610249beb7-4.txt": "79564870011621849f701f5660f47e48873e20423d40c0e8470879f425edf0c2",
+    "raw/c7a41743-8347-4f32-a687-836ed0060ab9-3.txt": "7e04a9c9babe3ae8d19badd4c060ac5cdef027b01536fc75a023969423901d30",
+    "raw/a0454b28-77c6-4e84-b259-472d9cf74326-3.txt": "1da0b210c6cfc2ad1e8cf3f6e3d587d7d56d1c9251f8f2c9e4e62dd0896d2132",
+    "raw/7999c39f-0518-477a-9677-58bf907b6aa0-3.txt": "0c00cfba600ebb1801cd3c54ae24055fe6288e4d9b12dc67dd1c72420a7d4f48",
+    "raw/0297ed5e-c36b-4315-8c54-a5250e0ec9eb-3.txt": "a0a70389a2dc193d79bd3a344864eecf1ffa647ba3c27d319cb489a6d67ed840",
+    "raw/47f110e1-627d-4c1f-9093-e5d7e03f70bf-3.txt": "7507af49e95069af800df0a51ff3d095d6552cd74ffc2441eeb655e630b96670",
+    "raw/70f348b4-f378-46e5-ae6d-2937ee1d3925-3.txt": "d81c638e418ff777302f5b98d03912a3bf515033f33ad41b4070fad6f842c87e",
+    "raw/d7857488-3c7e-4413-81b1-fd3870a72554-3.txt": "a9977b1744844f1e46f25acac48351bec10df1df89e3a620eb641593998d9329",
+    "raw/fb61a310-b561-47a9-88d5-94882bc5d9b1-3.txt": "5e734a32c77b190015f923bab5289b5aae51d0621368e53b88ea08b4bd036107",
+    "raw/d2fd94d3-2fe0-47ca-a269-4168a150f15c-3.txt": "5b0865eafdc47d77b78e36d1aa18acbb87957cf3115771381c3b0eb22a5387ba",
+    "raw/6ebc267f-6d14-441b-b28c-1bf27783df7f-3.txt": "618468cdb45298be9301f720de662b2742bfb0d1338697a8f231281a5c80e3d1",
+    "raw/2bbf3d35-059a-47f4-8889-5805146e59f5-3.txt": "a16003f676f5e6559ee4bf74901f61cd5aeb73ef69ac56c90cdef8b69a27c593",
+    "raw/2785c484-7825-459d-9135-8a424e3224d3-3.txt": "d12de55c5574990cd4171309a292d2a427374d2281ec7c62c4a0b7d2d53d5797",
+    "raw/bc927db0-94f7-4025-89a1-f284fc1f2967-3.txt": "b14c48eb5997bfd65f2b5190f705592212e3cfd9048eff1eeaddba137d6e727a",
+    "raw/682e92dd-0efa-495e-b164-c3d60deb6952-3.txt": "3d9c8986eb0809fd9e2a5db0b8357c4d1c74392b5d26c3e8126a83ba642b85e6",
+    "raw/142cdfe6-e02a-4156-b855-5f5aaae2e2a4-3.txt": "b71d138a9ea041e047005eaf181d11e069c7e2a3ac0f63e437bbbb2efd8c59a5",
+    "raw/8472f77e-e5b1-481d-98ed-b1596fa824a1-3.txt": "684d4a3c71e272ec6872f57747ebbf18db23841d44ad504ad47ba00408594582",
+    "raw/8bd0ad93-4cbd-4ea0-b0ff-c60ab440c31b-3.txt": "8b8c73429a295f5f11d70381f03e4658562b1a7a162b335143eeb590ef7cbdc3",
+    "raw/0c2e4024-0348-4e8c-a593-7dab7b43c85d-3.txt": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "raw/1c19d208-0647-4d7d-9ad7-fcf35ff59355-3.txt": "37b344c4183435922ee9deae4f31c86b889af4d7f0a67eed3abd2950591d9653",
+    "raw/e06a7163-65e8-46df-a733-4d25028f6565-3.txt": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "raw/717318d3-f438-447d-85dc-98fe75f1d074-3.txt": "afeb5515bf79353dddaf1b46fcbf00afd442d26bf4e1318156a0c4b267db9db6",
+    "raw/7fea649a-8899-4239-9b55-d10e0e6c7bf1-3.txt": "0450c339e111bf9dd89bb8003562574585793d7139296c96368d4c4ecb4ead9a",
+    "raw/9dd2011b-42a3-426f-ad63-c7d3d7524877-3.txt": "4fe826cd47fb85bd72bf37f8e1b29074f61a8ee4ac6c2594bd3659424835e0f5",
+    "raw/aaffb6eb-a831-4ee3-bc14-0ebaf4c96c7a-3.txt": "a2f5ba90408ba84af6fefa5cf016e47e0ef249c2aecb26c93e7d2247469de3ca",
+    "raw/99959d89-1145-4d11-86c9-a099899e4df8-3.txt": "bce717af35bc2ba01883d362cfa5ed6fe493febfed3262b4616e4725a90b2bb8",
+    "raw/7ee1fc9b-6a87-421c-9abe-704fc2e000a6-3.txt": "dd4ea5b1f4dde2f0f797ab74ae415a8b6848988c6f006dc14d41647134292cfe",
+    "raw/c1df42cd-51c1-490a-b9fc-9329d7918716-3.txt": "34a0d2d86cb4cc3fcf7e6315e477e50f5d2818ab67574d50001d69f8352e0b65",
+    "screens/8c67f222-214a-442d-83f1-2de9561a1039-3-ref-1.png": "23996ab0b0576951ea8d98bf5a21101a46f72c9d9b9f7c4ecb11f5e0ca88a6d3",
+    "screens/91939321-4dd4-4fdb-a850-d289c0112af5-3-ref-1.png": "7f596f21981ebdfc0b94d1639d00fb168ec466b77991525b362cac442084ab2a",
+    "screens/91939321-4dd4-4fdb-a850-d289c0112af5-3-ref-2.png": "140a2117e51949383dd1d28ff3bfe47bd0616c91c52a03ba55371b2d5d825219",
+    "screens/91939321-4dd4-4fdb-a850-d289c0112af5-3-ref-3.png": "790285fc933c106f3075c89f13510336bd3c69e71cde3be3b5b3ffbba82f5827",
+    "screens/91939321-4dd4-4fdb-a850-d289c0112af5-3-ref-4.png": "5980454a76f7d9c2108c942a0e19091a2fcbf21964c47358593be2792fcd179b",
+    "assigned-scripture-oracle.json": "7e9bc15af0083feaed4be02d75a45a8d0b7619e02674392baea2384bb8ef961c",
+    "document-dispositions.json": "ffb794e21cb8282b68c8bc232b2f26311b61924b4ba7392ca835beae6e673e06",
+    "REPORT.md": "97c2fc686734be3aa150ec7a418d8db2677d293069f2b280d283f4dec81bd2de",
+    "incidental-and-rubric-references.json": "991a7e1de8700e0147d0b201e903fabcff86f3d4d3cda07f92b2a15d68331a5a",
+    "legacy-generator-rows.json": "a58582fa87d11348905ac38368aeb038285018631f883437a7122da13af16879"
+  },
+  "contexts": [
+    {
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Absolution of the Woman (Boy)"
+      ],
+      "service_family": "baptism",
+      "service_variant": "coptic_reader__absolution_of_the_woman_boy",
+      "section": "rendered_document",
+      "capture_id": "e5da19dd-41b3-4da6-a550-bb7836405190-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Absolution of the Woman (Girl)"
+      ],
+      "service_family": "baptism",
+      "service_variant": "coptic_reader__absolution_of_the_woman_girl",
+      "section": "rendered_document",
+      "capture_id": "8b95beac-f8fd-4f15-b4a5-f0377907ee14-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Bathing Prayer"
+      ],
+      "service_family": "baptism",
+      "service_variant": "coptic_reader__bathing_prayer",
+      "section": "rendered_document",
+      "capture_id": "f2283a3d-dddb-44af-acd0-aabf90d417c8-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Consecrating the Water"
+      ],
+      "service_family": "baptism",
+      "service_variant": "coptic_reader__consecrating_the_water",
+      "section": "rendered_document",
+      "capture_id": "8c67f222-214a-442d-83f1-2de9561a1039-3",
+      "assigned_count": 5
+    },
+    {
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Loosing the Girdle"
+      ],
+      "service_family": "baptism",
+      "service_variant": "coptic_reader__loosing_the_girdle",
+      "section": "rendered_document",
+      "capture_id": "b0ca8b8f-9263-43f5-83b6-f398596ec0e5-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Altar"
+      ],
+      "service_family": "altar_consecration",
+      "service_variant": "coptic_reader__altar",
+      "section": "rendered_document",
+      "capture_id": "7cb85838-8571-4034-ad04-b041a2fe2d98-3",
+      "assigned_count": 5
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Baptistery"
+      ],
+      "service_family": "consecration",
+      "service_variant": "coptic_reader__baptistery",
+      "section": "rendered_document",
+      "capture_id": "d9dec20c-cd40-49f5-a56c-5c9297e690d9-3",
+      "assigned_count": 10
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Liturgy of the Word"
+      ],
+      "service_family": "church_consecration",
+      "service_variant": "coptic_reader__church_liturgy_of_the_word",
+      "section": "rendered_document",
+      "capture_id": "babaa501-2a4f-4763-ada7-2eb2fbc10a3e-4",
+      "assigned_count": 5
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Part 1"
+      ],
+      "service_family": "church_consecration",
+      "service_variant": "coptic_reader__church_part_1",
+      "section": "rendered_document",
+      "capture_id": "3be6d985-1e71-48de-be3f-f514479981b7-4",
+      "assigned_count": 8
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Part 2"
+      ],
+      "service_family": "church_consecration",
+      "service_variant": "coptic_reader__church_part_2",
+      "section": "rendered_document",
+      "capture_id": "e69e59b9-92a6-4bd8-ba63-d4a6c8e23f79-4",
+      "assigned_count": 12
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Part 3"
+      ],
+      "service_family": "church_consecration",
+      "service_variant": "coptic_reader__church_part_3",
+      "section": "rendered_document",
+      "capture_id": "7cf87171-27ce-4d78-bff2-e606e0166eef-4",
+      "assigned_count": 5
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Part 4"
+      ],
+      "service_family": "church_consecration",
+      "service_variant": "coptic_reader__church_part_4",
+      "section": "rendered_document",
+      "capture_id": "ce9791b2-2e0c-435e-b651-2a64a3044b76-4",
+      "assigned_count": 13
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Vespers"
+      ],
+      "service_family": "church_consecration",
+      "service_variant": "coptic_reader__church_vespers",
+      "section": "rendered_document",
+      "capture_id": "6dab2a0a-f043-45da-ae97-88d25c7fe8c5-4",
+      "assigned_count": 2
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "service_family": "cornerstone_prayer",
+      "service_variant": "coptic_reader__cornerstone",
+      "section": "rendered_document",
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "assigned_count": 4
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Home Blessing"
+      ],
+      "service_family": "home_blessing",
+      "service_variant": "coptic_reader__home_blessing",
+      "section": "rendered_document",
+      "capture_id": "f1318d8e-708b-4a2a-88d4-a5cc6ffe8147-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Monk"
+      ],
+      "service_family": "consecration",
+      "service_variant": "coptic_reader__monk",
+      "section": "rendered_document",
+      "capture_id": "aa5bede0-5d9d-40e6-9586-c40061c26ae3-3",
+      "assigned_count": 9
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Nuns"
+      ],
+      "service_family": "consecration",
+      "service_variant": "coptic_reader__nuns",
+      "section": "rendered_document",
+      "capture_id": "27fdfd9c-6def-46fe-b327-d9c998d414af-3",
+      "assigned_count": 9
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Oil",
+        "Myron",
+        "Consecration"
+      ],
+      "service_family": "myron_consecration",
+      "service_variant": "coptic_reader__oil_myron_consecration",
+      "section": "rendered_document",
+      "capture_id": "1d1d9777-7753-4e7a-9d2c-ab0ccbba2218-5",
+      "assigned_count": 17
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Oil",
+        "Myron",
+        "Preparation"
+      ],
+      "service_family": "myron_consecration",
+      "service_variant": "coptic_reader__oil_myron_preparation",
+      "section": "rendered_document",
+      "capture_id": "48293fed-3da7-43d7-94bc-75d27a812600-5",
+      "assigned_count": 42
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Oil",
+        "Oil of Gladness"
+      ],
+      "service_family": "myron_consecration",
+      "service_variant": "coptic_reader__oil_oil_of_gladness",
+      "section": "rendered_document",
+      "capture_id": "e0244d67-53c6-4ff8-bfbc-b30a44ed1f36-4",
+      "assigned_count": 9
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Oil",
+        "Pre-sanctified Chrism"
+      ],
+      "service_family": "myron_consecration",
+      "service_variant": "coptic_reader__oil_pre_sanctified_chrism",
+      "section": "rendered_document",
+      "capture_id": "aba4ce45-7734-4586-910e-d72d7575a879-4",
+      "assigned_count": 21
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Ordinations",
+        "Bishop"
+      ],
+      "service_family": "ordination",
+      "service_variant": "coptic_reader__ordinations_bishop",
+      "section": "rendered_document",
+      "capture_id": "44172885-5248-4d18-84ea-60497eed6641-4",
+      "assigned_count": 4
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Ordinations",
+        "Metropolitan"
+      ],
+      "service_family": "ordination",
+      "service_variant": "coptic_reader__ordinations_metropolitan",
+      "section": "rendered_document",
+      "capture_id": "16f7b10c-b3eb-484c-b21b-5735a76cc316-4",
+      "assigned_count": 4
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Ordinations",
+        "Papal Enthronement"
+      ],
+      "service_family": "ordination",
+      "service_variant": "coptic_reader__ordinations_papal_enthronement",
+      "section": "rendered_document",
+      "capture_id": "d30cae2a-861d-480f-b123-f992a3e11359-4",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Reception of New Priest"
+      ],
+      "service_family": "consecration",
+      "service_variant": "coptic_reader__reception_of_new_priest",
+      "section": "rendered_document",
+      "capture_id": "c7a41743-8347-4f32-a687-836ed0060ab9-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "3rd and 40th Days"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__3rd_and_40th_days",
+      "section": "rendered_document",
+      "capture_id": "0297ed5e-c36b-4315-8c54-a5250e0ec9eb-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Bishops"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__bishops",
+      "section": "rendered_document",
+      "capture_id": "47f110e1-627d-4c1f-9093-e5d7e03f70bf-3",
+      "assigned_count": 7
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Boys"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__boys",
+      "section": "rendered_document",
+      "capture_id": "70f348b4-f378-46e5-ae6d-2937ee1d3925-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Deacons"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__deacons",
+      "section": "rendered_document",
+      "capture_id": "d7857488-3c7e-4413-81b1-fd3870a72554-3",
+      "assigned_count": 7
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Girls"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__girls",
+      "section": "rendered_document",
+      "capture_id": "fb61a310-b561-47a9-88d5-94882bc5d9b1-3",
+      "assigned_count": 7
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Liturgy of the Word (40th Day)"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__liturgy_of_the_word_40th_day",
+      "section": "rendered_document",
+      "capture_id": "d2fd94d3-2fe0-47ca-a269-4168a150f15c-3",
+      "assigned_count": 5
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Men"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__men",
+      "section": "rendered_document",
+      "capture_id": "6ebc267f-6d14-441b-b28c-1bf27783df7f-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Monk Priests"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__monk_priests",
+      "section": "rendered_document",
+      "capture_id": "2bbf3d35-059a-47f4-8889-5805146e59f5-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Monks"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__monks",
+      "section": "rendered_document",
+      "capture_id": "2785c484-7825-459d-9135-8a424e3224d3-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Nuns"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__nuns",
+      "section": "rendered_document",
+      "capture_id": "bc927db0-94f7-4025-89a1-f284fc1f2967-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Priests"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__priests",
+      "section": "rendered_document",
+      "capture_id": "142cdfe6-e02a-4156-b855-5f5aaae2e2a4-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Women"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__women",
+      "section": "rendered_document",
+      "capture_id": "8472f77e-e5b1-481d-98ed-b1596fa824a1-3",
+      "assigned_count": 6
+    },
+    {
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Women During Delivery"
+      ],
+      "service_family": "funeral",
+      "service_variant": "coptic_reader__women_during_delivery",
+      "section": "rendered_document",
+      "capture_id": "8bd0ad93-4cbd-4ea0-b0ff-c60ab440c31b-3",
+      "assigned_count": 4
+    },
+    {
+      "navigation": [
+        "Special",
+        "Lakkan",
+        "Apostles Feast"
+      ],
+      "service_family": "liturgy_of_the_waters",
+      "service_variant": "coptic_reader__apostles_feast",
+      "section": "rendered_document",
+      "capture_id": "0c2e4024-0348-4e8c-a593-7dab7b43c85d-3",
+      "assigned_count": 10
+    },
+    {
+      "navigation": [
+        "Special",
+        "Lakkan",
+        "Covenant Thursday"
+      ],
+      "service_family": "liturgy_of_the_waters",
+      "service_variant": "coptic_reader__covenant_thursday",
+      "section": "rendered_document",
+      "capture_id": "1c19d208-0647-4d7d-9ad7-fcf35ff59355-3",
+      "assigned_count": 9
+    },
+    {
+      "navigation": [
+        "Special",
+        "Lakkan",
+        "Theophany"
+      ],
+      "service_family": "liturgy_of_the_waters",
+      "service_variant": "coptic_reader__theophany",
+      "section": "rendered_document",
+      "capture_id": "e06a7163-65e8-46df-a733-4d25028f6565-3",
+      "assigned_count": 10
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "Fifth Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__fifth_prayer",
+      "section": "rendered_document",
+      "capture_id": "717318d3-f438-447d-85dc-98fe75f1d074-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "First Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__first_prayer",
+      "section": "rendered_document",
+      "capture_id": "7fea649a-8899-4239-9b55-d10e0e6c7bf1-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "Fourth Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__fourth_prayer",
+      "section": "rendered_document",
+      "capture_id": "9dd2011b-42a3-426f-ad63-c7d3d7524877-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "Second Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__second_prayer",
+      "section": "rendered_document",
+      "capture_id": "aaffb6eb-a831-4ee3-bc14-0ebaf4c96c7a-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "Seventh Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__seventh_prayer",
+      "section": "rendered_document",
+      "capture_id": "99959d89-1145-4d11-86c9-a099899e4df8-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "Sixth Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__sixth_prayer",
+      "section": "rendered_document",
+      "capture_id": "7ee1fc9b-6a87-421c-9abe-704fc2e000a6-3",
+      "assigned_count": 3
+    },
+    {
+      "navigation": [
+        "Special",
+        "Unction",
+        "Third Prayer"
+      ],
+      "service_family": "unction_of_the_sick",
+      "service_variant": "coptic_reader__third_prayer",
+      "section": "rendered_document",
+      "capture_id": "c1df42cd-51c1-490a-b9fc-9329d7918716-3",
+      "assigned_count": 3
+    }
+  ],
+  "boundary_corrections": [
+    {
+      "service_family": "baptism",
+      "service_variant": "sanctification_of_baptismal_water",
+      "reading_type": "catholic",
+      "expected_raw_ref": "1 John 5:5-20",
+      "corrected_ref": "1 John 5:5-14",
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Consecrating the Water"
+      ],
+      "capture_id": "8c67f222-214a-442d-83f1-2de9561a1039-3",
+      "line": 266,
+      "status": "superseded_boundary_preserved_as_raw"
+    },
+    {
+      "service_family": "cornerstone_prayer",
+      "service_variant": "main",
+      "reading_type": "old_testament",
+      "expected_raw_ref": "Genesis 28:10-31",
+      "corrected_ref": "Genesis 28:10-22",
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "line": 337,
+      "status": "superseded_boundary_preserved_as_raw"
+    },
+    {
+      "service_family": "cornerstone_prayer",
+      "service_variant": "main",
+      "reading_type": "pauline",
+      "expected_raw_ref": "Hebrews 9:1-10",
+      "corrected_ref": "Hebrews 9:1-11",
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "line": 507,
+      "status": "superseded_boundary_preserved_as_raw"
+    },
+    {
+      "service_family": "cornerstone_prayer",
+      "service_variant": "main",
+      "reading_type": "gospel",
+      "expected_raw_ref": "Luke 9:28-35",
+      "corrected_ref": "Luke 9:28-36",
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "line": 707,
+      "status": "superseded_boundary_preserved_as_raw"
+    }
+  ],
+  "gates": [
+    "Psalm numbering and printed verse/text seams are preserved, not inferred or converted.",
+    "Girl mother absolution: legacy Psalm 45:9;45:13 remains separate from Reader printed Psalms 45:13.",
+    "Myron Consecration, Preparation, Oil of Gladness and Pre-sanctified Chrism are separate source contexts; no consecration-day/third-day collapse.",
+    "Pre-sanctified Chrism prints 1 Timothy 2:11-3:7 rather than the legacy Titus citation; printed heading preserved without repair.",
+    "Crowning, Prostration and Veneration frontier not included; continuation-02 was not consulted.",
+    "24 rendered documents without assigned blocks and 1 Psalm-prayer-only document are scoped negatives, not universal rite absences.",
+    "13 assigned headings have no dedicated reference screenshot; full raw text and original capture provenance retained.",
+    "Legacy PDF source variants remain active unless one of the four exact boundary corrections is bound; source-variant harmonization is not inferred."
+  ]
+}

@@ -1,0 +1,2533 @@
+[
+  {
+    "review_id": "prophecy-00",
+    "civil_date": "2026-02-02",
+    "actual_occasion": "Jonah's Fast",
+    "occasion_key": "JonahFast@-69",
+    "weekday": "Monday",
+    "pascha_offset_days": -69,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 25
+    },
+    "actual_home_line": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.txt",
+        "review_sha256": "15d3113523ef274611b3e9b380d9078c5f5621cb888f06f92515a911f13acb97"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.png",
+        "review_sha256": "d50cd33c52c27a16dad770edc1ff707d388f0fa112b77b4016562308c91cc255"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.json",
+        "review_sha256": "949ae73ecf797d1fa5c5669d95b19d2182956931ba7c20d1378cd1c090505265"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.png",
+        "review_sha256": "a3bdfb576eaa04de475741e309bb6049569c5bb9c7e3611b822e22d4307e91e9"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-01",
+    "civil_date": "2026-02-03",
+    "actual_occasion": "Jonah's Fast",
+    "occasion_key": "JonahFast@-68",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -68,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 26
+    },
+    "actual_home_line": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.txt",
+        "review_sha256": "c82a41b9da974f3a6b15266bc1ed38d5ad8d88a3d8d80f5dc5f0702efffb5cd3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.png",
+        "review_sha256": "9d41509167f06548b973b3291c66d2bd079c0e2eeeebd000ae5e491a2c302f4b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.json",
+        "review_sha256": "cb391cafcd49685f044dcb2df7768ac73d5707d2bd4f836de86bb43c552098fa"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.png",
+        "review_sha256": "cfa93319aef8b4a72867a18933d780eede97f4236d48622b16bf98eb030a54a4"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-02",
+    "civil_date": "2026-02-04",
+    "actual_occasion": "Jonah's Fast",
+    "occasion_key": "JonahFast@-67",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -67,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 27
+    },
+    "actual_home_line": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.txt",
+        "review_sha256": "3cfd42bd7b26fd6460e9aaaa3a7f90e815eb446afdc645a6ac3edf504983a9e0"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.png",
+        "review_sha256": "7d2383846e5fffdca141c3cc6171bb002d9d720ba5adca097b402a70423a2272"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.json",
+        "review_sha256": "8d16a58be6a8f6310f6eeecbc5db081ece4c8d794928301e313e4b957357a3b3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.png",
+        "review_sha256": "92ce1280aa9524885a1f85b5e55f2565348106a243b3eec330d6ac7a54e1a15e"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-03",
+    "civil_date": "2026-02-05",
+    "actual_occasion": "Jonah's Passover",
+    "occasion_key": "JonahPassover@-66",
+    "weekday": "Thursday",
+    "pascha_offset_days": -66,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 5,
+      "month_name": "Tobe",
+      "day": 28
+    },
+    "actual_home_line": "Selected Season Jonah's Passover Tobe 28, 1742 Thursday, February 5, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/2026-02-05/context.txt",
+        "review_sha256": "9e5a0bf1bddf245159734f4df4521cf808e946f6da86c6957b1e5016ff855943"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/2026-02-05/context.png",
+        "review_sha256": "2a0075e6f72b35a29bdbcea85e8783f4cc96833f26e66bb65415889081c111f0"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/2026-02-05/picker.json",
+        "review_sha256": "e67a58ada71a1496965076eeb00caa73e5485d2c1f4fccbb88ae90a0df00c30b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/2026-02-05/picker.png",
+        "review_sha256": "4bfaa8870562d17f2f591bac6a03a3d682a29c46477f1cee0a1e3a9e755c790f"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-05-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-04",
+    "civil_date": "2026-02-14",
+    "actual_occasion": "Saturday before the Great Fast",
+    "occasion_key": "BeforeFast@-57",
+    "weekday": "Saturday",
+    "pascha_offset_days": -57,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 7
+    },
+    "actual_home_line": "Selected Season Saturday before the Great Fast Meshir 7, 1742 Saturday, February 14, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/2026-02-14/context.txt",
+        "review_sha256": "aedcdd0d1983a08a8807e672f3c6b32c7f27b0b66fcdd5772016313ee88bf829"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/2026-02-14/context.png",
+        "review_sha256": "241c5527888191de2663760a9dcc7878278a329163dcf28a800bb402340be8a1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/2026-02-14/picker.json",
+        "review_sha256": "9d435648e145c2d5bf80c4eaebc941354ea68847a42b9eba0a91f5bd4e0e285c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/2026-02-14/picker.png",
+        "review_sha256": "4a4c68e102351e25ad03214bb42b1104100ab93dfb8f9cf255ba8424d3e25a84"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-14-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-05",
+    "civil_date": "2026-02-15",
+    "actual_occasion": "Presentation of the Lord Christ in the Temple",
+    "occasion_key": "Presentation@-56",
+    "weekday": "Sunday",
+    "pascha_offset_days": -56,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 8
+    },
+    "actual_home_line": "Selected Season Presentation of the Lord Christ in the Temple 2nd Sunday of Meshir Sunday, February 15, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/context.txt",
+        "review_sha256": "342b1cc60be858bc068d214e756d9b1e7fb86629cf22002374bc8ffd229dc73b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/context.png",
+        "review_sha256": "f8edb2c93b9094cf4a61dba22688f3c4206be4fb3899d8bdea9fe4cb8f9fd8a7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/picker.json",
+        "review_sha256": "071fe5bc4c389851306f0526fbac644baa2bba44f46f2acf592ba58685080e67"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/2026-02-15/picker.png",
+        "review_sha256": "734d43837ebab1a37f778add6e04b9f3a3e0cdb7ca5f39c9d90ee79c4396b92d"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-06",
+    "civil_date": "2026-02-16",
+    "actual_occasion": "First Monday of Great Fast",
+    "occasion_key": "GreatFast@-55",
+    "weekday": "Monday",
+    "pascha_offset_days": -55,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 9
+    },
+    "actual_home_line": "Selected Season First Monday of Great Fast Meshir 9, 1742 Monday, February 16, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/context.txt",
+        "review_sha256": "ee03e9b6aa25ddeb84c99a1604c6fc2178852ec66034a71cad51ce2424a8ffa7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/context.png",
+        "review_sha256": "987f254c461a9d935e3718cd76c23adccc335a2b9ed3d1fe178ac880bdb29d3c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/picker.json",
+        "review_sha256": "979c1abb8178756dd76f6f57b834369bbefec3167b51cb241b79265750bcde8e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/2026-02-16/picker.png",
+        "review_sha256": "ce8d44954a1f243d6b15569eb75d6ffb71b8bf9d884db967dd6bcf30c143b60f"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-07",
+    "civil_date": "2026-02-17",
+    "actual_occasion": "1st Week of Great Fast",
+    "occasion_key": "GreatFast@-54",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -54,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 10
+    },
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 10, 1742 Tuesday, February 17, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/context.txt",
+        "review_sha256": "54b3d36b154c3aa168c039d53f9d8d37dcdd0e0eb5a5de56255ad1517649d9ab"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/context.png",
+        "review_sha256": "a703a20dcd86a848565f975328acaf14b51533868551bf942e1b13562a5cf1c1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/picker.json",
+        "review_sha256": "3e4206b299c4abe2d793f06756b2ae1a627b12978ef1f733c2d3971eeae6905d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/2026-02-17/picker.png",
+        "review_sha256": "15302bb72291da2531a2817ea542528258b8465eeb7d646ad753bf773aa75e72"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-08",
+    "civil_date": "2026-02-18",
+    "actual_occasion": "1st Week of Great Fast",
+    "occasion_key": "GreatFast@-53",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -53,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 11
+    },
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 11, 1742 Wednesday, February 18, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/context.txt",
+        "review_sha256": "c68f795df1b7a802d5852a5cd4fa904e26f0602fe8007a466d2f256d30a36ac1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/context.png",
+        "review_sha256": "579af26e855731a6b28ea113852cd7d82a01dcafd3a162671184f33156a50f48"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/picker.json",
+        "review_sha256": "02c1e739ff3c145c99c534358087f65b3ae36828495e8711cc471b53fe3ed7e3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/2026-02-18/picker.png",
+        "review_sha256": "63da3fef790501da80fcb5c54e1044a4b57b20f995c4484059bfb8b279ece241"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-09",
+    "civil_date": "2026-02-19",
+    "actual_occasion": "1st Week of Great Fast",
+    "occasion_key": "GreatFast@-52",
+    "weekday": "Thursday",
+    "pascha_offset_days": -52,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 12
+    },
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 12, 1742 Thursday, February 19, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/context.txt",
+        "review_sha256": "302be1455da05a44d4c0208436108bdc15cb91d5a8a02c82de6e388ecfd356d9"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/context.png",
+        "review_sha256": "9ca99f6cb23bc24fcfbbf293f3ead0b32e58f8514271b3e1df758c1ba5bcdefd"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/picker.json",
+        "review_sha256": "e7f43df3d14a620738844a20375cacd1fec2e4a5b469235322bc2b054f210d77"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/2026-02-19/picker.png",
+        "review_sha256": "0e39f7b3655b86f110314ac890259a6b4695738d53c5cc2007f53273624f7bd4"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-10",
+    "civil_date": "2026-02-20",
+    "actual_occasion": "1st Week of Great Fast",
+    "occasion_key": "GreatFast@-51",
+    "weekday": "Friday",
+    "pascha_offset_days": -51,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 13
+    },
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 13, 1742 Friday, February 20, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/context.txt",
+        "review_sha256": "33511c1f997ca5127e40486400e5c5403fa20ec0105294dfc8798ff42a37bc3d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/context.png",
+        "review_sha256": "2898c38805c14bc31e9015b1561a6ac9b55e0f4de76b53db8797f17973ed10b3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/picker.json",
+        "review_sha256": "594873466f051300cdd1626cae89338e64754fce502ea9ec28c8e72656bf9e48"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/2026-02-20/picker.png",
+        "review_sha256": "eff58d696fdf59354a849f34cf581bfbbbef5be0a15c40a0eca53646251afcc2"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-11",
+    "civil_date": "2026-02-21",
+    "actual_occasion": "1st Week of Great Fast",
+    "occasion_key": "GreatFast@-50",
+    "weekday": "Saturday",
+    "pascha_offset_days": -50,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 14
+    },
+    "actual_home_line": "Selected Season 1st Week of Great Fast Meshir 14, 1742 Saturday, February 21, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/context.txt",
+        "review_sha256": "31502e7e1b6e14e73c6caade1a1655a2087224263fbd8779bda5c8249b0a36cf"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/context.png",
+        "review_sha256": "c9d7058add158e78453e3e52f364a3fe8bf1570738da9d10b6bbf1e579a17085"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/picker.json",
+        "review_sha256": "00dfa93af534b18783092cf485a5e35b8120a837b02a1419930abc5272671046"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/2026-02-21/picker.png",
+        "review_sha256": "775c56b8c5a07cfef2a9f3b0ccbbbdbb5a3650dcb6657ae5d4791e9784b45cde"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-12",
+    "civil_date": "2026-02-22",
+    "actual_occasion": "1st Sunday of Great Fast",
+    "occasion_key": "GreatFast@-49",
+    "weekday": "Sunday",
+    "pascha_offset_days": -49,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 15
+    },
+    "actual_home_line": "Selected Season 1st Sunday of Great Fast Meshir 15, 1742 Sunday, February 22, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/context.txt",
+        "review_sha256": "ff02146537aeb5ef979c8906f9272a4951782647a2b53ae0cb2b9dccfb606dbc"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/context.png",
+        "review_sha256": "1c54b3e6465a0d4f99c838de1b81c421c91e2c1feb14d4c25a50357b2bddb76f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/picker.json",
+        "review_sha256": "24d63d7276c31e55cd1155aeffbb71b8750e224638c9aa2fdc2ea52d11ff3757"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/2026-02-22/picker.png",
+        "review_sha256": "a2fbd8c58bc70a14de66542afb9c90e0d2f5ae311ffa3d724afa58fc89b76b78"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-13",
+    "civil_date": "2026-02-28",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-43",
+    "weekday": "Saturday",
+    "pascha_offset_days": -43,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 21
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 21, 1742 Saturday, February 28, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/context.txt",
+        "review_sha256": "302caa88a67c20846cf07e55b3d9205a3fa2518f9981710114bd9b8d96f8cf4d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/context.png",
+        "review_sha256": "c012e02d59298766c4cdd91f16d083b00b0b00e435a379382ddbd47006e95b4e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/picker.json",
+        "review_sha256": "f4b6086bf7f3b341938d5112bec0c81a0a507832d243a7353d10ef3808d2e0ee"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/2026-02-28/picker.png",
+        "review_sha256": "645c91e376754921195f9d4006ef0f4d202add3c2cc0db81c5ed1937c52c0959"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-14",
+    "civil_date": "2026-03-01",
+    "actual_occasion": "2nd Sunday of Great Fast",
+    "occasion_key": "GreatFast@-42",
+    "weekday": "Sunday",
+    "pascha_offset_days": -42,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 22
+    },
+    "actual_home_line": "Selected Season 2nd Sunday of Great Fast Meshir 22, 1742 Sunday, March 1, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/context.txt",
+        "review_sha256": "bfbb8f45fc900ebf1354297194fb8941139b1bcdd5aab45daacf221fa5d88813"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/context.png",
+        "review_sha256": "43a835119c29b5dbe7248617e106998646b5eed2edb03d523e3888faf530581f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/picker.json",
+        "review_sha256": "ce249081d903fb88499c1be080552b1cfda6c4979301bfaf15fbdea7cf53008a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/2026-03-01/picker.png",
+        "review_sha256": "6f2fa835f80ec24a182b98f628e8a70119a15836f09b9245b10c17c4d86514f1"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-15",
+    "civil_date": "2026-03-07",
+    "actual_occasion": "3rd Week of Great Fast",
+    "occasion_key": "GreatFast@-36",
+    "weekday": "Saturday",
+    "pascha_offset_days": -36,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 28
+    },
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 28, 1742 Saturday, March 7, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/context.txt",
+        "review_sha256": "af11263f992dfad141105fe0c3d113ddd785646a917f9bee7746a41dfb417137"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/context.png",
+        "review_sha256": "9f740584dc82f21dcf4058fb1de63ff17ac6c602edf96785a76445f34aac7e8f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/picker.json",
+        "review_sha256": "2a50148f6bf2329baffba14b08a94640c22b58106286069f0556f1a432e002b8"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/2026-03-07/picker.png",
+        "review_sha256": "ebc41159e8065d21e4245289e344540c5cb8f9a2555d20ad066379d8eacfba5d"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-16",
+    "civil_date": "2026-03-08",
+    "actual_occasion": "3rd Sunday of Great Fast",
+    "occasion_key": "GreatFast@-35",
+    "weekday": "Sunday",
+    "pascha_offset_days": -35,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 29
+    },
+    "actual_home_line": "Selected Season 3rd Sunday of Great Fast Meshir 29, 1742 Sunday, March 8, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/context.txt",
+        "review_sha256": "dffcb2538cea529851254e2f68950af9b5ba664cc2d9091073348cb33d22aafe"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/context.png",
+        "review_sha256": "2bbf7bf5ed128ba14568d4c0e52eaa2698c7391847f93a2d1a46533eade3869c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/picker.json",
+        "review_sha256": "7da419056d35c78a5192679281ef42abc6afb23231dafcbb607e903b77bbc8c1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/2026-03-08/picker.png",
+        "review_sha256": "778754e2886d58626cf83a7971199fa6127d5c5efc1036e3146b7201b7b18b67"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-17",
+    "civil_date": "2026-03-14",
+    "actual_occasion": "4th Week of Great Fast",
+    "occasion_key": "GreatFast@-29",
+    "weekday": "Saturday",
+    "pascha_offset_days": -29,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 5
+    },
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 5, 1742 Saturday, March 14, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/context.txt",
+        "review_sha256": "f43b5825cd5e56d994d449774c8623309c31540e89dc6097cbb87419dcb3852d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/context.png",
+        "review_sha256": "1ed867a28e48233b3da7614d36d1c00467ecbac32bafa0440d9333c6afa0ceaf"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/picker.json",
+        "review_sha256": "bb3fbfc3fea448ee8b5c97c17207ec3df9afd6bc4e9feb0311de7cfdab2e40ec"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/2026-03-14/picker.png",
+        "review_sha256": "c8baea2a6938de1acd76839da871d6e1b1fbd74382f301686b28d024273cc91b"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-18",
+    "civil_date": "2026-03-15",
+    "actual_occasion": "4th Sunday of Great Fast",
+    "occasion_key": "GreatFast@-28",
+    "weekday": "Sunday",
+    "pascha_offset_days": -28,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 6
+    },
+    "actual_home_line": "Selected Season 4th Sunday of Great Fast Paremhotep 6, 1742 Sunday, March 15, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/context.txt",
+        "review_sha256": "eaf3672f988d911ecf57be458565f7e87cc9b74cd4ac64150dd1e2d2b5925bac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/context.png",
+        "review_sha256": "ee960238d82683edd11b39d7f477c3b96856f11d6033e5f636f16e1af9cb2ad3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/picker.json",
+        "review_sha256": "159eee7995e1c5a4827f255a0923ba44e4c182de60ac2c0ee34dafc6e4975158"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/2026-03-15/picker.png",
+        "review_sha256": "6f236c7054404048f5fff5bf2d9dc5333f2083ea97cf59eb4875909464363844"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-19",
+    "civil_date": "2026-03-19",
+    "actual_occasion": "Feast of the Cross",
+    "occasion_key": "Cross@-24",
+    "weekday": "Thursday",
+    "pascha_offset_days": -24,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 10
+    },
+    "actual_home_line": "Selected Season Feast of the Cross Paremhotep 10, 1742 Thursday, March 19, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/context.txt",
+        "review_sha256": "dcd71b54ee27d0e04b4bb0c084e872b9f7d1a71957cac5f718467fc245357b27"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/context.png",
+        "review_sha256": "8170055d45db91b75084afdd6464c7d9ca6e76fae3c98ecb507a234fd8c7489e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/picker.json",
+        "review_sha256": "e24f33aafff84ac839c14801add6da95257c76adf704c67c93eb2991cc6cefb9"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/2026-03-19/picker.png",
+        "review_sha256": "277a10c6dbf894a4b56d084a5e2013ccfe8e42d52d3070ce4c134df844f98dd3"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-20",
+    "civil_date": "2026-03-21",
+    "actual_occasion": "5th Week of Great Fast",
+    "occasion_key": "GreatFast@-22",
+    "weekday": "Saturday",
+    "pascha_offset_days": -22,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 12
+    },
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 12, 1742 Saturday, March 21, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/context.txt",
+        "review_sha256": "10fb4c4232181abaa5d635d8c9b1bbb87141f2bb69078b994cb04f568493ec5e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/context.png",
+        "review_sha256": "5fe526e7863ffbafaec14666d237a6684340b8cdad8c76941ac2d543e7303fcb"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/picker.json",
+        "review_sha256": "4b0da82024fd63e7b356f6bf371342b3887aed17ed0a20716dbc5918e979d60f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/2026-03-21/picker.png",
+        "review_sha256": "959d3ec68c9e0672c5bd8e857368ea92607b4f410c63941436cab488a96686e9"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-21",
+    "civil_date": "2026-03-22",
+    "actual_occasion": "5th Sunday of Great Fast",
+    "occasion_key": "GreatFast@-21",
+    "weekday": "Sunday",
+    "pascha_offset_days": -21,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 13
+    },
+    "actual_home_line": "Selected Season 5th Sunday of Great Fast Paremhotep 13, 1742 Sunday, March 22, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/context.txt",
+        "review_sha256": "0e0eb3dac076e9194b630c7036185703f1d4d27456657dfec35ea3e73a8dddef"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/context.png",
+        "review_sha256": "f3b3f4a40789b90d330b0e26f0e28b03f35f96e71a2ca249d81a12e5bfd171e3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/picker.json",
+        "review_sha256": "fbd37c169223d6988534fbfa3a0285844d2e842f66b590889a197bb907af23a4"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/2026-03-22/picker.png",
+        "review_sha256": "697a5119e4f10dc5acdc25120b039d7a317aa46d0e3097d00597fcbaaa2e0a7e"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-22",
+    "civil_date": "2026-03-28",
+    "actual_occasion": "6th Week of Great Fast",
+    "occasion_key": "GreatFast@-15",
+    "weekday": "Saturday",
+    "pascha_offset_days": -15,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 19
+    },
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 19, 1742 Saturday, March 28, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/context.txt",
+        "review_sha256": "6b68dba5538c671309262a5c0e3f0e8c60044ad52376debd48fa675c073199ef"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/context.png",
+        "review_sha256": "6764a08c922a0f7de89e6761939303a2a5e2c4dddfcfadb0d81c27edfe25d089"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/picker.json",
+        "review_sha256": "6f2767853a41b27348b17dc1b90a1e82bc175411446b4b5bca90cef6daec663e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/2026-03-28/picker.png",
+        "review_sha256": "16e0ddc14b7fb403295a3350ede95c76f07fe74a6ced3496bcf88eb919ab9da7"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-23",
+    "civil_date": "2026-03-29",
+    "actual_occasion": "6th Sunday of Great Fast",
+    "occasion_key": "GreatFast@-14",
+    "weekday": "Sunday",
+    "pascha_offset_days": -14,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 20
+    },
+    "actual_home_line": "Selected Season 6th Sunday of Great Fast Paremhotep 20, 1742 Sunday, March 29, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/context.txt",
+        "review_sha256": "01d9c1a96ecc9bbbe1218c4943f67d91d50bd2d700fb49cfc0555b072831075b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/context.png",
+        "review_sha256": "ace385f593c107a07a060bf9dd661d28bd4efa3290f7fdf07f28bf2888fc765d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/picker.json",
+        "review_sha256": "28739b0dd96933b47608986d75bbaa1ee05320dc9dae01ffee840649a4163aeb"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/2026-03-29/picker.png",
+        "review_sha256": "5c4c1cb415209b8385b031c100bafe5b80ef506ffcb16681af73202727285010"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-24",
+    "civil_date": "2026-03-30",
+    "actual_occasion": "7th Week of Great Fast",
+    "occasion_key": "GreatFast@-13",
+    "weekday": "Monday",
+    "pascha_offset_days": -13,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 21
+    },
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 21, 1742 Monday, March 30, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/context.txt",
+        "review_sha256": "20d9089a92b383e6c149aba9765db3ca6e37f602b64dabe90936f4fddfc52397"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/context.png",
+        "review_sha256": "6a761aef9cb8ab2fea8b56c3f347a42daac25a54299a471ae37c97acfd8dfff3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/picker.json",
+        "review_sha256": "6617a0a0c3fb04ef00581b1253dfa92d83b107a461eb298c4397a6fd8237dad5"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/2026-03-30/picker.png",
+        "review_sha256": "1c3b0bfa7cce1e30950b8b37b19ea48455c6379b5bfc02beafb78bdcec48b057"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-25",
+    "civil_date": "2026-03-31",
+    "actual_occasion": "7th Week of Great Fast",
+    "occasion_key": "GreatFast@-12",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -12,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 22
+    },
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 22, 1742 Tuesday, March 31, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/context.txt",
+        "review_sha256": "6942cff06a12be7f0199640becdae368773575dd31ba91c012cf8d4a3ed86954"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/context.png",
+        "review_sha256": "6c994c25facc7b5c8404bb7ba9238583f2bbd4cbeccbed934be70e91acb0d8eb"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/picker.json",
+        "review_sha256": "3d433dd954eb2cceb4c47810702f7d43e20bda2b7262c6c1c38c137445ec9436"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/2026-03-31/picker.png",
+        "review_sha256": "5f8823af96dba4f70078df4a4add79ec01efedf306f4679908e56619eccb9981"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-26",
+    "civil_date": "2026-04-01",
+    "actual_occasion": "7th Week of Great Fast",
+    "occasion_key": "GreatFast@-11",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -11,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 23
+    },
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 23, 1742 Wednesday, April 1, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/context.txt",
+        "review_sha256": "157d63b9c6ecfb101e9ae7742028ed1940638d60e9276e28d358303eb2559405"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/context.png",
+        "review_sha256": "bee4e008afbc14e5189015cb2356f8a72d157313d92f11a800062819840abbd9"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/picker.json",
+        "review_sha256": "1bc0999a116b73a6f5e94876dbbe75062ebc3c77f7341c6a4c0e0522d5688e40"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/2026-04-01/picker.png",
+        "review_sha256": "218dc520232eea5a366af588cb3e5d65f202351f686190f934c5ee7302bf6724"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-27",
+    "civil_date": "2026-04-02",
+    "actual_occasion": "7th Week of Great Fast",
+    "occasion_key": "GreatFast@-10",
+    "weekday": "Thursday",
+    "pascha_offset_days": -10,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 24
+    },
+    "actual_home_line": "Selected Season 7th Week of Great Fast Paremhotep 24, 1742 Thursday, April 2, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/context.txt",
+        "review_sha256": "1742da30353a8639c82b336ce28809ce45385a760fe7f9693338797b2103bfac"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/context.png",
+        "review_sha256": "89a0f2317ea1825a7e7468dd59fc465bd2e9b1866026fb3f6a3428fecf9e8d56"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/picker.json",
+        "review_sha256": "4c9454b96cc6a7f72980f6af89f12a16f09f70519de792e68ef316f01b71e7c2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/2026-04-02/picker.png",
+        "review_sha256": "724572412eee5dd92288c922f5252807bf04d8974dfd10e3cf6774eb1feff7d3"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-28",
+    "civil_date": "2026-04-04",
+    "actual_occasion": "Lazarus Saturday",
+    "occasion_key": "GreatFast@-8",
+    "weekday": "Saturday",
+    "pascha_offset_days": -8,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 26
+    },
+    "actual_home_line": "Selected Season Lazarus Saturday Paremhotep 26, 1742 Saturday, April 4, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/context.txt",
+        "review_sha256": "cd4598047cca7c9aca077a4595700cb7c9d5e9e14a958625089444394c2c3b5b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/context.png",
+        "review_sha256": "dd36bbc63f316c969e69cf712f4736a3fa3b0ac7178aa2a1bfe429367eebeb47"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/picker.json",
+        "review_sha256": "ef080ee22073bc790b2f673cbe347053ed7dfbd072a94774549871220e89223b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/2026-04-04/picker.png",
+        "review_sha256": "5ab4411e88a882d14b3ae95422f1912f4fd082e2746bb2463fd9f0b560d83311"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-29",
+    "civil_date": "2026-04-05",
+    "actual_occasion": "Hosanna Sunday",
+    "occasion_key": "GreatFast@-7",
+    "weekday": "Sunday",
+    "pascha_offset_days": -7,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 27
+    },
+    "actual_home_line": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/context.txt",
+        "review_sha256": "779e894d8b29de9440c4f71ade82dfabdf3268d25cae51deb1519598617b82e5"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/context.png",
+        "review_sha256": "ed79bd42adfedbdcf51e2f596b3df2029c68a5a4f85a33937f5fd640c9fd1de5"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/picker.json",
+        "review_sha256": "78ff48eed582cfb28291d526a149bffbaa21f5f31c6316312436e98b30a4f4b0"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/2026-04-05/picker.png",
+        "review_sha256": "1316bcd0af97a7bf236a3641da3157ffdb41c829101c40d9943d234433bb1db1"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-30",
+    "civil_date": "2027-03-07",
+    "actual_occasion": "Sunday before the Great Fast",
+    "occasion_key": "BeforeFast@-56",
+    "weekday": "Sunday",
+    "pascha_offset_days": -56,
+    "numeric_coptic_crosscheck": {
+      "year": 1743,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 28
+    },
+    "actual_home_line": "Selected Season Sunday before the Great Fast Meshir 28, 1743 Sunday, March 7, 2027",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/context.txt",
+        "review_sha256": "e8d9164d61bd87e400da98fc3bb55cebd1351314817b3847dd88312fd4a7903f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/context.png",
+        "review_sha256": "b9707bbb9e7371258b33a07c12cf44b8c6ed1b28f35ff4312bd177bcd8aa9340"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/picker.json",
+        "review_sha256": "0dd63b3e8b4f377cbea4935d7a0f014a5bd11d5a83a4b605d4e0dfdc135da2e3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/2027-03-07/picker.png",
+        "review_sha256": "03bd3b4a5e6a7e70c48e6f1ebe52667d83b43a9768ce4941e8f087ee30cfd49c"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/capture.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-31",
+    "civil_date": "2026-02-23",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-48",
+    "weekday": "Monday",
+    "pascha_offset_days": -48,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 16
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 16, 1742 Monday, February 23, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/context.txt",
+        "sha256": "6cb8bfa9c8979d4efcdccee11ae9f7f2bf96bd100c10ec49fed71acbc29e2a48",
+        "review_sha256": "6cb8bfa9c8979d4efcdccee11ae9f7f2bf96bd100c10ec49fed71acbc29e2a48"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/context.png",
+        "sha256": "c39056382efb8f20010211cf5e9719755220df0ef675db805515c0c841296479",
+        "review_sha256": "c39056382efb8f20010211cf5e9719755220df0ef675db805515c0c841296479"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/picker.json",
+        "sha256": "d356d14289510718966c6f2a2eafc862c907a65038d2ee2f6ace7dc40d3100f0",
+        "review_sha256": "d356d14289510718966c6f2a2eafc862c907a65038d2ee2f6ace7dc40d3100f0"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/picker.png",
+        "sha256": "330b082768e48c09723ab472b898e967c87cdc2e29588058c63d853eec68d5c0",
+        "review_sha256": "330b082768e48c09723ab472b898e967c87cdc2e29588058c63d853eec68d5c0"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-32",
+    "civil_date": "2026-02-24",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-47",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -47,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 17
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 17, 1742 Tuesday, February 24, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/context.txt",
+        "sha256": "91d6c52fe7b75f29e396b387df7b1da4615611127dd1a29bba7dc949c4023d6a",
+        "review_sha256": "91d6c52fe7b75f29e396b387df7b1da4615611127dd1a29bba7dc949c4023d6a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/context.png",
+        "sha256": "b4599c6e433523ef7df357fbd71b21eb41cedce09b7e75b8760acc24f72249d6",
+        "review_sha256": "b4599c6e433523ef7df357fbd71b21eb41cedce09b7e75b8760acc24f72249d6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/picker.json",
+        "sha256": "706b1716da4489e1c50ff9d6919ffc6ada1286db8d5205b1f7ea8532b137e893",
+        "review_sha256": "706b1716da4489e1c50ff9d6919ffc6ada1286db8d5205b1f7ea8532b137e893"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/picker.png",
+        "sha256": "8e92858723aaf57de0f2b2572a01a5eb3bdcad126ce7ce64892069031e1553dd",
+        "review_sha256": "8e92858723aaf57de0f2b2572a01a5eb3bdcad126ce7ce64892069031e1553dd"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-33",
+    "civil_date": "2026-02-25",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-46",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -46,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 18
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 18, 1742 Wednesday, February 25, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/context.txt",
+        "sha256": "3bf0aae8ecee4ece42fc007c9db80891c6f38d505c9170e0e5ae186727e23547",
+        "review_sha256": "3bf0aae8ecee4ece42fc007c9db80891c6f38d505c9170e0e5ae186727e23547"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/context.png",
+        "sha256": "bdd5183efdc3ddfb2b05029f86bf628d8a6c8c2e8472b8f7c03c2761a4f3b0c3",
+        "review_sha256": "bdd5183efdc3ddfb2b05029f86bf628d8a6c8c2e8472b8f7c03c2761a4f3b0c3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/picker.json",
+        "sha256": "31152026cabbf341089ce694f79b92f462ee9d46d54e7c59f60b68ae4c08aee3",
+        "review_sha256": "31152026cabbf341089ce694f79b92f462ee9d46d54e7c59f60b68ae4c08aee3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/picker.png",
+        "sha256": "9fe34a0b4419644a935c5043bd6e0ce04a52f9027b63ce8223c3ff481867a70f",
+        "review_sha256": "9fe34a0b4419644a935c5043bd6e0ce04a52f9027b63ce8223c3ff481867a70f"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-34",
+    "civil_date": "2026-02-26",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-45",
+    "weekday": "Thursday",
+    "pascha_offset_days": -45,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 19
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 19, 1742 Thursday, February 26, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/context.txt",
+        "sha256": "c89b1603e597363ee6e67d723062d308b56985d0076727fba0ac7282140b9b3d",
+        "review_sha256": "c89b1603e597363ee6e67d723062d308b56985d0076727fba0ac7282140b9b3d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/context.png",
+        "sha256": "a716335e2e001a3aea707a7ea4dff70943392ef22ca64e097a28d51d3375340c",
+        "review_sha256": "a716335e2e001a3aea707a7ea4dff70943392ef22ca64e097a28d51d3375340c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/picker.json",
+        "sha256": "ef4a30346d80e5869ec846b4f9b566543f3e4730673a24410d1f51fd1946eb16",
+        "review_sha256": "ef4a30346d80e5869ec846b4f9b566543f3e4730673a24410d1f51fd1946eb16"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/picker.png",
+        "sha256": "abd055458ac0e33a5036b85c3704092c406aa35c151bcb6f793183197b597e6f",
+        "review_sha256": "abd055458ac0e33a5036b85c3704092c406aa35c151bcb6f793183197b597e6f"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-35",
+    "civil_date": "2026-02-27",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-44",
+    "weekday": "Friday",
+    "pascha_offset_days": -44,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 20
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 20, 1742 Friday, February 27, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/context.txt",
+        "sha256": "b397c72063d8cda9c912b9b88cf1213f0ce772370bd9fe3231f5a6bd1897a4be",
+        "review_sha256": "b397c72063d8cda9c912b9b88cf1213f0ce772370bd9fe3231f5a6bd1897a4be"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/context.png",
+        "sha256": "8abb6bf37b39c90666735568be27d96752e8907a764375eefa34fc2ccf0da471",
+        "review_sha256": "8abb6bf37b39c90666735568be27d96752e8907a764375eefa34fc2ccf0da471"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/picker.json",
+        "sha256": "23259f5ce937e4254a21834ea9f2c4555ea340bf5b07c881aa423d3747fa3274",
+        "review_sha256": "23259f5ce937e4254a21834ea9f2c4555ea340bf5b07c881aa423d3747fa3274"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/picker.png",
+        "sha256": "84ae1f66c5ce3146d4885083a8de3e4d14ffa770543f2fbb28e48685bfa50488",
+        "review_sha256": "84ae1f66c5ce3146d4885083a8de3e4d14ffa770543f2fbb28e48685bfa50488"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-36",
+    "civil_date": "2026-03-02",
+    "actual_occasion": "3rd Week of Great Fast",
+    "occasion_key": "GreatFast@-41",
+    "weekday": "Monday",
+    "pascha_offset_days": -41,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 23
+    },
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 23, 1742 Monday, March 2, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/context.txt",
+        "sha256": "868e2113cf42cda70139958f488296cf3915263dc642169a50b5a2fd331f6024",
+        "review_sha256": "868e2113cf42cda70139958f488296cf3915263dc642169a50b5a2fd331f6024"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/context.png",
+        "sha256": "892634a9e1952e09d266490363f3455c48e21643a480d7de1dbe9ccc694627b6",
+        "review_sha256": "892634a9e1952e09d266490363f3455c48e21643a480d7de1dbe9ccc694627b6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/picker.json",
+        "sha256": "d06a6e26f392b4a35f9e480e1e222d61776a7065fe479e0a72b116d156447de2",
+        "review_sha256": "d06a6e26f392b4a35f9e480e1e222d61776a7065fe479e0a72b116d156447de2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/picker.png",
+        "sha256": "aee0b748e5f945e9a8e0352f15cdac8c8087a4523ca84a0561830e0c0f58d410",
+        "review_sha256": "aee0b748e5f945e9a8e0352f15cdac8c8087a4523ca84a0561830e0c0f58d410"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-37",
+    "civil_date": "2026-03-03",
+    "actual_occasion": "3rd Week of Great Fast",
+    "occasion_key": "GreatFast@-40",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -40,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 24
+    },
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 24, 1742 Tuesday, March 3, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/context.txt",
+        "sha256": "af2d20b974275314107770ed5ac3958ba2b3383e3c95a2ab93ff96d4ee63f25f",
+        "review_sha256": "af2d20b974275314107770ed5ac3958ba2b3383e3c95a2ab93ff96d4ee63f25f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/context.png",
+        "sha256": "0ba87d7c92e1e7c713e6054d0fe879a00b2903fd14c60b1df8582f6cbf26a945",
+        "review_sha256": "0ba87d7c92e1e7c713e6054d0fe879a00b2903fd14c60b1df8582f6cbf26a945"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/picker.json",
+        "sha256": "c0a530c707dd7587bbc1f91212352eda62c04314444124dd4479e12ad3c55212",
+        "review_sha256": "c0a530c707dd7587bbc1f91212352eda62c04314444124dd4479e12ad3c55212"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/picker.png",
+        "sha256": "a259fb27f89c1615c8df1dca61197d28615177c934108d1fee51a8b379de3a30",
+        "review_sha256": "a259fb27f89c1615c8df1dca61197d28615177c934108d1fee51a8b379de3a30"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-38",
+    "civil_date": "2026-03-04",
+    "actual_occasion": "3rd Week of Great Fast",
+    "occasion_key": "GreatFast@-39",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -39,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 25
+    },
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 25, 1742 Wednesday, March 4, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/context.txt",
+        "sha256": "a308eeb2dbea5ca77387d4ebee3a0121e7934c10ad094a4a676ab5d44ebfd9e3",
+        "review_sha256": "a308eeb2dbea5ca77387d4ebee3a0121e7934c10ad094a4a676ab5d44ebfd9e3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/context.png",
+        "sha256": "681b7194fc6118fe0f8b5bd19486efac8eb28b3719280bb9988f41a72b770051",
+        "review_sha256": "681b7194fc6118fe0f8b5bd19486efac8eb28b3719280bb9988f41a72b770051"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/picker.json",
+        "sha256": "912ee5dfc9431411686f9a1c56e628b034d02be29cd3c777e2778c66c8c1cf05",
+        "review_sha256": "912ee5dfc9431411686f9a1c56e628b034d02be29cd3c777e2778c66c8c1cf05"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/picker.png",
+        "sha256": "a3f10428758aec5ded4eb55a0e94bd8c4f66fdc2b32d4a4a77e85da8fda13951",
+        "review_sha256": "a3f10428758aec5ded4eb55a0e94bd8c4f66fdc2b32d4a4a77e85da8fda13951"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-39",
+    "civil_date": "2026-03-05",
+    "actual_occasion": "3rd Week of Great Fast",
+    "occasion_key": "GreatFast@-38",
+    "weekday": "Thursday",
+    "pascha_offset_days": -38,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 26
+    },
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 26, 1742 Thursday, March 5, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/context.txt",
+        "sha256": "354def8274f6ed899e63b280107e2a344809e7b77c26833ebe05b4c399454c2d",
+        "review_sha256": "354def8274f6ed899e63b280107e2a344809e7b77c26833ebe05b4c399454c2d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/context.png",
+        "sha256": "23b2902d1829ae9548aa87a530d8668df43d8735ff6b1521b87bdb3a7a3f7e3c",
+        "review_sha256": "23b2902d1829ae9548aa87a530d8668df43d8735ff6b1521b87bdb3a7a3f7e3c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/picker.json",
+        "sha256": "089b1ba404c78ea132b00f89ce08673d82b6516eacc72a1fe16bd6ddd4d007a2",
+        "review_sha256": "089b1ba404c78ea132b00f89ce08673d82b6516eacc72a1fe16bd6ddd4d007a2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/picker.png",
+        "sha256": "d4a837150afee3bc59a028ed6e4539642a3480df783b4070c376dae5696213fd",
+        "review_sha256": "d4a837150afee3bc59a028ed6e4539642a3480df783b4070c376dae5696213fd"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-40",
+    "civil_date": "2026-03-06",
+    "actual_occasion": "3rd Week of Great Fast",
+    "occasion_key": "GreatFast@-37",
+    "weekday": "Friday",
+    "pascha_offset_days": -37,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 27
+    },
+    "actual_home_line": "Selected Season 3rd Week of Great Fast Meshir 27, 1742 Friday, March 6, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.txt",
+        "sha256": "4f67f4fae6bd84286c6d4c20af7e02ffa840cb8ae08f7bb40e118fe422a18b67",
+        "review_sha256": "4f67f4fae6bd84286c6d4c20af7e02ffa840cb8ae08f7bb40e118fe422a18b67"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.png",
+        "sha256": "29837c5c5fd60bb547a188251f780096eb9a39072d224c6b8fe8484a5fb5365a",
+        "review_sha256": "29837c5c5fd60bb547a188251f780096eb9a39072d224c6b8fe8484a5fb5365a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.json",
+        "sha256": "7d1cdb42643d7549fa1844d894102ba57bee0f8ab69f3eac35ea3a62c66e5a96",
+        "review_sha256": "7d1cdb42643d7549fa1844d894102ba57bee0f8ab69f3eac35ea3a62c66e5a96"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.png",
+        "sha256": "ffce0ef153b3ccb01667d8e289c9781ca370a7af7c5d0d12b0986bdc40f2268e",
+        "review_sha256": "ffce0ef153b3ccb01667d8e289c9781ca370a7af7c5d0d12b0986bdc40f2268e"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-41",
+    "civil_date": "2026-03-09",
+    "actual_occasion": "4th Week of Great Fast",
+    "occasion_key": "GreatFast@-34",
+    "weekday": "Monday",
+    "pascha_offset_days": -34,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 30
+    },
+    "actual_home_line": "Selected Season 4th Week of Great Fast Meshir 30, 1742 Monday, March 9, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/context.txt",
+        "sha256": "db5bdb111166fe8676bc8a5a3f51153d82acafc75e7541e66c814b9a1fccb71b",
+        "review_sha256": "db5bdb111166fe8676bc8a5a3f51153d82acafc75e7541e66c814b9a1fccb71b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/context.png",
+        "sha256": "0a60c97440c77533f9544ca2334bad7818f372570e233b6e3103cfdc1dd823e6",
+        "review_sha256": "0a60c97440c77533f9544ca2334bad7818f372570e233b6e3103cfdc1dd823e6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/picker.json",
+        "sha256": "7c2eab3235efa814b6ec33c52e271acc603f861c4fe9c0c8abb259ec0de6730a",
+        "review_sha256": "7c2eab3235efa814b6ec33c52e271acc603f861c4fe9c0c8abb259ec0de6730a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/picker.png",
+        "sha256": "edbe957900d45b59ff68867b0d7d57697c43a3c8088b7982c4e90e614f8f4891",
+        "review_sha256": "edbe957900d45b59ff68867b0d7d57697c43a3c8088b7982c4e90e614f8f4891"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-42",
+    "civil_date": "2026-03-10",
+    "actual_occasion": "4th Week of Great Fast",
+    "occasion_key": "GreatFast@-33",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -33,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 1
+    },
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 1, 1742 Tuesday, March 10, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.txt",
+        "sha256": "aa02025afcb77efe2b331021d2a31708e94630d6b1b384d8080a6091c8dc3af7",
+        "review_sha256": "aa02025afcb77efe2b331021d2a31708e94630d6b1b384d8080a6091c8dc3af7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.png",
+        "sha256": "59183c02efb6e5281d75ab1333f92d59ce197e696ec6a92aa7e9e25aed1a7f90",
+        "review_sha256": "59183c02efb6e5281d75ab1333f92d59ce197e696ec6a92aa7e9e25aed1a7f90"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.json",
+        "sha256": "7189a2f8603c28a848b60fb4973de7b853320f4e032a00b3a7c4f6843846403d",
+        "review_sha256": "7189a2f8603c28a848b60fb4973de7b853320f4e032a00b3a7c4f6843846403d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.png",
+        "sha256": "1eed3ec8782eb5da6bb1ce3bcba6a960b24952e9d7680ca4a95f6da512ed458d",
+        "review_sha256": "1eed3ec8782eb5da6bb1ce3bcba6a960b24952e9d7680ca4a95f6da512ed458d"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-43",
+    "civil_date": "2026-03-11",
+    "actual_occasion": "4th Week of Great Fast",
+    "occasion_key": "GreatFast@-32",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -32,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 2
+    },
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 2, 1742 Wednesday, March 11, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/context.txt",
+        "sha256": "3000f7eae106cad78d3a60a47746f8be987197163f093b18b6ad448a96dd5b22",
+        "review_sha256": "3000f7eae106cad78d3a60a47746f8be987197163f093b18b6ad448a96dd5b22"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/context.png",
+        "sha256": "2bcfa19738466a37b164885004c2f96df8e8a4f501952fec791759386134647a",
+        "review_sha256": "2bcfa19738466a37b164885004c2f96df8e8a4f501952fec791759386134647a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/picker.json",
+        "sha256": "4bfbb0882072a22a5446ce99d6d4ffd1ef04568c1e53ad6209075fb942f6cda3",
+        "review_sha256": "4bfbb0882072a22a5446ce99d6d4ffd1ef04568c1e53ad6209075fb942f6cda3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/picker.png",
+        "sha256": "cd1ae28824a88571ff3b7bf5d18935a5d421de5c837176aa96af0b14c1b8b3ea",
+        "review_sha256": "cd1ae28824a88571ff3b7bf5d18935a5d421de5c837176aa96af0b14c1b8b3ea"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-44",
+    "civil_date": "2026-03-12",
+    "actual_occasion": "4th Week of Great Fast",
+    "occasion_key": "GreatFast@-31",
+    "weekday": "Thursday",
+    "pascha_offset_days": -31,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 3
+    },
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 3, 1742 Thursday, March 12, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/context.txt",
+        "sha256": "3ee39419911e51e7d187e50f999b74d69cdccc80f6d22a96a2c4e72e97a92742",
+        "review_sha256": "3ee39419911e51e7d187e50f999b74d69cdccc80f6d22a96a2c4e72e97a92742"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/context.png",
+        "sha256": "821c3cd3889f15853ef25e51779d0ffc829237423587af0c4391a2d39c67c3e2",
+        "review_sha256": "821c3cd3889f15853ef25e51779d0ffc829237423587af0c4391a2d39c67c3e2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/picker.json",
+        "sha256": "450400d072e83f4df121fca1ad708671aaaf65377fa7a6daa2a9a56d038fc69c",
+        "review_sha256": "450400d072e83f4df121fca1ad708671aaaf65377fa7a6daa2a9a56d038fc69c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/picker.png",
+        "sha256": "eca765a6ccc3244d102dc696a16a1e7c7ec931d9730fba58b425d2cc7c52d29d",
+        "review_sha256": "eca765a6ccc3244d102dc696a16a1e7c7ec931d9730fba58b425d2cc7c52d29d"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-45",
+    "civil_date": "2026-03-13",
+    "actual_occasion": "4th Week of Great Fast",
+    "occasion_key": "GreatFast@-30",
+    "weekday": "Friday",
+    "pascha_offset_days": -30,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 4
+    },
+    "actual_home_line": "Selected Season 4th Week of Great Fast Paremhotep 4, 1742 Friday, March 13, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.txt",
+        "sha256": "b7ca3c07f23a1c22e6a90c0a5fd388cd165d88bb1b22032e4c96eeb2e1934426",
+        "review_sha256": "b7ca3c07f23a1c22e6a90c0a5fd388cd165d88bb1b22032e4c96eeb2e1934426"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.png",
+        "sha256": "7e7563048e980593107a292711ca69a88c9bcd420cfc6d36dea0085ab641e8dd",
+        "review_sha256": "7e7563048e980593107a292711ca69a88c9bcd420cfc6d36dea0085ab641e8dd"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.json",
+        "sha256": "e7820f199d98d071401cb331ce2132aaaa47185180e90bd90d094f0bb7033c6b",
+        "review_sha256": "e7820f199d98d071401cb331ce2132aaaa47185180e90bd90d094f0bb7033c6b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.png",
+        "sha256": "b97f43e816275572f6a08f3de6e8e469cafdddfc4992ccac584226caf42c05e0",
+        "review_sha256": "b97f43e816275572f6a08f3de6e8e469cafdddfc4992ccac584226caf42c05e0"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-46",
+    "civil_date": "2026-03-16",
+    "actual_occasion": "5th Week of Great Fast",
+    "occasion_key": "GreatFast@-27",
+    "weekday": "Monday",
+    "pascha_offset_days": -27,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 7
+    },
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 7, 1742 Monday, March 16, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/context.txt",
+        "sha256": "cb6f8ae14774853f7c2c2d565b1ec4ccf50b4fd75392d05bc3df8bf3528abd5c",
+        "review_sha256": "cb6f8ae14774853f7c2c2d565b1ec4ccf50b4fd75392d05bc3df8bf3528abd5c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/context.png",
+        "sha256": "96a521275d9749b583edec25c540306476011761fa0c764c5e5c1f628dc6cb4e",
+        "review_sha256": "96a521275d9749b583edec25c540306476011761fa0c764c5e5c1f628dc6cb4e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/picker.json",
+        "sha256": "5cd7e3e7f89978dbd59c4111851dec575338995ed3d714309202ca656e70c93b",
+        "review_sha256": "5cd7e3e7f89978dbd59c4111851dec575338995ed3d714309202ca656e70c93b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/picker.png",
+        "sha256": "8194c248a986adf0354bab0b9163db665d4b5b0870d10272e7806870ce9af66b",
+        "review_sha256": "8194c248a986adf0354bab0b9163db665d4b5b0870d10272e7806870ce9af66b"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-47",
+    "civil_date": "2026-03-17",
+    "actual_occasion": "5th Week of Great Fast",
+    "occasion_key": "GreatFast@-26",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -26,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 8
+    },
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 8, 1742 Tuesday, March 17, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/context.txt",
+        "sha256": "b684fa5262bc9f3b97a55f167a8773d28623ef657855c3eaa80d6d342917c544",
+        "review_sha256": "b684fa5262bc9f3b97a55f167a8773d28623ef657855c3eaa80d6d342917c544"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/context.png",
+        "sha256": "4273d315e166ed5576f5567ca0b4193e673a64bfeb0f2289b1560c81949e2122",
+        "review_sha256": "4273d315e166ed5576f5567ca0b4193e673a64bfeb0f2289b1560c81949e2122"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/picker.json",
+        "sha256": "cfb2918f3556795be026ae1d9a2d56bfd8e1934d8c9d7bcbe17722e3cb126260",
+        "review_sha256": "cfb2918f3556795be026ae1d9a2d56bfd8e1934d8c9d7bcbe17722e3cb126260"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/picker.png",
+        "sha256": "c5788d38835f1601c6c90eafa71cf271f15a9106d4e2e7c9d84541dc48aded4c",
+        "review_sha256": "c5788d38835f1601c6c90eafa71cf271f15a9106d4e2e7c9d84541dc48aded4c"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-48",
+    "civil_date": "2026-03-18",
+    "actual_occasion": "5th Week of Great Fast",
+    "occasion_key": "GreatFast@-25",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -25,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 9
+    },
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 9, 1742 Wednesday, March 18, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.txt",
+        "sha256": "19774c0baed8727c938b06edb0edd2ab426348b7016c035eb8b157e4013727c2",
+        "review_sha256": "19774c0baed8727c938b06edb0edd2ab426348b7016c035eb8b157e4013727c2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.png",
+        "sha256": "49a9105b2da826ac73620276852b2a54701b66617edc99bc67ae59644f9b9020",
+        "review_sha256": "49a9105b2da826ac73620276852b2a54701b66617edc99bc67ae59644f9b9020"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.json",
+        "sha256": "d7ccf527e4a84cade71e8c07e1e75ed6ca8f497b6c43f90778a2b564eebba74a",
+        "review_sha256": "d7ccf527e4a84cade71e8c07e1e75ed6ca8f497b6c43f90778a2b564eebba74a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.png",
+        "sha256": "1ea67d8c9a4c129515329bd8a92c338f708b008e641cdb04f409e51dc0a51e30",
+        "review_sha256": "1ea67d8c9a4c129515329bd8a92c338f708b008e641cdb04f409e51dc0a51e30"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-49",
+    "civil_date": "2026-03-20",
+    "actual_occasion": "5th Week of Great Fast",
+    "occasion_key": "GreatFast@-23",
+    "weekday": "Friday",
+    "pascha_offset_days": -23,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 11
+    },
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 11, 1742 Friday, March 20, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.txt",
+        "sha256": "c8d8756e1c6f600fc8ff3a473dcee22271366f7c9e8607a3531ccfab252d6874",
+        "review_sha256": "c8d8756e1c6f600fc8ff3a473dcee22271366f7c9e8607a3531ccfab252d6874"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.png",
+        "sha256": "1fc94dbfeeea367bd80292438a63565824a7fd8136bcaf60b63a93db106aea09",
+        "review_sha256": "1fc94dbfeeea367bd80292438a63565824a7fd8136bcaf60b63a93db106aea09"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.json",
+        "sha256": "6e7210c496c1c834133f7a2ba03f38a1659439665d294b1a7123b6ea26b8009a",
+        "review_sha256": "6e7210c496c1c834133f7a2ba03f38a1659439665d294b1a7123b6ea26b8009a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.png",
+        "sha256": "d69da96624d343ec0990f907808bb67ffcd409188b39546c1a2d83a562e15d6a",
+        "review_sha256": "d69da96624d343ec0990f907808bb67ffcd409188b39546c1a2d83a562e15d6a"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-50",
+    "civil_date": "2026-03-23",
+    "actual_occasion": "6th Week of Great Fast",
+    "occasion_key": "GreatFast@-20",
+    "weekday": "Monday",
+    "pascha_offset_days": -20,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 14
+    },
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 14, 1742 Monday, March 23, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.txt",
+        "sha256": "ebc55107590254ddf46a3437043d24d7270a4c6f2954b4884411f211f45358ca",
+        "review_sha256": "ebc55107590254ddf46a3437043d24d7270a4c6f2954b4884411f211f45358ca"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.png",
+        "sha256": "bd5277077baa2cc87abf735368f53971256141b536153183c8a8e8c6239a22e1",
+        "review_sha256": "bd5277077baa2cc87abf735368f53971256141b536153183c8a8e8c6239a22e1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.json",
+        "sha256": "b38adb32a8d27453aeea4d82d2d7f8769fb95be2023d42c4115bce97ed677586",
+        "review_sha256": "b38adb32a8d27453aeea4d82d2d7f8769fb95be2023d42c4115bce97ed677586"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.png",
+        "sha256": "f6dff33a1141f1d51bf4ea0dea5343a3189f4f3206d21159b85c2642b82b2c7f",
+        "review_sha256": "f6dff33a1141f1d51bf4ea0dea5343a3189f4f3206d21159b85c2642b82b2c7f"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-51",
+    "civil_date": "2026-03-24",
+    "actual_occasion": "6th Week of Great Fast",
+    "occasion_key": "GreatFast@-19",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -19,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 15
+    },
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 15, 1742 Tuesday, March 24, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.txt",
+        "sha256": "020c8d7fffba6921fa4a978c18f16314b1b778fdba6af007e29ff036813665bc",
+        "review_sha256": "020c8d7fffba6921fa4a978c18f16314b1b778fdba6af007e29ff036813665bc"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.png",
+        "sha256": "3fc22079c926ddc60972bd99efe0f4dd9bc6ebe4d7382d01dea58e2f63ee2ae7",
+        "review_sha256": "3fc22079c926ddc60972bd99efe0f4dd9bc6ebe4d7382d01dea58e2f63ee2ae7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.json",
+        "sha256": "a7f0ebd9799c196a91bd5800a56b455dc650c635d777420439346f3ab5c5464e",
+        "review_sha256": "a7f0ebd9799c196a91bd5800a56b455dc650c635d777420439346f3ab5c5464e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.png",
+        "sha256": "ebc4b545d97eebca930a83c23526dc6363c0cb736f8228f39bc17b09ae1276fc",
+        "review_sha256": "ebc4b545d97eebca930a83c23526dc6363c0cb736f8228f39bc17b09ae1276fc"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-52",
+    "civil_date": "2026-03-25",
+    "actual_occasion": "6th Week of Great Fast",
+    "occasion_key": "GreatFast@-18",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -18,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 16
+    },
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 16, 1742 Wednesday, March 25, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.txt",
+        "sha256": "1a443db91ba626f29dd1ca875a0b5679e76e4f0074a006033fc747ae5b4c224e",
+        "review_sha256": "1a443db91ba626f29dd1ca875a0b5679e76e4f0074a006033fc747ae5b4c224e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.png",
+        "sha256": "ca3fe5297c7888eeba7b5994a1c71e9939946a5dad24c74706b1eb189cf15ac8",
+        "review_sha256": "ca3fe5297c7888eeba7b5994a1c71e9939946a5dad24c74706b1eb189cf15ac8"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.json",
+        "sha256": "00b1c4a6400b864ebf2bdc937fab67de9dd3fea08968f58976bd93a7621ad585",
+        "review_sha256": "00b1c4a6400b864ebf2bdc937fab67de9dd3fea08968f58976bd93a7621ad585"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.png",
+        "sha256": "29d19c17a91e49b70db2b52206895b011e83e20fc0890dbfd8631fab2bd6e12d",
+        "review_sha256": "29d19c17a91e49b70db2b52206895b011e83e20fc0890dbfd8631fab2bd6e12d"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-53",
+    "civil_date": "2026-03-26",
+    "actual_occasion": "6th Week of Great Fast",
+    "occasion_key": "GreatFast@-17",
+    "weekday": "Thursday",
+    "pascha_offset_days": -17,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 17
+    },
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 17, 1742 Thursday, March 26, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.txt",
+        "sha256": "bb49b734236983b322744c185be41efd9d5b401f09b920347adc7302a60b643b",
+        "review_sha256": "bb49b734236983b322744c185be41efd9d5b401f09b920347adc7302a60b643b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.png",
+        "sha256": "2e66da4de64061af3dda6aa49f303f4e7aa79988eb75115192a50132eaf84052",
+        "review_sha256": "2e66da4de64061af3dda6aa49f303f4e7aa79988eb75115192a50132eaf84052"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.json",
+        "sha256": "93c5d1d8b0f885a2a53455dd8c884a91a2fde100440af8781375b4b7c72607f6",
+        "review_sha256": "93c5d1d8b0f885a2a53455dd8c884a91a2fde100440af8781375b4b7c72607f6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.png",
+        "sha256": "c5310d55490b2fe3dcc092bd06f6a557200ed37dbdd11a870335a647c67b6ba5",
+        "review_sha256": "c5310d55490b2fe3dcc092bd06f6a557200ed37dbdd11a870335a647c67b6ba5"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-54",
+    "civil_date": "2026-03-27",
+    "actual_occasion": "6th Week of Great Fast",
+    "occasion_key": "GreatFast@-16",
+    "weekday": "Friday",
+    "pascha_offset_days": -16,
+    "numeric_coptic_crosscheck": {
+      "year": 1742,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 18
+    },
+    "actual_home_line": "Selected Season 6th Week of Great Fast Paremhotep 18, 1742 Friday, March 27, 2026",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.txt",
+        "sha256": "4f2c44c8c8620d435c6b9c1e1ed1f32ff27c3e5da419eb1664bad3edc94ba278",
+        "review_sha256": "4f2c44c8c8620d435c6b9c1e1ed1f32ff27c3e5da419eb1664bad3edc94ba278"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.png",
+        "sha256": "5f792d0836a06ad1683185a2642bd4712fa068d295d229ba7f849fc074dd0371",
+        "review_sha256": "5f792d0836a06ad1683185a2642bd4712fa068d295d229ba7f849fc074dd0371"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.json",
+        "sha256": "990995fab98f0c21600e8796a31710f3fb5de602012a4aed2b0ab5aa1e5d35df",
+        "review_sha256": "990995fab98f0c21600e8796a31710f3fb5de602012a4aed2b0ab5aa1e5d35df"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.png",
+        "sha256": "08bcca7f57cff8c268304df083f0e8106d9a3924bd18055987819f1d8f3878f3",
+        "review_sha256": "08bcca7f57cff8c268304df083f0e8106d9a3924bd18055987819f1d8f3878f3"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-55",
+    "civil_date": "2027-04-08",
+    "actual_occasion": "5th Week of Great Fast",
+    "occasion_key": "GreatFast@-24",
+    "weekday": "Thursday",
+    "pascha_offset_days": -24,
+    "numeric_coptic_crosscheck": {
+      "year": 1743,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 30
+    },
+    "actual_home_line": "Selected Season 5th Week of Great Fast Paremhotep 30, 1743 Thursday, April 8, 2027",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.txt",
+        "sha256": "e820791b072203226dc79b148fe378a1a9fa290c33e9901b543368aef3257e6f",
+        "review_sha256": "e820791b072203226dc79b148fe378a1a9fa290c33e9901b543368aef3257e6f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.png",
+        "sha256": "1a94050c9f1adf68e0a7870381371a3294909f639bc3940ac6e32fbd801afe9c",
+        "review_sha256": "1a94050c9f1adf68e0a7870381371a3294909f639bc3940ac6e32fbd801afe9c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.json",
+        "sha256": "3108b2fcfab094119993eee9ad9d2e9a4e8c3b5e492fdde824aedc7cfff84219",
+        "review_sha256": "3108b2fcfab094119993eee9ad9d2e9a4e8c3b5e492fdde824aedc7cfff84219"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.png",
+        "sha256": "b802c366f5db03fafe050bffcc9bd21f3a4d76ab55e726edb4de5a7ae3d15c1e",
+        "review_sha256": "b802c366f5db03fafe050bffcc9bd21f3a4d76ab55e726edb4de5a7ae3d15c1e"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/combined-qualified-oracle.json",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-56",
+    "civil_date": "2028-04-07",
+    "actual_occasion": "Last Friday of Great Fast",
+    "occasion_key": "GreatFast@-9",
+    "weekday": "Friday",
+    "pascha_offset_days": -9,
+    "numeric_coptic_crosscheck": {
+      "year": 1744,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 29
+    },
+    "actual_home_line": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/home-selected.png",
+        "sha256": "808902b0184513dbf96b38a16f853072e5cbe3faad77c0c3361f093096beedc2",
+        "review_sha256": "808902b0184513dbf96b38a16f853072e5cbe3faad77c0c3361f093096beedc2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/home-selected.txt",
+        "sha256": "324ccec60fb8cd4c618e4306021925440985d69d7f28f1e0a9fbad52567484b4",
+        "review_sha256": "324ccec60fb8cd4c618e4306021925440985d69d7f28f1e0a9fbad52567484b4"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/picker-selected.txt",
+        "sha256": "7e339c62a52f0f52ec56d2a18a3b7222f3ab6f6887e59d95752d6ab7d2488cb6",
+        "review_sha256": "7e339c62a52f0f52ec56d2a18a3b7222f3ab6f6887e59d95752d6ab7d2488cb6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/picker-selected.png",
+        "sha256": "008879e94a2fade2db4e616b09a3f73a2c40fc8235836543bd86ba3976891ff6",
+        "review_sha256": "008879e94a2fade2db4e616b09a3f73a2c40fc8235836543bd86ba3976891ff6"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/ordinary-coverage-current/accepted-contexts-03.jsonl",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-57",
+    "civil_date": "2027-04-07",
+    "actual_occasion": "Annunciation",
+    "occasion_key": "Annunciation@-25",
+    "weekday": "Wednesday",
+    "pascha_offset_days": -25,
+    "numeric_coptic_crosscheck": {
+      "year": 1743,
+      "month": 7,
+      "month_name": "Paremhotep",
+      "day": 29
+    },
+    "actual_home_line": "Selected Season Annunciation Paremhotep 29, 1743 Wednesday, April 7, 2027",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/home-selected.png",
+        "sha256": "35771a0e859d18b4e585e90600b0f55aef1cd575bde0f7de26e8544f8ff31ca6",
+        "review_sha256": "35771a0e859d18b4e585e90600b0f55aef1cd575bde0f7de26e8544f8ff31ca6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/home-selected.txt",
+        "sha256": "f815e864302f96351cbba62ebd8688ad89b4c885f11f654916aef6ed5c52e0ea",
+        "review_sha256": "f815e864302f96351cbba62ebd8688ad89b4c885f11f654916aef6ed5c52e0ea"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/picker-selected.txt",
+        "sha256": "77a66197b44cb80931bf55bb1a379318cff55c765f3bd2dd5a5d1b7c89e8f457",
+        "review_sha256": "77a66197b44cb80931bf55bb1a379318cff55c765f3bd2dd5a5d1b7c89e8f457"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2027-04-07/picker-selected.png",
+        "sha256": "f2b5b70fbba2436f0a48f60748a5b592a36d94aaa14cefecbe9b5dcb782154d8",
+        "review_sha256": "f2b5b70fbba2436f0a48f60748a5b592a36d94aaa14cefecbe9b5dcb782154d8"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/ordinary-coverage-current/accepted-contexts-03.jsonl",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  },
+  {
+    "review_id": "prophecy-58",
+    "civil_date": "2028-02-29",
+    "actual_occasion": "2nd Week of Great Fast",
+    "occasion_key": "GreatFast@-47",
+    "weekday": "Tuesday",
+    "pascha_offset_days": -47,
+    "numeric_coptic_crosscheck": {
+      "year": 1744,
+      "month": 6,
+      "month_name": "Meshir",
+      "day": 21
+    },
+    "actual_home_line": "Selected Season 2nd Week of Great Fast Meshir 21, 1744 Tuesday, February 29, 2028",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-02-29/home-selected.png",
+        "sha256": "411ce1ef81a2ce8e55bd8aa55b9c709001ec5d53a483f4c494a6e09d91ecc1a8",
+        "review_sha256": "411ce1ef81a2ce8e55bd8aa55b9c709001ec5d53a483f4c494a6e09d91ecc1a8"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-02-29/home-selected.txt",
+        "sha256": "7580f4e176f488cbf114889bf86f5bd6379d993ab246a096727bccca88f33f76",
+        "review_sha256": "7580f4e176f488cbf114889bf86f5bd6379d993ab246a096727bccca88f33f76"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-02-29/picker-selected.txt",
+        "sha256": "36f66b01895c214ef53bdb7311f81e59ff7a6bb6f99e4980ebb4467c25731712",
+        "review_sha256": "36f66b01895c214ef53bdb7311f81e59ff7a6bb6f99e4980ebb4467c25731712"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-02-29/picker-selected.png",
+        "sha256": "54c93f5638688c78c5b0398e1082b0335357a1ed36023908ea9c4b7843ac458d",
+        "review_sha256": "54c93f5638688c78c5b0398e1082b0335357a1ed36023908ea9c4b7843ac458d"
+      }
+    ],
+    "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/ordinary-coverage-current/accepted-contexts-03.jsonl",
+    "verdict": "source_context_accepted_original_date_only",
+    "calendar_calculation_is_not_primary_occasion_proof": true
+  }
+]

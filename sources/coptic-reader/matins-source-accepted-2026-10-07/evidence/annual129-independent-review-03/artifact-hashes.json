@@ -1,0 +1,12 @@
+{
+  "REPORT.md": "11e6f38e38d483310dfd3a8ad086a203c13726e9c0fade63b060bdf415fefaca",
+  "accepted-dated-oracle.json": "24fc2cea17eb4d7bd55f7f0da78080dd4e0efbdc2960961ae2f462e3d67d6cbd",
+  "conservation-verdicts.json": "df6478eded812a8c25cfe06f086fe35cf614cd6868e459427d991c105d32c147",
+  "context-verdicts.jsonl": "a8bba4c7646760986e1c56e3b29e9c8f2a60fa93a5d81fe8d252d246d151ff3c",
+  "guard-mutation-verdicts.jsonl": "b55b8514314159cd8ee0d24f9f817367298ea760363bf78b676cd13c58d1ab3e",
+  "remaining-gates.json": "c1165b996364a282370aee788d94dead4a53735871143d2eebcf834e8a887b35",
+  "source-boundary-order-verdicts.jsonl": "c75c7d58fff2993131013af9115bacd7fee17a2a9e84d61fd800b5e8db66d15d",
+  "source-hash-verdicts.jsonl": "c8d9faa1c9ce452d13a83cc4ded231791b4ab10b815dde769688159e948e1aff",
+  "verify_review.py": "b203f8a2b47a8d4c0dfa8e1661dedcf9d250656d37c5147705c1e79cd4f9aca8",
+  "visual-verdicts.jsonl": "de5aabd00ad0fd986933e6201b70809e24cf7b9f7dac74573c0e5c6e653e47a7"
+}

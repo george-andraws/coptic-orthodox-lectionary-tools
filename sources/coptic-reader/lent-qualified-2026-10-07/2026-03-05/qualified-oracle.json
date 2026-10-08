@@ -1,0 +1,64 @@
+{
+  "civil_date": "2026-03-05",
+  "context": "Selected Season 3rd Week of Great Fast Meshir 26, 1742 Thursday, March 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:17:49.562Z",
+  "raw_reference_lines": [
+    "\tGenesis 18:17-19:29",
+    "\tProverbs 2:16-3:4",
+    "\tIsaiah 11:10-12:2"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/Prophecies.txt",
+  "text_sha256": "b59249bddf65bb45749dd7dae9d12fcc716b91601809b85c67cda25e781f043a",
+  "screenshot_sha256": "798796ec31045ad4abb094a93ad74bae29d2a9e3da76394e56999a56d5672e65",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/context.txt",
+      "sha256": "354def8274f6ed899e63b280107e2a344809e7b77c26833ebe05b4c399454c2d"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/context.png",
+      "sha256": "23b2902d1829ae9548aa87a530d8668df43d8735ff6b1521b87bdb3a7a3f7e3c"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/picker.json",
+      "sha256": "089b1ba404c78ea132b00f89ce08673d82b6516eacc72a1fe16bd6ddd4d007a2"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/picker.png",
+      "sha256": "d4a837150afee3bc59a028ed6e4539642a3480df783b4070c376dae5696213fd"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tGenesis 18:17-19:29",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/reference-01.png",
+      "sha256": "798796ec31045ad4abb094a93ad74bae29d2a9e3da76394e56999a56d5672e65"
+    },
+    {
+      "raw_ref": "\tProverbs 2:16-3:4",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/reference-02.png",
+      "sha256": "8cc484e55bb0ae9a0c573a04101a95615eb88d8f4677c8d12945ca564eb197ee"
+    },
+    {
+      "raw_ref": "\tIsaiah 11:10-12:2",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-05/reference-03.png",
+      "sha256": "e6beb803763aa5482b2a7567e5eb6b54151673ee5fcce4e609f28d83acc35f15"
+    }
+  ],
+  "source_gate": {
+    "visible_heading": true,
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

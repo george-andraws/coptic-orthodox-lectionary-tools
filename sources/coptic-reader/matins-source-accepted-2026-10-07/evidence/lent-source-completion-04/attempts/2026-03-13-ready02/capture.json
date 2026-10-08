@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-13",
+  "context": "Selected Season 4th Week of Great Fast Paremhotep 4, 1742 Friday, March 13, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-13",
+      "context": "Selected Season 4th Week of Great Fast Paremhotep 4, 1742 Friday, March 13, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:20.788Z",
+      "raw_reference_lines": [
+        "\tPsalms 27:7-8",
+        "\tLuke 4:31-37"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "169d1bdbbb32e3c72e2daebba43129c97cf67f9ea3fc745eb549d3d4bc445eee",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 27:7-8",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "db3ae906f3fb2c4c702ad5622a9e3066ef52701735a81f071a4a5d5c4114d4f5"
+        },
+        {
+          "raw_ref": "\tLuke 4:31-37",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "d510dd50090f0c527c43852cecb240a7901930ed9af29db9b7c3fd3515f23ea4"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

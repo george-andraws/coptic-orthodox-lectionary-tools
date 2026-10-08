@@ -1,0 +1,1743 @@
+[
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Absolution of the Woman (Boy)"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tHebrews 1:8-12",
+    "printed_ref": "Hebrews 1:8-12",
+    "raw_text_sha256": "9bc7c73a1f34629716f91a63e35abf7c268f65fb04bc4b249232b6608128d125",
+    "source_line": 184,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "mother_absolution_male_child"
+    ],
+    "legacy_exact_raw_refs": [
+      "Hebrews 1:8-12"
+    ],
+    "legacy_context_raw_refs": [
+      "Hebrews 1:8-12",
+      "Psalm 32:1-2",
+      "Luke 2:21-35"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__absolution_of_the_woman_boy",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Heb 1:8-12",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Absolution of the Woman (Boy)"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tPsalms 32:1-2",
+    "printed_ref": "Psalms 32:1-2",
+    "raw_text_sha256": "9bc7c73a1f34629716f91a63e35abf7c268f65fb04bc4b249232b6608128d125",
+    "source_line": 338,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "mother_absolution_male_child"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 32:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "Hebrews 1:8-12",
+      "Psalm 32:1-2",
+      "Luke 2:21-35"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__absolution_of_the_woman_boy",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 32:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Absolution of the Woman (Boy)"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tLuke 2:21-35",
+    "printed_ref": "Luke 2:21-35",
+    "raw_text_sha256": "9bc7c73a1f34629716f91a63e35abf7c268f65fb04bc4b249232b6608128d125",
+    "source_line": 368,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "mother_absolution_male_child"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 2:21-35"
+    ],
+    "legacy_context_raw_refs": [
+      "Hebrews 1:8-12",
+      "Psalm 32:1-2",
+      "Luke 2:21-35"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__absolution_of_the_woman_boy",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 2:21-35",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Absolution of the Woman (Girl)"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tLuke 10:38-42",
+    "printed_ref": "Luke 10:38-42",
+    "raw_text_sha256": "f9e41948ada0eb065cc645e1800303e89b33c4841fcb739c566934ab490f6282",
+    "source_line": 362,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "mother_absolution_female_child"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 10:38-42"
+    ],
+    "legacy_context_raw_refs": [
+      "1 Corinthians 7:12-14",
+      "Psalm 45:9; Psalm 45:13",
+      "Luke 10:38-42"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__absolution_of_the_woman_girl",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 10:38-42",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Consecrating the Water"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tTitus 2:11-3:7",
+    "printed_ref": "Titus 2:11-3:7",
+    "raw_text_sha256": "8382160538f16db27e1eaaf8c8536769b8621af90307f37dcff6bfb4453a1935",
+    "source_line": 222,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "sanctification_of_baptismal_water"
+    ],
+    "legacy_exact_raw_refs": [
+      "Titus 2:11-3:7"
+    ],
+    "legacy_context_raw_refs": [
+      "Titus 2:11-3:7",
+      "1 John 5:5-20",
+      "Acts 8:26-39",
+      "Psalm 32:1-2",
+      "John 3:1-21"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__consecrating_the_water",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Titus 2:11-3:7",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Consecrating the Water"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tActs 8:26-39",
+    "printed_ref": "Acts 8:26-39",
+    "raw_text_sha256": "8382160538f16db27e1eaaf8c8536769b8621af90307f37dcff6bfb4453a1935",
+    "source_line": 307,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "sanctification_of_baptismal_water"
+    ],
+    "legacy_exact_raw_refs": [
+      "Acts 8:26-39"
+    ],
+    "legacy_context_raw_refs": [
+      "Titus 2:11-3:7",
+      "1 John 5:5-20",
+      "Acts 8:26-39",
+      "Psalm 32:1-2",
+      "John 3:1-21"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__consecrating_the_water",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Acts 8:26-39",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Consecrating the Water"
+    ],
+    "ordinal": 4,
+    "raw_heading": "\tPsalms 32:1-2",
+    "printed_ref": "Psalms 32:1-2",
+    "raw_text_sha256": "8382160538f16db27e1eaaf8c8536769b8621af90307f37dcff6bfb4453a1935",
+    "source_line": 491,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "sanctification_of_baptismal_water"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 32:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "Titus 2:11-3:7",
+      "1 John 5:5-20",
+      "Acts 8:26-39",
+      "Psalm 32:1-2",
+      "John 3:1-21"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__consecrating_the_water",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 32:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Baptism",
+      "Consecrating the Water"
+    ],
+    "ordinal": 5,
+    "raw_heading": "\tJohn 3:1-21",
+    "printed_ref": "John 3:1-21",
+    "raw_text_sha256": "8382160538f16db27e1eaaf8c8536769b8621af90307f37dcff6bfb4453a1935",
+    "source_line": 521,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "baptism",
+      "sanctification_of_baptismal_water"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 3:1-21"
+    ],
+    "legacy_context_raw_refs": [
+      "Titus 2:11-3:7",
+      "1 John 5:5-20",
+      "Acts 8:26-39",
+      "Psalm 32:1-2",
+      "John 3:1-21"
+    ],
+    "staged_service_family": "baptism",
+    "staged_service_variant": "coptic_reader__consecrating_the_water",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 3:1-21",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Home Blessing"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tRomans 8:14-21",
+    "printed_ref": "Romans 8:14-21",
+    "raw_text_sha256": "5b9c60736a485cda5fd0da15a38b7444352bc95db924482d6229f44626fc2058",
+    "source_line": 635,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "home_blessing",
+      "main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Romans 8:14-21"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 8:14-21",
+      "Psalm 102:1-2",
+      "Luke 19:1-10"
+    ],
+    "staged_service_family": "home_blessing",
+    "staged_service_variant": "coptic_reader__home_blessing",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Rom 8:14-21",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Home Blessing"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tPsalms 102:1-2",
+    "printed_ref": "Psalms 102:1-2",
+    "raw_text_sha256": "5b9c60736a485cda5fd0da15a38b7444352bc95db924482d6229f44626fc2058",
+    "source_line": 798,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "home_blessing",
+      "main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 102:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 8:14-21",
+      "Psalm 102:1-2",
+      "Luke 19:1-10"
+    ],
+    "staged_service_family": "home_blessing",
+    "staged_service_variant": "coptic_reader__home_blessing",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 102:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Consecrations",
+      "Home Blessing"
+    ],
+    "ordinal": 4,
+    "raw_heading": "\tLuke 19:1-10",
+    "printed_ref": "Luke 19:1-10",
+    "raw_text_sha256": "5b9c60736a485cda5fd0da15a38b7444352bc95db924482d6229f44626fc2058",
+    "source_line": 828,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "home_blessing",
+      "main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 19:1-10"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 8:14-21",
+      "Psalm 102:1-2",
+      "Luke 19:1-10"
+    ],
+    "staged_service_family": "home_blessing",
+    "staged_service_variant": "coptic_reader__home_blessing",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 19:1-10",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "3rd and 40th Days"
+    ],
+    "ordinal": 7,
+    "raw_heading": "\tJohn 11:38-45",
+    "printed_ref": "John 11:38-45",
+    "raw_text_sha256": "a0a70389a2dc193d79bd3a344864eecf1ffa647ba3c27d319cb489a6d67ed840",
+    "source_line": 625,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "third_day_and_memorials"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 11:38-45"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 5:6-15",
+      "Psalm 38:21-22",
+      "John 11:38-45"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__3rd_and_40th_days",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 11:38-45",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "Boys"
+    ],
+    "ordinal": 7,
+    "raw_heading": "\tLuke 7:11-16",
+    "printed_ref": "Luke 7:11-16",
+    "raw_text_sha256": "d81c638e418ff777302f5b98d03912a3bf515033f33ad41b4070fad6f842c87e",
+    "source_line": 631,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "male_children_main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 7:11-16"
+    ],
+    "legacy_context_raw_refs": [
+      "1 Thessalonians 4:13-18",
+      "Psalm 27:10; Psalm 116:6",
+      "Luke 7:11-16"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__boys",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 7:11-16",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "Girls"
+    ],
+    "ordinal": 8,
+    "raw_heading": "\tMatthew 9:18-26",
+    "printed_ref": "Matthew 9:18-26",
+    "raw_text_sha256": "5e734a32c77b190015f923bab5289b5aae51d0621368e53b88ea08b4bd036107",
+    "source_line": 633,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "female_children_main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Matthew 9:18-26"
+    ],
+    "legacy_context_raw_refs": [
+      "1 Corinthians 15:50-58",
+      "Psalm 39:12-13",
+      "Matthew 9:18-26"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__girls",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Matt 9:18-26",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "Men"
+    ],
+    "ordinal": 7,
+    "raw_heading": "\tJohn 5:19-29",
+    "printed_ref": "John 5:19-29",
+    "raw_text_sha256": "618468cdb45298be9301f720de662b2742bfb0d1338697a8f231281a5c80e3d1",
+    "source_line": 688,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "men_main"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 5:19-29"
+    ],
+    "legacy_context_raw_refs": [
+      "1 Corinthians 15:1-23",
+      "Psalm 65:4",
+      "John 5:19-29"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__men",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 5:19-29",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "Women"
+    ],
+    "ordinal": 7,
+    "raw_heading": "\tMatthew 26:6-13",
+    "printed_ref": "Matthew 26:6-13",
+    "raw_text_sha256": "684d4a3c71e272ec6872f57747ebbf18db23841d44ad504ad47ba00408594582",
+    "source_line": 643,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "women_main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Matthew 26:6-13"
+    ],
+    "legacy_context_raw_refs": [
+      "1 Corinthians 15:39-49",
+      "Psalm 116:7-8",
+      "Matthew 26:6-13"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__women",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Matt 26:6-13",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "Women During Delivery"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tIsaiah 26:9-20",
+    "printed_ref": "Isaiah 26:9-20",
+    "raw_text_sha256": "8b8c73429a295f5f11d70381f03e4658562b1a7a162b335143eeb590ef7cbdc3",
+    "source_line": 396,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "women_delivery_main"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 26:9-20"
+    ],
+    "legacy_context_raw_refs": [
+      "Isaiah 26:9-20",
+      "Romans 5:1-15",
+      "Psalm 78:38-39",
+      "John 16:20-23"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__women_during_delivery",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 26:9-20",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Funeral",
+      "Women During Delivery"
+    ],
+    "ordinal": 5,
+    "raw_heading": "\tJohn 16:20-23",
+    "printed_ref": "John 16:20-23",
+    "raw_text_sha256": "8b8c73429a295f5f11d70381f03e4658562b1a7a162b335143eeb590ef7cbdc3",
+    "source_line": 658,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "funeral",
+      "women_delivery_main"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 16:20-23"
+    ],
+    "legacy_context_raw_refs": [
+      "Isaiah 26:9-20",
+      "Romans 5:1-15",
+      "Psalm 78:38-39",
+      "John 16:20-23"
+    ],
+    "staged_service_family": "funeral",
+    "staged_service_variant": "coptic_reader__women_during_delivery",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 16:20-23",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tExodus 15:22-16:1",
+    "printed_ref": "Exodus 15:22-16:1",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 281,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Exodus 15:22-16:1"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Exod 15:22-16:1",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tExodus 30:17-30",
+    "printed_ref": "Exodus 30:17-30",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 306,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Exodus 30:17-30"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Exod 30:17-30",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 4,
+    "raw_heading": "\tIsaiah 1:16-26",
+    "printed_ref": "Isaiah 1:16-26",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 345,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 1:16-26"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 1:16-26",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 5,
+    "raw_heading": "\tIsaiah 35:1-10",
+    "printed_ref": "Isaiah 35:1-10",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 378,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 35:1-10"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 35:1-10",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 6,
+    "raw_heading": "\tIsaiah 43:16-44:6",
+    "printed_ref": "Isaiah 43:16-44:6",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 409,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 43:16-44:6"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 43:16-44:6",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 7,
+    "raw_heading": "\tZechariah 8:7-19",
+    "printed_ref": "Zechariah 8:7-19",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 458,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Zechariah 8:7-19"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Zech 8:7-19",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 8,
+    "raw_heading": "\tZechariah 14:8-11",
+    "printed_ref": "Zechariah 14:8-11",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 495,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Zechariah 14:8-11"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Zech 14:8-11",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 9,
+    "raw_heading": "\tHebrews 10:22-38",
+    "printed_ref": "Hebrews 10:22-38",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 535,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Hebrews 10:22-38"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Heb 10:22-38",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Apostles Feast"
+    ],
+    "ordinal": 11,
+    "raw_heading": "\tJohn 5:1-18",
+    "printed_ref": "John 5:1-18",
+    "raw_text_sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+    "source_line": 755,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 5:1-18"
+    ],
+    "legacy_context_raw_refs": [
+      "Exodus 15:22-16:1",
+      "Exodus 30:17-30",
+      "Isaiah 1:16-26",
+      "Isaiah 35:1-10",
+      "Isaiah 43:16-44:6",
+      "Zechariah 8:7-19",
+      "Zechariah 14:8-11",
+      "Hebrews 10:22-38",
+      "Psalm 51:7; Psalm 51:10",
+      "John 5:1-18"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__apostles_feast",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 5:1-18",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tHabakkuk 3:2-19",
+    "printed_ref": "Habakkuk 3:2-19",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 270,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Habakkuk 3:2-19"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Hab 3:2-19",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tIsaiah 35:1-2",
+    "printed_ref": "Isaiah 35:1-2",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 315,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 35:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 35:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 4,
+    "raw_heading": "\tIsaiah 40:1-5",
+    "printed_ref": "Isaiah 40:1-5",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 328,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 40:1-5"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 40:1-5",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 5,
+    "raw_heading": "\tIsaiah 9:1-2",
+    "printed_ref": "Isaiah 9:1-2",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 349,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Isaiah 9:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Isa 9:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 6,
+    "raw_heading": "\tBaruch 3:36-4:4",
+    "printed_ref": "Baruch 3:36-4:4",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 364,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Baruch 3:36-4:4"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Bar 3:36-4:4",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 7,
+    "raw_heading": "\tEzekiel 36:24-29",
+    "printed_ref": "Ezekiel 36:24-29",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 387,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Ezekiel 36:24-29"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ezek 36:24-29",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 8,
+    "raw_heading": "\tEzekiel 47:1-9",
+    "printed_ref": "Ezekiel 47:1-9",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 410,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Ezekiel 47:1-9"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ezek 47:1-9",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Lakkan",
+      "Theophany"
+    ],
+    "ordinal": 11,
+    "raw_heading": "\tMatthew 3:1-17",
+    "printed_ref": "Matthew 3:1-17",
+    "raw_text_sha256": "94852f6aa8a3b3971c135d84f5166404e03333ba501e8a4152cc4b1056261190",
+    "source_line": 702,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan"
+    ],
+    "legacy_exact_raw_refs": [
+      "Matthew 3:1-17"
+    ],
+    "legacy_context_raw_refs": [
+      "Habakkuk 3:2-19",
+      "Isaiah 35:1-2",
+      "Isaiah 40:1-5",
+      "Isaiah 9:1-2",
+      "Baruch 3:36-4:4",
+      "Ezekiel 36:24-29",
+      "Ezekiel 47:1-9",
+      "1 Corinthians 10:1-13",
+      "Psalm 114:3; Psalm 114:5",
+      "Matthew 3:1-17"
+    ],
+    "staged_service_family": "liturgy_of_the_waters",
+    "staged_service_variant": "coptic_reader__theophany",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Matt 3:1-17",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": false
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Fifth Prayer"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tGalatians 2:16-20",
+    "printed_ref": "Galatians 2:16-20",
+    "raw_text_sha256": "afeb5515bf79353dddaf1b46fcbf00afd442d26bf4e1318156a0c4b267db9db6",
+    "source_line": 168,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "fifth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Galatians 2:16-20"
+    ],
+    "legacy_context_raw_refs": [
+      "Galatians 2:16-20",
+      "Psalm 142:7",
+      "John 14:1-19"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__fifth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Gal 2:16-20",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Fifth Prayer"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tPsalms 142:7",
+    "printed_ref": "Psalms 142:7",
+    "raw_text_sha256": "afeb5515bf79353dddaf1b46fcbf00afd442d26bf4e1318156a0c4b267db9db6",
+    "source_line": 322,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "fifth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 142:7"
+    ],
+    "legacy_context_raw_refs": [
+      "Galatians 2:16-20",
+      "Psalm 142:7",
+      "John 14:1-19"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__fifth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 142:7",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Fifth Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tJohn 14:1-19",
+    "printed_ref": "John 14:1-19",
+    "raw_text_sha256": "afeb5515bf79353dddaf1b46fcbf00afd442d26bf4e1318156a0c4b267db9db6",
+    "source_line": 352,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "fifth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 14:1-19"
+    ],
+    "legacy_context_raw_refs": [
+      "Galatians 2:16-20",
+      "Psalm 142:7",
+      "John 14:1-19"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__fifth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 14:1-19",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "First Prayer"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tJames 5:10-20",
+    "printed_ref": "James 5:10-20",
+    "raw_text_sha256": "0450c339e111bf9dd89bb8003562574585793d7139296c96368d4c4ecb4ead9a",
+    "source_line": 542,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "first_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "James 5:10-20"
+    ],
+    "legacy_context_raw_refs": [
+      "James 5:10-20",
+      "Psalm 6:1-2",
+      "John 5:1-17"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__first_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "James 5:10-20",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "First Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tPsalms 6:1-2",
+    "printed_ref": "Psalms 6:1-2",
+    "raw_text_sha256": "0450c339e111bf9dd89bb8003562574585793d7139296c96368d4c4ecb4ead9a",
+    "source_line": 717,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "first_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 6:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "James 5:10-20",
+      "Psalm 6:1-2",
+      "John 5:1-17"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__first_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 6:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "First Prayer"
+    ],
+    "ordinal": 4,
+    "raw_heading": "\tJohn 5:1-17",
+    "printed_ref": "John 5:1-17",
+    "raw_text_sha256": "0450c339e111bf9dd89bb8003562574585793d7139296c96368d4c4ecb4ead9a",
+    "source_line": 747,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "first_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "John 5:1-17"
+    ],
+    "legacy_context_raw_refs": [
+      "James 5:10-20",
+      "Psalm 6:1-2",
+      "John 5:1-17"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__first_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Jn 5:1-17",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Fourth Prayer"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tRomans 8:14-21",
+    "printed_ref": "Romans 8:14-21",
+    "raw_text_sha256": "4fe826cd47fb85bd72bf37f8e1b29074f61a8ee4ac6c2594bd3659424835e0f5",
+    "source_line": 132,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "fourth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Romans 8:14-21"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 8:14-21",
+      "Psalm 51:1-2",
+      "Luke 10:1-9"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__fourth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Rom 8:14-21",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Fourth Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tLuke 10:1-9",
+    "printed_ref": "Luke 10:1-9",
+    "raw_text_sha256": "4fe826cd47fb85bd72bf37f8e1b29074f61a8ee4ac6c2594bd3659424835e0f5",
+    "source_line": 325,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "fourth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 10:1-9"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 8:14-21",
+      "Psalm 51:1-2",
+      "Luke 10:1-9"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__fourth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 10:1-9",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Second Prayer"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tRomans 15:1-7",
+    "printed_ref": "Romans 15:1-7",
+    "raw_text_sha256": "a2f5ba90408ba84af6fefa5cf016e47e0ef249c2aecb26c93e7d2247469de3ca",
+    "source_line": 135,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "second_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Romans 15:1-7"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 15:1-7",
+      "Psalm 102:1-2",
+      "Luke 19:1-10"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__second_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Rom 15:1-7",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Second Prayer"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tPsalms 102:1-2",
+    "printed_ref": "Psalms 102:1-2",
+    "raw_text_sha256": "a2f5ba90408ba84af6fefa5cf016e47e0ef249c2aecb26c93e7d2247469de3ca",
+    "source_line": 295,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "second_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 102:1-2"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 15:1-7",
+      "Psalm 102:1-2",
+      "Luke 19:1-10"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__second_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 102:1-2",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Second Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tLuke 19:1-10",
+    "printed_ref": "Luke 19:1-10",
+    "raw_text_sha256": "a2f5ba90408ba84af6fefa5cf016e47e0ef249c2aecb26c93e7d2247469de3ca",
+    "source_line": 325,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "second_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 19:1-10"
+    ],
+    "legacy_context_raw_refs": [
+      "Romans 15:1-7",
+      "Psalm 102:1-2",
+      "Luke 19:1-10"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__second_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 19:1-10",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Seventh Prayer"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tEphesians 6:10-18",
+    "printed_ref": "Ephesians 6:10-18",
+    "raw_text_sha256": "bce717af35bc2ba01883d362cfa5ed6fe493febfed3262b4616e4725a90b2bb8",
+    "source_line": 135,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "seventh_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Ephesians 6:10-18"
+    ],
+    "legacy_context_raw_refs": [
+      "Ephesians 6:10-18",
+      "Psalm 25:18; Psalm 25:20",
+      "Matthew 6:14-18"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__seventh_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Eph 6:10-18",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Seventh Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tMatthew 6:14-18",
+    "printed_ref": "Matthew 6:14-18",
+    "raw_text_sha256": "bce717af35bc2ba01883d362cfa5ed6fe493febfed3262b4616e4725a90b2bb8",
+    "source_line": 331,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "seventh_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Matthew 6:14-18"
+    ],
+    "legacy_context_raw_refs": [
+      "Ephesians 6:10-18",
+      "Psalm 25:18; Psalm 25:20",
+      "Matthew 6:14-18"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__seventh_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Matt 6:14-18",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Sixth Prayer"
+    ],
+    "ordinal": 1,
+    "raw_heading": "\tColossians 3:12-17",
+    "printed_ref": "Colossians 3:12-17",
+    "raw_text_sha256": "dd4ea5b1f4dde2f0f797ab74ae415a8b6848988c6f006dc14d41647134292cfe",
+    "source_line": 137,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "sixth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Colossians 3:12-17"
+    ],
+    "legacy_context_raw_refs": [
+      "Colossians 3:12-17",
+      "Psalm 4:1",
+      "Luke 7:36-50"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__sixth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Col 3:12-17",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Sixth Prayer"
+    ],
+    "ordinal": 2,
+    "raw_heading": "\tPsalms 4:1",
+    "printed_ref": "Psalms 4:1",
+    "raw_text_sha256": "dd4ea5b1f4dde2f0f797ab74ae415a8b6848988c6f006dc14d41647134292cfe",
+    "source_line": 294,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "sixth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Psalm 4:1"
+    ],
+    "legacy_context_raw_refs": [
+      "Colossians 3:12-17",
+      "Psalm 4:1",
+      "Luke 7:36-50"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__sixth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Ps 4:1",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Sixth Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tLuke 7:36-50",
+    "printed_ref": "Luke 7:36-50",
+    "raw_text_sha256": "dd4ea5b1f4dde2f0f797ab74ae415a8b6848988c6f006dc14d41647134292cfe",
+    "source_line": 324,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "sixth_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Luke 7:36-50"
+    ],
+    "legacy_context_raw_refs": [
+      "Colossians 3:12-17",
+      "Psalm 4:1",
+      "Luke 7:36-50"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__sixth_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Lk 7:36-50",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  },
+  {
+    "navigation": [
+      "Special",
+      "Unction",
+      "Third Prayer"
+    ],
+    "ordinal": 3,
+    "raw_heading": "\tMatthew 10:1-8",
+    "printed_ref": "Matthew 10:1-8",
+    "raw_text_sha256": "34a0d2d86cb4cc3fcf7e6315e477e50f5d2818ab67574d50001d69f8352e0b65",
+    "source_line": 336,
+    "classification": "exact_legacy_reference_source_context_confirmed",
+    "legacy_target_context": [
+      "unction_of_the_sick",
+      "third_prayer"
+    ],
+    "legacy_exact_raw_refs": [
+      "Matthew 10:1-8"
+    ],
+    "legacy_context_raw_refs": [
+      "1 Corinthians 12:28-13:8",
+      "Psalm 38:1-2",
+      "Matthew 10:1-8"
+    ],
+    "staged_service_family": "unction_of_the_sick",
+    "staged_service_variant": "coptic_reader__third_prayer",
+    "staged_section": "rendered_document",
+    "staged_canonical_ref": "Matt 10:1-8",
+    "status": "source_confirmed_reader_variant_preserving_legacy",
+    "reference_screenshot_available": true
+  }
+]

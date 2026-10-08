@@ -1,0 +1,8 @@
+................................../Users/ga/workspace/synaxarium-package-release/tests/test_reading_semantics.py:42: ResourceWarning: unclosed file <_io.TextIOWrapper name='/Users/ga/.hermes/cache/scratch/tmp44epdati/data/pascha_day_hour_index.csv' mode='r' encoding='UTF-8'>
+  rows = list(csv.DictReader(csv_path.open()))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+.................................
+----------------------------------------------------------------------
+Ran 67 tests in 17.005s
+
+OK

@@ -1,0 +1,74 @@
+{
+  "civil_date": "2026-02-19",
+  "context": "Selected Season 1st Week of Great Fast Meshir 12, 1742 Thursday, February 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Michael",
+  "documents": [
+    {
+      "civil_date": "2026-02-19",
+      "context": "Selected Season 1st Week of Great Fast Meshir 12, 1742 Thursday, February 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Michael",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:24:20.430Z",
+      "raw_reference_lines": [
+        "\tIsaiah 2:11-19",
+        "\tZechariah 8:18-23"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies.txt",
+      "text_sha256": "fa80b20e92306a3e2c370b16969558ebe67c8faae90f0467d7fda1a88d736030",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tIsaiah 2:11-19",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies-reference-01.png",
+          "sha256": "8cde5d7638ea5ffa7b8c3cc2bd064b0ac9121677148b9323d336f12b3804b5d6"
+        },
+        {
+          "raw_ref": "\tZechariah 8:18-23",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Prophecies-reference-02.png",
+          "sha256": "270ae43238507212335504cf3fa74b42e55461318c4975eee9184ecf55fcd8c1"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-19",
+      "context": "Selected Season 1st Week of Great Fast Meshir 12, 1742 Thursday, February 19, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Michael",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:24:24.950Z",
+      "raw_reference_lines": [
+        "\tPsalms 23:1-2",
+        "\tLuke 8:22-25"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel.txt",
+      "text_sha256": "b598fec33c838a9dbec9e9eda9ccdf4809baa404a047821a5e04cbed8481c023",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 23:1-2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel-reference-01.png",
+          "sha256": "2ea9c6d21925bec07ea8f1a6d37280499bcb6c3f4f3fcd45e9cea85698e9a7dc"
+        },
+        {
+          "raw_ref": "\tLuke 8:22-25",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel-reference-02.png",
+          "sha256": "fa8b2e6ca93a84e2cb5e34251916f366a244cbf53b692692119dfc7967e67af5"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

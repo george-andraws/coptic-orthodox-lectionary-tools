@@ -1,0 +1,80 @@
+{
+  "civil_date": "2026-03-30",
+  "context": "Selected Season 7th Week of Great Fast Paremhotep 21, 1742 Monday, March 30, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+  "documents": [
+    {
+      "civil_date": "2026-03-30",
+      "context": "Selected Season 7th Week of Great Fast Paremhotep 21, 1742 Monday, March 30, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:31:33.718Z",
+      "raw_reference_lines": [
+        "\tProverbs 10:1-16",
+        "\tIsaiah 48:17-49:4",
+        "\tJob 38:1-36"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies.txt",
+      "text_sha256": "c9f87e17eafedf480dbb740267eb021f270e93a036812219da74901651abf329",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tProverbs 10:1-16",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-01.png",
+          "sha256": "8313aba85888e5d7e9987a5070ae2db7d6a2e6711a5f874575cf7006799d3215"
+        },
+        {
+          "raw_ref": "\tIsaiah 48:17-49:4",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-02.png",
+          "sha256": "c992048bb235daab1821b8bb2a58f17da08fda49db1d425af0348a1662589993"
+        },
+        {
+          "raw_ref": "\tJob 38:1-36",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Prophecies-reference-03.png",
+          "sha256": "29a8d255268b04c04b478e584708b985593932edba48e365318b7c54c69105b5"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-03-30",
+      "context": "Selected Season 7th Week of Great Fast Paremhotep 21, 1742 Monday, March 30, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:31:39.504Z",
+      "raw_reference_lines": [
+        "\tPsalms 31:11-12",
+        "\tLuke 16:19-31"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 31:11-12",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "feef8979d6cdbd2ec32b94b3b50981f679db753fdd7e3ffe299b71a7d55e9205"
+        },
+        {
+          "raw_ref": "\tLuke 16:19-31",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "fe2245d87ddf0cd4d7add6e5413f4699c05ef4b97112bd6e6e25438e9b0e8a05"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

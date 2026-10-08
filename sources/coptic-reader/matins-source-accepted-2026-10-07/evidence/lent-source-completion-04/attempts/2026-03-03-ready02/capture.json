@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-03",
+  "context": "Selected Season 3rd Week of Great Fast Meshir 24, 1742 Tuesday, March 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-03",
+      "context": "Selected Season 3rd Week of Great Fast Meshir 24, 1742 Tuesday, March 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:39.044Z",
+      "raw_reference_lines": [
+        "\tPsalms 31:11",
+        "\tLuke 12:54-59"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "54553809087223ac44db379f32c5d85fb835b7287937e3a9940690a874527d3e",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 31:11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "a3b5338ef9ff2a3e39dc7d0d4830e48103c04e6f694d4a57cc5cafb8c069259e"
+        },
+        {
+          "raw_ref": "\tLuke 12:54-59",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "aaec90d01d686cfe76000551b0fe3ed5d246c2b0f0a587ec5b681cc2da257cc5"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "@andraws/lectionary-data@1.3.1",
+    "name": "@andraws/lectionary-data",
+    "version": "1.3.1",
+    "size": 2128263,
+    "unpackedSize": 42129364,
+    "shasum": "0a0c0e3331fff9d5d4acd2650062c1f5baa7ee59",
+    "integrity": "sha512-vseh/Ay35w/jRvPA1R3yLaAR872FA9jOxl4kQyLC5v3qOlx4P7JY6e2m8sVnNHmrYnC1Pu3I93b/A23cV/QFDA==",
+    "filename": "andraws-lectionary-data-1.3.1.tgz",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 898,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 11689,
+        "mode": 420
+      },
+      {
+        "path": "calendar.js",
+        "size": 1454,
+        "mode": 420
+      },
+      {
+        "path": "data/daily/lectionary-2026.json",
+        "size": 6290875,
+        "mode": 420
+      },
+      {
+        "path": "data/daily/lectionary-2027.json",
+        "size": 6310277,
+        "mode": 420
+      },
+      {
+        "path": "data/daily/lectionary-2028.json",
+        "size": 6299786,
+        "mode": 420
+      },
+      {
+        "path": "data/reverse_lectionary_index.jsonl",
+        "size": 22924713,
+        "mode": 420
+      },
+      {
+        "path": "data/synaxarium/synaxarium.json",
+        "size": 261560,
+        "mode": 420
+      },
+      {
+        "path": "index.js",
+        "size": 4584,
+        "mode": 420
+      },
+      {
+        "path": "meta.json",
+        "size": 22765,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 763,
+        "mode": 420
+      }
+    ],
+    "entryCount": 11,
+    "bundled": []
+  }
+]

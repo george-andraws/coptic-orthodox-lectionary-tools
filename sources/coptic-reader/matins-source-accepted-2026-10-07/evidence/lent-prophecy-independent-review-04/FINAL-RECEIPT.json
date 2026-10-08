@@ -1,0 +1,20 @@
+{
+  "verdict": "ACCEPT_EXACT_DATED_PROPHECIES_SOURCE_ONLY",
+  "source_packet_final_receipt_sha256": "c4248755cba79f12d76803d932e25d09bd38a7fc7f71359744e1d2d9c2b80001",
+  "owned_artifact_count": 49,
+  "owned_artifact_hashes_sha256": "847a8b34582da639e17f4a31f774e18a562dcbb4560535a4d6b09303cd0bc3a3",
+  "accepted_oracle_sha256": "ce12afc8e5d7032a090e1533d68f28d684f11ddfab55ba096f84945b6d4bee35",
+  "verification_results_sha256": "bf7427ff0a7a7e3d4dc72b7ccade36c67976aeb49ee9eacbed04e3e2b00288a9",
+  "report_sha256": "460b6ea8844d6cdcb0a1c01cd54576573b3b712bf2ff8d3f063a3af5b24766aa",
+  "new_candidates_accepted": 31,
+  "prior_dated_qualification_retained": 28,
+  "distinct_owned_contexts": 58,
+  "assigned_unique_tables": 39,
+  "explicit_absences": 19,
+  "candidate_states_and_flags_preserved": true,
+  "canonical_approval": false,
+  "recurrence_approval": false,
+  "runtime_activation": false,
+  "other_lane_approval": false,
+  "old_loading_image_promotion": false
+}

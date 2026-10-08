@@ -1,0 +1,882 @@
+[
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-23",
+    "date": "2027-02-21",
+    "home_first_line": "Selected Season 3rd Sunday of Meshir Meshir 14, 1743 Sunday, February 21, 2027",
+    "coptic": {
+      "month": "Meshir",
+      "day": 14,
+      "year": 1743,
+      "month_number": 6,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time February 21, 2027 11:00 AM Meshir 14, 1743"
+    },
+    "source_folder": "SundayReadings-23/76a49db3-95df-471d-9461-f8442f88eb30",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_Meshir_second_vs_third",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-24",
+    "date": "2027-03-07",
+    "home_first_line": "Selected Season Sunday before the Great Fast Meshir 28, 1743 Sunday, March 7, 2027",
+    "coptic": {
+      "month": "Meshir",
+      "day": 28,
+      "year": 1743,
+      "month_number": 6,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time March 7, 2027 11:00 AM Meshir 28, 1743"
+    },
+    "source_folder": "SundayReadings-24/69d76fa2-ab1b-4c7b-9bdd-4446e3dd18c9",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-28",
+    "date": "2029-06-03",
+    "home_first_line": "Selected Season Apostles' Fast 4th Sunday of Pashons Sunday, June 3, 2029",
+    "coptic": {
+      "month": "Pashons",
+      "day": 26,
+      "year": 1745,
+      "month_number": 9,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 3, 2029 11:00 AM Pashons 26, 1745"
+    },
+    "source_folder": "SundayReadings-28/6eda5a97-b6f7-4f9d-979a-9b12e4fff4f3",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-29",
+    "date": "2026-06-14",
+    "home_first_line": "Selected Season Apostles' Fast 1st Sunday of Paone Sunday, June 14, 2026",
+    "coptic": {
+      "month": "Paone",
+      "day": 7,
+      "year": 1742,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 14, 2026 11:00 AM Paone 7, 1742"
+    },
+    "source_folder": "SundayReadings-29/bf967a45-6cc4-4b7f-85bd-d721ecc778f3",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-30",
+    "date": "2026-06-21",
+    "home_first_line": "Selected Season Apostles' Fast 2nd Sunday of Paone Sunday, June 21, 2026",
+    "coptic": {
+      "month": "Paone",
+      "day": 14,
+      "year": 1742,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 21, 2026 11:00 AM Paone 14, 1742"
+    },
+    "source_folder": "SundayReadings-30/70904f19-3e79-4990-90c4-83594a92cebf",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-31",
+    "date": "2026-06-28",
+    "home_first_line": "Selected Season Apostles' Fast 3rd Sunday of Paone Sunday, June 28, 2026",
+    "coptic": {
+      "month": "Paone",
+      "day": 21,
+      "year": 1742,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 28, 2026 11:00 AM Paone 21, 1742"
+    },
+    "source_folder": "SundayReadings-31/96e63294-b0dc-4dfa-95fa-de53ee224e35",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-32",
+    "date": "2026-07-05",
+    "home_first_line": "Selected Season Apostles' Fast 4th Sunday of Paone Sunday, July 5, 2026",
+    "coptic": {
+      "month": "Paone",
+      "day": 28,
+      "year": 1742,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 5, 2026 11:00 AM Paone 28, 1742"
+    },
+    "source_folder": "SundayReadings-32/ec787f6c-2ad1-46b7-88c5-70bacbe5046e",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-33",
+    "date": "2026-07-12",
+    "home_first_line": "Selected Season Apostles' Feast 1st Sunday of Epep Sunday, July 12, 2026",
+    "coptic": {
+      "month": "Epep",
+      "day": 5,
+      "year": 1742,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 12, 2026 11:00 AM Epep 5, 1742"
+    },
+    "source_folder": "SundayReadings-33/de196c91-48aa-4cec-9998-cbfcec736fb8",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-34",
+    "date": "2026-07-19",
+    "home_first_line": "Selected Season 2nd Sunday of Epep Epep 12, 1742 Sunday, July 19, 2026",
+    "coptic": {
+      "month": "Epep",
+      "day": 12,
+      "year": 1742,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 19, 2026 11:00 AM Epep 12, 1742"
+    },
+    "source_folder": "SundayReadings-34/fc2acbb9-6f48-4953-a60b-9ffdb0ffd592",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-35",
+    "date": "2026-07-26",
+    "home_first_line": "Selected Season 3rd Sunday of Epep Epep 19, 1742 Sunday, July 26, 2026",
+    "coptic": {
+      "month": "Epep",
+      "day": 19,
+      "year": 1742,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 26, 2026 11:00 AM Epep 19, 1742"
+    },
+    "source_folder": "SundayReadings-35/ea6f4e3c-4cf7-4a18-b9a8-2ee878ecd703",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-36",
+    "date": "2026-08-02",
+    "home_first_line": "Selected Season 4th Sunday of Epep Epep 26, 1742 Sunday, August 2, 2026",
+    "coptic": {
+      "month": "Epep",
+      "day": 26,
+      "year": 1742,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 2, 2026 11:00 AM Epep 26, 1742"
+    },
+    "source_folder": "SundayReadings-36/05b97be5-a57b-44ea-a151-31a5450f32bd",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-37",
+    "date": "2026-08-09",
+    "home_first_line": "Selected Season St. Mary's Fast 1st Sunday of Mesore Sunday, August 9, 2026",
+    "coptic": {
+      "month": "Mesore",
+      "day": 3,
+      "year": 1742,
+      "month_number": 12,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 9, 2026 11:00 AM Mesore 3, 1742"
+    },
+    "source_folder": "SundayReadings-37/71dbd3dd-e8f8-4833-90a1-b0ae8e66be73",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-38",
+    "date": "2026-08-16",
+    "home_first_line": "Selected Season St. Mary's Fast 2nd Sunday of Mesore Sunday, August 16, 2026",
+    "coptic": {
+      "month": "Mesore",
+      "day": 10,
+      "year": 1742,
+      "month_number": 12,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 16, 2026 11:00 AM Mesore 10, 1742"
+    },
+    "source_folder": "SundayReadings-38/0f10d25a-50ef-4126-872f-79f35d72b8ba",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-39",
+    "date": "2026-08-23",
+    "home_first_line": "Selected Season 3rd Sunday of Mesore Mesore 17, 1742 Sunday, August 23, 2026",
+    "coptic": {
+      "month": "Mesore",
+      "day": 17,
+      "year": 1742,
+      "month_number": 12,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 23, 2026 11:00 AM Mesore 17, 1742"
+    },
+    "source_folder": "SundayReadings-39/320d995b-8673-4a46-a037-04b979f1deb7",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-40",
+    "date": "2026-08-30",
+    "home_first_line": "Selected Season 4th Sunday of Mesore Mesore 24, 1742 Sunday, August 30, 2026",
+    "coptic": {
+      "month": "Mesore",
+      "day": 24,
+      "year": 1742,
+      "month_number": 12,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 30, 2026 11:00 AM Mesore 24, 1742"
+    },
+    "source_folder": "SundayReadings-40/fba38b92-aa39-4240-b96d-43e015ac0a68",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-41",
+    "date": "2026-09-06",
+    "home_first_line": "Selected Season 1st Sunday of Nesi Nesi 1, 1742 Sunday, September 6, 2026",
+    "coptic": {
+      "month": "Nesi",
+      "day": 1,
+      "year": 1742,
+      "month_number": 13,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time September 6, 2026 11:00 AM Nesi 1, 1742"
+    },
+    "source_folder": "SundayReadings-41/b7ada16a-94fd-4c43-8b86-8d63faedf5ee",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-56",
+    "date": "2027-10-10",
+    "home_first_line": "Selected Season Joyful 29th of the Month 4th Sunday of Thoout Sunday, October 10, 2027",
+    "coptic": {
+      "month": "Thoout",
+      "day": 29,
+      "year": 1744,
+      "month_number": 1,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time October 10, 2027 11:00 AM Thoout 29, 1744"
+    },
+    "source_folder": "SundayReadings-56/8251905c-6875-4bcd-8c76-a7efde417f96",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-62",
+    "date": "2028-08-06",
+    "home_first_line": "Selected Season 5th Sunday of Epep Epep 30, 1744 Sunday, August 6, 2028",
+    "coptic": {
+      "month": "Epep",
+      "day": 30,
+      "year": 1744,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 6, 2028 11:00 AM Epep 30, 1744"
+    },
+    "source_folder": "SundayReadings-62/2740828a-bb46-47b9-a84d-a25301d47287",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-57",
+    "date": "2026-11-08",
+    "home_first_line": "Selected Season Joyful 29th of the Month 5th Sunday of Paope Sunday, November 8, 2026",
+    "coptic": {
+      "month": "Paope",
+      "day": 29,
+      "year": 1743,
+      "month_number": 2,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time November 8, 2026 11:00 AM Paope 29, 1743"
+    },
+    "source_folder": "SundayReadings-57/5452bafc-6748-43b7-a11f-b126aafad67f",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-58",
+    "date": "2024-12-08",
+    "home_first_line": "Selected Season Joyful 29th of the Month 5th Sunday of Hathor Sunday, December 8, 2024",
+    "coptic": {
+      "month": "Hathor",
+      "day": 29,
+      "year": 1741,
+      "month_number": 3,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time December 8, 2024 11:00 AM Hathor 29, 1741"
+    },
+    "source_folder": "SundayReadings-58/b8fe5888-bcbc-49c2-92a6-e1623e8049c5",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-59",
+    "date": "2028-01-09",
+    "home_first_line": "Selected Season 2nd Day of the Nativity 5th Sunday of Koiahk Sunday, January 9, 2028",
+    "coptic": {
+      "month": "Koiahk",
+      "day": 30,
+      "year": 1744,
+      "month_number": 4,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time January 9, 2028 11:00 AM Koiahk 30, 1744"
+    },
+    "source_folder": "SundayReadings-59/1325988f-8a1f-4d37-8203-a06d0c262976",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_generic_fifth_vs_postNativity",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-60",
+    "date": "2027-02-07",
+    "home_first_line": "Selected Season 1st Sunday of Meshir Tobe 30, 1743 Sunday, February 7, 2027",
+    "coptic": {
+      "month": "Tobe",
+      "day": 30,
+      "year": 1743,
+      "month_number": 5,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time February 7, 2027 11:00 AM Tobe 30, 1743"
+    },
+    "source_folder": "SundayReadings-60/e3018f1b-6970-4c6f-b367-aec33c27ccbb",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "calendar_context_conflict_Tobe_fifth_vs_Meshir_first_no_whole_table",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-65",
+    "date": "2026-06-07",
+    "home_first_line": "Selected Season Apostles' Fast 5th Sunday of Pashons Sunday, June 7, 2026",
+    "coptic": {
+      "month": "Pashons",
+      "day": 30,
+      "year": 1742,
+      "month_number": 9,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 7, 2026 11:00 AM Pashons 30, 1742"
+    },
+    "source_folder": "SundayReadings-65/7433bc85-4174-45ac-aa7e-8f5ee6c2f4fd",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-66",
+    "date": "2025-07-06",
+    "home_first_line": "Selected Season Joyful 29th of the Month 5th Sunday of Paone Sunday, July 6, 2025",
+    "coptic": {
+      "month": "Paone",
+      "day": 29,
+      "year": 1741,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 6, 2025 11:00 AM Paone 29, 1741"
+    },
+    "source_folder": "SundayReadings-66/e9fbf245-7e41-4b12-a870-9259d0979001",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "SundayReadings-67",
+    "date": "2027-09-05",
+    "home_first_line": "Selected Season 1st Sunday of Nesi Mesore 30, 1743 Sunday, September 5, 2027",
+    "coptic": {
+      "month": "Mesore",
+      "day": 30,
+      "year": 1743,
+      "month_number": 12,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time September 5, 2027 11:00 AM Mesore 30, 1743"
+    },
+    "source_folder": "SundayReadings-67/7fcbd78e-35cd-4a01-8bbb-4eb6efed076a",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_Mesore_fifth_vs_Nesi_first",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "actual-fourth-Meshir",
+    "date": "2027-02-28",
+    "home_first_line": "Selected Season 4th Sunday of Meshir Meshir 21, 1743 Sunday, February 28, 2027",
+    "coptic": {
+      "month": "Meshir",
+      "day": 21,
+      "year": 1743,
+      "month_number": 6,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time February 28, 2027 11:00 AM Meshir 21, 1743"
+    },
+    "source_folder": "actual-fourth-Meshir/7706dd93-8acd-4668-a65e-b370cbfbaf57",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_Meshir_third_vs_fourth",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "first-Meshir-seam",
+    "date": "2027-02-14",
+    "home_first_line": "Selected Season 2nd Sunday of Meshir Meshir 7, 1743 Sunday, February 14, 2027",
+    "coptic": {
+      "month": "Meshir",
+      "day": 7,
+      "year": 1743,
+      "month_number": 6,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time February 14, 2027 11:00 AM Meshir 7, 1743"
+    },
+    "source_folder": "first-Meshir-seam/b69bdac7-55db-4cb8-97cd-114a1ae7e8ef",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "calendar_context_conflict_Meshir_first_vs_second_no_whole_table",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "Paope-fifth-non29",
+    "date": "2025-11-09",
+    "home_first_line": "Selected Season 5th Sunday of Paope Paope 30, 1742 Sunday, November 9, 2025",
+    "coptic": {
+      "month": "Paope",
+      "day": 30,
+      "year": 1742,
+      "month_number": 2,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time November 9, 2025 11:00 AM Paope 30, 1742"
+    },
+    "source_folder": "Paope-fifth-non29/a5884d1b-7c0e-465e-98a4-6d0655461b9f",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "Hathor-fifth-non29",
+    "date": "2023-12-10",
+    "home_first_line": "Selected Season 1st Sunday of Koiahk Hathor 30, 1740 Sunday, December 10, 2023",
+    "coptic": {
+      "month": "Hathor",
+      "day": 30,
+      "year": 1740,
+      "month_number": 3,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time December 10, 2023 11:00 AM Hathor 30, 1740"
+    },
+    "source_folder": "Hathor-fifth-non29/45bbb686-f785-4bae-9d8c-e12a895b8303",
+    "context_qualified": true,
+    "whole_table_qualified": false,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "no_whole_assignment_verdict_from_context_only_probe"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "Thoout-fifth-non29",
+    "date": "2021-10-10",
+    "home_first_line": "Selected Season 5th Sunday of Thoout Thoout 30, 1738 Sunday, October 10, 2021",
+    "coptic": {
+      "month": "Thoout",
+      "day": 30,
+      "year": 1738,
+      "month_number": 1,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time October 10, 2021 11:00 AM Thoout 30, 1738"
+    },
+    "source_folder": "Thoout-fifth-non29/4d1c3023-793e-452c-ad4d-c59b43511e2d",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "Paone-fifth-non29",
+    "date": "2024-07-07",
+    "home_first_line": "Selected Season Apostles' Fast 5th Sunday of Paone Sunday, July 7, 2024",
+    "coptic": {
+      "month": "Paone",
+      "day": 30,
+      "year": 1740,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 7, 2024 11:00 AM Paone 30, 1740"
+    },
+    "source_folder": "Paone-fifth-non29/81267d55-2475-4f98-9138-f102827e8af6",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "dated_context_probe",
+    "id": "Epep-first-nonfeast",
+    "date": "2027-07-11",
+    "home_first_line": "Selected Season Apostles' Fast 1st Sunday of Epep Sunday, July 11, 2027",
+    "coptic": {
+      "month": "Epep",
+      "day": 4,
+      "year": 1743,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 11, 2027 11:00 AM Epep 4, 1743"
+    },
+    "source_folder": "Epep-first-nonfeast/30e4a6ab-e130-4eb6-a888-5df33713ed16",
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-23",
+    "date": "2027-02-21",
+    "home_first_line": "Selected Season 3rd Sunday of Meshir Meshir 14, 1743 Sunday, February 21, 2027",
+    "coptic": {
+      "month": "Meshir",
+      "day": 14,
+      "year": 1743,
+      "month_number": 6,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time February 21, 2027 11:00 AM Meshir 14, 1743"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "64f80d5edf3276658bbaff55cc1241d4fb14cb74824aee2939f95140f1a3320b",
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_Meshir_second_vs_third",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-24",
+    "date": "2027-02-28",
+    "home_first_line": "Selected Season 4th Sunday of Meshir Meshir 21, 1743 Sunday, February 28, 2027",
+    "coptic": {
+      "month": "Meshir",
+      "day": 21,
+      "year": 1743,
+      "month_number": 6,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time February 28, 2027 11:00 AM Meshir 21, 1743"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "90f4c1501d44b31e94811cb45a9f2954ed0e064f8e7135c6da74e30a495d18cd",
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_Meshir_third_vs_fourth",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-28",
+    "date": "2029-06-03",
+    "home_first_line": "Selected Season Apostles' Fast 4th Sunday of Pashons Sunday, June 3, 2029",
+    "coptic": {
+      "month": "Pashons",
+      "day": 26,
+      "year": 1745,
+      "month_number": 9,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 3, 2029 11:00 AM Pashons 26, 1745"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "6b23d33e3b72971a4dc83688aa8e51a57106fe4a92e7a81449dcbc7156d6a5cf",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-29",
+    "date": "2026-06-14",
+    "home_first_line": "Selected Season Apostles' Fast 1st Sunday of Paone Sunday, June 14, 2026",
+    "coptic": {
+      "month": "Paone",
+      "day": 7,
+      "year": 1742,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 14, 2026 11:00 AM Paone 7, 1742"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "c27895b4db640d57f4e17585f33e7d0010e575ed92b27eee32707043bf1fd3fc",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-33",
+    "date": "2027-07-11",
+    "home_first_line": "Selected Season Apostles' Fast 1st Sunday of Epep Sunday, July 11, 2027",
+    "coptic": {
+      "month": "Epep",
+      "day": 4,
+      "year": 1743,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 11, 2027 11:00 AM Epep 4, 1743"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "923677aba5fdc5cc2ee0696c15cfddb631c3f764456712fc5e531cb537a47880",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-62",
+    "date": "2028-08-06",
+    "home_first_line": "Selected Season 5th Sunday of Epep Epep 30, 1744 Sunday, August 6, 2028",
+    "coptic": {
+      "month": "Epep",
+      "day": 30,
+      "year": 1744,
+      "month_number": 11,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time August 6, 2028 11:00 AM Epep 30, 1744"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "c1a5598d49c56df32c052dfc88633ed978c8665a7e74cdafa57dd8da6a077d6f",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-65",
+    "date": "2026-06-07",
+    "home_first_line": "Selected Season Apostles' Fast 5th Sunday of Pashons Sunday, June 7, 2026",
+    "coptic": {
+      "month": "Pashons",
+      "day": 30,
+      "year": 1742,
+      "month_number": 9,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time June 7, 2026 11:00 AM Pashons 30, 1742"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "c1a5598d49c56df32c052dfc88633ed978c8665a7e74cdafa57dd8da6a077d6f",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-56",
+    "date": "2021-10-10",
+    "home_first_line": "Selected Season 5th Sunday of Thoout Thoout 30, 1738 Sunday, October 10, 2021",
+    "coptic": {
+      "month": "Thoout",
+      "day": 30,
+      "year": 1738,
+      "month_number": 1,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time October 10, 2021 11:00 AM Thoout 30, 1738"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "df35f2be1717eb733e3c791e0281f63dc38c1f630f8604691edbc4db8078a50a",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "SundayReadings-66",
+    "date": "2024-07-07",
+    "home_first_line": "Selected Season Apostles' Fast 5th Sunday of Paone Sunday, July 7, 2024",
+    "coptic": {
+      "month": "Paone",
+      "day": 30,
+      "year": 1740,
+      "month_number": 10,
+      "selected_time": "11:00 AM",
+      "selected_line": "Select Date/Time July 7, 2024 11:00 AM Paone 30, 1740"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": true,
+    "composite_sha256": "c1a5598d49c56df32c052dfc88633ed978c8665a7e74cdafa57dd8da6a077d6f",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "canary-joyful29-Paope",
+    "date": "2026-11-08",
+    "home_first_line": "Selected Season Joyful 29th of the Month 5th Sunday of Paope Sunday, November 8, 2026",
+    "coptic": {
+      "month": "Paope",
+      "day": 29,
+      "year": 1743,
+      "month_number": 2,
+      "selected_time": "12:00 PM",
+      "selected_line": "Select Date/Time November 8, 2026 12:00 PM Paope 29, 1743"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "composite_sha256": "dea8c42d701955db4eee5ae53db0e4b3a1d8ae303ecd6b4c2291ffb68ee2c7ab",
+    "calendar_source_verdict": "no_confirmed_context_selection_conflict_in_this_bounded_review",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "canary-postNativity",
+    "date": "2028-01-09",
+    "home_first_line": "Selected Season 2nd Day of the Nativity 5th Sunday of Koiahk Sunday, January 9, 2028",
+    "coptic": {
+      "month": "Koiahk",
+      "day": 30,
+      "year": 1744,
+      "month_number": 4,
+      "selected_time": "12:00 PM",
+      "selected_line": "Select Date/Time January 9, 2028 12:00 PM Koiahk 30, 1744"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "composite_sha256": "3fd3e56dda15bf4ecacc057644376cf7787ad25b56abba47c99e611ec58bb7c6",
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_generic_fifth_vs_postNativity",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  },
+  {
+    "kind": "whole_table",
+    "id": "canary-Mesore-to-Nesi",
+    "date": "2027-09-05",
+    "home_first_line": "Selected Season 1st Sunday of Nesi Mesore 30, 1743 Sunday, September 5, 2027",
+    "coptic": {
+      "month": "Mesore",
+      "day": 30,
+      "year": 1743,
+      "month_number": 12,
+      "selected_time": "12:00 PM",
+      "selected_line": "Select Date/Time September 5, 2027 12:00 PM Mesore 30, 1743"
+    },
+    "context_qualified": true,
+    "whole_table_qualified": true,
+    "generic_template_coverage": false,
+    "composite_sha256": "00e020c1cd38453db7673f82399a817d1ffebb483c388f2b6df5391e5a655a65",
+    "calendar_source_verdict": "calendar_and_all_six_nonPsalm_assignments_conflict_Mesore_fifth_vs_Nesi_first",
+    "data_verdict": "whole_assignments_compared_in_calendar-data-mismatches.json"
+  }
+]

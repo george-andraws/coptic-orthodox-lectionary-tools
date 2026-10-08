@@ -1,0 +1,65 @@
+{
+  "civil_date": "2026-02-28",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 21, 1742 Saturday, February 28, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+  "documents": [
+    {
+      "civil_date": "2026-02-28",
+      "context": "Selected Season 2nd Week of Great Fast Meshir 21, 1742 Saturday, February 28, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:18.907Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "d82c4df5afd5d4b89c10ec2801bc1be814b0653f3e73699e6b4dced80caca895"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-28",
+      "context": "Selected Season 2nd Week of Great Fast Meshir 21, 1742 Saturday, February 28, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mary the Mother of God",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:24.222Z",
+      "raw_reference_lines": [
+        "\tPsalms 24:7,10",
+        "\tMark 9:43-50"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "9e100155b462ec2aa60c127c37878e4d1fef557cd1c81a2ed2190f092672da4b",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 24:7,10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "e1142dec131cae23a7d563285b95e794aa8eeef0426b50b798bca9c0a08c2162"
+        },
+        {
+          "raw_ref": "\tMark 9:43-50",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "8f479210a9da2f04dcb1632fb095231a50f1def51653eadca467eb9471597ab3"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

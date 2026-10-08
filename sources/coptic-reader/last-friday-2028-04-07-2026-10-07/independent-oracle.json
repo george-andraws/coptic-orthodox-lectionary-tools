@@ -1,0 +1,788 @@
+{
+  "id": "exception-2028-04-07",
+  "date": "2028-04-07",
+  "family": "calendar_exception",
+  "homeContext": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "source_table_line": 1,
+  "original_status": "whole_ordinary_scripture_table_captured",
+  "review_status": "qualified_ordinary_documents_with_explicit_rubrics",
+  "table_bytes_hash_verified": true,
+  "documents": [
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Vespers",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Vespers.txt",
+      "screenshotPath": "exception-2028-04-07/Vespers.png",
+      "textSha256": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+      "screenshotSha256": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:24.276Z",
+      "printedReferences": [],
+      "sourceReferenceHeadings": [],
+      "rubrics": [
+        {
+          "line_number": 1,
+          "byte_offset": 0,
+          "byte_length": 287,
+          "raw_line": "Vespers and Vesper Praises are not prayed during Jonah's Fast, weekdays of the Great Fast, Pascha Week, the Paramouns, and the Feast of the Resurrection. During the Feasts of the Nativity and Theophany, Vespers and Vesper Praises are prayed only if the feast falls on a Sunday or Monday.",
+          "raw_line_utf8_base64": "VmVzcGVycyBhbmQgVmVzcGVyIFByYWlzZXMgYXJlIG5vdCBwcmF5ZWQgZHVyaW5nIEpvbmFoJ3MgRmFzdCwgd2Vla2RheXMgb2YgdGhlIEdyZWF0IEZhc3QsIFBhc2NoYSBXZWVrLCB0aGUgUGFyYW1vdW5zLCBhbmQgdGhlIEZlYXN0IG9mIHRoZSBSZXN1cnJlY3Rpb24uIER1cmluZyB0aGUgRmVhc3RzIG9mIHRoZSBOYXRpdml0eSBhbmQgVGhlb3BoYW55LCBWZXNwZXJzIGFuZCBWZXNwZXIgUHJhaXNlcyBhcmUgcHJheWVkIG9ubHkgaWYgdGhlIGZlYXN0IGZhbGxzIG9uIGEgU3VuZGF5IG9yIE1vbmRheS4=",
+          "classification": "rubric"
+        }
+      ],
+      "namedMaterial": [],
+      "incidentalMaterialCandidates": [],
+      "semanticStatus": "explicit_rubric_no_scripture_in_this_document",
+      "bilingualReferenceHeadings": []
+    },
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Matins-Prophecies",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Matins-Prophecies.txt",
+      "screenshotPath": "exception-2028-04-07/Matins-Prophecies.png",
+      "textSha256": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+      "screenshotSha256": "b0bb2f11f93ea0004eb7b5bf79a85217d31391ecbec904f44e421a04ff16705d",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:29.602Z",
+      "printedReferences": [
+        "Genesis 49:33-50:26",
+        "Proverbs 11:27-12:22",
+        "Isaiah 66:10-24",
+        "Job 42:7-17"
+      ],
+      "sourceReferenceHeadings": [
+        {
+          "line_number": 3,
+          "byte_offset": 26,
+          "byte_length": 21,
+          "raw_line": "\tGenesis 49:33-50:26\n",
+          "raw_line_utf8_base64": "CUdlbmVzaXMgNDk6MzMtNTA6MjYK",
+          "printed_reference": "Genesis 49:33-50:26",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 1,
+          "classification": "assigned_scripture_heading"
+        },
+        {
+          "line_number": 65,
+          "byte_offset": 11509,
+          "byte_length": 22,
+          "raw_line": "\tProverbs 11:27-12:22\n",
+          "raw_line_utf8_base64": "CVByb3ZlcmJzIDExOjI3LTEyOjIyCg==",
+          "printed_reference": "Proverbs 11:27-12:22",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 2,
+          "classification": "assigned_scripture_heading"
+        },
+        {
+          "line_number": 127,
+          "byte_offset": 19638,
+          "byte_length": 17,
+          "raw_line": "\tIsaiah 66:10-24\n",
+          "raw_line_utf8_base64": "CUlzYWlhaCA2NjoxMC0yNAo=",
+          "printed_reference": "Isaiah 66:10-24",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 3,
+          "classification": "assigned_scripture_heading"
+        },
+        {
+          "line_number": 165,
+          "byte_offset": 27591,
+          "byte_length": 13,
+          "raw_line": "\tJob 42:7-17\n",
+          "raw_line_utf8_base64": "CUpvYiA0Mjo3LTE3Cg==",
+          "printed_reference": "Job 42:7-17",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 4,
+          "classification": "assigned_scripture_heading"
+        }
+      ],
+      "rubrics": [],
+      "namedMaterial": [],
+      "incidentalMaterialCandidates": [],
+      "semanticStatus": "assigned_scripture_rendered",
+      "bilingualReferenceHeadings": [
+        {
+          "line_number": 4,
+          "byte_offset": 47,
+          "byte_length": 27,
+          "raw_line": "(تكوين 49: 33-50: 26)\n",
+          "raw_line_utf8_base64": "KNiq2YPZiNmK2YYgNDk6IDMzLTUwOiAyNikK",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        },
+        {
+          "line_number": 66,
+          "byte_offset": 11531,
+          "byte_length": 27,
+          "raw_line": "(أمثال 11: 27-12: 22)\n",
+          "raw_line_utf8_base64": "KNij2YXYq9in2YQgMTE6IDI3LTEyOiAyMikK",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        },
+        {
+          "line_number": 128,
+          "byte_offset": 19655,
+          "byte_length": 25,
+          "raw_line": "(اشعياء 66: 10-24)\n",
+          "raw_line_utf8_base64": "KNin2LTYudmK2KfYoSA2NjogMTAtMjQpCg==",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        },
+        {
+          "line_number": 166,
+          "byte_offset": 27604,
+          "byte_length": 20,
+          "raw_line": "(ايوب 42: 7-17)\n",
+          "raw_line_utf8_base64": "KNin2YrZiNioIDQyOiA3LTE3KQo=",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        }
+      ]
+    },
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Matins-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Matins-Psalm_and_Gospel.txt",
+      "screenshotPath": "exception-2028-04-07/Matins-Psalm_and_Gospel.png",
+      "textSha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "screenshotSha256": "2bd8fcef0b6e31b8bda7fe00c7340b26fca36aa099616b7032690d9e8d2345d0",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:34.122Z",
+      "printedReferences": [
+        "Psalms 31:11-12",
+        "Luke 16:19-31"
+      ],
+      "sourceReferenceHeadings": [
+        {
+          "line_number": 7,
+          "byte_offset": 849,
+          "byte_length": 17,
+          "raw_line": "\tPsalms 31:11-12\n",
+          "raw_line_utf8_base64": "CVBzYWxtcyAzMToxMS0xMgo=",
+          "printed_reference": "Psalms 31:11-12",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 1,
+          "classification": "assigned_scripture_heading"
+        },
+        {
+          "line_number": 34,
+          "byte_offset": 2824,
+          "byte_length": 15,
+          "raw_line": "\tLuke 16:19-31\n",
+          "raw_line_utf8_base64": "CUx1a2UgMTY6MTktMzEK",
+          "printed_reference": "Luke 16:19-31",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 2,
+          "classification": "assigned_scripture_heading"
+        }
+      ],
+      "rubrics": [
+        {
+          "line_number": 26,
+          "byte_offset": 2246,
+          "byte_length": 45,
+          "raw_line": "Then the introduction to the Gospel is read.\n",
+          "raw_line_utf8_base64": "VGhlbiB0aGUgaW50cm9kdWN0aW9uIHRvIHRoZSBHb3NwZWwgaXMgcmVhZC4K",
+          "classification": "rubric"
+        }
+      ],
+      "namedMaterial": [
+        {
+          "line_number": 18,
+          "byte_offset": 2006,
+          "byte_length": 40,
+          "raw_line": "\tPsalm Trailer for the Pope or a Bishop\n",
+          "raw_line_utf8_base64": "CVBzYWxtIFRyYWlsZXIgZm9yIHRoZSBQb3BlIG9yIGEgQmlzaG9wCg==",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        }
+      ],
+      "incidentalMaterialCandidates": [
+        {
+          "line_number": 1,
+          "byte_offset": 0,
+          "byte_length": 191,
+          "raw_line": "Stand in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to our teacher Saint Luke the Evangelist, and the pure disciple. May his blessings be with us all.\n",
+          "raw_line_utf8_base64": "U3RhbmQgaW4gdGhlIGZlYXIgb2YgR29kIGFuZCBsaXN0ZW4gdG8gdGhlIEhvbHkgR29zcGVsLiBBIHJlYWRpbmcgZnJvbSB0aGUgR29zcGVsIGFjY29yZGluZyB0byBvdXIgdGVhY2hlciBTYWludCBMdWtlIHRoZSBFdmFuZ2VsaXN0LCBhbmQgdGhlIHB1cmUgZGlzY2lwbGUuIE1heSBoaXMgYmxlc3NpbmdzIGJlIHdpdGggdXMgYWxsLgo=",
+          "classification": "liturgical_formula_or_attribution_not_additional_assignment",
+          "confidence": "lexical_candidate"
+        },
+        {
+          "line_number": 3,
+          "byte_offset": 567,
+          "byte_length": 84,
+          "raw_line": "From the Psalms of our teacher David the prophet. May his blessings be with us all.\n",
+          "raw_line_utf8_base64": "RnJvbSB0aGUgUHNhbG1zIG9mIG91ciB0ZWFjaGVyIERhdmlkIHRoZSBwcm9waGV0LiBNYXkgaGlzIGJsZXNzaW5ncyBiZSB3aXRoIHVzIGFsbC4K",
+          "classification": "liturgical_formula_or_attribution_not_additional_assignment",
+          "confidence": "lexical_candidate"
+        },
+        {
+          "line_number": 29,
+          "byte_offset": 2347,
+          "byte_length": 159,
+          "raw_line": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\n",
+          "raw_line_utf8_base64": "Qmxlc3NlZCBpcyBIZSB3aG8gY29tZXMgaW4gdGhlIG5hbWUgb2YgdGhlIExvcmQuIE91ciBMb3JkLCBHb2QsIFNhdmlvciBhbmQgS2luZyBvZiB1cyBhbGwsIEplc3VzIENocmlzdCwgU29uIG9mIHRoZSBsaXZpbmcgR29kIHRvIHdob20gaXMgZ2xvcnkgZm9yZXZlci4gQW1lbi4K",
+          "classification": "liturgical_formula_or_attribution_not_additional_assignment",
+          "confidence": "lexical_candidate"
+        }
+      ],
+      "semanticStatus": "assigned_scripture_rendered",
+      "bilingualReferenceHeadings": [
+        {
+          "line_number": 8,
+          "byte_offset": 866,
+          "byte_length": 25,
+          "raw_line": "(مزامير 31: 11-12)\n",
+          "raw_line_utf8_base64": "KNmF2LLYp9mF2YrYsSAzMTogMTEtMTIpCg==",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        },
+        {
+          "line_number": 35,
+          "byte_offset": 2839,
+          "byte_length": 21,
+          "raw_line": "(لوقا 16: 19-31)\n",
+          "raw_line_utf8_base64": "KNmE2YjZgtinIDE2OiAxOS0zMSkK",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        }
+      ]
+    },
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Liturgy-Pauline Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Liturgy-Pauline_Epistle.txt",
+      "screenshotPath": "exception-2028-04-07/Liturgy-Pauline_Epistle.png",
+      "textSha256": "8a788fef8bbbef28b68a1b714eaa4a21222430dc68cbd6b110be96d7870190a5",
+      "screenshotSha256": "ebfe47e1d826afced2f860183b6c9e00e4b9c6d21fc879aa07f21929a246bade",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:40.061Z",
+      "printedReferences": [
+        "2 Timothy 3:1-4:5"
+      ],
+      "sourceReferenceHeadings": [
+        {
+          "line_number": 17,
+          "byte_offset": 502,
+          "byte_length": 19,
+          "raw_line": "\t2 Timothy 3:1-4:5\n",
+          "raw_line_utf8_base64": "CTIgVGltb3RoeSAzOjEtNDo1Cg==",
+          "printed_reference": "2 Timothy 3:1-4:5",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 1,
+          "classification": "assigned_scripture_heading"
+        }
+      ],
+      "rubrics": [],
+      "namedMaterial": [
+        {
+          "line_number": 3,
+          "byte_offset": 29,
+          "byte_length": 44,
+          "raw_line": "\tIntroduction to the Coptic Pauline Epistle\n",
+          "raw_line_utf8_base64": "CUludHJvZHVjdGlvbiB0byB0aGUgQ29wdGljIFBhdWxpbmUgRXBpc3RsZQo=",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 5,
+          "byte_offset": 112,
+          "byte_length": 42,
+          "raw_line": "\tConclusion to the Coptic Pauline Epistle\n",
+          "raw_line_utf8_base64": "CUNvbmNsdXNpb24gdG8gdGhlIENvcHRpYyBQYXVsaW5lIEVwaXN0bGUK",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 7,
+          "byte_offset": 189,
+          "byte_length": 33,
+          "raw_line": "\tResponse to the Pauline Epistle\n",
+          "raw_line_utf8_base64": "CVJlc3BvbnNlIHRvIHRoZSBQYXVsaW5lIEVwaXN0bGUK",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 9,
+          "byte_offset": 257,
+          "byte_length": 39,
+          "raw_line": "\tGreat Response to the Pauline Epistle\n",
+          "raw_line_utf8_base64": "CUdyZWF0IFJlc3BvbnNlIHRvIHRoZSBQYXVsaW5lIEVwaXN0bGUK",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 11,
+          "byte_offset": 331,
+          "byte_length": 43,
+          "raw_line": "\tAlternate Response to the Pauline Epistle\n",
+          "raw_line_utf8_base64": "CUFsdGVybmF0ZSBSZXNwb25zZSB0byB0aGUgUGF1bGluZSBFcGlzdGxlCg==",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 13,
+          "byte_offset": 401,
+          "byte_length": 21,
+          "raw_line": "\tHymn of the Virtues\n",
+          "raw_line_utf8_base64": "CUh5bW4gb2YgdGhlIFZpcnR1ZXMK",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 15,
+          "byte_offset": 455,
+          "byte_length": 13,
+          "raw_line": "\tThe Blessed\n",
+          "raw_line_utf8_base64": "CVRoZSBCbGVzc2VkCg==",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        }
+      ],
+      "incidentalMaterialCandidates": [],
+      "semanticStatus": "assigned_scripture_rendered",
+      "bilingualReferenceHeadings": [
+        {
+          "line_number": 18,
+          "byte_offset": 521,
+          "byte_length": 31,
+          "raw_line": "(2 تيموثاوس 3: 1-4: 5)\n",
+          "raw_line_utf8_base64": "KDIg2KrZitmF2YjYq9in2YjYsyAzOiAxLTQ6IDUpCg==",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        }
+      ]
+    },
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Liturgy-Catholic Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Liturgy-Catholic_Epistle.txt",
+      "screenshotPath": "exception-2028-04-07/Liturgy-Catholic_Epistle.png",
+      "textSha256": "988226c7b902cc49378e335212d11fb04770fce35477d3c74c0d00389916c1d6",
+      "screenshotSha256": "2832b93274583507a4cff4399cd901fd0f302df4c871541fe1673b49a0a1f8ee",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:42.957Z",
+      "printedReferences": [
+        "James 5:7-16"
+      ],
+      "sourceReferenceHeadings": [
+        {
+          "line_number": 5,
+          "byte_offset": 118,
+          "byte_length": 14,
+          "raw_line": "\tJames 5:7-16\n",
+          "raw_line_utf8_base64": "CUphbWVzIDU6Ny0xNgo=",
+          "printed_reference": "James 5:7-16",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 1,
+          "classification": "assigned_scripture_heading"
+        }
+      ],
+      "rubrics": [],
+      "namedMaterial": [
+        {
+          "line_number": 3,
+          "byte_offset": 40,
+          "byte_length": 45,
+          "raw_line": "\tIntroduction to the Coptic Catholic Epistle\n",
+          "raw_line_utf8_base64": "CUludHJvZHVjdGlvbiB0byB0aGUgQ29wdGljIENhdGhvbGljIEVwaXN0bGUK",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 42,
+          "byte_offset": 8259,
+          "byte_length": 43,
+          "raw_line": "\tConclusion to the Coptic Catholic Epistle\n",
+          "raw_line_utf8_base64": "CUNvbmNsdXNpb24gdG8gdGhlIENvcHRpYyBDYXRob2xpYyBFcGlzdGxlCg==",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        }
+      ],
+      "incidentalMaterialCandidates": [],
+      "semanticStatus": "assigned_scripture_rendered",
+      "bilingualReferenceHeadings": [
+        {
+          "line_number": 6,
+          "byte_offset": 132,
+          "byte_length": 21,
+          "raw_line": "(يعقوب 5: 7-16)\n",
+          "raw_line_utf8_base64": "KNmK2LnZgtmI2KggNTogNy0xNikK",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        }
+      ]
+    },
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Liturgy-Praxis",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Liturgy-Praxis.txt",
+      "screenshotPath": "exception-2028-04-07/Liturgy-Praxis.png",
+      "textSha256": "c03a6a48456234fadd45ade12b115b63c833f52e45621c90c49e1d7d9695eb36",
+      "screenshotSha256": "60094540011a3c2394b855ebc48d47089a8a70cf3912d5374f90a6e7f86419bb",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:47.667Z",
+      "printedReferences": [
+        "Acts 15:1-18"
+      ],
+      "sourceReferenceHeadings": [
+        {
+          "line_number": 5,
+          "byte_offset": 85,
+          "byte_length": 14,
+          "raw_line": "\tActs 15:1-18\n",
+          "raw_line_utf8_base64": "CUFjdHMgMTU6MS0xOAo=",
+          "printed_reference": "Acts 15:1-18",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 1,
+          "classification": "assigned_scripture_heading"
+        }
+      ],
+      "rubrics": [],
+      "namedMaterial": [
+        {
+          "line_number": 3,
+          "byte_offset": 26,
+          "byte_length": 35,
+          "raw_line": "\tIntroduction to the Coptic Praxis\n",
+          "raw_line_utf8_base64": "CUludHJvZHVjdGlvbiB0byB0aGUgQ29wdGljIFByYXhpcwo=",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        },
+        {
+          "line_number": 66,
+          "byte_offset": 13554,
+          "byte_length": 33,
+          "raw_line": "\tConclusion to the Coptic Praxis\n",
+          "raw_line_utf8_base64": "CUNvbmNsdXNpb24gdG8gdGhlIENvcHRpYyBQcmF4aXMK",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        }
+      ],
+      "incidentalMaterialCandidates": [],
+      "semanticStatus": "assigned_scripture_rendered",
+      "bilingualReferenceHeadings": [
+        {
+          "line_number": 6,
+          "byte_offset": 99,
+          "byte_length": 22,
+          "raw_line": "(اعمال 15: 1-18)\n",
+          "raw_line_utf8_base64": "KNin2LnZhdin2YQgMTU6IDEtMTgpCg==",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        }
+      ]
+    },
+    {
+      "context": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "label": "Liturgy-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "exception-2028-04-07/Liturgy-Psalm_and_Gospel.txt",
+      "screenshotPath": "exception-2028-04-07/Liturgy-Psalm_and_Gospel.png",
+      "textSha256": "1e6e850870b9d0c26205ee292e6942093b72dccd98ded561d92cf133c51ee8d9",
+      "screenshotSha256": "dd02c434ced27108d115658ee41e614d9c76f074eb7da8f7e38c919f8606a56d",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:30:54.983Z",
+      "printedReferences": [
+        "Psalms 97:8",
+        "Luke 13:31-35"
+      ],
+      "sourceReferenceHeadings": [
+        {
+          "line_number": 7,
+          "byte_offset": 850,
+          "byte_length": 13,
+          "raw_line": "\tPsalms 97:8\n",
+          "raw_line_utf8_base64": "CVBzYWxtcyA5Nzo4Cg==",
+          "printed_reference": "Psalms 97:8",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 1,
+          "classification": "assigned_scripture_heading"
+        },
+        {
+          "line_number": 34,
+          "byte_offset": 2572,
+          "byte_length": 15,
+          "raw_line": "\tLuke 13:31-35\n",
+          "raw_line_utf8_base64": "CUx1a2UgMTM6MzEtMzUK",
+          "printed_reference": "Luke 13:31-35",
+          "leading_whitespace": "\t",
+          "trailing_whitespace": "",
+          "ordinal": 2,
+          "classification": "assigned_scripture_heading"
+        }
+      ],
+      "rubrics": [
+        {
+          "line_number": 26,
+          "byte_offset": 1993,
+          "byte_length": 45,
+          "raw_line": "Then the introduction to the Gospel is read.\n",
+          "raw_line_utf8_base64": "VGhlbiB0aGUgaW50cm9kdWN0aW9uIHRvIHRoZSBHb3NwZWwgaXMgcmVhZC4K",
+          "classification": "rubric"
+        }
+      ],
+      "namedMaterial": [
+        {
+          "line_number": 18,
+          "byte_offset": 1753,
+          "byte_length": 40,
+          "raw_line": "\tPsalm Trailer for the Pope or a Bishop\n",
+          "raw_line_utf8_base64": "CVBzYWxtIFRyYWlsZXIgZm9yIHRoZSBQb3BlIG9yIGEgQmlzaG9wCg==",
+          "classification": "named_hymn_or_liturgical_subdocument_not_assigned_scripture"
+        }
+      ],
+      "incidentalMaterialCandidates": [
+        {
+          "line_number": 1,
+          "byte_offset": 0,
+          "byte_length": 191,
+          "raw_line": "Stand in the fear of God and listen to the Holy Gospel. A reading from the Gospel according to our teacher Saint Luke the Evangelist, and the pure disciple. May his blessings be with us all.\n",
+          "raw_line_utf8_base64": "U3RhbmQgaW4gdGhlIGZlYXIgb2YgR29kIGFuZCBsaXN0ZW4gdG8gdGhlIEhvbHkgR29zcGVsLiBBIHJlYWRpbmcgZnJvbSB0aGUgR29zcGVsIGFjY29yZGluZyB0byBvdXIgdGVhY2hlciBTYWludCBMdWtlIHRoZSBFdmFuZ2VsaXN0LCBhbmQgdGhlIHB1cmUgZGlzY2lwbGUuIE1heSBoaXMgYmxlc3NpbmdzIGJlIHdpdGggdXMgYWxsLgo=",
+          "classification": "liturgical_formula_or_attribution_not_additional_assignment",
+          "confidence": "lexical_candidate"
+        },
+        {
+          "line_number": 3,
+          "byte_offset": 567,
+          "byte_length": 84,
+          "raw_line": "From the Psalms of our teacher David the prophet. May his blessings be with us all.\n",
+          "raw_line_utf8_base64": "RnJvbSB0aGUgUHNhbG1zIG9mIG91ciB0ZWFjaGVyIERhdmlkIHRoZSBwcm9waGV0LiBNYXkgaGlzIGJsZXNzaW5ncyBiZSB3aXRoIHVzIGFsbC4K",
+          "classification": "liturgical_formula_or_attribution_not_additional_assignment",
+          "confidence": "lexical_candidate"
+        },
+        {
+          "line_number": 29,
+          "byte_offset": 2094,
+          "byte_length": 159,
+          "raw_line": "Blessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\n",
+          "raw_line_utf8_base64": "Qmxlc3NlZCBpcyBIZSB3aG8gY29tZXMgaW4gdGhlIG5hbWUgb2YgdGhlIExvcmQuIE91ciBMb3JkLCBHb2QsIFNhdmlvciBhbmQgS2luZyBvZiB1cyBhbGwsIEplc3VzIENocmlzdCwgU29uIG9mIHRoZSBsaXZpbmcgR29kIHRvIHdob20gaXMgZ2xvcnkgZm9yZXZlci4gQW1lbi4K",
+          "classification": "liturgical_formula_or_attribution_not_additional_assignment",
+          "confidence": "lexical_candidate"
+        }
+      ],
+      "semanticStatus": "assigned_scripture_rendered",
+      "bilingualReferenceHeadings": [
+        {
+          "line_number": 8,
+          "byte_offset": 863,
+          "byte_length": 21,
+          "raw_line": "(مزامير 97: 8)\n",
+          "raw_line_utf8_base64": "KNmF2LLYp9mF2YrYsSA5NzogOCkK",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        },
+        {
+          "line_number": 35,
+          "byte_offset": 2587,
+          "byte_length": 21,
+          "raw_line": "(لوقا 13: 31-35)\n",
+          "raw_line_utf8_base64": "KNmE2YjZgtinIDEzOiAzMS0zNSkK",
+          "classification": "bilingual_reference_heading_preserved_not_second_assignment"
+        }
+      ]
+    }
+  ],
+  "orderedPrintedReferences": [
+    {
+      "slot": "Vespers",
+      "refs": []
+    },
+    {
+      "slot": "Matins-Prophecies",
+      "refs": [
+        "Genesis 49:33-50:26",
+        "Proverbs 11:27-12:22",
+        "Isaiah 66:10-24",
+        "Job 42:7-17"
+      ]
+    },
+    {
+      "slot": "Matins-Psalm and Gospel",
+      "refs": [
+        "Psalms 31:11-12",
+        "Luke 16:19-31"
+      ]
+    },
+    {
+      "slot": "Liturgy-Pauline Epistle",
+      "refs": [
+        "2 Timothy 3:1-4:5"
+      ]
+    },
+    {
+      "slot": "Liturgy-Catholic Epistle",
+      "refs": [
+        "James 5:7-16"
+      ]
+    },
+    {
+      "slot": "Liturgy-Praxis",
+      "refs": [
+        "Acts 15:1-18"
+      ]
+    },
+    {
+      "slot": "Liturgy-Psalm and Gospel",
+      "refs": [
+        "Psalms 97:8",
+        "Luke 13:31-35"
+      ]
+    }
+  ],
+  "orderedAssignedOccurrences": [
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Matins-Prophecies",
+      "document_order": 2,
+      "heading_order": 1,
+      "printed_reference": "Genesis 49:33-50:26",
+      "raw_line": "\tGenesis 49:33-50:26\n",
+      "byte_offset": 26,
+      "source_text_sha256": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Matins-Prophecies",
+      "document_order": 2,
+      "heading_order": 2,
+      "printed_reference": "Proverbs 11:27-12:22",
+      "raw_line": "\tProverbs 11:27-12:22\n",
+      "byte_offset": 11509,
+      "source_text_sha256": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Matins-Prophecies",
+      "document_order": 2,
+      "heading_order": 3,
+      "printed_reference": "Isaiah 66:10-24",
+      "raw_line": "\tIsaiah 66:10-24\n",
+      "byte_offset": 19638,
+      "source_text_sha256": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Matins-Prophecies",
+      "document_order": 2,
+      "heading_order": 4,
+      "printed_reference": "Job 42:7-17",
+      "raw_line": "\tJob 42:7-17\n",
+      "byte_offset": 27591,
+      "source_text_sha256": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Matins-Psalm and Gospel",
+      "document_order": 3,
+      "heading_order": 1,
+      "printed_reference": "Psalms 31:11-12",
+      "raw_line": "\tPsalms 31:11-12\n",
+      "byte_offset": 849,
+      "source_text_sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "psalm_convention": "Coptic Reader printed; no verse/chapter conversion adjudicated"
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Matins-Psalm and Gospel",
+      "document_order": 3,
+      "heading_order": 2,
+      "printed_reference": "Luke 16:19-31",
+      "raw_line": "\tLuke 16:19-31\n",
+      "byte_offset": 2824,
+      "source_text_sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Liturgy-Pauline Epistle",
+      "document_order": 4,
+      "heading_order": 1,
+      "printed_reference": "2 Timothy 3:1-4:5",
+      "raw_line": "\t2 Timothy 3:1-4:5\n",
+      "byte_offset": 502,
+      "source_text_sha256": "8a788fef8bbbef28b68a1b714eaa4a21222430dc68cbd6b110be96d7870190a5",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Liturgy-Catholic Epistle",
+      "document_order": 5,
+      "heading_order": 1,
+      "printed_reference": "James 5:7-16",
+      "raw_line": "\tJames 5:7-16\n",
+      "byte_offset": 118,
+      "source_text_sha256": "988226c7b902cc49378e335212d11fb04770fce35477d3c74c0d00389916c1d6",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Liturgy-Praxis",
+      "document_order": 6,
+      "heading_order": 1,
+      "printed_reference": "Acts 15:1-18",
+      "raw_line": "\tActs 15:1-18\n",
+      "byte_offset": 85,
+      "source_text_sha256": "c03a6a48456234fadd45ade12b115b63c833f52e45621c90c49e1d7d9695eb36",
+      "psalm_convention": null
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Liturgy-Psalm and Gospel",
+      "document_order": 7,
+      "heading_order": 1,
+      "printed_reference": "Psalms 97:8",
+      "raw_line": "\tPsalms 97:8\n",
+      "byte_offset": 850,
+      "source_text_sha256": "1e6e850870b9d0c26205ee292e6942093b72dccd98ded561d92cf133c51ee8d9",
+      "psalm_convention": "Coptic Reader printed; no verse/chapter conversion adjudicated"
+    },
+    {
+      "context_id": "exception-2028-04-07",
+      "date": "2028-04-07",
+      "source_home": "Selected Season Last Friday of Great Fast Paremhotep 29, 1744 Friday, April 7, 2028\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "slot": "Liturgy-Psalm and Gospel",
+      "document_order": 7,
+      "heading_order": 2,
+      "printed_reference": "Luke 13:31-35",
+      "raw_line": "\tLuke 13:31-35\n",
+      "byte_offset": 2572,
+      "source_text_sha256": "1e6e850870b9d0c26205ee292e6942093b72dccd98ded561d92cf133c51ee8d9",
+      "psalm_convention": null
+    }
+  ],
+  "empty_template_slots": [],
+  "absence_scope": "Explicit rubrics apply only to captured ordinary documents. Empty templates do not establish no assigned readings; Holy Pascha requires Special > Pascha hour evidence.",
+  "source_tableTextSha256": "a5c50cb2d065b73dc0cb8937a2a2fbfb022f57433dbfd1424cf5426112f3bae2"
+}

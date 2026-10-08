@@ -1,0 +1,63 @@
+{
+  "civil_date": "2026-03-09",
+  "context": "Selected Season 4th Week of Great Fast Meshir 30, 1742 Monday, March 9, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. John the Baptist His Holiness Pope Kyrillos VI",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:24:38.921Z",
+  "raw_reference_lines": [
+    "\tGenesis 27:1-41",
+    "\tIsaiah 14:24-32",
+    "\tJob 16:1-17:16"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/Prophecies.txt",
+  "text_sha256": "ca1f4abef10874d864dcb114baff6e340e4e40a3b01eac740cf5d91c46d93d4c",
+  "screenshot_sha256": "5a78d3ba6111ae643cdeb12d44bd3fa9a8e9c40b20285a2159e9e7dd64327afe",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/context.txt",
+      "sha256": "db5bdb111166fe8676bc8a5a3f51153d82acafc75e7541e66c814b9a1fccb71b"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/context.png",
+      "sha256": "0a60c97440c77533f9544ca2334bad7818f372570e233b6e3103cfdc1dd823e6"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/picker.json",
+      "sha256": "7c2eab3235efa814b6ec33c52e271acc603f861c4fe9c0c8abb259ec0de6730a"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/picker.png",
+      "sha256": "edbe957900d45b59ff68867b0d7d57697c43a3c8088b7982c4e90e614f8f4891"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tGenesis 27:1-41",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/reference-01.png",
+      "sha256": "5a78d3ba6111ae643cdeb12d44bd3fa9a8e9c40b20285a2159e9e7dd64327afe"
+    },
+    {
+      "raw_ref": "\tIsaiah 14:24-32",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/reference-02.png",
+      "sha256": "1c8797f16bbfad9ab4365feebfb9b4d276a4978ec6b5bdd84e0698b52aa83100"
+    },
+    {
+      "raw_ref": "\tJob 16:1-17:16",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-09/reference-03.png",
+      "sha256": "a967676e10ad959809ae14736e90b33130f78f2ff4a99e91a1625bbdea448107"
+    }
+  ],
+  "source_gate": {
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

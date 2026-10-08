@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-17",
+  "context": "Selected Season 5th Week of Great Fast Paremhotep 8, 1742 Tuesday, March 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-17",
+      "context": "Selected Season 5th Week of Great Fast Paremhotep 8, 1742 Tuesday, March 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:38.466Z",
+      "raw_reference_lines": [
+        "\tPsalms 85:5-6",
+        "\tMark 9:14-24"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "782d819a7f06a4cdcad2699ac6ecb9aed4f8b7b53f016cfaa6a21f62c3662ae8",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 85:5-6",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "31b490322a6b1a964f8c9fb3d118954be1f2486649fb78849f9bc749f8432ab2"
+        },
+        {
+          "raw_ref": "\tMark 9:14-24",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "e85198e69838c2722c87f1f1ed1fed6fa091e355471e326906e0ba49ad396e61"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

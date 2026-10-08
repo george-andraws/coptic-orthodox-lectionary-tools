@@ -1,0 +1,17 @@
+..F......
+======================================================================
+FAIL: test_design_validator_accepts_source_verified_daily_artifacts (test_lent_matins_prophecies.LentMatinsProphecies.test_design_validator_accepts_source_verified_daily_artifacts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 104, in test_design_validator_accepts_source_verified_daily_artifacts
+    validator.verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 549, in verify_rows
+    fail(f"Malformed removed_marker: {marker}")
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 96, in fail
+    raise AssertionError(message)
+AssertionError: Malformed removed_marker: removed_by_coptic_reader_no_service
+
+----------------------------------------------------------------------
+Ran 9 tests in 25.641s
+
+FAILED (failures=1)

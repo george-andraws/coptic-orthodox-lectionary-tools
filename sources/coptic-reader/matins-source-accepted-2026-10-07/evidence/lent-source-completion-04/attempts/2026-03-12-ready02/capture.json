@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-12",
+  "context": "Selected Season 4th Week of Great Fast Paremhotep 3, 1742 Thursday, March 12, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-12",
+      "context": "Selected Season 4th Week of Great Fast Paremhotep 3, 1742 Thursday, March 12, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:08.241Z",
+      "raw_reference_lines": [
+        "\tPsalms 11:9",
+        "\tMark 3:7-12"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "2c230d611d3eff2f02818800fcfbced0ff3d28e1b586962d8b3a660b203c0a7e",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 11:9",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "80f6be920c6849708f047050820538b9d2f92612a9706c9eaf1480fe350d4946"
+        },
+        {
+          "raw_ref": "\tMark 3:7-12",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "19f63bfb547992478398ddb3308eb9b9ff9b0e8cfade3c84610d880835568f6b"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

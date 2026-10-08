@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-27",
+  "context": "Selected Season 6th Week of Great Fast Paremhotep 18, 1742 Friday, March 27, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-27",
+      "context": "Selected Season 6th Week of Great Fast Paremhotep 18, 1742 Friday, March 27, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:31:13.122Z",
+      "raw_reference_lines": [
+        "\tPsalms 50:7-8",
+        "\tJohn 3:14-21"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "0bed868dd50409585554016506132f0caef3ee16e400396b97a44e276c415241",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 50:7-8",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "89ef4c9ab4835aa27f2034f9fd90ed6295d525c79ee222e959c8374385cd6804"
+        },
+        {
+          "raw_ref": "\tJohn 3:14-21",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "ab0cd9d4732a919781f821ed430812311581ff29be43ba4cfad470aff875314a"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

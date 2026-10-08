@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-25",
+  "context": "Selected Season 6th Week of Great Fast Paremhotep 16, 1742 Wednesday, March 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-25",
+      "context": "Selected Season 6th Week of Great Fast Paremhotep 16, 1742 Wednesday, March 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:31:12.115Z",
+      "raw_reference_lines": [
+        "\tPsalms 101:14, 17",
+        "\tMark 7:1-20"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "88cd24530e38572303096f411ffbe919c75e92626f89de60e51f0567574f8ee1",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 101:14, 17",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "9b6aa9fdac43394b966022386e1bdabc144ceb9d53654d8463b705ef8fa20258"
+        },
+        {
+          "raw_ref": "\tMark 7:1-20",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "e271e7222764470dcf2e836201fd0f21977b1957f17134d14235092e5fb92a92"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

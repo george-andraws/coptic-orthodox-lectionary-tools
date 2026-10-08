@@ -1,0 +1,11 @@
+{"mutation": "context_Paramoun_ordinary_nine_shape", "killed": true, "reason": "actual context"}
+{"mutation": "book_Hebrews_to_Romans", "killed": true, "reason": "heading order/book"}
+{"mutation": "reading_order", "killed": true, "reason": "heading order/book"}
+{"mutation": "body_block_truncation", "killed": true, "reason": "complete block"}
+{"mutation": "endpoint_truncation", "killed": true, "reason": "heading order/book"}
+{"mutation": "missing_image", "killed": true, "reason": "missing/corrupt image"}
+{"mutation": "false_recurring_promotion", "killed": true, "reason": "false promotion"}
+{"mutation": "false_release_promotion", "killed": true, "reason": "false promotion"}
+{"mutation": "Psalm_false_coordinate_promotion", "killed": true, "reason": "Psalm coordinate promotion"}
+{"mutation": "2023_context_only_as_complete", "killed": true, "reason": "bounded date"}
+{"mutation": "raw_body_corruption", "killed": true, "reason": "body hash"}

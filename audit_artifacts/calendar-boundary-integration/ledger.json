@@ -1,0 +1,48 @@
+{
+  "source_scope": "calendar boundary and source passage helper only",
+  "baseline_source_sha256": "4dc81de0ee6d707e045df055f899ddd4c3b6441c5cdd8f46218ae8c022067394",
+  "compared_civil_dates": 5752,
+  "unchanged_civil_dates": 5750,
+  "changed_dates": [
+    "2023-04-07",
+    "2028-04-07"
+  ],
+  "raw_source_count": 50446,
+  "current_source_before_count": 50564,
+  "current_source_after_count": 50568,
+  "target_before_count": 9,
+  "target_after_count": 11,
+  "boundary_collision_counts": {
+    "2023-04-07": {
+      "before": 9,
+      "after": 11
+    },
+    "2028-04-07": {
+      "before": 9,
+      "after": 11
+    }
+  },
+  "recurrence_disclosure": "2023-04-07 has the same exact Annunciation AND Last-Friday -9 collision; applies the 2028 verified recurring context, not a fresh 2023 capture",
+  "suppressed_service": "Vespers",
+  "missing_matins_prophecies_restored": 4,
+  "raw_removed_context": {
+    "date": "2028-04-07",
+    "occasion": "Annunciation",
+    "reason": "superseded by independently captured Last Friday complete table; preserve historical source rows"
+  },
+  "recurring_prophecy_scope": "exact Last Friday -9 AND Annunciation feast collision; no noncollision enrichment",
+  "isolated_actual_helper": "build_current_date_sidecars",
+  "unrun": [
+    "full builders",
+    "design/site",
+    "npm install/pack/publish",
+    "deploy",
+    "vault",
+    "commits"
+  ],
+  "parent_followup": [
+    "recognize boundary source provenance in crosswalk/design",
+    "preserve raw Annunciation as context-qualified superseded history",
+    "full serialized rebuild and release gates remain held"
+  ]
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/build_design_deliverables.py", line 2883, in <module>
+    main()
+  File "/Users/ga/workspace/synaxarium-package-release/build_design_deliverables.py", line 2797, in main
+    reverse_index_rows, reverse_index_status_disagreements = build_reverse_lectionary_index(presentation_rows)
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ga/workspace/synaxarium-package-release/build_design_deliverables.py", line 1445, in build_reverse_lectionary_index
+    raise AssertionError(f"reverse_lectionary_index row count {len(index_rows)} != expected 11921 after authoritative source corrections")
+AssertionError: reverse_lectionary_index row count 11925 != expected 11921 after authoritative source corrections

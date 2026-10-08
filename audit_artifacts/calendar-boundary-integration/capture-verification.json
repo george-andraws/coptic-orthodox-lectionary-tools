@@ -1,0 +1,136 @@
+{
+  "status": "verified_before_fixture_copy",
+  "selected_date": "2028-04-07",
+  "coptic_date": "Paremhotep 29, 1744",
+  "occasion": "Last Friday of Great Fast",
+  "assigned_occurrences": 11,
+  "files": [
+    {
+      "file": "home-selected.txt",
+      "sha256": "324ccec60fb8cd4c618e4306021925440985d69d7f28f1e0a9fbad52567484b4",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/home-selected.txt",
+      "capture": "2026-10-07T16:30:20.005Z"
+    },
+    {
+      "file": "home-selected.png",
+      "sha256": "808902b0184513dbf96b38a16f853072e5cbe3faad77c0c3361f093096beedc2",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/home-selected.png",
+      "capture": "2026-10-07T16:30:20.005Z"
+    },
+    {
+      "file": "picker-selected.txt",
+      "sha256": "7e339c62a52f0f52ec56d2a18a3b7222f3ab6f6887e59d95752d6ab7d2488cb6",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/picker-selected.txt",
+      "capture": "2026-10-07T16:30:18.637Z"
+    },
+    {
+      "file": "picker-selected.png",
+      "sha256": "008879e94a2fade2db4e616b09a3f73a2c40fc8235836543bd86ba3976891ff6",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/picker-selected.png",
+      "capture": "2026-10-07T16:30:18.637Z"
+    },
+    {
+      "file": "Vespers.txt",
+      "sha256": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Vespers.txt",
+      "capture": "2026-10-07T16:30:24.276Z"
+    },
+    {
+      "file": "Vespers.png",
+      "sha256": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Vespers.png",
+      "capture": "2026-10-07T16:30:24.276Z"
+    },
+    {
+      "file": "Matins-Prophecies.txt",
+      "sha256": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Matins-Prophecies.txt",
+      "capture": "2026-10-07T16:30:29.602Z"
+    },
+    {
+      "file": "Matins-Prophecies.png",
+      "sha256": "b0bb2f11f93ea0004eb7b5bf79a85217d31391ecbec904f44e421a04ff16705d",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Matins-Prophecies.png",
+      "capture": "2026-10-07T16:30:29.602Z"
+    },
+    {
+      "file": "Matins-Psalm_and_Gospel.txt",
+      "sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Matins-Psalm_and_Gospel.txt",
+      "capture": "2026-10-07T16:30:34.122Z"
+    },
+    {
+      "file": "Matins-Psalm_and_Gospel.png",
+      "sha256": "2bd8fcef0b6e31b8bda7fe00c7340b26fca36aa099616b7032690d9e8d2345d0",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Matins-Psalm_and_Gospel.png",
+      "capture": "2026-10-07T16:30:34.122Z"
+    },
+    {
+      "file": "Liturgy-Pauline_Epistle.txt",
+      "sha256": "8a788fef8bbbef28b68a1b714eaa4a21222430dc68cbd6b110be96d7870190a5",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Pauline_Epistle.txt",
+      "capture": "2026-10-07T16:30:40.061Z"
+    },
+    {
+      "file": "Liturgy-Pauline_Epistle.png",
+      "sha256": "ebfe47e1d826afced2f860183b6c9e00e4b9c6d21fc879aa07f21929a246bade",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Pauline_Epistle.png",
+      "capture": "2026-10-07T16:30:40.061Z"
+    },
+    {
+      "file": "Liturgy-Catholic_Epistle.txt",
+      "sha256": "988226c7b902cc49378e335212d11fb04770fce35477d3c74c0d00389916c1d6",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Catholic_Epistle.txt",
+      "capture": "2026-10-07T16:30:42.957Z"
+    },
+    {
+      "file": "Liturgy-Catholic_Epistle.png",
+      "sha256": "2832b93274583507a4cff4399cd901fd0f302df4c871541fe1673b49a0a1f8ee",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Catholic_Epistle.png",
+      "capture": "2026-10-07T16:30:42.957Z"
+    },
+    {
+      "file": "Liturgy-Praxis.txt",
+      "sha256": "c03a6a48456234fadd45ade12b115b63c833f52e45621c90c49e1d7d9695eb36",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Praxis.txt",
+      "capture": "2026-10-07T16:30:47.667Z"
+    },
+    {
+      "file": "Liturgy-Praxis.png",
+      "sha256": "60094540011a3c2394b855ebc48d47089a8a70cf3912d5374f90a6e7f86419bb",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Praxis.png",
+      "capture": "2026-10-07T16:30:47.667Z"
+    },
+    {
+      "file": "Liturgy-Psalm_and_Gospel.txt",
+      "sha256": "1e6e850870b9d0c26205ee292e6942093b72dccd98ded561d92cf133c51ee8d9",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Psalm_and_Gospel.txt",
+      "capture": "2026-10-07T16:30:54.983Z"
+    },
+    {
+      "file": "Liturgy-Psalm_and_Gospel.png",
+      "sha256": "dd02c434ced27108d115658ee41e614d9c76f074eb7da8f7e38c919f8606a56d",
+      "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-ordinary/exception-2028-04-07/Liturgy-Psalm_and_Gospel.png",
+      "capture": "2026-10-07T16:30:54.983Z"
+    }
+  ],
+  "normalization_witnesses": [
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Psalm+32&version=NKJV",
+      "path": "nkjv-psalm-32.txt",
+      "sha256": "280bac3e31cc5a68c1531c29d185ce40d9551e2678a4e14d2e221e49a4ef38a4",
+      "convention": "mt_nkjv"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Psalm+98&version=NKJV",
+      "path": "nkjv-psalm-98.txt",
+      "sha256": "28a101d9cbcb2e3f24fc6791060e86d5aa2bb38880bd50645947afb9593554de",
+      "convention": "mt_nkjv"
+    }
+  ],
+  "visual_review": [
+    "home/date/occasion verified",
+    "ready Prophecies Genesis 49:33-50:26 verified",
+    "explicit no Vespers rubric verified"
+  ]
+}

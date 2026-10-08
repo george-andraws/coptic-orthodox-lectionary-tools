@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { execFileSync } from 'node:child_process';
 import { createReadStream } from 'node:fs';
-import { mkdir, readFile, rm, writeFile, copyFile, stat } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, copyFile, stat } from 'node:fs/promises';
 import { createInterface } from 'node:readline';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.2.0';
+const VERSION = '1.3.1';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -149,6 +149,9 @@ function slotOrder(slot, serviceSection) {
 }
 
 const SOURCE_PRIORITY = new Map([
+  ['coptic_reader_verified_calendar_boundary', 0],
+  ['coptic_reader_verified_supplement', 0],
+  ['coptic_reader_verified_sunday_policy', 0],
   ['ordinary_date_resolved', 10],
   ['coptic_reader_fixture', 20],
   ['holy_pascha_curated_day_hour', 30],
@@ -399,6 +402,7 @@ function annotateRemovedProjectionRow(row, suppression, baseline, baselineMisses
     baselineMisses.push(removalBaselineMiss(row, suppression, resolved.reason));
     return row;
   }
+  const consumerNote = 'Retained for provenance only because a higher-priority date-resolved source supplies the active reading for this context. Ignore this row by default in active lookups.';
   return normalizeObjectStrings({
     ...row,
     active: false,
@@ -413,7 +417,7 @@ function annotateRemovedProjectionRow(row, suppression, baseline, baselineMisses
     preferred_identity_key: suppression.preferred_identity_key,
     preferred_display_ref: suppression.preferred_display_ref,
     retained_for: 'provenance_only',
-    consumer_note: 'Retained for provenance only because a higher-priority date-resolved source supplies the active reading for this context. Ignore this row by default in active lookups.',
+    consumer_note: consumerNote,
   });
 }
 
@@ -643,7 +647,29 @@ function addMissingStructuralDailyRows(sorted, year, projectedRows) {
   return additions;
 }
 
-function sortDailyReadings(readings) {
+function sortDailyReadings(readings, date = '') {
+  const boundarySource = 'sources/coptic-reader/last-friday-2028-04-07-2026-10-07/verified-table.json';
+  // This authenticated whole-table replacement has one supplied sequence,
+  // not independent prophecy and Psalm/Gospel slot-order families. Keep this
+  // projection confined to the captured collision; it grants no recurrence.
+  const completeBoundary = date === '2028-04-07' && readings.length === 11 && readings.every((reading, index) =>
+    isCurrentReading(reading)
+    && reading.source_kind === 'copticchurch_date'
+    && reading.source_family === 'coptic_reader_verified_calendar_boundary'
+    && reading.source_file === boundarySource
+    && reading.source_row_id === `boundary:${boundarySource}:2028-04-07:${index + 1}`
+    && reading.occasion === 'Friday of the seventh week of Great Lent'
+    && !reading.service_hour
+    && reading.service_section === (index < 6 ? 'Matins' : 'Liturgy'));
+  if (completeBoundary) {
+    return readings.map((reading, index) => ({
+      ...reading,
+      reading_order: index + 1,
+      service_order: serviceOrder(reading.service_section),
+      slot_type: reading.slot_type || slotType(reading.slot),
+      slot_order: index < 6 ? index + 1 : index - 5,
+    }));
+  }
   const enriched = readings.filter(isCurrentReading).map((reading) => ({
     ...reading,
     service_order: existingNumericOrder(reading.service_order) ?? serviceOrder(reading.service_section),
@@ -651,10 +677,22 @@ function sortDailyReadings(readings) {
     slot_order: existingNumericOrder(reading.slot_order) ?? slotOrder(reading.slot, reading.service_section),
   }));
   enriched.sort((a, b) => {
+    const ordinary = (row) => row.source_kind === 'copticchurch_date'
+      && row.source_family === 'ordinary_date_resolved' && !row.service_hour
+      && ['Vespers', 'Matins', 'Liturgy'].includes(row.service_section);
+    const stages = { pauline: 0, catholicon: 1, praxis: 2, psalm: 3, gospel: 4 };
+    const ordinaryPair = ordinary(a) && ordinary(b)
+      && a.slot_type in stages && b.slot_type in stages;
     const numeric = a.service_order - b.service_order
       || serviceOrder(a.service_hour || a.service_section) - serviceOrder(b.service_hour || b.service_section)
+      // Matins prophecies precede its Psalm/Gospel, without renumbering either slot family.
+      || Number(b.source_family === 'coptic_reader_verified_supplement') - Number(a.source_family === 'coptic_reader_verified_supplement')
+      || (ordinaryPair ? stages[a.slot_type] - stages[b.slot_type] : 0)
       || a.slot_order - b.slot_order;
     if (numeric) return numeric;
+    // Ordinary companion fragments retain their authenticated supplied order.
+    // Pascha/hour and special-service ordering remain outside this projection.
+    if (ordinaryPair) return 0;
     const keysA = [a.service_section || '', a.service_hour || '', a.slot || '', a.source_group_key || '', a.display_ref || '', a.identity_key || ''];
     const keysB = [b.service_section || '', b.service_hour || '', b.slot || '', b.source_group_key || '', b.display_ref || '', b.identity_key || ''];
     return keysA < keysB ? -1 : keysA > keysB ? 1 : 0;
@@ -718,7 +756,7 @@ async function readDailyInfo(year, projectedRows) {
     if (!Array.isArray(readings)) {
       throw new Error(`${source} date ${date} must map to an array of readings.`);
     }
-    sorted[date] = sortDailyReadings(readings.map((reading) => normalizeObjectStrings(reading)));
+    sorted[date] = sortDailyReadings(readings.map((reading) => normalizeObjectStrings(reading)), date);
   }
 
   const structuralDailyAdditions = addMissingStructuralDailyRows(sorted, year, projectedRows);
@@ -1084,7 +1122,16 @@ async function main() {
   const sourceRepoCommit = readGitHead();
   const sourceTreeDirty = readGitDirty();
 
-  await rm(PACKAGE_DIR, { recursive: true, force: true });
+  // The 1.3 release owns the catalog/calendar runtime. This readings builder
+  // must not replace it with the legacy 1.2 templates or delete its assets.
+  const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
+  const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', VERSION].includes(existingPackage.version)) {
+    throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
+  }
+  for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
+    await stat(path.join(PACKAGE_DIR, file));
+  }
   await mkdir(DAILY_DIR, { recursive: true });
 
   const reverseProjection = await projectReverseIndex();
@@ -1098,13 +1145,11 @@ async function main() {
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);
 
-  const meta = metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFiles, structuralDateResolver, projectionRules);
+  const freshMeta = metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFiles, structuralDateResolver, projectionRules);
+  const meta = { ...existingMeta, ...freshMeta, schema_notes: { ...existingMeta.schema_notes, ...freshMeta.schema_notes } };
 
-  await writeFile(path.join(PACKAGE_DIR, 'package.json'), `${JSON.stringify(packageJson(), null, 2)}\n`, 'utf8');
-  await writeFile(path.join(PACKAGE_DIR, 'index.js'), indexJs(), 'utf8');
+  await writeFile(path.join(PACKAGE_DIR, 'package.json'), `${JSON.stringify({ ...existingPackage, version: VERSION }, null, 2)}\n`, 'utf8');
   await writeFile(path.join(PACKAGE_DIR, 'meta.json'), `${JSON.stringify(meta, null, 2)}\n`, 'utf8');
-  await writeFile(path.join(PACKAGE_DIR, 'README.md'), readme(meta), 'utf8');
-  await writeFile(path.join(PACKAGE_DIR, 'LICENSE'), licenseText(), 'utf8');
 
   const packageStats = await stat(OCCASION_DEST);
   console.log(JSON.stringify({

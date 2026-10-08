@@ -8,11 +8,47 @@ Examples:
   python3 query_lectionary.py --cycle-passage "Isa 2"
   python3 query_lectionary.py --pascha-day "Good Friday" --hour "Sixth Hour"
 """
-import argparse, csv
+import argparse, csv, re
 from typing import Optional
 from pathlib import Path
 
-from passage_normalization import contains_any, is_numeric_query, parse_passage, passage_matches, query_variants
+from passage_normalization import contains_any, is_numeric_query, parse_passage, passage_matches, query_variants, iter_numeric_ref_segments
+
+
+def current_source_row(row):
+    # Keep the generated standalone query usable without the source builders.
+    for key in ('active', 'is_active', 'include_in_current_index'):
+        value = row.get(key)
+        if value not in (None, '') and str(value).strip().lower() not in {'true', '1', 'yes'}:
+            return False
+    for key in ('state', 'status'):
+        value = str(row.get(key) or '').strip().lower()
+        if value and value not in {'current', 'active'}:
+            return False
+    for key in ('current_status', 'projection_status'):
+        value = str(row.get(key) or '').strip().lower()
+        if value and value not in {'current', 'active', 'current_confirmed_coptic_reader',
+                'current_confirmed_by_fixture_equivalence', 'current_public_or_local_reference',
+                'current_working_source_not_coptic_reader_checked', 'pending_psalm_equivalence_unresolved', 'unknown'}:
+            return False
+    if str(row.get('removed_from_standard_lectionary', '')).strip().lower() in {'true', '1', 'yes'}:
+        return False
+    if row.get('superseded_by_ref') or re.search(r'^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b', str(row.get('removed_marker') or ''), re.I):
+        return False
+    return not any(row.get(k) for k in ('superseded_reason', 'removal_reason', 'removed_reason', 'removal_effective_version'))
+
+
+def numeric_matches(query, candidate):
+    code, coordinates = query.strip().split('.', 1)
+    # Reuse the structured overlap matcher, with a common placeholder book only
+    # AFTER checking numeric book identity. Raw historical refs are never an alias.
+    try:
+        return any(segment['book'] == 'Acts' and passage_matches('Acts ' + coordinates, segment['normalized_segment'])
+                   for segment in iter_numeric_ref_segments(candidate, {int(code): 'Acts'}))
+    except ValueError:
+        # Quarantined malformed source coordinates are not current matches;
+        # do not salvage a nested numeric code or crash unrelated valid queries.
+        return False
 
 
 def resolve_data_dir(explicit: Optional[str] = None) -> Path:
@@ -239,7 +275,8 @@ def main():
     ap.add_argument('--data-dir', help='Explicit CSV data directory; default is root/out/data or generated scripts/../data')
     ap.add_argument('--date', help='Gregorian date YYYY-MM-DD, using copticchurch.net date-resolved cache')
     ap.add_argument('--passage', help='Find date-resolved occurrences by passage text, e.g. "John 20" or "Jn 20:1"')
-    ap.add_argument('--cycle-passage', help='Find core Katameros cycle occurrences by normalized/raw passage text, e.g. "Isa 2" or "40.5"')
+    ap.add_argument('--cycle-passage', help='Find current core Katameros cycle occurrences by corrected text/numeric coordinates, e.g. "Isa 2" or "40.5"')
+    ap.add_argument('--historical', action='store_true', help='Opt-in HISTORICAL cycle source lane: includes retained inactive originals and raw coordinates; only with --cycle-passage')
     ap.add_argument('--special-service', help='Find curated sacramental and special-service readings by service family, variant, section, reading type, or passage')
     ap.add_argument('--source-text', help='Find source-text extracted Holy Pascha readings by day, hour, reading type, passage, source file, or page')
     ap.add_argument('--agpeya', help='Find Agpeya hour/watch readings by prayer group, prayer name, reading type, or passage')
@@ -249,6 +286,8 @@ def main():
     ap.add_argument('--include-crosswalk', action='store_true', help='For --passage lookups, append reverse-crosswalk matches instead of using it only as a fallback')
     ap.add_argument('--limit', type=int, default=80)
     args=ap.parse_args()
+    if args.historical and not args.cycle_passage:
+        ap.error('--historical requires --cycle-passage')
     try:
         DATA = resolve_data_dir(args.data_dir)
         if not DATA.is_dir():
@@ -294,17 +333,22 @@ def main():
         print_unique(chapter_lines(args.chapter, args.limit), args.limit)
         return
     if args.cycle_passage:
-        if is_numeric_query(args.cycle_passage):
-            needles=query_variants(args.cycle_passage)
-            lines=[]
+        lines=[]
+        numeric = is_numeric_query(args.cycle_passage)
+        if numeric or args.historical:
             for r in rows(DATA/'katameros_cycle_readings.csv'):
-                hay=r.get('normalized_ref','')+' '+r.get('raw_ref','')
-                if contains_any(hay, needles):
-                    lines.append(f"{r['source_table']} | {r['day_key']} | {r['season']} | {r['reading_slot']} | {r['normalized_ref']} | raw={r['raw_ref']}")
+                if not args.historical and not current_source_row(r):
+                    continue
+                coordinate = r.get('numeric_ref') or r.get('raw_ref', '')
+                matched = numeric_matches(args.cycle_passage, coordinate) if numeric else passage_matches(args.cycle_passage, r.get('normalized_ref', ''))
+                if args.historical and numeric:
+                    matched = matched or numeric_matches(args.cycle_passage, r.get('raw_ref', ''))
+                if matched:
+                    label = f"HISTORICAL source lane | state={r.get('state') or r.get('status') or r.get('current_status') or ('current' if current_source_row(r) else 'inactive')} | " if args.historical else ''
+                    lines.append(label + f"{r['source_table']} | {r['day_key']} | {r['season']} | {r['reading_slot']} | {r['normalized_ref']} | raw={r['raw_ref']}")
         else:
-            lines=[]
             for r in rows(DATA/'katameros_cycle_passage_index.csv'):
-                if passage_matches(args.cycle_passage, r.get('canonical_segment','')) or passage_matches(args.cycle_passage, r.get('normalized_segment','')):
+                if current_source_row(r) and (passage_matches(args.cycle_passage, r.get('canonical_segment','')) or passage_matches(args.cycle_passage, r.get('normalized_segment',''))):
                     lines.append(f"{r['source_table']} | {r['day_key']} | {r['season']} | {r['reading_slot']} | {r['normalized_segment']} | raw={r['raw_ref']}")
         print_unique(lines, args.limit)
         return

@@ -1,0 +1,66 @@
+{
+  "baseline_occasions": 55,
+  "additional_actual_collision_witnesses": 3,
+  "all_actual_occasions": 58,
+  "structural_child_contexts": 116,
+  "approved_owned_lane_unique_contexts": 58,
+  "other_lane_source_acceptance": "NOT_PROVIDED",
+  "assigned_unique_prophecy_tables": 39,
+  "explicit_absence_unique_contexts": 19,
+  "stored_seed_keys": 52,
+  "source_seed_distinct_offsets": 51,
+  "alias": "week 49 day_of_week 3 -> week 4 day_of_week 3; GreatFast@-32; all eight slot/ref rows identical",
+  "supported_calendar_candidates": 880,
+  "fixed_feast_collision_candidates": 34,
+  "recurrence_source_proof": false,
+  "date_local_collision_witnesses": [
+    {
+      "civil_date": "2026-02-15",
+      "actual_occasion": "Presentation of the Lord Christ in the Temple",
+      "occasion_key": "Presentation@-56",
+      "numeric_coptic": {
+        "year": 1742,
+        "month": 6,
+        "month_name": "Meshir",
+        "day": 8
+      },
+      "source_proof_not_computed_policy": true
+    },
+    {
+      "civil_date": "2026-03-19",
+      "actual_occasion": "Feast of the Cross",
+      "occasion_key": "Cross@-24",
+      "numeric_coptic": {
+        "year": 1742,
+        "month": 7,
+        "month_name": "Paremhotep",
+        "day": 10
+      },
+      "source_proof_not_computed_policy": true
+    },
+    {
+      "civil_date": "2028-04-07",
+      "actual_occasion": "Last Friday of Great Fast",
+      "occasion_key": "GreatFast@-9",
+      "numeric_coptic": {
+        "year": 1744,
+        "month": 7,
+        "month_name": "Paremhotep",
+        "day": 29
+      },
+      "source_proof_not_computed_policy": true
+    },
+    {
+      "civil_date": "2027-04-07",
+      "actual_occasion": "Annunciation",
+      "occasion_key": "Annunciation@-25",
+      "numeric_coptic": {
+        "year": 1743,
+        "month": 7,
+        "month_name": "Paremhotep",
+        "day": 29
+      },
+      "source_proof_not_computed_policy": true
+    }
+  ]
+}

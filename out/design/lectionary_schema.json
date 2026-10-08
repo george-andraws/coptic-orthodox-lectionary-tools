@@ -57,13 +57,15 @@
     "source_convention": [
       "modern_english_reference",
       "mt_nkjv",
-      "lxx_liturgical_or_fixture_label"
+      "lxx_liturgical_or_fixture_label",
+      "existing_numeric_source_coordinates_alignment_held"
     ],
     "canonicalization_confidence": [
       "high",
       "medium",
       "low",
-      "n/a"
+      "n/a",
+      "held"
     ],
     "current_status": [
       "current_confirmed_coptic_reader",
@@ -1579,6 +1581,9 @@
       "source_family",
       "source_file",
       "source_row_id",
+      "source_label",
+      "source_order",
+      "source_token_order",
       "authority_tier",
       "occasion",
       "calendar_key",

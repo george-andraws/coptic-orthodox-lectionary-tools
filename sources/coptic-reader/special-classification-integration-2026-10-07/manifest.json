@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "completeness_claimed": false,
+  "normalization_changes": false,
+  "classifications": 37,
+  "stage_joins": 35,
+  "legacy_rows": 178,
+  "reader_records": 478,
+  "preserved_old_assigned_contract": 333,
+  "preserved_old_other_evidence": 70,
+  "additional_evidence_records": 75,
+  "review_receipt_sha256": "c7d254c4ac8b29b639323f2b9c87086ca031c686d7634580a206b02e611d49cd",
+  "files": {
+    "source-classification-verdicts.json": "de56efa0c2009b32359dbd2e1901a2848f04a3dc35dee10d2ad3302799f0bf19",
+    "stage-join-verdicts.json": "cf602a107617584a82244eb77ea185d4508006dbc03f89b72f1b95ba5338ca42",
+    "independent-timothy-proof.json": "26f442b0398cb4d79621b2d7d547fc130d8cecd1641b0794947e8f5a8c19a51f",
+    "FINAL-RECEIPT.json": "c7d254c4ac8b29b639323f2b9c87086ca031c686d7634580a206b02e611d49cd",
+    "official-myron-page-evidence.json": "8b7bf77090cc88996940532cb92cc7a569678c64e453abacdb224eb555aff449",
+    "legacy-52-confirmation-verdicts.json": "8fac3a851990ed722ab06c18fed21fd15c7fe4d73a37ac12ee7a608326ed9cb6",
+    "legacy-25-supersession-verdicts.json": "d8f3ae24f02e76627f99110159e85a3ffa95e25afd181e97856059241fc47bc3"
+  }
+}

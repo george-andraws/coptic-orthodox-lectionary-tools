@@ -1,0 +1,1856 @@
+[
+  {
+    "civil_date": "2026-02-23",
+    "context": "Selected Season 2nd Week of Great Fast Meshir 16, 1742 Monday, February 23, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Mikhail El-Behirey",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:14:31.612Z",
+    "raw_reference_lines": [
+      "\tExodus 3:6-14",
+      "\tIsaiah 4:2-5:7"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/Prophecies.txt",
+    "text_sha256": "d2ef907817fb42505b858a2dfdfa59d25d63abe2443abe32dace7a6586fbbb0f",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/reference-01.png",
+    "screenshot_sha256": "37c482941ceb5b3bf4e51c6dc7520777a33fe7fdf35491f069a37f368e8f2743",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/context.txt",
+        "sha256": "6cb8bfa9c8979d4efcdccee11ae9f7f2bf96bd100c10ec49fed71acbc29e2a48"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/context.png",
+        "sha256": "c39056382efb8f20010211cf5e9719755220df0ef675db805515c0c841296479"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/picker.json",
+        "sha256": "d356d14289510718966c6f2a2eafc862c907a65038d2ee2f6ace7dc40d3100f0"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/picker.png",
+        "sha256": "330b082768e48c09723ab472b898e967c87cdc2e29588058c63d853eec68d5c0"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tExodus 3:6-14",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/reference-01.png",
+        "sha256": "37c482941ceb5b3bf4e51c6dc7520777a33fe7fdf35491f069a37f368e8f2743"
+      },
+      {
+        "raw_ref": "\tIsaiah 4:2-5:7",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/reference-02.png",
+        "sha256": "3affa532913d8712386cb6a7a5a25ffc8d1e79ac8daae0b9aaa77baf0c335d54"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-23-v3-01/2026-02-23/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-02-24",
+    "context": "Selected Season 2nd Week of Great Fast Meshir 17, 1742 Tuesday, February 24, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:15:23.623Z",
+    "raw_reference_lines": [
+      "\tJob 19:1-27",
+      "\tIsaiah 5:7-16"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/Prophecies.txt",
+    "text_sha256": "1174d076e1e33c2c7b032d437ec7695b8cfc90f42025c5a760c137e4e57939df",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/reference-01.png",
+    "screenshot_sha256": "d01dd51af2f7916157c91b0829320ff8b3f498e7e24dea8ce196bcc7b84be49c",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/context.txt",
+        "sha256": "91d6c52fe7b75f29e396b387df7b1da4615611127dd1a29bba7dc949c4023d6a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/context.png",
+        "sha256": "b4599c6e433523ef7df357fbd71b21eb41cedce09b7e75b8760acc24f72249d6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/picker.json",
+        "sha256": "706b1716da4489e1c50ff9d6919ffc6ada1286db8d5205b1f7ea8532b137e893"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/picker.png",
+        "sha256": "8e92858723aaf57de0f2b2572a01a5eb3bdcad126ce7ce64892069031e1553dd"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tJob 19:1-27",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/reference-01.png",
+        "sha256": "d01dd51af2f7916157c91b0829320ff8b3f498e7e24dea8ce196bcc7b84be49c"
+      },
+      {
+        "raw_ref": "\tIsaiah 5:7-16",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/reference-02.png",
+        "sha256": "7038f4e8bbbe8ee303a8b7c0893d322cbc07391a1f3cafbec3bd129d63a4d2c5"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-24-v3-01/2026-02-24/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-02-25",
+    "context": "Selected Season 2nd Week of Great Fast Meshir 18, 1742 Wednesday, February 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:15:58.396Z",
+    "raw_reference_lines": [
+      "\tExodus 2:11-20",
+      "\tIsaiah 5:17-25"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/Prophecies.txt",
+    "text_sha256": "96187816698536e91647d160f1a1f929dc3946469c5fc50c24a21ab35b555561",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/reference-01.png",
+    "screenshot_sha256": "9235de78b30f303d744322a3ddb0966ad0c1eba60b7f5474c5468ebe22dd8ffc",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/context.txt",
+        "sha256": "3bf0aae8ecee4ece42fc007c9db80891c6f38d505c9170e0e5ae186727e23547"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/context.png",
+        "sha256": "bdd5183efdc3ddfb2b05029f86bf628d8a6c8c2e8472b8f7c03c2761a4f3b0c3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/picker.json",
+        "sha256": "31152026cabbf341089ce694f79b92f462ee9d46d54e7c59f60b68ae4c08aee3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/picker.png",
+        "sha256": "9fe34a0b4419644a935c5043bd6e0ce04a52f9027b63ce8223c3ff481867a70f"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tExodus 2:11-20",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/reference-01.png",
+        "sha256": "9235de78b30f303d744322a3ddb0966ad0c1eba60b7f5474c5468ebe22dd8ffc"
+      },
+      {
+        "raw_ref": "\tIsaiah 5:17-25",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/reference-02.png",
+        "sha256": "54fcbcd38388ddebedb4bf1c56942744b69092cdddaa84171c230ca887b2cb76"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-25-v3-01/2026-02-25/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-02-26",
+    "context": "Selected Season 2nd Week of Great Fast Meshir 19, 1742 Thursday, February 26, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:16:36.181Z",
+    "raw_reference_lines": [
+      "\tDeuteronomy 5:15-22",
+      "\tIsaiah 6:1-12"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/Prophecies.txt",
+    "text_sha256": "ba1fd690d7cb975942051846d4a5404c6d91c3ccd071d67a06ac3f14e733ef4a",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/reference-01.png",
+    "screenshot_sha256": "14ff6973386175c0a9a9f8f2db22af1085e94f089b57732daf8053220fcfb703",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/context.txt",
+        "sha256": "c89b1603e597363ee6e67d723062d308b56985d0076727fba0ac7282140b9b3d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/context.png",
+        "sha256": "a716335e2e001a3aea707a7ea4dff70943392ef22ca64e097a28d51d3375340c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/picker.json",
+        "sha256": "ef4a30346d80e5869ec846b4f9b566543f3e4730673a24410d1f51fd1946eb16"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/picker.png",
+        "sha256": "abd055458ac0e33a5036b85c3704092c406aa35c151bcb6f793183197b597e6f"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tDeuteronomy 5:15-22",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/reference-01.png",
+        "sha256": "14ff6973386175c0a9a9f8f2db22af1085e94f089b57732daf8053220fcfb703"
+      },
+      {
+        "raw_ref": "\tIsaiah 6:1-12",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/reference-02.png",
+        "sha256": "9e486c076c5dec2a2002490dc3c12b56e8f118d2dbfde344915705cb808ae8e2"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-26-v3-01/2026-02-26/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-02-27",
+    "context": "Selected Season 2nd Week of Great Fast Meshir 20, 1742 Friday, February 27, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:17:03.024Z",
+    "raw_reference_lines": [
+      "\tDeuteronomy 8:1-9:4",
+      "\t1 Samuel 17:1-18:4",
+      "\tIsaiah 7:1-14",
+      "\tJob 11:1-20"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/Prophecies.txt",
+    "text_sha256": "bb32899f02b73fe61998092bab77ab0a5b088908231a93c137b95051d36b4c0d",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-01.png",
+    "screenshot_sha256": "2b0871883ffcf56f0ac1df955fa679ba10f97f4935aa3cbeabd8bccd8426d25c",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/context.txt",
+        "sha256": "b397c72063d8cda9c912b9b88cf1213f0ce772370bd9fe3231f5a6bd1897a4be"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/context.png",
+        "sha256": "8abb6bf37b39c90666735568be27d96752e8907a764375eefa34fc2ccf0da471"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/picker.json",
+        "sha256": "23259f5ce937e4254a21834ea9f2c4555ea340bf5b07c881aa423d3747fa3274"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/picker.png",
+        "sha256": "84ae1f66c5ce3146d4885083a8de3e4d14ffa770543f2fbb28e48685bfa50488"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tDeuteronomy 8:1-9:4",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-01.png",
+        "sha256": "2b0871883ffcf56f0ac1df955fa679ba10f97f4935aa3cbeabd8bccd8426d25c"
+      },
+      {
+        "raw_ref": "\t1 Samuel 17:1-18:4",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-02.png",
+        "sha256": "f80cb2bc3f9bf9f70c4c0e13b4968a0cdaf86bf575d4b6f5fff670b8fc23e29b"
+      },
+      {
+        "raw_ref": "\tIsaiah 7:1-14",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-03.png",
+        "sha256": "0964d6b98be0a27dcbb8515cc4275e43902441c9546ff15e2a93a54df714616e"
+      },
+      {
+        "raw_ref": "\tJob 11:1-20",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/reference-04.png",
+        "sha256": "3d63f685c5cade57cede7e71f5180590da7a61d00ac8aed3c8a854c6a28c3111"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-02-27-v3-01/2026-02-27/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-02",
+    "context": "Selected Season 3rd Week of Great Fast Meshir 23, 1742 Monday, March 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:17:19.039Z",
+    "raw_reference_lines": [
+      "\tProverbs 1:20-33",
+      "\tIsaiah 8:13-9:7"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/Prophecies.txt",
+    "text_sha256": "ce4fb1bc3539d0ff04a2890d9a99c97bc6b5d75def5f0aec0c2ae5e16fe9bfe0",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/reference-01.png",
+    "screenshot_sha256": "a1d0749d2e17ae5f1a29364c5df8a431152bfa3afc0b1d3d8caff48c4fa58ffc",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/context.txt",
+        "sha256": "868e2113cf42cda70139958f488296cf3915263dc642169a50b5a2fd331f6024"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/context.png",
+        "sha256": "892634a9e1952e09d266490363f3455c48e21643a480d7de1dbe9ccc694627b6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/picker.json",
+        "sha256": "d06a6e26f392b4a35f9e480e1e222d61776a7065fe479e0a72b116d156447de2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/picker.png",
+        "sha256": "aee0b748e5f945e9a8e0352f15cdac8c8087a4523ca84a0561830e0c0f58d410"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tProverbs 1:20-33",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/reference-01.png",
+        "sha256": "a1d0749d2e17ae5f1a29364c5df8a431152bfa3afc0b1d3d8caff48c4fa58ffc"
+      },
+      {
+        "raw_ref": "\tIsaiah 8:13-9:7",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/reference-02.png",
+        "sha256": "d5a63484e8f288ef63634e0cd9102b59992ced7757d9cb5aca5554def025b1dd"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-02-v3-01/2026-03-02/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-03",
+    "context": "Selected Season 3rd Week of Great Fast Meshir 24, 1742 Tuesday, March 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:17:34.270Z",
+    "raw_reference_lines": [
+      "\tProverbs 2:1-15",
+      "\tIsaiah 10:12-20"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/Prophecies.txt",
+    "text_sha256": "020687341f1e233c466c0272872d5b87f60f28d0191b6a61a3807feb3be892c3",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/reference-01.png",
+    "screenshot_sha256": "6d499783d8fa1ab91d351f13226d2b79486a4d8d58e6dbf19c18e4541a191aca",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/context.txt",
+        "sha256": "af2d20b974275314107770ed5ac3958ba2b3383e3c95a2ab93ff96d4ee63f25f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/context.png",
+        "sha256": "0ba87d7c92e1e7c713e6054d0fe879a00b2903fd14c60b1df8582f6cbf26a945"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/picker.json",
+        "sha256": "c0a530c707dd7587bbc1f91212352eda62c04314444124dd4479e12ad3c55212"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/picker.png",
+        "sha256": "a259fb27f89c1615c8df1dca61197d28615177c934108d1fee51a8b379de3a30"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tProverbs 2:1-15",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/reference-01.png",
+        "sha256": "6d499783d8fa1ab91d351f13226d2b79486a4d8d58e6dbf19c18e4541a191aca"
+      },
+      {
+        "raw_ref": "\tIsaiah 10:12-20",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/reference-02.png",
+        "sha256": "a3b356470620ecb22ab57e6adbdfb78083957b00fc03060afb44c3f58ef85f90"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/visible-page.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-03-v3-01/2026-03-03/heading.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-04",
+    "context": "Selected Season 3rd Week of Great Fast Meshir 25, 1742 Wednesday, March 4, 2026",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "raw_reference_lines": [
+      "\tExodus 4:19-6:13",
+      "\tJoel 2:21-27",
+      "\tIsaiah 9:9-10:4",
+      "\tJob 12:1-14:22"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/Matins-Prophecies.txt",
+    "text_sha256": "d3f082fb383f8bd3518a7f53bc94b6c5252e1a026e8ce6bf0cc6ed55a8ab0f43",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/Matins-Prophecies.png",
+    "screenshot_sha256": "881b874b2c7f4d574808043d028dd54c79cecab28006476952af80192e470ce6",
+    "context_files": {
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/context.txt": "a308eeb2dbea5ca77387d4ebee3a0121e7934c10ad094a4a676ab5d44ebfd9e3",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/context.png": "681b7194fc6118fe0f8b5bd19486efac8eb28b3719280bb9988f41a72b770051",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/picker.json": "912ee5dfc9431411686f9a1c56e628b034d02be29cd3c777e2778c66c8c1cf05",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/picker.png": "a3f10428758aec5ded4eb55a0e94bd8c4f66fdc2b32d4a4a77e85da8fda13951"
+    },
+    "reuse": "approved March4 archive, not fresh replay",
+    "source_qualified": true,
+    "numbering": "literal source; no conversion",
+    "url": "https://copticreader.org/app/#/document",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ]
+  },
+  {
+    "civil_date": "2026-03-05",
+    "context": "Selected Season 3rd Week of Great Fast Meshir 26, 1742 Thursday, March 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:17:49.562Z",
+    "raw_reference_lines": [
+      "\tGenesis 18:17-19:29",
+      "\tProverbs 2:16-3:4",
+      "\tIsaiah 11:10-12:2"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/Prophecies.txt",
+    "text_sha256": "b59249bddf65bb45749dd7dae9d12fcc716b91601809b85c67cda25e781f043a",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-01.png",
+    "screenshot_sha256": "798796ec31045ad4abb094a93ad74bae29d2a9e3da76394e56999a56d5672e65",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/context.txt",
+        "sha256": "354def8274f6ed899e63b280107e2a344809e7b77c26833ebe05b4c399454c2d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/context.png",
+        "sha256": "23b2902d1829ae9548aa87a530d8668df43d8735ff6b1521b87bdb3a7a3f7e3c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/picker.json",
+        "sha256": "089b1ba404c78ea132b00f89ce08673d82b6516eacc72a1fe16bd6ddd4d007a2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/picker.png",
+        "sha256": "d4a837150afee3bc59a028ed6e4539642a3480df783b4070c376dae5696213fd"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tGenesis 18:17-19:29",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-01.png",
+        "sha256": "798796ec31045ad4abb094a93ad74bae29d2a9e3da76394e56999a56d5672e65"
+      },
+      {
+        "raw_ref": "\tProverbs 2:16-3:4",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-02.png",
+        "sha256": "8cc484e55bb0ae9a0c573a04101a95615eb88d8f4677c8d12945ca564eb197ee"
+      },
+      {
+        "raw_ref": "\tIsaiah 11:10-12:2",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/reference-03.png",
+        "sha256": "e6beb803763aa5482b2a7567e5eb6b54151673ee5fcce4e609f28d83acc35f15"
+      }
+    ],
+    "source_gate": {
+      "visible_heading": true,
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-01/attempts/2026-03-05-v3-01/2026-03-05/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-06",
+    "context": "Selected Season 3rd Week of Great Fast Meshir 27, 1742 Friday, March 6, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:24:40.349Z",
+    "raw_reference_lines": [
+      "\tDeuteronomy 9:7-10:11",
+      "\t1 Samuel 23:26-24:22",
+      "\tIsaiah 13:2-13",
+      "\tJob 15:1-35",
+      "\tSirach 2:1-3:4"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/Prophecies.txt",
+    "text_sha256": "7d3d1d86c1ce9405ba68434591b3aeed9f0e80f9de33b01dd68cebaa9304403a",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-01.png",
+    "screenshot_sha256": "7a0a3e963c598fc506296d78e830da02e97644574c60fb201404d63681d553d8",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.txt",
+        "sha256": "4f67f4fae6bd84286c6d4c20af7e02ffa840cb8ae08f7bb40e118fe422a18b67"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/context.png",
+        "sha256": "29837c5c5fd60bb547a188251f780096eb9a39072d224c6b8fe8484a5fb5365a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.json",
+        "sha256": "7d1cdb42643d7549fa1844d894102ba57bee0f8ab69f3eac35ea3a62c66e5a96"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/picker.png",
+        "sha256": "ffce0ef153b3ccb01667d8e289c9781ca370a7af7c5d0d12b0986bdc40f2268e"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tDeuteronomy 9:7-10:11",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-01.png",
+        "sha256": "7a0a3e963c598fc506296d78e830da02e97644574c60fb201404d63681d553d8"
+      },
+      {
+        "raw_ref": "\t1 Samuel 23:26-24:22",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-02.png",
+        "sha256": "a7641bb4404b7552d7b6015ead86a299b6271140c599cc9a0054e4dfe95900a9"
+      },
+      {
+        "raw_ref": "\tIsaiah 13:2-13",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-03.png",
+        "sha256": "05179b0b5866d4210c686930ba9bf21505c11768f2de31a52752cb664ea5f00f"
+      },
+      {
+        "raw_ref": "\tJob 15:1-35",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-04.png",
+        "sha256": "5a335980388c9b785ad119cfe52490833cccf1cf9e86fd0b0a8637faf1cdf3c0"
+      },
+      {
+        "raw_ref": "\tSirach 2:1-3:4",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/reference-05.png",
+        "sha256": "5a24ee7b83f5876fbb75f467551fee96c8ace3a7ebf45833ac4e613078c523ed"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-06-7ee5b11d/2026-03-06/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-09",
+    "context": "Selected Season 4th Week of Great Fast Meshir 30, 1742 Monday, March 9, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. John the Baptist His Holiness Pope Kyrillos VI",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:24:38.921Z",
+    "raw_reference_lines": [
+      "\tGenesis 27:1-41",
+      "\tIsaiah 14:24-32",
+      "\tJob 16:1-17:16"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/Prophecies.txt",
+    "text_sha256": "ca1f4abef10874d864dcb114baff6e340e4e40a3b01eac740cf5d91c46d93d4c",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-01.png",
+    "screenshot_sha256": "5a78d3ba6111ae643cdeb12d44bd3fa9a8e9c40b20285a2159e9e7dd64327afe",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/context.txt",
+        "sha256": "db5bdb111166fe8676bc8a5a3f51153d82acafc75e7541e66c814b9a1fccb71b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/context.png",
+        "sha256": "0a60c97440c77533f9544ca2334bad7818f372570e233b6e3103cfdc1dd823e6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/picker.json",
+        "sha256": "7c2eab3235efa814b6ec33c52e271acc603f861c4fe9c0c8abb259ec0de6730a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/picker.png",
+        "sha256": "edbe957900d45b59ff68867b0d7d57697c43a3c8088b7982c4e90e614f8f4891"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tGenesis 27:1-41",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-01.png",
+        "sha256": "5a78d3ba6111ae643cdeb12d44bd3fa9a8e9c40b20285a2159e9e7dd64327afe"
+      },
+      {
+        "raw_ref": "\tIsaiah 14:24-32",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-02.png",
+        "sha256": "1c8797f16bbfad9ab4365feebfb9b4d276a4978ec6b5bdd84e0698b52aa83100"
+      },
+      {
+        "raw_ref": "\tJob 16:1-17:16",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/reference-03.png",
+        "sha256": "a967676e10ad959809ae14736e90b33130f78f2ff4a99e91a1625bbdea448107"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-09-abc178af/2026-03-09/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-10",
+    "context": "Selected Season 4th Week of Great Fast Paremhotep 1, 1742 Tuesday, March 10, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:25:27.791Z",
+    "raw_reference_lines": [
+      "\tGenesis 28:10-22",
+      "\tIsaiah 25:1-26:8",
+      "\tJob 18:1-21",
+      "\tSirach 8, 9, 10:1"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/Prophecies.txt",
+    "text_sha256": "88bacc36d43a4626e2c4dba29ee89544000819b024dc1c9930abf7f3da0dccd8",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-01.png",
+    "screenshot_sha256": "45800d5f3185dac8529dcdf38129ac4e2fd83d5fd7aa1e7cacb04ebc0e766f5a",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.txt",
+        "sha256": "aa02025afcb77efe2b331021d2a31708e94630d6b1b384d8080a6091c8dc3af7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/context.png",
+        "sha256": "59183c02efb6e5281d75ab1333f92d59ce197e696ec6a92aa7e9e25aed1a7f90"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.json",
+        "sha256": "7189a2f8603c28a848b60fb4973de7b853320f4e032a00b3a7c4f6843846403d"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/picker.png",
+        "sha256": "1eed3ec8782eb5da6bb1ce3bcba6a960b24952e9d7680ca4a95f6da512ed458d"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tGenesis 28:10-22",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-01.png",
+        "sha256": "45800d5f3185dac8529dcdf38129ac4e2fd83d5fd7aa1e7cacb04ebc0e766f5a"
+      },
+      {
+        "raw_ref": "\tIsaiah 25:1-26:8",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-02.png",
+        "sha256": "3252e540e4e5c0b9d9b7ec7c411e5d330c584b3b88fb29530c1b89f66e47619d"
+      },
+      {
+        "raw_ref": "\tJob 18:1-21",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-03.png",
+        "sha256": "45d0163206975d15096dae5be0a0a36e814291a4867243617ce2d2082fe943a7"
+      },
+      {
+        "raw_ref": "\tSirach 8, 9, 10:1",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/reference-04.png",
+        "sha256": "6a947dc3a045efccd482459843fcc98f2ba64e775f9c44066c0f280b530a74a4"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-10-ab7244a2/2026-03-10/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-11",
+    "context": "Selected Season 4th Week of Great Fast Paremhotep 2, 1742 Wednesday, March 11, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:25:31.767Z",
+    "raw_reference_lines": [
+      "\tExodus 7:14-8:19",
+      "\tJoel 2:28-32",
+      "\tJob 1:1-22",
+      "\tIsaiah 26:21-27:9"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/Prophecies.txt",
+    "text_sha256": "28bd2e9ed09af67ae770a6fb92c87a2314fb8a28ba6e37a1b7ffb7793e4660b5",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-01.png",
+    "screenshot_sha256": "012e8900eae19323a6a0748d5bf2e613702971327a5e78f3e53576261abd9c41",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/context.txt",
+        "sha256": "3000f7eae106cad78d3a60a47746f8be987197163f093b18b6ad448a96dd5b22"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/context.png",
+        "sha256": "2bcfa19738466a37b164885004c2f96df8e8a4f501952fec791759386134647a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/picker.json",
+        "sha256": "4bfbb0882072a22a5446ce99d6d4ffd1ef04568c1e53ad6209075fb942f6cda3"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/picker.png",
+        "sha256": "cd1ae28824a88571ff3b7bf5d18935a5d421de5c837176aa96af0b14c1b8b3ea"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tExodus 7:14-8:19",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-01.png",
+        "sha256": "012e8900eae19323a6a0748d5bf2e613702971327a5e78f3e53576261abd9c41"
+      },
+      {
+        "raw_ref": "\tJoel 2:28-32",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-02.png",
+        "sha256": "980181ebe657984d223227ecfab9f75dd584e1114f0379c55f3bc0593adfcf1f"
+      },
+      {
+        "raw_ref": "\tJob 1:1-22",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-03.png",
+        "sha256": "b8e1d3a48be924dfc8027334c3a2e6d56b56f923c2dd83ac45b98f5eb08ed5c6"
+      },
+      {
+        "raw_ref": "\tIsaiah 26:21-27:9",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/reference-04.png",
+        "sha256": "e7a8aee07e7b9ad0e610cefd25e5edcb8b4f0aab37829dca9b3a162e58b8fe10"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-11-3accf709/2026-03-11/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-12",
+    "context": "Selected Season 4th Week of Great Fast Paremhotep 3, 1742 Thursday, March 12, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:26:02.062Z",
+    "raw_reference_lines": [
+      "\tGenesis 32:1-30",
+      "\tIsaiah 28:14-22",
+      "\tJob 20:1-29",
+      "\tDaniel 6:1-27"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/Prophecies.txt",
+    "text_sha256": "986de1b8b57a004554054ffc23255da6732fc6ab12c708fb1d5fa2737a7bff39",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-01.png",
+    "screenshot_sha256": "d5f15c24f6468b993e723e7e292642ad0a4b0d740d9f7902ca575bcf0bda25ba",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/context.txt",
+        "sha256": "3ee39419911e51e7d187e50f999b74d69cdccc80f6d22a96a2c4e72e97a92742"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/context.png",
+        "sha256": "821c3cd3889f15853ef25e51779d0ffc829237423587af0c4391a2d39c67c3e2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/picker.json",
+        "sha256": "450400d072e83f4df121fca1ad708671aaaf65377fa7a6daa2a9a56d038fc69c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/picker.png",
+        "sha256": "eca765a6ccc3244d102dc696a16a1e7c7ec931d9730fba58b425d2cc7c52d29d"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tGenesis 32:1-30",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-01.png",
+        "sha256": "d5f15c24f6468b993e723e7e292642ad0a4b0d740d9f7902ca575bcf0bda25ba"
+      },
+      {
+        "raw_ref": "\tIsaiah 28:14-22",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-02.png",
+        "sha256": "487e0a463f32db76d6f29bbd8fe4236809eba643c3908c517cd9fc2b32386e96"
+      },
+      {
+        "raw_ref": "\tJob 20:1-29",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-03.png",
+        "sha256": "a9b1e050334a54bf19050d730bb070320dc0839c61711b4a75ed5ecd6d5408d1"
+      },
+      {
+        "raw_ref": "\tDaniel 6:1-27",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/reference-04.png",
+        "sha256": "2e7d94c4281f814a8edca05ea083ef5da7525966187fc79cd672caede9b741ed"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-12-201868b0/2026-03-12/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-13",
+    "context": "Selected Season 4th Week of Great Fast Paremhotep 4, 1742 Friday, March 13, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:26:04.110Z",
+    "raw_reference_lines": [
+      "\tDeuteronomy 10:12-11:28",
+      "\tIsaiah 29:13-23",
+      "\tJob 21:1-34",
+      "\tDaniel 14:1-42"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/Prophecies.txt",
+    "text_sha256": "a66c8668544137d85350b2ce78729ddfccc4cbabbae903982ce665ee7ed76dc3",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-01.png",
+    "screenshot_sha256": "2a7aa09f1e5af38006f7d9743e9698c4f25aa99fc502fdf6733aa82a4e0913dc",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.txt",
+        "sha256": "b7ca3c07f23a1c22e6a90c0a5fd388cd165d88bb1b22032e4c96eeb2e1934426"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/context.png",
+        "sha256": "7e7563048e980593107a292711ca69a88c9bcd420cfc6d36dea0085ab641e8dd"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.json",
+        "sha256": "e7820f199d98d071401cb331ce2132aaaa47185180e90bd90d094f0bb7033c6b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/picker.png",
+        "sha256": "b97f43e816275572f6a08f3de6e8e469cafdddfc4992ccac584226caf42c05e0"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tDeuteronomy 10:12-11:28",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-01.png",
+        "sha256": "2a7aa09f1e5af38006f7d9743e9698c4f25aa99fc502fdf6733aa82a4e0913dc"
+      },
+      {
+        "raw_ref": "\tIsaiah 29:13-23",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-02.png",
+        "sha256": "24302a082e856b7b346eba05bb9b048f57fb437ee684774bae2e0afcb07e4906"
+      },
+      {
+        "raw_ref": "\tJob 21:1-34",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-03.png",
+        "sha256": "09e9d0849fe1eaabd125861d29a1f38f4c3159687344682f222641301dcd6a70"
+      },
+      {
+        "raw_ref": "\tDaniel 14:1-42",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/reference-04.png",
+        "sha256": "820e21ab6d5b0bfdf05926a4aedc9fd2067636adbe94e4a52ec96509903c351a"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-13-36e96361/2026-03-13/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-16",
+    "context": "Selected Season 5th Week of Great Fast Paremhotep 7, 1742 Monday, March 16, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:26:21.295Z",
+    "raw_reference_lines": [
+      "\tProverbs 3:5-18",
+      "\tIsaiah 37:33-38:6",
+      "\tJob 22:1-30"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/Prophecies.txt",
+    "text_sha256": "21152192d74d99cad55df041e8f711eff3cc95b1d2a1e328ddff083ce0f160af",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-01.png",
+    "screenshot_sha256": "e0c3e4c7be639333d08e8e5c3dacfd28f98ea89fe6bc81eba45888abd4dff1cc",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/context.txt",
+        "sha256": "cb6f8ae14774853f7c2c2d565b1ec4ccf50b4fd75392d05bc3df8bf3528abd5c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/context.png",
+        "sha256": "96a521275d9749b583edec25c540306476011761fa0c764c5e5c1f628dc6cb4e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/picker.json",
+        "sha256": "5cd7e3e7f89978dbd59c4111851dec575338995ed3d714309202ca656e70c93b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/picker.png",
+        "sha256": "8194c248a986adf0354bab0b9163db665d4b5b0870d10272e7806870ce9af66b"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tProverbs 3:5-18",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-01.png",
+        "sha256": "e0c3e4c7be639333d08e8e5c3dacfd28f98ea89fe6bc81eba45888abd4dff1cc"
+      },
+      {
+        "raw_ref": "\tIsaiah 37:33-38:6",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-02.png",
+        "sha256": "51de39a7add3a63f08c8a36e60ce6c4600e1016dcb3e3d4e555e2eac469d96fe"
+      },
+      {
+        "raw_ref": "\tJob 22:1-30",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/reference-03.png",
+        "sha256": "1beb64d8d763f8116c07c5ebb1ab96fd68c6973f2a9f8805375857e86650603f"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-16-8b7a86f4/2026-03-16/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-17",
+    "context": "Selected Season 5th Week of Great Fast Paremhotep 8, 1742 Tuesday, March 17, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:26:23.098Z",
+    "raw_reference_lines": [
+      "\tNumbers 10:35-11:35",
+      "\tProverbs 3:19-4:9",
+      "\tIsaiah 40:1-8",
+      "\tJob 25:1-6",
+      "\tJob 26:1-14"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/Prophecies.txt",
+    "text_sha256": "be0f2ab47178daeb4d55af9ccc66b6af8f3c9f3c8612adb783ff0f199cb5a616",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-01.png",
+    "screenshot_sha256": "e6f7a4857890e1f754dddad5d26a31e5b74b1b84bc89c916e8d069fec31fb6f0",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/context.txt",
+        "sha256": "b684fa5262bc9f3b97a55f167a8773d28623ef657855c3eaa80d6d342917c544"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/context.png",
+        "sha256": "4273d315e166ed5576f5567ca0b4193e673a64bfeb0f2289b1560c81949e2122"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/picker.json",
+        "sha256": "cfb2918f3556795be026ae1d9a2d56bfd8e1934d8c9d7bcbe17722e3cb126260"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/picker.png",
+        "sha256": "c5788d38835f1601c6c90eafa71cf271f15a9106d4e2e7c9d84541dc48aded4c"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tNumbers 10:35-11:35",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-01.png",
+        "sha256": "e6f7a4857890e1f754dddad5d26a31e5b74b1b84bc89c916e8d069fec31fb6f0"
+      },
+      {
+        "raw_ref": "\tProverbs 3:19-4:9",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-02.png",
+        "sha256": "0f69839f63606f7bc3719c1ac50e723254b2ae338caad32021582188e2bbe468"
+      },
+      {
+        "raw_ref": "\tIsaiah 40:1-8",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-03.png",
+        "sha256": "f682c15f34ed5b2279d877c68092ef8295d09a3f64068b3310adff583a0c54f1"
+      },
+      {
+        "raw_ref": "\tJob 25:1-6",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-04.png",
+        "sha256": "5458f03a67dd383840475853aef319e4e13427230d1ff599ca8652419030daab"
+      },
+      {
+        "raw_ref": "\tJob 26:1-14",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/reference-05.png",
+        "sha256": "86fdc0e9f78da689d2c3411f613e70f25e364c8a38b934de5fac6cef1ba0743e"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "visual_review_sheets": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-1.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-2.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-3.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-4.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-5.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-6.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-7.jpg",
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/review-refs-8.jpg"
+      ],
+      "early_top_level_readiness_claim_not_trusted": true
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-02/attempts/2026-03-17-6797abd0/2026-03-17/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-18",
+    "context": "Selected Season 5th Week of Great Fast Paremhotep 9, 1742 Wednesday, March 18, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:41:49.839Z",
+    "raw_reference_lines": [
+      "\tExodus 8:20-9:35",
+      "\tIsaiah 41:4-14",
+      "\tJoel 3:9-21",
+      "\tJob 28:12-28",
+      "\tProverbs 4:10-19"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/Prophecies.txt",
+    "text_sha256": "a564435959acc831c44d3a17d24acf5db78c3c0a12be4b5cd75048b14d85743f",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-01.png",
+    "screenshot_sha256": "fe3fcfc8f95f1f25c7b805555cda03be2964d213be320a38e98c56e03b8fb9c8",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.txt",
+        "sha256": "19774c0baed8727c938b06edb0edd2ab426348b7016c035eb8b157e4013727c2"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/context.png",
+        "sha256": "49a9105b2da826ac73620276852b2a54701b66617edc99bc67ae59644f9b9020"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.json",
+        "sha256": "d7ccf527e4a84cade71e8c07e1e75ed6ca8f497b6c43f90778a2b564eebba74a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/picker.png",
+        "sha256": "1ea67d8c9a4c129515329bd8a92c338f708b008e641cdb04f409e51dc0a51e30"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tExodus 8:20-9:35",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-01.png",
+        "sha256": "fe3fcfc8f95f1f25c7b805555cda03be2964d213be320a38e98c56e03b8fb9c8"
+      },
+      {
+        "raw_ref": "\tIsaiah 41:4-14",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-02.png",
+        "sha256": "fc8f7b286d60656fabc3fbcd893e598aa8ec8650641725f9e66c6dfb40d7d542"
+      },
+      {
+        "raw_ref": "\tJoel 3:9-21",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-03.png",
+        "sha256": "1fae561f1bf916c8780f62e4a99637ec8d70d22b2e9f5270fafe40a629e34209"
+      },
+      {
+        "raw_ref": "\tJob 28:12-28",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-04.png",
+        "sha256": "5b8a7699604593eac2bb7bc44262db2ef8bf93f6b18513f8f39295399b255aad"
+      },
+      {
+        "raw_ref": "\tProverbs 4:10-19",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/reference-05.png",
+        "sha256": "6d36d2c4b8e4783fd27f79ccf6f93443a1148c284479a4844122e397e532eecc"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-18-712ac1c4/2026-03-18/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-20",
+    "context": "Selected Season 5th Week of Great Fast Paremhotep 11, 1742 Friday, March 20, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:41:48.813Z",
+    "raw_reference_lines": [
+      "\tDeuteronomy 11:29-12:27",
+      "\t1 Kings 17:2-24",
+      "\tProverbs 5:1-12",
+      "\tIsaiah 43:1-9",
+      "\tJob 30:9-32:5"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/Prophecies.txt",
+    "text_sha256": "73c3e84338467405f2fa64614c8eb0b2259d0816aac0c3d699a75790aa9ed1b8",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-01.png",
+    "screenshot_sha256": "640ae3ff345e9e5c4c614b5c2f0dfc492aebc32f920f54fa0c5b6ecea02e8328",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.txt",
+        "sha256": "c8d8756e1c6f600fc8ff3a473dcee22271366f7c9e8607a3531ccfab252d6874"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/context.png",
+        "sha256": "1fc94dbfeeea367bd80292438a63565824a7fd8136bcaf60b63a93db106aea09"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.json",
+        "sha256": "6e7210c496c1c834133f7a2ba03f38a1659439665d294b1a7123b6ea26b8009a"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/picker.png",
+        "sha256": "d69da96624d343ec0990f907808bb67ffcd409188b39546c1a2d83a562e15d6a"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tDeuteronomy 11:29-12:27",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-01.png",
+        "sha256": "640ae3ff345e9e5c4c614b5c2f0dfc492aebc32f920f54fa0c5b6ecea02e8328"
+      },
+      {
+        "raw_ref": "\t1 Kings 17:2-24",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-02.png",
+        "sha256": "a533842d38fa28320c7bc8c73bd1d360a2902f6052d8a07ce3afdad1d762c58d"
+      },
+      {
+        "raw_ref": "\tProverbs 5:1-12",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-03.png",
+        "sha256": "191e047c3c59d558847fc92b8f114009f8f51d068b476a2817041634120392d8"
+      },
+      {
+        "raw_ref": "\tIsaiah 43:1-9",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-04.png",
+        "sha256": "b72c11582ebd3b3f261eaa3f15c2fa2d336130d0c7678227dae409b2f749dfeb"
+      },
+      {
+        "raw_ref": "\tJob 30:9-32:5",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/reference-05.png",
+        "sha256": "691870bba710b49680e6a4ee9e64f5dbecc84863c73e7ac8a45adee395441092"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-20-137fa762/2026-03-20/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-23",
+    "context": "Selected Season 6th Week of Great Fast Paremhotep 14, 1742 Monday, March 23, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:42:04.862Z",
+    "raw_reference_lines": [
+      "\tProverbs 8:1-11",
+      "\tIsaiah 43:10-28",
+      "\tJob 32:6-16"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/Prophecies.txt",
+    "text_sha256": "3ef440502dfc2293291b5b1a8175afac8acb59fab75c56f6d1f5c46a7f5a8b17",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-01.png",
+    "screenshot_sha256": "ac3a65bf961613ab549927dfb9f14eb9aeab3cc9c429a1979111bf6e0902d9e5",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.txt",
+        "sha256": "ebc55107590254ddf46a3437043d24d7270a4c6f2954b4884411f211f45358ca"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/context.png",
+        "sha256": "bd5277077baa2cc87abf735368f53971256141b536153183c8a8e8c6239a22e1"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.json",
+        "sha256": "b38adb32a8d27453aeea4d82d2d7f8769fb95be2023d42c4115bce97ed677586"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/picker.png",
+        "sha256": "f6dff33a1141f1d51bf4ea0dea5343a3189f4f3206d21159b85c2642b82b2c7f"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tProverbs 8:1-11",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-01.png",
+        "sha256": "ac3a65bf961613ab549927dfb9f14eb9aeab3cc9c429a1979111bf6e0902d9e5"
+      },
+      {
+        "raw_ref": "\tIsaiah 43:10-28",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-02.png",
+        "sha256": "b3332cebbeeb3cc8230bf055a4daf81082655523c1794e28997228376b206d04"
+      },
+      {
+        "raw_ref": "\tJob 32:6-16",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/reference-03.png",
+        "sha256": "8e5015a88f871498fbcedf0d7d581c0f816820409eaf978dd5499cb5329ec80f"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-23-ecfae2e2/2026-03-23/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-24",
+    "context": "Selected Season 6th Week of Great Fast Paremhotep 15, 1742 Tuesday, March 24, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:42:05.059Z",
+    "raw_reference_lines": [
+      "\tProverbs 8:12-21",
+      "\tIsaiah 44:1-8",
+      "\tJob 32:17-33:33"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/Prophecies.txt",
+    "text_sha256": "4307e0205467038ca738fb867cdbae7128f1250467b14131c808e3032d867758",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-01.png",
+    "screenshot_sha256": "8fdf321589d3657bdb14fdbb27932500eae35cbc8b386fdfa72901fb0ecefdab",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.txt",
+        "sha256": "020c8d7fffba6921fa4a978c18f16314b1b778fdba6af007e29ff036813665bc"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/context.png",
+        "sha256": "3fc22079c926ddc60972bd99efe0f4dd9bc6ebe4d7382d01dea58e2f63ee2ae7"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.json",
+        "sha256": "a7f0ebd9799c196a91bd5800a56b455dc650c635d777420439346f3ab5c5464e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/picker.png",
+        "sha256": "ebc4b545d97eebca930a83c23526dc6363c0cb736f8228f39bc17b09ae1276fc"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tProverbs 8:12-21",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-01.png",
+        "sha256": "8fdf321589d3657bdb14fdbb27932500eae35cbc8b386fdfa72901fb0ecefdab"
+      },
+      {
+        "raw_ref": "\tIsaiah 44:1-8",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-02.png",
+        "sha256": "d08a2b42bd202ecb74dd9b68a73adc38ea5ab701d3ee986a44cebdcca5a0f1ac"
+      },
+      {
+        "raw_ref": "\tJob 32:17-33:33",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/reference-03.png",
+        "sha256": "70706e8c4f955e4db6e6d7b4d718e0302fe8be49687db15a8dc5c40856d2b71c"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-24-1093747a/2026-03-24/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-25",
+    "context": "Selected Season 6th Week of Great Fast Paremhotep 16, 1742 Wednesday, March 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:42:20.136Z",
+    "raw_reference_lines": [
+      "\tExodus 10:1-11:10",
+      "\tIsaiah 44:21-28",
+      "\tProverbs 8:22-36",
+      "\tJob 34:1-37"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/Prophecies.txt",
+    "text_sha256": "3822b4e1c89f55462df53aa2017a95645cd5918a715f141393240a8c1854bc0e",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-01.png",
+    "screenshot_sha256": "fcbdc71139b880bab6279557e1530f368085466011360e943ba386c74dea7673",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.txt",
+        "sha256": "1a443db91ba626f29dd1ca875a0b5679e76e4f0074a006033fc747ae5b4c224e"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/context.png",
+        "sha256": "ca3fe5297c7888eeba7b5994a1c71e9939946a5dad24c74706b1eb189cf15ac8"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.json",
+        "sha256": "00b1c4a6400b864ebf2bdc937fab67de9dd3fea08968f58976bd93a7621ad585"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/picker.png",
+        "sha256": "29d19c17a91e49b70db2b52206895b011e83e20fc0890dbfd8631fab2bd6e12d"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tExodus 10:1-11:10",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-01.png",
+        "sha256": "fcbdc71139b880bab6279557e1530f368085466011360e943ba386c74dea7673"
+      },
+      {
+        "raw_ref": "\tIsaiah 44:21-28",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-02.png",
+        "sha256": "33744484841806584c4cd97a709a0ea8e8465b43cdd0d54d17717d69d1372550"
+      },
+      {
+        "raw_ref": "\tProverbs 8:22-36",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-03.png",
+        "sha256": "80be1f11bb1cae1005c05b80a4b022a173f5c858f9b18f03fea542eda2f8439d"
+      },
+      {
+        "raw_ref": "\tJob 34:1-37",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/reference-04.png",
+        "sha256": "91b3d32ae5ea0dbbb5f9ef1244fbd344de54d3a3e59d8c66de1cc600d8856f4d"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-25-6ad6e9c1/2026-03-25/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-26",
+    "context": "Selected Season 6th Week of Great Fast Paremhotep 17, 1742 Thursday, March 26, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:42:19.889Z",
+    "raw_reference_lines": [
+      "\t2 Kings 4:8-41",
+      "\tIsaiah 45:1-10",
+      "\tProverbs 9:1-11",
+      "\tJob 35:1-16"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/Prophecies.txt",
+    "text_sha256": "9ae07f446b6e9c11a3c141a5f3e863e30efbc002bc3f0ac0365c9b26e5b27859",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-01.png",
+    "screenshot_sha256": "aefd87e225e7e0e50bfa26b8d647e134b6e5b19b40a3ba13df16ad95157accb1",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.txt",
+        "sha256": "bb49b734236983b322744c185be41efd9d5b401f09b920347adc7302a60b643b"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/context.png",
+        "sha256": "2e66da4de64061af3dda6aa49f303f4e7aa79988eb75115192a50132eaf84052"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.json",
+        "sha256": "93c5d1d8b0f885a2a53455dd8c884a91a2fde100440af8781375b4b7c72607f6"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/picker.png",
+        "sha256": "c5310d55490b2fe3dcc092bd06f6a557200ed37dbdd11a870335a647c67b6ba5"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\t2 Kings 4:8-41",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-01.png",
+        "sha256": "aefd87e225e7e0e50bfa26b8d647e134b6e5b19b40a3ba13df16ad95157accb1"
+      },
+      {
+        "raw_ref": "\tIsaiah 45:1-10",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-02.png",
+        "sha256": "5331efb7633249ad9e0e6bad54c9c6095c5c8c23b9d5b53216519919b8a66051"
+      },
+      {
+        "raw_ref": "\tProverbs 9:1-11",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-03.png",
+        "sha256": "c416c88c231c4668bce56ed742008bad4f337352927a97b52cb901101ecb2861"
+      },
+      {
+        "raw_ref": "\tJob 35:1-16",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/reference-04.png",
+        "sha256": "0c8f4ae674ad11ebccdabd77a02a532f6959d8983ff2f7be7ad96d2de6a7c93d"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-26-8ab20369/2026-03-26/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2026-03-27",
+    "context": "Selected Season 6th Week of Great Fast Paremhotep 18, 1742 Friday, March 27, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:42:39.394Z",
+    "raw_reference_lines": [
+      "\tGenesis 22:1-18",
+      "\tIsaiah 45:11-17",
+      "\tProverbs 9:12-18",
+      "\tJob 36:1-33",
+      "\tJob 37:1-24",
+      "\tTobit 1-3:6",
+      "\tTobit 3:7-23",
+      "\tTobit 3:24-6:9",
+      "\tTobit 6:10-9:12",
+      "\tTobit 10:1-11:21",
+      "\tTobit 12:1-14:17"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/Prophecies.txt",
+    "text_sha256": "66ced0e3cb795367d15dbc54d5ab6bf7e2d61fd1d94d925f02539917a2c03a87",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-01.png",
+    "screenshot_sha256": "41381b9f6c4b68bc27071ee142bd3942e3740af6ae5e2e287b3b50209288adb7",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.txt",
+        "sha256": "4f2c44c8c8620d435c6b9c1e1ed1f32ff27c3e5da419eb1664bad3edc94ba278"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/context.png",
+        "sha256": "5f792d0836a06ad1683185a2642bd4712fa068d295d229ba7f849fc074dd0371"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.json",
+        "sha256": "990995fab98f0c21600e8796a31710f3fb5de602012a4aed2b0ab5aa1e5d35df"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/picker.png",
+        "sha256": "08bcca7f57cff8c268304df083f0e8106d9a3924bd18055987819f1d8f3878f3"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tGenesis 22:1-18",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-01.png",
+        "sha256": "41381b9f6c4b68bc27071ee142bd3942e3740af6ae5e2e287b3b50209288adb7"
+      },
+      {
+        "raw_ref": "\tIsaiah 45:11-17",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-02.png",
+        "sha256": "bb4de0945a3e48c192e262de029060e8c4e6989e2f1b81eaa7c76c3267611c7b"
+      },
+      {
+        "raw_ref": "\tProverbs 9:12-18",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-03.png",
+        "sha256": "b460a138d1de0ff8002692babc3d3465c5a538f7e6b779c0158cfea3e29af517"
+      },
+      {
+        "raw_ref": "\tJob 36:1-33",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-04.png",
+        "sha256": "1a4773d68225a4a026b2fb433d01c3679e63727c1fd468bca4c68791f2f7cb6e"
+      },
+      {
+        "raw_ref": "\tJob 37:1-24",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-05.png",
+        "sha256": "cdb435dae726c045be596f094de1746df251ba9a4feb33188bd23e6459ac8b6a"
+      },
+      {
+        "raw_ref": "\tTobit 1-3:6",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-06.png",
+        "sha256": "c3ba08261ca10f855f3240bd2778978a13cfc532896f2c7addbfd1500d26a21b"
+      },
+      {
+        "raw_ref": "\tTobit 3:7-23",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-07.png",
+        "sha256": "eb26e88c0fea4e6a1ade6ccc9d4f4e2babc24bec8d26f9eb746f2c850154436e"
+      },
+      {
+        "raw_ref": "\tTobit 3:24-6:9",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-08.png",
+        "sha256": "1ee295abf6a55db765b20de32e5779f22c53e441240ba6f74bd2b21994e589e2"
+      },
+      {
+        "raw_ref": "\tTobit 6:10-9:12",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-09.png",
+        "sha256": "816584ef077b2fbc2c1bfb67e43b024e13a1a4f6726da569445d6b8672f86438"
+      },
+      {
+        "raw_ref": "\tTobit 10:1-11:21",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-10.png",
+        "sha256": "93b1b0e9779bc346a1e6e5d14a8e809d301cfb93b14a33cf4f9e33c3cd2bff0a"
+      },
+      {
+        "raw_ref": "\tTobit 12:1-14:17",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/reference-11.png",
+        "sha256": "452f5ea4fb4cd0636e5bb30194ddb1d1aeea2d178efb37ad34341d480e4f03d6"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2026-03-27-370aff7e/2026-03-27/visible-page.png"
+    ],
+    "source_qualified": true
+  },
+  {
+    "civil_date": "2027-04-08",
+    "context": "Selected Season 5th Week of Great Fast Paremhotep 30, 1743 Thursday, April 8, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Gabriel",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "url": "https://copticreader.org/app/#/document",
+    "retrieved_at": "2026-10-07T17:42:34.713Z",
+    "raw_reference_lines": [
+      "\tIsaiah 42:5-16",
+      "\tProverbs 4:20-27",
+      "\tJob 29:2-20"
+    ],
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/Prophecies.txt",
+    "text_sha256": "7483cb007b0fd0b45d92870c36e957aca08f43cefa37429dec6da120880fac20",
+    "screenshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-01.png",
+    "screenshot_sha256": "0b6959d82e01705e2c93764f3be081713d534277bc9fbe86254b387d55b4c403",
+    "context_files": [
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.txt",
+        "sha256": "e820791b072203226dc79b148fe378a1a9fa290c33e9901b543368aef3257e6f"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/context.png",
+        "sha256": "1a94050c9f1adf68e0a7870381371a3294909f639bc3940ac6e32fbd801afe9c"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.json",
+        "sha256": "3108b2fcfab094119993eee9ad9d2e9a4e8c3b5e492fdde824aedc7cfff84219"
+      },
+      {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/picker.png",
+        "sha256": "b802c366f5db03fafe050bffcc9bd21f3a4d76ab55e726edb4de5a7ae3d15c1e"
+      }
+    ],
+    "reference_screenshots": [
+      {
+        "raw_ref": "\tIsaiah 42:5-16",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-01.png",
+        "sha256": "0b6959d82e01705e2c93764f3be081713d534277bc9fbe86254b387d55b4c403"
+      },
+      {
+        "raw_ref": "\tProverbs 4:20-27",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-02.png",
+        "sha256": "4fa66f87116a7479319f8fede04e8afda9d68a5d78ff01039d3c67b8c75c1e10"
+      },
+      {
+        "raw_ref": "\tJob 29:2-20",
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/reference-03.png",
+        "sha256": "168f82a3f789c9e9d7e92e997d2e697f1c44c0dcf43410827eff048408014962"
+      }
+    ],
+    "source_gate": {
+      "reference_screenshots_visually_checked": true,
+      "context_visually_checked": true,
+      "early_top_level_readiness_claim_not_trusted": true,
+      "review": "Parent reviewed10referencecontact sheets and2context sheets; originalimagesretained"
+    },
+    "numbering": "literal source; no conversion",
+    "rejected_early_screenshots": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/heading.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent-recovery-03/attempts/2027-04-08-ae2aa6a8/2027-04-08/visible-page.png"
+    ],
+    "source_qualified": true
+  }
+]

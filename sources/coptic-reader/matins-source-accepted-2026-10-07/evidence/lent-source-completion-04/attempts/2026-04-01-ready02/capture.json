@@ -1,0 +1,80 @@
+{
+  "civil_date": "2026-04-01",
+  "context": "Selected Season 7th Week of Great Fast Paremhotep 23, 1742 Wednesday, April 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-04-01",
+      "context": "Selected Season 7th Week of Great Fast Paremhotep 23, 1742 Wednesday, April 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:33:36.873Z",
+      "raw_reference_lines": [
+        "\tProverbs 10:32-11:13",
+        "\tIsaiah 58:1-11",
+        "\tJob 40:6-41:34"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies.txt",
+      "text_sha256": "9c966152f26ae36fa87820522e2d8ebfbbb457667bcb5f7b436c5bb80d957e54",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tProverbs 10:32-11:13",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-01.png",
+          "sha256": "a95d948335f52f685a4593b3f1a5946ca1925b0adcd71cd277fe517218c0b5b5"
+        },
+        {
+          "raw_ref": "\tIsaiah 58:1-11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-02.png",
+          "sha256": "2c2394983261eb6f89a7a5154dc29990c0b6ec5378b123f50eb86e9ccca45fc9"
+        },
+        {
+          "raw_ref": "\tJob 40:6-41:34",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Prophecies-reference-03.png",
+          "sha256": "d49db3900e1df3c3b81f71ace35bd65b1c4106cc121b7483c282840cec158ff2"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-04-01",
+      "context": "Selected Season 7th Week of Great Fast Paremhotep 23, 1742 Wednesday, April 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:33:43.604Z",
+      "raw_reference_lines": [
+        "\tPsalms 56:1",
+        "\tLuke 14:28-35"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "9a7b7cae81f95eb4bb09f5423258d46c07cb7bde804681cbfc8821f32ad5eeba",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 56:1",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "239dd7561d9c359f9cb904cc64b8fa7e7955b6611d5f5d912bdf604699c6ad83"
+        },
+        {
+          "raw_ref": "\tLuke 14:28-35",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "cf6b0cf50d63384e62cc9055ca1841134146fee066cdc161f329e698791a1bde"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

@@ -1,0 +1,1517 @@
+[
+  {
+    "label": "baseline-python",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_daily_forward_contract.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.104,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/baseline-python.log"
+  },
+  {
+    "label": "baseline-synaxarium",
+    "command": [
+      "node",
+      "--test",
+      "tests/synaxarium.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.225,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/baseline-synaxarium.log"
+  },
+  {
+    "label": "red",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 0.389,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/red.log"
+  },
+  {
+    "label": "green",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 0.69,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/green.log"
+  },
+  {
+    "label": "python-suite-before-build",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 1.942,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/python-suite-before-build.log"
+  },
+  {
+    "label": "green-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.49,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/green-final.log"
+  },
+  {
+    "label": "source-build",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_lectionary_reference.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 67.064,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/source-build.log"
+  },
+  {
+    "label": "source-build-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_lectionary_reference.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 76.338,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/source-build-final.log"
+  },
+  {
+    "label": "design-build",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 2.052,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-build.log"
+  },
+  {
+    "label": "npm-build",
+    "command": [
+      "node",
+      "scripts/build_npm_package.mjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.478,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/npm-build.log"
+  },
+  {
+    "label": "builder-red",
+    "command": [
+      "node",
+      "--test",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 0.285,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/builder-red.log"
+  },
+  {
+    "label": "builder-green",
+    "command": [
+      "node",
+      "--test",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 1.085,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/builder-green.log"
+  },
+  {
+    "label": "design-build-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 7.716,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-build-final.log"
+  },
+  {
+    "label": "builder-red-final",
+    "command": [
+      "node",
+      "--test",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 0.856,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/builder-red-final.log"
+  },
+  {
+    "label": "builder-green-final",
+    "command": [
+      "node",
+      "--test",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.846,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/builder-green-final.log"
+  },
+  {
+    "label": "npm-build-final",
+    "command": [
+      "node",
+      "scripts/build_npm_package.mjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.518,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/npm-build-final.log"
+  },
+  {
+    "label": "design-data-only-build",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py",
+      "--data-only"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 7.453,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-data-only-build.log"
+  },
+  {
+    "label": "python-suite-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 2.177,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/python-suite-final.log"
+  },
+  {
+    "label": "node-suite-final",
+    "command": [
+      "node",
+      "--test",
+      "tests/test_npm_package_corrections.js",
+      "tests/test_authoritative_release.js",
+      "tests/synaxarium.test.cjs",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 2.553,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/node-suite-final.log"
+  },
+  {
+    "label": "synaxarium-validate",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "scripts/validate_synaxarium.py",
+      "--package-dir",
+      "/Users/ga/workspace/synaxarium-package-release/packages/lectionary-data"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.353,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/synaxarium-validate.log"
+  },
+  {
+    "label": "package-integrity",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "scripts/verify_package_integrity.py",
+      "--package-dir",
+      "/Users/ga/workspace/synaxarium-package-release/packages/lectionary-data",
+      "--strict-file-set",
+      "--output",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/package-integrity.json"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 2.001,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/package-integrity.log"
+  },
+  {
+    "label": "source-order-red",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 0.719,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/source-order-red.log"
+  },
+  {
+    "label": "source-order-green",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.765,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/source-order-green.log"
+  },
+  {
+    "label": "source-build-complete",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_lectionary_reference.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 69.133,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/source-build-complete.log"
+  },
+  {
+    "label": "design-data-only-complete",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py",
+      "--data-only"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 6.972,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-data-only-complete.log"
+  },
+  {
+    "label": "npm-build-complete",
+    "command": [
+      "node",
+      "scripts/build_npm_package.mjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.4,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/npm-build-complete.log"
+  },
+  {
+    "label": "comparisons",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 0.901,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/comparisons.log"
+  },
+  {
+    "label": "query-date",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "out/scripts/query_lectionary.py",
+      "--date",
+      "2026-03-04",
+      "--limit",
+      "20"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.19,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/query-date.log"
+  },
+  {
+    "label": "query-exodus5",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "out/scripts/query_lectionary.py",
+      "--passage",
+      "Exodus 5",
+      "--include-crosswalk",
+      "--limit",
+      "100"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.467,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/query-exodus5.log"
+  },
+  {
+    "label": "query-chapter",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "out/scripts/query_lectionary.py",
+      "--chapter",
+      "Exodus 5",
+      "--limit",
+      "20"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.075,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/query-chapter.log"
+  },
+  {
+    "label": "design-order-red",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 1.001,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-order-red.log"
+  },
+  {
+    "label": "design-order-green",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.752,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-order-green.log"
+  },
+  {
+    "label": "design-build-verified",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py",
+      "--data-only"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 7.346,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/design-build-verified.log"
+  },
+  {
+    "label": "npm-build-verified",
+    "command": [
+      "node",
+      "scripts/build_npm_package.mjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.862,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/npm-build-verified.log"
+  },
+  {
+    "label": "comparisons-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 6.587,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/comparisons-final.log"
+  },
+  {
+    "label": "legacy-drift",
+    "command": [
+      "python3",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/record_legacy_drift.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.362,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/legacy-drift.log"
+  },
+  {
+    "label": "preserve-legacy-snapshots",
+    "command": [
+      "git",
+      "restore",
+      "--",
+      "out/data/copticchurch_passage_index_2020_2035.csv",
+      "out/data/copticchurch_passage_index_2020_2035.jsonl"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.07,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/preserve-legacy-snapshots.log"
+  },
+  {
+    "label": "comparisons-verified",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 10.519,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/comparisons-verified.log"
+  },
+  {
+    "label": "parent-source-build",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_lectionary_reference.py",
+      "--preserve-legacy-passage-snapshot"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 149.345,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-source-build.log"
+  },
+  {
+    "label": "parent-design-build",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py",
+      "--data-only"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 19.34,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-design-build.log"
+  },
+  {
+    "label": "parent-package-build",
+    "command": [
+      "node",
+      "scripts/build_npm_package.mjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 3.63,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-package-build.log"
+  },
+  {
+    "label": "parent-python-suite",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 3.892,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-python-suite.log"
+  },
+  {
+    "label": "parent-node-suite",
+    "command": [
+      "node",
+      "--test",
+      "tests/synaxarium.test.cjs",
+      "tests/test_authoritative_release.js",
+      "tests/test_npm_package_corrections.js",
+      "tests/lent_matins_prophecies.test.cjs",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 3.5,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-node-suite.log"
+  },
+  {
+    "label": "parent-design-validator",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "verify_design_deliverables.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 7.472,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-design-validator.log"
+  },
+  {
+    "label": "parent-comparisons",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 31.886,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-comparisons.log"
+  },
+  {
+    "label": "parent-package-integrity",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "scripts/verify_package_integrity.py",
+      "--strict-file-set",
+      "--output",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-package-integrity.json"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 3.246,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-package-integrity.log"
+  },
+  {
+    "label": "parent-design-validator-count-check",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "verify_design_deliverables.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 16.02,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-design-validator-count-check.log"
+  },
+  {
+    "label": "parent-validator-regression-red",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 64.836,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-validator-regression-red.log"
+  },
+  {
+    "label": "parent-validator-regression-green",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 62.855,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-validator-regression-green.log"
+  },
+  {
+    "label": "parent-validator-regression-green-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_lent_matins_prophecies.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 26.851,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-validator-regression-green-final.log"
+  },
+  {
+    "label": "parent-python-suite-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 1,
+    "duration_seconds": 22.815,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-python-suite-final.log"
+  },
+  {
+    "label": "parent-design-build-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "build_design_deliverables.py",
+      "--data-only"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 7.865,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-design-build-final.log"
+  },
+  {
+    "label": "parent-package-build-final",
+    "command": [
+      "node",
+      "scripts/build_npm_package.mjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 0.969,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-package-build-final.log"
+  },
+  {
+    "label": "parent-python-suite-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 17.358,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-python-suite-final.log"
+  },
+  {
+    "label": "parent-design-validator-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "verify_design_deliverables.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 8.155,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-design-validator-final.log"
+  },
+  {
+    "label": "parent-node-suite-final",
+    "command": [
+      "node",
+      "--test",
+      "tests/synaxarium.test.cjs",
+      "tests/test_authoritative_release.js",
+      "tests/test_npm_package_corrections.js",
+      "tests/lent_matins_prophecies.test.cjs",
+      "tests/npm_builder_preservation.test.cjs"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.123,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-node-suite-final.log"
+  },
+  {
+    "label": "parent-comparisons-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 11.758,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-comparisons-final.log"
+  },
+  {
+    "label": "parent-package-integrity-final",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "scripts/verify_package_integrity.py",
+      "--strict-file-set",
+      "--output",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-package-integrity.json"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.034,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-package-integrity-final.log"
+  },
+  {
+    "label": "parent-pack",
+    "command": [
+      "npm",
+      "pack",
+      "./packages/lectionary-data",
+      "--pack-destination",
+      "./audit_artifacts/lent-matins-prophecies-2026-10-07",
+      "--json"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.795,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-pack.log"
+  },
+  {
+    "label": "parent-tarball-integrity",
+    "command": [
+      "python3",
+      "scripts/verify_package_integrity.py",
+      "--package-dir",
+      "/Users/ga/workspace/synaxarium-package-release/packages/lectionary-data",
+      "--tarball",
+      "/Users/ga/workspace/synaxarium-package-release/audit_artifacts/lent-matins-prophecies-2026-10-07/andraws-lectionary-data-1.3.1.tgz",
+      "--strict-file-set",
+      "--output",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-tarball-integrity.json"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.666,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-tarball-integrity.log"
+  },
+  {
+    "label": "parent-packed-consumer",
+    "command": [
+      "python3",
+      "audit_artifacts/lent-matins-prophecies-2026-10-07/verify_packed_candidate.py"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.731,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-packed-consumer.log"
+  },
+  {
+    "label": "parent-query-exodus5",
+    "command": [
+      "uv",
+      "run",
+      "--python",
+      "3.11",
+      "--with",
+      "beautifulsoup4",
+      "--with",
+      "requests",
+      "--with",
+      "convertdate",
+      "python",
+      "out/scripts/query_lectionary.py",
+      "--passage",
+      "Exodus 5",
+      "--limit",
+      "50"
+    ],
+    "cwd": "/Users/ga/workspace/synaxarium-package-release",
+    "env_overrides": {
+      "LECTIONARY_DISABLE_VAULT_PUBLISH": "1",
+      "TMPDIR": "/Users/ga/.hermes/cache/scratch"
+    },
+    "exit_code": 0,
+    "duration_seconds": 1.939,
+    "log": "audit_artifacts/lent-matins-prophecies-2026-10-07/parent-query-exodus5.log"
+  }
+]

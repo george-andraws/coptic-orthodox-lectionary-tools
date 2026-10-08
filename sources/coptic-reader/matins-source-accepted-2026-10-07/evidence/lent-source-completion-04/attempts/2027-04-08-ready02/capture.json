@@ -1,0 +1,40 @@
+{
+  "civil_date": "2027-04-08",
+  "context": "Selected Season 5th Week of Great Fast Paremhotep 30, 1743 Thursday, April 8, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Gabriel",
+  "documents": [
+    {
+      "civil_date": "2027-04-08",
+      "context": "Selected Season 5th Week of Great Fast Paremhotep 30, 1743 Thursday, April 8, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Gabriel",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:35:30.478Z",
+      "raw_reference_lines": [
+        "\tPsalms 85:13",
+        "\tLuke 9:37-43"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "7c2cca253830e0a4d8b5a7380e9768b54dfb9f91e22767ec61e58e770393366a",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 85:13",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "846501cd51179a79b952f7dd8306b8382be54b0f9e74df438da19359c6d1ff13"
+        },
+        {
+          "raw_ref": "\tLuke 9:37-43",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "af7e9c4b6a50e653aaca62308bb67556abe0503b8ab4242db43980e5a8505b71"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

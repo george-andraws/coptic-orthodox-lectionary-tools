@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 838, in <module>
+    main()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 831, in main
+    verify_rows()
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 392, in verify_rows
+    fail(f"reverse_lectionary_index row count {len(reverse_index)} != expected 11920 after authoritative source attestation collapse")
+  File "/Users/ga/workspace/synaxarium-package-release/verify_design_deliverables.py", line 96, in fail
+    raise AssertionError(message)
+AssertionError: reverse_lectionary_index row count 11925 != expected 11920 after authoritative source attestation collapse

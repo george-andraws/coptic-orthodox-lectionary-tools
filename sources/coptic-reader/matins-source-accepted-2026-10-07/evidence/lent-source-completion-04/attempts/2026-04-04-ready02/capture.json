@@ -1,0 +1,86 @@
+{
+  "civil_date": "2026-04-04",
+  "context": "Selected Season Lazarus Saturday Paremhotep 26, 1742 Saturday, April 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-04-04",
+      "context": "Selected Season Lazarus Saturday Paremhotep 26, 1742 Saturday, April 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:34:49.083Z",
+      "raw_reference_lines": [
+        "\tGenesis 49:1-28",
+        "\tIsaiah 40:9-31",
+        "\tZephaniah 3:14-20",
+        "\tZechariah 9:9-15"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies.txt",
+      "text_sha256": "fb65fefcf53e6554c2522bed2f9725bcaf7507c682ba8e4230aaf8930c7dca0b",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tGenesis 49:1-28",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-01.png",
+          "sha256": "f69477479473ee669ee38b82eca03e14af7a1bd4e49ac6c69cb68cc90b4ae387"
+        },
+        {
+          "raw_ref": "\tIsaiah 40:9-31",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-02.png",
+          "sha256": "5419c4c423818dbad434517fd69fc14f82536d2fa72b202669aa1ed0b33c6135"
+        },
+        {
+          "raw_ref": "\tZephaniah 3:14-20",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-03.png",
+          "sha256": "462399b294db7c0848d8ac65ddd75f3bc2ed847cee3fff1974d9e6995df55d8d"
+        },
+        {
+          "raw_ref": "\tZechariah 9:9-15",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Prophecies-reference-04.png",
+          "sha256": "fa38938490b8c91d48dd7e0ea84a254fbe56ba7339f8f5ef27d423e200defed6"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-04-04",
+      "context": "Selected Season Lazarus Saturday Paremhotep 26, 1742 Saturday, April 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:35:04.529Z",
+      "raw_reference_lines": [
+        "\tPsalms 87:2-3",
+        "\tLuke 12:16-21"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "4bdc1f867ba24c94101704ad60af76957f5980b15733376801fdf8a57847a05b",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 87:2-3",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "b7bba407eb3400c6c0820a378dde319c220e83dba6bcd323206926d36602ca9f"
+        },
+        {
+          "raw_ref": "\tLuke 12:16-21",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "1bfb12d2ced25981be64e6a3b02ff851dbd45a9d728fc9e1d577cb99bbd19a12"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

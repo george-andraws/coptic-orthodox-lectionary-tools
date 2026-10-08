@@ -1,0 +1,8 @@
+{
+  "scope": "Explicit complete legacy projections; no partial whole-table bypass",
+  "date_compared_slots": ["vespers_gospel", "matins_gospel", "liturgy_pauline", "liturgy_catholic", "liturgy_acts", "liturgy_gospel"],
+  "cycle_vector_context_id": "AnnualReadings-16",
+  "cycle_vector_rows": [{"slot": "liturgy_catholic", "service_section": "Liturgy", "raw_ref": "60.2:1-10", "normalized_ref": "1Pet 2:1-10"}],
+  "cycle_vector_required_fields": ["slot", "service_section", "raw_ref", "normalized_ref"],
+  "cycle_vector_optional_fields": ["numeric_ref", "source_context", "source_evidence", "source_sha256", "source_printed_ref", "source_order", "current_status", "state", "status", "active", "include_in_current_index"]
+}

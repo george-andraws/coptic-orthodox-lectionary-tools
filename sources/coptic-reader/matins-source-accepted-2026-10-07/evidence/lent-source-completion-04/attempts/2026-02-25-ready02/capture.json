@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-02-25",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 18, 1742 Wednesday, February 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-25",
+      "context": "Selected Season 2nd Week of Great Fast Meshir 18, 1742 Wednesday, February 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:05.532Z",
+      "raw_reference_lines": [
+        "\tPsalms 17:17-18",
+        "\tMatthew 5:17-24"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "b0a5e95ce99f09b090df81721d7823f016e88af891f140731884ee51bdfbba40",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 17:17-18",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "a4c4129728f096a260a9eb4f0af652bb04212275617912817b128a29ea6ba13b"
+        },
+        {
+          "raw_ref": "\tMatthew 5:17-24",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "e03903d1702cf0cf71f8f110172b22db21773d981c73022a7dd4dd2c610b7404"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

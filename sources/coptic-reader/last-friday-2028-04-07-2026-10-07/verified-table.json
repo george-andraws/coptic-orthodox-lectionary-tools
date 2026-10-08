@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "verified_date": "2028-04-07",
+  "coptic_date": "Paremhotep 29, 1744",
+  "occasion": "Last Friday of Great Fast",
+  "day_title": "Friday of the seventh week of Great Lent",
+  "pascha_offset_days": -9,
+  "feast_collision": "Annunciation",
+  "coverage_scope": "last_friday_annunciation_collision_only",
+  "suppressed_service": "Vespers",
+  "recurring_prophecy_context": {
+    "day_title": "Friday of the seventh week of Great Lent",
+    "pascha_offset_days": -9,
+    "requires_feast_collision": "Annunciation",
+    "source_document": "Matins-Prophecies.txt"
+  },
+  "normalization_witnesses": [
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Psalm+32&version=NKJV",
+      "path": "nkjv-psalm-32.txt",
+      "sha256": "280bac3e31cc5a68c1531c29d185ce40d9551e2678a4e14d2e221e49a4ef38a4",
+      "convention": "mt_nkjv"
+    },
+    {
+      "url": "https://www.biblegateway.com/passage/?search=Psalm+98&version=NKJV",
+      "path": "nkjv-psalm-98.txt",
+      "sha256": "28a101d9cbcb2e3f24fc6791060e86d5aa2bb38880bd50645947afb9593554de",
+      "convention": "mt_nkjv"
+    }
+  ],
+  "source_fingerprints": {
+    "Liturgy-Catholic_Epistle.png": "2832b93274583507a4cff4399cd901fd0f302df4c871541fe1673b49a0a1f8ee",
+    "Liturgy-Catholic_Epistle.txt": "988226c7b902cc49378e335212d11fb04770fce35477d3c74c0d00389916c1d6",
+    "Liturgy-Pauline_Epistle.png": "ebfe47e1d826afced2f860183b6c9e00e4b9c6d21fc879aa07f21929a246bade",
+    "Liturgy-Pauline_Epistle.txt": "8a788fef8bbbef28b68a1b714eaa4a21222430dc68cbd6b110be96d7870190a5",
+    "Liturgy-Praxis.png": "60094540011a3c2394b855ebc48d47089a8a70cf3912d5374f90a6e7f86419bb",
+    "Liturgy-Praxis.txt": "c03a6a48456234fadd45ade12b115b63c833f52e45621c90c49e1d7d9695eb36",
+    "Liturgy-Psalm_and_Gospel.png": "dd02c434ced27108d115658ee41e614d9c76f074eb7da8f7e38c919f8606a56d",
+    "Liturgy-Psalm_and_Gospel.txt": "1e6e850870b9d0c26205ee292e6942093b72dccd98ded561d92cf133c51ee8d9",
+    "Matins-Prophecies.png": "b0bb2f11f93ea0004eb7b5bf79a85217d31391ecbec904f44e421a04ff16705d",
+    "Matins-Prophecies.txt": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+    "Matins-Psalm_and_Gospel.png": "2bd8fcef0b6e31b8bda7fe00c7340b26fca36aa099616b7032690d9e8d2345d0",
+    "Matins-Psalm_and_Gospel.txt": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+    "Vespers.png": "004be1a5d868cbe3f9f5ec095c6dc17b8a0f3dafe229cc0812b26dce76efffac",
+    "Vespers.txt": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+    "capture-manifest.json": "da732bf8c6dd6ec720624c96a74d15c8e9a9b0822c52b14610ccaabf16b368bb",
+    "home-selected.png": "808902b0184513dbf96b38a16f853072e5cbe3faad77c0c3361f093096beedc2",
+    "home-selected.txt": "324ccec60fb8cd4c618e4306021925440985d69d7f28f1e0a9fbad52567484b4",
+    "independent-oracle.json": "4988870e217e897c0d95244fb0832afd006c65790b4d6e7ef09bf2eef14d1256",
+    "nkjv-psalm-32.txt": "280bac3e31cc5a68c1531c29d185ce40d9551e2678a4e14d2e221e49a4ef38a4",
+    "nkjv-psalm-98.txt": "28a101d9cbcb2e3f24fc6791060e86d5aa2bb38880bd50645947afb9593554de",
+    "picker-selected.png": "008879e94a2fade2db4e616b09a3f73a2c40fc8235836543bd86ba3976891ff6",
+    "picker-selected.txt": "7e339c62a52f0f52ec56d2a18a3b7222f3ab6f6887e59d95752d6ab7d2488cb6"
+  },
+  "readings": [
+    {
+      "service_section": "Matins",
+      "reading_type": "Prophecy",
+      "printed_ref": "Genesis 49:33-50:26",
+      "normalized_ref": "Gen 49:33-50:26",
+      "source_order": 1,
+      "source_slot": "OT1",
+      "evidence": "Matins-Prophecies.txt",
+      "heading_order": 1
+    },
+    {
+      "service_section": "Matins",
+      "reading_type": "Prophecy",
+      "printed_ref": "Proverbs 11:27-12:22",
+      "normalized_ref": "Prov 11:27-12:22",
+      "source_order": 2,
+      "source_slot": "OT2",
+      "evidence": "Matins-Prophecies.txt",
+      "heading_order": 2
+    },
+    {
+      "service_section": "Matins",
+      "reading_type": "Prophecy",
+      "printed_ref": "Isaiah 66:10-24",
+      "normalized_ref": "Isa 66:10-24",
+      "source_order": 3,
+      "source_slot": "OT3",
+      "evidence": "Matins-Prophecies.txt",
+      "heading_order": 3
+    },
+    {
+      "service_section": "Matins",
+      "reading_type": "Prophecy",
+      "printed_ref": "Job 42:7-17",
+      "normalized_ref": "Job 42:7-17",
+      "source_order": 4,
+      "source_slot": "OT4",
+      "evidence": "Matins-Prophecies.txt",
+      "heading_order": 4
+    },
+    {
+      "service_section": "Matins",
+      "reading_type": "Psalm",
+      "printed_ref": "Psalms 31:11-12",
+      "normalized_ref": "Ps 32:10-11",
+      "source_order": 5,
+      "source_slot": "Psalm",
+      "evidence": "Matins-Psalm_and_Gospel.txt",
+      "heading_order": 1,
+      "source_convention": "coptic_reader_printed_liturgical",
+      "canonicalization_confidence": "confirmed_text_aligned",
+      "canonicalization_note": "Coptic Reader wording corresponds to NKJV Psalm 32:10-11, not printed verses 11-12; wording differs (scourges/sorrows, sinner/wicked).",
+      "normalization_evidence": "nkjv-psalm-32.txt"
+    },
+    {
+      "service_section": "Matins",
+      "reading_type": "Gospel",
+      "printed_ref": "Luke 16:19-31",
+      "normalized_ref": "Lk 16:19-31",
+      "source_order": 6,
+      "source_slot": "Gospel",
+      "evidence": "Matins-Psalm_and_Gospel.txt",
+      "heading_order": 2
+    },
+    {
+      "service_section": "Liturgy",
+      "reading_type": "Pauline Epistle",
+      "printed_ref": "2 Timothy 3:1-4:5",
+      "normalized_ref": "2Tim 3:1-4:5",
+      "source_order": 7,
+      "source_slot": "Pauline Epistle",
+      "evidence": "Liturgy-Pauline_Epistle.txt",
+      "heading_order": 1
+    },
+    {
+      "service_section": "Liturgy",
+      "reading_type": "Catholic Epistle",
+      "printed_ref": "James 5:7-16",
+      "normalized_ref": "James 5:7-16",
+      "source_order": 8,
+      "source_slot": "Catholic Epistle",
+      "evidence": "Liturgy-Catholic_Epistle.txt",
+      "heading_order": 1
+    },
+    {
+      "service_section": "Liturgy",
+      "reading_type": "Acts",
+      "printed_ref": "Acts 15:1-18",
+      "normalized_ref": "Acts 15:1-18",
+      "source_order": 9,
+      "source_slot": "Acts",
+      "evidence": "Liturgy-Praxis.txt",
+      "heading_order": 1
+    },
+    {
+      "service_section": "Liturgy",
+      "reading_type": "Psalm",
+      "printed_ref": "Psalms 97:8",
+      "normalized_ref": "Ps 98:8-9",
+      "source_order": 10,
+      "source_slot": "Psalm",
+      "evidence": "Liturgy-Psalm_and_Gospel.txt",
+      "heading_order": 1,
+      "source_convention": "coptic_reader_printed_liturgical",
+      "canonicalization_confidence": "confirmed_text_aligned",
+      "canonicalization_note": "Coptic Reader excerpt corresponds to NKJV Psalm 98:8b-9; the rivers clause in 8a is not sung. Canonical full-verse coverage is 98:8-9, not a claim that all verse 8 is sung.",
+      "normalization_evidence": "nkjv-psalm-98.txt"
+    },
+    {
+      "service_section": "Liturgy",
+      "reading_type": "Gospel",
+      "printed_ref": "Luke 13:31-35",
+      "normalized_ref": "Lk 13:31-35",
+      "source_order": 11,
+      "source_slot": "Gospel",
+      "evidence": "Liturgy-Psalm_and_Gospel.txt",
+      "heading_order": 2
+    }
+  ]
+}

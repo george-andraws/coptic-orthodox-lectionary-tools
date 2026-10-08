@@ -1,0 +1,70 @@
+{
+  "civil_date": "2026-02-27",
+  "context": "Selected Season 2nd Week of Great Fast Meshir 20, 1742 Friday, February 27, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "url": "https://copticreader.org/app/#/document",
+  "retrieved_at": "2026-10-07T17:17:03.024Z",
+  "raw_reference_lines": [
+    "\tDeuteronomy 8:1-9:4",
+    "\t1 Samuel 17:1-18:4",
+    "\tIsaiah 7:1-14",
+    "\tJob 11:1-20"
+  ],
+  "text_path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/Prophecies.txt",
+  "text_sha256": "bb32899f02b73fe61998092bab77ab0a5b088908231a93c137b95051d36b4c0d",
+  "screenshot_sha256": "2b0871883ffcf56f0ac1df955fa679ba10f97f4935aa3cbeabd8bccd8426d25c",
+  "context_files": [
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/context.txt",
+      "sha256": "b397c72063d8cda9c912b9b88cf1213f0ce772370bd9fe3231f5a6bd1897a4be"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/context.png",
+      "sha256": "8abb6bf37b39c90666735568be27d96752e8907a764375eefa34fc2ccf0da471"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/picker.json",
+      "sha256": "23259f5ce937e4254a21834ea9f2c4555ea340bf5b07c881aa423d3747fa3274"
+    },
+    {
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/picker.png",
+      "sha256": "84ae1f66c5ce3146d4885083a8de3e4d14ffa770543f2fbb28e48685bfa50488"
+    }
+  ],
+  "reference_screenshots": [
+    {
+      "raw_ref": "\tDeuteronomy 8:1-9:4",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/reference-01.png",
+      "sha256": "2b0871883ffcf56f0ac1df955fa679ba10f97f4935aa3cbeabd8bccd8426d25c"
+    },
+    {
+      "raw_ref": "\t1 Samuel 17:1-18:4",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/reference-02.png",
+      "sha256": "f80cb2bc3f9bf9f70c4c0e13b4968a0cdaf86bf575d4b6f5fff670b8fc23e29b"
+    },
+    {
+      "raw_ref": "\tIsaiah 7:1-14",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/reference-03.png",
+      "sha256": "0964d6b98be0a27dcbb8515cc4275e43902441c9546ff15e2a93a54df714616e"
+    },
+    {
+      "raw_ref": "\tJob 11:1-20",
+      "path": "sources/coptic-reader/lent-qualified-2026-10-07/2026-02-27/reference-04.png",
+      "sha256": "3d63f685c5cade57cede7e71f5180590da7a61d00ac8aed3c8a854c6a28c3111"
+    }
+  ],
+  "source_gate": {
+    "visible_heading": true,
+    "reference_screenshots_visually_checked": true,
+    "context_visually_checked": true,
+    "early_top_level_readiness_claim_not_trusted": true
+  },
+  "numbering": "literal source; no conversion",
+  "source_qualified": true
+}

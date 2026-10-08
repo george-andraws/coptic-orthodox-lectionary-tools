@@ -1,0 +1,33 @@
+{
+  "package_dir": "/Users/ga/workspace/synaxarium-package-release/packages/lectionary-data",
+  "strict_complete_calendar": true,
+  "years": {
+    "2026": {
+      "calendar_days": 365,
+      "dates_present": 365,
+      "reading_count": 3983,
+      "missing_dates": [],
+      "extra_dates": [],
+      "pascha_date": "2026-04-12"
+    },
+    "2027": {
+      "calendar_days": 365,
+      "dates_present": 365,
+      "reading_count": 3988,
+      "missing_dates": [],
+      "extra_dates": [],
+      "pascha_date": "2027-05-02"
+    },
+    "2028": {
+      "calendar_days": 366,
+      "dates_present": 366,
+      "reading_count": 3983,
+      "missing_dates": [],
+      "extra_dates": [],
+      "pascha_date": "2028-04-16"
+    }
+  },
+  "warnings": [],
+  "failures": [],
+  "status": "pass"
+}

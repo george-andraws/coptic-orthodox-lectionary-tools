@@ -1,0 +1,510 @@
+{
+  "scope": "FIRST110 numeric AnnualReadings IDs only; saved dated source authentication, not code/release/all220 approval",
+  "source_manifest_sha256": "71aa885af5e1c012b157c8c50c9c4f153efcca1d9e9e90c99451b00747244f4b",
+  "selected_ids": [
+    "AnnualReadings-6",
+    "AnnualReadings-7",
+    "AnnualReadings-8",
+    "AnnualReadings-10",
+    "AnnualReadings-20",
+    "AnnualReadings-22",
+    "AnnualReadings-23",
+    "AnnualReadings-24",
+    "AnnualReadings-25",
+    "AnnualReadings-28",
+    "AnnualReadings-29",
+    "AnnualReadings-30",
+    "AnnualReadings-31",
+    "AnnualReadings-32",
+    "AnnualReadings-33",
+    "AnnualReadings-35",
+    "AnnualReadings-36",
+    "AnnualReadings-39",
+    "AnnualReadings-40",
+    "AnnualReadings-41",
+    "AnnualReadings-43",
+    "AnnualReadings-47",
+    "AnnualReadings-48",
+    "AnnualReadings-49",
+    "AnnualReadings-51",
+    "AnnualReadings-53",
+    "AnnualReadings-55",
+    "AnnualReadings-56",
+    "AnnualReadings-58",
+    "AnnualReadings-61",
+    "AnnualReadings-62",
+    "AnnualReadings-63",
+    "AnnualReadings-64",
+    "AnnualReadings-65",
+    "AnnualReadings-66",
+    "AnnualReadings-69",
+    "AnnualReadings-70",
+    "AnnualReadings-71",
+    "AnnualReadings-73",
+    "AnnualReadings-74",
+    "AnnualReadings-77",
+    "AnnualReadings-79",
+    "AnnualReadings-80",
+    "AnnualReadings-81",
+    "AnnualReadings-82",
+    "AnnualReadings-83",
+    "AnnualReadings-85",
+    "AnnualReadings-86",
+    "AnnualReadings-87",
+    "AnnualReadings-88",
+    "AnnualReadings-89",
+    "AnnualReadings-90",
+    "AnnualReadings-91",
+    "AnnualReadings-92",
+    "AnnualReadings-94",
+    "AnnualReadings-95",
+    "AnnualReadings-96",
+    "AnnualReadings-97",
+    "AnnualReadings-98",
+    "AnnualReadings-99",
+    "AnnualReadings-100",
+    "AnnualReadings-101",
+    "AnnualReadings-102",
+    "AnnualReadings-103",
+    "AnnualReadings-104",
+    "AnnualReadings-105",
+    "AnnualReadings-106",
+    "AnnualReadings-107",
+    "AnnualReadings-108",
+    "AnnualReadings-109",
+    "AnnualReadings-110",
+    "AnnualReadings-111",
+    "AnnualReadings-115",
+    "AnnualReadings-116",
+    "AnnualReadings-117",
+    "AnnualReadings-121",
+    "AnnualReadings-122",
+    "AnnualReadings-124",
+    "AnnualReadings-125",
+    "AnnualReadings-127",
+    "AnnualReadings-128",
+    "AnnualReadings-129",
+    "AnnualReadings-134",
+    "AnnualReadings-135",
+    "AnnualReadings-136",
+    "AnnualReadings-137",
+    "AnnualReadings-138",
+    "AnnualReadings-139",
+    "AnnualReadings-140",
+    "AnnualReadings-141",
+    "AnnualReadings-142",
+    "AnnualReadings-143",
+    "AnnualReadings-144",
+    "AnnualReadings-145",
+    "AnnualReadings-147",
+    "AnnualReadings-148",
+    "AnnualReadings-149",
+    "AnnualReadings-150",
+    "AnnualReadings-151",
+    "AnnualReadings-152",
+    "AnnualReadings-153",
+    "AnnualReadings-154",
+    "AnnualReadings-155",
+    "AnnualReadings-156",
+    "AnnualReadings-157",
+    "AnnualReadings-158",
+    "AnnualReadings-159",
+    "AnnualReadings-160",
+    "AnnualReadings-161",
+    "AnnualReadings-162"
+  ],
+  "sourceApproval": {
+    "actualDatedContextsAccepted": 110,
+    "wholeRenderedBodiesAuthenticated": true,
+    "genericAnnualSeedCompleteness": false,
+    "replacementSeedsHeld": [
+      "AnnualReadings-128",
+      "AnnualReadings-129",
+      "AnnualReadings-148",
+      "AnnualReadings-157"
+    ],
+    "psalmCanonicalApproval": false,
+    "source_input_manifest_sha256": "6f90d4ce02f467ae40e4b541bdd074265fbf386ddaaefe07138676b73f16cfb9",
+    "datedOracleSha256": "25393076282ad518a2ef522260b6f3a3c927179c61085e8f4813cc7a8f859fc4"
+  },
+  "implementationBaseline": [
+    {
+      "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/out/data/copticchurch_date_readings_current_2020_2035.jsonl",
+      "snapshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-a/implementation-baseline/copticchurch_date_readings_current_2020_2035.jsonl",
+      "sha256": "d3e2480bcb2c2369c95024947398f2732bcd0be47e6ceae13e9ec7a0aff33333",
+      "bytes": 24337571
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/out/data/katameros_cycle_readings.jsonl",
+      "snapshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-a/implementation-baseline/katameros_cycle_readings.jsonl",
+      "sha256": "08c0a955dac874f44fd1d4c60916f053d6842ce9ae00c53321bfc6aaf68ca9f3",
+      "bytes": 1932072
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/out/design/daily/lectionary-2026.json",
+      "snapshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-a/implementation-baseline/design-daily/lectionary-2026.json",
+      "sha256": "9677b9d994492ff3ae756aa8fa09e836eb3325fceaa95282fae7eb26a2c14c1b",
+      "bytes": 5737815
+    },
+    {
+      "path": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/out/design/daily/lectionary-2027.json",
+      "snapshot": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/annual-remaining-independent-review-a/implementation-baseline/design-daily/lectionary-2027.json",
+      "sha256": "048c55aacbcb4a25206db6d0479adc6c4d8c16debb7413eea32c74d3c67f4e7e",
+      "bytes": 5687309
+    }
+  ],
+  "counts": {
+    "selectedContexts": 110,
+    "documents": 770,
+    "assignedHeadings": 986,
+    "nonPsalmAppointments": 658,
+    "literalPsalmHeadings": 328,
+    "hashDeclarationChecks": 6698,
+    "hashFailures": 0,
+    "sourceInputFiles": 4183,
+    "distinctReviewedImages": 719,
+    "contactSheets": 25,
+    "explicitNoProphecyRubrics": 110,
+    "explicitVespersNoServiceRubrics": 2,
+    "captureHeadingOmissions": 2,
+    "projectionAppointmentOmissions": 10,
+    "corruptionProbes": 10,
+    "corruptionProbesDetected": 10,
+    "classification": {
+      "annualproper": 103,
+      "feastproper": 3,
+      "replacementcanary": 4
+    },
+    "comparisonStatusCounts": {
+      "cycle": {
+        "match": 630,
+        "assignment_conflict": 28,
+        "conflicts_with_source_no_service": 2
+      },
+      "date": {
+        "match": 505,
+        "malformed_comparator_pending": 121,
+        "assignment_conflict": 32,
+        "conflicts_with_source_no_service": 1,
+        "source_explicit_absence": 1
+      },
+      "projection": {
+        "match": 614,
+        "assignment_conflict": 34,
+        "appointment_omitted": 10,
+        "conflicts_with_source_no_service": 1,
+        "source_explicit_absence": 1
+      }
+    },
+    "discrepancyRows": 229,
+    "problemClasses": {
+      "normalization": 118,
+      "assignment": 35,
+      "inherited_date_assignment_or_calendar_conflict": 32,
+      "projection_appointment_omission": 10,
+      "projection_or_upstream_normalization_conflict": 3,
+      "calendar_or_actual_occasion_replacement": 28,
+      "normalization_in_replacement_context": 3
+    },
+    "sourceInputsChanged": 0,
+    "implementationInputsChanged": 0
+  },
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "sha256": "781aeb9f63c784c3752595f44c19725df3a2c805ecdbf7995938f3cdfcbe91d9",
+      "bytes": 10005
+    },
+    {
+      "path": "accepted-dated-oracle.jsonl",
+      "sha256": "25393076282ad518a2ef522260b6f3a3c927179c61085e8f4813cc7a8f859fc4",
+      "bytes": 8759065
+    },
+    {
+      "path": "all-omissions-and-absences.jsonl",
+      "sha256": "6e68e242d4b4bd4952df30159f267452dc040ba1d8d08b3dde81d4dfda740522",
+      "bytes": 65094
+    },
+    {
+      "path": "audit.py",
+      "sha256": "1d2356f7a7aa7ad073a4b5a70ecc393790a4a0eb7158f0ee390bdfb54e459dd5",
+      "bytes": 12683
+    },
+    {
+      "path": "calendar-checks.jsonl",
+      "sha256": "f0c312b01c555b5699c93648621e42b49433b966c81e75c84844cb035c32fe25",
+      "bytes": 25817
+    },
+    {
+      "path": "compare.py",
+      "sha256": "49a7610154cdff1552f6ed5f397b13ede350877f4ebfc84f7e2759497bd2f12b",
+      "bytes": 9561
+    },
+    {
+      "path": "comparison-summary.json",
+      "sha256": "f3aee599ff5d1463e11dcdb98bf5eff4cdf2179b6b8145f76c36d3bdcee2535c",
+      "bytes": 838
+    },
+    {
+      "path": "comparisons.jsonl",
+      "sha256": "ded5d1c661271e6d5a79567cc41084b2bf39c2c87709469901b78d6cf05045a3",
+      "bytes": 2213036
+    },
+    {
+      "path": "contact-sheets/date-000.jpg",
+      "sha256": "929b234f3b7e6daa72ea3a7c22e65585d303d095757471e79a2733a46af7517e",
+      "bytes": 734022
+    },
+    {
+      "path": "contact-sheets/date-001.jpg",
+      "sha256": "dd5070b912ec9a4cdd8a516f8e571ed92573022ff770bf7d5db1611bb4b60324",
+      "bytes": 736294
+    },
+    {
+      "path": "contact-sheets/date-002.jpg",
+      "sha256": "98fecb67902ea2367bd3118f31dd0eee07a4fbe8af1989267c103df6956257ca",
+      "bytes": 331405
+    },
+    {
+      "path": "contact-sheets/home-000.jpg",
+      "sha256": "4e4deb1781ea20150c1045ba54884a561ece09ec6200890309f2a1e94c6fdd1d",
+      "bytes": 868830
+    },
+    {
+      "path": "contact-sheets/home-001.jpg",
+      "sha256": "39ef3abc091382290f33150b81752f342445efd134574db29508147d8c70829f",
+      "bytes": 906638
+    },
+    {
+      "path": "contact-sheets/home-002.jpg",
+      "sha256": "780f4519f1cdb1580dd9c1fd1c7c7c47fcf02489a1bb827bc9a96250ec499657",
+      "bytes": 907116
+    },
+    {
+      "path": "contact-sheets/home-003.jpg",
+      "sha256": "d8bdfa82ec521d4c43b5240cdd7acb9f9066eb074c3bfff599a2534d09e72873",
+      "bytes": 584401
+    },
+    {
+      "path": "contact-sheets/picker-000.jpg",
+      "sha256": "8339e57244dc43cd7dcdac541d2cd3b543bb1b33d74ba50fe291f30a6c24cf13",
+      "bytes": 690494
+    },
+    {
+      "path": "contact-sheets/picker-001.jpg",
+      "sha256": "12b4c45acbd11b155f920757d1abdc972583a0296227e6d0990a4b335af0a5f9",
+      "bytes": 690358
+    },
+    {
+      "path": "contact-sheets/picker-002.jpg",
+      "sha256": "9b55ab39879822700a432266e47708142e334f58395515518d6a85e6da03422e",
+      "bytes": 691592
+    },
+    {
+      "path": "contact-sheets/picker-003.jpg",
+      "sha256": "d626366b76560c3ef0ea30e09e3483cb9c0ba3d39b10dcdf7ddd5ab0610c9eab",
+      "bytes": 459828
+    },
+    {
+      "path": "contact-sheets/reference-000.jpg",
+      "sha256": "f429b9e5c6a3bc17dcda2f06c32e5ca973ff5167585e0bb026519fd1c50716f2",
+      "bytes": 2157484
+    },
+    {
+      "path": "contact-sheets/reference-001.jpg",
+      "sha256": "4746d4cc061418378bec13f1bb22ccccf42405329b8dce663d3377e4b7578349",
+      "bytes": 2142325
+    },
+    {
+      "path": "contact-sheets/reference-002.jpg",
+      "sha256": "5a9dc9f2fcef6e1c0886113ce90e9ed980a17d31bfc73702827b08b48d90bec2",
+      "bytes": 2074525
+    },
+    {
+      "path": "contact-sheets/reference-003.jpg",
+      "sha256": "f97ea63c73ca22da6eb28cbf7c9611020334e2cb5f7d96b7cd4c29c25457ba4e",
+      "bytes": 2145784
+    },
+    {
+      "path": "contact-sheets/reference-004.jpg",
+      "sha256": "5c9772302357b6df637a76f068a1f56c015b8ae7245cacc0bd817f129e300600",
+      "bytes": 2146581
+    },
+    {
+      "path": "contact-sheets/reference-005.jpg",
+      "sha256": "148c6afe1854b2e46cce7a04a0536816c0efd014b46387201a652509ce69d9bb",
+      "bytes": 2096563
+    },
+    {
+      "path": "contact-sheets/reference-006.jpg",
+      "sha256": "a4e5732ae71e7763acf870d1e5852497b4ada71a7ac8353dab3e061577f52f1d",
+      "bytes": 2041143
+    },
+    {
+      "path": "contact-sheets/reference-007.jpg",
+      "sha256": "f4a41c0c54b8dc5623c2f99d2ecec8d5cc324a7d9bce493f79a78436675b4f43",
+      "bytes": 2080296
+    },
+    {
+      "path": "contact-sheets/reference-008.jpg",
+      "sha256": "d341b9b2b87b9c3293d791cd8cc8c7a604f1099cd43bfd2abb0a0281f30dd1c6",
+      "bytes": 2099890
+    },
+    {
+      "path": "contact-sheets/reference-009.jpg",
+      "sha256": "434120d8c008e88c3f6bdf91e5e50d9ef20692195d6ea5d2aefda3182e3e2b61",
+      "bytes": 2082511
+    },
+    {
+      "path": "contact-sheets/reference-010.jpg",
+      "sha256": "341352ad83c10edaf1713f3f6c98dd1e87fad6c42ac9bd4937b79f7ca4559293",
+      "bytes": 2058866
+    },
+    {
+      "path": "contact-sheets/reference-011.jpg",
+      "sha256": "4badaf24746d1b704b0a9a3bad30133bf19b1e7d2264e8038fee6af924a7e6e2",
+      "bytes": 2096953
+    },
+    {
+      "path": "contact-sheets/reference-012.jpg",
+      "sha256": "36af60912f78e837ba57bf4b0eb2c9c38620e4baccda554c7939dd70c6b604bc",
+      "bytes": 1849683
+    },
+    {
+      "path": "contact-sheets/rubric-000.jpg",
+      "sha256": "2f0e8c4f6b2bd9d64326da5101df1c7db591d3321bd1d7b1db8447448cf2434c",
+      "bytes": 95457
+    },
+    {
+      "path": "corruption-probes.jsonl",
+      "sha256": "554ed9360734be8c4106c89318fd4d8fc733331d79b96416da587425b403fe8e",
+      "bytes": 907
+    },
+    {
+      "path": "counts-and-gates.json",
+      "sha256": "3c73aaeedb4be21accb815f933b834d160b7f1d8634debb83696aa6a656bd8d9",
+      "bytes": 1548
+    },
+    {
+      "path": "counts-precomparison.json",
+      "sha256": "a9edd6dcc3535643e3b3f0a7fe9f94a4342d3750cf52cbca11cf7c287eb9c214",
+      "bytes": 359
+    },
+    {
+      "path": "discrepancy-ledger.jsonl",
+      "sha256": "152d43cd8bd4a024f5ec42c32ac9409586ab52b29fefabcd85703d201ceb955a",
+      "bytes": 246464
+    },
+    {
+      "path": "document-boundaries.jsonl",
+      "sha256": "42b9ea1d7155fa0024ecae7425b728b425ead9b3709140cc058ae462b020d507",
+      "bytes": 801573
+    },
+    {
+      "path": "finalize.py",
+      "sha256": "f46b408acb845c357c468c6b91c8c80facf6bf4739702c6afaf3b47b316bf8b2",
+      "bytes": 19300
+    },
+    {
+      "path": "hash-verification.jsonl",
+      "sha256": "270b39c79a7bec6ca198e2123e73a1b3b37216b2707a194a5e06fe4d19d6bdf0",
+      "bytes": 2737217
+    },
+    {
+      "path": "implementation-baseline/copticchurch_date_readings_current_2020_2035.jsonl",
+      "sha256": "d3e2480bcb2c2369c95024947398f2732bcd0be47e6ceae13e9ec7a0aff33333",
+      "bytes": 24337571
+    },
+    {
+      "path": "implementation-baseline/design-daily/lectionary-2026.json",
+      "sha256": "9677b9d994492ff3ae756aa8fa09e836eb3325fceaa95282fae7eb26a2c14c1b",
+      "bytes": 5737815
+    },
+    {
+      "path": "implementation-baseline/design-daily/lectionary-2027.json",
+      "sha256": "048c55aacbcb4a25206db6d0479adc6c4d8c16debb7413eea32c74d3c67f4e7e",
+      "bytes": 5687309
+    },
+    {
+      "path": "implementation-baseline/katameros_cycle_readings.jsonl",
+      "sha256": "08c0a955dac874f44fd1d4c60916f053d6842ce9ae00c53321bfc6aaf68ca9f3",
+      "bytes": 1932072
+    },
+    {
+      "path": "implementation-baseline.json",
+      "sha256": "fbb888fc58b855dc20178dadd1724e1eb8273e2a7712d34568301ad7f805e4f4",
+      "bytes": 1638
+    },
+    {
+      "path": "omissions-and-absences.jsonl",
+      "sha256": "c1f1122d7bd915fcb6799c2504f54b184667924f628b5305098e7941bc59980a",
+      "bytes": 57836
+    },
+    {
+      "path": "pending-psalm-normalization.jsonl",
+      "sha256": "8ee94c8afb5409b5cd77c1add26e13058a8a12180947ddc28fdb2bb00dedb952",
+      "bytes": 1001381
+    },
+    {
+      "path": "reading-oracle.jsonl",
+      "sha256": "ada4732ed99a32f42691fafc41397866644c4cc20ddd746a169b8f0ab9f2f793",
+      "bytes": 8657747
+    },
+    {
+      "path": "replacement-frontier.jsonl",
+      "sha256": "96cc875474bc9e3a45efc647db05c5eec4009e237ea6188278e50d8c44db7bb5",
+      "bytes": 3608
+    },
+    {
+      "path": "seedcoverage-map.jsonl",
+      "sha256": "2da3dd79f79ea2ee20e2eb59621dac739f4665dc83249984ce70a2a90202a9a3",
+      "bytes": 98792
+    },
+    {
+      "path": "selected-manifest.jsonl",
+      "sha256": "622418e3cc04bc9e2c26d34d09d089dc5bb7a0467b84e0fcd198632a38ebb0b9",
+      "bytes": 857108
+    },
+    {
+      "path": "service-navigation-checks.jsonl",
+      "sha256": "ea62c16d09df1b854be3c9bd27d613adf1421b66b8f90be3f22dfc9c4b82c237",
+      "bytes": 61596
+    },
+    {
+      "path": "source-body-boundary-checks.jsonl",
+      "sha256": "d24a08f1c735494d25f5d49c64e9b6803bf8c62b4b54ab43c438c21e4931d76b",
+      "bytes": 519234
+    },
+    {
+      "path": "source-input-provenance.jsonl",
+      "sha256": "6f90d4ce02f467ae40e4b541bdd074265fbf386ddaaefe07138676b73f16cfb9",
+      "bytes": 1273064
+    },
+    {
+      "path": "visual-evidence-manifest.jsonl",
+      "sha256": "98ae1b016e00ca70d827c4bc18f10a3600a13184c39040095ab9f74bcdc781c2",
+      "bytes": 1467828
+    },
+    {
+      "path": "visual-review-receipt.json",
+      "sha256": "1ee66f29c3d3418fe6fa3f43397bdabc65317d07997efa19cad1794f177c60e4",
+      "bytes": 370
+    }
+  ],
+  "stateChanges": {
+    "review_artifacts_only": true,
+    "parent_accepted_manifest_modified": false,
+    "implementation_modified": false,
+    "source_modified": false,
+    "all220_claimed_complete": false,
+    "published": false
+  },
+  "holds": [
+    "genuine annual alternatives for four replacement contexts",
+    "AnnualReadings-103 mapping/assignment disagreement",
+    "dated and projection conflicts",
+    "121 malformed comparator positions",
+    "Psalm canonical normalization"
+  ],
+  "verification": "all selected source declarations/readings/menus/calendar/body/mutations/visual statuses pass; downstream agreement fails as explicitly ledgered"
+}

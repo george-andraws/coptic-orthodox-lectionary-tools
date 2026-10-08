@@ -176,28 +176,28 @@ Strict mode is required for release validation:
 python3 scripts/verify_calendar_coverage.py --strict-complete-calendar
 ```
 
-## Gate 5: copticchurch cached external-source comparison
+## Gate 5: current-source cached preservation comparison
 
 Script: `scripts/compare_external_sources.py`
 
+The default input is `out/data/copticchurch_passage_index_current_2020_2035.csv`. The unqualified passage-index CSV/JSONL files are preserved historical snapshots; diagnose them only through `--legacy-snapshot` or explicit source selection. Do not silently replace or promote these snapshots as current outputs.
+
 Validates:
 
-- shipped daily package rows match `out/data/copticchurch_passage_index_2020_2035.csv` for shipped years
-- comparison uses the split passage-index layer, not raw multi-reference date rows
-- package-only inline LXX Psalm annotations are stripped before comparison so dual-numbering display does not create false mismatches
-- explicitly marked structural Holy Week / Bright Saturday materialized rows are skipped for this copticchurch-cache parity check because those rows come from structural Pascha sources, not the public daily cache
+- Full dated occasion/service/hour/raw-slot/reference/family keys and occurrence multiplicity against the reconciled current sidecar.
+- Exact source-backed prophecy order and physical consumer order, including rejection of order99, omitted/duplicate/reordered/truncated or wrong-context rows.
+- Package-only inline LXX annotations are stripped for canonical-reference comparison, without changing the captured printed Psalm citation.
+- Current calendar overlays are compared symmetrically on both source and package sides.
+- Source-only suppression dispositions require exact documented Nineveh **Vespers** context, seasonal date, source identity, authority/reason and authenticated evidence hashes. Vespers evidence cannot authorize suppression of Matins or another service.
+- Structural-only Pascha/Bright Saturday rows outside cached-source scope are disclosed separately and checked for eligible date/occasion/hour/family/current-state/duplicate metadata, not silently counted as cached parity.
 
-Current comparison source:
-
-- local cached copticchurch.net passage index under `out/data/`
-
-This is not a fresh live scrape. It validates package preservation against the repo's public-current-practice cache. A separate live-fetch comparator can be added later if needed.
+This is **not a fresh live scrape or independent primary-source completeness oracle**. Its preserved current-cache agreement does not authenticate the endpoints or completeness of the excluded structural service tables. Exact Coptic Reader rendered-table/direct-service evidence and independent source-derived expectations are separate required gates.
 
 Hard failures:
 
-- any source-only row missing from package
-- any package-only row not present in source cache unless it is explicitly marked as a structural Holy Week / Bright Saturday materialized row
-- row-count mismatch after normalization
+- Missing or extra comparable occurrences, wrong boundaries/context/order, invalid removed-state visibility or duplicate occurrences.
+- Invalid or unauthenticated suppression/structural exclusion contexts.
+- Missing current sidecar; no automatic legacy fallback.
 
 ## Gate 6: package and tarball integrity
 

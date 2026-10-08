@@ -1,0 +1,1197 @@
+[
+  {
+    "civil_date": "2026-02-02",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 102:1, 7",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 7:6-12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-03",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 102:13, 8-9",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 13:6-9",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-04",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 102:12, 11",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 11:25-30",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-15",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 65:12,13",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 2:40-52",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-16",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 6:1-2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 12:24-34",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-17",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 22:1, 2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 9:10-15",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-18",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 24:5-6",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 6:24-34",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-19",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 23:1-2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 8:22-25",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-20",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 29: 1-2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 5:12-16",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-21",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 118:39",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 5:25-37",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-22",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 17: 1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 7:22-29",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-23",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 39:10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 9:25-29",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-24",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 40:4, 12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 12:22-31",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-25",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 17:17-18",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 5:17-24",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-26",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 27:10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 11:20-30",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-27",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 114:6",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 15:39-16:12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-28",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 24:7,10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 9:43-50",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-01",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 56:1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 4:1-13",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-02",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 31: 1-2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 19:11-28",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-03",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 31:11",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 12:54-59",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-04",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 26:5",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 13:18-22",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-05",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 9: 7-8",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 20:20-26",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-06",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 15:10-11",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 20:27-38",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-07",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 129: 1-2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 10:17-27",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-08",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 54:1, 14",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 20:1-16",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-09",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 54:1, 26:11",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 14:7-15",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-10",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 16:1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 21:28-32",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-11",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 17:38, 41",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 14:16-24",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-12",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 11:9",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 3:7-12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-13",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 27:7-8",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 4:31-37",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-14",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 141:5, 7",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 16:19-31",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-15",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 30:28, 26",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 22:1-14",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-16",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 87:2-3",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 12:16-21",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-17",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 85:5-6",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 9:14-24",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-18",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 54:1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 10:1-12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-19",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 59:3",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tJohn 12:26-36",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-20",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 85:8, 9",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 12:28-34",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-21",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 64:2-3",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 15:3-10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-22",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 101:1, 10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 21:33-46",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-23",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 37:9",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 12:1-12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-24",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 34:15",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 4:22-30",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-25",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 101:14, 17",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 7:1-20",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-26",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 9:9-10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 20:9-19",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-27",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 50:7-8",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tJohn 3:14-21",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-28",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 78:7-8",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 9:1-8",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-29",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 25:1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 23:1-39",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-30",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 31:11-12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 16:19-31",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-03-31",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 37:18",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 17:1-10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-04-01",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 56:1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 14:28-35",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-04-02",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 62:1",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tMatthew 20:20-28",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-04-03",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 31:11-12",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 16:19-31",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-04-04",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 87:2-3",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 12:16-21",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-04-05",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 67:19, 35",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 19:1-10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2027-03-07",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 99: 1-2",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 17:3-10",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2027-04-08",
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 85:13",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 9:37-43",
+        "precolon_whitespace": false,
+        "leading_tab": true,
+        "composite": false
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2028-04-07",
+    "reuse": true,
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 31:11-12",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 16:19-31",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2027-04-07",
+    "reuse": true,
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 71:5,6",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 11:20-28",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2028-02-29",
+    "reuse": true,
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 40:4, 12",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      },
+      {
+        "line": 34,
+        "raw": "\tLuke 12:22-31",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-05",
+    "reuse": true,
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 29 :10-11",
+        "precolon_whitespace": true,
+        "leading_tab": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 8:10-21",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      }
+    ],
+    "literal_preserved": true
+  },
+  {
+    "civil_date": "2026-02-14",
+    "reuse": true,
+    "headings": [
+      {
+        "line": 7,
+        "raw": "\tPsalms 118:35, 37",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      },
+      {
+        "line": 34,
+        "raw": "\tMark 13:33-37",
+        "precolon_whitespace": false,
+        "leading_tab": true
+      }
+    ],
+    "literal_preserved": true
+  }
+]

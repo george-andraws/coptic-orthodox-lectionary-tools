@@ -1,0 +1,17 @@
+E....
+======================================================================
+ERROR: test_context_qualified_cycle_correction_retains_raw_api (test_lent_matins_prophecies.LentMatinsProphecies.test_context_qualified_cycle_correction_retains_raw_api)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 65, in test_context_qualified_cycle_correction_retains_raw_api
+    self.assertTrue(any(r['book_abbrev'] == 'Exod' and r['chapter_start'] == 5 for r in segments))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 65, in <genexpr>
+    self.assertTrue(any(r['book_abbrev'] == 'Exod' and r['chapter_start'] == 5 for r in segments))
+                                                       ~^^^^^^^^^^^^^^^^^
+KeyError: 'chapter_start'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.297s
+
+FAILED (errors=1)

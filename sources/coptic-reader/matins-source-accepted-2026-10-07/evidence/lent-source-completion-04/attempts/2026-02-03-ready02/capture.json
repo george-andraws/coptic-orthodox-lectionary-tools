@@ -1,0 +1,68 @@
+{
+  "civil_date": "2026-02-03",
+  "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+  "documents": [
+    {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:13.094Z",
+      "raw_reference_lines": [
+        "\tJonah 2:2-10"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies.txt",
+      "text_sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJonah 2:2-10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies-reference-01.png",
+          "sha256": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:18.303Z",
+      "raw_reference_lines": [
+        "\tPsalms 102:13, 8-9",
+        "\tLuke 13:6-9"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 102:13, 8-9",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "f973879b7abbade3087e9febe121b6519fed763525183ea303804e1dd1f9f8b1"
+        },
+        {
+          "raw_ref": "\tLuke 13:6-9",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "66dbd99b2be31f63137baf6f9bd66718af8a3ff0a91c907a66c785f3576d0e68"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

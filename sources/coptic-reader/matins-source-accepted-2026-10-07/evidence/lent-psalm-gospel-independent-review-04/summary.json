@@ -1,0 +1,16 @@
+{
+  "accepted_candidate_PG_documents": 55,
+  "new_distinct_PG_contexts": 53,
+  "duplicate_date_witnesses": 2,
+  "retained_old_PG_documents": 5,
+  "PG_union_occasions": 58,
+  "literal_candidate_headings": 110,
+  "ready_PG_images": 110,
+  "packet_hash_checks": 1765,
+  "primary_evidence_checks": 916,
+  "all_hash_checks": 2681,
+  "independent_counterprobes_rejected": 17,
+  "canonical_Psalm_approval": false,
+  "recurrence_approval": false,
+  "production_activation": false
+}

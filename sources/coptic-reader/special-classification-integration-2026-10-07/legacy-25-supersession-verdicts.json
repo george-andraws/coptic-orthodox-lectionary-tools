@@ -1,0 +1,2127 @@
+[
+  {
+    "legacy_row": 1,
+    "legacy_context": [
+      "wedding_crowning",
+      "holy_matrimony_main",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "Psalm 19:5; Psalm 128:3",
+    "reader_printed_ref": "Psalms 19:5-6;128:3-4",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "018eaa5b-d272-4a45-816a-c85359f4d959-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Crowning",
+        "Crowning Prayer"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 19:5-6;128:3-4",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/018eaa5b-d272-4a45-816a-c85359f4d959-3.txt",
+      "sha256": "cc723e3dbf451601540d7c99f2d2db31ee9597dc9d4f33f01fcc287e62f4824f",
+      "lines": [
+        {
+          "line": 691,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 692,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 693,
+          "text": "Psalm"
+        },
+        {
+          "line": 694,
+          "text": "المزمور"
+        },
+        {
+          "line": 695,
+          "text": "\tPsalms 19:5-6;128:3-4"
+        },
+        {
+          "line": 696,
+          "text": "(مزامير 19: 5-6;128: 3-4)"
+        },
+        {
+          "line": 697,
+          "text": "Reader:"
+        },
+        {
+          "line": 698,
+          "text": "Which is like a bridegroom coming out of his chamber, And rejoices like a strong man to run its race. Your wife shall be like a fruitful vine in the very heart of your house, your children like olive plants all around your table."
+        },
+        {
+          "line": 699,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 700,
+          "text": "Ⲟⲩⲟϩ ⲛ̀ⲑⲟϥ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲡⲁⲧϣⲉⲗⲉⲧ ⲉϥⲛⲏⲟⲩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉϥⲙⲁⲛ̀ϣⲉⲗⲉⲧ: ⲉϥⲉ̀ⲑⲉⲗⲏⲗ ⲙ̀ⲙⲟϥ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲁⲫⲱⲫ ⲉϥϭⲟϫⲓ ϩⲓ ⲡⲉϥⲙⲱⲓⲧ. Ⲉⲣⲉ ⲧⲉⲕⲥ̀ϩⲓⲙⲓ ⲉⲣ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲃⲱ ⲛ̀ⲁⲗⲟⲗⲓ ⲉⲥⲫⲟⲣⲓ ⲉ̀ⲃⲟⲗ ⲥⲁ ⲡ̀ⲥ̀ⲫⲓⲣ ⲛ̀ⲧⲉ ⲡⲉⲕⲏⲓ: ⲛⲉⲕϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛϭⲟ ⲙ̀ⲃⲉⲣⲓ ⲛ̀ⲧⲉ ϩⲁⲛϫⲱⲓⲧ ⲉⲩⲕⲱϯ ⲉ̀ⲧⲉⲕⲧ̀ⲣⲁⲡⲉⲍⲁ."
+        },
+        {
+          "line": 701,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 702,
+          "text": "مثل العريس الخارج من خدره، يتهلل مثل الجبار المسرع في طريقه. امرأتك تكون كالكرمة التي تزهر في جوانب بيتك، وبنوك مثل غروس الزيتون محيطين بمائدتك. الليلويا."
+        },
+        {
+          "line": 703,
+          "text": "People:"
+        },
+        {
+          "line": 704,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 7,
+    "legacy_context": [
+      "baptism",
+      "mother_absolution_female_child",
+      "part_2"
+    ],
+    "legacy_raw_ref": "Psalm 45:9; Psalm 45:13",
+    "reader_printed_ref": "Psalms 45:13",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "8b95beac-f8fd-4f15-b4a5-f0377907ee14-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Absolution of the Woman (Girl)"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 45:13",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/8b95beac-f8fd-4f15-b4a5-f0377907ee14-3.txt",
+      "sha256": "f9e41948ada0eb065cc645e1800303e89b33c4841fcb739c566934ab490f6282",
+      "lines": [
+        {
+          "line": 328,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 329,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 330,
+          "text": "Psalm"
+        },
+        {
+          "line": 331,
+          "text": "المزمور"
+        },
+        {
+          "line": 332,
+          "text": "\tPsalms 45:13"
+        },
+        {
+          "line": 333,
+          "text": "(مزامير 45: 13)"
+        },
+        {
+          "line": 334,
+          "text": "Reader:"
+        },
+        {
+          "line": 335,
+          "text": "All the glory of the daughter of the King is within, robed in golden fringed garments, adorned in various manners."
+        },
+        {
+          "line": 336,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 337,
+          "text": "Ⲁⲥⲟ̀ϩⲓ ⲉ̀ⲣⲁⲧⲥ ⲛ̀ϫⲉ ϯⲟⲩⲣⲱ: ⲥⲁⲟⲩⲓⲛⲁⲙ ⲙ̀ⲙⲟⲕ: ϧⲉⲛ ⲟⲩϭⲓϩ̀ⲃⲱⲥ ⲛ̀ⲓⲉⲃ ⲛ̀ⲛⲟⲩⲃ: ⲉⲥϫⲟⲗϩ ⲉⲥⲥⲉⲗⲥⲱⲗ ⲛ̀ⲟⲩⲑⲟ ⲛ̀ⲣⲏϯ."
+        },
+        {
+          "line": 338,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 339,
+          "text": "قامت الملكةُ عن يمينِكَ بلباسٍ مذهبٍ، مزينةً بكلِّ نوعٍ."
+        },
+        {
+          "line": 340,
+          "text": "People:"
+        },
+        {
+          "line": 341,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 10,
+    "legacy_context": [
+      "baptism",
+      "sanctification_of_baptismal_water",
+      "part_3"
+    ],
+    "legacy_raw_ref": "1 John 5:5-20",
+    "reader_printed_ref": "1 John 5:5-14",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "8c67f222-214a-442d-83f1-2de9561a1039-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Baptism",
+        "Consecrating the Water"
+      ],
+      "section": "main_readings",
+      "printed_ref": "1 John 5:5-14",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/8c67f222-214a-442d-83f1-2de9561a1039-3.txt",
+      "sha256": "8382160538f16db27e1eaaf8c8536769b8621af90307f37dcff6bfb4453a1935",
+      "lines": [
+        {
+          "line": 262,
+          "text": "Ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛⲙⲁⲓ ϧⲉⲛ ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲫⲏ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲛ̀ⲧⲉⲛϣⲱⲡⲓ ⲛ̀ⲕ̀ⲗⲏⲣⲟⲛⲟⲙⲟⲥ ⲕⲁⲧⲁ ⲟⲩϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲟⲩⲱⲛϧ ⲛ̀ⲉⲛⲉϩ."
+        },
+        {
+          "line": 263,
+          "text": "7 حَتَّى إِذَا تَبَرَّرْنَا بِنِعْمَتِهِ نَصِيرُ وَرَثَةً حَسَبَ رَجَاءِ الْحَيَاةِ الأَبَدِيَّةِ."
+        },
+        {
+          "line": 264,
+          "text": "The grace of God the Father be with you all. Amen."
+        },
+        {
+          "line": 265,
+          "text": "نعمة الله الآب تكون مع جميعِكم. آمين."
+        },
+        {
+          "line": 266,
+          "text": "\t1 John 5:5-14"
+        },
+        {
+          "line": 267,
+          "text": "(1 يوحنا 5: 5-14)"
+        },
+        {
+          "line": 268,
+          "text": "Reader:"
+        },
+        {
+          "line": 269,
+          "text": "The Catholic Epistle from the first Epistle of our teacher St. John. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 270,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 271,
+          "text": "الكاثوليكون من رسالة يوحنا الرسول الأولى. بركته تكون معنا. آمين."
+        },
+        {
+          "line": 272,
+          "text": "5 Who is he who overcomes the world, but he who believes that Jesus is the Son of God?"
+        },
+        {
+          "line": 273,
+          "text": "Ⲛⲓⲙ ⲇⲉ ⲡⲉ ⲫⲏ ⲉⲧϭⲣⲏⲟⲩⲧ ⲉⲡⲓⲕⲟⲥⲙⲟⲥ ⲉⲃⲏⲗ ⲉⲫⲏ ⲉⲑⲛⲁϩϯ ϫⲉ Ⲓⲏ︦ⲥ︦ ⲡⲉ ⲡϣⲏⲣⲓ ⲙ̀Ⲫϯ"
+        },
+        {
+          "line": 274,
+          "text": "5 مَنْ هُوَ الَّذِي يَغْلِبُ الْعَالَمَ، إِلاَّ الَّذِي يُؤْمِنُ أَنَّ يَسُوعَ هُوَ ابْنُ اللهِ؟"
+        },
+        {
+          "line": 275,
+          "text": "6 This is He who came by water and blood—Jesus Christ; not only by water, but by water and blood. And it is the Spirit who bears witness, because the Spirit is truth."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 21,
+    "legacy_context": [
+      "unction_of_the_sick",
+      "third_prayer",
+      "third_prayer"
+    ],
+    "legacy_raw_ref": "Psalm 38:1-2",
+    "reader_printed_ref": "Psalms 37:1-2",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "c1df42cd-51c1-490a-b9fc-9329d7918716-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Unction",
+        "Third Prayer"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 37:1-2",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/c1df42cd-51c1-490a-b9fc-9329d7918716-3.txt",
+      "sha256": "34a0d2d86cb4cc3fcf7e6315e477e50f5d2818ab67574d50001d69f8352e0b65",
+      "lines": [
+        {
+          "line": 302,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 303,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 304,
+          "text": "Psalm"
+        },
+        {
+          "line": 305,
+          "text": "المزمور"
+        },
+        {
+          "line": 306,
+          "text": "\tPsalms 37:1-2"
+        },
+        {
+          "line": 307,
+          "text": "(مزامير 37: 1-2)"
+        },
+        {
+          "line": 308,
+          "text": "Reader:"
+        },
+        {
+          "line": 309,
+          "text": "O Lord, do not rebuke me in Your wrath, Nor chasten me in Your hot displeasure! For Your arrows pierce me deeply, And Your hand presses me down."
+        },
+        {
+          "line": 310,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 311,
+          "text": "Ⲡϭⲟⲓⲥ ⲙ̀ⲡⲉⲣⲥⲟϩⲓ ⲙ̀ⲙⲟⲓ ϧⲉⲛ ⲡⲉⲕϫⲱⲛⲧ ⲟⲩⲇⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉⲕⲙ̀ⲃⲟⲛ ⲙ̀ⲡⲉⲣϯⲥ̀ⲃⲱ ⲛⲏⲓ. Ϫⲉ ⲁⲩⲧⲱⲧⲥ ⲛ̀ϧⲏⲧ ⲛ̀ϫⲉ ⲛⲉⲕⲥⲟⲑⲛⲉϥ ⲟⲩⲟϩ ⲁⲕⲧⲁϫⲣⲟ ⲛ̀ⲧⲉⲕϫⲓϫ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ."
+        },
+        {
+          "line": 312,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 313,
+          "text": "يَا رَبُّ، لاَ تُوَبِّخْنِي بِسَخَطِكَ، وَلاَ تُؤَدِّبْنِي بِغَيْظِكَ، لأَنَّ سِهَامَكَ قَدِ انْتَشَبَتْ فِيَّ، وَنَزَلَتْ عَلَيَّ يَدُكَ."
+        },
+        {
+          "line": 314,
+          "text": "People:"
+        },
+        {
+          "line": 315,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 24,
+    "legacy_context": [
+      "unction_of_the_sick",
+      "fourth_prayer",
+      "fourth_prayer"
+    ],
+    "legacy_raw_ref": "Psalm 51:1-2",
+    "reader_printed_ref": "Psalms 51:1",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "9dd2011b-42a3-426f-ad63-c7d3d7524877-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Unction",
+        "Fourth Prayer"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 51:1",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/9dd2011b-42a3-426f-ad63-c7d3d7524877-3.txt",
+      "sha256": "4fe826cd47fb85bd72bf37f8e1b29074f61a8ee4ac6c2594bd3659424835e0f5",
+      "lines": [
+        {
+          "line": 291,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 292,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 293,
+          "text": "Psalm"
+        },
+        {
+          "line": 294,
+          "text": "المزمور"
+        },
+        {
+          "line": 295,
+          "text": "\tPsalms 51:1"
+        },
+        {
+          "line": 296,
+          "text": "(مزامير 51: 1)"
+        },
+        {
+          "line": 297,
+          "text": "Reader:"
+        },
+        {
+          "line": 298,
+          "text": "Have mercy upon me, O God, according to Your great mercy; and according to the multitude of Your compassions blot out my iniquity. Wash me thoroughly from my iniquity, and cleanse me from my sin."
+        },
+        {
+          "line": 299,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 300,
+          "text": "Ⲛⲁⲓ ⲛⲏⲓ Ⲫⲛⲟⲩϯ ⲕⲁⲧⲁ ⲡⲉⲕⲛⲓϣϯ ⲛ̀ⲛⲁⲓ: ⲛⲉⲙ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲛⲉⲕⲙⲉⲧϣⲉⲛϩⲏⲧ ⲉⲕⲉ̀ⲥⲱⲗϫ ⲛ̀ⲧⲁⲁ̀ⲛⲟⲙⲓⲁ: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲛ̀ϩⲟⲩⲟ̀ ⲉ̀ⲃⲟⲗ ϩⲁ ⲧⲁⲁ̀ⲛⲟⲙⲓⲁ ⲟⲩⲟϩ ⲉⲕⲉ̀ⲧⲟⲩⲃⲟⲓ ⲉ̀ⲃⲟⲗ ϩⲁ ⲡⲁⲛⲟⲃⲓ."
+        },
+        {
+          "line": 301,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 302,
+          "text": "ارْحَمنِي يَا الله كَعَظيمِ رَحْمتِكَ، ومِثْل كَثْرةِ رَأفتِكَ امْحُ إثْمِي واغْسلُنِي كَثيراً مِنْ إثْمِي، ومِنْ خَطيئتي طهَّرنِي."
+        },
+        {
+          "line": 303,
+          "text": "People:"
+        },
+        {
+          "line": 304,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 33,
+    "legacy_context": [
+      "unction_of_the_sick",
+      "seventh_prayer",
+      "seventh_prayer"
+    ],
+    "legacy_raw_ref": "Psalm 25:18; Psalm 25:20",
+    "reader_printed_ref": "Psalms 25:18, 20",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "99959d89-1145-4d11-86c9-a099899e4df8-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Unction",
+        "Seventh Prayer"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 25:18, 20",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/99959d89-1145-4d11-86c9-a099899e4df8-3.txt",
+      "sha256": "bce717af35bc2ba01883d362cfa5ed6fe493febfed3262b4616e4725a90b2bb8",
+      "lines": [
+        {
+          "line": 297,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 298,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 299,
+          "text": "Psalm"
+        },
+        {
+          "line": 300,
+          "text": "المزمور"
+        },
+        {
+          "line": 301,
+          "text": "\tPsalms 25:18, 20"
+        },
+        {
+          "line": 302,
+          "text": "(مزامير 25: 18, 20)"
+        },
+        {
+          "line": 303,
+          "text": "Reader:"
+        },
+        {
+          "line": 304,
+          "text": "Behold my lowliness and my toil, and forgive all my sins. Keep my soul, and deliver me. Let me not be put to shame, for I have hoped in You."
+        },
+        {
+          "line": 305,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 306,
+          "text": "Ϫⲟⲩϣⲧ ⲉ̀ⲡⲁⲑⲉⲃⲓⲟ ⲛⲉⲙ ⲡⲁϧⲓⲥⲓ: ⲟⲩⲟϩ ⲭⲁ ⲛⲁⲛⲟⲃⲓ ⲧⲏⲣⲟⲩ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ. Ⲁⲣⲉϩ ⲉ̀ⲧⲁⲯⲩⲭⲏ ⲟⲩⲟϩ ⲛⲁϩⲙⲉⲧ: ⲙ̀ⲡⲉⲛⲑ̀ⲣⲓϭⲓϣⲓⲡⲓ: ϫⲉ ⲁⲓⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀ⲣⲟⲕ."
+        },
+        {
+          "line": 307,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 308,
+          "text": "انظر إلى ذلي وتعبي، واغفر جميعَ خطاياي. إحفظْ نفسي وانقذني. لا اخزى لأني عليكَ توكلتُ."
+        },
+        {
+          "line": 309,
+          "text": "People:"
+        },
+        {
+          "line": 310,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 36,
+    "legacy_context": [
+      "funeral",
+      "men_main",
+      "part_1"
+    ],
+    "legacy_raw_ref": "Psalm 65:4",
+    "reader_printed_ref": "Psalms 64:5-6",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "6ebc267f-6d14-441b-b28c-1bf27783df7f-3",
+      "ordinal": 6,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Men"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 64:5-6",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/6ebc267f-6d14-441b-b28c-1bf27783df7f-3.txt",
+      "sha256": "618468cdb45298be9301f720de662b2742bfb0d1338697a8f231281a5c80e3d1",
+      "lines": [
+        {
+          "line": 653,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 654,
+          "text": "مِنْ مَزَامِيرِ دَاوُدَ النَّبِيِّ."
+        },
+        {
+          "line": 655,
+          "text": "Then deacon chants the psalm in the (Adribi) tune."
+        },
+        {
+          "line": 656,
+          "text": "ثم يرتل الشماس المزمور بالطريقه الادريبي."
+        },
+        {
+          "line": 657,
+          "text": "\tPsalms 64:5-6"
+        },
+        {
+          "line": 658,
+          "text": "(مزمور 64: 5-6)"
+        },
+        {
+          "line": 659,
+          "text": "Reader:"
+        },
+        {
+          "line": 660,
+          "text": "Blessed is he whom You choose and bring near, to dwell in Your courts!"
+        },
+        {
+          "line": 661,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 662,
+          "text": "Ⲱⲟⲩⲛⲓⲁⲧϥ ⲙ̀ⲫⲏⲉ̀ⲧⲁⲕⲥⲟⲧⲡϥ ⲟⲩⲟϩ ⲁⲕϣⲟⲡϥ ⲉ̀ⲣⲟⲕ: ⲉϥⲉ̀ϣⲱⲡⲓ ϧⲉⲛ ⲛⲉⲕⲁⲩⲗⲏⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ."
+        },
+        {
+          "line": 663,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 664,
+          "text": "طوبى للذي تختاره وتقربه، ليسكن في ديارك."
+        },
+        {
+          "line": 665,
+          "text": "Answer us with deliverance, O God of our salvation, who are the hope of all the ends of the earth. Alleluia."
+        },
+        {
+          "line": 666,
+          "text": "Ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲛ Ⲫⲛⲟⲩϯ Ⲡⲉⲛⲥⲱⲧⲏⲣ: ϯϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲁⲩⲣⲏϫϥ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲧⲏⲣϥ. ⲁ︦ⲗ︦."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 80,
+    "legacy_context": [
+      "funeral",
+      "women_main",
+      "part_2"
+    ],
+    "legacy_raw_ref": "1 Corinthians 15:39-49",
+    "reader_printed_ref": "1 Corinthians 15:39-50",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "8472f77e-e5b1-481d-98ed-b1596fa824a1-3",
+      "ordinal": 5,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Women"
+      ],
+      "section": "main_readings",
+      "printed_ref": "1 Corinthians 15:39-50",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/8472f77e-e5b1-481d-98ed-b1596fa824a1-3.txt",
+      "sha256": "684d4a3c71e272ec6872f57747ebbf18db23841d44ad504ad47ba00408594582",
+      "lines": [
+        {
+          "line": 458,
+          "text": "\tHymn of the Virtues"
+        },
+        {
+          "line": 459,
+          "text": "(Ϯⲙⲏϯ ⲥ̀ⲛⲟⲩϯ...)"
+        },
+        {
+          "line": 460,
+          "text": "\tThe Blessed"
+        },
+        {
+          "line": 461,
+          "text": "(Ⲧⲟⲩ ⲙⲁⲕⲁⲣⲓⲱ)"
+        },
+        {
+          "line": 462,
+          "text": "\t1 Corinthians 15:39-50"
+        },
+        {
+          "line": 463,
+          "text": "(1 كورنثوس 15: 39-50)"
+        },
+        {
+          "line": 464,
+          "text": "Reader:"
+        },
+        {
+          "line": 465,
+          "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the first Epistle of our teacher Paul to the Corinthians. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 466,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 467,
+          "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الأولى الى اهل كورنثوس بركته تكون معنا. آمين."
+        },
+        {
+          "line": 468,
+          "text": "39 All flesh is not the same flesh, but there is one kind of flesh of men, another flesh of animals, another of fish, and another of birds."
+        },
+        {
+          "line": 469,
+          "text": "Ⲥⲁⲣⲝ ⲛⲓⲃⲉⲛ ⲧⲁⲓⲥⲁⲣⲝ ⲁⲛ ⲧⲉ ⲁⲗⲗⲁ ⲟⲩⲉⲧ ⲧ̀ⲥⲁⲣⲝ ⲙⲉⲛ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲟⲩⲉⲧ ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲉ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀ ⲟⲩⲉⲧ ⲥⲁⲣⲝ ⲇⲉ ⲛ̀ⲧⲉ ⲛⲓϩⲁⲗⲁϯ ⲟⲩⲉⲧ ⲑⲁ ⲛⲓⲧⲉⲃⲧ."
+        },
+        {
+          "line": 470,
+          "text": "39 لَيْسَ كُلُّ جَسَدٍ جَسَداً وَاحِداً بَلْ لِلنَّاسِ جَسَدٌ وَاحِدٌ وَلِلْبَهَائِمِ جَسَدٌ آخَرُ وَلِلسَّمَكِ آخَرُ وَلِلطَّيْرِ آخَرُ."
+        },
+        {
+          "line": 471,
+          "text": "40 There are also celestial bodies and terrestrial bodies; but the glory of the celestial is one, and the glory of the terrestrial is another."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 81,
+    "legacy_context": [
+      "funeral",
+      "women_main",
+      "part_2"
+    ],
+    "legacy_raw_ref": "Psalm 116:7-8",
+    "reader_printed_ref": "Psalms 114:7, 5",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "8472f77e-e5b1-481d-98ed-b1596fa824a1-3",
+      "ordinal": 6,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Women"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 114:7, 5",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/8472f77e-e5b1-481d-98ed-b1596fa824a1-3.txt",
+      "sha256": "684d4a3c71e272ec6872f57747ebbf18db23841d44ad504ad47ba00408594582",
+      "lines": [
+        {
+          "line": 608,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 609,
+          "text": "مِنْ مَزَامِيرِ دَاوُدَ النَّبِيِّ."
+        },
+        {
+          "line": 610,
+          "text": "Then deacon chants the psalm in the (Adribi) tune."
+        },
+        {
+          "line": 611,
+          "text": "ثم يرتل الشماس المزمور بالطريقه الادريبي."
+        },
+        {
+          "line": 612,
+          "text": "\tPsalms 114:7, 5"
+        },
+        {
+          "line": 613,
+          "text": "(مزمور 114: 7, 5)"
+        },
+        {
+          "line": 614,
+          "text": "Reader:"
+        },
+        {
+          "line": 615,
+          "text": "Return, O my soul, to your rest; for the Lord has dealt bountifully with you."
+        },
+        {
+          "line": 616,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 617,
+          "text": "Ⲕⲟⲧϯ ⲧⲁⲯⲩⲭⲏ ⲉⲡⲉⲙⲁ ⲛ̀ⲉⲙⲧⲟⲛ ϫⲉ ⲁ̀ Ⲡϭⲟⲓⲥ ⲉⲣⲡⲉⲑⲛⲁⲛⲉϥ ⲛⲏⲓ."
+        },
+        {
+          "line": 618,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 619,
+          "text": "إرجعي يا نفسي إلى راحتك لأن الرب قد احسن اليكِ."
+        },
+        {
+          "line": 620,
+          "text": "“O Lord, I beseech You, save my life!” Gracious is the Lord, and righteous. Alleluia."
+        },
+        {
+          "line": 621,
+          "text": "Ⲱ Ⲡϭⲟⲓⲥ ⲛⲟϩⲉⲙ ⲛ̀ⲧⲁⲯⲩⲭⲏ: ⲟⲩⲛⲁⲏⲧ ⲡⲉ Ⲡϭⲟⲓⲥ ⲟⲩⲟϩ ⲟⲩⲑ̀ⲙⲏⲓ ⲡⲉ. ⲁ︦ⲗ︦."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 86,
+    "legacy_context": [
+      "funeral",
+      "women_delivery_main",
+      "part_3"
+    ],
+    "legacy_raw_ref": "Romans 5:1-15",
+    "reader_printed_ref": "Romans 5:1-16",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "8bd0ad93-4cbd-4ea0-b0ff-c60ab440c31b-3",
+      "ordinal": 3,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Women During Delivery"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Romans 5:1-16",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/8bd0ad93-4cbd-4ea0-b0ff-c60ab440c31b-3.txt",
+      "sha256": "8b8c73429a295f5f11d70381f03e4658562b1a7a162b335143eeb590ef7cbdc3",
+      "lines": [
+        {
+          "line": 466,
+          "text": "\tHymn of the Virtues"
+        },
+        {
+          "line": 467,
+          "text": "(Ϯⲙⲏϯ ⲥ̀ⲛⲟⲩϯ...)"
+        },
+        {
+          "line": 468,
+          "text": "\tThe Blessed"
+        },
+        {
+          "line": 469,
+          "text": "(Ⲧⲟⲩ ⲙⲁⲕⲁⲣⲓⲱ)"
+        },
+        {
+          "line": 470,
+          "text": "\tRomans 5:1-16"
+        },
+        {
+          "line": 471,
+          "text": "(رومية 5: 1-16)"
+        },
+        {
+          "line": 472,
+          "text": "Reader:"
+        },
+        {
+          "line": 473,
+          "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Romans. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 474,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 475,
+          "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى اهل رومية بركته تكون معنا. آمين."
+        },
+        {
+          "line": 476,
+          "text": "1 Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ,"
+        },
+        {
+          "line": 477,
+          "text": "Ⲉⲧⲁⲩⲑ̀ⲙⲁⲓⲟⲛ ⲟⲩⲛ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲫ̀ⲛⲁϩϯ ⲙⲁⲣⲉⲛⲓ̀ⲣⲓ ⲛ̀ⲟⲩϩⲓⲣⲏⲛⲏ ϧⲁⲧⲉⲛ ⲫϯ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉⲛⲟ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦."
+        },
+        {
+          "line": 478,
+          "text": "1 فَإِذْ قَدْ تَبَرَّرْنَا بِالإِيمَانِ لَنَا سَلاَمٌ مَعَ اللهِ بِرَبِّنَا يَسُوعَ الْمَسِيحِ"
+        },
+        {
+          "line": 479,
+          "text": "2 through whom also we have access by faith into this grace in which we stand, and rejoice in hope of the glory of God."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 87,
+    "legacy_context": [
+      "funeral",
+      "women_delivery_main",
+      "part_3"
+    ],
+    "legacy_raw_ref": "Psalm 78:38-39",
+    "reader_printed_ref": "Psalms 78:39",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "8bd0ad93-4cbd-4ea0-b0ff-c60ab440c31b-3",
+      "ordinal": 4,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Women During Delivery"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 78:39",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/8bd0ad93-4cbd-4ea0-b0ff-c60ab440c31b-3.txt",
+      "sha256": "8b8c73429a295f5f11d70381f03e4658562b1a7a162b335143eeb590ef7cbdc3",
+      "lines": [
+        {
+          "line": 628,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 629,
+          "text": "مِنْ مَزَامِيرِ دَاوُدَ النَّبِيِّ."
+        },
+        {
+          "line": 630,
+          "text": "Then deacon chants the psalm in the (Adribi) tune."
+        },
+        {
+          "line": 631,
+          "text": "ثم يرتل الشماس المزمور بالطريقه الادريبي."
+        },
+        {
+          "line": 632,
+          "text": "\tPsalms 78:39"
+        },
+        {
+          "line": 633,
+          "text": "(مزمور 78: 39)"
+        },
+        {
+          "line": 634,
+          "text": "Reader:"
+        },
+        {
+          "line": 635,
+          "text": "For He remembered that they were but flesh, A breath that passes away and does not come again."
+        },
+        {
+          "line": 636,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 637,
+          "text": "ذَكَرَ أَنَّهُمْ بَشَرٌ. رِيحٌ تَذْهَبُ وَلاَ تَعُودُ."
+        },
+        {
+          "line": 638,
+          "text": "People:"
+        },
+        {
+          "line": 639,
+          "text": "We beseech our Lord and God, that we may be worthy to hear the Holy Gospel. In wisdom and uprightness let us attend to the Holy Gospel."
+        },
+        {
+          "line": 640,
+          "text": "Ⲡⲓⲗⲁⲟⲥ:"
+        },
+        {
+          "line": 641,
+          "text": "Ⲕⲉ ⲩ̀ⲡⲉⲣⲧⲟⲩ ⲕⲁⲧⲁ ⲝⲓⲱⲑⲏⲛⲉ ⲏ̀ⲙⲁⲥ: ⲧⲏⲥ ⲁⲕⲣⲟ ⲁ̀ⲥⲉⲱⲥ ⲧⲟⲩ ⲁ̀ⲅⲓⲟⲩ ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲩ: ⲕⲩⲣⲓⲟⲛ ⲕⲉ ⲧⲟⲛ Ⲑⲉⲟⲛ ⲏ̀ⲙⲱⲛ: ⲓ̀ⲕⲉⲧⲉⲩⲥⲱⲙⲉⲛ ⲥⲟⲫⲓⲁ̀ ⲟⲣⲑⲓ ⲁ̀ⲕⲟⲩⲥⲱⲙⲉⲛ ⲧⲟⲩ ⲁ̀ⲅⲓⲟⲩ ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲩ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 92,
+    "legacy_context": [
+      "funeral",
+      "male_children_main",
+      "part_4"
+    ],
+    "legacy_raw_ref": "Psalm 27:10; Psalm 116:6",
+    "reader_printed_ref": "Psalms 26:13; 114:5",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "70f348b4-f378-46e5-ae6d-2937ee1d3925-3",
+      "ordinal": 6,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Boys"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 26:13; 114:5",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/70f348b4-f378-46e5-ae6d-2937ee1d3925-3.txt",
+      "sha256": "d81c638e418ff777302f5b98d03912a3bf515033f33ad41b4070fad6f842c87e",
+      "lines": [
+        {
+          "line": 596,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 597,
+          "text": "مِنْ مَزَامِيرِ دَاوُدَ النَّبِيِّ."
+        },
+        {
+          "line": 598,
+          "text": "Then deacon chants the psalm in the (Adribi) tune."
+        },
+        {
+          "line": 599,
+          "text": "ثم يرتل الشماس المزمور بالطريقه الادريبي."
+        },
+        {
+          "line": 600,
+          "text": "\tPsalms 26:13; 114:5"
+        },
+        {
+          "line": 601,
+          "text": "(مزمور 26: 13; 114: 5)"
+        },
+        {
+          "line": 602,
+          "text": "Reader:"
+        },
+        {
+          "line": 603,
+          "text": "My father and my mother have forsaken me, but the Lord will take me up."
+        },
+        {
+          "line": 604,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 605,
+          "text": "Ⲡⲁⲓⲱⲧ ⲛⲉⲙ ⲧⲁⲙⲁⲩ ⲛⲉⲧⲁⲩⲭⲁⲧ ⲛ̀ⲥⲱⲟⲩ: Ⲡϭⲟⲓⲥ ⲇⲉ ⲡⲉⲧⲁϥϣⲟⲡⲧ ⲉ̀ⲣⲟϥ."
+        },
+        {
+          "line": 606,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 607,
+          "text": "إن ابي وامي قد تركاني والرب يضمّني."
+        },
+        {
+          "line": 608,
+          "text": "The Lord preserves the simple; when I was brought low, He saved me."
+        },
+        {
+          "line": 609,
+          "text": "Ⲫⲏⲉⲧⲁ̀ⲣⲉϩ ⲉ̀ⲛⲓⲕⲟⲩϫⲓ ⲛ̀ⲁⲗⲱⲟⲩⲓ ⲡⲉ Ⲡϭⲟⲓⲥ: ⲁⲓⲑⲉⲃⲓⲟⲓ ⲟⲩⲟϩ ⲁϥⲛⲁϩⲙⲉⲧ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 96,
+    "legacy_context": [
+      "funeral",
+      "female_children_main",
+      "part_5"
+    ],
+    "legacy_raw_ref": "Psalm 39:12-13",
+    "reader_printed_ref": "Psalms 38:12, 23",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "fb61a310-b561-47a9-88d5-94882bc5d9b1-3",
+      "ordinal": 7,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "Girls"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 38:12, 23",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/fb61a310-b561-47a9-88d5-94882bc5d9b1-3.txt",
+      "sha256": "5e734a32c77b190015f923bab5289b5aae51d0621368e53b88ea08b4bd036107",
+      "lines": [
+        {
+          "line": 601,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 602,
+          "text": "مِنْ مَزَامِيرِ دَاوُدَ النَّبِيِّ."
+        },
+        {
+          "line": 603,
+          "text": "Then deacon chants the psalm in the (Adribi) tune."
+        },
+        {
+          "line": 604,
+          "text": "ثم يرتل الشماس المزمور بالطريقه الادريبي."
+        },
+        {
+          "line": 605,
+          "text": "\tPsalms 38:12, 23"
+        },
+        {
+          "line": 606,
+          "text": "(مزمور 38: 12, 23)"
+        },
+        {
+          "line": 607,
+          "text": "Reader:"
+        },
+        {
+          "line": 608,
+          "text": "For I am Your passing guest, a sojourner, like all my fathers. Look away from me, that I may know gladness, before I depart and be no more!”"
+        },
+        {
+          "line": 609,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 610,
+          "text": "Ϫⲉ ⲁ̀ⲛⲟⲕ ⲟⲩϣⲉⲙⲙⲟ ⲁ̀ⲛⲟⲕ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲟⲩⲟϩ ⲛ̀ⲣⲉⲙⲛ̀ϫⲱⲓⲗⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲁⲕⲉⲓⲟϯ ⲧⲏⲣⲟⲩ ⲭⲱ ⲛⲏⲓ. Ϩⲓⲛⲁ ⲛ̀ⲧⲁⲭ̀ⲃⲟⲃ ⲙ̀ⲡⲁϯϣⲉⲛⲏⲓ ⲟⲩⲟϩ ⲛ̀ⲧⲁϣ̀ⲧⲉⲙϣⲱⲡⲓ ϫⲉ."
+        },
+        {
+          "line": 611,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 612,
+          "text": "لاني أنا غريب عندك. نزيل مثل جميع آبائي. اقتصر عني فاتبلج قبل أن أذهب فلا اوجد"
+        },
+        {
+          "line": 613,
+          "text": "People:"
+        },
+        {
+          "line": 614,
+          "text": "We beseech our Lord and God, that we may be worthy to hear the Holy Gospel. In wisdom and uprightness let us attend to the Holy Gospel."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 99,
+    "legacy_context": [
+      "funeral",
+      "third_day_and_memorials",
+      "part_6"
+    ],
+    "legacy_raw_ref": "Romans 5:6-15",
+    "reader_printed_ref": "Romans 5:6-17",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "0297ed5e-c36b-4315-8c54-a5250e0ec9eb-3",
+      "ordinal": 5,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "3rd and 40th Days"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Romans 5:6-17",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/0297ed5e-c36b-4315-8c54-a5250e0ec9eb-3.txt",
+      "sha256": "a0a70389a2dc193d79bd3a344864eecf1ffa647ba3c27d319cb489a6d67ed840",
+      "lines": [
+        {
+          "line": 440,
+          "text": "\tHymn of the Virtues"
+        },
+        {
+          "line": 441,
+          "text": "(Ϯⲙⲏϯ ⲥ̀ⲛⲟⲩϯ...)"
+        },
+        {
+          "line": 442,
+          "text": "\tThe Blessed"
+        },
+        {
+          "line": 443,
+          "text": "(Ⲧⲟⲩ ⲙⲁⲕⲁⲣⲓⲱ)"
+        },
+        {
+          "line": 444,
+          "text": "\tRomans 5:6-17"
+        },
+        {
+          "line": 445,
+          "text": "(رومية 5: 6-17)"
+        },
+        {
+          "line": 446,
+          "text": "Reader:"
+        },
+        {
+          "line": 447,
+          "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Romans. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 448,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 449,
+          "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى اهل رومية بركته تكون معنا. آمين."
+        },
+        {
+          "line": 450,
+          "text": "6 For when we were still without strength, in due time Christ died for the ungodly."
+        },
+        {
+          "line": 451,
+          "text": "Ⲓⲥϫⲉ ⲅⲁⲣ ⲉⲧⲓ ⲉⲛⲟⲓ ⲛ̀ⲁⲥⲑⲉⲛⲏⲥ ⲛ̀ⲟⲩⲥⲏⲟⲩ Ⲡⲭ︦ⲥ︦ ⲁϥⲙⲟⲩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲛⲓⲁ̀ⲥⲉⲃⲏⲥ."
+        },
+        {
+          "line": 452,
+          "text": "6 لأَنَّ الْمَسِيحَ إِذْ كُنَّا بَعْدُ ضُعَفَاءَ مَاتَ فِي الْوَقْتِ الْمُعَيَّنِ لأَجْلِ الْفُجَّارِ."
+        },
+        {
+          "line": 453,
+          "text": "7 For scarcely for a righteous man will one die; yet perhaps for a good man someone would even dare to die."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 100,
+    "legacy_context": [
+      "funeral",
+      "third_day_and_memorials",
+      "part_6"
+    ],
+    "legacy_raw_ref": "Psalm 38:21-22",
+    "reader_printed_ref": "Psalms 38:20-21",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "0297ed5e-c36b-4315-8c54-a5250e0ec9eb-3",
+      "ordinal": 6,
+      "navigation": [
+        "Special",
+        "Funeral",
+        "3rd and 40th Days"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 38:20-21",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/0297ed5e-c36b-4315-8c54-a5250e0ec9eb-3.txt",
+      "sha256": "a0a70389a2dc193d79bd3a344864eecf1ffa647ba3c27d319cb489a6d67ed840",
+      "lines": [
+        {
+          "line": 590,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 591,
+          "text": "مِنْ مَزَامِيرِ دَاوُدَ النَّبِيِّ."
+        },
+        {
+          "line": 592,
+          "text": "Then deacon chants the psalm in the (Adribi) tune."
+        },
+        {
+          "line": 593,
+          "text": "ثم يرتل الشماس المزمور بالطريقه الادريبي."
+        },
+        {
+          "line": 594,
+          "text": "\tPsalms 38:20-21"
+        },
+        {
+          "line": 595,
+          "text": "(مزمور 38: 20-21)"
+        },
+        {
+          "line": 596,
+          "text": "Reader:"
+        },
+        {
+          "line": 597,
+          "text": "They have rejected me, the beloved one, as an abominable dead carcass;"
+        },
+        {
+          "line": 598,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 599,
+          "text": "Ⲁⲩⲃⲉⲣⲃⲱⲣⲧ ⲉ̀ⲃⲟⲗ ⲁ̀ⲛⲟⲕ ⲡⲓⲙⲉⲛⲣⲓⲧ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲣⲉϥⲙⲱⲟⲩⲧ ⲉϥⲟⲣⲉⲃ."
+        },
+        {
+          "line": 600,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 601,
+          "text": "رفضونى أنا الحبيب مثل ميت مرذول. ولا تتباعد عني."
+        },
+        {
+          "line": 602,
+          "text": "Do not forsake Me, O Lord; O My God, be not far from me."
+        },
+        {
+          "line": 603,
+          "text": "Ⲙⲡⲉⲣⲭⲁⲧ ⲛ̀ⲥⲱⲕ Ⲡϭⲟⲓⲥ Ⲡⲁⲛⲟⲩϯ ⲙ̀ⲡⲉⲣⲟⲩⲉⲓ ⲥⲁⲃⲟⲗ ⲙ̀ⲙⲟⲓ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 102,
+    "legacy_context": [
+      "pentecost_prostration",
+      "first_prostration",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "Deuteronomy 5:23-33; Deuteronomy 6:1-3",
+    "reader_printed_ref": "Deuteronomy 5:22-6:3",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "048e3912-9a0e-4293-a87f-f07b7cb70946-6",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Prostration",
+        "First Prostration"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Deuteronomy 5:22-6:3",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/048e3912-9a0e-4293-a87f-f07b7cb70946-6.txt",
+      "sha256": "6fb9db27c401335cae9f7aab3355f11d6fa4b35c29d30e8f7e93090b388184dc",
+      "lines": [
+        {
+          "line": 268,
+          "text": "هلليلويا المجد لله."
+        },
+        {
+          "line": 269,
+          "text": "Glory to the Father, and to the Son, and to the Holy Spirit. Now and ever and unto the ages of the ages. Amen. Alleluia."
+        },
+        {
+          "line": 270,
+          "text": "Ⲇⲟⲝⲁ Ⲡⲁⲧⲣⲓ ⲕⲉ Ⲩⲓⲱ ⲕⲉ ⲁ̀ⲅⲓⲱ Ⲡⲛⲉⲩⲙⲁⲧⲓ: ⲕⲉ ⲛⲩⲛ ⲕⲉ ⲁ̀ⲓ̀ ⲕⲉ ⲓⲥⲧⲟⲩⲥ ⲉ̀ⲱ̀ⲛⲁⲥ ⲧⲱⲛ ⲉ̀ⲱ̀ⲛⲱⲛ: ⲁ̀ⲙⲏⲛ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ."
+        },
+        {
+          "line": 271,
+          "text": "المجْدُ للآبِ والابنِ والرّوحِ القُدُسِ، الآنَ وكلُّ أَوان وإلى دَهْرِ الدّهورِ، آمين. هلليويا."
+        },
+        {
+          "line": 272,
+          "text": "\tDeuteronomy 5:22-6:3"
+        },
+        {
+          "line": 273,
+          "text": "(التثنية 5: 22-6: 3)"
+        },
+        {
+          "line": 274,
+          "text": "Reader:"
+        },
+        {
+          "line": 275,
+          "text": "A reading from the Book of Deuteronomy of Moses the prophet. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 276,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 277,
+          "text": "Ⲉⲃⲟⲗϧⲉⲛ Ⲡⲓⲇⲉⲩⲧⲉⲣⲟⲛⲟⲙⲓⲟⲛ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:"
+        },
+        {
+          "line": 278,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 279,
+          "text": "من سفر التثنية لموسى النبي بركته المقدسة تكون معنا. آمين."
+        },
+        {
+          "line": 280,
+          "text": "22 “These words the Lord spoke to all your assembly, in the mountain from the midst of the fire, the cloud, and the thick darkness, with a loud voice; and He added no more. And He wrote them on two tablets of stone and gave them to me."
+        },
+        {
+          "line": 281,
+          "text": "22 هَذِهِ الكَلِمَاتُ كَلمَ بِهَا الرَّبُّ كُل جَمَاعَتِكُمْ فِي الجَبَلِ مِنْ وَسَطِ النَّارِ وَالسَّحَابِ وَالضَّبَابِ وَصَوْتٍ عَظِيمٍ وَلمْ يَزِدْ. وَكَتَبَهَا عَلى لوْحَيْنِ مِنْ حَجَرٍ وَأَعْطَانِي إِيَّاهَا."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 103,
+    "legacy_context": [
+      "pentecost_prostration",
+      "first_prostration",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "1 Corinthians 12:28-31; 1 Corinthians 13:1-12",
+    "reader_printed_ref": "1 Corinthians 12:28-13:12",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "048e3912-9a0e-4293-a87f-f07b7cb70946-6",
+      "ordinal": 3,
+      "navigation": [
+        "Special",
+        "Prostration",
+        "First Prostration"
+      ],
+      "section": "main_readings",
+      "printed_ref": "1 Corinthians 12:28-13:12",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/048e3912-9a0e-4293-a87f-f07b7cb70946-6.txt",
+      "sha256": "6fb9db27c401335cae9f7aab3355f11d6fa4b35c29d30e8f7e93090b388184dc",
+      "lines": [
+        {
+          "line": 320,
+          "text": "Ⲡⲓⲗⲁⲟⲥ:"
+        },
+        {
+          "line": 321,
+          "text": "Ⲧⲉⲛⲟⲩⲱϣⲧ ⲙ̀ⲙⲟⲕ ⲱ̀ Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ: ⲛⲉⲙ Ⲡⲉⲕⲓⲱⲧ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲥ: ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ: ϫⲉ ⲁⲕⲧⲱⲛⲕ ⲁⲕⲥⲱϯ ⲙ̀ⲙⲟⲛ ⲛⲁⲓ ⲛⲁⲛ."
+        },
+        {
+          "line": 322,
+          "text": "الشعبُ:"
+        },
+        {
+          "line": 323,
+          "text": "نسجدُ لكَ أيها المسيحُ، معَ أبيكَ الصالحِ والرّوحِ القُدُسِ، لأنكَ قمت وخلَّصتَنا. [ارحَمْنا]"
+        },
+        {
+          "line": 324,
+          "text": "\t1 Corinthians 12:28-13:12"
+        },
+        {
+          "line": 325,
+          "text": "(1 كورنثوس 12: 28-13: 12)"
+        },
+        {
+          "line": 326,
+          "text": "Reader:"
+        },
+        {
+          "line": 327,
+          "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the first Epistle of our teacher Paul to the Corinthians. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 328,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 329,
+          "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الأولى الى اهل كورنثوس بركته تكون معنا. آمين."
+        },
+        {
+          "line": 330,
+          "text": "28 And God has appointed these in the church: first apostles, second prophets, third teachers, after that miracles, then gifts of healings, helps, administrations, varieties of tongues."
+        },
+        {
+          "line": 331,
+          "text": "Ⲟⲩⲟϩ ⲛⲏ ⲙⲉⲛ ⲉⲧⲁ ⲫϯ ⲭⲁⲩ ϧⲉⲛ ϯⲉⲕⲕ̀ⲗⲏ- ⲥⲓⲁ ϣⲟⲣⲡ ϩⲁⲛⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲫ̀ⲙⲁϩ ⲃ︦ ϩⲁⲛⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲫ̀ⲙⲁϩ ⲅ︦ ϩⲁⲛⲣⲉϥϯⲥ̀ⲃⲱ ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ϩⲁⲛϫⲟⲙ ⲓⲧⲁ ϩⲁⲛϩ̀ⲙⲟⲧ ⲛ̀ⲧⲁⲗϭⲟ ϩⲁⲛⲙⲉⲧⲣⲉϥϯⲧⲟⲧⲟⲩ ϩⲁⲛⲙⲉⲧⲣⲉϥⲉⲣϩⲉⲙⲓ ϩⲁⲛⲅⲉⲛⲟⲥ ⲛ̀ⲗⲁⲥ."
+        },
+        {
+          "line": 332,
+          "text": "28 فَوَضَعَ اللهُ أُنَاساً فِي الْكَنِيسَةِ: أَوَّلاً رُسُلاً ثَانِياً أَنْبِيَاءَ ثَالِثاً مُعَلِّمِينَ ثُمَّ قُوَّاتٍ وَبَعْدَ ذَلِكَ مَوَاهِبَ شِفَاءٍ أَعْوَاناً تَدَابِيرَ وَأَنْوَاعَ أَلْسِنَةٍ."
+        },
+        {
+          "line": 333,
+          "text": "29 Are all apostles? Are all prophets? Are all teachers? Are all workers of miracles?"
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 104,
+    "legacy_context": [
+      "pentecost_prostration",
+      "first_prostration",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "Psalm 97:7-8; Psalm 97:1",
+    "reader_printed_ref": "Psalms 97:7, 8, 1",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "048e3912-9a0e-4293-a87f-f07b7cb70946-6",
+      "ordinal": 4,
+      "navigation": [
+        "Special",
+        "Prostration",
+        "First Prostration"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 97:7, 8, 1",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/048e3912-9a0e-4293-a87f-f07b7cb70946-6.txt",
+      "sha256": "6fb9db27c401335cae9f7aab3355f11d6fa4b35c29d30e8f7e93090b388184dc",
+      "lines": [
+        {
+          "line": 519,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 520,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 521,
+          "text": "Psalm"
+        },
+        {
+          "line": 522,
+          "text": "المزمور"
+        },
+        {
+          "line": 523,
+          "text": "\tPsalms 97:7, 8, 1"
+        },
+        {
+          "line": 524,
+          "text": "(مزامير 97: 7, 8, 1)"
+        },
+        {
+          "line": 525,
+          "text": "Reader:"
+        },
+        {
+          "line": 526,
+          "text": "Worship Him, all you His angels. Zion heard and rejoiced. The Lord reigns, let the earth exult, let many islands rejoice."
+        },
+        {
+          "line": 527,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 528,
+          "text": "اسجدوا له يا جميع ملائكته. سمعت صهيون ففرحت. الرب قد ملك. فلتتهلل الأرض ولتفرح الجزائر الكثيرة."
+        },
+        {
+          "line": 529,
+          "text": "People:"
+        },
+        {
+          "line": 530,
+          "text": "Alleluia."
+        },
+        {
+          "line": 531,
+          "text": "Ⲡⲓⲗⲁⲟⲥ:"
+        },
+        {
+          "line": 532,
+          "text": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 112,
+    "legacy_context": [
+      "pentecost_prostration",
+      "third_prostration",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "Psalm 66:4; Psalm 72:11",
+    "reader_printed_ref": "Psalms 66:4;72:11",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "ca3bb57d-8bb6-4b09-8bf9-a28f6361b66d-6",
+      "ordinal": 4,
+      "navigation": [
+        "Special",
+        "Prostration",
+        "Third Prostration"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 66:4;72:11",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/ca3bb57d-8bb6-4b09-8bf9-a28f6361b66d-6.txt",
+      "sha256": "536978984ea529513703ae8dbd8871387b39888da847f5831ba516a6482a6b93",
+      "lines": [
+        {
+          "line": 542,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 543,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 544,
+          "text": "Psalm"
+        },
+        {
+          "line": 545,
+          "text": "المزمور"
+        },
+        {
+          "line": 546,
+          "text": "\tPsalms 66:4;72:11"
+        },
+        {
+          "line": 547,
+          "text": "(مزامير 66: 4;72: 11)"
+        },
+        {
+          "line": 548,
+          "text": "Reader:"
+        },
+        {
+          "line": 549,
+          "text": "Let all the earth worship You, and sing to You. Let them sing to Your name. All kings shall worship Him. All the Gentiles shall serve Him."
+        },
+        {
+          "line": 550,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 551,
+          "text": "فلتسجد لك الأرض كلها وليرتلوا لك وليترنموا لاسمك. يسجد له جميع ملوك الأرض وكل الأمم تتعبد له."
+        },
+        {
+          "line": 552,
+          "text": "People:"
+        },
+        {
+          "line": 553,
+          "text": "Alleluia."
+        },
+        {
+          "line": 554,
+          "text": "Ⲡⲓⲗⲁⲟⲥ:"
+        },
+        {
+          "line": 555,
+          "text": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 114,
+    "legacy_context": [
+      "cornerstone_prayer",
+      "main",
+      "foundation_cornerstone"
+    ],
+    "legacy_raw_ref": "Genesis 28:10-31",
+    "reader_printed_ref": "Genesis 28:10-22",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "ordinal": 2,
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Genesis 28:10-22",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+      "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+      "lines": [
+        {
+          "line": 333,
+          "text": "Ⲡⲓⲗⲁⲟⲥ:"
+        },
+        {
+          "line": 334,
+          "text": "Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲇⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ."
+        },
+        {
+          "line": 335,
+          "text": "الشعبُ:"
+        },
+        {
+          "line": 336,
+          "text": "هلليلويا المجد لله."
+        },
+        {
+          "line": 337,
+          "text": "\tGenesis 28:10-22"
+        },
+        {
+          "line": 338,
+          "text": "(تكوين 28: 10-22)"
+        },
+        {
+          "line": 339,
+          "text": "Reader:"
+        },
+        {
+          "line": 340,
+          "text": "A reading from the Book of Genesis of Moses the prophet. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 341,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 342,
+          "text": "Ⲉⲃⲟⲗϧⲉⲛ Ⲡϫⲟⲙ ⲛ̀Ϯⲅⲉⲛⲉⲥⲓⲥ ⲛ̀ⲧⲉ Ⲙⲱⲩ̀ⲥⲏⲥ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ: ⲉ̀ⲣⲉⲡⲉϥⲥ̀ⲙⲟⲩ ⲉⲑⲟⲩⲁⲃ ϣⲱⲡⲓ ⲛⲉⲙⲁⲛ ⲁ̀ⲙⲏⲛ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ:"
+        },
+        {
+          "line": 343,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 344,
+          "text": "من سفر تكوين لموسى النبي بركته المقدسة تكون معنا. آمين."
+        },
+        {
+          "line": 345,
+          "text": "10 Now Jacob went out from Beersheba and went toward Haran."
+        },
+        {
+          "line": 346,
+          "text": "10 فَخَرَجَ يَعْقُوبُ مِنْ بِئْرِ سَبْعٍ وَذَهَبَ نَحْوَ حَارَانَ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 115,
+    "legacy_context": [
+      "cornerstone_prayer",
+      "main",
+      "foundation_cornerstone"
+    ],
+    "legacy_raw_ref": "Hebrews 9:1-10",
+    "reader_printed_ref": "Hebrews 9:1-11",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "ordinal": 3,
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Hebrews 9:1-11",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+      "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+      "lines": [
+        {
+          "line": 503,
+          "text": "\tHymn of the Virtues"
+        },
+        {
+          "line": 504,
+          "text": "(Ϯⲙⲏϯ ⲥ̀ⲛⲟⲩϯ...)"
+        },
+        {
+          "line": 505,
+          "text": "\tThe Blessed"
+        },
+        {
+          "line": 506,
+          "text": "(Ⲧⲟⲩ ⲙⲁⲕⲁⲣⲓⲱ)"
+        },
+        {
+          "line": 507,
+          "text": "\tHebrews 9:1-11"
+        },
+        {
+          "line": 508,
+          "text": "(العبرانيين 9: 1-11)"
+        },
+        {
+          "line": 509,
+          "text": "Reader:"
+        },
+        {
+          "line": 510,
+          "text": "Paul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Hebrews. May his holy blessings be with us. Amen."
+        },
+        {
+          "line": 511,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 512,
+          "text": "بولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى العبرانيين بركته تكون معنا. آمين."
+        },
+        {
+          "line": 513,
+          "text": "1 Then indeed, even the first covenant had ordinances of divine service and the earthly sanctuary."
+        },
+        {
+          "line": 514,
+          "text": "Ϯϩⲟⲩⲓϯ ⲙⲉⲛ ⲟⲩⲛ ⲉ̀ⲟⲩⲟⲛⲧⲁⲥ ⲛ̀ϩⲁⲛⲙⲉⲑⲙⲏ ⲓ ⲛ̀ϣⲉⲙϣⲓ ⲙ̀ⲙⲁⲩ ⲛⲉⲙ ⲟⲩⲁⲅⲓⲟⲛ ⲛ̀ⲥⲟⲗⲥⲉⲗ."
+        },
+        {
+          "line": 515,
+          "text": "1 ثُمَّ الْعَهْدُ الأَوَّلُ كَانَ لَهُ أَيْضاً فَرَائِضُ خِدْمَةٍ وَالْقُدْسُ الْعَالَمِيُّ،"
+        },
+        {
+          "line": 516,
+          "text": "2 For a tabernacle was prepared: the first part, in which was the lampstand, the table, and the showbread, which is called the sanctuary;"
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 116,
+    "legacy_context": [
+      "cornerstone_prayer",
+      "main",
+      "foundation_cornerstone"
+    ],
+    "legacy_raw_ref": "Psalm 127:1; Psalm 122:1-2",
+    "reader_printed_ref": "Psalms 127:1; 122:1-2",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "ordinal": 4,
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 127:1; 122:1-2",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+      "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+      "lines": [
+        {
+          "line": 673,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 674,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 675,
+          "text": "Psalm"
+        },
+        {
+          "line": 676,
+          "text": "المزمور"
+        },
+        {
+          "line": 677,
+          "text": "\tPsalms 127:1; 122:1-2"
+        },
+        {
+          "line": 678,
+          "text": "(مزامير 127: 1; 122: 1-2)"
+        },
+        {
+          "line": 679,
+          "text": "Reader:"
+        },
+        {
+          "line": 680,
+          "text": "Unless the Lord builds the house, those who build it have labored in vain. Unless the Lord guards the city, the watchmen have watched in vain. I was glad for those who said to me, \"We will go into the house of the Lord.\" Our feet stood in the courts of Jerusalem."
+        },
+        {
+          "line": 681,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 682,
+          "text": "Ⲁⲣⲉϣⲧⲉⲙ Ⲡϭⲟⲓⲥ ⲕⲱϯ ⲛⲟⲩⲏⲓ ⲁⲩϭⲓϧⲓⲥⲓ ⲉⲫⲗⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲏ ⲉⲧⲕⲱⲧ ⲙ̀ⲙⲟϥ ⲁⲣⲉϣⲧⲉⲙ Ⲡϭⲟⲓⲥ ⲣⲱⲓⲥ ⲉⲟⲩⲡⲟⲗⲓⲥ ⲁⲩⲉⲣϣⲣⲱⲓⲥ ⲉⲫⲗⲏⲟⲩ ⲛ̀ϫⲉ ⲛⲏ ⲉⲧⲁⲣⲉϩ. Ⲁⲓⲟⲩⲛⲟϥ ⲉ̀ϫⲉⲛ ⲛⲏ ⲉⲧⲁⲩϫⲟⲥ ⲛⲏⲓ ϫⲉ ⲧⲉⲛⲛⲁϣⲉⲛⲁⲛ ⲉⲡⲏⲓ ⲙ̀Ⲡϭⲟⲓⲥ: ⲛⲉⲛϭⲁⲗⲁⲩϫ ⲁⲩⲟϩⲓ ⲁⲩⲟϩⲓ ⲉ̀ⲣⲁⲧⲟⲩ ϧⲉⲛ ⲛⲓⲁⲩⲗⲏⲟⲩ ⲛ̀ⲧⲉ ⲓⲉⲣⲟⲩⲥⲁⲗⲏⲙ."
+        },
+        {
+          "line": 683,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 684,
+          "text": "إن لم يبن الرب البيتَ فباطلا تعب البناءون، وإن لم يحرس الرب المدينة فباطلا سهر الحراس. فرحت بالقائلين لي إلى بيت الرب نذهب. وقفت أرجلنا في ديار أورشليم."
+        },
+        {
+          "line": 685,
+          "text": "People:"
+        },
+        {
+          "line": 686,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 117,
+    "legacy_context": [
+      "cornerstone_prayer",
+      "main",
+      "foundation_cornerstone"
+    ],
+    "legacy_raw_ref": "Luke 9:28-35",
+    "reader_printed_ref": "Luke 9:28-36",
+    "verdict": "reader_source_heading_controls_preserved_inactive_legacy",
+    "psalm_coordinate_approval": null,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "91939321-4dd4-4fdb-a850-d289c0112af5-3",
+      "ordinal": 5,
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Cornerstone"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Luke 9:28-36",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/91939321-4dd4-4fdb-a850-d289c0112af5-3.txt",
+      "sha256": "3d5df27043a5413860c11d1f954956bff86875d46b66d6ab81c1fb2dfeac943a",
+      "lines": [
+        {
+          "line": 703,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 704,
+          "text": "مباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين."
+        },
+        {
+          "line": 705,
+          "text": "Gospel"
+        },
+        {
+          "line": 706,
+          "text": "الإنجيل"
+        },
+        {
+          "line": 707,
+          "text": "\tLuke 9:28-36"
+        },
+        {
+          "line": 708,
+          "text": "(لوقا 9: 28-36)"
+        },
+        {
+          "line": 709,
+          "text": "Reader:"
+        },
+        {
+          "line": 710,
+          "text": "28 Now it came to pass, about eight days after these sayings, that He took Peter, John, and James and went up on the mountain to pray."
+        },
+        {
+          "line": 711,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 712,
+          "text": "Ⲁⲥϣⲱⲡⲓ ⲇⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓⲥⲁϫⲓ ⲛⲁⲩ ⲏ︦ ⲛ̀ⲉ̀ϩⲟⲟⲩ ⲁϥⲱⲗⲓ ⲙⲡⲉⲧⲣⲟⲥ ⲛⲉⲙ ⲓⲁⲕⲱⲃⲟⲥ ⲛⲉⲙ ⲓⲱⲁⲛⲛⲏⲥ ⲁϥϣⲉ ⲛⲁϥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲓⲧⲱⲟⲩ ⲉ̀ⲉⲣⲡ̀ⲣⲟⲥⲉⲩⲭⲉⲥⲑⲉ."
+        },
+        {
+          "line": 713,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 714,
+          "text": "28 وَبَعْدَ هَذَا الْكَلاَمِ بِنَحْوِ ثَمَانِيَةِ أَيَّامٍ أَخَذَ بُطْرُسَ وَيُوحَنَّا وَيَعْقُوبَ وَصَعِدَ إِلَى جَبَلٍ لِيُصَلِّيَ."
+        },
+        {
+          "line": 715,
+          "text": "29 As He prayed, the appearance of His face was altered, and His robe became white and glistening."
+        },
+        {
+          "line": 716,
+          "text": "Ⲟⲩⲟϩ ⲁⲥϣⲱⲡⲓ ϧⲉⲛ ⲡϫⲓⲛⲑ̀ⲣⲉϥⲉⲣⲡ̀ⲣⲟⲥⲉⲩⲭ ⲉⲥⲑⲉ ⲁϥϣⲱⲃⲧ ⲛ̀ϫⲉ ⲡⲁⲟⲩⲁⲛ ⲛ̀ⲧⲉ ⲡⲉϥϩⲟ ⲟⲩⲟϩ ⲡⲉϥϭⲓϩ̀ⲃⲟⲥ ⲁϥⲟⲩⲃⲁϣ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲉϥϩⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲉ̀ⲃⲟⲗ."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 160,
+    "legacy_context": [
+      "liturgy_of_the_waters",
+      "epiphany_laqan",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "Psalm 114:3; Psalm 114:5",
+    "reader_printed_ref": "Psalms 114:3,5",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "2aad4232-a4f2-493e-aff5-b6d5c79be5b7-6",
+      "ordinal": 10,
+      "navigation": [
+        "Special",
+        "Lakkan",
+        "Theophany"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 114:3,5",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/2aad4232-a4f2-493e-aff5-b6d5c79be5b7-6.txt",
+      "sha256": "e7171e5bf6fd4ccb698c316306771a12b35f9e09adabad9e29f959bd7ed5644a",
+      "lines": [
+        {
+          "line": 676,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 677,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 678,
+          "text": "Psalm"
+        },
+        {
+          "line": 679,
+          "text": "المزمور"
+        },
+        {
+          "line": 680,
+          "text": "\tPsalms 114:3,5"
+        },
+        {
+          "line": 681,
+          "text": "(مزامير 114: 3,5)"
+        },
+        {
+          "line": 682,
+          "text": "Reader:"
+        },
+        {
+          "line": 683,
+          "text": "The sea beheld and fled; Jordan turned back. Why is it, O sea, that you flee? O Jordan, that you turn back?"
+        },
+        {
+          "line": 684,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 685,
+          "text": "Ⲫ̀ⲓⲟⲙ ⲁϥⲛⲁⲩ ⲟⲩⲟϩ ⲁϥⲫⲱⲧ: ⲟⲩⲟϩ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ⲁϥⲕⲟⲧϥ ⲉ̀ⲫⲁϩⲟⲩ. Ⲟⲩ ⲡⲉⲧϣⲟⲡ ⲫ̀ⲓⲟⲙ ϫⲉ ⲁⲕⲫⲱⲧ: ⲟⲩⲟϩ ⲛ̀ⲑⲟⲕ ⲡⲓⲒⲟⲣⲇⲁⲛⲏⲥ ϫⲉ ⲁⲕⲕⲟⲧⲕ ⲉ̀ⲫⲁϩⲟⲩ."
+        },
+        {
+          "line": 686,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 687,
+          "text": "ابصرَ البحرُ فَهَرَبَ. والأردن رَجَعَ إلى خَلفٍ. مالكَ أيُها البحرُ قد هربتَ. وأنتَ أيها الأردن قد رجعت إلى خلف."
+        },
+        {
+          "line": 688,
+          "text": "People:"
+        },
+        {
+          "line": 689,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  },
+  {
+    "legacy_row": 170,
+    "legacy_context": [
+      "liturgy_of_the_waters",
+      "apostles_feast_laqan",
+      "main_readings"
+    ],
+    "legacy_raw_ref": "Psalm 51:7; Psalm 51:10",
+    "reader_printed_ref": "Psalms 51:7, 10",
+    "verdict": "representation_only_supersession_not_new_endpoint",
+    "psalm_coordinate_approval": false,
+    "history_preserved": true,
+    "inactive": true,
+    "primary_evidence": {
+      "capture_id": "0c2e4024-0348-4e8c-a593-7dab7b43c85d-3",
+      "ordinal": 10,
+      "navigation": [
+        "Special",
+        "Lakkan",
+        "Apostles Feast"
+      ],
+      "section": "main_readings",
+      "printed_ref": "Psalms 51:7, 10",
+      "source": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/sources/coptic-reader/special-context-projection-2026-10-07/raw/0c2e4024-0348-4e8c-a593-7dab7b43c85d-3.txt",
+      "sha256": "bb46caf83c3525ab90485797d16f7e674366f41010442ff60cd57092c16605e4",
+      "lines": [
+        {
+          "line": 721,
+          "text": "From the Psalms of our teacher David the prophet. May his blessings be with us all."
+        },
+        {
+          "line": 722,
+          "text": "مِنْ مَزَامِيرِ تَرَاتِيلِ مُعَلِّمِنَا دَاوُدَ النَّبِيِّ، بَرَكَاتُهُ عَلَى جَمِيعِنَا."
+        },
+        {
+          "line": 723,
+          "text": "Psalm"
+        },
+        {
+          "line": 724,
+          "text": "المزمور"
+        },
+        {
+          "line": 725,
+          "text": "\tPsalms 51:7, 10"
+        },
+        {
+          "line": 726,
+          "text": "(مزامير 51: 7, 10)"
+        },
+        {
+          "line": 727,
+          "text": "Reader:"
+        },
+        {
+          "line": 728,
+          "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Create in me a clean heart, O God, And renew a right spirit within me."
+        },
+        {
+          "line": 729,
+          "text": "Ⲡⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:"
+        },
+        {
+          "line": 730,
+          "text": "Ⲉⲕⲉ̀ⲛⲟⲩϫϧ ⲉ̀ϫⲱⲓ ⲙ̀ⲡⲉⲕϣⲉⲛϩⲩⲥⲱⲡⲟⲛ ⲉⲓ ⲉ̀ⲧⲟⲩⲃⲟ: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲉⲓⲉ̀ⲟⲩⲃⲁϣ ⲉ̀ϩⲟⲧⲉ ⲟⲩⲭⲓⲱⲛ. Ⲟⲩϩⲏⲧ ⲉ̀ϥⲟⲩⲁⲃ ⲉⲕⲉ̀ⲥⲟⲛⲧϥ ⲛ̀ϧⲏⲧ Ⲫϯ: ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲉϥⲥⲟⲩⲧⲱⲛ: ⲁ̀ⲣⲓⲧϥ ⲙ̀ⲃⲉⲣⲓ: ϧⲉⲛ ⲛⲏⲉⲧⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲓ . ⲁ︦ⲗ︦ ."
+        },
+        {
+          "line": 731,
+          "text": "القارﺉُ:"
+        },
+        {
+          "line": 732,
+          "text": "طهرني بالزوفا فاطهر اغسلني فابيض اكثر من الثلج. قلباً نقياً اخلق فىّ يا الله. وروحاً مستقيماً جدد فى أحشائي. هلليلويا."
+        },
+        {
+          "line": 733,
+          "text": "People:"
+        },
+        {
+          "line": 734,
+          "text": "Alleluia."
+        }
+      ]
+    }
+  }
+]

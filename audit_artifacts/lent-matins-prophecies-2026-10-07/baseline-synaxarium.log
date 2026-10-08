@@ -1,0 +1,28 @@
+TAP version 13
+# Subtest: calendar is UTC-stable at Coptic new year and leap day
+ok 1 - calendar is UTC-stable at Coptic new year and leap day
+  ---
+  duration_ms: 111.756417
+  type: 'test'
+  ...
+# Subtest: calendar supports years outside shipped readings, early years and century boundaries
+ok 2 - calendar supports years outside shipped readings, early years and century boundaries
+  ---
+  duration_ms: 14.315083
+  type: 'test'
+  ...
+# Subtest: public catalog preserves titles, order and immutable day validity
+ok 3 - public catalog preserves titles, order and immutable day validity
+  ---
+  duration_ms: 3.355416
+  type: 'test'
+  ...
+1..3
+# tests 3
+# suites 0
+# pass 3
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 184.644208

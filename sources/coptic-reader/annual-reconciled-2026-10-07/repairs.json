@@ -1,0 +1,10 @@
+[
+  {"id":"AnnualReadings-16","slot":"liturgy_catholic","service":"Liturgy","raw_ref":"2Pet 2:1-10","normalized_ref":"1Pet 1:25-2:10","printed_ref":"1 Peter 1:25-2:10","allow_supplement":false},
+  {"id":"AnnualReadings-17","slot":"liturgy_catholic","service":"Liturgy","raw_ref":"1Pet 2:1-25","normalized_ref":"1Pet 2:11-25","printed_ref":"1 Peter 2:11-25","allow_supplement":false},
+  {"id":"AnnualReadings-19","slot":"liturgy_gospel","service":"Liturgy","raw_ref":"Lk 14:25-32","normalized_ref":"Lk 14:25-35","printed_ref":"Luke 14:25-35","allow_supplement":false},
+  {"id":"AnnualReadings-26","slot":"liturgy_catholic","service":"Liturgy","raw_ref":"Jm 1:1-18","normalized_ref":"James 1:1-18","printed_ref":"James 1:1-18","allow_supplement":true},
+  {"id":"AnnualReadings-54","slot":"liturgy_catholic","service":"Liturgy","raw_ref":"Jm 5:9 - 20","normalized_ref":"James 5:9-20","printed_ref":"James 5:9-20","allow_supplement":true},
+  {"id":"AnnualReadings-57","slot":"liturgy_catholic","service":"Liturgy","raw_ref":"Jm 1:12-21","normalized_ref":"James 1:12-21","printed_ref":"James 1:12-21","allow_supplement":true},
+  {"id":"AnnualReadings-57","slot":"liturgy_gospel","service":"Liturgy","raw_ref":"Matt 4:23— - Matt 5:1-16","normalized_ref":"Matt 4:23-5:16","printed_ref":"Matthew 4:23-5:16","allow_supplement":false},
+  {"id":"AnnualReadings-59","slot":"liturgy_catholic","service":"Liturgy","raw_ref":"Jm 1:1-12","normalized_ref":"James 1:1-12","printed_ref":"James 1:1-12","allow_supplement":true}
+]

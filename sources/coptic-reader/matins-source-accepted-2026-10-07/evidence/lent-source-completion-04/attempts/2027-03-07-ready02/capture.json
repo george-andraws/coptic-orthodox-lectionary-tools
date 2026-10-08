@@ -1,0 +1,65 @@
+{
+  "civil_date": "2027-03-07",
+  "context": "Selected Season Sunday before the Great Fast Meshir 28, 1743 Sunday, March 7, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nPrince Theodore Anatolius",
+  "documents": [
+    {
+      "civil_date": "2027-03-07",
+      "context": "Selected Season Sunday before the Great Fast Meshir 28, 1743 Sunday, March 7, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nPrince Theodore Anatolius",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:35:14.870Z",
+      "raw_reference_lines": [],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Prophecies.txt",
+      "text_sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "reference_screenshots": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Prophecies-rubric-or-empty.png",
+          "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2027-03-07",
+      "context": "Selected Season Sunday before the Great Fast Meshir 28, 1743 Sunday, March 7, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nPrince Theodore Anatolius",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:35:28.859Z",
+      "raw_reference_lines": [
+        "\tPsalms 99: 1-2",
+        "\tLuke 17:3-10"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "583a339cdeb783f23b577cdb4831fa7537b034a9e9813b91d12cd91157022ff9",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 99: 1-2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "03c5842e97c845303612fdd377a9b143ce15a2800698a39db42cb729138c8a2c"
+        },
+        {
+          "raw_ref": "\tLuke 17:3-10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "dfad9d262f213670ae57ef8871c9e9ace85dd54e7713c0a3e65e646cf5e87912"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

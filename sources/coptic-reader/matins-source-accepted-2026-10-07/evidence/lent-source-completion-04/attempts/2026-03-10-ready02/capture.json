@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-10",
+  "context": "Selected Season 4th Week of Great Fast Paremhotep 1, 1742 Tuesday, March 10, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-10",
+      "context": "Selected Season 4th Week of Great Fast Paremhotep 1, 1742 Tuesday, March 10, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:29:05.034Z",
+      "raw_reference_lines": [
+        "\tPsalms 16:1",
+        "\tMatthew 21:28-32"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "bd1e0250ed06911aa4cd8c03192d4ddc5eb9139d90460b13b2f14838630c7049",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 16:1",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "c4e83928ea40cdd96eafcce2dd908db4452204213d3a89bfad6c9b4ec5d4229c"
+        },
+        {
+          "raw_ref": "\tMatthew 21:28-32",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "da6831d93d18d2b4f00617cc680285eca67b2fbfa339a9f0277cacfa93ee2d14"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

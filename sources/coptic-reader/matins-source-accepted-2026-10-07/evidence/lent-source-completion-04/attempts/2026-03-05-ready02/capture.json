@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-05",
+  "context": "Selected Season 3rd Week of Great Fast Meshir 26, 1742 Thursday, March 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-05",
+      "context": "Selected Season 3rd Week of Great Fast Meshir 26, 1742 Thursday, March 5, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:54.742Z",
+      "raw_reference_lines": [
+        "\tPsalms 9: 7-8",
+        "\tLuke 20:20-26"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "8bb09fe4c957df96e8fbe75ad1aec0312d072f64420446c51c6cebf902cd3f33",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 9: 7-8",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "457c4795102e4988340c2a4330d2c8ce8075543216c7c488932713d9583091fb"
+        },
+        {
+          "raw_ref": "\tLuke 20:20-26",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "777e43f7841d20865f30b7461e3f9373f959b36ac0dfaab2e681004622396062"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

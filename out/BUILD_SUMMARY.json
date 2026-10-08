@@ -1,13 +1,16 @@
 {
-  "built_at": "2026-06-18T16:00:52",
-  "cycle_reading_rows": 4629,
-  "cycle_passage_segments": 6209,
+  "built_at": "2026-10-08T11:37:10",
+  "cycle_reading_rows": 4634,
+  "cycle_passage_segments": 6202,
   "date_resolved_years": "2020-2035",
   "date_resolved_days": 5844,
-  "date_resolved_reading_rows": 50382,
+  "date_resolved_reading_rows": 51028,
   "date_resolved_passage_index_rows": 59322,
+  "legacy_passage_snapshot_preserved": true,
+  "current_date_resolved_reading_rows": 51150,
+  "current_date_resolved_passage_index_rows": 60390,
   "date_scrape_errors": 0,
   "source_file_count": 14,
   "published_file_count": 0,
-  "published_to": "/Users/georgeandraws/workspace/coptic-lectionary-research/out"
+  "published_to": "/Users/ga/workspace/lectionary-reconciliation-2026-10-07/out"
 }

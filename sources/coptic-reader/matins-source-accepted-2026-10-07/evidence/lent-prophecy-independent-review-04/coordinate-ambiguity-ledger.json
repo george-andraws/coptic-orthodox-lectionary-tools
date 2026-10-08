@@ -1,0 +1,317 @@
+[
+  {
+    "civil_date": "2026-02-02",
+    "heading_literal": "\tJonah 1:1-2:1",
+    "source_line": 3,
+    "utf8_offset": 26,
+    "first_verse": {
+      "source_line": 7,
+      "label": 1,
+      "literal": "1 Now the word of the Lord came to Jonah the son of Amittai, saying,"
+    },
+    "last_verse": {
+      "source_line": 39,
+      "label": 1,
+      "literal": "1 Now the Lord had prepared a great fish to swallow Jonah. And Jonah was in the belly of the fish three days and three nights."
+    },
+    "source_envelope_sha256": "9e7c33fc245a9e8e536fa4171ebe8fff1d1de71c90e087ac4c30f2195abb66fe",
+    "coordinate_accepted": false,
+    "notes": [
+      "Source displays chapter-1 labels 1..16, then 1 for great fish / three days and nights; do not impose MT Jonah 1:17 coordinates."
+    ]
+  },
+  {
+    "civil_date": "2026-02-17",
+    "heading_literal": "\tIsaiah 1:19-2:2-3",
+    "source_line": 3,
+    "utf8_offset": 26,
+    "first_verse": {
+      "source_line": 8,
+      "label": 19,
+      "literal": "19 If you are willing and obedient, You shall eat the good of the land;"
+    },
+    "last_verse": {
+      "source_line": 36,
+      "label": 3,
+      "literal": "3 Many people shall come and say, “Come, and let us go up to the mountain of the Lord, To the house of the God of Jacob; He will teach us His ways, And we shall walk in His paths."
+    },
+    "source_envelope_sha256": "aff37da53d0f8c2663042799a1b6afef3ed9b305de2a9be65da317ba76818fdd",
+    "coordinate_accepted": false,
+    "notes": [
+      "Odd literal syntax retained. Source labels run 19..31 then 2,3; no displayed chapter-2 verse 1. Final displayed verse 3 ends after \"walk in His paths\", unlike next day verse 3 which continues \"For out of Zion...\". Do not parse as an automatic repaired continuous range."
+    ]
+  },
+  {
+    "civil_date": "2026-02-19",
+    "heading_literal": "\tIsaiah 2:11-19",
+    "source_line": 3,
+    "utf8_offset": 26,
+    "first_verse": {
+      "source_line": 8,
+      "label": 11,
+      "literal": "11 And the Lord alone shall be exalted in that day."
+    },
+    "last_verse": {
+      "source_line": 24,
+      "label": 19,
+      "literal": "19 They shall go into the holes of the rocks, And into the caves of the earth, From the terror of the Lord And the glory of His majesty, When He arises to shake the earth mightily."
+    },
+    "source_envelope_sha256": "c45a94c1ddf655a56da8d5a533e143e0232fcc332eb63b97b1f668aa0650f140",
+    "coordinate_accepted": false,
+    "notes": [
+      "Initial label 11 includes only \"And the Lord alone shall be exalted in that day.\" Source excerpt boundary, not all of conventional verse 11."
+    ]
+  },
+  {
+    "civil_date": "2026-03-31",
+    "heading_literal": "\tIsaiah 49:6-10",
+    "source_line": 43,
+    "utf8_offset": 4939,
+    "first_verse": {
+      "source_line": 48,
+      "label": 6,
+      "literal": "6 I will also give You as a light to the Gentiles, That You should be My salvation to the ends of the earth.’”"
+    },
+    "last_verse": {
+      "source_line": 56,
+      "label": 10,
+      "literal": "10 They shall neither hunger nor thirst, Neither heat nor sun shall strike them; For He who has mercy on them will lead them, Even by the springs of water He will guide them."
+    },
+    "source_envelope_sha256": "25c7a211e9410d624c5b8834d2023759ce0e086e320c45c54345ec9dea4da4cd",
+    "coordinate_accepted": false,
+    "notes": [
+      "Initial label 6 starts \"I will also give You as a light to the Gentiles\"; retain partial starting clause, not an assumed full canonical verse."
+    ]
+  },
+  {
+    "civil_date": "2026-04-02",
+    "heading_literal": "\tIsaiah 65:8-16",
+    "source_line": 39,
+    "utf8_offset": 4674,
+    "first_verse": {
+      "source_line": 44,
+      "label": 8,
+      "literal": "8 Thus says the Lord: “As the new wine is found in the cluster, And one says, ‘Do not destroy it, For a blessing is in it,’ So will I do for My servants’ sake, That I may not destroy them all."
+    },
+    "last_verse": {
+      "source_line": 60,
+      "label": 16,
+      "literal": "16 So that he who blesses himself in the earth Shall bless himself in the God of truth."
+    },
+    "source_envelope_sha256": "819eba12d10b12855e245320682fa396542af7aaf7c0051729a0743a1d9978ed",
+    "coordinate_accepted": false,
+    "notes": [
+      "Final label 16 stops after \"Shall bless himself in the God of truth.\" Do not claim full conventional verse 16."
+    ]
+  },
+  {
+    "civil_date": "2026-04-04",
+    "heading_literal": "\tZechariah 9:9-15",
+    "source_line": 143,
+    "utf8_offset": 23357,
+    "first_verse": {
+      "source_line": 148,
+      "label": 9,
+      "literal": "9 “Rejoice greatly, O daughter of Zion! Shout, O daughter of Jerusalem! Behold, your King is coming to you; He is just and having salvation, Lowly and riding on a donkey, A colt, the foal of a donkey."
+    },
+    "last_verse": {
+      "source_line": 160,
+      "label": 15,
+      "literal": "15 The Lord of hosts will defend them."
+    },
+    "source_envelope_sha256": "03850e58537225c6d7553a6b4240c1ad4ff2b19f917c0272985e2a3e8070336f",
+    "coordinate_accepted": false,
+    "notes": [
+      "Final label 15 is only \"The Lord of hosts will defend them.\" Source ending is a fragment; do not expand."
+    ]
+  },
+  {
+    "civil_date": "2026-03-06",
+    "heading_literal": "\tSirach 2:1-3:4",
+    "source_line": 248,
+    "utf8_offset": 42900,
+    "first_verse": {
+      "source_line": 252,
+      "label": 1,
+      "literal": "1 Son, when you apply yourself to the service of God, stand in justice and in fear, and prepare your soul for temptation."
+    },
+    "last_verse": {
+      "source_line": 304,
+      "label": 4,
+      "literal": "4 He who loves God will plead with him on behalf of sins, and will keep himself away from sin, and will be heeded in the prayers of his days."
+    },
+    "source_envelope_sha256": "1e22166afe7881b38e6c9fe77c8ccceb822253d7e087024d47f7837972ac755b",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-10",
+    "heading_literal": "\tSirach 8, 9, 10:1",
+    "source_line": 135,
+    "utf8_offset": 19382,
+    "first_verse": {
+      "source_line": 139,
+      "label": 1,
+      "literal": "1 You should not quarrel with a powerful man, lest perhaps you may fall into his hands."
+    },
+    "last_verse": {
+      "source_line": 233,
+      "label": 1,
+      "literal": "1 A wise judge will judge his people, and the leadership of an understanding man will be steadfast."
+    },
+    "source_envelope_sha256": "98ff0ea27508e420c6ab0e978dfec7a57cae9c7c99954a7a5d4191cabee192a7",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-13",
+    "heading_literal": "\tDaniel 14:1-42",
+    "source_line": 195,
+    "utf8_offset": 30768,
+    "first_verse": {
+      "source_line": 200,
+      "label": 1,
+      "literal": "1 And so Daniel was living with the king, and he was honored above all his friends."
+    },
+    "last_verse": {
+      "source_line": 282,
+      "label": 42,
+      "literal": "42 Then the king said, “Let all the inhabitants of the whole earth fear the God of Daniel. For he is the Savior, working signs and miracles on earth, who has freed Daniel from the lions’ den.”"
+    },
+    "source_envelope_sha256": "3c381ca60f7f4ba5bc362fb13a56c4debd9664f10ee93c575ef3768f55719783",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "heading_literal": "\tTobit 1-3:6",
+    "source_line": 221,
+    "utf8_offset": 30135,
+    "first_verse": {
+      "source_line": 225,
+      "label": 1,
+      "literal": "1 The book of Tobit, son of Tobiel, the son of Ananiel, the son of Aduel, the son of Gabael, of the seed of Asael, of the tribe and city of Naphtali (which is in the upper parts of Galilee above Asher, after the way, which leads to the west, that has on its left the city of Sephet)."
+    },
+    "last_verse": {
+      "source_line": 331,
+      "label": 6,
+      "literal": "6 And now, O Lord, do with me according to your will, and order my spirit to be received in peace. For it is more expedient for me to die, than to live.”"
+    },
+    "source_envelope_sha256": "2e3ffa10856bb1d6f299efdbb486e9286dc56c7bd1aa6ee52a372630608e6189",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "heading_literal": "\tTobit 3:7-23",
+    "source_line": 336,
+    "utf8_offset": 51157,
+    "first_verse": {
+      "source_line": 340,
+      "label": 7,
+      "literal": "7 And so, on the same day, it happened that Sarah, the daughter of Raguel, in Ecbatana, a city of the Medes, also heard a reproach from one of her father’s servant maids."
+    },
+    "last_verse": {
+      "source_line": 372,
+      "label": 23,
+      "literal": "23 May your name, O God of Israel, be blessed forever.”"
+    },
+    "source_envelope_sha256": "116ca7f5b2809499f564b7a635d6ac7ac9fb4ba04f3f0499f32b872e63a96436",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "heading_literal": "\tTobit 3:24-6:9",
+    "source_line": 377,
+    "utf8_offset": 58117,
+    "first_verse": {
+      "source_line": 381,
+      "label": 24,
+      "literal": "24 At that time, the prayers of them both were heard in the sight of the glory of the most high God."
+    },
+    "last_verse": {
+      "source_line": 503,
+      "label": 9,
+      "literal": "9 And the gall is useful for anointing the eyes, in which there may be a white speck, and they will be cured.”"
+    },
+    "source_envelope_sha256": "066513bf4fe0999e4e49dfbdf8c4dc273ffdfa4082a3c0af062cbbaa6b25da0f",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "heading_literal": "\tTobit 6:10-9:12",
+    "source_line": 508,
+    "utf8_offset": 80228,
+    "first_verse": {
+      "source_line": 512,
+      "label": 10,
+      "literal": "10 And Tobias said to him, “Where do you prefer that we stay?”"
+    },
+    "last_verse": {
+      "source_line": 648,
+      "label": 12,
+      "literal": "12 And when all had said, “Amen,” they approached the feast. But they also celebrated the marriage feast with the fear of the Lord."
+    },
+    "source_envelope_sha256": "ce6eb9fa61444ddf909ec2d9ceb4fffe9d85c6cd44c67c367902d9aac8e858df",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "heading_literal": "\tTobit 10:1-11:21",
+    "source_line": 653,
+    "utf8_offset": 109868,
+    "first_verse": {
+      "source_line": 657,
+      "label": 1,
+      "literal": "1 In truth, when Tobias was delayed because of the marriage celebration, his father Tobit was worried, saying: “Why do you think my son is delayed, or why has he been detained there?"
+    },
+    "last_verse": {
+      "source_line": 723,
+      "label": 21,
+      "literal": "21 And for seven days they feasted, and all were rejoicing with great joy."
+    },
+    "source_envelope_sha256": "9679404072d2cad97225b27529648152881e9a2cbf26d63961d698d274f95fcb",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "heading_literal": "\tTobit 12:1-14:17",
+    "source_line": 728,
+    "utf8_offset": 127072,
+    "first_verse": {
+      "source_line": 732,
+      "label": 1,
+      "literal": "1 Then Tobit called his son to him, and he said to him, “What are we able to give to this holy man, who accompanied you?”"
+    },
+    "last_verse": {
+      "source_line": 854,
+      "label": 17,
+      "literal": "17 But before he died he heard of the destruction of Nineve, which was taken by Nebuchodonosor and Assuerus, and before his death he rejoiced over Nineve."
+    },
+    "source_envelope_sha256": "218004ae5e9bdbfb4b2d8efdaa25829fd739f27b3f4baae6c8a2b0f5d710d634",
+    "coordinate_accepted": false,
+    "notes": [
+      "Edition/versification-specific heading; no canonical English/MT/LXX coordinate qualification supplied in this review."
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+.F....
+======================================================================
+FAIL: test_daily_preserves_source_prophecy_order_before_psalm_gospel (test_lent_matins_prophecies.LentMatinsProphecies.test_daily_preserves_source_prophecy_order_before_psalm_gospel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 80, in test_daily_preserves_source_prophecy_order_before_psalm_gospel
+    self.assertEqual([r['display_ref'] for r in daily[:4]], NORMALIZED)
+AssertionError: Lists differ: ['Ps 26:4', 'Job 12:1-14:22', 'Isa 9:9-10:4', 'Joel 2:21-27'] != ['Exod 4:19-6:13', 'Joel 2:21-27', 'Isa 9:9-10:4', 'Job 12:1-14:22']
+
+First differing element 0:
+'Ps 26:4'
+'Exod 4:19-6:13'
+
+- ['Ps 26:4', 'Job 12:1-14:22', 'Isa 9:9-10:4', 'Joel 2:21-27']
++ ['Exod 4:19-6:13', 'Joel 2:21-27', 'Isa 9:9-10:4', 'Job 12:1-14:22']
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.422s
+
+FAILED (failures=1)

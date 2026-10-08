@@ -1,0 +1,721 @@
+[
+  {
+    "civil_date": "2026-02-02",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-02/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-03",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-03/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-04",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-04/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-15",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-15/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-15-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-16",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "9a6e2baa32b25b147c1b761b3be778943bb9e87f271d2712c886e5df43bc0a01",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-16/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-16-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-17",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "fcba221d1e2ece0afbc615e0879bc1f93111d8fb162627cd5af2d5224c1a66e0",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-17/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-17-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-18",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "f5a8391d8b9678893c9315c96673129a5949c3909a40d3fb4c8f5aa896eef4bc",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-18/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-18-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-19",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "b598fec33c838a9dbec9e9eda9ccdf4809baa404a047821a5e04cbed8481c023",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-19/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-19-ready-canary/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-20",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "91f8d28aaff463b0182fe0d8547efd920491059bd6cd25bd2326948100c5f10a",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-20/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-20-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-21",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "5eba1230712ee15edcc946f1dc7fc78f43f9b18a3ebf27fb386f01011f5634b2",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-21/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-21-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-22",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "80803ef72a36d726dd95ffa917b69aed2d5db3b052054096245943a8dcaac926",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-22/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-22-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-23",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "8ea1400e119631e50179bbbfe6a2fdf8687f5a9bce695e258976d13d22d9d9bd",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-23/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-23-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-24",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "e80dbdd55a8de0e9ad704e54938a597f5d10ef37fe73f6ef2dfad826ccd7bc33",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-24/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-24-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-25",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "b0a5e95ce99f09b090df81721d7823f016e88af891f140731884ee51bdfbba40",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-25/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-25-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-26",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "096f2fc9b9b35171fced7894e0b039a06e6d7e2e161db2f6227fc64fbfb5d714",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-26/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-26-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-27",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "616d8c9c7e86e8f84364aad478eb2e2c38c53ed215a16de3eef3cf82ae6dfaaf",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-27/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-27-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-02-28",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "9e100155b462ec2aa60c127c37878e4d1fef557cd1c81a2ed2190f092672da4b",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-02-28/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-28-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-01",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "edd6ba85bac2486387398c18ebeca6b68e4d116cebd4bdcb7c5338da2a950a74",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-01/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-01-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-02",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "8a30437f12bede0eb77fe43912cdbd04f214e03706d666b077500f60b2fedf2c",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-02/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-03",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "54553809087223ac44db379f32c5d85fb835b7287937e3a9940690a874527d3e",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-03/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-03-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-04",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "7c61644e9f7e0d66598b9face3426c551dcdba36218652f5a56b87f8bca1eb61",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-04/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-04-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-05",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "8bb09fe4c957df96e8fbe75ad1aec0312d072f64420446c51c6cebf902cd3f33",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-05/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-05-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-06",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "0b9924bedf1ddacf17c11ba97350f07e1fdce62b585ef3d07d5b5abd31276c7a",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-06/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-06-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-07",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "e7bd95782073c76506666cad65595ebbbfaa1520c8bff14ca5a3f9ddc1ee0b70",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-07/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-07-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-08",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "be970a6d1c8fd3826c3325b22e30d098bbc889effe6c2178d0d30a4b3a7ecd2c",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-08/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-08-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-09",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "3c585f1ffa4836855151e47a3104caada6cdb41858efcd943ce3b6e845ad7ac8",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-09/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-10",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "bd1e0250ed06911aa4cd8c03192d4ddc5eb9139d90460b13b2f14838630c7049",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-10/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-10-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-11",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "ecad44a6c7f341563585c094b9e72369b1cfe9c1ec3f1950b615db715813c3cb",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-11/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-11-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-12",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "2c230d611d3eff2f02818800fcfbced0ff3d28e1b586962d8b3a660b203c0a7e",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-12/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-12-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-13",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "169d1bdbbb32e3c72e2daebba43129c97cf67f9ea3fc745eb549d3d4bc445eee",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-13/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-13-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-14",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "d4a0d87692520a730f7488dab034da59433224ad9668e18ee9819eef1950e1da",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-14/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-14-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-15",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "a0fa213e85a3c3f724e0d92de477c0adaad291fbcf49151e74d7a7c475fc15b3",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-15/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-15-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-16",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "4bdc1f867ba24c94101704ad60af76957f5980b15733376801fdf8a57847a05b",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-16/Matins-Psalm-and-Gospel.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-04/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-16-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-17",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "782d819a7f06a4cdcad2699ac6ecb9aed4f8b7b53f016cfaa6a21f62c3662ae8",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-17/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-17-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-18",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "96920bace59bade72fc3af04611c486b5052c86c998902ad2d97fabe2267a947",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-18/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-18-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-19",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-19/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-19-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-20",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "dbae017a46ea3529c847e32389860f95795eebfda980303c9211c4702228754e",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-20/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-20-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-21",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "4c271426972c60a66eefbd0e548c09277d1bbd7bf88380f1531b8d9b32402317",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-21/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-21-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-22",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "a7769942c0c86a4f2ea31670de9984880327250d1d3cd5f95d8190cc9b4082e3",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-22/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-22-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-23",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "3d0e2196763962b34108c900f72cef3e3ea3e83ea8b8294174b2fc5b26814f57",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-23/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-23-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-24",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "beb26a8cb97853d35211fd17e6e8096ba3df5b2bb19a6aef34a99c807c489237",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-24/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-24-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-25",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "88cd24530e38572303096f411ffbe919c75e92626f89de60e51f0567574f8ee1",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-25/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-25-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-26",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "78062fcaececfdf41309699139552013cef8801e98f52ec0f959fff7085da955",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-26/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-26-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-27",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "0bed868dd50409585554016506132f0caef3ee16e400396b97a44e276c415241",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-27/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-27-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-28",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "e23638af54d67f758c47e8f0f22ce2af0047b814a164231a75699bb0d07b01ab",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-28/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-28-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-29",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "12b6d6b81d0644c53f7faf214b74678f2ff70cee1cfbd2489b640ce1433b255a",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-29/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-29-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-30",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-30/Matins-Psalm-and-Gospel.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-03/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-30-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-03-31",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "0703a51f79e43cd4278111b147814c6d9600e7dbc1bb9d1863ffebf6fa9c3d7b",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-31/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-31-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-01",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "9a7b7cae81f95eb4bb09f5423258d46c07cb7bde804681cbfc8821f32ad5eeba",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-01/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-01-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-02",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "015165522ebd7363ebd68117fd01e8a1bf29e4372b008a5a0715716fad9e7ef1",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-02/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-02-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-03",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-30/Matins-Psalm-and-Gospel.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-03/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-03-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-04",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "4bdc1f867ba24c94101704ad60af76957f5980b15733376801fdf8a57847a05b",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-03-16/Matins-Psalm-and-Gospel.txt",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-04/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-04-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2026-04-05",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "e378f4c19bcef5cebf389f977d12f91377d45407c123cb38c5405a3d335448d1",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2026-04-05/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-04-05-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2027-03-07",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "583a339cdeb783f23b577cdb4831fa7537b034a9e9813b91d12cd91157022ff9",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-03-07/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-03-07-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  },
+  {
+    "civil_date": "2027-04-08",
+    "slot": "Psalm and Gospel",
+    "fresh_body_sha256": "7c2cca253830e0a4d8b5a7380e9768b54dfb9f91e22767ec61e58e770393366a",
+    "exact_existing_body_paths": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-lent/2027-04-08/Matins-Psalm-and-Gospel.txt"
+    ],
+    "old_capture_state": "old image qualification unchanged; exact fresh body hash corroboration only",
+    "new_ready_images": [
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel-reference-01.png",
+      "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2027-04-08-ready02/Psalm_and_Gospel-reference-02.png"
+    ]
+  }
+]

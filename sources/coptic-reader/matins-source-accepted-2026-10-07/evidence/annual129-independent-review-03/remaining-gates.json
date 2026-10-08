@@ -1,0 +1,14 @@
+{
+  "annual180": {
+    "scope": "observed 2020-2035 only",
+    "greatFast": 15,
+    "preFastSaturday": 1,
+    "state": "unresolved generic annual date; seed retained",
+    "universalAbsence": false,
+    "outsideBounds": "unobserved, not ruled out"
+  },
+  "sourcePsalmQualification": "literal coordinates only; edition and full-text fragment qualification held",
+  "calendar": "recurrence, exception and precedence need separately authorized qualified resolver and production guards",
+  "sourceIntegration": "parent manifest and source/core/consumer integration not performed or approved",
+  "releaseReady": false
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/audit_artifacts/lent-matins-prophecies-2026-10-07/compare_surfaces.py", line 59, in <module>
+    assert [r['display_ref'] for r in props] == REFS
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

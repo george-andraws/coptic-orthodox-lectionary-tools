@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-09",
+  "context": "Selected Season 4th Week of Great Fast Meshir 30, 1742 Monday, March 9, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. John the Baptist His Holiness Pope Kyrillos VI",
+  "documents": [
+    {
+      "civil_date": "2026-03-09",
+      "context": "Selected Season 4th Week of Great Fast Meshir 30, 1742 Monday, March 9, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. John the Baptist His Holiness Pope Kyrillos VI",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:28:49.415Z",
+      "raw_reference_lines": [
+        "\tPsalms 54:1, 26:11",
+        "\tLuke 14:7-15"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "3c585f1ffa4836855151e47a3104caada6cdb41858efcd943ce3b6e845ad7ac8",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 54:1, 26:11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "e7f29c557f63d8b37caba5cfb497988618e113aeb688885cc7e9084b87322cef"
+        },
+        {
+          "raw_ref": "\tLuke 14:7-15",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-09-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "83662f40eefcd1965e3de539b9b980216f57b78418f1713bfb9f57df0bf1408c"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "civil_date": "2026-03-02",
+  "context": "Selected Season 3rd Week of Great Fast Meshir 23, 1742 Monday, March 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-03-02",
+      "context": "Selected Season 3rd Week of Great Fast Meshir 23, 1742 Monday, March 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:27:37.214Z",
+      "raw_reference_lines": [
+        "\tPsalms 31: 1-2",
+        "\tLuke 19:11-28"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "8a30437f12bede0eb77fe43912cdbd04f214e03706d666b077500f60b2fedf2c",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 31: 1-2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "62c433e5bd0a6dcaafb56014eb71439387610ac37b23884bf46e7dde841c3700"
+        },
+        {
+          "raw_ref": "\tLuke 19:11-28",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-03-02-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "e41753114393cc3ab3cf2fe60bea12d64481b7fdf62b6775c595c8654d2ad0b3"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

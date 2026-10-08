@@ -1,0 +1,148 @@
+TAP version 13
+# Subtest: official Third-Week Wednesday Matins prophecies lead Psalm/Gospel on 2026-03-04
+ok 1 - official Third-Week Wednesday Matins prophecies lead Psalm/Gospel on 2026-03-04
+  ---
+  duration_ms: 138.493833
+  type: 'test'
+  ...
+# Subtest: official Third-Week Wednesday Matins prophecies lead Psalm/Gospel on 2027-03-24
+ok 2 - official Third-Week Wednesday Matins prophecies lead Psalm/Gospel on 2027-03-24
+  ---
+  duration_ms: 177.50925
+  type: 'test'
+  ...
+# Subtest: official Third-Week Wednesday Matins prophecies lead Psalm/Gospel on 2028-03-08
+ok 3 - official Third-Week Wednesday Matins prophecies lead Psalm/Gospel on 2028-03-08
+  ---
+  duration_ms: 113.085
+  type: 'test'
+  ...
+# Subtest: readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata
+ok 4 - readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata
+  ---
+  duration_ms: 1018.180958
+  type: 'test'
+  ...
+# Subtest: calendar is UTC-stable at Coptic new year and leap day
+ok 5 - calendar is UTC-stable at Coptic new year and leap day
+  ---
+  duration_ms: 135.037042
+  type: 'test'
+  ...
+# Subtest: calendar supports years outside shipped readings, early years and century boundaries
+ok 6 - calendar supports years outside shipped readings, early years and century boundaries
+  ---
+  duration_ms: 29.507667
+  type: 'test'
+  ...
+# Subtest: public catalog preserves titles, order and immutable day validity
+ok 7 - public catalog preserves titles, order and immutable day validity
+  ---
+  duration_ms: 18.953375
+  type: 'test'
+  ...
+# Subtest: Coptic Reader Monday Eve Sixth Hour keeps LXX 28 as MT 29, not MT 28
+ok 8 - Coptic Reader Monday Eve Sixth Hour keeps LXX 28 as MT 29, not MT 28
+  ---
+  duration_ms: 1.849459
+  type: 'test'
+  ...
+# Subtest: remaining authoritative Psalm readings retain text-aligned MT coordinates and source order
+ok 9 - remaining authoritative Psalm readings retain text-aligned MT coordinates and source order
+  ---
+  duration_ms: 59.60975
+  type: 'test'
+  ...
+# Subtest: Good Friday Sixth Hour preserves the authoritative composite in text order
+ok 10 - Good Friday Sixth Hour preserves the authoritative composite in text order
+  ---
+  duration_ms: 31.253708
+  type: 'test'
+  ...
+# Subtest: Jonah Fast has no current Vespers in the three materialized fast days
+ok 11 - Jonah Fast has no current Vespers in the three materialized fast days
+  ---
+  duration_ms: 15.646084
+  type: 'test'
+  ...
+# Subtest: Coptic Reader source corrections are occasion-specific
+ok 12 - Coptic Reader source corrections are occasion-specific
+  ---
+  duration_ms: 3.749459
+  type: 'test'
+  ...
+# Subtest: legacy removed/active contract is unchanged; current is explicit
+ok 13 - legacy removed/active contract is unchanged; current is explicit
+  ---
+  duration_ms: 1.24225
+  type: 'test'
+  ...
+# Subtest: Gregorian validation rejects impossible dates and preserves unsupported-year behavior
+ok 14 - Gregorian validation rejects impossible dates and preserves unsupported-year behavior
+  ---
+  duration_ms: 0.245
+  type: 'test'
+  ...
+# Subtest: all shipped dates contain current rows only, with numeric order and forward-preserved spans
+ok 15 - all shipped dates contain current rows only, with numeric order and forward-preserved spans
+  ---
+  duration_ms: 117.398166
+  type: 'test'
+  ...
+# Subtest: Annunciation collision gives Tuesday/Eve only and retains undated annual reverse evidence
+ok 16 - Annunciation collision gives Tuesday/Eve only and retains undated annual reverse evidence
+  ---
+  duration_ms: 0.749916
+  type: 'test'
+  ...
+# Subtest: source-specific Monday/Tuesday Eve Gospels remain distinct
+ok 17 - source-specific Monday/Tuesday Eve Gospels remain distinct
+  ---
+  duration_ms: 6.115458
+  type: 'test'
+  ...
+# Subtest: Monday current composite replaces split Genesis fragments
+ok 18 - Monday current composite replaces split Genesis fragments
+  ---
+  duration_ms: 0.168125
+  type: 'test'
+  ...
+# Subtest: Good Friday emits OT1 through OT10 in actual numeric order without sorting the assertion
+ok 19 - Good Friday emits OT1 through OT10 in actual numeric order without sorting the assertion
+  ---
+  duration_ms: 0.293084
+  type: 'test'
+  ...
+# Subtest: calendar overlay preserves the approved current Job composite
+ok 20 - calendar overlay preserves the approved current Job composite
+  ---
+  duration_ms: 0.153333
+  type: 'test'
+  ...
+# Subtest: blank source orders fall back to the documented ordinary-service order, never zero
+ok 21 - blank source orders fall back to the documented ordinary-service order, never zero
+  ---
+  duration_ms: 0.377667
+  type: 'test'
+  ...
+# Subtest: reverse slot order is typed and retains named non-scripture readings
+ok 22 - reverse slot order is typed and retains named non-scripture readings
+  ---
+  duration_ms: 2.609834
+  type: 'test'
+  ...
+# Subtest: remaining Coptic Reader corrections preserve exact context and Psalm companions
+ok 23 - remaining Coptic Reader corrections preserve exact context and Psalm companions
+  ---
+  duration_ms: 6.622334
+  type: 'test'
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1082.316792

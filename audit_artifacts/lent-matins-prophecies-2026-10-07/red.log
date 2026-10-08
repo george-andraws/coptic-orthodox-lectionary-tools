@@ -1,0 +1,268 @@
+FF..FFFFFFFFFFFFFFFF
+======================================================================
+FAIL: test_context_qualified_cycle_correction_retains_raw_api (test_lent_matins_prophecies.LentMatinsProphecies.test_context_qualified_cycle_correction_retains_raw_api)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 61, in test_context_qualified_cycle_correction_retains_raw_api
+    self.assertIn('Joel 2:21-27', row['normalized_ref'])
+AssertionError: 'Joel 2:21-27' not found in 'Exod 4:19-31; Exod 5:1-23; Exod 6:1-13; Joel 2:21-26; Isa 9:9-21; Isa 10:1-4; Job 12:1-25; Job 13:1-28; Job 14:1-22'
+
+======================================================================
+FAIL: test_daily_preserves_source_prophecy_order_before_psalm_gospel (test_lent_matins_prophecies.LentMatinsProphecies.test_daily_preserves_source_prophecy_order_before_psalm_gospel)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 71, in test_daily_preserves_source_prophecy_order_before_psalm_gospel
+    self.assertEqual([r['slot_type'] for r in daily], ['prophecy'] * 4)
+AssertionError: Lists differ: ['', '', '', ''] != ['prophecy', 'prophecy', 'prophecy', 'prophecy']
+
+First differing element 0:
+''
+'prophecy'
+
+- ['', '', '', '']
++ ['prophecy', 'prophecy', 'prophecy', 'prophecy']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2020)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2021)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2022)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2023)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2024)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2025)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2026)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2027)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2028)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2029)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2030)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2031)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2032)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2033)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2034)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+======================================================================
+FAIL: test_recurs_in_supported_years_at_only_verified_movable_context (test_lent_matins_prophecies.LentMatinsProphecies.test_recurs_in_supported_years_at_only_verified_movable_context) (year=2035)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/synaxarium-package-release/tests/test_lent_matins_prophecies.py", line 37, in test_recurs_in_supported_years_at_only_verified_movable_context
+    self.assertEqual([r['raw_ref'] for r in prophecies], PRINTED)
+AssertionError: Lists differ: [] != ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+Second list contains 4 additional elements.
+First extra element 0:
+'Exodus 4:19-6:13'
+
+- []
++ ['Exodus 4:19-6:13', 'Joel 2:21-27', 'Isaiah 9:9-10:4', 'Job 12:1-14:22']
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.211s
+
+FAILED (failures=18)
