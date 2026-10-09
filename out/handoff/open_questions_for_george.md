@@ -261,3 +261,32 @@ The presentation footprint output includes blank `patristic_homily_slug` values 
 - Synaxarium datasets: `out/design/synaxarium_commemorations.csv` and `out/design/synaxarium_reading_bridge.csv`
 - Deck deliverables: `presentation/lectionary_design_layer_deck.pptx` and `presentation/lectionary_design_layer_deck_outline.md`
 - Execution log: `audit_artifacts/lectionary_execution_log.md`
+
+
+## Judges funeral appointment: question for Fr. Boulos (2026-10-03)
+
+Fr. Jacob Nadian's *Funeral Services, First Book: Laity*, printed pp. 231-232, places Judges 11:30-40 under “Funeral Services for Female Children during Passion Week.” The saved source PDF was read directly. This is not a general appointment for all girls' funerals, and the section is distinct from the preceding burial-site section.
+
+**Question:** Does this edition's Passion Week appointment correspond to the rite currently used at St. George in Kirkland? Is there a parish service book or priestly clarification we should cite before generalizing beyond this printed edition?
+
+The daughter and her mourners should remain central in a pastoral interpretation of the funeral context. The rubric itself does not state an exclusive interpretive intention. The father's rash vow should not eclipse lament for the daughter.
+
+Public edition: https://saintbishoy.ca/wp-content/uploads/Rites_Book-1_Funeral_Services_Laity.pdf. No message was sent to Fr. Boulos and no task or calendar event was created.
+
+## Gregory the Great: Coptic-site attribution question (2026-10-03)
+
+**Question:** May Gregory the Great be cited under “Gems from the Fathers” on this Coptic Orthodox Bible-study site, or should a verified passage be identified more narrowly as a historical pastoral witness? The opening 1 Kingdoms studies currently name his pastoral teaching without a work or location. Pending a decision, these revisions will not rely on that unattributed reference.
+
+This is an editorial authority question, not a claim that an exact primary citation by itself settles Coptic reception. No message was sent to clergy, and no task or calendar event was created.
+
+### Isaac the Syrian: later-writer reception and attribution
+
+**Question:** How should Isaac the Syrian and other later Syriac ascetical writers be received and classified on this Coptic Orthodox study site? Should a verified passage be presented as a received ascetical witness rather than simply grouped with the ancient Fathers?
+
+The proposed attribution that Isaac's tradition “would call” David's restraint mercy has been removed from the 1 Kingdoms 26–27 revision because no supporting homily was verified. This does not assert that Isaac never treated the theme or settle the reception question. Any future use requires a located primary text and a transparent description of its authority. No message was sent to clergy, and no task or calendar event was created.
+
+## Maximus and John Climacus: Coptic-site citation question (2026-10-04)
+
+**Question:** May post-Chalcedonian Byzantine writers, specifically Maximus the Confessor and John Climacus, be cited as Fathers on this Coptic Orthodox Bible-study site?
+
+Until this is answered, Judges revisions will not cite them. Preferred witnesses, when a located text actually illuminates the passage, are Athanasius, Cyril of Alexandria, Antony, Macarius, John Cassian, Ephrem, and Severus of Antioch. No message was sent to clergy, and no task or calendar event was created.
