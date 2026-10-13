@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.1';
+const VERSION = '1.3.2';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -543,6 +543,7 @@ async function projectReverseIndex() {
 }
 
 const PASCHA_DAY_OFFSETS = new Map([
+  ['Hosanna Sunday', -7],
   ['Monday', -6],
   ['Tuesday', -5],
   ['Wednesday', -4],
@@ -552,9 +553,10 @@ const PASCHA_DAY_OFFSETS = new Map([
 ]);
 
 const PASCHA_DAILY_OCCASIONS = new Map([
+  ['Hosanna Sunday', new Set(['Hosanna Sunday'])],
   ['Monday', new Set(['Monday Eve', 'Monday'])],
   ['Tuesday', new Set(['Tuesday Eve', 'Tuesday'])],
-  ['Wednesday', new Set(['Wednesday Eve', 'Wednesday'])],
+  ['Wednesday', new Set(['Wednesday Eve', 'Wednesday', 'Wednesday of Holy Pascha'])],
   ['Great Thursday', new Set(['Great Thursday Eve', 'Great Thursday'])],
   ['Good Friday', new Set(['Good Friday'])],
   ['Bright Saturday', new Set(['Bright Saturday'])],
@@ -577,7 +579,12 @@ function rowsForPaschaDailyDate(projectedRows, dayName) {
   return projectedRows.filter((row) => {
     if (!isCurrentReading(row)) return false;
     if (dayName === 'Bright Saturday' && isBrightSaturdayServiceRow(row)) return true;
-    return row.source_family === 'holy_pascha_curated_day_hour' && occasions.has(String(row.occasion || ''));
+    const retainedWednesdayFixture = dayName === 'Wednesday'
+      && row.occasion === 'Wednesday of Holy Pascha'
+      && row.source_family === 'coptic_reader'
+      && row.source_kind === 'coptic_reader_fixture';
+    return (row.source_family === 'holy_pascha_curated_day_hour' || retainedWednesdayFixture)
+      && occasions.has(String(row.occasion || ''));
   });
 }
 
@@ -592,6 +599,7 @@ function dailyRowFromReverse(row, dayName) {
     display_ref: row.display_ref || '',
     identity_key: row.identity_key || '',
     reading_type: row.reading_type || 'scripture',
+    ...(row.reading_name ? { reading_name: row.reading_name } : {}),
     slot_type: row.slot_type || slotType(row.slot),
     slot_order: existingNumericOrder(row.slot_order),
     service_order: existingNumericOrder(row.service_order) ?? serviceOrder(serviceHour || row.service_section),
@@ -616,12 +624,23 @@ function dailyRowFromReverse(row, dayName) {
 }
 
 function dedupeDailyRows(rows) {
-  const seen = new Set();
+  const seen = new Map();
   const out = [];
   for (const row of rows) {
-    const key = [row.occasion || '', row.service_section || '', row.service_hour || '', row.slot || '', row.identity_key || '', row.display_ref || ''].join('|');
-    if (seen.has(key)) continue;
-    seen.add(key);
+    // These two source labels describe the same Wednesday Day appointment.
+    // Keep Eve separate and retain the exact current Reader row when available;
+    // the other attestation remains unchanged in the reverse provenance index.
+    const wednesdayDay = row.structural_day === 'Wednesday'
+      && ['Wednesday', 'Wednesday of Holy Pascha'].includes(row.occasion);
+    const key = wednesdayDay
+      ? ['Wednesday Day', row.service_section || '', row.service_hour || '', row.slot_type || '', row.slot_order ?? '', row.identity_key || '', row.display_ref || ''].join('|')
+      : [row.occasion || '', row.service_section || '', row.service_hour || '', row.slot || '', row.identity_key || '', row.display_ref || ''].join('|');
+    if (seen.has(key)) {
+      const index = seen.get(key);
+      if (wednesdayDay && row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture') out[index] = row;
+      continue;
+    }
+    seen.set(key, out.length);
     out.push(row);
   }
   return out;
@@ -631,16 +650,17 @@ function addMissingStructuralDailyRows(sorted, year, projectedRows) {
   const additions = [];
   for (const dayName of PASCHA_DAILY_OCCASIONS.keys()) {
     const date = paschaDateForDay(year, dayName);
-    const hasExistingRows = Object.prototype.hasOwnProperty.call(sorted, date) && sorted[date].length > 0;
+    const existingRows = sorted[date] || [];
     const annunciationCollision = sorted[date]?.some((row) => /annunciation/i.test(String(row.occasion || row.day_title || '')));
-    if (hasExistingRows && !annunciationCollision) continue;
     const rows = rowsForPaschaDailyDate(projectedRows, dayName).map((row) => dailyRowFromReverse(row, dayName));
     if (!rows.length) continue;
     if (annunciationCollision) {
       const sourceRule = 'UK Midlands Katameros Days p.22 rule 13: Annunciation yields during the non-repeatable Lord events window';
       sorted[date] = sortDailyReadings(dedupeDailyRows(rows.map((row) => ({ ...row, correction_reason: sourceRule }))));
     } else {
-      sorted[date] = sortDailyReadings(dedupeDailyRows(rows));
+      // A nonempty date may still omit structural hours or one source family.
+      // Hosanna hours supplement, rather than replace, ordinary Palm services.
+      sorted[date] = sortDailyReadings(dedupeDailyRows([...existingRows, ...rows]));
     }
     additions.push({ date, day: dayName, reading_count: sorted[date].length });
   }
@@ -697,10 +717,10 @@ function sortDailyReadings(readings, date = '') {
     const keysB = [b.service_section || '', b.service_hour || '', b.slot || '', b.source_group_key || '', b.display_ref || '', b.identity_key || ''];
     return keysA < keysB ? -1 : keysA > keysB ? 1 : 0;
   });
-  return enriched.map((reading, index) => ({
-    reading_order: index + 1,
-    ...reading,
-  }));
+  return enriched.map((reading, index) => {
+    const { reading_order: _previousOrder, ...fields } = reading;
+    return { reading_order: index + 1, ...fields };
+  });
 }
 
 function buildStructuralDateResolver(dailyInfos) {
@@ -1126,7 +1146,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {

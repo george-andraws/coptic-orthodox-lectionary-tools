@@ -206,6 +206,18 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
     suppression_rules = policy.get('suppressed_date_contexts', [])
     pascha_contexts = {(r['day'], r['hour']) for r in load_csv(ROOT / 'out/data/pascha_day_hour_index.csv')}
     bright_sections = {r['subsection'] for r in load_csv(ROOT / 'out/data/bright_saturday_service_order.csv') if r['section']}
+    # Frozen prior-release reverse rows qualify the new daily projections;
+    # mutable package membership or a structural marker alone is not evidence.
+    retained_path = ROOT / 'scripts/package_baselines/pascha_daily_current_1.3.1.json'
+    retained_bytes = retained_path.read_bytes()
+    assert hashlib.sha256(retained_bytes).hexdigest() == '1b413b324d10784fa80d647affc01eedab3b92792eb49d0465ad68282567ab23', 'Pascha daily baseline fingerprint mismatch'
+    retained_rows = json.loads(retained_bytes)['rows']
+
+    def retained_structural(row, day):
+        expected_day = 'Wednesday' if row.get('occasion') == 'Wednesday of Holy Pascha' else 'Hosanna Sunday'
+        return day == expected_day and any(
+            all(row.get(field, '') == value for field, value in expected.items())
+            for expected in retained_rows)
 
     if overlay_dates:
         overlays = [r for r in policy.get('calendar_overlays', [])
@@ -381,13 +393,17 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                 date_value = dt.date.fromisoformat(date)
                 day = holy_week_day(date_value)
                 if date_value == julian_pascha_gregorian(year) - dt.timedelta(days=1): day = 'Bright Saturday'
+                if date_value == julian_pascha_gregorian(year) - dt.timedelta(days=7): day = 'Hosanna Sunday'
                 occasions = {day, f'{day} Eve'} if day not in {'Good Friday', 'Bright Saturday', None} else {day}
-                if (day and row.get('occasion') in occasions and family in STRUCTURAL_PACKAGE_SOURCE_FAMILIES
+                legacy_context = (row.get('occasion') in occasions and family in STRUCTURAL_PACKAGE_SOURCE_FAMILIES
+                                  and day != 'Hosanna Sunday'
+                                  and ((family == 'holy_pascha_curated_day_hour' and (row.get('occasion'), row.get('service_hour')) in pascha_contexts)
+                                       or (family == 'bright_saturday' and row.get('service_section') in bright_sections))
+                                  and (family != 'bright_saturday' or day == 'Bright Saturday'))
+                if (day and (legacy_context or retained_structural(row, day))
                         and row.get('structural_day') == day
                         and row.get('service_hour') == row.get('service_section')
-                        and ((family == 'holy_pascha_curated_day_hour' and (row.get('occasion'), row.get('service_hour')) in pascha_contexts)
-                             or (family == 'bright_saturday' and row.get('service_section') in bright_sections))
-                        and (family != 'bright_saturday' or day == 'Bright Saturday') and not is_removed_daily_row(row)):
+                        and not is_removed_daily_row(row)):
                     skipped += 1
                     dispositions.append({'year': year, 'gregorian_date': date, 'occasion': row.get('occasion'),
                                          'service_section': row.get('service_section'), 'count': 1,

@@ -169,6 +169,28 @@ class ContextComparisonTests(unittest.TestCase):
                 for i, row in enumerate(rows, 1): row['reading_order'] = i
                 self.rejected(source, daily)
 
+    def test_restored_wednesday_and_hosanna_rows_have_qualified_structural_dispositions(self):
+        for date in ('2026-04-08', '2026-04-05'):
+            with self.subTest(date=date):
+                source, daily = self.fixtures(date)
+                self.assertEqual(self.compare(source, daily)['status'], 'pass')
+
+    def test_restored_structural_rows_do_not_bypass_context_or_reading_validation(self):
+        for date, family in [('2026-04-08', 'coptic_reader'), ('2026-04-05', 'holy_pascha_curated_day_hour')]:
+            source, original = self.fixtures(date)
+            selected = next(i for i, row in enumerate(original[date])
+                            if row.get('structural_day') and row.get('source_family') == family)
+            for field, value in [('source_kind', 'ordinary_date'), ('source_locator', 'forged.txt'),
+                                 ('source_disclosure', '[]'), ('display_ref', 'Jn 1:1-2'),
+                                 ('spans_json', '[]'), ('slot', 'wrong-slot'),
+                                 ('identity_key', 'forged'), ('active', False)]:
+                with self.subTest(date=date, field=field):
+                    daily = copy.deepcopy(original)
+                    daily[date][selected][field] = value
+                    self.rejected(source, daily)
+            daily = {'2026-04-09': copy.deepcopy(original[date])}
+            self.rejected([], daily)
+
     def test_structural_exclusions_require_independent_date_occasion_hour_context(self):
         source, original = self.fixtures('2026-04-06')
         self.assertEqual(source, [])
