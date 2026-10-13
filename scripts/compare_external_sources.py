@@ -212,6 +212,11 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
     retained_bytes = retained_path.read_bytes()
     assert hashlib.sha256(retained_bytes).hexdigest() == '1b413b324d10784fa80d647affc01eedab3b92792eb49d0465ad68282567ab23', 'Pascha daily baseline fingerprint mismatch'
     retained_rows = json.loads(retained_bytes)['rows']
+    alias_path = ROOT / 'scripts/package_baselines/pascha_canonical_aliases_1.3.3.json'
+    alias_bytes = alias_path.read_bytes()
+    assert hashlib.sha256(alias_bytes).hexdigest() == 'c3ea02cc63d34fe3253967dba9f596594b39a9fde44adcb6e3ae640043504470', 'Canonical Pascha alias fingerprint mismatch'
+    alias_rows = json.loads(alias_bytes)['rows']
+    retained_rows += alias_rows
 
     def retained_structural(row, day):
         expected_day = 'Wednesday' if row.get('occasion') == 'Wednesday of Holy Pascha' else 'Hosanna Sunday'
@@ -400,6 +405,10 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                                   and ((family == 'holy_pascha_curated_day_hour' and (row.get('occasion'), row.get('service_hour')) in pascha_contexts)
                                        or (family == 'bright_saturday' and row.get('service_section') in bright_sections))
                                   and (family != 'bright_saturday' or day == 'Bright Saturday'))
+                # These locators identify Wednesday DAY witnesses. A changed
+                # Eve/hour/reference must not fall back to the broad legacy lane.
+                if any(row.get('source_locator') == expected['source_locator'] for expected in alias_rows):
+                    legacy_context = False
                 if (day and (legacy_context or retained_structural(row, day))
                         and row.get('structural_day') == day
                         and row.get('service_hour') == row.get('service_section')

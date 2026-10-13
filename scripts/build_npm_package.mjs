@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { createReadStream } from 'node:fs';
 import { mkdir, readFile, writeFile, copyFile, stat } from 'node:fs/promises';
 import { createInterface } from 'node:readline';
@@ -11,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.2';
+const VERSION = '1.3.3';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -478,6 +479,188 @@ function suppressLowerPriorityPassageVariants(rows, removalEffectiveVersionBasel
   };
 }
 
+// Canonical consumer appointments are a projection, not a rewrite of witnesses.
+// Do not feed these aliases into the legacy overlap projection/removal baseline.
+function canonicalOccasion(value) {
+  const aliases = { Tout: 'Tut', Hator: 'Hatur', Hatoor: 'Hatur', Kiahk: 'Kiyahk', Kiak: 'Kiyahk', Toba: 'Tubah', Amshir: 'Meshir', Bashans: 'Bashons', Paona: 'Baunah', Baba: 'Babah', Baramoudah: 'Barmuda', 'Al-Nasi': 'Nesi' };
+  let text = String(value || '');
+  for (const [alias, name] of Object.entries(aliases)) text = text.replace(new RegExp(`\\b${alias}\\b`, 'gi'), name);
+  text = text.replace(/^(?:the\s+)?(first|second|third|fourth|fifth) Sunday of /i, (_, ordinal) => `${ordinal[0].toUpperCase()}${ordinal.slice(1).toLowerCase()} Sunday of `);
+  // UK Midlands Sundays general remarks 4: the four Kiyahk lessons can
+  // start on the last Sunday of Hatur. These are service-table aliases,
+  // not permission to assign an uncaptured civil date or change the calendar.
+  text = text.replace(/^(first|second|third|fourth) Sunday of Christmas Fast$/i, (_, ordinal) => `${ordinal[0].toUpperCase()}${ordinal.slice(1).toLowerCase()} Sunday of Kiyahk`);
+  if (text === 'Wednesday') text = 'Wednesday of Holy Pascha';
+  return text;
+}
+
+function qualifiedCanonicalSource(row) {
+  return (row.source_family === 'katameros_cycle' && row.source_kind === 'katameros_cycle')
+    || (['ordinary_date_resolved', 'coptic_reader_verified_supplement', 'coptic_reader_verified_sunday_policy', 'coptic_reader_verified_calendar_boundary'].includes(row.source_family) && row.source_kind === 'copticchurch_date')
+    || (row.source_family === 'holy_pascha_curated_day_hour' && row.source_kind === 'pascha_day_hour')
+    || (row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture');
+}
+
+function canonicalContexts(row) {
+  if (row.source_family !== 'katameros_cycle' || row.source_kind !== 'katameros_cycle') return [{ key: canonicalOccasion(row.occasion).toLowerCase(), raw: row.calendar_keys || '' }];
+  return String(row.calendar_keys || '').split(' || ').map(raw => {
+    let label = raw;
+    const annualSunday = row.occasion === 'annual Sundays by Coptic month/week';
+    const sunday = raw.match(/^(.+) ([1-5])$/);
+    const seasonal = raw.match(/^week (\d+) day_of_week ([0-6])$/);
+    if (annualSunday && sunday) label = `${ORDINALS.get(Number(sunday[2]))} Sunday of ${sunday[1]}`;
+    else if (seasonal && Number(seasonal[1]) > 0 && Number(seasonal[1]) <= 8) {
+      const season = row.occasion.includes('Holy Fifty') ? 'the Holy Fifty Days' : 'Great Lent';
+      label = `${WEEKDAYS[Number(seasonal[2])]} of the ${ORDINALS.get(Number(seasonal[1]))} week of ${season}`;
+    }
+    return { key: canonicalOccasion(label).toLowerCase(), raw };
+  });
+}
+
+function canonicalService(row) {
+  // GetFromRef in the retained SQLite implementation places Prophecy in Matins.
+  if (row.source_family === 'katameros_cycle' && row.source_kind === 'katameros_cycle' && row.service_section === 'prophecy' && row.occasion.includes('Great Lent')) return 'matins';
+  return normalizedService(row.service_section);
+}
+
+function sourceSelectorMatches(row, selector) {
+  return Object.entries(selector).every(([key, value]) => String(key === 'calendar_keys' ? (row.source_calendar_keys || row[key] || '') : (row[key] ?? '')) === String(value));
+}
+
+function retainCanonicalSupersession(row, preferred, context, reason) {
+  return { ...row, active: false, status: 'removed',
+    removed_marker: 'superseded_by_canonical_occurrence_projection',
+    removal_reason: reason, removal_context_key: context, removal_effective_version: '1.3.3',
+    preferred_source_family: preferred.source_family, preferred_source_kind: preferred.source_kind,
+    preferred_source_locator: preferred.source_locator, preferred_identity_key: preferred.identity_key,
+    preferred_display_ref: preferred.display_ref, retained_for: 'provenance_only',
+    consumer_note: 'Retained for provenance only; the same source-qualified appointment is represented by the preferred current row. Ignore this row by default in active lookups. This does not change Scripture coordinates or activate held witnesses.' };
+}
+
+function canonicalizeOccurrences(inputRows, policy) {
+  // Bind every source/context/disclosure/order cell before any suppression. The
+  // reviewed output is accepted only for explicit idempotent replay; a new
+  // source table requires renewed review, not best-effort selector matching.
+  const fingerprint = value => createHash('sha256').update(JSON.stringify(value)).digest('hex');
+  const inputFingerprint = fingerprint(inputRows);
+  if (inputFingerprint === policy.projection_output_sha256) {
+    return { rows: inputRows.map(row => ({ ...row })), dispositions: [], sentinel_additions: 0 };
+  }
+  if (inputFingerprint !== policy.projection_input_sha256) {
+    throw new Error('Canonical occurrence input fingerprint drift');
+  }
+  for (const rule of policy.supersessions || []) {
+    for (const selector of [rule.lower, rule.preferred]) {
+      const matches = inputRows.filter(row => isCurrentReading(row) && sourceSelectorMatches(row, selector));
+      if (matches.length !== 1) throw new Error('Canonical occurrence selector must identify one authenticated current row');
+    }
+  }
+  let rows = inputRows.map(row => ({ ...row }));
+  const dispositions = [];
+  const preserveAlternate = (preferred, lower) => {
+    // Sunday disclosure has an authenticated one-envelope contract. Keep it
+    // untouched, and retain other witnesses in this separate explicit field.
+    const items = JSON.parse(preferred.alternate_source_disclosure || '[]');
+    const seen = new Set(items.map(item => JSON.stringify(item)));
+    for (const item of JSON.parse(lower.source_disclosure || '[]')) {
+      const key = JSON.stringify(item);
+      if (!seen.has(key)) { items.push(item); seen.add(key); }
+    }
+    preferred.alternate_source_disclosure = JSON.stringify(items);
+  };
+  const excludeContext = (index, preferred, context, reason) => {
+    const row = rows[index];
+    const rawKeys = String(row.calendar_keys || '').split(' || ');
+    if (row.source_family === 'katameros_cycle' && !rawKeys.includes(context)) return;
+    const remaining = rawKeys.filter(key => key !== context);
+    preserveAlternate(preferred, row);
+    dispositions.push({ identity_key: row.identity_key, source_locator: row.source_locator, context, reason, preferred_identity_key: preferred.identity_key });
+    if (row.source_family === 'katameros_cycle' && remaining.length && remaining.length < rawKeys.length) {
+      row.source_calendar_keys ||= row.calendar_keys;
+      row.calendar_keys = remaining.join(' || ');
+      row.source_day_titles ||= row.day_titles;
+      row.day_titles = '';
+      row.superseded_calendar_keys = [...new Set([...(row.superseded_calendar_keys || []), context])];
+    } else rows[index] = retainCanonicalSupersession(row, preferred, context, reason);
+  };
+  // Explicit complete-source-slot split/endpoint decisions, never overlap alone.
+  for (const rule of policy.supersessions || []) {
+    const lowerIndex = rows.findIndex(row => isCurrentReading(row) && sourceSelectorMatches(row, rule.lower));
+    const preferred = rows.find(row => isCurrentReading(row) && sourceSelectorMatches(row, rule.preferred));
+    if (lowerIndex < 0 || !preferred || !qualifiedCanonicalSource(preferred)) continue;
+    excludeContext(lowerIndex, preferred, rule.calendar_key, rule.reason);
+  }
+  // Week 99 is a real preparation boundary, not a recurring 99th Lent week.
+  // Week 49 is an unreachable SQLite duplicate; retain its raw context only.
+  const sentinelAdditions = [];
+  for (const row of rows) {
+    if (!isCurrentReading(row) || row.source_family !== 'katameros_cycle' || row.source_kind !== 'katameros_cycle') continue;
+    const keys = String(row.calendar_keys || '').split(' || ');
+    const retained = [];
+    for (const key of keys) {
+      if (key === policy.nonrecurring_sentinel) {
+        row.source_calendar_keys ||= row.calendar_keys;
+        row.nonrecurring_source_calendar_keys = [key];
+      } else if (policy.sentinel_rules?.[key]) {
+        const label = policy.sentinel_rules[key];
+        const clone = { ...row, source_occasion: row.occasion, source_calendar_keys: row.calendar_keys, occasion: label, calendar_keys: label, occasion_kind: 'specific' };
+        const locator = policy.sentinel_sources?.[[key, row.slot, row.canonical_mt_ref].join('|')];
+        if (!locator) throw new Error(`Missing source-qualified preparation sentinel: ${key} ${row.slot} ${row.display_ref}`);
+        clone.source_locator = locator;
+        clone.collapsed_row_count = '1';
+        clone.source_disclosure = JSON.stringify(JSON.parse(row.source_disclosure).map(item => ({ ...item, source_locator: locator })));
+        sentinelAdditions.push(clone);
+      } else retained.push(key);
+    }
+    if (retained.length !== keys.length) {
+      row.source_calendar_keys ||= row.calendar_keys;
+      if (retained.length) {
+        row.calendar_keys = retained.join(' || ');
+        row.source_day_titles ||= row.day_titles;
+        row.day_titles = '';
+      }
+      else {
+        const clone = sentinelAdditions[sentinelAdditions.length - 1];
+        Object.assign(row, retainCanonicalSupersession(row, clone || row, row.calendar_keys, 'source_sentinel_represented_as_named_preparation'));
+      }
+    }
+  }
+  rows.push(...sentinelAdditions);
+  // Apply display aliases only to supported CURRENT sources. Inactive originals
+  // and authenticated Sunday labels/envelopes remain byte-for-byte untouched.
+  for (const row of rows) {
+    if (!isCurrentReading(row) || !qualifiedCanonicalSource(row) || row.source_family === 'coptic_reader_verified_sunday_policy') continue;
+    const label = canonicalOccasion(row.occasion);
+    if (label !== row.occasion) { row.source_occasion ||= row.occasion; row.occasion = label; }
+  }
+  const groups = new Map();
+  for (const [index, row] of rows.entries()) {
+    if (!isCurrentReading(row) || !qualifiedCanonicalSource(row)) continue;
+    for (const context of canonicalContexts(row)) {
+      const key = [context.key, canonicalService(row), row.service_hour || '', row.slot_type || '', row.canonical_mt_ref || '', row.canonical_lxx_ref || '', row.reading_name || ''].join('|');
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push({ index, context });
+    }
+  }
+  const rank = row => row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture' ? -1 : priority(row);
+  for (const [key, members] of groups) {
+    if (members.length < 2) continue;
+    members.sort((a, b) => rank(rows[a.index]) - rank(rows[b.index]) || a.index - b.index);
+    const preferred = rows[members[0].index];
+    for (const member of members.slice(1)) {
+      const lower = rows[member.index];
+      if (!isCurrentReading(lower)) continue;
+      // A repeated source reading in two prophecy ordinals is not an alias.
+      if (lower.slot_type === 'prophecy' && lower.source_family === preferred.source_family && lower.slot_order !== preferred.slot_order) continue;
+      excludeContext(member.index, preferred, member.context.raw, 'exact_canonical_appointment_alias');
+    }
+  }
+  if (fingerprint(rows) !== policy.projection_output_sha256) {
+    throw new Error('Canonical occurrence output fingerprint drift');
+  }
+  return { rows, dispositions, sentinel_additions: sentinelAdditions.length };
+}
+
 function disambiguateWeekdaySpecificRows(rows) {
   const sundaySpecific = new Set();
   for (const row of rows) {
@@ -519,14 +702,26 @@ async function projectReverseIndex() {
 
   const disambiguated = disambiguateWeekdaySpecificRows(parsedRows);
   const projected = suppressLowerPriorityPassageVariants(disambiguated.rows, removalEffectiveVersionBaseline);
-  await writeFile(OCCASION_DEST, `${projected.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
+  const policy = JSON.parse(await readFile(path.join(REPO_ROOT, 'sources/canonical-occurrence-policy.json'), 'utf8'));
+  for (const [file, expected] of Object.entries(policy.source_fingerprints)) {
+    const actual = createHash('sha256').update(await readFile(path.join(REPO_ROOT, file))).digest('hex');
+    if (actual !== expected) throw new Error(`Canonical occurrence source fingerprint drift: ${file}`);
+  }
+  const canonical = canonicalizeOccurrences(projected.rows, policy);
+  await writeFile(OCCASION_DEST, `${canonical.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   return {
-    rows: projected.rows,
-    activeRows: projected.activeRows,
+    rows: canonical.rows,
+    activeRows: canonical.rows.filter(isCurrentReading),
     source_rows: parsedRows.length,
-    output_rows: projected.rows.length,
-    active_rows: projected.activeRows.length,
-    removed_rows_included: projected.suppressions.length,
+    output_rows: canonical.rows.length,
+    active_rows: canonical.rows.filter(row => !isProjectionRemovedRow(row)).length,
+    canonical_occurrence_projection: {
+      policy: 'sources/canonical-occurrence-policy.json',
+      disposition_count: canonical.dispositions.length,
+      sentinel_additions: canonical.sentinel_additions,
+      dispositions_by_reason: Object.fromEntries([...new Set(canonical.dispositions.map(item => item.reason))].map(reason => [reason, canonical.dispositions.filter(item => item.reason === reason).length])),
+    },
+    removed_rows_included: canonical.rows.filter(isProjectionRemovedRow).length,
     lower_priority_passage_variants_suppressed: projected.suppressions.length,
     lower_priority_passage_variants_retained_as_removed: projected.suppressions.length,
     removal_effective_version_baseline: {
@@ -603,7 +798,7 @@ function dailyRowFromReverse(row, dayName) {
     slot_type: row.slot_type || slotType(row.slot),
     slot_order: existingNumericOrder(row.slot_order),
     service_order: existingNumericOrder(row.service_order) ?? serviceOrder(serviceHour || row.service_section),
-    source_group_key: row.source_group_key || [row.source_kind || '', row.source_row_id || '', row.occasion || '', serviceHour, row.slot || ''].join('|'),
+    source_group_key: row.source_group_key || [row.source_kind || '', row.source_row_id || '', row.source_occasion || row.occasion || '', serviceHour, row.slot || ''].join('|'),
     current_status: row.current_status || '',
     active: row.active,
     status: row.status || '',
@@ -1146,7 +1341,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {

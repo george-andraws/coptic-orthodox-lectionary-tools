@@ -56,9 +56,9 @@ test('Jonah Fast has no current Vespers in the three materialized fast days', ()
 test('Coptic Reader source corrections are occasion-specific', () => {
   const cases = [
     ['Abib 7', 'Gospel', 'Mark 9:33-41'],
-    ['Amshir 2', 'Gospel', 'Mark 9:33-41'],
+    ['Meshir 2', 'Gospel', 'Mark 9:33-41'],
     ['Fast of Nineveh', 'Gospel', 'Matt 12:35-45'],
-    ['The first Sunday of Tout', 'Pauline Epistle', '1Tim 1:12-19'],
+    ['First Sunday of Tut', 'Pauline Epistle', '1Tim 1:12-19'],
   ];
   for (const [occasion, slot, expected] of cases) {
     assert.ok(current.some(r => r.occasion === occasion && r.slot === slot && r.display_ref === expected), `${occasion}/${slot}: missing ${expected}`);

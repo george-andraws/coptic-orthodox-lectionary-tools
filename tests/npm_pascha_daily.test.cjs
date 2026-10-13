@@ -50,9 +50,9 @@ test('partial structural daily inputs are completed and repeat materialization i
   existing.reading_order = 999;
   const daily = { '2026-04-08': [existing] };
   addMissingStructuralDailyRows(daily, 2026, reverse);
-  assert.equal(daily['2026-04-08'].length, 41);
-  assert.equal(new Set(daily['2026-04-08'].map(key)).size, 41);
-  assert.deepEqual(Array.from(daily['2026-04-08'], row => row.reading_order), Array.from({ length: 41 }, (_, index) => index + 1));
+  assert.equal(daily['2026-04-08'].length, 39);
+  assert.equal(new Set(daily['2026-04-08'].map(key)).size, 39);
+  assert.deepEqual(Array.from(daily['2026-04-08'], row => row.reading_order), Array.from({ length: 39 }, (_, index) => index + 1));
   const before = JSON.stringify(daily);
   addMissingStructuralDailyRows(daily, 2026, reverse);
   assert.equal(JSON.stringify(daily), before);
@@ -74,7 +74,8 @@ test('Annunciation collision replaces rather than merges the ordinary feast rows
 test('Wednesday alias dedupe prefers Reader regardless of input order and never merges Eve', () => {
   const { dailyRowFromReverse, dedupeDailyRows } = helpers();
   const reader = dailyRowFromReverse(readerWednesday.find(row => row.display_ref === 'Prov 1:11-35'), 'Wednesday');
-  const curated = dailyRowFromReverse(reverse.find(row => row.occasion === 'Wednesday' && row.display_ref === 'Prov 1:11-35'), 'Wednesday');
+  const rawReverse = fs.readFileSync(path.join(root, 'out/design/reverse_lectionary_index.jsonl'), 'utf8').trim().split('\n').map(JSON.parse);
+  const curated = dailyRowFromReverse(rawReverse.find(row => row.occasion === 'Wednesday' && row.display_ref === 'Prov 1:11-35'), 'Wednesday');
   const eve = { ...reader, occasion: 'Wednesday Eve' };
   for (const input of [[curated, reader, eve], [reader, curated, eve]]) {
     const rows = dedupeDailyRows(input);

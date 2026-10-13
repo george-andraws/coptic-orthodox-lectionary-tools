@@ -92,15 +92,15 @@ test('reverse slot order is typed and retains named non-scripture readings', () 
 test('remaining Coptic Reader corrections preserve exact context and Psalm companions', () => {
   const current = reverse.filter(api.isCurrentReading)
   const expected = [
-    ['fourth Sunday of Christmas Fast','Catholic Epistle','1Jn 2:24-3:3'],
+    ['Fourth Sunday of Kiyahk','Catholic Epistle','1Jn 2:24-3:3'],
     ['Wednesday of the fourth week of Great Lent','Pauline Epistle','Eph 4:17-32'],
     ['Mesra 26','Pauline Epistle','Rom 8:14-27'],
     ['Mesra 5','Gospel','Matt 4:23-5:16'],
-    ['Kiahk 3','Gospel','Lk 10:38-42'],
+    ['Kiyahk 3','Gospel','Lk 10:38-42'],
     ["Mesra 16 (St Mary's Feast)",'Gospel','Lk 10:38-42'],
-    ['Toba 21','Gospel','Lk 10:38-42'],
-    ['The first Sunday of Tout','Psalm','Ps 31:23'],
-    ['The first Sunday of Tout','Psalm','Ps 31:19'],
+    ['Tubah 21','Gospel','Lk 10:38-42'],
+    ['First Sunday of Tut','Psalm','Ps 31:23'],
+    ['First Sunday of Tut','Psalm','Ps 31:19'],
     ['Sunday of the fourth week of Great Lent','Psalm','Ps 31:24'],
     ['Sunday of the fourth week of Great Lent','Psalm','Ps 31:23'],
     ['Sunday of the fifth week of Great Lent','Psalm','Ps 102:1-2'],

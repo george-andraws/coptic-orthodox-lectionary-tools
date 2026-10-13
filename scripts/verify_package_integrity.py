@@ -427,9 +427,19 @@ def passage_overlap_or_shorthand_variant(left: dict[str, Any], right: dict[str, 
 
 
 def detect_context_passage_conflicts(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    # Held Reader Psalm bodies are authenticated appointments, not comparable
+    # MT/LXX coordinates. Never rank or suppress them from numeric overlap.
+    held = [row for row in rows if row.get('source_family') == 'coptic_reader_verified_sunday_policy'
+            and 'existing_numeric_source_coordinates_alignment_held' in str(row.get('spans_json', ''))]
+    if held:
+        if str(ROOT) not in sys.path:
+            sys.path.insert(0, str(ROOT))
+        import sunday_consumer_contracts as sunday
+        sunday.validate_rows(held, transport_mode='reverse')
+    held_ids = {id(row) for row in held}
     groups: dict[tuple[str, str, str, str], list[tuple[int, dict[str, Any]]]] = {}
     for row_number, row in enumerate(rows, 1):
-        if is_removed_projection_row(row):
+        if id(row) in held_ids or is_removed_projection_row(row):
             continue
         if str(row.get("removed_marker") or "").strip():
             continue

@@ -105137,7 +105137,7 @@
     },
     {
       "reading_order": 13,
-      "occasion": "Wednesday",
+      "occasion": "Wednesday of Holy Pascha",
       "service_section": "Third Hour",
       "service_hour": "Third Hour",
       "slot": "Psalm",
@@ -105340,7 +105340,7 @@
     },
     {
       "reading_order": 20,
-      "occasion": "Wednesday",
+      "occasion": "Wednesday of Holy Pascha",
       "service_section": "Sixth Hour",
       "service_hour": "Sixth Hour",
       "slot": "Psalm",
@@ -105660,35 +105660,6 @@
     },
     {
       "reading_order": 31,
-      "occasion": "Wednesday",
-      "service_section": "Ninth Hour",
-      "service_hour": "Ninth Hour",
-      "slot": "Psalm",
-      "display_ref": "Ps 41:5-6 (LXX Ps 40:5-6)",
-      "identity_key": "rid_dacc0ef488f6aaeb8c7d",
-      "reading_type": "scripture",
-      "slot_type": "psalm",
-      "slot_order": 2,
-      "service_order": 40,
-      "source_group_key": "pascha_day_hour||Wednesday|Ninth Hour|Psalm",
-      "current_status": "pending_psalm_equivalence_unresolved",
-      "status": "",
-      "superseded_by_ref": "",
-      "superseded_reason": "",
-      "removed_marker": "",
-      "canonical_mt_ref": "Ps 41:5-6",
-      "canonical_lxx_ref": "Ps 40:5-6",
-      "spans_json": "[{\"book\": \"Ps\", \"canonical_lxx_ref\": \"Ps 40:5-6\", \"canonical_mt_ref\": \"Ps 41:5-6\", \"chapter_end\": 41, \"chapter_start\": 41, \"confidence\": \"medium\", \"source_convention\": \"mt_nkjv\", \"source_ref\": \"Ps 41:5-6\", \"validation_basis\": \"chapter_mapped_verse_offset_not_guessed\", \"verse_end\": 6, \"verse_start\": 5}]",
-      "source_family": "holy_pascha_curated_day_hour",
-      "source_kind": "pascha_day_hour",
-      "source_locator": "out/data/pascha_day_hour_index.csv:row 75; source_ref=Ps 41:5-6; Matt 26:3-16",
-      "source_disclosure": "[{\"source_family\":\"holy_pascha_curated_day_hour\",\"source_kind\":\"pascha_day_hour\",\"source_edition\":\"local repo snapshot of pierresaid Katameros API SQLite database\",\"source_title\":\"pierresaid Katameros API SQLite source bundled in repo\",\"source_locator\":\"out/data/pascha_day_hour_index.csv:row 75; source_ref=Ps 41:5-6; Matt 26:3-16\"}]",
-      "source_disclosure_count": "1",
-      "hour_theme": "the saving death of Christ and repentance",
-      "structural_day": "Wednesday"
-    },
-    {
-      "reading_order": 32,
       "occasion": "Wednesday of Holy Pascha",
       "service_section": "Ninth Hour",
       "service_hour": "Ninth Hour",
@@ -105717,7 +105688,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 33,
+      "reading_order": 32,
       "occasion": "Wednesday of Holy Pascha",
       "service_section": "Ninth Hour",
       "service_hour": "Ninth Hour",
@@ -105746,7 +105717,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 34,
+      "reading_order": 33,
       "occasion": "Wednesday Eve",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
@@ -105775,7 +105746,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 35,
+      "reading_order": 34,
       "occasion": "Wednesday Eve",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
@@ -105804,7 +105775,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 36,
+      "reading_order": 35,
       "occasion": "Wednesday Eve",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
@@ -105833,7 +105804,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 37,
+      "reading_order": 36,
       "occasion": "Wednesday of Holy Pascha",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
@@ -105862,7 +105833,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 38,
+      "reading_order": 37,
       "occasion": "Wednesday of Holy Pascha",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
@@ -105891,8 +105862,8 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 39,
-      "occasion": "Wednesday",
+      "reading_order": 38,
+      "occasion": "Wednesday of Holy Pascha",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
       "slot": "Psalm",
@@ -105920,7 +105891,7 @@
       "structural_day": "Wednesday"
     },
     {
-      "reading_order": 40,
+      "reading_order": 39,
       "occasion": "Wednesday of Holy Pascha",
       "service_section": "Eleventh Hour",
       "service_hour": "Eleventh Hour",
@@ -105944,35 +105915,6 @@
       "source_kind": "coptic_reader_fixture",
       "source_locator": "tests/fixtures/pascha_wednesday_day_coptic_reader.json:row 25; source_ref=Psalm 68:17",
       "source_disclosure": "[{\"source_family\":\"coptic_reader\",\"source_kind\":\"coptic_reader_fixture\",\"source_edition\":\"manual Coptic Reader fixture supplied by George, 2026-06-15\",\"source_title\":\"Coptic Reader app, Pascha Wednesday Day fixture supplied by George\",\"source_locator\":\"tests/fixtures/pascha_wednesday_day_coptic_reader.json:row 25; source_ref=Psalm 68:17\"}]",
-      "source_disclosure_count": "1",
-      "hour_theme": "the late call to repentance and mercy",
-      "structural_day": "Wednesday"
-    },
-    {
-      "reading_order": 41,
-      "occasion": "Wednesday",
-      "service_section": "Eleventh Hour",
-      "service_hour": "Eleventh Hour",
-      "slot": "Psalm",
-      "display_ref": "Ps 69:17 (LXX Ps 68:17)",
-      "identity_key": "rid_f7dce566f98596f724e3",
-      "reading_type": "scripture",
-      "slot_type": "psalm",
-      "slot_order": 3,
-      "service_order": 50,
-      "source_group_key": "pascha_day_hour||Wednesday|Eleventh Hour|Psalm",
-      "current_status": "pending_psalm_equivalence_unresolved",
-      "status": "",
-      "superseded_by_ref": "",
-      "superseded_reason": "",
-      "removed_marker": "",
-      "canonical_mt_ref": "Ps 69:17",
-      "canonical_lxx_ref": "Ps 68:17",
-      "spans_json": "[{\"book\": \"Ps\", \"canonical_lxx_ref\": \"Ps 68:17\", \"canonical_mt_ref\": \"Ps 69:17\", \"chapter_end\": 69, \"chapter_start\": 69, \"confidence\": \"medium\", \"source_convention\": \"mt_nkjv\", \"source_ref\": \"Ps 69:17\", \"validation_basis\": \"chapter_mapped_verse_offset_not_guessed\", \"verse_end\": 17, \"verse_start\": 17}]",
-      "source_family": "holy_pascha_curated_day_hour",
-      "source_kind": "pascha_day_hour",
-      "source_locator": "out/data/pascha_day_hour_index.csv:row 77; source_ref=Ps 6:2-3; Ps 69:17; John 12:27-36",
-      "source_disclosure": "[{\"source_family\":\"holy_pascha_curated_day_hour\",\"source_kind\":\"pascha_day_hour\",\"source_edition\":\"local repo snapshot of pierresaid Katameros API SQLite database\",\"source_title\":\"pierresaid Katameros API SQLite source bundled in repo\",\"source_locator\":\"out/data/pascha_day_hour_index.csv:row 77; source_ref=Ps 6:2-3; Ps 69:17; John 12:27-36\"}]",
       "source_disclosure_count": "1",
       "hour_theme": "the late call to repentance and mercy",
       "structural_day": "Wednesday"
