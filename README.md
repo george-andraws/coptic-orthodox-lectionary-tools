@@ -4,7 +4,7 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**Version 1.3.0 is published on npm.** It preserves the existing CommonJS reading APIs and 2026-2028 daily files, and adds the audited Coptic Reader single-year 1743 catalog: 366 Coptic days, 868 titles, exact public field allowlists and one pure calendar converter.
+**Version 1.3.2 is published on npm.** It restores Wednesday Holy Pascha daytime readings and Hosanna Sunday hours in the 2026-2028 daily files, with scoped source qualification and alias deduplication. The existing CommonJS reading APIs, reverse index, calendar runtime and audited Coptic Reader single-year 1743 catalog remain unchanged: 366 Coptic days, 868 titles, exact public field allowlists and one pure calendar converter. See [the daily correction scope and retained limitations](docs/PASCHA_DAILY_RELEASE.md).
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
