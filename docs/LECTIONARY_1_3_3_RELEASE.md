@@ -43,3 +43,15 @@ The package is published as `@andraws/lectionary-data@1.3.3`. npm registry integ
 - Final tarball and registry consumer: production build, TypeScript, and 1,724 unit tests passed. The exact final tarball passed 48 Chromium desktop/mobile browser cases; repeat those on the live production domain after deployment.
 
 No unrelated Psalm coordinate remediation or Nineveh restoration is included. These existing findings remain separate from the canonical-occasion repair.
+
+## Production acceptance
+
+The site release `e107c304ef3be70d4037c204154b0cb39def9c59` is deployed on `https://orthodoxbiblestudy.com`. Cloudflare deployment `36c69d37-6f9c-484b-86ae-dc02db555003` serves Worker version `ea527ce8-f5c2-4466-af39-c61dc890e091` at 100% traffic. The preceding rollback version is `3452889c-b526-403d-ade4-7c181da15d8e`.
+
+- Exact-head unit workflow: https://github.com/george-andraws/coptic-corpus/actions/runs/38466010149, success, 1,724 tests passed.
+- Exact-head build/deploy workflow: https://github.com/george-andraws/coptic-corpus/actions/runs/38466010156, success. Logs confirm 1,724 tests, TypeScript, lectionary validation/provenance, complete build, publication preflight, preview checks and 100% production promotion.
+- Custom-domain browser acceptance: 48 desktop/mobile Chromium cases passed, zero failures, skips or flaky cases. The same cases cover the original defects and surrounding daily/Synaxarium behavior.
+- Plain production search-index JSON exactly matches the tested full 6,217-row output. The build manifest identifies package 1.3.3, source commit `c59f71c581b6d228767df916a000f9649da27efd`, and the verified package input hashes. All three corrected Wednesday per-date JSON responses match the tested complete 39-row arrays.
+- George's canonical site checkout and installed package are updated; unrelated changes published during this run were incorporated, not overwritten. Real-phone manual acceptance is not claimed.
+
+Published tarball integrity: `sha512-vZhY1X0tUWGIMLeDVESKC6hWpd9DKE51UcUnPot27DjT4d2k7EDzS71JFP1jZDZ1hatScmtfU8e+nJWC8SGSFg==`.
