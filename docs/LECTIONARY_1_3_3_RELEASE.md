@@ -26,19 +26,20 @@ Only three daily dates change: 2026-04-08, 2027-04-28, and 2028-04-12, each from
 
 Source fingerprints alone cannot authenticate projected row metadata. The canonicalizer binds the **complete ordered input**, including locator, disclosure, spans, status, context, and order, to the reviewed 1.3.2 source projection. Every initial selector must identify exactly one current row. The emitted array must match the independently reviewed complete output fingerprint before publication. Exact reviewed output is allowed only as an idempotent replay. Any source/policy evolution requires renewed review; do not automatically refresh fingerprints to make a failed build pass.
 
-`tests/fixtures/canonical-occurrences-input-1.3.2.jsonl.gz` preserves the authenticated pre-canonical projection outside npm files. Tests exercise the first transformation separately from replay. The no-op canonicalizer mutation fails seven of eight tests. Forged preferred locator/disclosure/spans/order, moved context, wrong kind, inactive state, missing preferred rows, and extra ordinal variants are rejected before suppression.
+`tests/fixtures/canonical-occurrences-input-1.3.2.jsonl.gz` preserves the authenticated pre-canonical projection outside npm files. Tests exercise the first transformation separately from replay. The no-op canonicalizer mutation fails eight of nine tests. Forged preferred locator/disclosure/spans/order, moved context, wrong kind, inactive state, missing preferred rows, and extra ordinal variants are rejected before suppression.
 
 ## Verification status
 
-This document records the candidate scope. Publication and live-site acceptance must be recorded separately after exact-tarball and registry verification.
+The package is published as `@andraws/lectionary-data@1.3.3`. npm registry integrity matches the tested tarball, and a fresh registry installation matched all 11 tar members byte-for-byte. Live-site deployment and browser acceptance are separate states.
 
+- Final guarded full Python discovery: 332 tests passed.
 - Initial Python baseline: 328 tests passed.
 - Full candidate Python discovery before the final fingerprint guard: 332 tests passed.
-- Focused guarded canonicalization plus builder-preservation tests: 9 passed.
-- Full guarded Node suite: 44 passed, 2 pre-existing failures reproduced against exact published 1.3.2. Neither assertion was weakened or skipped:
+- Focused canonicalization regressions: 9 passed; the builder-preservation gate also passed.
+- Full guarded Node suite: 45 passed, 2 pre-existing failures reproduced against exact published 1.3.2. Neither assertion was weakened or skipped:
   - `remaining authoritative Psalm readings retain text-aligned MT coordinates and source order`: February 18 fragment order.
   - `remaining Coptic Reader corrections preserve exact context and Psalm companions`: absent retained Nineveh no-Vespers marker.
 - Candidate package integrity, source manifest, complete-calendar, design/query validation, and cached source comparison passed before final clean-provenance rebuild.
-- Candidate consumer: production build, TypeScript, 1,722 unit tests, and 48 Chromium desktop/mobile browser cases passed. Repeat affected gates with the final registry artifact and latest site head.
+- Final tarball and registry consumer: production build, TypeScript, and 1,724 unit tests passed. The exact final tarball passed 48 Chromium desktop/mobile browser cases; repeat those on the live production domain after deployment.
 
 No unrelated Psalm coordinate remediation or Nineveh restoration is included. These existing findings remain separate from the canonical-occasion repair.
