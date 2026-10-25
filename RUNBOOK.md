@@ -31,7 +31,9 @@ Synaxarium is separate. See [Synaxarium](#synaxarium).
 
 ## Current implementation and preserved snapshots
 
-The implementation/release checkout is `synaxarium-package-release`; `coptic-lectionary-research` is the older research/archive checkout. Resolve the actual repository root and Git state before running commands. Isolate changes when a checkout contains unrelated work.
+The reconciled implementation/release checkout is `coptic-lectionary-research`, on `main`. `synaxarium-package-release` is a separate historical worktree, not the current release authority. Resolve the actual repository root and Git state before running commands. Isolate changes when a checkout contains unrelated work.
+
+The current published runtime is `@andraws/lectionary-data@1.3.5`; see [the artifact/source reconciliation](docs/LECTIONARY_1_3_5_RECONCILIATION.md). Its package-directory files preserve the immutable registry artifact, including the original dirty-source provenance and stale packed README. Do not overwrite that metadata with a newer commit or generation timestamp to make the historical build look clean. Rebuild into disposable storage for comparison; a newly generated `meta.json` legitimately differs in execution provenance. No new npm version is needed merely to record this source history.
 
 The unqualified `out/data/copticchurch_passage_index_2020_2035.csv/.jsonl` files are **preserved historical snapshots**, not freshly reconciled exports. Current query helpers, crosswalks and release preservation checks use `copticchurch_passage_index_current_2020_2035.csv/.jsonl` and the corresponding current-date sidecars. Do not silently fall back to historical snapshots when verifying current behavior. Historical Today/handoff/prose snapshots likewise do not prove current runtime completeness.
 
@@ -279,7 +281,13 @@ Generated copies:
 - `out/scripts/query_lectionary.py`
 - `out/scripts/passage_normalization.py`
 
-Do not edit generated copies directly. Edit the tracked source, then rebuild.
+Do not maintain generated copies independently. Edit the tracked source, then use the existing builder's copy step. For a helper-only refresh without rebuilding readings or publishing to the vault, run:
+
+```bash
+uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate python -c 'from build_lectionary_reference import copy_support_modules; copy_support_modules()'
+```
+
+This writes the helper copies only. Verify the function still has that bounded scope before using it after future builder changes.
 
 Check drift with:
 
@@ -290,7 +298,9 @@ cmp -s passage_normalization.py out/scripts/passage_normalization.py
 
 ## Synaxarium
 
-`build_synaxarium_index.py` is intentionally separate from the main lectionary package.
+The published titles catalog is maintained by `scripts/build_synaxarium.py` and validated by `scripts/validate_synaxarium.py`. It is already included in the npm runtime. See [the public catalog contract](docs/SYNAXARIUM_RELEASE.md).
+
+`build_synaxarium_index.py` is intentionally separate: it builds a legacy research source map, not the public catalog.
 
 Run it only when you want the St-Takla Synaxarium source map:
 
@@ -333,7 +343,7 @@ PYTHONDONTWRITEBYTECODE=1 python3 verify_lectionary_queries.py
 
 ## Last known good validation snapshot
 
-From the latest completed pass:
+Historical research-layer snapshot, not current 1.3.5 acceptance totals. Use the reconciliation record for fresh runtime and validation results:
 
 - `source_ref_repair_report.csv`: 19 rows
 - `copticchurch_date_readings_2020_2035.csv`: 50,382 rows

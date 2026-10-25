@@ -4,11 +4,14 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**Version 1.3.2 is published on npm.** It restores Wednesday Holy Pascha daytime readings and Hosanna Sunday hours in the 2026-2028 daily files, with scoped source qualification and alias deduplication. The existing CommonJS reading APIs, reverse index, calendar runtime and audited Coptic Reader single-year 1743 catalog remain unchanged: 366 Coptic days, 868 titles, exact public field allowlists and one pure calendar converter. See [the daily correction scope and retained limitations](docs/PASCHA_DAILY_RELEASE.md).
+**Version 1.3.5 is published on npm.** The October 25 reconciliation authenticates all 11 registry tar members against the checked-in runtime snapshot and reproduces its reading data from the reconciled builder inputs. The release includes the earlier canonical-appointment corrections plus bounded Bright Saturday, Lamentations and Joel changes. The CommonJS APIs, calendar runtime and audited Coptic Reader single-year 1743 Synaxarium catalog are preserved: 366 Coptic days, 868 titles, exact public field allowlists and one pure calendar converter.
+
+Read [1.3.5 artifact/source reconciliation and retained limitations](docs/LECTIONARY_1_3_5_RECONCILIATION.md) for exact artifact identity, build provenance, verification results and open findings. This is a retrospective source reconciliation, not a new npm publication or website deployment. The package-directory README is deliberately preserved as shipped, including its stale 1.3.0 version prose; this repository README and the reconciliation record supersede that release-status prose.
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
 - [Broader lectionary validation plan](docs/LECTIONARY_VALIDATION_PLAN.md)
+- [Previous canonical-appointment release](docs/LECTIONARY_1_3_3_RELEASE.md)
 
 The consuming site is `george-andraws/coptic-corpus`, built locally from `/Users/ga/code/coptic-corpus/stgeorge-lessons`. It pins the published version exactly and displays Synaxarium after Praxis using one shared date service. This does not create a saint-to-reading relationship.
 

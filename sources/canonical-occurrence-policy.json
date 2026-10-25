@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "projection_input_sha256": "693afa1d6cfa0484a03e202148e896adea33f84d1e38d448466f4333bddb26d9",
-  "projection_output_sha256": "9e438d08ede32f5d92cd3724944571910b81ce38e6a60641e04967902e05144a",
-  "projection_authentication": "Complete ordered source-envelope projection authenticated against published 1.3.2 inputs and independently reviewed 1.3.3 output; source or policy evolution requires renewed review, never automatic fingerprint refresh.",
+  "projection_input_sha256": "05fe6f0e2a36d90904c3b8be7c81417937b04a1357528b136a8fd064f8717ca9",
+  "projection_output_sha256": "d2b868f5cd59343b8255b9a9dadeb29be52e622daa7b61ca7a27bc984097596f",
+  "projection_authentication": "1.3.5 input reviewed for Lamentations Reader resolution (Lam 3 confirmed, Jonah 1:10-2:8 not current, Ottawa 1:10-2:7 retained), Hosanna Sunday daytime Ninth Hour Lam 1:1-4, Jeremiah praise title, and Joel LXX seams 2:28-32=3:1-5 and 3:9-21=4:9-21. Printed English refs stay in canonical_mt_ref. Prior 1.3.4 output review does not cover this input. Source or policy evolution requires renewed review, never automatic fingerprint refresh.",
   "sentinel_sources": {
     "week 99 day_of_week 6|vespers_psalm|Ps 17:1-2": "sources/katameros-api/Core/KatamerosDatabase.db:row 5653; source_ref=Ps 17:1-2",
     "week 99 day_of_week 6|vespers_gospel|Lk 17:3-6": "sources/katameros-api/Core/KatamerosDatabase.db:row 5654; source_ref=Lk 17:3-6",

@@ -478,6 +478,13 @@ def removed_marker_for(row: dict, ident: dict) -> str:
         target = identity_for(superseded_by_ref, row.get("source_kind", ""))
         return f"superseded by {target.get('identity_key', '')}"
     if row.get("day_title") != "Wednesday" or row.get("service_hour") not in {"First Hour", "Third Hour", "Sixth Hour", "Ninth Hour", "Eleventh Hour"}:
+        if (
+            row.get("day_title") == "Good Friday"
+            and row.get("service_hour") == "Twelfth Hour"
+            and row.get("source_kind") == "pascha_day_hour"
+            and canonical_ref(ident.get("canonical_mt_ref") or ident.get("source_label") or "") == "Jonah 1:10-2:8"
+        ):
+            return "edition_specific_not_current_reader_practice"
         return ""
     if row.get("source_kind") not in {"pascha_day_hour", "pascha_source_text"}:
         return ""
@@ -573,6 +580,41 @@ def norm_space(value: str) -> str:
 
 KNOWN_NON_PSALM_EQUIVALENT_SPANS = {
     "Prov 4:4-5:4": ("Prov 4:4-27,5:1-4", "equivalent_continuous_span_from_source_review"),
+}
+
+# Printed English/NKJV stays in canonical_mt_ref. These seams are the only
+# Joel appointments whose Brenton and printed-Hebrew chapters differ from it.
+JOEL_ENGLISH_TO_LXX = {
+    "Joel 2:28-32": "Joel 3:1-5",
+    "Joel 3:9-21": "Joel 4:9-21",
+}
+JOEL_HEBREW_CHAPTER_NOTE = (
+    "Printed English/NKJV coordinate kept in canonical_mt_ref and the display reference. "
+    "Printed Hebrew Joel has four chapters; this seam uses the same chapter break as Brenton. "
+    "canonical_mt_ref is the package's modern-English primary, not a claim that Hebrew Joel has three chapters."
+)
+GOOD_FRIDAY_TWELFTH_READER_NOTE = (
+    "Qualified Coptic Reader, Special / Pascha / Friday / 12th Hour, selected Great Friday, "
+    "Parmoute 2, 1742, 10 April 2026. Retained capture "
+    "lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--12th-hour.txt "
+    "sha256 9a6bd0b11b67fa6d3cfbe10a99b84a085796b8b3e886ddec4d191ef02dbe2e0e. "
+    "Heading Lamentations 3:1-66. The complete hour contains no Jonah reading."
+)
+HOSANNA_NINTH_READER_NOTE = (
+    "Qualified Coptic Reader, Special / Pascha / Sunday / Sunday Day / 9th Hour, "
+    "selected Hosanna Sunday, Paremhotep 27, 1742, 5 April 2026. Retained capture "
+    "lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/"
+    "569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--9th_Hour.txt "
+    "sha256 ea7e186ff09fe3ab46ee4dc16aa7ba6e4a740060d714bec78aaf30ea49bebd74. "
+    "This is the daytime Ninth Hour, not Monday Eve and not the General Funeral Prayer."
+)
+HOSANNA_READER_SOURCE = (
+    "lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/"
+    "569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--9th_Hour.txt"
+)
+LENT_CYCLE_PROPHECY_BY_TITLE = {
+    "Wednesday of the first week of Great Lent": ("week 1 day_of_week 3", "Joel 2:12-27"),
+    "Wednesday of the fifth week of Great Lent": ("week 5 day_of_week 3", "Joel 3:9-21"),
 }
 
 
@@ -928,6 +970,11 @@ def identity_for(passage: str, source_kind: str = "", source_contract: dict | No
     if parsed and parsed.book_abbrev == "Ps":
         canonical_lxx, note, confidence = psalm_lxx_ref(canonical_mt)
         convention = "mt_nkjv"
+    elif canonical_mt in JOEL_ENGLISH_TO_LXX:
+        canonical_lxx = JOEL_ENGLISH_TO_LXX[canonical_mt]
+        note = JOEL_HEBREW_CHAPTER_NOTE
+        confidence = "high"
+        convention = "modern_english_reference"
     if source_kind == "coptic_reader_fixture":
         convention = "lxx_liturgical_or_fixture_label"
         if parsed and parsed.book_abbrev == "Ps":
@@ -1055,6 +1102,8 @@ def source_key_for(row: dict) -> str:
         return "st_mary_ottawa_pascha"
     if sk == "pascha_day_hour":
         return "katameros_api_sqlite"
+    if sk == "coptic_reader_qualified_pascha_hour":
+        return "coptic_reader_hosanna_sunday_ninth_hour"
     return sk or "unknown"
 
 
@@ -1095,6 +1144,15 @@ def source_registry_for_key(source_key: str) -> dict:
 
 SOURCE_REGISTRY.append(source_registry_for_key('coptic_reader_sunday_policy'))
 SOURCE_REGISTRY_BY_KEY['coptic_reader_sunday_policy'] = SOURCE_REGISTRY[-1]
+SOURCE_REGISTRY.append({
+    'source_key': 'coptic_reader_hosanna_sunday_ninth_hour',
+    'title': 'Coptic Reader: Hosanna Sunday daytime Ninth Hour',
+    'url': 'https://copticreader.org/app/',
+    'edition': 'Saved primary capture; selected 2026-04-05; Sunday Day, not Monday Eve',
+    'authority_tier': 'current_authority',
+    'default_locator': HOSANNA_READER_SOURCE,
+})
+SOURCE_REGISTRY_BY_KEY['coptic_reader_hosanna_sunday_ninth_hour'] = SOURCE_REGISTRY[-1]
 
 
 def source_locator_for(row: dict, registry_entry: dict) -> str:
@@ -1129,6 +1187,114 @@ def fixture_current_keys(fixture_rows: list[dict]) -> set[tuple[str, str, str]]:
     return keys
 
 
+def qualified_reader_pascha_resolution(row: dict, ref: str) -> tuple[str, str] | None:
+    day = row.get("day_title") or ""
+    hour = row.get("service_hour") or row.get("service_section") or ""
+    kind = row.get("source_kind") or ""
+    if day == "Good Friday" and hour == "Twelfth Hour" and kind == "pascha_day_hour":
+        if ref == "Lam 3:1-66":
+            return "current_confirmed_coptic_reader", GOOD_FRIDAY_TWELFTH_READER_NOTE
+        if ref == "Jonah 1:10-2:8":
+            return (
+                "historical_candidate_removed",
+                "Katameros API prints Jonah 1:10-2:8. Ottawa 2018 prints Jonah 1:10-2:7. "
+                + GOOD_FRIDAY_TWELFTH_READER_NOTE
+                + " Not current Reader practice. Endpoint 2:8 is the API edition, not a correction of Ottawa's 2:7.",
+            )
+    if kind == "coptic_reader_qualified_pascha_hour" and day == "Hosanna Sunday" and hour == "Ninth Hour" and ref == "Lam 1:1-4":
+        if row.get("liturgical_place") not in {"", "Hosanna Sunday"} or "Monday Eve" in (row.get("calendar_key") or ""):
+            raise AssertionError("Hosanna Sunday Reader prophecy must not be attached to Monday Eve")
+        return "current_confirmed_coptic_reader", HOSANNA_NINTH_READER_NOTE
+    return None
+
+
+def hosanna_sunday_reader_prophecy_rows(rows: list[dict]) -> list[dict]:
+    templates = [
+        row for row in rows
+        if row.get("day_title") == "Hosanna Sunday"
+        and row.get("service_hour") == "Ninth Hour"
+        and row.get("source_kind") == "pascha_day_hour"
+        and row.get("reading_slot") == "Gospel"
+        and not row.get("gregorian_date")
+    ]
+    if len(templates) != 1:
+        raise AssertionError(f"Expected one undated Hosanna Sunday Ninth Hour Gospel template, found {len(templates)}")
+    template = templates[0]
+    if template.get("liturgical_place") != "Hosanna Sunday":
+        raise AssertionError("Hosanna template is not Sunday Day")
+    extra = dict(template)
+    extra.update({
+        "passage": "Lam 1:1-4",
+        "source_ref": "Lamentations 1:1-4",
+        "raw_ref": "Lamentations 1:1-4",
+        "normalized_ref": "Lam 1:1-4",
+        "normalized_segment": "Lam 1:1-4",
+        "reading_slot": "OT1",
+        "reading_type": "Prophecy",
+        "source_kind": "coptic_reader_qualified_pascha_hour",
+        "source_family": "coptic_reader_qualified_pascha_hour",
+        "source_file": HOSANNA_READER_SOURCE,
+        "source_row_id": "hosanna-sunday-day-ninth-hour-lam-1",
+        "source_order": 1,
+        "source_token_order": 1,
+        "url": "https://copticreader.org/app/",
+        "provenance": HOSANNA_NINTH_READER_NOTE,
+        "liturgical_place": "Hosanna Sunday",
+        "calendar_key": "Hosanna Sunday | Ninth Hour",
+        "day_title": "Hosanna Sunday",
+        "service_day": "Hosanna Sunday",
+        "gregorian_date": "",
+    })
+    return [extra]
+
+
+def project_katameros_lent_prophecies(by_year: dict, presentation_rows: list[dict]) -> None:
+    cycle = {
+        (row.get("calendar_key"), row.get("canonical_mt_ref") or row.get("source_label") or row.get("passage") or row.get("display_ref")): row
+        for row in presentation_rows
+        if row.get("source_kind") == "katameros_cycle"
+    }
+    for days in by_year.values():
+        for date_value, readings in days.items():
+            if not readings or any("annunciation" in str(row.get("occasion") or "").casefold() for row in readings):
+                continue
+            title = readings[0].get("occasion") or ""
+            spec = LENT_CYCLE_PROPHECY_BY_TITLE.get(title)
+            if not spec:
+                continue
+            calendar_key, ref = spec
+            if any(ref in str(row.get("display_ref") or "") for row in readings):
+                continue
+            source = cycle.get((calendar_key, ref))
+            if source is None:
+                raise AssertionError(f"Missing Katameros prophecy {ref} for {calendar_key}")
+            ident = identity_for(ref, "katameros_cycle")
+            daily = {field: source.get(field, "") for field in DAILY_READING_FIELDS}
+            daily.update({
+                "occasion": title,
+                "service_section": "Matins",
+                "service_hour": "",
+                "slot": "prophecy",
+                "display_ref": ident["display_ref"],
+                "identity_key": ident["identity_key"],
+                "canonical_mt_ref": ident["canonical_mt_ref"],
+                "canonical_lxx_ref": ident["canonical_lxx_ref"],
+                "spans_json": ident["spans_json"],
+                "slot_type": "prophecy",
+                "slot_order": 1,
+                "current_status": "current_public_or_local_reference",
+                "source_kind": "katameros_cycle",
+                "source_family": source.get("source_family") or "katameros_cycle",
+                "source_file": source.get("source_file", ""),
+                "source_row_id": source.get("source_row_id", ""),
+                "source_locator": source.get("source_locator", ""),
+                "reading_name": "",
+                "reading_type": "scripture",
+            })
+            index = next((i for i, row in enumerate(readings) if row.get("service_section") == "Matins"), 0)
+            readings.insert(index, daily)
+
+
 def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str, str]]) -> tuple[str, str]:
     if source_contracts.is_candidate(row):
         return 'unknown', 'Reviewed normalization metadata only; consumer eligibility and runtime activation remain false.'
@@ -1158,6 +1324,9 @@ def status_for(row: dict, ident: dict, current_fixture_keys: set[tuple[str, str,
         return "historical_candidate_removed", "Present in older/local Pascha data but absent from the Coptic Reader Wednesday Day fixture."
     if source_kind == "pascha_source_text":
         return "historical_witness", "Printed-source witness retained for historical comparison."
+    reader_resolution = qualified_reader_pascha_resolution(row, ref)
+    if reader_resolution:
+        return reader_resolution
     if source_kind == "pascha_day_hour":
         return "current_working_source_not_coptic_reader_checked", "Current candidate from local Pascha source layer. Not independently verified against Coptic Reader outside fixture scope."
     if source_kind in {"copticchurch_date", "katameros_cycle", "special_service", "agpeya", "bright_saturday_service_order"}:
@@ -1175,6 +1344,7 @@ def build_reverse_presentation(source_rows: list[dict] | None = None, *, candida
         supplement_rows = load_removed_pascha_source_text_supplement(base_rows)
         fixture_rows = load_fixture_rows()
         all_rows = expand_pascha_wednesday_composite_attestations(base_rows + supplement_rows + fixture_rows)
+        all_rows.extend(hosanna_sunday_reader_prophecy_rows(all_rows))
     else:
         all_rows = source_rows
         fixture_rows = []
@@ -1760,6 +1930,11 @@ def build_daily_year_files(presentation_rows: list[dict], *, candidate_projectio
     for days in by_year.values():
         for date_value, readings in days.items():
             source_contracts.validate_consumer_rows([dict(row, gregorian_date=date_value) for row in readings], candidate_projection=candidate_projection, transport_mode="daily")
+    if not candidate_projection:
+        project_katameros_lent_prophecies(by_year, presentation_rows)
+        for days in by_year.values():
+            for date_value, readings in days.items():
+                source_contracts.validate_consumer_rows([dict(row, gregorian_date=date_value) for row in readings], candidate_projection=candidate_projection, transport_mode="daily")
     return {year: dict(sorted(days.items())) for year, days in sorted(by_year.items())}
 
 

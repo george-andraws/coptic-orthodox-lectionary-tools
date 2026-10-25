@@ -175,7 +175,9 @@
     "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/reference-04.png": "5458f03a67dd383840475853aef319e4e13427230d1ff599ca8652419030daab",
     "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/reference-05.png": "86fdc0e9f78da689d2c3411f613e70f25e364c8a38b934de5fac6cef1ba0743e",
     "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/qualified-oracle.json": "caa0eafd00319124cb8858adbbea81fdc5ff1d8bd0878b8534855c1c1d52aaa6",
-    "sources/coptic-reader/lent-qualified-2026-10-07/reverse-index-contract.json": "9b719dca5df186925bd9daee028819d8c3afa8e712f3a8c34751a8cb9861c989"
+    "sources/coptic-reader/lent-qualified-2026-10-07/reverse-index-contract.json": "9b719dca5df186925bd9daee028819d8c3afa8e712f3a8c34751a8cb9861c989",
+    "sources/user-corrections/reverse-source-key-contract-bright-saturday-reader-gaps.json": "821a087068b1ad1a8fcc74fa9f3c02dd5f4a1cddf0bdc32a75b6234bfc7783f8",
+    "sources/user-corrections/reverse-source-key-contract-lamentations-joel-2026-10-19.json": "9d4912dde1e3ad17eff478526e1e86e473b9dcca68b155976fa255683798bbd4"
   },
   "copticchurch_date": [
     {
@@ -264,7 +266,7 @@
       "day_title": "Mesra 5",
       "service_section": "Liturgy",
       "reading_type": "Gospel",
-      "expected_raw_ref": "Matt 3:23\u2014  &  Matt 5:1-16",
+      "expected_raw_ref": "Matt 3:23—  &  Matt 5:1-16",
       "corrected_ref": "Matt 4:23-5:16",
       "authority": "Coptic Reader web app 3.7",
       "verified_date": "2023-08-11",
@@ -1577,5 +1579,5 @@
       "oracle_evidence": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-13/qualified-oracle.json"
     }
   ],
-  "seasonal_reverse_index_contract": "sources/user-corrections/reverse-source-key-contract-mesra19-v2.json"
+  "seasonal_reverse_index_contract": "sources/user-corrections/reverse-source-key-contract-lamentations-joel-2026-10-19.json"
 }

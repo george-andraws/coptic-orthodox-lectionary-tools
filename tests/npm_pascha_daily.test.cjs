@@ -91,14 +91,19 @@ for (const [year, date] of [[2026, '2026-04-05'], [2027, '2027-04-25'], [2028, '
   test(`Hosanna ${date} appends only current Pascha hours to the ordinary Palm Sunday services`, () => {
     const rows = JSON.parse(fs.readFileSync(api.dailyYearPath(year), 'utf8'))[date];
     const structural = rows.filter(row => row.structural_day === 'Hosanna Sunday');
-    assert.equal(structural.length, 4);
+    assert.equal(structural.length, 5);
     assert.deepEqual(new Set(structural.map(row => row.identity_key)), new Set([
       'rid_d9f544171faf5b8bf1b4', 'rid_febdbadd9aea980d2dbb',
       'rid_f334b150887bd2f1bff5', 'rid_3f05adb088ea4fb9b1e9',
+      'rid_6f2b1cdfaffff2641d58',
     ]));
     assert.equal(rows.filter(row => !row.structural_day).length, 16, 'ordinary Palm services retained');
     assert.ok(rows.every(api.isCurrentReading));
-    assert.equal(rows.length, 20);
+    assert.equal(rows.length, 21);
+    const lamentations = structural.find(row => row.identity_key === 'rid_6f2b1cdfaffff2641d58');
+    assert.equal(lamentations.service_hour, 'Ninth Hour');
+    assert.equal(lamentations.display_ref, 'Lam 1:1-4');
+    assert.equal(lamentations.current_status, 'current_confirmed_coptic_reader');
   });
 }
 
@@ -132,3 +137,76 @@ for (const [year, date] of [[2026, '2026-04-08'], [2027, '2027-04-28'], [2028, '
     assert.deepEqual(rows.map(row => row.reading_order), rows.map((_, index) => index + 1));
   });
 }
+
+test('Bright Saturday liturgy aliases collapse to one explicit slot and keep both disclosures', () => {
+  const { dedupeDailyRows } = helpers();
+  const disclosure = (label) => JSON.stringify([{ source: label }]);
+  const pair = (shortSlot, explicitSlot, displayRef, identity) => ([
+    {
+      occasion: 'Bright Saturday',
+      service_section: 'Liturgy',
+      service_hour: 'Liturgy',
+      slot: shortSlot,
+      identity_key: identity,
+      display_ref: displayRef,
+      current_status: 'current_working_source_not_coptic_reader_checked',
+      source_disclosure: disclosure('pascha'),
+    },
+    {
+      occasion: 'Bright Saturday',
+      service_section: 'Liturgy',
+      service_hour: 'Liturgy',
+      slot: explicitSlot,
+      identity_key: identity,
+      display_ref: displayRef,
+      current_status: 'current_public_or_local_reference',
+      source_disclosure: disclosure('service-order'),
+    },
+  ]);
+  const rows = dedupeDailyRows([
+    ...pair('Pauline', 'Pauline Epistle', '1Cor 15:1-22', 'pauline'),
+    ...pair('Catholic', 'Catholic Epistle', '1Pet 1:1-9', 'catholic').reverse(),
+    ...pair('Acts', 'Praxis', 'Acts 3:12-21', 'praxis'),
+    {
+      occasion: 'Bright Saturday',
+      service_section: 'Liturgy',
+      service_hour: 'Liturgy',
+      slot: 'Gospel',
+      identity_key: 'gospel',
+      display_ref: 'Matt 28:1-20',
+      current_status: 'current_working_source_not_coptic_reader_checked',
+      source_disclosure: disclosure('pascha-gospel'),
+    },
+    {
+      occasion: 'Bright Saturday',
+      service_section: 'Liturgy',
+      service_hour: 'Liturgy',
+      slot: 'Gospel',
+      identity_key: 'gospel',
+      display_ref: 'Matt 28:1-20',
+      current_status: 'current_public_or_local_reference',
+      source_disclosure: disclosure('service-order-gospel'),
+    },
+    {
+      occasion: 'Bright Saturday',
+      service_section: 'Matins',
+      service_hour: 'Matins',
+      slot: 'Pauline Epistle',
+      identity_key: 'matins-pauline',
+      display_ref: 'Eph 4:1-5',
+      current_status: 'current_public_or_local_reference',
+      source_disclosure: disclosure('matins'),
+    },
+  ]);
+  assert.equal(JSON.stringify(rows.map(row => [row.slot, row.display_ref, row.service_hour])), JSON.stringify([
+    ['Pauline Epistle', '1Cor 15:1-22', 'Liturgy'],
+    ['Catholic Epistle', '1Pet 1:1-9', 'Liturgy'],
+    ['Praxis', 'Acts 3:12-21', 'Liturgy'],
+    ['Gospel', 'Matt 28:1-20', 'Liturgy'],
+    ['Pauline Epistle', 'Eph 4:1-5', 'Matins'],
+  ]));
+  for (const row of rows.filter(item => item.service_hour === 'Liturgy')) {
+    assert.equal(row.current_status, 'current_public_or_local_reference');
+    assert.equal(JSON.parse(row.source_disclosure).length, 2);
+  }
+});

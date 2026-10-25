@@ -72,6 +72,25 @@ def slot_for_passage(original_slot: str, passage: str) -> str:
         return 'Gospel'
     return 'source_label_preserved'
 
+
+LAQAN_PUBLIC_DAY_TITLES = {
+    'epiphany_laqan': 'Theophany Liturgy of the Waters',
+    'lakkan_covenant_thursday': 'Covenant Thursday Liturgy of the Waters',
+    'apostles_feast_laqan': 'Apostles Feast Liturgy of the Waters',
+}
+
+
+def public_special_day_title(row: dict) -> str:
+    """Keep the service family as the occasion, and name the feast in day_title.
+
+    The site finder prefers day_title when it differs from the occasion. A
+    machine key such as epiphany_laqan stays in calendar_key and is not a
+    public feast name. Write Theophany, never Epiphany.
+    """
+    variant = row.get('service_variant') or ''
+    return LAQAN_PUBLIC_DAY_TITLES.get(variant) or row.get('service_family') or ''
+
+
 FIELDS = [
     'passage',
     'source_kind',
@@ -521,7 +540,7 @@ def main() -> None:
             source_token_order=1,
             liturgical_place=row.get('service_family') or 'special_service',
             calendar_key=row.get('service_variant') or '',
-            day_title=row.get('service_family') or '',
+            day_title=public_special_day_title(row),
             service_day=row.get('service_family') or '',
             service_section=row.get('section') or '',
             reading_slot=row.get('section') or '',

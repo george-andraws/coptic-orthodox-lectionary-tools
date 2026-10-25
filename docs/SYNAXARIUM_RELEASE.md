@@ -1,10 +1,10 @@
-# Synaxarium 1.3.0: Runtime Contract and Release Workflow
+# Synaxarium: Runtime Contract and Release Workflow
 
-Updated September 8, 2026. This is the current public-catalog contract for `@andraws/lectionary-data`. Older research specs and bridge audits describe different internal artifacts, not this runtime schema.
+Contract introduced September 8, 2026; release status reconciled October 25, 2026. This is the public-catalog contract for `@andraws/lectionary-data`. Older research specs and bridge audits describe different internal artifacts, not this runtime schema.
 
 ## Release status
 
-**`@andraws/lectionary-data@1.3.0` is published on npm.** It extends the existing CommonJS package; it is not a separate Synaxarium package. Reading data and the existing lookup/status APIs were preserved.
+**The current published package is `@andraws/lectionary-data@1.3.5`.** The Synaxarium contract was introduced in 1.3.0 within the existing CommonJS package, not a separate package. Subsequent reading corrections preserve the public catalog/calendar bytes. See [the 1.3.5 reconciliation](LECTIONARY_1_3_5_RECONCILIATION.md) for authenticated registry hashes and the distinction between published provenance and later source-history closeout.
 
 The published 1.3.0 artifact is immutable. Source-checkout documentation can be corrected afterward without changing that artifact. Publishing a revised package README or any other packed file requires a new version and explicit release authorization; this documentation update does not publish another version.
 

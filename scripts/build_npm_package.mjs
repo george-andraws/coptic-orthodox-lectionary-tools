@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.3';
+const VERSION = '1.3.5';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -547,7 +547,7 @@ function canonicalizeOccurrences(inputRows, policy) {
     return { rows: inputRows.map(row => ({ ...row })), dispositions: [], sentinel_additions: 0 };
   }
   if (inputFingerprint !== policy.projection_input_sha256) {
-    throw new Error('Canonical occurrence input fingerprint drift');
+    throw new Error(`Canonical occurrence input fingerprint drift: ${inputFingerprint}`);
   }
   for (const rule of policy.supersessions || []) {
     for (const selector of [rule.lower, rule.preferred]) {
@@ -656,7 +656,7 @@ function canonicalizeOccurrences(inputRows, policy) {
     }
   }
   if (fingerprint(rows) !== policy.projection_output_sha256) {
-    throw new Error('Canonical occurrence output fingerprint drift');
+    throw new Error(`Canonical occurrence output fingerprint drift: ${fingerprint(rows)}`);
   }
   return { rows, dispositions, sentinel_additions: sentinelAdditions.length };
 }
@@ -778,7 +778,7 @@ function rowsForPaschaDailyDate(projectedRows, dayName) {
       && row.occasion === 'Wednesday of Holy Pascha'
       && row.source_family === 'coptic_reader'
       && row.source_kind === 'coptic_reader_fixture';
-    return (row.source_family === 'holy_pascha_curated_day_hour' || retainedWednesdayFixture)
+    return (row.source_family === 'holy_pascha_curated_day_hour' || retainedWednesdayFixture || row.source_family === 'coptic_reader_qualified_pascha_hour')
       && occasions.has(String(row.occasion || ''));
   });
 }
@@ -818,6 +818,56 @@ function dailyRowFromReverse(row, dayName) {
   });
 }
 
+function canonicalBrightSaturdaySlot(slot) {
+  const key = String(slot || '').trim().toLowerCase();
+  return BRIGHT_SATURDAY_SLOT_ALIASES.get(key) || key;
+}
+
+function brightSaturdayStatusRank(row) {
+  return row.current_status === 'current_public_or_local_reference' ? 0 : 1;
+}
+
+function preferBrightSaturdayRow(current, candidate) {
+  const currentExplicit = BRIGHT_SATURDAY_SLOT_ALIASES.has(String(current.slot || '').trim().toLowerCase()) ? 0 : 1;
+  const candidateExplicit = BRIGHT_SATURDAY_SLOT_ALIASES.has(String(candidate.slot || '').trim().toLowerCase()) ? 0 : 1;
+  if (candidateExplicit !== currentExplicit) return candidateExplicit > currentExplicit ? candidate : current;
+  if (brightSaturdayStatusRank(candidate) !== brightSaturdayStatusRank(current)) {
+    return brightSaturdayStatusRank(candidate) < brightSaturdayStatusRank(current) ? candidate : current;
+  }
+  return current;
+}
+
+function mergeSourceDisclosure(winner, other) {
+  const parse = (value) => {
+    try {
+      const parsed = JSON.parse(value || '[]');
+      return Array.isArray(parsed) ? parsed : [];
+    } catch {
+      return [];
+    }
+  };
+  const seen = new Set();
+  const merged = [];
+  for (const item of [...parse(winner.source_disclosure), ...parse(other.source_disclosure)]) {
+    const key = JSON.stringify(item);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    merged.push(item);
+  }
+  return {
+    ...winner,
+    source_disclosure: JSON.stringify(merged),
+    source_disclosure_count: String(merged.length),
+  };
+}
+
+const BRIGHT_SATURDAY_SLOT_ALIASES = new Map([
+  ['pauline', 'pauline epistle'],
+  ['catholic', 'catholic epistle'],
+  ['acts', 'praxis'],
+  ['prayer of jeremiah', 'praise of the prophet jeremiah'],
+]);
+
 function dedupeDailyRows(rows) {
   const seen = new Map();
   const out = [];
@@ -827,12 +877,20 @@ function dedupeDailyRows(rows) {
     // the other attestation remains unchanged in the reverse provenance index.
     const wednesdayDay = row.structural_day === 'Wednesday'
       && ['Wednesday', 'Wednesday of Holy Pascha'].includes(row.occasion);
+    const brightSaturday = row.occasion === 'Bright Saturday' || row.structural_day === 'Bright Saturday';
+    const slotKey = brightSaturday ? canonicalBrightSaturdaySlot(row.slot) : (row.slot || '');
     const key = wednesdayDay
       ? ['Wednesday Day', row.service_section || '', row.service_hour || '', row.slot_type || '', row.slot_order ?? '', row.identity_key || '', row.display_ref || ''].join('|')
-      : [row.occasion || '', row.service_section || '', row.service_hour || '', row.slot || '', row.identity_key || '', row.display_ref || ''].join('|');
+      : [row.occasion || '', row.service_section || '', row.service_hour || '', slotKey, row.identity_key || '', row.display_ref || ''].join('|');
     if (seen.has(key)) {
       const index = seen.get(key);
-      if (wednesdayDay && row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture') out[index] = row;
+      if (wednesdayDay && row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture') {
+        out[index] = row;
+      } else if (brightSaturday) {
+        const winner = preferBrightSaturdayRow(out[index], row);
+        const loser = winner === out[index] ? row : out[index];
+        out[index] = mergeSourceDisclosure(winner, loser);
+      }
       continue;
     }
     seen.set(key, out.length);

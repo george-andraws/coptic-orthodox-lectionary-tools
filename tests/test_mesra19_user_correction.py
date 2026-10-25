@@ -87,7 +87,7 @@ class Mesra19UserCorrection(unittest.TestCase):
         witness = fixture['existing_cycle_witness']
         self.assertEqual(hashlib.sha256((ROOT / witness['path']).read_bytes()).hexdigest(), witness['sha256'])
         self.assertEqual(witness['row']['C_Gospel_Ref'], '59.1:12-21')
-        new = json.loads((ROOT / policy['seasonal_reverse_index_contract']).read_text())
+        new = json.loads((ROOT / 'sources/user-corrections/reverse-source-key-contract-mesra19-v2.json').read_text())
         lineage = new['lineage']
         oldpath = ROOT / lineage['previous_contract']
         self.assertEqual(hashlib.sha256(oldpath.read_bytes()).hexdigest(), lineage['previous_contract_sha256'])
@@ -101,7 +101,25 @@ class Mesra19UserCorrection(unittest.TestCase):
         self.assertEqual(len(after), len(before))
         # Real whole-key contract guard, without reading or regenerating output counts.
         rows = [dict(occasion=k[0], service_section=k[1], service_hour=k[2], slot=k[3], identity_key=k[4]) for k in after]
-        design.verify_reverse_index_contract(rows)
+        with self.assertRaises(AssertionError):
+            design.verify_reverse_index_contract(rows)
+        current = json.loads((ROOT / policy['seasonal_reverse_index_contract']).read_text())
+        current_keys = {tuple(k) for k in current['intended_keys']}
+        bright_additions = {
+            ('MATINS / RAISING OF INCENSE', 'Matins', '', 'Pauline Epistle', 'rid_0341c4e20a37f1b4cc0e'),
+            ('MATINS / RAISING OF INCENSE', 'Matins', '', 'Prophecy of Isaiah', 'rid_908610343ba98cc31797'),
+            ('PRAISES OF THE PROPHETS', 'Midnight Praises', '', 'Prayer of Azariah (Part 2)', 'rid_db388feca4ae08da77fb'),
+            ('PRAISES OF THE PROPHETS', 'Midnight Praises', '', 'Prayer of King Manasseh', 'rid_acf0a949bfcf5ac2b8de'),
+            ('PRAISES OF THE PROPHETS', 'Midnight Praises', '', 'Story of Susannah and Daniel the Prophet', 'rid_f03236b560295567779e'),
+        }
+        lamentations_added = {tuple(k) for k in current['added_keys']}
+        lamentations_removed = {tuple(k) for k in current['removed_keys']}
+        self.assertEqual(current_keys - after, bright_additions | lamentations_added)
+        self.assertEqual(after - current_keys, lamentations_removed)
+        previous = json.loads((ROOT / current['lineage']['previous_contract']).read_text())
+        self.assertEqual(hashlib.sha256((ROOT / current['lineage']['previous_contract']).read_bytes()).hexdigest(), current['lineage']['previous_contract_sha256'])
+        self.assertEqual({tuple(k) for k in previous['intended_keys']} - current_keys, lamentations_removed)
+        self.assertEqual(current_keys - {tuple(k) for k in previous['intended_keys']}, lamentations_added)
         with self.assertRaises(AssertionError):
             design.verify_reverse_index_contract(rows[:-1])
 
