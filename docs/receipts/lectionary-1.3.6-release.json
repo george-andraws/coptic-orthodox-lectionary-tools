@@ -1,0 +1,50 @@
+{
+  "status": "published_deployed_and_verified",
+  "live_readback_started_at": "2026-10-26T09:15:14.547623-07:00",
+  "package": {
+    "name": "@andraws/lectionary-data",
+    "version": "1.3.6",
+    "registry": "https://registry.npmjs.org",
+    "integrity": "sha512-FD4T8t3ETBZLaWX359BnLBqglKmV1UeoX2j0MGxiJ3g4aRsqANGErVqnB+M7sCKjXV0/Z2zH8ItUJgS2ZtFAag==",
+    "source_commit": "aaffda4de4184ec54564fa55aac4f14291c2cc69",
+    "package_commit": "ffbb00c722fe9e5b1ee611c1c8cae5da6b69fe75",
+    "registry_members_compared": 11,
+    "registry_members_exact_bytes": true
+  },
+  "site": {
+    "commit": "5964fd4a20167c5a58c3022f8ad2b8767551db34",
+    "url": "https://orthodoxbiblestudy.com",
+    "github_run": "https://github.com/george-andraws/coptic-corpus/actions/runs/40355266380",
+    "github_build_test_preflight_preview_promotion": "passed",
+    "cloudflare_deployment_id": "0d9062f5-3492-4e61-88cb-6ab39ca3a8e3",
+    "cloudflare_version_id": "bddd7781-cb4d-4a57-9951-948059f32123",
+    "production_traffic_percent": 100,
+    "rollback_version_id": "a26ed886-95ef-466c-aa4a-5cbf421af910"
+  },
+  "verification": {
+    "package_python_release_tests": 890,
+    "package_python_release_subtests": 5298,
+    "package_node_tests": 93,
+    "site_unit_tests": 1945,
+    "local_focused_browser_tests": 39,
+    "live_release_browser_tests": 12,
+    "browser_failures_flaky_skipped": 0,
+    "typescript_build_site_checks_media_preflight": "passed",
+    "live_build_info_commit_verified": true,
+    "live_manifest_package_version_verified": true,
+    "live_search_index_rows_compared": 6263,
+    "live_complete_search_index_equals_tested_output": true,
+    "live_complete_sampled_daily_arrays_equal_tested_output": ["2026-10-25", "2026-02-04", "2027-02-24", "2028-02-09", "2026-02-18"],
+    "live_liturgical_days_compact_equals_tested_output": true,
+    "normal_and_query_url_identity_verified": true
+  },
+  "qualifications": [
+    "Six source-only selections retain empty numeric coordinates and all original source qualifications.",
+    "Eighteen inactive archive identities remain excluded from current lookup and daily output.",
+    "Calendar and Synaxarium bytes are unchanged from 1.3.5: 366 days and 868 titles.",
+    "Browser counts describe focused release/regression suites, not the full repository browser inventory.",
+    "No physical-phone acceptance is claimed.",
+    "Live build-info reports validation-report and transient operation-lock build dirtiness; the input package, live manifest, complete search index and sampled arrays were independently matched to the tested artifact.",
+    "Equal query and ordinary URL responses establish artifact identity, not guaranteed origin-cache bypass."
+  ]
+}
