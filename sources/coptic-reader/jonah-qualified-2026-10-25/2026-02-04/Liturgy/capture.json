@@ -1,0 +1,124 @@
+{
+  "civil_date": "2026-02-04",
+  "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+  "documents": [
+    {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Liturgy",
+      "slot": "Pauline Epistle",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Pauline Epistle"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:53.187Z",
+      "raw_reference_lines": [
+        "\tEphesians 2:1-22"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Pauline_Epistle.txt",
+      "text_sha256": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tEphesians 2:1-22",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Pauline_Epistle-reference-01.png",
+          "sha256": "4e54c1c86395d887afdc41bdf7aa3e2c86ecb570f47d3faaeb8adb1d00b227ce"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Liturgy",
+      "slot": "Catholic Epistle",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Catholic Epistle"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:57.119Z",
+      "raw_reference_lines": [
+        "\t1 John 2:12-17"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Catholic_Epistle.txt",
+      "text_sha256": "22606c6a7f6dfeabc85c097b50d1e15a0e2be3bfe7b243acd00dbe33b6fe6fbb",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\t1 John 2:12-17",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Catholic_Epistle-reference-01.png",
+          "sha256": "c0d20e37442e18b09b6c661dac2a980a665b3c3f5cfe8dcbae9b767b26d3da64"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Liturgy",
+      "slot": "Praxis",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Praxis"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:13:01.139Z",
+      "raw_reference_lines": [
+        "\tActs 15:12-20"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Praxis.txt",
+      "text_sha256": "15b9dd3b551cb8f40e561d334dfeea65ee27170b79c170cece2a43af5932cf0b",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tActs 15:12-20",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Praxis-reference-01.png",
+          "sha256": "88f66183cc85a1551681aafb8df4f4279080c12c2ee3807f3510c3f0279d507a"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Liturgy",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:13:08.018Z",
+      "raw_reference_lines": [
+        "\tPsalms 31:1, 6",
+        "\tMatthew 15:32-16:4"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Psalm_and_Gospel.txt",
+      "text_sha256": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 31:1, 6",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Psalm_and_Gospel-reference-01.png",
+          "sha256": "3861014ef02f014195faacdea2c513cf421e7102edb93cd507c55e5c1fce2dec"
+        },
+        {
+          "raw_ref": "\tMatthew 15:32-16:4",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Psalm_and_Gospel-reference-02.png",
+          "sha256": "4a4728716007ccc1bfc6da2e49e6bfd1b08ebae426e59f1ae2d7ed3b53992060"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

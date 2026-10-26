@@ -39,6 +39,38 @@ STRUCTURAL_PACKAGE_SOURCE_FAMILIES = {
 }
 ComparisonKey = tuple[str, ...]
 
+# Reviewed 1.3.5 source-qualified addition, absent from the older 1.3.1/1.3.3
+# structural witnesses below. This is Sunday DAY, not Monday Eve. Frozen fields
+# bind content, lifecycle, edition and source context independently of package
+# membership. Retained Reader capture SHA-256:
+# ea7e186ff09fe3ab46ee4dc16aa7ba6e4a740060d714bec78aaf30ea49bebd74.
+HOSANNA_READER_SOURCE = ('lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/'
+                        '2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--9th_Hour.txt')
+HOSANNA_READER_LOCATOR = ('https://copticreader.org/app/; ' + HOSANNA_READER_SOURCE
+                          + ':row hosanna-sunday-day-ninth-hour-lam-1; source_ref=Lamentations 1:1-4')
+HOSANNA_READER_WITNESS = {
+    'occasion': 'Hosanna Sunday', 'service_section': 'Ninth Hour', 'service_hour': 'Ninth Hour',
+    'slot': 'OT1', 'display_ref': 'Lam 1:1-4', 'identity_key': 'rid_6f2b1cdfaffff2641d58',
+    'reading_type': 'scripture', 'slot_type': 'prophecy', 'slot_order': 1, 'service_order': 40,
+    'source_group_key': 'coptic_reader_qualified_pascha_hour||Hosanna Sunday|Ninth Hour|OT1',
+    'current_status': 'current_confirmed_coptic_reader', 'status': '', 'removed_marker': '',
+    'superseded_by_ref': '', 'superseded_reason': '',
+    'canonical_mt_ref': 'Lam 1:1-4', 'canonical_lxx_ref': 'Lam 1:1-4',
+    'spans_json': json.dumps([{'book': 'Lam', 'canonical_lxx_ref': 'Lam 1:1-4',
+        'canonical_mt_ref': 'Lam 1:1-4', 'chapter_end': 1, 'chapter_start': 1,
+        'confidence': 'high', 'source_convention': 'modern_english_reference',
+        'source_ref': 'Lam 1:1-4', 'validation_basis': '', 'verse_end': 4, 'verse_start': 1}]),
+    'source_family': 'coptic_reader_qualified_pascha_hour',
+    'source_kind': 'coptic_reader_qualified_pascha_hour', 'source_locator': HOSANNA_READER_LOCATOR,
+    'source_disclosure': json.dumps([{'source_family': 'coptic_reader_qualified_pascha_hour',
+        'source_kind': 'coptic_reader_qualified_pascha_hour',
+        'source_edition': 'Saved primary capture; selected 2026-04-05; Sunday Day, not Monday Eve',
+        'source_title': 'Coptic Reader: Hosanna Sunday daytime Ninth Hour',
+        'source_locator': HOSANNA_READER_LOCATOR}], separators=(',', ':')),
+    'source_disclosure_count': '1', 'hour_theme': 'the saving death of Christ and repentance',
+    'structural_day': 'Hosanna Sunday',
+}
+
 
 def normalize_reference_for_compare(value: str) -> str:
     stripped = INLINE_LXX_RE.sub("", value or "")
@@ -195,6 +227,116 @@ def authenticated_sunday_table(date: str, policy: dict) -> list[dict]:
     return result
 
 
+def qualified_materialization_tables(source_rows, daily, year):
+    """Reconstruct bounded tables from authenticated raw sources, never package membership.
+
+    The design projection is reused only after its raw source contract has checked
+    complete retained documents, literal bodies, approval and lifecycle. The npm
+    service stages below are explicit comparison invariants, not inferred from the
+    candidate. No global builder, ledger bypass or mutable output oracle is used.
+    """
+    import build_design_deliverables as design
+    import build_lectionary_reference as reference
+    import build_lectionary_crosswalk as crosswalk
+    import jonah_fast_source_supplements as jonah
+    import covenant_thursday_source_supplements as covenant
+    import bright_saturday_composite_supplements as bright
+    from reading_context_overlays import is_current_source_row
+
+    dates = set(daily) | {r.get('gregorian_date') for r in source_rows}
+    tables, source_tables = {}, {}
+    contexts = json.loads((jonah.SOURCE_ROOT / 'input-contexts.json').read_text())
+    for context in contexts:
+        date = context['date']
+        if date not in dates or not date.startswith(f'{year}-'):
+            continue
+        raw = jonah.apply_jonah_fast_supplements(dt.date.fromisoformat(date), context['day_title'], context['rows'])
+        raw = [r for r in raw if is_current_source_row(r) and r.get('source_kind') == jonah.KIND]
+        indexed = reference.build_date_passage_index(raw)
+        source_tables[date] = indexed
+        presentation, _ = design.build_reverse_presentation(crosswalk.project_date_rows(indexed))
+        rows = design.build_daily_year_files(presentation)[year][date]
+        for row in rows:
+            section, slot = row['service_section'], row['slot']
+            row['service_order'] = {'Matins': 2, 'Liturgy': 99}[section]
+            if slot != 'OT1':
+                row['slot_type'] = {'Psalm': 'psalm', 'Gospel': 'gospel', 'Pauline Epistle': 'pauline',
+                                    'Catholic Epistle': 'catholicon', 'Acts of the Apostles': 'praxis'}[slot]
+                row['slot_order'] = ({'Psalm': 1, 'Gospel': 2} if section == 'Matins' else
+                                     {'Pauline Epistle': 1, 'Catholic Epistle': 2, 'Acts of the Apostles': 3,
+                                      'Psalm': 4, 'Gospel': 5})[slot]
+        tables[date] = ('jonah', rows)
+    if year in (2026, 2027, 2028):
+        for lane, offset, loader in [('covenant', -3, covenant.load_covenant_thursday_rows),
+                                     ('bright', -1, bright.load_bright_composite_rows)]:
+            date = (julian_pascha_gregorian(year) + dt.timedelta(days=offset)).isoformat()
+            if date not in dates:
+                continue
+            presentation, _ = design.build_reverse_presentation(loader())
+            rows = design.build_daily_year_files(presentation)[year][date]
+            for row in rows:
+                row['service_order'] = ({'Liturgy': 99, covenant.WATERS_SECTION: 45} if lane == 'covenant'
+                                        else {'Matins': 2, '6th Hour': 30, 'Liturgy': 99})[row['service_section']]
+            # Source ordinal, then fragment ordinal is independent of canonical
+            # coordinates (including the two deliberately unaddressable excerpts).
+            rows.sort(key=lambda r: (r['service_order'], int(r['source_order']), int(r['source_token_order'])))
+            if lane == 'covenant':
+                frozen = (ROOT / 'tests/fixtures/covenant-published-1.3.5.json').read_bytes()
+                assert hashlib.sha256(frozen).hexdigest() == '3c6850d8b2a6ff4275ee6a2b40a18e6fb216d3b590efde0db3a936b03d8c73f2', 'Covenant prior witness drift'
+                old_rows = json.loads(frozen)['rows']
+                for row in rows:
+                    old = next((r for r in old_rows if r['identity_key'] == row['identity_key']
+                                and r['service_section'] == row['service_section'] and r['service_hour'] == row['service_hour']
+                                and r['slot'] == row['slot']), None)
+                    if old is None:
+                        continue
+                    old_disclosure = json.loads(old['source_disclosure'])[0]
+                    locator = old['source_locator']
+                    match = re.fullmatch(r'(.+):(?:row|line) ([^;]+); source_ref=.+', locator)
+                    assert match, 'Covenant old locator shape drift'
+                    fields = ('current_status', 'removed_marker', 'source_locator', 'occasion',
+                              'service_section', 'service_hour', 'slot', 'provenance')
+                    old_disclosure['source_witnesses'] = [{**{k: old.get(k, '') for k in fields},
+                        'source_file': match[1], 'source_row_id': match[2],
+                        'active': '', 'status': '', 'source_disclosure': ''}]
+                    row['source_disclosure'] = json.dumps(json.loads(row['source_disclosure']) + [old_disclosure])
+            tables[date] = (lane, rows)
+    return tables, source_tables
+
+
+def qualified_daily_signature(row):
+    """Allow only the two actual npm disclosure forms, with exact qualifications.
+
+    npm combines one daily attestation (dated bounds) with one structural reverse
+    attestation (undated). Normalize that declared pair only; do not flatten an
+    arbitrary disclosure list or strip retained body/approval metadata.
+    """
+    value = dict(row)
+    value.pop('reading_order', None)
+    value.pop('structural_day', None)
+    disclosure = json.loads(value.get('source_disclosure', '[]'))
+    declared_count = value.pop('source_disclosure_count', str(len(disclosure)))
+    assert declared_count == str(len(disclosure)), 'Qualified disclosure count drift'
+    assert 1 <= len(disclosure) <= 3, 'Qualified disclosure multiplicity drift'
+    normalized = []
+    first_bounds = None
+    for index, item in enumerate(disclosure):
+        item = dict(item)
+        bounds = (item.pop('attested_year_min', None), item.pop('attested_year_max', None))
+        if index == 0:
+            first_bounds = bounds
+        else:
+            assert bounds == (None, None), 'Qualified reverse attestation bounds drift'
+        normalized.append(item)
+    value['_attestation_bounds'] = first_bounds
+    # Only npm's first daily/reverse pair may coincide; preserve a distinct old
+    # witness verbatim for comparison with the hash-pinned historical record.
+    if len(normalized) > 1 and normalized[0] == normalized[1]:
+        normalized.pop(1)
+    value['source_disclosure'] = normalized
+    return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
+
+
 def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy: dict, *, complete_year=False):
     """Qualified parity; independent correction/calendar predicates never use package membership."""
     source, package = Counter(), Counter()
@@ -216,7 +358,18 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
     alias_bytes = alias_path.read_bytes()
     assert hashlib.sha256(alias_bytes).hexdigest() == 'c3ea02cc63d34fe3253967dba9f596594b39a9fde44adcb6e3ae640043504470', 'Canonical Pascha alias fingerprint mismatch'
     alias_rows = json.loads(alias_bytes)['rows']
-    retained_rows += alias_rows
+    # Renew only the portable locator/disclosure after authenticating the retained
+    # full body and companions. Every old identity/context/endpoint guard remains.
+    from pascha_resolution_evidence import authenticate_pascha_evidence
+    evidence = authenticate_pascha_evidence('hosanna_sunday_day_ninth')
+    hosanna = dict(HOSANNA_READER_WITNESS)
+    locator = ('https://copticreader.org/app/; ' + evidence['path']
+               + ':row hosanna-sunday-day-ninth-hour-lam-1; source_ref=Lamentations 1:1-4; '
+               + evidence['locator'])
+    disclosure = json.loads(hosanna['source_disclosure'])
+    disclosure[0]['source_locator'] = locator
+    hosanna.update(source_locator=locator, source_disclosure=json.dumps(disclosure, separators=(',', ':')))
+    retained_rows += alias_rows + [hosanna]
 
     def retained_structural(row, day):
         expected_day = 'Wednesday' if row.get('occasion') == 'Wednesday of Holy Pascha' else 'Hosanna Sunday'
@@ -236,6 +389,48 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                        'service_section': row.get('service_section', ''),
                        'reading_type_or_slot': row.get('slot', row.get('reading_type', '')),
                        'normalized_ref': normalize_reference_for_compare(row.get('display_ref', row.get('matched_ref', '')))})
+
+    import jonah_fast_source_supplements as jonah
+    tables, source_tables = qualified_materialization_tables(source_rows, daily, year)
+
+    def jonah_source(row):
+        return bool(json.loads(row.get('provenance') or '{}').get('jonah_source'))
+
+    def lane_row(row, lane):
+        # Labels select validation, never confer permission. Complete authenticated
+        # expected groups below catch stripped labels, omissions and duplicates.
+        if lane == 'jonah':
+            return row.get('source_family') == jonah.FAMILY or row.get('source_kind') == jonah.KIND
+        if lane == 'bright':
+            return row.get('source_kind') == 'bright_saturday_qualified_composite'
+        return row.get('source_kind') == 'coptic_reader_qualified_pascha_hour'
+
+    for date, (lane, expected) in tables.items():
+        actual = [r for r in daily.get(date, []) if lane_row(r, lane)]
+        if ([qualified_daily_signature(r) for r in actual]
+                != [qualified_daily_signature(r) for r in expected]):
+            issue(date, 'invalid_qualified_' + lane + '_complete_sequence', {})
+        for row in actual:
+            expected_day = '' if lane == 'jonah' else ('Bright Saturday' if lane == 'bright' else 'Great Thursday')
+            if row.get('structural_day', '') not in ({''} if lane == 'jonah' else {'', expected_day}):
+                issue(date, 'invalid_qualified_structural_day', row)
+        if lane == 'jonah':
+            def source_signature(row):
+                return json.dumps({k: str(v) for k, v in row.items() if v not in ('', None)}, sort_keys=True)
+            actual_source = [r for r in source_rows if r.get('gregorian_date') == date
+                             and (jonah_source(r) or r.get('source') == jonah.SOURCE)]
+            if Counter(map(source_signature, actual_source)) != Counter(map(source_signature, source_tables[date])):
+                issue(date, 'invalid_qualified_jonah_complete_source_table', {})
+    hosanna_date = (julian_pascha_gregorian(year) - dt.timedelta(days=7)).isoformat()
+    if hosanna_date in daily:
+        matches = [r for r in daily[hosanna_date] if all(r.get(k, '') == v for k, v in hosanna.items())
+                   and not (set(r) - set(hosanna) - {'reading_order'})]
+        if len(matches) != 1:
+            issue(hosanna_date, 'invalid_qualified_hosanna_membership', {})
+        ninth = [r.get('slot') for r in daily[hosanna_date]
+                 if r.get('occasion') == 'Hosanna Sunday' and r.get('service_section') == 'Ninth Hour']
+        if ninth != ['OT1', 'Psalm', 'Gospel']:
+            issue(hosanna_date, 'invalid_qualified_hosanna_sequence', {})
 
     import sunday_consumer_contracts as sunday
     sunday_dates = {r.get('gregorian_date', '') for r in source_rows
@@ -264,7 +459,13 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
         ref = normalize_reference_for_compare(row.get('matched_ref', '') if source_side else row.get('display_ref', ''))
         family = 'ordinary_date_resolved' if source_side else str(row.get('source_family', 'ordinary_date_resolved'))
         order = ''
-        if source_side and row.get('source') == sunday.SOURCE:
+        if source_side and jonah_source(row):
+            family = jonah.FAMILY
+            slot = row.get('source_slot') or slot
+            if re.fullmatch(r'OT\d+', slot): order = str(row.get('source_order', ''))
+        elif not source_side and family == jonah.FAMILY and re.fullmatch(r'OT\d+', slot):
+            order = str(row.get('slot_order', ''))
+        elif source_side and row.get('source') == sunday.SOURCE:
             family = sunday.FAMILY
             slot = row.get('source_slot', '')
             order = str(row.get('source_order', ''))
@@ -353,6 +554,9 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                     or date[5:] != '04-07' or row.get('correction_source') != rule['evidence']
                     or row.get('source_ref_status') != 'source_boundary_overlay'):
                 issue(date, 'invalid_calendar_boundary_context', row)
+        elif row.get('source') == jonah.SOURCE:
+            if date not in source_tables or not jonah_source(row):
+                issue(date, 'invalid_qualified_jonah_source_context', row)
         elif row.get('source') == sunday.SOURCE:
             # Exact whole-table authentication above; no generic Reader bypass.
             pass
@@ -366,6 +570,33 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                     or row.get('source') != 'generated current-date overlay from local Holy Week source'):
                 issue(date, 'invalid_calendar_overlay_context', row)
         source[key(date, row, True)] += 1
+
+    from verify_design_deliverables import (LENT_CYCLE_DAILY_CONTEXTS, qualified_lent_cycle_daily_rows, read_csv)
+    from build_design_deliverables import DAILY_READING_FIELDS
+    cycle_presentation = read_csv(ROOT / 'out/design/reverse_lectionary_presentation.csv')
+    cycle_expected = {}
+    for date in {r.get('gregorian_date', '') for r in source_rows if r.get('gregorian_date', '').startswith(f'{year}-')}:
+        primary = [r for r in source_rows if r.get('gregorian_date') == date]
+        titles = {str(r.get('day_title') or '') for r in primary}
+        if len(titles) != 1 or next(iter(titles)) not in LENT_CYCLE_DAILY_CONTEXTS:
+            continue
+        title = next(iter(titles))
+        cycle_templates = qualified_lent_cycle_daily_rows(
+            cycle_presentation, DAILY_READING_FIELDS, date_value=date)
+        if title not in cycle_templates:
+            continue
+        expected = dict(cycle_templates[title], service_order=2)
+        if (dt.date.fromisoformat(date) - julian_pascha_gregorian(year)).days != LENT_CYCLE_DAILY_CONTEXTS[title][3]:
+            issue(date, 'invalid_lent_cycle_calendar_context', {})
+            continue
+        if any(normalize_reference_for_compare(r.get('matched_ref', '')) == expected['canonical_mt_ref'] for r in primary):
+            continue
+        cycle_expected[date] = expected
+        source[key(date, expected, False)] += 1
+        dispositions.append({'year': year, 'gregorian_date': date, 'occasion': title,
+                             'service_section': 'Matins', 'count': 1,
+                             'disposition': 'source_qualified_cycle_supplement',
+                             'evidence': expected['source_locator']})
 
     for date, readings in daily.items():
         assert isinstance(readings, list), f'Date {date} must contain a reading array'
@@ -384,12 +615,27 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                     issue(date, 'invalid_reading_order', row)
                 if isinstance(order, int): previous_order = order
             family = row.get('source_family', '')
+            if family == 'katameros_cycle' or row.get('source_kind') == 'katameros_cycle':
+                expected = cycle_expected.get(date)
+                if expected is None or any(row.get(field, '') != value for field, value in expected.items()):
+                    issue(date, 'invalid_source_qualified_cycle_supplement', row)
             if date in overlay_dates and re.fullmatch(r'OT\d+', str(row.get('slot', ''))):
                 context = (row.get('occasion'), row.get('service_hour'))
                 order = int(row['slot'][2:])
                 if order <= overlay_prophecy_orders.get(context, 0):
                     issue(date, 'invalid_overlay_prophecy_sequence', row)
                 overlay_prophecy_orders[context] = order
+            if date in tables:
+                lane, expected = tables[date]
+                if lane != 'jonah' and lane_row(row, lane):
+                    # Complete sequence was authenticated above. A bad row stays
+                    # an issue even though it is outside the ordinary cache scope.
+                    skipped += 1
+                    dispositions.append({'year': year, 'gregorian_date': date, 'occasion': row.get('occasion'),
+                                         'service_section': row.get('service_section'), 'count': 1,
+                                         'disposition': 'source_qualified_' + lane + '_outside_cached_scope',
+                                         'evidence': row.get('source_locator', '')})
+                    continue
             if is_package_structural_daily_row(row) and date not in overlay_dates:
                 structural_key = key(date, row, False)
                 if structural_key in structural_seen:

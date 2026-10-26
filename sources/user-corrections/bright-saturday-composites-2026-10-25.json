@@ -1,0 +1,266 @@
+{
+  "schema": "bright_composite_source_qualification_v1",
+  "source_edition": "retained Coptic Reader multilingual service selection; printed English Psalm labels; target-edition coordinates held",
+  "source_url": "https://copticreader.org/app/",
+  "package_baseline": "@andraws/lectionary-data@1.3.5; authenticated package-first gap established by parent ledger review",
+  "fresh_app_verification": false,
+  "capture_time": null,
+  "app_version": null,
+  "retention_label_is_capture_date": false,
+  "canonical_numeric_activation_approved": false,
+  "assets": [
+    {
+      "file": "original-captures.json",
+      "sha256": "e2b607fa3236a467774b0f271e1633ada52147841da401721d7dbfcdd1f6c4e3",
+      "bytes": 261840
+    },
+    {
+      "file": "pascha-root.png",
+      "sha256": "a4e3802d6aa7aeca415aeac4efe343dd647abc2b316ddba047006a39c5719c08",
+      "bytes": 499144
+    },
+    {
+      "file": "pascha-root.txt",
+      "sha256": "4c5acfd7f55de0fee8ca8c66281f8c92545d4b14221ebc681191daee0a86e894",
+      "bytes": 74
+    },
+    {
+      "file": "saturday--liturgy-of-the-word.png",
+      "sha256": "ccb894441d49193b5ad72056ac937b6c282bdd2ff2a49592434a59bb15b35bc1",
+      "bytes": 488407
+    },
+    {
+      "file": "saturday--liturgy-of-the-word.txt",
+      "sha256": "78570c0a89319493c6a1bade8fd41fbe64cf3c80b145deaf817ab8156b80df8f",
+      "bytes": 69733
+    },
+    {
+      "file": "saturday--matins.png",
+      "sha256": "335e7b186cfaa3934f5305cde0307e73df653eee265d0d24be4e5c61e7f0dd0f",
+      "bytes": 507061
+    },
+    {
+      "file": "saturday--matins.txt",
+      "sha256": "eb373a8c80ae9fcb658c1726c38a1815281a078217a5d61e1bb305b08cedbb7f",
+      "bytes": 278640
+    },
+    {
+      "file": "saturday--menu.png",
+      "sha256": "26097a73afbdb802efa4b850b36297ee4ba28bc97fa02cabf9ac490059460b88",
+      "bytes": 428099
+    },
+    {
+      "file": "saturday--menu.txt",
+      "sha256": "d2f6c3e7097d5f11a9534814fadc8c64ab0072e89c175ce12c82ebec995d6d33",
+      "bytes": 150
+    },
+    {
+      "file": "saturday--selected-home.png",
+      "sha256": "f70363c896db11de05df4522c6e8ef597909862e46bba5f205130bdb2b83878f",
+      "bytes": 677268
+    },
+    {
+      "file": "saturday--selected-home.txt",
+      "sha256": "99e67e4c6849de6feb92829e48de023c8313f551c95acdbd71e443c678dbbf6c",
+      "bytes": 144
+    },
+    {
+      "file": "saturday--selected-picker.png",
+      "sha256": "02821df79c81987c33f7c521b7c14ec1d8608c5ee7f8c5c6a52606a2047f89a2",
+      "bytes": 272171
+    },
+    {
+      "file": "saturday--selected-picker.txt",
+      "sha256": "6372317b420b142cd23d7cee13909e1b80d34a19fbac9af77b2aff69e9131007",
+      "bytes": 237
+    },
+    {
+      "file": "saturday--third-and-sixth-hours.png",
+      "sha256": "a0b35727108bc6c2cbf17f16e69ff1c681069de12dfb85e1a3c973e24257fcb3",
+      "bytes": 649455
+    },
+    {
+      "file": "saturday--third-and-sixth-hours.txt",
+      "sha256": "36637b897d93e0405d35dec4e92430935f60262aad955560ca85681b13840b01",
+      "bytes": 88003
+    }
+  ],
+  "documents": {
+    "matins": {
+      "file": "saturday--matins.txt",
+      "sha256": "eb373a8c80ae9fcb658c1726c38a1815281a078217a5d61e1bb305b08cedbb7f",
+      "bytes": 278640,
+      "line_count": 2259,
+      "document_title": "Offering of Morning Incense",
+      "navigation": [
+        "Special",
+        "Pascha",
+        "Saturday",
+        "Matins"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--matins.txt",
+      "heading_line": 1663,
+      "heading_exact": "\tPsalm 88:4-5; 44:23,26; 126:2-3",
+      "body_first_line": 1664,
+      "body_last_line": 1694,
+      "body_sha256": "286e7fce1895477d8f3b21db1fad6db1f294fc67e943f130ed3b4fbc75535a45",
+      "selected_context": "Selected Season Joyous Saturday Parmoute 3, 1742 Saturday, April 11, 2026",
+      "capture_time": null,
+      "app_version": null
+    },
+    "hours": {
+      "file": "saturday--third-and-sixth-hours.txt",
+      "sha256": "36637b897d93e0405d35dec4e92430935f60262aad955560ca85681b13840b01",
+      "bytes": 88003,
+      "line_count": 437,
+      "document_title": "Prayers of the Third and Sixth Hours",
+      "navigation": [
+        "Special",
+        "Pascha",
+        "Saturday",
+        "Third and Sixth Hours"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--third-and-sixth-hours.txt",
+      "heading_line": 336,
+      "heading_exact": "\tPsalm 130:1; 142:7",
+      "body_first_line": 337,
+      "body_last_line": 367,
+      "body_sha256": "404ae914192e80f560315c52af1175152aa6d6c9df941b088cbdbf320174a1af",
+      "selected_context": "Selected Season Joyous Saturday Parmoute 3, 1742 Saturday, April 11, 2026",
+      "capture_time": null,
+      "app_version": null
+    },
+    "word": {
+      "file": "saturday--liturgy-of-the-word.txt",
+      "sha256": "78570c0a89319493c6a1bade8fd41fbe64cf3c80b145deaf817ab8156b80df8f",
+      "bytes": 69733,
+      "line_count": 537,
+      "document_title": "Liturgy of the Word",
+      "navigation": [
+        "Special",
+        "Pascha",
+        "Saturday",
+        "Liturgy of the Word"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--liturgy-of-the-word.txt",
+      "heading_line": 432,
+      "heading_exact": "\tPsalms 82:8",
+      "body_first_line": 433,
+      "body_last_line": 459,
+      "body_sha256": "dce26d29933c0d1204d3e1d848f6ad8e2ba3c40d0cb299bf2f411a776a2d99fb",
+      "selected_context": "Selected Season Joyous Saturday Parmoute 3, 1742 Saturday, April 11, 2026",
+      "capture_time": null,
+      "app_version": null
+    }
+  },
+  "records": [
+    {
+      "handle": "matins-Ps-44:23-26",
+      "document": "matins",
+      "service_section": "Matins",
+      "source_order": "28",
+      "source_token_order": "2",
+      "legacy_source_row": {
+        "section": "MATINS / RAISING OF INCENSE",
+        "subsection": "Matins",
+        "reading_name": "Psalm + Gospel",
+        "reference": "Ps. 88:4-5; 44:23-26; 126:2-3 + Matt. 27:62-66",
+        "notes": "Psalm: half fast Paschal tune / half annual tune. Gospel: half Paschal tune / half annual tune.",
+        "assignee": "",
+        "tearoff": "Matins: Psalm + Gospel (half tunes)"
+      },
+      "legacy_ref": "Ps 44:23-26",
+      "source_selection_ref": "Ps 44:23,44:26",
+      "printed_ref": "Psalm 88:4-5; 44:23,26; 126:2-3",
+      "body_line": 1671,
+      "body_literal": "Awake, why do You sleep, O Lord? Arise, and do not cast us off forever. Arise, O Lord, and help us; redeem us for Your name's sake.",
+      "body_literal_sha256": "8e172e237cd3e73fd0e68f24a13222f94645fb595fc15fa21551477455b2395f",
+      "qualification_note": "Reader prints disjoint 44:23,26; selected body omits 24-25. Name-sake wording must not be presumed identical to another edition.",
+      "canonical_coordinate_status": "held_no_exact_cross_edition_counterpart",
+      "canonical_mt_ref": "",
+      "canonical_lxx_ref": "",
+      "fresh_app_verification": false
+    },
+    {
+      "handle": "matins-Ps-126:2-3",
+      "document": "matins",
+      "service_section": "Matins",
+      "source_order": "28",
+      "source_token_order": "3",
+      "legacy_source_row": {
+        "section": "MATINS / RAISING OF INCENSE",
+        "subsection": "Matins",
+        "reading_name": "Psalm + Gospel",
+        "reference": "Ps. 88:4-5; 44:23-26; 126:2-3 + Matt. 27:62-66",
+        "notes": "Psalm: half fast Paschal tune / half annual tune. Gospel: half Paschal tune / half annual tune.",
+        "assignee": "",
+        "tearoff": "Matins: Psalm + Gospel (half tunes)"
+      },
+      "legacy_ref": "Ps 126:2-3",
+      "source_selection_ref": "Ps 126:2-3",
+      "printed_ref": "Psalm 88:4-5; 44:23,26; 126:2-3",
+      "body_line": 1674,
+      "body_literal": "Then was our mouth filled with joy, and our tongue with exultation; then would they say among the Gentiles, The Lord has done great things among them. The Lord has done great things for us, we became joyful.",
+      "body_literal_sha256": "8c3b4f16db85ef4ccd087583b304b536376b5b95f1a1cd6171519e67072c9c33",
+      "qualification_note": "Printed 126:2-3 and English body preserved; joy/exultation wording is not a certification of another Bible edition.",
+      "canonical_coordinate_status": "held_no_exact_cross_edition_counterpart",
+      "canonical_mt_ref": "",
+      "canonical_lxx_ref": "",
+      "fresh_app_verification": false
+    },
+    {
+      "handle": "hours-Ps-142:7",
+      "document": "hours",
+      "service_section": "6th Hour",
+      "source_order": "32",
+      "source_token_order": "2",
+      "legacy_source_row": {
+        "section": "6TH HOUR",
+        "subsection": "6th Hour",
+        "reading_name": "Psalm + Gospel",
+        "reference": "Ps. 130:1; 142:7 + Matt. 5:3-12",
+        "notes": "Psalm: half fast Paschal tune / half annual tune. Gospel: half Paschal tune / half annual tune.",
+        "assignee": "",
+        "tearoff": "6th Hour: Psalm + Gospel (half tunes)"
+      },
+      "legacy_ref": "Ps 142:7",
+      "source_selection_ref": "Ps 142:7",
+      "printed_ref": "Psalm 130:1; 142:7",
+      "body_line": 347,
+      "body_literal": "Bring my soul out of prison, that I may give thanks to Your name, O Lord.",
+      "body_literal_sha256": "0cad7bf3fcd8a8bbeff6ba4d95ce9ec99d780201024aef505e7988ae948e6b6d",
+      "qualification_note": "Selected body contains only the prison/thanksgiving clause, not the righteous-surround-me continuation. Do not claim a full counterpart verse.",
+      "canonical_coordinate_status": "held_no_exact_cross_edition_counterpart",
+      "canonical_mt_ref": "",
+      "canonical_lxx_ref": "",
+      "fresh_app_verification": false
+    },
+    {
+      "handle": "word-Ps-82:8",
+      "document": "word",
+      "service_section": "Liturgy",
+      "source_order": "39",
+      "source_token_order": "2",
+      "legacy_source_row": {
+        "section": "ST. BASIL LITURGY – LITURGY OF THE WORD",
+        "subsection": "Liturgy",
+        "reading_name": "Psalm + Gospel",
+        "reference": "Ps. 3:5, 3; 82:8 + Matt. 28:1-20",
+        "notes": "Psalm: half fast Paschal tune / half annual tune. Gospel: half Paschal tune / half annual tune.",
+        "assignee": "",
+        "tearoff": "Liturgy: Psalm + Gospel (half tunes)"
+      },
+      "legacy_ref": "Ps 82:8",
+      "source_selection_ref": "Ps 82:8",
+      "printed_ref": "Psalms 82:8",
+      "body_line": 435,
+      "body_literal": "Arise, O God, judge the earth; For You shall inherit all nations.",
+      "body_literal_sha256": "e1256cb0205281ac8a8bf221beabd787a83c6e4dfc0a1340bd41bd51fd683d24",
+      "qualification_note": "Printed 82:8 and complete selected clause preserved; no separately authenticated target-edition verse witness is available in this bounded evidence pack.",
+      "canonical_coordinate_status": "held_no_exact_cross_edition_counterpart",
+      "canonical_mt_ref": "",
+      "canonical_lxx_ref": "",
+      "fresh_app_verification": false
+    }
+  ]
+}

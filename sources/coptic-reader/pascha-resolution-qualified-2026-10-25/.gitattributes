@@ -1,0 +1,3 @@
+# Preserve copied raw evidence verbatim; JSON/code remain normally checked.
+**/*.txt -text -whitespace
+**/*.png -text -diff -whitespace

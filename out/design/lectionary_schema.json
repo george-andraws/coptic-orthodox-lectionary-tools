@@ -52,20 +52,28 @@
       "historical_printed_witness",
       "scholarly_structural",
       "synaxarium_text_source",
-      "unclassified"
+      "unclassified",
+      "source_selection_only_canonical_hold"
     ],
     "source_convention": [
       "modern_english_reference",
       "mt_nkjv",
       "lxx_liturgical_or_fixture_label",
-      "existing_numeric_source_coordinates_alignment_held"
+      "existing_numeric_source_coordinates_alignment_held",
+      "unapproved_original_source_literal",
+      "coptic_reader_psalmody_lxx_chapter_only",
+      "coptic_reader_bright_composite_printed_selection_only"
     ],
     "canonicalization_confidence": [
       "high",
       "medium",
       "low",
       "n/a",
-      "held"
+      "held",
+      "source_chapter_qualified",
+      "bounded_parallel_locus_not_exact_edition_equivalence",
+      "source_qualified_named_excerpt",
+      "source_selection_only_canonical_hold"
     ],
     "current_status": [
       "current_confirmed_coptic_reader",
@@ -1599,6 +1607,8 @@
       "hour_theme",
       "source_ref",
       "raw_ref",
+      "superseded_by_ref",
+      "superseded_reason",
       "url",
       "provenance"
     ],

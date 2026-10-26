@@ -1,0 +1,831 @@
+{
+  "old_intended_count": 12168,
+  "new_intended_count": 12186,
+  "added_keys": [
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_29aa564742aeafa55f76"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_4035bb1b805d4f47bff0"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_49f1177df00633b817ee"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_53b37eb9d6f46d694a25"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_66871cf55c5141267339"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_98919b5cc78404c5f864"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_9c05bbcb5481f7d7bc4c"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_c97d359fb5c50a501166"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Gospel",
+      "rid_d9c531b022af5c009906"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_2339d165c017cdd3cbc5"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_2952755100537043083b"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_3b514cfd59aecb702543"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_4aa57aab7f10edcd3de4"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_4fd51ae962a2def336d0"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_6165e723b084078ef766"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_92686a4ca4952b56b395"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_b30c1df3593d02adabb6"
+    ],
+    [
+      "Fast of Nineveh",
+      "Vespers",
+      "",
+      "Psalm",
+      "rid_c73b16693c51ce9d71ba"
+    ]
+  ],
+  "removed_keys": [],
+  "independent_witness_groups": [
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_29aa564742aeafa55f76"
+      ],
+      "display_ref": "Matt 25:14-23",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2034-01-30",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 25:14 - 23",
+          "normalized_ref": "Matt 25:14 - 23",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2034&g_month=01&g_day=30",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_4035bb1b805d4f47bff0"
+      ],
+      "display_ref": "Matt 4:23-5:16",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2024-02-26",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 4:23-5:16",
+          "normalized_ref": "Matt 4:23-5:16",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2024&g_month=02&g_day=26",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_49f1177df00633b817ee"
+      ],
+      "display_ref": "Lk 10:38-52",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2029-01-29",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Lk 10:38-52",
+          "normalized_ref": "Lk 10:38-52",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2029&g_month=01&g_day=29",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_53b37eb9d6f46d694a25"
+      ],
+      "display_ref": "Lk 9:18-27",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2030-02-18",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Lk 9:18-27",
+          "normalized_ref": "Lk 9:18-27",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2030&g_month=02&g_day=18",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_66871cf55c5141267339"
+      ],
+      "display_ref": "Matt 26:6-13",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2023-02-06",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 26:6-13",
+          "normalized_ref": "Matt 26:6-13",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2023&g_month=02&g_day=06",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2028-02-07",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 26:6-13",
+          "normalized_ref": "Matt 26:6-13",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2028&g_month=02&g_day=07",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_98919b5cc78404c5f864"
+      ],
+      "display_ref": "Matt 10:34-42",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2031-02-03",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 10:34 - 42",
+          "normalized_ref": "Matt 10:34 - 42",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2031&g_month=02&g_day=03",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_9c05bbcb5481f7d7bc4c"
+      ],
+      "display_ref": "Matt 18:1-7",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2022-02-14",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 18:1-7",
+          "normalized_ref": "Matt 18:1-7",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2022&g_month=02&g_day=14",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2033-02-14",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 18:1-7",
+          "normalized_ref": "Matt 18:1-7",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2033&g_month=02&g_day=14",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_c97d359fb5c50a501166"
+      ],
+      "display_ref": "Lk 22:24-30",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2020-02-10",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Lk 22:24 - 30",
+          "normalized_ref": "Lk 22:24 - 30",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2020&g_month=02&g_day=10",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Gospel",
+        "rid_d9c531b022af5c009906"
+      ],
+      "display_ref": "Matt 24:42-47",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2021-02-22",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 24:42-47",
+          "normalized_ref": "Matt 24:42-47",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2021&g_month=02&g_day=22",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2025-02-10",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 24:42-47",
+          "normalized_ref": "Matt 24:42-47",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2025&g_month=02&g_day=10",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2026-02-02",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 24:42-47",
+          "normalized_ref": "Matt 24:42-47",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2026&g_month=02&g_day=02",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2027-02-22",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 24:42-47",
+          "normalized_ref": "Matt 24:42-47",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2027&g_month=02&g_day=22",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2032-02-23",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 24:42-47",
+          "normalized_ref": "Matt 24:42-47",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2032&g_month=02&g_day=23",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2035-02-19",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Gospel",
+          "raw_ref": "Matt 24:42-47",
+          "normalized_ref": "Matt 24:42-47",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2035&g_month=02&g_day=19",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_2339d165c017cdd3cbc5"
+      ],
+      "display_ref": "Ps 32:11 & 33:1 & 32:6",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2031-02-03",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 32:11  &  33:1  &  32:6",
+          "normalized_ref": "Psalm 32:11  &  33:1  &  32:6",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2031&g_month=02&g_day=03",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2034-01-30",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 32:11 &  33:1 &  32:6",
+          "normalized_ref": "Psalm 32:11 &  33:1 &  32:6",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2034&g_month=01&g_day=30",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_2952755100537043083b"
+      ],
+      "display_ref": "Ps 32:11 & Psalm 32:6",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2020-02-10",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 32:11  &  Psalm 32:6",
+          "normalized_ref": "Psalm 32:11  &  Psalm 32:6",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2020&g_month=02&g_day=10",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_3b514cfd59aecb702543"
+      ],
+      "display_ref": "Ps 65:4-5",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2025-02-10",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 65:4-5",
+          "normalized_ref": "Psalm 65:4-5",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2025&g_month=02&g_day=10",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2026-02-02",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 65:4-5",
+          "normalized_ref": "Psalm 65:4-5",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2026&g_month=02&g_day=02",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2035-02-19",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 65:4-5",
+          "normalized_ref": "Psalm 65:4-5",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2035&g_month=02&g_day=19",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_4aa57aab7f10edcd3de4"
+      ],
+      "display_ref": "Ps 89:36 & Psalm 89:29",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2030-02-18",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 89:36  &  Psalm 89:29",
+          "normalized_ref": "Psalm 89:36  &  Psalm 89:29",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2030&g_month=02&g_day=18",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_4fd51ae962a2def336d0"
+      ],
+      "display_ref": "Ps 115:12-13",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2022-02-14",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 115:12-13",
+          "normalized_ref": "Psalm 115:12-13",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2022&g_month=02&g_day=14",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2033-02-14",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 115:12-13",
+          "normalized_ref": "Psalm 115:12-13",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2033&g_month=02&g_day=14",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_6165e723b084078ef766"
+      ],
+      "display_ref": "Ps 87:3,87:5,87:7",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2029-01-29",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 87:3,5,7",
+          "normalized_ref": "Psalm 87:3,5,7",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2029&g_month=01&g_day=29",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_92686a4ca4952b56b395"
+      ],
+      "display_ref": "Ps 132:9-10,132:17-18",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2024-02-26",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 132:9,10,17,18",
+          "normalized_ref": "Psalm 132:9,10,17,18",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2024&g_month=02&g_day=26",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_b30c1df3593d02adabb6"
+      ],
+      "display_ref": "Ps 112:6-7,112:9",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2021-02-22",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 112:6,7,9",
+          "normalized_ref": "Psalm 112:6,7,9",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2021&g_month=02&g_day=22",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2027-02-22",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 112:6,7,9",
+          "normalized_ref": "Psalm 112:6,7,9",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2027&g_month=02&g_day=22",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2032-02-23",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 112:6,7,9",
+          "normalized_ref": "Psalm 112:6,7,9",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2032&g_month=02&g_day=23",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    },
+    {
+      "key": [
+        "Fast of Nineveh",
+        "Vespers",
+        "",
+        "Psalm",
+        "rid_c73b16693c51ce9d71ba"
+      ],
+      "display_ref": "Ps 69:25-26",
+      "witnesses": [
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2023-02-06",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 69:25-26",
+          "normalized_ref": "Psalm 69:25-26",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2023&g_month=02&g_day=06",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        },
+        {
+          "source": "copticchurch.net daily scrape",
+          "gregorian_date": "2028-02-07",
+          "weekday": "Monday",
+          "day_title": "Fast of Nineveh",
+          "service_section": "Vespers",
+          "reading_type": "Psalm",
+          "raw_ref": "Psalm 69:25-26",
+          "normalized_ref": "Psalm 69:25-26",
+          "parse_status": "ok",
+          "normalization_warning": "",
+          "url": "https://copticchurch.net/readings?g_year=2028&g_month=02&g_day=07",
+          "superseded_reason": "coptic_reader_no_service",
+          "correction_source": "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt"
+        }
+      ]
+    }
+  ]
+}

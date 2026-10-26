@@ -9,8 +9,8 @@ const root = path.resolve(__dirname, '..');
 // Surgical helper execution: no main(), package writes or artifact regeneration.
 function projectionHelpers() {
   const source = fs.readFileSync(path.join(root, 'scripts/build_npm_package.mjs'), 'utf8');
-  const start = source.indexOf('const SERVICE_ORDER =');
-  const end = source.indexOf('function disambiguateWeekdaySpecificRows(');
+  const start = source.indexOf('function dateToIso(');
+  const end = source.indexOf('async function main()');
   assert.ok(start > 0 && end > start);
   return vm.runInNewContext(source.slice(start, end) + '\n({ suppressLowerPriorityPassageVariants });');
 }

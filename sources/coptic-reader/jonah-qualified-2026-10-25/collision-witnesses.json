@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2022-02-15",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "context": "Selected Season Presentation of the Lord Christ in the Temple Meshir 8, 1738 Tuesday, February 15, 2022\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nTwenty-One Coptic Martyrs of Libya",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "printed_refs": [
+      "\tJonah 2:2-10"
+    ],
+    "sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "acceptance": "accepted_exact_dated_rendered_source_only",
+    "file": "2022-02-15/Matins/Prophecies.txt"
+  },
+  {
+    "date": "2022-02-15",
+    "service": "Matins",
+    "slot": "Psalm and Gospel",
+    "context": "Selected Season Presentation of the Lord Christ in the Temple Meshir 8, 1738 Tuesday, February 15, 2022\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nTwenty-One Coptic Martyrs of Libya",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "printed_refs": [
+      "\tPsalms 65:12,13",
+      "\tLuke 2:40-52"
+    ],
+    "sha256": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "acceptance": "accepted_exact_dated_rendered_source_only",
+    "file": "2022-02-15/Matins/Psalm_and_Gospel.txt"
+  },
+  {
+    "date": "2033-02-15",
+    "service": "Matins",
+    "slot": "Prophecies",
+    "context": "Selected Season Presentation of the Lord Christ in the Temple Meshir 8, 1749 Tuesday, February 15, 2033\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nTwenty-One Coptic Martyrs of Libya",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Prophecies"
+    ],
+    "printed_refs": [
+      "\tJonah 2:2-10"
+    ],
+    "sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "acceptance": "accepted_exact_dated_rendered_source_only",
+    "file": "2033-02-15/Matins/Prophecies.txt"
+  },
+  {
+    "date": "2033-02-15",
+    "service": "Matins",
+    "slot": "Psalm and Gospel",
+    "context": "Selected Season Presentation of the Lord Christ in the Temple Meshir 8, 1749 Tuesday, February 15, 2033\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nTwenty-One Coptic Martyrs of Libya",
+    "navigation": [
+      "Readings",
+      "Matins",
+      "Psalm and Gospel"
+    ],
+    "printed_refs": [
+      "\tPsalms 65:12,13",
+      "\tLuke 2:40-52"
+    ],
+    "sha256": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "acceptance": "accepted_exact_dated_rendered_source_only",
+    "file": "2033-02-15/Matins/Psalm_and_Gospel.txt"
+  }
+]

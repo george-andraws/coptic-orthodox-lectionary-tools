@@ -16,7 +16,8 @@ DATA = OUT / 'data'
 SCRIPT = OUT / 'scripts' / 'query_lectionary.py'
 REPAIR_REPORT = DATA / 'source_ref_repair_report.csv'
 from passage_normalization import canonicalize_text_ref, extract_text_ref_tokens, parse_passage, passage_matches
-from build_bible_chapter_lectionary_index import BOOKS
+from build_bible_chapter_lectionary_index import BOOKS, no_service_source_tuples, is_no_service_chapter_source
+import no_service_history
 
 CHAPTER_COUNTS = {abbrev: chapters for _, _, abbrev, chapters in BOOKS}
 
@@ -320,12 +321,15 @@ def assert_no_duplicate_reading_tuples():
     natural key includes the Gregorian date for that layer. For day-based source
     layers, the key is the stable liturgical day/service/slot/reading identity.
     """
-    crosswalk_rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
+    with (DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8') as handle:
+        crosswalk_rows = list(csv.DictReader(handle))
     seen: dict[tuple[str, ...], int] = {}
     duplicates = []
     for idx, row in enumerate(crosswalk_rows, 2):
         source_kind = row.get('source_kind', '')
-        if source_kind == 'copticchurch_date':
+        if source_kind == 'copticchurch_date' or (
+                source_kind == 'jonah_fast_date_supplement'
+                and row.get('source_family') == 'jonah_fast_source_qualified'):
             key = (
                 source_kind,
                 normalized_key(row.get('gregorian_date')),
@@ -348,7 +352,8 @@ def assert_no_duplicate_reading_tuples():
             seen[key] = idx
     assert not duplicates, duplicates[:10]
 
-    cycle_rows = list(csv.DictReader((DATA / 'katameros_cycle_passage_index.csv').open(newline='', encoding='utf-8')))
+    with (DATA / 'katameros_cycle_passage_index.csv').open(newline='', encoding='utf-8') as handle:
+        cycle_rows = list(csv.DictReader(handle))
     cycle_seen: dict[tuple[str, ...], int] = {}
     cycle_duplicates = []
     for idx, row in enumerate(cycle_rows, 2):
@@ -474,6 +479,17 @@ def assert_pascha_source_text_dedupe_invariants():
 
 
 
+def qualified_verse_unaddressable_source(row):
+    """Only exact authenticated Covenant excerpts may lack numeric coordinates."""
+    import covenant_thursday_source_supplements as covenant
+    if not str(row.get('source_file', '')).startswith(str(covenant.SOURCE_RELATIVE) + '/'):
+        return False
+    qualified = covenant.qualify_covenant_thursday_row(row)
+    return (qualified['coordinate_status'] == 'verse_unaddressable_named_excerpt'
+            and qualified['chapter_complete'] is False and not row.get('normalized_ref')
+            and all(not row.get(k) for k in ('chapter_start','chapter_end','verse_start','verse_end')))
+
+
 def assert_chapter_occurrence_row_count():
     """Check exact source-context membership, including duplicate multiplicity.
 
@@ -489,8 +505,14 @@ def assert_chapter_occurrence_row_count():
                       'gregorian_date', 'coptic_date', 'day_title', 'service_section',
                       'reading_type', 'source_ref', 'url')
     expected = Counter()
+    retained_tuples = no_service_source_tuples()
     for source in sources:
+        if is_no_service_chapter_source(source, retained_tuples):
+            no_service_history.qualify_projected(source)
+            continue
         parsed = parse_passage(source.get('passage', ''))
+        if parsed is None and qualified_verse_unaddressable_source(source):
+            continue
         assert parsed is not None, ('Unparsed chapter source', source.get('passage'))
         assert parsed.book_abbrev in CHAPTER_COUNTS, ('Unknown chapter book', parsed.book_abbrev)
         chapters = {chapter for part in parsed.parts
@@ -510,13 +532,24 @@ def assert_chapter_occurrence_row_count():
 
 
 def assert_reverse_crosswalk_spans_valid():
-    rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))
+    with (DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8') as handle:
+        rows = list(csv.DictReader(handle))
     invalid = []
     parsed_rows = 0
+    qualified_unaddressable_rows = 0
+    qualified_archive_source_only_rows = 0
+    retained_tuples = no_service_source_tuples()
     for row_number, row in enumerate(rows, 2):
+        if is_no_service_chapter_source(row, retained_tuples):
+            no_service_history.qualify_projected(row)
+            qualified_archive_source_only_rows += 1
+            continue
         passage = row.get('passage', '')
         parsed = parse_passage(passage)
         if not parsed:
+            if qualified_verse_unaddressable_source(row):
+                qualified_unaddressable_rows += 1
+                continue
             invalid.append({'row_number': row_number, 'passage': passage, 'reason': 'unparsed'})
             continue
         parsed_rows += 1
@@ -530,7 +563,9 @@ def assert_reverse_crosswalk_spans_valid():
             if part.chapter_start > chapter_count or part.chapter_end > chapter_count:
                 invalid.append({'row_number': row_number, 'passage': passage, 'reason': 'chapter_out_of_range', 'chapter_count': chapter_count})
     assert not invalid, invalid[:20]
-    return {'reverse_crosswalk_rows': len(rows), 'parsed_rows': parsed_rows, 'invalid_spans': 0}
+    return {'reverse_crosswalk_rows': len(rows), 'parsed_rows': parsed_rows,
+            'qualified_unaddressable_rows': qualified_unaddressable_rows,
+            'qualified_archive_source_only_rows': qualified_archive_source_only_rows, 'invalid_spans': 0}
 
 def assert_wednesday_pascha_day_hour_corrections():
     rows = list(csv.DictReader((DATA / 'reverse_lookup_crosswalk.csv').open(newline='', encoding='utf-8')))

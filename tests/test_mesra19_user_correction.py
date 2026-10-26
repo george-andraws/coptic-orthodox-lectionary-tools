@@ -79,7 +79,9 @@ class Mesra19UserCorrection(unittest.TestCase):
         policy = json.loads((ROOT / 'sources/lectionary_corrections.json').read_text())
         relative = 'sources/user-corrections/mesra-19-james.json'
         fixture = json.loads((ROOT / relative).read_text())
-        self.assertEqual(hashlib.sha256((ROOT / relative).read_bytes()).hexdigest(), policy['source_fingerprints'][relative])
+        fixture_digest = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
+        self.assertEqual(fixture_digest, '629217dea09e4d6de87dccc621da809e9a22f49aa68a7beec6c707345de953a1')
+        self.assertEqual(fixture_digest, policy['source_fingerprints'][relative])
         self.assertEqual(fixture['literal_user_instruction'], 'correction: Mesra 19 reading needs to be James 1:12-21')
         self.assertEqual(fixture['authority'], 'George user-supplied correction')
         for name, expected in fixture['source_fingerprints'].items():
@@ -103,7 +105,9 @@ class Mesra19UserCorrection(unittest.TestCase):
         rows = [dict(occasion=k[0], service_section=k[1], service_hour=k[2], slot=k[3], identity_key=k[4]) for k in after]
         with self.assertRaises(AssertionError):
             design.verify_reverse_index_contract(rows)
-        current = json.loads((ROOT / policy['seasonal_reverse_index_contract']).read_text())
+        # This historical oracle belongs to the Lamentations/Joel successor,
+        # not whichever source-qualified policy happens to be current today.
+        current = json.loads((ROOT / 'sources/user-corrections/reverse-source-key-contract-lamentations-joel-2026-10-19.json').read_text())
         current_keys = {tuple(k) for k in current['intended_keys']}
         bright_additions = {
             ('MATINS / RAISING OF INCENSE', 'Matins', '', 'Pauline Epistle', 'rid_0341c4e20a37f1b4cc0e'),
@@ -122,6 +126,72 @@ class Mesra19UserCorrection(unittest.TestCase):
         self.assertEqual(current_keys - {tuple(k) for k in previous['intended_keys']}, lamentations_added)
         with self.assertRaises(AssertionError):
             design.verify_reverse_index_contract(rows[:-1])
+
+    def test_complete_versioned_lineage_uses_pinned_source_ledgers_not_candidate_output(self):
+        contracts = [
+            ('sources/coptic-reader/bounded-release-2026-10-08/reverse-source-key-contract.json',
+             '06dd5c981b988ebd908c01c07e1c2ab4c186dcae29d25ec4c63d50ac1ebe34cf', 12185),
+            ('sources/user-corrections/reverse-source-key-contract-mesra19-v2.json',
+             '2d3c2557f49f23cefb469f3206b21e2c77a1ac2e4cd56f39b718e7c5941cb4d4', 12185),
+            ('sources/user-corrections/reverse-source-key-contract-bright-saturday-reader-gaps.json',
+             '821a087068b1ad1a8fcc74fa9f3c02dd5f4a1cddf0bdc32a75b6234bfc7783f8', 12190),
+            ('sources/user-corrections/reverse-source-key-contract-lamentations-joel-2026-10-19.json',
+             '9d4912dde1e3ad17eff478526e1e86e473b9dcca68b155976fa255683798bbd4', 12191),
+            ('sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json',
+             '739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d', 12168),
+            ('sources/user-corrections/reverse-source-key-contract-no-service-history-2026-10-25.json',
+             '86cb7ba6340f58da344782a19c96da94692b1bbb6747b793cbe05afcce301e02', 12186),
+        ]
+        contract = {}
+        previous = None
+        for relative, digest, count in contracts:
+            with self.subTest(contract=relative):
+                data = (ROOT / relative).read_bytes()
+                self.assertEqual(hashlib.sha256(data).hexdigest(), digest)
+                contract = json.loads(data)
+                keys = {tuple(k) for k in contract['intended_keys']}
+                self.assertEqual(len(keys), len(contract['intended_keys']))
+                self.assertEqual(len(keys), count)
+                if previous is not None:
+                    old_relative, old_digest, old_keys = previous
+                    self.assertEqual(contract['lineage']['previous_contract'], old_relative)
+                    self.assertEqual(contract['lineage']['previous_contract_sha256'], old_digest)
+                    # Early ledgers retain cumulative baseline deltas; their
+                    # immediate transition is separately recorded in lineage.
+                    mutation = contract['lineage'].get('mutation')
+                    delta = mutation if isinstance(mutation, dict) else contract
+                    added = {tuple(k) for k in delta['added_keys']}
+                    removed = {tuple(k) for k in delta['removed_keys']}
+                    self.assertEqual(keys - old_keys, added)
+                    self.assertEqual(old_keys - keys, removed)
+                    self.assertEqual(len(contract['added_keys']), contract['added_count'])
+                    self.assertEqual(len(contract['removed_keys']), contract['removed_count'])
+                previous = relative, digest, keys
+        # Preserve the former source-qualified domain and its original receipts.
+        qualified = json.loads((ROOT / contracts[-2][0]).read_text())
+        self.assertEqual((qualified['baseline_reverse_count'], qualified['removed_count'],
+                          qualified['added_count'], qualified['expected_reverse_count']),
+                         (12191, 81, 58, 12168))
+        self.assertEqual(qualified['lineage']['literal_source_plan_sha256'],
+                         '61f85bb4547cccbe3fc33027ec944455b0b8afba51c0b934876dcf2b0a3ea1fe')
+        self.assertEqual(qualified['lineage']['independent_source_plan_report_sha256'],
+                         'a264f4ee33f3b4252a62c0e810d50ee9a4b8b20b16b421943cd7085bdf8675d5')
+        # The independently approved successor adds archive identities only.
+        self.assertEqual((contract['baseline_reverse_count'], contract['removed_count'],
+                          contract['added_count'], contract['expected_reverse_count']),
+                         (12168, 0, 18, 12186))
+        for name, value in qualified['mandatory_qualifications'].items():
+            self.assertEqual(contract['mandatory_qualifications'][name], value)
+        plan = json.loads((ROOT / contract['lineage']['literal_source_plan']).read_text())
+        self.assertEqual(contract['added_keys'], plan['added_keys'])
+        self.assertEqual(contract['mandatory_qualifications']['no_service_archive_keys'], plan['added_keys'])
+        policy = json.loads((ROOT / 'sources/lectionary_corrections.json').read_text())
+        self.assertEqual(policy['seasonal_reverse_index_contract'], contracts[-1][0])
+        self.assertEqual(policy['source_fingerprints'][contracts[-1][0]], contracts[-1][1])
+        self.assertEqual(contract['lineage']['literal_source_plan_sha256'],
+                         '3e228f951da40452c6c3076f6a29dd0a428a4d7228d6ec3004c5113b22236a7d')
+        self.assertEqual(contract['lineage']['independent_source_plan_report_sha256'],
+                         'af2297112f542f02d8c0208e854d3ad63e554a0bc2aad4dbfb6aff4749ebe857')
 
     def test_loader_rejects_unbound_user_instruction_endpoint_and_evidence(self):
         import tempfile

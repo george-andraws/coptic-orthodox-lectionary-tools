@@ -1,0 +1,1012 @@
+{
+  "schema": 1,
+  "source_edition": "Retained Coptic Reader rendered bilingual Scripture, captured 2026-10-07; app version unavailable",
+  "authority": "New narrow user-authorized mapping/recurrence contract; not an old independent activation receipt",
+  "old_receipts_grant_activation": false,
+  "independent_runtime_review_approved": false,
+  "approval_sha256": "7ed7fcf10eae622af4633add3c55f0b497426f13757c7e17256c4aed08cc493e",
+  "days": [
+    {
+      "date": "2026-02-02",
+      "offset": -69,
+      "day_title": "Fast of Nineveh",
+      "selected_context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026",
+      "documents": [
+        {
+          "service": "Matins",
+          "slot": "Prophecies",
+          "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies.txt",
+          "sha256": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+          "retrieved_at": "2026-10-07T22:25:12.452Z",
+          "navigation": [
+            "Readings",
+            "Matins",
+            "Prophecies"
+          ],
+          "source_acceptance": "exact_dated_source_only",
+          "canonical_equivalence_approved": false,
+          "recurrence_approved": false,
+          "runtime_activation": false,
+          "printed_refs": [
+            "\tJonah 1:1-2:1"
+          ],
+          "english_label_sequence": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1
+          ],
+          "first_numbered_english": "1 Now the word of the Lord came to Jonah the son of Amittai, saying,",
+          "last_numbered_english": "1 Now the Lord had prepared a great fish to swallow Jonah. And Jonah was in the belly of the fish three days and three nights.",
+          "selected_picker_rows": [
+            {
+              "text": "2, Monday, February 2, 2026",
+              "role": "button",
+              "current": "true",
+              "selected": null,
+              "label": null
+            }
+          ],
+          "file": "2026-02-02/Matins/Prophecies.txt"
+        },
+        {
+          "service": "Matins",
+          "slot": "Psalm and Gospel",
+          "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel.txt",
+          "sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+          "retrieved_at": "2026-10-07T22:25:18.513Z",
+          "navigation": [
+            "Readings",
+            "Matins",
+            "Psalm and Gospel"
+          ],
+          "source_acceptance": "exact_dated_source_only",
+          "canonical_equivalence_approved": false,
+          "recurrence_approved": false,
+          "runtime_activation": false,
+          "printed_refs": [
+            "\tPsalms 102:1, 7",
+            "\tMatthew 7:6-12"
+          ],
+          "english_label_sequence": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "first_numbered_english": "6 “Do not give what is holy to the dogs; nor cast your pearls before swine, lest they trample them under their feet, and turn and tear you in pieces.",
+          "last_numbered_english": "12 Therefore, whatever you want men to do to you, do also to them, for this is the Law and the Prophets.",
+          "selected_picker_rows": [
+            {
+              "text": "2, Monday, February 2, 2026",
+              "role": "button",
+              "current": "true",
+              "selected": null,
+              "label": null
+            }
+          ],
+          "file": "2026-02-02/Matins/Psalm_and_Gospel.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Pauline Epistle",
+          "sha256": "c6f1bdb7b3c8ccc47e99111483ba4cdd6ed0ae4f3fd91b0abf8a0fda1352f53f",
+          "retrieved_at": "2026-10-07T23:11:56.817Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Pauline Epistle"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tRomans 6:17-23"
+          ],
+          "first_numbered_english": "17 But God be thanked that though you were slaves of sin, yet you obeyed from the heart that form of doctrine to which you were delivered.",
+          "last_numbered_english": "23 For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.",
+          "file": "2026-02-02/Liturgy/Pauline_Epistle.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Catholic Epistle",
+          "sha256": "04029a1cec56992520d4bfda7e623589913f912bb7e2f3d0cf4a42e93532dea5",
+          "retrieved_at": "2026-10-07T23:12:00.121Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Catholic Epistle"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tJude 1:1-13"
+          ],
+          "first_numbered_english": "1 Jude, a bondservant of Jesus Christ, and brother of James, To those who are called, sanctified by God the Father, and preserved in Jesus Christ:",
+          "last_numbered_english": "13 raging waves of the sea, foaming up their own shame; wandering stars for whom is reserved the blackness of darkness forever.",
+          "file": "2026-02-02/Liturgy/Catholic_Epistle.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Praxis",
+          "sha256": "0ab537f31ef4ac987794dce3e4eb3792099d2346b42aeab0340b0956bd903217",
+          "retrieved_at": "2026-10-07T23:12:03.638Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Praxis"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tActs 2:38-47"
+          ],
+          "first_numbered_english": "38 Then Peter said to them, “Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of your sins; and you shall receive the gift of the Holy Spirit.",
+          "last_numbered_english": "47 praising God and having favor with all the people. And the Lord added to the church daily those who were being saved.",
+          "file": "2026-02-02/Liturgy/Praxis.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Psalm and Gospel",
+          "sha256": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+          "retrieved_at": "2026-10-07T23:12:11.115Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Psalm and Gospel"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tPsalms 129:2,4",
+            "\tMatthew 12:35-45"
+          ],
+          "first_numbered_english": "35 A good man out of his good treasure brings forth good things, and an evil man out of his evil treasure brings forth evil things.",
+          "last_numbered_english": "45 Then he goes and takes with him seven other spirits more wicked than himself, and they enter and dwell there; and the last state of that man is worse than the first. So shall it also be with this wicked generation.”",
+          "file": "2026-02-02/Liturgy/Psalm_and_Gospel.txt"
+        }
+      ],
+      "appointments": [
+        {
+          "order": 1,
+          "service_section": "Matins",
+          "reading_type": "Prophecy",
+          "printed_ref": "Jonah 1:1-2:1",
+          "normalized_ref": "Jonah 1:1-17",
+          "evidence": "2026-02-02/Matins/Prophecies.txt",
+          "document_sha256": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+          "heading_line": 3,
+          "body_envelope_literal": "\tJonah 1:1-2:1\n(يونان 1: 1-2: 1)\nA reading from Jonah, the prophet. May his holy blessings be with us. Amen.\nمن يونان النبي بركته المقدسة تكون معنا. آمين.\n1 Now the word of the Lord came to Jonah the son of Amittai, saying,\n1 وَصَارَتْ كَلِمَةُ الرَّبِّ إِلَى يُونَانَ بْنِ أَمِتَّايَ قَائِلًا:\n2 “Arise, go to Nineveh, that great city, and cry out against it; for their wickedness has come up before Me.”\n2 \" قُمِ اِنْطَلِقْ إِلَى نِينَوَى الْمَدِينَةِ الْعَظِيمَةِ وَنَادِ عَلَيْهَا، لِأَنَّ صُرَاخَ شَرِّهَا قَدْ صَعِدَ إِلَيَّ \".\n3 But Jonah arose to flee to Tarshish from the presence of the Lord. He went down to Joppa, and found a ship going to Tarshish; so he paid the fare, and went down into it, to go with them to Tarshish from the presence of the Lord.\n3 فَقَامَ يُونَانُ لِيَهْرُبَ إِلَى تَرْشِيشَ مِنْ وَجْهِ الرَّبِّ، فَنَزَلَ إِلَى يَافَا فَوَجَدَ سَفِينَةً ذَاهِبَةً إِلَى تَرْشِيشَ، فَأَدَّى أُجْرَتَهَا وَنَزَلَ فِيهَا، لِيَذْهَبَ مَعَهُمْ إِلَى تَرْشِيشَ مِنْ وَجْهِ الرَّبِّ.\n4 But the Lord sent out a great wind on the sea, and there was a mighty tempest on the sea, so that the ship was about to be broken up.\n4 فَأَثَارَ الرَّبُّ رِيحًا شَدِيدَةً فِي الْبَحْرِ، فَأَحْدَثَتْ أَمْوَاجًا عَظِيمَةً فِي الْبَحْرِ وَأَشْرَفَتِ السَّفِينَةُ عَلَى الاِنْكِسَارِ.\n5 Then the mariners were afraid; and every man cried out to his god, and threw the cargo that was in the ship into the sea, to lighten the load. But Jonah had gone down into the lowest parts of the ship, had lain down, and was fast asleep.\n5 فَخَافَ الْمَلَّاحُونَ وَصَرَخُوا كُلُّ وَاحِدٍ إِلَى إلَهِهِ، وَطَرَحُوا الْأَمْتِعَةَ الَّتِي فِي السَّفِينَةِ إِلَى الْبَحْرِ لِيُخَفِّفُوا عَنْهُمْ. أَمَّا يُونَانُ فَنَزَلَ إِلَى جَوْفِ السَّفِينَةِ وَاِضْطَجَعَ وَاِسْتَغْرَقَ فِي النَّوْمِ.\n6 So the captain came to him, and said to him, “What do you mean, sleeper? Arise, call on your God; perhaps your God will consider us, so that we may not perish.”\n6 فَذَهَبَ إِلَيْهِ مُدَبِّرُ السَّفِينَةِ وَقَالَ لَهُ: \" مَا بَالُكَ مُسْتَغْرِقًا فِي النَّوْمِ؟ قُمْ فَاِطْلُبْ إِلَى إلَهِكَ لَعَلَّ اللَّهَ يُخَلِّصُنَا فَلَا نَهْلِكَ \".\n7 And they said to one another, “Come, let us cast lots, that we may know for whose cause this trouble has come upon us.” So they cast lots, and the lot fell on Jonah.\n7 وَقَالَ كُلُّ وَاحِدٍ لِصَاحِبهِ: \" هَلُمَّوا نُلْقِي قُرَعًا لِنَعْلَمَ بِسَبَبِ مَنْ أَصَابَنَا هَذَا الشَّرُّ \". فَأَلْقَوْا قُرَعًا، فَوَقَعَتِ الْقُرْعَةُ عَلَى يُونَانَ.\n8 Then they said to him, “Please tell us! For whose cause is this trouble upon us? What is your occupation? And where do you come from? What is your country? And of what people are you?”\n8 فَقَالُوا لَهُ: \" أَخْبِرْنَا لِأَنَّهُ بِسَبَبِكَ نَزَلَ بِنَا هَذَا الشَّرُّ مَا عَمَلُكَ؟ وَمِنْ أَيْنَ جِئْتَ؟ وَمِنْ أَيِّ قَرْيَةٍ؟ وَمِنْ أَيِّ شَعْبٍ أَنْتَ؟ \"\n9 So he said to them, “I am a Hebrew; and I fear the Lord, the God of heaven, who made the sea and the dry land.”\n9 فَقَالَ لَهُمْ: \" أَنَا عَبْدُ الرَّبِّ، وَإِنِّي أَخَافُهُ وَأَتَّقِي الرَّبَّ إِلَهَ السَّمَاءِ الَّذِي صَنَعَ الْبَحْرَ وَالْيَبَسَ \".\n10 Then the men were exceedingly afraid, and said to him, “Why have you done this?” For the men knew that he fled from the presence of the Lord, because he had told them.\n10 فَخَافَ الرِّجَالُ خَوْفًا عَظِيْمًا، وَقَالُوا لَهُ: \" لِمَاذَا فَعَلْتَ ذَلِكَ؟ \" لِأَنَّ الرِّجَالَ قَدْ عَلِمُوا أَنَّهُ هَارِبٌ مِنْ وَجْهِ الرَّبِّ، لِأَنَّهُ أَخْبَرَهُمْ.\n11 Then they said to him, “What shall we do to you that the sea may be calm for us?”—for the sea was growing more tempestuous.\n11 فَقَالُوا لَهُ: \" مَاذَا نَصْنَعُ بِكَ حَتَّى يَسْكُنَ الْبَحْرُ عَنَّا؟ \" لِأَنَّ الْبَحْرَ كَانَ يَزْدَادُ هِيَاجًا.\n12 And he said to them, “Pick me up and throw me into the sea; then the sea will become calm for you. For I know that this great tempest is because of me.”\n12 فَقَالَ لَهُمْ يُونَانُ: \" خُذُونِي وَأَلْقُونِي إِلَى الْبَحْرِ فَيَسْكُنَ الْبَحْرُ عَنْكُمْ، لِأَنَّنِي عَالِمٌ أَنَّ هَذَا الْمَوْجَ الْعَظِيمَ إِنَّمَا هَاجَ عَلَيْكُمْ بِسَبَبِي \".\n13 Nevertheless the men rowed hard to return to land, but they could not, for the sea continued to grow more tempestuous against them.\n13 وَكَانَ الرِّجَالُ يُجَذِّفُونَ لِيَرْجِعُوا إِلَى الْيَبَسِ فَلَمْ يَسْتَطِيعُوا، لِأَنَّ الرِّيحَ كَانَتْ شَدِيدَةً وَالْبَحْرُ اِزْدَادَ هِيَاجًا عَلَيْهُمْ.\n14 Therefore they cried out to the Lord and said, “We pray, O Lord, please do not let us perish for this man’s life, and do not charge us with innocent blood; for You, O Lord, have done as it pleased You.”\n14 فَصَرَخُوا إِلَى الرَّبِّ وَقَالُوا: \" أَيُّهَا الرَّبُّ، لَا تُهْلِكْنَا بِسَبَبِ نَفْسِ هَذَا الرَّجُلِ، وَلَا تَجْعَلْ عَلَيْنَا دَمًا زَكِيًّا، فَإِنَّكَ أَنْتَ أَيُّهَا الرَّبُّ قَدْ صَنَعْتَ كَمَا شِئْتَ \".\n15 So they picked up Jonah and threw him into the sea, and the sea ceased from its raging.\n15 ثُمَّ حَمَلُوا يُونَانَ وَطَرَحُوهُ فِي الْبَحْرِ، فَوَقَفَ الْبَحْرُ عَنْ تَمَوُّجِهِ.\n16 Then the men feared the Lord exceedingly, and offered a sacrifice to the Lord and took vows.\n16 فَخَافَ الرِّجَالُ مِنَ الرَّبِّ خَوْفًا عَظِيمًا، وَذَبَحُوا ذَبِيحَةً لِلرَّبِّ وَأَعْلَنُوا الصَّلَاةَ.\n1 Now the Lord had prepared a great fish to swallow Jonah. And Jonah was in the belly of the fish three days and three nights.\n1 فَأَمَرَ الرَّبُّ حُوتًا عَظِيمًا لِابْتِلَاعِ يُونَانَ. فَكَانَ يُونَانُ فِي جَوْفِ الْحُوتِ ثَلَاثَةَ أَيَّامٍ وَثَلَاثَ لَيَالٍ.\nGlory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen.\nⲞⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.\nمجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين.",
+          "body_envelope_sha256": "9e7c33fc245a9e8e536fa4171ebe8fff1d1de71c90e087ac4c30f2195abb66fe",
+          "coordinate_note": "Reader labels 1:1-16 followed by 2:1 great-fish sentence. Modern covering counterpart Jonah 1:1-17; Brenton Jonah 1:1-2:1. No prayer belongs to Monday. This is bounded passage coverage, not exact translation identity.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 2,
+          "service_section": "Matins",
+          "reading_type": "Psalm",
+          "printed_ref": "Psalms 102:1, 7",
+          "normalized_ref": "Ps 103:1,8",
+          "evidence": "2026-02-02/Matins/Psalm_and_Gospel.txt",
+          "document_sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+          "heading_line": 7,
+          "body_envelope_literal": "\tPsalms 102:1, 7\n(مزامير 102: 1, 7)\nBless the Lord, O my soul; And all that is within me, bless His holy name! The Lord is merciful and gracious, Slow to anger, and abounding in mercy.\nⲦⲁⲯⲩⲭⲏ ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦: ⲛⲏⲉⲧⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲓ ⲧⲏⲣⲟⲩ ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲉ︦ⲑ︦ⲩ︦: ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ ⲡⲉ Ⲡⲟ︦ⲥ︦: ⲟⲩⲣⲉϥⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲡⲉ ⲟⲩⲟϩ ⲛⲁϣⲉ ⲡⲉϥⲛⲁⲓ ⲁ︦ⲗ︦.\nبَارِكِي يَا نَفْسِي الرَّبَّ، وَيَا جَمِيعَ مَا فِي دَاخِلِي بَارِكْ اِسْمَهُ الْقُدُّوسَ. الرَّبُّ رَؤُوفٌ رَحِيمٌ، طَوِيلُ الْأَنَاةِ وَكَثِيرُ الرَّحْمَةِ.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل",
+          "body_envelope_sha256": "c7cba81352b7ae99902912a58d014a78aa39fb9fede34a5138732409ccda422a",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 3,
+          "service_section": "Matins",
+          "reading_type": "Gospel",
+          "printed_ref": "Matthew 7:6-12",
+          "normalized_ref": "Matt 7:6-12",
+          "evidence": "2026-02-02/Matins/Psalm_and_Gospel.txt",
+          "document_sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+          "heading_line": 34,
+          "body_envelope_literal": "\tMatthew 7:6-12\n(متى 7: 6-12)\n6 “Do not give what is holy to the dogs; nor cast your pearls before swine, lest they trample them under their feet, and turn and tear you in pieces.\nⲘ̀ⲡⲉⲣϯ ⲙ̀ⲡⲉⲑⲟⲩⲁⲃ ⲛ̀ⲛⲓⲟⲩϩⲱⲣ ⲟⲩⲇⲉ ⲙ̀ⲡⲉⲣϩⲓⲟⲩⲓ̀ ⲛ̀ⲛⲉⲧⲉⲛⲁ̀ⲛⲁⲙⲏⲓ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲉ̀ϣⲁⲩ ⲙⲏ ⲡⲟⲧⲉ ⲛ̀ⲥⲉϩⲱⲙⲓ ⲡ̀ⲉϫⲱⲟⲩ ⲛ̀ⲛⲟⲩϭⲁⲗⲁⲩϫ ⲟⲩⲟϩ ⲛ̀ⲥⲉⲕⲟⲧⲟⲩ ⲛ̀ⲥⲉⲫⲉϧ ⲑⲏⲛⲟⲩ.\n6 لاَ تُعْطُوا الْمُقَدَّسَ لِلْكِلاَبِ وَلاَ تَطْرَحُوا دُرَرَكُمْ قُدَّامَ الْخَنَازِيرِ لِئَلَّا تَدُوسَهَا بِأَرْجُلِهَا وَتَلْتَفِتَ فَتُمَزِّقَكُمْ.\n7 “Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.\nⲀ̀ⲣⲓⲉ̀ⲧⲓⲛ ⲟⲩⲟϩ ⲉⲩⲉ̀ϯ ⲛⲱⲧⲉⲛ ⲕⲱϯ ⲟⲩⲟϩ ⲉ̀ⲣⲉⲧⲉⲛⲉ̀ϫⲓⲙⲓ ⲕⲱⲗϩ ⲟⲩⲟϩ ⲉⲩⲉ̀ⲁⲟⲩⲱⲛ ⲛⲱⲧⲉⲛ.\n7 «اسْأَلُوا تُعْطَوْا. اطْلُبُوا تَجِدُوا. اقْرَعُوا يُفْتَحْ لَكُمْ.\n8 For everyone who asks receives, and he who seeks finds, and to him who knocks it will be opened.\nⲞⲩⲟⲛ ⲅⲁⲣ ⲛⲓⲃⲉⲛ ⲉⲧⲉⲣⲉ̀ⲧⲓⲛ ϣⲁϥϭⲓ ⲟⲩⲟϩ ⲫⲏⲉⲧⲕⲱϯ ϣⲁϥϫⲓⲙⲓ ⲟⲩⲟϩ ⲫⲏⲉⲧⲕⲱⲗϩ ϣⲁⲩⲟⲩⲱⲛ ⲛⲁϥ.\n8 لأَنَّ كُلَّ مَنْ يَسْأَلُ يَأْخُذُ وَمَنْ يَطْلُبُ يَجِدُ وَمَنْ يَقْرَعُ يُفْتَحُ لَهُ.\n9 Or what man is there among you who, if his son asks for bread, will give him a stone?\nⲒⲉ ⲛⲓⲙ ⲛ̀ⲣⲱⲙⲓ ⲉⲧϧⲉⲛ ⲑⲏⲛⲟⲩ ⲉ̀ⲧⲉ ⲡⲉϥϣⲏⲣⲓ ⲛⲁⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲙⲟϥ ⲛ̀ⲟⲩⲱⲓⲕ ⲙⲏ ϥ̀ⲛⲁϯ ⲛⲁϥ ⲛ̀ⲟⲩⲱ̀ⲛⲓ.\n9 أَمْ أَيُّ إِنْسَانٍ مِنْكُمْ إِذَا سَأَلَهُ ابْنُهُ خُبْزاً يُعْطِيهِ حَجَراً؟\n10 Or if he asks for a fish, will he give him a serpent?\nⲒⲉ ⲛ̀ⲧⲉϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲙⲟϥ ⲛ̀ⲟⲩⲧⲉⲃⲧ ⲙⲏ ϥ̀ⲛⲁϯ ⲛ̀ⲟⲩϩⲟϥ ⲛⲁϥ.\n10 وَإِنْ سَأَلَهُ سَمَكَةً يُعْطِيهِ حَيَّةً؟\n11 If you then, being evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask Him!\nⲒⲥϫⲉ ⲟⲩⲛ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲁⲛⲥⲁⲙⲡⲉⲧϩⲱⲟⲩ ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲉ̀ϯ ⲛ̀ⲛⲓⲧⲁⲓⲟ ⲉⲑⲛⲁⲛⲉⲩ ⲛ̀ⲛⲉⲧⲉⲛϣⲏⲣⲓ ⲓⲉ ⲁⲩⲏⲣ ⲙⲁⲗⲗⲟⲛ ⲡⲉⲧⲉⲛⲓⲱⲧ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲉϥⲉ̀ϯ ⲛ̀ⲛⲓⲁ̀ⲅⲁⲑⲟ ⲛ̀ⲛⲏⲉⲑⲛⲁⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲙⲟϥ.\n11 فَإِنْ كُنْتُمْ وَأَنْتُمْ أَشْرَارٌ تَعْرِفُونَ أَنْ تُعْطُوا أَوْلاَدَكُمْ عَطَايَا جَيِّدَةً فَكَمْ بِالْحَرِيِّ أَبُوكُمُ الَّذِي فِي السَّمَاوَاتِ يَهَبُ خَيْرَاتٍ لِلَّذِينَ يَسْأَلُونَهُ.\n12 Therefore, whatever you want men to do to you, do also to them, for this is the Law and the Prophets.\nϨⲱⲃ ⲇⲉ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲉⲧⲉⲛⲛⲁⲟⲩⲱϣ ϩⲓⲛⲁ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲁⲓⲧⲟⲩ ⲛⲱⲧⲉⲛ ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲱⲟⲩ ϩⲱⲧⲉⲛ ⲙ̀ⲡⲁⲓⲣⲏϯ ⲫⲁⲓ ⲅⲁⲣ ⲡⲉ ⲡⲓⲛⲟⲙⲟⲥ ⲛⲉⲙ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ.\n12 فَكُلُّ مَا تُرِيدُونَ أَنْ يَفْعَلَ النَّاسُ بِكُمُ افْعَلُوا هَكَذَا أَنْتُمْ أَيْضاً بِهِمْ لأَنَّ هَذَا هُوَ النَّامُوسُ وَالأَنْبِيَاءُ.",
+          "body_envelope_sha256": "e458bdf23e503a04e8e26c7d05a7a1a29168a6c1ec00a4d4e07bf99c19c03226",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 4,
+          "service_section": "Liturgy",
+          "reading_type": "Pauline Epistle",
+          "printed_ref": "Romans 6:17-23",
+          "normalized_ref": "Rom 6:17-23",
+          "evidence": "2026-02-02/Liturgy/Pauline_Epistle.txt",
+          "document_sha256": "c6f1bdb7b3c8ccc47e99111483ba4cdd6ed0ae4f3fd91b0abf8a0fda1352f53f",
+          "heading_line": 17,
+          "body_envelope_literal": "\tRomans 6:17-23\n(رومية 6: 17-23)\nReader:\nPaul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Romans. May his holy blessings be with us. Amen.\nالقارﺉُ:\nبولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى اهل رومية بركته تكون معنا. آمين.\n17 But God be thanked that though you were slaves of sin, yet you obeyed from the heart that form of doctrine to which you were delivered.\nⲠ̀ϩ̀ⲙⲟⲧ ⲇⲉ ⲙ̀ⲫϯ ϣⲏⲡ ϫⲉ ⲛⲁⲣⲉⲧⲉⲛⲟⲓ ⲙ̀ⲃⲱⲕ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲡⲉ ⲁⲣⲉⲧⲉⲛⲥⲱⲧⲉⲙ ⲇⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉⲧⲉⲛϩⲏⲧ ⲉ̀ⲡⲓⲧⲩⲡⲟⲥ ⲛ̀ⲥ̀ⲃⲱ ⲫⲏⲉⲧⲁⲩϯ ⲑⲏⲛⲟⲩ ⲉ̀ⲣⲟϥ.\n17 فَشُكْرًا لِلَّهِ، أَنَّكُمْ قَدْ كُنْتُمْ عَبِيدًا لِلْخَطِيئَةِ، فَسَمِعْتُمَ وَأَطَعْتُمْ مِنْ قُلُوبِكُمْ رَسْمَ التَّعْلِيمِ الَّذِي تَسَلَّمْتُمُوهُ.\n18 And having been set free from sin, you became slaves of righteousness.\nⲀⲣⲉⲧⲉⲛⲉⲣⲣⲉⲙϩⲉ ⲉ̀ⲃⲟⲗ ϩⲁ ⲫ̀ⲛⲟⲃⲓ ⲁⲣⲉⲧⲉⲛⲉⲣⲃⲱⲕ ⲇⲉ ⲛ̀ϯⲙⲉⲑⲙⲏⲓ.\n18 فَمِنْ ثَمَّ بَعْدَ أَنْ تَحَرَّرْتُمْ مِنَ الْخَطِيئَةِ صِرْتُمْ عَبِيدًا لِلْبِرِّ.\n19 I speak in human terms because of the weakness of your flesh. For just as you presented your members as slaves of uncleanness, and of lawlessness leading to more lawlessness, so now present your members as slaves of righteousness for holiness.\nⲞⲩⲙⲉⲧⲣⲱⲙⲓ ⲡⲉϯϫⲱ ⲙ̀ⲙⲟϥ ⲉⲑⲃⲉ ⲡ̀ϣⲱⲛⲓ ⲛ̀ⲧⲉⲧⲉⲛⲥⲁⲣⲝ ⲙ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲉⲧⲁⲣⲉⲧⲉⲛⲧⲁϩⲉ ⲛⲉⲧⲉⲛⲙⲉⲗⲟⲥ ⲙ̀ⲃⲱⲕ ⲙ̀ⲡ̀ϭⲱϧⲉⲙ ⲛⲉⲙ ϯⲁ̀ⲛⲟⲙⲓⲁ̀ ⲉ̀ϧ̀ⲣⲏⲓ ⲉ̀ϯⲁ̀ⲛⲟⲙⲓⲁ̀ ⲡⲁⲓⲣⲏϯ ⲟⲛ ϯⲛⲟⲩ ⲙⲁⲧⲁϩⲉ ⲛⲉⲧⲉⲛⲙⲉⲗⲟⲥ ⲙ̀ⲃⲱⲕ ⲛ̀ ϯⲙⲉⲑⲙⲏⲓ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ⲡ̀ⲧⲟⲩⲃⲟ.\n19 أَقُوْلُ كَلَامًا بَشَرِيًّا مِنْ أَجَلِ ضَعْفِ أَجْسَادِكُمْ. إِنَّكُمْ كَمَا جَعَلْتُمْ أَعْضَاءَكُمْ عَبِيدًا لِلنَّجَاسَةِ وَالْإِثمِ لِلْإِثمِ، كَذَلِكَ الْآنَ اجْعَلُوا أَعْضَاءَكُمْ عَبِيدًا لِلْبِرِّ لِلْقَدَاسَةِ.\n20 For when you were slaves of sin, you were free in regard to righteousness.\nϨⲟⲧⲉ ⲅⲁⲣ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲙ̀ⲃⲱⲕ ⲙ̀ⲫ̀ⲛⲟⲃⲓ ⲛⲁⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ⲣⲉⲙϩⲉ ⲡⲉ ⲛ̀ϯⲙⲉⲑⲙⲏⲓ.\n20 فَإِنَّكُمْ حِينَ كُنْتُمْ عَبِيدًا لِلْخَطِيئَةِ، صِرْتُمْ أَحْرَارًا لِلْبِرِّ.\n21 What fruit did you have then in the things of which you are now ashamed? For the end of those things is death.\nⲞⲩ ϫⲉ ⲛ̀ⲟⲩⲧⲁϩ ⲉⲛⲁϥϣⲟⲡ ⲛⲱⲧⲉⲛ ⲙ̀ⲡⲓⲥⲏⲟⲩ ϧⲉⲛ ⲛⲏⲉⲧⲉⲧⲉⲛϭⲓϣⲓⲡⲓ ⲉ̀ϫⲱⲟⲩ ϯⲛⲟⲩ ⲧ̀ϧⲁⲉ̀ ⲅⲁⲣ ⲛ̀ⲛⲏ ⲫ̀ⲙⲟⲩ ⲡⲉ.\n21 فَأَيُّ ثَمَرٍ حَصَلَ لَكُمْ إِذْ ذَاكَ مِنْ تِلْكَ الْأُمُورِ الَّتِي تَسْتَحُونَ مِنْهَا الْآنَ؟ إِنَّمَا عَاقِبَتُهَا الْمَوْتُ.\n22 But now having been set free from sin, and having become slaves of God, you have your fruit to holiness, and the end, everlasting life.\nϮⲛⲟⲩ ⲇⲉ ⲁⲣⲉⲧⲉⲛⲉⲣⲣⲉⲙϩⲉ ⲉ̀ⲃⲟⲗ ϩⲁ ⲫ̀ⲛⲟⲃⲓ ⲁⲣⲉⲧⲉⲛⲉⲣⲃⲱⲕ ⲙ̀ⲫϯ ⲟⲩⲟⲛ ⲛ̀ⲧⲱⲧⲉⲛ ⲙ̀ⲙⲁⲩ ⲙ̀ⲡⲉⲧⲉⲛⲟⲩⲧⲁϩ ⲉ̀ⲡ̀ⲧⲟⲩⲃⲟ ⲡ̀ϫⲱⲕ ⲇⲉ ⲟⲩⲱⲛϧ ϣⲁ ⲉⲛⲉϩ ⲡⲉ.\n22 وَأَمَّا الْآنَ وَقَدْ تَحَرَّرْتُمْ مِنَ الْخَطِيئَةِ، وَاِسْتُعْبِدْتُمْ لِلَّهِ، فَلَكُمْ ثَمَرُكُمْ لِلْقَدَاسَةِ، وَالْعَاقِبَةُ هِيَ الْحَيَاةُ الْأَبَدِيَّةُ.\n23 For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.\nⲚⲓⲟⲯⲱⲛⲓⲟⲛ ⲅⲁⲣ ⲛ̀ⲧⲉ ⲫ̀ⲛⲟⲃⲓ ⲫ̀ⲙⲟⲩ ⲡⲉ ⲡⲓϩ̀ⲙⲟⲧ ⲇⲉ ⲛ̀ⲧⲉ ⲫϯ ⲟⲩⲱⲛϧ ϣⲁ ⲉ̀ⲛⲉϩ ⲡⲉ ϧⲉⲛ Ⲡⲭ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ ⲡⲉⲛⲟ︦ⲥ︦\n23 لأَنَّ أُجْرَةَ الْخَطِيَّةِ هِيَ مَوْتٌ وَأَمَّا هِبَةُ اللهِ فَهِيَ حَيَاةٌ أَبَدِيَّةٌ بِالْمَسِيحِ يَسُوعَ رَبِّنَا.\nThe grace of God the Father be with you all. Amen.\nنعمة الله الآب تكون مع جميعِكم. آمين.",
+          "body_envelope_sha256": "03d080e0cc03f0b355e5b6667840543e58ac608cbeb2e325c0190cf58ab1c5c8",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 5,
+          "service_section": "Liturgy",
+          "reading_type": "Catholic Epistle",
+          "printed_ref": "Jude 1:1-13",
+          "normalized_ref": "Jude 1:1-13",
+          "evidence": "2026-02-02/Liturgy/Catholic_Epistle.txt",
+          "document_sha256": "04029a1cec56992520d4bfda7e623589913f912bb7e2f3d0cf4a42e93532dea5",
+          "heading_line": 5,
+          "body_envelope_literal": "\tJude 1:1-13\n(يهوذا 1: 1-13)\nThe Catholic Epistle from the Epistle of our teacher St. Jude. May his holy blessings be with us. Amen.\nالكاثوليكون من رسالة يهوذا الرسول. بركته تكون معنا. آمين.\n1 Jude, a bondservant of Jesus Christ, and brother of James, To those who are called, sanctified by God the Father, and preserved in Jesus Christ:\nⲒⲟⲩⲇⲁⲥ ⲫ̀ⲃⲱⲕ ⲛ̀Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ⲡⲥⲟⲛ ⲇⲉ ⲛ̀ⲓⲁⲕⲱⲃⲟⲥ ⲛ̀ⲛⲏⲉⲧⲁⲩⲙⲉⲛⲣⲓⲧⲟⲩ ϧⲉⲛ ⲫϯ ⲫ̀ⲓⲱⲧ ⲟⲩⲟϩ ⲁⲩⲁ̀ⲣⲉϩ ⲉ̀ⲣⲱⲟⲩ ⲛ̀Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ⲛⲏⲉⲧⲑⲁϩⲉⲙ.\n1 يَهُوذَا، عَبْدُ يَسُوعَ الْمَسِيحِ، وَأَخُو يَعْقُوبَ، إِلَى الْمَحْبُوبِينَ في اللَّهِ الآبِ، الْمَحْفُوظِينَ وَالْمَدْعُوِّينَ لِيَسُوعَ الْمَسِيحِ.\n2 Mercy, peace, and love be multiplied to you.\nⲪ̀ⲛⲁⲓ ⲛⲉⲙ ⲧ̀ϩⲓⲣⲏⲛⲏ ⲛⲉⲙ ϯⲁⲅⲁⲡⲏ ⲛ̀ⲧⲟⲩⲁ̀ϣⲁⲓ ⲛⲱⲧⲉⲛ.\n2 لِتَكْثُرْ لَكُمُ الرَّحْمَةُ وَالسَّلَامُ وَالْمَحَبَّةُ.\n3 Beloved, while I was very diligent to write to you concerning our common salvation, I found it necessary to write to you exhorting you to contend earnestly for the faith which was once for all delivered to the saints.\nⲚⲁⲙⲉⲛⲣⲁϯ ⲥ̀ⲡⲟⲩⲇⲏ ⲛⲓⲃⲉⲛ ⲉ̀ϯⲣⲁ ⲙ̀ⲙⲱⲟⲩ ⲉⲓⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲉⲑⲃⲉ ⲡⲉⲧⲉⲛⲟⲩϫⲁⲓ ⲉⲩⲥⲟⲡ ⲁⲥⲉⲣⲁⲛⲁⲅⲕⲏ ⲉ̀ⲣⲟⲓ ⲉ̀ⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲉ̀ϯⲛⲟⲙϯ ϫⲉ ⲛ̀ⲧⲉⲧⲉⲛⲉⲣⲁⲅⲱⲛⲓⲍⲉⲥⲑⲉ ϧⲉⲛ ⲡⲓⲛⲁϩϯ ⲉⲧⲁⲩⲧⲏⲓϥ ⲛ̀ⲟⲩⲥⲟⲡ ⲛ̀ⲧⲉⲛ ⲑⲏⲛⲟⲩ ϧⲁ ⲛⲓⲁ̀ⲅⲓⲟⲥ.\n3 أيُّهَا الأَحِبَّاءُ، إذْ كُنْتُ أَصْنَعُ كُلَّ الْجَهْدِ لأَكْتُبَ إلَيْكُمْ عَنْ خَلَاصِكُمْ جَمِيعًا، اضْطُرِرْتُ أَنْ أَكْتُبَ إلَيْكُمْ وَاعِظًا أَنْ تُجَاهِدُوا في الْإِيمَانِ الْمُسَلَّمِ مَرَّةً لَكُمْ أيُّهَا الْقِدِّيسُونَ.\n4 For certain men have crept in unnoticed, who long ago were marked out for this condemnation, ungodly men, who turn the grace of our God into lewdness and deny the only Lord God and our Lord Jesus Christ.\nⲀⲩⲥⲁϧⲙⲟⲩ ⲅⲁⲣ ⲛ̀ϫⲉ ϩⲁⲛⲣⲱⲙⲓ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲣⲟⲛ ⲛⲏⲉⲧⲁⲩⲉⲣϣⲟⲣⲡ ⲛ̀ⲥ̀ϧⲁⲓ ⲉⲑⲃⲏ ⲧⲟⲩ ⲉ̀ⲡⲁⲓϩⲁⲡ ⲉⲩⲟⲓ ⲛ̀ⲁⲥⲉⲃⲏⲥ ⲉⲩϣⲓⲃϯ ⲙ̀ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲡⲉⲛⲟ︦ⲥ︦ ⲉϧⲟⲩⲛ ⲉ̀ⲟⲩⲥⲱϥ ⲟⲩⲟϩ ⲫ̀ⲛⲏⲃ ⲙ̀ⲙⲁⲩⲁⲧϥ ⲡⲉⲛⲟ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ⲉⲩϫⲱⲗ ⲙ̀ⲙⲟϥ ⲉ̀ⲃⲟⲗ.\n4 لِأَنَّهُ قَد اخْتَلَطَ بِنَا أُنَاسٌ خُلْسَةً قَدْ سَبَقَ فَكُتِبَ عَنْهُمْ لِهذِهِ الدَّيْنُونَةِ، مُنَافِقُونَ، يُغِيِّرُونَ نِعْمَةَ رَبِّنَا إِلَى النَّجَاسَةِ، وَيُنْكِرُونَ السَّيِّدَ الْوَحِيدَ: رَبَّنَا يَسُوعَ الْمَسِيحَ.\n5 But I want to remind you, though you once knew this, that the Lord, having saved the people out of the land of Egypt, afterward destroyed those who did not believe.\nϮⲟⲩⲱϣ ⲉ̀ⲑ̀ⲣⲉⲧⲉⲛⲉ̀ⲙⲓ ϩⲱⲥ ⲉ̀ⲣⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲛ̀ϩⲱⲃ ⲛⲓⲃⲉⲛ ϫⲉ ⲟⲩⲥⲟⲡ ⲁ Ⲓⲏ︦ⲥ︦ ⲛⲟϩⲉⲙ ⲙ̀ⲡⲉϥⲗⲁⲟⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛ̀ⲭⲏⲙⲓ ⲫ̀ⲙⲁϩⲥⲟⲡ ⲇⲉ ⲃ︦ ⲛⲏⲉⲧⲉ ⲙ̀ⲡⲟⲩⲛⲁϩϯ ⲁϥⲧⲁⲕⲱⲟⲩ.\n5 فَأُرِيدُ أَنْ أُذَكِّرَكُمْ، وَلَوْ عَلِمْتُمْ كُلَّ شَيْءٍ، أَنَّ يَسُوعَ في الْمَرَّةِ الأُوْلَى خَلَّصَ شَعْبَهُ مِنْ أَرْضِ مِصْرَ، وَفي الْمَرَّةِ الثَّانِيَةِ أَهْلَكَ الَّذِينَ لَمْ يُؤْمِنُوا بِهِ.\n6 And the angels who did not keep their proper domain, but left their own abode, He has reserved in everlasting chains under darkness for the judgment of the great day;\nϨⲁⲛⲕⲉⲁⲅⲅⲉⲗⲟⲥ ⲙ̀ⲡⲟⲩⲁ̀ⲣⲉϩ ⲉⲧⲟⲩⲁⲣⲭⲏ ⲁⲗⲗⲁ ⲁⲩⲭⲱ ⲙ̀ⲡⲟⲩⲙⲁⲛ̀ϣⲱⲡⲓ ⲛ̀ⲥⲱⲟⲩ ⲁϥⲁ̀ⲣⲉϩ ⲉ̀ⲣⲱⲟⲩ ⲉ̀ϧⲟⲩⲛ ϧⲁ ⲡ̀ⲭⲁⲕⲓ ϧⲉⲛ ϩⲁⲛⲥ̀ⲛⲁⲩϩ ⲛ̀ⲉⲛⲉϩ ⲉ̀ⲡⲓϩⲁⲡ ⲛ̀ⲧⲉ ⲡⲓⲛⲓϣϯ ⲛ̀ⲉ̀ϩⲟⲟⲩ.\n6 وَالْمَلَائِكَةُ الَّذِينَ لَمْ يَحْفَظُوا رِئَاسَتَهُمْ، بَلْ تَرَكُوا مَسْكَنَهُمْ حَفِظَهُمْ إِلَى دَيْنُونَةِ الْيَوْمِ الْعَظِيمِ بِأَغْلَالٍ أَزَلِيَّةٍ تَحْتَ الظُّلْمَةِ.\n7 as Sodom and Gomorrah, and the cities around them in a similar manner to these, having given themselves over to sexual immorality and gone after strange flesh, are set forth as an example, suffering the vengeance of eternal fire.\nⲘ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲥⲟⲇⲟⲙⲁ ⲛⲉⲙ ⲅⲟⲙⲟⲣⲣⲁ ⲛⲉⲙ ⲛⲓⲕⲉⲡⲟⲗⲓⲥ ⲉⲧⲕⲱϯ ⲉ̀ⲣⲱⲟⲩ ⲉⲧⲁⲩⲉⲣⲡⲟⲣⲛⲉⲩⲓⲛ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲁⲓ ⲟⲩⲟϩ ⲁⲩϣⲉ ⲛⲱⲟⲩ ⲥⲁⲫⲁϩⲟⲩ ⲛ̀ϩⲁⲛⲕⲉⲥⲁⲣⲝ ⲥⲉⲭⲏ ⲉⲩⲥ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲡⲓⲭ̀ⲣⲱⲙ ⲛ̀ⲉⲛⲉϩ ⲉⲩⲛⲁϭⲓ ⲛ̀ⲟⲩϩⲁⲡ.\n7 كَمَا أَنَّ سَدُومَ وَعَمُورَةَ وَالْمُدُنَ الَّتِي حَوْلَهُمَا، إذْ زَنَتْ مِثْلَهُمَا، وَمَضَتْ وَرَاءَ جَسَدٍ آخَرَ، جُعِلَتْ مِثَالًا مُكَابِدَةً عِقَابَ نَارٍ أَبَدِيَّةٍ.\n8 Likewise also these dreamers defile the flesh, reject authority, and speak evil of dignitaries.\nⲠⲁⲓⲣⲏϯ ⲟⲛ ⲛⲁⲓⲕⲉⲭⲱⲟⲩⲛⲓ ⲥⲉⲥⲱϥ ⲛ̀ⲧⲟⲩⲥⲁⲣⲝ ϧⲉⲛ ⲡ̀ⲫⲱⲣ ⲛ̀ⲧⲉ ϩⲁⲛⲣⲁⲥⲟⲩⲓ̀ ϯ ⲙⲉⲧⲟ︦ⲥ︦ ⲇⲉ ⲥⲉϣⲱϣϥ ⲙ̀ⲙⲟⲥ ⲛⲓⲱⲟⲩ ⲥⲉϫⲉⲟⲩⲁ̀ ⲉ̀ⲣⲱⲟⲩ.\n8 وَكَذلِكَ هؤُلَاءِ أيْضًا، الْمُحْتَلِمُونَ، يُنَجِّسُونَ جَسَدَهُمْ، وَيَحْتَقِرُونَ السِّيَادَةَ، وَيَفْتَرُونَ عَلَى ذَوِي الأَمْجَادِ.\n9 Yet Michael the archangel, in contending with the devil, when he disputed about the body of Moses, dared not bring against him a reviling accusation, but said, “The Lord rebuke you!”\nⲘⲓⲭⲁⲏⲗ ⲇⲉ ⲡⲓⲁⲣⲭⲏⲁⲅⲅⲉⲗⲟⲥ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ⲟⲩⲃⲉ ⲡⲓⲇⲓⲁ̀ⲃⲟⲗⲟⲥ ⲛⲁϥⲥⲁϫⲓ ⲉⲑⲃⲉ ⲡ̀ⲥⲱⲙⲁ ⲙ̀ⲙⲱⲩⲥⲏⲥ ⲙ̀ⲡⲉϥⲉⲣⲧⲟⲗⲙⲁⲛ ⲉ̀ⲉ̀ⲛ ⲟⲩϩⲁⲡ ⲛ̀ϫⲉⲟⲩⲁ̀ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱϥ ⲁⲗⲗⲁ ⲡⲉϫⲁϥ ϫⲉ ⲉⲣⲉ Ⲡⲟ︦ⲥ︦ ⲉⲣⲉⲡⲓⲧⲓⲙⲁⲛ ⲛⲁⲕ.\n9 وَأمَّا مِيخَائِيلُ رَئِيسُ الْمَلَائِكَةِ، فَلَمَّا قَاوَمَ إبْلِيسَ وَتَكَلَّمَ عَنْ جَسَدِ مُوسَى، لَمْ يَجْسُرْ أَنْ يُورِدَ حُكْمَ افْتِرَاءٍ عَليهِ، بَلْ قَالَ: \" لِيَزْجُرْكَ الرَّبُّ \".\n10 But these speak evil of whatever they do not know; and whatever they know naturally, like brute beasts, in these things they corrupt themselves.\nⲚⲁⲓ ⲇⲉ ⲛⲏ ⲙⲉⲛ ⲉⲧⲉ ⲛ̀ⲥⲉⲉ̀ⲙⲓ ⲉ̀ⲣⲱⲟⲩ ⲁⲛ ⲥⲉϫⲉⲟⲩⲁ̀ ⲛ̀ϧⲏⲧⲟⲩ ⲛⲏ ⲇⲉ ⲉⲧⲟⲩⲥⲱⲟⲩⲛ ⲙ̀ⲙⲱⲟⲩ ⲫⲩⲥⲓⲕⲱⲥ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ̀ ⲛ̀ⲁⲧⲥⲁϫⲓ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲁⲓ ⲥⲉⲧⲁⲕⲏⲟⲩⲧ.\n10 وَلكِنَّ هؤُلَاءِ يَفْتَرُونَ عَلَى مَا لَا يَعْلَمُونَ. وَأمَّا مَا يَعْرِفُونَهُ بِالطَّبِيعَةِ، كَالْحَيَوَانَاتِ غَيْرِ النَّاطِقَةِ، فَفِي ذلِكَ يَفْسُدُونَ.\n11 Woe to them! For they have gone in the way of Cain, have run greedily in the error of Balaam for profit, and perished in the rebellion of Korah.\nⲞⲩⲟⲓ ⲛⲱⲟⲩ ϫⲉ ⲁⲩⲙⲟϣⲓ ϩⲓ ⲫ̀ⲙⲱⲓⲧ ⲟⲩⲟϩ ⲁⲩⲫⲱⲛ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲧⲥⲟⲣⲙⲉⲥ ⲙ̀ⲫ̀ⲃⲉⲭ ⲉ ⲙ̀ⲃⲁⲗⲁⲁⲙ ⲟⲩⲟϩ ⲁⲩⲧⲁⲕⲟ ϧⲉⲛ ϯ ⲁⲛⲧⲓⲗⲟⲅⲓⲁ ⲛ̀ⲧⲉ ⲕⲟⲣⲉ.\n11 الْوَيْلُ لَهُمْ؛ لِأَنَّهُمْ سَلَكُوا في طَرِيقِ قَايِينَ، وَانْصَبُّوا إِلَى ضَلَالَةِ بَلْعَامَ لأجْلِ أُجْرَةٍ، وَهَلَكُوا في مُجَادَلَةِ قُورَحَ.\n12 These are spots in your love feasts, while they feast with you without fear, serving only themselves. They are clouds without water, carried about by the winds; late autumn trees without fruit, twice dead, pulled up by the roots;\nⲚⲁⲓ ⲛⲉ ⲛⲏⲉⲧⲟⲓ ⲛ̀ⲁϭⲛⲓ ϧⲉⲛ ⲛⲉⲧⲉⲛⲁⲅⲁⲡⲏ ⲉⲩⲟⲩⲛⲟϥ ⲛⲉⲙⲱⲧⲉⲛ ⲉⲩⲟⲓ ⲙ̀ⲙⲁⲛⲉ̀ⲥⲱⲟⲩ ⲉ̀ⲣⲱⲟⲩ ⲙ̀ⲙⲁⲩⲁⲧⲟⲩ ϧⲉⲛ ⲟⲩⲙⲉⲧⲁⲧϩⲟϯ ϩⲁⲛϭⲏⲡⲓ ⲛ̀ⲁⲑⲙⲱⲟⲩ ⲛⲉ ⲟⲩⲟⲛ ⲉⲣⲉ ⲡ̀ⲑⲏ ⲟⲩ ϭⲓ ⲙ̀ⲙⲱⲟⲩ ⲟⲩⲟϩ ⲉϥⲓ̀ⲛⲓ ⲙ̀ⲙⲱⲟⲩ ϩⲁⲛϣ̀ϣⲏⲛ ⲛ̀ⲧⲉ ⲡ̀ⲑⲓⲛⲟⲡⲟⲣⲟⲛ ⲛⲉ ⲛ̀ⲁⲧⲟⲩⲧⲁϩ ⲉ̀ⲁⲩⲙⲟⲩ ⲛ̀ⲥⲟⲡⲃ︦ ⲉ̀ⲁⲩϥⲟϫⲟⲩ ⲛⲉⲙ ⲧⲟⲩⲛⲟⲩⲛⲓ.\n12 هؤُلَاءِ هُمُ الَّذِينَ في وِدَادِكُمْ مَلُومُون، يَتَنَعَّمُونَ مَعَكُمْ، رَاعِينَ أَنْفُسَهُمْ وَحْدَهُمْ بِلَا خَوْفٍ. غُيُومٌ بِلَا مَاءٍ تَحْمِلُهَا الرِّياحُ وَتَرُدُّهَا. أَشْجَارٌ خَرِيفِيَّةٌ بِلَا ثَمَرٍ قَدْ مَاتَتْ مَرَّتَيْنِ، وَقُلِعَتْ مِنْ أَصْلِهَا.\n13 raging waves of the sea, foaming up their own shame; wandering stars for whom is reserved the blackness of darkness forever.\nϨⲁⲛϩⲱⲓⲙⲓ ⲛ̀ⲁⲅⲣⲓⲟⲛ ⲛ̀ⲧⲉ ⲫ̀ⲓⲟⲙ ⲛⲉ ⲉⲩϩⲓⲥ̀ⲫⲏⲓϯ ⲛ̀ⲟⲩϣⲓⲡⲓ ϩⲁⲛⲥⲓⲟⲩ ⲉⲩⲥⲟⲣⲉⲙ ⲛⲉ ⲉⲩⲁ̀ⲣⲉϩ ⲛⲱⲟⲩ ⲉ̀ⲡ̀ⲭⲁⲕⲓ ⲛ̀ⲧⲉ ⲧ̀ⲭⲉⲙⲥ ⲛ̀ⲉⲛⲉϩ.\n13 أَمْوَاجُ بَحْرٍ هَائِجَةٌ مُزْبِدَةٌ بِخِزْيِهِمْ. نُجُومٌ تَائِهَةٌ مَحْفُوظٌ لَهَا قَتَامُ الظَّلَامِ إِلَى الأَبَدِ.\nDo not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ.\nلا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين.\n\tConclusion to the Coptic Catholic Epistle\n(Ⲛⲁⲥ̀ⲛⲏⲟⲩ...)",
+          "body_envelope_sha256": "5722d4c935adedf5a499912d00c1fb8a9d76614145e3e7972da5288dd925a3b8",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 6,
+          "service_section": "Liturgy",
+          "reading_type": "Acts of the Apostles",
+          "printed_ref": "Acts 2:38-47",
+          "normalized_ref": "Acts 2:38-47",
+          "evidence": "2026-02-02/Liturgy/Praxis.txt",
+          "document_sha256": "0ab537f31ef4ac987794dce3e4eb3792099d2346b42aeab0340b0956bd903217",
+          "heading_line": 5,
+          "body_envelope_literal": "\tActs 2:38-47\n(اعمال 2: 38-47)\nA reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen.\nفصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين.\n38 Then Peter said to them, “Repent, and let every one of you be baptized in the name of Jesus Christ for the remission of your sins; and you shall receive the gift of the Holy Spirit.\nⲠⲉⲧⲣⲟⲥ ⲇⲉ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ⲁ̀ⲣⲓⲙⲉⲧⲁⲛⲟⲓⲛ ⲟⲩⲟϩ ⲙⲁⲣⲉ ⲫ̀ⲟⲩⲁⲓ ⲫ̀ⲟⲩⲁⲓ ⲙ̀ⲙⲱⲧⲉⲛ ⲟⲙⲥϥ ⲉ̀ⲫ̀ⲣⲁⲛ ⲛ̀Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ⲉ̀ⲡ̀ⲭⲱ ⲉ̀ⲃⲟⲗ ⲛ̀ⲧⲉ ⲛⲉⲧⲉⲛⲛⲟⲃⲓ ⲟⲩⲟϩ ⲧⲉⲧⲉⲛⲛⲁϭⲓ ⲛ̀ϯⲇⲱⲣⲉⲁ̀ ⲛ̀ⲧⲉ Ⲡⲓⲡⲛ︦ⲁ︦ ⲉⲑⲟⲩⲁⲃ.\n38 فَقَالَ لَهُمْ بُطْرُسُ: \" تُوبُوا وَلْيَعْتَمِدْ كُلُّ وَاحِدٍ مِنْكُمْ عَلَى اسْمِ يَسُوعَ الْمَسِيحِ لِغُفْرَانِ خَطَايَاكُم، فَتَقْبَلُوا مَوْهِبةَ الرُّوحِ الْقُدُسِ.\n39 For the promise is to you and to your children, and to all who are afar off, as many as the Lord our God will call.”\nⲪⲱⲧⲉⲛ ⲅⲁⲣ ⲡⲉ ⲡⲓⲱϣ ⲛⲉⲙ ⲛⲉⲧⲉⲛⲓⲟϯ ⲛⲉⲙ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲑⲟⲩⲏⲟⲩ ⲛⲏⲉ̀ⲧⲉ Ⲡⲟ︦ⲥ︦ ⲡⲉⲛⲛⲟⲩϯ ⲛⲁⲑⲁϩⲙⲟⲩ.\n39 لِأَنَّ الْمَوْعِدَ هُوَ لَكُمْ وَلِأَبْنَائِكُمْ وَلِكُلِّ الَّذِينَ عَلَى بُعْدٍ، كُلِّ مَنْ يَدْعُوهُ الرَّبُّ إِلَهُنَا \".\n40 And with many other words he testified and exhorted them, saying, “Be saved from this perverse generation.”\nⲚ̀ϧ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲕⲉⲙⲏϣ ⲛ̀ⲥⲁϫⲓ ⲛⲁϥⲉⲣⲙⲉⲑⲣⲉ ⲛⲱⲟⲩ ⲟⲩⲟϩ ⲛⲁϥϧⲱⲛϫ ⲉ̀ⲣⲱⲟⲩ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲛⲁϩⲉⲙ ⲑⲏⲛⲟⲩ ⲉ̀ⲃⲟⲗϩⲁ ⲧⲁⲓⲅⲉ̀ⲛⲉⲁ̀ ⲉⲧⲕⲟⲗϫ.\n40 وَبِأَقْوَالٍ أُخَرَ كَثِيرَةٍ كَانَ يَشْهَدُ لَهُمْ وَيَعِظُهُمْ قَائِلاً: «اخْلُصُوا مِنْ هَذَا الْجِيلِ الْمُلْتَوِي».\n41 Then those who gladly received his word were baptized; and that day about three thousand souls were added to them.\nⲚⲏⲙⲉⲛ ⲟⲩⲛ ⲉ̀ⲧⲁⲩϣⲉⲡ ⲡⲓⲥⲁϫⲓ ⲉ̀ⲣⲱⲟⲩ ⲁⲩⲟⲙⲥⲟⲩ ⲟⲩⲟϩ ⲁⲩⲟⲩⲟϩ ⲉ̀ⲣⲱⲟⲩ ⲙ̀ⲡⲓⲉ̀ϩⲟⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲛ̀ϫⲉ ⲅ︦ ⲛ̀ϣⲟ ⲙ̀ⲯⲩⲭⲏ.\n41 فَالَّذِينَ قَبِلُوا الْكَلَامَ اعْتَمَدُوا، وَانْضَمَّ فِي ذَلِكَ الْيَوْمِ نَحْوُ ثَلَاثَةِ آلَافِ نَفْسٍ.\n42 And they continued steadfastly in the apostles’ doctrine and fellowship, in the breaking of bread, and in prayers.\nⲚⲁⲩⲙⲏⲛ ⲇⲉ ⲉ̀ϯⲥ̀ⲃⲱ ⲛ̀ⲧⲉ ⲛⲓⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲉⲙ ϯⲙⲉⲧϣ̀ⲫⲏⲣ ⲛ̀ⲧⲉ ⲡⲓⲫⲱϣ ⲛ̀ⲧⲉ ⲡⲓⲱⲓⲕ ⲛⲉⲙ ϯⲡⲣⲟⲥⲉⲩⲭⲏ.\n42 وَكَانُوا يُوَاظِبُونَ عَلَى تَعْلِيمِ الرُّسُلِ، وَشَرِكَةِ كَسْرِ الْخُبْزِ، وَالصَّلَاةِ.\n43 Then fear came upon every soul, and many wonders and signs were done through the apostles in Jerusalem.\nⲞⲩϩⲟϯ ⲇⲉ ⲛⲁⲥϣⲟⲡ ⲙ̀ⲯⲩⲭⲏ ⲛⲓⲃⲉⲛ ϩⲁⲛⲙⲏϣ ⲇⲉ ⲙ̀ⲙⲏⲛⲓ ⲛⲉⲙ ϩⲁⲛϣ̀ⲫⲏⲣⲓ ⲛⲁⲩϣⲟⲡ ⲡⲉ ⲉ̀ⲃⲟⲗϩⲓⲧⲟⲧⲟⲩ ⲛ̀ⲛⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ ϧⲉⲛ Ⲓⲗ︦ⲏ︦ⲙ︦ ⲟⲩⲛⲓϣϯ ⲇⲉ ⲛ̀ϩⲟϯ ⲛⲁⲥϣⲟⲡ ϩⲓϫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲡⲉ.\n43 وَصَارَ خَوْفٌ فِي كُلِّ نَفْسٍ. وَكَانَتْ آيَاتٌ كَثِيرَةٌ وَعَجَائِبُ تُجْرَى عَلَى أَيْدِي الرُّسُلِ فِي أُورُشَلِيمَ.\n44 Now, a great fear was being upon them all and all who believed were together, and had all things in common,\nⲚⲏⲇⲉ ⲧⲏⲣⲟⲩ ⲉ̀ⲧⲁⲩⲛⲁϩϯ ⲛⲁⲩϩⲓⲟⲩⲙⲁ ⲡⲉ ⲟⲩⲟϩ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛⲁⲩϣⲟⲡ ⲛⲱⲟⲩ ⲡⲉ ϧⲉⲛ ⲟⲩⲙⲉⲧϣ̀ⲫⲏⲣ.\n44 وَحَدَثَ خَوْفٌ عَظِيمٌ عَلَى جَمِيعِهِمْ، وَجَمِيعُ الَّذِينَ آمَنُوا كَانُوا مَعًا، وَكَانَ عِنْدَهُمْ كُلُّ شَيْءٍ مُشْتَرَكًا.\n45 and sold their possessions and goods, and divided them among all, as anyone had need.\nⲞⲩⲟϩ ⲛⲟⲩⲓⲟϩⲓ ⲛⲉⲙ ⲛⲟⲩϩⲩⲡⲁⲣⲭⲟⲛⲧⲁ̀ ⲛⲁⲩϯ ⲙ̀ⲙⲱⲟⲩ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲛⲁⲩⲫⲱϣ ⲙ̀ⲙⲱⲟⲩ ⲉ̀ϩ̀ⲣⲁⲩ ⲧⲏⲣⲟⲩ ⲕⲁⲧⲁ ⲡⲉⲧⲉ ⲡⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲉⲣⲭ̀ⲣⲓⲁ̀ ⲙ̀ⲙⲟϥ.\n45 وَأَمَلَاكُهُمْ وَأَمْوَالُهُمْ كَانُوا يَبِيعُونَهَا وَيَقْسِمُونَهَا بَيْنَهمْ جَمِيعًا، كَمَا يَكُونُ لِكُلِّ وَاحِدٍ احْتِيَاجٌ.\n46 So continuing daily with one accord in the temple, and breaking bread from house to house, they ate their food with gladness and simplicity of heart,\nⲚⲁⲩⲙⲏⲛ ⲇⲉ ⲙ̀ⲙⲏⲛⲓ ⲡⲉ ⲉ̀ⲡⲓⲉⲣⲫⲉⲓ ⲉⲩⲫⲱϣ ⲛ̀ⲟⲩⲱⲓⲕ ⲕⲁⲧⲁ ⲏⲓ ⲟⲩⲟϩ ⲛⲁⲩϭⲓ ⲛ̀ⲟⲩϧ̀ⲣⲉ ϧⲉⲛ ⲟⲩⲑⲉⲗⲏⲗ ⲛⲉⲙ ⲟⲩϩⲏⲧ ⲉϥⲟⲩⲁⲃ.\n46 وَكَانُوا كُلَّ يَوْمٍ يُوَاظِبُونَ فِي الْهَيْكَلِ بِنَفْسٍ وَاحِدَةٍ، وَيَكْسِرُونَ الْخُبْزَ فِي الْبُيُوتِ، وَيَتَنَاوَلُونَ الطَّعَامَ بِابْتِهَاجٍ وَنَقَاوَةِ قَلْبٍ،\n47 praising God and having favor with all the people. And the Lord added to the church daily those who were being saved.\nⲈⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲫϯ ⲉ̀ⲟⲩⲟⲛ ⲛ̀ⲧⲱⲟⲩ ⲙ̀ⲙⲁⲩ ⲛ̀ⲟⲩϩ̀ⲙⲟⲧ ϧⲁⲧⲉⲛ ⲡⲓⲗⲁⲟⲥ ⲧⲏⲣϥ Ⲡⲟ︦ⲥ︦ ⲇⲉ ϣⲁϥⲟⲩⲟϩ ⲉ̀ⲛⲏⲉ̀ⲧⲉϣⲁⲩⲛⲟϩⲉⲙ ⲙ̀ⲙⲏⲛⲓ ϩⲓ ⲫⲁⲓ ⲉ̀ⲫⲁⲓ.\n47 مُسَبِّحِينَ اللَّهَ، وَنَائِلِينَ حُظْوَةً لَدَى جَمِيعِ الشَّعْبِ. وَكَانَ الرَّبُّ كُلَّ يَوْمٍ يَضُمُّ الَّذِينَ يَخْلُصُونَ \" إِلَى الْبِيعَةِ \".\nThe word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.\nⲠⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ.\nوكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين.\n\tConclusion to the Coptic Praxis\n(Ⲡⲓⲥⲁϫⲓ...)",
+          "body_envelope_sha256": "e583a4e565a90085ed7e03dd90a03b5b8e17807883c3aabc2907794bf7af3263",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 7,
+          "service_section": "Liturgy",
+          "reading_type": "Psalm",
+          "printed_ref": "Psalms 129:2,4",
+          "normalized_ref": "Ps 130:2,4",
+          "evidence": "2026-02-02/Liturgy/Psalm_and_Gospel.txt",
+          "document_sha256": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+          "heading_line": 7,
+          "body_envelope_literal": "\tPsalms 129:2,4\n(مزامير 129: 2,4)\nIf You, Lord, should mark iniquities, O Lord, who could stand? But there is forgiveness with You. My soul has hoped in the Lord\nϪⲉ ⲁⲕϣⲁⲛϯϩ̀ⲑⲏⲕ ⲉ̀ⲁ̀ⲛⲟⲛⲓ̀ⲁ Ⲡⲟ︦ⲥ︦: Ⲡⲟ︦ⲥ︦ ⲛⲓⲙ ⲉⲑⲛⲁϣ̀ⲟϩ̀ⲓ ⲉ̀ⲣⲁⲧϥ: Ϫⲉ ⲡⲓⲭⲱ ⲉ̀ⲃⲟⲗ ⲟⲩⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧⲕ ⲡⲉ: ⲁⲥⲉⲣϩⲉⲗⲡⲓⲥ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲛ̀ϫⲉ ⲧⲁⲯⲩⲭⲏ. ⲁ︦ⲗ︦.\nإِنْ كُنْتَ لِلْآثَامِ رَاصِدًا يَا رَبُّ، يَا رَبُّ مَنْ يَقْدِرُ أَنْ يَثْبُتَ أَمَامَكَ؟ لِأَنَّ مِنْ عِنْدِكَ هُوَ الاِغْتِفَارُ. تَوَكَّلَتْ نَفْسِي عَلَى الرَّبِّ.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nLiturgy Gospel\nالإنجيل",
+          "body_envelope_sha256": "b441eb391fbc1a6bbb1bbf7a1593468614487d8f2f4f9dea061bab293db41f76",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 8,
+          "service_section": "Liturgy",
+          "reading_type": "Gospel",
+          "printed_ref": "Matthew 12:35-45",
+          "normalized_ref": "Matt 12:35-45",
+          "evidence": "2026-02-02/Liturgy/Psalm_and_Gospel.txt",
+          "document_sha256": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+          "heading_line": 34,
+          "body_envelope_literal": "\tMatthew 12:35-45\n(متى 12: 35-45)\n35 A good man out of his good treasure brings forth good things, and an evil man out of his evil treasure brings forth evil things.\nⲠⲓⲁ̀ⲅⲁⲑⲟⲥ ⲛ̀ⲣⲱⲙⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲉϥⲁ̀ϩⲟ ⲛ̀ⲁ̀ⲅⲁⲑⲟⲛ ϣⲁϥⲧⲁⲟⲩⲟ̀ ⲙ̀ⲡⲓⲁ̀ⲅⲁⲑⲟⲛ ⲉ̀ⲃⲟⲗ ⲟⲩⲟϩ ⲡⲓⲣⲱⲙⲓ ⲉⲧϩⲱⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲉϥⲁ̀ϩⲟ ⲉⲧϩⲱⲟⲩ ϣⲁϥⲧⲁⲟⲩⲟ̀ ⲙ̀ⲡⲓⲡⲉⲧϩⲱⲟⲩ ⲉ̀ⲃⲟⲗ.\n35 الْإِنْسَانُ الصَّالِحُ مِنْ كَنْزِهِ الصَّالِحِ يُخْرِجُ الصَّلَاحَ. والْإِنْسَانُ الشِّرِّيرُ مِنْ كَنْزِهِ الشِّرِّيرِ يُخْرِجُ الشَّرَّ.\n36 But I say to you that for every idle word men may speak, they will give account of it in the day of judgment.\nϮϫⲱ ⲇⲉ ⲙ̀ⲙⲟⲥ ⲛⲱⲧⲉⲛ ϫⲉ ⲥⲁϫⲓ ⲛⲓⲃⲉⲛ ⲉⲧϣⲟⲩⲓⲧ ⲉ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲛⲁϫⲟⲧⲟⲩ ⲥⲉⲛⲁϯ ⲗⲟⲅⲟⲥ ϧⲁⲣⲱⲟⲩ ϧⲉⲛ ⲡ̀ⲉ̀ϩⲟⲟⲩ ⲛ̀ⲧⲉ ϯⲕ̀ⲣⲓⲥⲓⲥ.\n36 ولَكِنْ أَقُولُ لَكُمْ: إِنَّ كُلَّ كَلِمَةٍ بَاطِلَةٍ يَقُولُهَا النَّاسُ سَوْفَ يُعْطُونَ عَنْهَا جَوَابًا فِي يَوْمِ الدِّينِ.\n37 For by your words you will be justified, and by your words you will be condemned.”\nⲈ̀ⲃⲟⲗ ⲅⲁⲣ ϧⲉⲛ ⲛⲉⲕⲥⲁϫⲓ ⲉⲕⲉ̀ⲙⲁⲓ ⲟⲩⲟϩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲕⲥⲁϫⲓ ⲉⲩⲉ̀ϯϩⲁⲡ ⲉ̀ⲣⲟⲕ.\n37 لِأَنَّهُ بِكَلَامِكَ تَتَبَرَّرُ وَبِكَلَامِكَ يُحْكَمُ عَليْكَ.\n38 Then some of the scribes and Pharisees answered, saying, “Teacher, we want to see a sign from You.”\nⲦⲟⲧⲉ ⲁⲩⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ ϩⲁⲛⲟⲩⲟⲛ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲥⲁϧ ⲛⲉⲙ ⲛⲓⲪⲁⲣⲓⲥⲉⲟⲥ ⲉⲩϫⲱ ⲙ̀ⲙⲟⲥ ϫⲉ ⲫ̀ⲣⲉϥϯⲥ̀ⲃⲱ ⲧⲉⲛⲟⲩⲱϣ ⲉ̀ⲛⲁⲩ ⲉ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲧⲟⲧⲕ.\n38 حِينَئِذٍ أَجَابَهُ قَوْمٌ مِنَ الْكَتَبَةِ وَالْفَرِّيسِيِّينَ قَائِلِينَ: \" أيُّهَا الْمُعَلِّمُ، نُرِيدُ أَنْ نَرَى مِنْكَ آيَةً \".\n39 But He answered and said to them, “An evil and adulterous generation seeks after a sign, and no sign will be given to it except the sign of the prophet Jonah.\nⲚ̀ⲑⲟϥ ⲇⲉ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ⲡⲓϫⲱⲟⲩ ⲉⲧϩⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲛⲱⲓⲕ ϥ̀ⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲙⲏⲓⲛⲓ ⲟⲩⲟϩ ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲟⲩⲧⲏⲓϥ ⲛⲁϥ ⲉ̀ⲃⲏⲗ ⲉ̀ⲡⲓⲙⲏⲓⲛⲓ ⲛ̀ⲧⲉ Ⲓⲱⲛⲁ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.\n39 أَمَّا هُوَ فَأَجَابَ وَقَالَ لَهُمْ: \" الجِيلُ الشِّرِّيرُ وَالْفَاسِقُ يَطْلُبُ آيَةً، وَلَنْ تُعْطَى لَهُ آيَةٌ إلَّا آيَةَ يُونَانَ النَّبِيِّ؛\n40 For as Jonah was three days and three nights in the belly of the great fish, so will the Son of Man be three days and three nights in the heart of the earth.\nⲘ̀ⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲛ̀Ⲓⲱⲛⲁ ⲉ̀ⲛⲁϥ ϧⲉⲛ ⲑ̀ⲛⲉϫⲓ ⲙ̀ⲡⲓⲕⲏⲧⲟⲥ ⲛ̀ⲅ︦ ⲛ̀ⲉ̀ϩⲟⲟⲩ ⲛⲉⲙ ⲅ︦ ⲛ̀ⲉ̀ϫⲱⲣϩ ⲡⲁⲓⲣⲏϯ ϩⲱϥ Ⲡ̀ϣⲏⲣⲓ ⲙ̀Ⲫ̀ⲣⲱⲙⲓ ⲉϥⲉ̀ⲉⲣ ⲅ︦ ⲛ̀ⲉ̀ϩⲟⲟⲩ ⲛⲉⲙ ⲅ︦ ⲛ̀ⲉ̀ϫⲱⲣϩ ϧⲉⲛ ⲡ̀ϩⲏⲧ ⲙ̀ⲡ̀ⲕⲁϩⲓ.\n40 لِأَنَّهُ كَمَا كَانَ يُونَانُ فِي بَطْنِ الْحُوتِ ثَلَاثَةَ أيَّامٍ وَثَلَاثَ لَيَالٍ، هَكَذَا يَكُونُ ابْنُ الْإِنْسَانِ فِي قَلْبِ الأَرْضِ ثَلَاثَةَ أيَّامٍ وَثَلَاثَ لَيَالٍ.\n41 The men of Nineveh will rise up in the judgment with this generation and condemn it, because they repented at the preaching of Jonah; and indeed a greater than Jonah is here.\nⲚⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉ Ⲛⲓⲛⲉⲩⲏ̀ ⲉⲩⲉ̀ⲧⲱⲟⲩⲛⲟⲩ ϧⲉⲛ ϯⲕ̀ⲣⲓⲥⲓⲥ ⲛⲉⲙ ⲡⲁⲓϫⲱⲟⲩ ⲟⲩⲟϩ ⲉⲩⲉ̀ϯϩⲁⲡ ⲉ̀ⲣⲟϥ ϫⲉ ⲁⲩⲉⲣⲙⲉⲧⲁⲛⲟⲓⲛ ⲉ̀ⲡⲓϩⲓⲱⲓϣ ⲛ̀ⲧⲉ Ⲓⲱⲛⲁ ⲟⲩⲟϩ ⲓⲥ ϩⲟⲩⲟ̀ ⲉ̀Ⲓⲱⲛⲁ ⲙ̀ⲡⲁⲓⲙⲁ.\n41 رِجَالُ نِينَوَى سَيَقُومُونَ فِي الدِّينِ مَعَ هذَا الْجِيلِ وَيَدِينُونَهُ؛ لِأَنَّهُمْ تَابُوا بِمُنَادَاةِ يُونَانَ، وَهُوَذَا أَفْضَلُ مِنْ يُونَانَ هَهُنَا!\n42 The queen of the South will rise up in the judgment with this generation and condemn it, for she came from the ends of the earth to hear the wisdom of Solomon; and indeed a greater than Solomon is here.\nϮⲟⲩⲣⲱ ⲛ̀ⲧⲉ Ⲥⲁⲣⲏⲥ ⲉⲥⲉ̀ⲧⲱⲛⲥ ϧⲉⲛ ϯⲕ̀ⲣⲓⲥⲓⲥ ⲛⲉⲙ ⲡⲁⲓϫⲱⲟⲩ ⲟⲩⲟϩ ⲉⲥⲉ̀ϯϩⲁⲡ ⲉ̀ⲣⲟϥ ϫⲉ ⲁⲥⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲁⲧ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲉ̀ⲥⲱⲧⲉⲙ ⲉ̀ϯⲥⲟⲫⲓⲁ̀ ⲛ̀ⲧⲉ Ⲥⲟⲗⲟⲙⲱⲛ ⲟⲩⲟϩ ⲓⲥ ϩⲟⲩⲟ̀ ⲉ̀Ⲥⲟⲗⲟⲙⲱⲛ ⲙⲡⲁⲓⲙⲁ.\n42 مَلِكَةُ التَّيْمَنِ سَتَقُومُ فِي الدِّينِ مَعَ هذَا الْجِيلِ وَتَدِينُهُ، لِأَنَّهَا أَتَتْ مِنْ أَقَاصِي الأَرْضِ لِتَسْمَعَ حِكْمَةَ سُلَيْمَانَ، وَهُوَذَا أَعْظَمُ مِنْ سُلَيْمَانَ هَهُنَا! إ\n43 “When an unclean spirit goes out of a man, he goes through dry places, seeking rest, and finds none.\nⲈ̀ϣⲱⲡ ⲇⲉ ⲛ̀ⲧⲉ ⲡⲓⲡⲛ︦ⲁ︦ ⲛ̀ⲁ̀ⲕⲁⲑⲁⲣⲧⲟⲛ ⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲡⲓⲣⲱⲙⲓ ϣⲁϥϣⲉⲛⲁϥ ⲉ̀ⲃⲟⲗ ⲉ̀ϩⲁⲛⲙⲁ ⲛ̀ⲁⲑⲙⲱⲟⲩ ⲉϥⲕⲱϯ ⲛ̀ⲥⲁ ⲙⲁⲛⲉⲙⲧⲟⲛ ⲟⲩⲟϩ ⲙ̀ⲡⲁϥϫⲓⲙⲓ.\n43 إذَا خَرَجَ الرُّوحُ النَّجِسُ مِنَ الْإِنْسَانِ يَمْضِي إِلَى أَمَاكِنَ لَيْسَ فِيهَا مَاءٌ، يَطْلُبُ رَاحَةً فَلَا يَجِدُ.\n44 Then he says, ‘I will return to my house from which I came.’ And when he comes, he finds it empty, swept, and put in order.\nⲦⲟⲧⲉ ϣⲁϥϫⲟⲥ ϫⲉ ⲉⲓⲉ̀ⲧⲁⲥⲑⲟ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲁⲏⲓ ⲡⲓⲙⲁ ⲉ̀ⲧⲁⲓⲓ̀ ⲉ̀ⲃⲟⲗⲛ̀ϧⲏⲧϥ ⲟⲩⲟϩ ⲁϥϣⲁⲛⲓ̀ ⲛ̀ⲧⲉϥϫⲉⲙϥ ⲉϥⲥ̀ⲣⲱϥⲧ ⲉϥⲥⲁⲣϩ ⲟⲩⲟϩ ⲉϥⲥⲉⲗⲥⲱⲗ.\n44 حِينَئِذٍ يَقُولُ: أَرْجِعُ إِلَى بَيْتِيَ الَّذِي خَرَجْتُ مِنْهُ. فَمَتَى جَاءَ يَجِدُهُ فَارِغًا مَكْنُوسًا مُزَيَّنًا.\n45 Then he goes and takes with him seven other spirits more wicked than himself, and they enter and dwell there; and the last state of that man is worse than the first. So shall it also be with this wicked generation.”\nⲦⲟⲧⲉ ϣⲁϥϣⲉⲛⲁϥ ⲛ̀ⲧⲉϥϭⲓ ⲛⲉⲙⲁϥ ⲛ̀ⲕⲉⲍ︦ ⲙ̀ⲡⲛ︦ⲁ︦ ⲉⲩϩⲱⲟⲩ ⲉ̀ϩⲟⲧⲉⲣⲟϥ ⲟⲩⲟϩ ϣⲁϥⲓ̀ ⲛ̀ⲧⲉϥϣⲱⲡⲓ ⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ϣⲁⲣⲉ ⲛⲓϧⲁⲉⲩ ⲛ̀ⲧⲉ ⲡⲓⲣⲱⲙⲓ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲧ̀ϩⲟ ⲛⲁϥ ⲉ̀ⲛⲉϥϩⲟⲩⲁϯ ⲡⲁⲓⲣⲏϯ ⲡⲉⲑⲛⲁϣⲱⲡⲓ ⲙ̀ⲡⲁⲓϫⲱⲟⲩ ⲉⲧϩⲱⲟⲩ.\n45 فَيَمْضِي حِينَئِذٍ وَيَأْخُذُ مَعَهُ سَبْعَةَ أَرْوَاحٍ آخَرِينَ شَرًّا مِنْهُ، فَيَأَتِي وَيَسْكُنُ هُنَاكَ، فَتَصِيرُ أَوَاخِرُ ذلِكَ الْإِنْسَانِ شَرًّا مِنْ أَوَائِلِهِ! هَكَذَا يَكُونُ لِهَذَا الْجِيلِ الشِّرِّيرِ.",
+          "body_envelope_sha256": "d57738b60316e24b1343be43c46e322f09013bde895306c0c96be0fdf05519db",
+          "coordinate_note": "Monday complete Reader table replaces conflicting ordinary scrape. Psalm canonical coordinates are clause-aligned separately from printed headings; 102:1,7 body is blessing + merciful/gracious (modern 103:1,8); 129:2,4 is modern 130:2,4. Non-Psalms retain source chapter/verse counterpart.",
+          "canonical_repair_required": false
+        }
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "offset": -68,
+      "day_title": "Tuesday of Ninevah's Fast",
+      "selected_context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026",
+      "documents": [
+        {
+          "service": "Matins",
+          "slot": "Prophecies",
+          "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies.txt",
+          "sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+          "retrieved_at": "2026-10-07T22:25:13.094Z",
+          "navigation": [
+            "Readings",
+            "Matins",
+            "Prophecies"
+          ],
+          "source_acceptance": "exact_dated_source_only",
+          "canonical_equivalence_approved": false,
+          "recurrence_approved": false,
+          "runtime_activation": false,
+          "printed_refs": [
+            "\tJonah 2:2-10"
+          ],
+          "english_label_sequence": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "first_numbered_english": "2 Then Jonah prayed to the Lord his God from the fish's belly and he said: “I cried out to the Lord because of my affliction, And He answered me. “Out of the belly of Sheol I cried, And You heard my voice.",
+          "last_numbered_english": "10 So the Lord commanded the fish, and it cast up Jonah on the dry land.",
+          "selected_picker_rows": [
+            {
+              "text": "3, Tuesday, February 3, 2026",
+              "role": "button",
+              "current": "true",
+              "selected": null,
+              "label": null
+            }
+          ],
+          "file": "2026-02-03/Matins/Prophecies.txt"
+        },
+        {
+          "service": "Matins",
+          "slot": "Psalm and Gospel",
+          "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel.txt",
+          "sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+          "retrieved_at": "2026-10-07T22:25:18.303Z",
+          "navigation": [
+            "Readings",
+            "Matins",
+            "Psalm and Gospel"
+          ],
+          "source_acceptance": "exact_dated_source_only",
+          "canonical_equivalence_approved": false,
+          "recurrence_approved": false,
+          "runtime_activation": false,
+          "printed_refs": [
+            "\tPsalms 102:13, 8-9",
+            "\tLuke 13:6-9"
+          ],
+          "english_label_sequence": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "first_numbered_english": "6 He also spoke this parable: “A certain man had a fig tree planted in his vineyard, and he came seeking fruit on it and found none.",
+          "last_numbered_english": "9 And if it bears fruit, well. But if not, after that you can cut it down.’”",
+          "selected_picker_rows": [
+            {
+              "text": "3, Tuesday, February 3, 2026",
+              "role": "button",
+              "current": "true",
+              "selected": null,
+              "label": null
+            }
+          ],
+          "file": "2026-02-03/Matins/Psalm_and_Gospel.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Pauline Epistle",
+          "sha256": "921b071eab3c106d1590e7361c4bad731147c5264de8e87e06d77af469d28246",
+          "retrieved_at": "2026-10-07T23:12:53.340Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Pauline Epistle"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tColossians 1:21-29"
+          ],
+          "first_numbered_english": "21 And you, who once were alienated and enemies in your mind by wicked works,",
+          "last_numbered_english": "29 To this end I also labor, striving according to His working which works in me mightily.",
+          "file": "2026-02-03/Liturgy/Pauline_Epistle.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Catholic Epistle",
+          "sha256": "5bcc306e5a50d9fb469527ced4fd2c5d5fcb9dea9de4c6d33a1a58a51ef9cfd2",
+          "retrieved_at": "2026-10-07T23:12:57.565Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Catholic Epistle"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\t1 Peter 4:3-11"
+          ],
+          "first_numbered_english": "3 For we have spent enough of our past lifetime in doing the will of the Gentiles—when we walked in lewdness, lusts, drunkenness, revelries, drinking parties, and abominable idolatries.",
+          "last_numbered_english": "11 If anyone speaks, let him speak as the oracles of God. If anyone ministers, let him do it as with the ability which God supplies, that in all things God may be glorified through Jesus Christ, to whom belong the glory and the dominion forever and ever. Amen.",
+          "file": "2026-02-03/Liturgy/Catholic_Epistle.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Praxis",
+          "sha256": "c39350523033491bfd9bb517b7c973b0f31088dde5462c2366c86f8b0b082be3",
+          "retrieved_at": "2026-10-07T23:13:01.371Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Praxis"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tActs 17:30-34"
+          ],
+          "first_numbered_english": "30 Truly, these times of ignorance God overlooked, but now commands all men everywhere to repent,",
+          "last_numbered_english": "34 However, some men joined him and believed, among them Dionysius the Areopagite, a woman named Damaris, and others with them.",
+          "file": "2026-02-03/Liturgy/Praxis.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Psalm and Gospel",
+          "sha256": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+          "retrieved_at": "2026-10-07T23:13:07.722Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Psalm and Gospel"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tPsalms 84:2",
+            "\tLuke 11:29-36"
+          ],
+          "first_numbered_english": "29 And while the crowds were thickly gathered together, He began to say, “This is an evil generation. It seeks a sign, and no sign will be given to it except the sign of Jonah the prophet.",
+          "last_numbered_english": "36 If then your whole body is full of light, having no part dark, the whole body will be full of light, as when the bright shining of a lamp gives you light.”",
+          "file": "2026-02-03/Liturgy/Psalm_and_Gospel.txt"
+        }
+      ],
+      "appointments": [
+        {
+          "order": 1,
+          "service_section": "Matins",
+          "reading_type": "Prophecy",
+          "printed_ref": "Jonah 2:2-10",
+          "normalized_ref": "Jonah 2:1-10",
+          "evidence": "2026-02-03/Matins/Prophecies.txt",
+          "document_sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+          "heading_line": 3,
+          "body_envelope_literal": "\tJonah 2:2-10\n(يونان 2: 2-10)\nA reading from Jonah, the prophet. May his holy blessings be with us. Amen.\nمن يونان النبي بركته المقدسة تكون معنا. آمين.\n2 Then Jonah prayed to the Lord his God from the fish's belly and he said: “I cried out to the Lord because of my affliction, And He answered me. “Out of the belly of Sheol I cried, And You heard my voice.\n2 فَصَلَّى يُونَانُ إِلَى الرَّبِّ إِلَهِهِ مِنْ جَوْفِ الْحُوتِ، وَقَالَ: \" إِلَى الرَّبِّ إلَهِي صَرَخْتُ فِي ضِيْقِي، فَاِسْتَجَابَ لِي. وَمِنْ جَوْفِ الْهَاوِيَةِ سَمِعَ صَوتِي.\n3 For You cast me into the deep, Into the heart of the seas, And the floods surrounded me; All Your billows and Your waves passed over me.\n3 قَدْ طَرَحْتَنِي فِي الْعُمْقِ فِي قَاعِ الْبَحْرِ، فَأَحَاطَتْ بِيَ الْأَنْهَارُ، وَجَازَتْ عَلَيَّ جَمِيعُ تَيَّارَاتِكَ وَأَمْوَاجِكَ.\n4 Then I said, ‘I have been cast out of Your sight; Shall I indeed look again toward Your holy temple?\n4 فَقُلْتُ: إِنِّي قَدْ طُرِدْتُ عَنْ عَيْنَيْكَ. فَهَلْ أَعَوْدُ أَنْظُرُ هَيْكَلَ قُدْسِكَ؟\n5 The waters surrounded me, even to my soul; The deep closed around me; My head went down to the clefts of mountains.\n5 قَدْ اِنْسَكَبَتْ عَليَّ الْمِيَاهُ حَتَّى نَفْسِي. وغَطَّانِيَ الْغَمْرُ الْأَقْصَى. غَطَسَتْ رَأْسِي فِي شُقُوقِ جِبَالٍ.\n6 I went down into the earth whose bars are the everlasting barriers; Yet You shall bring up my life from the ruines, O Lord, my God.\n6 وَنَزَلْتُ إِلَى أَرْضٍ، مَزَالِيجُهَا مُغْلَقَةٌ إِلَى الْأَبَدِ. وَلَكِنَّكَ سَتُصْعِدُ حَيَاتِي مِنَ الْفَسَادِ أَيُّهَا الرَّبُّ إِلَهِي.\n7 “When my soul fainted within me, I remembered the mercy of the Lord; And my prayer come up to You, Into Your holy temple.\n7 عِنْدَ فَنَاءِ نَفْسِي مِنِّي، تَذَكَّرْتُ رَحْمَةَ الرَّبِّ، فَلْتَصْعَدْ إِلَيْكَ صَلَاتِي إِلَى هَيْكَلِكَ الْمُقَدَّسِ.\n8 “Those who regard vanities and lies have forsaken their own Mercy.\n8 إِنَّ الَّذِينَ يَحْفَظُونَ الْأَبَاطِيلَ وَالْكَذِبَ يُهْمِلُونَ رَحْمَتَهُمْ.\n9 But I will sacrifice to You With the voice of praise and thanksgiving; I will pay all what I have vowed to You, the Lord of my salvation.”\n9 أَمَّا أَنَا فَبِصَوْتِ تَضَرُّعٍ وَاِعْتِرَافٍ أَذْبَحُ لَكَ، وَمَا نَذَرْتُهُ أُوفِيكَ بِهِ أَيُّهَا الرَّبُّ مُخَلِّصِي \".\n10 So the Lord commanded the fish, and it cast up Jonah on the dry land.\n10 فَأَمَرَ الرَّبُّ الْحُوتَ فَقَذَفَ يُونَانَ إِلَى البَرِّ.\nGlory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen.\nⲞⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.\nمجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين.",
+          "body_envelope_sha256": "40b1394610a6b3f80753651d64030ada16c6a9ef2e9e0ee25873a1a799dfd554",
+          "coordinate_note": "Reader numbered unit 2 joins modern Jonah 2:1 introduction and 2:2 cried-out clauses. Closing unit 10 is the dry-land release, modern 2:10 / Brenton 2:11. Modern covering locus Jonah 2:1-10, not exact NKJV whole-body equivalence: Reader 2:5 has clefts of mountains instead of NKJV weeds; 2:6 redistributes mountains/earth and has future restoration; 2:7 adds mercy; 2:9 praise and salvation wording follows a different edition. Brenton counterpart 2:2-11, not a flat verse-label shift.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 2,
+          "service_section": "Matins",
+          "reading_type": "Psalm",
+          "printed_ref": "Psalms 102:13, 8-9",
+          "normalized_ref": "Ps 103:14-15 & Ps 103:9-10",
+          "evidence": "2026-02-03/Matins/Psalm_and_Gospel.txt",
+          "document_sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+          "heading_line": 7,
+          "body_envelope_literal": "\tPsalms 102:13, 8-9\n(مزامير 102: 13, 8-9)\nHe remembers that we are dust. As for man, his days are like grass. He will not always strive with us, Nor will He keep His anger forever. He has not dealt with us according to our sins, Nor punished us according to our iniquities.\nⲀⲣⲓⲫ̀ⲙⲉⲩⲓ̀ Ⲡⲟ︦ⲥ︦ ϫⲉ ⲁ̀ⲛⲟⲛ ⲟⲩⲕⲁϩⲓ: ⲟⲩⲟϩ ⲫ̀ⲣⲱⲙⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲥⲓⲙ ϧⲉⲛ ⲛⲉϥⲉ̀ϩⲟⲟⲩ: ϥ̀ⲛⲁϫⲱⲛⲧ ⲉ̀ⲣⲟⲛ ⲁⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ϧⲁⲉ̀ ⲟⲩⲇⲉ ⲛ̀ⲛⲉϥⲙ̀ⲃⲟⲛ ϣⲁ ⲉ̀ⲛⲉϩ: ⲉ̀ⲧⲁϥⲓ̀ⲣⲓ ⲇⲉ ⲛⲁⲛ ⲁⲛ ⲕⲁⲧⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲟⲩⲇⲉ ⲕⲁⲧⲁ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ̀ ⲁ̀ⲛⲟⲛ ⲁϥϯϣⲉⲃⲓⲱ̀ ⲛⲁⲛ. ⲁ︦ⲗ︦.\nاُذْكُرْ يَا رَبُّ أَنَّنَا تُرَابٌ. الْإِنْسَانُ أَيَّامُهُ كَالْعُشْبِ. لَيْسَ إِلَى الْاِنْقِضَاءِ يَسْخَطُ وَلَا إِلَى الدَّهْرِ يَحْقِدُ. لَا عَلَى حَسَبِ خَطَايَانَا عَامَلَنَا وَلَا عَلَى حَسَبِ آثَامِنَا كَافَأَنَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل",
+          "body_envelope_sha256": "5b2413c12582077cd684c2b281e83dfc5536b7e7add576b485798760d32e607b",
+          "coordinate_note": "Reader English remembers dust; man days grass; not always strive/anger; not dealt according sins. These correspond to Brenton 102:14b,15a,9,10 and modern covering Ps 103:14-15,9-10, in that order. Not Reader printed 102:13,8-9, not modern Psalm 102, and no ways-to-Moses verse 7. Partial endpoint verses are covering loci, not whole-verse word identity.",
+          "canonical_repair_required": true
+        },
+        {
+          "order": 3,
+          "service_section": "Matins",
+          "reading_type": "Gospel",
+          "printed_ref": "Luke 13:6-9",
+          "normalized_ref": "Luke 13:6-9",
+          "evidence": "2026-02-03/Matins/Psalm_and_Gospel.txt",
+          "document_sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+          "heading_line": 34,
+          "body_envelope_literal": "\tLuke 13:6-9\n(لوقا 13: 6-9)\n6 He also spoke this parable: “A certain man had a fig tree planted in his vineyard, and he came seeking fruit on it and found none.\nⲚⲁϥϫⲱ ⲇⲉ ⲛⲧⲁⲓⲡⲁⲣⲁⲃⲟⲗⲏ ⲛⲱⲟⲩ ϫⲉ ⲛⲉ ⲟⲩⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲁⲓ ⲛ̀ⲟⲩⲃⲱ ⲛ̀ⲕⲉⲛⲧⲉ ⲉⲥ ϭⲏⲟⲩⲧ ϧⲉⲛ ⲡⲉϥⲓⲁϩⲁ̀ⲗⲟⲗⲓ ⲟⲩⲟϩ ⲁϥⲓ̀ ⲁϥⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲧⲁϩ ϩⲓⲱⲧⲥ ⲟϩ ⲙ̀ⲡⲉϥϫⲓⲙⲓ.\n6 وَقَالَ لَهُمْ هَذَا الْمَثَلَ: \" كَانَ لِوَاحِدٍ تِينَةٌ مَغرُوسَةٌ فِي كَرْمِهِ، فَجَاءَ يَطْلُبُ فِيهَا ثَمَرًا فَلَمْ يَجِدْ.\n7 Then he said to the keeper of his vineyard, ‘Look, for three years I have come seeking fruit on this fig tree and find none. Cut it down; why does it use up the ground?’\nⲠⲉϫⲁϥ ⲇⲉ ⲙ̀ⲡⲓⲟⲩⲱⲓ ⲛ̀ⲁ̀ⲗⲟⲗⲓ ϫⲉ ⲓⲥ ⲅ︦ϯ ⲛ̀ⲣⲟⲙⲡⲓ ⲓⲥϫⲉⲛ ⲉⲓⲛⲏⲟⲩ ⲉⲓⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲧⲁϩ ϧⲉⲛ ⲧⲁⲓⲃⲱ ⲛ̀ⲕⲉⲛⲧⲉ ⲟⲩⲟϩ ϫⲓⲙⲓ ⲁⲛ ⲕⲟⲣϫⲥ ⲟⲩⲛ ϩⲓⲛⲁ ⲟⲩ ϫⲉ ⲥⲉⲣⲡ̀ⲕⲉⲕⲱⲣϥ ⲙ̀ⲡⲓⲕⲁϩⲓ.\n7 فَقَالَ لِلْكَرَّامِ: هَا إِنَّ لِي ثَلَاثَ سِنِينَ آتِي وَأَطْلُبُ ثَمَرًا فِي هَذِهِ التِّينَةِ فَلَا أَجِدُ. فَاقْطَعْهَا! فَلِمَاذَا تُعَطِّلُ الْأَرْضَ أَيْضًا؟\n8 But he answered and said to him, ‘Sir, let it alone this year also, until I dig around it and fertilize it.\nⲚ̀ⲑⲟϥ ⲇⲉ ⲁϥⲉⲣⲟⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲡⲁϫ︦ⲥ︦ ⲭⲁⲥ ⲛ̀ⲧⲁⲓⲕⲉⲣⲟⲙⲡⲓ ⲁϯϭⲣⲏ ϧⲁⲣⲁⲧⲥ ⲟⲩⲟϩ ⲛ̀ⲧⲁϯⲙⲁϩⲣⲟ ⲛⲁⲥ.\n8 فَأَجَابَ وَقَالَ لَهُ: يَا سَيِّدُ، دَعْهَا هَذِهِ السَّنَةَ أَيْضًا، حَتَّى أَعْزِقَ حَوْلَهَا وَأَضَعَ زِبْلًا.\n9 And if it bears fruit, well. But if not, after that you can cut it down.’”\nⲀⲣⲏⲟⲩ ⲛ̀ⲧⲉⲥⲉ̀ⲛ ⲟⲩⲧⲁϩ ⲉ̀ⲃⲟⲗ ⲛ̀ϯⲕⲉⲣⲟⲙⲡⲓ ⲉⲑⲛⲏⲟⲩ ⲉϣⲱⲡ ⲇⲉ ⲁⲥϣ̀ⲧⲉⲙⲓ̀ⲛⲓ ⲉⲕⲉ̀ⲕⲟⲣϫⲥ.\n9 فَإِنْ أَثْمَرَتْ، وَإِلَّا فَنَقْطَعُهَا فِيمَا بَعْدُ \".",
+          "body_envelope_sha256": "f9298e439b2466fd4d08174243f6c0f8df60d6fb4d7003bf7ed8926e0597f253",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 4,
+          "service_section": "Liturgy",
+          "reading_type": "Pauline Epistle",
+          "printed_ref": "Colossians 1:21-29",
+          "normalized_ref": "Colossians 1:21-29",
+          "evidence": "2026-02-03/Liturgy/Pauline_Epistle.txt",
+          "document_sha256": "921b071eab3c106d1590e7361c4bad731147c5264de8e87e06d77af469d28246",
+          "heading_line": 17,
+          "body_envelope_literal": "\tColossians 1:21-29\n(كولوسي 1: 21-29)\nReader:\nPaul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Colossians. May his holy blessings be with us. Amen.\nالقارﺉُ:\nبولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى اهل كولوسي بركته تكون معنا. آمين.\n21 And you, who once were alienated and enemies in your mind by wicked works,\nⲞⲩⲟϩ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲱⲧⲉⲛ ⲛ̀ⲟⲩⲥⲏⲟⲩ ⲛⲁⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲟⲩⲟϩ ⲛ̀ϫⲁϫⲓ ϧⲉⲛ ⲛⲉⲧⲉⲛⲙⲉⲩⲓ ϧⲉⲛ ⲛⲓϩ̀ⲃⲏⲟⲩⲓ ⲉⲧϩⲱⲟⲩ.\n21 وَأَنْتُمْ أَيْضًا الَّذِينَ كُنْتُمْ حِينًا غُرَبَاءَ وَأَعْدَاءَ بِضَمَائِرِكُمْ، بِالْأَعْمَالِ الشِّرِّيرَةِ،\n22 yet now He has reconciled in the body of His flesh through death, to present you holy, and blameless, and above reproach in His sight—\nϮⲛⲟⲩ ⲇⲉ ⲁϥϩⲉⲧⲡ ⲑⲏⲛⲟⲩ ϧⲉⲛ ⲡ̀ⲥⲱⲙⲁ ⲛ̀ⲧⲉ ⲧⲉϥⲥⲁⲣⲝ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉϥⲙⲟⲩ ⲉ̀ⲧⲁϩⲉ ⲑⲏⲛⲟⲩ ⲉ̀ⲣⲁⲧⲉⲛ ⲑⲏⲛⲟⲩ ⲟⲩⲁⲃ ⲟⲩⲟϩ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ⲁⲧⲁϭⲛⲓ ⲟⲩⲟϩ ⲛ̀ⲁⲧⲁⲣⲓⲕⲓ ⲙ̀ⲡⲉϥⲙ̀ⲑⲟ.\n22 قَدْ صَالَحَكُمُ الْآنَ فِي جَسَدِ بَشَرِيَّتِهِ بِمَوْتِهِ، لِيُقِيمَكُمْ قِدِّيسِينَ بِغَيْرِ عَيْبٍ وَلَا لَوْمٍ أَمَامَهُ،\n23 if indeed you continue in the faith, grounded and steadfast, and are not moved away from the hope of the gospel which you heard, which was preached to every creature under heaven, of which I, Paul, became a minister.\nⲒⲥϫⲉ ⲧⲉⲧⲉⲛϣⲟⲡ ⲙ̀ⲡⲓⲛⲁϩϯ ⲉⲣⲉⲧⲉⲛⲧⲁϫⲣⲏ ⲟⲩⲧ ⲛ̀ⲥⲉⲛϯ ⲟⲩⲟϩ ⲉⲣⲉⲧⲉⲛϫⲟⲣ ⲟⲩⲟϩ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ⲁⲧⲕⲓⲙ ⲉ̀ⲣⲱⲧⲉⲛ ⲉ̀ⲃⲟⲗ ϩⲁ ϯ ϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲡⲓⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲫⲁⲓ ⲉⲧⲁⲣⲉⲧⲉⲛⲥⲟⲑⲙⲉϥ ⲫⲁⲓ ⲉⲧⲁⲩϩⲓⲱⲓϣ ⲙ̀ⲙⲟϥ ϧⲉⲛ ⲡⲓⲥⲱⲛⲧ ⲧⲏⲣϥ ⲉⲧⲥⲁⲡⲉⲥⲏⲧ ⲛ̀ⲧ̀ⲫⲉ ⲫⲁⲓ ⲉⲧⲁⲓϣⲱⲡⲓ ⲛⲁϥ ⲁ̀ⲛⲟⲕ ⲡⲁⲩⲗⲟⲥ ⲛ̀ⲇⲓⲁ̀ⲕⲱⲛ.\n23 إِنْ ثَبَتُّمْ عَلَى الْإِيمَانِ، مُتَأَسِّسِينَ وَرَاسِخِينَ غَيْرَ مُتَزَعْزِعِينَ عَنْ رَجَاءِ الْإِنْجِيلِ، الَّذِي سَمِعتُمُوهُ، الْمَكْرُوزِ بِهِ فِي كُلِّ الْخَلِيقَةِ الَّتِي تَحْتَ السَّمَاءِ، الَّذِي صِرْتُ أَنَا بُولُسَ خَادِمًا لَهُ.\n24 I now rejoice in my sufferings for you, and fill up in my flesh what is lacking in the afflictions of Christ, for the sake of His body, which is the church,\nϮⲛⲟⲩ ⲇⲉ ϯⲣⲁϣⲓ ϧⲉⲛ ⲛⲓⲙ̀ⲕⲁⲩϩ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ϯϫⲱⲕ ⲛ̀ⲛⲓϭⲣⲟϩ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲛⲓϩⲟϫϩⲉϫ ⲛ̀ⲧⲉ Ⲡⲭ︦ⲥ︦ ϧⲉⲛ ⲧⲁⲥⲁⲣⲝ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ⲡⲉϥⲥⲱⲙⲁ ⲉⲧⲉ ϯⲉⲕⲕ̀ⲗⲏⲥⲓⲁ ⲧⲉ.\n24 وَإِنِّي أَفْرَحُ الْآنَ فِي الْآلَامِ مِنْ أَجْلِكُمْ، وَأُكَمِّلُ مَا يَنْقُصُ مِنْ شَدَائِدِ الْمَسِيحِ فِي جِسْمِي لِأَجْلِ جَسَدِهِ، الَّذِي هُوَ الْكَنِيسَةُ،\n25 of which I became a minister according to the stewardship from God which was given to me for you, to fulfill the word of God,\nⲐⲁⲓ ⲁ̀ⲛⲟⲕ ⲉⲧⲁⲓϣⲱⲡⲓ ⲛⲁⲥ ⲛ̀ⲇⲓⲁ̀ⲕⲱⲛ ⲕⲁⲧⲁ ϯⲟⲓⲕⲟⲛⲟⲙⲓⲁ ⲛ̀ⲧⲉ ⲫϯ ⲉⲧⲧⲟⲓ ⲛⲏⲓ ⲉ̀ⲣⲱⲧⲉⲛ ⲉ̀ϫⲱⲕ ⲙ̀ⲡⲓⲥⲁϫⲓ ⲛ̀ⲧⲉ ⲫϯ ⲉ̀ⲃⲟⲗ.\n25 الَّتِي صِرْتُ أَنَا لَهَا خَادِمًا، عَلَى مُقْتَضَى تَدْبِيرِ اللَّهِ الْمُعْطَى لِي لِأَجْلِكُمْ، لِتَتْمِيِمِ كَلِمَةِ اللَّهِ.\n26 the mystery which has been hidden from ages and from generations, but now has been revealed to His saints.\nⲠⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ⲉⲧϩⲏⲡ ⲓⲥϫⲉⲛ ⲡ̀ⲉⲛⲉϩ ⲛⲉⲙ ⲛⲓⲅⲉⲛⲉⲁ̀ ϯⲛⲟⲩ ⲇⲉ ⲁϥⲟⲩⲟⲛϩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲁⲅⲓⲟⲥ ⲛ̀ⲧⲁϥ.\n26 الَّتِي هِيَ السِّرُّ الْمَكْتُومُ مُنْذُ الدُّهُورِ وَالْأَجْيَالِ، وَقَدْ أُعْلِنَ الْآنَ لِقِدِّيسِيهِ،\n27 To them God willed to make known what are the riches of the glory of this mystery among the Gentiles: which is Christ in you, the hope of glory.\nⲚⲏⲉⲧⲁ ⲫϯ ⲟⲩⲱϣ ⲉ̀ⲧⲁⲙⲱⲟⲩ ϫⲉ ⲁϣ ⲧⲉ ϯⲙⲉⲧⲣⲁⲙⲁⲟ̀ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲙⲩⲥⲧⲏⲣⲓⲟⲛ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲉⲧⲉ Ⲡⲭ︦ⲥ︦ ⲡⲉ ϧⲉⲛ ⲑⲏⲛⲟⲩ ϯϩⲉⲗⲡⲓⲥ ⲛ̀ⲧⲉ ⲡ̀ⲱⲟⲩ.\n27 الَّذِينَ أَرَادَ اللَّهُ أَنْ يُعْلِّمَهُمْ مَا هُوَ غِنَى مَجْدِ هَذَا السِّرِّ فِي الْأُمَمِ، الَّذِي هُوَ الْمَسِيحُ الْحالُّ فِيكُمْ رَجاءُ الْمَجْدِ.\n28 Him we preach, warning every man and teaching every man in all wisdom, that we may present every man perfect in Christ Jesus.\nⲪⲁⲓ ⲁ̀ⲛⲟⲛ ⲉⲧⲉⲛϩⲓⲱⲓϣ ⲙ̀ⲙⲟϥ ⲉⲛⲧ̀ⲥⲁⲃⲟ ⲛ̀ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ ⲟⲩⲟϩ ⲉⲛϯⲥ̀ⲃⲱ ⲛ̀ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ ϧⲉⲛ ⲥⲟⲫⲓⲁ ⲛⲓⲃⲉⲛ ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛⲧⲁϩⲉ ⲣⲱⲙⲓ ⲛⲓⲃⲉⲛ ⲉ̀ⲣⲁⲧⲟⲩ ⲉⲩϫⲏⲕ ⲉ̀ⲃⲟⲗ ϧⲉⲛ Ⲡⲭ︦ⲥ︦.\n28 الَّذِي نُبَشِّرُ بِهِ نَاصِحِينَ لِكُلِّ إنْسَانٍ، وَمُعَلِّمِينَ كُلَّ إِنْسَانٍ، بِكُلِّ حِكْمَةٍ، لِكَيْ نُقِيمَ كُلَّ إِنْسَانٍ كَامِلًا فِي الْمَسِيحِ يَسُوعَ.\n29 To this end I also labor, striving according to His working which works in me mightily.\nⲪⲁⲓ ⲉ̀ϯϭⲓϧⲓⲥⲓ ⲛ̀ϧⲏⲧϥ ⲉⲓⲉⲣⲁⲅⲱⲛⲓⲍⲉⲥⲑⲉ ⲕⲁⲧⲁ ⲡⲉϥⲉⲣϩⲱⲃ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧ ϧⲉⲛ ⲟⲩϫⲟⲙ\n29 الْأَمْرُ الَّذِي لِأَجْلِهِ أتْعَبُ وَأُجَاهِدُ، عَلَى حَسَبِ عَمَلِهِ الَّذِي يَعْمَلُ فِيَّ بِقُوَّةٍ.\nThe grace of God the Father be with you all. Amen.\nنعمة الله الآب تكون مع جميعِكم. آمين.",
+          "body_envelope_sha256": "5e80e59136c549436ec16f99ccb3331f0a9f62469b18d380a26f01808ab5dae0",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 5,
+          "service_section": "Liturgy",
+          "reading_type": "Catholic Epistle",
+          "printed_ref": "1 Peter 4:3-11",
+          "normalized_ref": "1Peter 4:3-11",
+          "evidence": "2026-02-03/Liturgy/Catholic_Epistle.txt",
+          "document_sha256": "5bcc306e5a50d9fb469527ced4fd2c5d5fcb9dea9de4c6d33a1a58a51ef9cfd2",
+          "heading_line": 5,
+          "body_envelope_literal": "\t1 Peter 4:3-11\n(1 بطرس 4: 3-11)\nThe Catholic Epistle from the first Epistle of our teacher St. Peter. May his holy blessings be with us. Amen.\nالكاثوليكون من رسالة بطرس الرسول الأولى. بركته تكون معنا. آمين.\n3 For we have spent enough of our past lifetime in doing the will of the Gentiles—when we walked in lewdness, lusts, drunkenness, revelries, drinking parties, and abominable idolatries.\nⲔⲏⲛ ⲅⲁⲣ ⲉ̀ⲣⲱⲧⲉⲛ ⲙ̀ⲡⲓⲥⲏⲟⲩ ⲉⲧⲁϥⲥⲓⲛⲓ ⲉⲣⲉⲧⲉⲛⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲛ̀ⲛⲓⲉⲑⲛⲟⲥ ⲉⲣⲉⲧⲉⲛⲙⲟϣⲓ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ϩⲁⲛϭⲱϧⲉⲙ ⲛⲉⲙ ϩⲁⲛⲉ̀ⲡⲓⲑⲩⲙⲓⲁ ⲛⲉⲙ ϩⲁⲛⲑⲓϧⲓ ⲛ̀ⲟⲩⲑⲟ ⲛ̀ⲣⲏϯ ⲛⲉⲙ ϩⲁⲛϫⲉⲣϫⲉⲣ ⲛⲉⲙ ϩⲁⲛⲥⲱϥ ⲛⲉⲙ ϩⲁⲛⲑⲟ ⲙ̀ⲃⲟϯ ⲙ̀ⲙⲉⲧϣⲁⲙϣⲉ ⲓ̀ⲇⲱⲗⲟⲛ.\n3 لِأنَّهُ يَكْفِيكُمُ الزَّمَانُ الَّذِي مَضَى إِذْ كُنْتُمْ تَصْنَعُونَ فِيهِ إِرَادَةَ الْأُمَمِ، وَتَسْلُكُونَ فِي النَّجَاسَاتِ وَالشَّهَوَاتِ، وَإِدْمَانِ الْمُسْكِرَاتِ الْمُتَنَوِّعَةِ، وَالْخَلَاعَةِ، وَالدَّنَسِ، وَعِبَادَةِ الْأَوْثَانِ الْمَرْذُولَةِ،\n4 In regard to these, they think it strange that you do not run with them in the same flood of dissipation, speaking evil of you.\nⲈⲧⲉ ⲫⲏ ⲡⲉ ⲉⲧⲟⲩⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲛ̀ϧⲏⲧϥ ⲛ̀ⲧⲉⲧⲉⲛϭⲟϫⲓ ⲛⲉⲙⲱⲟⲩ ⲁⲛ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲡⲓⲫⲱⲛ ⲉ̀ⲃⲟⲗ ⲣⲱ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲁⲧⲟⲩϫⲁⲓ ⲉⲩϫⲉⲟⲩⲁ̀.\n4 الْأَمْرُ الَّذِي فِيهِ يَسْتَغْرِبُونَ أَنَّكُمْ لَسْتُمْ تَرْكُضُونَ مَعَهُمْ إِلَى فَيْضِ عَدَمِ الصِّحَّةِ عَيْنِهَا، مُجَدِّفِينَ.\n5 They will give an account to Him who is ready to judge the living and the dead.\nⲚⲏⲉⲑⲛⲁϯⲗⲟⲅⲟⲥ ⲙ̀ⲫⲏⲉⲧⲥⲉⲃⲧⲱⲧ ⲉ̀ϯϩⲁⲡ ⲉ̀ⲛⲏⲉⲧⲟⲛϧ ⲛⲉⲙ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.\n5 الَّذِينَ سَوْفَ يُعْطُونَ جَوَابًا لِلَّذِي هُوَ عَلَى اسْتِعْدَادٍ لِأَنْ يَدِينَ الْأَحْيَاءَ وَالْأَمْوَاتَ.\n6 For this reason the gospel was preached also to those who are dead, that they might be judged according to men in the flesh, but live according to God in the spirit.\nⲈⲑⲃⲉⲫⲁⲓ ⲅⲁⲣ ⲁⲩϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛ̀ⲛⲓⲕⲉⲣⲉϥⲙⲱⲟⲩⲧ ϩⲓⲛⲁ ⲛ̀ⲥⲉϯϩⲁⲡ ⲙⲉⲛ ⲉ̀ⲣⲱⲟⲩ ⲕⲁⲧⲁ ⲛⲓⲣⲱⲙⲓ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲧⲟⲩⲱⲛϧ ⲇⲉ ⲕⲁⲧⲁ ⲫϯ ϧⲉⲛ ⲡⲓⲡⲛ︦ⲁ︦.\n6 فَإِنَّهُ لِأَجْلِ هَذَا بُشِّرَ الْمَوْتَى أَيْضًا ،لِكَيْ يُدَانُوا حَسَبَ النَّاسِ بِالْجَسَدِ، وَلَكِنْ لِيَحْيَوْا حَسَبَ اللَّهِ بِالرُّوحِ.\n7 But the end of all things is at hand; therefore be serious and watchful in your prayers.\nⲠ̀ϫⲱⲕ ⲇⲉ ⲛ̀ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲁϥϧⲱⲛⲧ ϫⲉⲙⲕⲁϯ ⲟⲩⲛ ⲟⲩⲟϩ ⲣⲱⲓⲥ ϧⲉⲛ ⲛⲓⲡ̀ⲣⲟⲥⲉⲩⲭⲏ.\n7 وَإِنَّمَا نِهَايَةُ كُلِّ شَيْءٍ قَدِ اقْتَرَبَتْ، فَتَعَقَّلُوا إِذًا وَاسْهَرُوا فِي الصَّلَوَاتِ.\n8 And above all things have fervent love for one another, for “love will cover a multitude of sins.”\nϢⲟⲣⲡ ⲇⲉ ⲛ̀ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲙⲁⲣⲉ ϯ ⲁⲅⲁⲡⲏ ϣⲱⲡⲓ ⲉⲥⲙⲏⲛ ϧⲉⲛ ⲑⲏⲛⲟⲩ ⲉ̀ⲛⲉⲧⲉⲛⲉⲣⲏ ⲟⲩ ϫⲉ ϯⲁⲅⲁⲡⲏ ϣⲁⲥϩⲱⲃⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲟⲩⲙⲏϣ ⲛ̀ⲛⲟⲃⲓ.\n8 وَلكِنْ قَبْلَ كُلِّ شَيْءٍ، فَلْتَكُنِ الْمَحَبَّةُ دَائِمَةً فِيكُمْ بَعْضِكُمْ لِبَعْضٍ؛ لِأَنَّ الْمَحَبَّةَ تَسْتُرُ كَثْرَةً مِنَ الْخَطَايَا.\n9 Be hospitable to one another without grumbling.\nϢⲱⲡⲓ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲙ̀ⲙⲁⲓϣⲉⲙⲙⲟ ⲉ̀ϧⲟⲩⲛ ⲉ̀ⲛⲉⲧⲉⲛⲉⲣⲏⲟⲩ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ⲁⲧⲭ̀ⲣⲉⲙⲣⲉⲙ.\n9 كُونُوا مُحِبِّينَ ضِيافَةِ الْغُرَّبَاءِ بَعْضُكُمْ لِبَعْضٍ بِلَا تَذَمُّرٍ.\n10 As each one has received a gift, minister it to one another, as good stewards of the manifold grace of God.\nⲠⲓⲟⲩⲁⲓ ⲡⲓⲟⲩⲁⲓ ⲕⲁⲧⲁ ⲡⲓϩ̀ⲙⲟⲧ ⲉⲧⲁϥϭ ⲓⲧϥ ⲉⲣⲉⲧⲉⲛϣⲉⲙϣⲓ ⲛ̀ϧⲏⲧϥ ϧⲁⲣⲓ ϧⲁⲣⲱⲧⲉⲛ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ϩⲁⲛⲟⲓⲕⲟⲛⲟⲙⲟⲥ ⲉⲛⲁⲛⲉⲩ ⲛ̀ⲧⲉ ⲡⲓϩ̀ⲙⲟⲧ ⲛ̀ⲧⲉ ⲫϯ ⲛ̀ⲟⲩⲑⲟ ⲛ̀ⲣⲏϯ.\n10 وَلِيَخْدُمْ كُلُّ وَاحِدٍ الْآخَرِينَ بِمَا نَالَ مِنَ الْمَوَاهِبِ بَعْضُكُمْ بَعْضًا، كَوُكَلَاءَ صَالِحِينَ عَلَى نِعْمَةِ اللَّهِ الْمُتَنَوِّعَةِ.\n11 If anyone speaks, let him speak as the oracles of God. If anyone ministers, let him do it as with the ability which God supplies, that in all things God may be glorified through Jesus Christ, to whom belong the glory and the dominion forever and ever. Amen.\nⲪⲏⲉⲑⲛⲁⲥⲁϫⲓ ϩⲱⲥ ϩⲁⲛⲥⲁϫⲓ ⲛ̀ⲧⲉ ⲫϯ ⲫⲏⲉⲑⲛⲁϣⲉⲙϣⲓ ϩⲱⲥ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲟⲩϫⲟⲙ ⲑⲏ ⲉⲧⲉ ⲫϯ ⲛⲁⲥⲉⲃⲧⲱⲧⲥ ϩⲓⲛⲁ ϧⲉⲛ ϩⲱⲃ ⲛⲓⲃⲉⲛ ⲛ̀ⲧⲉϥϭⲓⲱⲟⲩ ⲛ̀ϫⲉ ⲫϯ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ Ⲓⲏ︦ⲥ︦ Ⲡⲭ︦ⲥ︦ ⲫⲏⲉⲧⲉ ⲫⲱϥ ⲡⲉ ⲡⲓⲱⲟⲩ ϣⲁ ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉⲛⲉϩ ⲧⲏⲣⲟⲩ ⲁⲙⲏⲛ.\n11 مَنْ يَتَكَلَّمُ فَكَأَقْوَالِ اللَّهِ. وَمَنْ يَخْدُمُ فَكَأَنَّهُ مِنْ قُوَّةٍ يُهَيِّئُهَا اللَّهُ، لِكَيْ يَتَمَجَّدَ اللَّهُ في كُلِّ شَيْءٍ بِيَسُوعَ الْمَسِيحِ، الَّذِي لَهُ الْمَجْدُ وَالعِزَّةُ إِلَى أَبَدِ الْآبِدِينَ. آمِينَ.\nDo not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ.\nلا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين.\n\tConclusion to the Coptic Catholic Epistle\n(Ⲛⲁⲥ̀ⲛⲏⲟⲩ...)",
+          "body_envelope_sha256": "ebaa7efef34eca8980c56b31c7e10393a4ee4ee33d941d93acf5624a284115c2",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 6,
+          "service_section": "Liturgy",
+          "reading_type": "Acts of the Apostles",
+          "printed_ref": "Acts 17:30-34",
+          "normalized_ref": "Acts 17:30-34",
+          "evidence": "2026-02-03/Liturgy/Praxis.txt",
+          "document_sha256": "c39350523033491bfd9bb517b7c973b0f31088dde5462c2366c86f8b0b082be3",
+          "heading_line": 5,
+          "body_envelope_literal": "\tActs 17:30-34\n(اعمال 17: 30-34)\nA reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen.\nفصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين.\n30 Truly, these times of ignorance God overlooked, but now commands all men everywhere to repent,\nⲚⲓⲥⲏⲟⲩ ⲙⲉⲛ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲁⲧⲉ̀ⲙⲓ ⲁϥ ⲭⲁⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ϫⲉ Ⲫϯ ϯⲛⲟⲩ ⲇⲉ ϥ̀ϩⲓⲱⲓϣ ⲛ̀ⲛⲓⲣⲱⲙⲓ ⲉⲑⲣⲉ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲣⲙⲉⲧⲁⲛⲟⲓⲛ ϧⲉⲛ ⲙⲁⲓ ⲛⲓⲃⲉⲛ.\n30 لِأَنَّ أَزْمِنَةَ الْجَهَالةِ قَدْ أَزَالَها اللَّهُ. وَالْآنَ فَهُوَ يُنذِرُ النَّاسَ لِكَيْ يَتُوبَ كُلُّ وَاحِدٍ فِي كُلِّ مَكَانٍ.\n31 because He has appointed a day on which He will judge the world in righteousness by the Man whom He has ordained. He has given assurance of this to all by raising Him from the dead.”\nⲔⲁⲧⲁⲫ̀ⲣⲏϯ ϫⲉ ⲁϥⲥⲉⲙⲛⲉ ⲟⲩⲉ̀ϩⲟⲟⲩ ⲉϥⲛⲁϯϩⲁⲡ ⲉ̀ϯⲟⲓⲕⲟⲩⲙⲉⲛⲏ ⲛ̀ϧⲏⲧϥ ϧⲉⲛ ⲟⲩⲙⲉⲑⲙⲏⲓ ⲉ̀ⲃⲟⲗϩⲓⲧⲉⲛ ⲡⲓⲣⲱⲙⲓ ⲉ̀ⲧⲁϥⲑⲁϣϥ ⲉ̀ⲁϥϯ ⲙ̀ⲫ̀ⲛⲁϩϯ ⲛ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉ̀ⲁϥⲧⲟⲩⲛⲟⲥϥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲏⲉⲑⲙⲱⲟⲩⲧ.\n31 كَمَا أَنَّهُ أَقَامَ يَوْمًا فِيهِ يَدِينُ كُلَّ الْمَسْكُونَةِ بِالْعَدْلِ، عَلَى يَدِ الْإِنْسَانِ الَّـذِي عَيَّنَـهُ، وَأَعْـطَـى الْإِيـمَـانَ لِكُـلِّ أَحَــدٍ إِذْ أَقَـامَـهُ مِـنْ بَـيْـنِ الْأَمْــوَاتِ.\n32 And when they heard of the resurrection of the dead, some mocked, while others said, “We will hear you again on this matter.”\nⲈ̀ⲧⲁⲩⲥⲱⲧⲉⲙ ⲇⲉ ϫⲉ ⲁ̀ⲛⲁⲥⲧⲁⲥⲓⲥ ⲛ̀ⲧⲉ ⲛⲓⲣⲉϥⲙⲱⲟⲩⲧ ϩⲁⲛⲟⲩⲟⲛ ⲙⲉⲛ ⲁⲩⲥⲱⲃⲓ ϩⲁⲛⲕⲉⲭⲱⲟⲩⲛⲓ ⲇⲉ ⲁⲩϫⲟⲥ ϫⲉ ⲉ̀ⲛⲉⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲕ ⲉⲑⲃⲉ ⲫⲁⲓ.\n32 فَلَمَّا سَمِعُوا قِيامَةَ الْأَمْوَاتِ كَانَ قَومٌ مِنْهُمْ يَسْتَهْزِئُونَ، وَالْبَعْضُ يَقُولُونَ: \" سَنَسْمَعُ مِنْكَ عَنْ هَذَا أَيْضًا! \".\n33 So Paul departed from among them.\nⲞⲩⲟϩ ⲡⲁⲓⲣⲏϯ ⲟⲛ ⲁ̀ ⲡⲁⲩⲗⲟⲥ ⲓ̀ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧⲟⲩⲙⲏϯ.\n33 وَهَكَذَا خَرَجَ بُولُسُ مِنْ وَسَطِهِمْ.\n34 However, some men joined him and believed, among them Dionysius the Areopagite, a woman named Damaris, and others with them.\nⲀⲩⲧⲟⲙⲟⲩ ⲇⲉ ⲉ̀ⲣⲟϥ ⲛ̀ϫⲉ ϩⲁⲛⲣⲱⲙⲓ ⲉ̀ⲁⲩⲛⲁϩϯ ⲛⲁⲓ ⲉ̀ⲧⲉⲛⲁⲣⲉ ⲇⲓⲟⲛⲏⲥⲓⲟⲥ ⲛ̀ϧⲏⲧⲟⲩ ⲡⲓⲁⲣⲓⲟⲡⲁⲅⲓⲧⲏⲥ ⲛⲉⲙ ⲟⲩⲥ̀ϩⲓⲙⲓ ⲉ̀ⲡⲉⲥⲣⲁⲛ ⲡⲉ ⲇⲁⲙⲁⲣⲓⲥ ⲛⲉⲙ ϩⲁⲛⲕⲉⲭⲱⲟⲩⲛⲓ ⲛⲉⲙⲱⲟⲩ.\n34 وَالْتَصَقَ بِهِ أُنَاسٌ آمَنُوا، هَؤُلَاءِ الَّذِين كَانَ مِنْهُمْ دِيُونِيسِيُوسُ الْأَرِيُوبَاغِيُّ، وَامْرَأةٌ اسْمُهَا دَامَارِسُ وَآخَرُونَ مَعَهُمَـا.\nThe word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.\nⲠⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ.\nوكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين.\n\tConclusion to the Coptic Praxis\n(Ⲡⲓⲥⲁϫⲓ...)",
+          "body_envelope_sha256": "4687ce22d2dc22ee588b62b1f5e14e259c2e932876690727d620ea2e8bc57c34",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 7,
+          "service_section": "Liturgy",
+          "reading_type": "Psalm",
+          "printed_ref": "Psalms 84:2",
+          "normalized_ref": "Ps 85:2-3",
+          "evidence": "2026-02-03/Liturgy/Psalm_and_Gospel.txt",
+          "document_sha256": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+          "heading_line": 7,
+          "body_envelope_literal": "\tPsalms 84:2\n(مزامير 84: 2)\nYou have forgiven the iniquity of Your people; You have covered all their sin. You have taken away all Your wrath; You have turned from the fierceness of Your anger.\nⲠⲟ︦ⲥ︦ ⲁⲕⲭⲱ ⲛ̀ⲛⲓ̀ⲁⲛⲟⲙⲓⲁ̀ ⲛ̀ⲧⲉ ⲡⲉⲕⲗⲁⲟⲥ ⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ: ⲁⲕϩⲱⲃⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲛⲟⲩⲛⲟⲃⲓ ⲧⲏⲣⲟⲩ: ⲁⲕⲃⲱⲗ ⲙ̀ⲡⲉⲕϫⲱⲛⲧ ⲧⲏⲣϥ ⲉ̀ⲃⲟⲗ: ⲁⲕⲧⲁⲥⲑⲟ ⲉ̀ⲃⲟⲗϩⲁ ⲡϫ̀ⲱⲛⲧ ⲛ̀ⲧⲉ ⲡⲉⲕⲙ̀ⲃⲟⲛ: ⲁ︦ⲗ︦.\nيَا رَبُّ غَفَرْتَ إِثْمَ شَعْبِكَ. سَتَرْتَ جَمِيعَ خَطَايَاهُمْ. حَلَلْتَ كُلَّ رِجْزِكَ. رَجَعْتَ عَنْ سُخْطِ غَضَبِكَ.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nLiturgy Gospel\nالإنجيل",
+          "body_envelope_sha256": "109737dde9cc3c882ad7a7539fa200b43574ec86c45893991a1ffda09314747d",
+          "coordinate_note": "Full Reader clauses forgiven iniquity/covered sin, taken away wrath/turned fierce anger match Brenton 84:2-3; modern Ps 85:2-3. The Reader printed 84:2 covers both verses; retain it separately.",
+          "canonical_repair_required": true
+        },
+        {
+          "order": 8,
+          "service_section": "Liturgy",
+          "reading_type": "Gospel",
+          "printed_ref": "Luke 11:29-36",
+          "normalized_ref": "Luke 11:29-36",
+          "evidence": "2026-02-03/Liturgy/Psalm_and_Gospel.txt",
+          "document_sha256": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+          "heading_line": 34,
+          "body_envelope_literal": "\tLuke 11:29-36\n(لوقا 11: 29-36)\n29 And while the crowds were thickly gathered together, He began to say, “This is an evil generation. It seeks a sign, and no sign will be given to it except the sign of Jonah the prophet.\nⲈⲩⲛⲁⲑⲱⲟⲩϯ ⲇⲉ ⲛ̀ϫⲉ ⲛⲓⲙⲏϣ ⲁϥⲉⲣϩⲏ ⲧⲥ ⲛ̀ϫⲟⲥ ϫⲉ ⲧⲁⲓⲅⲉⲛⲉⲁ̀ ⲟⲩⲅⲉⲛⲉⲁ̀ ⲉⲥϩⲱⲟⲩ ⲧⲉ ⲥⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲙⲏⲓⲛⲓ ⲟⲩⲟϩ ⲟⲩⲙⲏ ⲓⲛⲓ ⲛ̀ⲛⲟⲩⲧⲏⲓϥ ⲛⲁⲥ ⲉ̀ⲃⲏⲗ ⲉ̀ⲡⲓⲙⲏⲓⲛⲓ ⲛ̀ⲧⲉ ⲓⲱⲛⲁ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ.\n29 وَإذِ اجْتَمَعَتِ الْجُمُوعُ، ابْتَدَأَ يَقُولُ: \" هَذَا الْجِيلُ جِيلٌ شِرِّيرٌ. يَطْلُبُ آيَةً، وَلَا تُعْطَى لَهُ آيَةٌ إِلَّا آيَةَ يُونَانَ النَّبِيِّ؛\n30 For as Jonah became a sign to the Ninevites, so also the Son of Man will be to this generation.\nⲔⲁⲧⲁⲫ̀ⲣⲏϯ ⲅⲁⲣ ⲉⲧⲁ ⲓⲱⲛⲁ ϣⲱⲡⲓ ⲛ̀ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲓⲣⲉⲙⲛⲓⲛⲉⲩⲏ ⲡⲁⲓⲣⲏϯ ϩⲱϥ ⲡ̀ϣⲏⲣⲓ ⲙ̀ⲫ̀ⲣⲱⲙⲓ ⲛⲁϣⲱⲡⲓ ⲛ̀ⲧⲁⲓⲅⲉⲛⲉⲁ̀.\n30 لِأَنَّهُ كَمَا كَانَ يُونَانُ آيَةً لِأَهْلِ نِينَوَى، كَذلِكَ يَكُونُ ابْنُ الْإِنْسَانِ أَيْضًا لِهَذَا الْجِيلِ.\n31 The queen of the South will rise up in the judgment with the men of this generation and condemn them, for she came from the ends of the earth to hear the wisdom of Solomon; and indeed a greater than Solomon is here.\nϮⲟⲩⲣⲱ ⲛ̀ⲧⲉ ⲥⲁⲣⲏⲥ ⲉⲥⲉ̀ⲧⲱⲛⲥ ϧⲉⲛ ϯⲕ̀ⲣⲓⲥⲓⲥ ⲛⲉⲙ ⲛⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉ ⲧⲁⲓⲅⲉⲛⲉⲁ̀ ⲟⲩⲟϩ ⲉⲥⲉ̀ϯϩⲁⲡ ⲉ̀ⲣⲱⲟⲩ ϫⲉ ⲁⲥⲓ̀ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲉⲁⲧ ⲙ̀ⲡ̀ⲕⲁϩⲓ ⲉ̀ⲥⲱⲧⲉⲙ ⲉ̀ϯⲥⲟⲫⲓⲁ̀ ⲛ̀ⲧⲉ ⲥⲟⲗⲟⲙⲱⲛ ⲟⲩⲟϩ ⲥ ϩⲟⲩⲟ̀ ⲉ̀ⲥⲟⲗⲟⲙⲱⲛ ⲙ̀ⲡⲁⲓⲙⲁ.\n31 مَلِكَةُ التَّيْمَنِ سَتَقُومُ فِي الدِّينُونَةِ مَعَ رِجَالِ هَذَا الْجِيلِ وَتَدِينُهُمْ؛ لِأَنَّهَا أَتَتْ مِنْ أَقَاصِي الْأَرْضِ لِتَسْمَعَ حِكْمَةَ سُلَيْمَانَ، وَهُوَذَا أَعْظَمُ مِنْ سُلَيْمَانَ هَهُنَا!\n32 The men of Nineveh will rise up in the judgment with this generation and condemn it, for they repented at the preaching of Jonah; and indeed a greater than Jonah is here.\nⲚⲓⲣⲱⲙⲓ ⲛ̀ⲧⲉ ⲛⲓⲛⲉⲩⲏ ⲥⲉⲛⲁⲧⲱⲟⲩⲛⲟⲩ ϧⲉⲛ ϯⲕ̀ⲣⲓⲥⲓⲥ ⲛⲉⲙ ⲧⲁⲓⲅⲉⲛⲉⲁ̀ ⲟⲩⲟϩ ⲥⲉⲛⲁ ϯϩⲁⲡ ⲉ̀ⲣⲟⲥ ϫⲉ ⲩⲉⲣⲙⲉⲧⲁⲛⲓⲟⲛ ⲉ̀ⲡⲓϩⲓⲱⲓϣ ⲛ̀ⲧⲉ ⲓⲱⲛⲁ ⲟⲩⲟϩ ⲓⲥ ϩⲟⲩⲟ̀ ⲉ̀ⲓⲱⲛⲁ ⲙ̀ⲡⲁⲓⲙⲁ.\n32 رِجَالُ نِينَوَى يَقُومُونَ فِي الْحُكْمِ مَعَ هَذَا الْجِيلِ وَيَدِينُونَهُ؛ لِأَنَّهُمْ تَابُوا بِكَرَازَةِ يُونَانَ، وَهُوَذَا أَعْظَمُ مِنْ يُونَانَ هَهُنَا!\n33 “No one, when he has lit a lamp, puts it in a secret place or under a basket, but on a lampstand, that those who come in may see the light.\nⲘ̀ⲡⲁⲣⲉ ϩ̀ⲗⲓ ⲇⲉ ϭⲉⲣⲉ ⲟⲩϧⲏⲃⲥ ⲛ̀ⲧⲉϥⲭⲁϥ ϧⲉⲛ ⲩⲙⲁⲛ̀ϩⲱⲡ ⲩⲇⲉ ϧⲁ ⲟⲩⲙⲉⲛⲧ ⲁⲗⲗⲁ ϩⲓϫⲉⲛ ϯⲗⲩⲭⲛⲓⲁ̀ ϩⲓⲛⲁ ⲛⲏⲉⲑⲛⲁⲉϧⲟⲩⲛ ⲛ̀ⲧⲟⲩⲛⲁⲩ ⲉ̀ⲡⲓⲟⲩⲱⲓⲛⲓ.\n33 \" لَيْسَ أَحَدٌ يُوقِدُ سِرَاجًا وَيَضَعُهُ فِي خِفْيَةٍ، وَلَا تَحْتَ مِكْيَالٍ، بَلْ يَضَعُهُ عَلَى الْمَنَارَةِ، لِكَيْ يَنْظُرَ الدَّاخِلُونَ النَّورَ.\n34 The lamp of the body is the eye. Therefore, when your eye is good, your whole body also is full of light. But when your eye is bad, your body also is full of darkness.\nⲠ̀ϧⲏⲃⲥ ⲙ̀ⲡⲉⲕⲥⲱⲙⲁ ⲡⲉ ⲡⲉⲕⲃⲁⲗ ⲉϣⲱⲡ ⲉ̀ⲡⲉⲕⲃⲁⲗ ⲟⲩⲁ̀ⲡⲗⲟⲩⲥ ⲡⲉ ⲡⲉⲕⲥⲱⲙⲁ ⲧⲏⲣϥ ⲉϥⲉ̀ⲉⲣⲟⲩⲱⲓⲛⲓ ⲉ̀ϣⲱⲡ ⲇⲉ ⲟⲩⲡⲟⲛⲏⲣⲟⲥ ⲡⲉ ⲡⲉⲕⲥⲱⲙⲁ ⲧⲏⲣϥ ϥ̀ⲟⲓ ⲛ̀ⲭⲁⲕⲓ.\n34 سِرَاجُ جَسَدِكَ هُوَ عَيْنُكَ، فَإِنْ كَانَتْ عَيْنُكَ بَسِيطَةً فَجَسَدُكَ كُلُّهُ يَكُونُ نَيِّرًا، وَإِنْ كَانَتْ شِرِّيرَةً فَجَسَدُكَ كُلُّهُ يَكُونُ مُظْلِمًا.\n35 Therefore take heed that the light which is in you is not darkness.\nⲀ̀ⲛⲁⲩ ⲏⲡⲱⲥ ⲡⲓⲟⲩⲱⲓⲛⲓ ⲉⲧⲉⲛ̀ϧⲏⲧⲕ ⲟⲩⲭⲁⲕⲓ ⲡⲉ.\n35 اُنْظُرْ إِذًا لِئَلَّا يَكُونَ النُّورُ الَّذِي فِيكَ ظَلَامًا.\n36 If then your whole body is full of light, having no part dark, the whole body will be full of light, as when the bright shining of a lamp gives you light.”\nⲒⲥϫⲉ ⲟⲩⲛ ⲡⲉⲕⲥⲱⲙⲁ ⲧⲏⲣϥ ⲟⲩⲟⲩⲱⲓⲛⲓ ⲡⲉ ⲙ̀ⲙⲟⲛ ⲧⲟⲓ ⲛ̀ⲧⲁϥ ⲟⲓ ⲛ̀ⲭⲉⲙⲥ ⲉϥⲉ̀ϣⲱⲡⲓ ⲏⲣϥ ϥⲟⲓ ⲛ̀ⲟⲩⲱⲓⲛⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲙ̀ⲡⲓϧⲏⲃⲥ ϧⲉⲛ ⲡⲓⲥⲉⲧⲉⲃⲣⲏϫ ⲉϥⲉⲉⲣⲟⲩⲱⲓⲛⲓ.\n36 فَإِنْ كَانَ جَسَدُكَ كُلُّهُ نَيِّرًا لَيْسَ فِيهِ جُزْءٌ مُظْلِمٌ، يَكُونُ نَيِّرًا كُلُّهُ، كَمَا يُضِيءُ لَكَ الْمِصْبَاحُ بِلَمَعَانِهِ \".",
+          "body_envelope_sha256": "89830770c7a4b81a5b60d4e15ee6441d83995fe03805ec0ca1ab12d40eafbd9f",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        }
+      ]
+    },
+    {
+      "date": "2026-02-04",
+      "offset": -67,
+      "day_title": "Wednesday of Ninevah's Fast",
+      "selected_context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026",
+      "documents": [
+        {
+          "service": "Matins",
+          "slot": "Prophecies",
+          "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies.txt",
+          "sha256": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+          "retrieved_at": "2026-10-07T22:25:13.705Z",
+          "navigation": [
+            "Readings",
+            "Matins",
+            "Prophecies"
+          ],
+          "source_acceptance": "exact_dated_source_only",
+          "canonical_equivalence_approved": false,
+          "recurrence_approved": false,
+          "runtime_activation": false,
+          "printed_refs": [
+            "\tJonah 3:1-4:11"
+          ],
+          "english_label_sequence": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "first_numbered_english": "1 Now the word of the Lord came to Jonah the second time, saying,",
+          "last_numbered_english": "11 And should I not pity Nineveh, that great city, in which are more than one hundred and twenty thousand persons who cannot discern between their right hand and their left—and much livestock?”",
+          "selected_picker_rows": [
+            {
+              "text": "4, Wednesday, February 4, 2026",
+              "role": "button",
+              "current": "true",
+              "selected": null,
+              "label": null
+            }
+          ],
+          "file": "2026-02-04/Matins/Prophecies.txt"
+        },
+        {
+          "service": "Matins",
+          "slot": "Psalm and Gospel",
+          "original_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel.txt",
+          "sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+          "retrieved_at": "2026-10-07T22:25:19.442Z",
+          "navigation": [
+            "Readings",
+            "Matins",
+            "Psalm and Gospel"
+          ],
+          "source_acceptance": "exact_dated_source_only",
+          "canonical_equivalence_approved": false,
+          "recurrence_approved": false,
+          "runtime_activation": false,
+          "printed_refs": [
+            "\tPsalms 102:12, 11",
+            "\tMatthew 11:25-30"
+          ],
+          "english_label_sequence": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ],
+          "first_numbered_english": "25 At that time Jesus answered and said, “I thank You, Father, Lord of heaven and earth, that You have hidden these things from the wise and prudent and have revealed them to babes.",
+          "last_numbered_english": "30 For My yoke is easy and My burden is light.”",
+          "selected_picker_rows": [
+            {
+              "text": "4, Wednesday, February 4, 2026",
+              "role": "button",
+              "current": "true",
+              "selected": null,
+              "label": null
+            }
+          ],
+          "file": "2026-02-04/Matins/Psalm_and_Gospel.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Pauline Epistle",
+          "sha256": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+          "retrieved_at": "2026-10-07T23:12:53.187Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Pauline Epistle"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tEphesians 2:1-22"
+          ],
+          "first_numbered_english": "1 And you He made alive, who were dead in trespasses and sins,",
+          "last_numbered_english": "22 in whom you also are being built together for a dwelling place of God in the Spirit.",
+          "file": "2026-02-04/Liturgy/Pauline_Epistle.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Catholic Epistle",
+          "sha256": "22606c6a7f6dfeabc85c097b50d1e15a0e2be3bfe7b243acd00dbe33b6fe6fbb",
+          "retrieved_at": "2026-10-07T23:12:57.119Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Catholic Epistle"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\t1 John 2:12-17"
+          ],
+          "first_numbered_english": "12 I write to you, little children, Because your sins are forgiven you for His name’s sake.",
+          "last_numbered_english": "17 And the world is passing away, and the lust of it; but he who does the will of God abides forever.",
+          "file": "2026-02-04/Liturgy/Catholic_Epistle.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Praxis",
+          "sha256": "15b9dd3b551cb8f40e561d334dfeea65ee27170b79c170cece2a43af5932cf0b",
+          "retrieved_at": "2026-10-07T23:13:01.139Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Praxis"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tActs 15:12-20"
+          ],
+          "first_numbered_english": "12 Then all the multitude kept silent and listened to Barnabas and Paul declaring how many miracles and wonders God had worked through them among the Gentiles.",
+          "last_numbered_english": "20 but that we write to them to abstain from things polluted by idols, from sexual immorality, from things strangled, and from blood.",
+          "file": "2026-02-04/Liturgy/Praxis.txt"
+        },
+        {
+          "service": "Liturgy",
+          "slot": "Psalm and Gospel",
+          "sha256": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+          "retrieved_at": "2026-10-07T23:13:08.018Z",
+          "navigation": [
+            "Readings",
+            "Liturgy",
+            "Psalm and Gospel"
+          ],
+          "source_acceptance": "accepted_exact_dated_rendered_source_only",
+          "printed_refs": [
+            "\tPsalms 31:1, 6",
+            "\tMatthew 15:32-16:4"
+          ],
+          "first_numbered_english": "32 Now Jesus called His disciples to Himself and said, “I have compassion on the multitude, because they have now continued with Me three days and have nothing to eat. And I do not want to send them away hungry, lest they faint on the way.”",
+          "last_numbered_english": "4 A wicked and adulterous generation seeks after a sign, and no sign shall be given to it except the sign of the prophet Jonah.” And He left them and departed.",
+          "file": "2026-02-04/Liturgy/Psalm_and_Gospel.txt"
+        }
+      ],
+      "appointments": [
+        {
+          "order": 1,
+          "service_section": "Matins",
+          "reading_type": "Prophecy",
+          "printed_ref": "Jonah 3:1-4:11",
+          "normalized_ref": "Jonah 3:1-4:11",
+          "evidence": "2026-02-04/Matins/Prophecies.txt",
+          "document_sha256": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+          "heading_line": 3,
+          "body_envelope_literal": "\tJonah 3:1-4:11\n(يونان 3: 1-4: 11)\nA reading from Jonah, the prophet. May his holy blessings be with us. Amen.\nمن يونان النبي بركته المقدسة تكون معنا. آمين.\n1 Now the word of the Lord came to Jonah the second time, saying,\n1 وَكَانَتْ كَلِمَةُ الرَّبِّ إِلَى يُونَانَ ثَانِيَةً قَائِلًا:\n2 “Arise, go to Nineveh, that great city, and preach to it the message that I tell you.”\n2 \" قُمِ اِنْطَلِقْ إِلَى نِينَوَى الْمَدِينَةِ الْعَظِيمَةِ، وَنَادِ عَلَيْهَا الْمُنَادَاةَ الَّتِي أَنَا مُكَلِّمُكَ بِهَا \".\n3 So Jonah arose and went to Nineveh, according to the word of the Lord. Now Nineveh was an exceedingly great city, a three-day journey in extent.\n3 فَقَامَ يُونَانُ وَاِنْطَلَقَ إِلَى نِينَوَى بِحَسَبِ مَا تَكَلَّمَ مَعَهُ الرَّبُّ. وَكَانَتْ نِينَوَى مَدِينَةً عَظِيمَةً لِلَّهِ مَسِيرَةَ ثَلَاثَةِ أَيَّامٍ.\n4 And Jonah began to enter the city on the first day’s walk. Then he cried out and said, “Yet forty days, and Nineveh shall be overthrown!”\n4 فَابْتَدَأَ يُونَانُ يَدْخُلُ الْمَدِينَةَ مَسِيرَةَ يَوْمٍ وَاحِدٍ، وَنَادَى وَقَالَ: \" بَعْدَ أَرْبَعِينَ يَوْمًا تَنْقَلِبُ نِينَوَى \".\n5 So the people of Nineveh believed God, proclaimed a fast, and put on sackcloth, from the greatest to the least of them.\n5 فَآمَنَ أَهْلُ نِينَوَى بِاللَّهِ وَنَادَوْا بِصَوْمٍ وَلَبِسُوا مُسُوحًا مِنْ صَغِيرِهِمْ إِلَى كَبِيرِهِمْ.\n6 Then word came to the king of Nineveh; and he arose from his throne and laid aside his robe, covered himself with sackcloth and sat in ashes.\n6 وَبَلَغَ الْكَلَامُ مَلِكَ نِينَوَى، فَقَامَ عَنْ عَرْشِهِ وَخَلَعَ رِدَاءَهُ عَنْهُ، وَاِلْتَفَّ بِمِسْحٍ وَجَلَسَ عَلَى الرَّمَادِ.\n7 And he caused it to be proclaimed and published throughout Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste anything; do not let them eat, or drink water.\n7 وَأَمَرَ أَنْ يُنَادَى وَيُقَالَ فِي نِينَوَى عَنْ أَمْرِ الْمَلِكِ وَعُظَمَائِهِ قَائِلًا: \" لَا تَذُقِ النَّاسُ وَلَا الْبَهَائِمُ وَلَا الْبَقَرُ وَلَا الْغَنَمُ شَيْئًا. لَا تَرْعَ وَلَا تَشْرَبْ مَاءً.\n8 But let man and beast be covered with sackcloth, and cry mightily to God; yes, let every one turn from his evil way and from the violence that is in his hands.\n8 وَلْيَتَغَطَّ النَّاسُ وَالْبَهَائِمُ بِمُسُوحٍ، وَليَصْرُخُوا إِلَى اللَّـهِ بِشِدَّةٍ، وَيَرْجِعُوا كُلُّ وَاحِدٍ عَنْ طَرِيقِهِ الرَّدِيئَةِ وَعَنِ الظُّلْمِ الَّذِي بِأَيْدِيهِمْ،\n9 Who can tell if God will turn and relent, and turn away from His fierce anger, so that we may not perish?\n9 قَائِلِينَ: مَنْ يَعْلَمُ؟ لَعَلَّ اللَّهَ يَنْدَمُ وَيَرْجِعُ عَنْ اضْطِرَامِ غَضَبِهِ فَلَا نَهْلِكَ \".\n10 Then God saw their works, that they turned from their evil way; and God relented from the disaster that He had said He would bring upon them, and He did not do it.\n10 فَرَأَى اللَّهُ أَعْمَالَهُمْ أَنَّهُمْ رَجَعُوا عَنْ طَرِيقِهِمِ الرَّدِيئَةِ، فَنَدِمَ اللَّهُ عَلَى الشَّرِّ الَّذِي قَالَ أَنْ يَصْنَعَهُ بِهِمْ، وَلَمْ يَصْنَعْهُ.\n1 But it displeased Jonah exceedingly, and he became angry.\n1 فَحَزِنَ يُونَانَ حُزْنًا شَدِيدًا.\n2 So he prayed to the Lord, and said, “Ah, Lord, was not this what I said when I was still in my country? Therefore I fled previously to Tarshish; for I know that You are a gracious and merciful God, slow to anger and abundant in lovingkindness, One who relents from doing harm.\n2 وَصَلَّى إِلَى الرَّبِّ وَقَالَ: \" أَلَمْ يَكُنْ هَذَا كَلَامِي إِذْ كُنْتُ بَعْدُ فِي أَرْضِي؟ لِذَلِكَ بَادَرْتُ إِلَى الْهَرَبِ إِلَى تَرْشِيشَ، لِأَنِّي عَلِمْتُ أَنَّكَ إِلَهٌ رَؤُوفٌ وَرَحِيمٌ، طَويلُ الْأَنَاةِ كَثِيرُ الرَّحْمَةِ وَنَادِمٌ عَلَى الشَّرِّ.\n3 Therefore now, O Lord, please take my life from me, for it is better for me to die than to live!”\n3 فَالآنَ يَا سَيِّدَي، خُذْ نَفْسِي مِنِّي، فَإِنَّهُ خَيْرٌ لِي أَنْ أَمُوتَ مِنْ أَنْ أَحْيَا \".\n4 Then the Lord said, “Is it right for you to be angry?”\n4 فَقَالَ الرَّبُّ لِيُونَانَ: \" أَبِحَقٍّ أَنْتَ تَغْضَبُ؟ \".\n5 So Jonah went out of the city and sat on the east side of the city. There he made himself a shelter and sat under it in the shade, till he might see what would become of the city.\n5 فَخَرَجَ يُونَانُ مِنَ الْمَدِينَةِ وَجَلَسَ شَرْقِيَّ الْمَدِينَةِ، وَصَنَعَ لِنَفْسِهِ هُنَاكَ مِظَلَّةً وَجَلَسَ تَحْتَهَا فِي الظِّلِّ، رَيْثَمَا يَرَى مَاذَا يُصِيبُ الْمَدِينَةَ.\n6 And the Lord God prepared a plant and made it come up over Jonah, that it might be shade for his head to deliver him from his misery. So Jonah was very grateful for the plant.\n6 فَأَمَرَ الرَّبُّ الْإِلَهُ يَقْطِينَةً فَارْتَفَعَتْ فَوْقَ رَأْسِ يُونَانَ لِتَكُونَ ظِلًّا عَلَى رَأْسِهِ، لِكَيْ تُظَلِّلَ عَلَيْهِ مِنَ السُّمُومِ جَمِيعِهَا. فَفَرِحَ يُونَانُ بالْيَقْطِينَةِ فَرَحًا عَظِيمًا.\n7 But as morning dawned the next day God prepared a worm, and it so damaged the plant that it withered.\n7 فَأَمَرَ الرَّبُّ الْإِلَهُ دُودَةً عِنْدَ طُلُوعِ الْفَجْرِ فِي الْغَدِ، فَضَرَبَتِ الْيَقْطِينَةَ فَيَبِسَتْ.\n8 And it happened, when the sun arose, that God prepared a vehement east wind; and the sun beat on Jonah’s head, so that he grew faint. Then he wished death for himself, and said, “It is better for me to die than to live.”\n8 وَحَدَثَ عِنْدَ شُرُوقِ الشَّمْسِ أَنَّ الرَّبَّ الْإِلَهَ أَمَرَ رِيحًا شَرْقِيَّةً حَارَّةً، فَضَرَبَتِ الشَّمْسُ عَلَى رَأْسِ يُونَانَ فَصَغُرَ قَلْبُهُ وَفَارَقَتْهُ نَفْسُهُ. وَقَالَ: \" إِنَّهُ خَيْرٌ لِي أَنْ أَمُوتَ مِنْ أَنْ أَحْيَا \".\n9 Then God said to Jonah, “Is it right for you to be angry about the plant?” And he said, “It is right for me to be angry, even to death!”\n9 فَقَالَ الرَّبُّ الْإِلَهُ لِيُونَانَ: \" مَا أَشَدَّ حُزْنَكَ لِأَجْلِ الْيَقْطِينَةِ! \". فَقَالَ: \" بِحَقٍّ حَزِنْتُ جِدًّا حَتَّى الْمَوْتِ \".\n10 But the Lord said, “You have had pity on the plant for which you have not labored, nor made it grow, which came up in a night and perished in a night.\n10 فَقَالَ الرَّبُّ: \" لَقَدْ أَشْفَقْتَ أَنْتَ عَلَى الْيَقْطِينَةِ الَّتِي لَمْ تَتْعَبْ فِيهَا وَلَا رَبَّيْتَهَا، الَّتِي نَشَأَتْ بِنْتَ لَيْلَةٍ ثُمَّ هَلَكَتْ بِنْتَ لَيْلَةٍ.\n11 And should I not pity Nineveh, that great city, in which are more than one hundred and twenty thousand persons who cannot discern between their right hand and their left—and much livestock?”\n11 أَفَلَا أُشْفِقُ أَنَا عَلَى نِينَوَى الْمَدِينَةِ الْعَظِيمَةِ الَّتِي فِيهَا أَكْثَرُ مِنِ اِثْنَتَي عَشْرَةَ رِبْوَةً مِنْ أُنَاسٍ لَا يَعْرِفُونَ يَمِينَهُمْ مِنْ شِمَالِهِمْ، مَا عَدَا بَهَائِمَ كَثِيرَةً؟ \".\nGlory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen.\nⲞⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.\nمجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين.",
+          "body_envelope_sha256": "20a8be01649aafe796b261b9c0be9b0acd7a5fbafec208aaec4814164e22ebf0",
+          "coordinate_note": "Second commission through pity for Nineveh and livestock. Modern covering counterpart Jonah 3:1-4:11. Reader English 3:4 has forty days whereas Brenton has three days; retain source edition, not exact Brenton word equivalence.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 2,
+          "service_section": "Matins",
+          "reading_type": "Psalm",
+          "printed_ref": "Psalms 102:12, 11",
+          "normalized_ref": "Ps 103:13 & Ps 103:12",
+          "evidence": "2026-02-04/Matins/Psalm_and_Gospel.txt",
+          "document_sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+          "heading_line": 7,
+          "body_envelope_literal": "\tPsalms 102:12, 11\n(مزامير 102: 12, 11)\nAs a father pities his children, So the Lord pities those who fear Him. As far as the east is from the west, So far has He removed our transgressions from us.\nⲞⲩⲟϩ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲓⲱⲧ ⲉϥϣⲉⲛϩⲏⲧ ϧⲁ ⲛⲉϥϣⲏⲣⲓ: ⲡⲁⲓⲣⲏϯ ⲁϥϣⲉⲛϩⲏⲧ ⲛ̀ϫⲉ Ⲡⲟ︦ⲥ︦ ϧⲁ ⲛⲏⲉ̀ⲧⲉⲣϩⲟϯ ϧⲁ ⲧⲉϥϩⲏ: ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉ ⲛⲓⲙⲁⲛ̀ϣⲁⲓ ⲟⲩⲏ̀ⲟⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲙⲁⲛϩⲱⲧⲡ: ⲁϥⲑ̀ⲣⲟⲩⲟⲩⲉⲓ ⲙ̀ⲙⲟⲛ ⲛ̀ϫⲉ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ̀. ⲁ︦ⲗ︦.\nوَكَمَا يَتَرأَّفُ الْأَبُ عَلَى بَنِيهِ، كَذَلِكَ تَرَاءَفَ الرَّبُّ عَلَى خَائِفِيهِ. وَكَبُعْدِ الْمَشَارِقِ عَنِ الْمَغَارِبِ، أَبْعَدَ عَنَّا مَعَاصِيَنَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل",
+          "body_envelope_sha256": "b8c7623bd9ed89d16bd95fdfa0173034e4fafe05aa66d32373b33acddc54ede8",
+          "coordinate_note": "Reader father pities children followed by east/west removal matches Brenton 102:13 then 102:12; modern Ps 103:13 then 103:12. Reader printed 102:12,11 differs. These are explicit complete-clause matches, not a blanket chapter/verse offset.",
+          "canonical_repair_required": true
+        },
+        {
+          "order": 3,
+          "service_section": "Matins",
+          "reading_type": "Gospel",
+          "printed_ref": "Matthew 11:25-30",
+          "normalized_ref": "Matthew 11:25-30",
+          "evidence": "2026-02-04/Matins/Psalm_and_Gospel.txt",
+          "document_sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+          "heading_line": 34,
+          "body_envelope_literal": "\tMatthew 11:25-30\n(متى 11: 25-30)\n25 At that time Jesus answered and said, “I thank You, Father, Lord of heaven and earth, that You have hidden these things from the wise and prudent and have revealed them to babes.\nⲚ̀ϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲥⲏⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲟⲩⲟϩ ⲡⲉϫⲁϥ ϫⲉ ϯⲟⲩⲱⲛϩ ⲛⲁⲕ ⲉ̀ⲃⲟⲗ Ⲫ̀ⲓⲱⲧ Ⲡⲟ︦ⲥ︦ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ϫⲉ ⲁⲕϩⲉⲡ ⲛⲁⲓ ⲉ̀ϩⲁⲛⲥⲁⲃⲉⲩ ⲛⲉⲙ ϩⲁⲛⲕⲁⲧϩⲏ ⲧ ⲟⲩⲟϩ ⲁⲕϭⲟⲣⲡⲟⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ϩⲁⲛⲕⲟⲩϫⲓ ⲛ̀ⲁ̀ⲗⲱⲟⲩⲓ̀.\n25 فِي ذَلِكَ الْوَقْتِ أَجَابَ يَسُوعُ وَقَالَ: \" أَشْكُرُكَ أَيُّهَا الْآبُ رَبُّ السَّمَاءِ وَالْأَرْضِ، لِأَنَّكَ أَخْفَيْتَ هَذِهِ عَنِ الْحُكَمَاءِ وَالْفُهَمَاءِ وَأَعْلَنْتَهَا لِلْأَطْفَالِ.\n26 Even so, Father, for so it seemed good in Your sight.\nⲀ̀ϩⲁ Ⲫ̀ⲓⲱⲧ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓϯⲙⲁϯ ⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ.\n26 نَعَمْ أَيُّهَا الْآبُ، لِأَنَّ هَذِهِ هِيَ الْمَسَرَّةُ الَّتِي صَارَتْ أَمَامَكَ.\n27 All things have been delivered to Me by My Father, and no one knows the Son except the Father. Nor does anyone know the Father except the Son, and the one to whom the Son wills to reveal Him.\nϨⲱⲃ ⲛⲓⲃⲉⲛ ⲁ̀ Ⲫ̀ⲓⲱⲧ ⲧⲏⲓⲧⲟⲩ ⲉ̀ⲧⲟⲧ ⲟⲩⲟϩ ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲥⲱⲟⲩⲛ ⲙ̀Ⲡ̀ϣⲏⲣⲓ ⲉ̀ⲃⲏⲗ ⲉ̀Ⲫ̀ⲓⲱⲧ ⲟⲩⲇⲉ ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲥⲱⲟⲩⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲉ̀ⲃⲏⲗ ⲉ̀Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ ⲫⲏⲉ̀ⲧⲉϩⲛⲉ Ⲡ̀ϣⲏⲣⲓ ⲉ̀ϭⲱⲣⲡ ⲛⲁϥ ⲉ̀ⲃⲟⲗ.\n27 كُلُّ شَيْءٍ قَدْ دُفِعَ إلَيَّ مِنْ أَبِي، وَلَيْسَ أَحَدٌ يَعْرِفُ الاِبْنَ إلَّا الْآبُ، وَلَا أَحَدٌ يَعْرِفُ الْآبَ إِلَّا الاِبْنُ وَمَنْ أَرَادَ الاِبْنُ أَنْ يُعْلِنَ لَهُ.\n28 Come to Me, all you who labor and are heavy laden, and I will give you rest.\nⲀ̀ⲙⲱⲓⲛⲓ ϩⲁⲣⲟⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϧⲟⲥⲓ ⲟⲩⲟϩ ⲉⲧⲟⲡⲧ ϧⲁ ⲛⲟⲩⲉⲧⲫⲱⲟⲩⲓ̀ ⲟⲩⲟϩ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁϯⲙ̀ⲧⲟⲛ ⲛⲱⲧⲉⲛ.\n28 تَعَالَوْا إِلَيَّ يَا جَمِيعَ الْمُتْعَبِينَ وَالثَّقِيلِي الْأَحْمَالِ، وَأَنَا أُرِيحُكُمْ.\n29 Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.\nⲀ̀ⲗⲓⲟⲩⲓ̀ ⲙ̀ⲡⲁⲛⲁϩⲃⲉϥ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲁ̀ⲣⲓⲉ̀ⲙⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲟⲓ ϫⲉ ⲁ̀ⲛⲟⲕ ⲟⲩⲣⲉⲙⲣⲁⲩϣ ⲟⲩⲟϩ ϯⲑⲉⲃⲓⲏⲟⲩⲧ ϧⲉⲛ ⲡⲁϩⲏⲧ ⲟⲩⲟϩ ⲉ̀ⲣⲉⲧⲉⲛⲉ̀ϫⲓⲙⲓ ⲛ̀ⲟⲩⲙⲁⲛⲉⲙⲧⲟⲛ ⲛ̀ⲛⲉⲧⲉⲛⲯⲩⲭⲏ.\n29 اِحْمِلُوا نِيرِي عَلَيْكُمْ وَتَعَلَّمُوا مِنِّي؛ لِأَنِّي وَدِيعٌ وَمُتَوَاضِعُ الْقَلْبِ، فَتَجِدُوا رَاحَةً لِنُفُوسِكُمْ.\n30 For My yoke is easy and My burden is light.”\nⲠⲁⲛⲁϩⲃⲉϥ ⲅⲁⲣ ϥ̀ϩⲟⲗϫ ⲟⲩⲟϩ ⲧⲁⲉⲧⲫⲱ ⲁ̀ⲥⲓⲱ̀ⲟⲩ\n30 لِأَنَّ نِيرِي هَيِّنٌ وَحِمْلِي خَفِيفٌ \".",
+          "body_envelope_sha256": "90c1d9a694ab4b4390541853790875b6e465c0a148280e2ca8d7d76a8860bb93",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 4,
+          "service_section": "Liturgy",
+          "reading_type": "Pauline Epistle",
+          "printed_ref": "Ephesians 2:1-22",
+          "normalized_ref": "Ephesians 2:1-22",
+          "evidence": "2026-02-04/Liturgy/Pauline_Epistle.txt",
+          "document_sha256": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+          "heading_line": 17,
+          "body_envelope_literal": "\tEphesians 2:1-22\n(أفسس 2: 1-22)\nReader:\nPaul, the servant of our Lord Jesus Christ, called to be an apostle, appointed to the Gospel of God. A reading from the Epistle of our teacher Paul to the Ephesians. May his holy blessings be with us. Amen.\nالقارﺉُ:\nبولس عبد يسوع المسيح الرسول المدعو المفرز لبشرى الله. فصل من رسالة معلمنا بولس الرسول الى اهل أفسس بركته تكون معنا. آمين.\n1 And you He made alive, who were dead in trespasses and sins,\nⲞⲩⲟϩ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲱⲧⲉⲛ ⲉⲣⲉⲧⲉⲛⲙⲱⲟⲩⲧ ϧⲉⲛ ⲛⲉⲧⲉⲛⲡⲁⲣⲁⲡ̀ⲧⲱⲙⲁ ⲛⲉⲙ ⲛⲉⲧⲉⲛⲛⲟⲃⲓ.\n1 وَأَنْتُمْ أَيْضًا إذْ كُنْتُمْ أَمْوَاتًا بِزَلَّاتِكُمْ وَخَطَايَاكُمْ،\n2 in which you once walked according to the course of this world, according to the prince of the power of the air, the spirit who now works in the sons of disobedience,\nⲚⲏ ⲉ̀ⲛⲁⲣⲉⲧⲉⲛⲙⲟϣⲓ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲙ̀ⲡⲓⲥⲏⲟⲩ ⲕⲁⲧⲁ ⲡ̀ⲉⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲁⲓⲕⲟⲥⲙⲟⲥ ⲕⲁⲧⲁ ⲡ̀ⲁⲣⲭⲱⲛ ⲙ̀ⲡ̀ⲉⲣϣⲓϣⲓ ⲙ̀ⲡⲓⲁⲏⲣ ⲛ̀ⲧⲉ ⲡⲓⲡⲛ︦ⲁ︦ ⲫⲁⲓ ⲉⲧⲉⲣϩⲱⲃ ϯⲛⲟⲩ ϧⲉⲛ ⲛⲓϣⲏⲣⲓ ⲛ̀ⲧⲉ ϯⲙⲉⲧⲁⲧⲑⲱⲧ ⲛ̀ϩⲏⲧ.\n2 الَّتِي سَلَكْتُمْ فِيهَا قَبْلًا حَسَبَ دَهْرِ هذَا الْعَالَمِ، حَسَبَ رَئِيسِ سُلْطَانِ الْهَوَاءِ، الرُّوحِ الَّذِي يَعْمَلُ الآنَ في أبْنَاءِ الْمَعْصِيَةِ،\n3 among whom also we all once conducted ourselves in the lusts of our flesh, fulfilling the desires of the flesh and of the mind, and were by nature children of wrath, just as the others.\nⲚⲏⲉⲧⲉ ⲁ̀ⲛⲟⲛ ⲧⲏⲣⲟⲩ ⲛⲁⲛⲙⲟϣⲓ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ⲟⲩⲥⲏⲟⲩ ϧⲉⲛ ⲛⲓⲉⲡⲓⲑⲩⲙⲓⲁ ⲛ̀ⲧⲉ ⲧ̀ⲥⲁⲣⲝ ⲉⲛⲓ̀ⲣⲓ ⲛ̀ⲛⲓⲟⲩⲱϣ ⲛ̀ⲧⲉ ϯⲥⲁⲣⲝ ⲛⲉⲙ ⲛⲓⲙⲉⲩⲓ ⲛ̀ϩⲏⲧ ⲟⲩⲟϩ ⲛⲁⲛⲟⲓ ⲫⲩⲥⲓⲥ ⲛ̀ϣⲏⲣⲓ ⲛ̀ⲧⲉ ⲡ̀ϫⲱⲛⲧ ⲙ̀ⲫ̀ⲣⲏϯ ⲙ̀ⲡ̀ⲕⲉⲥⲉⲡⲓ.\n3 الَّذِينَ نَحْنُ أَيْضًا جَمِيعًا كُنَّا نَسْلُكُ قَبْلًا بَيْنَهُمْ في شَهَوَاتِ الْجَسَدِ، عَامِلِينَ مَشِيئَاتِ الْجَسَدِ وَالأَفْكَارِ القَلْبِيَةِ، وَكُنَّا بِالطَّبِيعَةِ أبْنَاءَ الْغَضَبِ كَالْبَاقِينَ أَيْضًا،\n4 But God, who is rich in mercy, because of His great love with which He loved us,\nⲪϯ ⲇⲉ ⲟⲩⲣⲁⲙⲁⲟ̀ ⲡⲉ ϧⲉⲛ ⲫ̀ⲛⲁⲓ ⲉⲑⲃⲉ ⲧⲉϥⲛⲓϣϯ ⲛ̀ⲁⲅⲁⲡⲏ ⲑⲁⲓ ⲉⲧⲁϥⲙⲉⲛⲣⲓⲧⲉⲛ ⲛ̀ϧⲏⲧⲥ.\n4 وَلكِنَّ اللَّهَ الَّذِي هُوَ غَنِيٌّ في الرَّحْمَةِ، مِنْ أَجْلِ مَحَبَّتِهِ الْعَظِيمَةِ الَّتِي أَحَبَّنَا بِهَا،\n5 even when we were dead in trespasses, made us alive together with Christ (by grace you have been saved),\nⲞⲩⲟϩ ⲉⲛⲙⲱⲟⲩⲧ ϧⲉⲛ ⲛⲉⲛⲡⲁⲣⲁⲡ̀ⲧⲱⲙⲁ ⲁϥⲧⲁⲛϧⲟⲛ ϧⲉⲛ Ⲡⲭ︦ⲥ︦ ϧⲉⲛ ⲟⲩϩ̀ⲙⲟⲧ ⲟⲩⲛ ⲁⲧⲉⲧⲉⲛⲛⲟϩⲉⲙ.\n5 وَنَحْنُ أَمْوَاتٌ بِزَلَّاتِنَا أَحْيَانَا بِالْمَسِيحِ بِالنِّعْمَةِ أَنْتُمْ مُخَلَّصُونَ\n6 and raised us up together, and made us sit together in the heavenly places in Christ Jesus,\nⲞⲩⲟϩ ⲁϥⲧⲟⲩⲛⲟⲥⲉⲛ ⲛⲉⲙⲁϥ ⲟⲩⲟϩ ⲁϥⲧ̀ϩⲉⲙⲥⲟⲛ ⲛⲉⲙⲁϥ ϧⲉⲛ ⲛⲁ ⲛⲓⲫⲏⲟⲩⲓ̀ ϧⲉⲛ Ⲡⲭ︦ⲥ︦ Ⲓⲏ︦ⲥ︦.\n6 وَأقَامَنَا مَعَهُ، وَأَجْلَسَنَا مَعَهُ في السَّمَاوِيَّاتِ في الْمَسِيحِ يَسُوعَ؛\n7 that in the ages to come He might show the exceeding riches of His grace in His kindness toward us in Christ Jesus.\nϨⲓⲛⲁ ⲛ̀ⲧⲉϥⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲉⲛⲉϩ ⲉⲑⲛⲏⲟⲩ ⲛ̀ϯⲙⲉⲧⲣⲁⲙⲁⲟ̀ ⲉⲧⲉⲣϩⲟⲩⲟ̀ ⲛ̀ⲧⲉ ⲡⲉϥϩ̀ⲙⲟⲧ ϧⲉⲛ ⲟⲩⲙⲉⲧⲭⲣ︦ⲥ︦ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲛ ϧⲉⲛ Ⲡⲭ︦ⲥ︦ Ⲓⲏ︦ⲥ︦.\n7 لِكَيْ يُظْهِرَ في الدُّهُورِ الآتِيَةِ غِنَى نِعْمَتِهِ الْفَائِقَ، بِاللُّطْفِ عَلَيْنَا في الْمَسِيحِ يَسُوعَ.\n8 For by grace you have been saved through faith, and that not of yourselves; it is the gift of God,\nϦⲉⲛ ⲟⲩϩ̀ⲙⲟⲧ ⲅⲁⲣ ⲁⲧⲉⲧⲉⲛⲛⲟϩⲉⲙ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲟⲩⲛⲁϩϯ ⲟⲩⲟϩ ⲫⲁⲓ ⲛ̀ⲟⲩⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲱⲧⲉⲛ ⲁⲛ ⲡⲉ ⲡⲓⲧⲁⲓⲟ ⲫⲁ ⲫϯ ⲡⲉ.\n8 لِأَنَّكُمْ بِالنِّعْمَةِ مُخَلَّصُونَ، بِالْإِيمَانِ، وَذلِكَ لَيْسَ مِنْكُمْ. إِنَّمَا هِيَ عَطِيَّةُ اللَّهِ.\n9 not of works, lest anyone should boast.\nⲚⲉ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲁⲛ ϩⲓⲛⲁ ⲛ̀ⲧⲉϣ̀ⲧⲉⲙ ⲟⲩⲁⲓ ϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲟϥ.\n9 لَيْسَ مِنْ أَعْمَالٍ كَيْلَا يَفْتَخِرَ أَحَدٌ.\n10 For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand that we should walk in them.\nⲈ̀ⲁⲛⲟⲛ ⲟⲩⲑⲁⲙⲓⲟ ⲅⲁⲣ ⲛ̀ⲧⲁϥ ⲉ̀ⲁϥⲥⲟⲛⲧⲉⲛ ϧⲉⲛ Ⲡⲭ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲉⲛ ϩⲁⲛϩ̀ⲃⲏⲟⲩⲓ̀ ⲉ̀ⲛⲁⲛⲉⲩ ⲛⲏⲉⲧⲁϥⲉⲣϣⲟⲣⲡ ⲛ̀ⲥⲉⲃⲧⲱⲧⲟⲩ ⲛ̀ϫⲉ ⲫϯ ϩⲓⲛⲁ ⲛ̀ⲧⲉⲛⲙⲟϣⲓ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧⲟⲩ.\n10 لِأَنَّنَا نَحْنُ خَلِيقَتُهُ، مَخْلُوقِينَ في الْمَسِيحِ يَسُوعَ لأَعْمَالٍ صَالِحَةٍ، قَدْ سَبَقَ اللَّهُ فَأَعَدَّهَا لِكَيْ نَسْلُكَ فِيهَا.\n11 Therefore remember that you, once Gentiles in the flesh—who are called Uncircumcision by what is called the Circumcision made in the flesh by hands—\nⲈⲑⲃⲉⲫⲁⲓ ⲁⲣⲓⲫ̀ⲙⲉⲩⲓ ϫⲉ ⲛ̀ⲑⲱⲧⲉⲛ ϧⲁ ⲛⲓⲉⲑⲛⲟⲥ ⲛ̀ⲟⲩⲥⲏⲟⲩ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ ⲛⲏⲉⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲱⲟⲩ ϫⲉ ϯⲙⲉⲧⲁⲧⲥⲉⲃⲓ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲉⲧⲟⲩⲙⲟⲩϯ ⲉ̀ⲣⲟϥ ϫⲉ ⲡ̀ⲥⲉⲃⲓ ϧⲉⲛ ⲧ̀ⲥⲁⲣⲝ ⲛ̀ⲑⲁⲙⲓⲟ ⲛ̀ϫⲓϫ.\n11 لِذلِكَ اذْكُرُوا أَنَّكُمْ أَنْتُمْ أيُّهَا الأُمَمُ قَبْلًا في الْجَسَدِ، الْمَدْعُوِّينَ غُرْلَةً مِنَ الْمَدْعُوِّ خِتَانًا مَصْنُوعًا بِالْيَدِ في الْجَسَدِ،\n12 that at that time you were without Christ, being aliens from the commonwealth of Israel and strangers from the covenants of promise, having no hope and without God in the world.\nϪⲉ ⲛⲁⲣⲉⲧⲉⲛⲭⲏ ⲙ̀ⲡⲓⲥⲏⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲥⲁⲃⲟⲗ ⲙ̀Ⲡⲭ︦ⲥ︦ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ϣⲉⲙⲙⲟ ⲉ̀ϯⲡⲟⲗⲓⲧⲓⲁ ⲛ̀ⲧⲉ ⲡⲓⲥ︦ⲗ︦ ⲟⲩⲟϩ ⲛ̀ϣⲉⲙⲙⲟ ⲛ̀ⲛⲓⲇⲓⲁ̀ⲑⲏ ⲕⲏ ⲛ̀ⲧⲉ ϯⲉⲡⲁⲅⲅⲉⲗⲓⲁ ⲙ̀ⲙⲟⲛⲧⲉⲧⲉⲛ ϩⲉⲗⲡⲓⲥ ⲙ̀ⲙⲁⲩ ⲟⲩⲟϩ ⲉⲣⲉⲧⲉⲛⲟⲓ ⲛ̀ⲁⲑⲛⲟⲩϯ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ.\n12 أَنَّكُمْ كُنْتُمْ في ذلِكَ الزَّمَانِ بِدُونِ الْمَسِيحِ، أَجْنَبِيِّينَ عَنْ سِيرَةِ إسْرَائِيلَ، وَغُرَبَاءَ عَنْ عُهُودِ الْمَوْعِدِ، لَا رَجَاءَ لَكُمْ، وَبِلَا إلهٍ في الْعَالَمِ.\n13 But now in Christ Jesus you who once were far off have been brought near by the blood of Christ.\nϮⲛⲟⲩ ⲇⲉ ϧⲉⲛ Ⲡⲭ︦ⲥ︦ Ⲓⲏ︦ⲥ︦ ⲛ̀ⲑⲱⲧⲉⲛ ϧⲁ ⲛⲏⲉⲑⲟⲩⲏⲟⲩ ⲙ̀ⲡⲓⲥⲏⲟⲩ ⲁⲧⲉⲧⲉⲛϧⲱⲛⲧ ϧⲉⲛ ⲡ̀ⲥ̀ⲛⲟϥ ⲙ̀Ⲡⲭ︦ⲥ︦.\n13 وَلكِنِ الآنَ في الْمَسِيحِ يَسُوعَ، أَنْتُمْ الَّذِينَ كُنْتُمْ قَبْلًا بَعِيدِينَ، صِرْتُمْ قَرِيبِينَ بِدَمِ الْمَسِيحِ.\n14 For He Himself is our peace, who has made both one, and has broken down the middle wall of separation,\nⲚ̀ⲑⲟϥ ⲅⲁⲣ ⲡⲉⲧⲉⲛϩⲓⲣⲏⲛⲏ ⲫⲏⲉⲧⲁϥⲉⲣ ⲡⲓⲃ︦ ⲛ̀ⲟⲩⲁⲓ ⲟⲩⲟϩ ϯϫⲓⲛⲑ̀ⲙⲏϯ ⲛ̀ⲧⲉ ⲡⲓⲑⲱⲙ ⲁϥⲃⲟⲗⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ⲁϥⲃⲉⲗ ϯⲙⲉⲧϫⲁϫⲓ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲧⲉϥⲥⲁⲣⲝ.\n14 لِأَنَّهُ هُوَ سَلَامُنَا، الَّذِي جَعَلَ الاثْنَيْنِ وَاحِدًا، وَنَقَضَ الْحَاجِزَ الْمُتَوَسِّطَ،\n15 having abolished in His flesh the enmity, that is, the law of commandments contained in ordinances, so as to create in Himself one new man from the two, thus making peace,\nⲪ̀ⲛⲟⲙⲟⲥ ⲛ̀ⲧⲉ ⲛⲓⲉⲛⲧⲟⲗⲏ ϧⲉⲛ ⲛⲓⲇⲟⲅⲙⲁ ⲁϥⲕⲟⲣϥϥ ϩⲓⲛⲁ ⲛ̀ⲧⲉϥⲥⲱⲛⲧ ⲙ̀ⲡⲓⲃ︦ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧϥ ⲛ̀ⲟⲩⲣⲱⲙⲓ ⲛ̀ⲟⲩⲱⲧ ⲙ̀ⲃⲉⲣⲓ ⲉϥⲓ̀ⲣⲓ ⲛ̀ⲟⲩϩⲓⲣⲏⲛⲏ.\n15 وَأَبْطَلَ الْعَدَاوَةَ بِجَسَدِهِ. وَأَبْطَلَ نَامُوسَ الْوَصَايَا في الْفَرَائِضِ، لِكَيْ يَخْلُقَ الاثْنَيْنِ في نَفْسِهِ إِنْسَانًا وَاحِدًا جَدِيدًا، صَانِعًا سَلَامًا،\n16 and that He might reconcile them both to God in one body through the cross, thereby putting to death the enmity.\nⲞⲩⲟϩ ⲛ̀ⲧⲉϥϩⲱⲧⲡ ⲙ̀ⲡⲓⲃ︦ ϧⲉⲛ ⲟⲩⲥⲱⲙⲁ ⲛ̀ⲟⲩⲱⲧ ⲙ̀ⲫϯ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲉⲛ ⲡⲓ ̀ⲉ̀ⲁϥϧⲱⲧⲉⲃ ⲛ̀ϯⲙⲉⲧϫⲁϫⲓ ⲛ̀ϧ̀ⲣⲏⲓ ⲛ̀ϧⲏⲧϥ.\n16 وَيُصَالِحَ الاثْنَيْنِ في جَسَدٍ وَاحِدٍ مَعَ اللَّهِ بِالصَّلِيبِ، قَاتِلًا الْعَدَاوَةَ بِذَاتِهِ.\n17 And He came and preached peace to you who were afar off and to those who were near.\nⲞⲩⲟϩ ⲁϥⲓ̀ ⲁϥϩⲓϣⲉⲛⲛⲟⲩϥⲓ ⲛⲱⲧⲉⲛ ⲛ̀ⲟⲩϩⲓⲣⲏⲛⲏ ϧⲁ ⲛⲏⲉⲑⲟⲩⲏⲟⲩ ⲛⲉⲙ ⲟⲩϩⲓⲣⲏⲛⲏ ⲛ̀ⲛⲏⲉⲧϧⲉⲛⲧ.\n17 فَجَاءَ وَبَشَّرَكُمْ بِسَلَامٍ أَنْتُمُ الْبَعِيدِينَ. وَبِسَلَامٍ أَنْتُمُ الْقَرِيبِينَ.\n18 For through Him we both have access by one Spirit to the Father.\nϪⲉ ⲉ̀ⲃⲟⲗ ϩⲓⲧⲟⲧϥ ⲟⲩⲟⲛⲧⲁⲛ ⲙ̀ⲙⲁⲩ ⲙ̀ⲡⲓϫⲓⲛⲓ̀ ⲉ̀ϧⲟⲩⲛ ϧⲁ ⲡⲓⲃ︦ ⲉⲩⲥⲟⲡ ϧⲉⲛ ⲟⲩⲡⲛ︦ⲁ︦ ⲛ̀ⲟⲩⲱⲧ ϩⲁ ⲫ̀ⲓⲱⲧ.\n18 لأَنْ بِهِ صَارَ لَنَا كِلَيْنَا الدُّخُولُ في رُوحٍ وَاحِدٍ إِلَى الآبِ.\n19 Now, therefore, you are no longer strangers and foreigners, but fellow citizens with the saints and members of the household of God,\nϨⲁⲣⲁ ⲟⲩⲛ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲁⲛϣⲉⲙⲙⲱⲟⲩ ⲁⲛ ϫⲉ ⲛⲉⲙ ϩⲁⲛⲣⲉⲙⲛ̀ϫⲱⲓⲗⲓ ⲁⲗⲗⲁ ϩⲁⲛϣ̀ⲫⲏ ⲣ ⲛ̀ⲣⲉⲙⲙ̀ⲃⲁⲕⲓ ⲛ̀ⲧⲉ ⲛⲓⲁⲅⲓⲟⲥ ⲛⲉⲙ ϩⲁⲛⲣⲉⲙⲛ̀ⲏ ⲓ ⲛ̀ⲧⲉ ⲫϯ.\n19 فَلَسْتُمْ إذًا بَعْدُ غُرَبَاءَ وَنُزَلَاءَ، بَلْ أَنْتُمْ شُرَكاءُ وَطَنِ الْقِدِّيسِينَ وَأَهْلِ بَيْتِ اللَّهِ،\n20 having been built on the foundation of the apostles and prophets, Jesus Christ Himself being the chief cornerstone,\nⲈ̀ⲁⲩⲕⲉⲧ ⲑⲏⲛⲟⲩ ⲉ̀ϫⲉⲛ ϯⲥⲉⲛϯ ⲛ̀ⲧⲉ ⲛⲓⲁⲡⲟⲥⲧⲟⲗⲟⲥ ⲛⲉⲙ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ ⲉϥⲟⲓ ⲛ̀ϫⲱϫ ⲛ̀ⲗⲁⲕϩ ⲉ̀ⲣⲟⲥ ⲛ̀ϫⲉ Ⲡⲭ︦ⲥ︦ Ⲓⲏ︦ⲥ︦.\n20 مَبْنِيِّينَ عَلَى أَسَاسِ الرُّسُلِ وَالأَنْبِيَاءِ، وَالْمَسِيحُ يَسُوعُ نَفْسُهُ هُوَ حَجَرُ الزَّاوِيَةِ،\n21 in whom the whole building, being fitted together, grows into a holy temple in the Lord,\nⲪⲁⲓ ⲉⲧⲉ ⲡⲓⲕⲱⲧ ⲧⲏⲣϥ ϫ̀ⲫⲏⲟⲩⲧ ⲛ̀ϧ̀ⲣⲏ ⲓ ⲛ̀ϧⲏⲧϥ ϥ̀ⲛⲁⲁⲓⲁⲓ ⲉⲩⲉⲣⲫⲉⲓ ⲉϥⲟⲩⲁⲃ ϧⲉⲛ Ⲡⲟ︦ⲥ︦.\n21 هذَا الَّذِي فِيهِ كُلُّ الْبِنَاءِ مُرَكَّبًا مَعًا، يَنْمُو هَيْكَلًا مُقَدَّسًا في الرَّبِّ.\n22 in whom you also are being built together for a dwelling place of God in the Spirit.\nⲪⲁⲓ ⲉⲧⲉⲧⲉⲛⲟⲓ ⲛ̀ϣ̀ⲫⲏⲣ ⲛ̀ⲕⲱⲧ ϩⲱⲧⲉⲛ ⲛ̀ϧⲏⲧϥ ⲉⲩⲙⲁⲛ̀ϣⲱⲡⲓ ⲙ̀ⲫϯ ϧⲉⲛ ⲡⲓⲡⲛ︦ⲁ︦\n22 الَّذِي فِيهِ أَنْتُمْ أَيْضًا مَبْنِيُّونَ بِالاشْترَاكِ مَعًا، مَسْكَنًا لِلَّهِ في الرُّوحِ.\nThe grace of God the Father be with you all. Amen.\nنعمة الله الآب تكون مع جميعِكم. آمين.",
+          "body_envelope_sha256": "5141beca6a6a70767ac52b28af0aba091cc67bd5a059b1b37bb03830e32fbf56",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 5,
+          "service_section": "Liturgy",
+          "reading_type": "Catholic Epistle",
+          "printed_ref": "1 John 2:12-17",
+          "normalized_ref": "1John 2:12-17",
+          "evidence": "2026-02-04/Liturgy/Catholic_Epistle.txt",
+          "document_sha256": "22606c6a7f6dfeabc85c097b50d1e15a0e2be3bfe7b243acd00dbe33b6fe6fbb",
+          "heading_line": 5,
+          "body_envelope_literal": "\t1 John 2:12-17\n(1 يوحنا 2: 12-17)\nThe Catholic Epistle from the first Epistle of our teacher St. John. May his holy blessings be with us. Amen.\nالكاثوليكون من رسالة يوحنا الرسول الأولى. بركته تكون معنا. آمين.\n12 I write to you, little children, Because your sins are forgiven you for His name’s sake.\nϮⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲛⲓϣⲏⲣⲓ ϫⲉ ⲥⲉⲛⲁⲭⲁ ⲛⲉⲧⲉⲛⲛⲟⲃⲓ ⲛⲱⲧⲉⲛ ⲉ̀ⲃⲟⲗ ⲉⲑⲃⲉ ⲡⲉϥⲣⲁⲛ.\n12 أَكْتُبُ إِلَيْكُمْ أَيُّهَا الْأَوْلَادُ، لِأَنَّهُ قَدْ غُفِرَتْ لَكُمُ خَطَايَاكُمْ مِنْ أَجْلِ اسْمِهِ.\n13 I write to you, fathers, Because you have known Him who is from the beginning. I write to you, young men, Because you have overcome the wicked one. I write to you, little children, Because you have known the Father.\nϮⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲛⲓⲓⲟϯ ϫⲉ ⲁⲣⲉⲧⲉⲛⲥⲟⲩⲉⲛ ⲫⲏⲉⲧϣⲟⲡ ⲓⲥϫⲉⲛ ϩⲏ ϯⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲛⲓϧⲉⲗϣⲓ̀ⲣⲓ ϫⲉ ⲁⲣⲉⲧⲉⲛϭⲣⲟ ⲉ̀ⲡⲓⲡⲟⲛⲏⲣⲟⲥ.\n13 أَكْتُبُ إِلَيْكُمْ أَيُّهَا الْآبَاءُ، لِأَنَّكُمْ قَدْ عَرَفْتُمُ الَّذِي مِنَ الْبَدْءِ. أَكْتُبُ إِلَيْكُمْ أَيُّهَا الشُّبَّانُ،لِأَنَّكُمْ قَدْ غَلَبْتُمُ الشِّرِّيرَ. أَكْتُبُ إِلَيْكُمْ أَيُّهَا الْأَوْلَادُ، لِأَنَّكُمْ قَدْ عَرَفْتُمُ الْآبَ.\n14 I have written to you, fathers, Because you have known Him who is from the beginning. I have written to you, young men, Because you are strong, and the word of God abides in you, And you have overcome the wicked one.\nⲀⲓⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲛⲓⲁ̀ⲗⲱⲟⲩⲓ̀ ϫⲉ ⲁⲣⲉⲧⲉⲛⲥⲟⲩⲉⲛ ⲫ̀ⲓⲱⲧ ⲁⲓⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲛⲓⲓⲟϯ ϫⲉ ⲁⲣⲉⲧⲉⲛⲥⲟⲩⲉⲛ ⲫⲏⲉⲧϣⲱⲡⲓ ⲓⲥϫⲉⲛ ϩⲏ ⲁⲓⲥ̀ϧⲁⲓ ⲛⲱⲧⲉⲛ ⲛⲓϧⲉⲗϣⲓ̀ⲣⲓ ϫⲉ ⲧⲉⲧⲉⲛϫⲟⲣ ⲟⲩⲟϩ ⲡⲓⲥⲁϫⲓ ⲛ̀ⲧⲉ ⲫϯ ϣⲟⲡ ϧⲉⲛ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲁⲧⲉⲧⲉⲛϭⲣⲟ ⲉ̀ⲡⲓⲡⲟⲛⲏⲣⲟⲥ.\n14 كَتَبْتُ إِلَيْكُمْ أَيُّهَا الْآبَاءُ، لِأَنَّكُمْ قَدْ عَرَفْتُمُ الَّذِي مِنَ الْبَدْءِ. كَتَبْتُ إِلَيْكُمْ أَيُّهَا الشُّبَّانُ، لِأَنَّكُمْ أَقْوِيَاءُ، وَكَلِمَةُ اللَّهِ ثَابِتَةٌ فِيكُمْ، وَقَدْ غَلَبْتُمُ الشِّرِّيرَ.\n15 Do not love the world or the things in the world. If anyone loves the world, the love of the Father is not in him.\nⲘ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲉϣⲱⲡ ⲇⲉ ⲁⲣⲉϣⲁⲛ ⲟⲩⲁⲓ ⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ϯⲁⲅⲁⲡⲏ ⲛ̀ⲧⲉ ⲫ̀ⲓⲱⲧ ϣⲟⲡ ⲛ̀ϧⲏⲧϥ ⲁⲛ.\n15 لَا تُحِبُّوا الْعَالَمَ ولَا الْأَشْيَاءَ الَّتِي فِي الْعَالَمِ. إِنْ أَحَبَّ أَحَدٌ الْعَالَمَ فَلَيْسَتْ فِيهِ مَحَبَّةُ الْآبِ.\n16 For all that is in the world—the lust of the flesh, the lust of the eyes, and the pride of life—is not of the Father but is of the world.\nϪⲉ ⲉⲛⲭⲁⲓ ⲛⲓⲃⲉⲛ ⲉⲧϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ ϯⲉ̀ⲡⲓⲑⲩⲙⲓⲁ̀ ⲛ̀ⲧⲉ ϯⲥⲁⲣⲝ ⲛⲉⲙ ϯⲉ̀ⲡⲓⲑⲩⲙⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲓⲃⲁⲗ ⲛⲉⲙ ϯⲙⲉⲧⲣⲉϥϩⲓⲡ̀ϩⲟ ⲛ̀ⲧⲉ ⲡⲁⲓⲃⲓⲟⲥ ⲛⲁⲓ ϩⲁⲛⲉ̀ⲃⲟⲗ ⲙ̀ⲫ̀ⲓⲱⲧ ⲁⲛ ⲛⲉ ⲁⲗⲗⲁ ϩⲁⲛⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲉ.\n16 لِأَنَّ كُلَّ مَا فِي العَالَمِ: شَهْوَةَ الْجَسَدِ، وَشَهْوَةَ الْعُيُونِ، وَتَعَظُّمَ الْمَعِيشَةِ، فَهَذِهِ لَيْسَتْ مِنَ الْآبِ بَلْ مِنَ الْعَالَمِ.\n17 And the world is passing away, and the lust of it; but he who does the will of God abides forever.\nⲞⲩⲟϩ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ̀ ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀ⲫϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉⲛⲉϩ.\n17 وَالْعَالَمُ يَمْضِي وَشَهْوَتُهُ، وَأَمَّا الَّذِي يَصْنَعُ مَشِيئَةَ اللَّهِ فَيَثْبُتُ إِلَى الْأَبَدِ.\nDo not love the world or the things in the world. The world is passing away, and its lust; but he who does the will of God abides for ever. Amen.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲙ̀ⲡⲉⲣⲙⲉⲛⲣⲉ ⲡⲓⲕⲟⲥⲙⲟⲥ ⲟⲩⲇⲉ ⲛⲏⲉ̀ⲧϣⲟⲡ ϧⲉⲛ ⲡⲓⲕⲟⲥⲙⲟⲥ: ⲡⲓⲕⲟⲥⲙⲟⲥ ⲛⲁⲥⲓⲛⲓ ⲛⲉⲙ ⲧⲉϥⲉ̀ⲡⲓⲑⲩⲙⲓⲁ: ⲫⲏ ⲇⲉ ⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲫ̀ⲟⲩⲱϣ ⲙ̀Ⲫⲛⲟⲩϯ ϥ̀ⲛⲁϣⲱⲡⲓ ϣⲁ ⲉ̀ⲛⲉϩ: ⲁ̀ⲙⲏⲛ.\nلا تحبوا العالم ولا الأشياء التي في العالم. العالم يمضي وشهواته. والذي يصنع إرادة الله يدوم إلى الأبد. آمين.\n\tConclusion to the Coptic Catholic Epistle\n(Ⲛⲁⲥ̀ⲛⲏⲟⲩ...)",
+          "body_envelope_sha256": "3dbaa27bab1a1526a723509a0acaa9418c534f0576b93b21d31fa78ffb0f7a59",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 6,
+          "service_section": "Liturgy",
+          "reading_type": "Acts of the Apostles",
+          "printed_ref": "Acts 15:12-20",
+          "normalized_ref": "Acts 15:12-20",
+          "evidence": "2026-02-04/Liturgy/Praxis.txt",
+          "document_sha256": "15b9dd3b551cb8f40e561d334dfeea65ee27170b79c170cece2a43af5932cf0b",
+          "heading_line": 5,
+          "body_envelope_literal": "\tActs 15:12-20\n(اعمال 15: 12-20)\nA reading from the Acts of our fathers the pure apostles, who were invested with the grace of the Holy Spirit. May their holy blessing be with us all. Amen.\nفصل من أعمال آبائنا الرسل الأطهار المشمولين بنعمة الروح القدس بركتهم المقدسة تكون معنا آمين.\n12 Then all the multitude kept silent and listened to Barnabas and Paul declaring how many miracles and wonders God had worked through them among the Gentiles.\nⲀⲩⲭⲁⲣⲱϥ ⲇⲉ ⲛ̀ϫⲉ ⲡⲓⲙⲏϣ ⲧⲏⲣϥ ⲟⲩⲟϩ ⲛⲁⲩⲥⲱⲧⲉⲙ ⲉ̀ⲃⲁⲣⲛⲁⲃⲁⲥ ⲛⲉⲙ ⲡⲁⲩⲗⲟⲥ ⲉⲩⲥⲁϫⲓ ⲛ̀ⲛⲓⲙⲏⲓⲛⲓ ⲧⲏⲣⲟⲩ ⲛⲉⲙ ⲛⲓϣ̀ⲫⲏⲣⲓ ⲉ̀ⲧⲁ Ⲫϯ ⲁⲓⲧⲟⲩ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲉ̀ⲃⲟⲗϩⲓⲧⲟⲧⲟⲩ.\n12 فَسَكَتَ الْجُمْهُورُ كُلُّهُ. وَكَانُوا يَسْمَعُونَ بَرْنَابَا وَبُولُسَ يُحَدِّثَانِ بِجَمِيعِ مَا صَنَعَ اللَّــهُ مِـنَ الْآيَــاتِ وَالْعَجَائِــبِ فِـي الأُمَــمِ بِوَاسِطَتِهِمَــا.\n13 And after they had become silent, James answered, saying, “Men and brethren, listen to me:\nⲘⲉⲛⲉⲛⲥⲁ ⲉ̀ⲧⲁⲩⲭⲁⲣⲱⲟⲩ ⲇⲉ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲁⲕⲱⲃⲟⲥ ⲉϥϫⲱ ⲙ̀ⲙⲟⲥ ⲛⲓⲣⲱⲙⲓ ⲛⲉⲛⲥ̀ⲛⲏⲟⲩ ⲥⲱⲧⲉⲙ ⲉ̀ⲣⲟⲓ.\n13 وَبَعْدَمَا سَكَتَا، أَجَابَ يَعْقُوبُ قَائِلًا: \" أيُّهَا الرِّجَالُ إخْوَتُنَا، اِسْمَعُونِي.\n14 Simon has declared how God at the first visited the Gentiles to take out of them a people for His name.\nⲤⲩⲙⲉⲱⲛ ⲁϥⲥⲁϫⲓ ⲕⲁⲧⲁⲫ̀ⲣⲏϯ ⲓⲥϫⲉⲛ ϣⲟⲣⲡ ⲉ̀ⲧⲁ Ⲫϯ ϫⲉⲙⲡ̀ϣⲓⲛⲓ ⲉ̀ϭⲓ ⲛ̀ⲟⲩⲗⲁⲟⲥ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ϧⲉⲛ ⲡⲉϥⲣⲁⲛ.\n14 سِمْعَانُ قَدْ أَخْبَرَ كَيْفَ افْتَقَدَ اللهُ أَوَّلاً الْأُمَمَ لِيَأْخُذَ مِنْهُمْ شَعْباً عَلَى اسْمِهِ.\n15 And with this the words of the prophets agree, just as it is written:\nⲞⲩⲟϩ ⲫⲁⲓ ⲥⲉϯⲙⲁϯ ⲛⲉⲙⲁϥ ⲛ̀ϫⲉ ⲛⲓⲥⲁϫⲓ ⲛ̀ⲧⲉ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ ⲕⲁⲧⲁⲫ̀ⲣⲏϯ ⲉⲧⲥ̀ϧⲏⲟⲩⲧ.\n15 وَهَذَا تُوافِقُهُ أَقْوَالُ الأَنْبِيَاءِ كَمَا هُوَ مَكْتُوبٌ:\n16 ‘After this I will return And will rebuild the tabernacle of David, which has fallen down; I will rebuild its ruins, And I will set it up;\nϪⲉ ⲙⲉⲛⲉⲛⲥⲁ ⲛⲁⲓ ⲉⲓⲉ̀ⲧⲁⲥⲑⲟ ⲟⲩⲟϩ ⲉⲓⲉ̀ⲕⲱⲧ ⲛ̀ϯⲥ̀ⲕⲏⲛⲏ ⲛ̀ⲧⲉ Ⲇⲁⲩⲓⲇ ⲑⲏⲉⲧⲁⲥϩⲉⲓ ⲟⲩⲟϩ ⲛⲏⲉ̀ⲧⲁⲩⲥⲱⲥ ⲛ̀ⲧⲁⲥ ⲉⲓⲉ̀ⲕⲟⲧⲟⲩ ⲟⲩⲟϩ ϯⲛⲁⲧⲁϩⲟⲥ ⲉ̀ⲣⲁⲧⲥ.\n16 سَأَرْجِعُ بَعْدَ هَذَا وَأَبْنِي أَيْضاً خَيْمَةَ دَاوُدَ السَّاقِطَةَ وَأَبْنِي أَيْضاً رَدْمَهَا وَأُقِيمُهَا ثَانِيَةً\n17 So that the rest of mankind may seek the Lord, Even all the Gentiles who are called by My name, Says the Lord who does all these things.’\nϨⲟⲡⲱⲥ ⲛ̀ⲥⲉⲕⲱϯ ⲛ̀ⲥⲁ Ⲡⲟ︦ⲥ︦ ⲛ̀ϫⲉ ⲡ̀ⲥⲱϫⲡ ⲛ̀ⲛⲓⲣⲱⲙⲓ ⲛⲉⲙ ⲛⲓⲉⲑⲛⲟⲥ ⲧⲏⲣⲟⲩ ⲛⲏⲉ̀ⲧⲁⲩⲙⲟⲩϯ ⲉ̀ⲡⲁⲣⲁⲛ ⲉ̀ϩ̀ⲣⲏⲓ ⲡ̀ⲉϫⲱⲟⲩ ⲡⲉϫⲉ Ⲡⲟ︦ⲥ︦ ⲫⲏⲉⲧⲑ̀ⲣⲟ ⲛ̀ⲛⲁⲓ.\n17 لِكَيْ يَطْلُبَ الْبَاقُونَ مِنَ النَّاسِ الرَّبَّ، وَجَمِيعُ الأُمَمِ الَّذِينَ دُعِيَ اسْمِي عَلَيْهِمْ، يَقُولُ الرَّبُّ الصَّانِعُ هذَا الأَمْرَ\n18 “Known to God from eternity are all His works.\nⲞⲩⲟⲛϩ ⲉ̀ⲃⲟⲗ ⲓⲥϫⲉⲛ ⲡ̀ⲉ̀ⲛⲉϩ.\n18 الْمَعْرُوفَ مُنْذُ الأَزَلِ.\n19 Therefore I judge that we should not trouble those from among the Gentiles who are turning to God,\nⲈⲑⲃⲉ ⲫⲁⲓ ϯϯϩⲁⲡ ⲁ̀ⲛⲟⲕ ⲉ̀ϣ̀ⲧⲉⲙⲟⲩⲁϩϧⲓⲥⲓ ⲛ̀ⲛⲏⲉⲑⲛⲁⲕⲟⲧⲟⲩ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ.\n19 لِذَلِكَ أَنَا أَقْضِي أَنْ لَا يُثَقَّلَ عَلَى الرَّاجِعِينَ إِلَى اللَّهِ مِنَ الأُمَمِ،\n20 but that we write to them to abstain from things polluted by idols, from sexual immorality, from things strangled, and from blood.\nⲀⲗⲗⲁ ⲉ̀ⲟⲩⲱⲣⲡ ⲛⲱⲟⲩ ⲉⲑⲣⲟⲩϩⲉⲛⲟⲩ ⲥⲁⲃⲟⲗ ⲛ̀ⲛⲓϣⲱⲧ ⲛ̀ⲓ̀ⲇⲱⲗⲟⲛ ⲛⲉⲙ ϯⲡⲟⲣⲛⲓⲁ̀ ⲛⲉⲙ ⲛⲓⲱϫϩ ⲛⲉⲙ ⲛⲓⲥ̀ⲛⲟϥ ⲉⲑⲙⲱⲟⲩⲧ.\n20 بَلْ يُرْسَلَ إلَيْهِمْ أَنْ يَمْتَنِعُوا عَنْ ذَبَائِحِ الأَصْنَامِ، وَالزِّنَى، وَالْمَخْنُوقِ، وَالدَّمِ \".\nThe word of the Lord shall grow, multiply, be mighty, and be confirmed in the holy Church of God. Amen.\nⲠⲓⲥⲁϫⲓ ⲇⲉ ⲛ̀ⲧⲉ Ⲡϭⲟⲓⲥ ⲉϥⲉ̀ⲁⲓⲁⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲁ̀ϣⲁⲓ (ⲟⲩⲟϩ) ⲉϥⲉ̀ⲁ̀ⲙⲁϩⲓ ⲟⲩⲟϩ ⲉϥⲉ̀ⲧⲁϫⲣⲟ ϧⲉⲛ ϯⲁ̀ⲅⲓⲁ ⲛ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ Ⲫϯ: ⲁ̀ⲙⲏⲛ.\nوكلمة الرب تنمو وتزداد وتعتز وتثبت في كنيسة الله المقدسة، آمين.\n\tConclusion to the Coptic Praxis\n(Ⲡⲓⲥⲁϫⲓ...)",
+          "body_envelope_sha256": "8105a5c64def224208942cc274086e41b62e13a62e672f4901758c0f69c204b5",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 7,
+          "service_section": "Liturgy",
+          "reading_type": "Psalm",
+          "printed_ref": "Psalms 31:1, 6",
+          "normalized_ref": "Psalm 32:1  &  Psalm 32:5",
+          "evidence": "2026-02-04/Liturgy/Psalm_and_Gospel.txt",
+          "document_sha256": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+          "heading_line": 7,
+          "body_envelope_literal": "\tPsalms 31:1, 6\n(مزامير 31: 1, 6)\nBlessed is he whose transgression is forgiven, Whose sin is covered. I said, I will confess my transgressions to the Lord, And You forgave the iniquity of my sin.\nⲰⲟⲩⲛⲓⲁ̀ⲧⲟⲩ ⲛ̀ⲛⲏⲉ̀ⲧⲁⲩⲭⲱ ⲛ̀ⲛⲟⲩⲁ̀ⲛⲟⲙⲓⲁ̀ ⲛⲱⲟⲩ ⲉ̀ⲃⲟⲗ: ⲛⲉⲙ ⲛⲏⲉ̀ⲧⲁⲩϩⲱⲃⲥ ⲉ̀ⲃⲟⲗ ⲉ̀ϫⲉⲛ ⲛⲟⲩⲛⲟⲃⲓ: ⲁⲓϫⲟⲥ ϫⲉ ϯⲛⲁⲟⲩⲱⲛϩ ⲛ̀ⲧⲁⲁ̀ⲛⲟⲙⲓⲁ̀ ⲉ̀ⲃⲟⲗ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲙ̀Ⲡⲟ︦ⲥ︦: ⲟⲩⲟϩ ⲛ̀ⲑⲟⲕ ⲁⲕⲭⲱ ⲛⲏⲓ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲙⲉⲧⲁ̀ⲥⲉⲃⲏⲥ ⲛ̀ⲧⲉ ⲡⲁϩⲏⲧ ⲁ︦ⲗ︦.\nطُوبَاهُمُ الَّذِينَ تُرِكَتْ لَهُمْ آثَامُهُمْ، وَالَّذِينَ سُتِرَتْ خَطَايَاهُمْ. قُلْتُ أَعْتَرِفُ لِلرَّبِّ بِإِثْمِي. وَأَنْتَ صَفَحْتَ لِي عَنْ نِفَاقَاتِ قَلْبِي.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nLiturgy Gospel\nالإنجيل",
+          "body_envelope_sha256": "e2f7536930eef20fbef970ffb9216cb40afba794afda5dfb1f2f443049637a07",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        },
+        {
+          "order": 8,
+          "service_section": "Liturgy",
+          "reading_type": "Gospel",
+          "printed_ref": "Matthew 15:32-16:4",
+          "normalized_ref": "Mt 15:32-  &  Mt 16:1-4",
+          "evidence": "2026-02-04/Liturgy/Psalm_and_Gospel.txt",
+          "document_sha256": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+          "heading_line": 34,
+          "body_envelope_literal": "\tMatthew 15:32-16:4\n(متى 15: 32-16: 4)\n32 Now Jesus called His disciples to Himself and said, “I have compassion on the multitude, because they have now continued with Me three days and have nothing to eat. And I do not want to send them away hungry, lest they faint on the way.”\nⲒⲏ︦ⲥ︦ ⲇⲉ ⲉ̀ⲧⲁϥⲙⲟⲩϯ ⲉ̀ ⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ϯϣⲉⲛϩⲏⲧ ϧⲁ ⲡⲁⲓⲙⲏϣ ϫⲉ ⲓⲥ ⲅ︦ ⲛ̀ⲉ̀ϩⲟⲟⲩ ⲥⲉⲭⲏ ⲙ̀ⲡⲁⲓⲙⲁ ⲛⲉⲙⲏⲓ ⲟⲩⲟϩ ⲙ̀ⲙⲟⲛ ⲫⲏⲉ̀ⲧⲟⲩⲛⲁⲟⲩⲟⲙϥ ⲟⲩⲟϩ ϯⲟⲩⲱϣ ⲁⲛ ⲉ̀ⲭⲁⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲟⲩⲉ̀ϣⲉⲛⲟⲩⲱⲙ ϫⲉ ⲛ̀ⲛⲟⲩⲃⲱⲗ ⲉ̀ⲃⲟⲗ ϩⲓ ⲡⲓⲙⲱⲓⲧ.\n32 وَأَمَّا يَسُوعُ فَدَعَا تَلَامِيذَهُ وَقَالَ: \" إِنَّنِي أَتَحَنَّنُ عَلَى الْجَمْعِ، لِأَنَّ لَهُمْ مَعِي ثَلَاثَةَ أَيَّامٍ وَلَيْسَ لَهُمْ مَا يَأْكُلُونَ. وَلَسْتُ أُرِيدُ أَنْ أَصْرِفَهُمْ صَائِمِيْنَ لِئَلَّا يُخَوِّرُوا فِي الطَّرِيقِ \".\n33 Then His disciples said to Him, “Where could we get enough bread in the wilderness to fill such a great multitude?”\nⲞⲩⲟϩ ⲡⲉϫⲉ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ϫⲉ Ⲁⲛⲛⲁϫⲉⲙ ⲧⲁⲓⲏ̀ⲡⲓ ⲛ̀ⲱⲓⲕ ⲑⲱⲛ ϩⲓ ⲡⲁⲓⲙⲁ ⲛ̀ϣⲁϥⲉ ϩⲱⲥⲧⲉ ⲉ̀ⲧ̀ⲥⲓ ⲉ̀ⲡⲁⲓⲙⲏϣ.\n33 فَقَالَ لَهُ تَلَامِيذُهُ: \" مِنْ أَيْنَ لَنَا فِي الْبَرِّيَّةِ خُبْزٌ بِهَذَا الْمِقْدَارِ، حَتَّى يُشْبِعَ مِثْلَ هَذَا الْجَمْعَ؟ \".\n34 Jesus said to them, “How many loaves do you have?” And they said, “Seven, and a few little fish.”\nⲞⲩⲟϩ ⲡⲉϫⲉ Ⲓⲏ︦ⲥ︦ ⲛⲱⲟⲩ ϫⲉ ⲟⲩⲟⲛⲧⲉⲧⲉⲛ ⲟⲩⲏⲣ ⲛ̀ⲱⲓⲕ ⲙ̀ⲙⲁⲩ ⲛ̀ⲑⲱⲟⲩ ⲇⲉ ⲡⲉϫⲱⲟⲩ ϫⲉ ⲍ︦ ⲛⲉⲙ ϩⲁⲛⲕⲟⲩϫⲓ ⲛ̀ⲧⲉⲃⲧ.\n34 فَقَالَ لَهُمْ يَسُوعُ: \" كَمْ عِنْدَكُمْ مِنَ الْخُبْزِ؟ \". فَقَالُوا: \" سَبْعَةٌ وَيَسِيرٌ مِنَ السَّمَكِ \".\n35 So He commanded the multitude to sit down on the ground.\nⲞⲩⲟϩ ⲉ̀ⲧⲁϥϩⲟⲛϩⲉⲛ ⲛ̀ⲧⲉ ⲡⲓⲙⲏϣ ⲉⲑⲣⲟⲩⲣⲱⲧⲉⲃ ϩⲓϫⲉⲛ ⲡⲓⲕⲁϩⲓ.\n35 فَأَمَرَ أَنْ يَتَّكِئَ الْجَمْعُ عَلَى الْأَرْضِ،\n36 And He took the seven loaves and the fish and gave thanks, broke them and gave them to His disciples; and the disciples gave to the multitude.\nⲀϥϭⲓ ⲙ̀ⲡⲓⲍ︦ ⲛ̀ⲱⲓⲕ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲧ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲱⲟⲩ ⲁϥⲫⲁϣⲟⲩ ⲟⲩⲟϩ ⲁϥⲧⲏⲓⲧⲟⲩ ⲛ̀ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲛⲓⲙⲁⲑⲏⲧⲏⲥ ⲇⲉ ⲁⲩϯ ⲛ̀ⲛⲓⲙⲏϣ.\n36 وَأَخَذَ السَّبْعَ الْخُبْزَاتِ َالسَّمَكَ، وَشَكَرَ وَكَسَّرَ وَأَعْطَى تَلَامِيذَهُ، وَالتَّلَامِيذُ نَاوَلُوا الْجَمْعَ.\n37 So they all ate and were filled, and they took up seven large baskets full of the fragments that were left.\nⲞⲩⲟϩ ⲁⲩⲟⲩⲱⲙ ⲧⲏⲣⲟⲩ ⲁⲩⲥⲓ ⲟⲩⲟϩ ⲁⲩⲉⲗ ⲡ̀ϩⲟⲩⲟ̀ ⲛ̀ⲛⲓⲗⲁⲕϩ ⲁⲩⲙⲁϩ ⲍ︦ ⲙ̀ⲃⲓⲣ.\n37 فَأَكَلَ الْجَمِيعُ وَشَبِعُوا. وَرَفَعُوا مَا فَضَلَ مِنَ الْكِسَرِ سَبْعَةَ سِلَالٍ مَمْلُوءَةٍ،\n38 Now those who ate were four thousand men, besides women and children.\nⲚⲏ ⲇⲉ ⲉ̀ⲛⲁⲩⲟⲩⲱⲙ ⲛⲁⲩⲉⲣ ⲇ︦ ⲛ̀ϣⲟ ⲛ̀ⲣⲱⲙⲓ ⲭⲱⲣⲓⲥ ⲁ̀ⲗⲟⲩ ⲛⲉⲙ ⲥ̀ϩⲓⲙⲓ.\n38 وَكَانَ الْآكِلُونَ أَرَبْعَةَ آلافِ رَجُلٍ مَا عَدَا الصِّبْيَانَ وَالنِّسَاءَ.\n39 And He sent away the multitude, got into the boat, and came to the region of Magdala.\nⲞⲩⲟϩ ⲉ̀ⲧⲁϥⲭⲁ ⲛⲓⲙⲏϣ ⲉ̀ⲃⲟⲗ ⲁϥⲁ̀ⲗⲏⲓ ⲉ̀ⲡⲓϫⲟⲓ ⲟⲩⲟϩ ⲁϥⲓ̀ ⲉ̀ⲛⲓϭⲓⲏ̀ ⲛ̀ⲧⲉ Ⲙⲁⲅⲇⲁⲗⲁⲛ\n39 ثُمَّ صَرَفَ الْجَمْعَ، وَرَكِبَ السَّفِينَةَ وَجَاءَ إِلَى تُخُومِ مَجْدَلَ.\n1 Then the Pharisees and Sadducees came, and testing Him asked that He would show them a sign from heaven.\nⲞⲩⲟϩ ⲁⲩⲓ̀ ⲛ̀ϫⲉ ⲛⲓⲪⲁⲣⲓⲥⲉⲟⲥ ⲛⲉⲙ ⲛⲓⲤⲁⲇⲇⲟⲩⲕⲉⲟⲥ ⲉⲩⲉⲣⲡⲓⲣⲁⲍⲓⲛ ⲙ̀ⲙⲟϥ ⲛⲁⲩϣⲓⲛⲓ ⲙ̀ⲙⲟϥ ⲉ̀ⲧⲁⲙⲱⲟⲩ ⲉ̀ⲟⲩⲙⲏⲓⲛⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲧ̀ⲫⲉ.\n1 َدَنَا إِلَيْهِ الْفَرِّيسِيُّونَ وَالصَّدُّوقِيُّونَ لِيُجَرِّبُوهُ، فَسَأَلُوهُ أَنْ يُرِيَهُمْ آيَةً مِنَ السَّمَاءِ.\n2 He answered and said to them, “When it is evening you say, ‘It will be fair weather, for the sky is red’;\nⲚ̀ⲑⲟϥ ⲇⲉ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲡⲉϫⲁϥ ⲛⲱⲟⲩ ϫⲉ ⲉ̀ϣⲱⲡ ⲁϥϣⲁⲛⲓ̀ ⲛ̀ϫⲉ ϩⲁⲛⲁ̀ⲣⲟⲩϩⲓ ⲧⲉⲧⲉⲛϫⲟⲥ ϫⲉ ⲧ̀ⲫⲉ ⲟⲩϫⲁⲙⲏ ⲉⲥⲑ̀ⲣⲟϣⲣⲉϣ.\n2 فَأَجَابَهُمْ قَائِلًا: \" إِذَا كَانَ الْمَسَاءُ قُلْتُمْ صَحْوٌ، لِأَنَّ السَّمَاءَ مُحْمَرَّةٌ.\n3 and in the morning, ‘It will be foul weather today, for the sky is red and threatening.’ Hypocrites! You know how to discern the face of the sky, but you cannot discern the signs of the times.\nⲞⲩⲟϩ ϩⲁⲛⲁ̀ⲧⲟⲟⲩⲓ̀ ⲧⲉⲧⲉⲛϫⲟⲥ ϫⲉ ⲫⲟⲟⲩ ⲧ̀ⲫ̀ⲣⲱ ⲉⲑⲃⲉ ⲡⲓⲑ̀ⲣⲟϣⲣⲉϣ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲟⲩⲅ̀ⲛⲟⲫⲟⲥ ⲛⲓϣⲟⲃⲓ ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲉ̀ⲥⲟⲙⲥ ⲉ̀ⲧ̀ⲫⲉ ⲟⲩⲟϩ ⲫ̀ⲙⲏⲓⲛⲓ ⲙ̀ⲡⲁⲓⲥⲏⲟⲩ ⲫⲁⲓ ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲙ̀ⲙⲟϥ ⲁⲛ.\n3 وَفِي الصَّبَاحِ تَقُولُونَ: الْيَوْمَ شِتَاءٌ لِأَنَّ السَّمَاءَ مُحْمَرَّةٌ بِعُبُوسَةٍ. يَا مُرَاؤُونَ! تَعْرِفُونَ أَنْ تُمَيِّزُوا وَجْهَ السَّمَاءِ، وَعَلَامَاتُ الْأَزْمِنَةِ لَا تَسْتَطِيعُونَ أَنْ تَعْرِفُوهَا!\n4 A wicked and adulterous generation seeks after a sign, and no sign shall be given to it except the sign of the prophet Jonah.” And He left them and departed.\nϪⲉ ⲡⲓϫⲱⲟⲩ ⲉⲧϩⲱⲟⲩ ⲟⲩⲟϩ ⲛ̀ⲛⲱⲓⲕ ϥ̀ⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲙⲏⲓⲛⲓ ⲟⲩⲟϩ ⲟⲩⲙⲏⲓⲛⲓ ⲛ̀ⲛⲟⲩⲧⲏⲓϥ ⲛⲁϥ ⲉ̀ⲃⲏⲗ ⲉ̀ⲡⲓⲙⲏⲓⲛⲓ ⲛ̀ⲧⲉ Ⲓⲱⲛⲁ ⲡⲓⲡ̀ⲣⲟⲫⲏⲧⲏⲥ ⲟⲩⲟϩ ⲉ̀ⲧⲁϥⲭⲁⲩ ⲁϥϣⲉⲛⲁϥ.\n4 إِنَّ الجِيلَ الشِّرِّيرَ الفَاسِقَ يَطْلُبُ آيَةً، وَلَا تُعْطَى لَهُ آيَةٌ إِلَّا آيَةَ يُونَانَ النَّبِيِّ \". ثُمَّ تَرَكَهُمْ وَمَضَى.",
+          "body_envelope_sha256": "1474754eb5958060b23c8ca93591b21ca261bc961bda3ed3f606727ae72863c5",
+          "coordinate_note": "Preserve preexisting nonprophecy canonical coordinates; printed Reader reference and full source body are separately retained, not claimed numerically equal.",
+          "canonical_repair_required": false
+        }
+      ]
+    }
+  ],
+  "fingerprints": {
+    "2022-02-15/Matins/2022-02-15/context.png": "8539f11f8ae1b99c01533404995c83c247b1c705b5eefd2ee8449209fb6c31a5",
+    "2022-02-15/Matins/2022-02-15/context.txt": "047a84a7ffa5255b6b30cbfa9941c933abe87c9476ab6d5425143240ad193a79",
+    "2022-02-15/Matins/2022-02-15/picker.json": "37d448f92f04fd44d83b403651966cbc1c06c2a1361e495445e8698397971c8c",
+    "2022-02-15/Matins/2022-02-15/picker.png": "8783e7ff56e11b373636b34fcc708c38831b7faf608a6b0801ab1ad57ccf1084",
+    "2022-02-15/Matins/2022-02-15-before-day.png": "c7e01697f379c454291381f5144d2abe6363cdb58e78b27b4ea6db9d1f1e2ddf",
+    "2022-02-15/Matins/Matins-menu.png": "5603b28f3ed824e4acce18879370508a0908e815dcb2b12034d1718af8807b21",
+    "2022-02-15/Matins/Matins-menu.txt": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "2022-02-15/Matins/Prophecies-reference-01.png": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "2022-02-15/Matins/Prophecies.txt": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "2022-02-15/Matins/Psalm_and_Gospel-reference-01.png": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "2022-02-15/Matins/Psalm_and_Gospel-reference-02.png": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "2022-02-15/Matins/Psalm_and_Gospel.txt": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "2022-02-15/Matins/Readings-menu.txt": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "2022-02-15/Matins/capture.json": "14934e55029e52e99eb2342a9e94bfdf86cce41366b13341f4a1a62ef4eb532d",
+    "2026-02-02/Liturgy/2026-02-02/context.png": "d50cd33c52c27a16dad770edc1ff707d388f0fa112b77b4016562308c91cc255",
+    "2026-02-02/Liturgy/2026-02-02/context.txt": "15d3113523ef274611b3e9b380d9078c5f5621cb888f06f92515a911f13acb97",
+    "2026-02-02/Liturgy/2026-02-02/picker.json": "22e192b69877d960e2219f00493247f5842a49ee9e8478bbea1b28ec27df4c8f",
+    "2026-02-02/Liturgy/2026-02-02/picker.png": "07f6743ba302b4408bf96edefccc111007493699366fc15a1a9fafef61bbf400",
+    "2026-02-02/Liturgy/2026-02-02-before-day.png": "8f1e8f3755d14c0184c56ee37d5db2ee4e6090f43b4f3975676caf3f6847ea2a",
+    "2026-02-02/Liturgy/Catholic_Epistle-reference-01.png": "7a915cbd81870a867836fd2381eb54b3949e93c7893452579a2fb7efb65eba6b",
+    "2026-02-02/Liturgy/Catholic_Epistle.txt": "04029a1cec56992520d4bfda7e623589913f912bb7e2f3d0cf4a42e93532dea5",
+    "2026-02-02/Liturgy/Liturgy-menu.png": "719316ec9f096fb202fbaecf88cc8fbcd611d8a9ec910df2f585b7890f30f0c4",
+    "2026-02-02/Liturgy/Liturgy-menu.txt": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+    "2026-02-02/Liturgy/Pauline_Epistle-reference-01.png": "f132667739b875b5f766486e5fbc3410432fd136236498e3a350f6a2ad06031b",
+    "2026-02-02/Liturgy/Pauline_Epistle.txt": "c6f1bdb7b3c8ccc47e99111483ba4cdd6ed0ae4f3fd91b0abf8a0fda1352f53f",
+    "2026-02-02/Liturgy/Praxis-reference-01.png": "7a7c028ad60d3c2dde7bd0dcf70736e6695a930c4b1024f0d743346b1d48b19c",
+    "2026-02-02/Liturgy/Praxis.txt": "0ab537f31ef4ac987794dce3e4eb3792099d2346b42aeab0340b0956bd903217",
+    "2026-02-02/Liturgy/Psalm_and_Gospel-reference-01.png": "fe5f0ed44f12ccbcf52e057784021bff0eb516bd02919998cb509efcc8f40a61",
+    "2026-02-02/Liturgy/Psalm_and_Gospel-reference-02.png": "a2b698f65ef5bfcf9148d905e89d514ffff41cbc9ef25a4a6c996562de146abd",
+    "2026-02-02/Liturgy/Psalm_and_Gospel.txt": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+    "2026-02-02/Liturgy/Readings-menu.txt": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "2026-02-02/Liturgy/capture.json": "e0aeabd372d820b978c88ea3e2c300488613cd661e708c1d32a47a4c7fa404a9",
+    "2026-02-02/Matins/2026-02-02/context.png": "d50cd33c52c27a16dad770edc1ff707d388f0fa112b77b4016562308c91cc255",
+    "2026-02-02/Matins/2026-02-02/context.txt": "15d3113523ef274611b3e9b380d9078c5f5621cb888f06f92515a911f13acb97",
+    "2026-02-02/Matins/2026-02-02/picker.json": "949ae73ecf797d1fa5c5669d95b19d2182956931ba7c20d1378cd1c090505265",
+    "2026-02-02/Matins/2026-02-02/picker.png": "a3bdfb576eaa04de475741e309bb6049569c5bb9c7e3611b822e22d4307e91e9",
+    "2026-02-02/Matins/Prophecies-reference-01.png": "c1ee463a52f92d61a50b37c9a3d4a3001471d8bf49bd0f55984bdf4ce3ea4884",
+    "2026-02-02/Matins/Prophecies.txt": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+    "2026-02-02/Matins/Psalm_and_Gospel-reference-01.png": "1032558421c00fb2522f183c69778c5ddbe507fe7163c53698ff706343a3a793",
+    "2026-02-02/Matins/Psalm_and_Gospel-reference-02.png": "9cf5b922bd64dd17918deb9762ad5195b37993a9a92802df50157cb2f46120d0",
+    "2026-02-02/Matins/Psalm_and_Gospel.txt": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+    "2026-02-02/Matins/capture.json": "01acb09575c12ceb9775d9761b50d9c228942e2129fba70b5fd386f5d652b0d2",
+    "2026-02-02/Vespers-rubric.txt": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+    "2026-02-03/Liturgy/2026-02-03/context.png": "9d41509167f06548b973b3291c66d2bd079c0e2eeeebd000ae5e491a2c302f4b",
+    "2026-02-03/Liturgy/2026-02-03/context.txt": "c82a41b9da974f3a6b15266bc1ed38d5ad8d88a3d8d80f5dc5f0702efffb5cd3",
+    "2026-02-03/Liturgy/2026-02-03/picker.json": "a263ca4e60a220bf35d0378abb5b976aeed8ea05f0caccdf37676ea7652eebc1",
+    "2026-02-03/Liturgy/2026-02-03/picker.png": "fd8ec585f128a5d706d61248b47e1c75b11b37241983064838d31078c1d65488",
+    "2026-02-03/Liturgy/2026-02-03-before-day.png": "41549e08c0cd322cdca8da24244fc8c6ba10f23a7c00f3cfbbfc310981c2d4d3",
+    "2026-02-03/Liturgy/Catholic_Epistle-reference-01.png": "e74340139472e6ddf13edff20b79efa3f816a52cc23f9ab9dfc33bd81c53d801",
+    "2026-02-03/Liturgy/Catholic_Epistle.txt": "5bcc306e5a50d9fb469527ced4fd2c5d5fcb9dea9de4c6d33a1a58a51ef9cfd2",
+    "2026-02-03/Liturgy/Liturgy-menu.png": "2348dd07e0f4f076285f399c07b4a75739825d009731086cb6e7e0b4542dd1ed",
+    "2026-02-03/Liturgy/Liturgy-menu.txt": "8b5602363daeec5d403482537b6f17bf17a9e604bb48125985dba52734bc2a54",
+    "2026-02-03/Liturgy/Pauline_Epistle-reference-01.png": "c688d5a627b0c2511a4cad1d63ab530506f145b98d23172f38cd536c150ebbf0",
+    "2026-02-03/Liturgy/Pauline_Epistle.txt": "921b071eab3c106d1590e7361c4bad731147c5264de8e87e06d77af469d28246",
+    "2026-02-03/Liturgy/Praxis-reference-01.png": "48bb24d92a02b4c1d86e1af952a0e84ec473f56dce856971879ca6a90022435a",
+    "2026-02-03/Liturgy/Praxis.txt": "c39350523033491bfd9bb517b7c973b0f31088dde5462c2366c86f8b0b082be3",
+    "2026-02-03/Liturgy/Psalm_and_Gospel-reference-01.png": "23b4c4e08f92554a15083f0cc10035f1fea96dbf41d8177480a4480781967314",
+    "2026-02-03/Liturgy/Psalm_and_Gospel-reference-02.png": "8c440441ad3be5583b68bfce8b9c88160a7e9d9a405550fcba91bd3405fdc8f5",
+    "2026-02-03/Liturgy/Psalm_and_Gospel.txt": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+    "2026-02-03/Liturgy/Readings-menu.txt": "d5c5b5e071454cf2b8ea7671c1307986ae2aac1467d31558d79dbd9e3bd586cd",
+    "2026-02-03/Liturgy/capture.json": "6f0071659e8daa1a109e20d61a74067fe549d19e33db689607103f2fb59fa2bf",
+    "2026-02-03/Matins/2026-02-03/context.png": "9d41509167f06548b973b3291c66d2bd079c0e2eeeebd000ae5e491a2c302f4b",
+    "2026-02-03/Matins/2026-02-03/context.txt": "c82a41b9da974f3a6b15266bc1ed38d5ad8d88a3d8d80f5dc5f0702efffb5cd3",
+    "2026-02-03/Matins/2026-02-03/picker.json": "cb391cafcd49685f044dcb2df7768ac73d5707d2bd4f836de86bb43c552098fa",
+    "2026-02-03/Matins/2026-02-03/picker.png": "cfa93319aef8b4a72867a18933d780eede97f4236d48622b16bf98eb030a54a4",
+    "2026-02-03/Matins/Prophecies-reference-01.png": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "2026-02-03/Matins/Prophecies.txt": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "2026-02-03/Matins/Psalm_and_Gospel-reference-01.png": "f973879b7abbade3087e9febe121b6519fed763525183ea303804e1dd1f9f8b1",
+    "2026-02-03/Matins/Psalm_and_Gospel-reference-02.png": "66dbd99b2be31f63137baf6f9bd66718af8a3ff0a91c907a66c785f3576d0e68",
+    "2026-02-03/Matins/Psalm_and_Gospel.txt": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+    "2026-02-03/Matins/capture.json": "a769a348137d79c376169bff181db621099edf3bf4fd93cb85bc670b1f659b1d",
+    "2026-02-03/Vespers-rubric.txt": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+    "2026-02-04/Liturgy/2026-02-04/context.png": "7d2383846e5fffdca141c3cc6171bb002d9d720ba5adca097b402a70423a2272",
+    "2026-02-04/Liturgy/2026-02-04/context.txt": "3cfd42bd7b26fd6460e9aaaa3a7f90e815eb446afdc645a6ac3edf504983a9e0",
+    "2026-02-04/Liturgy/2026-02-04/picker.json": "8d16a58be6a8f6310f6eeecbc5db081ece4c8d794928301e313e4b957357a3b3",
+    "2026-02-04/Liturgy/2026-02-04/picker.png": "660c856d44acbcf3bce7908874bdbb872fc17ed58e10e89b02427f36a9fe18fd",
+    "2026-02-04/Liturgy/2026-02-04-before-day.png": "86a1ef6252d439553bf25a70c79bdd6877ab47598d8008d7306507b3fcc68d8a",
+    "2026-02-04/Liturgy/Catholic_Epistle-reference-01.png": "c0d20e37442e18b09b6c661dac2a980a665b3c3f5cfe8dcbae9b767b26d3da64",
+    "2026-02-04/Liturgy/Catholic_Epistle.txt": "22606c6a7f6dfeabc85c097b50d1e15a0e2be3bfe7b243acd00dbe33b6fe6fbb",
+    "2026-02-04/Liturgy/Liturgy-menu.png": "2c7525b961f2cac1d540a430bc3ce92e94e0a971ac09dcfac01cfc76b23ecbdd",
+    "2026-02-04/Liturgy/Liturgy-menu.txt": "f4adc9d7132e10a32b5424da6a1ce9d7166fe6d837c81f0234c0ea92f85fde6c",
+    "2026-02-04/Liturgy/Pauline_Epistle-reference-01.png": "4e54c1c86395d887afdc41bdf7aa3e2c86ecb570f47d3faaeb8adb1d00b227ce",
+    "2026-02-04/Liturgy/Pauline_Epistle.txt": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+    "2026-02-04/Liturgy/Praxis-reference-01.png": "88f66183cc85a1551681aafb8df4f4279080c12c2ee3807f3510c3f0279d507a",
+    "2026-02-04/Liturgy/Praxis.txt": "15b9dd3b551cb8f40e561d334dfeea65ee27170b79c170cece2a43af5932cf0b",
+    "2026-02-04/Liturgy/Psalm_and_Gospel-reference-01.png": "3861014ef02f014195faacdea2c513cf421e7102edb93cd507c55e5c1fce2dec",
+    "2026-02-04/Liturgy/Psalm_and_Gospel-reference-02.png": "4a4728716007ccc1bfc6da2e49e6bfd1b08ebae426e59f1ae2d7ed3b53992060",
+    "2026-02-04/Liturgy/Psalm_and_Gospel.txt": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+    "2026-02-04/Liturgy/Readings-menu.txt": "34d6b0486454932ccac6133dbe24375d6a31d2e077041c836edfd7f788df6ea7",
+    "2026-02-04/Liturgy/capture.json": "149ee959967440d7a97500aebc2962ad29abe860d62f73ba6a0fff4f6284faae",
+    "2026-02-04/Matins/2026-02-04/context.png": "7d2383846e5fffdca141c3cc6171bb002d9d720ba5adca097b402a70423a2272",
+    "2026-02-04/Matins/2026-02-04/context.txt": "3cfd42bd7b26fd6460e9aaaa3a7f90e815eb446afdc645a6ac3edf504983a9e0",
+    "2026-02-04/Matins/2026-02-04/picker.json": "8d16a58be6a8f6310f6eeecbc5db081ece4c8d794928301e313e4b957357a3b3",
+    "2026-02-04/Matins/2026-02-04/picker.png": "92ce1280aa9524885a1f85b5e55f2565348106a243b3eec330d6ac7a54e1a15e",
+    "2026-02-04/Matins/Prophecies-reference-01.png": "fcd851943d3c4626f1891ea9e3a6771f890fee6f6491d1ac1ed515cda2a37a7c",
+    "2026-02-04/Matins/Prophecies.txt": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+    "2026-02-04/Matins/Psalm_and_Gospel-reference-01.png": "ebbfb4283b9a3ecf622b5dc53e05f4af75e108dec8974f44b4d90a198ef119f9",
+    "2026-02-04/Matins/Psalm_and_Gospel-reference-02.png": "f8d4331f42c1e941c435708fab5030c679b2030e9d7a2d74ddae03872e469121",
+    "2026-02-04/Matins/Psalm_and_Gospel.txt": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+    "2026-02-04/Matins/capture.json": "b7877073e33ca7020f508a36d886f6c0f469fc5c6717b008a7a78542e61d262e",
+    "2026-02-04/Vespers-rubric.txt": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+    "2033-02-15/Matins/2033-02-15/context.png": "25a3c2eba950d6d9c38858c487916d5da117948d264691f1f78bd4ae112bae74",
+    "2033-02-15/Matins/2033-02-15/context.txt": "94bf2cec7292a63551e8972b901e36a583a63b89cf1de5dc369661d0486f9c39",
+    "2033-02-15/Matins/2033-02-15/picker.json": "256832de7424d6b3208af347917a6536d9e1cd6551538a54388274f43197fb96",
+    "2033-02-15/Matins/2033-02-15/picker.png": "d1c3c1bdb748d34872f74b92ce604ad1fab2e963237ce6b92d5b0fde56587a2d",
+    "2033-02-15/Matins/2033-02-15-before-day.png": "8873cb080f3675b82c8e2bad9edcd9e3ee010bdcbf30ca785c2e3fd192d69a3b",
+    "2033-02-15/Matins/Matins-menu.png": "5f8f6e9ee5dacbcbe21ccaef1c9c34eb17d5039a43c08f88dab2b906b2be9c1d",
+    "2033-02-15/Matins/Matins-menu.txt": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "2033-02-15/Matins/Prophecies-reference-01.png": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "2033-02-15/Matins/Prophecies.txt": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "2033-02-15/Matins/Psalm_and_Gospel-reference-01.png": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "2033-02-15/Matins/Psalm_and_Gospel-reference-02.png": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "2033-02-15/Matins/Psalm_and_Gospel.txt": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "2033-02-15/Matins/Readings-menu.txt": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "2033-02-15/Matins/capture.json": "be7187da27c74a6e190bb85e5df5cab0e41e0a18280dce2c4136d0ed9849f6e9",
+    "bible/Brenton-Jonah-and-Psalms.xml": "d140f92f8aff2e19de4ca9899f837026638991857970afeeff2fc705f6b6329d",
+    "bible/NKJV-boundary-excerpt.md": "8f8cc3f3fb42e7868d4ef020140a279fb1c1ef1ae1cbc0e4ce45e909fa89faf0",
+    "bible/ch1-4-brenton-jonah1.md": "b1841422c0d2aef926538c794f9ebc5acd269d37e80c41dac3b6d7f7ee8cac1d",
+    "bible/ch1-4-brenton-jonah2.md": "48b260e4dc6459f0a669979b595a1356fcf87278ca6d515efa9f5583b8f99351",
+    "bible/ch1-4-brenton-jonah3.md": "f89b1c4daaf74054e9ae01e031be01af7916bb4b5687c38933324ae2467c7cc9",
+    "bible/ch1-4-brenton-jonah4.md": "495e2dcc42b20b2cc1c95ed02fc7ff93bdb02869b43f3a6609cb94ee0ce1df34",
+    "bible/ch1-4-kjv-jonah1.md": "cdd439565cf50c6c69352a25dc766f7a0a0bef33f5887c4e8bbc19b8870c0a62",
+    "bible/ch1-4-kjv-jonah4.md": "e8464acfb4fa3415b6db8db8e4402b2c9e5fc41d8dccc01a44abe6df54053eae",
+    "bible/psalm-clause-alignment.json": "543c5c75d862c3f1013070365c47b57da41445609a61864e0343764e32560ea3",
+    "collision-witnesses.json": "bde5918101d82998d5a4cc1fa64422b6f687a1807cbc9983a2930b86b21a73b0",
+    "input-contexts.json": "a6399e7f24b0da3f4520b4dff9977a8daddf96ab4d6fbe6daca365a3e505a638",
+    "original-receipts/annual-remaining-independent-review-a.json": "eecd2e0beaafe66ec90ecb3ba2d106c474c39ec23362f9629cc842c6eda016f2",
+    "original-receipts/annual129-independent-review-03.json": "374a7c59cb66b4be0803c66a16f9a7ee23a84e5f8feca29a6c5bffb057227c87",
+    "original-receipts/lent-prophecy-independent-review-04.json": "475df5a7c78f5cd053143a629fdcc3cbdee1a04740e16e16361f000f98119993",
+    "original-receipts/lent-psalm-gospel-independent-review-04.json": "4a4d4d73e64f3722c1c601acb343852b8f834743a7a41f98aeebbb6bfd85980b",
+    "original-receipts/seasonal/FINAL-RECEIPT.json": "8e9d8046b113a8b853328025b1c875f45ba10811d6cc4663227b0120918a77d7",
+    "original-receipts/seasonal/HASHES.json": "c1b6955c010cfdafeac5d016d95ed040718e87fee8195b19bb3fa0b2a237d159",
+    "original-receipts/seasonal/accepted-source-oracle.json": "80f5d36e73944c212ffcdec20f13f7e11a62e41e0ef0692f2bfdb63d66b0536d",
+    "original-receipts/seasonal/packet-hash-ledger.json": "6d1e3d868821460c8caa0883147d98fcb3d0b66c407a27668b92f703615ee0f4",
+    "original-receipts/seasonal/source-anchor-hash-ledger.json": "d28f54486e958ee62204365e24c16b45594bca32360ebe9215eb861b4b726c3d",
+    "original-source-only-records.json": "d191bc84c797fd16f2a137366f251dadc08111a46d7cb3eeab26b4e743c75437"
+  },
+  "calendar_scope": {
+    "first_year": 2020,
+    "last_year": 2035,
+    "collision_dates": [
+      "2022-02-15",
+      "2033-02-15"
+    ]
+  },
+  "bible_provenance": {
+    "Brenton_original_sha256": "752857ed6a8edaf0628c0a2610b552a08adbd8087b01ff44abed75a224e2b844",
+    "Brenton_url": "https://ebible.org/eng-Brenton/",
+    "NKJV_boundary_original_sha256": "9498e99771006a93207448965ff677c7f7d6352be77ca3451fef44d3a61cc02e",
+    "status": "Previously retained local approved Bible comparison; no fresh retrieval; covering coordinates do not certify full text equality."
+  }
+}

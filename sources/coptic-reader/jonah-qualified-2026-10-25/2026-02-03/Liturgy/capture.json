@@ -1,0 +1,124 @@
+{
+  "civil_date": "2026-02-03",
+  "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+  "documents": [
+    {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Liturgy",
+      "slot": "Pauline Epistle",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Pauline Epistle"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:53.340Z",
+      "raw_reference_lines": [
+        "\tColossians 1:21-29"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Pauline_Epistle.txt",
+      "text_sha256": "921b071eab3c106d1590e7361c4bad731147c5264de8e87e06d77af469d28246",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tColossians 1:21-29",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Pauline_Epistle-reference-01.png",
+          "sha256": "c688d5a627b0c2511a4cad1d63ab530506f145b98d23172f38cd536c150ebbf0"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Liturgy",
+      "slot": "Catholic Epistle",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Catholic Epistle"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:57.565Z",
+      "raw_reference_lines": [
+        "\t1 Peter 4:3-11"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Catholic_Epistle.txt",
+      "text_sha256": "5bcc306e5a50d9fb469527ced4fd2c5d5fcb9dea9de4c6d33a1a58a51ef9cfd2",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\t1 Peter 4:3-11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Catholic_Epistle-reference-01.png",
+          "sha256": "e74340139472e6ddf13edff20b79efa3f816a52cc23f9ab9dfc33bd81c53d801"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Liturgy",
+      "slot": "Praxis",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Praxis"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:13:01.371Z",
+      "raw_reference_lines": [
+        "\tActs 17:30-34"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Praxis.txt",
+      "text_sha256": "c39350523033491bfd9bb517b7c973b0f31088dde5462c2366c86f8b0b082be3",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tActs 17:30-34",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Praxis-reference-01.png",
+          "sha256": "48bb24d92a02b4c1d86e1af952a0e84ec473f56dce856971879ca6a90022435a"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Liturgy",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:13:07.722Z",
+      "raw_reference_lines": [
+        "\tPsalms 84:2",
+        "\tLuke 11:29-36"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Psalm_and_Gospel.txt",
+      "text_sha256": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 84:2",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Psalm_and_Gospel-reference-01.png",
+          "sha256": "23b4c4e08f92554a15083f0cc10035f1fea96dbf41d8177480a4480781967314"
+        },
+        {
+          "raw_ref": "\tLuke 11:29-36",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Psalm_and_Gospel-reference-02.png",
+          "sha256": "8c440441ad3be5583b68bfce8b9c88160a7e9d9a405550fcba91bd3405fdc8f5"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

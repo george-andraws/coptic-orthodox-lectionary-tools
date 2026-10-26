@@ -1,0 +1,404 @@
+[
+  {
+    "original_file": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/normalization-oracle-upgrades.jsonl",
+    "original_file_sha256": "ddc0f40a78eeeb73503fa21565887e93deb648e7f824fc96cc281fceac6afafa",
+    "selected_record": {
+      "id": "713a9ac08917ab479380",
+      "lane": "pascha",
+      "printed_ref": "Psalms 22:5;40:9",
+      "printed_convention": "edition-qualified; not asserted universally LXX",
+      "kind": "scripture_tab",
+      "navigation": [
+        "Thursday",
+        "Thursday Day",
+        "Liturgy of the Word"
+      ],
+      "source_url": "https://copticreader.org/app/#/document",
+      "source_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--thursday-day--liturgy-of-the-word.txt",
+      "source_sha256": "a856ec50d967e00a99d49d702a55ecf451a43d6e47f68f3f63d360600eff31cd",
+      "heading_exact": "Psalms 22:5;40:9",
+      "line_start": 209,
+      "line_end": 222,
+      "block_raw": "\tPsalms 22:5;40:9\n(مزامير 22: 5;40: 9)\nReader:\nYou prepare a table before me in the presence of my enemies. He who ate my bread, dealt deceptively with me. Alleluia.\nⲠⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:\nⲀⲕⲥⲟⲃϯ ⲛ̀ⲟⲩⲧ̀ⲣⲁⲡⲉⲍⲁ ⲙ̀ⲡⲁⲙ̀ⲑⲟ ⲉ̀ⲃⲟⲗ: ⲙⲡ̀ⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲏⲉⲧ ϩⲟϫϩⲉϫ ⲙ̀ⲙⲟⲓ. Ⲫⲏⲉⲑⲟⲩⲱⲙ ⲙ̀ⲡⲁⲱⲓⲕ: ⲁϥⲧⲱⲟⲩⲛ ⲙ̀ⲡⲉϥⲑⲓⲃⲥ ⲉ̀ϩ̀ⲣⲏⲓ ⲉ̀ϫⲱⲓ.\nالقارﺉُ:\nهيآتٍ قدامى مائدة مقابل الذين يحزنوننى. الذى أكل خبزى رفع على عقبه. الليلويا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.",
+      "block_sha256": "5323863a0c3f0893e5050ec0512cbff11ba678f0b72ec9d259895e0e5898a935",
+      "body_english": "You prepare a table before me in the presence of my enemies. He who ate my bread, dealt deceptively with me. Alleluia.",
+      "body_sha256": "761753793bf9bff1ab19e1db133729a6a52cdc623a68efd5ba328ae0acacc822",
+      "body_english_lines": [
+        {
+          "line": 212,
+          "text": "You prepare a table before me in the presence of my enemies. He who ate my bread, dealt deceptively with me. Alleluia."
+        }
+      ],
+      "body_extraction_notes": [],
+      "inventory_inputs": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-oracle-review/oracle-ledger.jsonl"
+      ],
+      "eligibility_scope": "reference-text normalization only; NOT assignment/calendar qualification, screenshot approval or release authorization",
+      "source_assigned_order": 2,
+      "source_section_order": 18,
+      "capture_context_metadata": {
+        "selected_civil_date": "2026-04-09",
+        "selected_home_occasion": "Selected Season Covenant Thursday Parmoute 1, 1742 Thursday, April 9, 2026",
+        "document_heading": "Liturgy of the Word"
+      },
+      "separate_capture_gate": {
+        "status": "needsrecapture",
+        "basis": "unresolved_original_gates",
+        "ledger_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/qualification-ledger.jsonl",
+        "ledger_sha256": "3de02259abe07d4bda63265c8203715123918b99ac150dd60be73f5080361306",
+        "rechecked_here": false
+      },
+      "sourcebody_scope": "body_english is separately extracted; block_raw preserves its entire source-bounded surrounding text. Do not promote surrounding prayers/rubrics to additional assignments.",
+      "duplicate_excerpt_context_ids": [
+        "713a9ac08917ab479380"
+      ],
+      "canonical_mt_spans": [
+        [
+          23,
+          5,
+          5
+        ],
+        [
+          41,
+          9,
+          9
+        ]
+      ],
+      "canonical_mt_ref": "Ps 23:5; Ps 41:9",
+      "canonical_lxx_spans": [
+        [
+          22,
+          5,
+          5
+        ],
+        [
+          40,
+          10,
+          10
+        ]
+      ],
+      "canonical_lxx_ref": "Ps 22:5; Ps 40:10",
+      "canonical_lxx_edition": "Brenton Septuagint Translation/eBible.org displayed coordinates (includes numbered titles where printed); not Reader liturgical versification or generic universal LXX.",
+      "consumer_eligible": true,
+      "witnesses": {
+        "MT_NKJV": [
+          {
+            "chapter": 23,
+            "verse": 5,
+            "text": "You prepare a table before me in the presence of my enemies; You anoint my head with oil; My cup runs over.",
+            "url": "https://www.biblegateway.com/passage/?search=Psalm+23&version=NKJV",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/witnesses/NKJV-023.html",
+            "raw_sha256": "61bfcddb05eda63f6521394847d473bdaf31487220d7bf5369ea980f3e1de560",
+            "edition": "NKJV (Bible Gateway/Thomas Nelson)"
+          },
+          {
+            "chapter": 41,
+            "verse": 9,
+            "text": "Even my own familiar friend in whom I trusted, Who ate my bread, Has lifted up his heel against me.",
+            "url": "https://www.biblegateway.com/passage/?search=Psalm+41&version=NKJV",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/witnesses/NKJV-041.html",
+            "raw_sha256": "3df9b56dcb51004af89cbe8e67db6a93818ab4669ebde20a9f9cccf70beed85f",
+            "edition": "NKJV (Bible Gateway/Thomas Nelson)"
+          }
+        ],
+        "LXX_Brenton": [
+          {
+            "chapter": 22,
+            "verse": 5,
+            "text": "Thou hast prepared a table before me in presence of them that afflict me: thou hast thoroughly anointed my head with oil; and thy cup cheers me like the best wine .",
+            "url": "https://ebible.org/eng-Brenton/PSA022.htm",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/witnesses/Brenton-022.html",
+            "raw_sha256": "c43239c7d800a2cb9c7e856cb832ca4ca97cb6deb4dfe0d98b6fd13d6162fea6",
+            "edition": "Brenton Septuagint Translation (eBible.org; its displayed verse coordinates, NOT every LXX edition)"
+          },
+          {
+            "chapter": 40,
+            "verse": 10,
+            "text": "For even the man of my peace, in whom I trusted, who ate my bread, lifted up his heel against me.",
+            "url": "https://ebible.org/eng-Brenton/PSA040.htm",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/witnesses/Brenton-040.html",
+            "raw_sha256": "48f2925441729bc0fc0268c71aed38d0f1ef0d4b340f4e02b0ca936c014ce06d",
+            "edition": "Brenton Septuagint Translation (eBible.org; its displayed verse coordinates, NOT every LXX edition)"
+          }
+        ]
+      },
+      "status": "confirmed",
+      "confidence": "confirmed_text_correspondence",
+      "local_nkjv_candidates": [
+        {
+          "chapter": 23,
+          "verse": 5,
+          "text": "You prepare a table before me in the presence of my enemies; You anoint my head with oil; My cup runs over.",
+          "relation": "UNCONFIRMED_lexical_suggestion",
+          "ratio": 0.7059,
+          "source_sentence": "You prepare a table before me in the presence of my enemies"
+        }
+      ],
+      "local_comparator": {
+        "path": "/Users/ga/workspace/coptic-lectionary-research/sources/katameros-api/Core/KatamerosDatabase.db",
+        "sha256": "b6a1bbfa96543b7028bba77ad33df5cb018d21ec7bde1335247c2bd86ff43784",
+        "edition": "Bibles.Id=2 NKJV; Verses.BookId=19",
+        "independence": "local comparator only; not independent public capture"
+      },
+      "blocker": null,
+      "clause_pairs": [
+        {
+          "start": 0,
+          "end": 61,
+          "source_literal": "You prepare a table before me in the presence of my enemies. ",
+          "mt": [
+            23,
+            5
+          ],
+          "brenton": [
+            22,
+            5
+          ],
+          "extent": "literal selected clause/fragment; whole witness verse retained separately; no claim omitted clauses were read",
+          "MT_NKJV": {
+            "chapter": 23,
+            "verse": 5,
+            "text": "You prepare a table before me in the presence of my enemies; You anoint my head with oil; My cup runs over.",
+            "url": "https://www.biblegateway.com/passage/?search=Psalm+23&version=NKJV",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/witnesses/NKJV-023.html",
+            "raw_sha256": "61bfcddb05eda63f6521394847d473bdaf31487220d7bf5369ea980f3e1de560",
+            "edition": "NKJV (Bible Gateway/Thomas Nelson)"
+          },
+          "LXX_Brenton": {
+            "chapter": 22,
+            "verse": 5,
+            "text": "Thou hast prepared a table before me in presence of them that afflict me: thou hast thoroughly anointed my head with oil; and thy cup cheers me like the best wine .",
+            "url": "https://ebible.org/eng-Brenton/PSA022.htm",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/witnesses/Brenton-022.html",
+            "raw_sha256": "c43239c7d800a2cb9c7e856cb832ca4ca97cb6deb4dfe0d98b6fd13d6162fea6",
+            "edition": "Brenton Septuagint Translation (eBible.org; its displayed verse coordinates, NOT every LXX edition)"
+          },
+          "mapping_relation": "semantic edition correspondence for this literal fragment, not translation identity or whole-verse quotation"
+        },
+        {
+          "start": 61,
+          "end": 118,
+          "source_literal": "He who ate my bread, dealt deceptively with me. Alleluia.",
+          "mt": [
+            41,
+            9
+          ],
+          "brenton": [
+            40,
+            10
+          ],
+          "extent": "literal selected clause/fragment; whole witness verse retained separately; no claim omitted clauses were read",
+          "MT_NKJV": {
+            "chapter": 41,
+            "verse": 9,
+            "text": "Even my own familiar friend in whom I trusted, Who ate my bread, Has lifted up his heel against me.",
+            "url": "https://www.biblegateway.com/passage/?search=Psalm+41&version=NKJV",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/witnesses/NKJV-041.html",
+            "raw_sha256": "3df9b56dcb51004af89cbe8e67db6a93818ab4669ebde20a9f9cccf70beed85f",
+            "edition": "NKJV (Bible Gateway/Thomas Nelson)"
+          },
+          "LXX_Brenton": {
+            "chapter": 40,
+            "verse": 10,
+            "text": "For even the man of my peace, in whom I trusted, who ate my bread, lifted up his heel against me.",
+            "url": "https://ebible.org/eng-Brenton/PSA040.htm",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-pascha-02/witnesses/Brenton-040.html",
+            "raw_sha256": "48f2925441729bc0fc0268c71aed38d0f1ef0d4b340f4e02b0ca936c014ce06d",
+            "edition": "Brenton Septuagint Translation (eBible.org; its displayed verse coordinates, NOT every LXX edition)"
+          },
+          "mapping_relation": "semantic edition correspondence for this literal fragment, not translation identity or whole-verse quotation"
+        }
+      ],
+      "alignment_note": "Psalm23:5 table opening only;41:9 bread/heel closing only. Source dealt-deceptively paraphrases heel figure; familiar-friend/trust opening omitted.",
+      "text_identity": "semantic coordinate correspondence only; preserve complete Reader body and all literal edition differences",
+      "fragment_parts": {
+        "mt": [
+          [
+            23,
+            5,
+            "You prepare a table before me in the presence of my enemies. "
+          ],
+          [
+            41,
+            9,
+            "He who ate my bread, dealt deceptively with me. Alleluia."
+          ]
+        ],
+        "lxx": [
+          [
+            22,
+            5,
+            "You prepare a table before me in the presence of my enemies. "
+          ],
+          [
+            40,
+            10,
+            "He who ate my bread, dealt deceptively with me. Alleluia."
+          ]
+        ],
+        "unmapped_literal": [],
+        "coordinate_scope": "covering verse identifiers for literal selected fragments; never promise complete verse bodies or coordinates for edition-only clauses"
+      },
+      "method": "Full source-body ordered literal clause ledger paired with independent public BibleGateway NKJV and eBible Brenton verse bodies; partial verses, title shifts and seams explicitly retained; edition-only additions remain literal.",
+      "normalization_review_input": {
+        "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/normalization-oracle.jsonl",
+        "sha256": "c02e29a9c7b09b1d42c845115d2236da4f3d61cbf12a73a9e6397702cc068096",
+        "previous_status": "unresolved"
+      },
+      "latest_capture_qualification": {
+        "ledger_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair-02/qualification-ledger.jsonl",
+        "ledger_sha256": "64d784caea3ea05f0b0295b6ad04d9f226180dedf88078f0804df8e1a85d678c",
+        "status": "valid",
+        "qualification_basis": "repair_02_separate_fresh_full_text_selected_civil_Coptic_actual_menu_ready_primary_and_reference_images",
+        "original_text_sha256": "a856ec50d967e00a99d49d702a55ecf451a43d6e47f68f3f63d360600eff31cd",
+        "no_original_timestamp_date_or_hash_rebinding": true
+      },
+      "normalization_review_closed": true
+    }
+  },
+  {
+    "original_file": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-special-02/normalization-oracle-overlay.jsonl",
+    "original_file_sha256": "b13527400fc5105a26f262ac6956dae6845b79cab8180f7f0bf8c56ea1840cd3",
+    "selected_record": {
+      "id": "d6fdcfc27f849b1ddee7",
+      "lane": "pascha",
+      "printed_ref": "Psalms 51:7, 10",
+      "printed_convention": "edition-qualified; not asserted universally LXX",
+      "kind": "scripture_tab",
+      "navigation": [
+        "Thursday",
+        "Thursday Day",
+        "Liturgy of the Waters"
+      ],
+      "source_url": "https://copticreader.org/app/#/document",
+      "source_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--thursday-day--liturgy-of-the-waters.txt",
+      "source_sha256": "a66ddc71a6443580577463041ec55c9a419c23c593c4e652d171b4f9d9279f45",
+      "heading_exact": "Psalms 51:7, 10",
+      "line_start": 704,
+      "line_end": 717,
+      "block_raw": "\tPsalms 51:7, 10\n(مزامير 51: 7, 10)\nReader:\nPurge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Create in me a clean heart, O God, And renew a right spirit within me.\nⲠⲓⲁ̀ⲛⲁⲅⲛⲱⲥⲧⲏⲥ:\nⲈⲕⲉ̀ⲛⲟⲩϫϧ ⲉ̀ϫⲱⲓ ⲙ̀ⲡⲉⲕϣⲉⲛϩⲩⲥⲱⲡⲟⲛ ⲉⲓ ⲉ̀ⲧⲟⲩⲃⲟ: ⲉⲕⲉ̀ⲣⲁϧⲧ ⲉⲓⲉ̀ⲟⲩⲃⲁϣ ⲉ̀ϩⲟⲧⲉ ⲟⲩⲭⲓⲱⲛ. Ⲟⲩϩⲏⲧ ⲉ̀ϥⲟⲩⲁⲃ ⲉⲕⲉ̀ⲥⲟⲛⲧϥ ⲛ̀ϧⲏⲧ Ⲫϯ: ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲉϥⲥⲟⲩⲧⲱⲛ: ⲁ̀ⲣⲓⲧϥ ⲙ̀ⲃⲉⲣⲓ: ϧⲉⲛ ⲛⲏⲉⲧⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲓ . ⲁ︦ⲗ︦ .\nالقارﺉُ:\nطهرني بالزوفا فاطهر اغسلني فابيض اكثر من الثلج. قلباً نقياً اخلق فىّ يا الله. وروحاً مستقيماً جدد فى أحشائي. هلليلويا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.",
+      "block_sha256": "53a573eb2de7ed16d48222caf0e1d48c874512d4724f4593bcd604dc1a23763b",
+      "body_english": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Create in me a clean heart, O God, And renew a right spirit within me.",
+      "body_sha256": "a334a7e8082fc38128a5226ac5c403f58fd92e472a7aa9fca8dc6664292c5373",
+      "body_english_lines": [
+        {
+          "line": 707,
+          "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow. Create in me a clean heart, O God, And renew a right spirit within me."
+        }
+      ],
+      "body_extraction_notes": [],
+      "inventory_inputs": [
+        "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-oracle-review/oracle-ledger.jsonl"
+      ],
+      "eligibility_scope": "reference-text normalization only; NOT assignment/calendar qualification, screenshot approval or release authorization",
+      "source_assigned_order": 12,
+      "source_section_order": 28,
+      "capture_context_metadata": {
+        "selected_civil_date": "2026-04-09",
+        "selected_home_occasion": "Selected Season Covenant Thursday Parmoute 1, 1742 Thursday, April 9, 2026",
+        "document_heading": "The Liturgy of Blessing of the Water of Great Thursday"
+      },
+      "separate_capture_gate": {
+        "status": "valid",
+        "basis": "retained_original_intact_context_menu_and_visually_ready_primary",
+        "ledger_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/qualification-ledger.jsonl",
+        "ledger_sha256": "3de02259abe07d4bda63265c8203715123918b99ac150dd60be73f5080361306",
+        "rechecked_here": false
+      },
+      "sourcebody_scope": "body_english is separately extracted; block_raw preserves its entire source-bounded surrounding text. Do not promote surrounding prayers/rubrics to additional assignments.",
+      "duplicate_excerpt_context_ids": [
+        "d6fdcfc27f849b1ddee7"
+      ],
+      "canonical_mt_spans": [
+        [
+          51,
+          7,
+          7
+        ],
+        [
+          51,
+          10,
+          10
+        ]
+      ],
+      "canonical_mt_ref": "Ps 51:7; Ps 51:10",
+      "canonical_lxx_spans": [
+        [
+          50,
+          9,
+          9
+        ],
+        [
+          50,
+          12,
+          12
+        ]
+      ],
+      "canonical_lxx_ref": "Ps 50:9; Ps 50:12",
+      "canonical_lxx_edition": "Brenton Septuagint Translation/eBible.org displayed coordinates (includes numbered titles where printed); not Reader liturgical versification or generic universal LXX.",
+      "consumer_eligible": true,
+      "witnesses": {
+        "MT_NKJV": [
+          {
+            "chapter": 51,
+            "verse": 7,
+            "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow.",
+            "url": "https://www.biblegateway.com/passage/?search=Psalm+51%3A2%2C7%2C10&version=NKJV",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/witnesses/NKJV-051.html",
+            "raw_sha256": "e7c86b19c981639920276c7e4daf6547c10cb5e67b692ced0da78af4949e6a2e"
+          },
+          {
+            "chapter": 51,
+            "verse": 10,
+            "text": "Create in me a clean heart, O God, And renew a steadfast spirit within me.",
+            "url": "https://www.biblegateway.com/passage/?search=Psalm+51%3A2%2C7%2C10&version=NKJV",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/witnesses/NKJV-051.html",
+            "raw_sha256": "e7c86b19c981639920276c7e4daf6547c10cb5e67b692ced0da78af4949e6a2e"
+          }
+        ],
+        "LXX_Brenton": [
+          {
+            "chapter": 50,
+            "verse": 9,
+            "text": "Thou shalt sprinkle me with hyssop, and I shall be purified: thou shalt wash me, and I shall be made whiter than snow.",
+            "url": "https://ebible.org/eng-Brenton/PSA050.htm",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/witnesses/Brenton-050.html",
+            "raw_sha256": "c701cd9a3877d0b4973a62ce545eac2c1307494b05cd568e5d28ef5347bb2a20"
+          },
+          {
+            "chapter": 50,
+            "verse": 12,
+            "text": "Create in me a clean heart, O God; and renew a right spirit in my inward parts.",
+            "url": "https://ebible.org/eng-Brenton/PSA050.htm",
+            "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-normalization-review/witnesses/Brenton-050.html",
+            "raw_sha256": "c701cd9a3877d0b4973a62ce545eac2c1307494b05cd568e5d28ef5347bb2a20"
+          }
+        ]
+      },
+      "status": "confirmed",
+      "confidence": "confirmed_text_correspondence",
+      "local_nkjv_candidates": [
+        {
+          "chapter": 51,
+          "verse": 7,
+          "text": "Purge me with hyssop, and I shall be clean; Wash me, and I shall be whiter than snow.",
+          "relation": "complete_witness_verse_in_source"
+        }
+      ],
+      "local_comparator": {
+        "path": "/Users/ga/workspace/coptic-lectionary-research/sources/katameros-api/Core/KatamerosDatabase.db",
+        "sha256": "b6a1bbfa96543b7028bba77ad33df5cb018d21ec7bde1335247c2bd86ff43784",
+        "edition": "Bibles.Id=2 NKJV; Verses.BookId=19",
+        "independence": "local comparator only; not independent public capture"
+      },
+      "fragment_parts": {
+        "mt": "whole verses in listed order",
+        "lxx": "whole verses in listed order"
+      },
+      "alignment_note": "Hyssop7 then clean heart10; source MT heading, no extra verses.",
+      "method": "Manual full-body sentence/clause comparison against independent public NKJV and Brenton captured verses; no candidate similarity score is an approval.",
+      "blocker": null,
+      "text_identity": "coordinate correspondence, not translation identity; source wording remains literal"
+    }
+  }
+]

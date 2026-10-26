@@ -1,0 +1,46 @@
+{
+  "selected_civil_date": "2026-04-09",
+  "selected_civil_day": "Thursday",
+  "home_occasion": "Selected Season Covenant Thursday Parmoute 1, 1742 Thursday, April 9, 2026",
+  "picker": {
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-picker.txt",
+    "text_sha256": "a6f326ecc385126486f352e95cabb27e3331c7f7da0496d86db7d83e2f26107b",
+    "screenshot_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-picker.png",
+    "screenshot_sha256": "b0550b9140ebcd1a3f22ee5373ed0ea85b5bdbfa9146d3f8b5af69e794687315"
+  },
+  "home": {
+    "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-home.txt",
+    "text_sha256": "48649c5b877751697eedcadc702c1bb7aa1d6addc39c5a0054ea27f73771eb66",
+    "screenshot_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-home.png",
+    "screenshot_sha256": "221d794f8a6e0d646ea7be485c739c4195f9e0f81a0e95d9ca6efafa33010e59"
+  },
+  "selectedWheel": [
+    {
+      "text": "February 2026\nMarch 2026\nApril 2026\nMay 2026\nJune 2026\nJuly 2026",
+      "rect": {
+        "x": 449,
+        "y": 339,
+        "width": 382,
+        "height": 70
+      }
+    },
+    {
+      "text": "07 Tuesday\n08 Wednesday\n09 Thursday\n10 Friday\n11 Saturday\n12 Sunday\n13 Monday",
+      "rect": {
+        "x": 449,
+        "y": 417,
+        "width": 382,
+        "height": 70
+      }
+    },
+    {
+      "text": "6 AM\n7 AM\n8 AM\n9 AM\n10 AM\n11 AM\n12 PM\n1 PM",
+      "rect": {
+        "x": 449,
+        "y": 495,
+        "width": 382,
+        "height": 70
+      }
+    }
+  ]
+}

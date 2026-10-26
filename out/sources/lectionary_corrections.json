@@ -1,6 +1,11 @@
 {
   "schema_version": 1,
   "source_fingerprints": {
+    "sources/user-corrections/reverse-source-key-contract-no-service-history-2026-10-25.json": "86cb7ba6340f58da344782a19c96da94692b1bbb6747b793cbe05afcce301e02",
+    "sources/user-corrections/no-service-history-plan-2026-10-25.json": "3e228f951da40452c6c3076f6a29dd0a428a4d7228d6ec3004c5113b22236a7d",
+    "docs/reviews/lectionary-1.3.6-no-service-history.md": "af2297112f542f02d8c0208e854d3ad63e554a0bc2aad4dbfb6aff4749ebe857",
+    "sources/user-corrections/babah-third-sunday-pauline.json": "b3ebd2d120a85bb817b8af151cf003c3e4cbb26b693896aabb3dea1b79a04d44",
+    "sources/coptic-reader/babah-third-sunday-2026-10-25/Pauline.txt": "880697daa4c3ad6d3681fdb54857791f051c2483d673b2fd2a09a1bf880c9e8a",
     "sources/user-corrections/mesra-19-james.json": "629217dea09e4d6de87dccc621da809e9a22f49aa68a7beec6c707345de953a1",
     "sources/user-corrections/reverse-source-key-contract-mesra19-v2.json": "2d3c2557f49f23cefb469f3206b21e2c77a1ac2e4cd56f39b718e7c5941cb4d4",
     "sources/coptic-reader/bounded-release-2026-10-08/reverse-source-key-contract.json": "06dd5c981b988ebd908c01c07e1c2ab4c186dcae29d25ec4c63d50ac1ebe34cf",
@@ -175,9 +180,50 @@
     "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/reference-04.png": "5458f03a67dd383840475853aef319e4e13427230d1ff599ca8652419030daab",
     "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/reference-05.png": "86fdc0e9f78da689d2c3411f613e70f25e364c8a38b934de5fac6cef1ba0743e",
     "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/qualified-oracle.json": "caa0eafd00319124cb8858adbbea81fdc5ff1d8bd0878b8534855c1c1d52aaa6",
-    "sources/coptic-reader/lent-qualified-2026-10-07/reverse-index-contract.json": "9b719dca5df186925bd9daee028819d8c3afa8e712f3a8c34751a8cb9861c989"
+    "sources/coptic-reader/lent-qualified-2026-10-07/reverse-index-contract.json": "9b719dca5df186925bd9daee028819d8c3afa8e712f3a8c34751a8cb9861c989",
+    "sources/user-corrections/reverse-source-key-contract-bright-saturday-reader-gaps.json": "821a087068b1ad1a8fcc74fa9f3c02dd5f4a1cddf0bdc32a75b6234bfc7783f8",
+    "sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json": "739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d",
+    "sources/user-corrections/reverse-source-key-contract-lamentations-joel-2026-10-19.json": "9d4912dde1e3ad17eff478526e1e86e473b9dcca68b155976fa255683798bbd4",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Matins-menu.png": "d97c3a07f81676100d3a2f323720ebf5d02139702cd9a57d92cecb055766cd0c",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Matins-menu.txt": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Prophecies.txt": "4f48b79a99969369c10e0f20d3a29ff36098e21c792f66366cc8325c3accdda9",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Readings-menu.txt": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/context.png": "579af26e855731a6b28ea113852cd7d82a01dcafd3a162671184f33156a50f48",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/context.txt": "c68f795df1b7a802d5852a5cd4fa904e26f0602fe8007a466d2f256d30a36ac1",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/original-capture.json": "51d470465a881e5224093f787d05f2d987be629b2de0ad40ed12ddfc7d8f7b1c",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/picker.json": "02c1e739ff3c145c99c534358087f65b3ae36828495e8711cc471b53fe3ed7e3",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/picker.png": "63da3fef790501da80fcb5c54e1044a4b57b20f995c4484059bfb8b279ece241",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/qualified-oracle.json": "84ae3c4599dd495791b55c466d700fa742f4650d608468929ec386d483b794c1",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/reference-01.png": "bc0ca5e1e17be759fa68f4b0b52a892f3dc2990fc26695e4da6939e90c31e564",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/reference-02.png": "0062771bc8ee9de1cf00f12b5acc77cc1428fb48ed407c07d9950473dbc2b317",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/Matins-menu.txt": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/Prophecies.txt": "a564435959acc831c44d3a17d24acf5db78c3c0a12be4b5cd75048b14d85743f",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/context.png": "49a9105b2da826ac73620276852b2a54701b66617edc99bc67ae59644f9b9020",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/context.txt": "19774c0baed8727c938b06edb0edd2ab426348b7016c035eb8b157e4013727c2",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/original-capture.json": "9363f616682bbb38f217dae720d99b2c657be9dabffaf272d369e08497216238",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/picker.json": "d7ccf527e4a84cade71e8c07e1e75ed6ca8f497b6c43f90778a2b564eebba74a",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/picker.png": "1ea67d8c9a4c129515329bd8a92c338f708b008e641cdb04f409e51dc0a51e30",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/qualified-oracle.json": "f63a248861d6994ecd96c6aa888b31ecd5928b62c3ae9904c2488ed436c442b0",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-01.png": "fe3fcfc8f95f1f25c7b805555cda03be2964d213be320a38e98c56e03b8fb9c8",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-02.png": "fc8f7b286d60656fabc3fbcd893e598aa8ec8650641725f9e66c6dfb40d7d542",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-03.png": "1fae561f1bf916c8780f62e4a99637ec8d70d22b2e9f5270fafe40a629e34209",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-04.png": "5b8a7699604593eac2bb7bc44262db2ef8bf93f6b18513f8f39295399b255aad",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-05.png": "6d36d2c4b8e4783fd27f79ccf6f93443a1148c284479a4844122e397e532eecc",
+    "sources/coptic-reader/lent-additional-qualified-2026-10-25/package-first-gap.json": "8e5e9aa7c41cbd0af1b72766ed9f441ca4e2e5619f8443ee3f7ed5db68f05562"
   },
   "copticchurch_date": [
+    {
+      "day_title": "The third Sunday of Baba",
+      "service_section": "Liturgy",
+      "reading_type": "Pauline Epistle",
+      "expected_raw_ref": "1Cor 16:12-23",
+      "corrected_ref": "1Cor 16:12-24",
+      "expected_source": "copticchurch.net daily scrape",
+      "expected_url_prefix": "https://copticchurch.net/readings?",
+      "authority": "George user-supplied correction",
+      "user_instruction": "also fix: today's Pauline is 1Cor 16:12-23 but Coptic reader says Pauline Epistle 1Cor 16:12-24 for the 3rd Sunday of babeh",
+      "evidence": "sources/user-corrections/babah-third-sunday-pauline.json"
+    },
     {
       "day_title": "Mesra 19",
       "service_section": "Liturgy",
@@ -264,7 +310,7 @@
       "day_title": "Mesra 5",
       "service_section": "Liturgy",
       "reading_type": "Gospel",
-      "expected_raw_ref": "Matt 3:23\u2014  &  Matt 5:1-16",
+      "expected_raw_ref": "Matt 3:23—  &  Matt 5:1-16",
       "corrected_ref": "Matt 4:23-5:16",
       "authority": "Coptic Reader web app 3.7",
       "verified_date": "2023-08-11",
@@ -1205,6 +1251,123 @@
       "normalization_status": "verified_literal",
       "normalization_blockers": [],
       "oracle_evidence": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-17/qualified-oracle.json"
+    },
+    {
+      "day_title": "Wednesday of the first week of Great Lent",
+      "pascha_offset_days": -53,
+      "service_section": "Matins",
+      "reading_type": "Prophecy",
+      "authority": "Coptic Reader official Southern US publisher",
+      "verified_date": "2026-02-18",
+      "captured_at": "2026-10-07T22:25:53.430Z",
+      "evidence": "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Prophecies.txt",
+      "source_key": "coptic_reader_lent_2026_02_18",
+      "source_id": "lent:2026-02-18",
+      "scope": "Exact occasion and Pascha offset only; retained capture date on recurrence; literal Reader appointment, no cross-edition equivalence claim.",
+      "readings": [
+        {
+          "printed_ref": "Isaiah 2:3-11",
+          "normalized_ref": "Isa 2:3-11",
+          "source_order": 1,
+          "source_slot": "OT1",
+          "source_line": 3
+        },
+        {
+          "printed_ref": "Joel 2:12-26",
+          "normalized_ref": "Joel 2:12-26",
+          "source_order": 2,
+          "source_slot": "OT2",
+          "source_line": 29,
+          "normalization_note": "Literal Reader heading and numbered English/Arabic body end at 26, followed by the Trinitarian conclusion. The retained body contains no verse 27 and no \"Then you shall know that I am in the midst of Israel\" clause. Use bounded Reader 2:12-26, not the packaged Katameros 2:12-27 witness; no global cycle correction or cross-edition equivalence approval."
+        }
+      ],
+      "evidence_fingerprints": {
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Matins-menu.png": "d97c3a07f81676100d3a2f323720ebf5d02139702cd9a57d92cecb055766cd0c",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Matins-menu.txt": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Prophecies.txt": "4f48b79a99969369c10e0f20d3a29ff36098e21c792f66366cc8325c3accdda9",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/Readings-menu.txt": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/context.png": "579af26e855731a6b28ea113852cd7d82a01dcafd3a162671184f33156a50f48",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/context.txt": "c68f795df1b7a802d5852a5cd4fa904e26f0602fe8007a466d2f256d30a36ac1",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/original-capture.json": "51d470465a881e5224093f787d05f2d987be629b2de0ad40ed12ddfc7d8f7b1c",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/picker.json": "02c1e739ff3c145c99c534358087f65b3ae36828495e8711cc471b53fe3ed7e3",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/picker.png": "63da3fef790501da80fcb5c54e1044a4b57b20f995c4484059bfb8b279ece241",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/qualified-oracle.json": "84ae3c4599dd495791b55c466d700fa742f4650d608468929ec386d483b794c1",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/reference-01.png": "bc0ca5e1e17be759fa68f4b0b52a892f3dc2990fc26695e4da6939e90c31e564",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/reference-02.png": "0062771bc8ee9de1cf00f12b5acc77cc1428fb48ed407c07d9950473dbc2b317"
+      },
+      "source_verified_context": "Selected Season 1st Week of Great Fast Meshir 11, 1742 Wednesday, February 18, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "normalization_status": "verified_literal_source_bounded",
+      "normalization_blockers": [],
+      "oracle_evidence": "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-02-18/qualified-oracle.json"
+    },
+    {
+      "day_title": "Wednesday of the fifth week of Great Lent",
+      "pascha_offset_days": -25,
+      "service_section": "Matins",
+      "reading_type": "Prophecy",
+      "authority": "Coptic Reader official Southern US publisher",
+      "verified_date": "2026-03-18",
+      "captured_at": "2026-10-07T17:41:49.839Z",
+      "evidence": "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/Prophecies.txt",
+      "source_key": "coptic_reader_lent_2026_03_18",
+      "source_id": "lent:2026-03-18",
+      "scope": "Exact occasion and Pascha offset only; retained capture date on recurrence; literal Reader appointment, no cross-edition equivalence claim.",
+      "readings": [
+        {
+          "printed_ref": "Exodus 8:20-9:35",
+          "normalized_ref": "Exod 8:20-9:35",
+          "source_order": 1,
+          "source_slot": "OT1",
+          "source_line": 3
+        },
+        {
+          "printed_ref": "Isaiah 41:4-14",
+          "normalized_ref": "Isa 41:4-14",
+          "source_order": 2,
+          "source_slot": "OT2",
+          "source_line": 107
+        },
+        {
+          "printed_ref": "Joel 3:9-21",
+          "normalized_ref": "Joel 3:9-21",
+          "source_order": 3,
+          "source_slot": "OT3",
+          "source_line": 137
+        },
+        {
+          "printed_ref": "Job 28:12-28",
+          "normalized_ref": "Job 28:12-28",
+          "source_order": 4,
+          "source_slot": "OT4",
+          "source_line": 171
+        },
+        {
+          "printed_ref": "Proverbs 4:10-19",
+          "normalized_ref": "Prov 4:10-19",
+          "source_order": 5,
+          "source_slot": "OT5",
+          "source_line": 213
+        }
+      ],
+      "evidence_fingerprints": {
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/Matins-menu.txt": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/Prophecies.txt": "a564435959acc831c44d3a17d24acf5db78c3c0a12be4b5cd75048b14d85743f",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/context.png": "49a9105b2da826ac73620276852b2a54701b66617edc99bc67ae59644f9b9020",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/context.txt": "19774c0baed8727c938b06edb0edd2ab426348b7016c035eb8b157e4013727c2",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/original-capture.json": "9363f616682bbb38f217dae720d99b2c657be9dabffaf272d369e08497216238",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/picker.json": "d7ccf527e4a84cade71e8c07e1e75ed6ca8f497b6c43f90778a2b564eebba74a",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/picker.png": "1ea67d8c9a4c129515329bd8a92c338f708b008e641cdb04f409e51dc0a51e30",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/qualified-oracle.json": "f63a248861d6994ecd96c6aa888b31ecd5928b62c3ae9904c2488ed436c442b0",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-01.png": "fe3fcfc8f95f1f25c7b805555cda03be2964d213be320a38e98c56e03b8fb9c8",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-02.png": "fc8f7b286d60656fabc3fbcd893e598aa8ec8650641725f9e66c6dfb40d7d542",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-03.png": "1fae561f1bf916c8780f62e4a99637ec8d70d22b2e9f5270fafe40a629e34209",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-04.png": "5b8a7699604593eac2bb7bc44262db2ef8bf93f6b18513f8f39295399b255aad",
+        "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/reference-05.png": "6d36d2c4b8e4783fd27f79ccf6f93443a1148c284479a4844122e397e532eecc"
+      },
+      "source_verified_context": "Selected Season 5th Week of Great Fast Paremhotep 9, 1742 Wednesday, March 18, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "normalization_status": "verified_literal_source_bounded",
+      "normalization_blockers": [],
+      "oracle_evidence": "sources/coptic-reader/lent-additional-qualified-2026-10-25/2026-03-18/qualified-oracle.json"
     }
   ],
   "katameros_cycle": [
@@ -1577,5 +1740,5 @@
       "oracle_evidence": "sources/coptic-reader/lent-qualified-2026-10-07/2026-03-13/qualified-oracle.json"
     }
   ],
-  "seasonal_reverse_index_contract": "sources/user-corrections/reverse-source-key-contract-mesra19-v2.json"
+  "seasonal_reverse_index_contract": "sources/user-corrections/reverse-source-key-contract-no-service-history-2026-10-25.json"
 }

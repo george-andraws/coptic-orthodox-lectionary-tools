@@ -1,34 +1,34 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "b5602df6bcca68b9f5fafb05597dbcc31280a409",
+  "source_repo_commit": "eb0353868a5191abed6a0c5c1d053af4e95940e2",
   "source_tree_dirty": true,
-  "generated_at": "2026-10-20T00:17:38.514Z",
-  "occasion_index_rows": 12211,
+  "generated_at": "2026-10-25T21:15:28.341Z",
+  "occasion_index_rows": 12206,
   "daily_files": [
     {
       "year": 2026,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4068,
-      "bytes": 6447937
+      "reading_count": 4097,
+      "bytes": 6912665
     },
     {
       "year": 2027,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4063,
-      "bytes": 6626236
+      "reading_count": 4088,
+      "bytes": 7083018
     },
     {
       "year": 2028,
       "rows": 366,
       "date_count": 366,
-      "reading_count": 4072,
-      "bytes": 6480460
+      "reading_count": 4103,
+      "bytes": 6948352
     }
   ],
   "shipped_years": [
@@ -76,7 +76,7 @@
         {
           "date": "2026-04-09",
           "day": "Great Thursday",
-          "reading_count": 67
+          "reading_count": 82
         },
         {
           "date": "2026-04-10",
@@ -86,7 +86,7 @@
         {
           "date": "2026-04-11",
           "day": "Bright Saturday",
-          "reading_count": 42
+          "reading_count": 47
         }
       ],
       "2027": [
@@ -113,7 +113,7 @@
         {
           "date": "2027-04-29",
           "day": "Great Thursday",
-          "reading_count": 67
+          "reading_count": 82
         },
         {
           "date": "2027-04-30",
@@ -123,7 +123,7 @@
         {
           "date": "2027-05-01",
           "day": "Bright Saturday",
-          "reading_count": 42
+          "reading_count": 47
         }
       ],
       "2028": [
@@ -150,7 +150,7 @@
         {
           "date": "2028-04-13",
           "day": "Great Thursday",
-          "reading_count": 67
+          "reading_count": 82
         },
         {
           "date": "2028-04-14",
@@ -160,7 +160,7 @@
         {
           "date": "2028-04-15",
           "day": "Bright Saturday",
-          "reading_count": 42
+          "reading_count": 47
         }
       ]
     },
@@ -168,25 +168,25 @@
     "pascha_computus": "Julian/Coptic Pascha converted to Gregorian with 13-day offset for the shipped range."
   },
   "projection_rules": {
-    "source_rows": 12191,
-    "output_rows": 12211,
-    "active_rows": 7806,
+    "source_rows": 12186,
+    "output_rows": 12206,
+    "active_rows": 7809,
     "canonical_occurrence_projection": {
       "policy": "sources/canonical-occurrence-policy.json",
-      "disposition_count": 4001,
+      "disposition_count": 4011,
       "sentinel_additions": 20,
       "dispositions_by_reason": {
         "source_same_slot_complete_coverage": 512,
         "retained_current_wednesday_fixture_over_unresolved_working_assignment": 2,
-        "retained_source_qualified_slot_precedence": 80,
-        "exact_canonical_appointment_alias": 3407
+        "retained_source_qualified_slot_precedence": 82,
+        "exact_canonical_appointment_alias": 3415
       }
     },
-    "removed_rows_included": 4405,
-    "lower_priority_passage_variants_suppressed": 496,
-    "lower_priority_passage_variants_retained_as_removed": 496,
+    "removed_rows_included": 4397,
+    "lower_priority_passage_variants_suppressed": 478,
+    "lower_priority_passage_variants_retained_as_removed": 478,
     "removal_effective_version_baseline": {
-      "source_version": "1.1.6+source-corrections-1.3.5",
+      "source_version": "1.1.6+source-corrections-1.3.6",
       "entry_count": 522,
       "distinct_identity_key_count": 253,
       "duplicate_identity_key_count": 70
@@ -202,7 +202,7 @@
         "context_key": "abib 10|liturgy||praxis",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13080; source_ref=Acts 15:36-16:5",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13095; source_ref=Acts 15:36-16:5",
         "preferred_identity_key": "rid_29d081e1b75c9201331c",
         "preferred_display_ref": "Acts 15:36-16:5",
         "suppressed_source_family": "katameros_cycle",
@@ -213,7 +213,7 @@
         "context_key": "abib 10|liturgy||praxis",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13080; source_ref=Acts 15:36-16:5",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13095; source_ref=Acts 15:36-16:5",
         "preferred_identity_key": "rid_29d081e1b75c9201331c",
         "preferred_display_ref": "Acts 15:36-16:5",
         "suppressed_source_family": "katameros_cycle",
@@ -224,7 +224,7 @@
         "context_key": "abib 10|liturgy||catholicon",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13081; source_ref=3Jn 1:1-15",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13096; source_ref=3Jn 1:1-15",
         "preferred_identity_key": "rid_679d74fe15f7c208fb41",
         "preferred_display_ref": "3Jn 1:1-15",
         "suppressed_source_family": "katameros_cycle",
@@ -235,7 +235,7 @@
         "context_key": "abib 10|liturgy||pauline",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13083; source_ref=Heb 7:18-8:13",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13098; source_ref=Heb 7:18-8:13",
         "preferred_identity_key": "rid_04760e5acbd812273838",
         "preferred_display_ref": "Heb 7:18-8:13",
         "suppressed_source_family": "katameros_cycle",
@@ -246,7 +246,7 @@
         "context_key": "abib 10|liturgy||pauline",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13083; source_ref=Heb 7:18-8:13",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13098; source_ref=Heb 7:18-8:13",
         "preferred_identity_key": "rid_04760e5acbd812273838",
         "preferred_display_ref": "Heb 7:18-8:13",
         "suppressed_source_family": "katameros_cycle",
@@ -257,7 +257,7 @@
         "context_key": "abib 11|matins||psalm",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=18; cache/copticchurch_html:row 13099; source_ref=Ps 5:11",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=18; cache/copticchurch_html:row 13114; source_ref=Ps 5:11",
         "preferred_identity_key": "rid_60b9d390372dab04bbe0",
         "preferred_display_ref": "Ps 5:11",
         "suppressed_source_family": "katameros_cycle",
@@ -268,7 +268,7 @@
         "context_key": "abib 12|liturgy||praxis",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13103; source_ref=Acts 7:44-8:1",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13118; source_ref=Acts 7:44-8:1",
         "preferred_identity_key": "rid_1a25121ae3b893a41c9e",
         "preferred_display_ref": "Acts 7:44-8:1",
         "suppressed_source_family": "katameros_cycle",
@@ -279,7 +279,7 @@
         "context_key": "abib 12|liturgy||praxis",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13103; source_ref=Acts 7:44-8:1",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13118; source_ref=Acts 7:44-8:1",
         "preferred_identity_key": "rid_1a25121ae3b893a41c9e",
         "preferred_display_ref": "Acts 7:44-8:1",
         "suppressed_source_family": "katameros_cycle",
@@ -290,7 +290,7 @@
         "context_key": "abib 12|liturgy||gospel",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13105; source_ref=Lk 11:53-12:12",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13120; source_ref=Lk 11:53-12:12",
         "preferred_identity_key": "rid_c289bcf1beff06823d08",
         "preferred_display_ref": "Lk 11:53-12:12",
         "suppressed_source_family": "katameros_cycle",
@@ -301,7 +301,7 @@
         "context_key": "abib 12|liturgy||gospel",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13105; source_ref=Lk 11:53-12:12",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13120; source_ref=Lk 11:53-12:12",
         "preferred_identity_key": "rid_c289bcf1beff06823d08",
         "preferred_display_ref": "Lk 11:53-12:12",
         "suppressed_source_family": "katameros_cycle",
@@ -312,7 +312,7 @@
         "context_key": "abib 12|liturgy||pauline",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13106; source_ref=Heb 12:13-14",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13121; source_ref=Heb 12:13-14",
         "preferred_identity_key": "rid_0b678bece5ec7c923e5b",
         "preferred_display_ref": "Heb 12:13-14",
         "suppressed_source_family": "katameros_cycle",
@@ -323,7 +323,7 @@
         "context_key": "abib 13|liturgy||praxis",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13113; source_ref=Acts 15:36-16:5",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13128; source_ref=Acts 15:36-16:5",
         "preferred_identity_key": "rid_29d081e1b75c9201331c",
         "preferred_display_ref": "Acts 15:36-16:5",
         "suppressed_source_family": "katameros_cycle",
@@ -334,7 +334,7 @@
         "context_key": "abib 13|liturgy||praxis",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13113; source_ref=Acts 15:36-16:5",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13128; source_ref=Acts 15:36-16:5",
         "preferred_identity_key": "rid_29d081e1b75c9201331c",
         "preferred_display_ref": "Acts 15:36-16:5",
         "suppressed_source_family": "katameros_cycle",
@@ -345,7 +345,7 @@
         "context_key": "abib 13|liturgy||catholicon",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13114; source_ref=3Jn 1:1-15",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13129; source_ref=3Jn 1:1-15",
         "preferred_identity_key": "rid_679d74fe15f7c208fb41",
         "preferred_display_ref": "3Jn 1:1-15",
         "suppressed_source_family": "katameros_cycle",
@@ -356,7 +356,7 @@
         "context_key": "abib 13|liturgy||pauline",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13116; source_ref=Heb 7:18-8:13",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13131; source_ref=Heb 7:18-8:13",
         "preferred_identity_key": "rid_04760e5acbd812273838",
         "preferred_display_ref": "Heb 7:18-8:13",
         "suppressed_source_family": "katameros_cycle",
@@ -367,7 +367,7 @@
         "context_key": "abib 13|liturgy||pauline",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13116; source_ref=Heb 7:18-8:13",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13131; source_ref=Heb 7:18-8:13",
         "preferred_identity_key": "rid_04760e5acbd812273838",
         "preferred_display_ref": "Heb 7:18-8:13",
         "suppressed_source_family": "katameros_cycle",
@@ -378,7 +378,7 @@
         "context_key": "abib 16|liturgy||catholicon",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16872; source_ref=1Jn 1:1-2:6",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16893; source_ref=1Jn 1:1-2:6",
         "preferred_identity_key": "rid_1e72a879101abc8d9c9a",
         "preferred_display_ref": "1Jn 1:1-2:6",
         "suppressed_source_family": "katameros_cycle",
@@ -389,7 +389,7 @@
         "context_key": "abib 16|liturgy||catholicon",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16872; source_ref=1Jn 1:1-2:6",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16893; source_ref=1Jn 1:1-2:6",
         "preferred_identity_key": "rid_1e72a879101abc8d9c9a",
         "preferred_display_ref": "1Jn 1:1-2:6",
         "suppressed_source_family": "katameros_cycle",
@@ -400,7 +400,7 @@
         "context_key": "abib 16|vespers||psalm",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16879; source_ref=Ps 19:1,19:4",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16900; source_ref=Ps 19:1,19:4",
         "preferred_identity_key": "rid_144edea63a8af8ce1c3b",
         "preferred_display_ref": "Ps 19:1,19:4 (LXX Ps 18:1; Ps 18:4)",
         "suppressed_source_family": "katameros_cycle",
@@ -411,7 +411,7 @@
         "context_key": "abib 16|vespers||psalm",
         "preferred_source_family": "ordinary_date_resolved",
         "preferred_source_kind": "copticchurch_date",
-        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16879; source_ref=Ps 19:1,19:4",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16900; source_ref=Ps 19:1,19:4",
         "preferred_identity_key": "rid_144edea63a8af8ce1c3b",
         "preferred_display_ref": "Ps 19:1,19:4 (LXX Ps 18:1; Ps 18:4)",
         "suppressed_source_family": "katameros_cycle",

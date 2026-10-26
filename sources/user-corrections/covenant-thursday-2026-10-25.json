@@ -1,0 +1,21 @@
+{
+  "contract": "covenant_thursday_bounded_source_exception",
+  "authorized_by": "User instruction in current task, 2026-10-25",
+  "scope": [
+    "Great Thursday / Liturgy of the Word",
+    "Great Thursday / Liturgy of Blessing of the Water"
+  ],
+  "authorization": "Portable retained source qualification and raw-row helper only; parent owns crosswalk/design/runtime/release integration.",
+  "package_baseline": "@andraws/lectionary-data@1.3.5",
+  "documented_gap": "Word group absent and Waters group limited to Genesis 18:1-23 on 2026-04-09, 2027-04-29, 2028-04-13; bounded local retained evidence exception only.",
+  "fresh_retrieval_authorized": false,
+  "runtime_activation_approved": false,
+  "release_approval": false,
+  "old_receipts_grant_activation": false,
+  "excluded": [
+    "Great Thursday Sixth Hour source-book dispute",
+    "prescribed Psalm 50 and Psalm 150 prayers as extra appointed lessons",
+    "invented Catholic/Praxis",
+    "annual date expansion in this helper"
+  ]
+}

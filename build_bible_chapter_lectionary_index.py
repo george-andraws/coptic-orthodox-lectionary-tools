@@ -9,7 +9,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
-from passage_normalization import parse_passage
+from passage_normalization import canonicalize_text_ref, parse_passage
+import no_service_history
 
 ROOT = Path(__file__).resolve().parent
 
@@ -29,10 +30,9 @@ VAULT_DATA = env_path('LECTIONARY_VAULT_DATA', VAULT / 'Hermes/04-Reference/Copt
 DISABLE_VAULT_PUBLISH = env_flag('LECTIONARY_DISABLE_VAULT_PUBLISH')
 
 # Chapter counts for the books supported by passage_normalization.py.
-# This uses the standard 66-book Bible plus the deuterocanonical books currently
-# recognized by the local parser. Greek additions to Esther/Daniel are not
-# modeled as separate chapter rows because the parser does not currently expose
-# them as separate book/chapter references.
+# This follows the books exposed by the local parser, including independently
+# cited additions. Psalms includes the LXX-only Psalm 151; this chapter inventory
+# supplies search coordinates, not a claim that Psalm 151 has an MT counterpart.
 BOOKS: List[Tuple[str, str, str, int]] = [
     ('Old Testament', 'Genesis', 'Gen', 50),
     ('Old Testament', 'Exodus', 'Exod', 40),
@@ -52,7 +52,7 @@ BOOKS: List[Tuple[str, str, str, int]] = [
     ('Old Testament', 'Nehemiah', 'Neh', 13),
     ('Old Testament', 'Esther', 'Esth', 10),
     ('Old Testament', 'Job', 'Job', 42),
-    ('Old Testament', 'Psalms', 'Ps', 150),
+    ('Old Testament', 'Psalms', 'Ps', 151),
     ('Old Testament', 'Proverbs', 'Prov', 31),
     ('Old Testament', 'Ecclesiastes', 'Eccl', 12),
     ('Old Testament', 'Song of Solomon', 'Song', 8),
@@ -82,6 +82,8 @@ BOOKS: List[Tuple[str, str, str, int]] = [
     ('Deuterocanonical', '2 Maccabees', '2Macc', 15),
     ('Deuterocanonical', '3 Maccabees', '3Macc', 7),
     ('Deuterocanonical', '4 Maccabees', '4Macc', 18),
+    ('Deuterocanonical', 'Susanna', 'Sus', 1),
+    ('Deuterocanonical', 'Prayer of Manasseh', 'PrMan', 1),
     ('New Testament', 'Matthew', 'Matt', 28),
     ('New Testament', 'Mark', 'Mark', 16),
     ('New Testament', 'Luke', 'Lk', 24),
@@ -250,6 +252,29 @@ def sample_occurrences(rows: List[dict], limit: int = 5) -> str:
     return ' || '.join(samples) + suffix
 
 
+def no_service_source_tuples():
+    """Authenticate retained raw identities, never learn exclusions from candidates."""
+    return frozenset((r['gregorian_date'], r['service_section'], r['reading_type'],
+                      canonicalize_text_ref(r['raw_ref']))
+                     for r in no_service_history.authenticated_raw_rows())
+
+
+def is_no_service_chapter_source(row, retained_tuples):
+    # Recognize before numeric parsing even when every friendly archive marker
+    # is stripped. Existing reference/slot aliases are recognition only: exact
+    # projected qualification below still refuses any changed field or type.
+    if no_service_history.is_archive(row):
+        return True
+    for slot in ('reading_type', 'reading_slot'):
+        for ref in ('source_ref', 'raw_ref', 'passage', 'normalized_ref', 'normalized_segment'):
+            value = row.get(ref)
+            if isinstance(value, str) and (
+                    row.get('gregorian_date'), row.get('service_section'), row.get(slot),
+                    canonicalize_text_ref(value)) in retained_tuples:
+                return True
+    return False
+
+
 def main() -> None:
     crosswalk_path = DATA / 'reverse_lookup_crosswalk.csv'
     if not crosswalk_path.exists():
@@ -259,7 +284,12 @@ def main() -> None:
     by_chapter: Dict[Tuple[str, int], List[dict]] = defaultdict(list)
     detail_rows: List[dict] = []
 
+    retained_tuples = no_service_source_tuples()
     for row in crosswalk_rows:
+        # Archive literals are evidence, never approved numeric appointments.
+        if is_no_service_chapter_source(row, retained_tuples):
+            no_service_history.qualify_projected(row)
+            continue
         for book_abbrev, chapter in chapter_keys_for_passage(row.get('passage', '')):
             meta = BOOK_BY_ABBREV[book_abbrev]
             chapter_ref = f'{book_abbrev} {chapter}'

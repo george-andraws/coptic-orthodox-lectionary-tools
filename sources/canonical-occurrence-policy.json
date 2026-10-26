@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "projection_input_sha256": "05fe6f0e2a36d90904c3b8be7c81417937b04a1357528b136a8fd064f8717ca9",
-  "projection_output_sha256": "d2b868f5cd59343b8255b9a9dadeb29be52e622daa7b61ca7a27bc984097596f",
-  "projection_authentication": "1.3.5 input reviewed for Lamentations Reader resolution (Lam 3 confirmed, Jonah 1:10-2:8 not current, Ottawa 1:10-2:7 retained), Hosanna Sunday daytime Ninth Hour Lam 1:1-4, Jeremiah praise title, and Joel LXX seams 2:28-32=3:1-5 and 3:9-21=4:9-21. Printed English refs stay in canonical_mt_ref. Prior 1.3.4 output review does not cover this input. Source or policy evolution requires renewed review, never automatic fingerprint refresh.",
+  "projection_input_sha256": "aab7c862f15f5e6edaefa39b5ebebfbe8335c91d092384650199f4a67bf42fc5",
+  "projection_output_sha256": "953c222b7fcd25a427c314824e638cba0e2cd1c6bdde74020f4315d0775a257c",
+  "projection_authentication": "PREPARATION pending independent exact-byte review: authenticated accepted 12168-row predecessor, every old source cell/order unchanged; precisely 18 source-reconstructed inactive archive additions; 594 old rules immutable plus two source-approved exact Abib4 fragment-context retirements explicit 1.3.6. Complete independently constructed output equality, 20 unchanged numeric preparation sentinels; old epochs unchanged. No endpoint correction, automatic hash refresh, package/release/site approval.",
   "sentinel_sources": {
     "week 99 day_of_week 6|vespers_psalm|Ps 17:1-2": "sources/katameros-api/Core/KatamerosDatabase.db:row 5653; source_ref=Ps 17:1-2",
     "week 99 day_of_week 6|vespers_gospel|Lk 17:3-6": "sources/katameros-api/Core/KatamerosDatabase.db:row 5654; source_ref=Lk 17:3-6",
@@ -40,7 +40,19 @@
     "sources/katameros-api/Core/KatamerosDatabase.db": "b6a1bbfa96543b7028bba77ad33df5cb018d21ec7bde1335247c2bd86ff43784",
     "sources/katameros-api/Core/Repositories/ReadingsRepository.cs": "3638b061903f1ed94d2f711fcc815a6bfe142dfc479d582c55708a90dc36937d",
     "tests/fixtures/pascha_wednesday_day_coptic_reader.json": "39c268209022e40dba405069d3ea7d237145e146f4bb2abe55cb48493ad7f7de",
-    "out/data/copticchurch_passage_index_current_2020_2035.csv": "d3418110651cd447ac46eda0398e075f2c4194f348e394e770853ee33ddd6ba3"
+    "out/data/copticchurch_passage_index_current_2020_2035.csv": "d373b55d42f78209a74ee1533884c81c357995333e58e884b76b2d0c14e2b2dd",
+    "sources/user-corrections/bright-saturday-composites-2026-10-25.json": "6365f62b235fcf3b0b41a7d96d11096de01a7cf93107c87943155a5aea5bc5a0",
+    "sources/user-corrections/covenant-thursday-2026-10-25.json": "6f55d664a385ff5f0efc7756936d9dd06bb2019a7d8cd361f25e2c2fb83bcb02",
+    "sources/user-corrections/jonah-fast-2026-10-25.json": "7ed7fcf10eae622af4633add3c55f0b497426f13757c7e17256c4aed08cc493e",
+    "sources/user-corrections/ordinary-appointment-repairs-2026-10-25.json": "d86c2973f020a707d9eafa855e01c5226c81e046e0c9e87ec4322aba2d6bdbe6",
+    "sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json": "739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d",
+    "sources/user-corrections/babah-third-sunday-pauline.json": "b3ebd2d120a85bb817b8af151cf003c3e4cbb26b693896aabb3dea1b79a04d44",
+    "sources/user-corrections/no-service-history-plan-2026-10-25.json": "3e228f951da40452c6c3076f6a29dd0a428a4d7228d6ec3004c5113b22236a7d",
+    "sources/user-corrections/reverse-source-key-contract-no-service-history-2026-10-25.json": "86cb7ba6340f58da344782a19c96da94692b1bbb6747b793cbe05afcce301e02",
+    "docs/reviews/lectionary-1.3.6-no-service-history.md": "af2297112f542f02d8c0208e854d3ad63e554a0bc2aad4dbfb6aff4749ebe857",
+    "sources/coptic-reader/jonah-qualified-2026-10-25/input-contexts.json": "a6399e7f24b0da3f4520b4dff9977a8daddf96ab4d6fbe6daca365a3e505a638",
+    "sources/coptic-reader/remaining-2026-09-07/2029-01-29-vespers-.txt": "84aa373f8bad6f8420d63792103752195818e316c6823d81e7575889e6e8fc4f",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-08-02.html": "55ca0b1bc57927d88750dc3f38312d92e01e79fffc43d5766b3e249c05c2ca43"
   },
   "supersessions": [
     {
@@ -19684,7 +19696,7 @@
         "canonical_lxx_ref": "1Cor 16:12-24"
       },
       "preferred": {
-        "identity_key": "rid_b00f5051d7b98f2cd736",
+        "identity_key": "rid_b26f6d285b33240934a2",
         "source_family": "ordinary_date_resolved",
         "source_kind": "copticchurch_date",
         "occasion": "The third Sunday of Babah",
@@ -19692,15 +19704,15 @@
         "service_hour": "",
         "slot": "Pauline Epistle",
         "calendar_keys": "The third Sunday of Babah",
-        "canonical_mt_ref": "1Cor 16:12-23",
-        "canonical_lxx_ref": "1Cor 16:12-23"
+        "canonical_mt_ref": "1Cor 16:12-24",
+        "canonical_lxx_ref": "1Cor 16:12-24"
       },
       "calendar_key": "Babah 3",
       "reason": "retained_source_qualified_slot_precedence",
       "source_table": "SundayReadings",
       "raw_ref": "46.16:12-24",
       "complete_preferred_slot_refs": [
-        "1Cor 16:12-23"
+        "1Cor 16:12-24"
       ],
       "authority": "docs/LECTIONARY_VALIDATION_PLAN.md authority model tier 2 over tier 3; exact retained source day/service/slot only"
     },
@@ -20399,6 +20411,76 @@
         "3Jn 1:1-15"
       ],
       "authority": "docs/LECTIONARY_VALIDATION_PLAN.md authority model tier 2 over tier 3; exact retained source day/service/slot only"
+    },
+    {
+      "lower": {
+        "identity_key": "rid_04b5983768df617ca96e",
+        "source_family": "katameros_cycle",
+        "source_kind": "katameros_cycle",
+        "occasion": "annual Sundays by Coptic month/week",
+        "service_section": "liturgy_pauline",
+        "service_hour": "",
+        "slot": "liturgy_pauline",
+        "calendar_keys": "Abib 4",
+        "canonical_mt_ref": "Phil 1:27-30",
+        "canonical_lxx_ref": "Phil 1:27-30"
+      },
+      "preferred": {
+        "identity_key": "rid_77d10aaf13ff42e1cdb5",
+        "source_family": "ordinary_date_resolved",
+        "source_kind": "copticchurch_date",
+        "occasion": "The fourth Sunday of Abib",
+        "service_section": "Liturgy",
+        "service_hour": "",
+        "slot": "Pauline Epistle",
+        "calendar_keys": "The fourth Sunday of Abib",
+        "canonical_mt_ref": "Phil 1:27-2:11",
+        "canonical_lxx_ref": "Phil 1:27-2:11"
+      },
+      "calendar_key": "Abib 4",
+      "reason": "retained_source_qualified_slot_precedence",
+      "source_table": "SundayReadings",
+      "raw_ref": "50.1:27-30*@+50.2:1-11",
+      "complete_preferred_slot_refs": [
+        "Phil 1:27-2:11"
+      ],
+      "authority": "docs/LECTIONARY_VALIDATION_PLAN.md authority model tier 2 over tier 3; exact retained source day/service/slot only",
+      "removal_effective_version": "1.3.6"
+    },
+    {
+      "lower": {
+        "identity_key": "rid_02fe8b721c169c9e3435",
+        "source_family": "katameros_cycle",
+        "source_kind": "katameros_cycle",
+        "occasion": "annual Sundays by Coptic month/week",
+        "service_section": "liturgy_pauline",
+        "service_hour": "",
+        "slot": "liturgy_pauline",
+        "calendar_keys": "Abib 4",
+        "canonical_mt_ref": "Phil 2:1-11",
+        "canonical_lxx_ref": "Phil 2:1-11"
+      },
+      "preferred": {
+        "identity_key": "rid_77d10aaf13ff42e1cdb5",
+        "source_family": "ordinary_date_resolved",
+        "source_kind": "copticchurch_date",
+        "occasion": "The fourth Sunday of Abib",
+        "service_section": "Liturgy",
+        "service_hour": "",
+        "slot": "Pauline Epistle",
+        "calendar_keys": "The fourth Sunday of Abib",
+        "canonical_mt_ref": "Phil 1:27-2:11",
+        "canonical_lxx_ref": "Phil 1:27-2:11"
+      },
+      "calendar_key": "Abib 4",
+      "reason": "retained_source_qualified_slot_precedence",
+      "source_table": "SundayReadings",
+      "raw_ref": "50.1:27-30*@+50.2:1-11",
+      "complete_preferred_slot_refs": [
+        "Phil 1:27-2:11"
+      ],
+      "authority": "docs/LECTIONARY_VALIDATION_PLAN.md authority model tier 2 over tier 3; exact retained source day/service/slot only",
+      "removal_effective_version": "1.3.6"
     }
   ],
   "sentinel_rules": {
@@ -20406,5 +20488,39 @@
     "week 99 day_of_week 0": "Preparation Sunday"
   },
   "nonrecurring_sentinel": "week 49 day_of_week 3",
-  "nonrecurring_sentinel_basis": "Unreachable by GetGreatLentReadingsRef week calculation; exact duplicated Week 4 DayOfWeek 3 SQLite table, not a 49th Lent week."
+  "nonrecurring_sentinel_basis": "Unreachable by GetGreatLentReadingsRef week calculation; exact duplicated Week 4 DayOfWeek 3 SQLite table, not a 49th Lent week.",
+  "projection_lineage": {
+    "version": "1.3.6",
+    "predecessor_version": "1.3.5",
+    "policy_sha256": "0dec1b3805691b764b55c46b0cefe65cd951e776d536097679437558e948dd40",
+    "input_sha256": "05fe6f0e2a36d90904c3b8be7c81417937b04a1357528b136a8fd064f8717ca9",
+    "output_sha256": "d2b868f5cd59343b8255b9a9dadeb29be52e622daa7b61ca7a27bc984097596f",
+    "source_contract": "sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json",
+    "source_contract_sha256": "739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d",
+    "relationship_fixture": "tests/fixtures/canonical-successor-1.3.6-relationships.json",
+    "scope_rule_count": 594,
+    "changed_rule_indices": [
+      573
+    ],
+    "input_rows": 12168,
+    "output_rows": 12188,
+    "sentinel_additions": 20,
+    "approval_scope": "Canonical occurrence successor semantic relationships only; not package, runtime release, publication or deployment clearance"
+  },
+  "projection_renewal": {
+    "predecessor_policy_sha256": "407a217a6e145019d13005e6eb24d4c3b92f811b3dc1e3db7e5f2265b92c2a36",
+    "predecessor_input_sha256": "5dfb0bacfb3497a3a5a8f2444ed5450e5b72a53e84840252725643eedb304006",
+    "predecessor_output_sha256": "4880c3e8d67c7f5348bce910efcca8ce7c6c9cdb4707cc78db6ad23c6909cd26",
+    "source_contract": "sources/user-corrections/reverse-source-key-contract-no-service-history-2026-10-25.json",
+    "source_contract_sha256": "86cb7ba6340f58da344782a19c96da94692b1bbb6747b793cbe05afcce301e02",
+    "relationship_fixture": "tests/fixtures/canonical-final-renewal-1.3.6-relationships.json",
+    "input_rows": 12186,
+    "output_rows": 12206,
+    "retained_rule_count": 594,
+    "appended_rule_count": 2,
+    "selector_count": 1192,
+    "archive_additions": 18,
+    "sentinel_additions": 20,
+    "approval_scope": "Preparation only; independent exact-byte semantic review and package/release gates pending"
+  }
 }

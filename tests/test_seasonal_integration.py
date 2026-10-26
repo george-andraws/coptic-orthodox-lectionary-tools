@@ -1,6 +1,7 @@
 """Primary-source oracle, generic seasonal plumbing, no full builder or package writes."""
 import copy
 import datetime as dt
+import hashlib
 import json
 from pathlib import Path
 import tempfile
@@ -145,16 +146,40 @@ class SeasonalIntegration(unittest.TestCase):
             validator.verify_seasonal_daily(source,daily,POLICY,complete_year=True)
 
     def test_enumerated_count_contract_rejects_same_count_substitution_and_duplicates(self):
-        contract=json.loads((ROOT/POLICY['seasonal_reverse_index_contract']).read_text())
+        # Five-field rows test membership only in the immutable historical
+        # contract's own domain. Current release qualification stays mandatory.
+        relative='sources/user-corrections/reverse-source-key-contract-mesra19-v2.json'
+        data=(ROOT/relative).read_bytes()
+        digest='2d3c2557f49f23cefb469f3206b21e2c77a1ac2e4cd56f39b718e7c5941cb4d4'
+        self.assertEqual(hashlib.sha256(data).hexdigest(),digest)
+        contract=json.loads(data)
         rows=[dict(zip(['occasion','service_section','service_hour','slot','identity_key'],key)) for key in contract['intended_keys']]
-        design.verify_reverse_index_contract(rows)
-        for mutation in ['missing','duplicate','same_count_wrong_identity']:
-            damaged=copy.deepcopy(rows)
-            if mutation=='missing': damaged.pop()
-            elif mutation=='duplicate': damaged[0]=copy.deepcopy(damaged[1])
-            else: damaged[0]['identity_key']='rid_'+'0'*20
-            with self.subTest(mutation=mutation),self.assertRaises(AssertionError):
-                design.verify_reverse_index_contract(damaged)
+        historical_root=Path(self.directory.name)/'membership-only'
+        target=historical_root/relative
+        target.parent.mkdir(parents=True)
+        target.write_bytes(data)
+        (historical_root/'sources/lectionary_corrections.json').write_text(json.dumps({
+            'seasonal_reverse_index_contract':relative,
+            'source_fingerprints':{relative:digest},
+        }))
+        with patch.object(design,'ROOT',historical_root):
+            design.verify_reverse_index_contract(rows)
+            for mutation in ['missing','duplicate','same_count_wrong_identity']:
+                damaged=copy.deepcopy(rows)
+                if mutation=='missing': damaged.pop()
+                elif mutation=='duplicate': damaged[0]=copy.deepcopy(damaged[1])
+                else: damaged[0]['identity_key']='rid_'+'0'*20
+                with self.subTest(mutation=mutation),self.assertRaisesRegex(AssertionError,'violates intended source ledger'):
+                    design.verify_reverse_index_contract(damaged)
+
+    def test_current_membership_without_source_qualification_is_rejected(self):
+        contract=json.loads((ROOT/POLICY['seasonal_reverse_index_contract']).read_text())
+        self.assertTrue(contract['mandatory_qualifications'])
+        rows=[dict(zip(['occasion','service_section','service_hour','slot','identity_key'],key)) for key in contract['intended_keys']]
+        # Exact current membership is insufficient: lifecycle/disclosure and
+        # held coordinates must be authenticated by the real global gate.
+        with self.assertRaisesRegex((AssertionError, ValueError), r'Source-plan qualification|No-service archive reverse context/disclosure/attestation/state/type drift'):
+            design.verify_reverse_index_contract(rows)
 
     def test_cycle_numeric_changes_are_context_bound_and_raw_sqlite_preserved(self):
         cycles=ref.export_cycle_tables(ref.load_books())

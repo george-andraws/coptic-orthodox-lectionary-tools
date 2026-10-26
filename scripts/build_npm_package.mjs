@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.5';
+const VERSION = '1.3.6';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -426,7 +426,9 @@ function suppressLowerPriorityPassageVariants(rows, removalEffectiveVersionBasel
   const groups = new Map();
   for (const [index, row] of rows.entries()) {
     if (String(row.removed_marker || '').trim()) continue;
-    if (String(row.current_status || '').toLowerCase().startsWith('superseded')) continue;
+    // Retain historical witnesses, but never let them compete with current
+    // appointments for source priority or suppress qualified current fragments.
+    if (!isCurrentReading(row)) continue;
     for (const context of consumerContexts(row)) {
       const key = projectionGroupKey(row, context);
       if (!groups.has(key)) groups.set(key, []);
@@ -527,10 +529,19 @@ function sourceSelectorMatches(row, selector) {
   return Object.entries(selector).every(([key, value]) => String(key === 'calendar_keys' ? (row.source_calendar_keys || row[key] || '') : (row[key] ?? '')) === String(value));
 }
 
-function retainCanonicalSupersession(row, preferred, context, reason) {
+function validateCanonicalRemovalVersion(value) {
+  if (typeof value !== 'string' || !/^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?![\s\S])/.test(value)
+    || !value.split('.').every(part => Number.isSafeInteger(Number(part)))) {
+    throw new Error('Invalid canonical removal effective version');
+  }
+  return value;
+}
+
+function retainCanonicalSupersession(row, preferred, context, reason, removalEffectiveVersion = '1.3.3') {
+  validateCanonicalRemovalVersion(removalEffectiveVersion);
   return { ...row, active: false, status: 'removed',
     removed_marker: 'superseded_by_canonical_occurrence_projection',
-    removal_reason: reason, removal_context_key: context, removal_effective_version: '1.3.3',
+    removal_reason: reason, removal_context_key: context, removal_effective_version: removalEffectiveVersion,
     preferred_source_family: preferred.source_family, preferred_source_kind: preferred.source_kind,
     preferred_source_locator: preferred.source_locator, preferred_identity_key: preferred.identity_key,
     preferred_display_ref: preferred.display_ref, retained_for: 'provenance_only',
@@ -538,6 +549,11 @@ function retainCanonicalSupersession(row, preferred, context, reason) {
 }
 
 function canonicalizeOccurrences(inputRows, policy) {
+  // Explicit epochs belong to reviewed new rules, never to the current builder
+  // VERSION. Validate before replay too; omitted legacy/sentinel epochs stay put.
+  for (const rule of policy.supersessions || []) {
+    if (Object.hasOwn(rule, 'removal_effective_version')) validateCanonicalRemovalVersion(rule.removal_effective_version);
+  }
   // Bind every source/context/disclosure/order cell before any suppression. The
   // reviewed output is accepted only for explicit idempotent replay; a new
   // source table requires renewed review, not best-effort selector matching.
@@ -568,7 +584,7 @@ function canonicalizeOccurrences(inputRows, policy) {
     }
     preferred.alternate_source_disclosure = JSON.stringify(items);
   };
-  const excludeContext = (index, preferred, context, reason) => {
+  const excludeContext = (index, preferred, context, reason, removalEffectiveVersion = '1.3.3') => {
     const row = rows[index];
     const rawKeys = String(row.calendar_keys || '').split(' || ');
     if (row.source_family === 'katameros_cycle' && !rawKeys.includes(context)) return;
@@ -581,14 +597,14 @@ function canonicalizeOccurrences(inputRows, policy) {
       row.source_day_titles ||= row.day_titles;
       row.day_titles = '';
       row.superseded_calendar_keys = [...new Set([...(row.superseded_calendar_keys || []), context])];
-    } else rows[index] = retainCanonicalSupersession(row, preferred, context, reason);
+    } else rows[index] = retainCanonicalSupersession(row, preferred, context, reason, removalEffectiveVersion);
   };
   // Explicit complete-source-slot split/endpoint decisions, never overlap alone.
   for (const rule of policy.supersessions || []) {
     const lowerIndex = rows.findIndex(row => isCurrentReading(row) && sourceSelectorMatches(row, rule.lower));
     const preferred = rows.find(row => isCurrentReading(row) && sourceSelectorMatches(row, rule.preferred));
     if (lowerIndex < 0 || !preferred || !qualifiedCanonicalSource(preferred)) continue;
-    excludeContext(lowerIndex, preferred, rule.calendar_key, rule.reason);
+    excludeContext(lowerIndex, preferred, rule.calendar_key, rule.reason, rule.removal_effective_version);
   }
   // Week 99 is a real preparation boundary, not a recurring 99th Lent week.
   // Week 49 is an unreachable SQLite duplicate; retain its raw context only.
@@ -769,10 +785,23 @@ function isBrightSaturdayServiceRow(row) {
   return row.source_family === 'bright_saturday' && String(row.calendar_keys || '').startsWith('Bright Saturday');
 }
 
+function isQualifiedCovenantRow(row) {
+  const section = row.service_section;
+  if (row.source_family !== 'coptic_reader_qualified_pascha_hour' || row.source_kind !== 'coptic_reader_qualified_pascha_hour'
+    || row.service_hour !== section || row.occasion !== (section === 'Liturgy' ? 'the Covenant Thursday' : 'Great Thursday')
+    || !['Liturgy', 'Liturgy of Blessing of the Water'].includes(section)) return false;
+  return JSON.parse(row.source_disclosure || '[]').some(source =>
+    String(source.source_locator || '').startsWith('sources/coptic-reader/covenant-thursday-qualified-2026-10-25/')
+    && source.covenant_thursday_source?.length > 0
+    && source.covenant_thursday_source.every(q => q.runtime_activation_approved === false
+      && q.old_receipts_grant_activation === false && q.fresh_app_verification === false));
+}
+
 function rowsForPaschaDailyDate(projectedRows, dayName) {
   const occasions = PASCHA_DAILY_OCCASIONS.get(dayName) || new Set();
   return projectedRows.filter((row) => {
     if (!isCurrentReading(row)) return false;
+    if (dayName === 'Great Thursday' && isQualifiedCovenantRow(row)) return true;
     if (dayName === 'Bright Saturday' && isBrightSaturdayServiceRow(row)) return true;
     const retainedWednesdayFixture = dayName === 'Wednesday'
       && row.occasion === 'Wednesday of Holy Pascha'
@@ -783,9 +812,89 @@ function rowsForPaschaDailyDate(projectedRows, dayName) {
   });
 }
 
-function dailyRowFromReverse(row, dayName) {
+// Source authentication is performed by design before serialization. Requalify
+// that hash-bound held contract here; friendly source names alone grant nothing.
+function isQualifiedBrightComposite(row) {
+  if (row.source_family !== 'bright_saturday' || row.source_kind !== 'bright_saturday_qualified_composite'
+    || row.occasion !== 'Bright Saturday' || !['Matins', '6th Hour', 'Liturgy'].includes(row.service_section)
+    || row.service_hour !== '' || row.slot !== 'Psalm' || row.current_status !== 'pending_psalm_equivalence_unresolved'
+    || row.canonical_mt_ref !== '' || row.canonical_lxx_ref !== '' || row.spans_json !== '[]'
+    || row.removed_marker || row.active === false) return false;
+  const identities = {
+    rid_d58dc513121900158fc9: ['Matins', '28', '2'],
+    rid_16e3ff8ccefe525d98e0: ['Matins', '28', '3'],
+    rid_969f73205a3c4d8ceef6: ['6th Hour', '32', '2'],
+    rid_5be18395526b0ff8b009: ['Liturgy', '39', '2'],
+  };
+  const expected = identities[row.identity_key];
+  if (!expected || expected.join('|') !== [row.service_section, row.source_order, row.source_token_order].join('|')) return false;
+  const ordinal = value => (typeof value === 'string' && /^[1-9]\d*$/.test(value))
+    || (typeof value === 'number' && Number.isSafeInteger(value) && value > 0);
+  if (!ordinal(row.source_order) || !ordinal(row.source_token_order)) return false;
+  try {
+    const sources = JSON.parse(row.source_disclosure || '[]');
+    return Array.isArray(sources) && sources.some(source => source.source_family === row.source_family
+      && source.source_kind === row.source_kind && Array.isArray(source.bright_composite_source)
+      && source.bright_composite_source.length === 1 && source.bright_composite_source.every(q =>
+        q.contract_sha256 === '6365f62b235fcf3b0b41a7d96d11096de01a7cf93107c87943155a5aea5bc5a0'
+        && q.contract_path === 'sources/user-corrections/bright-saturday-composites-2026-10-25.json'
+        && q.fresh_app_verification === false && q.canonical_coordinate_status === 'held_no_exact_cross_edition_counterpart'
+        && q.canonical_mt_ref === '' && q.canonical_lxx_ref === '' && q.service_section === row.service_section
+        && JSON.stringify(JSON.parse(row.provenance || 'null')) === JSON.stringify(q)
+        && String(row.source_order) === q.source_order && String(row.source_token_order) === q.source_token_order
+        && row.source_locator === source.source_locator && row.source_locator.startsWith(q.source_path + ':')
+        && row.source_locator.includes('sha256=' + q.document.sha256)
+        && row.source_locator.includes('body_sha256=' + q.document.body_sha256)
+        && row.display_ref === q.source_selection_ref + ' (Reader selection; canonical coordinates held)'));
+  } catch { return false; }
+}
+
+// Design authenticates this retained Wednesday appointment. Recover its typed
+// token ordinal from the disclosure, not array position or numeric Psalm order.
+function qualifiedJonahFragmentOrder(row, date) {
+  if (!['2026-02-04', '2027-02-24', '2028-02-09'].includes(date)
+    || row.source_family !== 'jonah_fast_source_qualified' || row.source_kind !== 'jonah_fast_date_supplement'
+    || row.occasion !== "Wednesday of Ninevah's Fast" || !['Matins', 'Liturgy'].includes(row.service_section)
+    || row.service_hour !== '' || row.slot !== 'Psalm' || !isCurrentReading(row)) return null;
+  const positiveInteger = value => (typeof value === 'number' && Number.isSafeInteger(value) && value > 0)
+    || (typeof value === 'string' && /^[1-9]\d*(?![\s\S])/.test(value) && Number.isSafeInteger(Number(value)));
+  const matins = row.service_section === 'Matins';
+  const sourceOrder = matins ? 2 : 7;
+  const printed = matins ? 'Psalms 102:12, 11' : 'Psalms 31:1, 6';
+  const sourcePath = `sources/coptic-reader/jonah-qualified-2026-10-25/2026-02-04/${row.service_section}/Psalm_and_Gospel.txt`;
+  const documentHash = matins ? '1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93' : '283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047';
+  const bodyHash = matins ? 'b8c7623bd9ed89d16bd95fdfa0173034e4fafe05aa66d32373b33acddc54ede8' : 'e2f7536930eef20fbef970ffb9216cb40afba794afda5dfb1f2f443049637a07';
+  const locator = `${sourcePath}:line 7; sha256=${documentHash}; body_sha256=${bodyHash}; selected=2026-02-04; printed_ref=${printed}`;
+  if (row.source_locator !== locator) return null;
+  try {
+    const sources = JSON.parse(row.source_disclosure || '[]');
+    if (!Array.isArray(sources)) return null;
+    const matches = sources.filter(s => s.source_family === row.source_family && s.source_kind === row.source_kind
+      && s.source_locator === locator).flatMap(s => Array.isArray(s.consumer_source_transport) ? s.consumer_source_transport : [])
+      .filter(t => t.jonah_source?.gregorian_date === date);
+    if (matches.length !== 1) return null;
+    const {jonah_source: q, token_order: token} = matches[0];
+    if (!positiveInteger(q.source_order) || q.source_order !== sourceOrder || !positiveInteger(token) || ![1, 2].includes(token)
+      || q.source_family !== row.source_family || q.source_kind !== row.source_kind
+      || q.day_title !== row.occasion || q.service_section !== row.service_section || q.reading_type !== row.slot
+      || q.jonah_contract_sha256 !== 'e0175a66f98ab0c8dc3c5bda2917e82e5a490fe97cf00c59b732af7475225726'
+      || q.runtime_activation_approved !== true || q.source_verified_date !== '2026-02-04'
+      || q.source_evidence !== sourcePath || q.source_heading_line !== 7
+      || q.source_full_document_sha256 !== documentHash || q.jonah_source_body_sha256 !== bodyHash
+      || q.printed_ref !== printed || (matins && q.normalized_ref !== 'Ps 103:13 & Ps 103:12')
+      || row.canonical_mt_ref !== (matins ? ['Ps 103:13', 'Ps 103:12'] : ['Ps 32:1', 'Ps 32:5'])[token - 1]
+      || row.canonical_lxx_ref !== (matins ? ['Ps 102:13', 'Ps 102:12'] : ['Ps 31:1', 'Ps 31:5'])[token - 1]) return null;
+    for (const [field, expected] of [['source_order', sourceOrder], ['source_token_order', token]]) {
+      if (Object.hasOwn(row, field) && (!positiveInteger(row[field]) || Number(row[field]) !== expected)) return null;
+    }
+    return {source_order: sourceOrder, source_token_order: token};
+  } catch { return null; }
+}
+
+function dailyRowFromReverse(row, dayName, date = '') {
   const occasion = isBrightSaturdayServiceRow(row) ? 'Bright Saturday' : row.occasion;
-  const serviceHour = row.service_hour || row.service_section || '';
+  const jonahOrder = qualifiedJonahFragmentOrder(row, date);
+  const serviceHour = isQualifiedBrightComposite(row) || jonahOrder ? '' : row.service_hour || row.service_section || '';
   return normalizeObjectStrings({
     occasion,
     service_section: row.service_section || '',
@@ -813,6 +922,9 @@ function dailyRowFromReverse(row, dayName) {
     source_locator: row.source_locator || '',
     source_disclosure: row.source_disclosure || '[]',
     source_disclosure_count: row.source_disclosure_count || '0',
+    ...(isQualifiedCovenantRow(row) || isQualifiedBrightComposite(row) ? {source_order: row.source_order, source_token_order: row.source_token_order} : {}),
+    ...(jonahOrder || {}),
+    ...(isQualifiedBrightComposite(row) ? {provenance: row.provenance} : {}),
     hour_theme: row.hour_theme || '',
     structural_day: dayName,
   });
@@ -871,6 +983,8 @@ const BRIGHT_SATURDAY_SLOT_ALIASES = new Map([
 function dedupeDailyRows(rows) {
   const seen = new Map();
   const out = [];
+  const appointmentKey = row => [row.occasion, row.service_section, row.service_hour, row.slot, row.identity_key].join('|');
+  const covenantKeys = new Set(rows.filter(isQualifiedCovenantRow).map(appointmentKey));
   for (const row of rows) {
     // These two source labels describe the same Wednesday Day appointment.
     // Keep Eve separate and retain the exact current Reader row when available;
@@ -879,12 +993,16 @@ function dedupeDailyRows(rows) {
       && ['Wednesday', 'Wednesday of Holy Pascha'].includes(row.occasion);
     const brightSaturday = row.occasion === 'Bright Saturday' || row.structural_day === 'Bright Saturday';
     const slotKey = brightSaturday ? canonicalBrightSaturdaySlot(row.slot) : (row.slot || '');
-    const key = wednesdayDay
+    const covenantJoin = covenantKeys.has(appointmentKey(row));
+    const key = covenantJoin ? appointmentKey(row) : wednesdayDay
       ? ['Wednesday Day', row.service_section || '', row.service_hour || '', row.slot_type || '', row.slot_order ?? '', row.identity_key || '', row.display_ref || ''].join('|')
       : [row.occasion || '', row.service_section || '', row.service_hour || '', slotKey, row.identity_key || '', row.display_ref || ''].join('|');
     if (seen.has(key)) {
       const index = seen.get(key);
-      if (wednesdayDay && row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture') {
+      if (covenantJoin) {
+        const winner = isQualifiedCovenantRow(out[index]) ? out[index] : row;
+        out[index] = mergeSourceDisclosure(winner, winner === row ? out[index] : row);
+      } else if (wednesdayDay && row.source_family === 'coptic_reader' && row.source_kind === 'coptic_reader_fixture') {
         out[index] = row;
       } else if (brightSaturday) {
         const winner = preferBrightSaturdayRow(out[index], row);
@@ -909,11 +1027,11 @@ function addMissingStructuralDailyRows(sorted, year, projectedRows) {
     if (!rows.length) continue;
     if (annunciationCollision) {
       const sourceRule = 'UK Midlands Katameros Days p.22 rule 13: Annunciation yields during the non-repeatable Lord events window';
-      sorted[date] = sortDailyReadings(dedupeDailyRows(rows.map((row) => ({ ...row, correction_reason: sourceRule }))));
+      sorted[date] = sortDailyReadings(dedupeDailyRows(rows.map((row) => ({ ...row, correction_reason: sourceRule }))), date);
     } else {
       // A nonempty date may still omit structural hours or one source family.
       // Hosanna hours supplement, rather than replace, ordinary Palm services.
-      sorted[date] = sortDailyReadings(dedupeDailyRows([...existingRows, ...rows]));
+      sorted[date] = sortDailyReadings(dedupeDailyRows([...existingRows, ...rows]), date);
     }
     additions.push({ date, day: dayName, reading_count: sorted[date].length });
   }
@@ -949,26 +1067,71 @@ function sortDailyReadings(readings, date = '') {
     slot_type: reading.slot_type || slotType(reading.slot),
     slot_order: existingNumericOrder(reading.slot_order) ?? slotOrder(reading.slot, reading.service_section),
   }));
+  // The cached Palm Liturgy h5 prints this complete appointment, including
+  // the interspersed Psalm. This is not a general Gospel/book ordering rule.
+  const palmRefs = ['Matt 21:1-17', 'Mark 11:1-11', 'Lk 19:29-48', 'Jn 12:12-19'];
+  const palmRow = row => row.source_kind === 'copticchurch_date'
+    && row.source_family === 'ordinary_date_resolved' && row.occasion === 'Palm Sunday'
+    && row.service_section === 'Liturgy' && !row.service_hour && row.slot_type === 'gospel';
+  const palmRows = enriched.filter(palmRow);
+  const year = Number(date.slice(0, 4));
+  const completePalm = [2026, 2027, 2028].includes(year)
+    && date === paschaDateForDay(year, 'Hosanna Sunday') && palmRows.length === 4
+    && palmRefs.every(ref => palmRows.filter(row => row.canonical_mt_ref === ref).length === 1);
+  const brightDate = !date || ([2026, 2027, 2028].includes(year)
+    && date === paschaDateForDay(year, 'Bright Saturday'));
+  const brightPraises = row => brightDate && row.source_family === 'bright_saturday'
+    && row.occasion === 'Bright Saturday' && row.service_section === 'Midnight Praises'
+    && row.service_hour === 'Midnight Praises';
+  const brightCsvRow = row => brightPraises(row) && row.source_kind === 'bright_saturday_service_order'
+    ? /^out\/data\/bright_saturday_service_order\.csv:row ([1-9]\d*);/.exec(row.source_locator || '') : null;
+  const openingPsalm = row => brightPraises(row) && row.source_kind === 'psalmody_source_supplement'
+    && row.slot === 'Psalm151' && row.canonical_lxx_ref === 'Ps 151' && !row.canonical_mt_ref
+    && String(row.source_locator || '').startsWith('sources/coptic-reader/psalmody-qualified-2026-10-25/bright-saturday-midnight-praises.full.txt:');
+  const brightPhysicalRow = row => brightDate && row.source_family === 'bright_saturday'
+    && row.occasion === 'Bright Saturday'
+    && (!row.service_hour || row.service_hour === row.service_section)
+    && ['Matins', '3rd Hour', '6th Hour', '9th Hour', 'Liturgy'].includes(row.service_section)
+    && row.source_kind === 'bright_saturday_service_order'
+    ? /^out\/data\/bright_saturday_service_order\.csv:row ([1-9]\d*);/.exec(row.source_locator || '') : null;
+  const brightContext = row => brightDate && row.occasion === 'Bright Saturday'
+    && (brightPhysicalRow(row) || isQualifiedBrightComposite(row));
+  const stagedFamilies = new Set(['ordinary_date_resolved', 'katameros_cycle', 'coptic_reader_verified_supplement',
+    'holy_pascha_curated_day_hour', 'coptic_reader', 'coptic_reader_qualified_pascha_hour', 'bright_saturday', 'jonah_fast_source_qualified']);
+  const stages = { prophecy: 0, pauline: 1, catholicon: 2, praxis: 3, psalm: 4, gospel: 5 };
+  const orderKey = row => {
+    const csvRow = brightCsvRow(row);
+    const opening = openingPsalm(row);
+    const praises = csvRow || opening;
+    const jonahOrder = qualifiedJonahFragmentOrder(row, date);
+    const role = /^Prophecy(?:\b|$)/i.test(row.slot || '') ? 'prophecy' : row.slot_type;
+    const stage = stagedFamilies.has(row.source_family) && row.service_section !== 'Midnight Praises'
+      ? (stages[role] ?? 99) : 99;
+    return [
+      praises ? 0 : row.service_order,
+      praises ? 0 : serviceOrder(row.service_hour || row.service_section),
+      row.service_section || '', brightContext(row) ? row.service_section : row.service_hour || '', row.occasion || '',
+      stage, opening ? 0 : 1, csvRow ? Number(csvRow[1]) : 0,
+      completePalm && palmRow(row) ? palmRefs.indexOf(row.canonical_mt_ref) : 0,
+      brightPhysicalRow(row) ? Number(brightPhysicalRow(row)[1]) : brightContext(row) ? Number(row.source_order) : 0,
+      brightContext(row) ? Number(row.source_token_order || 0) : 0,
+      row.slot_order,
+      isQualifiedCovenantRow(row) ? Number(row.source_token_order) : 0,
+      jonahOrder?.source_order || 0,
+      jonahOrder?.source_token_order || 0,
+    ];
+  };
+  // Independent per-row keys make this a total order (no pair-dependent stage
+  // comparisons). Supplied fragment order is the final, stable tie breaker.
+  const keys = new Map(enriched.map(row => [row, orderKey(row)]));
   enriched.sort((a, b) => {
-    const ordinary = (row) => row.source_kind === 'copticchurch_date'
-      && row.source_family === 'ordinary_date_resolved' && !row.service_hour
-      && ['Vespers', 'Matins', 'Liturgy'].includes(row.service_section);
-    const stages = { pauline: 0, catholicon: 1, praxis: 2, psalm: 3, gospel: 4 };
-    const ordinaryPair = ordinary(a) && ordinary(b)
-      && a.slot_type in stages && b.slot_type in stages;
-    const numeric = a.service_order - b.service_order
-      || serviceOrder(a.service_hour || a.service_section) - serviceOrder(b.service_hour || b.service_section)
-      // Matins prophecies precede its Psalm/Gospel, without renumbering either slot family.
-      || Number(b.source_family === 'coptic_reader_verified_supplement') - Number(a.source_family === 'coptic_reader_verified_supplement')
-      || (ordinaryPair ? stages[a.slot_type] - stages[b.slot_type] : 0)
-      || a.slot_order - b.slot_order;
-    if (numeric) return numeric;
-    // Ordinary companion fragments retain their authenticated supplied order.
-    // Pascha/hour and special-service ordering remain outside this projection.
-    if (ordinaryPair) return 0;
-    const keysA = [a.service_section || '', a.service_hour || '', a.slot || '', a.source_group_key || '', a.display_ref || '', a.identity_key || ''];
-    const keysB = [b.service_section || '', b.service_hour || '', b.slot || '', b.source_group_key || '', b.display_ref || '', b.identity_key || ''];
-    return keysA < keysB ? -1 : keysA > keysB ? 1 : 0;
+    const ka = keys.get(a);
+    const kb = keys.get(b);
+    for (let i = 0; i < ka.length; i += 1) {
+      if (ka[i] < kb[i]) return -1;
+      if (ka[i] > kb[i]) return 1;
+    }
+    return 0;
   });
   return enriched.map((reading, index) => {
     const { reading_order: _previousOrder, ...fields } = reading;
@@ -1399,7 +1562,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {

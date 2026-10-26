@@ -1,0 +1,124 @@
+{
+  "civil_date": "2026-02-02",
+  "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Liturgy",
+      "slot": "Pauline Epistle",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Pauline Epistle"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:11:56.817Z",
+      "raw_reference_lines": [
+        "\tRomans 6:17-23"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Pauline_Epistle.txt",
+      "text_sha256": "c6f1bdb7b3c8ccc47e99111483ba4cdd6ed0ae4f3fd91b0abf8a0fda1352f53f",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tRomans 6:17-23",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Pauline_Epistle-reference-01.png",
+          "sha256": "f132667739b875b5f766486e5fbc3410432fd136236498e3a350f6a2ad06031b"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Liturgy",
+      "slot": "Catholic Epistle",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Catholic Epistle"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:00.121Z",
+      "raw_reference_lines": [
+        "\tJude 1:1-13"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Catholic_Epistle.txt",
+      "text_sha256": "04029a1cec56992520d4bfda7e623589913f912bb7e2f3d0cf4a42e93532dea5",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJude 1:1-13",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Catholic_Epistle-reference-01.png",
+          "sha256": "7a915cbd81870a867836fd2381eb54b3949e93c7893452579a2fb7efb65eba6b"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Liturgy",
+      "slot": "Praxis",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Praxis"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:03.638Z",
+      "raw_reference_lines": [
+        "\tActs 2:38-47"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Praxis.txt",
+      "text_sha256": "0ab537f31ef4ac987794dce3e4eb3792099d2346b42aeab0340b0956bd903217",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tActs 2:38-47",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Praxis-reference-01.png",
+          "sha256": "7a7c028ad60d3c2dde7bd0dcf70736e6695a930c4b1024f0d743346b1d48b19c"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Liturgy",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Liturgy",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T23:12:11.115Z",
+      "raw_reference_lines": [
+        "\tPsalms 129:2,4",
+        "\tMatthew 12:35-45"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Psalm_and_Gospel.txt",
+      "text_sha256": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 129:2,4",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Psalm_and_Gospel-reference-01.png",
+          "sha256": "fe5f0ed44f12ccbcf52e057784021bff0eb516bd02919998cb509efcc8f40a61"
+        },
+        {
+          "raw_ref": "\tMatthew 12:35-45",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Psalm_and_Gospel-reference-02.png",
+          "sha256": "a2b698f65ef5bfcf9148d905e89d514ffff41cbc9ef25a4a6c996562de146abd"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

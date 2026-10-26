@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime
+import hashlib
 from collections import Counter
 import json
 import re
@@ -110,7 +111,136 @@ def reverse_matches_for_daily(row: dict, candidates: list[dict]) -> list[dict]:
     return [candidate for candidate in candidates if key(candidate) == key(row)]
 
 
-def validate_row_reference_bounds(row: dict[str, Any]) -> dict[str, Any]:
+def qualified_empty_coordinate_appointment(row: dict[str, Any], *, date_key: str | None = None) -> bool:
+    """Authenticate bounded source-only exceptions, not a family/display allowlist.
+
+    Expected envelopes come from freshly authenticated source bytes, never package
+    output or the builder. Compare JSON encodings to preserve boolean/scalar types.
+    Also recognize promoted coordinates so they cannot escape through valid spans.
+    """
+    bright_hint = 'bright_saturday_qualified_composite'
+    covenant_hint = 'covenant-thursday-qualified-2026-10-25'
+    serialized = json.dumps(row, ensure_ascii=False)
+    # Known identities also detect stripped source labels/disclosures.
+    named_ids = {'rid_982eff0981aac9ba60ec', 'rid_a74cbb9bd6b59c314222',
+                 'rid_969f73205a3c4d8ceef6', 'rid_5be18395526b0ff8b009',
+                 'rid_16e3ff8ccefe525d98e0', 'rid_d58dc513121900158fc9'}
+    related = (bright_hint in serialized or covenant_hint in serialized
+               or 'bright-composites-qualified-2026-10-25' in serialized
+               or row.get('identity_key') in named_ids)
+    if not related:
+        return False
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    import bright_saturday_composite_supplements as bright
+    import covenant_thursday_source_supplements as covenant
+
+    def same(left, right):
+        return json.dumps(left, sort_keys=True, ensure_ascii=False) == json.dumps(right, sort_keys=True, ensure_ascii=False)
+
+    raw_rows = (bright.load_bright_composite_rows() if bright_hint in serialized
+                or 'bright-composites-qualified-2026-10-25' in serialized
+                else [r for r in covenant.load_covenant_thursday_rows() if not r['normalized_ref']])
+    for raw in raw_rows:
+        q = json.loads(raw['provenance'])
+        is_bright = raw['source_kind'] == bright.SOURCE_KIND
+        if is_bright:
+            ident = bright.bright_composite_identity_for(raw)
+            doc = q['document']
+            locator = (f"{q['source_path']}:lines {doc['body_first_line']}-{doc['body_last_line']}; "
+                       f"sha256={doc['sha256']}; body_sha256={doc['body_sha256']}; "
+                       f"printed_ref={q['printed_ref']}; selection={q['source_selection_ref']}; canonical coordinates held")
+            edition = 'Retained selected 2026-04-11 captures; not fresh app verification; printed selection only, canonical MT/LXX coordinates held; bounded 2026..2028 structural recurrence, not exact edition acceptance'
+            title = 'Coptic Reader source-qualified Bright Saturday selection'
+            status = 'pending_psalm_equivalence_unresolved'
+            occasion = 'Bright Saturday'
+        else:
+            material = 'scripture_named_excerpt|' + q['printed_ref']
+            ident = dict(identity_key='rid_' + hashlib.sha256(material.encode()).hexdigest()[:20],
+                         display_ref=q['printed_ref'] + ' (source-qualified named excerpt)',
+                         reading_type='scripture', reading_name=q['printed_ref'])
+            locator = (f"{q['source_file']}:lines {q['body_first_line']}-{q['body_last_line']}; "
+                       f"sha256={q['full_capture_sha256']}; body_sha256={q['body_envelope_sha256']}; "
+                       f"printed_ref={q['printed_ref']}; selected=2026-04-09")
+            edition = 'Retained selected 2026-04-09 captures; not fresh app verification; old runtime approvals remain false; bounded 2026..2028 recurrence authorized separately'
+            title = 'Coptic Reader source-qualified Covenant Thursday'
+            status = 'current_public_or_local_reference'
+            occasion = 'Great Thursday'
+        if row.get('identity_key') != ident['identity_key']:
+            continue
+        expected: dict[str, Any] = {key: ident[key] for key in ('identity_key', 'display_ref', 'reading_type', 'reading_name')}
+        expected.update(canonical_mt_ref='', canonical_lxx_ref='', spans_json='[]',
+                        source_kind=raw['source_kind'], source_family=raw['source_family'],
+                        occasion=occasion, service_section=raw['service_section'], service_hour=raw['service_hour'],
+                        slot=raw['reading_slot'], current_status=status, removed_marker='',
+                        source_row_id=raw['source_row_id'], source_order=raw['source_order'],
+                        source_token_order=raw['source_token_order'], source_locator=locator)
+        if date_key is not None and 'reading_order' in row:
+            # The npm daily transport declares these two fields as integer ordinals.
+            expected['source_order'] = int(raw['source_order'])
+            expected['source_token_order'] = int(raw['source_token_order'])
+        if any(not same(row.get(k), value) for k, value in expected.items()):
+            raise ValueError('Unqualified empty-coordinate appointment context/identity/lifecycle/coordinates')
+        for key, value in {'source_file': raw['source_file'], 'source_edition': edition,
+                           'source_title': title, 'calendar_keys': raw['calendar_key'],
+                           'day_titles': raw['day_title']}.items():
+            if key in row and not same(row[key], value):
+                raise ValueError('Unqualified empty-coordinate appointment source/context')
+        if row.get('active') is False or row.get('status') not in (None, ''):
+            raise ValueError('Unqualified empty-coordinate appointment activation')
+        for flag in ('runtime_activation_approved', 'canonical_numeric_activation_approved',
+                     'old_receipts_grant_activation', 'fresh_app_verification', 'consumer_eligible', 'release_approval'):
+            if flag in row and row[flag] is not False:
+                raise ValueError('Unqualified empty-coordinate appointment forged approval')
+        disclosure: dict[str, Any] = dict(source_family=raw['source_family'], source_kind=raw['source_kind'],
+                          source_edition=edition, source_title=title, source_locator=locator)
+        if is_bright:
+            disclosure['bright_composite_source'] = [q]
+        else:
+            fields = ('printed_ref', 'coordinate_status', 'coordinate_note', 'chapter_complete',
+                      'full_capture_sha256', 'body_envelope_sha256', 'body_first_line', 'body_last_line',
+                      'runtime_activation_approved', 'old_receipts_grant_activation', 'fresh_app_verification')
+            disclosure['covenant_thursday_source'] = [{k: q[k] for k in fields}]
+            witness = dict(current_status=status, removed_marker='', source_locator=locator,
+                           source_file=raw['source_file'], source_row_id=raw['source_row_id'], occasion=occasion,
+                           service_section=raw['service_section'], service_hour=raw['service_hour'],
+                           slot=raw['reading_slot'], provenance=raw['provenance'], active='', status='', source_disclosure='')
+            disclosure['source_witnesses'] = [witness]
+        expected_disclosures = [disclosure]
+        if date_key is not None and 'reading_order' in row:
+            # Daily retains both the dated projection and the structural witness.
+            # These years describe materialization, not a new source confirmation.
+            dated = dict(disclosure, attested_year_min=date_key[:4], attested_year_max=date_key[:4])
+            expected_disclosures = [dated, disclosure]
+        provenance = row.get('provenance')
+        # Covenant daily transport carries the complete body in source_witnesses;
+        # reverse and Bright retain the top-level provenance as well.
+        if provenance is None and date_key is not None and 'reading_order' in row and not is_bright:
+            provenance = raw['provenance']
+        if (not same(json.loads(provenance or '{}'), q)
+                or not same(json.loads(row.get('source_disclosure') or '[]'), expected_disclosures)
+                or row.get('source_disclosure_count') != str(len(expected_disclosures))):
+            raise ValueError('Unqualified empty-coordinate appointment disclosure/body/source/approval')
+        return True
+    # Other numeric Covenant rows are outside this exception, not exempted.
+    if (row.get('spans_json') not in ('[]', '', None) and covenant_hint in serialized
+            and 'verse_unaddressable_named_excerpt' not in serialized):
+        return False
+    raise ValueError('Unqualified empty-coordinate appointment source identity')
+
+
+def validate_row_reference_bounds(row: dict[str, Any], *, date_key: str | None = None) -> dict[str, Any]:
+    try:
+        if qualified_empty_coordinate_appointment(row, date_key=date_key):
+            if date_key is not None:
+                from scripts.verify_calendar_coverage import julian_pascha_gregorian
+                date = datetime.date.fromisoformat(date_key)
+                offset = -1 if row['source_kind'] == 'bright_saturday_qualified_composite' else -3
+                if date.year not in (2026, 2027, 2028) or date != julian_pascha_gregorian(date.year) + datetime.timedelta(days=offset):
+                    raise ValueError('Unqualified empty-coordinate appointment civil date')
+            return {"failures": [], "unverified": []}
+    except (ValueError, TypeError, KeyError) as exc:
+        return {"failures": [{"reason": "unqualified_empty_coordinate_appointment", "detail": str(exc)}], "unverified": []}
     try:
         spans = json.loads(row.get("spans_json") or "[]")
     except (ValueError, TypeError):
@@ -268,12 +398,15 @@ def is_current_reference_row(row: dict[str, Any]) -> bool:
     if is_removed_projection_row(row):
         return False
     marker = str(row.get("removed_marker") or "").strip().casefold()
-    if marker.startswith(("superseded", "removed", "omitted")) or "removed in" in marker or "source omitted" in marker:
+    if marker and re.search(r"^(superseded\b|removed\b|removed_|omitted\b)|\bremoved in\b|\bsource omitted\b", marker):
         return False
     status = str(row.get("current_status") or row.get("status") or "").strip().casefold()
     if status in {"historical_candidate_removed", "historical_witness", "removed"} or status.startswith("superseded"):
         return False
-    return True
+    if status in {"", "current", "current_public_or_local_reference", "current_working_source_not_coptic_reader_checked",
+                  "current_confirmed_coptic_reader", "current_confirmed_by_fixture_equivalence", "pending_psalm_equivalence_unresolved"}:
+        return True
+    raise ValueError('Unknown explicit reading status: ' + status)
 
 
 REQUIRED_REMOVED_PROJECTION_FIELDS = [
@@ -439,11 +572,7 @@ def detect_context_passage_conflicts(rows: list[dict[str, Any]]) -> list[dict[st
     held_ids = {id(row) for row in held}
     groups: dict[tuple[str, str, str, str], list[tuple[int, dict[str, Any]]]] = {}
     for row_number, row in enumerate(rows, 1):
-        if id(row) in held_ids or is_removed_projection_row(row):
-            continue
-        if str(row.get("removed_marker") or "").strip():
-            continue
-        if str(row.get("current_status") or "").casefold().startswith("superseded"):
+        if id(row) in held_ids or not is_current_reference_row(row):
             continue
         service = normalized_service(row.get("service_section"))
         hour = normalize_context_text(row.get("service_hour"))
@@ -622,7 +751,9 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if missing:
             failures.append({"reason": "reverse_row_missing_required_fields", "row": row_number, "fields": missing})
             continue
-        if is_current_reference_row(row):
+        if (is_current_reference_row(row)
+                or row.get('source_kind') == 'bright_saturday_qualified_composite'
+                or 'verse_unaddressable_named_excerpt' in str(row.get('provenance') or '')):
             bounds = validate_row_reference_bounds(row)
             if bounds["failures"]:
                 failures.append({"reason": "invalid_current_reverse_span", "row": row_number, "display_ref": row.get("display_ref"), "details": bounds["failures"]})
@@ -706,7 +837,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
                         failures.append({"reason": "no_exact_reverse_match_for_daily_display_ref", "date": date_key, "reading_index": index, "display_ref": reading.get("display_ref"), "identity_key": reading.get("identity_key")})
                         continue
                     reference_rows = matches
-                checked = [validate_row_reference_bounds(r) for r in reference_rows]
+                checked = [validate_row_reference_bounds(r, date_key=date_key) for r in reference_rows]
                 bounds = {key: [item for result in checked for item in result[key]] for key in ("failures", "unverified")}
                 if bounds["failures"]:
                     failures.append({"reason": "invalid_daily_span", "date": date_key, "reading_index": index, "display_ref": reading.get("display_ref"), "details": bounds["failures"]})

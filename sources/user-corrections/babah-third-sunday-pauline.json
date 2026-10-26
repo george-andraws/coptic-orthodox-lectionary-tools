@@ -1,0 +1,35 @@
+{
+  "schema": "qualified-user-lectionary-correction-v1",
+  "authority": "George user-supplied correction",
+  "literal_user_instruction": "also fix: today's Pauline is 1Cor 16:12-23 but Coptic reader says Pauline Epistle 1Cor 16:12-24 for the 3rd Sunday of babeh",
+  "context": {
+    "day_title": "The third Sunday of Baba",
+    "service_section": "Liturgy",
+    "reading_type": "Pauline Epistle",
+    "expected_raw_ref": "1Cor 16:12-23",
+    "corrected_ref": "1Cor 16:12-24",
+    "expected_source": "copticchurch.net daily scrape",
+    "expected_url_prefix": "https://copticchurch.net/readings?"
+  },
+  "scope": "Only current exact Third Sunday of Babah Liturgy Pauline rows from the qualified public source; preserve raw 12-23 witness. No other occasion is corrected. Recurrence does not create independent Reader captures.",
+  "reader_corroboration": {
+    "context": "Selected Season 3rd Sunday of Paope Paope 15, 1743 Sunday, October 25, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+    "context_id": "SundayReadings-7",
+    "retained_manifest": "sources/coptic-reader/matins-source-accepted-2026-10-07/evidence/ordinary-coverage-current/accepted-contexts-03.jsonl",
+    "retained_manifest_sha256": "10bf06ab609734f305be9ae86ef278a6ee5447fd4663e1195caa65e13f1b9df3",
+    "selected_date": "2026-10-25",
+    "captured_at": "2026-10-07T16:48:25.500Z",
+    "printed_ref": "1 Corinthians 16:12-24",
+    "sha256": "880697daa4c3ad6d3681fdb54857791f051c2483d673b2fd2a09a1bf880c9e8a",
+    "source_table": "SundayReadings",
+    "day_key": "Babah 3",
+    "service_section": "Liturgy",
+    "reading_type": "Pauline Epistle",
+    "ref": "1Cor 16:12-24",
+    "body_endpoint": "24 My love be with you all in Christ Jesus. Amen.",
+    "evidence_scope": "Retained 2026-10-07 capture, authenticated on 2026-10-25; not fresh Reader retrieval"
+  },
+  "source_fingerprints": {
+    "sources/coptic-reader/babah-third-sunday-2026-10-25/Pauline.txt": "880697daa4c3ad6d3681fdb54857791f051c2483d673b2fd2a09a1bf880c9e8a"
+  }
+}

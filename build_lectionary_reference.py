@@ -151,6 +151,7 @@ def load_coptic_reader_corrections() -> dict:
                             'expected_source', 'expected_url_prefix'))):
                 raise RuntimeError('User correction policy/fixture context disagreement')
             value['source_qualification'] = context
+            value['correction_source'] = item['evidence']
         else:
             value['normalization_warning'] += f"; verified_date={item['verified_date']}"
         if key in corrections and corrections[key] != value:
@@ -186,6 +187,8 @@ for item in json.loads((SRC / 'lectionary_corrections.json').read_text(encoding=
     KATAMEROS_CYCLE_CORRECTIONS[key] = value
 
 def apply_copticchurch_source_correction(row: dict) -> dict:
+    from ordinary_appointment_repairs import apply_ordinary_appointment_repair
+    row = apply_ordinary_appointment_repair(row)
     key = correction_key(
         row.get('day_title', ''),
         row.get('service_section', ''),
@@ -213,6 +216,8 @@ def apply_copticchurch_source_correction(row: dict) -> dict:
         row['normalized_ref'] = correction['normalized_ref']
         row['parse_status'] = 'source_corrected'
         row['normalization_warning'] = correction['normalization_warning']
+        if correction.get('correction_source'):
+            row['correction_source'] = correction['correction_source']
     if suppression:
         row['superseded_reason'] = suppression['reason']
         row['correction_source'] = suppression['evidence']
@@ -395,8 +400,8 @@ def authenticate_recurring_supplement(supplement: dict, overlay: dict) -> None:
         context = (evidence.parent / 'context.txt').read_text()
         if context != oracle['context'] or context != supplement['source_verified_context']:
             raise RuntimeError('Recurring supplement selected context disagrees')
-        week_names = {'second': 2, 'third': 3, 'fourth': 4, 'fifth': 5}
-        match = re.fullmatch(r'(Monday|Tuesday|Wednesday|Thursday|Friday) of the (second|third|fourth|fifth) week of Great Lent', supplement['day_title'])
+        week_names = {'first': 1, 'second': 2, 'third': 3, 'fourth': 4, 'fifth': 5}
+        match = re.fullmatch(r'(Monday|Tuesday|Wednesday|Thursday|Friday) of the (first|second|third|fourth|fifth) week of Great Lent', supplement['day_title'])
         if not match or match[1] != date.strftime('%A') or f'{week_names[match[2]]}' not in context.split('Week of Great Fast', 1)[0]:
             raise RuntimeError('Recurring supplement selected occasion disagrees')
 
@@ -464,6 +469,8 @@ def parse_copticchurch_html(html: str, date: dt.date, *, candidate_matins_contex
                 'source_order': reading['source_order'], 'source_slot': reading['source_slot'],
                 'correction_source': supplement['evidence'], 'url': 'https://copticreader.org/app/',
             })
+    from jonah_fast_source_supplements import apply_jonah_fast_supplements
+    out = apply_jonah_fast_supplements(date, day_title, out)
     meta={'date':date.isoformat(),'title':title,'day_title':day_title,'reading_count':len(out)}
     if candidate_matins_context is not None:
         if candidate_matins_context.get('civil_date') != date.isoformat():
@@ -532,8 +539,13 @@ def build_date_passage_index(rows: List[dict], *, include_inactive: bool = False
             continue
         if not include_inactive and not is_current_source_row(r):
             continue
+        import jonah_fast_source_supplements as jonah
+        jonah_transport = None
+        if r.get('source_kind') == jonah.KIND or r.get('source_family') == jonah.FAMILY:
+            jonah_transport = jonah.source_transport(r)
+            jonah.expected_source(jonah_transport)
         ref_for_extract = r.get('normalized_ref') or r.get('raw_ref','')
-        for token in extract_text_ref_tokens(ref_for_extract):
+        for token_order, token in enumerate(extract_text_ref_tokens(ref_for_extract), 1):
             parsed = parse_passage(token)
             reading_type = passage_reading_slot(r['reading_type'], parsed.book_abbrev if parsed else '')
             validate_reading_slot(reading_type, parsed.book_abbrev if parsed else '')
@@ -558,6 +570,9 @@ def build_date_passage_index(rows: List[dict], *, include_inactive: bool = False
                 'source_raw_refs': r.get('source_raw_refs', ''),
                 'correction_source': r.get('correction_source', ''),
                 'superseded_reason': r.get('superseded_reason', ''),
+                **({'provenance': json.dumps({'jonah_source': jonah_transport,
+                     'token_order': token_order}, ensure_ascii=False, sort_keys=True)}
+                   if jonah_transport is not None else {}),
                 **({key: r[key] for key in ('active', 'state', 'status',
                      'include_in_current_index', 'removal_reason', 'removed_reason',
                      'removal_effective_version') if key in r} if not is_current_source_row(r) else {}),
@@ -602,12 +617,18 @@ def copy_sources():
 def copy_support_modules():
     shutil.copy2(WORK / 'passage_normalization.py', SCRIPTS / 'passage_normalization.py')
 
+def synchronize_bright_service_order():
+    """Derive the paired export from current CSV, never the historical fallback."""
+    with (DATA / 'bright_saturday_service_order.csv').open(newline='', encoding='utf-8') as handle:
+        rows = list(csv.DictReader(handle))
+    write_jsonl(DATA / 'bright_saturday_service_order.jsonl', rows)
+
+
 def copy_special_datasets():
     required_sources = {
         'pascha_day_hour_index.csv': [DATA / 'pascha_day_hour_index.csv', WORK / 'out2' / 'pascha_day_hour_index.csv'],
         'pascha_day_hour_index.jsonl': [DATA / 'pascha_day_hour_index.jsonl', WORK / 'out2' / 'pascha_day_hour_index.jsonl'],
-        'bright_saturday_service_order.csv': [DATA / 'bright_saturday_service_order.csv', WORK / 'out_bright' / 'bright_saturday_service_order.csv'],
-        'bright_saturday_service_order.jsonl': [DATA / 'bright_saturday_service_order.jsonl', WORK / 'out_bright' / 'bright_saturday_service_order.jsonl'],
+        'bright_saturday_service_order.csv': [DATA / 'bright_saturday_service_order.csv'],
     }
     missing = []
     for name, candidates in required_sources.items():
@@ -619,6 +640,7 @@ def copy_special_datasets():
             shutil.copy2(existing, DATA / name)
     if missing:
         raise FileNotFoundError('Missing required Pascha/Bright Saturday artifacts: ' + ', '.join(missing))
+    synchronize_bright_service_order()
     apply_lectionary_corrections()
 
 

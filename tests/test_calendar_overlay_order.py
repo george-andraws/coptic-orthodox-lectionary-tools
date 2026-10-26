@@ -74,11 +74,20 @@ class CalendarOverlayOrder(unittest.TestCase):
             source = [r for r in csv.DictReader(handle) if r['source_ref_status'] == 'calendar_overlay' and r['source_slot'].startswith('OT')]
         self.assertEqual(len(source), 65)
         self.assertEqual({r['gregorian_date'] for r in source}, {'2026-04-07', '2031-04-07', '2034-04-07'})
+        # The current-date sidecar preserves this API-edition witness, but 1.3.5
+        # explicitly excludes it from current Reader practice. Keep raw coverage
+        # at 65 and assert the single precise inactive context, not a blanket skip.
+        inactive = ('2034-04-07', 'Good Friday', 'Twelfth Hour', 'OT2', 2, 'Jonah 1:10-2:8')
+        self.assertEqual(sum((r['gregorian_date'], r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) == inactive for r in source), 1)
         presentation, _ = design.build_reverse_presentation()
+        retained = [r for r in presentation if (r['gregorian_date'], r['occasion'], r['service_hour'], r['slot'], r['canonical_mt_ref']) == (inactive[0], inactive[1], inactive[2], inactive[3], inactive[5])]
+        self.assertEqual(len(retained), 1)
+        self.assertEqual(retained[0]['current_status'], 'historical_candidate_removed')
+        self.assertFalse(design.is_current_presentation(retained[0]))
         daily = design.build_daily_year_files(presentation, transport_mode='presentation')
         for date in sorted({r['gregorian_date'] for r in source}):
             with self.subTest(date=date):
-                expected = [(r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) for r in source if r['gregorian_date'] == date]
+                expected = [(r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) for r in source if r['gregorian_date'] == date and (r['gregorian_date'], r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) != inactive]
                 actual = [(r['occasion'], r['service_hour'], r['slot'], r['slot_order'], r['canonical_mt_ref']) for r in daily[int(date[:4])][date] if r['slot'].startswith('OT')]
                 # Daily Psalm display includes the existing labeled LXX equivalent;
                 # current-source matched_ref uses its preserved MT convention.

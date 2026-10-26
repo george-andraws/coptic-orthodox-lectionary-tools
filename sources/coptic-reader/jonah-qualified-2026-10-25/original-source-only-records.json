@@ -1,0 +1,569 @@
+[
+  {
+    "source_record": {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:12.452Z",
+      "raw_reference_lines": [
+        "\tJonah 1:1-2:1"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies.txt",
+      "text_sha256": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJonah 1:1-2:1",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies-reference-01.png",
+          "sha256": "c1ee463a52f92d61a50b37c9a3d4a3001471d8bf49bd0f55984bdf4ce3ea4884"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": false,
+      "context_files": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.txt"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.png"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.json"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.png"
+        }
+      ],
+      "producer_visual_review": "all 157 literal-reference/rubric images and 57 dated home images inspected in indexed contact sheets; readable, no loading overlays",
+      "occasion_key": "JonahFast@-69",
+      "actual_occasion": "Jonah's Fast",
+      "actual_home_line": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026",
+      "pascha_offset_days": -69,
+      "weekday": "Monday",
+      "numeric_coptic_calendar_crosscheck": {
+        "year": 1742,
+        "month": 5,
+        "month_name": "Tobe",
+        "day": 25
+      },
+      "qualification_scope": "original captured civil date/occasion/service only; key groups witnesses and does not grant recurrence acceptance",
+      "evidence_state": "producer_candidate_pending_independent_acceptance",
+      "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/capture.json",
+      "source_app_version": "not exposed in captured rendered UI; no version inferred",
+      "source_numbering": "literal_reader_edition_unmapped",
+      "source_english_edition": "unmapped; edition/body interpretation belongs to independent contract worker",
+      "semantic_state": "assigned_scripture_table",
+      "whole_rendered_body_sha256": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+      "ordered_source_blocks": [
+        {
+          "source_order": 1,
+          "raw_reference_line": "\tJonah 1:1-2:1",
+          "source_line": 3,
+          "source_byte_offset": 26,
+          "raw_line_utf8_base64": "CUpvbmFoIDE6MS0yOjEK",
+          "body_envelope_first_line": 3,
+          "body_envelope_last_line": 43,
+          "body_envelope_literal": "\tJonah 1:1-2:1\n(يونان 1: 1-2: 1)\nA reading from Jonah, the prophet. May his holy blessings be with us. Amen.\nمن يونان النبي بركته المقدسة تكون معنا. آمين.\n1 Now the word of the Lord came to Jonah the son of Amittai, saying,\n1 وَصَارَتْ كَلِمَةُ الرَّبِّ إِلَى يُونَانَ بْنِ أَمِتَّايَ قَائِلًا:\n2 “Arise, go to Nineveh, that great city, and cry out against it; for their wickedness has come up before Me.”\n2 \" قُمِ اِنْطَلِقْ إِلَى نِينَوَى الْمَدِينَةِ الْعَظِيمَةِ وَنَادِ عَلَيْهَا، لِأَنَّ صُرَاخَ شَرِّهَا قَدْ صَعِدَ إِلَيَّ \".\n3 But Jonah arose to flee to Tarshish from the presence of the Lord. He went down to Joppa, and found a ship going to Tarshish; so he paid the fare, and went down into it, to go with them to Tarshish from the presence of the Lord.\n3 فَقَامَ يُونَانُ لِيَهْرُبَ إِلَى تَرْشِيشَ مِنْ وَجْهِ الرَّبِّ، فَنَزَلَ إِلَى يَافَا فَوَجَدَ سَفِينَةً ذَاهِبَةً إِلَى تَرْشِيشَ، فَأَدَّى أُجْرَتَهَا وَنَزَلَ فِيهَا، لِيَذْهَبَ مَعَهُمْ إِلَى تَرْشِيشَ مِنْ وَجْهِ الرَّبِّ.\n4 But the Lord sent out a great wind on the sea, and there was a mighty tempest on the sea, so that the ship was about to be broken up.\n4 فَأَثَارَ الرَّبُّ رِيحًا شَدِيدَةً فِي الْبَحْرِ، فَأَحْدَثَتْ أَمْوَاجًا عَظِيمَةً فِي الْبَحْرِ وَأَشْرَفَتِ السَّفِينَةُ عَلَى الاِنْكِسَارِ.\n5 Then the mariners were afraid; and every man cried out to his god, and threw the cargo that was in the ship into the sea, to lighten the load. But Jonah had gone down into the lowest parts of the ship, had lain down, and was fast asleep.\n5 فَخَافَ الْمَلَّاحُونَ وَصَرَخُوا كُلُّ وَاحِدٍ إِلَى إلَهِهِ، وَطَرَحُوا الْأَمْتِعَةَ الَّتِي فِي السَّفِينَةِ إِلَى الْبَحْرِ لِيُخَفِّفُوا عَنْهُمْ. أَمَّا يُونَانُ فَنَزَلَ إِلَى جَوْفِ السَّفِينَةِ وَاِضْطَجَعَ وَاِسْتَغْرَقَ فِي النَّوْمِ.\n6 So the captain came to him, and said to him, “What do you mean, sleeper? Arise, call on your God; perhaps your God will consider us, so that we may not perish.”\n6 فَذَهَبَ إِلَيْهِ مُدَبِّرُ السَّفِينَةِ وَقَالَ لَهُ: \" مَا بَالُكَ مُسْتَغْرِقًا فِي النَّوْمِ؟ قُمْ فَاِطْلُبْ إِلَى إلَهِكَ لَعَلَّ اللَّهَ يُخَلِّصُنَا فَلَا نَهْلِكَ \".\n7 And they said to one another, “Come, let us cast lots, that we may know for whose cause this trouble has come upon us.” So they cast lots, and the lot fell on Jonah.\n7 وَقَالَ كُلُّ وَاحِدٍ لِصَاحِبهِ: \" هَلُمَّوا نُلْقِي قُرَعًا لِنَعْلَمَ بِسَبَبِ مَنْ أَصَابَنَا هَذَا الشَّرُّ \". فَأَلْقَوْا قُرَعًا، فَوَقَعَتِ الْقُرْعَةُ عَلَى يُونَانَ.\n8 Then they said to him, “Please tell us! For whose cause is this trouble upon us? What is your occupation? And where do you come from? What is your country? And of what people are you?”\n8 فَقَالُوا لَهُ: \" أَخْبِرْنَا لِأَنَّهُ بِسَبَبِكَ نَزَلَ بِنَا هَذَا الشَّرُّ مَا عَمَلُكَ؟ وَمِنْ أَيْنَ جِئْتَ؟ وَمِنْ أَيِّ قَرْيَةٍ؟ وَمِنْ أَيِّ شَعْبٍ أَنْتَ؟ \"\n9 So he said to them, “I am a Hebrew; and I fear the Lord, the God of heaven, who made the sea and the dry land.”\n9 فَقَالَ لَهُمْ: \" أَنَا عَبْدُ الرَّبِّ، وَإِنِّي أَخَافُهُ وَأَتَّقِي الرَّبَّ إِلَهَ السَّمَاءِ الَّذِي صَنَعَ الْبَحْرَ وَالْيَبَسَ \".\n10 Then the men were exceedingly afraid, and said to him, “Why have you done this?” For the men knew that he fled from the presence of the Lord, because he had told them.\n10 فَخَافَ الرِّجَالُ خَوْفًا عَظِيْمًا، وَقَالُوا لَهُ: \" لِمَاذَا فَعَلْتَ ذَلِكَ؟ \" لِأَنَّ الرِّجَالَ قَدْ عَلِمُوا أَنَّهُ هَارِبٌ مِنْ وَجْهِ الرَّبِّ، لِأَنَّهُ أَخْبَرَهُمْ.\n11 Then they said to him, “What shall we do to you that the sea may be calm for us?”—for the sea was growing more tempestuous.\n11 فَقَالُوا لَهُ: \" مَاذَا نَصْنَعُ بِكَ حَتَّى يَسْكُنَ الْبَحْرُ عَنَّا؟ \" لِأَنَّ الْبَحْرَ كَانَ يَزْدَادُ هِيَاجًا.\n12 And he said to them, “Pick me up and throw me into the sea; then the sea will become calm for you. For I know that this great tempest is because of me.”\n12 فَقَالَ لَهُمْ يُونَانُ: \" خُذُونِي وَأَلْقُونِي إِلَى الْبَحْرِ فَيَسْكُنَ الْبَحْرُ عَنْكُمْ، لِأَنَّنِي عَالِمٌ أَنَّ هَذَا الْمَوْجَ الْعَظِيمَ إِنَّمَا هَاجَ عَلَيْكُمْ بِسَبَبِي \".\n13 Nevertheless the men rowed hard to return to land, but they could not, for the sea continued to grow more tempestuous against them.\n13 وَكَانَ الرِّجَالُ يُجَذِّفُونَ لِيَرْجِعُوا إِلَى الْيَبَسِ فَلَمْ يَسْتَطِيعُوا، لِأَنَّ الرِّيحَ كَانَتْ شَدِيدَةً وَالْبَحْرُ اِزْدَادَ هِيَاجًا عَلَيْهُمْ.\n14 Therefore they cried out to the Lord and said, “We pray, O Lord, please do not let us perish for this man’s life, and do not charge us with innocent blood; for You, O Lord, have done as it pleased You.”\n14 فَصَرَخُوا إِلَى الرَّبِّ وَقَالُوا: \" أَيُّهَا الرَّبُّ، لَا تُهْلِكْنَا بِسَبَبِ نَفْسِ هَذَا الرَّجُلِ، وَلَا تَجْعَلْ عَلَيْنَا دَمًا زَكِيًّا، فَإِنَّكَ أَنْتَ أَيُّهَا الرَّبُّ قَدْ صَنَعْتَ كَمَا شِئْتَ \".\n15 So they picked up Jonah and threw him into the sea, and the sea ceased from its raging.\n15 ثُمَّ حَمَلُوا يُونَانَ وَطَرَحُوهُ فِي الْبَحْرِ، فَوَقَفَ الْبَحْرُ عَنْ تَمَوُّجِهِ.\n16 Then the men feared the Lord exceedingly, and offered a sacrifice to the Lord and took vows.\n16 فَخَافَ الرِّجَالُ مِنَ الرَّبِّ خَوْفًا عَظِيمًا، وَذَبَحُوا ذَبِيحَةً لِلرَّبِّ وَأَعْلَنُوا الصَّلَاةَ.\n1 Now the Lord had prepared a great fish to swallow Jonah. And Jonah was in the belly of the fish three days and three nights.\n1 فَأَمَرَ الرَّبُّ حُوتًا عَظِيمًا لِابْتِلَاعِ يُونَانَ. فَكَانَ يُونَانُ فِي جَوْفِ الْحُوتِ ثَلَاثَةَ أَيَّامٍ وَثَلَاثَ لَيَالٍ.\nGlory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen.\nⲞⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.\nمجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين.",
+          "body_envelope_sha256": "9e7c33fc245a9e8e536fa4171ebe8fff1d1de71c90e087ac4c30f2195abb66fe",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        }
+      ]
+    },
+    "independent_review_receipt": "lent-prophecy-independent-review-04/FINAL-RECEIPT.json",
+    "acceptance": "exact_dated_source_only",
+    "canonical_equivalence_approved": false,
+    "recurrence_approved": false,
+    "runtime_activation": false
+  },
+  {
+    "source_record": {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:13.094Z",
+      "raw_reference_lines": [
+        "\tJonah 2:2-10"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies.txt",
+      "text_sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJonah 2:2-10",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Prophecies-reference-01.png",
+          "sha256": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": false,
+      "context_files": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.txt"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.png"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.json"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.png"
+        }
+      ],
+      "producer_visual_review": "all 157 literal-reference/rubric images and 57 dated home images inspected in indexed contact sheets; readable, no loading overlays",
+      "occasion_key": "JonahFast@-68",
+      "actual_occasion": "Jonah's Fast",
+      "actual_home_line": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026",
+      "pascha_offset_days": -68,
+      "weekday": "Tuesday",
+      "numeric_coptic_calendar_crosscheck": {
+        "year": 1742,
+        "month": 5,
+        "month_name": "Tobe",
+        "day": 26
+      },
+      "qualification_scope": "original captured civil date/occasion/service only; key groups witnesses and does not grant recurrence acceptance",
+      "evidence_state": "producer_candidate_pending_independent_acceptance",
+      "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/capture.json",
+      "source_app_version": "not exposed in captured rendered UI; no version inferred",
+      "source_numbering": "literal_reader_edition_unmapped",
+      "source_english_edition": "unmapped; edition/body interpretation belongs to independent contract worker",
+      "semantic_state": "assigned_scripture_table",
+      "whole_rendered_body_sha256": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+      "ordered_source_blocks": [
+        {
+          "source_order": 1,
+          "raw_reference_line": "\tJonah 2:2-10",
+          "source_line": 3,
+          "source_byte_offset": 26,
+          "raw_line_utf8_base64": "CUpvbmFoIDI6Mi0xMAo=",
+          "body_envelope_first_line": 3,
+          "body_envelope_last_line": 27,
+          "body_envelope_literal": "\tJonah 2:2-10\n(يونان 2: 2-10)\nA reading from Jonah, the prophet. May his holy blessings be with us. Amen.\nمن يونان النبي بركته المقدسة تكون معنا. آمين.\n2 Then Jonah prayed to the Lord his God from the fish's belly and he said: “I cried out to the Lord because of my affliction, And He answered me. “Out of the belly of Sheol I cried, And You heard my voice.\n2 فَصَلَّى يُونَانُ إِلَى الرَّبِّ إِلَهِهِ مِنْ جَوْفِ الْحُوتِ، وَقَالَ: \" إِلَى الرَّبِّ إلَهِي صَرَخْتُ فِي ضِيْقِي، فَاِسْتَجَابَ لِي. وَمِنْ جَوْفِ الْهَاوِيَةِ سَمِعَ صَوتِي.\n3 For You cast me into the deep, Into the heart of the seas, And the floods surrounded me; All Your billows and Your waves passed over me.\n3 قَدْ طَرَحْتَنِي فِي الْعُمْقِ فِي قَاعِ الْبَحْرِ، فَأَحَاطَتْ بِيَ الْأَنْهَارُ، وَجَازَتْ عَلَيَّ جَمِيعُ تَيَّارَاتِكَ وَأَمْوَاجِكَ.\n4 Then I said, ‘I have been cast out of Your sight; Shall I indeed look again toward Your holy temple?\n4 فَقُلْتُ: إِنِّي قَدْ طُرِدْتُ عَنْ عَيْنَيْكَ. فَهَلْ أَعَوْدُ أَنْظُرُ هَيْكَلَ قُدْسِكَ؟\n5 The waters surrounded me, even to my soul; The deep closed around me; My head went down to the clefts of mountains.\n5 قَدْ اِنْسَكَبَتْ عَليَّ الْمِيَاهُ حَتَّى نَفْسِي. وغَطَّانِيَ الْغَمْرُ الْأَقْصَى. غَطَسَتْ رَأْسِي فِي شُقُوقِ جِبَالٍ.\n6 I went down into the earth whose bars are the everlasting barriers; Yet You shall bring up my life from the ruines, O Lord, my God.\n6 وَنَزَلْتُ إِلَى أَرْضٍ، مَزَالِيجُهَا مُغْلَقَةٌ إِلَى الْأَبَدِ. وَلَكِنَّكَ سَتُصْعِدُ حَيَاتِي مِنَ الْفَسَادِ أَيُّهَا الرَّبُّ إِلَهِي.\n7 “When my soul fainted within me, I remembered the mercy of the Lord; And my prayer come up to You, Into Your holy temple.\n7 عِنْدَ فَنَاءِ نَفْسِي مِنِّي، تَذَكَّرْتُ رَحْمَةَ الرَّبِّ، فَلْتَصْعَدْ إِلَيْكَ صَلَاتِي إِلَى هَيْكَلِكَ الْمُقَدَّسِ.\n8 “Those who regard vanities and lies have forsaken their own Mercy.\n8 إِنَّ الَّذِينَ يَحْفَظُونَ الْأَبَاطِيلَ وَالْكَذِبَ يُهْمِلُونَ رَحْمَتَهُمْ.\n9 But I will sacrifice to You With the voice of praise and thanksgiving; I will pay all what I have vowed to You, the Lord of my salvation.”\n9 أَمَّا أَنَا فَبِصَوْتِ تَضَرُّعٍ وَاِعْتِرَافٍ أَذْبَحُ لَكَ، وَمَا نَذَرْتُهُ أُوفِيكَ بِهِ أَيُّهَا الرَّبُّ مُخَلِّصِي \".\n10 So the Lord commanded the fish, and it cast up Jonah on the dry land.\n10 فَأَمَرَ الرَّبُّ الْحُوتَ فَقَذَفَ يُونَانَ إِلَى البَرِّ.\nGlory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen.\nⲞⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.\nمجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين.",
+          "body_envelope_sha256": "40b1394610a6b3f80753651d64030ada16c6a9ef2e9e0ee25873a1a799dfd554",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        }
+      ]
+    },
+    "independent_review_receipt": "lent-prophecy-independent-review-04/FINAL-RECEIPT.json",
+    "acceptance": "exact_dated_source_only",
+    "canonical_equivalence_approved": false,
+    "recurrence_approved": false,
+    "runtime_activation": false
+  },
+  {
+    "source_record": {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:13.705Z",
+      "raw_reference_lines": [
+        "\tJonah 3:1-4:11"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies.txt",
+      "text_sha256": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJonah 3:1-4:11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Prophecies-reference-01.png",
+          "sha256": "fcd851943d3c4626f1891ea9e3a6771f890fee6f6491d1ac1ed515cda2a37a7c"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": false,
+      "context_files": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.txt"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.png"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.json"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.png"
+        }
+      ],
+      "producer_visual_review": "all 157 literal-reference/rubric images and 57 dated home images inspected in indexed contact sheets; readable, no loading overlays",
+      "occasion_key": "JonahFast@-67",
+      "actual_occasion": "Jonah's Fast",
+      "actual_home_line": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026",
+      "pascha_offset_days": -67,
+      "weekday": "Wednesday",
+      "numeric_coptic_calendar_crosscheck": {
+        "year": 1742,
+        "month": 5,
+        "month_name": "Tobe",
+        "day": 27
+      },
+      "qualification_scope": "original captured civil date/occasion/service only; key groups witnesses and does not grant recurrence acceptance",
+      "evidence_state": "producer_candidate_pending_independent_acceptance",
+      "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/capture.json",
+      "source_app_version": "not exposed in captured rendered UI; no version inferred",
+      "source_numbering": "literal_reader_edition_unmapped",
+      "source_english_edition": "unmapped; edition/body interpretation belongs to independent contract worker",
+      "semantic_state": "assigned_scripture_table",
+      "whole_rendered_body_sha256": "9eee9e3697e39476bf8fa49512489f97e75f91af7129c27f331e3803bf16e6a0",
+      "ordered_source_blocks": [
+        {
+          "source_order": 1,
+          "raw_reference_line": "\tJonah 3:1-4:11",
+          "source_line": 3,
+          "source_byte_offset": 26,
+          "raw_line_utf8_base64": "CUpvbmFoIDM6MS00OjExCg==",
+          "body_envelope_first_line": 3,
+          "body_envelope_last_line": 51,
+          "body_envelope_literal": "\tJonah 3:1-4:11\n(يونان 3: 1-4: 11)\nA reading from Jonah, the prophet. May his holy blessings be with us. Amen.\nمن يونان النبي بركته المقدسة تكون معنا. آمين.\n1 Now the word of the Lord came to Jonah the second time, saying,\n1 وَكَانَتْ كَلِمَةُ الرَّبِّ إِلَى يُونَانَ ثَانِيَةً قَائِلًا:\n2 “Arise, go to Nineveh, that great city, and preach to it the message that I tell you.”\n2 \" قُمِ اِنْطَلِقْ إِلَى نِينَوَى الْمَدِينَةِ الْعَظِيمَةِ، وَنَادِ عَلَيْهَا الْمُنَادَاةَ الَّتِي أَنَا مُكَلِّمُكَ بِهَا \".\n3 So Jonah arose and went to Nineveh, according to the word of the Lord. Now Nineveh was an exceedingly great city, a three-day journey in extent.\n3 فَقَامَ يُونَانُ وَاِنْطَلَقَ إِلَى نِينَوَى بِحَسَبِ مَا تَكَلَّمَ مَعَهُ الرَّبُّ. وَكَانَتْ نِينَوَى مَدِينَةً عَظِيمَةً لِلَّهِ مَسِيرَةَ ثَلَاثَةِ أَيَّامٍ.\n4 And Jonah began to enter the city on the first day’s walk. Then he cried out and said, “Yet forty days, and Nineveh shall be overthrown!”\n4 فَابْتَدَأَ يُونَانُ يَدْخُلُ الْمَدِينَةَ مَسِيرَةَ يَوْمٍ وَاحِدٍ، وَنَادَى وَقَالَ: \" بَعْدَ أَرْبَعِينَ يَوْمًا تَنْقَلِبُ نِينَوَى \".\n5 So the people of Nineveh believed God, proclaimed a fast, and put on sackcloth, from the greatest to the least of them.\n5 فَآمَنَ أَهْلُ نِينَوَى بِاللَّهِ وَنَادَوْا بِصَوْمٍ وَلَبِسُوا مُسُوحًا مِنْ صَغِيرِهِمْ إِلَى كَبِيرِهِمْ.\n6 Then word came to the king of Nineveh; and he arose from his throne and laid aside his robe, covered himself with sackcloth and sat in ashes.\n6 وَبَلَغَ الْكَلَامُ مَلِكَ نِينَوَى، فَقَامَ عَنْ عَرْشِهِ وَخَلَعَ رِدَاءَهُ عَنْهُ، وَاِلْتَفَّ بِمِسْحٍ وَجَلَسَ عَلَى الرَّمَادِ.\n7 And he caused it to be proclaimed and published throughout Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste anything; do not let them eat, or drink water.\n7 وَأَمَرَ أَنْ يُنَادَى وَيُقَالَ فِي نِينَوَى عَنْ أَمْرِ الْمَلِكِ وَعُظَمَائِهِ قَائِلًا: \" لَا تَذُقِ النَّاسُ وَلَا الْبَهَائِمُ وَلَا الْبَقَرُ وَلَا الْغَنَمُ شَيْئًا. لَا تَرْعَ وَلَا تَشْرَبْ مَاءً.\n8 But let man and beast be covered with sackcloth, and cry mightily to God; yes, let every one turn from his evil way and from the violence that is in his hands.\n8 وَلْيَتَغَطَّ النَّاسُ وَالْبَهَائِمُ بِمُسُوحٍ، وَليَصْرُخُوا إِلَى اللَّـهِ بِشِدَّةٍ، وَيَرْجِعُوا كُلُّ وَاحِدٍ عَنْ طَرِيقِهِ الرَّدِيئَةِ وَعَنِ الظُّلْمِ الَّذِي بِأَيْدِيهِمْ،\n9 Who can tell if God will turn and relent, and turn away from His fierce anger, so that we may not perish?\n9 قَائِلِينَ: مَنْ يَعْلَمُ؟ لَعَلَّ اللَّهَ يَنْدَمُ وَيَرْجِعُ عَنْ اضْطِرَامِ غَضَبِهِ فَلَا نَهْلِكَ \".\n10 Then God saw their works, that they turned from their evil way; and God relented from the disaster that He had said He would bring upon them, and He did not do it.\n10 فَرَأَى اللَّهُ أَعْمَالَهُمْ أَنَّهُمْ رَجَعُوا عَنْ طَرِيقِهِمِ الرَّدِيئَةِ، فَنَدِمَ اللَّهُ عَلَى الشَّرِّ الَّذِي قَالَ أَنْ يَصْنَعَهُ بِهِمْ، وَلَمْ يَصْنَعْهُ.\n1 But it displeased Jonah exceedingly, and he became angry.\n1 فَحَزِنَ يُونَانَ حُزْنًا شَدِيدًا.\n2 So he prayed to the Lord, and said, “Ah, Lord, was not this what I said when I was still in my country? Therefore I fled previously to Tarshish; for I know that You are a gracious and merciful God, slow to anger and abundant in lovingkindness, One who relents from doing harm.\n2 وَصَلَّى إِلَى الرَّبِّ وَقَالَ: \" أَلَمْ يَكُنْ هَذَا كَلَامِي إِذْ كُنْتُ بَعْدُ فِي أَرْضِي؟ لِذَلِكَ بَادَرْتُ إِلَى الْهَرَبِ إِلَى تَرْشِيشَ، لِأَنِّي عَلِمْتُ أَنَّكَ إِلَهٌ رَؤُوفٌ وَرَحِيمٌ، طَويلُ الْأَنَاةِ كَثِيرُ الرَّحْمَةِ وَنَادِمٌ عَلَى الشَّرِّ.\n3 Therefore now, O Lord, please take my life from me, for it is better for me to die than to live!”\n3 فَالآنَ يَا سَيِّدَي، خُذْ نَفْسِي مِنِّي، فَإِنَّهُ خَيْرٌ لِي أَنْ أَمُوتَ مِنْ أَنْ أَحْيَا \".\n4 Then the Lord said, “Is it right for you to be angry?”\n4 فَقَالَ الرَّبُّ لِيُونَانَ: \" أَبِحَقٍّ أَنْتَ تَغْضَبُ؟ \".\n5 So Jonah went out of the city and sat on the east side of the city. There he made himself a shelter and sat under it in the shade, till he might see what would become of the city.\n5 فَخَرَجَ يُونَانُ مِنَ الْمَدِينَةِ وَجَلَسَ شَرْقِيَّ الْمَدِينَةِ، وَصَنَعَ لِنَفْسِهِ هُنَاكَ مِظَلَّةً وَجَلَسَ تَحْتَهَا فِي الظِّلِّ، رَيْثَمَا يَرَى مَاذَا يُصِيبُ الْمَدِينَةَ.\n6 And the Lord God prepared a plant and made it come up over Jonah, that it might be shade for his head to deliver him from his misery. So Jonah was very grateful for the plant.\n6 فَأَمَرَ الرَّبُّ الْإِلَهُ يَقْطِينَةً فَارْتَفَعَتْ فَوْقَ رَأْسِ يُونَانَ لِتَكُونَ ظِلًّا عَلَى رَأْسِهِ، لِكَيْ تُظَلِّلَ عَلَيْهِ مِنَ السُّمُومِ جَمِيعِهَا. فَفَرِحَ يُونَانُ بالْيَقْطِينَةِ فَرَحًا عَظِيمًا.\n7 But as morning dawned the next day God prepared a worm, and it so damaged the plant that it withered.\n7 فَأَمَرَ الرَّبُّ الْإِلَهُ دُودَةً عِنْدَ طُلُوعِ الْفَجْرِ فِي الْغَدِ، فَضَرَبَتِ الْيَقْطِينَةَ فَيَبِسَتْ.\n8 And it happened, when the sun arose, that God prepared a vehement east wind; and the sun beat on Jonah’s head, so that he grew faint. Then he wished death for himself, and said, “It is better for me to die than to live.”\n8 وَحَدَثَ عِنْدَ شُرُوقِ الشَّمْسِ أَنَّ الرَّبَّ الْإِلَهَ أَمَرَ رِيحًا شَرْقِيَّةً حَارَّةً، فَضَرَبَتِ الشَّمْسُ عَلَى رَأْسِ يُونَانَ فَصَغُرَ قَلْبُهُ وَفَارَقَتْهُ نَفْسُهُ. وَقَالَ: \" إِنَّهُ خَيْرٌ لِي أَنْ أَمُوتَ مِنْ أَنْ أَحْيَا \".\n9 Then God said to Jonah, “Is it right for you to be angry about the plant?” And he said, “It is right for me to be angry, even to death!”\n9 فَقَالَ الرَّبُّ الْإِلَهُ لِيُونَانَ: \" مَا أَشَدَّ حُزْنَكَ لِأَجْلِ الْيَقْطِينَةِ! \". فَقَالَ: \" بِحَقٍّ حَزِنْتُ جِدًّا حَتَّى الْمَوْتِ \".\n10 But the Lord said, “You have had pity on the plant for which you have not labored, nor made it grow, which came up in a night and perished in a night.\n10 فَقَالَ الرَّبُّ: \" لَقَدْ أَشْفَقْتَ أَنْتَ عَلَى الْيَقْطِينَةِ الَّتِي لَمْ تَتْعَبْ فِيهَا وَلَا رَبَّيْتَهَا، الَّتِي نَشَأَتْ بِنْتَ لَيْلَةٍ ثُمَّ هَلَكَتْ بِنْتَ لَيْلَةٍ.\n11 And should I not pity Nineveh, that great city, in which are more than one hundred and twenty thousand persons who cannot discern between their right hand and their left—and much livestock?”\n11 أَفَلَا أُشْفِقُ أَنَا عَلَى نِينَوَى الْمَدِينَةِ الْعَظِيمَةِ الَّتِي فِيهَا أَكْثَرُ مِنِ اِثْنَتَي عَشْرَةَ رِبْوَةً مِنْ أُنَاسٍ لَا يَعْرِفُونَ يَمِينَهُمْ مِنْ شِمَالِهِمْ، مَا عَدَا بَهَائِمَ كَثِيرَةً؟ \".\nGlory be to the Holy Trinity, our God, forever and unto the ages of all ages. Amen.\nⲞⲩⲱ̀ⲟⲩ ⲛ̀ϯⲧ̀ⲣⲓⲁⲥ ⲉⲑⲟⲩⲁⲃ Ⲡⲉⲛⲛⲟⲩϯ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲛⲓⲉ̀ⲛⲉϩ ⲧⲏⲣⲟⲩ: ⲁ̀ⲙⲏⲛ.\nمجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين.",
+          "body_envelope_sha256": "20a8be01649aafe796b261b9c0be9b0acd7a5fbafec208aaec4814164e22ebf0",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        }
+      ]
+    },
+    "independent_review_receipt": "lent-prophecy-independent-review-04/FINAL-RECEIPT.json",
+    "acceptance": "exact_dated_source_only",
+    "canonical_equivalence_approved": false,
+    "recurrence_approved": false,
+    "runtime_activation": false
+  },
+  {
+    "source_record": {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:18.513Z",
+      "raw_reference_lines": [
+        "\tPsalms 102:1, 7",
+        "\tMatthew 7:6-12"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 102:1, 7",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "1032558421c00fb2522f183c69778c5ddbe507fe7163c53698ff706343a3a793"
+        },
+        {
+          "raw_ref": "\tMatthew 7:6-12",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "9cf5b922bd64dd17918deb9762ad5195b37993a9a92802df50157cb2f46120d0"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "accepted_dated_source_PG_only",
+      "visual_review_pending": false,
+      "context_files": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.txt"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/context.png"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.json"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/2026-02-02/picker.png"
+        }
+      ],
+      "producer_visual_review": "all 157 literal-reference/rubric images and 57 dated home images inspected in indexed contact sheets; readable, no loading overlays",
+      "occasion_key": "JonahFast@-69",
+      "actual_occasion": "Jonah's Fast",
+      "actual_home_line": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026",
+      "pascha_offset_days": -69,
+      "weekday": "Monday",
+      "numeric_coptic_calendar_crosscheck": {
+        "year": 1742,
+        "month": 5,
+        "month_name": "Tobe",
+        "day": 25
+      },
+      "qualification_scope": "exact captured civil date / actual occasion / Matins Psalm and Gospel only",
+      "evidence_state": "independently_accepted_dated_source_PG_only",
+      "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/capture.json",
+      "source_app_version": "not exposed in captured rendered UI; no version inferred",
+      "source_numbering": "literal_reader_edition_unmapped",
+      "source_english_edition": "unmapped; edition/body interpretation belongs to independent contract worker",
+      "semantic_state": "assigned_scripture_table",
+      "whole_rendered_body_sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+      "ordered_source_blocks": [
+        {
+          "source_order": 1,
+          "raw_reference_line": "\tPsalms 102:1, 7",
+          "source_line": 7,
+          "source_byte_offset": 850,
+          "raw_line_utf8_base64": "CVBzYWxtcyAxMDI6MSwgNwo=",
+          "body_envelope_first_line": 7,
+          "body_envelope_last_line": 33,
+          "body_envelope_literal": "\tPsalms 102:1, 7\n(مزامير 102: 1, 7)\nBless the Lord, O my soul; And all that is within me, bless His holy name! The Lord is merciful and gracious, Slow to anger, and abounding in mercy.\nⲦⲁⲯⲩⲭⲏ ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦: ⲛⲏⲉⲧⲥⲁϧⲟⲩⲛ ⲙ̀ⲙⲟⲓ ⲧⲏⲣⲟⲩ ⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲉ︦ⲑ︦ⲩ︦: ⲟⲩⲣⲉϥϣⲉⲛϩⲏⲧ ⲟⲩⲟϩ ⲛ̀ⲛⲁⲏⲧ ⲡⲉ Ⲡⲟ︦ⲥ︦: ⲟⲩⲣⲉϥⲱ̀ⲟⲩⲛ̀ϩⲏⲧ ⲡⲉ ⲟⲩⲟϩ ⲛⲁϣⲉ ⲡⲉϥⲛⲁⲓ ⲁ︦ⲗ︦.\nبَارِكِي يَا نَفْسِي الرَّبَّ، وَيَا جَمِيعَ مَا فِي دَاخِلِي بَارِكْ اِسْمَهُ الْقُدُّوسَ. الرَّبُّ رَؤُوفٌ رَحِيمٌ، طَوِيلُ الْأَنَاةِ وَكَثِيرُ الرَّحْمَةِ.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل\n",
+          "body_envelope_sha256": "60b99618dd3580b9ea2fb91520a09a8058ac797299cb6f2eb14c370eaf4ea25d",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        },
+        {
+          "source_order": 2,
+          "raw_reference_line": "\tMatthew 7:6-12",
+          "source_line": 34,
+          "source_byte_offset": 2619,
+          "raw_line_utf8_base64": "CU1hdHRoZXcgNzo2LTEyCg==",
+          "body_envelope_first_line": 34,
+          "body_envelope_last_line": 56,
+          "body_envelope_literal": "\tMatthew 7:6-12\n(متى 7: 6-12)\n6 “Do not give what is holy to the dogs; nor cast your pearls before swine, lest they trample them under their feet, and turn and tear you in pieces.\nⲘ̀ⲡⲉⲣϯ ⲙ̀ⲡⲉⲑⲟⲩⲁⲃ ⲛ̀ⲛⲓⲟⲩϩⲱⲣ ⲟⲩⲇⲉ ⲙ̀ⲡⲉⲣϩⲓⲟⲩⲓ̀ ⲛ̀ⲛⲉⲧⲉⲛⲁ̀ⲛⲁⲙⲏⲓ ⲙ̀ⲡⲉⲙ̀ⲑⲟ ⲛ̀ⲛⲓⲉ̀ϣⲁⲩ ⲙⲏ ⲡⲟⲧⲉ ⲛ̀ⲥⲉϩⲱⲙⲓ ⲡ̀ⲉϫⲱⲟⲩ ⲛ̀ⲛⲟⲩϭⲁⲗⲁⲩϫ ⲟⲩⲟϩ ⲛ̀ⲥⲉⲕⲟⲧⲟⲩ ⲛ̀ⲥⲉⲫⲉϧ ⲑⲏⲛⲟⲩ.\n6 لاَ تُعْطُوا الْمُقَدَّسَ لِلْكِلاَبِ وَلاَ تَطْرَحُوا دُرَرَكُمْ قُدَّامَ الْخَنَازِيرِ لِئَلَّا تَدُوسَهَا بِأَرْجُلِهَا وَتَلْتَفِتَ فَتُمَزِّقَكُمْ.\n7 “Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.\nⲀ̀ⲣⲓⲉ̀ⲧⲓⲛ ⲟⲩⲟϩ ⲉⲩⲉ̀ϯ ⲛⲱⲧⲉⲛ ⲕⲱϯ ⲟⲩⲟϩ ⲉ̀ⲣⲉⲧⲉⲛⲉ̀ϫⲓⲙⲓ ⲕⲱⲗϩ ⲟⲩⲟϩ ⲉⲩⲉ̀ⲁⲟⲩⲱⲛ ⲛⲱⲧⲉⲛ.\n7 «اسْأَلُوا تُعْطَوْا. اطْلُبُوا تَجِدُوا. اقْرَعُوا يُفْتَحْ لَكُمْ.\n8 For everyone who asks receives, and he who seeks finds, and to him who knocks it will be opened.\nⲞⲩⲟⲛ ⲅⲁⲣ ⲛⲓⲃⲉⲛ ⲉⲧⲉⲣⲉ̀ⲧⲓⲛ ϣⲁϥϭⲓ ⲟⲩⲟϩ ⲫⲏⲉⲧⲕⲱϯ ϣⲁϥϫⲓⲙⲓ ⲟⲩⲟϩ ⲫⲏⲉⲧⲕⲱⲗϩ ϣⲁⲩⲟⲩⲱⲛ ⲛⲁϥ.\n8 لأَنَّ كُلَّ مَنْ يَسْأَلُ يَأْخُذُ وَمَنْ يَطْلُبُ يَجِدُ وَمَنْ يَقْرَعُ يُفْتَحُ لَهُ.\n9 Or what man is there among you who, if his son asks for bread, will give him a stone?\nⲒⲉ ⲛⲓⲙ ⲛ̀ⲣⲱⲙⲓ ⲉⲧϧⲉⲛ ⲑⲏⲛⲟⲩ ⲉ̀ⲧⲉ ⲡⲉϥϣⲏⲣⲓ ⲛⲁⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲙⲟϥ ⲛ̀ⲟⲩⲱⲓⲕ ⲙⲏ ϥ̀ⲛⲁϯ ⲛⲁϥ ⲛ̀ⲟⲩⲱ̀ⲛⲓ.\n9 أَمْ أَيُّ إِنْسَانٍ مِنْكُمْ إِذَا سَأَلَهُ ابْنُهُ خُبْزاً يُعْطِيهِ حَجَراً؟\n10 Or if he asks for a fish, will he give him a serpent?\nⲒⲉ ⲛ̀ⲧⲉϥⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲙⲟϥ ⲛ̀ⲟⲩⲧⲉⲃⲧ ⲙⲏ ϥ̀ⲛⲁϯ ⲛ̀ⲟⲩϩⲟϥ ⲛⲁϥ.\n10 وَإِنْ سَأَلَهُ سَمَكَةً يُعْطِيهِ حَيَّةً؟\n11 If you then, being evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask Him!\nⲒⲥϫⲉ ⲟⲩⲛ ⲛ̀ⲑⲱⲧⲉⲛ ⲛ̀ⲑⲱⲧⲉⲛ ϩⲁⲛⲥⲁⲙⲡⲉⲧϩⲱⲟⲩ ⲧⲉⲧⲉⲛⲥⲱⲟⲩⲛ ⲉ̀ϯ ⲛ̀ⲛⲓⲧⲁⲓⲟ ⲉⲑⲛⲁⲛⲉⲩ ⲛ̀ⲛⲉⲧⲉⲛϣⲏⲣⲓ ⲓⲉ ⲁⲩⲏⲣ ⲙⲁⲗⲗⲟⲛ ⲡⲉⲧⲉⲛⲓⲱⲧ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ̀ ⲉϥⲉ̀ϯ ⲛ̀ⲛⲓⲁ̀ⲅⲁⲑⲟ ⲛ̀ⲛⲏⲉⲑⲛⲁⲉⲣⲉ̀ⲧⲓⲛ ⲙ̀ⲙⲟϥ.\n11 فَإِنْ كُنْتُمْ وَأَنْتُمْ أَشْرَارٌ تَعْرِفُونَ أَنْ تُعْطُوا أَوْلاَدَكُمْ عَطَايَا جَيِّدَةً فَكَمْ بِالْحَرِيِّ أَبُوكُمُ الَّذِي فِي السَّمَاوَاتِ يَهَبُ خَيْرَاتٍ لِلَّذِينَ يَسْأَلُونَهُ.\n12 Therefore, whatever you want men to do to you, do also to them, for this is the Law and the Prophets.\nϨⲱⲃ ⲇⲉ ⲛⲓⲃⲉⲛ ⲉ̀ⲧⲉⲧⲉⲛⲛⲁⲟⲩⲱϣ ϩⲓⲛⲁ ⲛ̀ⲧⲉ ⲛⲓⲣⲱⲙⲓ ⲁⲓⲧⲟⲩ ⲛⲱⲧⲉⲛ ⲁ̀ⲣⲓⲟⲩⲓ̀ ⲛⲱⲟⲩ ϩⲱⲧⲉⲛ ⲙ̀ⲡⲁⲓⲣⲏϯ ⲫⲁⲓ ⲅⲁⲣ ⲡⲉ ⲡⲓⲛⲟⲙⲟⲥ ⲛⲉⲙ ⲛⲓⲡⲣⲟⲫⲏⲧⲏⲥ.\n12 فَكُلُّ مَا تُرِيدُونَ أَنْ يَفْعَلَ النَّاسُ بِكُمُ افْعَلُوا هَكَذَا أَنْتُمْ أَيْضاً بِهِمْ لأَنَّ هَذَا هُوَ النَّامُوسُ وَالأَنْبِيَاءُ.",
+          "body_envelope_sha256": "e458bdf23e503a04e8e26c7d05a7a1a29168a6c1ec00a4d4e07bf99c19c03226",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        }
+      ],
+      "independent_review": "lent-psalm-gospel-independent-review-04",
+      "recurrence_approved": false,
+      "canonical_coordinates_approved": false,
+      "production_activation_approved": false,
+      "duplicate_qualified_key_witness": false
+    },
+    "independent_review_receipt": "lent-psalm-gospel-independent-review-04/FINAL-RECEIPT.json",
+    "acceptance": "exact_dated_source_only",
+    "canonical_equivalence_approved": false,
+    "recurrence_approved": false,
+    "runtime_activation": false
+  },
+  {
+    "source_record": {
+      "civil_date": "2026-02-03",
+      "context": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nForty-Nine Martyrs and Elders of Scetis",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:18.303Z",
+      "raw_reference_lines": [
+        "\tPsalms 102:13, 8-9",
+        "\tLuke 13:6-9"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 102:13, 8-9",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "f973879b7abbade3087e9febe121b6519fed763525183ea303804e1dd1f9f8b1"
+        },
+        {
+          "raw_ref": "\tLuke 13:6-9",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "66dbd99b2be31f63137baf6f9bd66718af8a3ff0a91c907a66c785f3576d0e68"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "accepted_dated_source_PG_only",
+      "visual_review_pending": false,
+      "context_files": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.txt"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/context.png"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.json"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/2026-02-03/picker.png"
+        }
+      ],
+      "producer_visual_review": "all 157 literal-reference/rubric images and 57 dated home images inspected in indexed contact sheets; readable, no loading overlays",
+      "occasion_key": "JonahFast@-68",
+      "actual_occasion": "Jonah's Fast",
+      "actual_home_line": "Selected Season Jonah's Fast Tobe 26, 1742 Tuesday, February 3, 2026",
+      "pascha_offset_days": -68,
+      "weekday": "Tuesday",
+      "numeric_coptic_calendar_crosscheck": {
+        "year": 1742,
+        "month": 5,
+        "month_name": "Tobe",
+        "day": 26
+      },
+      "qualification_scope": "exact captured civil date / actual occasion / Matins Psalm and Gospel only",
+      "evidence_state": "independently_accepted_dated_source_PG_only",
+      "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-03-ready02/capture.json",
+      "source_app_version": "not exposed in captured rendered UI; no version inferred",
+      "source_numbering": "literal_reader_edition_unmapped",
+      "source_english_edition": "unmapped; edition/body interpretation belongs to independent contract worker",
+      "semantic_state": "assigned_scripture_table",
+      "whole_rendered_body_sha256": "f5337a8c016a9be29bfd623c641b4c5f8ffef482aa48da932f2c78f77b8e2fe8",
+      "ordered_source_blocks": [
+        {
+          "source_order": 1,
+          "raw_reference_line": "\tPsalms 102:13, 8-9",
+          "source_line": 7,
+          "source_byte_offset": 849,
+          "raw_line_utf8_base64": "CVBzYWxtcyAxMDI6MTMsIDgtOQo=",
+          "body_envelope_first_line": 7,
+          "body_envelope_last_line": 33,
+          "body_envelope_literal": "\tPsalms 102:13, 8-9\n(مزامير 102: 13, 8-9)\nHe remembers that we are dust. As for man, his days are like grass. He will not always strive with us, Nor will He keep His anger forever. He has not dealt with us according to our sins, Nor punished us according to our iniquities.\nⲀⲣⲓⲫ̀ⲙⲉⲩⲓ̀ Ⲡⲟ︦ⲥ︦ ϫⲉ ⲁ̀ⲛⲟⲛ ⲟⲩⲕⲁϩⲓ: ⲟⲩⲟϩ ⲫ̀ⲣⲱⲙⲓ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲥⲓⲙ ϧⲉⲛ ⲛⲉϥⲉ̀ϩⲟⲟⲩ: ϥ̀ⲛⲁϫⲱⲛⲧ ⲉ̀ⲣⲟⲛ ⲁⲛ ⲉ̀ⲃⲟⲗ ϣⲁ ϧⲁⲉ̀ ⲟⲩⲇⲉ ⲛ̀ⲛⲉϥⲙ̀ⲃⲟⲛ ϣⲁ ⲉ̀ⲛⲉϩ: ⲉ̀ⲧⲁϥⲓ̀ⲣⲓ ⲇⲉ ⲛⲁⲛ ⲁⲛ ⲕⲁⲧⲁ ⲛⲉⲛⲛⲟⲃⲓ ⲟⲩⲇⲉ ⲕⲁⲧⲁ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ̀ ⲁ̀ⲛⲟⲛ ⲁϥϯϣⲉⲃⲓⲱ̀ ⲛⲁⲛ. ⲁ︦ⲗ︦.\nاُذْكُرْ يَا رَبُّ أَنَّنَا تُرَابٌ. الْإِنْسَانُ أَيَّامُهُ كَالْعُشْبِ. لَيْسَ إِلَى الْاِنْقِضَاءِ يَسْخَطُ وَلَا إِلَى الدَّهْرِ يَحْقِدُ. لَا عَلَى حَسَبِ خَطَايَانَا عَامَلَنَا وَلَا عَلَى حَسَبِ آثَامِنَا كَافَأَنَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل\n",
+          "body_envelope_sha256": "9364499698ea3894eb8b69cb01ca059c028572b76fb7f7e34fadced51c0f2859",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        },
+        {
+          "source_order": 2,
+          "raw_reference_line": "\tLuke 13:6-9",
+          "source_line": 34,
+          "source_byte_offset": 2998,
+          "raw_line_utf8_base64": "CUx1a2UgMTM6Ni05Cg==",
+          "body_envelope_first_line": 34,
+          "body_envelope_last_line": 47,
+          "body_envelope_literal": "\tLuke 13:6-9\n(لوقا 13: 6-9)\n6 He also spoke this parable: “A certain man had a fig tree planted in his vineyard, and he came seeking fruit on it and found none.\nⲚⲁϥϫⲱ ⲇⲉ ⲛⲧⲁⲓⲡⲁⲣⲁⲃⲟⲗⲏ ⲛⲱⲟⲩ ϫⲉ ⲛⲉ ⲟⲩⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲁⲓ ⲛ̀ⲟⲩⲃⲱ ⲛ̀ⲕⲉⲛⲧⲉ ⲉⲥ ϭⲏⲟⲩⲧ ϧⲉⲛ ⲡⲉϥⲓⲁϩⲁ̀ⲗⲟⲗⲓ ⲟⲩⲟϩ ⲁϥⲓ̀ ⲁϥⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲧⲁϩ ϩⲓⲱⲧⲥ ⲟϩ ⲙ̀ⲡⲉϥϫⲓⲙⲓ.\n6 وَقَالَ لَهُمْ هَذَا الْمَثَلَ: \" كَانَ لِوَاحِدٍ تِينَةٌ مَغرُوسَةٌ فِي كَرْمِهِ، فَجَاءَ يَطْلُبُ فِيهَا ثَمَرًا فَلَمْ يَجِدْ.\n7 Then he said to the keeper of his vineyard, ‘Look, for three years I have come seeking fruit on this fig tree and find none. Cut it down; why does it use up the ground?’\nⲠⲉϫⲁϥ ⲇⲉ ⲙ̀ⲡⲓⲟⲩⲱⲓ ⲛ̀ⲁ̀ⲗⲟⲗⲓ ϫⲉ ⲓⲥ ⲅ︦ϯ ⲛ̀ⲣⲟⲙⲡⲓ ⲓⲥϫⲉⲛ ⲉⲓⲛⲏⲟⲩ ⲉⲓⲕⲱϯ ⲛ̀ⲥⲁ ⲟⲩⲧⲁϩ ϧⲉⲛ ⲧⲁⲓⲃⲱ ⲛ̀ⲕⲉⲛⲧⲉ ⲟⲩⲟϩ ϫⲓⲙⲓ ⲁⲛ ⲕⲟⲣϫⲥ ⲟⲩⲛ ϩⲓⲛⲁ ⲟⲩ ϫⲉ ⲥⲉⲣⲡ̀ⲕⲉⲕⲱⲣϥ ⲙ̀ⲡⲓⲕⲁϩⲓ.\n7 فَقَالَ لِلْكَرَّامِ: هَا إِنَّ لِي ثَلَاثَ سِنِينَ آتِي وَأَطْلُبُ ثَمَرًا فِي هَذِهِ التِّينَةِ فَلَا أَجِدُ. فَاقْطَعْهَا! فَلِمَاذَا تُعَطِّلُ الْأَرْضَ أَيْضًا؟\n8 But he answered and said to him, ‘Sir, let it alone this year also, until I dig around it and fertilize it.\nⲚ̀ⲑⲟϥ ⲇⲉ ⲁϥⲉⲣⲟⲩⲱ ⲡⲉϫⲁϥ ⲛⲁϥ ϫⲉ ⲡⲁϫ︦ⲥ︦ ⲭⲁⲥ ⲛ̀ⲧⲁⲓⲕⲉⲣⲟⲙⲡⲓ ⲁϯϭⲣⲏ ϧⲁⲣⲁⲧⲥ ⲟⲩⲟϩ ⲛ̀ⲧⲁϯⲙⲁϩⲣⲟ ⲛⲁⲥ.\n8 فَأَجَابَ وَقَالَ لَهُ: يَا سَيِّدُ، دَعْهَا هَذِهِ السَّنَةَ أَيْضًا، حَتَّى أَعْزِقَ حَوْلَهَا وَأَضَعَ زِبْلًا.\n9 And if it bears fruit, well. But if not, after that you can cut it down.’”\nⲀⲣⲏⲟⲩ ⲛ̀ⲧⲉⲥⲉ̀ⲛ ⲟⲩⲧⲁϩ ⲉ̀ⲃⲟⲗ ⲛ̀ϯⲕⲉⲣⲟⲙⲡⲓ ⲉⲑⲛⲏⲟⲩ ⲉϣⲱⲡ ⲇⲉ ⲁⲥϣ̀ⲧⲉⲙⲓ̀ⲛⲓ ⲉⲕⲉ̀ⲕⲟⲣϫⲥ.\n9 فَإِنْ أَثْمَرَتْ، وَإِلَّا فَنَقْطَعُهَا فِيمَا بَعْدُ \".",
+          "body_envelope_sha256": "f9298e439b2466fd4d08174243f6c0f8df60d6fb4d7003bf7ed8926e0597f253",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        }
+      ],
+      "independent_review": "lent-psalm-gospel-independent-review-04",
+      "recurrence_approved": false,
+      "canonical_coordinates_approved": false,
+      "production_activation_approved": false,
+      "duplicate_qualified_key_witness": false
+    },
+    "independent_review_receipt": "lent-psalm-gospel-independent-review-04/FINAL-RECEIPT.json",
+    "acceptance": "exact_dated_source_only",
+    "canonical_equivalence_approved": false,
+    "recurrence_approved": false,
+    "runtime_activation": false
+  },
+  {
+    "source_record": {
+      "civil_date": "2026-02-04",
+      "context": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Suriel St. Abe-Fam the Soldier",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:19.442Z",
+      "raw_reference_lines": [
+        "\tPsalms 102:12, 11",
+        "\tMatthew 11:25-30"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 102:12, 11",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "ebbfb4283b9a3ecf622b5dc53e05f4af75e108dec8974f44b4d90a198ef119f9"
+        },
+        {
+          "raw_ref": "\tMatthew 11:25-30",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "f8d4331f42c1e941c435708fab5030c679b2030e9d7a2d74ddae03872e469121"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "accepted_dated_source_PG_only",
+      "visual_review_pending": false,
+      "context_files": [
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.txt"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/context.png"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.json"
+        },
+        {
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/2026-02-04/picker.png"
+        }
+      ],
+      "producer_visual_review": "all 157 literal-reference/rubric images and 57 dated home images inspected in indexed contact sheets; readable, no loading overlays",
+      "occasion_key": "JonahFast@-67",
+      "actual_occasion": "Jonah's Fast",
+      "actual_home_line": "Selected Season Jonah's Fast Tobe 27, 1742 Wednesday, February 4, 2026",
+      "pascha_offset_days": -67,
+      "weekday": "Wednesday",
+      "numeric_coptic_calendar_crosscheck": {
+        "year": 1742,
+        "month": 5,
+        "month_name": "Tobe",
+        "day": 27
+      },
+      "qualification_scope": "exact captured civil date / actual occasion / Matins Psalm and Gospel only",
+      "evidence_state": "independently_accepted_dated_source_PG_only",
+      "origin_manifest": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-04-ready02/capture.json",
+      "source_app_version": "not exposed in captured rendered UI; no version inferred",
+      "source_numbering": "literal_reader_edition_unmapped",
+      "source_english_edition": "unmapped; edition/body interpretation belongs to independent contract worker",
+      "semantic_state": "assigned_scripture_table",
+      "whole_rendered_body_sha256": "1cdebbea8e1fc17c6c0d8e7f045a4a3d75309af44b8e76adc8e1d5c59e99bb93",
+      "ordered_source_blocks": [
+        {
+          "source_order": 1,
+          "raw_reference_line": "\tPsalms 102:12, 11",
+          "source_line": 7,
+          "source_byte_offset": 850,
+          "raw_line_utf8_base64": "CVBzYWxtcyAxMDI6MTIsIDExCg==",
+          "body_envelope_first_line": 7,
+          "body_envelope_last_line": 33,
+          "body_envelope_literal": "\tPsalms 102:12, 11\n(مزامير 102: 12, 11)\nAs a father pities his children, So the Lord pities those who fear Him. As far as the east is from the west, So far has He removed our transgressions from us.\nⲞⲩⲟϩ ⲙ̀ⲫ̀ⲣⲏϯ ⲛ̀ⲟⲩⲓⲱⲧ ⲉϥϣⲉⲛϩⲏⲧ ϧⲁ ⲛⲉϥϣⲏⲣⲓ: ⲡⲁⲓⲣⲏϯ ⲁϥϣⲉⲛϩⲏⲧ ⲛ̀ϫⲉ Ⲡⲟ︦ⲥ︦ ϧⲁ ⲛⲏⲉ̀ⲧⲉⲣϩⲟϯ ϧⲁ ⲧⲉϥϩⲏ: ⲕⲁⲧⲁ ⲫ̀ⲣⲏϯ ⲉ̀ⲧⲉ ⲛⲓⲙⲁⲛ̀ϣⲁⲓ ⲟⲩⲏ̀ⲟⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ⲛⲓⲙⲁⲛϩⲱⲧⲡ: ⲁϥⲑ̀ⲣⲟⲩⲟⲩⲉⲓ ⲙ̀ⲙⲟⲛ ⲛ̀ϫⲉ ⲛⲉⲛⲁ̀ⲛⲟⲙⲓⲁ̀. ⲁ︦ⲗ︦.\nوَكَمَا يَتَرأَّفُ الْأَبُ عَلَى بَنِيهِ، كَذَلِكَ تَرَاءَفَ الرَّبُّ عَلَى خَائِفِيهِ. وَكَبُعْدِ الْمَشَارِقِ عَنِ الْمَغَارِبِ، أَبْعَدَ عَنَّا مَعَاصِيَنَا.\nPeople:\nAlleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nالليلويا.\n\tPsalm Trailer for the Pope or a Bishop\n(Ⲙⲁⲣⲟⲩϭⲁⲥϥ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀...)\nPeople:\nAmen Alleluia.\nⲠⲓⲗⲁⲟⲥ:\nⲀⲙⲏⲛ Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nالشعبُ:\nامين الليلويا.\nThen the introduction to the Gospel is read.\nثم تقال مقدمة الأنجيل وهي:\nReader:\nBlessed is He who comes in the name of the Lord. Our Lord, God, Savior and King of us all, Jesus Christ, Son of the living God to whom is glory forever. Amen.\nالقارﺉُ:\nمباركٌ الآتي باسمِ الربِّ إلهِ القواتِ، ربُّنا وإلهُنا ومخلصُنا وملكُنا كلِّنا، يسوعُ المسيحُ، ابنُ اللهِ الحيِّ، الذي لهُ المجدُ إلى الأبدِ. آمين.\nMatins Gospel\nالإنجيل\n",
+          "body_envelope_sha256": "5a1518609b8ec93602673741e67588d761ac5f89e576be59ab1090d822539b9a",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        },
+        {
+          "source_order": 2,
+          "raw_reference_line": "\tMatthew 11:25-30",
+          "source_line": 34,
+          "source_byte_offset": 2734,
+          "raw_line_utf8_base64": "CU1hdHRoZXcgMTE6MjUtMzAK",
+          "body_envelope_first_line": 34,
+          "body_envelope_last_line": 53,
+          "body_envelope_literal": "\tMatthew 11:25-30\n(متى 11: 25-30)\n25 At that time Jesus answered and said, “I thank You, Father, Lord of heaven and earth, that You have hidden these things from the wise and prudent and have revealed them to babes.\nⲚ̀ϩ̀ⲣⲏⲓ ⲇⲉ ϧⲉⲛ ⲡⲓⲥⲏⲟⲩ ⲉ̀ⲧⲉⲙ̀ⲙⲁⲩ ⲁϥⲉ̀ⲣⲟⲩⲱ̀ ⲛ̀ϫⲉ Ⲓⲏ︦ⲥ︦ ⲟⲩⲟϩ ⲡⲉϫⲁϥ ϫⲉ ϯⲟⲩⲱⲛϩ ⲛⲁⲕ ⲉ̀ⲃⲟⲗ Ⲫ̀ⲓⲱⲧ Ⲡⲟ︦ⲥ︦ ⲛ̀ⲧ̀ⲫⲉ ⲛⲉⲙ ⲡ̀ⲕⲁϩⲓ ϫⲉ ⲁⲕϩⲉⲡ ⲛⲁⲓ ⲉ̀ϩⲁⲛⲥⲁⲃⲉⲩ ⲛⲉⲙ ϩⲁⲛⲕⲁⲧϩⲏ ⲧ ⲟⲩⲟϩ ⲁⲕϭⲟⲣⲡⲟⲩ ⲉ̀ⲃⲟⲗ ⲛ̀ϩⲁⲛⲕⲟⲩϫⲓ ⲛ̀ⲁ̀ⲗⲱⲟⲩⲓ̀.\n25 فِي ذَلِكَ الْوَقْتِ أَجَابَ يَسُوعُ وَقَالَ: \" أَشْكُرُكَ أَيُّهَا الْآبُ رَبُّ السَّمَاءِ وَالْأَرْضِ، لِأَنَّكَ أَخْفَيْتَ هَذِهِ عَنِ الْحُكَمَاءِ وَالْفُهَمَاءِ وَأَعْلَنْتَهَا لِلْأَطْفَالِ.\n26 Even so, Father, for so it seemed good in Your sight.\nⲀ̀ϩⲁ Ⲫ̀ⲓⲱⲧ ϫⲉ ⲫⲁⲓ ⲡⲉ ⲡⲓϯⲙⲁϯ ⲉ̀ⲧⲁϥϣⲱⲡⲓ ⲙ̀ⲡⲉⲕⲙ̀ⲑⲟ.\n26 نَعَمْ أَيُّهَا الْآبُ، لِأَنَّ هَذِهِ هِيَ الْمَسَرَّةُ الَّتِي صَارَتْ أَمَامَكَ.\n27 All things have been delivered to Me by My Father, and no one knows the Son except the Father. Nor does anyone know the Father except the Son, and the one to whom the Son wills to reveal Him.\nϨⲱⲃ ⲛⲓⲃⲉⲛ ⲁ̀ Ⲫ̀ⲓⲱⲧ ⲧⲏⲓⲧⲟⲩ ⲉ̀ⲧⲟⲧ ⲟⲩⲟϩ ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲥⲱⲟⲩⲛ ⲙ̀Ⲡ̀ϣⲏⲣⲓ ⲉ̀ⲃⲏⲗ ⲉ̀Ⲫ̀ⲓⲱⲧ ⲟⲩⲇⲉ ⲙ̀ⲙⲟⲛ ϩ̀ⲗⲓ ⲥⲱⲟⲩⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲉ̀ⲃⲏⲗ ⲉ̀Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ ⲫⲏⲉ̀ⲧⲉϩⲛⲉ Ⲡ̀ϣⲏⲣⲓ ⲉ̀ϭⲱⲣⲡ ⲛⲁϥ ⲉ̀ⲃⲟⲗ.\n27 كُلُّ شَيْءٍ قَدْ دُفِعَ إلَيَّ مِنْ أَبِي، وَلَيْسَ أَحَدٌ يَعْرِفُ الاِبْنَ إلَّا الْآبُ، وَلَا أَحَدٌ يَعْرِفُ الْآبَ إِلَّا الاِبْنُ وَمَنْ أَرَادَ الاِبْنُ أَنْ يُعْلِنَ لَهُ.\n28 Come to Me, all you who labor and are heavy laden, and I will give you rest.\nⲀ̀ⲙⲱⲓⲛⲓ ϩⲁⲣⲟⲓ ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧϧⲟⲥⲓ ⲟⲩⲟϩ ⲉⲧⲟⲡⲧ ϧⲁ ⲛⲟⲩⲉⲧⲫⲱⲟⲩⲓ̀ ⲟⲩⲟϩ ⲁ̀ⲛⲟⲕ ⲉⲑⲛⲁϯⲙ̀ⲧⲟⲛ ⲛⲱⲧⲉⲛ.\n28 تَعَالَوْا إِلَيَّ يَا جَمِيعَ الْمُتْعَبِينَ وَالثَّقِيلِي الْأَحْمَالِ، وَأَنَا أُرِيحُكُمْ.\n29 Take My yoke upon you and learn from Me, for I am gentle and lowly in heart, and you will find rest for your souls.\nⲀ̀ⲗⲓⲟⲩⲓ̀ ⲙ̀ⲡⲁⲛⲁϩⲃⲉϥ ⲉ̀ϫⲉⲛ ⲑⲏⲛⲟⲩ ⲟⲩⲟϩ ⲁ̀ⲣⲓⲉ̀ⲙⲓ ⲉ̀ⲃⲟⲗ ⲙ̀ⲙⲟⲓ ϫⲉ ⲁ̀ⲛⲟⲕ ⲟⲩⲣⲉⲙⲣⲁⲩϣ ⲟⲩⲟϩ ϯⲑⲉⲃⲓⲏⲟⲩⲧ ϧⲉⲛ ⲡⲁϩⲏⲧ ⲟⲩⲟϩ ⲉ̀ⲣⲉⲧⲉⲛⲉ̀ϫⲓⲙⲓ ⲛ̀ⲟⲩⲙⲁⲛⲉⲙⲧⲟⲛ ⲛ̀ⲛⲉⲧⲉⲛⲯⲩⲭⲏ.\n29 اِحْمِلُوا نِيرِي عَلَيْكُمْ وَتَعَلَّمُوا مِنِّي؛ لِأَنِّي وَدِيعٌ وَمُتَوَاضِعُ الْقَلْبِ، فَتَجِدُوا رَاحَةً لِنُفُوسِكُمْ.\n30 For My yoke is easy and My burden is light.”\nⲠⲁⲛⲁϩⲃⲉϥ ⲅⲁⲣ ϥ̀ϩⲟⲗϫ ⲟⲩⲟϩ ⲧⲁⲉⲧⲫⲱ ⲁ̀ⲥⲓⲱ̀ⲟⲩ\n30 لِأَنَّ نِيرِي هَيِّنٌ وَحِمْلِي خَفِيفٌ \".",
+          "body_envelope_sha256": "90c1d9a694ab4b4390541853790875b6e465c0a148280e2ca8d7d76a8860bb93",
+          "boundary_claim": "source envelope only; no canonical range or Psalm normalization asserted"
+        }
+      ],
+      "independent_review": "lent-psalm-gospel-independent-review-04",
+      "recurrence_approved": false,
+      "canonical_coordinates_approved": false,
+      "production_activation_approved": false,
+      "duplicate_qualified_key_witness": false
+    },
+    "independent_review_receipt": "lent-psalm-gospel-independent-review-04/FINAL-RECEIPT.json",
+    "acceptance": "exact_dated_source_only",
+    "canonical_equivalence_approved": false,
+    "recurrence_approved": false,
+    "runtime_activation": false
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "scope": "Source-derived exact membership and transformation relationships for canonical projection 1.3.6; no candidate-derived complete-output oracle; not package/release clearance",
+  "source_contract": "sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json",
+  "source_contract_sha256": "739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d",
+  "babah_authority": "sources/user-corrections/babah-third-sunday-pauline.json",
+  "babah_preferred": {
+    "identity_key": "rid_b26f6d285b33240934a2",
+    "source_family": "ordinary_date_resolved",
+    "source_kind": "copticchurch_date",
+    "occasion": "The third Sunday of Babah",
+    "service_section": "Liturgy",
+    "service_hour": "",
+    "slot": "Pauline Epistle",
+    "calendar_keys": "The third Sunday of Babah",
+    "canonical_mt_ref": "1Cor 16:12-24",
+    "canonical_lxx_ref": "1Cor 16:12-24"
+  },
+  "covenant_current_psalms": [
+    [
+      "Great Thursday",
+      "Liturgy of Blessing of the Water",
+      "Liturgy of Blessing of the Water",
+      "Psalm",
+      "rid_4e94fbdc2a3d936100b7",
+      "Ps 51:10"
+    ],
+    [
+      "Great Thursday",
+      "Liturgy of Blessing of the Water",
+      "Liturgy of Blessing of the Water",
+      "Psalm",
+      "rid_c07ee2db248f57c9c5d8",
+      "Ps 51:7"
+    ],
+    [
+      "the Covenant Thursday",
+      "Liturgy",
+      "Liturgy",
+      "Psalm",
+      "rid_1104fd6177fc11b72194",
+      "Ps 23:5"
+    ],
+    [
+      "the Covenant Thursday",
+      "Liturgy",
+      "Liturgy",
+      "Psalm",
+      "rid_c60390570a2dbfe58f13",
+      "Ps 41:9"
+    ]
+  ],
+  "inactive_covenant_composite_ids": [
+    "rid_96d87f4353e3c1832d01",
+    "rid_cc534b4c2513e420d4bb"
+  ],
+  "qualification": "Historical composite Psalm witnesses cannot win priority over current qualified fragments. Preserve old witness statuses and nonapproval flags; no new removal-effective-version entries are authorized by this fixture.",
+  "predecessor": {
+    "policy_sha256": "0dec1b3805691b764b55c46b0cefe65cd951e776d536097679437558e948dd40",
+    "input_sha256": "05fe6f0e2a36d90904c3b8be7c81417937b04a1357528b136a8fd064f8717ca9",
+    "output_sha256": "d2b868f5cd59343b8255b9a9dadeb29be52e622daa7b61ca7a27bc984097596f"
+  },
+  "source_authorities": {
+    "sources/user-corrections/bright-saturday-composites-2026-10-25.json": "6365f62b235fcf3b0b41a7d96d11096de01a7cf93107c87943155a5aea5bc5a0",
+    "sources/user-corrections/covenant-thursday-2026-10-25.json": "6f55d664a385ff5f0efc7756936d9dd06bb2019a7d8cd361f25e2c2fb83bcb02",
+    "sources/user-corrections/jonah-fast-2026-10-25.json": "7ed7fcf10eae622af4633add3c55f0b497426f13757c7e17256c4aed08cc493e",
+    "sources/user-corrections/ordinary-appointment-repairs-2026-10-25.json": "d86c2973f020a707d9eafa855e01c5226c81e046e0c9e87ec4322aba2d6bdbe6",
+    "sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json": "739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d"
+  },
+  "approved_supersessions_sha256": "ca1164da0c0dac47fb2eb94fb371c8b699b5861c28511f7b39b3226020a09e88"
+}

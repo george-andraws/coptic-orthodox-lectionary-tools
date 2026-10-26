@@ -1,0 +1,176 @@
+{
+  "id": "SundayReadings-8",
+  "date": "2026-11-01",
+  "family": "SundayReadings",
+  "key": {
+    "Id": 8,
+    "Month_Number": 2,
+    "Month_Name": "Babah",
+    "Day": 4,
+    "DayName": "Fourth Sunday of Babah"
+  },
+  "homeContext": "Selected Season 4th Sunday of Paope Paope 22, 1743 Sunday, November 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Luke the Evangelist",
+  "status": "whole_ordinary_scripture_table_captured",
+  "documents": [
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Vespers",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Vespers.txt",
+      "screenshotPath": "SundayReadings-8/Vespers.png",
+      "textSha256": "044700b423b9359a5bb7e0d4a752748ddbd716ea8840ff58ae76bf33bbe09d4e",
+      "screenshotSha256": "36bd2273d35076b271792ccdaefe662be3829eb3cc17260b898daa7308367ce2",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:48:58.101Z",
+      "printedReferences": [
+        "Psalms 118:4,5",
+        "Matthew 14:22-36"
+      ]
+    },
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Matins-Prophecies",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Matins-Prophecies.txt",
+      "screenshotPath": "SundayReadings-8/Matins-Prophecies.png",
+      "textSha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "screenshotSha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:49:02.960Z",
+      "printedReferences": []
+    },
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Matins-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Matins-Psalm_and_Gospel.txt",
+      "screenshotPath": "SundayReadings-8/Matins-Psalm_and_Gospel.png",
+      "textSha256": "adf6432b34c2cf28eb422087cf59e0efd812ec36a1eecdde9eaffdacea23acae",
+      "screenshotSha256": "5234749776d941b0c1c3a4c0ec42dcc737166accca9f28f110a36efa29f76a1d",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:49:06.083Z",
+      "printedReferences": [
+        "Psalms 34:21,30",
+        "John 20:1-18"
+      ]
+    },
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Liturgy-Pauline Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Liturgy-Pauline_Epistle.txt",
+      "screenshotPath": "SundayReadings-8/Liturgy-Pauline_Epistle.png",
+      "textSha256": "4a92dbf03b12904f7e57b9d1a2af1043eccad954a5d974ea58c3db8f25c27598",
+      "screenshotSha256": "3f7bcfecb80d4fc651441cbdc12701717f601d6bc1645382aa8f289d5a0ca1ed",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:49:11.175Z",
+      "printedReferences": [
+        "1 Timothy 6:3-21"
+      ]
+    },
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Liturgy-Catholic Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Liturgy-Catholic_Epistle.txt",
+      "screenshotPath": "SundayReadings-8/Liturgy-Catholic_Epistle.png",
+      "textSha256": "a34842c0fb86a6d4260de7182f7c56b59e38291cc217d06c088d8b4800c0fdec",
+      "screenshotSha256": "34aaa407fd749dad0031605406cd50f1fffc84b95375d2fe4703ea61474db8b3",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:49:14.060Z",
+      "printedReferences": [
+        "James 4:17-5:11"
+      ]
+    },
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Liturgy-Praxis",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Liturgy-Praxis.txt",
+      "screenshotPath": "SundayReadings-8/Liturgy-Praxis.png",
+      "textSha256": "8cdf53d91d7f810ed2997d201ebb268f4bd2add9cf79204c93d05051ceb41873",
+      "screenshotSha256": "109b316d9ff1f1fa5e3ec2540be973a3fef704ee5e7254cbd646ea0c4a16608f",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:49:16.717Z",
+      "printedReferences": [
+        "Acts 15:36-16:5"
+      ]
+    },
+    {
+      "context": "SundayReadings-8",
+      "date": "2026-11-01",
+      "label": "Liturgy-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "SundayReadings-8/Liturgy-Psalm_and_Gospel.txt",
+      "screenshotPath": "SundayReadings-8/Liturgy-Psalm_and_Gospel.png",
+      "textSha256": "7e0fed61dfc696ce9eb0c6b815edee05905e97eb5941a74542378e576a33c99f",
+      "screenshotSha256": "d0903e8b1233878bac707e321dc8a99e399e76fefc91324fa6a002e3d89d1ada",
+      "buttons": [],
+      "capturedAt": "2026-10-07T16:49:20.191Z",
+      "printedReferences": [
+        "Psalms 78:14",
+        "Luke 7:11-17"
+      ]
+    }
+  ],
+  "orderedPrintedReferences": [
+    {
+      "slot": "Vespers",
+      "refs": [
+        "Psalms 118:4,5",
+        "Matthew 14:22-36"
+      ]
+    },
+    {
+      "slot": "Matins-Prophecies",
+      "refs": []
+    },
+    {
+      "slot": "Matins-Psalm and Gospel",
+      "refs": [
+        "Psalms 34:21,30",
+        "John 20:1-18"
+      ]
+    },
+    {
+      "slot": "Liturgy-Pauline Epistle",
+      "refs": [
+        "1 Timothy 6:3-21"
+      ]
+    },
+    {
+      "slot": "Liturgy-Catholic Epistle",
+      "refs": [
+        "James 4:17-5:11"
+      ]
+    },
+    {
+      "slot": "Liturgy-Praxis",
+      "refs": [
+        "Acts 15:36-16:5"
+      ]
+    },
+    {
+      "slot": "Liturgy-Psalm and Gospel",
+      "refs": [
+        "Psalms 78:14",
+        "Luke 7:11-17"
+      ]
+    }
+  ],
+  "tableTextSha256": "d3dcc93640e4778e1083761a86350ebeb6c0e4fc558d44d328eb1122dabb285d",
+  "note": "Synaxarion and Antiphonary excluded; rubric documents retained; literal printed Psalm refs not normalized"
+}

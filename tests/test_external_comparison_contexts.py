@@ -175,6 +175,53 @@ class ContextComparisonTests(unittest.TestCase):
                 source, daily = self.fixtures(date)
                 self.assertEqual(self.compare(source, daily)['status'], 'pass')
 
+    def test_source_qualified_joel_appointments_preserve_exact_context(self):
+        for date in ('2026-02-18', '2026-03-18'):
+            source, original = self.fixtures(date)
+            with self.subTest(date=date):
+                result = self.compare(source, original)
+                self.assertEqual(result['status'], 'pass', result['comparison_rows'])
+                # Complete authenticated Reader tables take precedence in these
+                # dated services. The separate legacy-only fallback is exercised
+                # in test_lent_reader_precedence.py, not added beside this table.
+                expected_joel = {'2026-02-18': 'Joel 2:12-26',
+                                 '2026-03-18': 'Joel 3:9-21'}[date]
+                selected = next(i for i, r in enumerate(original[date])
+                                if r['source_family'] == 'coptic_reader_verified_supplement'
+                                and r['canonical_mt_ref'] == expected_joel)
+                for field, value in [('occasion', 'Other Wednesday'), ('source_family', 'ordinary_date_resolved'),
+                                     ('source_kind', 'pascha_day_hour'), ('source_locator', 'forged.txt'),
+                                     ('display_ref', 'Joel 1:1-2'), ('spans_json', '[]'),
+                                     ('current_status', 'historical_witness'), ('slot', 'OT1')]:
+                    with self.subTest(field=field):
+                        daily = copy.deepcopy(original)
+                        daily[date][selected][field] = value
+                        self.rejected(source, daily)
+                self.rejected(source, {date: [r for i, r in enumerate(original[date]) if i != selected]})
+
+    def test_qualified_hosanna_day_ninth_hour_has_exact_source_disposition(self):
+        source, original = self.fixtures('2026-04-05')
+        result = self.compare(source, original)
+        self.assertEqual(result['status'], 'pass', result['comparison_rows'])
+        dispositions = [r for r in result['audit_dispositions']
+                        if r['occasion'] == 'Hosanna Sunday' and r['service_section'] == 'Ninth Hour']
+        self.assertEqual(sum(r['count'] for r in dispositions), 3)  # Psalm, prophecy, Gospel.
+        selected = next(i for i, r in enumerate(original['2026-04-05'])
+                        if r['source_kind'] == 'coptic_reader_qualified_pascha_hour')
+        for field, value in [('occasion', 'Monday Eve'), ('service_hour', 'Eleventh Hour'),
+                             ('service_section', 'Eleventh Hour'), ('source_family', 'holy_pascha_curated_day_hour'),
+                             ('source_kind', 'pascha_day_hour'), ('source_locator', 'forged.txt'),
+                             ('source_disclosure', '[]'), ('spans_json', '[]'),
+                             ('display_ref', 'Lam 1:1-3'), ('canonical_mt_ref', 'Lam 1:1-3'),
+                             ('slot', 'OT2'), ('slot_order', 2), ('identity_key', 'forged'),
+                             ('current_status', 'historical_witness')]:
+            with self.subTest(field=field):
+                daily = copy.deepcopy(original)
+                daily['2026-04-05'][selected][field] = value
+                self.rejected(source, daily)
+        for date in ('2026-04-04', '2026-04-06'):
+            self.rejected([], {date: [copy.deepcopy(original['2026-04-05'][selected])]})
+
     def test_restored_structural_rows_do_not_bypass_context_or_reading_validation(self):
         for date, family in [('2026-04-08', 'coptic_reader'), ('2026-04-05', 'holy_pascha_curated_day_hour')]:
             source, original = self.fixtures(date)

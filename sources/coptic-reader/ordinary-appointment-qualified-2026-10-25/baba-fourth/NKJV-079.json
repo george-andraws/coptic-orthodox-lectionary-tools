@@ -1,0 +1,24 @@
+{
+  "kind": "NKJV",
+  "edition": "NKJV (Bible Gateway/Thomas Nelson)",
+  "url": "https://www.biblegateway.com/passage/?search=Psalm+79&version=NKJV",
+  "raw_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/psalm-source-frontier-research-06/fresh-primary-witnesses/NKJV-079.html",
+  "raw_sha256": "2f420601a1c6d1a65324873609c29bae4e976f21adc373945dd767df71a1c89d",
+  "verses": {
+    "79:1": "O God, the nations have come into Your inheritance; Your holy temple they have defiled; They have laid Jerusalem in heaps.",
+    "79:2": "The dead bodies of Your servants They have given as food for the birds of the heavens, The flesh of Your saints to the beasts of the earth.",
+    "79:3": "Their blood they have shed like water all around Jerusalem, And there was no one to bury them.",
+    "79:4": "We have become a reproach to our neighbors, A scorn and derision to those who are around us.",
+    "79:5": "How long, Lord ? Will You be angry forever? Will Your jealousy burn like fire?",
+    "79:6": "Pour out Your wrath on the nations that do not know You, And on the kingdoms that do not call on Your name.",
+    "79:7": "For they have devoured Jacob, And laid waste his dwelling place.",
+    "79:8": "Oh, do not remember former iniquities against us! Let Your tender mercies come speedily to meet us, For we have been brought very low.",
+    "79:9": "Help us, O God of our salvation, For the glory of Your name; And deliver us, and provide atonement for our sins, For Your name’s sake!",
+    "79:10": "Why should the nations say, “Where is their God?” Let there be known among the nations in our sight The avenging of the blood of Your servants which has been shed.",
+    "79:11": "Let the groaning of the prisoner come before You; According to the greatness of Your power Preserve those who are appointed to die;",
+    "79:12": "And return to our neighbors sevenfold into their bosom Their reproach with which they have reproached You, O Lord.",
+    "79:13": "So we, Your people and sheep of Your pasture, Will give You thanks forever; We will show forth Your praise to all generations."
+  },
+  "printed_verse_labels": null,
+  "fetch_reason": "Missing source-body text-driven NKJV candidates or printed Brenton chapter absent from archive. Retrieval target is not mapping approval."
+}

@@ -1,0 +1,369 @@
+{
+  "schema": "retained_pascha_resolution_evidence_v1",
+  "purpose": "Portable authentication for existing bounded Pascha repairs only; no new appointments or canonicalization.",
+  "source_url": "https://copticreader.org/app/",
+  "retention_label": "2026-10-25",
+  "retention_label_is_capture_date": false,
+  "app_version": null,
+  "capture_time": null,
+  "fresh_app_verification": false,
+  "new_appointment_approval": false,
+  "documents": {
+    "good_friday_twelfth": {
+      "file": "fresh-pascha/friday--12th-hour.txt",
+      "sha256": "9a6bd0b11b67fa6d3cfbe10a99b84a085796b8b3e886ddec4d191ef02dbe2e0e",
+      "bytes": 104899,
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--12th-hour.txt",
+      "document_title": "Great Friday (The Twelfth Hour)",
+      "full_rendered_text": true,
+      "line_count": 925,
+      "service_day": "Good Friday",
+      "service_hour": "Twelfth Hour",
+      "navigation": [
+        "Special",
+        "Pascha",
+        "Friday",
+        "12th Hour"
+      ],
+      "qualification_notes": "Retained local Coptic Reader evidence, not a fresh app visit or new source approval. The full Great Friday Twelfth Hour capture prints Lamentations 3:1-66 and contains no Jonah reading. This supports only the existing Good Friday resolution; it does not change the retained Katameros Jonah 1:10-2:8 or Ottawa Jonah 1:10-2:7 edition witnesses.",
+      "readings": [
+        {
+          "heading_line": 13,
+          "heading_exact": "\tLamentations 3:1-66",
+          "body_first_line": 14,
+          "body_last_line": 90,
+          "body_sha256": "2caeaab312e0aa908c4d56544af204bcb1cc6d54d3ba85338b8b0f15533dcb35",
+          "body_opening_exact": "(أرميا 3: 1-66)",
+          "body_closing_exact": "مَجْدًا لِلْثَّالُوثِ القُدُّوسِ إِلَهِنَا، إِلَى الأَبَدِ وإِلَى أَبَدِ الآبَادِ كُلِّهَا. آمِينْ."
+        }
+      ],
+      "companions": [
+        {
+          "file": "fresh-pascha/friday--12th-hour.png",
+          "sha256": "a18f9c8d2754567781fe520b0cdaa31bad3c431f8fefe007d91d3c43842f9917",
+          "bytes": 548896,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--12th-hour.png"
+        },
+        {
+          "file": "fresh-pascha/friday--selected-home.txt",
+          "sha256": "7130ef338dbcd499a3d77bf1c8d686cddaa9306af63e73eefaeb1c43ae2d2ff8",
+          "bytes": 139,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--selected-home.txt",
+          "line_count": 10,
+          "first_line_exact": "Selected Season Great Friday Parmoute 2, 1742 Friday, April 10, 2026"
+        },
+        {
+          "file": "fresh-pascha/friday--selected-home.png",
+          "sha256": "af19e407d61e5898ec0ebaa2eb04c5007057d726e4f22fddbcf00688f34ff581",
+          "bytes": 674213,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--selected-home.png"
+        },
+        {
+          "file": "fresh-pascha/friday--selected-picker.txt",
+          "sha256": "1794d70c187f5da126bdce5a32c8f10179d1a2a31dde2feb24c4d278260460ed",
+          "bytes": 237,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--selected-picker.txt",
+          "line_count": 26,
+          "first_line_exact": "Close"
+        },
+        {
+          "file": "fresh-pascha/friday--selected-picker.png",
+          "sha256": "4d5db6ec9e4e85d2c1c97335c414cbe7cc9f0a47e1686d57b684da988cea9bc3",
+          "bytes": 272624,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--selected-picker.png"
+        },
+        {
+          "file": "fresh-pascha/friday--menu.txt",
+          "sha256": "b09979f8127dea9c40c0a4f212a483acfffb04ad9c5da1ed80bbd2ee20f6c03b",
+          "bytes": 69,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--menu.txt",
+          "line_count": 8,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "fresh-pascha/friday--menu.png",
+          "sha256": "f29777901e81824ef0c2d4bcbd536df09920b5241650b9e94940269212f3dac8",
+          "bytes": 249813,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/friday--menu.png"
+        },
+        {
+          "file": "fresh-pascha/pascha-root.txt",
+          "sha256": "4c5acfd7f55de0fee8ca8c66281f8c92545d4b14221ebc681191daee0a86e894",
+          "bytes": 74,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/pascha-root.txt",
+          "line_count": 9,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "fresh-pascha/pascha-root.png",
+          "sha256": "a4e3802d6aa7aeca415aeac4efe343dd647abc2b316ddba047006a39c5719c08",
+          "bytes": 499144,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/pascha-root.png"
+        }
+      ],
+      "selected_context": "Selected Season Great Friday Parmoute 2, 1742 Friday, April 10, 2026"
+    },
+    "hosanna_sunday_day_ninth": {
+      "file": "hosanna-sunday/Sunday--Sunday_Day--9th_Hour.txt",
+      "sha256": "ea7e186ff09fe3ab46ee4dc16aa7ba6e4a740060d714bec78aaf30ea49bebd74",
+      "bytes": 38060,
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--9th_Hour.txt",
+      "document_title": "Hosanna Sunday (The Ninth Hour)",
+      "full_rendered_text": true,
+      "line_count": 377,
+      "service_day": "Hosanna Sunday",
+      "service_hour": "Ninth Hour",
+      "navigation": [
+        "Special",
+        "Pascha",
+        "Sunday",
+        "Sunday Day",
+        "9th Hour"
+      ],
+      "qualification_notes": "Retained local Coptic Reader evidence, not a fresh app visit or new source approval. The daytime Ninth Hour prints Lamentations 1:1-4, not 1:1-5. This is Sunday Day, not Monday Eve or the General Funeral Prayer; no wider appointment or canonicalization is authorized. The selected date is April 5, 2026; the retained date-panel separately labels its live clock October 7, 2026. Neither is a newly asserted capture timestamp.",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tLamentations 1:1-4",
+          "body_first_line": 13,
+          "body_last_line": 46,
+          "body_sha256": "6bc1030395761ab1704d0aaf2e378b83fde16cef62c534ca03284c037e5d38a1",
+          "body_opening_exact": "(مراثي أرميا 1: 1-4)",
+          "body_closing_exact": "مَجْدًا لِلْثَّالُوثِ القُدُّوسِ إِلَهِنَا، إِلَى الأَبَدِ وإِلَى أَبَدِ الآبَادِ كُلِّهَا. آمِينْ."
+        },
+        {
+          "heading_line": 47,
+          "heading_exact": "\tZephaniah 3:11-20",
+          "body_first_line": 48,
+          "body_last_line": 105,
+          "body_sha256": "37e2c171d4d732bb54297a0051e48f7e38e2175613370ec7769ca5f728c087d6",
+          "body_opening_exact": "(صفنيا 3: 11-20)",
+          "body_closing_exact": "مَجْدًا لِلْثَّالُوثِ القُدُّوسِ إِلَهِنَا، إِلَى الأَبَدِ وإِلَى أَبَدِ الآبَادِ كُلِّهَا. آمِينْ."
+        }
+      ],
+      "companions": [
+        {
+          "file": "hosanna-sunday/Sunday--Sunday_Day--9th_Hour.png",
+          "sha256": "22e8d552e1170cd72abc516eb771d9da0aeceb036ae1cf6b061e2ea4335e32d7",
+          "bytes": 542212,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--9th_Hour.png"
+        },
+        {
+          "file": "hosanna-sunday/home-selected.txt",
+          "sha256": "779e894d8b29de9440c4f71ade82dfabdf3268d25cae51deb1519598617b82e5",
+          "bytes": 181,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/home-selected.txt",
+          "line_count": 12,
+          "first_line_exact": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026"
+        },
+        {
+          "file": "hosanna-sunday/home-selected.png",
+          "sha256": "78c0c3448dd23439f81d804764d3c99ed86cb496b893c08f604177789af84b33",
+          "bytes": 685267,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/home-selected.png"
+        },
+        {
+          "file": "hosanna-sunday/picker-selected.txt",
+          "sha256": "d3dc1e313f6ad893ba4c510c99ef016edd2ff26d59dd5a5be64a729acd8dd5d7",
+          "bytes": 237,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/picker-selected.txt",
+          "line_count": 26,
+          "first_line_exact": "Close"
+        },
+        {
+          "file": "hosanna-sunday/picker-selected.png",
+          "sha256": "79144918b10cd6688aa46f3db0d5cfbbd36edbc774aff42a00732db36f301d43",
+          "bytes": 275313,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/picker-selected.png"
+        },
+        {
+          "file": "hosanna-sunday/date-panel-selected.txt",
+          "sha256": "944353c44d94f90d5dcc29ca4a601c1b4704b191f1ae4a3b70e57365db15bcf2",
+          "bytes": 1226,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/date-panel-selected.txt",
+          "line_count": 25,
+          "first_line_exact": "Select Date/Time"
+        },
+        {
+          "file": "hosanna-sunday/date-panel-selected.png",
+          "sha256": "569f6bfdc85bc882d3c123e19e70984a94c49a599e608123035d0d60fb3ff034",
+          "bytes": 215241,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/date-panel-selected.png"
+        },
+        {
+          "file": "hosanna-sunday/Special--Pascha--menu.txt",
+          "sha256": "5a90783f96998b7b29e3ddd089f6115f58113c174c12b480e2c9294f5f9fd435",
+          "bytes": 112,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Special--Pascha--menu.txt",
+          "line_count": 11,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "hosanna-sunday/Special--Pascha--menu.png",
+          "sha256": "1db02fcc884065f55f6afea8ffcf9bac2a3db2a9381984fa003994ada51d938b",
+          "bytes": 246080,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Special--Pascha--menu.png"
+        },
+        {
+          "file": "hosanna-sunday/Sunday--menu.txt",
+          "sha256": "997a48c62b85a6d316606fc8eb04cf14af3a30bddb776b122626179e31323c22",
+          "bytes": 58,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--menu.txt",
+          "line_count": 5,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "hosanna-sunday/Sunday--menu.png",
+          "sha256": "0bfc7332b4df0dd0bf6c37ca209af2db3c675e5fda16e947a9745f1b144bc7c9",
+          "bytes": 232890,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--menu.png"
+        },
+        {
+          "file": "hosanna-sunday/Sunday--Sunday_Day--menu.txt",
+          "sha256": "8097ce2587584cd01b5528b61b8691d18a348ebc3459a4ec99cbcb9a82d7f142",
+          "bytes": 23,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--menu.txt",
+          "line_count": 3,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "hosanna-sunday/Sunday--Sunday_Day--menu.png",
+          "sha256": "7bc97fb06a1dec3c2977c827c9b5bdbf415fc67a118f3e015c1debefd234d38d",
+          "bytes": 227413,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/pascha-evidence-repair/2026-04-05/569e2bf0-cc14-474b-998e-b5942227faae/Sunday--Sunday_Day--menu.png"
+        }
+      ],
+      "selected_context": "Selected Season Hosanna Sunday Paremhotep 27, 1742 Sunday, April 5, 2026"
+    },
+    "bright_saturday_matins": {
+      "file": "fresh-pascha/saturday--matins.txt",
+      "sha256": "eb373a8c80ae9fcb658c1726c38a1815281a078217a5d61e1bb305b08cedbb7f",
+      "bytes": 278640,
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--matins.txt",
+      "document_title": "Offering of Morning Incense",
+      "full_rendered_text": true,
+      "line_count": 2259,
+      "service_day": "Bright Saturday",
+      "service_hour": "Matins",
+      "navigation": [
+        "Special",
+        "Pascha",
+        "Saturday",
+        "Matins"
+      ],
+      "qualification_notes": "Retained local Coptic Reader evidence, not a fresh app visit or new source approval. The document title is Offering of Morning Incense; selected home says Joyous Saturday and the Pascha Saturday menu identifies Matins. The service Pauline heading/body is 1 Corinthians 5:7-13, not 1 Corinthians 1:1-19. The earlier Ephesians 4:1-5 excerpt belongs to the morning prayer context; it is not an additional newly approved appointment. Printed Psalm labels are retained without edition-coordinate conversion. This document does not authenticate Praises, Susanna, Manasseh, Azariah or a Jeremiah heading/body repair.",
+      "readings": [
+        {
+          "heading_line": 288,
+          "heading_exact": "\tPauline Epistle (Ephesians 4:1-5)",
+          "body_first_line": 289,
+          "body_last_line": 291,
+          "body_sha256": "548e277403db87123ebc1c59fa5484393e44d26adf14db1f3ad49c689a524230",
+          "body_opening_exact": "(رسالة بولس الرسول إلى أهل أفسس 4: 1-5)",
+          "body_closing_exact": "فأسألكم أنا الأسير في الرب أن تسلكوا كما يَحِقّ للدعوة التي دعيتم إليها، بكل تواضع القلب والوداعة وطول الأناة، محتملين بعضكم بعضاً بالمحبة، مسرعين إلى حفظ وحدانية الروح برباط الصُّلح الكامل. لكي تكونوا جسداً واحداً، وروحاً واحداً، كما دعيتم في رجاء دعوتكم الواحد. ربٌ واحدٌ، وإيمانٌ واحدٌ، ومعموديةٌ واحدةٌ."
+        },
+        {
+          "heading_line": 1429,
+          "heading_exact": "\tIsaiah 55:2-13",
+          "body_first_line": 1430,
+          "body_last_line": 1463,
+          "body_sha256": "b754e7599c4c6c70e1437a78a0a7492303045355ce1d14de9389ebb971067caf",
+          "body_opening_exact": "(اشعياء 55: 2-13)",
+          "body_closing_exact": "مجداً للثالوث القدوس إلهنا الى أبد الآبدين كلها آمين."
+        },
+        {
+          "heading_line": 1517,
+          "heading_exact": "\t1 Corinthians 5:7-13",
+          "body_first_line": 1518,
+          "body_last_line": 1545,
+          "body_sha256": "f7218c3c91690068a42641d3128202b3d062013fd742fc78d5cda481d3b38f35",
+          "body_opening_exact": "(1 كورنثوس 5: 7-13)",
+          "body_closing_exact": "نعمة الله الآب تكون مع جميعِكم. آمين."
+        },
+        {
+          "heading_line": 1663,
+          "heading_exact": "\tPsalm 88:4-5; 44:23,26; 126:2-3",
+          "body_first_line": 1664,
+          "body_last_line": 1694,
+          "body_sha256": "286e7fce1895477d8f3b21db1fad6db1f294fc67e943f130ed3b4fbc75535a45",
+          "body_opening_exact": "(مزامير 88: 4; 44: 23,26)",
+          "body_closing_exact": "ويقرأ الانجيل نصفه بلحن الحزن والنصف الآخر بالطريقة السنوية."
+        },
+        {
+          "heading_line": 1695,
+          "heading_exact": "\tMatthew 27:62-66",
+          "body_first_line": 1696,
+          "body_last_line": 1721,
+          "body_sha256": "db4aeaf97cf1f28a4a39c3b6237a5f3cff6df2ec0f729093231282c363ec6a43",
+          "body_opening_exact": "(متى 27: 62-66)",
+          "body_closing_exact": "Note that the correct translation is \"Glory to You O Lord\""
+        }
+      ],
+      "companions": [
+        {
+          "file": "fresh-pascha/saturday--matins.png",
+          "sha256": "335e7b186cfaa3934f5305cde0307e73df653eee265d0d24be4e5c61e7f0dd0f",
+          "bytes": 507061,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--matins.png"
+        },
+        {
+          "file": "fresh-pascha/saturday--selected-home.txt",
+          "sha256": "99e67e4c6849de6feb92829e48de023c8313f551c95acdbd71e443c678dbbf6c",
+          "bytes": 144,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-home.txt",
+          "line_count": 10,
+          "first_line_exact": "Selected Season Joyous Saturday Parmoute 3, 1742 Saturday, April 11, 2026"
+        },
+        {
+          "file": "fresh-pascha/saturday--selected-home.png",
+          "sha256": "f70363c896db11de05df4522c6e8ef597909862e46bba5f205130bdb2b83878f",
+          "bytes": 677268,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-home.png"
+        },
+        {
+          "file": "fresh-pascha/saturday--selected-picker.txt",
+          "sha256": "6372317b420b142cd23d7cee13909e1b80d34a19fbac9af77b2aff69e9131007",
+          "bytes": 237,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-picker.txt",
+          "line_count": 26,
+          "first_line_exact": "Close"
+        },
+        {
+          "file": "fresh-pascha/saturday--selected-picker.png",
+          "sha256": "02821df79c81987c33f7c521b7c14ec1d8608c5ee7f8c5c6a52606a2047f89a2",
+          "bytes": 272171,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-picker.png"
+        },
+        {
+          "file": "fresh-pascha/saturday--menu.txt",
+          "sha256": "d2f6c3e7097d5f11a9534814fadc8c64ab0072e89c175ce12c82ebec995d6d33",
+          "bytes": 150,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--menu.txt",
+          "line_count": 11,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "fresh-pascha/saturday--menu.png",
+          "sha256": "26097a73afbdb802efa4b850b36297ee4ba28bc97fa02cabf9ac490059460b88",
+          "bytes": 428099,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--menu.png"
+        },
+        {
+          "file": "fresh-pascha/pascha-root.txt",
+          "sha256": "4c5acfd7f55de0fee8ca8c66281f8c92545d4b14221ebc681191daee0a86e894",
+          "bytes": 74,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/pascha-root.txt",
+          "line_count": 9,
+          "first_line_exact": "Back"
+        },
+        {
+          "file": "fresh-pascha/pascha-root.png",
+          "sha256": "a4e3802d6aa7aeca415aeac4efe343dd647abc2b316ddba047006a39c5719c08",
+          "bytes": 499144,
+          "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/pascha-root.png"
+        }
+      ],
+      "selected_context": "Selected Season Joyous Saturday Parmoute 3, 1742 Saturday, April 11, 2026"
+    }
+  }
+}

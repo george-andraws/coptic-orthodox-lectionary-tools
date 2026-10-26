@@ -12,7 +12,8 @@ import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from build_design_deliverables import source_family_authority_key, is_seasonal_compatible_status_group
+from build_design_deliverables import (source_family_authority_key, is_seasonal_compatible_status_group,
+                                       is_current_presentation, qualified_reader_pascha_resolution)
 import source_reading_contracts as source_contracts
 
 
@@ -235,7 +236,146 @@ def source_disclosure_key(row: dict) -> tuple[str, str, str, str]:
     )
 
 
-def expected_source_disclosure(source_rows: list[dict]) -> tuple[list[dict], list[str]]:
+def source_plan_qualifications() -> dict:
+    import hashlib
+    path = ROOT / 'sources/user-corrections/reverse-source-key-contract-source-qualified-2026-10-25.json'
+    raw = path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != '739d6374050db17be77b9afc73ff243a3bcc2b27d0fcfeaeed6e976935f0d28d':
+        fail('Independent qualified source plan authentication failed')
+    return json.loads(raw)['mandatory_qualifications']
+
+
+def authenticated_qualified_metadata(row: dict, *, bounded_date=False) -> tuple[str, dict] | None:
+    """Bind projected context to fresh retained RAW evidence, never index output."""
+    import hashlib
+    import bright_saturday_composite_supplements as bright
+    import covenant_thursday_source_supplements as covenant
+    provenance = str(row.get('provenance', ''))
+    bright_lane = (row.get('source_kind') == bright.SOURCE_KIND
+                   or row.get('source_key') == 'coptic_reader_qualified_bright_composite'
+                   or bright.SOURCE_RELATIVE in str(row.get('source_file', ''))
+                   or bright.CONTRACT_RELATIVE in provenance)
+    covenant_lane = ((row.get('source_kind') == covenant.SOURCE_KIND and row.get('day_title') == 'Great Thursday')
+                     or row.get('source_key') == 'coptic_reader_qualified_covenant_thursday'
+                     or str(covenant.SOURCE_RELATIVE) in str(row.get('source_file', ''))
+                     or covenant.CONTRACT_SHA256 in provenance)
+    if not (bright_lane or covenant_lane):
+        return None
+    lane = 'bright_composite_source' if bright_lane else 'covenant_thursday_source'
+    raw_rows = bright.load_bright_composite_rows() if bright_lane else covenant.load_covenant_thursday_rows()
+    for raw in raw_rows:
+        q = json.loads(raw['provenance'])
+        if provenance != raw['provenance']:
+            continue
+        fields = ('source_kind', 'source_family', 'source_file', 'source_row_id',
+                  'source_order', 'source_token_order', 'calendar_key', 'day_title',
+                  'service_day', 'service_hour', 'service_section', 'source_ref', 'raw_ref')
+        expected = {field: raw[field] for field in fields}
+        expected.update(slot=raw['reading_slot'], reading_slot=raw['reading_slot'],
+                        occasion='Bright Saturday' if bright_lane else
+                        ('the Covenant Thursday' if raw['service_section'] == 'Liturgy' else 'Great Thursday'),
+                        source_key='coptic_reader_qualified_bright_composite' if bright_lane else 'coptic_reader_qualified_covenant_thursday',
+                        current_status='pending_psalm_equivalence_unresolved' if bright_lane else 'current_public_or_local_reference',
+                        removed_marker='')
+        if bright_lane:
+            expected.update(bright.bright_composite_identity_for(raw))
+        else:
+            named = q['coordinate_status'] == 'verse_unaddressable_named_excerpt'
+            material = ('scripture_named_excerpt|' + q['printed_ref'] if named else
+                        'scripture|' + q['canonical_mt_ref'] + '|' + q['canonical_lxx_ref'])
+            expected.update(identity_key='rid_' + hashlib.sha256(material.encode()).hexdigest()[:20],
+                            canonical_mt_ref=q['canonical_mt_ref'], canonical_lxx_ref=q['canonical_lxx_ref'])
+            if named and json.loads(row.get('spans_json') or '[]') != []:
+                fail('Qualified named excerpt activated as numeric coordinates')
+        if any(row.get(k, '') != value for k, value in expected.items()):
+            fail('Qualified retained source presentation context/identity/status drift')
+        if row.get('gregorian_date'):
+            import datetime as dt
+            from calendar_resolution import julian_pascha_gregorian
+            allowed = {(julian_pascha_gregorian(y) - dt.timedelta(days=1 if bright_lane else 3)).isoformat()
+                       for y in (2026, 2027, 2028)}
+            if not bounded_date or row['gregorian_date'] not in allowed:
+                fail('Qualified source presentation must remain structurally undated')
+        return lane, q
+    fail('Qualified retained source provenance missing or forged')
+
+
+def qualified_status_disagreement_keys(groups: dict, declared_count: int) -> set:
+    """Only contract-listed joins may disagree; missing witnesses also fail."""
+    qualifications = source_plan_qualifications()
+    known = {tuple(w['key']): w for w in qualifications['covenant_old_witnesses']}
+    import hashlib
+    raw = (ROOT / 'tests/fixtures/covenant-published-1.3.5.json').read_bytes()
+    if hashlib.sha256(raw).hexdigest() != '3c6850d8b2a6ff4275ee6a2b40a18e6fb216d3b590efde0db3a936b03d8c73f2':
+        fail('Published Covenant predecessor witness authentication failed')
+    predecessor = {occasion_index_key(r): r for r in json.loads(raw)['rows']}
+    for key, witness in known.items():
+        rows = groups.get(key, [])
+        current = [r for r in rows if authenticated_qualified_metadata(r) is not None]
+        old = [r for r in rows if r not in current]
+        if len(current) != 1 or len(old) != 1:
+            fail('Qualified Covenant join must retain exactly its current and old witness')
+        if any(old[0].get(f) != witness[f] for f in ('source_family', 'source_kind', 'current_status')) or any(r.get('removed_marker') for r in rows):
+            fail('Qualified Covenant old witness relabeled or removal state changed')
+        if any(old[0].get(f, '') != predecessor[key].get(f, '') for f in
+               ('provenance', 'source_locator', 'source_title', 'source_edition', 'canonical_mt_ref', 'canonical_lxx_ref')):
+            fail('Qualified Covenant predecessor provenance/coordinates rewritten')
+    disagreements = set()
+    for key, rows in groups.items():
+        statuses = {r.get('current_status', '') for r in rows}
+        markers = {r.get('removed_marker', '') for r in rows}
+        if (len(statuses) > 1 or len(markers) > 1) and not is_pascha_wednesday_compatible_status_group(rows, statuses, markers):
+            if key not in known:
+                fail(f'Unrelated source status/marker disagreement: {key}')
+            disagreements.add(key)
+    if disagreements != set(known) or declared_count != len(disagreements):
+        fail('Status disagreement summary differs from enumerated qualified source groups')
+    return disagreements
+
+
+def is_authenticated_bright_hold(row: dict) -> bool:
+    import bright_saturday_composite_supplements as bright
+    if row.get('removed_marker') != 'superseded_' + bright.HOLD:
+        return False
+    contract = bright.authenticate_bright_composite_evidence()
+    if (occasion_index_key(row) not in {tuple(k) for k in source_plan_qualifications()['bright_legacy_inactive_keys']}
+            or row.get('current_status') != 'historical_candidate_removed'
+            or row.get('source_family') != 'bright_saturday'
+            or row.get('source_kind') != 'bright_saturday_service_order'
+            or row.get('source_file') != 'out/data/bright_saturday_service_order.csv'
+            or row.get('provenance') != 'bright_saturday_service_order'):
+        fail('Bright legacy hold source/context/status drift')
+    matches = [r for r in contract['records'] if r['source_order'] == row.get('source_order')
+               and r['source_token_order'] == row.get('source_token_order')
+               and r['legacy_ref'] == row.get('canonical_mt_ref')
+               and r['service_section'] == row.get('service_section')
+               and r['legacy_source_row']['reference'] == row.get('raw_ref')]
+    if (len(matches) != 1 or row.get('superseded_reason') != bright.HOLD
+            or row.get('superseded_by_ref') != matches[0]['source_selection_ref']):
+        fail('Bright legacy hold not authenticated to exact retained selection')
+    return True
+
+
+def authenticated_psalmody_order(row: dict) -> int:
+    import psalmody_source_supplements as psalmody
+    for raw in psalmody.load_psalmody_source_rows():
+        fields = ('source_kind', 'source_family', 'source_file', 'source_row_id', 'source_order',
+                  'source_token_order', 'provenance', 'service_section', 'service_hour', 'calendar_key')
+        if all(row.get(f, '') == raw[f] for f in fields):
+            ident = psalmody.psalmody_identity_for(raw)
+            if (any(row.get(f) != value for f, value in ident.items())
+                    or row.get('occasion') != raw['liturgical_place']
+                    or row.get('slot') != raw['reading_slot']
+                    or row.get('current_status') != 'current_confirmed_coptic_reader'
+                    or row.get('removed_marker')):
+                fail('Psalmody presentation identity/context/state drift')
+            return max(1, int(raw['source_order']))
+    fail('Source-label slot order requires authenticated Psalmody occurrence')
+
+
+def expected_source_disclosure(source_rows: list[dict], *, bounded_date=False) -> tuple[list[dict], list[str]]:
+    metadata = [authenticated_qualified_metadata(row, bounded_date=bounded_date) for row in source_rows]
+    covenant_join = any(q and q[0] == 'covenant_thursday_source' for q in metadata)
     grouped: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)
     for source_row in source_rows:
         grouped[source_disclosure_key(source_row)].append(source_row)
@@ -249,6 +389,19 @@ def expected_source_disclosure(source_rows: list[dict]) -> tuple[list[dict], lis
             "source_edition": edition,
             "source_title": title,
         }
+        if covenant_join:
+            witness_fields = ('current_status', 'removed_marker', 'source_locator', 'source_file',
+                              'source_row_id', 'occasion', 'service_section', 'service_hour', 'slot',
+                              'provenance', 'active', 'status', 'source_disclosure')
+            item['source_witnesses'] = [{f: row.get(f, '') for f in witness_fields} for row in rows]
+        qualified = [metadata[source_rows.index(row)] for row in rows]
+        for lane in ('bright_composite_source', 'covenant_thursday_source'):
+            values = [q for result in qualified if result is not None for name, q in [result] if name == lane]
+            if values:
+                fields = ('printed_ref', 'coordinate_status', 'coordinate_note', 'chapter_complete',
+                          'full_capture_sha256', 'body_envelope_sha256', 'body_first_line', 'body_last_line',
+                          'runtime_activation_approved', 'old_receipts_grant_activation', 'fresh_app_verification')
+                item[lane] = values if lane == 'bright_composite_source' else [{f: q[f] for f in fields} for q in values]
         transports = []
         seen_transport = set()
         for source in rows:
@@ -386,7 +539,7 @@ def verify_schema() -> None:
             fail(f"Schema table {table} header mismatch. actual={actual} expected={expected}")
 
 
-def calendar_overlay_source_orders(current_rows: list[dict], direct_rows: list[dict]) -> dict:
+def calendar_overlay_source_orders(current_rows: list[dict], direct_rows: list[dict], *, current_only=False) -> dict:
     """Join dated appointments to direct Pascha metadata, never daily output.
 
     matched_ref is the split/normalized current-date reference; source_raw_refs
@@ -420,6 +573,17 @@ def calendar_overlay_source_orders(current_rows: list[dict], direct_rows: list[d
         if key in orders:
             fail(f"calendar overlay duplicate dated source context: {key}")
         orders[key] = order
+    if current_only:
+        # The sidecar retains edition witnesses, not just current appointments.
+        # Resolve lifecycle from qualified source policy, never from presentation
+        # membership: an omitted current row must still fail exact equality.
+        for key in list(orders):
+            source = dict(day_title=key[1], service_hour=key[3], service_section=key[2],
+                          source_kind='pascha_day_hour', source_family='holy_pascha_curated_day_hour')
+            resolution = qualified_reader_pascha_resolution(source, key[5])
+            source['current_status'] = resolution[0] if resolution else 'current_working_source_not_coptic_reader_checked'
+            if not is_current_presentation(source):
+                del orders[key]
     return orders
 
 
@@ -439,7 +603,28 @@ def verify_seasonal_daily(source_rows: list[dict], daily: dict, policy: dict, *,
         path = ROOT / relative
         assert hashlib.sha256(path.read_bytes()).hexdigest() == policy['source_fingerprints'][relative], 'Seasonal date contract drift'
         years = {d[:4] for d in daily} | {r['gregorian_date'][:4] for r in source_rows}
-        expected_dates = {d for d in json.loads(path.read_text())['qualified_dates'] if d[:4] in years}
+        # Reverse-key successor contracts do not promise a date inventory. The
+        # independently pinned qualified-date oracle retains feast exclusions;
+        # deriving all offsets would incorrectly add e.g. Cross feast 2027-03-19.
+        relative = 'sources/coptic-reader/lent-qualified-2026-10-07/reverse-index-contract.json'
+        path = ROOT / relative
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == policy['source_fingerprints'][relative], 'Seasonal qualified-date oracle drift'
+        qualified_dates = json.loads(path.read_text())['qualified_dates']
+        assert isinstance(qualified_dates, list) and len(qualified_dates) == len(set(qualified_dates)), 'Invalid seasonal qualified-date inventory'
+        expected_dates = {d for d in qualified_dates if d[:4] in years}
+        # The retained predecessor date oracle predates two newly authenticated
+        # Wednesday tables. Qualify each offset against the captured date title;
+        # feast collisions remain excluded, just as in the primary source caller.
+        metadata = {r['date']: r['day_title'] for r in
+                    read_csv(ROOT / 'out/data/copticchurch_date_meta_2020_2035.csv')}
+        for rule in policy.get('recurring_date_supplements', []):
+            if rule.get('day_title') not in LENT_CYCLE_DAILY_CONTEXTS:
+                continue
+            authenticate_recurring_supplement(rule, policy)
+            for year in years:
+                date = (julian_pascha_gregorian(int(year)) + dt.timedelta(days=rule['pascha_offset_days'])).isoformat()
+                if metadata.get(date) == rule['day_title']:
+                    expected_dates.add(date)
         assert dates == expected_dates, f'Seasonal qualified date inventory changed: missing={sorted(expected_dates-dates)} extra={sorted(dates-expected_dates)}'
     for date in sorted(dates):
         date_value = dt.date.fromisoformat(date)
@@ -466,7 +651,38 @@ def verify_seasonal_daily(source_rows: list[dict], daily: dict, policy: dict, *,
         actual_daily = [(r['service_section'], r['slot'], canonicalize_text_ref(re.sub(r'\s*\(LXX[^)]*\)', '', r['display_ref']))) for r in consumer]
         assert actual_source == expected, f'Seasonal source missing/duplicate/reordered/truncated: {date}'
         assert actual_daily == expected, f'Seasonal daily missing/duplicate/reordered/truncated: {date}'
+        if not boundary:
+            # Inspect the entire appointment group, not only rows advertising
+            # Reader provenance: a legacy extra previously escaped this oracle.
+            all_prophecies = [r for r in daily[date] if r.get('service_section') == rule['service_section']
+                              and (r.get('slot_type') == 'prophecy' or r.get('slot') == 'prophecy'
+                                   or re.fullmatch(r'OT\d+', str(r.get('slot', ''))))]
+            assert all_prophecies == consumer, f'Seasonal daily extra/duplicate prophecy: {date}'
         for row, source, reading in zip(consumer, primary, readings):
+            if not boundary:
+                source_id = f"{rule['source_id']}:{date}:{reading['source_slot']}"
+                assert row.get('source_kind') == 'copticchurch_date' and row.get('source_row_id') == source_id, 'Wrong seasonal source identity'
+                # The declared legacy crosswalk contract uses normalized
+                # references; qualified Reader adapters retain printed labels.
+                # Select the source protocol, not a mutable locator value.
+                locator_ref = (reading['normalized_ref'] if rule.get('legacy_projection_compatible')
+                               else reading['printed_ref'])
+                locator = (f"https://copticreader.org/app/; {rule['evidence']}:row {source_id}; "
+                           f"source_ref={locator_ref}")
+                assert row.get('source_locator', '') in ('', locator), 'Wrong seasonal source locator'
+                expected_disclosure = [dict(source_kind='copticchurch_date', source_family=family,
+                                            source_file=rule['evidence'], source_row_id=source_id)]
+                assert json.loads(row.get('source_disclosure') or '[]') == expected_disclosure, 'Wrong seasonal disclosure'
+                assert row.get('canonical_mt_ref') == reading['normalized_ref'], 'Wrong seasonal canonical endpoint'
+                assert row.get('current_status') == 'current_confirmed_coptic_reader', 'Wrong seasonal current qualification'
+                assert all(row.get(flag) in (None, '', False) for flag in
+                           ('canonical_equivalence_approved', 'runtime_activation_approved', 'fresh_app_verification')), 'False seasonal approval'
+                assert source.get('day_title') == rule['day_title'], 'Wrong seasonal source title'
+                warning = f"verified recurring context; evidence={rule['evidence']}; verified_date={rule['verified_date']}; captured_at={rule['captured_at']}"
+                assert (source.get('reading_type') == rule['reading_type']
+                        and source.get('source_ref_status') == 'source_supplement'
+                        and source.get('normalization_warning') == warning
+                        and source.get('url') == 'https://copticreader.org/app/'), 'Wrong seasonal source envelope'
             assert row.get('occasion') == rule['day_title'] and not row.get('service_hour'), 'Wrong seasonal occasion/hour'
             assert row.get('source_family') == family and row.get('source_file') == rule['evidence'], 'Wrong seasonal provenance'
             assert source.get('correction_source') == rule['evidence'] and int(source.get('source_order') or 0) == reading['source_order'], 'Wrong source slot/order'
@@ -479,11 +695,94 @@ def verify_seasonal_daily(source_rows: list[dict], daily: dict, policy: dict, *,
             assert source.get('raw_ref') == reading['printed_ref'], 'Wrong printed source reference'
 
 
+LENT_CYCLE_DAILY_CONTEXTS = {
+    'Wednesday of the first week of Great Lent': ('week 1 day_of_week 3', 'Joel 2:12-27', '5097', -53),
+    'Wednesday of the fifth week of Great Lent': ('week 5 day_of_week 3', 'Joel 3:9-21', '5408', -25),
+}
+
+
+def qualified_lent_cycle_daily_rows(presentation: list[dict], fields: list[str], *, date_value: str | None = None) -> dict[str, dict]:
+    """Legacy templates only outside authenticated complete dated Reader tables.
+
+    The optional date narrows mixed qualified/unqualified inventories; existing
+    whole-inventory callers remain valid when every occurrence has one policy.
+    """
+    from build_lectionary_reference import authenticate_recurring_supplement
+    policy = json.loads((ROOT / 'sources/lectionary_corrections.json').read_text())
+    result = {}
+    for title, (calendar_key, ref, source_id, _) in LENT_CYCLE_DAILY_CONTEXTS.items():
+        contexts = defaultdict(list)
+        for row in presentation:
+            if (row.get('gregorian_date') and row.get('occasion') == title
+                    and (date_value is None or row['gregorian_date'] == date_value)):
+                contexts[row['gregorian_date']].append(row)
+        reader_dates = set()
+        for date, group in contexts.items():
+            rule_matches = [r for r in policy['recurring_date_supplements'] if r['day_title'] == title]
+            assert len(rule_matches) == 1, 'Unqualified Lent Reader title'
+            rule = rule_matches[0]
+            candidates = [r for r in group if r.get('source_family') == 'coptic_reader_verified_supplement'
+                          or r.get('source_file') == rule['evidence']]
+            if not candidates:
+                continue
+            authenticate_recurring_supplement(rule, policy)
+            primary = [dict(source='Coptic Reader verified recurring supplement', gregorian_date=date,
+                            day_title=title, service_section=rule['service_section'], source_slot=r['source_slot'],
+                            source_order=r['source_order'], matched_ref=r['normalized_ref'],
+                            raw_ref=r['printed_ref'], correction_source=rule['evidence'],
+                            reading_type=rule['reading_type'], source_ref_status='source_supplement',
+                            url='https://copticreader.org/app/',
+                            normalization_warning=f"verified recurring context; evidence={rule['evidence']}; verified_date={rule['verified_date']}; captured_at={rule['captured_at']}") for r in rule['readings']]
+            daily = []
+            for row in group:
+                item = {field: row.get(field, '') for field in fields}
+                if row in candidates:
+                    matching_readings = [r for r in rule['readings'] if r['source_slot'] == row.get('slot')]
+                    assert len(matching_readings) == 1, 'Wrong seasonal presentation slot'
+                    reading = matching_readings[0]
+                    expected_provenance = ('Coptic Reader verified recurring supplement; '
+                                           f"verified recurring context; evidence={rule['evidence']}; verified_date={rule['verified_date']}; captured_at={rule['captured_at']}")
+                    assert row.get('provenance') == expected_provenance, 'Forged seasonal source body/envelope'
+                    assert row.get('raw_ref') == reading['printed_ref'] and row.get('source_ref') == reading['printed_ref'], 'Wrong seasonal printed selection'
+                    assert row.get('day_title') == title and row.get('reading_slot') == reading['source_slot'], 'Wrong seasonal source context'
+                    item.update(slot_type='prophecy', slot_order=int(row.get('source_order') or 0),
+                                source_disclosure=json.dumps([{k: row.get(k, '') for k in
+                                    ('source_kind', 'source_family', 'source_file', 'source_row_id')}]))
+                    # Do not let an enriched source hide an invented qualification.
+                    assert all(row.get(flag) in (None, '', False) for flag in
+                               ('canonical_equivalence_approved', 'runtime_activation_approved', 'fresh_app_verification')), 'False seasonal approval'
+                daily.append(item)
+            daily.sort(key=lambda r: int(r.get('slot_order') or 0) if r.get('slot_type') == 'prophecy' else 999)
+            verify_seasonal_daily(primary, {date: daily}, policy)
+            reader_dates.add(date)
+        if reader_dates:
+            assert reader_dates == set(contexts), 'Mixed Lent contexts require date-specific qualification'
+            continue
+        matches = [r for r in presentation if r.get('source_kind') == 'katameros_cycle'
+                   and r.get('source_family') == 'katameros_cycle' and r.get('calendar_key') == calendar_key
+                   and r.get('canonical_mt_ref') == ref and r.get('source_row_id') == source_id
+                   and r.get('source_file') == 'sources/katameros-api/Core/KatamerosDatabase.db'
+                   and r.get('occasion') == 'Great Lent/Jonah/Nineveh cycle'
+                   and r.get('service_section') == 'prophecy' and r.get('slot') == 'prophecy'
+                   and not r.get('service_hour') and not r.get('gregorian_date') and is_current_presentation(r)]
+        if len(matches) != 1:
+            fail(f'Missing/duplicate qualified Lent cycle source: {title}')
+        source = matches[0]
+        row = {field: source.get(field, '') for field in fields}
+        row.update(occasion=title, service_section='Matins', service_hour='', slot='prophecy',
+                   slot_type='prophecy', slot_order=1, current_status='current_public_or_local_reference',
+                   reading_name='', reading_type='scripture',
+                   source_disclosure=json.dumps(expected_source_disclosure([source])[0], ensure_ascii=False, separators=(',', ':')))
+        result[title] = row
+    return result
+
+
 def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> None:
     """Validate the dated projection independently, retaining exact equality."""
     overlay_orders = calendar_overlay_source_orders(
         read_csv(ROOT / "out/data/copticchurch_passage_index_current_2020_2035.csv"),
         read_csv(ROOT / "out/data/pascha_day_hour_index.csv"),
+        current_only=True,
     )
     matched_overlay_contexts = Counter()
     daily_fields = schema.get("tables", {}).get("daily_lectionary_year", [])
@@ -501,7 +800,18 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
                 and row.get("service_section") in ordinary_services
                 and not row.get("service_hour"))
 
+    # Authenticate structural supplements before independently expanding ONLY the
+    # authorized three-year window. Never infer membership from daily output.
+    import datetime as dt
+    from calendar_resolution import julian_pascha_gregorian
+    structural = [(r, authenticated_qualified_metadata(r)) for r in presentation]
+    presentation = [r for r, q in structural if q is None]
+    for lane, offset in [('bright_composite_source', -1), ('covenant_thursday_source', -3)]:
+        for year in (2026, 2027, 2028):
+            presentation.extend(dict(r, gregorian_date=(julian_pascha_gregorian(year) + dt.timedelta(days=offset)).isoformat())
+                                for r, q in structural if q and q[0] == lane)
     expected_daily_by_year: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    ordinary_companion_orders = {}
     for row in presentation:
         date_value = row.get("gregorian_date", "")
         if not date_value:
@@ -517,6 +827,15 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
             fail(f"unknown explicit status in dated presentation row: {status}")
         year = date_value[:4]
         expected_row = {field: row.get(field, "") for field in daily_fields}
+        qualified = authenticated_qualified_metadata(row, bounded_date=True)
+        if qualified:
+            if qualified[0] == 'bright_composite_source':
+                expected_row['provenance'] = row['provenance']
+            expected_row.update(slot_type='psalm' if qualified[0] == 'bright_composite_source' or row['slot'] == 'Psalm'
+                                else ('prophecy' if re.fullmatch(r'OT\d+', row['slot']) else
+                                      {'Pauline': 'pauline', 'Gospel': 'gospel'}[row['slot']]),
+                                slot_order=int(row['source_order']), source_order=int(row['source_order']),
+                                source_token_order=int(row['source_token_order']))
         if ordinary_scope(row) and row.get("slot") in ordinary_labels:
             declared_type = ordinary_labels[row["slot"]]
             if expected_row.get("slot_type") not in ("", None, declared_type):
@@ -534,7 +853,7 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
             matched_overlay_contexts[key] += 1
             expected_row["slot_type"] = "prophecy"
             expected_row["slot_order"] = overlay_orders[key]
-        if row.get("source_family") in {"coptic_reader_verified_supplement", "coptic_reader_verified_calendar_boundary"} and re.fullmatch(r"OT\d+", row.get("slot", "")):
+        if row.get("source_family") in {"coptic_reader_verified_supplement", "coptic_reader_verified_calendar_boundary", "jonah_fast_source_qualified"} and re.fullmatch(r"OT\d+", row.get("slot", "")):
             expected_row["slot_type"] = "prophecy"
             expected_row["slot_order"] = int(row["source_order"])
         expected_row["source_group_key"] = row.get("source_group_key") or "|".join(str(row.get(field) or "") for field in ("source_kind", "source_row_id", "occasion", "service_hour", "slot"))
@@ -544,11 +863,21 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
             "source_file": row.get("source_file", ""),
             "source_row_id": row.get("source_row_id", ""),
         }], ensure_ascii=False, separators=(",", ":"))
+        if qualified:
+            disclosure, _ = expected_source_disclosure([row], bounded_date=True)
+            expected_row['source_disclosure'] = json.dumps(disclosure, ensure_ascii=False, separators=(',', ':'))
         provenance = row.get("provenance") or ""
         if isinstance(provenance, str) and provenance.lstrip().startswith("{"):
             if json.loads(provenance).get("consumer_source_transport"):
                 disclosure, _ = expected_source_disclosure([row])
                 expected_row["source_disclosure"] = json.dumps(disclosure, ensure_ascii=False, separators=(",", ":"))
+        # Preserve source-only ordinals before the daily allowlist drops them.
+        # Only the retained ordinary cache lane may order Psalm companions.
+        if (ordinary_scope(row) and row.get('slot') == 'Psalm'
+                and row.get('source_file') == 'cache/copticchurch_html'):
+            values = [str(row.get(field, '')) for field in ('source_order', 'source_token_order')]
+            if all(re.fullmatch(r'[1-9][0-9]{0,9}', value) and int(value) <= 2**31 - 1 for value in values):
+                ordinary_companion_orders[id(expected_row)] = tuple(map(int, values))
         expected_daily_by_year[year][date_value].append(expected_row)
     if matched_overlay_contexts != Counter({key: 1 for key in overlay_orders}):
         fail("calendar overlay source contexts must match dated presentation exactly once")
@@ -569,6 +898,18 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
                 continue
             prophecies = [r for r in readings if r.get("source_family") == "coptic_reader_verified_supplement"]
             originals = [r for r in readings if r.get("source_family") != "coptic_reader_verified_supplement"]
+            companions = defaultdict(list)
+            for position, row in enumerate(originals):
+                if ordinary_scope(row) and row.get('slot') == 'Psalm':
+                    companions[(row.get('occasion', ''), row['service_section'])].append(position)
+            for positions in companions.values():
+                if all(id(originals[i]) in ordinary_companion_orders for i in positions):
+                    # A source row/token tuple is a total order, not a verse or
+                    # identity tie-breaker; keep distinct occasions separate.
+                    ordered = sorted((originals[i] for i in positions),
+                                     key=lambda r: ordinary_companion_orders[id(r)])
+                    for position, row in zip(positions, ordered):
+                        originals[position] = row
             if originals and all(ordinary_scope(r) and r.get("slot_type") in ordinary_stages for r in originals):
                 originals = sorted(originals, key=lambda r: (
                     ordinary_services[r["service_section"]], ordinary_stages[r["slot_type"]]))
@@ -581,12 +922,33 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
             if len(rules) != 1:
                 fail(f'Unqualified Matins supplement: {date_value}')
             rule = rules[0]
-            if [r["display_ref"] for r in prophecies] != [r['normalized_ref'] for r in rule['readings']]:
+            # Source rules use MT coordinates; reviewed display labels may also
+            # carry an explicit LXX equivalent (Joel as well as Psalms). Keep the
+            # complete display untouched for the exact serialized-output check.
+            if [re.sub(r'\s*\(LXX[^)]*\)', '', r["display_ref"]) for r in prophecies] != [r['normalized_ref'] for r in rule['readings']]:
                 fail(f"verified Matins supplement references/order changed on {date_value}")
             if [r["slot_order"] for r in prophecies] != [r["source_order"] for r in rule["readings"]] or any(r["service_section"] != rule["service_section"] or r["occasion"] != rule["day_title"] for r in prophecies):
                 fail(f"verified Matins supplement context/order changed on {date_value}")
             insertion_index = next((i for i, r in enumerate(originals) if r["service_section"] == "Matins"), len(originals))
             days[date_value] = originals[:insertion_index] + prophecies + originals[insertion_index:]
+    from calendar_resolution import julian_pascha_gregorian
+    import datetime as dt
+    for days in expected_daily_by_year.values():
+        for date_value, readings in days.items():
+            title = readings[0].get('occasion') if readings else ''
+            if title not in LENT_CYCLE_DAILY_CONTEXTS:
+                continue
+            cycle_rows = qualified_lent_cycle_daily_rows(presentation, daily_fields, date_value=date_value)
+            if title not in cycle_rows:
+                continue
+            date = dt.date.fromisoformat(date_value)
+            if (date - julian_pascha_gregorian(date.year)).days != LENT_CYCLE_DAILY_CONTEXTS[title][3]:
+                fail(f'Wrong qualified Lent cycle date: {date_value}')
+            expected = cycle_rows[title]
+            if any(r.get('canonical_mt_ref') == expected['canonical_mt_ref'] for r in readings):
+                continue
+            insertion = next((i for i, r in enumerate(readings) if r['service_section'] == 'Matins'), 0)
+            readings.insert(insertion, dict(expected))
     expected_year_counts = {year: sum(len(readings) for readings in days.values()) for year, days in sorted(expected_daily_by_year.items())}
     if summary.get("daily_lectionary_years") != expected_year_counts:
         fail(f"daily_lectionary_years summary mismatch: {summary.get('daily_lectionary_years')} != {expected_year_counts}")
@@ -609,7 +971,12 @@ def verify_daily_rows(presentation: list[dict], schema: dict, summary: dict) -> 
             if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date_value):
                 fail(f"daily file {path} has malformed ISO date key: {date_value}")
             for reading in readings:
-                if list(reading.keys()) != daily_fields:
+                expected_fields = list(daily_fields)
+                if reading.get('source_kind') == 'bright_saturday_qualified_composite':
+                    expected_fields += ['provenance', 'source_order', 'source_token_order']
+                elif reading.get('source_kind') == 'coptic_reader_qualified_pascha_hour' and reading.get('occasion') in {'Great Thursday', 'the Covenant Thursday'}:
+                    expected_fields += ['source_order', 'source_token_order']
+                if list(reading.keys()) != expected_fields:
                     fail(f"daily file {path} reading fields mismatch: {list(reading.keys())}")
 
 
@@ -670,6 +1037,8 @@ def verify_rows() -> None:
     actual_keys = set(index_keys)
     if expected_keys != actual_keys:
         fail(f"reverse_lectionary_index key mismatch missing={len(expected_keys - actual_keys)} extra={len(actual_keys - expected_keys)}")
+    qualified_disagreements = qualified_status_disagreement_keys(
+        grouped_index_source, summary.get('reverse_lectionary_index_status_disagreement_rows'))
     for row in reverse_index:
         if "gregorian_date" in row or "coptic_date" in row:
             fail("reverse_lectionary_index must not carry gregorian_date or coptic_date")
@@ -680,11 +1049,14 @@ def verify_rows() -> None:
         if row.get("slot_type") != "source_label_preserved" and row.get("slot_order") is None:
             fail(f"reverse_lectionary_index mapped slot missing slot_order: {occasion_index_key(row)}")
         if row.get("slot_type") == "source_label_preserved" and row.get("slot_order") is not None:
-            fail(f"reverse_lectionary_index preserved source-label slot should not have slot_order: {occasion_index_key(row)}")
+            witnesses = grouped_index_source[occasion_index_key(row)]
+            if len(witnesses) != 1 or row['slot_order'] != authenticated_psalmody_order(witnesses[0]):
+                fail(f"reverse_lectionary_index preserved source-label slot should not have slot_order: {occasion_index_key(row)}")
         source_rows = grouped_index_source[occasion_index_key(row)]
         statuses = set(r.get("current_status", "") for r in source_rows)
         markers = set(r.get("removed_marker", "") for r in source_rows)
-        compatible_status_group = is_pascha_wednesday_compatible_status_group(source_rows, statuses, markers)
+        compatible_status_group = (occasion_index_key(row) in qualified_disagreements
+                                   or is_pascha_wednesday_compatible_status_group(source_rows, statuses, markers))
         if len(statuses) > 1 and not compatible_status_group:
             fail(f"reverse_lectionary_index source current_status disagreement not flagged separately: {occasion_index_key(row)} {statuses}")
         if len(markers) > 1 and not compatible_status_group:
@@ -693,6 +1065,11 @@ def verify_rows() -> None:
             fail(f"reverse_lectionary_index calendar key union mismatch: {occasion_index_key(row)}")
         expected_disclosure, representative_locators = expected_source_disclosure(source_rows)
         winning_source = sorted(expected_disclosure, key=source_family_authority_key)[0]
+        qualified = [r for r in source_rows if authenticated_qualified_metadata(r) is not None
+                     and r.get('source_kind') == 'coptic_reader_qualified_pascha_hour']
+        if qualified:
+            winning_source = next(d for d in expected_disclosure
+                                  if source_disclosure_key(d) == source_disclosure_key(qualified[0]))
         if row.get("source_family", "") != winning_source.get("source_family", ""):
             fail(f"reverse_lectionary_index source_family winner mismatch: {occasion_index_key(row)}")
         if row.get("source_kind", "") != winning_source.get("source_kind", ""):
@@ -720,8 +1097,6 @@ def verify_rows() -> None:
         for item in disclosure:
             if "source_locator" in item and " || " in item["source_locator"]:
                 fail(f"reverse_lectionary_index source disclosure locator is not representative: {occasion_index_key(row)}")
-    if summary.get("reverse_lectionary_index_status_disagreement_rows") != 0:
-        fail("reverse_lectionary_index should have zero status disagreement rows in this run")
     verify_daily_rows(presentation, schema, summary)
     identity = read_csv(OUT / "reading_identity.csv")
     crosswalk = read_csv(OUT / "psalm_mt_lxx_crosswalk.csv")
@@ -768,7 +1143,16 @@ def verify_rows() -> None:
             and date[5:] == '04-07' and bool(date)
             and (holy_week_day(dt.date.fromisoformat(date)) is not None
                  or (dt.date.fromisoformat(date) - julian_pascha_gregorian(int(date[:4]))).days == -9))
-        if not (is_wednesday_fixture_marker or is_superseded_marker or is_no_service_marker or is_calendar_marker):
+        is_edition_marker = (
+            marker == 'edition_specific_not_current_reader_practice'
+            and row.get('source_family') == 'holy_pascha_curated_day_hour'
+            and row.get('source_kind') == 'pascha_day_hour'
+            and row.get('occasion') == row.get('day_title') == 'Good Friday'
+            and row.get('service_section') == row.get('service_hour') == 'Twelfth Hour'
+            and row.get('slot') == 'OT2' and row.get('canonical_mt_ref') == 'Jonah 1:10-2:8'
+            and row.get('current_status') == 'historical_candidate_removed'
+        )
+        if not (is_wednesday_fixture_marker or is_superseded_marker or is_no_service_marker or is_calendar_marker or is_edition_marker or is_authenticated_bright_hold(row)):
             fail(f"Malformed removed_marker: {marker}")
     if any(r.get("display_ref") == "Isa 48:1-6" and r.get("current_status") != "historical_candidate_removed" for r in removed_rows):
         fail("Isa 48:1-6 must be retained only as a historical removed candidate")

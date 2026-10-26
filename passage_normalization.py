@@ -42,7 +42,7 @@ QUERY_BOOK_ALIASES = {
     'luke': 'Lk', 'lk': 'Lk', 'john': 'Jn', 'jn': 'Jn', 'acts': 'Acts', 'romans': 'Rom', 'rom': 'Rom',
     '1corinthians': '1Cor', '1 corinthians': '1Cor', '1cor': '1Cor', 'i corinthians': '1Cor',
     '2corinthians': '2Cor', '2 corinthians': '2Cor', '2cor': '2Cor', 'ii corinthians': '2Cor',
-    'galatians': 'Gal', 'gal': 'Gal', 'ephesians': 'Eph', 'eph': 'Eph', 'philippians': 'Phil', 'phil': 'Phil',
+    'galatians': 'Gal', 'gal': 'Gal', 'ephesians': 'Eph', 'eph': 'Eph', 'philippians': 'Phil', 'phil': 'Phil', 'php': 'Phil',
     'colossians': 'Col', 'col': 'Col', '1thessalonians': '1Thess', '1 thessalonians': '1Thess', '1thess': '1Thess',
     '2thessalonians': '2Thess', '2 thessalonians': '2Thess', '2thess': '2Thess', '1timothy': '1Tim', '1 timothy': '1Tim',
     '2timothy': '2Tim', '2 timothy': '2Tim', 'titus': 'Titus', 'philemon': 'Phlm', 'phlm': 'Phlm',
@@ -71,12 +71,14 @@ TEXT_BOOK_PATTERN = (
     r'Wisdom\s+of\s+Solomon|Wisdom|Wis|Sirach|Sir|Ecclesiasticus|Baruch|Bar|Tobit|Tob|Judith|Jdt|Susanna|Prayer\s+of\s+Manasseh|PrMan|Pr\s+Man|'
     r'1\s*Maccabees|1Macc|2\s*Maccabees|2Macc|3\s*Maccabees|3Macc|4\s*Maccabees|4Macc|'
     r'John|Jn|Acts|Romans|Rom|1\s*Corinthians|1Cor|2\s*Corinthians|2Cor|Galatians|Gal|Ephesians|Eph|'
-    r'Philippians|Phil|Colossians|Col|1\s*Thessalonians|1Thess|2\s*Thessalonians|2Thess|1\s*Timothy|1Tim|2\s*Timothy|2Tim|'
+    r'Philippians|Phil|Php|Colossians|Col|1\s*Thessalonians|1Thess|2\s*Thessalonians|2Thess|1\s*Timothy|1Tim|2\s*Timothy|2Tim|'
     r'Titus|Philemon|Phlm|Hebrews|Heb|James|Jas|Jm|1\s*Peter|1Pet|2\s*Peter|2Pet|1\s*John|1Jn|2\s*John|2Jn|3\s*John|3Jn|Jude|'
     r'Revelation|Rev|Apocalypse)'
 )
 TEXT_REF_RE = re.compile(
-    TEXT_BOOK_PATTERN + r'\.?\s*\d+(?:\s*:\s*-?[0-9][0-9:,\s\-–—]*)?\s*[-–—]?',
+    # Jude alone has an unambiguous verse-only range in these source tables.
+    r'\bJude\.?\s*\d+\s*[-–—]\s*\d+(?![0-9:,\-–—])|'
+    + TEXT_BOOK_PATTERN + r'\.?\s*\d+(?:\s*:\s*-?[0-9][0-9:,\s\-–—]*)?\s*[-–—]?',
     re.I,
 )
 ALT_PAIRS = [('Psalm', 'Ps'), ('Psalms', 'Ps'), ('John', 'Jn'), ('Luke', 'Lk'), ('Matthew', 'Matt'), ('Isaiah', 'Isa'), ('Romans', 'Rom'), ('Wisdom of Solomon', 'Wis'), ('Wisdom', 'Wis'), ('Sirach', 'Sir')]
@@ -324,6 +326,12 @@ def parse_passage(text: Optional[str]) -> Optional[ParsedPassage]:
         return None
 
     parts: List[PassagePart] = []
+    if book == 'Jude' and re.fullmatch(r'\d+-\d+', body):
+        start, end = map(int, body.split('-'))
+        if not 1 <= start <= end <= 25:
+            return None
+        parts.append(PassagePart(1, start, 1, end))
+        return ParsedPassage(book, _canonical_from_parts(book, parts), parts)
     if ':' not in body:
         try:
             chapter = int(body)

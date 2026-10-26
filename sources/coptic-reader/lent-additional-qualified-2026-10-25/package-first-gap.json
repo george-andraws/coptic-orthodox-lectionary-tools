@@ -1,0 +1,65 @@
+{
+  "package": "@andraws/lectionary-data",
+  "version": "1.3.5",
+  "tar_sha256": "2bce78f092c318bdf5dc67a0b0bc1e300b668418ca98b0ff7e3742b1f31ae509",
+  "member_count": 11,
+  "daily_member_sha256": "940c54554d1753bc727e012b0efc879d4dbf3e23aea8b7d0b373c8d832ba08d6",
+  "reverse_member_sha256": "6c7060c0f4102475bf753cbe52dc63ba66d70af4a8edf0914269432b244a0941",
+  "basis": "Parent authenticated published registry archive; retained bytes inspected locally. No fresh network retrieval.",
+  "dates": {
+    "2026-02-18": {
+      "service": "Matins",
+      "classification": "Partial",
+      "packaged_ordered_refs": [
+        "Ps 25:6-7 (LXX Ps 24:6-7)",
+        "Lk 6:24-34",
+        "Joel 2:12-27"
+      ],
+      "packaged_prophecy_source_family": "katameros_cycle",
+      "missing_book_appointments": [
+        "Isa"
+      ],
+      "reverse_checks": [
+        {
+          "book": "Isa",
+          "qualified_current_occasion_matches": 0
+        }
+      ]
+    },
+    "2026-03-18": {
+      "service": "Matins",
+      "classification": "Partial",
+      "packaged_ordered_refs": [
+        "Ps 55:1-2 (LXX Ps 54:1-2)",
+        "Mark 10:1-12",
+        "Joel 3:9-21 (LXX Joel 4:9-21)"
+      ],
+      "packaged_prophecy_source_family": "katameros_cycle",
+      "missing_book_appointments": [
+        "Exod",
+        "Isa",
+        "Job",
+        "Prov"
+      ],
+      "reverse_checks": [
+        {
+          "book": "Exod",
+          "qualified_current_occasion_matches": 0
+        },
+        {
+          "book": "Isa",
+          "qualified_current_occasion_matches": 0
+        },
+        {
+          "book": "Job",
+          "qualified_current_occasion_matches": 0
+        },
+        {
+          "book": "Prov",
+          "qualified_current_occasion_matches": 0
+        }
+      ]
+    }
+  },
+  "missing_book_appointment_count": 5
+}

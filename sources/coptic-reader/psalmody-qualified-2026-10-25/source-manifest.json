@@ -1,0 +1,474 @@
+{
+  "schema": "psalmody_source_supplements_v1",
+  "scope": "Twelve explicitly prescribed Psalmody source chapter occurrences only; not exact MT text or verse equivalence, not whole-Psalter expansion. Retained captures, no fresh retrieval.",
+  "source_edition": "Coptic Reader retained liturgical Psalmody; source/LXX chapter coordinates only",
+  "documents": [
+    {
+      "rite": "bright_saturday",
+      "file": "bright-saturday-midnight-praises.full.txt",
+      "sha256": "3c858d0729c37fc420e08fb362967edf59d4316855d92840b9f4b4be4ede2d45",
+      "bytes": 202098,
+      "full_rendered_text": true,
+      "title": "Midnight Praises",
+      "stage": "Midnight Praises",
+      "navigation": [
+        "Saturday",
+        "Praises"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--praises.txt",
+      "captured_context": {
+        "selected_civil_date": "2026-04-11",
+        "selected_civil_day": "Saturday",
+        "home_occasion": "Selected Season Joyous Saturday Parmoute 3, 1742 Saturday, April 11, 2026",
+        "picker": {
+          "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-picker.txt",
+          "text_sha256": "6372317b420b142cd23d7cee13909e1b80d34a19fbac9af77b2aff69e9131007",
+          "screenshot_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-picker.png",
+          "screenshot_sha256": "02821df79c81987c33f7c521b7c14ec1d8608c5ee7f8c5c6a52606a2047f89a2"
+        },
+        "home": {
+          "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-home.txt",
+          "text_sha256": "99e67e4c6849de6feb92829e48de023c8313f551c95acdbd71e443c678dbbf6c",
+          "screenshot_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-home.png",
+          "screenshot_sha256": "f70363c896db11de05df4522c6e8ef597909862e46bba5f205130bdb2b83878f"
+        },
+        "selectedWheel": [
+          {
+            "text": "February 2026\nMarch 2026\nApril 2026\nMay 2026\nJune 2026\nJuly 2026",
+            "rect": {
+              "x": 449,
+              "y": 339,
+              "width": 382,
+              "height": 70
+            }
+          },
+          {
+            "text": "09 Thursday\n10 Friday\n11 Saturday\n12 Sunday\n13 Monday\n14 Tuesday\n15 Wednesday",
+            "rect": {
+              "x": 449,
+              "y": 417,
+              "width": 382,
+              "height": 70
+            }
+          },
+          {
+            "text": "6 AM\n7 AM\n8 AM\n9 AM\n10 AM\n11 AM\n12 PM\n1 PM",
+            "rect": {
+              "x": 449,
+              "y": 495,
+              "width": 382,
+              "height": 70
+            }
+          }
+        ]
+      },
+      "capture_time": "2026-10-07 retained capture",
+      "source_url": "https://copticreader.org/app/#/document"
+    },
+    {
+      "rite": "church_consecration_part1",
+      "file": "church-consecration-part1.full.txt",
+      "sha256": "7a6fddd6237caf33e8c31319d0ed22932de38cf7e156fe54434856afbd015faf",
+      "bytes": 312735,
+      "full_rendered_text": true,
+      "title": "Church Consecration (Part 1)",
+      "stage": "Part 1",
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Church",
+        "Part 1"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-special/verified/3be6d985-1e71-48de-be3f-f514479981b7-4.txt",
+      "captured_context": {
+        "text": "Church Season Standard Thoout 27, 1743 Wednesday, October 7, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+        "buttons": [
+          "Church Season Standard Thoout 27, 1743 Wednesday, October 7, 2026",
+          "Agpeya",
+          "Psalmody",
+          "Bible",
+          "Liturgies",
+          "Readings",
+          "Melodies",
+          "Index",
+          "Clergy",
+          "Special"
+        ],
+        "id": "3be6d985-1e71-48de-be3f-f514479981b7-0"
+      },
+      "capture_time": "2026-10-07T16:49:45.475Z",
+      "source_url": "https://copticreader.org/app/#/document"
+    },
+    {
+      "rite": "myron_preparation",
+      "file": "myron-preparation.full.txt",
+      "sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+      "bytes": 259237,
+      "full_rendered_text": true,
+      "title": "Preparation of the Holy Myron",
+      "stage": "Preparation",
+      "navigation": [
+        "Special",
+        "Consecrations",
+        "Oil",
+        "Myron",
+        "Preparation"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-special-continuation-01/verified/48293fed-3da7-43d7-94bc-75d27a812600-5.txt",
+      "captured_context": {
+        "text": "Church Season Standard Thoout 27, 1743 Wednesday, October 7, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+        "buttons": [
+          "Church Season Standard Thoout 27, 1743 Wednesday, October 7, 2026",
+          "Agpeya",
+          "Psalmody",
+          "Bible",
+          "Liturgies",
+          "Readings",
+          "Melodies",
+          "Index",
+          "Clergy",
+          "Special"
+        ],
+        "id": "48293fed-3da7-43d7-94bc-75d27a812600-0"
+      },
+      "capture_time": "2026-10-07T17:04:43.590Z",
+      "source_url": "https://copticreader.org/app/#/document"
+    },
+    {
+      "rite": "pentecost_prostration_praises",
+      "file": "pentecost-prostration-praises.full.txt",
+      "sha256": "ca87881f05bdb60ca8f8ca7bbc7140d8bbf78d661211881d10f9d226cb8ad2f4",
+      "bytes": 131137,
+      "full_rendered_text": true,
+      "title": "The Praise",
+      "stage": "Praises",
+      "navigation": [
+        "Special",
+        "Prostration",
+        "Praises"
+      ],
+      "original_capture_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/fresh-special-continuation-02/verified/420e7c41-1c38-4bee-94c9-0647b27f3aa0-6.txt",
+      "captured_context": {
+        "text": "Selected Season Pentecost Paone 13, 1743 Sunday, June 20, 2027\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nArchangel Gabriel",
+        "buttons": [
+          "Selected Season Pentecost Paone 13, 1743 Sunday, June 20, 2027",
+          "Agpeya",
+          "Psalmody",
+          "Bible",
+          "Liturgies",
+          "Readings",
+          "Melodies",
+          "Index",
+          "Clergy",
+          "Special"
+        ],
+        "id": "420e7c41-1c38-4bee-94c9-0647b27f3aa0-3"
+      },
+      "capture_time": "2026-10-07T17:24:40.148Z",
+      "source_url": "https://copticreader.org/app/#/document"
+    }
+  ],
+  "records": [
+    {
+      "handle": "bright_saturday:Psalm151:Ps151",
+      "rite": "bright_saturday",
+      "chapter": 151,
+      "stage": "Midnight Praises",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 5,
+      "heading_exact": "\tPsalm 151",
+      "body_first_line": 7,
+      "body_last_line": 43,
+      "body_literal": "People:\nGlory be to our God. Alleluia: Glory be to our God.\nⲠⲓⲗⲁⲟⲥ:\nⲆⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ. Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.\nالشعبُ:\nالمجد لله. الليلويا. المجد هو لإلهنا.\nI am small among my brothers: and a boy in my father’s house: I tended my father’s sheep.\nⲀⲛⲟⲕ ⲡⲉ ⲡⲓⲕⲟⲩϫⲓ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲁⲥ̀ⲛⲏⲟⲩ: ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲗⲟⲩ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ: ⲛⲁⲓⲁ̀ⲙⲟⲛⲓ ⲛ̀ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ.\nأنا الصغير في اخوتي والحدث في بيت أبي ، كنت راعياً غنم أبي.\nMy hands made an organ: and my fingers tuned a psaltery: Alleluia (3).\nⲚⲁϫⲓϫ ⲁⲩⲑⲁⲙⲓⲟ̀ ⲛ̀ⲟⲩⲟⲣⲅⲁⲛⲟⲛ: ⲟⲩⲟϩ ⲛⲁⲧⲏⲃ ⲁⲩϩⲱⲧⲡ ⲛ̀ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ: Ⲁ︦ⲗ︦ (ⲅ︦).\nيداى صنعتا الأرغن، وأصابعي ألفت المزمار، الليلويا (3).\nAnd who shall tell my Lord? He is The Lord: He listens+ to everyone that cries up to Him.\nⲞⲩⲟϩ ⲛⲓⲙ ⲡⲉ ⲑ̀ⲛⲁϣ̀ⲧⲁⲙⲉ Ⲡⲁϭⲟⲓⲥ: ⲛ̀ⲑⲟϥ ⲡⲉ Ⲡϭ︦ⲥ︦: ⲛ̀ⲑⲟϥ ϣⲁϥⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲱϣ ⲉ̀ϩ̀ⲣⲏⲓ ⲟⲩⲃⲏϥ.\nمن هو الذي يخبر سيدي ، هو الرب الذي يستجيب لجميع الذين يصرخون إليه.\n+ Habitual tense meaning always listens; is used to listening.\nHe sent His angel, and took me from my father’s sheep: and anointed me with His anointing oil: Alleluia (3).\nⲚⲑⲟϥ ⲁϥⲟⲩⲱⲣⲡ ⲙ̀ⲡⲉϥⲁⲅⲅⲉⲗⲟⲥ: ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ: ⲟⲩⲟϩ ⲁϥⲑⲁϩⲥⲧ ϧⲉⲛ ⲫ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲉϥⲑⲱϩⲥ: Ⲁ︦ⲗ︦ (ⲅ︦).\nوهو أرسل ملاكه ورفعني من غنم أبي ، ومسحني بدهن مسحته، الليلويا (3).\nMy brothers are handsome and great, but the Lord did not take pleasure in them.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲛⲁⲛⲉⲩ ⲟⲩⲟϩ ϩⲁⲛⲛⲓϣϯ ⲛⲉ: ⲟⲩⲟϩ ⲙ̀ⲡⲉϥϯⲙⲁϯ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ϫⲉ Ⲡϭ︦ⲥ︦.\nأخوتي حسان وهم اكبر منى ، والرب لم يسر بهم.\nI went out to meet the Philistine: and he cursed me with his idols: Alleluia (3).\nⲀⲓⲓ̀ ⲉ̀ⲃⲟⲗ ⲉ̀ϩ̀ⲣⲉⲛ ⲡⲓⲀⲗⲗⲟⲫⲩⲗⲟⲥ: ⲁϥⲥⲁϩⲟⲩⲓ ⲉ̀ⲣⲟⲓ ϧⲉⲛ ⲛⲉϥⲓ̀ⲇⲱⲗⲟⲛ: Ⲁ︦ⲗ︦ (ⲅ︦).\nخرجت للقاء الفلسطيني فلعني بأوثانه الليلويا (3).\nBut I drew his sword which he had+, and beheaded him++.\nⲀⲛⲟⲕ ⲇⲉ ⲁⲓⲑⲱⲕⲉⲙ ⲛ̀ⲧⲉϥⲥⲏϥⲓ ⲉⲧⲭⲏ ⲛ̀ⲧⲟⲧϥ ⲁⲓⲱ̀ⲗⲓ ⲛ̀ⲧⲉϥ ⲁ̀ⲫⲉ.\nفاستليت سيفه الذي كان بيده ونزعت رأسه عنه.\n+ Lit. “which is in his hand”\n++ Lit. “lifted his head”\nAnd removed+ reproach from the children of Israel.\nⲞⲩⲟϩ ⲁⲓⲱ̀ⲗⲓ ⲛ̀ⲟⲩϭⲓϣⲓⲡⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ.\nونزعت العار عن بني اسرائيل.\n+ Lit. “lifted”\nAlleluia, Alleluia, Alleluia. Glory be to our God.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.\nالليلويا الليلويا الليلويا. المجد هو لإلهنا.",
+      "body_sha256": "237d6577fbe92b22ead253789a6d6ed434c30e9440cd589c2061a628c0417c20",
+      "context_first_line": 1,
+      "context_last_line": 45,
+      "context_sha256": "7650ae5dbd5800f100a483c68e892a45040fa502c77593407877a49ebf5c69f0",
+      "source_group_key": "bright_saturday:Psalm151",
+      "group_order": 1,
+      "source_order": 0,
+      "reading_slot": "Psalm151",
+      "full_capture_sha256": "3c858d0729c37fc420e08fb362967edf59d4316855d92840b9f4b4be4ede2d45",
+      "recurrence": {
+        "kind": "pascha_offset",
+        "offset_days": -1
+      }
+    },
+    {
+      "handle": "church_consecration_part1:Psalm151:Ps151",
+      "rite": "church_consecration_part1",
+      "chapter": 151,
+      "stage": "Part 1",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 367,
+      "heading_exact": "\tPsalm 151",
+      "body_first_line": 369,
+      "body_last_line": 402,
+      "body_literal": "Glory be to our God. Alleluia: Glory be to our God.\nⲆⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ. Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.\nالمجد لله. الليلويا. المجد هو لإلهنا.\nI am small among my brothers: and a boy in my father’s house: I tended my father’s sheep.\nⲀⲛⲟⲕ ⲡⲉ ⲡⲓⲕⲟⲩϫⲓ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲁⲥ̀ⲛⲏⲟⲩ: ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲗⲟⲩ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ: ⲛⲁⲓⲁ̀ⲙⲟⲛⲓ ⲛ̀ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ.\nأنا الصغير في اخوتي والحدث في بيت أبي ، كنت راعياً غنم أبي.\nMy hands made an organ: and my fingers tuned a psaltery: Alleluia (3).\nⲚⲁϫⲓϫ ⲁⲩⲑⲁⲙⲓⲟ̀ ⲛ̀ⲟⲩⲟⲣⲅⲁⲛⲟⲛ: ⲟⲩⲟϩ ⲛⲁⲧⲏⲃ ⲁⲩϩⲱⲧⲡ ⲛ̀ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ: Ⲁ︦ⲗ︦ (ⲅ︦).\nيداى صنعتا الأرغن، وأصابعي ألفت المزمار، الليلويا (3).\nAnd who shall tell my Lord? He is The Lord: He listens+ to everyone that cries up to Him.\nⲞⲩⲟϩ ⲛⲓⲙ ⲡⲉ ⲑ̀ⲛⲁϣ̀ⲧⲁⲙⲉ Ⲡⲁϭⲟⲓⲥ: ⲛ̀ⲑⲟϥ ⲡⲉ Ⲡϭ︦ⲥ︦: ⲛ̀ⲑⲟϥ ϣⲁϥⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲱϣ ⲉ̀ϩ̀ⲣⲏⲓ ⲟⲩⲃⲏϥ.\nمن هو الذي يخبر سيدي ، هو الرب الذي يستجيب لجميع الذين يصرخون إليه.\n+ Habitual tense meaning always listens; is used to listening.\nHe sent His angel, and took me from my father’s sheep: and anointed me with His anointing oil: Alleluia (3).\nⲚⲑⲟϥ ⲁϥⲟⲩⲱⲣⲡ ⲙ̀ⲡⲉϥⲁⲅⲅⲉⲗⲟⲥ: ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ: ⲟⲩⲟϩ ⲁϥⲑⲁϩⲥⲧ ϧⲉⲛ ⲫ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲉϥⲑⲱϩⲥ: Ⲁ︦ⲗ︦ (ⲅ︦).\nوهو أرسل ملاكه ورفعني من غنم أبي ، ومسحني بدهن مسحته، الليلويا (3).\nMy brothers are handsome and great, but the Lord did not take pleasure in them.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲛⲁⲛⲉⲩ ⲟⲩⲟϩ ϩⲁⲛⲛⲓϣϯ ⲛⲉ: ⲟⲩⲟϩ ⲙ̀ⲡⲉϥϯⲙⲁϯ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ϫⲉ Ⲡϭ︦ⲥ︦.\nأخوتي حسان وهم اكبر منى ، والرب لم يسر بهم.\nI went out to meet the Philistine: and he cursed me with his idols: Alleluia (3).\nⲀⲓⲓ̀ ⲉ̀ⲃⲟⲗ ⲉ̀ϩ̀ⲣⲉⲛ ⲡⲓⲀⲗⲗⲟⲫⲩⲗⲟⲥ: ⲁϥⲥⲁϩⲟⲩⲓ ⲉ̀ⲣⲟⲓ ϧⲉⲛ ⲛⲉϥⲓ̀ⲇⲱⲗⲟⲛ: Ⲁ︦ⲗ︦ (ⲅ︦).\nخرجت للقاء الفلسطيني فلعني بأوثانه الليلويا (3).\nBut I drew his sword which he had+, and beheaded him++.\nⲀⲛⲟⲕ ⲇⲉ ⲁⲓⲑⲱⲕⲉⲙ ⲛ̀ⲧⲉϥⲥⲏϥⲓ ⲉⲧⲭⲏ ⲛ̀ⲧⲟⲧϥ ⲁⲓⲱ̀ⲗⲓ ⲛ̀ⲧⲉϥ ⲁ̀ⲫⲉ.\nفاستليت سيفه الذي كان بيده ونزعت رأسه عنه.\n+ Lit. “which is in his hand”\n++ Lit. “lifted his head”\nAnd removed+ reproach from the children of Israel.\nⲞⲩⲟϩ ⲁⲓⲱ̀ⲗⲓ ⲛ̀ⲟⲩϭⲓϣⲓⲡⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ.\nونزعت العار عن بني اسرائيل.\n+ Lit. “lifted”\nAlleluia, Alleluia, Alleluia. Glory be to our God.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.\nالليلويا الليلويا الليلويا. المجد هو لإلهنا.",
+      "body_sha256": "2ac7f64ecddb776cefb43767f0ea528742a61ab05c3171ac4300b681ccde5038",
+      "context_first_line": 360,
+      "context_last_line": 402,
+      "context_sha256": "a35f16e8ace0f8c00bec1fe65db04dea00c0339d6beeb67a9a6a936abb8523c8",
+      "source_group_key": "church_consecration_part1:Psalm151",
+      "group_order": 1,
+      "source_order": 367,
+      "reading_slot": "Psalm151",
+      "full_capture_sha256": "7a6fddd6237caf33e8c31319d0ed22932de38cf7e156fe54434856afbd015faf",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "church_consecration_part1:FourthHoos:Ps148",
+      "rite": "church_consecration_part1",
+      "chapter": 148,
+      "stage": "Part 1",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 1147,
+      "heading_exact": "Psalm 148",
+      "body_first_line": 1149,
+      "body_last_line": 1196,
+      "body_literal": "People:\nPraise the Lord from the heavens: Alleluia. Praise Him in the heights.\nⲠⲓⲗⲁⲟⲥ:\nⲤⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.\nالشعبُ:\nسبِّحوا الربَّ مِنَ السماوات، هَلِّلُويا، سبِّحوه في الأعالى.\nPraise Him, all His angels: Alleluia. Praise Him, all His hosts.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.\nسبِّحوه يا جميعَ ملائكتِه، هَلِّلُويا، سبِّحوه يا جميعَ جنودِه.\nPraise Him, sun and moon: Alleluia. Praise Him all you stars of light.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ.\nسبِّحيه أيتها الشمس والقمر، هَلِّلُويا، سبِّحيه يا جميعَ كواكبِ النور.\nPraise Him you heavens of heavens: Alleluia. And you waters above the heavens.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ ⲁ︦ⲗ︦: ⲛⲉⲙ ⲛⲓⲕⲉⲙⲱⲟⲩ ⲉⲧⲥⲁ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ.\nسبِّحيه يا سماءَ السماوات، هَلِّلُويا، ويا أيتها المياه التي فوقَ السماوات.\nLet them praise the name of the Lord: Alleluia. For He commanded and they were created.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁ︦ⲗ︦: ϫⲉ ⲛ̀ⲑⲟϥ ⲁϥϫⲟⲥ ⲟⲩⲟϩ ⲁⲩϣⲱⲡⲓ.\nلتسبِّح جميعها لاسمِ الربِّ، هَلِّلُويا، لأنه قالَ فكانت.\nHe has ordered and they were created: Alleluia. He has established them forever and ever.\nⲚⲑⲟϥ ⲁϥϩⲟⲛϩⲉⲛ ⲟⲩⲟϩ ⲁⲩⲥⲱⲛⲧ ⲁ︦ⲗ︦: ⲁϥⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ.\nوأمرَ فخُلِقتْ، هَلِّلُويا، أقامَها إلى الأبد وإلى أبدِ الأبد.\nHe has made a decree which shall not pass away: Alleluia. Praise the Lord from the earth.\nⲀϥⲭⲱ ⲛ̀ⲟⲩϩⲱⲛ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲥⲓⲛⲓ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ.\nوضعَ لها أمراً فلن تتجاوزَهُ، هَلِّلُويا، سبِّحي الربَّ مِنَ الأرضِ.\nYou great sea creatures and all the depths: Alleluia. Fire and hail, snow and clouds, and stormy wind, fulfilling His word.\nⲚⲓⲇ̀ⲣⲁⲕⲱⲛ ⲛⲉⲙ ⲛⲓⲛⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲟⲩⲭ̀ⲣⲱⲙ ⲟⲩⲁⲗ ⲟⲩⲭⲓⲱⲛ ⲟⲩⲭ̀ⲣⲩⲥⲧⲁⲗⲗⲟⲥ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲥⲁⲣⲁⲑⲏⲟⲩ ⲛⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ.\nأيتها التنانين وجميعُ الأعماق، هَلِّلُويا، النار والبرَد، والثلج والجليد، والريح العاصفة الصانعة كلمتَهُ.\nMountains and all hills: Alleluia. Fruitful trees and all cedars.\nⲚⲓⲧⲱⲟⲩ ⲉⲧϭⲟⲥⲓ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓϣ̀ϣⲏⲛ ⲙ̀ϥⲁⲓⲟⲩⲧⲁϩ ⲛⲉⲙ ⲛⲓϣⲉⲛⲥⲓϥⲓ ⲧⲏⲣⲟⲩ.\nالجبال العالية وجميعُ الآكام، هَلِّلُويا، الأشجار المثمرة وكلُّ الأرزِ.\nBeasts and all cattle: Alleluia. Creeping things and flying birds.\nⲚⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓϭⲁⲧϥⲓ ⲛⲉⲙ ⲛⲓϩⲁⲗⲁϯ ⲉⲧⲟⲓ ⲛ̀ⲧⲉⲛϩ.\nالوحوش وكلُّ البهائم، هَلِّلُويا، الهوام وكلُّ الطيور ذاتِ الأجنحة.\nKings of the earth and all people: Alleluia. Princes and all judges of the earth.\nⲚⲓⲟⲩⲣⲱⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓⲁⲣⲭⲱⲛ ⲛⲉⲙ ⲛⲓⲣⲉϥϯϩⲁⲡ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ.\nملوك الأرض وكلُّ الشعوب، هَلِّلُويا، الرؤساء وكلُّ حكَّامِ الأرضِ.\nBoth young men and maidens: Alleluia. Old men and children.\nϨⲁⲛϧⲉⲗϣⲓⲣⲓ ⲛⲉⲙ ϩⲁⲛⲡⲁⲣⲑⲉⲛⲟⲥ ⲁ︦ⲗ︦: ϩⲁⲛϧⲉⲗⲗⲟⲓ ⲛⲉⲙ ϩⲁⲛⲁ̀ⲗⲱⲟⲩⲓ.\nالشبان والعذارى، هَلِّلُويا، الشيوخ والصِبيان.\nLet them praise the name of the Lord: Alleluia. For His name alone is exalted.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁ︦ⲗ︦: ϫⲉ ⲁϥϭⲓⲥⲓ ⲛ̀ϫⲉ ⲡⲉϥⲣⲁⲛ ⲙ̀ⲙⲁⲩⲁⲧϥ.\nفليسبِّحوا جميعاً اسمَ الربِّ، هَلِّلُويا، لأنه قد تعالى اسمُهُ وحدَهُ.\nHis praise is above the earth and heaven: Alleluia. And He has exalted the horn of His people.\nⲠⲉϥⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧ̀ⲫⲉ ⲁ︦ⲗ︦: ϥ̀ⲛⲁϭⲓⲥⲓ ⲙ̀ⲡ̀ⲧⲁⲡ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ.\nشكرُه كائن على الأرضِ وفي السماءِ، هَلِّلُويا، ويرفعُ قرنَ شعبِه.\nThe praise of all His saints: Alleluia. The children of Israel, a people near unto Him.\nⲞⲩⲥ̀ⲙⲟⲩ ⲛ̀ⲧⲉ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ ⲁ︦ⲗ︦: ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ︦ⲗ︦ ⲡⲓⲗⲁⲟⲥ ⲉⲧϧⲉⲛⲧ ⲉ̀ⲣⲟϥ.\nسُبحاً لجميع قدِّيسيه، هَلِّلُويا، بني إسرائيل الشعب القريب إليهِ.",
+      "body_sha256": "21be2af6940ff6bbdf86dce5d7b513d2fefafe61bd749d52c4f4edd7a722455d",
+      "context_first_line": 1145,
+      "context_last_line": 1260,
+      "context_sha256": "be9a95202f1517236cb129911000b177c97a786f07f5c40b4545983287691554",
+      "source_group_key": "church_consecration_part1:FourthHoos",
+      "group_order": 1,
+      "source_order": 1147,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "7a6fddd6237caf33e8c31319d0ed22932de38cf7e156fe54434856afbd015faf",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "church_consecration_part1:FourthHoos:Ps149",
+      "rite": "church_consecration_part1",
+      "chapter": 149,
+      "stage": "Part 1",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 1197,
+      "heading_exact": "Psalm 149",
+      "body_first_line": 1199,
+      "body_last_line": 1225,
+      "body_literal": "Alleluia, Alleluia, Alleluia. Sing to the Lord a new song: Alleluia. And His praise in the congregation of the saints.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ϫⲱ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩϫⲱ ⲙ̀ⲃⲉⲣⲓ ⲁ︦ⲗ︦: ϫⲉ ⲁ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.\nهَلِّلُويا هَلِّلُويا هَلِّلُويا، انشدوا للرب نشيداً جديداً، هَلِّلُويا، لأن تسبحتَهُ في بيعةِ القديسين.\nLet Israel rejoice in their maker: Alleluia. Let the children of Zion be joyful in their King.\nⲘⲁⲣⲉϥⲟⲩⲛⲟϥ ⲛ̀ϫⲉ Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲉ̀ϫⲉⲛ ⲫⲏⲉⲧⲁϥⲑⲁⲙⲓⲟϥ ⲁ︦ⲗ︦: ⲛⲉⲛϣⲏⲣⲓ ⲛ̀Ⲥⲓⲱⲛ ⲙⲁⲣⲟⲩⲑⲉⲗⲏⲗ ⲉ̀ϫⲉⲛ ⲡⲟⲩⲟⲩⲣⲟ.\nفليفرح إسرائيل بخالقِهِ، هَلِّلُويا، وبنو صهيون فليتهلَّلوا بملكِهِم.\nLet them praise His name in the chorus: Alleluia. Let them sing praises unto Him with timbrel and harp.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲉ︦ⲑ︦ⲩ︦ ϧⲉⲛ ⲟⲩⲭⲟⲣⲟⲥ ⲁ︦ⲗ︦: ϧⲉⲛ ⲟⲩⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲙⲁⲣⲟⲩⲉⲣⲯⲁⲗⲓⲛ ⲉ̀ⲣⲟϥ.\nفليسبِّحوا إسمَهُ القدوس بصفٍ، هَلِّلُويا، بدُفٍّ ومزمارٍ فليرتِّلوا لهُ.\nFor the Lord takes pleasure in His people: Alleluia. He will raise the meek with salvation.\nϪⲉ Ⲡⲟ︦ⲥ︦ ⲛⲁϯⲙⲁϯ ⲉ̀ϫⲉⲛ ⲡⲉϥⲗⲁⲟⲥ ⲁ︦ⲗ︦: ϥ̀ⲛⲁϭⲓⲥⲓ ⲛ̀ⲛⲓⲣⲉⲙⲣⲁⲩϣ ϧⲉⲛ ⲟⲩⲟⲩϫⲁⲓ.\nلأن الربَّ يُسَرُّ بشعبِهِ، هَلِّلُويا، يُعَلِّي الودعاءَ بالخلاصِ.\nLet the saints be joyful in glory: Alleluia. Let them sing aloud on their beds.\nⲈⲩⲉ̀ϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲁ︦ⲗ︦: ⲉⲩⲉⲑⲉⲗⲏⲗ ⲙ̀ⲙⲱⲟⲩ ϩⲓϫⲉⲛ ⲛⲟⲩⲙⲁⲛ̀ⲉⲛⲕⲟⲧ.\nيفتخرُ القديسون بمجدٍ، هَلِّلُويا، ويتهلَّلون على مضاجِعِهم.\nLet the high praises of God be in their mouth: Alleluia. And a two edged sword in their hand.\nⲚⲓϭⲓⲥⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉⲧⲭⲏ ϧⲉⲛ ⲧⲟⲩϣ̀ⲃⲱⲃⲓ ⲁ︦ⲗ︦: ϩⲁⲛⲥⲏϥⲓ ⲛ̀ⲣⲟⲥ̀ⲛⲁⲩ ⲉⲧⲭⲏ ϧⲉⲛ ⲛⲟⲩϫⲓϫ.\nتعلياتُ الله في حناجِرِهم، هَلِّلُويا، وسيوف ذات حدِّين في أيديهم.\nTo execute vengeance on the nations: Alleluia. And punishments on the people.\nⲈⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ⲟⲩϭⲓ ⲙ̀ⲡ̀ϣⲓϣ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲁ︦ⲗ︦: ⲛⲉⲙ ϩⲁⲛⲥⲟϩⲓ ϧⲉⲛ ⲛⲓⲗⲁⲟⲥ.\nليصنعوا نِقمةً في الأممِ، هَلِّلُويا، وتوبيخاتٍ في الشعوبِ.\nTo bind their kings with chains: Alleluia. And their nobles with fetters of iron.\nⲈⲡ̀ϫⲓⲛⲥⲱⲛϩ ⲛ̀ϩⲁⲛⲟⲩⲣⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲁ︦ⲗ︦: ⲛⲉⲙ ⲛⲏⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲧⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲛ̀ϫⲓϫ ⲙ̀ⲃⲉⲛⲓⲡⲓ.\nليوثِقوا ملوكَهم بقيودٍ، هَلِّلُويا، واشرافَهم باغلالٍ للأيدي مِن حديدٍ.\nTo execute on them the written judgment: Alleluia. This honor have all His saints.\nⲈⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ⲟⲩϩⲁⲡ ⲉϥⲥ̀ϧⲏⲟⲩⲧ ⲁ︦ⲗ︦: ⲡⲁⲓⲱ̀ⲟⲩ ⲫⲁⲓ ⲁϥϣⲟⲡ ϧⲉⲛ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ.\nليصنعوا بهم حُكماً مكتوباً، هَلِّلُويا، هذا المجدُ كائن في جميعِ قديسيه.",
+      "body_sha256": "d4d43394de56f09b18294dca61def9199e337a88930aec96c1a1876005abcc01",
+      "context_first_line": 1145,
+      "context_last_line": 1260,
+      "context_sha256": "be9a95202f1517236cb129911000b177c97a786f07f5c40b4545983287691554",
+      "source_group_key": "church_consecration_part1:FourthHoos",
+      "group_order": 2,
+      "source_order": 1197,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "7a6fddd6237caf33e8c31319d0ed22932de38cf7e156fe54434856afbd015faf",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "church_consecration_part1:FourthHoos:Ps150",
+      "rite": "church_consecration_part1",
+      "chapter": 150,
+      "stage": "Part 1",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 1226,
+      "heading_exact": "Psalm 150",
+      "body_first_line": 1228,
+      "body_last_line": 1260,
+      "body_literal": "Alleluia, alleluia, alleluia. Praise God, in all His saints. Alleluia.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲥⲙⲟⲩ ⲉ̀Ⲫⲛⲟⲩϯ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nهَلِّلُويا هَلِّلُويا هَلِّلُويا، سبِّحوا الله في جميع قديسيه، هَلِّلُويا.\nPraise Him, in the firmament of His power. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲡⲓⲧⲁϫⲣⲟ ⲛ̀ⲧⲉ ⲧⲉϥϫⲟⲙ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه في جَلَد قوَّتِهِ، هَلِّلُويا.\nPraise Him, for His mighty acts. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲧⲉϥⲙⲉⲧϫⲱⲣⲓ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه على مقدرتِهِ، هَلِّلُويا.\nPraise Him, according to the multitudes of His greatness. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲛⲓϣϯ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه ككثرة عظمتِهِ، هَلِّلُويا.\nPraise Him, with the sound of the trumpet. Alleluia\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲥⲁⲗⲡⲓⲅⲅⲟⲥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصوتِ البوق، هَلِّلُويا.\nPraise Him, with psaltery and harp. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲟⲩⲕⲩⲑⲁⲣⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بمزمارٍ وقيثارة، هَلِّلُويا.\nPraise Him, with timbrel and chorus. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ϩⲁⲛⲭⲟⲣⲟⲥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بدفوفٍ وصفوف، هَلِّلُويا.\nPraise Him, with strings and organs. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲁⲡ ⲛⲉⲙ ⲟⲩⲟⲣⲅⲁⲛⲟⲛ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بأوتارٍ وأرغن، هَلِّلُويا.\nPraise Him, with pleasant sounding cymbals. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲉ̀ⲛⲉⲥⲉ ⲧⲟⲩⲥ̀ⲙⲏ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصنوج حسنةِ الصوت، هَلِّلُويا.\nPraise Him, upon the cymbals of joy. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصنوج التهليل، هَلِّلُويا.\nLet everything that has breath praise the name of the Lord our God. Alleluia.\nⲚⲓϥⲓ ⲛⲓⲃⲉⲛ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲡⲉⲛⲛⲟⲩϯ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nكلُّ نسمة فلتسبِّح اسمَ الربِّ إلهنا، هَلِّلُويا.",
+      "body_sha256": "5ccd9c30cc9ab8b3e9c432ae62c4c6ba42e2203345e219cd7bdf8b5a931d77f2",
+      "context_first_line": 1145,
+      "context_last_line": 1260,
+      "context_sha256": "be9a95202f1517236cb129911000b177c97a786f07f5c40b4545983287691554",
+      "source_group_key": "church_consecration_part1:FourthHoos",
+      "group_order": 3,
+      "source_order": 1226,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "7a6fddd6237caf33e8c31319d0ed22932de38cf7e156fe54434856afbd015faf",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "myron_preparation:Psalm151:Ps151",
+      "rite": "myron_preparation",
+      "chapter": 151,
+      "stage": "Preparation",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 279,
+      "heading_exact": "\tPsalm 151",
+      "body_first_line": 281,
+      "body_last_line": 317,
+      "body_literal": "People:\nGlory be to our God. Alleluia: Glory be to our God.\nⲠⲓⲗⲁⲟⲥ:\nⲆⲟⲝⲁⲥⲓ ⲟ̀Ⲑⲉⲟⲥ ⲏ̀ⲙⲱⲛ. Ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.\nالشعبُ:\nالمجد لله. الليلويا. المجد هو لإلهنا.\nI am small among my brothers: and a boy in my father’s house: I tended my father’s sheep.\nⲀⲛⲟⲕ ⲡⲉ ⲡⲓⲕⲟⲩϫⲓ ⲛ̀ϧ̀ⲣⲏⲓ ϧⲉⲛ ⲛⲁⲥ̀ⲛⲏⲟⲩ: ⲟⲩⲟϩ ⲛ̀ⲁ̀ⲗⲟⲩ ϧⲉⲛ ⲡ̀ⲏⲓ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ: ⲛⲁⲓⲁ̀ⲙⲟⲛⲓ ⲛ̀ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ.\nأنا الصغير في اخوتي والحدث في بيت أبي ، كنت راعياً غنم أبي.\nMy hands made an organ: and my fingers tuned a psaltery: Alleluia (3).\nⲚⲁϫⲓϫ ⲁⲩⲑⲁⲙⲓⲟ̀ ⲛ̀ⲟⲩⲟⲣⲅⲁⲛⲟⲛ: ⲟⲩⲟϩ ⲛⲁⲧⲏⲃ ⲁⲩϩⲱⲧⲡ ⲛ̀ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ: Ⲁ︦ⲗ︦ (ⲅ︦).\nيداى صنعتا الأرغن، وأصابعي ألفت المزمار، الليلويا (3).\nAnd who shall tell my Lord? He is The Lord: He listens+ to everyone that cries up to Him.\nⲞⲩⲟϩ ⲛⲓⲙ ⲡⲉ ⲑ̀ⲛⲁϣ̀ⲧⲁⲙⲉ Ⲡⲁϭⲟⲓⲥ: ⲛ̀ⲑⲟϥ ⲡⲉ Ⲡϭ︦ⲥ︦: ⲛ̀ⲑⲟϥ ϣⲁϥⲥⲱⲧⲉⲙ ⲉ̀ⲟⲩⲟⲛ ⲛⲓⲃⲉⲛ ⲉⲧⲱϣ ⲉ̀ϩ̀ⲣⲏⲓ ⲟⲩⲃⲏϥ.\nمن هو الذي يخبر سيدي ، هو الرب الذي يستجيب لجميع الذين يصرخون إليه.\n+ Habitual tense meaning always listens; is used to listening.\nHe sent His angel, and took me from my father’s sheep: and anointed me with His anointing oil: Alleluia (3).\nⲚⲑⲟϥ ⲁϥⲟⲩⲱⲣⲡ ⲙ̀ⲡⲉϥⲁⲅⲅⲉⲗⲟⲥ: ⲟⲩⲟϩ ⲁϥⲟⲗⲧ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲓⲉ̀ⲥⲱⲟⲩ ⲛ̀ⲧⲉ ⲡⲁⲓⲱⲧ: ⲟⲩⲟϩ ⲁϥⲑⲁϩⲥⲧ ϧⲉⲛ ⲫ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲉϥⲑⲱϩⲥ: Ⲁ︦ⲗ︦ (ⲅ︦).\nوهو أرسل ملاكه ورفعني من غنم أبي ، ومسحني بدهن مسحته، الليلويا (3).\nMy brothers are handsome and great, but the Lord did not take pleasure in them.\nⲚⲁⲥ̀ⲛⲏⲟⲩ ⲛⲁⲛⲉⲩ ⲟⲩⲟϩ ϩⲁⲛⲛⲓϣϯ ⲛⲉ: ⲟⲩⲟϩ ⲙ̀ⲡⲉϥϯⲙⲁϯ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ϫⲉ Ⲡϭ︦ⲥ︦.\nأخوتي حسان وهم اكبر منى ، والرب لم يسر بهم.\nI went out to meet the Philistine: and he cursed me with his idols: Alleluia (3).\nⲀⲓⲓ̀ ⲉ̀ⲃⲟⲗ ⲉ̀ϩ̀ⲣⲉⲛ ⲡⲓⲀⲗⲗⲟⲫⲩⲗⲟⲥ: ⲁϥⲥⲁϩⲟⲩⲓ ⲉ̀ⲣⲟⲓ ϧⲉⲛ ⲛⲉϥⲓ̀ⲇⲱⲗⲟⲛ: Ⲁ︦ⲗ︦ (ⲅ︦).\nخرجت للقاء الفلسطيني فلعني بأوثانه الليلويا (3).\nBut I drew his sword which he had+, and beheaded him++.\nⲀⲛⲟⲕ ⲇⲉ ⲁⲓⲑⲱⲕⲉⲙ ⲛ̀ⲧⲉϥⲥⲏϥⲓ ⲉⲧⲭⲏ ⲛ̀ⲧⲟⲧϥ ⲁⲓⲱ̀ⲗⲓ ⲛ̀ⲧⲉϥ ⲁ̀ⲫⲉ.\nفاستليت سيفه الذي كان بيده ونزعت رأسه عنه.\n+ Lit. “which is in his hand”\n++ Lit. “lifted his head”\nAnd removed+ reproach from the children of Israel.\nⲞⲩⲟϩ ⲁⲓⲱ̀ⲗⲓ ⲛ̀ⲟⲩϭⲓϣⲓⲡⲓ ⲉ̀ⲃⲟⲗϧⲉⲛ ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ̀ⲣⲁⲏⲗ.\nونزعت العار عن بني اسرائيل.\n+ Lit. “lifted”\nAlleluia, Alleluia, Alleluia. Glory be to our God.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲡⲓⲱ̀ⲟⲩ ⲫⲁ Ⲡⲉⲛⲛⲟⲩϯ ⲡⲉ.\nالليلويا الليلويا الليلويا. المجد هو لإلهنا.",
+      "body_sha256": "237d6577fbe92b22ead253789a6d6ed434c30e9440cd589c2061a628c0417c20",
+      "context_first_line": 277,
+      "context_last_line": 317,
+      "context_sha256": "833d376dc61248284db2931ce1922fd8229c81538ef2869fe6317b52ff51705a",
+      "source_group_key": "myron_preparation:Psalm151",
+      "group_order": 1,
+      "source_order": 279,
+      "reading_slot": "Psalm151",
+      "full_capture_sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "myron_preparation:FourthHoos:Ps148",
+      "rite": "myron_preparation",
+      "chapter": 148,
+      "stage": "Preparation",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 1445,
+      "heading_exact": "Psalm 148",
+      "body_first_line": 1447,
+      "body_last_line": 1494,
+      "body_literal": "People:\nPraise the Lord from the heavens: Alleluia. Praise Him in the heights.\nⲠⲓⲗⲁⲟⲥ:\nⲤⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.\nالشعبُ:\nسبِّحوا الربَّ مِنَ السماوات، هَلِّلُويا، سبِّحوه في الأعالى.\nPraise Him, all His angels: Alleluia. Praise Him, all His hosts.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.\nسبِّحوه يا جميعَ ملائكتِه، هَلِّلُويا، سبِّحوه يا جميعَ جنودِه.\nPraise Him, sun and moon: Alleluia. Praise Him all you stars of light.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ.\nسبِّحيه أيتها الشمس والقمر، هَلِّلُويا، سبِّحيه يا جميعَ كواكبِ النور.\nPraise Him you heavens of heavens: Alleluia. And you waters above the heavens.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ ⲁ︦ⲗ︦: ⲛⲉⲙ ⲛⲓⲕⲉⲙⲱⲟⲩ ⲉⲧⲥⲁ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ.\nسبِّحيه يا سماءَ السماوات، هَلِّلُويا، ويا أيتها المياه التي فوقَ السماوات.\nLet them praise the name of the Lord: Alleluia. For He commanded and they were created.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁ︦ⲗ︦: ϫⲉ ⲛ̀ⲑⲟϥ ⲁϥϫⲟⲥ ⲟⲩⲟϩ ⲁⲩϣⲱⲡⲓ.\nلتسبِّح جميعها لاسمِ الربِّ، هَلِّلُويا، لأنه قالَ فكانت.\nHe has ordered and they were created: Alleluia. He has established them forever and ever.\nⲚⲑⲟϥ ⲁϥϩⲟⲛϩⲉⲛ ⲟⲩⲟϩ ⲁⲩⲥⲱⲛⲧ ⲁ︦ⲗ︦: ⲁϥⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ.\nوأمرَ فخُلِقتْ، هَلِّلُويا، أقامَها إلى الأبد وإلى أبدِ الأبد.\nHe has made a decree which shall not pass away: Alleluia. Praise the Lord from the earth.\nⲀϥⲭⲱ ⲛ̀ⲟⲩϩⲱⲛ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲥⲓⲛⲓ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ.\nوضعَ لها أمراً فلن تتجاوزَهُ، هَلِّلُويا، سبِّحي الربَّ مِنَ الأرضِ.\nYou great sea creatures and all the depths: Alleluia. Fire and hail, snow and clouds, and stormy wind, fulfilling His word.\nⲚⲓⲇ̀ⲣⲁⲕⲱⲛ ⲛⲉⲙ ⲛⲓⲛⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲟⲩⲭ̀ⲣⲱⲙ ⲟⲩⲁⲗ ⲟⲩⲭⲓⲱⲛ ⲟⲩⲭ̀ⲣⲩⲥⲧⲁⲗⲗⲟⲥ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲥⲁⲣⲁⲑⲏⲟⲩ ⲛⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ.\nأيتها التنانين وجميعُ الأعماق، هَلِّلُويا، النار والبرَد، والثلج والجليد، والريح العاصفة الصانعة كلمتَهُ.\nMountains and all hills: Alleluia. Fruitful trees and all cedars.\nⲚⲓⲧⲱⲟⲩ ⲉⲧϭⲟⲥⲓ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓϣ̀ϣⲏⲛ ⲙ̀ϥⲁⲓⲟⲩⲧⲁϩ ⲛⲉⲙ ⲛⲓϣⲉⲛⲥⲓϥⲓ ⲧⲏⲣⲟⲩ.\nالجبال العالية وجميعُ الآكام، هَلِّلُويا، الأشجار المثمرة وكلُّ الأرزِ.\nBeasts and all cattle: Alleluia. Creeping things and flying birds.\nⲚⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓϭⲁⲧϥⲓ ⲛⲉⲙ ⲛⲓϩⲁⲗⲁϯ ⲉⲧⲟⲓ ⲛ̀ⲧⲉⲛϩ.\nالوحوش وكلُّ البهائم، هَلِّلُويا، الهوام وكلُّ الطيور ذاتِ الأجنحة.\nKings of the earth and all people: Alleluia. Princes and all judges of the earth.\nⲚⲓⲟⲩⲣⲱⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓⲁⲣⲭⲱⲛ ⲛⲉⲙ ⲛⲓⲣⲉϥϯϩⲁⲡ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ.\nملوك الأرض وكلُّ الشعوب، هَلِّلُويا، الرؤساء وكلُّ حكَّامِ الأرضِ.\nBoth young men and maidens: Alleluia. Old men and children.\nϨⲁⲛϧⲉⲗϣⲓⲣⲓ ⲛⲉⲙ ϩⲁⲛⲡⲁⲣⲑⲉⲛⲟⲥ ⲁ︦ⲗ︦: ϩⲁⲛϧⲉⲗⲗⲟⲓ ⲛⲉⲙ ϩⲁⲛⲁ̀ⲗⲱⲟⲩⲓ.\nالشبان والعذارى، هَلِّلُويا، الشيوخ والصِبيان.\nLet them praise the name of the Lord: Alleluia. For His name alone is exalted.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁ︦ⲗ︦: ϫⲉ ⲁϥϭⲓⲥⲓ ⲛ̀ϫⲉ ⲡⲉϥⲣⲁⲛ ⲙ̀ⲙⲁⲩⲁⲧϥ.\nفليسبِّحوا جميعاً اسمَ الربِّ، هَلِّلُويا، لأنه قد تعالى اسمُهُ وحدَهُ.\nHis praise is above the earth and heaven: Alleluia. And He has exalted the horn of His people.\nⲠⲉϥⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧ̀ⲫⲉ ⲁ︦ⲗ︦: ϥ̀ⲛⲁϭⲓⲥⲓ ⲙ̀ⲡ̀ⲧⲁⲡ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ.\nشكرُه كائن على الأرضِ وفي السماءِ، هَلِّلُويا، ويرفعُ قرنَ شعبِه.\nThe praise of all His saints: Alleluia. The children of Israel, a people near unto Him.\nⲞⲩⲥ̀ⲙⲟⲩ ⲛ̀ⲧⲉ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ ⲁ︦ⲗ︦: ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ︦ⲗ︦ ⲡⲓⲗⲁⲟⲥ ⲉⲧϧⲉⲛⲧ ⲉ̀ⲣⲟϥ.\nسُبحاً لجميع قدِّيسيه، هَلِّلُويا، بني إسرائيل الشعب القريب إليهِ.",
+      "body_sha256": "21be2af6940ff6bbdf86dce5d7b513d2fefafe61bd749d52c4f4edd7a722455d",
+      "context_first_line": 1443,
+      "context_last_line": 1558,
+      "context_sha256": "be9a95202f1517236cb129911000b177c97a786f07f5c40b4545983287691554",
+      "source_group_key": "myron_preparation:FourthHoos",
+      "group_order": 1,
+      "source_order": 1445,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "myron_preparation:FourthHoos:Ps149",
+      "rite": "myron_preparation",
+      "chapter": 149,
+      "stage": "Preparation",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 1495,
+      "heading_exact": "Psalm 149",
+      "body_first_line": 1497,
+      "body_last_line": 1523,
+      "body_literal": "Alleluia, Alleluia, Alleluia. Sing to the Lord a new song: Alleluia. And His praise in the congregation of the saints.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ϫⲱ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩϫⲱ ⲙ̀ⲃⲉⲣⲓ ⲁ︦ⲗ︦: ϫⲉ ⲁ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.\nهَلِّلُويا هَلِّلُويا هَلِّلُويا، انشدوا للرب نشيداً جديداً، هَلِّلُويا، لأن تسبحتَهُ في بيعةِ القديسين.\nLet Israel rejoice in their maker: Alleluia. Let the children of Zion be joyful in their King.\nⲘⲁⲣⲉϥⲟⲩⲛⲟϥ ⲛ̀ϫⲉ Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲉ̀ϫⲉⲛ ⲫⲏⲉⲧⲁϥⲑⲁⲙⲓⲟϥ ⲁ︦ⲗ︦: ⲛⲉⲛϣⲏⲣⲓ ⲛ̀Ⲥⲓⲱⲛ ⲙⲁⲣⲟⲩⲑⲉⲗⲏⲗ ⲉ̀ϫⲉⲛ ⲡⲟⲩⲟⲩⲣⲟ.\nفليفرح إسرائيل بخالقِهِ، هَلِّلُويا، وبنو صهيون فليتهلَّلوا بملكِهِم.\nLet them praise His name in the chorus: Alleluia. Let them sing praises unto Him with timbrel and harp.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲉ︦ⲑ︦ⲩ︦ ϧⲉⲛ ⲟⲩⲭⲟⲣⲟⲥ ⲁ︦ⲗ︦: ϧⲉⲛ ⲟⲩⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲙⲁⲣⲟⲩⲉⲣⲯⲁⲗⲓⲛ ⲉ̀ⲣⲟϥ.\nفليسبِّحوا إسمَهُ القدوس بصفٍ، هَلِّلُويا، بدُفٍّ ومزمارٍ فليرتِّلوا لهُ.\nFor the Lord takes pleasure in His people: Alleluia. He will raise the meek with salvation.\nϪⲉ Ⲡⲟ︦ⲥ︦ ⲛⲁϯⲙⲁϯ ⲉ̀ϫⲉⲛ ⲡⲉϥⲗⲁⲟⲥ ⲁ︦ⲗ︦: ϥ̀ⲛⲁϭⲓⲥⲓ ⲛ̀ⲛⲓⲣⲉⲙⲣⲁⲩϣ ϧⲉⲛ ⲟⲩⲟⲩϫⲁⲓ.\nلأن الربَّ يُسَرُّ بشعبِهِ، هَلِّلُويا، يُعَلِّي الودعاءَ بالخلاصِ.\nLet the saints be joyful in glory: Alleluia. Let them sing aloud on their beds.\nⲈⲩⲉ̀ϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲁ︦ⲗ︦: ⲉⲩⲉⲑⲉⲗⲏⲗ ⲙ̀ⲙⲱⲟⲩ ϩⲓϫⲉⲛ ⲛⲟⲩⲙⲁⲛ̀ⲉⲛⲕⲟⲧ.\nيفتخرُ القديسون بمجدٍ، هَلِّلُويا، ويتهلَّلون على مضاجِعِهم.\nLet the high praises of God be in their mouth: Alleluia. And a two edged sword in their hand.\nⲚⲓϭⲓⲥⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉⲧⲭⲏ ϧⲉⲛ ⲧⲟⲩϣ̀ⲃⲱⲃⲓ ⲁ︦ⲗ︦: ϩⲁⲛⲥⲏϥⲓ ⲛ̀ⲣⲟⲥ̀ⲛⲁⲩ ⲉⲧⲭⲏ ϧⲉⲛ ⲛⲟⲩϫⲓϫ.\nتعلياتُ الله في حناجِرِهم، هَلِّلُويا، وسيوف ذات حدِّين في أيديهم.\nTo execute vengeance on the nations: Alleluia. And punishments on the people.\nⲈⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ⲟⲩϭⲓ ⲙ̀ⲡ̀ϣⲓϣ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲁ︦ⲗ︦: ⲛⲉⲙ ϩⲁⲛⲥⲟϩⲓ ϧⲉⲛ ⲛⲓⲗⲁⲟⲥ.\nليصنعوا نِقمةً في الأممِ، هَلِّلُويا، وتوبيخاتٍ في الشعوبِ.\nTo bind their kings with chains: Alleluia. And their nobles with fetters of iron.\nⲈⲡ̀ϫⲓⲛⲥⲱⲛϩ ⲛ̀ϩⲁⲛⲟⲩⲣⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲁ︦ⲗ︦: ⲛⲉⲙ ⲛⲏⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲧⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲛ̀ϫⲓϫ ⲙ̀ⲃⲉⲛⲓⲡⲓ.\nليوثِقوا ملوكَهم بقيودٍ، هَلِّلُويا، واشرافَهم باغلالٍ للأيدي مِن حديدٍ.\nTo execute on them the written judgment: Alleluia. This honor have all His saints.\nⲈⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ⲟⲩϩⲁⲡ ⲉϥⲥ̀ϧⲏⲟⲩⲧ ⲁ︦ⲗ︦: ⲡⲁⲓⲱ̀ⲟⲩ ⲫⲁⲓ ⲁϥϣⲟⲡ ϧⲉⲛ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ.\nليصنعوا بهم حُكماً مكتوباً، هَلِّلُويا، هذا المجدُ كائن في جميعِ قديسيه.",
+      "body_sha256": "d4d43394de56f09b18294dca61def9199e337a88930aec96c1a1876005abcc01",
+      "context_first_line": 1443,
+      "context_last_line": 1558,
+      "context_sha256": "be9a95202f1517236cb129911000b177c97a786f07f5c40b4545983287691554",
+      "source_group_key": "myron_preparation:FourthHoos",
+      "group_order": 2,
+      "source_order": 1495,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "myron_preparation:FourthHoos:Ps150",
+      "rite": "myron_preparation",
+      "chapter": 150,
+      "stage": "Preparation",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 1524,
+      "heading_exact": "Psalm 150",
+      "body_first_line": 1526,
+      "body_last_line": 1558,
+      "body_literal": "Alleluia, alleluia, alleluia. Praise God, in all His saints. Alleluia.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲥⲙⲟⲩ ⲉ̀Ⲫⲛⲟⲩϯ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nهَلِّلُويا هَلِّلُويا هَلِّلُويا، سبِّحوا الله في جميع قديسيه، هَلِّلُويا.\nPraise Him, in the firmament of His power. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲡⲓⲧⲁϫⲣⲟ ⲛ̀ⲧⲉ ⲧⲉϥϫⲟⲙ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه في جَلَد قوَّتِهِ، هَلِّلُويا.\nPraise Him, for His mighty acts. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲧⲉϥⲙⲉⲧϫⲱⲣⲓ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه على مقدرتِهِ، هَلِّلُويا.\nPraise Him, according to the multitudes of His greatness. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲛⲓϣϯ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه ككثرة عظمتِهِ، هَلِّلُويا.\nPraise Him, with the sound of the trumpet. Alleluia\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲥⲁⲗⲡⲓⲅⲅⲟⲥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصوتِ البوق، هَلِّلُويا.\nPraise Him, with psaltery and harp. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲟⲩⲕⲩⲑⲁⲣⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بمزمارٍ وقيثارة، هَلِّلُويا.\nPraise Him, with timbrel and chorus. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ϩⲁⲛⲭⲟⲣⲟⲥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بدفوفٍ وصفوف، هَلِّلُويا.\nPraise Him, with strings and organs. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲁⲡ ⲛⲉⲙ ⲟⲩⲟⲣⲅⲁⲛⲟⲛ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بأوتارٍ وأرغن، هَلِّلُويا.\nPraise Him, with pleasant sounding cymbals. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲉ̀ⲛⲉⲥⲉ ⲧⲟⲩⲥ̀ⲙⲏ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصنوج حسنةِ الصوت، هَلِّلُويا.\nPraise Him, upon the cymbals of joy. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصنوج التهليل، هَلِّلُويا.\nLet everything that has breath praise the name of the Lord our God. Alleluia.\nⲚⲓϥⲓ ⲛⲓⲃⲉⲛ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲡⲉⲛⲛⲟⲩϯ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nكلُّ نسمة فلتسبِّح اسمَ الربِّ إلهنا، هَلِّلُويا.",
+      "body_sha256": "5ccd9c30cc9ab8b3e9c432ae62c4c6ba42e2203345e219cd7bdf8b5a931d77f2",
+      "context_first_line": 1443,
+      "context_last_line": 1558,
+      "context_sha256": "be9a95202f1517236cb129911000b177c97a786f07f5c40b4545983287691554",
+      "source_group_key": "myron_preparation:FourthHoos",
+      "group_order": 3,
+      "source_order": 1524,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "32910dd9af75386310fac6b2662c28a6f3fc7475930b54b877f4864deea50528",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "pentecost_prostration_praises:FourthHoos:Ps148",
+      "rite": "pentecost_prostration_praises",
+      "chapter": 148,
+      "stage": "Praises",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 29,
+      "heading_exact": "Psalm 148",
+      "body_first_line": 31,
+      "body_last_line": 75,
+      "body_literal": "Praise the Lord from the heavens: Alleluia. Praise Him in the heights.\nⲤⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲛⲏⲉⲧϭⲟⲥⲓ.\nسبِّحوا الربَّ مِنَ السماوات، هَلِّلُويا، سبِّحوه في الأعالى.\nPraise Him, all His angels: Alleluia. Praise Him, all His hosts.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲁⲅⲅⲉⲗⲟⲥ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲉϥⲇⲩⲛⲁⲙⲓⲥ ⲧⲏⲣⲟⲩ.\nسبِّحوه يا جميعَ ملائكتِه، هَلِّلُويا، سبِّحوه يا جميعَ جنودِه.\nPraise Him, sun and moon: Alleluia. Praise Him all you stars of light.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲡⲓⲣⲏ ⲛⲉⲙ ⲡⲓⲓⲟϩ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲥⲓⲟⲩ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡⲓⲟⲩⲱⲓⲛⲓ.\nسبِّحيه أيتها الشمس والقمر، هَلِّلُويا، سبِّحيه يا جميعَ كواكبِ النور.\nPraise Him you heavens of heavens: Alleluia. And you waters above the heavens.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲛⲓⲫⲏⲟⲩⲓ ⲛ̀ⲧⲉ ⲛⲓⲫⲏⲟⲩⲓ ⲁ︦ⲗ︦: ⲛⲉⲙ ⲛⲓⲕⲉⲙⲱⲟⲩ ⲉⲧⲥⲁ ⲉ̀ⲡ̀ϣⲱⲓ ⲛ̀ⲛⲓⲫⲏⲟⲩⲓ.\nسبِّحيه يا سماءَ السماوات، هَلِّلُويا، ويا أيتها المياه التي فوقَ السماوات.\nLet them praise the name of the Lord: Alleluia. For He commanded and they were created.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁ︦ⲗ︦: ϫⲉ ⲛ̀ⲑⲟϥ ⲁϥϫⲟⲥ ⲟⲩⲟϩ ⲁⲩϣⲱⲡⲓ.\nلتسبِّح جميعها لاسمِ الربِّ، هَلِّلُويا، لأنه قالَ فكانت.\nHe has ordered and they were created: Alleluia. He has established them forever and ever.\nⲚⲑⲟϥ ⲁϥϩⲟⲛϩⲉⲛ ⲟⲩⲟϩ ⲁⲩⲥⲱⲛⲧ ⲁ︦ⲗ︦: ⲁϥⲧⲁϩⲱⲟⲩ ⲉ̀ⲣⲁⲧⲟⲩ ϣⲁ ⲉ̀ⲛⲉϩ ⲛⲉⲙ ϣⲁ ⲉ̀ⲛⲉϩ ⲛ̀ⲧⲉ ⲡⲓⲉ̀ⲛⲉϩ.\nوأمرَ فخُلِقتْ، هَلِّلُويا، أقامَها إلى الأبد وإلى أبدِ الأبد.\nHe has made a decree which shall not pass away: Alleluia. Praise the Lord from the earth.\nⲀϥⲭⲱ ⲛ̀ⲟⲩϩⲱⲛ ⲟⲩⲟϩ ⲛ̀ⲛⲉϥⲥⲓⲛⲓ ⲁ︦ⲗ︦: ⲥ̀ⲙⲟⲩ ⲉ̀Ⲡⲟ︦ⲥ︦ ⲉ̀ⲃⲟⲗ ϧⲉⲛ ⲡ̀ⲕⲁϩⲓ.\nوضعَ لها أمراً فلن تتجاوزَهُ، هَلِّلُويا، سبِّحي الربَّ مِنَ الأرضِ.\nYou great sea creatures and all the depths: Alleluia. Fire and hail, snow and clouds, and stormy wind, fulfilling His word.\nⲚⲓⲇ̀ⲣⲁⲕⲱⲛ ⲛⲉⲙ ⲛⲓⲛⲟⲩⲛ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲟⲩⲭ̀ⲣⲱⲙ ⲟⲩⲁⲗ ⲟⲩⲭⲓⲱⲛ ⲟⲩⲭ̀ⲣⲩⲥⲧⲁⲗⲗⲟⲥ ⲟⲩⲡ̀ⲛⲉⲩⲙⲁ ⲛ̀ⲥⲁⲣⲁⲑⲏⲟⲩ ⲛⲏⲉⲧⲓ̀ⲣⲓ ⲙ̀ⲡⲉϥⲥⲁϫⲓ.\nأيتها التنانين وجميعُ الأعماق، هَلِّلُويا، النار والبرَد، والثلج والجليد، والريح العاصفة الصانعة كلمتَهُ.\nMountains and all hills: Alleluia. Fruitful trees and all cedars.\nⲚⲓⲧⲱⲟⲩ ⲉⲧϭⲟⲥⲓ ⲛⲉⲙ ⲛⲓⲕⲁⲗⲁⲙⲫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓϣ̀ϣⲏⲛ ⲙ̀ϥⲁⲓⲟⲩⲧⲁϩ ⲛⲉⲙ ⲛⲓϣⲉⲛⲥⲓϥⲓ ⲧⲏⲣⲟⲩ.\nالجبال العالية وجميعُ الآكام، هَلِّلُويا، الأشجار المثمرة وكلُّ الأرزِ.\nBeasts and all cattle: Alleluia. Creeping things and flying birds.\nⲚⲓⲑⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲛⲓⲧⲉⲃⲛⲱⲟⲩⲓ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓϭⲁⲧϥⲓ ⲛⲉⲙ ⲛⲓϩⲁⲗⲁϯ ⲉⲧⲟⲓ ⲛ̀ⲧⲉⲛϩ.\nالوحوش وكلُّ البهائم، هَلِّلُويا، الهوام وكلُّ الطيور ذاتِ الأجنحة.\nKings of the earth and all people: Alleluia. Princes and all judges of the earth.\nⲚⲓⲟⲩⲣⲱⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛⲓⲗⲁⲟⲥ ⲧⲏⲣⲟⲩ ⲁ︦ⲗ︦: ⲛⲓⲁⲣⲭⲱⲛ ⲛⲉⲙ ⲛⲓⲣⲉϥϯϩⲁⲡ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲉ ⲡ̀ⲕⲁϩⲓ.\nملوك الأرض وكلُّ الشعوب، هَلِّلُويا، الرؤساء وكلُّ حكَّامِ الأرضِ.\nBoth young men and maidens: Alleluia. Old men and children.\nϨⲁⲛϧⲉⲗϣⲓⲣⲓ ⲛⲉⲙ ϩⲁⲛⲡⲁⲣⲑⲉⲛⲟⲥ ⲁ︦ⲗ︦: ϩⲁⲛϧⲉⲗⲗⲟⲓ ⲛⲉⲙ ϩⲁⲛⲁ̀ⲗⲱⲟⲩⲓ.\nالشبان والعذارى، هَلِّلُويا، الشيوخ والصِبيان.\nLet them praise the name of the Lord: Alleluia. For His name alone is exalted.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ ⲁ︦ⲗ︦: ϫⲉ ⲁϥϭⲓⲥⲓ ⲛ̀ϫⲉ ⲡⲉϥⲣⲁⲛ ⲙ̀ⲙⲁⲩⲁⲧϥ.\nفليسبِّحوا جميعاً اسمَ الربِّ، هَلِّلُويا، لأنه قد تعالى اسمُهُ وحدَهُ.\nHis praise is above the earth and heaven: Alleluia. And He has exalted the horn of His people.\nⲠⲉϥⲟⲩⲱⲛϩ ⲉ̀ⲃⲟⲗ ϣⲟⲡ ϩⲓϫⲉⲛ ⲡ̀ⲕⲁϩⲓ ⲛⲉⲙ ⲛ̀ϩ̀ⲣⲏⲓ ϧⲉⲛ ⲧ̀ⲫⲉ ⲁ︦ⲗ︦: ϥ̀ⲛⲁϭⲓⲥⲓ ⲙ̀ⲡ̀ⲧⲁⲡ ⲛ̀ⲧⲉ ⲡⲉϥⲗⲁⲟⲥ.\nشكرُه كائن على الأرضِ وفي السماءِ، هَلِّلُويا، ويرفعُ قرنَ شعبِه.\nThe praise of all His saints: Alleluia. The children of Israel, a people near unto Him.\nⲞⲩⲥ̀ⲙⲟⲩ ⲛ̀ⲧⲉ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ ⲁ︦ⲗ︦: ⲛⲉⲛϣⲏⲣⲓ ⲙ̀Ⲡⲓⲥ︦ⲗ︦ ⲡⲓⲗⲁⲟⲥ ⲉⲧϧⲉⲛⲧ ⲉ̀ⲣⲟϥ.\nسُبحاً لجميع قدِّيسيه، هَلِّلُويا، بني إسرائيل الشعب القريب إليهِ.",
+      "body_sha256": "3b1e2e2a0b35d0b47ba1b1b51681e23f10b0114476497978389ae333b01ee7ed",
+      "context_first_line": 27,
+      "context_last_line": 139,
+      "context_sha256": "7c284e022671bad636d860c4faae1ea6185459924b3ca3ccb3460b161691c6c9",
+      "source_group_key": "pentecost_prostration_praises:FourthHoos",
+      "group_order": 1,
+      "source_order": 29,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "ca87881f05bdb60ca8f8ca7bbc7140d8bbf78d661211881d10f9d226cb8ad2f4",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "pentecost_prostration_praises:FourthHoos:Ps149",
+      "rite": "pentecost_prostration_praises",
+      "chapter": 149,
+      "stage": "Praises",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 76,
+      "heading_exact": "Psalm 149",
+      "body_first_line": 78,
+      "body_last_line": 104,
+      "body_literal": "Alleluia, Alleluia, Alleluia. Sing to the Lord a new song: Alleluia. And His praise in the congregation of the saints.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ϫⲱ ⲙ̀Ⲡⲟ︦ⲥ︦ ϧⲉⲛ ⲟⲩϫⲱ ⲙ̀ⲃⲉⲣⲓ ⲁ︦ⲗ︦: ϫⲉ ⲁ̀ⲣⲉ ⲡⲉϥⲥ̀ⲙⲟⲩ ϧⲉⲛ ⲧ̀ⲉⲕⲕ̀ⲗⲏⲥⲓⲁ̀ ⲛ̀ⲧⲉ ⲛⲏⲉⲑⲟⲩⲁⲃ.\nهَلِّلُويا هَلِّلُويا هَلِّلُويا، انشدوا للرب نشيداً جديداً، هَلِّلُويا، لأن تسبحتَهُ في بيعةِ القديسين.\nLet Israel rejoice in their maker: Alleluia. Let the children of Zion be joyful in their King.\nⲘⲁⲣⲉϥⲟⲩⲛⲟϥ ⲛ̀ϫⲉ Ⲡⲓⲥ̀ⲣⲁⲏⲗ ⲉ̀ϫⲉⲛ ⲫⲏⲉⲧⲁϥⲑⲁⲙⲓⲟϥ ⲁ︦ⲗ︦: ⲛⲉⲛϣⲏⲣⲓ ⲛ̀Ⲥⲓⲱⲛ ⲙⲁⲣⲟⲩⲑⲉⲗⲏⲗ ⲉ̀ϫⲉⲛ ⲡⲟⲩⲟⲩⲣⲟ.\nفليفرح إسرائيل بخالقِهِ، هَلِّلُويا، وبنو صهيون فليتهلَّلوا بملكِهِم.\nLet them praise His name in the chorus: Alleluia. Let them sing praises unto Him with timbrel and harp.\nⲘⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲉ̀ⲡⲉϥⲣⲁⲛ ⲉ︦ⲑ︦ⲩ︦ ϧⲉⲛ ⲟⲩⲭⲟⲣⲟⲥ ⲁ︦ⲗ︦: ϧⲉⲛ ⲟⲩⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲙⲁⲣⲟⲩⲉⲣⲯⲁⲗⲓⲛ ⲉ̀ⲣⲟϥ.\nفليسبِّحوا إسمَهُ القدوس بصفٍ، هَلِّلُويا، بدُفٍّ ومزمارٍ فليرتِّلوا لهُ.\nFor the Lord takes pleasure in His people: Alleluia. He will raise the meek with salvation.\nϪⲉ Ⲡⲟ︦ⲥ︦ ⲛⲁϯⲙⲁϯ ⲉ̀ϫⲉⲛ ⲡⲉϥⲗⲁⲟⲥ ⲁ︦ⲗ︦: ϥ̀ⲛⲁϭⲓⲥⲓ ⲛ̀ⲛⲓⲣⲉⲙⲣⲁⲩϣ ϧⲉⲛ ⲟⲩⲟⲩϫⲁⲓ.\nلأن الربَّ يُسَرُّ بشعبِهِ، هَلِّلُويا، يُعَلِّي الودعاءَ بالخلاصِ.\nLet the saints be joyful in glory: Alleluia. Let them sing aloud on their beds.\nⲈⲩⲉ̀ϣⲟⲩϣⲟⲩ ⲙ̀ⲙⲱⲟⲩ ⲛ̀ϫⲉ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ϧⲉⲛ ⲟⲩⲱ̀ⲟⲩ ⲁ︦ⲗ︦: ⲉⲩⲉⲑⲉⲗⲏⲗ ⲙ̀ⲙⲱⲟⲩ ϩⲓϫⲉⲛ ⲛⲟⲩⲙⲁⲛ̀ⲉⲛⲕⲟⲧ.\nيفتخرُ القديسون بمجدٍ، هَلِّلُويا، ويتهلَّلون على مضاجِعِهم.\nLet the high praises of God be in their mouth: Alleluia. And a two edged sword in their hand.\nⲚⲓϭⲓⲥⲓ ⲛ̀ⲧⲉ Ⲫϯ ⲉⲧⲭⲏ ϧⲉⲛ ⲧⲟⲩϣ̀ⲃⲱⲃⲓ ⲁ︦ⲗ︦: ϩⲁⲛⲥⲏϥⲓ ⲛ̀ⲣⲟⲥ̀ⲛⲁⲩ ⲉⲧⲭⲏ ϧⲉⲛ ⲛⲟⲩϫⲓϫ.\nتعلياتُ الله في حناجِرِهم، هَلِّلُويا، وسيوف ذات حدِّين في أيديهم.\nTo execute vengeance on the nations: Alleluia. And punishments on the people.\nⲈⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ⲟⲩϭⲓ ⲙ̀ⲡ̀ϣⲓϣ ϧⲉⲛ ⲛⲓⲉⲑⲛⲟⲥ ⲁ︦ⲗ︦: ⲛⲉⲙ ϩⲁⲛⲥⲟϩⲓ ϧⲉⲛ ⲛⲓⲗⲁⲟⲥ.\nليصنعوا نِقمةً في الأممِ، هَلِّلُويا، وتوبيخاتٍ في الشعوبِ.\nTo bind their kings with chains: Alleluia. And their nobles with fetters of iron.\nⲈⲡ̀ϫⲓⲛⲥⲱⲛϩ ⲛ̀ϩⲁⲛⲟⲩⲣⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲁ︦ⲗ︦: ⲛⲉⲙ ⲛⲏⲉⲧⲧⲁⲓⲏⲟⲩⲧ ⲛ̀ⲧⲱⲟⲩ ϧⲉⲛ ϩⲁⲛⲡⲉⲇⲏⲥ ⲛ̀ϫⲓϫ ⲙ̀ⲃⲉⲛⲓⲡⲓ.\nليوثِقوا ملوكَهم بقيودٍ، هَلِّلُويا، واشرافَهم باغلالٍ للأيدي مِن حديدٍ.\nTo execute on them the written judgment: Alleluia. This honor have all His saints.\nⲈⲡ̀ϫⲓⲛⲓ̀ⲣⲓ ⲛ̀ϧⲏⲧⲟⲩ ⲛ̀ⲟⲩϩⲁⲡ ⲉϥⲥ̀ϧⲏⲟⲩⲧ ⲁ︦ⲗ︦: ⲡⲁⲓⲱ̀ⲟⲩ ⲫⲁⲓ ⲁϥϣⲟⲡ ϧⲉⲛ ⲛⲏⲉ︦ⲑ︦ⲩ︦ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ.\nليصنعوا بهم حُكماً مكتوباً، هَلِّلُويا، هذا المجدُ كائن في جميعِ قديسيه.",
+      "body_sha256": "d4d43394de56f09b18294dca61def9199e337a88930aec96c1a1876005abcc01",
+      "context_first_line": 27,
+      "context_last_line": 139,
+      "context_sha256": "7c284e022671bad636d860c4faae1ea6185459924b3ca3ccb3460b161691c6c9",
+      "source_group_key": "pentecost_prostration_praises:FourthHoos",
+      "group_order": 2,
+      "source_order": 76,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "ca87881f05bdb60ca8f8ca7bbc7140d8bbf78d661211881d10f9d226cb8ad2f4",
+      "recurrence": {
+        "kind": "none"
+      }
+    },
+    {
+      "handle": "pentecost_prostration_praises:FourthHoos:Ps150",
+      "rite": "pentecost_prostration_praises",
+      "chapter": 150,
+      "stage": "Praises",
+      "active": true,
+      "qualification": "authenticated_prescribed_psalmody_chapter_only",
+      "heading_line": 105,
+      "heading_exact": "Psalm 150",
+      "body_first_line": 107,
+      "body_last_line": 139,
+      "body_literal": "Alleluia, alleluia, alleluia. Praise God, in all His saints. Alleluia.\nⲀⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ. Ⲥⲙⲟⲩ ⲉ̀Ⲫⲛⲟⲩϯ ϧⲉⲛ ⲛⲏⲉⲑⲟⲩⲁⲃ ⲧⲏⲣⲟⲩ ⲛ̀ⲧⲁϥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nهَلِّلُويا هَلِّلُويا هَلِّلُويا، سبِّحوا الله في جميع قديسيه، هَلِّلُويا.\nPraise Him, in the firmament of His power. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲡⲓⲧⲁϫⲣⲟ ⲛ̀ⲧⲉ ⲧⲉϥϫⲟⲙ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه في جَلَد قوَّتِهِ، هَلِّلُويا.\nPraise Him, for His mighty acts. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲉ̀ϩ̀ⲣⲏⲓ ϩⲓϫⲉⲛ ⲧⲉϥⲙⲉⲧϫⲱⲣⲓ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه على مقدرتِهِ، هَلِّلُويا.\nPraise Him, according to the multitudes of His greatness. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ⲕⲁⲧⲁ ⲡ̀ⲁ̀ϣⲁⲓ ⲛ̀ⲧⲉ ⲧⲉϥⲙⲉⲧⲛⲓϣϯ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه ككثرة عظمتِهِ، هَلِّلُويا.\nPraise Him, with the sound of the trumpet. Alleluia\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲥ̀ⲙⲏ ⲛ̀ⲥⲁⲗⲡⲓⲅⲅⲟⲥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصوتِ البوق، هَلِّلُويا.\nPraise Him, with psaltery and harp. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ⲟⲩⲯⲁⲗⲧⲏⲣⲓⲟⲛ ⲛⲉⲙ ⲟⲩⲕⲩⲑⲁⲣⲁ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بمزمارٍ وقيثارة، هَلِّلُويا.\nPraise Him, with timbrel and chorus. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲉⲙⲕⲉⲙ ⲛⲉⲙ ϩⲁⲛⲭⲟⲣⲟⲥ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بدفوفٍ وصفوف، هَلِّلُويا.\nPraise Him, with strings and organs. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲁⲡ ⲛⲉⲙ ⲟⲩⲟⲣⲅⲁⲛⲟⲛ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بأوتارٍ وأرغن، هَلِّلُويا.\nPraise Him, with pleasant sounding cymbals. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲉ̀ⲛⲉⲥⲉ ⲧⲟⲩⲥ̀ⲙⲏ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصنوج حسنةِ الصوت، هَلِّلُويا.\nPraise Him, upon the cymbals of joy. Alleluia.\nⲤⲙⲟⲩ ⲉ̀ⲣⲟϥ ϧⲉⲛ ϩⲁⲛⲕⲩⲙⲃⲁⲗⲟⲛ ⲛ̀ⲧⲉ ⲟⲩⲉ̀ϣ̀ⲗⲏⲗⲟⲩⲓ̀: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nسبِّحوه بصنوج التهليل، هَلِّلُويا.\nLet everything that has breath praise the name of the Lord our God. Alleluia.\nⲚⲓϥⲓ ⲛⲓⲃⲉⲛ ⲙⲁⲣⲟⲩⲥ̀ⲙⲟⲩ ⲧⲏⲣⲟⲩ ⲉ̀ⲫ̀ⲣⲁⲛ ⲙ̀Ⲡⲟ︦ⲥ︦ Ⲡⲉⲛⲛⲟⲩϯ: ⲁⲗⲗⲏⲗⲟⲩⲓⲁ.\nكلُّ نسمة فلتسبِّح اسمَ الربِّ إلهنا، هَلِّلُويا.",
+      "body_sha256": "5ccd9c30cc9ab8b3e9c432ae62c4c6ba42e2203345e219cd7bdf8b5a931d77f2",
+      "context_first_line": 27,
+      "context_last_line": 139,
+      "context_sha256": "7c284e022671bad636d860c4faae1ea6185459924b3ca3ccb3460b161691c6c9",
+      "source_group_key": "pentecost_prostration_praises:FourthHoos",
+      "group_order": 3,
+      "source_order": 105,
+      "reading_slot": "FourthHoos",
+      "full_capture_sha256": "ca87881f05bdb60ca8f8ca7bbc7140d8bbf78d661211881d10f9d226cb8ad2f4",
+      "recurrence": {
+        "kind": "none"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Published release: **1.3.0**.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.6**.
 
 ## What this package contains
 
@@ -60,7 +60,7 @@ Each commemoration has only `id`, `title`, `type`, `rank`, `displayOrder`, `disp
 
 The readings and commemorations may share a Coptic date, but they are not liturgically linked. This catalog supplies no explanation for the choice of readings and makes no assertion that the Synaxarium is prescribed aloud at a given service.
 
-Repository maintainers can regenerate with `python3 scripts/build_synaxarium.py SOURCE_DIR`, then run `npm run synaxarium:validate` and `npm run lectionary:validate` from the package directory. The source fingerprint fixture stays in the repository tests, outside the published package. The lectionary integrity gate includes synaxarium validation. Existing reading data and its provenance remain unchanged. These maintainer commands require the source checkout; scripts and fingerprint fixtures are not included in an isolated npm installation.
+Repository maintainers can regenerate with `python3 scripts/build_synaxarium.py SOURCE_DIR`, then run `npm run synaxarium:validate` and `npm run lectionary:validate` from the package directory. The source fingerprint fixture stays in the repository tests, outside the published package. The lectionary integrity gate includes synaxarium validation. Synaxarium capture provenance remains separate from the reading-source provenance recorded in `meta.json`. These maintainer commands require the source checkout; scripts and fingerprint fixtures are not included in an isolated npm installation.
 
 The consuming site uses compact civil/Coptic date headings, an expanded Synaxarium entry after Praxis, and an expanded Today in the Church card. Consumers must keep the date-based catalog independent of reading selection, even when rendering it between reading slots. No full Synaxarium narratives are included.
 
@@ -114,13 +114,13 @@ Each daily file is a JSON object keyed by ISO date, for example `2026-04-12`. Ea
 
 Shipped years: 2026, 2027, 2028.
 
-Each daily reading includes a unique `reading_order` within that date. The package writes daily arrays sorted by `reading_order`, using deterministic service and slot ordering: Vespers, Matins, then Liturgy; within those services, Psalm/Gospel for Vespers and Matins, and Pauline, Catholic, Acts, Psalm, Gospel for Liturgy. `slot_order` may repeat for split Psalm verses or readings that share one liturgical slot; use `reading_order` when a unique date-local order is required.
+Each daily reading includes a unique `reading_order` within that date. The package uses deterministic service-stage ordering, retaining source-backed prophecy, epistle, Psalm, Gospel and companion-fragment sequences. Ordinary Liturgy follows Pauline, Catholic, Acts, Psalm and Gospel; exceptional services use their qualified source tables rather than that ordinary cardinality rule. `slot_order` may repeat for split Psalm verses or readings that share one liturgical slot; use `reading_order` when a unique date-local order is required.
 
 In `meta.daily_files`, `rows` is retained as a legacy alias for `date_count`. Use `date_count` for the number of ISO date keys and `reading_count` for the total number of readings across those dates.
 
 ## Structural Holy Week / Bright Saturday daily rows
 
-The package date-resolves Holy Week and Bright Saturday structural rows into the shipped daily files when the public copticchurch.net daily cache does not provide rows for that civil date, and replaces a verified Annunciation collision under the documented exception rule. As a result, every shipped civil date in 2026, 2027, 2028 has a daily JSON key.
+The package date-resolves qualified Holy Week and Bright Saturday structural rows into the shipped daily files, including missing appointments on partially populated dates, and applies the documented Annunciation collision exception. Existing distinct services and source witnesses are preserved. Every shipped civil date in 2026, 2027, 2028 has a daily JSON key; that coverage alone does not establish independent primary-source verification of every reading.
 
 `meta.structural_date_resolver.structural_daily_additions_by_year` lists the civil dates filled from structural Pascha/Bright Saturday rows. `classifyDate(date)` returns `hasDailyReadings: true` for every shipped civil date that has a daily key.
 
@@ -136,7 +136,7 @@ Projection counts and examples are recorded in `meta.projection_rules`.
 
 ## Span and Psalm numbering contract
 
-`spans_json` contains machine-readable canonical spans when the reading can be represented as biblical book/chapter/verse ranges. It may be an empty array for named non-standard readings supplied by Coptic Reader fixtures, such as `Memoirs of Job`; in that case use `reading_type`, `reading_name`, and `display_ref`.
+`spans_json` contains machine-readable canonical spans when the reading can be represented as biblical book/chapter/verse ranges. An authenticated source-only selection with unresolved edition coordinates, or a named unversified excerpt, can have empty canonical references and an empty span array. Preserve its printed selection, source disclosure and qualification; do not infer numeric coordinates from its display label. Named non-standard readings, such as `Memoirs of Job`, also use `reading_type`, `reading_name`, and `display_ref`.
 
 Psalm `display_ref` values may include inline dual numbering, for example `Ps 105:14-15 (LXX Ps 104:14-15)`. Consumers should not parse `display_ref` for machine matching. Use `canonical_mt_ref`, `canonical_lxx_ref`, and `spans_json`.
 
@@ -146,14 +146,20 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Published package version: 1.3.0.
+- Package version: 1.3.6.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
-- Preserved reading-source repo commit: 83210fbfb4124a1d65f8b26d7eace6a5c5dbf9ce.
-- Preserved reading-data generation time: 2026-09-07T13:17:36.240Z.
-- Occasion index rows: 11921.
+- Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.
 
-Repository documentation may be corrected after publication. Such edits do not mutate the immutable npm 1.3.0 artifact; publishing updated packed documentation requires a separately authorized new version.
+### Corrections in 1.3.6
+
+- Third Sunday of Babah Pauline: `1Cor 16:12-24`, preserving the superseded printed reference and correction evidence.
+- Source-qualified Jonah Fast and Lent prophecy supplementation, ordinary-reading parser/appointment repairs, and service-stage ordering.
+- Bounded Psalmody, Bright Saturday and Covenant Thursday additions with source ordinals, printed references, provenance and historical witness qualifications retained.
+- Historical witnesses cannot suppress current appointments through source-priority competition.
+- Four Bright Saturday composite Psalm selections retain unresolved canonical-coordinate holds; Covenant Thursday's named Exodus/Joshua excerpts remain unversified. Psalm 151 has no invented MT counterpart. Unresolved source/edition questions are not silently activated or converted.
+
+These are bounded source-qualified corrections, not a claim that every reading was newly verified against Coptic Reader. The public calendar converter and Synaxarium catalog remain unchanged. Repository documentation edits do not mutate immutable earlier npm artifacts.
 
 ## License
 

@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "authority": "George authorized bounded ordinary appointment integrity repairs",
+  "implementation_scope_instruction": "Repair bounded ordinary appointment tokenization/source-qualified malformed refs using RED-GREEN.",
+  "baseline": {
+    "package": "@andraws/lectionary-data",
+    "version": "1.3.5",
+    "authenticated_tar_sha256": "2bce78f092c318bdf5dc67a0b0bc1e300b668418ca98b0ff7e3742b1f31ae509"
+  },
+  "old_receipts_grant_activation": false,
+  "scope": "Only the declared malformed raw strings under current ordinary date-resolved source identities, 2020..2035; original receipts remain source-only.",
+  "fingerprints": {
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-07-19.html": "2f80f34986e57d131b3ad4111c25bd10b455c336cfa35d420a6d41212be6a540",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-08-02.html": "55ca0b1bc57927d88750dc3f38312d92e01e79fffc43d5766b3e249c05c2ca43",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-09-01.html": "8c0c4f2151f2bf1385d6e4e1f981d2e09ce92d13343bfcb872a13d1b10c9cf98",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-11-01.html": "102273211c28ea55a927e2013e9715e28debb8ff17d8a499fa66ce2a07d84116",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2028-02-15.html": "7c8e4e69a5326e06e1bdc2630191d39f8e244cfcd34ba959af74cf96c644e8bf",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/original-table-receipt.json": "463f9e50d1a93234590c505b810cd0c377b2bec8679dabcfddb0b2318f905009",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/Psalm-and-Gospel.txt": "7e0fed61dfc696ce9eb0c6b815edee05905e97eb5941a74542378e576a33c99f",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/Psalm-and-Gospel.png": "d0903e8b1233878bac707e321dc8a99e399e76fefc91324fa6a002e3d89d1ada",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/home-selected.txt": "e9897e1712753bb2edaa065e87ea504bfbe5d4845a68c2417157010f2711b5a5",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/original-table-receipt.json": "4617eb20c5db66e747dc79576d12a06ba48b8cbe8adf22f2f6d7974303037a7c",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/Psalm-and-Gospel.txt": "da82f6fa37fc5c27bc5bd76336a02f0085f7b351e52a7556ffeb66ef5b1608cb",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/Psalm-and-Gospel.png": "93a609add4422cf7470137da90c881a77420f6c6310d247f834794651a7c248e",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/home-selected.txt": "6aeb6e0786b088080a82983fccccd82fcbf0cabbb3ccef55afc781dc2b163f53",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/NKJV-079.json": "2d8c398c175c88daf6b09c82da6aafe8a9410be7261e34405c8067850eb5dd36",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/NKJV-079.html": "2f420601a1c6d1a65324873609c29bae4e976f21adc373945dd767df71a1c89d",
+    "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/current-cycle-source-rows.json": "9724029c86eadbe1c828d92cde2f3e529dceb1f3446a859c23145020454d70bd"
+  },
+  "tokenization_only": [
+    {
+      "raw_ref": "Jude 14-25",
+      "normalized_ref": "Jude 1:14-25",
+      "reason": "Explicit verse range in single-chapter Jude; not chapter-only reinterpretation of other books."
+    },
+    {
+      "raw_ref": "Php 1:27—  &  Php 2:1-11",
+      "normalized_ref": "Phil 1:27-2:11",
+      "reason": "Common source Php alias; existing same-book open-end combination."
+    }
+  ],
+  "repairs": [
+    {
+      "id": "mesra-26-matins-gospel",
+      "day_title": "Mesra 26",
+      "service_section": "Matins",
+      "reading_type": "Gospel",
+      "raw_ref": "12:20-26",
+      "normalized_ref": "Jn 12:20-26",
+      "coptic_month": 12,
+      "coptic_day": 26,
+      "sunday_ordinal": null,
+      "source_date": "2026-09-01",
+      "html": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-09-01.html",
+      "reader": {
+        "receipt": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/original-table-receipt.json",
+        "text": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/Psalm-and-Gospel.txt",
+        "screenshot": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/Psalm-and-Gospel.png",
+        "home_context": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/mesra-26/home-selected.txt",
+        "selected_context": "Selected Season Standard Mesore 26, 1742 Tuesday, September 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+        "source_date": "2026-09-01",
+        "captured_at": "2026-10-07T18:09:55.297Z",
+        "label": "Matins-Psalm and Gospel"
+      },
+      "reader_printed_ref": "John 12:20-26",
+      "note": "Bookless CopticChurch heading has body 0; complete retained Reader Matins Gospel appoints John 12:20-26. No other references repaired."
+    },
+    {
+      "id": "baba-fourth-liturgy-psalm",
+      "day_title": "The fourth Sunday of Baba",
+      "service_section": "Liturgy",
+      "reading_type": "Psalm",
+      "raw_ref": "Psalm 79:13:00",
+      "normalized_ref": "Ps 79:13",
+      "coptic_month": 2,
+      "coptic_day": null,
+      "sunday_ordinal": 4,
+      "source_date": "2026-11-01",
+      "html": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2026-11-01.html",
+      "reader": {
+        "receipt": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/original-table-receipt.json",
+        "text": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/Psalm-and-Gospel.txt",
+        "screenshot": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/Psalm-and-Gospel.png",
+        "home_context": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/home-selected.txt",
+        "selected_context": "Selected Season 4th Sunday of Paope Paope 22, 1743 Sunday, November 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial\nCommemorations\nSt. Luke the Evangelist",
+        "source_date": "2026-11-01",
+        "captured_at": "2026-10-07T16:49:20.191Z",
+        "label": "Liturgy-Psalm and Gospel"
+      },
+      "reader_printed_ref": "Psalms 78:14",
+      "source_body_literal": "So we, Your people and sheep of Your pasture, Will give You thanks forever; We will show forth Your praise to all generations.",
+      "coordinate_witness": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/NKJV-079.json",
+      "coordinate_raw_witness": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/baba-fourth/NKJV-079.html",
+      "note": "Complete CopticChurch clause equals retained NKJV Psalm 79:13, and retained Reader body matches the same complete clause. Reader printed Psalms 78:14 is preserved separately; no arithmetic offset or other Psalm coordinates changed."
+    }
+  ],
+  "held": [
+    {
+      "id": "amshir-7-matins-psalm",
+      "day_title": "Amshir 7",
+      "service_section": "Matins",
+      "reading_type": "Psalm",
+      "raw_ref": "120:130, 141",
+      "decision": "hold_no_activation",
+      "source_date": "2028-02-15",
+      "html": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/copticchurch/2028-02-15.html",
+      "current_cycle_ref": "Ps 73:23,24,28; Ps 9:14",
+      "cycle_witness": "sources/coptic-reader/ordinary-appointment-qualified-2026-10-25/current-cycle-source-rows.json",
+      "reason": "Cached source body is the unfolding/lowly-and-despised selection, whereas current annual cycle appoints Psalm 73:23,24,28 and 9:14. Retained Reader 2026-02-14 is Preparation Saturday, not proof of this ordinary occasion. No complete independent current-occasion assignment resolves the conflict; do not infer a Psalm141 mapping or transplant the different cycle table."
+    }
+  ]
+}

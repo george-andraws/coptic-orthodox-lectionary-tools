@@ -80,6 +80,19 @@ LAQAN_PUBLIC_DAY_TITLES = {
 }
 
 
+def expand_bright_psalm_shorthand(reference: str) -> str:
+    """Expand omitted Psalm book names only in the leading printed Psalm list.
+
+    This is syntax preservation, not an MT/LXX conversion. The complete literal
+    source reference remains untouched in the raw/source_ref cells.
+    """
+    psalms, separator, rest = reference.partition('+')
+    if not re.match(r'^\s*(?:Ps\.?|Psalms?)\s+\d+:', psalms, re.I):
+        return reference
+    expanded = re.sub(r';\s*(?=\d+:\d+)', '; Psalms ', psalms)
+    return expanded + separator + rest
+
+
 def public_special_day_title(row: dict) -> str:
     """Keep the service family as the occasion, and name the feast in day_title.
 
@@ -357,6 +370,12 @@ def add_row(rows: List[dict], summary_counts: dict[str, Counter], passage: str, 
     summary_counts[passage][source_kind] += 1
 
 
+def project_no_service_history(raw_rows: list[dict]) -> list[dict]:
+    """Separate archive lane; never feed these witnesses to the current index."""
+    import no_service_history
+    return no_service_history.project_rows(raw_rows, FIELDS, coptic_date_for)
+
+
 def displaced_date_history(raw_rows: list[dict], current_rows: list[dict]) -> list[dict]:
     """Retain displaced dated Annunciation evidence, never as an undated rule."""
     dates = {r['gregorian_date'] for r in current_rows if r.get('source') in {
@@ -370,8 +389,15 @@ from sunday_consumer_contracts import STATE_FIELDS as CONSUMER_STATE_FIELDS, bin
 
 def date_source_transport(row: dict, sunday_oracle: dict | None = None) -> dict:
     """Existing provenance CSV cell is the lossless transport, not a new schema."""
+    import jonah_fast_source_supplements as jonah
+    jonah_transport = jonah.transport_for(row)
+    if 'jonah_source' in jonah_transport:
+        jonah.expected_source(jonah_transport['jonah_source'])
+        return jonah_transport
     state = {k: row[k] for k in CONSUMER_STATE_FIELDS if k in row and row[k] not in (None, '')}
     result: dict = {'state': state} if state else {}
+    import ordinary_correction_transport as ordinary_disclosure
+    result.update(ordinary_disclosure.transport_for_index(row))
     if row.get('source') != 'Coptic Reader source-qualified Sunday policy':
         return result
     warning = row.get('normalization_warning', '')
@@ -417,6 +443,7 @@ def project_date_rows(date_rows: list[dict]) -> list[dict]:
         sunday_oracle = load_sunday_evidence()
     for row in date_rows:
         transport = date_source_transport(row, sunday_oracle)
+        jonah_source = transport.get('jonah_source')
         sunday = row.get('source') == 'Coptic Reader source-qualified Sunday policy'
         passage = norm_passage(row)
         g = row.get('gregorian_date') or ''
@@ -429,7 +456,8 @@ def project_date_rows(date_rows: list[dict]) -> list[dict]:
         if reader_supplement and not rule:
             raise RuntimeError('Unqualified Reader crosswalk source')
         source_id = rule.get('source_id', '')
-        source_row_id = (f"{source_id}:{g}:{row['source_slot']}" if reader_supplement else
+        source_row_id = (f"jonah:{g}:{jonah_source['source_order']}" if jonah_source else
+                         f"{source_id}:{g}:{row['source_slot']}" if reader_supplement else
                          f"boundary:{row['correction_source']}:{g}:{row['source_order']}" if boundary else
                          row.get('historical_source_row_id') or idx)
         previous_count = len(rows)
@@ -437,13 +465,13 @@ def project_date_rows(date_rows: list[dict]) -> list[dict]:
             rows,
             summary_counts,
             passage,
-            'pascha_day_hour' if resolved_pascha else 'copticchurch_date',
-            source_family='coptic_reader_verified_sunday_policy' if sunday else ('coptic_reader_verified_calendar_boundary' if boundary else ('coptic_reader_verified_supplement' if reader_supplement else ('holy_pascha_curated_day_hour' if resolved_pascha else 'ordinary_date_resolved'))),
+            jonah_source['source_kind'] if jonah_source else ('pascha_day_hour' if resolved_pascha else 'copticchurch_date'),
+            source_family=jonah_source['source_family'] if jonah_source else ('coptic_reader_verified_sunday_policy' if sunday else ('coptic_reader_verified_calendar_boundary' if boundary else ('coptic_reader_verified_supplement' if reader_supplement else ('holy_pascha_curated_day_hour' if resolved_pascha else 'ordinary_date_resolved')))),
             source_table='copticchurch_date_readings_2020_2035',
-            source_file=row['correction_source'] if reader_supplement or boundary or sunday else ('out/data/pascha_day_hour_index.csv' if resolved_pascha else 'cache/copticchurch_html'),
+            source_file=jonah_source['source_evidence'] if jonah_source else (row['correction_source'] if reader_supplement or boundary or sunday else ('out/data/pascha_day_hour_index.csv' if resolved_pascha else 'cache/copticchurch_html')),
             source_row_id=source_row_id,
             source_order=row.get('source_order') or idx,
-            source_token_order=1,
+            source_token_order=transport['token_order'] if jonah_source else 1,
             liturgical_place=(f"{row['day_title']} (superseded date {g})" if row.get('superseded_reason') == 'calendar_context_displaced' else row.get('day_title') or ''),
             calendar_key=row.get('day_title') or '',
             gregorian_date=g,
@@ -452,9 +480,9 @@ def project_date_rows(date_rows: list[dict]) -> list[dict]:
             service_day=row.get('day_title') or '',
             service_hour=row.get('service_section') if row.get('source_occasion') else '',
             service_section=row.get('service_section') or '',
-            reading_slot=row.get('source_slot') or '',
+            reading_slot=row.get('source_slot') or (row['reading_type'] if jonah_source else ''),
             reading_type=row.get('reading_type') or '',
-            source_ref=(row.get('raw_ref') if (reader_supplement and not rule.get('legacy_projection_compatible')) or boundary else row.get('matched_ref')) or row.get('raw_ref') or '',
+            source_ref=jonah_source['printed_ref'] if jonah_source else ((row.get('raw_ref') if (reader_supplement and not rule.get('legacy_projection_compatible')) or boundary else row.get('matched_ref')) or row.get('raw_ref') or ''),
             raw_ref=row.get('raw_ref') or '',
             normalized_ref=row.get('matched_ref') or '',
             superseded_reason=row.get('superseded_reason') or '',
@@ -471,6 +499,36 @@ def project_date_rows(date_rows: list[dict]) -> list[dict]:
     return rows
 
 
+def project_bright_rows(bright_rows: list[dict], bright_source: Path) -> list[dict]:
+    """Real raw crosswalk creation, with four evidence-bound coordinate holds."""
+    from bright_saturday_composite_supplements import reconcile_bright_composite_rows
+    rows = []
+    counts = defaultdict(Counter)
+    for idx, row in enumerate(bright_rows, 1):
+        for order, token in enumerate(extract_text_ref_tokens(expand_bright_psalm_shorthand(row.get('reference', ''))), 1):
+            passage = canonicalize_text_ref(token)
+            slot = slot_for_passage(row.get('reading_name') or '', passage)
+            add_row(rows, counts, passage, 'bright_saturday_service_order',
+                    source_family='bright_saturday', source_table='bright_saturday_service_order',
+                    source_file=display_path(bright_source) if bright_source.exists() else '',
+                    source_row_id=idx, source_order=idx, source_token_order=order,
+                    liturgical_place=row.get('section') or row.get('subsection') or 'Bright Saturday',
+                    calendar_key=f"Bright Saturday | {row.get('subsection','') or row.get('section','')}",
+                    day_title='Bright Saturday', service_day='Bright Saturday',
+                    service_section=row.get('subsection') or row.get('section') or '',
+                    reading_slot=slot, reading_type=slot,
+                    source_ref=row.get('reference') or token, raw_ref=row.get('reference') or '',
+                    normalized_ref=passage, significance_note=row.get('notes') or '',
+                    provenance='bright_saturday_service_order')
+    return reconcile_bright_composite_rows(rows, bright_rows)
+
+
+def load_covenant_thursday_source_rows() -> list[dict]:
+    """Exact retained-source fragments, including deliberately unversed excerpts."""
+    from covenant_thursday_source_supplements import load_covenant_thursday_rows
+    return load_covenant_thursday_rows()
+
+
 def main() -> None:
     cycle_rows = read_csv(WORK_OUT_DATA / 'katameros_cycle_passage_index.csv')
     current_date_index = WORK_OUT_DATA / 'copticchurch_passage_index_current_2020_2035.csv'
@@ -479,8 +537,12 @@ def main() -> None:
     agpeya_rows = read_csv(WORK_OUT_DATA / 'agpeya_passage_index.csv')
     pascha_source = PASCHA_CSV if PASCHA_CSV.exists() else PASCHA_FALLBACK_CSV
     pascha_jsonl_source = PASCHA_JSONL if PASCHA_JSONL.exists() else PASCHA_FALLBACK_JSONL
-    bright_source = BRIGHT_CSV if BRIGHT_CSV.exists() else BRIGHT_FALLBACK_CSV
-    bright_jsonl_source = BRIGHT_JSONL if BRIGHT_JSONL.exists() else BRIGHT_FALLBACK_JSONL
+    # out_bright retains the pre-reconciliation historical table. It is not an
+    # interchangeable current source if the canonical artifacts go missing.
+    bright_source = BRIGHT_CSV
+    bright_jsonl_source = BRIGHT_JSONL
+    if not bright_source.is_file() or not bright_jsonl_source.is_file():
+        raise FileNotFoundError('Current Bright Saturday CSV/JSONL required; rebuild paired exports before crosswalk')
     pascha_rows = read_csv(pascha_source)
     pascha_source_text_rows = read_csv(PASCHA_SOURCE_TEXT_CSV)
     bright_rows = read_csv(bright_source)
@@ -521,6 +583,10 @@ def main() -> None:
 
     date_rows += displaced_date_history(read_csv(WORK_OUT_DATA / "copticchurch_passage_index_2020_2035.csv"), date_rows)
     projected_dates = project_date_rows(date_rows)
+    # The current passage index intentionally omits these raw inactive witnesses.
+    projected_dates.extend(project_no_service_history([
+        row for row in read_csv(WORK_OUT_DATA / 'copticchurch_date_readings_2020_2035.csv')
+        if row.get('superseded_reason') == 'coptic_reader_no_service']))
     rows.extend(projected_dates)
     for row in projected_dates:
         summary_counts[row["passage"]][row["source_kind"]] += 1
@@ -720,34 +786,14 @@ def main() -> None:
             provenance=f"{row.get('source_file','')}:{row.get('source_line','')}",
         )
 
-    for idx, row in enumerate(bright_rows, 1):
-        for token_order, token in enumerate(extract_text_ref_tokens(row.get('reference', '')), 1):
-            passage = canonicalize_text_ref(token)
-            token_slot = slot_for_passage(row.get('reading_name') or '', passage)
-            add_row(
-                rows,
-                summary_counts,
-                passage,
-                'bright_saturday_service_order',
-                source_family='bright_saturday',
-                source_table='bright_saturday_service_order',
-                source_file=display_path(bright_source) if bright_source.exists() else '',
-                source_row_id=idx,
-                source_order=idx,
-                source_token_order=token_order,
-                liturgical_place=row.get('section') or row.get('subsection') or 'Bright Saturday',
-                calendar_key=f"Bright Saturday | {row.get('subsection','') or row.get('section','')}",
-                day_title='Bright Saturday',
-                service_day='Bright Saturday',
-                service_section=row.get('subsection') or row.get('section') or '',
-                reading_slot=token_slot,
-                reading_type=token_slot,
-                source_ref=row.get('reference') or token,
-                raw_ref=row.get('reference') or '',
-                normalized_ref=passage,
-                significance_note=row.get('notes') or '',
-                provenance='bright_saturday_service_order',
-            )
+    for row in project_bright_rows(bright_rows, bright_source):
+        rows.append(row)
+        summary_counts[row['passage']][row['source_kind']] += 1
+
+    from psalmody_source_supplements import load_psalmody_source_rows
+    for row in load_psalmody_source_rows() + load_covenant_thursday_source_rows():
+        rows.append(row)
+        summary_counts[row['passage']][row['source_kind']] += 1
 
     rows.sort(key=lambda r: (r['passage'], r['source_kind'], str(r['calendar_key']), str(r['service_section']), str(r['source_row_id'])))
 
@@ -765,7 +811,9 @@ def main() -> None:
         agpeya = counts['agpeya']
         pascha = counts['pascha_day_hour']
         pascha_text = counts['pascha_source_text']
-        bright = counts['bright_saturday_service_order']
+        bright = counts['bright_saturday_service_order'] + counts['bright_saturday_qualified_composite']
+        psalmody = counts['psalmody_source_supplement']
+        covenant = counts['coptic_reader_qualified_pascha_hour']
         summary.append({
             'passage': passage,
             'cycle_occurrences': cycle,
@@ -775,7 +823,7 @@ def main() -> None:
             'pascha_occurrences': pascha,
             'pascha_source_text_occurrences': pascha_text,
             'bright_saturday_occurrences': bright,
-            'total_occurrences': cycle + date + special + agpeya + pascha + pascha_text + bright,
+            'total_occurrences': cycle + date + special + agpeya + pascha + pascha_text + bright + psalmody + covenant,
         })
 
     summary_path = OUT / 'reverse_lookup_summary.csv'

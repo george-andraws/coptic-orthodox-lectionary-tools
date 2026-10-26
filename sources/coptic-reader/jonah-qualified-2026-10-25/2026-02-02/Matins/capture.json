@@ -1,0 +1,68 @@
+{
+  "civil_date": "2026-02-02",
+  "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "documents": [
+    {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Prophecies",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Prophecies"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:12.452Z",
+      "raw_reference_lines": [
+        "\tJonah 1:1-2:1"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies.txt",
+      "text_sha256": "5be6db95c590ebe34dc9c06298077ad1d93e19566643487f68ff648270187610",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tJonah 1:1-2:1",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Prophecies-reference-01.png",
+          "sha256": "c1ee463a52f92d61a50b37c9a3d4a3001471d8bf49bd0f55984bdf4ce3ea4884"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    },
+    {
+      "civil_date": "2026-02-02",
+      "context": "Selected Season Jonah's Fast Tobe 25, 1742 Monday, February 2, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+      "service": "Matins",
+      "slot": "Psalm and Gospel",
+      "navigation": [
+        "Readings",
+        "Matins",
+        "Psalm and Gospel"
+      ],
+      "url": "https://copticreader.org/app/#/document",
+      "retrieved_at": "2026-10-07T22:25:18.513Z",
+      "raw_reference_lines": [
+        "\tPsalms 102:1, 7",
+        "\tMatthew 7:6-12"
+      ],
+      "text_path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel.txt",
+      "text_sha256": "98137692dc1a4f25c146aba9b609904878cb6c6e22c07f2d1b43562a486b9737",
+      "reference_screenshots": [
+        {
+          "raw_ref": "\tPsalms 102:1, 7",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-01.png",
+          "sha256": "1032558421c00fb2522f183c69778c5ddbe507fe7163c53698ff706343a3a793"
+        },
+        {
+          "raw_ref": "\tMatthew 7:6-12",
+          "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/lent-source-completion-04/attempts/2026-02-02-ready02/Psalm_and_Gospel-reference-02.png",
+          "sha256": "9cf5b922bd64dd17918deb9762ad5195b37993a9a92802df50157cb2f46120d0"
+        }
+      ],
+      "numbering": "literal source; no conversion",
+      "state": "producer_candidate_pending_independent_acceptance",
+      "visual_review_pending": true
+    }
+  ]
+}

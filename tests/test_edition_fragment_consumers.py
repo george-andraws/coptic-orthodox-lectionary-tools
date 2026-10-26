@@ -250,18 +250,40 @@ class BoundProductionContract(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'hash mismatch'):
                     self.contracts.project_table(self.tables[0])
 
-    def test_all_2591_legacy_identity_canaries_preserved_byte_for_byte(self):
+    def test_all_2591_canaries_preserve_exact_fields_except_two_published_joel_seams(self):
         path = self.contracts.FIXTURES / 'legacy-identities.json'
         raw = path.read_bytes()
         self.assertEqual(hashlib.sha256(raw).hexdigest(), 'fe93a4fde3f10abd229ea6897c35fae7094a68cae65e0e4ac40948e3620a88f1')
         expected = json.loads(raw)
         self.assertEqual(len(expected), 2591)
+        # These two coordinate/identity changes already ship in authenticated
+        # 1.3.5 (tar SHA256 2bce78f092c318bdf5dc67a0b0bc1e300b668418ca98b0ff7e3742b1f31ae509).
+        # Keep the original fixture immutable. Pin the exact intended delta,
+        # rather than refreshing canaries from the implementation under test.
+        approved = {
+            'Joel 2:28-32': ('Joel 3:1-5', 'rid_0372d495b6103756079f'),
+            'Joel 3:9-21': ('Joel 4:9-21', 'rid_6247117d51b4b1b82431'),
+        }
+        note = ("Printed English/NKJV coordinate kept in canonical_mt_ref and the display reference. "
+                "Printed Hebrew Joel has four chapters; this seam uses the same chapter break as Brenton. "
+                "canonical_mt_ref is the package's modern-English primary, not a claim that Hebrew Joel has three chapters.")
+        seen = set()
         for label, identity in expected.items():
             if label.endswith('|fixture'):
                 actual = design.identity_for(label[:-8], 'coptic_reader_fixture')
             else:
                 actual = design.identity_for(label)
+            if label in approved:
+                seen.add(label)
+                lxx, key = approved[label]
+                spans = json.loads(identity['spans_json'])
+                self.assertEqual(len(spans), 1)
+                spans[0].update(canonical_lxx_ref=lxx, validation_basis=note)
+                identity = dict(identity, canonical_lxx_ref=lxx, identity_key=key,
+                                canonicalization_note=note, display_ref=f'{label} (LXX {lxx})',
+                                spans_json=json.dumps(spans, ensure_ascii=False, sort_keys=True))
             self.assertEqual(actual, identity, label)
+        self.assertEqual(seen, set(approved))
 
     def test_existing_wednesday_fixture_remains_26_rows_and_named_job(self):
         raw = design.load_fixture_rows()

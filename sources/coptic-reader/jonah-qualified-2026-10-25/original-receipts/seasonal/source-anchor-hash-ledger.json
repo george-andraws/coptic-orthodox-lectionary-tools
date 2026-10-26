@@ -1,0 +1,3284 @@
+[
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/2022-03-19-before-day.png",
+    "expected": "5ee5c5c695bd4f02c3262baac2672cef3c1aba071c1e24b34df3875de55647b2",
+    "actual": "5ee5c5c695bd4f02c3262baac2672cef3c1aba071c1e24b34df3875de55647b2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/capture.json",
+    "expected": "d86e5043a9d557a3696f4790854bad5819930edec023ef972086da98f93205e7",
+    "actual": "d86e5043a9d557a3696f4790854bad5819930edec023ef972086da98f93205e7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Matins-menu.png",
+    "expected": "b654c1f801e02fb359779b083a98142e01cdabe5daf39880f281508b2bb3f48a",
+    "actual": "b654c1f801e02fb359779b083a98142e01cdabe5daf39880f281508b2bb3f48a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/capture.json",
+    "expected": "ca98f450aaf25c490f476c88a5bf6a8155e138bff1806aa4bd934f7ecef3990d",
+    "actual": "ca98f450aaf25c490f476c88a5bf6a8155e138bff1806aa4bd934f7ecef3990d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Matins-menu.png",
+    "expected": "13f2d11972df006353e00a66c1fc58dda9da479646fab4ceb1b8a14ba41a7277",
+    "actual": "13f2d11972df006353e00a66c1fc58dda9da479646fab4ceb1b8a14ba41a7277",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/2025-03-19-before-day.png",
+    "expected": "dba5fac21bf36fba0c321b14519912051b94dced9138b5f2c2a32a6ef1744730",
+    "actual": "dba5fac21bf36fba0c321b14519912051b94dced9138b5f2c2a32a6ef1744730",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Catholic_Epistle.txt",
+    "expected": "5bcc306e5a50d9fb469527ced4fd2c5d5fcb9dea9de4c6d33a1a58a51ef9cfd2",
+    "actual": "5bcc306e5a50d9fb469527ced4fd2c5d5fcb9dea9de4c6d33a1a58a51ef9cfd2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Psalm_and_Gospel-reference-01.png",
+    "expected": "23b4c4e08f92554a15083f0cc10035f1fea96dbf41d8177480a4480781967314",
+    "actual": "23b4c4e08f92554a15083f0cc10035f1fea96dbf41d8177480a4480781967314",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Pauline_Epistle-reference-01.png",
+    "expected": "c688d5a627b0c2511a4cad1d63ab530506f145b98d23172f38cd536c150ebbf0",
+    "actual": "c688d5a627b0c2511a4cad1d63ab530506f145b98d23172f38cd536c150ebbf0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Psalm_and_Gospel-reference-02.png",
+    "expected": "8c440441ad3be5583b68bfce8b9c88160a7e9d9a405550fcba91bd3405fdc8f5",
+    "actual": "8c440441ad3be5583b68bfce8b9c88160a7e9d9a405550fcba91bd3405fdc8f5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Catholic_Epistle-reference-01.png",
+    "expected": "e74340139472e6ddf13edff20b79efa3f816a52cc23f9ab9dfc33bd81c53d801",
+    "actual": "e74340139472e6ddf13edff20b79efa3f816a52cc23f9ab9dfc33bd81c53d801",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/2026-02-03-before-day.png",
+    "expected": "41549e08c0cd322cdca8da24244fc8c6ba10f23a7c00f3cfbbfc310981c2d4d3",
+    "actual": "41549e08c0cd322cdca8da24244fc8c6ba10f23a7c00f3cfbbfc310981c2d4d3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/capture.json",
+    "expected": "6f0071659e8daa1a109e20d61a74067fe549d19e33db689607103f2fb59fa2bf",
+    "actual": "6f0071659e8daa1a109e20d61a74067fe549d19e33db689607103f2fb59fa2bf",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Praxis.txt",
+    "expected": "c39350523033491bfd9bb517b7c973b0f31088dde5462c2366c86f8b0b082be3",
+    "actual": "c39350523033491bfd9bb517b7c973b0f31088dde5462c2366c86f8b0b082be3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Liturgy-menu.txt",
+    "expected": "8b5602363daeec5d403482537b6f17bf17a9e604bb48125985dba52734bc2a54",
+    "actual": "8b5602363daeec5d403482537b6f17bf17a9e604bb48125985dba52734bc2a54",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Psalm_and_Gospel.txt",
+    "expected": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+    "actual": "29187e150e188f1a506bfdd1aee2d2218da857b468a938b65825619181f242e9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Pauline_Epistle.txt",
+    "expected": "921b071eab3c106d1590e7361c4bad731147c5264de8e87e06d77af469d28246",
+    "actual": "921b071eab3c106d1590e7361c4bad731147c5264de8e87e06d77af469d28246",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Praxis-reference-01.png",
+    "expected": "48bb24d92a02b4c1d86e1af952a0e84ec473f56dce856971879ca6a90022435a",
+    "actual": "48bb24d92a02b4c1d86e1af952a0e84ec473f56dce856971879ca6a90022435a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Liturgy-menu.png",
+    "expected": "2348dd07e0f4f076285f399c07b4a75739825d009731086cb6e7e0b4542dd1ed",
+    "actual": "2348dd07e0f4f076285f399c07b4a75739825d009731086cb6e7e0b4542dd1ed",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/Readings-menu.txt",
+    "expected": "d5c5b5e071454cf2b8ea7671c1307986ae2aac1467d31558d79dbd9e3bd586cd",
+    "actual": "d5c5b5e071454cf2b8ea7671c1307986ae2aac1467d31558d79dbd9e3bd586cd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/2030-03-19-before-day.png",
+    "expected": "65d8478faf08fddc35b3e536091b161738bf839e75c33bb0ae590595910e6402",
+    "actual": "65d8478faf08fddc35b3e536091b161738bf839e75c33bb0ae590595910e6402",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/capture.json",
+    "expected": "3259de7eb58ee14ecb37daa865d0da677473ae4e3f5a310b8d04b35f428ea451",
+    "actual": "3259de7eb58ee14ecb37daa865d0da677473ae4e3f5a310b8d04b35f428ea451",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Matins-menu.png",
+    "expected": "847485b99b86e38daedf6b7251dd38919a40f98e4c9238b728fdf36f15c50102",
+    "actual": "847485b99b86e38daedf6b7251dd38919a40f98e4c9238b728fdf36f15c50102",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/Readings-menu.txt",
+    "expected": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "actual": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/2029-02-15-before-day.png",
+    "expected": "4de0175553eece05baafe7c4c01b9e25cb3f79885d764dd1d867fbb1ca348984",
+    "actual": "4de0175553eece05baafe7c4c01b9e25cb3f79885d764dd1d867fbb1ca348984",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "actual": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "actual": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/capture.json",
+    "expected": "f1a30ed7598644ca3ee813ef39768997cd5e744a6ad2b69d43f2e063a2717687",
+    "actual": "f1a30ed7598644ca3ee813ef39768997cd5e744a6ad2b69d43f2e063a2717687",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Matins-menu.png",
+    "expected": "3455595f4f209dd86ba63cb81871a9aee33c6c68fea29f1cc61fb08763bdba98",
+    "actual": "3455595f4f209dd86ba63cb81871a9aee33c6c68fea29f1cc61fb08763bdba98",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Psalm_and_Gospel.txt",
+    "expected": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "actual": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Prophecies-reference-01.png",
+    "expected": "8cde5d7638ea5ffa7b8c3cc2bd064b0ac9121677148b9323d336f12b3804b5d6",
+    "actual": "8cde5d7638ea5ffa7b8c3cc2bd064b0ac9121677148b9323d336f12b3804b5d6",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Prophecies-reference-02.png",
+    "expected": "270ae43238507212335504cf3fa74b42e55461318c4975eee9184ecf55fcd8c1",
+    "actual": "270ae43238507212335504cf3fa74b42e55461318c4975eee9184ecf55fcd8c1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Prophecies.txt",
+    "expected": "fa80b20e92306a3e2c370b16969558ebe67c8faae90f0467d7fda1a88d736030",
+    "actual": "fa80b20e92306a3e2c370b16969558ebe67c8faae90f0467d7fda1a88d736030",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Matins-menu.txt",
+    "expected": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "actual": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/Readings-menu.txt",
+    "expected": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "actual": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/2031-03-19-before-day.png",
+    "expected": "0a0c93523867942a1fbeb55bd26ffc37aa9028376a1526ad79d7d7634f0105af",
+    "actual": "0a0c93523867942a1fbeb55bd26ffc37aa9028376a1526ad79d7d7634f0105af",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/capture.json",
+    "expected": "a75f6816d00a0f2a1ff56ad60af8be08ccf6b9957d1e70d1cd6a37c56353fa7c",
+    "actual": "a75f6816d00a0f2a1ff56ad60af8be08ccf6b9957d1e70d1cd6a37c56353fa7c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Matins-menu.png",
+    "expected": "670952740c136e0a9907851984387a49cf826d4b5f8ff57a75e17e995e7d7447",
+    "actual": "670952740c136e0a9907851984387a49cf826d4b5f8ff57a75e17e995e7d7447",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/capture.json",
+    "expected": "7a2945d8e2b8df7fd43fbd6e665846f7069ffe6b4fb5fb87a14ad2eb83c56c4f",
+    "actual": "7a2945d8e2b8df7fd43fbd6e665846f7069ffe6b4fb5fb87a14ad2eb83c56c4f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Matins-menu.png",
+    "expected": "847485b99b86e38daedf6b7251dd38919a40f98e4c9238b728fdf36f15c50102",
+    "actual": "847485b99b86e38daedf6b7251dd38919a40f98e4c9238b728fdf36f15c50102",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/2024-03-19-before-day.png",
+    "expected": "903a24898c2c64685383a6d2bfb7725c7f1d10300df19d83d3a1e04840675367",
+    "actual": "903a24898c2c64685383a6d2bfb7725c7f1d10300df19d83d3a1e04840675367",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/2023-03-19-before-day.png",
+    "expected": "386db14bdf5a4c2b6d29d35c672f4d9d558e6f976508f9d50c3bebe5a82f6d08",
+    "actual": "386db14bdf5a4c2b6d29d35c672f4d9d558e6f976508f9d50c3bebe5a82f6d08",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/capture.json",
+    "expected": "e200c0950aaaeb9843a92af4661d8507db1296cceca59b9091bb0c4198131cbb",
+    "actual": "e200c0950aaaeb9843a92af4661d8507db1296cceca59b9091bb0c4198131cbb",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Matins-menu.png",
+    "expected": "3cc3c99862ef86b6b4cf64f36cd13a504d40eb88d21636fac309c48b7eaaa598",
+    "actual": "3cc3c99862ef86b6b4cf64f36cd13a504d40eb88d21636fac309c48b7eaaa598",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/Readings-menu.txt",
+    "expected": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "actual": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Catholic_Epistle.txt",
+    "expected": "04029a1cec56992520d4bfda7e623589913f912bb7e2f3d0cf4a42e93532dea5",
+    "actual": "04029a1cec56992520d4bfda7e623589913f912bb7e2f3d0cf4a42e93532dea5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Psalm_and_Gospel-reference-01.png",
+    "expected": "fe5f0ed44f12ccbcf52e057784021bff0eb516bd02919998cb509efcc8f40a61",
+    "actual": "fe5f0ed44f12ccbcf52e057784021bff0eb516bd02919998cb509efcc8f40a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Pauline_Epistle-reference-01.png",
+    "expected": "f132667739b875b5f766486e5fbc3410432fd136236498e3a350f6a2ad06031b",
+    "actual": "f132667739b875b5f766486e5fbc3410432fd136236498e3a350f6a2ad06031b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Psalm_and_Gospel-reference-02.png",
+    "expected": "a2b698f65ef5bfcf9148d905e89d514ffff41cbc9ef25a4a6c996562de146abd",
+    "actual": "a2b698f65ef5bfcf9148d905e89d514ffff41cbc9ef25a4a6c996562de146abd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Catholic_Epistle-reference-01.png",
+    "expected": "7a915cbd81870a867836fd2381eb54b3949e93c7893452579a2fb7efb65eba6b",
+    "actual": "7a915cbd81870a867836fd2381eb54b3949e93c7893452579a2fb7efb65eba6b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/capture.json",
+    "expected": "e0aeabd372d820b978c88ea3e2c300488613cd661e708c1d32a47a4c7fa404a9",
+    "actual": "e0aeabd372d820b978c88ea3e2c300488613cd661e708c1d32a47a4c7fa404a9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/2026-02-02-before-day.png",
+    "expected": "8f1e8f3755d14c0184c56ee37d5db2ee4e6090f43b4f3975676caf3f6847ea2a",
+    "actual": "8f1e8f3755d14c0184c56ee37d5db2ee4e6090f43b4f3975676caf3f6847ea2a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Praxis.txt",
+    "expected": "0ab537f31ef4ac987794dce3e4eb3792099d2346b42aeab0340b0956bd903217",
+    "actual": "0ab537f31ef4ac987794dce3e4eb3792099d2346b42aeab0340b0956bd903217",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Liturgy-menu.txt",
+    "expected": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+    "actual": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Psalm_and_Gospel.txt",
+    "expected": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+    "actual": "a4b5cef12793b1f39e344d6b73c90519eee603bb48af8f5fc2aa82b27f791a52",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Pauline_Epistle.txt",
+    "expected": "c6f1bdb7b3c8ccc47e99111483ba4cdd6ed0ae4f3fd91b0abf8a0fda1352f53f",
+    "actual": "c6f1bdb7b3c8ccc47e99111483ba4cdd6ed0ae4f3fd91b0abf8a0fda1352f53f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Praxis-reference-01.png",
+    "expected": "7a7c028ad60d3c2dde7bd0dcf70736e6695a930c4b1024f0d743346b1d48b19c",
+    "actual": "7a7c028ad60d3c2dde7bd0dcf70736e6695a930c4b1024f0d743346b1d48b19c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Liturgy-menu.png",
+    "expected": "719316ec9f096fb202fbaecf88cc8fbcd611d8a9ec910df2f585b7890f30f0c4",
+    "actual": "719316ec9f096fb202fbaecf88cc8fbcd611d8a9ec910df2f585b7890f30f0c4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/Readings-menu.txt",
+    "expected": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "actual": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/capture.json",
+    "expected": "3434a11d55fbb53ad2ae3b39257ad0ab170f06b98ea5a9c15132888e1259b1e3",
+    "actual": "3434a11d55fbb53ad2ae3b39257ad0ab170f06b98ea5a9c15132888e1259b1e3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Matins-menu.png",
+    "expected": "b654c1f801e02fb359779b083a98142e01cdabe5daf39880f281508b2bb3f48a",
+    "actual": "b654c1f801e02fb359779b083a98142e01cdabe5daf39880f281508b2bb3f48a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/2024-04-07-before-day.png",
+    "expected": "63e223dbeb475b5fc0b42aa1173cfaea33837d1556877267eb8db1c58a7967f4",
+    "actual": "63e223dbeb475b5fc0b42aa1173cfaea33837d1556877267eb8db1c58a7967f4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/Readings-menu.txt",
+    "expected": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "actual": "494fd6b22d7e087b2f57676827723c57fb9ca0ade1d333d7a768339247e782ac",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "feef8979d6cdbd2ec32b94b3b50981f679db753fdd7e3ffe299b71a7d55e9205",
+    "actual": "feef8979d6cdbd2ec32b94b3b50981f679db753fdd7e3ffe299b71a7d55e9205",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "fe2245d87ddf0cd4d7add6e5413f4699c05ef4b97112bd6e6e25438e9b0e8a05",
+    "actual": "fe2245d87ddf0cd4d7add6e5413f4699c05ef4b97112bd6e6e25438e9b0e8a05",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/capture.json",
+    "expected": "6568b9d587b61f118ceebeb76eef7bbd7ee7b4c6d0ab0d99831ccf8d97ea8c23",
+    "actual": "6568b9d587b61f118ceebeb76eef7bbd7ee7b4c6d0ab0d99831ccf8d97ea8c23",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/2023-04-07-before-day.png",
+    "expected": "0c4bda756ff3fa47ce428561cd7afa2182f0d2eb66b6a1508ab8102fc0cc4df3",
+    "actual": "0c4bda756ff3fa47ce428561cd7afa2182f0d2eb66b6a1508ab8102fc0cc4df3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Prophecies-reference-04.png",
+    "expected": "1fca4266b6845e24598e13770fa951c7f1f8477dc9aed12cbda639d8bd35a714",
+    "actual": "1fca4266b6845e24598e13770fa951c7f1f8477dc9aed12cbda639d8bd35a714",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Matins-menu.png",
+    "expected": "8362d554368c8f98efb642f1572e2cd714361439c07e436fd26c2381d2b1db5c",
+    "actual": "8362d554368c8f98efb642f1572e2cd714361439c07e436fd26c2381d2b1db5c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+    "actual": "8a1764eb45b2e251e6401c2d5ea5a4b0c0d8c98eb258056877197f94a9983c89",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Prophecies-reference-01.png",
+    "expected": "759ab9df6cefb66072527963db46a1891382888384a927734d53251682a8e175",
+    "actual": "759ab9df6cefb66072527963db46a1891382888384a927734d53251682a8e175",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Prophecies-reference-02.png",
+    "expected": "f8a782516d653222c9ecaa2274508441ee218afc5f4c481ff1de65a917025d18",
+    "actual": "f8a782516d653222c9ecaa2274508441ee218afc5f4c481ff1de65a917025d18",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Prophecies.txt",
+    "expected": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+    "actual": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Prophecies-reference-03.png",
+    "expected": "0d7cbe2e23c0c41ed57ed85f540201aa562a0388465f5c543ed1a544f986bf0f",
+    "actual": "0d7cbe2e23c0c41ed57ed85f540201aa562a0388465f5c543ed1a544f986bf0f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "actual": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "actual": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/2022-02-15-before-day.png",
+    "expected": "c7e01697f379c454291381f5144d2abe6363cdb58e78b27b4ea6db9d1f1e2ddf",
+    "actual": "c7e01697f379c454291381f5144d2abe6363cdb58e78b27b4ea6db9d1f1e2ddf",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/capture.json",
+    "expected": "14934e55029e52e99eb2342a9e94bfdf86cce41366b13341f4a1a62ef4eb532d",
+    "actual": "14934e55029e52e99eb2342a9e94bfdf86cce41366b13341f4a1a62ef4eb532d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Matins-menu.png",
+    "expected": "5603b28f3ed824e4acce18879370508a0908e815dcb2b12034d1718af8807b21",
+    "actual": "5603b28f3ed824e4acce18879370508a0908e815dcb2b12034d1718af8807b21",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Psalm_and_Gospel.txt",
+    "expected": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "actual": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Prophecies-reference-01.png",
+    "expected": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "actual": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Prophecies.txt",
+    "expected": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "actual": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Matins-menu.txt",
+    "expected": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "actual": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/Readings-menu.txt",
+    "expected": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "actual": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/capture.json",
+    "expected": "3332514c0536138adde0182ec2ee38633f68d27ead6a9bd667ff4dff38c8f921",
+    "actual": "3332514c0536138adde0182ec2ee38633f68d27ead6a9bd667ff4dff38c8f921",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/2029-03-19-before-day.png",
+    "expected": "5dcb6906e95e8f202014cf0832264577574f2b7b8b8f4f8560df1208e5f22482",
+    "actual": "5dcb6906e95e8f202014cf0832264577574f2b7b8b8f4f8560df1208e5f22482",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Matins-menu.png",
+    "expected": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "actual": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/Readings-menu.txt",
+    "expected": "867a90b5e403064e88c9542b08d5a4a53b734ac86fa0b9d410de1a36d901aa65",
+    "actual": "867a90b5e403064e88c9542b08d5a4a53b734ac86fa0b9d410de1a36d901aa65",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/2030-04-07-before-day.png",
+    "expected": "2546a12809930ac412ba55a5083fdd1e7b2ed78b993ea1c4550999a38e299ce3",
+    "actual": "2546a12809930ac412ba55a5083fdd1e7b2ed78b993ea1c4550999a38e299ce3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/capture.json",
+    "expected": "6748f5d7322d3c061fad65da1a6dfffe31051371d7873f6976c2068b67549211",
+    "actual": "6748f5d7322d3c061fad65da1a6dfffe31051371d7873f6976c2068b67549211",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Matins-menu.png",
+    "expected": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "actual": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "actual": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/2031-02-15-before-day.png",
+    "expected": "c7a8c1e6ea2ddaa6f0508899024306af9a7c95fcb5022a481762b4f0268ba855",
+    "actual": "c7a8c1e6ea2ddaa6f0508899024306af9a7c95fcb5022a481762b4f0268ba855",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "actual": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/capture.json",
+    "expected": "8e99fa4e5e9d87396770bd7d5ca3ebf3193b34096fd7629f3cbe1cf46a31f008",
+    "actual": "8e99fa4e5e9d87396770bd7d5ca3ebf3193b34096fd7629f3cbe1cf46a31f008",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Matins-menu.png",
+    "expected": "5603b28f3ed824e4acce18879370508a0908e815dcb2b12034d1718af8807b21",
+    "actual": "5603b28f3ed824e4acce18879370508a0908e815dcb2b12034d1718af8807b21",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Psalm_and_Gospel.txt",
+    "expected": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "actual": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Matins-menu.txt",
+    "expected": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "actual": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/Readings-menu.txt",
+    "expected": "813d3459677b156e9fefb38dbadd8f4a2c3e7d4ccffaf89b92b2b6011645493e",
+    "actual": "813d3459677b156e9fefb38dbadd8f4a2c3e7d4ccffaf89b92b2b6011645493e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/2022-04-07-before-day.png",
+    "expected": "eeb69da40bfe2dbb81aea3c1784806ea97be71c7f1a9c284d82f11a517a33779",
+    "actual": "eeb69da40bfe2dbb81aea3c1784806ea97be71c7f1a9c284d82f11a517a33779",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/capture.json",
+    "expected": "3bf4e2d3c50660821d84d009617e73bf881c0624f2a5ff5b362e3ab016405acf",
+    "actual": "3bf4e2d3c50660821d84d009617e73bf881c0624f2a5ff5b362e3ab016405acf",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Matins-menu.png",
+    "expected": "2661b045fef70dad4bb2cf95ebc745c316e63dcae9715004c252828b4398a734",
+    "actual": "2661b045fef70dad4bb2cf95ebc745c316e63dcae9715004c252828b4398a734",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/capture.json",
+    "expected": "96f562abdbb007e5d73faddf187dc1149e4a61c9b3546b2c9b48a55ffd476fe1",
+    "actual": "96f562abdbb007e5d73faddf187dc1149e4a61c9b3546b2c9b48a55ffd476fe1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/2025-04-07-before-day.png",
+    "expected": "f1e6ed687e4c5579ccc02b959418b0b5c31da0006ccbe2ff9257c01ac4d1c1d8",
+    "actual": "f1e6ed687e4c5579ccc02b959418b0b5c31da0006ccbe2ff9257c01ac4d1c1d8",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Matins-menu.png",
+    "expected": "13f2d11972df006353e00a66c1fc58dda9da479646fab4ceb1b8a14ba41a7277",
+    "actual": "13f2d11972df006353e00a66c1fc58dda9da479646fab4ceb1b8a14ba41a7277",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/2028-03-19-before-day.png",
+    "expected": "89eb2c711eb030a877f0ae63173ebc1225773c45d6edfe4cf95450d45d8c8e8f",
+    "actual": "89eb2c711eb030a877f0ae63173ebc1225773c45d6edfe4cf95450d45d8c8e8f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/capture.json",
+    "expected": "8ef0fa975d7ec00192650fb5a746af0d11db8307098fe23d552f782dc3750a02",
+    "actual": "8ef0fa975d7ec00192650fb5a746af0d11db8307098fe23d552f782dc3750a02",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Matins-menu.png",
+    "expected": "25017dc38137b3653e1098c4d2ea8ee5bc1e49534e6d471eb64f47c90a470738",
+    "actual": "25017dc38137b3653e1098c4d2ea8ee5bc1e49534e6d471eb64f47c90a470738",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "actual": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/2034-02-15-before-day.png",
+    "expected": "e8671bb1602e35d840a93862b279c57c6a29ab02414d07f6d6d762abf8767387",
+    "actual": "e8671bb1602e35d840a93862b279c57c6a29ab02414d07f6d6d762abf8767387",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "actual": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/capture.json",
+    "expected": "c21d2a34abe377b50b7f72222b9087e5613bedee8972d2244ead3c0adcd39d0d",
+    "actual": "c21d2a34abe377b50b7f72222b9087e5613bedee8972d2244ead3c0adcd39d0d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Matins-menu.png",
+    "expected": "baebf454d2a90aba142e603b60b09244ae7eefe79fd6c56e6c6b1c4b96ed50d2",
+    "actual": "baebf454d2a90aba142e603b60b09244ae7eefe79fd6c56e6c6b1c4b96ed50d2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Psalm_and_Gospel.txt",
+    "expected": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "actual": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Prophecies-reference-01.png",
+    "expected": "bc0ca5e1e17be759fa68f4b0b52a892f3dc2990fc26695e4da6939e90c31e564",
+    "actual": "bc0ca5e1e17be759fa68f4b0b52a892f3dc2990fc26695e4da6939e90c31e564",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Prophecies-reference-02.png",
+    "expected": "0062771bc8ee9de1cf00f12b5acc77cc1428fb48ed407c07d9950473dbc2b317",
+    "actual": "0062771bc8ee9de1cf00f12b5acc77cc1428fb48ed407c07d9950473dbc2b317",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Prophecies.txt",
+    "expected": "4f48b79a99969369c10e0f20d3a29ff36098e21c792f66366cc8325c3accdda9",
+    "actual": "4f48b79a99969369c10e0f20d3a29ff36098e21c792f66366cc8325c3accdda9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Matins-menu.txt",
+    "expected": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "actual": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/Readings-menu.txt",
+    "expected": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "actual": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "actual": "0cd01077d84393044aee79d2237227602e8ee24a5eb400d7f0b9c5191a8b0c02",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "actual": "8a8b59fc3977ffa14e45fa4fbe0b387d9b30f843cdf9c66f986d311dd02ee30e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/capture.json",
+    "expected": "be7187da27c74a6e190bb85e5df5cab0e41e0a18280dce2c4136d0ed9849f6e9",
+    "actual": "be7187da27c74a6e190bb85e5df5cab0e41e0a18280dce2c4136d0ed9849f6e9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/2033-02-15-before-day.png",
+    "expected": "8873cb080f3675b82c8e2bad9edcd9e3ee010bdcbf30ca785c2e3fd192d69a3b",
+    "actual": "8873cb080f3675b82c8e2bad9edcd9e3ee010bdcbf30ca785c2e3fd192d69a3b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Matins-menu.png",
+    "expected": "5f8f6e9ee5dacbcbe21ccaef1c9c34eb17d5039a43c08f88dab2b906b2be9c1d",
+    "actual": "5f8f6e9ee5dacbcbe21ccaef1c9c34eb17d5039a43c08f88dab2b906b2be9c1d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Psalm_and_Gospel.txt",
+    "expected": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "actual": "f457fa042765fc352e9c1dfcebc711e3383cc58d85e5c3f748015c246267729f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Prophecies-reference-01.png",
+    "expected": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "actual": "cab6792d123f61ee3cbf4583f9e0f71043cef4e07521d65c60b6d39b6e2c581e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Prophecies.txt",
+    "expected": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "actual": "99e51d9166300a7c9b3b439ba434fbffcf6ea81d295f73d0c52eef7866023668",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Matins-menu.txt",
+    "expected": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "actual": "39453c64b78350906eaaf4fc9e194f4c4c84c1e726aa25637aaec6e287596673",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/Readings-menu.txt",
+    "expected": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "actual": "379273b835477512036d0f199b20e2496ab757603f79f48d73fa514b4a4eee08",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/2035-04-07-before-day.png",
+    "expected": "c6dee0165458b2b5ea2d7ff8be6354f5a5fee20ca156c41a282c87da9406b44b",
+    "actual": "c6dee0165458b2b5ea2d7ff8be6354f5a5fee20ca156c41a282c87da9406b44b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/capture.json",
+    "expected": "ca92fa2e5bbb27e1521dec34ea5f529dfa1642c751eb88b2d4d79e27d9d4d0df",
+    "actual": "ca92fa2e5bbb27e1521dec34ea5f529dfa1642c751eb88b2d4d79e27d9d4d0df",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Matins-menu.png",
+    "expected": "ac57b2ac2578f54401449daf1a5ef3b2255916eb9bff7a173692f1b701e4cd43",
+    "actual": "ac57b2ac2578f54401449daf1a5ef3b2255916eb9bff7a173692f1b701e4cd43",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/capture.json",
+    "expected": "26c17e88385f5ebb3e9edf79aca478feec41c08514bd4e40af00ada80b3c5c6a",
+    "actual": "26c17e88385f5ebb3e9edf79aca478feec41c08514bd4e40af00ada80b3c5c6a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Matins-menu.png",
+    "expected": "db963b025554e6287124a2317fe9ce02a349631c78cccb825f091921633bb601",
+    "actual": "db963b025554e6287124a2317fe9ce02a349631c78cccb825f091921633bb601",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/2032-04-07-before-day.png",
+    "expected": "475d9a4fb4eafa02c4d19ae6a87afccb20788319755821f9ff50b7d4c3e2ce51",
+    "actual": "475d9a4fb4eafa02c4d19ae6a87afccb20788319755821f9ff50b7d4c3e2ce51",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/capture.json",
+    "expected": "6faf4c1978874a6585139f9e3832ffff4d884e71e675d9b1e3a03182f3d8d8ff",
+    "actual": "6faf4c1978874a6585139f9e3832ffff4d884e71e675d9b1e3a03182f3d8d8ff",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/2020-04-07-before-day.png",
+    "expected": "49a8a9f30d15fe827a6551bf8d11d8c5a9212a42735cc31c23b44ca53e9e83c9",
+    "actual": "49a8a9f30d15fe827a6551bf8d11d8c5a9212a42735cc31c23b44ca53e9e83c9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Matins-menu.png",
+    "expected": "b654c1f801e02fb359779b083a98142e01cdabe5daf39880f281508b2bb3f48a",
+    "actual": "b654c1f801e02fb359779b083a98142e01cdabe5daf39880f281508b2bb3f48a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Catholic_Epistle.txt",
+    "expected": "22606c6a7f6dfeabc85c097b50d1e15a0e2be3bfe7b243acd00dbe33b6fe6fbb",
+    "actual": "22606c6a7f6dfeabc85c097b50d1e15a0e2be3bfe7b243acd00dbe33b6fe6fbb",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Psalm_and_Gospel-reference-01.png",
+    "expected": "3861014ef02f014195faacdea2c513cf421e7102edb93cd507c55e5c1fce2dec",
+    "actual": "3861014ef02f014195faacdea2c513cf421e7102edb93cd507c55e5c1fce2dec",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Pauline_Epistle-reference-01.png",
+    "expected": "4e54c1c86395d887afdc41bdf7aa3e2c86ecb570f47d3faaeb8adb1d00b227ce",
+    "actual": "4e54c1c86395d887afdc41bdf7aa3e2c86ecb570f47d3faaeb8adb1d00b227ce",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Psalm_and_Gospel-reference-02.png",
+    "expected": "4a4728716007ccc1bfc6da2e49e6bfd1b08ebae426e59f1ae2d7ed3b53992060",
+    "actual": "4a4728716007ccc1bfc6da2e49e6bfd1b08ebae426e59f1ae2d7ed3b53992060",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/2026-02-04-before-day.png",
+    "expected": "86a1ef6252d439553bf25a70c79bdd6877ab47598d8008d7306507b3fcc68d8a",
+    "actual": "86a1ef6252d439553bf25a70c79bdd6877ab47598d8008d7306507b3fcc68d8a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Catholic_Epistle-reference-01.png",
+    "expected": "c0d20e37442e18b09b6c661dac2a980a665b3c3f5cfe8dcbae9b767b26d3da64",
+    "actual": "c0d20e37442e18b09b6c661dac2a980a665b3c3f5cfe8dcbae9b767b26d3da64",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/capture.json",
+    "expected": "149ee959967440d7a97500aebc2962ad29abe860d62f73ba6a0fff4f6284faae",
+    "actual": "149ee959967440d7a97500aebc2962ad29abe860d62f73ba6a0fff4f6284faae",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Praxis.txt",
+    "expected": "15b9dd3b551cb8f40e561d334dfeea65ee27170b79c170cece2a43af5932cf0b",
+    "actual": "15b9dd3b551cb8f40e561d334dfeea65ee27170b79c170cece2a43af5932cf0b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Liturgy-menu.txt",
+    "expected": "f4adc9d7132e10a32b5424da6a1ce9d7166fe6d837c81f0234c0ea92f85fde6c",
+    "actual": "f4adc9d7132e10a32b5424da6a1ce9d7166fe6d837c81f0234c0ea92f85fde6c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Psalm_and_Gospel.txt",
+    "expected": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+    "actual": "283c31bbaef53f2cf5d35f0a030258c2cfc99e999631e96dd676bc7d2d1ba047",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Pauline_Epistle.txt",
+    "expected": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+    "actual": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Praxis-reference-01.png",
+    "expected": "88f66183cc85a1551681aafb8df4f4279080c12c2ee3807f3510c3f0279d507a",
+    "actual": "88f66183cc85a1551681aafb8df4f4279080c12c2ee3807f3510c3f0279d507a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Liturgy-menu.png",
+    "expected": "2c7525b961f2cac1d540a430bc3ce92e94e0a971ac09dcfac01cfc76b23ecbdd",
+    "actual": "2c7525b961f2cac1d540a430bc3ce92e94e0a971ac09dcfac01cfc76b23ecbdd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/Readings-menu.txt",
+    "expected": "34d6b0486454932ccac6133dbe24375d6a31d2e077041c836edfd7f788df6ea7",
+    "actual": "34d6b0486454932ccac6133dbe24375d6a31d2e077041c836edfd7f788df6ea7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/capture.json",
+    "expected": "d34b2c0ecd9fbfc53aef06d1cb00bdff0e2506bf93d190daca84d4f5bc187551",
+    "actual": "d34b2c0ecd9fbfc53aef06d1cb00bdff0e2506bf93d190daca84d4f5bc187551",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Matins-menu.png",
+    "expected": "8362d554368c8f98efb642f1572e2cd714361439c07e436fd26c2381d2b1db5c",
+    "actual": "8362d554368c8f98efb642f1572e2cd714361439c07e436fd26c2381d2b1db5c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/2021-04-07-before-day.png",
+    "expected": "b90b922810eb7a90f0b8344b86a80240eefd9061adc5e216bc47e604f8df5e27",
+    "actual": "b90b922810eb7a90f0b8344b86a80240eefd9061adc5e216bc47e604f8df5e27",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Catholic_Epistle.txt",
+    "expected": "8fba689ca6b30e7ab55a36e5fff73e60e9582e1efc723c559c5977ae3fdb88a1",
+    "actual": "8fba689ca6b30e7ab55a36e5fff73e60e9582e1efc723c559c5977ae3fdb88a1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Psalm_and_Gospel-reference-01.png",
+    "expected": "1fe227c84bc4c925e4f9897ad84e3a270d144c5b66c88c094a5d828ddb532252",
+    "actual": "1fe227c84bc4c925e4f9897ad84e3a270d144c5b66c88c094a5d828ddb532252",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Pauline_Epistle-reference-01.png",
+    "expected": "ca2cf2e11a2674be7f4458f0d83b48ea53ba64f945736ee5e748b960b606d3fc",
+    "actual": "ca2cf2e11a2674be7f4458f0d83b48ea53ba64f945736ee5e748b960b606d3fc",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Psalm_and_Gospel-reference-02.png",
+    "expected": "1b81703bbd60c8a77bdb611f0ace3abaca3c5f1081f210d77e5a23b90330a345",
+    "actual": "1b81703bbd60c8a77bdb611f0ace3abaca3c5f1081f210d77e5a23b90330a345",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Catholic_Epistle-reference-01.png",
+    "expected": "561e602be315e595fae1a64e389c7cb1f65144b832ef593edff1b8e0c508d185",
+    "actual": "561e602be315e595fae1a64e389c7cb1f65144b832ef593edff1b8e0c508d185",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/capture.json",
+    "expected": "b9b71509107673866b1bb0394cca6a3312597dfc4fdb3a9c3af01334f3a98b0a",
+    "actual": "b9b71509107673866b1bb0394cca6a3312597dfc4fdb3a9c3af01334f3a98b0a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/2026-02-05-before-day.png",
+    "expected": "41549e08c0cd322cdca8da24244fc8c6ba10f23a7c00f3cfbbfc310981c2d4d3",
+    "actual": "41549e08c0cd322cdca8da24244fc8c6ba10f23a7c00f3cfbbfc310981c2d4d3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Praxis.txt",
+    "expected": "11556aa7bdb022d1d2a46bfb10b4c3289453670a5d17d13bafe9387d4e1e965b",
+    "actual": "11556aa7bdb022d1d2a46bfb10b4c3289453670a5d17d13bafe9387d4e1e965b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Liturgy-menu.txt",
+    "expected": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+    "actual": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Psalm_and_Gospel.txt",
+    "expected": "8a572a48fd7f9911d6ab824325a595c62ce06a197c3d9cb4ecd5a835e8912937",
+    "actual": "8a572a48fd7f9911d6ab824325a595c62ce06a197c3d9cb4ecd5a835e8912937",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Pauline_Epistle.txt",
+    "expected": "96762e005e88fa03cbc9980bd240a1c7b0f4facc7b48c5f1eb8570250f9d866d",
+    "actual": "96762e005e88fa03cbc9980bd240a1c7b0f4facc7b48c5f1eb8570250f9d866d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Praxis-reference-01.png",
+    "expected": "ecc22fcdca9e8de30b710cc55d0831bf325dc0df2960dcab6020bdf215610517",
+    "actual": "ecc22fcdca9e8de30b710cc55d0831bf325dc0df2960dcab6020bdf215610517",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Liturgy-menu.png",
+    "expected": "0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11",
+    "actual": "0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "actual": "f552e9082a0e06523fafb7d5e9d8f10fd3a4dd7fa88613d6b6fff72630aefc11",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "actual": "c5a13030cd5c58a194b09b101824d6cf73de5f921678d9edc42f3d797e504f4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/capture.json",
+    "expected": "85a8c8bc1ce14ed7028897ab48d947cc237db590fb337844c74caf2144973c73",
+    "actual": "85a8c8bc1ce14ed7028897ab48d947cc237db590fb337844c74caf2144973c73",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Matins-menu.png",
+    "expected": "032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6",
+    "actual": "032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Psalm_and_Gospel.txt",
+    "expected": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "actual": "ab3155f2b7eac6348f657c7bc27f124638295cc3a0cabf58721492f03c6f29a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/2033-04-07-before-day.png",
+    "expected": "3ea91db0dbd53a8d6db78f4da42d32d24d40f2a62043ca2202b14620777a8206",
+    "actual": "3ea91db0dbd53a8d6db78f4da42d32d24d40f2a62043ca2202b14620777a8206",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/2026-04-03-before-day.png",
+    "expected": "1d23e68852530ab3b631f43eb3b948eeac31b763dc125d2afd37552d2c4b8106",
+    "actual": "1d23e68852530ab3b631f43eb3b948eeac31b763dc125d2afd37552d2c4b8106",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/capture.json",
+    "expected": "dc51de42dac6ed1a9d83d7455e748b48c83f12798c0595fbe7ccb13af9e0089b",
+    "actual": "dc51de42dac6ed1a9d83d7455e748b48c83f12798c0595fbe7ccb13af9e0089b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Prophecies-reference-04.png",
+    "expected": "1fca4266b6845e24598e13770fa951c7f1f8477dc9aed12cbda639d8bd35a714",
+    "actual": "1fca4266b6845e24598e13770fa951c7f1f8477dc9aed12cbda639d8bd35a714",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Matins-menu.png",
+    "expected": "d97c3a07f81676100d3a2f323720ebf5d02139702cd9a57d92cecb055766cd0c",
+    "actual": "d97c3a07f81676100d3a2f323720ebf5d02139702cd9a57d92cecb055766cd0c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Prophecies-reference-01.png",
+    "expected": "759ab9df6cefb66072527963db46a1891382888384a927734d53251682a8e175",
+    "actual": "759ab9df6cefb66072527963db46a1891382888384a927734d53251682a8e175",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Prophecies-reference-02.png",
+    "expected": "f8a782516d653222c9ecaa2274508441ee218afc5f4c481ff1de65a917025d18",
+    "actual": "f8a782516d653222c9ecaa2274508441ee218afc5f4c481ff1de65a917025d18",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Prophecies.txt",
+    "expected": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+    "actual": "9f66c5ffdc0ba0575867268307378d769d1b3c434cfb99ad7e090ee9025a50a1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Prophecies-reference-03.png",
+    "expected": "0d7cbe2e23c0c41ed57ed85f540201aa562a0388465f5c543ed1a544f986bf0f",
+    "actual": "0d7cbe2e23c0c41ed57ed85f540201aa562a0388465f5c543ed1a544f986bf0f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/capture.json",
+    "expected": "395abd90463e36a1cbd8fd697237bd9da8b76a92ec3b3f559ddcf1dbf7530355",
+    "actual": "395abd90463e36a1cbd8fd697237bd9da8b76a92ec3b3f559ddcf1dbf7530355",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Matins-menu.png",
+    "expected": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "actual": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/2033-03-19-before-day.png",
+    "expected": "9f1a84694debcf92870c4c8a1258a87597c2e3a286d777087a5be5cd82577fda",
+    "actual": "9f1a84694debcf92870c4c8a1258a87597c2e3a286d777087a5be5cd82577fda",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/2034-03-19-before-day.png",
+    "expected": "d8d5135b54d3a4c0efaebe311528a22ca5a3fd15106586958e4286c83c00d0f9",
+    "actual": "d8d5135b54d3a4c0efaebe311528a22ca5a3fd15106586958e4286c83c00d0f9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/capture.json",
+    "expected": "68060330af4c0b73d5e3005b8aff8fb29085383c853062db82e0d53331a3034d",
+    "actual": "68060330af4c0b73d5e3005b8aff8fb29085383c853062db82e0d53331a3034d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Matins-menu.png",
+    "expected": "25017dc38137b3653e1098c4d2ea8ee5bc1e49534e6d471eb64f47c90a470738",
+    "actual": "25017dc38137b3653e1098c4d2ea8ee5bc1e49534e6d471eb64f47c90a470738",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/capture.json",
+    "expected": "dd82ce91beb3791207d10b22adfecf4a20e8156ad6a279149a2950e351cde4f2",
+    "actual": "dd82ce91beb3791207d10b22adfecf4a20e8156ad6a279149a2950e351cde4f2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Matins-menu.png",
+    "expected": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "actual": "c085cf988df14462c231c1462311ed9fd9343e9a481f590632e4d5f51279ae74",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/2021-03-19-before-day.png",
+    "expected": "c1ba3601cae1a7805ea43554c31faaaad9ee3fa61d13e35f3ee3532a8b35fc1a",
+    "actual": "c1ba3601cae1a7805ea43554c31faaaad9ee3fa61d13e35f3ee3532a8b35fc1a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/2027-03-19-before-day.png",
+    "expected": "e7cd1839367df2b2400f2adf3d54b8e0f385f9fc9f8d8c91450b53588b813cba",
+    "actual": "e7cd1839367df2b2400f2adf3d54b8e0f385f9fc9f8d8c91450b53588b813cba",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/capture.json",
+    "expected": "1dd871e8fb9b4d23a9bb70d1481d622de69f7d7eb199d506e91862af68771244",
+    "actual": "1dd871e8fb9b4d23a9bb70d1481d622de69f7d7eb199d506e91862af68771244",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Matins-menu.png",
+    "expected": "72058fcf51689aee540e423e29616398f3c7dae2ce5b801d5db3e8aba6fe2999",
+    "actual": "72058fcf51689aee540e423e29616398f3c7dae2ce5b801d5db3e8aba6fe2999",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/capture.json",
+    "expected": "c3840ef0ca6cad2bb7f94bbdec6378b8d3554e5070361413109bb35e6eed923e",
+    "actual": "c3840ef0ca6cad2bb7f94bbdec6378b8d3554e5070361413109bb35e6eed923e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Matins-menu.png",
+    "expected": "c4fddc3ed0f2f50d8b12419117e268f58c72cc52254ee2e5eea3410619095269",
+    "actual": "c4fddc3ed0f2f50d8b12419117e268f58c72cc52254ee2e5eea3410619095269",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/2020-03-19-before-day.png",
+    "expected": "5f4cfe842c9c1f01022ca88e9937cba5234e468c565b9d70ff508e91abec89bc",
+    "actual": "5f4cfe842c9c1f01022ca88e9937cba5234e468c565b9d70ff508e91abec89bc",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/2035-03-19-before-day.png",
+    "expected": "685cdc053341260e0e6cfd6693532a981b74e69a63bd262cfef5b105e4208723",
+    "actual": "685cdc053341260e0e6cfd6693532a981b74e69a63bd262cfef5b105e4208723",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/capture.json",
+    "expected": "ad6862e5565ac71835638d0d0d4f6b78e7989425060397e313918e6002dbe428",
+    "actual": "ad6862e5565ac71835638d0d0d4f6b78e7989425060397e313918e6002dbe428",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Matins-menu.png",
+    "expected": "13f2d11972df006353e00a66c1fc58dda9da479646fab4ceb1b8a14ba41a7277",
+    "actual": "13f2d11972df006353e00a66c1fc58dda9da479646fab4ceb1b8a14ba41a7277",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Psalm_and_Gospel-reference-01.png",
+    "expected": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "actual": "7709f5d7426c5d82f3502d55f786a0bf627d181210abb93c87be05c10af79394",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Psalm_and_Gospel-reference-02.png",
+    "expected": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "actual": "10e75ee462759052aba6e575e9ab6823c9d7a578eb4b5750bbc60c345e81549c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/capture.json",
+    "expected": "74c23b9d9c5e20904ef3f5fabbc8047d70fdd6cfc1bbc961f44083fe09c33d67",
+    "actual": "74c23b9d9c5e20904ef3f5fabbc8047d70fdd6cfc1bbc961f44083fe09c33d67",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Prophecies-rubric-or-empty.png",
+    "expected": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "actual": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Matins-menu.png",
+    "expected": "847485b99b86e38daedf6b7251dd38919a40f98e4c9238b728fdf36f15c50102",
+    "actual": "847485b99b86e38daedf6b7251dd38919a40f98e4c9238b728fdf36f15c50102",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Psalm_and_Gospel.txt",
+    "expected": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "actual": "1a0cf3184b480f98cbf25b5e5c0dffefb5536496c888116c036028bae702eef7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/2032-03-19-before-day.png",
+    "expected": "568e98d410476744782420c86e44373e4feecff0fbf6b5c24714ccc22869b2cd",
+    "actual": "568e98d410476744782420c86e44373e4feecff0fbf6b5c24714ccc22869b2cd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Prophecies.txt",
+    "expected": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "actual": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Matins-menu.txt",
+    "expected": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "actual": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/Readings-menu.txt",
+    "expected": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "actual": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/2032-03-19/context.png",
+    "expected": "c9048059039314ffae7a810df627dce112b8004280b3418420d1ce6ba4f37185",
+    "actual": "c9048059039314ffae7a810df627dce112b8004280b3418420d1ce6ba4f37185",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/2032-03-19/picker.png",
+    "expected": "676b7d323aad3ade80a4c0e52c4506f49eee7c4d4a1f4c9d78bbd58d135893f7",
+    "actual": "676b7d323aad3ade80a4c0e52c4506f49eee7c4d4a1f4c9d78bbd58d135893f7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/2032-03-19/picker.json",
+    "expected": "c55cf9d08b7bd2437acfe6efc2e52e2ce8c1096dd3e9938aa30c52dfd7b2bc97",
+    "actual": "c55cf9d08b7bd2437acfe6efc2e52e2ce8c1096dd3e9938aa30c52dfd7b2bc97",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-03-19-matins/2032-03-19/context.txt",
+    "expected": "0c95bb0cbc50699092742473ed198388f8e32a25c7ecdf6ea5390bacdb7ed6ba",
+    "actual": "0c95bb0cbc50699092742473ed198388f8e32a25c7ecdf6ea5390bacdb7ed6ba",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/2035-03-19/context.png",
+    "expected": "35e94ba9aaf583eb6c2454421b76b4db24d34b31db02880664a6b0ff4a47a3de",
+    "actual": "35e94ba9aaf583eb6c2454421b76b4db24d34b31db02880664a6b0ff4a47a3de",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/2035-03-19/picker.png",
+    "expected": "b7a06cf0be2ccc784147c95bd10d9fddf3e0e5aec2ca80fb80701c608874f768",
+    "actual": "b7a06cf0be2ccc784147c95bd10d9fddf3e0e5aec2ca80fb80701c608874f768",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/2035-03-19/picker.json",
+    "expected": "c45e5cfc2cf82a676d409eea04e671e42535363578efa1072da8b935a35013e5",
+    "actual": "c45e5cfc2cf82a676d409eea04e671e42535363578efa1072da8b935a35013e5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-03-19-matins/2035-03-19/context.txt",
+    "expected": "e71728ce0f7ada0924de38e895e52cea1b4e958879c3fc9667e7e4732f81e868",
+    "actual": "e71728ce0f7ada0924de38e895e52cea1b4e958879c3fc9667e7e4732f81e868",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/2020-03-19/context.png",
+    "expected": "a89a44ad6d2fa100509600032c23c791f25117dbe2dd056ca7afe0cd1578f0ff",
+    "actual": "a89a44ad6d2fa100509600032c23c791f25117dbe2dd056ca7afe0cd1578f0ff",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/2020-03-19/picker.png",
+    "expected": "2697e7542d7a687174ddc122a26fe67029c14878f334f9f5a6c212c198c8ba4f",
+    "actual": "2697e7542d7a687174ddc122a26fe67029c14878f334f9f5a6c212c198c8ba4f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/2020-03-19/picker.json",
+    "expected": "e98ca2b199c1e7cc463d0ef7c27f0493ab3396ce446a6a5baea5fb61337fa372",
+    "actual": "e98ca2b199c1e7cc463d0ef7c27f0493ab3396ce446a6a5baea5fb61337fa372",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-03-19-matins/2020-03-19/context.txt",
+    "expected": "4332dd72abd1c4a328bba7e401ea58bb5ffe50ea62d87e51a7129bf1546b51c1",
+    "actual": "4332dd72abd1c4a328bba7e401ea58bb5ffe50ea62d87e51a7129bf1546b51c1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/2027-03-19/context.png",
+    "expected": "8f590bf979210045238294f42730b3e1e862943d4349a86f3d4417621d268b93",
+    "actual": "8f590bf979210045238294f42730b3e1e862943d4349a86f3d4417621d268b93",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/2027-03-19/picker.png",
+    "expected": "e6701c5f646ff785e2d737ee212d59d416cd4e53c962ca47451b2a7e54576fa7",
+    "actual": "e6701c5f646ff785e2d737ee212d59d416cd4e53c962ca47451b2a7e54576fa7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/2027-03-19/picker.json",
+    "expected": "79237e968faf1e8d4ac9318ee055f2eb3ea775bbea26df29fb914f3b2f8a4af5",
+    "actual": "79237e968faf1e8d4ac9318ee055f2eb3ea775bbea26df29fb914f3b2f8a4af5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2027-03-19-matins/2027-03-19/context.txt",
+    "expected": "222599aca6fab75a7be8c6ed7dfa2dea39ad78b485875e1695ef8e45d14bc92a",
+    "actual": "222599aca6fab75a7be8c6ed7dfa2dea39ad78b485875e1695ef8e45d14bc92a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/2021-03-19/context.png",
+    "expected": "68345c1fecb9371ea78d9995b2c317437dd3f3fe34990148effa44cf8aad59be",
+    "actual": "68345c1fecb9371ea78d9995b2c317437dd3f3fe34990148effa44cf8aad59be",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/2021-03-19/picker.png",
+    "expected": "8f6fa1d707e12a69f22120545b84569201f3685b869fead70bd021d31bc3c0af",
+    "actual": "8f6fa1d707e12a69f22120545b84569201f3685b869fead70bd021d31bc3c0af",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/2021-03-19/picker.json",
+    "expected": "d1c0e6a161b5faaff6ac43d72c1d69b2524dd10d4e62b670174f817d5eec20cc",
+    "actual": "d1c0e6a161b5faaff6ac43d72c1d69b2524dd10d4e62b670174f817d5eec20cc",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-03-19-matins/2021-03-19/context.txt",
+    "expected": "707ec8012ee491a69b472f1688762fa7a8574ea6f2a7e5bfbbc0e1553edc47f0",
+    "actual": "707ec8012ee491a69b472f1688762fa7a8574ea6f2a7e5bfbbc0e1553edc47f0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/2034-03-19/context.png",
+    "expected": "26b8fd9a789f49fbbea7036b8efbcc4a4eab255f57851ff6b9b3390db571d23f",
+    "actual": "26b8fd9a789f49fbbea7036b8efbcc4a4eab255f57851ff6b9b3390db571d23f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/2034-03-19/picker.png",
+    "expected": "29f3ca3aef995be1b59ca251c59e85b9ad0df1e33cb036ecdb57d270af7e90ff",
+    "actual": "29f3ca3aef995be1b59ca251c59e85b9ad0df1e33cb036ecdb57d270af7e90ff",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/2034-03-19/picker.json",
+    "expected": "7be9f76d3f7a8919c00898a52928f29d2361df951269e61ceb1a78a5d586d2c9",
+    "actual": "7be9f76d3f7a8919c00898a52928f29d2361df951269e61ceb1a78a5d586d2c9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-03-19-matins/2034-03-19/context.txt",
+    "expected": "864452b168230cbc12ea82ba1315fc32c798c4facb51ca7f9902b333aa37b2e3",
+    "actual": "864452b168230cbc12ea82ba1315fc32c798c4facb51ca7f9902b333aa37b2e3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/2033-03-19/context.png",
+    "expected": "5aa5f4f638a391dabe5244d139736e58528622aa06c5b6ddb58cf7f1590baa93",
+    "actual": "5aa5f4f638a391dabe5244d139736e58528622aa06c5b6ddb58cf7f1590baa93",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/2033-03-19/picker.png",
+    "expected": "78179ad74ad3cde760ea1ff8b460d4ef4ecf1bbb82c995cadb167c922a028f3f",
+    "actual": "78179ad74ad3cde760ea1ff8b460d4ef4ecf1bbb82c995cadb167c922a028f3f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/2033-03-19/picker.json",
+    "expected": "018ac22d02847d82c023d2550321d92d7123fbdb69d45711eee563bdbf41ecc9",
+    "actual": "018ac22d02847d82c023d2550321d92d7123fbdb69d45711eee563bdbf41ecc9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-03-19-matins/2033-03-19/context.txt",
+    "expected": "5a64b9ad28a4e597d6575fdc4e96c44bd8dd43f12c722f51d810ab2afa889843",
+    "actual": "5a64b9ad28a4e597d6575fdc4e96c44bd8dd43f12c722f51d810ab2afa889843",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/2026-04-03/context.png",
+    "expected": "d109041e159e43160fd592567a4809c5cc102fb2980474f84d281a1f33ad353a",
+    "actual": "d109041e159e43160fd592567a4809c5cc102fb2980474f84d281a1f33ad353a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/2026-04-03/picker.png",
+    "expected": "fc6815c463d4d049730ec0f3f87975a8acdbf5fed5edad8397cf30cb7d09a2f4",
+    "actual": "fc6815c463d4d049730ec0f3f87975a8acdbf5fed5edad8397cf30cb7d09a2f4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/2026-04-03/picker.json",
+    "expected": "81eac7237483e754128b79074dde6f0ec21ad223a22c5bfb977fd8b0d1bfc4c4",
+    "actual": "81eac7237483e754128b79074dde6f0ec21ad223a22c5bfb977fd8b0d1bfc4c4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-04-03-first/2026-04-03/context.txt",
+    "expected": "c6bfa43f7466fc9d8f5317f7f36ec223f4b5844cd62d729939b83ad6a762b9f0",
+    "actual": "c6bfa43f7466fc9d8f5317f7f36ec223f4b5844cd62d729939b83ad6a762b9f0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/2033-04-07/context.png",
+    "expected": "c8cedeb45d8d47b9f7c6508a17b0efeedfa2821339a4b70e32f44fa3cdf3d62d",
+    "actual": "c8cedeb45d8d47b9f7c6508a17b0efeedfa2821339a4b70e32f44fa3cdf3d62d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/2033-04-07/picker.png",
+    "expected": "0dbdb54b05abc6b497ae82e325efb6bb2cbd0e7a22763982e7ce0ae7498d1831",
+    "actual": "0dbdb54b05abc6b497ae82e325efb6bb2cbd0e7a22763982e7ce0ae7498d1831",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/2033-04-07/picker.json",
+    "expected": "61238311882fde87be73abc95d5ced4e4d5fe34e7ec400260a537a0528530fb0",
+    "actual": "61238311882fde87be73abc95d5ced4e4d5fe34e7ec400260a537a0528530fb0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-04-07-matins/2033-04-07/context.txt",
+    "expected": "696a52af623b55a17688a6e859fbc73fab063281221dcbb2190ad4616ed87cea",
+    "actual": "696a52af623b55a17688a6e859fbc73fab063281221dcbb2190ad4616ed87cea",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/2026-02-05/context.png",
+    "expected": "2a0075e6f72b35a29bdbcea85e8783f4cc96833f26e66bb65415889081c111f0",
+    "actual": "2a0075e6f72b35a29bdbcea85e8783f4cc96833f26e66bb65415889081c111f0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/2026-02-05/picker.png",
+    "expected": "0ed99c84cdb5f44f524b774ec5f97a5c9fb2f6696adaad953fec0ffc5933c413",
+    "actual": "0ed99c84cdb5f44f524b774ec5f97a5c9fb2f6696adaad953fec0ffc5933c413",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/2026-02-05/picker.json",
+    "expected": "e67a58ada71a1496965076eeb00caa73e5485d2c1f4fccbb88ae90a0df00c30b",
+    "actual": "e67a58ada71a1496965076eeb00caa73e5485d2c1f4fccbb88ae90a0df00c30b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-05-liturgy/2026-02-05/context.txt",
+    "expected": "9e5a0bf1bddf245159734f4df4521cf808e946f6da86c6957b1e5016ff855943",
+    "actual": "9e5a0bf1bddf245159734f4df4521cf808e946f6da86c6957b1e5016ff855943",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/2021-04-07/context.png",
+    "expected": "539c377a2b1517c38940999ebe29a1b76620fc04b2ecdc4a79fd7ecb97cb8a5f",
+    "actual": "539c377a2b1517c38940999ebe29a1b76620fc04b2ecdc4a79fd7ecb97cb8a5f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/2021-04-07/picker.png",
+    "expected": "ff33d8bef1a842f1a28c6953c09764c3911fdc64c6f84788e489aa1a8d5ee10c",
+    "actual": "ff33d8bef1a842f1a28c6953c09764c3911fdc64c6f84788e489aa1a8d5ee10c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/2021-04-07/picker.json",
+    "expected": "52e89c2358f3c5493531d453310e46f82386c3538771f5e6178d7b9004bfb48d",
+    "actual": "52e89c2358f3c5493531d453310e46f82386c3538771f5e6178d7b9004bfb48d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2021-04-07-matins/2021-04-07/context.txt",
+    "expected": "b02ddc22b669bd226bfefd00572e6ece32661c855636efbf793c96656b32da4d",
+    "actual": "b02ddc22b669bd226bfefd00572e6ece32661c855636efbf793c96656b32da4d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/2026-02-04/context.png",
+    "expected": "7d2383846e5fffdca141c3cc6171bb002d9d720ba5adca097b402a70423a2272",
+    "actual": "7d2383846e5fffdca141c3cc6171bb002d9d720ba5adca097b402a70423a2272",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/2026-02-04/picker.png",
+    "expected": "660c856d44acbcf3bce7908874bdbb872fc17ed58e10e89b02427f36a9fe18fd",
+    "actual": "660c856d44acbcf3bce7908874bdbb872fc17ed58e10e89b02427f36a9fe18fd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/2026-02-04/picker.json",
+    "expected": "8d16a58be6a8f6310f6eeecbc5db081ece4c8d794928301e313e4b957357a3b3",
+    "actual": "8d16a58be6a8f6310f6eeecbc5db081ece4c8d794928301e313e4b957357a3b3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-04-liturgy/2026-02-04/context.txt",
+    "expected": "3cfd42bd7b26fd6460e9aaaa3a7f90e815eb446afdc645a6ac3edf504983a9e0",
+    "actual": "3cfd42bd7b26fd6460e9aaaa3a7f90e815eb446afdc645a6ac3edf504983a9e0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/2020-04-07/context.png",
+    "expected": "d92536d1186fb52d1282f5906f715fb8a2a6eda0af803bb998b1c0707ee45532",
+    "actual": "d92536d1186fb52d1282f5906f715fb8a2a6eda0af803bb998b1c0707ee45532",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/2020-04-07/picker.png",
+    "expected": "4e856fc4c9c7ba8d289c35be82eaeb9121d9d4cc013a308b1089d9bb11910a6a",
+    "actual": "4e856fc4c9c7ba8d289c35be82eaeb9121d9d4cc013a308b1089d9bb11910a6a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/2020-04-07/picker.json",
+    "expected": "12818cfae40f50037f013a922648afc0d66ecf74c214bf98a56c400600d01e47",
+    "actual": "12818cfae40f50037f013a922648afc0d66ecf74c214bf98a56c400600d01e47",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2020-04-07-matins/2020-04-07/context.txt",
+    "expected": "0a2c3e550223966f815c43a0d638b3b148d07fe3f0986d9f73670af85c7d6bad",
+    "actual": "0a2c3e550223966f815c43a0d638b3b148d07fe3f0986d9f73670af85c7d6bad",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/2032-04-07/context.png",
+    "expected": "6104eb54b98786434d89a9c6698e8a583a13af77c34e1658c520f2826b16b5d1",
+    "actual": "6104eb54b98786434d89a9c6698e8a583a13af77c34e1658c520f2826b16b5d1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/2032-04-07/picker.png",
+    "expected": "eaded429e0fc7d7a6716ee14e814991e2c24116c3b79565d9a8d6fd2bd976170",
+    "actual": "eaded429e0fc7d7a6716ee14e814991e2c24116c3b79565d9a8d6fd2bd976170",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/2032-04-07/picker.json",
+    "expected": "283a2c820b3e64abe7342b54ca16f039fe7549382b23ba48d46f383a4c3b8c49",
+    "actual": "283a2c820b3e64abe7342b54ca16f039fe7549382b23ba48d46f383a4c3b8c49",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2032-04-07-matins/2032-04-07/context.txt",
+    "expected": "53b887712a3d7976e27d7454a598c7e7cbbd32856ff6ced6383cd920d79d01ef",
+    "actual": "53b887712a3d7976e27d7454a598c7e7cbbd32856ff6ced6383cd920d79d01ef",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/2035-04-07/context.png",
+    "expected": "0d2c9e0473f38ae4ef253fef851faf9c7393e3431ba5727003e6e03afca09419",
+    "actual": "0d2c9e0473f38ae4ef253fef851faf9c7393e3431ba5727003e6e03afca09419",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/2035-04-07/picker.png",
+    "expected": "1e5c5ec50de12a9346c050af9a369c09cebca9a7e864278af6e14657d7fa1510",
+    "actual": "1e5c5ec50de12a9346c050af9a369c09cebca9a7e864278af6e14657d7fa1510",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/2035-04-07/picker.json",
+    "expected": "e03bc464674b85091f7d12f3baa1ab6c979e7b1982f246abf2a1e1a256c20450",
+    "actual": "e03bc464674b85091f7d12f3baa1ab6c979e7b1982f246abf2a1e1a256c20450",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2035-04-07-matins/2035-04-07/context.txt",
+    "expected": "ea735a428a3598611f9ee01bc1f8a196e3e6587955f66e5cbb2412e741be27b8",
+    "actual": "ea735a428a3598611f9ee01bc1f8a196e3e6587955f66e5cbb2412e741be27b8",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/2033-02-15/context.png",
+    "expected": "25a3c2eba950d6d9c38858c487916d5da117948d264691f1f78bd4ae112bae74",
+    "actual": "25a3c2eba950d6d9c38858c487916d5da117948d264691f1f78bd4ae112bae74",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/2033-02-15/picker.png",
+    "expected": "d1c3c1bdb748d34872f74b92ce604ad1fab2e963237ce6b92d5b0fde56587a2d",
+    "actual": "d1c3c1bdb748d34872f74b92ce604ad1fab2e963237ce6b92d5b0fde56587a2d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/2033-02-15/picker.json",
+    "expected": "256832de7424d6b3208af347917a6536d9e1cd6551538a54388274f43197fb96",
+    "actual": "256832de7424d6b3208af347917a6536d9e1cd6551538a54388274f43197fb96",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2033-02-15-matins/2033-02-15/context.txt",
+    "expected": "94bf2cec7292a63551e8972b901e36a583a63b89cf1de5dc369661d0486f9c39",
+    "actual": "94bf2cec7292a63551e8972b901e36a583a63b89cf1de5dc369661d0486f9c39",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/2034-02-15/context.png",
+    "expected": "f0d6e8e39c9fa8e60cffde1f6be848c0c5b66014063a851616453288afbd274f",
+    "actual": "f0d6e8e39c9fa8e60cffde1f6be848c0c5b66014063a851616453288afbd274f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/2034-02-15/picker.png",
+    "expected": "7408e6e59e57a45cffd778ff3e05b41155147508cad956e1d4c70788ae723b3b",
+    "actual": "7408e6e59e57a45cffd778ff3e05b41155147508cad956e1d4c70788ae723b3b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/2034-02-15/picker.json",
+    "expected": "a92336ece005779fe4d6224ac9f55206d32b2e7b548f717e8a3ddc69cdfaf237",
+    "actual": "a92336ece005779fe4d6224ac9f55206d32b2e7b548f717e8a3ddc69cdfaf237",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2034-02-15-matins/2034-02-15/context.txt",
+    "expected": "7710fe3d62da67fd376c686185237dc43deaf455998aa5bf24c4a1ad2abf9178",
+    "actual": "7710fe3d62da67fd376c686185237dc43deaf455998aa5bf24c4a1ad2abf9178",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/2028-03-19/context.png",
+    "expected": "829ff7830a928e6549ff3ceae29f165e73633f1251fbe648f8f8d3855cc08b67",
+    "actual": "829ff7830a928e6549ff3ceae29f165e73633f1251fbe648f8f8d3855cc08b67",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/2028-03-19/picker.png",
+    "expected": "fcc63104585be1ce0d764b643b507989d8a326f506e1ba214b9e0efeeb2f5d41",
+    "actual": "fcc63104585be1ce0d764b643b507989d8a326f506e1ba214b9e0efeeb2f5d41",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/2028-03-19/picker.json",
+    "expected": "a58c5f7bf8ac3682fa4bf8be485185c0e4a971ab5df93208d5c98f764ca6cebe",
+    "actual": "a58c5f7bf8ac3682fa4bf8be485185c0e4a971ab5df93208d5c98f764ca6cebe",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2028-03-19-matins/2028-03-19/context.txt",
+    "expected": "2d7f27c40839f434c3b52f5775e221a30345b07f1b252aec3fcd4c2f3776b5d3",
+    "actual": "2d7f27c40839f434c3b52f5775e221a30345b07f1b252aec3fcd4c2f3776b5d3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/2025-04-07/context.png",
+    "expected": "7ae8b1a92c3eb7479c7cea0a37fb865e1e0baef33e4df6b71a580f5bf3184107",
+    "actual": "7ae8b1a92c3eb7479c7cea0a37fb865e1e0baef33e4df6b71a580f5bf3184107",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/2025-04-07/picker.png",
+    "expected": "729dba32a6628b3d0bb5237a3ac635ca55101b0f1c10f674ea2570551f39bedb",
+    "actual": "729dba32a6628b3d0bb5237a3ac635ca55101b0f1c10f674ea2570551f39bedb",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/2025-04-07/picker.json",
+    "expected": "962b239a9792919a763bd48d542d3e9804dd4c3ba16c50f2e84bba47c7c3796d",
+    "actual": "962b239a9792919a763bd48d542d3e9804dd4c3ba16c50f2e84bba47c7c3796d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-04-07-matins/2025-04-07/context.txt",
+    "expected": "834d869dfb3f4c7043fe1e8267f8edf83fd934dfa3e03ba4e32e0995b2a69b33",
+    "actual": "834d869dfb3f4c7043fe1e8267f8edf83fd934dfa3e03ba4e32e0995b2a69b33",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/2022-04-07/context.png",
+    "expected": "c858fabc96834fc4dd1043e21988d588836adab1bbf204e338bdc3e114ba52e0",
+    "actual": "c858fabc96834fc4dd1043e21988d588836adab1bbf204e338bdc3e114ba52e0",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/2022-04-07/picker.png",
+    "expected": "8ee58d9f3e777b19289bf63f73fa4b00943faeca597087ca5343c704b6ae6b96",
+    "actual": "8ee58d9f3e777b19289bf63f73fa4b00943faeca597087ca5343c704b6ae6b96",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/2022-04-07/picker.json",
+    "expected": "166b3b674bc0e4f54ffe6a3b0836216d56dd25b09d9a3604f5a9556dc327c8bd",
+    "actual": "166b3b674bc0e4f54ffe6a3b0836216d56dd25b09d9a3604f5a9556dc327c8bd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-04-07-matins/2022-04-07/context.txt",
+    "expected": "ef02e396ac85ad11b904ca93de50d5b2193d3ddcbbd58b4fcd8d98b08713483c",
+    "actual": "ef02e396ac85ad11b904ca93de50d5b2193d3ddcbbd58b4fcd8d98b08713483c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/2031-02-15/context.png",
+    "expected": "eb09feb72fb6f6e21137f5582710ce776257fe55caf9fb645dca157a26cf9e0d",
+    "actual": "eb09feb72fb6f6e21137f5582710ce776257fe55caf9fb645dca157a26cf9e0d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/2031-02-15/picker.png",
+    "expected": "4c0fdcc4069fc05bdf74070005a6d1a5bcabfca6a486d20a42376ea7d0bae261",
+    "actual": "4c0fdcc4069fc05bdf74070005a6d1a5bcabfca6a486d20a42376ea7d0bae261",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/2031-02-15/picker.json",
+    "expected": "b8a3fa9de5b27c87170007a5261c3103eb0bc4d7438317517152689c320aac13",
+    "actual": "b8a3fa9de5b27c87170007a5261c3103eb0bc4d7438317517152689c320aac13",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-02-15-matins/2031-02-15/context.txt",
+    "expected": "087d572e5d657f37155ca2b7b97e8463b5bd35eb513589339e84fd4dc24f30b1",
+    "actual": "087d572e5d657f37155ca2b7b97e8463b5bd35eb513589339e84fd4dc24f30b1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/2030-04-07/context.png",
+    "expected": "b3537bb4f0d2d32ba77448341f816c43631c639082ac9d4c2ddcf9829080c3a3",
+    "actual": "b3537bb4f0d2d32ba77448341f816c43631c639082ac9d4c2ddcf9829080c3a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/2030-04-07/picker.png",
+    "expected": "f7ebce2c31650b37aeec0e70824031909daadcf37b9324fe7788ec4cb788a0df",
+    "actual": "f7ebce2c31650b37aeec0e70824031909daadcf37b9324fe7788ec4cb788a0df",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/2030-04-07/picker.json",
+    "expected": "8669c88a63c2de503c7f850d566f9f3568c4ad8f1b2d4fcb6b8db85b83a84ad4",
+    "actual": "8669c88a63c2de503c7f850d566f9f3568c4ad8f1b2d4fcb6b8db85b83a84ad4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-04-07-matins/2030-04-07/context.txt",
+    "expected": "74cabcfb7dcec96ab6f42988c65319bcfbcc4b2b9bc04335fb1e65af1799f37e",
+    "actual": "74cabcfb7dcec96ab6f42988c65319bcfbcc4b2b9bc04335fb1e65af1799f37e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/2029-03-19/context.png",
+    "expected": "bd51538c6ea53f4a75414993f25784701e5813ae6a69eef45db4addd68fc84e8",
+    "actual": "bd51538c6ea53f4a75414993f25784701e5813ae6a69eef45db4addd68fc84e8",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/2029-03-19/picker.png",
+    "expected": "a195cb9d3f64c2338c958dbeed71b536be3055a61faeef67e970e82f0b25e25b",
+    "actual": "a195cb9d3f64c2338c958dbeed71b536be3055a61faeef67e970e82f0b25e25b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/2029-03-19/picker.json",
+    "expected": "a0c320dd484748cacbcc5a0632cfd5d5cadad81a142ad935b57b8e76c2bbe784",
+    "actual": "a0c320dd484748cacbcc5a0632cfd5d5cadad81a142ad935b57b8e76c2bbe784",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-03-19-matins/2029-03-19/context.txt",
+    "expected": "5d744bf3a26a5a7fe495b6c9fc21488d0c321084ea8c07b852badca59460d64a",
+    "actual": "5d744bf3a26a5a7fe495b6c9fc21488d0c321084ea8c07b852badca59460d64a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/2022-02-15/context.png",
+    "expected": "8539f11f8ae1b99c01533404995c83c247b1c705b5eefd2ee8449209fb6c31a5",
+    "actual": "8539f11f8ae1b99c01533404995c83c247b1c705b5eefd2ee8449209fb6c31a5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/2022-02-15/picker.png",
+    "expected": "8783e7ff56e11b373636b34fcc708c38831b7faf608a6b0801ab1ad57ccf1084",
+    "actual": "8783e7ff56e11b373636b34fcc708c38831b7faf608a6b0801ab1ad57ccf1084",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/2022-02-15/picker.json",
+    "expected": "37d448f92f04fd44d83b403651966cbc1c06c2a1361e495445e8698397971c8c",
+    "actual": "37d448f92f04fd44d83b403651966cbc1c06c2a1361e495445e8698397971c8c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-02-15-matins/2022-02-15/context.txt",
+    "expected": "047a84a7ffa5255b6b30cbfa9941c933abe87c9476ab6d5425143240ad193a79",
+    "actual": "047a84a7ffa5255b6b30cbfa9941c933abe87c9476ab6d5425143240ad193a79",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/2023-04-07/context.png",
+    "expected": "f63f3e673df54025a9d36b87bc518713c40f97d3e93464c3bf539974a0977a8d",
+    "actual": "f63f3e673df54025a9d36b87bc518713c40f97d3e93464c3bf539974a0977a8d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/2023-04-07/picker.png",
+    "expected": "16f9bbe9dfcd1a741fb965f732d94806eac75ac4db876303f1e428ddca4774ef",
+    "actual": "16f9bbe9dfcd1a741fb965f732d94806eac75ac4db876303f1e428ddca4774ef",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/2023-04-07/picker.json",
+    "expected": "10d0bea8fdf9c491f9ad6810e32c7af33c57aee76345f50f9b37f6d8f5d8473b",
+    "actual": "10d0bea8fdf9c491f9ad6810e32c7af33c57aee76345f50f9b37f6d8f5d8473b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-04-07-matins/2023-04-07/context.txt",
+    "expected": "78e7fd34122c6697ecd249d3d4329cb4ac3eed45691e3b73d39d116df600d234",
+    "actual": "78e7fd34122c6697ecd249d3d4329cb4ac3eed45691e3b73d39d116df600d234",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/2024-04-07/context.png",
+    "expected": "ad6b839719328a5a9f7e69f3f1d62a8c6f12350436ce5c6cafc2ba0657c65c92",
+    "actual": "ad6b839719328a5a9f7e69f3f1d62a8c6f12350436ce5c6cafc2ba0657c65c92",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/2024-04-07/picker.png",
+    "expected": "c72ad64dcc1d578ca9a7107635337bbeecd39e8a4eaf497486914cee6fd27651",
+    "actual": "c72ad64dcc1d578ca9a7107635337bbeecd39e8a4eaf497486914cee6fd27651",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/2024-04-07/picker.json",
+    "expected": "406daa29e0842f4ec2bb6d2192fb488f8c6e92a8aa00e9bc3df0f1f17fc3d6a2",
+    "actual": "406daa29e0842f4ec2bb6d2192fb488f8c6e92a8aa00e9bc3df0f1f17fc3d6a2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-04-07-matins/2024-04-07/context.txt",
+    "expected": "1e58b252e111af931f02b896b93fa19871a28215d04394c9e09b211844ff481a",
+    "actual": "1e58b252e111af931f02b896b93fa19871a28215d04394c9e09b211844ff481a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/2026-02-02/context.png",
+    "expected": "d50cd33c52c27a16dad770edc1ff707d388f0fa112b77b4016562308c91cc255",
+    "actual": "d50cd33c52c27a16dad770edc1ff707d388f0fa112b77b4016562308c91cc255",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/2026-02-02/picker.png",
+    "expected": "07f6743ba302b4408bf96edefccc111007493699366fc15a1a9fafef61bbf400",
+    "actual": "07f6743ba302b4408bf96edefccc111007493699366fc15a1a9fafef61bbf400",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/2026-02-02/picker.json",
+    "expected": "22e192b69877d960e2219f00493247f5842a49ee9e8478bbea1b28ec27df4c8f",
+    "actual": "22e192b69877d960e2219f00493247f5842a49ee9e8478bbea1b28ec27df4c8f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-02-liturgy/2026-02-02/context.txt",
+    "expected": "15d3113523ef274611b3e9b380d9078c5f5621cb888f06f92515a911f13acb97",
+    "actual": "15d3113523ef274611b3e9b380d9078c5f5621cb888f06f92515a911f13acb97",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/2023-03-19/context.png",
+    "expected": "1d25a603a257413e864a532e56babc7ec130e446fa3970e92f260ad2123208dd",
+    "actual": "1d25a603a257413e864a532e56babc7ec130e446fa3970e92f260ad2123208dd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/2023-03-19/picker.png",
+    "expected": "eb7c810c846a2de14ecfecbce89d9df25e7a2312e69de6541195570883c99c07",
+    "actual": "eb7c810c846a2de14ecfecbce89d9df25e7a2312e69de6541195570883c99c07",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/2023-03-19/picker.json",
+    "expected": "ea718ef696fe7887b641d8e9486c42ce3789bddcf032444a3aca38a6188cab5e",
+    "actual": "ea718ef696fe7887b641d8e9486c42ce3789bddcf032444a3aca38a6188cab5e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2023-03-19-matins/2023-03-19/context.txt",
+    "expected": "42f6d8d7d9e1b90942e08dd73af56c13b0cbcf6447d23604529d72f872fbbb72",
+    "actual": "42f6d8d7d9e1b90942e08dd73af56c13b0cbcf6447d23604529d72f872fbbb72",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/2024-03-19/context.png",
+    "expected": "1ef8d05b76e37ad64f1b582561e515534aff9d1e81c23f103b81d30d9d294f25",
+    "actual": "1ef8d05b76e37ad64f1b582561e515534aff9d1e81c23f103b81d30d9d294f25",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/2024-03-19/picker.png",
+    "expected": "3a98318d14faa545db8136ff3b9e48548e8445e08fe1d10356f00086e02fc1f4",
+    "actual": "3a98318d14faa545db8136ff3b9e48548e8445e08fe1d10356f00086e02fc1f4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/2024-03-19/picker.json",
+    "expected": "c4fdb1d30a9b417ea46c76bf97ccc5e2d4fa5af33cc96f34c5387fc0e52c62f7",
+    "actual": "c4fdb1d30a9b417ea46c76bf97ccc5e2d4fa5af33cc96f34c5387fc0e52c62f7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2024-03-19-matins/2024-03-19/context.txt",
+    "expected": "43d19c8430d6474d70781d2dcf4771e55e0432ba2891f58dd1f45bdbc1a48511",
+    "actual": "43d19c8430d6474d70781d2dcf4771e55e0432ba2891f58dd1f45bdbc1a48511",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/2031-03-19/context.png",
+    "expected": "56797c3fbb340fd38677883f019174b66b3a1b2b9be71bfdce0e1cb9fd5c367d",
+    "actual": "56797c3fbb340fd38677883f019174b66b3a1b2b9be71bfdce0e1cb9fd5c367d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/2031-03-19/picker.png",
+    "expected": "52caf1af9ba559d9a8f2a970c248b901c8ebfd4e368e7a25cb92da0549173903",
+    "actual": "52caf1af9ba559d9a8f2a970c248b901c8ebfd4e368e7a25cb92da0549173903",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/2031-03-19/picker.json",
+    "expected": "28a88a9479329e62a31dba3cdce1187ea273f1b76d0ae7eae518d1632b9eecd2",
+    "actual": "28a88a9479329e62a31dba3cdce1187ea273f1b76d0ae7eae518d1632b9eecd2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2031-03-19-matins/2031-03-19/context.txt",
+    "expected": "431898149bf032ec65d755a3f5850986c775db25c5ba5817fc0c92ebbec9aea4",
+    "actual": "431898149bf032ec65d755a3f5850986c775db25c5ba5817fc0c92ebbec9aea4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/2029-02-15/context.png",
+    "expected": "395d1af7578765f26cf1ecf93295019137b4dd6999c2725386ba0a7612392b53",
+    "actual": "395d1af7578765f26cf1ecf93295019137b4dd6999c2725386ba0a7612392b53",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/2029-02-15/picker.png",
+    "expected": "8e4ad98f579fda2af2be5dc329c82f943b270ac65939df2db619ce51ce00212d",
+    "actual": "8e4ad98f579fda2af2be5dc329c82f943b270ac65939df2db619ce51ce00212d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/2029-02-15/picker.json",
+    "expected": "127f552e65ab0af061eefee7b592e60d78f5aba1558fb87dfa9a6d9cdecb56c5",
+    "actual": "127f552e65ab0af061eefee7b592e60d78f5aba1558fb87dfa9a6d9cdecb56c5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2029-02-15-matins/2029-02-15/context.txt",
+    "expected": "23d8e55b0fbf881d026ff956fd4712711c4577512ad8d05aac13b0d46c39f4b6",
+    "actual": "23d8e55b0fbf881d026ff956fd4712711c4577512ad8d05aac13b0d46c39f4b6",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/2030-03-19/context.png",
+    "expected": "3a3535058acd9f8db69d951c8c9e6e3f011b27d72a3409ca9b5b2bd193776d42",
+    "actual": "3a3535058acd9f8db69d951c8c9e6e3f011b27d72a3409ca9b5b2bd193776d42",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/2030-03-19/picker.png",
+    "expected": "de90e61605df88b5e0ce33a0cb7f3a45a597b6a5c6cd1943491371baab3b786d",
+    "actual": "de90e61605df88b5e0ce33a0cb7f3a45a597b6a5c6cd1943491371baab3b786d",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/2030-03-19/picker.json",
+    "expected": "34908501d7a1273d35ab493a82422d4cf0552e62bbb09483ac19adfcf18d9579",
+    "actual": "34908501d7a1273d35ab493a82422d4cf0552e62bbb09483ac19adfcf18d9579",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2030-03-19-matins/2030-03-19/context.txt",
+    "expected": "4a86a1be14c712b112cc1c90ef716db5f1102ce2f8d2e111e6ce4ad5e42eec2c",
+    "actual": "4a86a1be14c712b112cc1c90ef716db5f1102ce2f8d2e111e6ce4ad5e42eec2c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/2026-02-03/context.png",
+    "expected": "9d41509167f06548b973b3291c66d2bd079c0e2eeeebd000ae5e491a2c302f4b",
+    "actual": "9d41509167f06548b973b3291c66d2bd079c0e2eeeebd000ae5e491a2c302f4b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/2026-02-03/picker.png",
+    "expected": "fd8ec585f128a5d706d61248b47e1c75b11b37241983064838d31078c1d65488",
+    "actual": "fd8ec585f128a5d706d61248b47e1c75b11b37241983064838d31078c1d65488",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/2026-02-03/picker.json",
+    "expected": "a263ca4e60a220bf35d0378abb5b976aeed8ea05f0caccdf37676ea7652eebc1",
+    "actual": "a263ca4e60a220bf35d0378abb5b976aeed8ea05f0caccdf37676ea7652eebc1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2026-02-03-liturgy/2026-02-03/context.txt",
+    "expected": "c82a41b9da974f3a6b15266bc1ed38d5ad8d88a3d8d80f5dc5f0702efffb5cd3",
+    "actual": "c82a41b9da974f3a6b15266bc1ed38d5ad8d88a3d8d80f5dc5f0702efffb5cd3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/2025-03-19/context.png",
+    "expected": "56e4c8a591c5504dc98071346e4a836114a0ad47cd1af51817279ab5336801e7",
+    "actual": "56e4c8a591c5504dc98071346e4a836114a0ad47cd1af51817279ab5336801e7",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/2025-03-19/picker.png",
+    "expected": "aa1c05b8664ab2ab6e9e1cbd4e08102cc1125257ce29d6d1244d10b96fba4898",
+    "actual": "aa1c05b8664ab2ab6e9e1cbd4e08102cc1125257ce29d6d1244d10b96fba4898",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/2025-03-19/picker.json",
+    "expected": "762f12c41d676692bae8357e799b4558f3532bbccb06da016493c9f7c190b4f6",
+    "actual": "762f12c41d676692bae8357e799b4558f3532bbccb06da016493c9f7c190b4f6",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2025-03-19-matins/2025-03-19/context.txt",
+    "expected": "6c13fbd97a5a9a406d5b07287b43a8fdbbdbf7170a201c2bd1439caf27fcd056",
+    "actual": "6c13fbd97a5a9a406d5b07287b43a8fdbbdbf7170a201c2bd1439caf27fcd056",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/2022-03-19/context.png",
+    "expected": "c93d7d69e6f35b99c4e715a174c225d35feb13eac2a4f2f91797d6aef7bf849c",
+    "actual": "c93d7d69e6f35b99c4e715a174c225d35feb13eac2a4f2f91797d6aef7bf849c",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/2022-03-19/picker.png",
+    "expected": "fffa2c4b79f72dd7937f73544e71dec3e2e53c874893e156e4f2d26a46ae0347",
+    "actual": "fffa2c4b79f72dd7937f73544e71dec3e2e53c874893e156e4f2d26a46ae0347",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/2022-03-19/picker.json",
+    "expected": "6d126c20316b44d36a2eb9408d1746dabea3672dc05820d4ecf5cbd3d53e327b",
+    "actual": "6d126c20316b44d36a2eb9408d1746dabea3672dc05820d4ecf5cbd3d53e327b",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/attempts/2022-03-19-matins/2022-03-19/context.txt",
+    "expected": "e23c657e834ccc4cc4f40b387acb22380ce661a571d1aef191337013cd82abd9",
+    "actual": "e23c657e834ccc4cc4f40b387acb22380ce661a571d1aef191337013cd82abd9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/2028-03-19-before-day.png",
+    "expected": "4fa9ce59c60a7b2c116452762e3e2a7022feede24c9c4b29c997fe2639e37638",
+    "actual": "4fa9ce59c60a7b2c116452762e3e2a7022feede24c9c4b29c997fe2639e37638",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/selected-date-panel.txt",
+    "expected": "964d4df460f776b98888c6057f2f7117f1f95423ab218c33f566fa9c839aa592",
+    "actual": "964d4df460f776b98888c6057f2f7117f1f95423ab218c33f566fa9c839aa592",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/selected-date-panel.png",
+    "expected": "a94027d0f6f457bf50885d20f3431436f36ad70d2bd4ce1805ffd51837bce06f",
+    "actual": "a94027d0f6f457bf50885d20f3431436f36ad70d2bd4ce1805ffd51837bce06f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/2034-03-19-before-day.png",
+    "expected": "ab6cfa538e75958fecdd892a0557ab3900a4bd76f349e95f6f283a0117428817",
+    "actual": "ab6cfa538e75958fecdd892a0557ab3900a4bd76f349e95f6f283a0117428817",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/selected-date-panel.txt",
+    "expected": "a28315c138da328854bb54b043f3e4244334442e3105f088be15d4958ba543b1",
+    "actual": "a28315c138da328854bb54b043f3e4244334442e3105f088be15d4958ba543b1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/selected-date-panel.png",
+    "expected": "6a7c0a61576c8aaf5f1fa0e2b181716ff0fd5664aca4ee978afe917d416a51cb",
+    "actual": "6a7c0a61576c8aaf5f1fa0e2b181716ff0fd5664aca4ee978afe917d416a51cb",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/2030-04-07-before-day.png",
+    "expected": "e870a9fd3c9d89b5ceb96817970e4686629c2630dfd65ab61e8e90a400541d99",
+    "actual": "e870a9fd3c9d89b5ceb96817970e4686629c2630dfd65ab61e8e90a400541d99",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/selected-date-panel.txt",
+    "expected": "3915b6f988bf6a57141bed633dead5e70597e867c6a3f6d41e0cca551dbc86d4",
+    "actual": "3915b6f988bf6a57141bed633dead5e70597e867c6a3f6d41e0cca551dbc86d4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/selected-date-panel.png",
+    "expected": "a75cc0f1f41f1fab437f33753da3be96e3e0b7560e0928ff0eb461ac0d84c218",
+    "actual": "a75cc0f1f41f1fab437f33753da3be96e3e0b7560e0928ff0eb461ac0d84c218",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/2023-03-19-before-day.png",
+    "expected": "c8b9b58f5175f728bd4045c99981842f54bad7f08c9c04c9fcf09fe32f21bfe1",
+    "actual": "c8b9b58f5175f728bd4045c99981842f54bad7f08c9c04c9fcf09fe32f21bfe1",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/selected-date-panel.txt",
+    "expected": "01d5c66042ee5c47c3fb43a1b6a11804dd336b07b4df94efd0b9e4473d8b7f04",
+    "actual": "01d5c66042ee5c47c3fb43a1b6a11804dd336b07b4df94efd0b9e4473d8b7f04",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/selected-date-panel.png",
+    "expected": "f4df93aaa8227e5c402b44de709708c2c632e6d124c94a78ba12651199828440",
+    "actual": "f4df93aaa8227e5c402b44de709708c2c632e6d124c94a78ba12651199828440",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/selected-date-panel.txt",
+    "expected": "5dcc48770f7e989915abc57128aa8f3db4951a5c46fc279417fdd3902ea6482e",
+    "actual": "5dcc48770f7e989915abc57128aa8f3db4951a5c46fc279417fdd3902ea6482e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/2024-04-07-before-day.png",
+    "expected": "0691e6af6d81ca9504c44f22f840595ccaff25fe7c826fbb445e2dc1835b04fe",
+    "actual": "0691e6af6d81ca9504c44f22f840595ccaff25fe7c826fbb445e2dc1835b04fe",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/selected-date-panel.png",
+    "expected": "f1aad078e585bcdde13dcb18799fba99eeb076bdbf1618d8a2b4314ffbde7fe5",
+    "actual": "f1aad078e585bcdde13dcb18799fba99eeb076bdbf1618d8a2b4314ffbde7fe5",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/2024-04-07/context.png",
+    "expected": "ad6b839719328a5a9f7e69f3f1d62a8c6f12350436ce5c6cafc2ba0657c65c92",
+    "actual": "ad6b839719328a5a9f7e69f3f1d62a8c6f12350436ce5c6cafc2ba0657c65c92",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/2024-04-07/picker.png",
+    "expected": "4e22972ee02497b7732a897411fd180a626708a843df25d6136877410108a5ed",
+    "actual": "4e22972ee02497b7732a897411fd180a626708a843df25d6136877410108a5ed",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/2024-04-07/picker.json",
+    "expected": "406daa29e0842f4ec2bb6d2192fb488f8c6e92a8aa00e9bc3df0f1f17fc3d6a2",
+    "actual": "406daa29e0842f4ec2bb6d2192fb488f8c6e92a8aa00e9bc3df0f1f17fc3d6a2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2024-04-07/2024-04-07/context.txt",
+    "expected": "1e58b252e111af931f02b896b93fa19871a28215d04394c9e09b211844ff481a",
+    "actual": "1e58b252e111af931f02b896b93fa19871a28215d04394c9e09b211844ff481a",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/2023-03-19/context.png",
+    "expected": "1d25a603a257413e864a532e56babc7ec130e446fa3970e92f260ad2123208dd",
+    "actual": "1d25a603a257413e864a532e56babc7ec130e446fa3970e92f260ad2123208dd",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/2023-03-19/picker.png",
+    "expected": "0a24a8c06cee20f7003d229c5beaf8408f334a4072586b366c3aa6189bf9f072",
+    "actual": "0a24a8c06cee20f7003d229c5beaf8408f334a4072586b366c3aa6189bf9f072",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/2023-03-19/picker.json",
+    "expected": "ea718ef696fe7887b641d8e9486c42ce3789bddcf032444a3aca38a6188cab5e",
+    "actual": "ea718ef696fe7887b641d8e9486c42ce3789bddcf032444a3aca38a6188cab5e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2023-03-19/2023-03-19/context.txt",
+    "expected": "42f6d8d7d9e1b90942e08dd73af56c13b0cbcf6447d23604529d72f872fbbb72",
+    "actual": "42f6d8d7d9e1b90942e08dd73af56c13b0cbcf6447d23604529d72f872fbbb72",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/2030-04-07/context.png",
+    "expected": "b3537bb4f0d2d32ba77448341f816c43631c639082ac9d4c2ddcf9829080c3a3",
+    "actual": "b3537bb4f0d2d32ba77448341f816c43631c639082ac9d4c2ddcf9829080c3a3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/2030-04-07/picker.png",
+    "expected": "e19e3f6be7f39eafb262d39907945bbbe08c85bd5364660f703ca07d3be3bbe4",
+    "actual": "e19e3f6be7f39eafb262d39907945bbbe08c85bd5364660f703ca07d3be3bbe4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/2030-04-07/picker.json",
+    "expected": "8669c88a63c2de503c7f850d566f9f3568c4ad8f1b2d4fcb6b8db85b83a84ad4",
+    "actual": "8669c88a63c2de503c7f850d566f9f3568c4ad8f1b2d4fcb6b8db85b83a84ad4",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2030-04-07/2030-04-07/context.txt",
+    "expected": "74cabcfb7dcec96ab6f42988c65319bcfbcc4b2b9bc04335fb1e65af1799f37e",
+    "actual": "74cabcfb7dcec96ab6f42988c65319bcfbcc4b2b9bc04335fb1e65af1799f37e",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/2034-03-19/context.png",
+    "expected": "26b8fd9a789f49fbbea7036b8efbcc4a4eab255f57851ff6b9b3390db571d23f",
+    "actual": "26b8fd9a789f49fbbea7036b8efbcc4a4eab255f57851ff6b9b3390db571d23f",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/2034-03-19/picker.png",
+    "expected": "7f512aebf298346530460bc0502fc876f9fb256010a77222a76988011e15c3e2",
+    "actual": "7f512aebf298346530460bc0502fc876f9fb256010a77222a76988011e15c3e2",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/2034-03-19/picker.json",
+    "expected": "7be9f76d3f7a8919c00898a52928f29d2361df951269e61ceb1a78a5d586d2c9",
+    "actual": "7be9f76d3f7a8919c00898a52928f29d2361df951269e61ceb1a78a5d586d2c9",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2034-03-19/2034-03-19/context.txt",
+    "expected": "864452b168230cbc12ea82ba1315fc32c798c4facb51ca7f9902b333aa37b2e3",
+    "actual": "864452b168230cbc12ea82ba1315fc32c798c4facb51ca7f9902b333aa37b2e3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/2028-03-19/context.png",
+    "expected": "829ff7830a928e6549ff3ceae29f165e73633f1251fbe648f8f8d3855cc08b67",
+    "actual": "829ff7830a928e6549ff3ceae29f165e73633f1251fbe648f8f8d3855cc08b67",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/2028-03-19/picker.png",
+    "expected": "c5cf3877ca2d73d1fcf612ed05d60192ee11fded5880f74e9bb3e9f43beaba14",
+    "actual": "c5cf3877ca2d73d1fcf612ed05d60192ee11fded5880f74e9bb3e9f43beaba14",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/2028-03-19/picker.json",
+    "expected": "a58c5f7bf8ac3682fa4bf8be485185c0e4a971ab5df93208d5c98f764ca6cebe",
+    "actual": "a58c5f7bf8ac3682fa4bf8be485185c0e4a971ab5df93208d5c98f764ca6cebe",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/seasonal-collision-jonah-completion-05/panels/2028-03-19/2028-03-19/context.txt",
+    "expected": "2d7f27c40839f434c3b52f5775e221a30345b07f1b252aec3fcd4c2f3776b5d3",
+    "actual": "2d7f27c40839f434c3b52f5775e221a30345b07f1b252aec3fcd4c2f3776b5d3",
+    "equal": true
+  },
+  {
+    "path": "/Users/ga/workspace/lectionary-comprehensive-audit-2026-10-07/parent-accepted-matins-source-04/accepted-source-corpus.json",
+    "expected": "5f7558115e4743e08febe5e5ecd7f350573c3b80af1d517951db6cc0db9526d2",
+    "actual": "5f7558115e4743e08febe5e5ecd7f350573c3b80af1d517951db6cc0db9526d2",
+    "equal": true
+  }
+]

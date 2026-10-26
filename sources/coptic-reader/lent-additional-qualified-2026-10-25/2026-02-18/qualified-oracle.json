@@ -1,0 +1,43 @@
+{
+  "civil_date": "2026-02-18",
+  "context": "Selected Season 1st Week of Great Fast Meshir 11, 1742 Wednesday, February 18, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "captured_at": "2026-10-07T22:25:53.430Z",
+  "raw_reference_lines": [
+    "\tIsaiah 2:3-11",
+    "\tJoel 2:12-26"
+  ],
+  "source_qualified": true,
+  "qualification_state": "accepted_retained_primary_source_table",
+  "qualification_date": "2026-10-25",
+  "qualification_basis": "Retained date/context/picker, Matins menu, full bilingual document and each printed reference screenshot inspected; original producer receipt copied unchanged. No fresh app visit.",
+  "body_constraints": [
+    {
+      "printed_ref": "Isaiah 2:3-11",
+      "source_line_start": 3,
+      "source_line_end": 28,
+      "english_opening": "3 Many people shall come and say, “Come, and let us go up to the mountain of the Lord, To the house of the God of Jacob; He will teach us His ways, And we shall walk in His paths.” For out of Zion shall go forth the law, And the word of the Lord from Jerusalem.",
+      "english_closing": "11 The lofty looks of man shall be humbled, The haughtiness of men shall be bowed down, And the Lord alone shall be exalted in that day.",
+      "body_sha256": "cb4ae727a668ec9c2107ba5c3fd419a21cbd5078e1a45b9f6475eac0a9e6ebf5",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    },
+    {
+      "printed_ref": "Joel 2:12-26",
+      "source_line_start": 29,
+      "source_line_end": 66,
+      "english_opening": "12 “Now, therefore,” says the Lord, “Turn to Me with all your heart, With fasting, with weeping, and with mourning.”",
+      "english_closing": "26 You shall eat in plenty and be satisfied, And praise the name of the Lord your God, Who has dealt wondrously with you; And My people shall never be put to shame.",
+      "body_sha256": "df5d0b1bf6e0e90d3463f80af135a6d7b1147300be7854e6d2af97eb3bfd0bf9",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    }
+  ],
+  "canonical_equivalence_approved": false,
+  "recurrence_scope": "Authorized exact title and Pascha offset in supported years 2020..2035, not independent captures for every year.",
+  "original_capture_sha256": "51d470465a881e5224093f787d05f2d987be629b2de0ad40ed12ddfc7d8f7b1c"
+}

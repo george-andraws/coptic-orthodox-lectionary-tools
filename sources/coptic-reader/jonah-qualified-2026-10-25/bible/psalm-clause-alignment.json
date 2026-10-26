@@ -1,0 +1,35 @@
+{
+  "status": "New bounded local Bible clause adjudication, not independent review",
+  "chapter_crosswalk": {
+    "LXX 31": "MT 32",
+    "LXX 84": "MT 85",
+    "LXX 102": "MT 103",
+    "LXX 129": "MT 130"
+  },
+  "alignments": [
+    {
+      "date": "2026-02-03",
+      "service": "Matins",
+      "printed_ref": "Psalms 102:13, 8-9",
+      "canonical_ref": "Ps 103:14-15 & Ps 103:9-10",
+      "source_body_sha256": "5b2413c12582077cd684c2b281e83dfc5536b7e7add576b485798760d32e607b",
+      "adjudication": "Reader English remembers dust; man days grass; not always strive/anger; not dealt according sins. These correspond to Brenton 102:14b,15a,9,10 and modern covering Ps 103:14-15,9-10, in that order. Not Reader printed 102:13,8-9, not modern Psalm 102, and no ways-to-Moses verse 7. Partial endpoint verses are covering loci, not whole-verse word identity."
+    },
+    {
+      "date": "2026-02-03",
+      "service": "Liturgy",
+      "printed_ref": "Psalms 84:2",
+      "canonical_ref": "Ps 85:2-3",
+      "source_body_sha256": "109737dde9cc3c882ad7a7539fa200b43574ec86c45893991a1ffda09314747d",
+      "adjudication": "Full Reader clauses forgiven iniquity/covered sin, taken away wrath/turned fierce anger match Brenton 84:2-3; modern Ps 85:2-3. The Reader printed 84:2 covers both verses; retain it separately."
+    },
+    {
+      "date": "2026-02-04",
+      "service": "Matins",
+      "printed_ref": "Psalms 102:12, 11",
+      "canonical_ref": "Ps 103:13 & Ps 103:12",
+      "source_body_sha256": "b8c7623bd9ed89d16bd95fdfa0173034e4fafe05aa66d32373b33acddc54ede8",
+      "adjudication": "Reader father pities children followed by east/west removal matches Brenton 102:13 then 102:12; modern Ps 103:13 then 103:12. Reader printed 102:12,11 differs. These are explicit complete-clause matches, not a blanket chapter/verse offset."
+    }
+  ]
+}

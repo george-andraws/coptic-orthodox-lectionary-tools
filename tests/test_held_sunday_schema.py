@@ -15,6 +15,10 @@ class HeldSundaySchema(unittest.TestCase):
         self.assertEqual(set(vocabulary['source_convention']), {
             'modern_english_reference', 'mt_nkjv', 'lxx_liturgical_or_fixture_label',
             'existing_numeric_source_coordinates_alignment_held',
+            'coptic_reader_psalmody_lxx_chapter_only',
+            'coptic_reader_bright_composite_printed_selection_only',
+            # Reviewed no-service history is literal source evidence, not coordinates.
+            'unapproved_original_source_literal',
         })
         self.assertIn('held', vocabulary['canonicalization_confidence'])
         self.assertNotIn('unverified_reader_coordinates_are_canonical', vocabulary['source_convention'])

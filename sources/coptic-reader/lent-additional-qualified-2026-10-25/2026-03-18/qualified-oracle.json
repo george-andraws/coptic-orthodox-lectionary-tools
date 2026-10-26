@@ -1,0 +1,73 @@
+{
+  "civil_date": "2026-03-18",
+  "context": "Selected Season 5th Week of Great Fast Paremhotep 9, 1742 Wednesday, March 18, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "service": "Matins",
+  "slot": "Prophecies",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Prophecies"
+  ],
+  "captured_at": "2026-10-07T17:41:49.839Z",
+  "raw_reference_lines": [
+    "\tExodus 8:20-9:35",
+    "\tIsaiah 41:4-14",
+    "\tJoel 3:9-21",
+    "\tJob 28:12-28",
+    "\tProverbs 4:10-19"
+  ],
+  "source_qualified": true,
+  "qualification_state": "accepted_retained_primary_source_table",
+  "qualification_date": "2026-10-25",
+  "qualification_basis": "Retained date/context/picker, Matins menu, full bilingual document and each printed reference screenshot inspected; original producer receipt copied unchanged. No fresh app visit.",
+  "body_constraints": [
+    {
+      "printed_ref": "Exodus 8:20-9:35",
+      "source_line_start": 3,
+      "source_line_end": 106,
+      "english_opening": "20 And the Lord said to Moses, “Rise early in the morning and stand before Pharaoh as he comes out to the water. Then say to him, ‘Thus says the Lord: “Let My people go, that they may serve Me.",
+      "english_closing": "35 So the heart of Pharaoh was hard; neither would he let the children of Israel go, as the Lord had spoken by Moses.",
+      "body_sha256": "32aa1ce8e24ffcd20c2b1dc9347df8359d898b7c0a7ccd1eed9020fcabc22554",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    },
+    {
+      "printed_ref": "Isaiah 41:4-14",
+      "source_line_start": 107,
+      "source_line_end": 136,
+      "english_opening": "4 Who has performed and done it, Calling the generations from the beginning? ‘I, the Lord, am the first; And with the last I am He.’”",
+      "english_closing": "14 “Fear not, you worm Jacob, You men of Israel! I will help you,” says the Lord And your Redeemer, the Holy One of Israel.",
+      "body_sha256": "0129679211b1ec0959d61fc5ac1775a30012dfe6aeb2b52b513ab9851a28d314",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    },
+    {
+      "printed_ref": "Joel 3:9-21",
+      "source_line_start": 137,
+      "source_line_end": 170,
+      "english_opening": "9 Proclaim this among the nations: “Prepare for war! Wake up the mighty men, Let all the men of war draw near, Let them come up.",
+      "english_closing": "21 For I will acquit them of the guilt of bloodshed, whom I had not acquitted; For the Lord dwells in Zion.”",
+      "body_sha256": "4f3f286b23111dd472f15a69239201ca59aa2cb2a5b8f7bbfd05a6c8bf90aa26",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    },
+    {
+      "printed_ref": "Job 28:12-28",
+      "source_line_start": 171,
+      "source_line_end": 212,
+      "english_opening": "12 “But where can wisdom be found? And where is the place of understanding?",
+      "english_closing": "28 And to man He said, ‘Behold, the fear of the Lord, that is wisdom, And to depart from evil is understanding.’”",
+      "body_sha256": "d65d8a2af9ef4e53b0b3ed60fe299fa78efde42e34f39088066a18d9a41c27ba",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    },
+    {
+      "printed_ref": "Proverbs 4:10-19",
+      "source_line_start": 213,
+      "source_line_end": 240,
+      "english_opening": "10 Hear, my son, and receive my sayings, And the years of your life will be many.",
+      "english_closing": "19 The way of the wicked is like darkness; They do not know what makes them stumble.",
+      "body_sha256": "8e4f6cc80112b8c09f353224c93c2fa43546ee16d881afe9a5226e7e1162ea30",
+      "alignment_scope": "Literal source range; not a claim of complete NKJV/Brenton edition equivalence."
+    }
+  ],
+  "canonical_equivalence_approved": false,
+  "recurrence_scope": "Authorized exact title and Pascha offset in supported years 2020..2035, not independent captures for every year.",
+  "original_capture_sha256": "9363f616682bbb38f217dae720d99b2c657be9dabffaf272d369e08497216238"
+}

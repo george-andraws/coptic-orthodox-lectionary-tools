@@ -21,7 +21,8 @@ class LamentationsJoelCorrections(unittest.TestCase):
         self.assertEqual(unchanged['canonical_lxx_ref'], 'Joel 2:12-27')
 
     def test_good_friday_reader_confirms_lamentations_and_retires_jonah(self):
-        lam = {'day_title': 'Good Friday', 'service_hour': 'Twelfth Hour', 'source_kind': 'pascha_day_hour'}
+        lam = {'day_title': 'Good Friday', 'service_hour': 'Twelfth Hour', 'source_kind': 'pascha_day_hour',
+               'source_family': 'holy_pascha_curated_day_hour'}
         resolved = design.qualified_reader_pascha_resolution(lam, 'Lam 3:1-66')
         self.assertIsNotNone(resolved)
         status, note = resolved
@@ -40,6 +41,7 @@ class LamentationsJoelCorrections(unittest.TestCase):
         template = {
             'day_title': 'Hosanna Sunday', 'service_hour': 'Ninth Hour', 'service_section': 'Ninth Hour',
             'source_kind': 'pascha_day_hour', 'reading_slot': 'Gospel', 'gregorian_date': '',
+            'source_family': 'holy_pascha_curated_day_hour',
             'liturgical_place': 'Hosanna Sunday', 'passage': 'Matt 21:10-17',
         }
         monday = dict(template, day_title='Monday Eve', liturgical_place='Monday Eve', service_hour='Ninth Hour')

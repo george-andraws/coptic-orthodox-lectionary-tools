@@ -1,0 +1,234 @@
+{
+  "id": "AnnualReadings-356",
+  "date": "2026-09-01",
+  "family": "AnnualReadings",
+  "key": {
+    "Id": 356,
+    "Month_Number": 12,
+    "Month_Name": "Mesra",
+    "Day": 26,
+    "DayName": ""
+  },
+  "homeContext": "Selected Season Standard Mesore 26, 1742 Tuesday, September 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "status": "whole_ordinary_scripture_table_captured",
+  "documents": [
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Vespers",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Vespers.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Vespers.png",
+      "textSha256": "b32fc1ccdf230dc01ea6e053b46e2144501793a5460011bfdc78fd8ca70774e5",
+      "screenshotSha256": "d16fdf2ce9e3d6163da99339444a20402d45a910dff46fa8a77b1537a845ef61",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:09:44.930Z",
+      "printedReferences": [
+        "Psalms 30:26,19",
+        "Matthew 10:24-33"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Psalms 30:26,19",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Vespers-reference-0.png",
+          "sha256": "d16fdf2ce9e3d6163da99339444a20402d45a910dff46fa8a77b1537a845ef61"
+        },
+        {
+          "printedReference": "Matthew 10:24-33",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Vespers-reference-1.png",
+          "sha256": "1511adde4f69bf656b9a3a14463ea954cda821a2098ca9ead5e277d9df81844d"
+        }
+      ]
+    },
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Matins-Prophecies",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Matins-Prophecies.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Matins-Prophecies.png",
+      "textSha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "screenshotSha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:09:51.939Z",
+      "printedReferences": [],
+      "referenceScreenshots": []
+    },
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Matins-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Matins-Psalm_and_Gospel.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Matins-Psalm_and_Gospel.png",
+      "textSha256": "da82f6fa37fc5c27bc5bd76336a02f0085f7b351e52a7556ffeb66ef5b1608cb",
+      "screenshotSha256": "93a609add4422cf7470137da90c881a77420f6c6310d247f834794651a7c248e",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:09:55.297Z",
+      "printedReferences": [
+        "Psalms 144:8,4,9,14,15",
+        "John 12:20-26"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Psalms 144:8,4,9,14,15",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Matins-Psalm_and_Gospel-reference-0.png",
+          "sha256": "93a609add4422cf7470137da90c881a77420f6c6310d247f834794651a7c248e"
+        },
+        {
+          "printedReference": "John 12:20-26",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Matins-Psalm_and_Gospel-reference-1.png",
+          "sha256": "d64da8a803b3545adae21cbec6974ce68827e060999c422ec9f1c270f2ad3e2b"
+        }
+      ]
+    },
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Liturgy-Pauline Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Pauline_Epistle.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Pauline_Epistle.png",
+      "textSha256": "a2112c51704733e62e0937d747e2d62eb58eba9e3958a0a176b2036cb00ae2e6",
+      "screenshotSha256": "9cca46c36276062b099ef33b0bbca7353db73e5461712fb7708e9e1c55041e4a",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:10:00.103Z",
+      "printedReferences": [
+        "Romans 8:14-27"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Romans 8:14-27",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Pauline_Epistle-reference-0.png",
+          "sha256": "d2b0c0737bbdfb0c9e2a7ea6e8424bde6e796335ad3ead1f3482a2839a5eae48"
+        }
+      ]
+    },
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Liturgy-Catholic Epistle",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Catholic_Epistle.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Catholic_Epistle.png",
+      "textSha256": "7b8240a05aeca628eb2b4073ea5e6b15453cfc06918beab036f3fe5c48d160a4",
+      "screenshotSha256": "32fcd06742dd4f9daba3fa054c121bad8b346ec11ebe69bcc06c5e45ee0d09f4",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:10:08.180Z",
+      "printedReferences": [
+        "1 Peter 2:11-17"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "1 Peter 2:11-17",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Catholic_Epistle-reference-0.png",
+          "sha256": "32fcd06742dd4f9daba3fa054c121bad8b346ec11ebe69bcc06c5e45ee0d09f4"
+        }
+      ]
+    },
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Liturgy-Praxis",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Praxis.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Praxis.png",
+      "textSha256": "e3a7d01f8b3e6861c146f056086cf83d0cdb3a9ab647c9847f51185c20ca428c",
+      "screenshotSha256": "13e11fca7d4ff8a91e4e6c78b9a77b76ac4acec451471404bf52486f8b0a520a",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:10:14.216Z",
+      "printedReferences": [
+        "Acts 19:11-20"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Acts 19:11-20",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Praxis-reference-0.png",
+          "sha256": "13e11fca7d4ff8a91e4e6c78b9a77b76ac4acec451471404bf52486f8b0a520a"
+        }
+      ]
+    },
+    {
+      "context": "AnnualReadings-356",
+      "date": "2026-09-01",
+      "label": "Liturgy-Psalm and Gospel",
+      "url": "https://copticreader.org/app/#/document",
+      "type": "rendered_reading_document",
+      "textPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Psalm_and_Gospel.txt",
+      "screenshotPath": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Psalm_and_Gospel.png",
+      "textSha256": "995ccc5c43abc0bf1b8893254935e8f0e6421d131ea4721145fc8de3cc51b438",
+      "screenshotSha256": "c7432befb8fd9d509381022dfd1d4167168337f630a0d0c46bf7db2de7af1c38",
+      "buttons": [],
+      "capturedAt": "2026-10-07T18:10:19.103Z",
+      "printedReferences": [
+        "Psalms 149:5,8",
+        "Luke 21:12-19"
+      ],
+      "referenceScreenshots": [
+        {
+          "printedReference": "Psalms 149:5,8",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Psalm_and_Gospel-reference-0.png",
+          "sha256": "c7432befb8fd9d509381022dfd1d4167168337f630a0d0c46bf7db2de7af1c38"
+        },
+        {
+          "printedReference": "Luke 21:12-19",
+          "path": "AnnualReadings-356/7ae092f7-007e-4169-869b-8d2821bee22a/Liturgy-Psalm_and_Gospel-reference-1.png",
+          "sha256": "1ff67492fdb8eed9c2f9baf08d41fb387c3332fcb835a560219f1a3fa117d7b4"
+        }
+      ]
+    }
+  ],
+  "orderedPrintedReferences": [
+    {
+      "slot": "Vespers",
+      "refs": [
+        "Psalms 30:26,19",
+        "Matthew 10:24-33"
+      ]
+    },
+    {
+      "slot": "Matins-Prophecies",
+      "refs": []
+    },
+    {
+      "slot": "Matins-Psalm and Gospel",
+      "refs": [
+        "Psalms 144:8,4,9,14,15",
+        "John 12:20-26"
+      ]
+    },
+    {
+      "slot": "Liturgy-Pauline Epistle",
+      "refs": [
+        "Romans 8:14-27"
+      ]
+    },
+    {
+      "slot": "Liturgy-Catholic Epistle",
+      "refs": [
+        "1 Peter 2:11-17"
+      ]
+    },
+    {
+      "slot": "Liturgy-Praxis",
+      "refs": [
+        "Acts 19:11-20"
+      ]
+    },
+    {
+      "slot": "Liturgy-Psalm and Gospel",
+      "refs": [
+        "Psalms 149:5,8",
+        "Luke 21:12-19"
+      ]
+    }
+  ],
+  "tableTextSha256": "47ec9ff88bdb561724999e28e14213a2e4dfa92bea65777edf5a62b23975c190",
+  "note": "Synaxarion and Antiphonary excluded; rubric documents retained; literal printed Psalm refs not normalized"
+}
