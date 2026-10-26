@@ -4,9 +4,9 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**Version 1.3.5 is published on npm.** The October 25 reconciliation authenticates all 11 registry tar members against the checked-in runtime snapshot and reproduces its reading data from the reconciled builder inputs. The release includes the earlier canonical-appointment corrections plus bounded Bright Saturday, Lamentations and Joel changes. The CommonJS APIs, calendar runtime and audited Coptic Reader single-year 1743 Synaxarium catalog are preserved: 366 Coptic days, 868 titles, exact public field allowlists and one pure calendar converter.
+**Version 1.3.6 is published on npm.** This source-qualified successor corrects selected annual, Jonah Fast, Lenten and special-service readings and preserves source-defined fragment ordering. Unresolved cross-edition selections retain their qualifications and empty canonical coordinates; inactive no-service witnesses remain historical, not current appointments. Calendar and Synaxarium bytes are unchanged from 1.3.5: 366 Coptic days, 868 titles and the same pure calendar converter.
 
-Read [1.3.5 artifact/source reconciliation and retained limitations](docs/LECTIONARY_1_3_5_RECONCILIATION.md) for exact artifact identity, build provenance, verification results and open findings. This is a retrospective source reconciliation, not a new npm publication or website deployment. The package-directory README is deliberately preserved as shipped, including its stale 1.3.0 version prose; this repository README and the reconciliation record supersede that release-status prose.
+The immutable 1.3.5 predecessor was independently authenticated across all 11 registry tar members. Read [1.3.5 artifact/source reconciliation and retained limitations](docs/LECTIONARY_1_3_5_RECONCILIATION.md) for that historical artifact's identity, original dirty-source provenance and retained findings. Do not rewrite or republish it to match the successor. The current package-directory README documents 1.3.6; the predecessor's stale packed README remains historical evidence in its published archive.
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
