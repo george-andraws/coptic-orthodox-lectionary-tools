@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.6**.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.7**.
 
 ## What this package contains
 
@@ -100,6 +100,18 @@ Rows that were removed from active lookup by source-priority projection include 
 
 Default consumers should filter with `isCurrentReading(row)`. `isActiveReading(row)` retains its narrower backwards-compatible meaning and is appropriate only when historical/source-marked rows are intentionally included.
 
+### Additive calendar, service and review metadata in 1.3.7
+
+- `coptic_date_key`: fixed Coptic day in the public catalog's slug form, such as `kiahk-23`. Empty for movable and annual-Sunday contexts.
+- `annual_sunday`: month and ordinal Sunday, such as `bashans-3`, independently qualified from the source table. It is never a fixed date.
+- `display_label`: normalized reader-facing occasion terminology. Original `occasion`, raw calendar labels and source locators are retained.
+- `pascha_service`, `pascha_offset_days`, `pascha_civil_date`: explicit day or Eve context. Civil-evening dating is not inferred from ambiguous legacy Eve labels.
+- `occurs_in_shipped_years`: whether this appointment is present in the final packaged daily files. This is not a universal absence claim.
+- `displaced_by`: possible seasonal overlap in the disclosed computus-cycle sample, not an ecclesiastical rank or a calendar-selection rule. See `occurrence_scope` before using it.
+- `composite_fragments_json`: original source-qualified fragment rows retained inside a single ordered composite appointment.
+
+New source-owned disclosures preserve exact source text, hashes, scope and qualification. Rows held for Reader review have `active: false`; use `isCurrentReading` rather than treating a date's nonempty array as proof of completeness. Never parse held printed Psalm labels into invented canonical coordinates. Normalized reading date keys permit date-only catalog lookup, not a reading-to-saint association.
+
 ### Dual-numbering display references
 
 `display_ref` is the human-facing reference. Psalm references use Masoretic Text numbering as the primary display form with Septuagint numbering inline when available. Consumers that need machine normalization should use `canonical_mt_ref`, `canonical_lxx_ref`, and `spans_json` instead of parsing `display_ref`.
@@ -146,12 +158,22 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.3.6.
+- Package version: 1.3.7.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.
 
-### Corrections in 1.3.6
+### Corrections in 1.3.7
+
+- Kiahk 23's weekday table uses the authenticated complete Reader table, including Matins Matthew 12:1-8. The competing old table survives as inactive source evidence. The bounded weekday policy excludes Sundays and other selected occasions; 2028's Sunday table is not replaced.
+- Last Friday of Great Lent Matins uses Luke 16:19-31 under the bounded retained Reader and recurring source-table policy.
+- Source-confirmed Holy Week repairs and additions retain explicit Eve/civil-date context. Unconfirmed copied Tuesday-night rows and identified erroneous readings remain inactive holds; printed witnesses are not promoted by inference.
+- Normalized fixed-date/Sunday metadata, reader-facing terminology and descriptive occurrence fields sit beside unchanged raw keys.
+- Reviewed split source cells become single ordered composite appointments. Reader's Bel selection retains its source-coordinate qualification instead of claiming Daniel chapter 1 or unverified Brenton equivalence.
+
+This is not a whole-corpus fresh Reader verification. Remaining Holy Week checks, source-edition questions and duplicate Great Thursday hours are tracked in the repository's release report and check sheet. The website is not updated by this release.
+
+### Previous corrections in 1.3.6
 
 - Third Sunday of Babah Pauline: `1Cor 16:12-24`, preserving the superseded printed reference and correction evidence.
 - Source-qualified Jonah Fast and Lent prophecy supplementation, ordinary-reading parser/appointment repairs, and service-stage ordering.
