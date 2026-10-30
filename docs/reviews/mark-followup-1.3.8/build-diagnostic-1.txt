@@ -1,0 +1,74 @@
+Traceback (most recent call last):
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 65, in <module>
+    main()
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 59, in main
+    result = project(payload.pop('mode'), payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 37, in project
+    return {'rows': mark_followup.repair_rows(labels(rows)), 'events': events}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 183, in repair_rows
+    _qualify(row, original, projected=bool(row.get('mark_followup_evidence')))
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 171, in _qualify
+    raise ValueError('Mark follow-up source/context/lifecycle drift: ' + str(key(row)))
+ValueError: Mark follow-up source/context/lifecycle drift: ('rid_cdab176cfc55e6981df0', 'ordinary_date_resolved', 'copticchurch_date', 'Hatur 11', 'Vespers', '', 'Gospel', 'https://copticchurch.net/readings?g_year=2023&g_month=11&g_day=21; cache/copticchurch_html:row 14462; source_ref=Matt 10:24-33')
+Error: Command failed: python3 /Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py
+Traceback (most recent call last):
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 65, in <module>
+    main()
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 59, in main
+    result = project(payload.pop('mode'), payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 37, in project
+    return {'rows': mark_followup.repair_rows(labels(rows)), 'events': events}
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 183, in repair_rows
+    _qualify(row, original, projected=bool(row.get('mark_followup_evidence')))
+  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 171, in _qualify
+    raise ValueError('Mark follow-up source/context/lifecycle drift: ' + str(key(row)))
+ValueError: Mark follow-up source/context/lifecycle drift: ('rid_cdab176cfc55e6981df0', 'ordinary_date_resolved', 'copticchurch_date', 'Hatur 11', 'Vespers', '', 'Gospel', 'https://copticchurch.net/readings?g_year=2023&g_month=11&g_day=21; cache/copticchurch_html:row 14462; source_ref=Matt 10:24-33')
+
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:916:11)
+    at execFileSync (node:child_process:952:15)
+    at applyReviewRepairs (file:///Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/build_npm_package.mjs:707:21)
+    at projectReverseIndex (file:///Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/build_npm_package.mjs:737:20)
+    at async main (file:///Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/build_npm_package.mjs:1604:29) {
+  status: 1,
+  signal: null,
+  output: [
+    null,
+    '',
+    'Traceback (most recent call last):\n' +
+      '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 65, in <module>\n' +
+      '    main()\n' +
+      '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 59, in main\n' +
+      "    result = project(payload.pop('mode'), payload)\n" +
+      '             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n' +
+      '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 37, in project\n' +
+      "    return {'rows': mark_followup.repair_rows(labels(rows)), 'events': events}\n" +
+      '                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n' +
+      '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 183, in repair_rows\n' +
+      "    _qualify(row, original, projected=bool(row.get('mark_followup_evidence')))\n" +
+      '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 171, in _qualify\n' +
+      "    raise ValueError('Mark follow-up source/context/lifecycle drift: ' + str(key(row)))\n" +
+      "ValueError: Mark follow-up source/context/lifecycle drift: ('rid_cdab176cfc55e6981df0', 'ordinary_date_resolved', 'copticchurch_date', 'Hatur 11', 'Vespers', '', 'Gospel', 'https://copticchurch.net/readings?g_year=2023&g_month=11&g_day=21; cache/copticchurch_html:row 14462; source_ref=Matt 10:24-33')\n"
+  ],
+  pid: 57259,
+  stdout: '',
+  stderr: 'Traceback (most recent call last):\n' +
+    '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 65, in <module>\n' +
+    '    main()\n' +
+    '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 59, in main\n' +
+    "    result = project(payload.pop('mode'), payload)\n" +
+    '             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n' +
+    '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/scripts/apply_review_repairs.py", line 37, in project\n' +
+    "    return {'rows': mark_followup.repair_rows(labels(rows)), 'events': events}\n" +
+    '                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n' +
+    '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 183, in repair_rows\n' +
+    "    _qualify(row, original, projected=bool(row.get('mark_followup_evidence')))\n" +
+    '  File "/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/mark_followup_repairs.py", line 171, in _qualify\n' +
+    "    raise ValueError('Mark follow-up source/context/lifecycle drift: ' + str(key(row)))\n" +
+    "ValueError: Mark follow-up source/context/lifecycle drift: ('rid_cdab176cfc55e6981df0', 'ordinary_date_resolved', 'copticchurch_date', 'Hatur 11', 'Vespers', '', 'Gospel', 'https://copticchurch.net/readings?g_year=2023&g_month=11&g_day=21; cache/copticchurch_html:row 14462; source_ref=Matt 10:24-33')\n"
+}

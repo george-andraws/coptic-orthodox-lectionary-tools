@@ -36,7 +36,12 @@ test('package contains precisely twelve source-qualified Psalmody chapter occurr
     assert.equal(span.verse_end, null);
     assert.match(row.source_locator, /sha256=[a-f0-9]{64}/);
     assert.ok(JSON.parse(row.source_disclosure).length);
-    assert.ok(JSON.parse(row.provenance).body_literal);
+    assert.equal(row.provenance_format, 'lectionary_provenance_v1');
+    assert.ok(row.provenance.length <= 300);
+    const transport = JSON.parse(row.provenance_evidence_json);
+    assert.equal(transport.schema, row.provenance_format);
+    assert.deepEqual(Object.keys(transport).sort(), ['legacy_provenance', 'schema']);
+    assert.ok(JSON.parse(transport.legacy_provenance).body_literal);
   }
 });
 

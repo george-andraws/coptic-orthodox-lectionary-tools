@@ -1,5 +1,44 @@
 # Changelog
 
+## 1.3.8
+
+Bounded follow-up against authenticated published 1.3.7. No printed witness is promoted, no Synaxarium entry or raw source field is changed.
+
+- **L1:** Hold the malformed Mesra 7 dated Vespers Mark 14:39 witness. The saved heading is `Mk 14:-39` with whole-chapter text, not evidence for a silent repair to 3-9. Preserve the separate cycle witness.
+- **L2:** Hold exactly four Tuesday day-hour Gospels and the two Third Hour prophecies; preserve Monday and Tuesday Sixth Hour. Document all five Tuesday hours and the retained Reader Third Hour conflict without adding replacements.
+- **L3:** Add four inactive printed Third/Ninth Hour candidates alongside unchanged historical witnesses. Account explicitly for all five hours of every Pascha eve, with Reader gaps distinguished from current hours. Record the actual printed Eleventh Hour without activating it.
+- **L4:** Normalize every Pascha display label using source-qualified Coptic eve identities; unify Palm/Hosanna and both Bright Saturday families while preserving raw labels and civil dates.
+- **L5:** Normalize 30 Kiyank display labels and 19 Ninevah display labels to Kiahk and Nineveh. The source retains 60 Kiyank tokens in 30 records.
+- **L6:** Flag both Hator 11 Vespers Gospel witnesses as conflicting, without selecting either or linking readings to commemorations. Keep Q-L1 unanswered.
+- **L7:** Add the requested `unverified_service_book` evidence annotation to six undated appointments, retaining their existing saved Reader evidence and statuses. Document the inactive printed Myron Mark 16 lead as chapter 16 entirely.
+- **L8:** Preserve Tout 23 readings unchanged. Add the Marian-day-set question to the check sheet and leave Q-L2 unanswered.
+- **L9:** Exclude exactly three stale unresolved Wednesday Pascha Psalm occurrences per year, preserving their status in the reverse archive. Keep all accepted source-only and numeric-source-coordinate Psalm holds current under exact date/source/disclosure allowances. The public current-reading predicate is unchanged.
+- **L10:** Supply all 21 requested service/hour source comparisons, including historical, printed and retained Reader wordings, without a new current-status sweep.
+
+### 1 Timothy follow-up
+
+- **T-L1:** Every removed witness explicitly reports `occurs_in_shipped_years: false`. Correct 2,326 true claims and add the previously missing false field where needed, without deleting historical evidence.
+- **T-L2:** Use the exact Twenty-Four Presbyters Synaxarium title in normalized Hatour 24 display metadata, with date-only catalog co-display and unchanged raw source titles.
+- **T-L3:** Qualify all 1,090 bare seasonal-cycle views by season and normalized calendar key. Current single-key rows comprise 156 Great Lent and 64 Holy Fifty views; a two-key Holy Fifty view is disclosed separately.
+- **T-L4:** Normalize month spellings using the later LK2 recommendation, including Hatour rather than the earlier Hator recommendation. Preserve raw keys.
+- **T-L5:** Document the distinct guaranteed reverse-index and daily-row schemas. `day_titles` remains optional in daily rows rather than receiving a fabricated value.
+- **T-L6:** Attach authenticated retained evidence to the requested rite occurrences and preserve their actual service names. Identify the same Covenant Thursday Lakkan Pauline without deleting a witness or claiming whole-table equality. Captured evidence is not falsely described as absent.
+- **T-L7:** Add exactly seven low-priority confirmation appointments. Preserve six real copticchurch locators and the already Reader-backed Water Liturgy locator rather than inventing a seventh copticchurch source.
+
+### Luke follow-up
+
+- **LK1:** Flag both three-Gospel Abib 26 source tables. Choose neither and preserve the existing daily appointments.
+- **LK2:** Normalize reader-facing month names to the thirteen catalog spellings and annual-Sunday capitalization, without rewriting source labels. Q-LK2 remains unanswered; its recommended default is used.
+- **LK3:** Replace generic cycle headings with source-qualified weekdays, weeks and actual feast names. Disclose the two inactive unresolved source-week-49 witnesses instead of inventing liturgical weeks.
+- **LK4:** Preserve endpoint variants and add a report-only inventory of 31 current comparison groups across 365 retained dated slots. Tout 8's longer Katameros witness is already inactive.
+- **LK5:** Merge all 52 remaining authenticated inactive source-cell pairs into ordered composite appointments. Retain all 104 original witnesses and their retirement metadata in the fragment records.
+- **LK6:** Keep public provenance plain text, at most 300 characters, and move structured evidence to explicit reversible JSON cells. Public fragment records use `original_source_row`; no `_review_original_row` token remains in daily output. Decoding does not replace source authentication.
+- **LK7:** Qualify 34 captured Special occurrences with portable Reader evidence and the established authority tier. Keep 11 Agpeya/Palm printed-book occurrences unverified, with named editions and check-sheet entries. Existing statuses remain unchanged.
+- **LK8:** Empty 145 synthetic Pascha overlay attestation triples rather than inventing a full range of attestations. Preserve their former synthetic years separately and retain genuine source observations and disclosures. No status changes.
+- **LK9:** Correct four source-qualified MT-to-LXX annotation views. Preserve held/non-MT coordinates and authenticated edition exceptions rather than applying a blanket offset.
+
+See [full report and tables](docs/LECTIONARY_1_3_8_RELEASE.md), [Reader check sheet](coptic-reader-check-sheet.md) and [open questions](open_questions_for_george.md). Dirty candidate provenance remains truthful during integration. The final package must be rebuilt from the single committed source in a fresh clean checkout before any publication.
+
 ## 1.3.7
 
 Source-backed corrections to the authenticated published 1.3.6 baseline. This release does not update the consuming website or the Synaxarium catalog.

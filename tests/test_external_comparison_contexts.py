@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from scripts import compare_external_sources as comparator
+from historical_review_fixture import published_1_3_7, historical_policy
 
 CURRENT = ROOT / 'out/data/copticchurch_passage_index_current_2020_2035.csv'
 CORRECTIONS = ROOT / 'sources/lectionary_corrections.json'
@@ -23,7 +24,9 @@ class ContextComparisonTests(unittest.TestCase):
     def setUpClass(cls):
         with CURRENT.open(newline='', encoding='utf-8') as handle:
             cls.source = list(csv.DictReader(handle))
-        cls.daily = json.loads((ROOT / 'packages/lectionary-data/data/daily/lectionary-2026.json').read_text())
+        # Historical preservation/mutation contract, not successor materialization.
+        cls.daily = published_1_3_7()['daily']['2026']
+        historical_policy()  # Bind the retained source rows to their pinned policy.
 
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -31,7 +34,7 @@ class ContextComparisonTests(unittest.TestCase):
         self.root = Path(self.tmp.name)
         self.package = self.root / 'package'
         (self.package / 'data/daily').mkdir(parents=True)
-        (self.package / 'meta.json').write_text(json.dumps({'shipped_years': [2026]}))
+        (self.package / 'meta.json').write_text(json.dumps({'version': '1.3.7', 'shipped_years': [2026]}))
 
     def fixtures(self, date):
         return [copy.deepcopy(r) for r in self.source if r['gregorian_date'] == date], {date: copy.deepcopy(self.daily[date])}
@@ -50,13 +53,14 @@ class ContextComparisonTests(unittest.TestCase):
         source.extend({field: row.get(field, '') for field in self.source[0]} for row in vespers)
         return source, daily
 
-    def compare(self, source, daily, **kwargs):
+    def compare(self, source, daily, *, version='1.3.7', **kwargs):
         index = self.root / 'current.csv'
         with index.open('w', newline='', encoding='utf-8') as handle:
             writer = csv.DictWriter(handle, fieldnames=self.source[0].keys())
             writer.writeheader()
             writer.writerows(source)
         (self.package / 'data/daily/lectionary-2026.json').write_text(json.dumps(daily))
+        (self.package / 'meta.json').write_text(json.dumps({'version': version, 'shipped_years': [2026]}))
         return comparator.compare_copticchurch_cache(self.package, index, [2026], **kwargs)
 
     def rejected(self, source, daily, **kwargs):
@@ -105,7 +109,7 @@ class ContextComparisonTests(unittest.TestCase):
                 self.rejected(rows, original)
 
     def overlay_fixture(self):
-        # Exercise actual rebuilt bytes; no test-only correction of slot metadata.
+        # Exercise authenticated published 1.3.7 bytes; no slot metadata repair.
         return self.fixtures('2026-04-07')
 
     def test_pinned_pre_review_overlay_source_order_and_unknown99_corruption(self):
@@ -116,13 +120,13 @@ class ContextComparisonTests(unittest.TestCase):
         self.assertEqual(hashlib.sha256(CURRENT.read_bytes()).hexdigest(), 'd373b55d42f78209a74ee1533884c81c357995333e58e884b76b2d0c14e2b2dd')
         source, _ = self.fixtures('2026-04-07')
         daily = {'2026-04-07': json.loads(fixture)['daily']['2026']['2026-04-07']}
-        self.assertEqual(self.compare(source, daily)['status'], 'pass')
-        self.assertEqual(self.compare(source, daily)['years']['2026']['comparable_package_rows'], 38)
+        self.assertEqual(self.compare(source, daily, version='1.3.6')['status'], 'pass')
+        self.assertEqual(self.compare(source, daily, version='1.3.6')['years']['2026']['comparable_package_rows'], 38)
         prophecies = [row for row in daily['2026-04-07'] if row['slot'].startswith('OT')]
         self.assertEqual(len(prophecies), 18)
         for row in prophecies:
             row['slot_order'] = 99
-        result = self.compare(source, daily)
+        result = self.compare(source, daily, version='1.3.6')
         self.assertEqual(result['status'], 'fail')
         self.assertEqual(result['years']['2026']['mismatch_rows'], 36)
         self.assertEqual({r['slot_order'] for r in result['comparison_rows'] if r['status'] == 'package_only_extra_vs_source'}, {'99'})

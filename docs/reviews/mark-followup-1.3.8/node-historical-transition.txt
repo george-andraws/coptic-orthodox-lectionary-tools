@@ -1,0 +1,877 @@
+TAP version 13
+# Subtest: L1 malformed Mesra source is held, never silently corrected from a different witness
+ok 1 - L1 malformed Mesra source is held, never silently corrected from a different witness
+  ---
+  duration_ms: 2.7685
+  type: 'test'
+  ...
+# Subtest: L2 copied Tuesday day-hour appointments are archived and absent in every year
+ok 2 - L2 copied Tuesday day-hour appointments are archived and absent in every year
+  ---
+  duration_ms: 2.968625
+  type: 'test'
+  ...
+# Subtest: L3 printed Third and Ninth Hours are explicit inactive candidates, never a fabricated Eleventh Hour
+ok 3 - L3 printed Third and Ninth Hours are explicit inactive candidates, never a fabricated Eleventh Hour
+  ---
+  duration_ms: 1.739125
+  type: 'test'
+  ...
+# Subtest: L4-L5 display labels are normalized without changing raw source titles
+ok 4 - L4-L5 display labels are normalized without changing raw source titles
+  ---
+  duration_ms: 10.404917
+  type: 'test'
+  ...
+# Subtest: L6 preserves both Hator 11 Vespers witnesses with an explicit conflict
+ok 5 - L6 preserves both Hator 11 Vespers witnesses with an explicit conflict
+  ---
+  duration_ms: 1.604792
+  type: 'test'
+  ...
+# Subtest: L7 retains all six undated appointments with service-book evidence qualification
+ok 6 - L7 retains all six undated appointments with service-book evidence qualification
+  ---
+  duration_ms: 3.071291
+  type: 'test'
+  ...
+# Subtest: L9 legacy unresolved Pascha Psalms stay archived, accepted source-only Psalms remain current
+ok 7 - L9 legacy unresolved Pascha Psalms stay archived, accepted source-only Psalms remain current
+  ---
+  duration_ms: 8.386208
+  type: 'test'
+  ...
+# Subtest: Pascha Wednesday admits every current Reader fixture row without restoring inactive history
+ok 8 - Pascha Wednesday admits every current Reader fixture row without restoring inactive history
+  ---
+  duration_ms: 11.516
+  type: 'test'
+  ...
+# Subtest: partial structural daily inputs are completed and repeat materialization is idempotent
+not ok 9 - partial structural daily inputs are completed and repeat materialization is idempotent
+  ---
+  duration_ms: 83.449583
+  type: 'test'
+  location: '/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:81:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    complete prefinal membership AND order
+    + actual - expected
+    ... Skipped lines
+
+      [
+        'Wednesday Eve|First Hour|Psalm|rid_149496b1ed25a9ed714c|Ps 69:1,69:16 (LXX Ps 68:1; Ps 68:16)',
+        'Wednesday Eve|First Hour|Gospel|rid_4c8185db2dc57feb8771|Jn 10:17-21',
+        'Wednesday of Holy Pascha|First Hour|prophecy|rid_9905be0bd5f113e1fd65|Exod 17:1-7',
+        'Wednesday of Holy Pascha|First Hour|prophecy|rid_39fa796fd662e4a38893|Prov 3:5-14',
+    ...
+        'Wednesday of Holy Pascha|Third Hour|prophecy|rid_49c878d9ac64a1791795|Sir 22:7-18',
+    -   'Wednesday of Holy Pascha|Third Hour|Psalm|rid_ec764e70bc1afcf5a3fc|Ps 41:1,41:6 (LXX Ps 40:1; Ps 40:6)',
+        'Wednesday of Holy Pascha|Third Hour|gospel|rid_ecefcd5c90972a53de97|Lk 22:1-6',
+        'Wednesday Eve|Sixth Hour|OT1|rid_d9aa414c906f6cccaa02|Amos 3:1-11',
+        'Wednesday Eve|Sixth Hour|Psalm|rid_2b3bfed7deba70a54429|Ps 140:1-2 (LXX Ps 139:1-2)',
+        'Wednesday Eve|Sixth Hour|Gospel|rid_5c9302e6d595d190dd11|Jn 12:36-43',
+        'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_ffbd3a8ab8e47edbca9d|Exod 14:13-15:1',
+        'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_95b8bc94505475351957|Sir 23:7-14',
+        'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_8b0ba0644695bd53a112|Memoirs of Job',
+    -   'Wednesday of Holy Pascha|Sixth Hour|Psalm|rid_494b4f4a32be5964f7a7|Ps 83:2,83:5 (LXX Ps 82:2; Ps 82:5)',
+        'Wednesday of Holy Pascha|Sixth Hour|gospel|rid_8c5876bf280fd5764810|Jn 12:1-8',
+        'Wednesday Eve|Ninth Hour|OT1|rid_881bb20c0cd652123171|Ezek 20:27-33',
+        'Wednesday Eve|Ninth Hour|Psalm|rid_e702dda75f0ea453f291|Ps 7:1-2',
+        'Wednesday Eve|Ninth Hour|Gospel|rid_c131556038d5f2b24bfe|Jn 10:29-38',
+        'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_70dcf815719cbba3ec68|Gen 24:1-9',
+    ...
+        'Wednesday of Holy Pascha|Eleventh Hour|prophecy|rid_277b3bf74110c25ffb6e|Isa 28:16-29',
+    -   'Wednesday of Holy Pascha|Eleventh Hour|Psalm|rid_6a749188726ed430761c|Ps 6:2-3',
+        'Wednesday of Holy Pascha|Eleventh Hour|psalm|rid_a2e15120b4b9057e101f|Ps 69:16 (LXX Ps 68:17)',
+        'Wednesday of Holy Pascha|Eleventh Hour|gospel|rid_2743446b52a2479a34ac|Jn 12:27-36'
+      ]
+
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'Wednesday Eve|First Hour|Psalm|rid_149496b1ed25a9ed714c|Ps 69:1,69:16 (LXX Ps 68:1; Ps 68:16)'
+    1: 'Wednesday Eve|First Hour|Gospel|rid_4c8185db2dc57feb8771|Jn 10:17-21'
+    2: 'Wednesday of Holy Pascha|First Hour|prophecy|rid_9905be0bd5f113e1fd65|Exod 17:1-7'
+    3: 'Wednesday of Holy Pascha|First Hour|prophecy|rid_39fa796fd662e4a38893|Prov 3:5-14'
+    4: 'Wednesday of Holy Pascha|First Hour|prophecy|rid_2397fc80704f44df38d6|Hos 5:13-6:3'
+    5: 'Wednesday of Holy Pascha|First Hour|psalm|rid_03fee652493b21f24f4e|Ps 51:4 (LXX Ps 50:6)'
+    6: 'Wednesday of Holy Pascha|First Hour|psalm|rid_e2e0dbf183569f4ac715|Ps 33:10 (LXX Ps 32:10)'
+    7: 'Wednesday of Holy Pascha|First Hour|gospel|rid_467e73392b86e856773a|Jn 11:46-57'
+    8: 'Wednesday Eve|Third Hour|OT1|rid_f23108743b2fcb166bc2|Amos 4:4-13'
+    9: 'Wednesday Eve|Third Hour|Psalm|rid_27d71d747dfcfbcc912a|Ps 55:1,55:21 (LXX Ps 54:1; Ps 54:21)'
+    10: 'Wednesday Eve|Third Hour|Gospel|rid_16b69d94202a0f29db61|Mark 14:3-11'
+    11: 'Wednesday of Holy Pascha|Third Hour|prophecy|rid_3a7b3b128117ad907040|Exod 13:17-22'
+    12: 'Wednesday of Holy Pascha|Third Hour|prophecy|rid_49c878d9ac64a1791795|Sir 22:7-18'
+    13: 'Wednesday of Holy Pascha|Third Hour|Psalm|rid_ec764e70bc1afcf5a3fc|Ps 41:1,41:6 (LXX Ps 40:1; Ps 40:6)'
+    14: 'Wednesday of Holy Pascha|Third Hour|gospel|rid_ecefcd5c90972a53de97|Lk 22:1-6'
+    15: 'Wednesday Eve|Sixth Hour|OT1|rid_d9aa414c906f6cccaa02|Amos 3:1-11'
+    16: 'Wednesday Eve|Sixth Hour|Psalm|rid_2b3bfed7deba70a54429|Ps 140:1-2 (LXX Ps 139:1-2)'
+    17: 'Wednesday Eve|Sixth Hour|Gospel|rid_5c9302e6d595d190dd11|Jn 12:36-43'
+    18: 'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_ffbd3a8ab8e47edbca9d|Exod 14:13-15:1'
+    19: 'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_95b8bc94505475351957|Sir 23:7-14'
+    20: 'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_8b0ba0644695bd53a112|Memoirs of Job'
+    21: 'Wednesday of Holy Pascha|Sixth Hour|Psalm|rid_494b4f4a32be5964f7a7|Ps 83:2,83:5 (LXX Ps 82:2; Ps 82:5)'
+    22: 'Wednesday of Holy Pascha|Sixth Hour|gospel|rid_8c5876bf280fd5764810|Jn 12:1-8'
+    23: 'Wednesday Eve|Ninth Hour|OT1|rid_881bb20c0cd652123171|Ezek 20:27-33'
+    24: 'Wednesday Eve|Ninth Hour|Psalm|rid_e702dda75f0ea453f291|Ps 7:1-2'
+    25: 'Wednesday Eve|Ninth Hour|Gospel|rid_c131556038d5f2b24bfe|Jn 10:29-38'
+    26: 'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_70dcf815719cbba3ec68|Gen 24:1-9'
+    27: 'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_448071a4438a77092116|Num 20:1-13'
+    28: 'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_b7a5aa85795a1f68b5a2|Prov 1:11-35'
+    29: 'Wednesday of Holy Pascha|Ninth Hour|psalm|rid_c1d60b035931158ae984|Ps 41:5-7 (LXX Ps 40:6-8)'
+    30: 'Wednesday of Holy Pascha|Ninth Hour|gospel|rid_ee62ed11065129a5f12c|Matt 26:3-16'
+    31: 'Wednesday Eve|Eleventh Hour|OT1|rid_911892923f645ebfa5fb|Wis 7:24-30'
+    32: 'Wednesday Eve|Eleventh Hour|Psalm|rid_6dcf6122d785e98450f1|Ps 57:1 (LXX Ps 56:1)'
+    33: 'Wednesday Eve|Eleventh Hour|Gospel|rid_86a14760f5eee2200c69|Jn 11:55-57'
+    34: 'Wednesday of Holy Pascha|Eleventh Hour|prophecy|rid_277b3bf74110c25ffb6e|Isa 28:16-29'
+    35: 'Wednesday of Holy Pascha|Eleventh Hour|Psalm|rid_6a749188726ed430761c|Ps 6:2-3'
+    36: 'Wednesday of Holy Pascha|Eleventh Hour|psalm|rid_a2e15120b4b9057e101f|Ps 69:16 (LXX Ps 68:17)'
+    37: 'Wednesday of Holy Pascha|Eleventh Hour|gospel|rid_2743446b52a2479a34ac|Jn 12:27-36'
+  actual:
+    0: 'Wednesday Eve|First Hour|Psalm|rid_149496b1ed25a9ed714c|Ps 69:1,69:16 (LXX Ps 68:1; Ps 68:16)'
+    1: 'Wednesday Eve|First Hour|Gospel|rid_4c8185db2dc57feb8771|Jn 10:17-21'
+    2: 'Wednesday of Holy Pascha|First Hour|prophecy|rid_9905be0bd5f113e1fd65|Exod 17:1-7'
+    3: 'Wednesday of Holy Pascha|First Hour|prophecy|rid_39fa796fd662e4a38893|Prov 3:5-14'
+    4: 'Wednesday of Holy Pascha|First Hour|prophecy|rid_2397fc80704f44df38d6|Hos 5:13-6:3'
+    5: 'Wednesday of Holy Pascha|First Hour|psalm|rid_03fee652493b21f24f4e|Ps 51:4 (LXX Ps 50:6)'
+    6: 'Wednesday of Holy Pascha|First Hour|psalm|rid_e2e0dbf183569f4ac715|Ps 33:10 (LXX Ps 32:10)'
+    7: 'Wednesday of Holy Pascha|First Hour|gospel|rid_467e73392b86e856773a|Jn 11:46-57'
+    8: 'Wednesday Eve|Third Hour|OT1|rid_f23108743b2fcb166bc2|Amos 4:4-13'
+    9: 'Wednesday Eve|Third Hour|Psalm|rid_27d71d747dfcfbcc912a|Ps 55:1,55:21 (LXX Ps 54:1; Ps 54:21)'
+    10: 'Wednesday Eve|Third Hour|Gospel|rid_16b69d94202a0f29db61|Mark 14:3-11'
+    11: 'Wednesday of Holy Pascha|Third Hour|prophecy|rid_3a7b3b128117ad907040|Exod 13:17-22'
+    12: 'Wednesday of Holy Pascha|Third Hour|prophecy|rid_49c878d9ac64a1791795|Sir 22:7-18'
+    13: 'Wednesday of Holy Pascha|Third Hour|gospel|rid_ecefcd5c90972a53de97|Lk 22:1-6'
+    14: 'Wednesday Eve|Sixth Hour|OT1|rid_d9aa414c906f6cccaa02|Amos 3:1-11'
+    15: 'Wednesday Eve|Sixth Hour|Psalm|rid_2b3bfed7deba70a54429|Ps 140:1-2 (LXX Ps 139:1-2)'
+    16: 'Wednesday Eve|Sixth Hour|Gospel|rid_5c9302e6d595d190dd11|Jn 12:36-43'
+    17: 'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_ffbd3a8ab8e47edbca9d|Exod 14:13-15:1'
+    18: 'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_95b8bc94505475351957|Sir 23:7-14'
+    19: 'Wednesday of Holy Pascha|Sixth Hour|prophecy|rid_8b0ba0644695bd53a112|Memoirs of Job'
+    20: 'Wednesday of Holy Pascha|Sixth Hour|gospel|rid_8c5876bf280fd5764810|Jn 12:1-8'
+    21: 'Wednesday Eve|Ninth Hour|OT1|rid_881bb20c0cd652123171|Ezek 20:27-33'
+    22: 'Wednesday Eve|Ninth Hour|Psalm|rid_e702dda75f0ea453f291|Ps 7:1-2'
+    23: 'Wednesday Eve|Ninth Hour|Gospel|rid_c131556038d5f2b24bfe|Jn 10:29-38'
+    24: 'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_70dcf815719cbba3ec68|Gen 24:1-9'
+    25: 'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_448071a4438a77092116|Num 20:1-13'
+    26: 'Wednesday of Holy Pascha|Ninth Hour|prophecy|rid_b7a5aa85795a1f68b5a2|Prov 1:11-35'
+    27: 'Wednesday of Holy Pascha|Ninth Hour|psalm|rid_c1d60b035931158ae984|Ps 41:5-7 (LXX Ps 40:6-8)'
+    28: 'Wednesday of Holy Pascha|Ninth Hour|gospel|rid_ee62ed11065129a5f12c|Matt 26:3-16'
+    29: 'Wednesday Eve|Eleventh Hour|OT1|rid_911892923f645ebfa5fb|Wis 7:24-30'
+    30: 'Wednesday Eve|Eleventh Hour|Psalm|rid_6dcf6122d785e98450f1|Ps 57:1 (LXX Ps 56:1)'
+    31: 'Wednesday Eve|Eleventh Hour|Gospel|rid_86a14760f5eee2200c69|Jn 11:55-57'
+    32: 'Wednesday of Holy Pascha|Eleventh Hour|prophecy|rid_277b3bf74110c25ffb6e|Isa 28:16-29'
+    33: 'Wednesday of Holy Pascha|Eleventh Hour|psalm|rid_a2e15120b4b9057e101f|Ps 69:16 (LXX Ps 68:17)'
+    34: 'Wednesday of Holy Pascha|Eleventh Hour|gospel|rid_2743446b52a2479a34ac|Jn 12:27-36'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:91:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: Annunciation collision replaces rather than merges the ordinary feast rows
+not ok 10 - Annunciation collision replaces rather than merges the ordinary feast rows
+  ---
+  duration_ms: 71.779458
+  type: 'test'
+  location: '/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:99:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    prefinal helper excludes held copies; final repair supplies qualified Eve rows
+    + actual - expected
+    ... Skipped lines
+
+      [
+        'Tuesday|First Hour|OT1|rid_2ef423835894cc5bd95c|Exod 19:1-9',
+        'Tuesday|First Hour|OT2|rid_6546e2768925e859a2a6|Job 23:2-24:25',
+        'Tuesday|First Hour|OT3|rid_132d5d45dd7e31f004b7|Hos 4:1-8',
+        'Tuesday|First Hour|Psalm|rid_6afa7496132d4eea46ad|Ps 120:2,120:6-7 (LXX Ps 119:2; Ps 119:6-7)',
+    -   'Tuesday|First Hour|Gospel|rid_3503dab946c9a441f29a|Jn 11:12-24',
+    -   'Tuesday|Third Hour|OT1|rid_dea460583107611686de|Isa 5:20-30',
+    -   'Tuesday|Third Hour|OT2|rid_fcbca4c8026ae9ed4e8f|Jer 9:12-19',
+        'Tuesday|Third Hour|Psalm|rid_35e5e6d764183f72ad04|Ps 122:1-2 (LXX Ps 121:1-2)',
+    -   'Tuesday|Third Hour|Gospel|rid_d1cf895fb56180180bb0|Mark 11:11-19',
+        'Tuesday|Sixth Hour|OT1|rid_2e7fe759de5c87f9e998|Ezek 21:3-13',
+        'Tuesday|Sixth Hour|OT2|rid_750abf01725b137f4df5|Sir 4:20-5:2',
+        'Tuesday|Sixth Hour|OT3|rid_3653df6dccdcc78ae8c7|Isa 1:1-9',
+        'Tuesday|Sixth Hour|Psalm|rid_306c92572ab54418baf7|Ps 18:17,18:48 (LXX Ps 17:17; Ps 17:48)',
+        'Tuesday|Sixth Hour|Gospel|rid_388d1961e4babe1f51e7|Jn 8:12-20',
+    ...
+        'Tuesday|Ninth Hour|Psalm|rid_751349005e100c368a1f|Ps 65:4-5 (LXX Ps 64:4-5)',
+    -   'Tuesday|Ninth Hour|Gospel|rid_68809512622d19856234|Matt 21:23-27',
+        'Tuesday|Eleventh Hour|OT1|rid_d5c12afc31445328b9db|Isa 50:1-3',
+        'Tuesday|Eleventh Hour|OT2|rid_eead85a0820420a96aa4|Wis 2:20-30',
+        'Tuesday|Eleventh Hour|Psalm|rid_40095a8e6eb6be324215|Ps 13:3-4 (LXX Ps 12:3-4)',
+    -   'Tuesday|Eleventh Hour|Gospel|rid_6297f04e598f02483db6|Jn 8:51-59'
+      ]
+
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: 'Tuesday|First Hour|OT1|rid_2ef423835894cc5bd95c|Exod 19:1-9'
+    1: 'Tuesday|First Hour|OT2|rid_6546e2768925e859a2a6|Job 23:2-24:25'
+    2: 'Tuesday|First Hour|OT3|rid_132d5d45dd7e31f004b7|Hos 4:1-8'
+    3: 'Tuesday|First Hour|Psalm|rid_6afa7496132d4eea46ad|Ps 120:2,120:6-7 (LXX Ps 119:2; Ps 119:6-7)'
+    4: 'Tuesday|First Hour|Gospel|rid_3503dab946c9a441f29a|Jn 11:12-24'
+    5: 'Tuesday|Third Hour|OT1|rid_dea460583107611686de|Isa 5:20-30'
+    6: 'Tuesday|Third Hour|OT2|rid_fcbca4c8026ae9ed4e8f|Jer 9:12-19'
+    7: 'Tuesday|Third Hour|Psalm|rid_35e5e6d764183f72ad04|Ps 122:1-2 (LXX Ps 121:1-2)'
+    8: 'Tuesday|Third Hour|Gospel|rid_d1cf895fb56180180bb0|Mark 11:11-19'
+    9: 'Tuesday|Sixth Hour|OT1|rid_2e7fe759de5c87f9e998|Ezek 21:3-13'
+    10: 'Tuesday|Sixth Hour|OT2|rid_750abf01725b137f4df5|Sir 4:20-5:2'
+    11: 'Tuesday|Sixth Hour|OT3|rid_3653df6dccdcc78ae8c7|Isa 1:1-9'
+    12: 'Tuesday|Sixth Hour|Psalm|rid_306c92572ab54418baf7|Ps 18:17,18:48 (LXX Ps 17:17; Ps 17:48)'
+    13: 'Tuesday|Sixth Hour|Gospel|rid_388d1961e4babe1f51e7|Jn 8:12-20'
+    14: 'Tuesday|Ninth Hour|OT1|rid_ac097753b41af879d334|Gen 6:5-9:7'
+    15: 'Tuesday|Ninth Hour|OT2|rid_07a98121b2a6c00d24d1|Isa 40:1-5'
+    16: 'Tuesday|Ninth Hour|OT3|rid_c68c8617c19b143a586d|Prov 1:1-9'
+    17: 'Tuesday|Ninth Hour|Psalm|rid_751349005e100c368a1f|Ps 65:4-5 (LXX Ps 64:4-5)'
+    18: 'Tuesday|Ninth Hour|Gospel|rid_68809512622d19856234|Matt 21:23-27'
+    19: 'Tuesday|Eleventh Hour|OT1|rid_d5c12afc31445328b9db|Isa 50:1-3'
+    20: 'Tuesday|Eleventh Hour|OT2|rid_eead85a0820420a96aa4|Wis 2:20-30'
+    21: 'Tuesday|Eleventh Hour|Psalm|rid_40095a8e6eb6be324215|Ps 13:3-4 (LXX Ps 12:3-4)'
+    22: 'Tuesday|Eleventh Hour|Gospel|rid_6297f04e598f02483db6|Jn 8:51-59'
+  actual:
+    0: 'Tuesday|First Hour|OT1|rid_2ef423835894cc5bd95c|Exod 19:1-9'
+    1: 'Tuesday|First Hour|OT2|rid_6546e2768925e859a2a6|Job 23:2-24:25'
+    2: 'Tuesday|First Hour|OT3|rid_132d5d45dd7e31f004b7|Hos 4:1-8'
+    3: 'Tuesday|First Hour|Psalm|rid_6afa7496132d4eea46ad|Ps 120:2,120:6-7 (LXX Ps 119:2; Ps 119:6-7)'
+    4: 'Tuesday|Third Hour|Psalm|rid_35e5e6d764183f72ad04|Ps 122:1-2 (LXX Ps 121:1-2)'
+    5: 'Tuesday|Sixth Hour|OT1|rid_2e7fe759de5c87f9e998|Ezek 21:3-13'
+    6: 'Tuesday|Sixth Hour|OT2|rid_750abf01725b137f4df5|Sir 4:20-5:2'
+    7: 'Tuesday|Sixth Hour|OT3|rid_3653df6dccdcc78ae8c7|Isa 1:1-9'
+    8: 'Tuesday|Sixth Hour|Psalm|rid_306c92572ab54418baf7|Ps 18:17,18:48 (LXX Ps 17:17; Ps 17:48)'
+    9: 'Tuesday|Sixth Hour|Gospel|rid_388d1961e4babe1f51e7|Jn 8:12-20'
+    10: 'Tuesday|Ninth Hour|OT1|rid_ac097753b41af879d334|Gen 6:5-9:7'
+    11: 'Tuesday|Ninth Hour|OT2|rid_07a98121b2a6c00d24d1|Isa 40:1-5'
+    12: 'Tuesday|Ninth Hour|OT3|rid_c68c8617c19b143a586d|Prov 1:1-9'
+    13: 'Tuesday|Ninth Hour|Psalm|rid_751349005e100c368a1f|Ps 65:4-5 (LXX Ps 64:4-5)'
+    14: 'Tuesday|Eleventh Hour|OT1|rid_d5c12afc31445328b9db|Isa 50:1-3'
+    15: 'Tuesday|Eleventh Hour|OT2|rid_eead85a0820420a96aa4|Wis 2:20-30'
+    16: 'Tuesday|Eleventh Hour|Psalm|rid_40095a8e6eb6be324215|Ps 13:3-4 (LXX Ps 12:3-4)'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:107:10)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Wednesday alias dedupe prefers Reader regardless of input order and never merges Eve
+ok 11 - Wednesday alias dedupe prefers Reader regardless of input order and never merges Eve
+  ---
+  duration_ms: 104.606084
+  type: 'test'
+  ...
+# Subtest: Hosanna 2026-04-05 appends only current Pascha hours to the ordinary Palm Sunday services
+ok 12 - Hosanna 2026-04-05 appends only current Pascha hours to the ordinary Palm Sunday services
+  ---
+  duration_ms: 23.942666
+  type: 'test'
+  ...
+# Subtest: Hosanna 2027-04-25 appends only current Pascha hours to the ordinary Palm Sunday services
+ok 13 - Hosanna 2027-04-25 appends only current Pascha hours to the ordinary Palm Sunday services
+  ---
+  duration_ms: 25.550958
+  type: 'test'
+  ...
+# Subtest: Hosanna 2028-04-09 appends only current Pascha hours to the ordinary Palm Sunday services
+ok 14 - Hosanna 2028-04-09 appends only current Pascha hours to the ordinary Palm Sunday services
+  ---
+  duration_ms: 23.845583
+  type: 'test'
+  ...
+# Subtest: packaged 2026-04-08 preserves Reader readings and all five daytime hour categories
+not ok 15 - packaged 2026-04-08 preserves Reader readings and all five daytime hour categories
+  ---
+  duration_ms: 22.964833
+  type: 'test'
+  location: '/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:174:3'
+  failureType: 'testCodeFailure'
+  error: '2026-04-08: Third Hour psalm'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:186:16)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: packaged 2027-04-28 preserves Reader readings and all five daytime hour categories
+not ok 16 - packaged 2027-04-28 preserves Reader readings and all five daytime hour categories
+  ---
+  duration_ms: 23.207542
+  type: 'test'
+  location: '/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:174:3'
+  failureType: 'testCodeFailure'
+  error: '2027-04-28: Third Hour psalm'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:186:16)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: packaged 2028-04-12 preserves Reader readings and all five daytime hour categories
+not ok 17 - packaged 2028-04-12 preserves Reader readings and all five daytime hour categories
+  ---
+  duration_ms: 22.704167
+  type: 'test'
+  location: '/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:174:3'
+  failureType: 'testCodeFailure'
+  error: '2028-04-12: Third Hour psalm'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:186:16)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: final Holy Week membership and new Reader order match the authenticated source projection, all shipped years
+not ok 18 - final Holy Week membership and new Reader order match the authenticated source projection, all shipped years
+  ---
+  duration_ms: 1131.140917
+  type: 'test'
+  location: '/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:204:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    2026-04-07: complete final source projection, no omitted rows
+    + actual - expected
+    ... Skipped lines
+
+      [
+        [
+          'Tuesday Eve|First Hour|Gospel|rid_067caec0901dc9284fdd|Matt 22:1-14',
+          'Matt 22:1-14',
+          'Matt 22:1-14',
+    ...
+        [
+    -     'Tuesday|Eleventh Hour|Gospel|rid_6297f04e598f02483db6|Jn 8:51-59',
+    -     'Jn 8:51-59',
+    -     'Jn 8:51-59',
+    -     '[{"book": "Jn", "canonical_lxx_ref": "Jn 8:51-59", "canonical_mt_ref": "Jn 8:51-59", "chapter_end": 8, "chapter_start": 8, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jn 8:51-59", "validation_basis": "", "verse_end": 59, "verse_start": 51}]',
+    -     'current_working_source_not_coptic_reader_checked',
+    -     ''
+    -   ],
+    -   [
+          'Tuesday|Eleventh Hour|OT1|rid_d5c12afc31445328b9db|Isa 50:1-3',
+          'Isa 50:1-3',
+          'Isa 50:1-3',
+          '[{"book": "Isa", "canonical_lxx_ref": "Isa 50:1-3", "canonical_mt_ref": "Isa 50:1-3", "chapter_end": 50, "chapter_start": 50, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 50:1-3", "validation_basis": "", "verse_end": 3, "verse_start": 1}]',
+          'current_working_source_not_coptic_reader_checked',
+    ...
+        [
+    -     'Tuesday|First Hour|Gospel|rid_3503dab946c9a441f29a|Jn 11:12-24',
+    -     'Jn 11:12-24',
+    -     'Jn 11:12-24',
+    -     '[{"book": "Jn", "canonical_lxx_ref": "Jn 11:12-24", "canonical_mt_ref": "Jn 11:12-24", "chapter_end": 11, "chapter_start": 11, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jn 11:12-24", "validation_basis": "", "verse_end": 24, "verse_start": 12}]',
+    -     'current_working_source_not_coptic_reader_checked',
+    -     ''
+    -   ],
+    -   [
+          'Tuesday|First Hour|OT1|rid_2ef423835894cc5bd95c|Exod 19:1-9',
+          'Exod 19:1-9',
+          'Exod 19:1-9',
+          '[{"book": "Exod", "canonical_lxx_ref": "Exod 19:1-9", "canonical_mt_ref": "Exod 19:1-9", "chapter_end": 19, "chapter_start": 19, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Exod 19:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]',
+          'current_working_source_not_coptic_reader_checked',
+    ...
+        [
+    -     'Tuesday|Ninth Hour|Gospel|rid_68809512622d19856234|Matt 21:23-27',
+    -     'Matt 21:23-27',
+    -     'Matt 21:23-27',
+    -     '[{"book": "Matt", "canonical_lxx_ref": "Matt 21:23-27", "canonical_mt_ref": "Matt 21:23-27", "chapter_end": 21, "chapter_start": 21, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Matt 21:23-27", "validation_basis": "", "verse_end": 27, "verse_start": 23}]',
+    -     'current_working_source_not_coptic_reader_checked',
+    -     ''
+    -   ],
+    -   [
+          'Tuesday|Ninth Hour|OT1|rid_ac097753b41af879d334|Gen 6:5-9:7',
+          'Gen 6:5-9:7',
+          'Gen 6:5-9:7',
+          '[{"book": "Gen", "canonical_lxx_ref": "Gen 6:5-9:7", "canonical_mt_ref": "Gen 6:5-9:7", "chapter_end": 9, "chapter_start": 6, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Gen 6:5-9:7", "validation_basis": "", "verse_end": 7, "verse_start": 5}]',
+          'current_working_source_not_coptic_reader_checked',
+    ...
+        [
+    -     'Tuesday|Third Hour|Gospel|rid_d1cf895fb56180180bb0|Mark 11:11-19',
+    -     'Mark 11:11-19',
+    -     'Mark 11:11-19',
+    -     '[{"book": "Mark", "canonical_lxx_ref": "Mark 11:11-19", "canonical_mt_ref": "Mark 11:11-19", "chapter_end": 11, "chapter_start": 11, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Mark 11:11-19", "validation_basis": "", "verse_end": 19, "verse_start": 11}]',
+    -     'current_working_source_not_coptic_reader_checked',
+    -     ''
+    -   ],
+    -   [
+    -     'Tuesday|Third Hour|OT1|rid_dea460583107611686de|Isa 5:20-30',
+    -     'Isa 5:20-30',
+    -     'Isa 5:20-30',
+    -     '[{"book": "Isa", "canonical_lxx_ref": "Isa 5:20-30", "canonical_mt_ref": "Isa 5:20-30", "chapter_end": 5, "chapter_start": 5, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 5:20-30", "validation_basis": "", "verse_end": 30, "verse_start": 20}]',
+    -     'current_working_source_not_coptic_reader_checked',
+    -     ''
+    -   ],
+    -   [
+    -     'Tuesday|Third Hour|OT2|rid_fcbca4c8026ae9ed4e8f|Jer 9:12-19',
+    -     'Jer 9:12-19',
+    -     'Jer 9:12-19',
+    -     '[{"book": "Jer", "canonical_lxx_ref": "Jer 9:12-19", "canonical_mt_ref": "Jer 9:12-19", "chapter_end": 9, "chapter_start": 9, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jer 9:12-19", "validation_basis": "", "verse_end": 19, "verse_start": 12}]',
+    -     'current_working_source_not_coptic_reader_checked',
+    -     ''
+    -   ],
+    -   [
+          'Tuesday|Third Hour|Psalm|rid_35e5e6d764183f72ad04|Ps 122:1-2 (LXX Ps 121:1-2)',
+          'Ps 122:1-2',
+          'Ps 121:1-2',
+          '[{"book": "Ps", "canonical_lxx_ref": "Ps 121:1-2", "canonical_mt_ref": "Ps 122:1-2", "chapter_end": 122, "chapter_start": 122, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 122:1-2", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 2, "verse_start": 1}]',
+          'current_working_source_not_coptic_reader_checked',
+
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0:
+      0: 'Tuesday Eve|First Hour|Gospel|rid_067caec0901dc9284fdd|Matt 22:1-14'
+      1: 'Matt 22:1-14'
+      2: 'Matt 22:1-14'
+      3: '[{"book": "Matt", "canonical_lxx_ref": "Matt 22:1-14", "canonical_mt_ref": "Matt 22:1-14", "chapter_end": 22, "chapter_start": 22, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Matt 22:1-14", "validation_basis": "", "verse_end": 14, "verse_start": 1}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Matt 22:1-14","document_key":"tuesday--wednesday-eve--1st-hour","fresh_app_verification":false,"heading_line":153,"hour":"First Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--1st-hour.txt","printed_ref":"Matthew 22:1-14","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177","source_url":"https://copticreader.org/app/"}'
+    1:
+      0: 'Tuesday Eve|First Hour|OT1|rid_e5780cc9c4eea5ac6dec|Ezek 22:17-22'
+      1: 'Ezek 22:17-22'
+      2: 'Ezek 22:17-22'
+      3: '[{"book": "Ezek", "canonical_lxx_ref": "Ezek 22:17-22", "canonical_mt_ref": "Ezek 22:17-22", "chapter_end": 22, "chapter_start": 22, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Ezek 22:17-22", "validation_basis": "", "verse_end": 22, "verse_start": 17}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Ezek 22:17-22","document_key":"tuesday--wednesday-eve--1st-hour","fresh_app_verification":false,"heading_line":12,"hour":"First Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--1st-hour.txt","printed_ref":"Ezekiel 22:17-22","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177","source_url":"https://copticreader.org/app/"}'
+    2:
+      0: 'Tuesday Eve|First Hour|OT2|rid_92c0582ba78eb6dec784|Ezek 22:23-29'
+      1: 'Ezek 22:23-29'
+      2: 'Ezek 22:23-29'
+      3: '[{"book": "Ezek", "canonical_lxx_ref": "Ezek 22:23-29", "canonical_mt_ref": "Ezek 22:23-29", "chapter_end": 22, "chapter_start": 22, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Ezek 22:23-29", "validation_basis": "", "verse_end": 29, "verse_start": 23}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Ezek 22:23-29","document_key":"tuesday--wednesday-eve--1st-hour","fresh_app_verification":false,"heading_line":41,"hour":"First Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--1st-hour.txt","printed_ref":"Ezekiel 22:23-29","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177","source_url":"https://copticreader.org/app/"}'
+    3:
+      0: 'Tuesday Eve|Sixth Hour|Gospel|rid_32c43e508ddf3a451683|Matt 25:1-13'
+      1: 'Matt 25:1-13'
+      2: 'Matt 25:1-13'
+      3: '[{"book": "Matt", "canonical_lxx_ref": "Matt 25:1-13", "canonical_mt_ref": "Matt 25:1-13", "chapter_end": 25, "chapter_start": 25, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Matt 25:1-13", "validation_basis": "", "verse_end": 13, "verse_start": 1}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Matt 25:1-13","document_key":"tuesday--wednesday-eve--6th-hour","fresh_app_verification":false,"heading_line":133,"hour":"Sixth Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--6th-hour.txt","printed_ref":"Matthew 25:1-13","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"6503406999863241704e911f84dab04ff2e3c69335cf4a6ab105dd4cb423c422","source_url":"https://copticreader.org/app/"}'
+    4:
+      0: 'Tuesday Eve|Sixth Hour|OT1|rid_dfc183cd3c70f6d0c11e|Jer 16:9-13'
+      1: 'Jer 16:9-13'
+      2: 'Jer 16:9-13'
+      3: '[{"book": "Jer", "canonical_lxx_ref": "Jer 16:9-13", "canonical_mt_ref": "Jer 16:9-13", "chapter_end": 16, "chapter_start": 16, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jer 16:9-13", "validation_basis": "", "verse_end": 13, "verse_start": 9}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Jer 16:9-13","document_key":"tuesday--wednesday-eve--6th-hour","fresh_app_verification":false,"heading_line":12,"hour":"Sixth Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--6th-hour.txt","printed_ref":"Jeremiah 16:9-13","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"6503406999863241704e911f84dab04ff2e3c69335cf4a6ab105dd4cb423c422","source_url":"https://copticreader.org/app/"}'
+    5:
+      0: 'Tuesday|Eleventh Hour|Gospel|rid_6297f04e598f02483db6|Jn 8:51-59'
+      1: 'Jn 8:51-59'
+      2: 'Jn 8:51-59'
+      3: '[{"book": "Jn", "canonical_lxx_ref": "Jn 8:51-59", "canonical_mt_ref": "Jn 8:51-59", "chapter_end": 8, "chapter_start": 8, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jn 8:51-59", "validation_basis": "", "verse_end": 59, "verse_start": 51}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    6:
+      0: 'Tuesday|Eleventh Hour|OT1|rid_d5c12afc31445328b9db|Isa 50:1-3'
+      1: 'Isa 50:1-3'
+      2: 'Isa 50:1-3'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 50:1-3", "canonical_mt_ref": "Isa 50:1-3", "chapter_end": 50, "chapter_start": 50, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 50:1-3", "validation_basis": "", "verse_end": 3, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    7:
+      0: 'Tuesday|Eleventh Hour|OT2|rid_eead85a0820420a96aa4|Wis 2:20-30'
+      1: 'Wis 2:20-30'
+      2: 'Wis 2:20-30'
+      3: '[{"book": "Wis", "canonical_lxx_ref": "Wis 2:20-30", "canonical_mt_ref": "Wis 2:20-30", "chapter_end": 2, "chapter_start": 2, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Wis 2:20-30", "validation_basis": "", "verse_end": 30, "verse_start": 20}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    8:
+      0: 'Tuesday|Eleventh Hour|Psalm|rid_40095a8e6eb6be324215|Ps 13:3-4 (LXX Ps 12:3-4)'
+      1: 'Ps 13:3-4'
+      2: 'Ps 12:3-4'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 12:3-4", "canonical_mt_ref": "Ps 13:3-4", "chapter_end": 13, "chapter_start": 13, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 13:3-4", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 4, "verse_start": 3}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    9:
+      0: 'Tuesday|First Hour|Gospel|rid_3503dab946c9a441f29a|Jn 11:12-24'
+      1: 'Jn 11:12-24'
+      2: 'Jn 11:12-24'
+      3: '[{"book": "Jn", "canonical_lxx_ref": "Jn 11:12-24", "canonical_mt_ref": "Jn 11:12-24", "chapter_end": 11, "chapter_start": 11, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jn 11:12-24", "validation_basis": "", "verse_end": 24, "verse_start": 12}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    10:
+      0: 'Tuesday|First Hour|OT1|rid_2ef423835894cc5bd95c|Exod 19:1-9'
+      1: 'Exod 19:1-9'
+      2: 'Exod 19:1-9'
+      3: '[{"book": "Exod", "canonical_lxx_ref": "Exod 19:1-9", "canonical_mt_ref": "Exod 19:1-9", "chapter_end": 19, "chapter_start": 19, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Exod 19:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    11:
+      0: 'Tuesday|First Hour|OT2|rid_6546e2768925e859a2a6|Job 23:2-24:25'
+      1: 'Job 23:2-24:25'
+      2: 'Job 23:2-24:25'
+      3: '[{"book": "Job", "canonical_lxx_ref": "Job 23:2-24:25", "canonical_mt_ref": "Job 23:2-24:25", "chapter_end": 24, "chapter_start": 23, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Job 23:2-24:25", "validation_basis": "", "verse_end": 25, "verse_start": 2}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    12:
+      0: 'Tuesday|First Hour|OT3|rid_132d5d45dd7e31f004b7|Hos 4:1-8'
+      1: 'Hos 4:1-8'
+      2: 'Hos 4:1-8'
+      3: '[{"book": "Hos", "canonical_lxx_ref": "Hos 4:1-8", "canonical_mt_ref": "Hos 4:1-8", "chapter_end": 4, "chapter_start": 4, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Hos 4:1-8", "validation_basis": "", "verse_end": 8, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    13:
+      0: 'Tuesday|First Hour|Psalm|rid_6afa7496132d4eea46ad|Ps 120:2,120:6-7 (LXX Ps 119:2; Ps 119:6-7)'
+      1: 'Ps 120:2,120:6-7'
+      2: 'Ps 119:2; Ps 119:6-7'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 119:2; Ps 119:6-7", "canonical_mt_ref": "Ps 120:2,120:6-7", "chapter_end": 120, "chapter_start": 120, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 120:2,120:6-7", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 2, "verse_start": 2}, {"book": "Ps", "canonical_lxx_ref": "Ps 119:2; Ps 119:6-7", "canonical_mt_ref": "Ps 120:2,120:6-7", "chapter_end": 120, "chapter_start": 120, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 120:2,120:6-7", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 7, "verse_start": 6}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    14:
+      0: 'Tuesday|Ninth Hour|Gospel|rid_68809512622d19856234|Matt 21:23-27'
+      1: 'Matt 21:23-27'
+      2: 'Matt 21:23-27'
+      3: '[{"book": "Matt", "canonical_lxx_ref": "Matt 21:23-27", "canonical_mt_ref": "Matt 21:23-27", "chapter_end": 21, "chapter_start": 21, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Matt 21:23-27", "validation_basis": "", "verse_end": 27, "verse_start": 23}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    15:
+      0: 'Tuesday|Ninth Hour|OT1|rid_ac097753b41af879d334|Gen 6:5-9:7'
+      1: 'Gen 6:5-9:7'
+      2: 'Gen 6:5-9:7'
+      3: '[{"book": "Gen", "canonical_lxx_ref": "Gen 6:5-9:7", "canonical_mt_ref": "Gen 6:5-9:7", "chapter_end": 9, "chapter_start": 6, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Gen 6:5-9:7", "validation_basis": "", "verse_end": 7, "verse_start": 5}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    16:
+      0: 'Tuesday|Ninth Hour|OT2|rid_07a98121b2a6c00d24d1|Isa 40:1-5'
+      1: 'Isa 40:1-5'
+      2: 'Isa 40:1-5'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 40:1-5", "canonical_mt_ref": "Isa 40:1-5", "chapter_end": 40, "chapter_start": 40, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 40:1-5", "validation_basis": "", "verse_end": 5, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    17:
+      0: 'Tuesday|Ninth Hour|OT3|rid_c68c8617c19b143a586d|Prov 1:1-9'
+      1: 'Prov 1:1-9'
+      2: 'Prov 1:1-9'
+      3: '[{"book": "Prov", "canonical_lxx_ref": "Prov 1:1-9", "canonical_mt_ref": "Prov 1:1-9", "chapter_end": 1, "chapter_start": 1, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Prov 1:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    18:
+      0: 'Tuesday|Ninth Hour|Psalm|rid_751349005e100c368a1f|Ps 65:4-5 (LXX Ps 64:4-5)'
+      1: 'Ps 65:4-5'
+      2: 'Ps 64:4-5'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 64:4-5", "canonical_mt_ref": "Ps 65:4-5", "chapter_end": 65, "chapter_start": 65, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 65:4-5", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 5, "verse_start": 4}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    19:
+      0: 'Tuesday|Sixth Hour|Gospel|rid_388d1961e4babe1f51e7|Jn 8:12-20'
+      1: 'Jn 8:12-20'
+      2: 'Jn 8:12-20'
+      3: '[{"book": "Jn", "canonical_lxx_ref": "Jn 8:12-20", "canonical_mt_ref": "Jn 8:12-20", "chapter_end": 8, "chapter_start": 8, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jn 8:12-20", "validation_basis": "", "verse_end": 20, "verse_start": 12}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    20:
+      0: 'Tuesday|Sixth Hour|OT1|rid_2e7fe759de5c87f9e998|Ezek 21:3-13'
+      1: 'Ezek 21:3-13'
+      2: 'Ezek 21:3-13'
+      3: '[{"book": "Ezek", "canonical_lxx_ref": "Ezek 21:3-13", "canonical_mt_ref": "Ezek 21:3-13", "chapter_end": 21, "chapter_start": 21, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Ezek 21:3-13", "validation_basis": "", "verse_end": 13, "verse_start": 3}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    21:
+      0: 'Tuesday|Sixth Hour|OT2|rid_750abf01725b137f4df5|Sir 4:20-5:2'
+      1: 'Sir 4:20-5:2'
+      2: 'Sir 4:20-5:2'
+      3: '[{"book": "Sir", "canonical_lxx_ref": "Sir 4:20-5:2", "canonical_mt_ref": "Sir 4:20-5:2", "chapter_end": 5, "chapter_start": 4, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Sir 4:20-5:2", "validation_basis": "", "verse_end": 2, "verse_start": 20}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    22:
+      0: 'Tuesday|Sixth Hour|OT3|rid_3653df6dccdcc78ae8c7|Isa 1:1-9'
+      1: 'Isa 1:1-9'
+      2: 'Isa 1:1-9'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 1:1-9", "canonical_mt_ref": "Isa 1:1-9", "chapter_end": 1, "chapter_start": 1, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 1:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    23:
+      0: 'Tuesday|Sixth Hour|Psalm|rid_306c92572ab54418baf7|Ps 18:17,18:48 (LXX Ps 17:17; Ps 17:48)'
+      1: 'Ps 18:17,18:48'
+      2: 'Ps 17:17; Ps 17:48'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 17:17; Ps 17:48", "canonical_mt_ref": "Ps 18:17,18:48", "chapter_end": 18, "chapter_start": 18, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 18:17,18:48", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 17, "verse_start": 17}, {"book": "Ps", "canonical_lxx_ref": "Ps 17:17; Ps 17:48", "canonical_mt_ref": "Ps 18:17,18:48", "chapter_end": 18, "chapter_start": 18, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 18:17,18:48", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 48, "verse_start": 48}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    24:
+      0: 'Tuesday|Third Hour|Gospel|rid_d1cf895fb56180180bb0|Mark 11:11-19'
+      1: 'Mark 11:11-19'
+      2: 'Mark 11:11-19'
+      3: '[{"book": "Mark", "canonical_lxx_ref": "Mark 11:11-19", "canonical_mt_ref": "Mark 11:11-19", "chapter_end": 11, "chapter_start": 11, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Mark 11:11-19", "validation_basis": "", "verse_end": 19, "verse_start": 11}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    25:
+      0: 'Tuesday|Third Hour|OT1|rid_dea460583107611686de|Isa 5:20-30'
+      1: 'Isa 5:20-30'
+      2: 'Isa 5:20-30'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 5:20-30", "canonical_mt_ref": "Isa 5:20-30", "chapter_end": 5, "chapter_start": 5, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 5:20-30", "validation_basis": "", "verse_end": 30, "verse_start": 20}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    26:
+      0: 'Tuesday|Third Hour|OT2|rid_fcbca4c8026ae9ed4e8f|Jer 9:12-19'
+      1: 'Jer 9:12-19'
+      2: 'Jer 9:12-19'
+      3: '[{"book": "Jer", "canonical_lxx_ref": "Jer 9:12-19", "canonical_mt_ref": "Jer 9:12-19", "chapter_end": 9, "chapter_start": 9, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jer 9:12-19", "validation_basis": "", "verse_end": 19, "verse_start": 12}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    27:
+      0: 'Tuesday|Third Hour|Psalm|rid_35e5e6d764183f72ad04|Ps 122:1-2 (LXX Ps 121:1-2)'
+      1: 'Ps 122:1-2'
+      2: 'Ps 121:1-2'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 121:1-2", "canonical_mt_ref": "Ps 122:1-2", "chapter_end": 122, "chapter_start": 122, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 122:1-2", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 2, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+  actual:
+    0:
+      0: 'Tuesday Eve|First Hour|Gospel|rid_067caec0901dc9284fdd|Matt 22:1-14'
+      1: 'Matt 22:1-14'
+      2: 'Matt 22:1-14'
+      3: '[{"book": "Matt", "canonical_lxx_ref": "Matt 22:1-14", "canonical_mt_ref": "Matt 22:1-14", "chapter_end": 22, "chapter_start": 22, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Matt 22:1-14", "validation_basis": "", "verse_end": 14, "verse_start": 1}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Matt 22:1-14","document_key":"tuesday--wednesday-eve--1st-hour","fresh_app_verification":false,"heading_line":153,"hour":"First Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--1st-hour.txt","printed_ref":"Matthew 22:1-14","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177","source_url":"https://copticreader.org/app/"}'
+    1:
+      0: 'Tuesday Eve|First Hour|OT1|rid_e5780cc9c4eea5ac6dec|Ezek 22:17-22'
+      1: 'Ezek 22:17-22'
+      2: 'Ezek 22:17-22'
+      3: '[{"book": "Ezek", "canonical_lxx_ref": "Ezek 22:17-22", "canonical_mt_ref": "Ezek 22:17-22", "chapter_end": 22, "chapter_start": 22, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Ezek 22:17-22", "validation_basis": "", "verse_end": 22, "verse_start": 17}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Ezek 22:17-22","document_key":"tuesday--wednesday-eve--1st-hour","fresh_app_verification":false,"heading_line":12,"hour":"First Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--1st-hour.txt","printed_ref":"Ezekiel 22:17-22","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177","source_url":"https://copticreader.org/app/"}'
+    2:
+      0: 'Tuesday Eve|First Hour|OT2|rid_92c0582ba78eb6dec784|Ezek 22:23-29'
+      1: 'Ezek 22:23-29'
+      2: 'Ezek 22:23-29'
+      3: '[{"book": "Ezek", "canonical_lxx_ref": "Ezek 22:23-29", "canonical_mt_ref": "Ezek 22:23-29", "chapter_end": 22, "chapter_start": 22, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Ezek 22:23-29", "validation_basis": "", "verse_end": 29, "verse_start": 23}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Ezek 22:23-29","document_key":"tuesday--wednesday-eve--1st-hour","fresh_app_verification":false,"heading_line":41,"hour":"First Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--1st-hour.txt","printed_ref":"Ezekiel 22:23-29","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177","source_url":"https://copticreader.org/app/"}'
+    3:
+      0: 'Tuesday Eve|Sixth Hour|Gospel|rid_32c43e508ddf3a451683|Matt 25:1-13'
+      1: 'Matt 25:1-13'
+      2: 'Matt 25:1-13'
+      3: '[{"book": "Matt", "canonical_lxx_ref": "Matt 25:1-13", "canonical_mt_ref": "Matt 25:1-13", "chapter_end": 25, "chapter_start": 25, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Matt 25:1-13", "validation_basis": "", "verse_end": 13, "verse_start": 1}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Matt 25:1-13","document_key":"tuesday--wednesday-eve--6th-hour","fresh_app_verification":false,"heading_line":133,"hour":"Sixth Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--6th-hour.txt","printed_ref":"Matthew 25:1-13","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"6503406999863241704e911f84dab04ff2e3c69335cf4a6ab105dd4cb423c422","source_url":"https://copticreader.org/app/"}'
+    4:
+      0: 'Tuesday Eve|Sixth Hour|OT1|rid_dfc183cd3c70f6d0c11e|Jer 16:9-13'
+      1: 'Jer 16:9-13'
+      2: 'Jer 16:9-13'
+      3: '[{"book": "Jer", "canonical_lxx_ref": "Jer 16:9-13", "canonical_mt_ref": "Jer 16:9-13", "chapter_end": 16, "chapter_start": 16, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jer 16:9-13", "validation_basis": "", "verse_end": 13, "verse_start": 9}]'
+      4: 'current_confirmed_coptic_reader'
+      5: '{"canonical_mt_ref":"Jer 16:9-13","document_key":"tuesday--wednesday-eve--6th-hour","fresh_app_verification":false,"heading_line":12,"hour":"Sixth Hour","manifest_sha256":"16737be9590c5df2020e494b4950b1142347887f71a9b91f28b5601d66adf257","path":"sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--6th-hour.txt","printed_ref":"Jeremiah 16:9-13","qualification":"Retained full Reader capture; exact printed non-Psalm selection. No new Psalm numbering approval.","service":"eve_of_wednesday","sha256":"6503406999863241704e911f84dab04ff2e3c69335cf4a6ab105dd4cb423c422","source_url":"https://copticreader.org/app/"}'
+    5:
+      0: 'Tuesday|Eleventh Hour|OT1|rid_d5c12afc31445328b9db|Isa 50:1-3'
+      1: 'Isa 50:1-3'
+      2: 'Isa 50:1-3'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 50:1-3", "canonical_mt_ref": "Isa 50:1-3", "chapter_end": 50, "chapter_start": 50, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 50:1-3", "validation_basis": "", "verse_end": 3, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    6:
+      0: 'Tuesday|Eleventh Hour|OT2|rid_eead85a0820420a96aa4|Wis 2:20-30'
+      1: 'Wis 2:20-30'
+      2: 'Wis 2:20-30'
+      3: '[{"book": "Wis", "canonical_lxx_ref": "Wis 2:20-30", "canonical_mt_ref": "Wis 2:20-30", "chapter_end": 2, "chapter_start": 2, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Wis 2:20-30", "validation_basis": "", "verse_end": 30, "verse_start": 20}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    7:
+      0: 'Tuesday|Eleventh Hour|Psalm|rid_40095a8e6eb6be324215|Ps 13:3-4 (LXX Ps 12:3-4)'
+      1: 'Ps 13:3-4'
+      2: 'Ps 12:3-4'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 12:3-4", "canonical_mt_ref": "Ps 13:3-4", "chapter_end": 13, "chapter_start": 13, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 13:3-4", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 4, "verse_start": 3}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    8:
+      0: 'Tuesday|First Hour|OT1|rid_2ef423835894cc5bd95c|Exod 19:1-9'
+      1: 'Exod 19:1-9'
+      2: 'Exod 19:1-9'
+      3: '[{"book": "Exod", "canonical_lxx_ref": "Exod 19:1-9", "canonical_mt_ref": "Exod 19:1-9", "chapter_end": 19, "chapter_start": 19, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Exod 19:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    9:
+      0: 'Tuesday|First Hour|OT2|rid_6546e2768925e859a2a6|Job 23:2-24:25'
+      1: 'Job 23:2-24:25'
+      2: 'Job 23:2-24:25'
+      3: '[{"book": "Job", "canonical_lxx_ref": "Job 23:2-24:25", "canonical_mt_ref": "Job 23:2-24:25", "chapter_end": 24, "chapter_start": 23, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Job 23:2-24:25", "validation_basis": "", "verse_end": 25, "verse_start": 2}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    10:
+      0: 'Tuesday|First Hour|OT3|rid_132d5d45dd7e31f004b7|Hos 4:1-8'
+      1: 'Hos 4:1-8'
+      2: 'Hos 4:1-8'
+      3: '[{"book": "Hos", "canonical_lxx_ref": "Hos 4:1-8", "canonical_mt_ref": "Hos 4:1-8", "chapter_end": 4, "chapter_start": 4, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Hos 4:1-8", "validation_basis": "", "verse_end": 8, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    11:
+      0: 'Tuesday|First Hour|Psalm|rid_6afa7496132d4eea46ad|Ps 120:2,120:6-7 (LXX Ps 119:2; Ps 119:6-7)'
+      1: 'Ps 120:2,120:6-7'
+      2: 'Ps 119:2; Ps 119:6-7'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 119:2; Ps 119:6-7", "canonical_mt_ref": "Ps 120:2,120:6-7", "chapter_end": 120, "chapter_start": 120, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 120:2,120:6-7", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 2, "verse_start": 2}, {"book": "Ps", "canonical_lxx_ref": "Ps 119:2; Ps 119:6-7", "canonical_mt_ref": "Ps 120:2,120:6-7", "chapter_end": 120, "chapter_start": 120, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 120:2,120:6-7", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 7, "verse_start": 6}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    12:
+      0: 'Tuesday|Ninth Hour|OT1|rid_ac097753b41af879d334|Gen 6:5-9:7'
+      1: 'Gen 6:5-9:7'
+      2: 'Gen 6:5-9:7'
+      3: '[{"book": "Gen", "canonical_lxx_ref": "Gen 6:5-9:7", "canonical_mt_ref": "Gen 6:5-9:7", "chapter_end": 9, "chapter_start": 6, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Gen 6:5-9:7", "validation_basis": "", "verse_end": 7, "verse_start": 5}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    13:
+      0: 'Tuesday|Ninth Hour|OT2|rid_07a98121b2a6c00d24d1|Isa 40:1-5'
+      1: 'Isa 40:1-5'
+      2: 'Isa 40:1-5'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 40:1-5", "canonical_mt_ref": "Isa 40:1-5", "chapter_end": 40, "chapter_start": 40, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 40:1-5", "validation_basis": "", "verse_end": 5, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    14:
+      0: 'Tuesday|Ninth Hour|OT3|rid_c68c8617c19b143a586d|Prov 1:1-9'
+      1: 'Prov 1:1-9'
+      2: 'Prov 1:1-9'
+      3: '[{"book": "Prov", "canonical_lxx_ref": "Prov 1:1-9", "canonical_mt_ref": "Prov 1:1-9", "chapter_end": 1, "chapter_start": 1, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Prov 1:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    15:
+      0: 'Tuesday|Ninth Hour|Psalm|rid_751349005e100c368a1f|Ps 65:4-5 (LXX Ps 64:4-5)'
+      1: 'Ps 65:4-5'
+      2: 'Ps 64:4-5'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 64:4-5", "canonical_mt_ref": "Ps 65:4-5", "chapter_end": 65, "chapter_start": 65, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 65:4-5", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 5, "verse_start": 4}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    16:
+      0: 'Tuesday|Sixth Hour|Gospel|rid_388d1961e4babe1f51e7|Jn 8:12-20'
+      1: 'Jn 8:12-20'
+      2: 'Jn 8:12-20'
+      3: '[{"book": "Jn", "canonical_lxx_ref": "Jn 8:12-20", "canonical_mt_ref": "Jn 8:12-20", "chapter_end": 8, "chapter_start": 8, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Jn 8:12-20", "validation_basis": "", "verse_end": 20, "verse_start": 12}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    17:
+      0: 'Tuesday|Sixth Hour|OT1|rid_2e7fe759de5c87f9e998|Ezek 21:3-13'
+      1: 'Ezek 21:3-13'
+      2: 'Ezek 21:3-13'
+      3: '[{"book": "Ezek", "canonical_lxx_ref": "Ezek 21:3-13", "canonical_mt_ref": "Ezek 21:3-13", "chapter_end": 21, "chapter_start": 21, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Ezek 21:3-13", "validation_basis": "", "verse_end": 13, "verse_start": 3}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    18:
+      0: 'Tuesday|Sixth Hour|OT2|rid_750abf01725b137f4df5|Sir 4:20-5:2'
+      1: 'Sir 4:20-5:2'
+      2: 'Sir 4:20-5:2'
+      3: '[{"book": "Sir", "canonical_lxx_ref": "Sir 4:20-5:2", "canonical_mt_ref": "Sir 4:20-5:2", "chapter_end": 5, "chapter_start": 4, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Sir 4:20-5:2", "validation_basis": "", "verse_end": 2, "verse_start": 20}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    19:
+      0: 'Tuesday|Sixth Hour|OT3|rid_3653df6dccdcc78ae8c7|Isa 1:1-9'
+      1: 'Isa 1:1-9'
+      2: 'Isa 1:1-9'
+      3: '[{"book": "Isa", "canonical_lxx_ref": "Isa 1:1-9", "canonical_mt_ref": "Isa 1:1-9", "chapter_end": 1, "chapter_start": 1, "confidence": "high", "source_convention": "modern_english_reference", "source_ref": "Isa 1:1-9", "validation_basis": "", "verse_end": 9, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    20:
+      0: 'Tuesday|Sixth Hour|Psalm|rid_306c92572ab54418baf7|Ps 18:17,18:48 (LXX Ps 17:17; Ps 17:48)'
+      1: 'Ps 18:17,18:48'
+      2: 'Ps 17:17; Ps 17:48'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 17:17; Ps 17:48", "canonical_mt_ref": "Ps 18:17,18:48", "chapter_end": 18, "chapter_start": 18, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 18:17,18:48", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 17, "verse_start": 17}, {"book": "Ps", "canonical_lxx_ref": "Ps 17:17; Ps 17:48", "canonical_mt_ref": "Ps 18:17,18:48", "chapter_end": 18, "chapter_start": 18, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 18:17,18:48", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 48, "verse_start": 48}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+    21:
+      0: 'Tuesday|Third Hour|Psalm|rid_35e5e6d764183f72ad04|Ps 122:1-2 (LXX Ps 121:1-2)'
+      1: 'Ps 122:1-2'
+      2: 'Ps 121:1-2'
+      3: '[{"book": "Ps", "canonical_lxx_ref": "Ps 121:1-2", "canonical_mt_ref": "Ps 122:1-2", "chapter_end": 122, "chapter_start": 122, "confidence": "medium", "source_convention": "mt_nkjv", "source_ref": "Ps 122:1-2", "validation_basis": "chapter_mapped_verse_offset_not_guessed", "verse_end": 2, "verse_start": 1}]'
+      4: 'current_working_source_not_coptic_reader_checked'
+      5: ''
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (/Users/ga/.hermes/cache/scratch/mark-lectionary-138/repo/tests/npm_pascha_daily.test.cjs:233:14)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: Bright Saturday liturgy aliases collapse to one explicit slot and keep both disclosures
+ok 19 - Bright Saturday liturgy aliases collapse to one explicit slot and keep both disclosures
+  ---
+  duration_ms: 0.912625
+  type: 'test'
+  ...
+# Subtest: K1-K3 fixed-date and Sunday metadata are separate and join the catalog
+ok 20 - K1-K3 fixed-date and Sunday metadata are separate and join the catalog
+  ---
+  duration_ms: 9.576709
+  type: 'test'
+  ...
+# Subtest: K4-K6 display labels normalize terminology without overwriting retained source labels
+ok 21 - K4-K6 display labels normalize terminology without overwriting retained source labels
+  ---
+  duration_ms: 7.582416
+  type: 'test'
+  ...
+# Subtest: R2 fixed-day Kiahk23 uses the whole Reader table, never the Sunday table
+ok 22 - R2 fixed-day Kiahk23 uses the whole Reader table, never the Sunday table
+  ---
+  duration_ms: 2.396708
+  type: 'test'
+  ...
+# Subtest: R1 Reader Last-Friday Matins wins in every shipped year
+ok 23 - R1 Reader Last-Friday Matins wins in every shipped year
+  ---
+  duration_ms: 0.132625
+  type: 'test'
+  ...
+# Subtest: H1-H4 and H6 exclude known copies and add authenticated civil-eve appointments
+ok 24 - H1-H4 and H6 exclude known copies and add authenticated civil-eve appointments
+  ---
+  duration_ms: 6.805917
+  type: 'test'
+  ...
+# Subtest: R3 every normalized fixed/Sunday row has occurrence and displacement metadata
+ok 25 - R3 every normalized fixed/Sunday row has occurrence and displacement metadata
+  ---
+  duration_ms: 3.143042
+  type: 'test'
+  ...
+# Subtest: R4 chapter fragments remain one ordered Acts appointment
+ok 26 - R4 chapter fragments remain one ordered Acts appointment
+  ---
+  duration_ms: 0.151084
+  type: 'test'
+  ...
+# Subtest: R6 impossible Daniel1:1-42 survives as evidence, not current numeric Daniel1
+ok 27 - R6 impossible Daniel1:1-42 survives as evidence, not current numeric Daniel1
+  ---
+  duration_ms: 3.953584
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 21
+# fail 6
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1953.746833

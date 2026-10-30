@@ -163,6 +163,10 @@ def prepare(source_rows, daily, year, *, review_release=False):
     select the lane via its owned markers. The old source/package pair remains
     testable without silently upgrading its historical policy.
     """
+    # Public transport decoding is representation-only. Existing exact source
+    # table and appointment oracles below still authenticate the decoded rows.
+    from composite_followup_repairs import restore_public_rows
+    daily = {date: restore_public_rows(rows) for date, rows in daily.items()}
     output = copy.deepcopy(daily)
     additions, retired, dispositions, issues = [], Counter(), [], []
 

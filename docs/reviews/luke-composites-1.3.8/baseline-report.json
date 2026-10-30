@@ -1,0 +1,56 @@
+{
+  "baseline": "1.3.7",
+  "baseline_reverse_sha256": "4b785a5c626eaf4809f74738bfb3be05d7c8d0ae095b51bf98e72cad55559bf9",
+  "daily": {
+    "lectionary-2026": {
+      "exact_legacy_roundtrip": true,
+      "max_provenance_after": 296,
+      "private_token_occurrences_after": 0,
+      "private_token_occurrences_before": 4,
+      "provenance_transported": 11,
+      "readings_after": 4088,
+      "readings_before": 4088
+    },
+    "lectionary-2027": {
+      "exact_legacy_roundtrip": true,
+      "max_provenance_after": 296,
+      "private_token_occurrences_after": 0,
+      "private_token_occurrences_before": 4,
+      "provenance_transported": 11,
+      "readings_after": 4079,
+      "readings_before": 4079
+    },
+    "lectionary-2028": {
+      "exact_legacy_roundtrip": true,
+      "max_provenance_after": 204,
+      "private_token_occurrences_after": 0,
+      "private_token_occurrences_before": 4,
+      "provenance_transported": 5,
+      "readings_after": 4096,
+      "readings_before": 4096
+    }
+  },
+  "inactive_group_markers": {
+    "removed_by_source_priority_projection": 24,
+    "superseded_by_canonical_occurrence_projection": 28
+  },
+  "json_object_provenance": 181,
+  "legacy_witness_multiset_equal": true,
+  "merged_groups": 52,
+  "patterns": {
+    "Lk 11:53-54; Lk 12:1-12": 14,
+    "Mark 8:34-38; Mark 9:1": 17,
+    "Matt 4:23-25; Matt 5:1-16": 21
+  },
+  "provenance_containing_json": 198,
+  "provenance_max_after": 296,
+  "provenance_max_before": 52951,
+  "provenance_over_300": 162,
+  "r4_full_fragment_provenance": 17,
+  "real_bright_source_only_bounds_rows": 4,
+  "real_sunday_contract_rows": 55,
+  "reported_226_reproduced": false,
+  "reverse_after_lk5": 12278,
+  "reverse_before": 12330,
+  "transported_provenance_rows": 207
+}

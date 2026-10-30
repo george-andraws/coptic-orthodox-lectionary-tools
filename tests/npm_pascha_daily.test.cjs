@@ -8,6 +8,11 @@ const { execFileSync } = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const api = require(process.env.LECTIONARY_PACKAGE_UNDER_TEST || '../packages/lectionary-data');
 const reverse = fs.readFileSync(api.occasionIndexPath, 'utf8').trim().split('\n').map(JSON.parse);
+// Freeze the historical H-review input/policy pair. Successor L1-L10 projection
+// and complete current arrays are tested separately, not by refreshing its counts.
+const runtimeBytes = fs.readFileSync(path.join(root, 'sources/mark-followup-1.3.8/published-1.3.7.json.gz'));
+assert.equal(crypto.createHash('sha256').update(runtimeBytes).digest('hex'), 'c67a9d2699a368f028850e52ebdc3568dccdc327a5ab8afafebe794b47d7d1e5');
+const runtimePredecessor = JSON.parse(require('node:zlib').gunzipSync(runtimeBytes));
 const holyFamily = 'coptic_reader_qualified_holy_week_review';
 function authenticated(file, expected) {
   const bytes = fs.readFileSync(path.join(root, file));
@@ -53,6 +58,7 @@ function helpers() {
 
 const readerWednesday = reverse.filter(row => row.source_family === 'coptic_reader'
   && row.occasion === 'Wednesday of Holy Pascha' && api.isCurrentReading(row));
+const historicalRuntimeReverse = [...runtimePredecessor.reverse_rows, ...readerWednesday];
 
 function key(row) {
   return [row.occasion, row.service_hour, row.slot, row.identity_key, row.display_ref].join('|');
@@ -78,13 +84,13 @@ test('Pascha Wednesday admits every current Reader fixture row without restoring
   assert.equal(rowsForPaschaDailyDate(invalid, 'Wednesday').length, 0);
 });
 
-test('partial structural daily inputs are completed and repeat materialization is idempotent', () => {
+test('historical 1.3.7 partial structural inputs are completed and repeat materialization is idempotent', () => {
   const { rowsForPaschaDailyDate, addMissingStructuralDailyRows, dailyRowFromReverse } = helpers();
-  const selected = rowsForPaschaDailyDate(reverse, 'Wednesday');
+  const selected = rowsForPaschaDailyDate(historicalRuntimeReverse, 'Wednesday');
   const existing = dailyRowFromReverse(selected[0], 'Wednesday');
   existing.reading_order = 999;
   const daily = { '2026-04-08': [existing] };
-  addMissingStructuralDailyRows(daily, 2026, reverse);
+  addMissingStructuralDailyRows(daily, 2026, historicalRuntimeReverse);
   assert.equal(historicalStructural('2026-04-08').length, 39, 'authenticated predecessor, before H6 hold');
   const expected = expectedPrefinal('2026-04-08');
   assert.equal(expected.length, 38);
@@ -92,14 +98,14 @@ test('partial structural daily inputs are completed and repeat materialization i
   assert.equal(new Set(daily['2026-04-08'].map(key)).size, expected.length);
   assert.deepEqual(Array.from(daily['2026-04-08'], row => row.reading_order), expected.map((_, index) => index + 1));
   const before = JSON.stringify(daily);
-  addMissingStructuralDailyRows(daily, 2026, reverse);
+  addMissingStructuralDailyRows(daily, 2026, historicalRuntimeReverse);
   assert.equal(JSON.stringify(daily), before);
 });
 
 test('Annunciation collision replaces rather than merges the ordinary feast rows', () => {
   const { addMissingStructuralDailyRows } = helpers();
   const daily = { '2026-04-07': [{ occasion: 'The Annunciation Feast', display_ref: 'synthetic collision anchor' }] };
-  addMissingStructuralDailyRows(daily, 2026, reverse);
+  addMissingStructuralDailyRows(daily, 2026, historicalRuntimeReverse);
   const rows = daily['2026-04-07'];
   assert.equal(historicalStructural('2026-04-07').length, 38, 'authenticated predecessor before the 15 copied Eve appointments were held');
   const expected = expectedPrefinal('2026-04-07');
@@ -108,7 +114,7 @@ test('Annunciation collision replaces rather than merges the ordinary feast rows
   assert.ok(rows.every(row => ['Tuesday', 'Tuesday Eve'].includes(row.occasion)));
   assert.ok(rows.every(row => /Annunciation yields/.test(row.correction_reason)));
   const before = JSON.stringify(daily);
-  addMissingStructuralDailyRows(daily, 2026, reverse);
+  addMissingStructuralDailyRows(daily, 2026, historicalRuntimeReverse);
   assert.equal(JSON.stringify(daily), before);
 });
 
@@ -171,8 +177,8 @@ for (const [year, date] of [[2026, '2026-04-05'], [2027, '2027-04-25'], [2028, '
 }
 
 for (const [year, date] of [[2026, '2026-04-08'], [2027, '2027-04-28'], [2028, '2028-04-12']]) {
-  test(`packaged ${date} preserves Reader readings and all five daytime hour categories`, () => {
-    const rows = JSON.parse(fs.readFileSync(api.dailyYearPath(year), 'utf8'))[date];
+  test(`historical 1.3.7 ${date} preserves Reader readings and all five daytime hour categories`, () => {
+    const rows = runtimePredecessor.daily[String(year)][date];
     const daytime = rows.filter(row => !row.occasion.endsWith(' Eve'));
     for (const expected of readerWednesday) {
       const actual = daytime.find(row => key(row) === key(expected));
@@ -201,7 +207,7 @@ for (const [year, date] of [[2026, '2026-04-08'], [2027, '2027-04-28'], [2028, '
   });
 }
 
-test('final Holy Week membership and new Reader order match the authenticated source projection, all shipped years', () => {
+test('historical 1.3.7 Holy Week membership and Reader order match the authenticated H source projection, all shipped years', () => {
   const script = `import sys,json,os
 def audit(event,args):
     if event == 'sqlite3.connect': raise RuntimeError('SQLite forbidden in source projection')
@@ -228,7 +234,7 @@ json.dump(out,sys.stdout)
     r.source_family === holyFamily ? r.holy_week_review_evidence : '']).sort((a, b) => a[0].localeCompare(b[0]));
   let dates = 0;
   for (const [year, days] of Object.entries(projected)) {
-    const shipped = JSON.parse(fs.readFileSync(api.dailyYearPath(Number(year)), 'utf8'));
+    const shipped = runtimePredecessor.daily[year];
     for (const [date, expected] of Object.entries(days)) {
       assert.deepEqual(project(shipped[date]), project(expected), `${date}: complete final source projection, no omitted rows`);
       assert.deepEqual(shipped[date].filter(r => r.source_family === holyFamily).map(key), expected.filter(r => r.source_family === holyFamily).map(key), `${date}: full new Reader source order`);

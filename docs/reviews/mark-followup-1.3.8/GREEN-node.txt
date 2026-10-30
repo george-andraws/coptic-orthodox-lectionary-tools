@@ -1,0 +1,174 @@
+TAP version 13
+# Subtest: L1 malformed Mesra source is held, never silently corrected from a different witness
+ok 1 - L1 malformed Mesra source is held, never silently corrected from a different witness
+  ---
+  duration_ms: 3.179666
+  type: 'test'
+  ...
+# Subtest: L2 copied Tuesday day-hour appointments are archived and absent in every year
+ok 2 - L2 copied Tuesday day-hour appointments are archived and absent in every year
+  ---
+  duration_ms: 3.135042
+  type: 'test'
+  ...
+# Subtest: L3 printed Third and Ninth Hours are explicit inactive candidates, never a fabricated Eleventh Hour
+ok 3 - L3 printed Third and Ninth Hours are explicit inactive candidates, never a fabricated Eleventh Hour
+  ---
+  duration_ms: 2.017875
+  type: 'test'
+  ...
+# Subtest: L4-L5 display labels are normalized without changing raw source titles
+ok 4 - L4-L5 display labels are normalized without changing raw source titles
+  ---
+  duration_ms: 10.388916
+  type: 'test'
+  ...
+# Subtest: L6 preserves both Hator 11 Vespers witnesses with an explicit conflict
+ok 5 - L6 preserves both Hator 11 Vespers witnesses with an explicit conflict
+  ---
+  duration_ms: 1.601416
+  type: 'test'
+  ...
+# Subtest: L7 retains all six undated appointments with service-book evidence qualification
+ok 6 - L7 retains all six undated appointments with service-book evidence qualification
+  ---
+  duration_ms: 0.424958
+  type: 'test'
+  ...
+# Subtest: L9 legacy unresolved Pascha Psalms stay archived, accepted source-only Psalms remain current
+ok 7 - L9 legacy unresolved Pascha Psalms stay archived, accepted source-only Psalms remain current
+  ---
+  duration_ms: 9.773583
+  type: 'test'
+  ...
+# Subtest: Pascha Wednesday admits every current Reader fixture row without restoring inactive history
+ok 8 - Pascha Wednesday admits every current Reader fixture row without restoring inactive history
+  ---
+  duration_ms: 11.59275
+  type: 'test'
+  ...
+# Subtest: historical 1.3.7 partial structural inputs are completed and repeat materialization is idempotent
+ok 9 - historical 1.3.7 partial structural inputs are completed and repeat materialization is idempotent
+  ---
+  duration_ms: 52.721958
+  type: 'test'
+  ...
+# Subtest: Annunciation collision replaces rather than merges the ordinary feast rows
+ok 10 - Annunciation collision replaces rather than merges the ordinary feast rows
+  ---
+  duration_ms: 46.709834
+  type: 'test'
+  ...
+# Subtest: Wednesday alias dedupe prefers Reader regardless of input order and never merges Eve
+ok 11 - Wednesday alias dedupe prefers Reader regardless of input order and never merges Eve
+  ---
+  duration_ms: 111.049
+  type: 'test'
+  ...
+# Subtest: Hosanna 2026-04-05 appends only current Pascha hours to the ordinary Palm Sunday services
+ok 12 - Hosanna 2026-04-05 appends only current Pascha hours to the ordinary Palm Sunday services
+  ---
+  duration_ms: 23.990958
+  type: 'test'
+  ...
+# Subtest: Hosanna 2027-04-25 appends only current Pascha hours to the ordinary Palm Sunday services
+ok 13 - Hosanna 2027-04-25 appends only current Pascha hours to the ordinary Palm Sunday services
+  ---
+  duration_ms: 25.845709
+  type: 'test'
+  ...
+# Subtest: Hosanna 2028-04-09 appends only current Pascha hours to the ordinary Palm Sunday services
+ok 14 - Hosanna 2028-04-09 appends only current Pascha hours to the ordinary Palm Sunday services
+  ---
+  duration_ms: 24.600584
+  type: 'test'
+  ...
+# Subtest: historical 1.3.7 2026-04-08 preserves Reader readings and all five daytime hour categories
+ok 15 - historical 1.3.7 2026-04-08 preserves Reader readings and all five daytime hour categories
+  ---
+  duration_ms: 0.531958
+  type: 'test'
+  ...
+# Subtest: historical 1.3.7 2027-04-28 preserves Reader readings and all five daytime hour categories
+ok 16 - historical 1.3.7 2027-04-28 preserves Reader readings and all five daytime hour categories
+  ---
+  duration_ms: 0.617875
+  type: 'test'
+  ...
+# Subtest: historical 1.3.7 2028-04-12 preserves Reader readings and all five daytime hour categories
+ok 17 - historical 1.3.7 2028-04-12 preserves Reader readings and all five daytime hour categories
+  ---
+  duration_ms: 0.552333
+  type: 'test'
+  ...
+# Subtest: historical 1.3.7 Holy Week membership and Reader order match the authenticated H source projection, all shipped years
+ok 18 - historical 1.3.7 Holy Week membership and Reader order match the authenticated H source projection, all shipped years
+  ---
+  duration_ms: 1057.115125
+  type: 'test'
+  ...
+# Subtest: Bright Saturday liturgy aliases collapse to one explicit slot and keep both disclosures
+ok 19 - Bright Saturday liturgy aliases collapse to one explicit slot and keep both disclosures
+  ---
+  duration_ms: 0.907208
+  type: 'test'
+  ...
+# Subtest: K1-K3 fixed-date and Sunday metadata are separate and join the catalog
+ok 20 - K1-K3 fixed-date and Sunday metadata are separate and join the catalog
+  ---
+  duration_ms: 10.003584
+  type: 'test'
+  ...
+# Subtest: K4-K6 display labels normalize terminology without overwriting retained source labels
+ok 21 - K4-K6 display labels normalize terminology without overwriting retained source labels
+  ---
+  duration_ms: 8.086833
+  type: 'test'
+  ...
+# Subtest: R2 fixed-day Kiahk23 uses the whole Reader table, never the Sunday table
+ok 22 - R2 fixed-day Kiahk23 uses the whole Reader table, never the Sunday table
+  ---
+  duration_ms: 2.469791
+  type: 'test'
+  ...
+# Subtest: R1 Reader Last-Friday Matins wins in every shipped year
+ok 23 - R1 Reader Last-Friday Matins wins in every shipped year
+  ---
+  duration_ms: 0.125541
+  type: 'test'
+  ...
+# Subtest: H1-H4 and H6 exclude known copies and add authenticated civil-eve appointments
+ok 24 - H1-H4 and H6 exclude known copies and add authenticated civil-eve appointments
+  ---
+  duration_ms: 5.914666
+  type: 'test'
+  ...
+# Subtest: R3 every normalized fixed/Sunday row has occurrence and displacement metadata
+ok 25 - R3 every normalized fixed/Sunday row has occurrence and displacement metadata
+  ---
+  duration_ms: 2.963417
+  type: 'test'
+  ...
+# Subtest: R4 chapter fragments remain one ordered Acts appointment
+ok 26 - R4 chapter fragments remain one ordered Acts appointment
+  ---
+  duration_ms: 0.131459
+  type: 'test'
+  ...
+# Subtest: R6 impossible Daniel1:1-42 survives as evidence, not current numeric Daniel1
+ok 27 - R6 impossible Daniel1:1-42 survives as evidence, not current numeric Daniel1
+  ---
+  duration_ms: 4.707875
+  type: 'test'
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1779.674583
+
+CHILD_EXIT=0

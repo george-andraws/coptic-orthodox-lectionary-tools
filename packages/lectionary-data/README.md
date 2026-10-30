@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.7**.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.8**.
 
 ## What this package contains
 
@@ -126,6 +126,40 @@ Each daily file is a JSON object keyed by ISO date, for example `2026-04-12`. Ea
 
 Shipped years: 2026, 2027, 2028.
 
+### Guaranteed fields by representation (T-L5)
+
+Daily rows and reverse-index rows are different public representations. The following lists state which keys every row in that representation guarantees. A guaranteed key may contain an empty string or an empty JSON-encoded array; presence does not establish source confirmation or canonical-coordinate approval. Other fields are additive and source-dependent.
+
+Reverse-index guaranteed keys:
+
+<!-- reverse-guaranteed-fields -->
+```json
+[
+  "attestation_year_max", "attestation_year_min", "authority_tier", "calendar_keys",
+  "canonical_lxx_ref", "canonical_mt_ref", "current_status", "day_titles",
+  "display_label", "display_ref", "hour_theme", "identity_key", "occasion",
+  "occasion_kind", "provenance", "reading_name", "reading_type", "removed_marker",
+  "service_hour", "service_section", "slot", "slot_order", "slot_type",
+  "source_disclosure", "source_disclosure_count", "source_edition", "source_family",
+  "source_kind", "source_locator", "source_title", "spans_json"
+]
+```
+
+Daily-reading guaranteed keys:
+
+<!-- daily-guaranteed-fields -->
+```json
+[
+  "canonical_lxx_ref", "canonical_mt_ref", "current_status", "display_label",
+  "display_ref", "identity_key", "occasion", "reading_order", "reading_type",
+  "removed_marker", "service_hour", "service_order", "service_section", "slot",
+  "slot_order", "slot_type", "source_disclosure", "source_family", "source_kind",
+  "source_locator", "spans_json"
+]
+```
+
+`day_titles` is not guaranteed in daily rows. It can be present on a source-qualified supplement, but consumers must not require it. Use `row.get('day_titles', '')` in Python or `row.day_titles ?? ''` in JavaScript for optional access. Use `display_label` for a reader-facing occasion and retain `occasion` as the raw appointment context. The ISO date belongs to the outer daily-object key, not a guaranteed `gregorian_date` cell inside every row.
+
 Each daily reading includes a unique `reading_order` within that date. The package uses deterministic service-stage ordering, retaining source-backed prophecy, epistle, Psalm, Gospel and companion-fragment sequences. Ordinary Liturgy follows Pauline, Catholic, Acts, Psalm and Gospel; exceptional services use their qualified source tables rather than that ordinary cardinality rule. `slot_order` may repeat for split Psalm verses or readings that share one liturgical slot; use `reading_order` when a unique date-local order is required.
 
 In `meta.daily_files`, `rows` is retained as a legacy alias for `date_count`. Use `date_count` for the number of ISO date keys and `reading_count` for the total number of readings across those dates.
@@ -152,13 +186,56 @@ Projection counts and examples are recorded in `meta.projection_rules`.
 
 Psalm `display_ref` values may include inline dual numbering, for example `Ps 105:14-15 (LXX Ps 104:14-15)`. Consumers should not parse `display_ref` for machine matching. Use `canonical_mt_ref`, `canonical_lxx_ref`, and `spans_json`.
 
+## Provenance and composite evidence in 1.3.8
+
+`provenance` is a reader-facing source name, plain text of at most 300 characters. It is not an authentication envelope. Source authority, current status, coordinate qualifications and literal source locators remain separate fields.
+
+When a former provenance value contains structured evidence or exceeds the display limit, two additive public fields preserve that evidence:
+
+- `provenance_format`: the literal string `lectionary_provenance_v1`.
+- `provenance_evidence_json`: a serialized JSON object in exactly one of these two forms:
+
+```json
+{
+  "schema": "lectionary_provenance_v1",
+  "legacy_provenance": "<complete original serialized evidence or source qualification>"
+}
+```
+
+For an R4 composite, fragment records belong in `composite_fragments_json`, not in `provenance` or duplicated in the evidence envelope:
+
+```json
+{
+  "schema": "lectionary_provenance_v1",
+  "composite_provenance_prefix": "<original source prefix>; R4 composite_fragments="
+}
+```
+
+The latter form reconstructs the exact predecessor evidence by concatenating its prefix with the complete `composite_fragments_json` cell. It requires that companion cell. Duplicate members, extra envelope fields, missing evidence, unknown schemas and nonstring payloads are invalid.
+
+`composite_fragments_json` is an ordered array of complete source fragment records. Ordered `spans_json` describes one composite appointment. The public key `original_source_row` retains source snapshots formerly held in an internal temporary-key spelling, including nested serialized snapshots. The internal validator adapter restores the prior spelling without dropping evidence. Source titles, locators, raw calendar keys, source identities, lifecycle fields and primary-source qualifications are retained.
+
+The LK5 `composite_review` value `LK5_archived_source_cell_v1` identifies the bounded inactive-appointment projection. These composites stay inactive; their complete original split witnesses remain in their fragment arrays and unchanged in raw source data. They are not additions to current daily readings.
+
+**Consumer migration:** these additive JSON cells transport evidence; they do not grant trust. Decode with `restore_public_row(s)` before existing exact source/disclosure/lifecycle checks. For historical reverse membership or retirement validation, `legacy_validation_rows` also authenticates the bounded LK5 composite and restores its original inactive witness records. Never replace membership/source checks with successful decoding, build new membership oracles from candidate rows, or present historical validator expansions as current daily appointments.
+
+## Service evidence and Psalm annotations in 1.3.8
+
+`evidence_status` and `evidence_json` preserve the exact retained document, reading heading, line, body hash and service context for reviewed special-service occurrences. The same source qualification is included in each affected `source_disclosure` entry. Reader-backed authority metadata is separate from `current_status`: attaching a retained capture does not silently activate an inactive witness or change the appointed reading. Uncaptured Agpeya and Palm Sunday printed-book witnesses retain `unverified_service_book`, their named editions and open revision-date questions.
+
+The undated Covenant Thursday Lakkan Pauline carries a same-service marker based on the authenticated service title and complete Pauline body. This does not assert that its entire indexed table equals the dated Water Liturgy table, and neither source witness is deleted.
+
+`psalm_annotation_review_json` documents bounded annotation corrections. MT/NKJV remains primary. Corrected LXX annotations are derived only after the stored coordinates have been qualified as MT; source-only selections, numeric source-coordinate holds and exact retained edition exceptions remain separately qualified. A chapter-number offset alone does not establish verse equivalence. Annotation repairs retain occurrence identities and raw source references.
+
+These fields are additive. The source-owned Python validation adapters live in the source repository, not in the npm artifact. Consumers must preserve the evidence cells and cannot treat a successful JSON decode as source authentication.
+
 ## Known limitation
 
 Structural-only occasions outside the shipped civil-year daily scope, such as some special services, remain available through `reverse_lectionary_index.jsonl`. Holy Week and Bright Saturday rows for shipped civil dates are included in daily files.
 
 ## Provenance
 
-- Package version: 1.3.7.
+- Package version: 1.3.8.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.

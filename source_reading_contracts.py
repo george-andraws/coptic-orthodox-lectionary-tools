@@ -301,6 +301,8 @@ def strict_transport_json(raw: str):
 
 
 def row_envelope(row: dict) -> dict | None:
+    from composite_followup_repairs import restore_public_row
+    row = restore_public_row(row)
     e = row.get('source_contract')
     raw_spans = row.get('spans_json') or '[]'
     controlled = e is not None or row.get('source_kind') == CONTRACT_KIND or CONTRACT_KEY in raw_spans
@@ -398,6 +400,8 @@ def validate_serialized_disclosure(row: dict, e: dict, r: dict, *, transport_mod
 def validate_consumer_rows(rows: list[dict], *, candidate_projection: bool = False,
                            serialized: bool = True, transport_mode: str | None = None) -> None:
     mode = transport_mode if transport_mode is not None else ('output' if serialized else 'raw')
+    from composite_followup_repairs import restore_public_rows
+    rows = restore_public_rows(rows)
     if mode not in ('raw', 'presentation', 'daily', 'reverse', 'output') or (not serialized and mode != 'raw'):
         raise ValueError('source contract contradictory/unknown trusted transport mode')
     import sunday_consumer_contracts

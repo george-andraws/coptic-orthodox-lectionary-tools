@@ -21,11 +21,17 @@ def rows(path):
 class ReviewReleaseContractTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.candidate = rows(Path(os.environ.get('LECTIONARY_REVIEW_REVERSE',
-            ROOT / 'packages/lectionary-data/data/reverse_lectionary_index.jsonl')))
+        # This historical suite owns the authenticated 1.3.7 fixture/policy pair.
+        # Current public transport/layers are exercised by the integration suite.
+        import metadata_followup_repairs as metadata
+        selected = os.environ.get('LECTIONARY_REVIEW_REVERSE')
+        cls.candidate = rows(Path(selected)) if selected else metadata.baseline()['reverse_rows']
         cls.owned = [r for r in cls.candidate if r.get('source_family') == r2.FAMILY]
-        cls.inactive = [r for r in cls.candidate if r.get('kiahk23_retirement')
-                        or r.get('current_status') == holy.HOLD]
+        # Preserve the historical 37-row H/R oracle independently of the new
+        # L1-L10 holds, which have their own complete controls and corruptions.
+        cls.inactive = [r for r in cls.candidate if (r.get('kiahk23_retirement')
+                        or r.get('current_status') == holy.HOLD)
+                        and not r.get('mark_followup_evidence')]
 
     def test_candidate_all_nine_owned_rows_and_exact_three_empty_psalms(self):
         self.assertEqual(len(self.owned), 9)

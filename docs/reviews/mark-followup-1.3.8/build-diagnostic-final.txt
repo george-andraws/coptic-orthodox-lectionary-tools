@@ -1,0 +1,729 @@
+{
+  "package_name": "@andraws/lectionary-data",
+  "version": "1.3.8",
+  "schemaVersion": "1.2.0",
+  "source_repo_commit": "bda47b070380d5d42221f0cfadae8837cedd6b78",
+  "source_tree_dirty": true,
+  "occasion_index_rows": 12334,
+  "occasion_index_bytes": 45122376,
+  "daily_files": [
+    {
+      "year": 2026,
+      "rows": 365,
+      "date_count": 365,
+      "reading_count": 4078,
+      "bytes": 8645124,
+      "runtime_review_events": [
+        {
+          "calendar_key": "Thursday of the seventh week of Great Lent",
+          "source_table": "copticchurch_date_readings_2020_2035",
+          "display_ref": "Acts 25:23-27; Acts 26:1-6",
+          "fragment_identity_keys": [
+            "rid_616d005966d0a8c7c50d",
+            "rid_b1fb536142ff6f751bcb"
+          ],
+          "source_locators": [
+            "https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=02; cache/copticchurch_html:row 23195; source_ref=Acts 25:23-27",
+            "https://copticchurch.net/readings?g_year=2026&g_month=04&g_day=02; cache/copticchurch_html:row 23196; source_ref=Acts 26:1-6"
+          ],
+          "id": "R4",
+          "date": "2026-04-02"
+        },
+        {
+          "id": "R1",
+          "date": "2026-04-03",
+          "before": "Lk 17:20-37",
+          "after": "Lk 16:19-31"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "First Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2026-04-05"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "Sixth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2026-04-05"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "Ninth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2026-04-05"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Third Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2026-04-07"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Ninth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2026-04-07"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Eleventh Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "year": 2027,
+      "rows": 365,
+      "date_count": 365,
+      "reading_count": 4069,
+      "bytes": 8802915,
+      "runtime_review_events": [
+        {
+          "calendar_key": "Thursday of the seventh week of Great Lent",
+          "source_table": "copticchurch_date_readings_2020_2035",
+          "display_ref": "Acts 25:23-27; Acts 26:1-6",
+          "fragment_identity_keys": [
+            "rid_616d005966d0a8c7c50d",
+            "rid_b1fb536142ff6f751bcb"
+          ],
+          "source_locators": [
+            "https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=22; cache/copticchurch_html:row 27169; source_ref=Acts 25:23-27",
+            "https://copticchurch.net/readings?g_year=2027&g_month=04&g_day=22; cache/copticchurch_html:row 27170; source_ref=Acts 26:1-6"
+          ],
+          "id": "R4",
+          "date": "2027-04-22"
+        },
+        {
+          "id": "R1",
+          "date": "2027-04-23",
+          "before": "Lk 17:20-37",
+          "after": "Lk 16:19-31"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "First Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2027-04-25"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "Sixth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2027-04-25"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "Ninth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2027-04-25"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Third Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2027-04-27"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Ninth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2027-04-27"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Eleventh Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2027-04-27"
+        }
+      ]
+    },
+    {
+      "year": 2028,
+      "rows": 366,
+      "date_count": 366,
+      "reading_count": 4087,
+      "bytes": 8651870,
+      "runtime_review_events": [
+        {
+          "calendar_key": "Thursday of the seventh week of Great Lent",
+          "source_table": "copticchurch_date_readings_2020_2035",
+          "display_ref": "Acts 25:23-27; Acts 26:1-6",
+          "fragment_identity_keys": [
+            "rid_616d005966d0a8c7c50d",
+            "rid_b1fb536142ff6f751bcb"
+          ],
+          "source_locators": [
+            "https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=06; cache/copticchurch_html:row 30732; source_ref=Acts 25:23-27",
+            "https://copticchurch.net/readings?g_year=2028&g_month=04&g_day=06; cache/copticchurch_html:row 30733; source_ref=Acts 26:1-6"
+          ],
+          "id": "R4",
+          "date": "2028-04-06"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "First Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2028-04-09"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "Sixth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2028-04-09"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_monday",
+          "hour": "Ninth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2028-04-09"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Third Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2028-04-11"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Ninth Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2028-04-11"
+        },
+        {
+          "id": "L3",
+          "service": "eve_of_wednesday",
+          "hour": "Eleventh Hour",
+          "coverage": "held_missing_reader",
+          "civil_date": "2028-04-11"
+        }
+      ]
+    }
+  ],
+  "projection_rules": {
+    "source_rows": 12186,
+    "output_rows": 12334,
+    "active_rows": 7886,
+    "current_rows": 7658,
+    "runtime_review": {
+      "source": "scripts/apply_review_repairs.py",
+      "events": [
+        {
+          "id": "R1",
+          "before": "Lk 17:20-37",
+          "after": "Lk 16:19-31",
+          "raw_witness_retained": true
+        },
+        {
+          "id": "R6",
+          "after": "Bel 1:1-42 (Reader Daniel 14:1-42)"
+        },
+        {
+          "calendar_key": "Abib 14",
+          "source_table": "AnnualReadings",
+          "display_ref": "Matt 4:23-25; Matt 5:1-16",
+          "fragment_identity_keys": [
+            "rid_92aae2895a59ca365431",
+            "rid_80b8f58fe4c9388d024c"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3924; source_ref=Matt 4:23-25",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3925; source_ref=Matt 5:1-16"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Abib 8",
+          "source_table": "AnnualReadings",
+          "display_ref": "Matt 4:23-25; Matt 5:1-16",
+          "fragment_identity_keys": [
+            "rid_92aae2895a59ca365431",
+            "rid_80b8f58fe4c9388d024c"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3849; source_ref=Matt 4:23-25",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3850; source_ref=Matt 5:1-16"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Baramhat 1",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2275; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2276; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Baramhat 13",
+          "source_table": "AnnualReadings",
+          "display_ref": "Lk 11:53-54; Lk 12:1-12",
+          "fragment_identity_keys": [
+            "rid_aad3c1665271c51d6931",
+            "rid_63d8fe7a9e9154128ec5"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2426; source_ref=Lk 11:53-54",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2427; source_ref=Lk 12:1-12"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Baramhat 27",
+          "source_table": "AnnualReadings",
+          "display_ref": "Matt 4:23-25; Matt 5:1-16",
+          "fragment_identity_keys": [
+            "rid_92aae2895a59ca365431",
+            "rid_80b8f58fe4c9388d024c"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2603; source_ref=Matt 4:23-25",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2604; source_ref=Matt 5:1-16"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Baramhat 7",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2354; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2355; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Barmuda 13",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2788; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2789; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Barmuda 23",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2909; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2910; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Barmuda 4",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2682; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 2683; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Bashans 12",
+          "source_table": "AnnualReadings",
+          "display_ref": "Matt 4:23-25; Matt 5:1-16",
+          "fragment_identity_keys": [
+            "rid_92aae2895a59ca365431",
+            "rid_80b8f58fe4c9388d024c"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3137; source_ref=Matt 4:23-25",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3138; source_ref=Matt 5:1-16"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Bashans 18",
+          "source_table": "AnnualReadings",
+          "display_ref": "Matt 4:23-25; Matt 5:1-16",
+          "fragment_identity_keys": [
+            "rid_92aae2895a59ca365431",
+            "rid_80b8f58fe4c9388d024c"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3219; source_ref=Matt 4:23-25",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3220; source_ref=Matt 5:1-16"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Bashans 6",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3063; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3064; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Bashans 8",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3090; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 3091; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Mesra 1",
+          "source_table": "AnnualReadings",
+          "display_ref": "Lk 11:53-54; Lk 12:1-12",
+          "fragment_identity_keys": [
+            "rid_aad3c1665271c51d6931",
+            "rid_63d8fe7a9e9154128ec5"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 4114; source_ref=Lk 11:53-54",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 4115; source_ref=Lk 12:1-12"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Mesra 19",
+          "source_table": "AnnualReadings",
+          "display_ref": "Matt 4:23-25; Matt 5:1-16",
+          "fragment_identity_keys": [
+            "rid_92aae2895a59ca365431",
+            "rid_80b8f58fe4c9388d024c"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 4327; source_ref=Matt 4:23-25",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 4328; source_ref=Matt 5:1-16"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Thursday of the seventh week of Great Lent",
+          "source_table": "copticchurch_date_readings_2020_2035",
+          "display_ref": "Acts 25:23-27; Acts 26:1-6",
+          "fragment_identity_keys": [
+            "rid_616d005966d0a8c7c50d",
+            "rid_b1fb536142ff6f751bcb"
+          ],
+          "source_locators": [
+            "https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=06; cache/copticchurch_html:row 12085; source_ref=Acts 25:23-27",
+            "https://copticchurch.net/readings?g_year=2023&g_month=04&g_day=06; cache/copticchurch_html:row 12086; source_ref=Acts 26:1-6"
+          ],
+          "id": "R4"
+        },
+        {
+          "calendar_key": "Tut 19",
+          "source_table": "AnnualReadings",
+          "display_ref": "Mark 8:34-38; Mark 9:1",
+          "fragment_identity_keys": [
+            "rid_3ea189be98ad416c9c45",
+            "rid_2dc4f93407546fc3d949"
+          ],
+          "source_locators": [
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 225; source_ref=Mark 8:34-38",
+            "sources/katameros-api/Core/KatamerosDatabase.db:row 226; source_ref=Mark 9:1"
+          ],
+          "id": "R4"
+        }
+      ]
+    },
+    "canonical_occurrence_projection": {
+      "policy": "sources/canonical-occurrence-policy.json",
+      "disposition_count": 4011,
+      "sentinel_additions": 20,
+      "dispositions_by_reason": {
+        "source_same_slot_complete_coverage": 512,
+        "retained_current_wednesday_fixture_over_unresolved_working_assignment": 2,
+        "retained_source_qualified_slot_precedence": 82,
+        "exact_canonical_appointment_alias": 3415
+      }
+    },
+    "removed_rows_included": 4448,
+    "lower_priority_passage_variants_suppressed": 478,
+    "lower_priority_passage_variants_retained_as_removed": 478,
+    "removal_effective_version_baseline": {
+      "source_version": "1.1.6+source-corrections-1.3.8",
+      "entry_count": 522,
+      "distinct_identity_key_count": 253,
+      "duplicate_identity_key_count": 70
+    },
+    "removal_effective_version_baseline_miss_count": 0,
+    "weekday_specific_contexts_disambiguated": 32,
+    "legacy_month_spellings_normalized": [
+      "Kiak -> Kiahk",
+      "Baba -> Babah"
+    ],
+    "suppressed_examples": [
+      {
+        "context_key": "abib 10|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13095; source_ref=Acts 15:36-16:5",
+        "preferred_identity_key": "rid_29d081e1b75c9201331c",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 15:36-41",
+        "suppressed_identity_key": "rid_afeaa6e4bc0cc8f1d038"
+      },
+      {
+        "context_key": "abib 10|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13095; source_ref=Acts 15:36-16:5",
+        "preferred_identity_key": "rid_29d081e1b75c9201331c",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 16:1-5",
+        "suppressed_identity_key": "rid_e0fbf80747507e81a74b"
+      },
+      {
+        "context_key": "abib 10|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13096; source_ref=3Jn 1:1-15",
+        "preferred_identity_key": "rid_679d74fe15f7c208fb41",
+        "preferred_display_ref": "3Jn 1:1-15",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "3Jn 1:1-14",
+        "suppressed_identity_key": "rid_9265b95c454d37e66c9f"
+      },
+      {
+        "context_key": "abib 10|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13098; source_ref=Heb 7:18-8:13",
+        "preferred_identity_key": "rid_04760e5acbd812273838",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 8:1-13",
+        "suppressed_identity_key": "rid_377779f8ff1ee868fbe6"
+      },
+      {
+        "context_key": "abib 10|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=17; cache/copticchurch_html:row 13098; source_ref=Heb 7:18-8:13",
+        "preferred_identity_key": "rid_04760e5acbd812273838",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 7:18-28",
+        "suppressed_identity_key": "rid_6ccefd1363f399b4c944"
+      },
+      {
+        "context_key": "abib 11|matins||psalm",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=18; cache/copticchurch_html:row 13114; source_ref=Ps 5:11",
+        "preferred_identity_key": "rid_60b9d390372dab04bbe0",
+        "preferred_display_ref": "Ps 5:11",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Ps 5:11-12",
+        "suppressed_identity_key": "rid_8dde20acf8983675fae6"
+      },
+      {
+        "context_key": "abib 12|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13118; source_ref=Acts 7:44-8:1",
+        "preferred_identity_key": "rid_1a25121ae3b893a41c9e",
+        "preferred_display_ref": "Acts 7:44-8:1",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 8:1",
+        "suppressed_identity_key": "rid_08a164916dec8b6a6733"
+      },
+      {
+        "context_key": "abib 12|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13118; source_ref=Acts 7:44-8:1",
+        "preferred_identity_key": "rid_1a25121ae3b893a41c9e",
+        "preferred_display_ref": "Acts 7:44-8:1",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 7:44-60",
+        "suppressed_identity_key": "rid_39ae4e98e33691fbccd1"
+      },
+      {
+        "context_key": "abib 12|liturgy||gospel",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13120; source_ref=Lk 11:53-12:12",
+        "preferred_identity_key": "rid_c289bcf1beff06823d08",
+        "preferred_display_ref": "Lk 11:53-12:12",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Lk 12:1-12",
+        "suppressed_identity_key": "rid_63d8fe7a9e9154128ec5"
+      },
+      {
+        "context_key": "abib 12|liturgy||gospel",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13120; source_ref=Lk 11:53-12:12",
+        "preferred_identity_key": "rid_c289bcf1beff06823d08",
+        "preferred_display_ref": "Lk 11:53-12:12",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Lk 11:53-54",
+        "suppressed_identity_key": "rid_aad3c1665271c51d6931"
+      },
+      {
+        "context_key": "abib 12|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=19; cache/copticchurch_html:row 13121; source_ref=Heb 12:13-14",
+        "preferred_identity_key": "rid_0b678bece5ec7c923e5b",
+        "preferred_display_ref": "Heb 12:13-14",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 12:3-14",
+        "suppressed_identity_key": "rid_1d81404309efbefe30e7"
+      },
+      {
+        "context_key": "abib 13|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13128; source_ref=Acts 15:36-16:5",
+        "preferred_identity_key": "rid_29d081e1b75c9201331c",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 15:36-41",
+        "suppressed_identity_key": "rid_afeaa6e4bc0cc8f1d038"
+      },
+      {
+        "context_key": "abib 13|liturgy||praxis",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13128; source_ref=Acts 15:36-16:5",
+        "preferred_identity_key": "rid_29d081e1b75c9201331c",
+        "preferred_display_ref": "Acts 15:36-16:5",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Acts 16:1-5",
+        "suppressed_identity_key": "rid_e0fbf80747507e81a74b"
+      },
+      {
+        "context_key": "abib 13|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13129; source_ref=3Jn 1:1-15",
+        "preferred_identity_key": "rid_679d74fe15f7c208fb41",
+        "preferred_display_ref": "3Jn 1:1-15",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "3Jn 1:1-14",
+        "suppressed_identity_key": "rid_9265b95c454d37e66c9f"
+      },
+      {
+        "context_key": "abib 13|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13131; source_ref=Heb 7:18-8:13",
+        "preferred_identity_key": "rid_04760e5acbd812273838",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 8:1-13",
+        "suppressed_identity_key": "rid_377779f8ff1ee868fbe6"
+      },
+      {
+        "context_key": "abib 13|liturgy||pauline",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=20; cache/copticchurch_html:row 13131; source_ref=Heb 7:18-8:13",
+        "preferred_identity_key": "rid_04760e5acbd812273838",
+        "preferred_display_ref": "Heb 7:18-8:13",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Heb 7:18-28",
+        "suppressed_identity_key": "rid_6ccefd1363f399b4c944"
+      },
+      {
+        "context_key": "abib 16|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16893; source_ref=1Jn 1:1-2:6",
+        "preferred_identity_key": "rid_1e72a879101abc8d9c9a",
+        "preferred_display_ref": "1Jn 1:1-2:6",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "1Jn 1:1-10",
+        "suppressed_identity_key": "rid_b690e32a49271d81b7b9"
+      },
+      {
+        "context_key": "abib 16|liturgy||catholicon",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16893; source_ref=1Jn 1:1-2:6",
+        "preferred_identity_key": "rid_1e72a879101abc8d9c9a",
+        "preferred_display_ref": "1Jn 1:1-2:6",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "1Jn 2:1-6",
+        "suppressed_identity_key": "rid_b96ebb46849ea8d4d7a6"
+      },
+      {
+        "context_key": "abib 16|vespers||psalm",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16900; source_ref=Ps 19:1,19:4",
+        "preferred_identity_key": "rid_144edea63a8af8ce1c3b",
+        "preferred_display_ref": "Ps 19:1,19:4 (LXX Ps 18:1; Ps 18:4)",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Ps 19:4 (LXX Ps 18:4)",
+        "suppressed_identity_key": "rid_c83c6764eb7c45ea4eab"
+      },
+      {
+        "context_key": "abib 16|vespers||psalm",
+        "preferred_source_family": "ordinary_date_resolved",
+        "preferred_source_kind": "copticchurch_date",
+        "preferred_source_locator": "https://copticchurch.net/readings?g_year=2024&g_month=07&g_day=23; cache/copticchurch_html:row 16900; source_ref=Ps 19:1,19:4",
+        "preferred_identity_key": "rid_144edea63a8af8ce1c3b",
+        "preferred_display_ref": "Ps 19:1,19:4 (LXX Ps 18:1; Ps 18:4)",
+        "suppressed_source_family": "katameros_cycle",
+        "suppressed_display_ref": "Ps 19:1 (LXX Ps 18:1)",
+        "suppressed_identity_key": "rid_f895fe12fbca3cc0b95e"
+      }
+    ]
+  },
+  "package_dir": "packages/lectionary-data"
+}

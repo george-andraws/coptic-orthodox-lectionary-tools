@@ -27,7 +27,7 @@ const ordinary = r => r.source_kind === 'copticchurch_date' && r.source_family =
 test('npm daily preserves ordinary service-stage and supplied companion-fragment order', () => {
   let checked = 0;
   let unaffected = 0;
-  const changes = {R1: 0, R2: 0, R4: 0};
+  const changes = {R1: 0, R2: 0, R4: 0, L1: 0, LK9: 0};
   const rawContract = authenticated('sources/resolver-review-2026-10-29/raw-fragment-contract.json', 'fa2a7f2ae2a09bbb90a15cbcc5a24b3b07031f6a5d60726ab044ac497b45f61e');
   for (const year of [2026, 2027, 2028]) {
     const design = authenticated(`out/design/daily/lectionary-${year}.json`, historical[year][0]);
@@ -82,6 +82,24 @@ test('npm daily preserves ordinary service-stage and supplied companion-fragment
         expected = expected.filter(r => r !== fragments[1]).map(r => r === fragments[0] ? {...r, identity_key: identity(ref), display_ref: ref} : r);
         changed = true; changes.R4++;
       }
+      if (['2026-08-13', '2027-08-13'].includes(date)) {
+        const held = expected.filter(r => r.identity_key === 'rid_24a3269b0d1a1fb0412d'
+          && r.service_section === 'Vespers' && r.slot === 'Gospel' && r.occasion === 'Mesra 7');
+        assert.equal(held.length, 1);
+        assert.equal(held[0].display_ref, 'Mark 14:39');
+        expected = expected.filter(r => r !== held[0]);
+        changed = true; changes.L1++;
+      }
+      // LK9 independently corrected the exact MT 51:10 annotation at these
+      // three appointments. Keep the historical projection pin above intact.
+      if (['2026-05-23', '2027-06-12', '2028-05-27'].includes(date)) {
+        const target = expected.filter(r => r.identity_key === 'rid_1afcf352aab16eaeabeb');
+        assert.equal(target.length, 1);
+        assert.equal(target[0].display_ref, 'Ps 51:10 (LXX Ps 50:10)');
+        expected = expected.map(r => r === target[0]
+          ? {...r, display_ref: 'Ps 51:10 (LXX Ps 50:12)'} : r);
+        changed = true; changes.LK9++;
+      }
       const actual = shipped[date].filter(ordinary);
       assert.deepEqual(actual.map(tuple), expected.map(tuple), date);
       const order = actual.map(r => services[r.service_section] * 10 + stages[r.slot]);
@@ -93,5 +111,5 @@ test('npm daily preserves ordinary service-stage and supplied companion-fragment
   }
   assert.ok(checked > 900, 'ordinary date assertions must execute across all shipped years');
   assert.ok(unaffected > 900, 'at least 900 unaffected ordinary dates remain exact');
-  assert.deepEqual(changes, {R1: 2, R2: 2, R4: 3}, 'all reviewed changes exercised, not skipped');
+  assert.deepEqual(changes, {R1: 2, R2: 2, R4: 3, L1: 2, LK9: 3}, 'all reviewed changes exercised, not skipped');
 });

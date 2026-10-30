@@ -15,6 +15,8 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 PACKAGE_DIR = ROOT / "packages" / "lectionary-data"
 ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 REQUIRED_PACKAGE_FILES = {
@@ -751,20 +753,36 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     if meta.get("occasion_index_rows") != len(reverse_rows):
         failures.append({"reason": "occasion_index_row_count_mismatch", "meta": meta.get("occasion_index_rows"), "actual": len(reverse_rows)})
 
+    public_reverse_rows = reverse_rows
+    public_reverse_count = len(reverse_rows)
+    if meta.get('version') == '1.3.8':
+        from scripts.review_release_contract import followup_reverse_view
+        try:
+            reverse_rows = followup_reverse_view(public_reverse_rows)
+            calendar_reverse_rows = followup_reverse_view(public_reverse_rows, previous_layer='calendar')
+        except (ValueError, TypeError, KeyError) as exc:
+            failures.append({'reason': 'unqualified_followup_reverse', 'detail': str(exc)})
+            reverse_rows = []
+            calendar_reverse_rows = []
+    else:
+        calendar_reverse_rows = reverse_rows
+
     duplicate_keys: dict[tuple[Any, ...], int] = {}
     duplicate_count = 0
-    removed_projection_rows = 0
-    active_reverse_rows = 0
+    removed_projection_rows = sum(is_removed_projection_row(r) for r in public_reverse_rows)
+    active_reverse_rows = public_reverse_count - removed_projection_rows
     for row_number, row in enumerate(reverse_rows, 1):
-        is_removed = is_removed_projection_row(row)
-        if is_removed:
-            removed_projection_rows += 1
-        else:
-            active_reverse_rows += 1
         missing = [field for field in REQUIRED_REVERSE_FIELDS if field not in row]
         if missing:
             failures.append({"reason": "reverse_row_missing_required_fields", "row": row_number, "fields": missing})
             continue
+        if meta.get('version') == '1.3.8':
+            import mark_followup_repairs as followup
+            try:
+                followup.qualify_emitted(row)
+            except (ValueError, TypeError, KeyError) as exc:
+                failures.append({'reason': 'unqualified_mark_followup_reverse', 'row': row_number, 'detail': str(exc)})
+                continue
         if (is_current_reference_row(row)
                 or row.get('source_kind') == 'bright_saturday_qualified_composite'
                 or 'verse_unaddressable_named_excerpt' in str(row.get('provenance') or '')):
@@ -775,7 +793,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if is_current_reference_row(row):
             from scripts.review_release_contract import qualified_calendar_context
             try:
-                calendar_context = qualified_calendar_context(row)
+                calendar_context = qualified_calendar_context(calendar_reverse_rows[row_number - 1])
             except (ValueError, TypeError, KeyError) as exc:
                 failures.append({"reason": "unqualified_calendar_context", "row": row_number, "detail": str(exc)})
                 continue
@@ -811,7 +829,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     if legacy_month_spellings:
         failures.append({"reason": "legacy_month_spelling", "examples": legacy_month_spellings[:20], "count": len(legacy_month_spellings)})
 
-    context_passage_conflicts = detect_context_passage_conflicts(reverse_rows)
+    context_passage_conflicts = detect_context_passage_conflicts(calendar_reverse_rows)
     if context_passage_conflicts:
         failures.append({"reason": "package_context_passage_conflict", "examples": context_passage_conflicts[:20], "count": len(context_passage_conflicts)})
 
@@ -824,6 +842,13 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     for year in shipped_years:
         daily_path = package_dir / "data" / "daily" / f"lectionary-{year}.json"
         data = load_json(daily_path)
+        if meta.get('version') == '1.3.8' and isinstance(data, dict):
+            from scripts.review_release_contract import followup_daily_view
+            try:
+                data = followup_daily_view(data)
+            except (ValueError, TypeError, KeyError) as exc:
+                failures.append({'reason': 'unqualified_followup_daily', 'year': year, 'detail': str(exc)})
+                continue
         if not isinstance(data, dict):
             failures.append({"reason": "daily_file_not_object", "year": year})
             continue
@@ -862,6 +887,14 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
                                      "status": reading.get("status"), "current_status": reading.get("current_status"),
                                      "removed_marker": reading.get("removed_marker")})
                     continue
+                if meta.get('version') == '1.3.8':
+                    import mark_followup_repairs as followup
+                    try:
+                        followup.qualify_emitted(reading, date=date_key)
+                        followup.validate_pending_reading(reading, date_key)
+                    except (ValueError, TypeError, KeyError) as exc:
+                        failures.append({'reason': 'unqualified_mark_followup_daily', 'date': date_key, 'reading_index': index, 'detail': str(exc)})
+                        continue
                 if "spans_json" in reading:
                     reference_rows = [reading]
                 else:
@@ -929,7 +962,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         "extra_files": extra_files,
         "reference_bounds_scope": VERSE_BOUNDS["scope_note"],
         "unverified_span_counts_by_book": dict(sorted(unverified_spans.items())),
-        "reverse_index_rows": len(reverse_rows),
+        "reverse_index_rows": public_reverse_count,
         "active_reverse_index_rows": active_reverse_rows,
         "removed_projection_rows": removed_projection_rows,
         "reverse_index_duplicate_keys": duplicate_count,

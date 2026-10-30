@@ -28,6 +28,16 @@ module.exports = function copyReviewBuildInputs(sourceRoot, fixtureRoot) {
     'sources/coptic-reader/matins-source-accepted-2026-10-07/evidence/lent-source-completion-04/attempts/2026-04-03-ready02',
     'sources/coptic-reader/lent-qualified-2026-10-07/2026-03-13',
     'sources/resolver-review-2026-10-29',
+    'sources/mark-followup-1.3.8',
+    'sources/metadata-followup-1.3.8',
+    'sources/katameros-api/Core/Repositories/ReadingsRepository.cs',
+    'docs/reviews/luke-composites-1.3.8/published-1.3.7-composite-witnesses.json',
+    'docs/reviews/timothy-luke-evidence-1.3.8/baseline-targets.json',
+    'sources/coptic-reader/special-context-projection-2026-10-07',
+    'sources/coptic-reader/covenant-thursday-qualified-2026-10-25',
+    'sources/coptic-reader/special-classification-integration-2026-10-07/source-classification-verdicts.json',
+    'cache/copticchurch_html/2024-08-13.html',
+    'out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt',
   ]) copy(relative);
   const pins = JSON.parse(fs.readFileSync(path.join(sourceRoot, 'sources/resolver-review-2026-10-29/composite-source-pins.json'), 'utf8'));
   for (const relative of Object.keys(pins)) copy(relative);

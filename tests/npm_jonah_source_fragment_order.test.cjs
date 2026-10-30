@@ -64,8 +64,14 @@ test('reverse-to-daily transport retains qualified ordinals and structural-only 
 
 test('actual daily reader writes the corrected sequence only to disposable in-memory output', async () => {
   const bodies = new Map();
-  // A bounded real date keeps unrelated R1 SQLite recurrence lookup outside
-  // this Jonah test. The actual repair bridge remains enabled, never stubbed.
+  const fixtureBody = fs.readFileSync(path.join(root, 'sources/metadata-followup-1.3.8/published-1.3.7.json.gz'));
+  assert.equal(require('node:crypto').createHash('sha256').update(fixtureBody).digest('hex'),
+    '6b08ce872a07b2849a8ddc05c8db759648ee50e3b5f6a693df392f81da02c5ba');
+  const predecessor = JSON.parse(require('node:zlib').gunzipSync(fixtureBody));
+  let supplyEves = true;
+  // Keep unrelated R1 SQLite recurrence lookup outside this bounded test.
+  // Include authentic predecessor eve dates for the real full-eve coverage gate.
+  // The actual repair bridge remains enabled, never stubbed.
   const ctx = {path, REPO_ROOT: root, execFileSync: (command, args, options) => {
     assert.equal(command, 'python3');
     const guard = `import sys,runpy,os
@@ -78,7 +84,10 @@ test('actual daily reader writes the corrected sequence only to disposable in-me
   }, DESIGN_DIR: 'design', DAILY_DIR: 'daily', readFile: async p => {
     const year = Number(path.basename(p).match(/\d{4}/)[0]);
     const date = dates.find(([y]) => y === year)[1];
-    return JSON.stringify({[date]: read(year)[date]});
+    const eves = Object.entries(predecessor.daily[String(year)]).filter(([, rows]) =>
+      rows.some(r => String(r.pascha_service || '').startsWith('eve_of_')));
+    assert.equal(eves.length, 5, 'five authentic civil dates contain the Pascha eves');
+    return JSON.stringify({...Object.fromEntries(supplyEves ? eves : []), [date]: read(year)[date]});
   }, writeFile: async (p, body) => bodies.set(p, body), stat: async p => ({size: Buffer.byteLength(bodies.get(p))})};
   const reader = vm.runInNewContext(text.slice(text.indexOf('function dateToIso('), text.indexOf('async function main()')) + '\nreadDailyInfo;', ctx);
   for (const [year, date] of dates) {
@@ -87,6 +96,10 @@ test('actual daily reader writes the corrected sequence only to disposable in-me
     const rows = JSON.parse(bodies.get(`daily/lectionary-${year}.json`))[date];
     assert.ok(rows.every(r => Object.hasOwn(r, 'display_label')), 'real review hook executed');
   }
+  const beforeRejectedWrite = [...bodies];
+  supplyEves = false;
+  await assert.rejects(reader(2026, [], []), /Pascha eve five-hour coverage drift/);
+  assert.deepEqual([...bodies], beforeRejectedWrite, 'coverage refusal writes nothing');
 });
 
 test('unqualified context, forged source metadata and non-positive/non-integer ordinals do not gain source ordering', () => {

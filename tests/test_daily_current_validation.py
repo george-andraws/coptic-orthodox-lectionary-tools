@@ -2,7 +2,7 @@
 import copy
 import datetime as dt
 import json
-import os
+
 import shutil
 from pathlib import Path
 from unittest.mock import patch
@@ -13,6 +13,7 @@ import holy_week_review_repairs as holy
 import kiahk23_review_repairs as r2
 from scripts import review_release_contract as contract
 from scripts import verify_package_integrity as v
+from historical_review_fixture import published_1_3_7, immutable_runtime_asset
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -23,15 +24,15 @@ def write_json(path, value):
 
 @pytest.fixture(scope='module')
 def bounded_package(tmp_path_factory):
-    """Keep real authenticated rows/runtime, shrink only the corpus inventory.
+    """Keep authenticated 1.3.7 rows/runtime, shrink only the corpus inventory.
 
     This is a daily-boundary integration fixture, not release-corpus acceptance.
     No validation gates are mocked and no producer is invoked.
     """
     source = ROOT / 'packages/lectionary-data'
-    reverse_path = Path(os.environ.get('LECTIONARY_REVIEW_REVERSE',
-                                      source / 'data/reverse_lectionary_index.jsonl'))
-    reverse = v.parse_jsonl(reverse_path)
+    frozen = published_1_3_7()
+    authentication = frozen['authentication']
+    reverse = frozen['reverse_rows']
     owned = [row for row in reverse if row.get('source_family') == r2.FAMILY]
     retired = next(row for row in reverse if row.get('kiahk23_retirement'))
     held = next(row for row in reverse if row.get('current_status') == holy.HOLD)
@@ -39,7 +40,7 @@ def bounded_package(tmp_path_factory):
     assert contract.review_inactive_qualified(retired)
     assert contract.review_inactive_qualified(held)
 
-    daily_source = json.loads((source / 'data/daily/lectionary-2026.json').read_text())
+    daily_source = frozen['daily']['2026']
     current = [copy.deepcopy(row) for row in daily_source['2026-01-01']
                if row.get('source_family') == r2.FAMILY]
     assert len(current) == 9
@@ -55,15 +56,28 @@ def bounded_package(tmp_path_factory):
     selected = owned + [retired, held, ordinary_reverse]
 
     package = tmp_path_factory.mktemp('daily-current-package').resolve()
-    generated = {'meta.json', 'data/reverse_lectionary_index.jsonl'}
+    generated = {'meta.json', 'package.json', 'data/reverse_lectionary_index.jsonl'}
     for relative in sorted(v.REQUIRED_PACKAGE_FILES):
         target = package / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         if relative not in generated and not relative.startswith('data/daily/'):
-            shutil.copyfile(source / relative, target)
+            if relative == 'README.md':
+                shutil.copyfile(source / relative, target)  # Inert documentation only.
+            else:
+                target.write_bytes(immutable_runtime_asset(relative, authentication))
     (package / 'data/reverse_lectionary_index.jsonl').write_text(
         ''.join(json.dumps(row) + '\n' for row in selected), encoding='utf-8')
-    meta = json.loads((source / 'meta.json').read_text())
+    # Explicit bounded predecessor metadata: never dispatch successor whole-
+    # corpus inversions on a historical subset or inherit mutable release totals.
+    write_json(package / 'package.json', {
+        'name': authentication['package'], 'version': authentication['version'],
+        'main': 'index.js',
+    })
+    meta = {
+        'package_name': authentication['package'], 'version': authentication['version'],
+        'schemaVersion': '1.2.0', 'shipped_years': [2026, 2027, 2028],
+        'structural_date_resolver': {'coverage': 'bounded_daily_validation_fixture'},
+    }
     meta['occasion_index_rows'] = len(selected)
     removed = sum(v.is_removed_projection_row(row) for row in selected)
     meta['projection_rules'] = {'active_rows': len(selected) - removed,

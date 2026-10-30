@@ -7,6 +7,7 @@ from unittest.mock import patch
 
 import pytest
 from scripts import compare_external_sources as compare
+from historical_review_fixture import published_1_3_7, historical_policy
 
 ROOT = Path(__file__).resolve().parents[1]
 DATES = ('2026-02-02', '2026-02-03', '2026-04-05', '2026-04-09', '2026-04-11')
@@ -16,8 +17,9 @@ DATES = ('2026-02-02', '2026-02-03', '2026-04-05', '2026-04-09', '2026-04-11')
 def corpus():
     with (ROOT / 'out/data/copticchurch_passage_index_current_2020_2035.csv').open() as f:
         source = list(csv.DictReader(f))
-    daily = json.loads((ROOT / 'packages/lectionary-data/data/daily/lectionary-2026.json').read_text())
-    return source, daily, json.loads(compare.CORRECTIONS.read_text())
+    # These exact group/order oracles precede the 1.3.8 hold/metadata layers.
+    daily = published_1_3_7()['daily']['2026']
+    return source, daily, historical_policy()
 
 
 def fixture(corpus, date):

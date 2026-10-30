@@ -1,0 +1,353 @@
+{
+  "baseline_authentication": {
+    "files": {
+      "package/LICENSE": "be68c3d4ff5376a22dd54bca67629167437330d37fbf22d71fb60c3e6df70037",
+      "package/README.md": "d4523f3de8936ea5afd318c7003d6b598d52610d18b48d6997f715ff55207ce5",
+      "package/calendar.js": "71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830",
+      "package/data/daily/lectionary-2026.json": "b4e443342a5c3369513b961e8ebb0a08e1bd006f8e7b74f42dab2f6cc7da7e4a",
+      "package/data/daily/lectionary-2027.json": "d8b59ce1d4af9c4bb607b86cc1d2ae18e848f174d473411b3852d5b1dc64bf4c",
+      "package/data/daily/lectionary-2028.json": "2f0afe88d2285e5b06b94402787a01e3c88a8f4295314552501b89c438e86fb0",
+      "package/data/reverse_lectionary_index.jsonl": "4b785a5c626eaf4809f74738bfb3be05d7c8d0ae095b51bf98e72cad55559bf9",
+      "package/data/synaxarium/synaxarium.json": "7780814efb4c91cd1039365f566a64029d5b63c3eb5e16f9d5be74e068a312d7",
+      "package/index.js": "3c9e51994b1788efc15bfe0ea60ed9ade9c38b11e71713c9c44991b9137427da",
+      "package/meta.json": "bb0ddfc7eab87bc8cb7ae2b306e7ea069def3ffc8538b09151bc8b60341f1ddc",
+      "package/package.json": "c8618443b8f1341333bc312dc108c47b8ccabb38a007fa3acfdc73b0da6f1892"
+    },
+    "integrity": "sha512-dw+mJ8msUB74tezQFZ8CSw2irSyI9pW94IakftrzdiNUgPfaUT7ZnxDP9AL352rbPXPoI+DUviMkfpuD2mH2GA==",
+    "package": "@andraws/lectionary-data",
+    "registry": "https://registry.npmjs.org",
+    "resolved_at": "2026-10-30T15:03:42.748306+00:00",
+    "tag": "latest",
+    "tarball": "https://registry.npmjs.org/@andraws/lectionary-data/-/lectionary-data-1.3.7.tgz",
+    "version": "1.3.7"
+  },
+  "changed_fields": {
+    "attestation_year_max": 145,
+    "attestation_year_min": 145,
+    "attestation_years": 145,
+    "attestation_years_basis": 145,
+    "commemoration_join_basis": 25,
+    "cycle_label_status": 1090,
+    "display_commemoration_titles": 25,
+    "display_label": 5478,
+    "metadata_review_flags": 10,
+    "normalized_calendar_keys": 1090,
+    "normalized_season": 1090,
+    "occurs_in_shipped_years": 3253,
+    "synthetic_overlay_years": 145
+  },
+  "changed_rows": 6409,
+  "cycle_rows_by_season": {
+    "great_lent": 592,
+    "holy_fifty": 498
+  },
+  "daily": {
+    "2026": {
+      "after": 4088,
+      "before": 4088,
+      "changed": 950
+    },
+    "2027": {
+      "after": 4079,
+      "before": 4079,
+      "changed": 893
+    },
+    "2028": {
+      "after": 4096,
+      "before": 4096,
+      "changed": 949
+    }
+  },
+  "endpoint_context_service_slot_start_groups": 31,
+  "endpoint_dated_start_groups": 365,
+  "endpoint_distinct_dated_slots": 365,
+  "fixture_sha256": "6b08ce872a07b2849a8ddc05c8db759648ee50e3b5f6a693df392f81da02c5ba",
+  "lk1_witnesses": [
+    {
+      "calendar_keys": "Abib 26",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Abib 26",
+      "display_ref": "Matt 23:13-26",
+      "identity_key": "rid_84ed6fb31aac63feec5f",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "Liturgy",
+      "slot": "Gospel",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=02; cache/copticchurch_html:row 13266; source_ref=Matt 23:13-26",
+      "source_title": "copticchurch.net date-resolved readings cache, 2020 to 2035"
+    },
+    {
+      "calendar_keys": "Abib 26",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Abib 26",
+      "display_ref": "Matt 17:1-9",
+      "identity_key": "rid_90f9856d0b9722750c38",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "Matins",
+      "slot": "Gospel",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=02; cache/copticchurch_html:row 13269; source_ref=Matt 17:1-9",
+      "source_title": "copticchurch.net date-resolved readings cache, 2020 to 2035"
+    },
+    {
+      "calendar_keys": "Abib 26",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Abib 26",
+      "display_ref": "Lk 11:37-51",
+      "identity_key": "rid_875283c8a2bfb534d4ab",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "Vespers",
+      "slot": "Gospel",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=08&g_day=02; cache/copticchurch_html:row 13273; source_ref=Lk 11:37-51",
+      "source_title": "copticchurch.net date-resolved readings cache, 2020 to 2035"
+    },
+    {
+      "calendar_keys": "Abib 26",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Feast of St. Joseph the Carpenter",
+      "display_ref": "Matt 2:13-23",
+      "identity_key": "rid_9b9fb26c186e72003e9c",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "liturgy_gospel",
+      "slot": "liturgy_gospel",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 4061; source_ref=Matt 2:13-23",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    },
+    {
+      "calendar_keys": "Abib 26",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Feast of St. Joseph the Carpenter",
+      "display_ref": "Matt 12:15-23",
+      "identity_key": "rid_37424e94554789b41fc3",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "matins_gospel",
+      "slot": "matins_gospel",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 4055; source_ref=Matt 12:15-23",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    },
+    {
+      "calendar_keys": "Abib 26",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Feast of St. Joseph the Carpenter",
+      "display_ref": "Matt 4:12-17",
+      "identity_key": "rid_d2857a5170e70b6bb682",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "vespers_gospel",
+      "slot": "vespers_gospel",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 4051; source_ref=Matt 4:12-17",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    }
+  ],
+  "lk4_named_witnesses": [
+    {
+      "calendar_keys": "The fourth Sunday of Mesra",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "The fourth Sunday of Mesra",
+      "display_ref": "Lk 17:20-36",
+      "identity_key": "rid_4d23f62ed8c5e911a6a7",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "Vespers",
+      "slot": "Gospel",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=03; cache/copticchurch_html:row 13605; source_ref=Lk 17:20-36",
+      "source_title": "copticchurch.net date-resolved readings cache, 2020 to 2035"
+    },
+    {
+      "calendar_keys": "Tout 8",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Tout 8",
+      "display_ref": "Matt 23:13-26",
+      "identity_key": "rid_84ed6fb31aac63feec5f",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "Liturgy",
+      "slot": "Gospel",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=09&g_day=19; cache/copticchurch_html:row 13773; source_ref=Matt 23:13-26",
+      "source_title": "copticchurch.net date-resolved readings cache, 2020 to 2035"
+    },
+    {
+      "calendar_keys": "Tut 8",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "",
+      "display_ref": "Matt 23:13-36",
+      "identity_key": "rid_7c71f36964601d23c46a",
+      "removed_marker": "superseded_by_canonical_occurrence_projection",
+      "service_hour": "",
+      "service_section": "liturgy_gospel",
+      "slot": "liturgy_gospel",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 104; source_ref=Matt 23:13-36",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    },
+    {
+      "calendar_keys": "Mesra 4",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "Fourth Sunday of Misra",
+      "display_ref": "Lk 17:20-37",
+      "identity_key": "rid_ecced7e035cb579bd75d",
+      "removed_marker": "",
+      "service_hour": "",
+      "service_section": "vespers_gospel",
+      "slot": "vespers_gospel",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 4931; source_ref=Lk 17:20-37",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    }
+  ],
+  "multikey_current_by_season": {
+    "holy_fifty": 1
+  },
+  "removed_rows": 4509,
+  "removed_true_after": 0,
+  "removed_true_before": 2326,
+  "retained_source_hashes": {
+    "out/data/katameros_cycle_passage_index.csv": "56756b063813c36c81439d178ac605eac490c79316b2a749d231d281dc08e184",
+    "sources/katameros-api/Core/Repositories/ReadingsRepository.cs": "3638b061903f1ed94d2f711fcc815a6bfe142dfc479d582c55708a90dc36937d"
+  },
+  "reverse_after": 12330,
+  "reverse_before": 12330,
+  "single_key_current_by_season": {
+    "great_lent": 156,
+    "holy_fifty": 64
+  },
+  "timothy_confirmations": [
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 1:12-19",
+      "identity_key": "rid_1cb21a9e546625f8b503",
+      "occasion": "First Sunday of Tut",
+      "priority": "low",
+      "service_section": "Liturgy",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2022&g_month=09&g_day=18; cache/copticchurch_html:row 10045; source_ref=1Tim 1:12-19"
+    },
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 2:1-3:4",
+      "identity_key": "rid_539d72ebd85c4b03eaf1",
+      "occasion": "Thursday of the sixth week of Great Lent",
+      "priority": "low",
+      "service_section": "Liturgy",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=03&g_day=30; cache/copticchurch_html:row 12027; source_ref=1Tim 2:1-3:4"
+    },
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 3:13-16",
+      "identity_key": "rid_f7ab1aa9ada78662622d",
+      "occasion": "The Feast of the Ascension",
+      "priority": "low",
+      "service_section": "Liturgy",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=05&g_day=25; cache/copticchurch_html:row 12527; source_ref=1Tim 3:13-16"
+    },
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 4:9-5:10",
+      "identity_key": "rid_5cd67675f32c75db9167",
+      "occasion": "Great Thursday",
+      "priority": "low",
+      "service_section": "Liturgy of Blessing of the Water",
+      "source_family": "coptic_reader_qualified_pascha_hour",
+      "source_kind": "coptic_reader_qualified_pascha_hour",
+      "source_locator": "sources/coptic-reader/covenant-thursday-qualified-2026-10-25/thursday--thursday-day--liturgy-of-the-waters.txt:lines 513-574; sha256=a66ddc71a6443580577463041ec55c9a419c23c593c4e652d171b4f9d9279f45; body_sha256=0f17366d5f7eb69f926b9a95afbe9906d9382087cd663ebab844702ffa15a8fd; printed_ref=1 Timothy 4:9-5:10; selected=2026-04-09"
+    },
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 5:17-6:2",
+      "identity_key": "rid_e475dd1bbf8b05b45910",
+      "occasion": "Hatur 24",
+      "priority": "low",
+      "service_section": "Liturgy",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2022&g_month=12&g_day=03; cache/copticchurch_html:row 10881; source_ref=1Tim 5:17-6:2"
+    },
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 6:3-16",
+      "identity_key": "rid_62f86c38e99a8b80724a",
+      "occasion": "Third Sunday of Abib",
+      "priority": "low",
+      "service_section": "Liturgy",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2023&g_month=07&g_day=23; cache/copticchurch_html:row 13168; source_ref=1Tim 6:3-16"
+    },
+    {
+      "action": "confirm, no change expected",
+      "current_status": "current_public_or_local_reference",
+      "display_ref": "1Tim 6:3-21",
+      "identity_key": "rid_2ba106e64365ef933085",
+      "occasion": "Fourth Sunday of Babah",
+      "priority": "low",
+      "service_section": "Liturgy",
+      "source_family": "ordinary_date_resolved",
+      "source_kind": "copticchurch_date",
+      "source_locator": "https://copticchurch.net/readings?g_year=2022&g_month=11&g_day=06; cache/copticchurch_html:row 10579; source_ref=1Tim 6:3-21"
+    }
+  ],
+  "unresolved_cycle_witnesses": [
+    {
+      "calendar_keys": "week 49 day_of_week 3",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "",
+      "display_ref": "Exod 7:14-25",
+      "identity_key": "rid_05376466919d90b38a8b",
+      "removed_marker": "superseded_by_canonical_occurrence_projection",
+      "service_hour": "",
+      "service_section": "prophecy",
+      "slot": "prophecy",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 5317; source_ref=Exod 7:14-25",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    },
+    {
+      "calendar_keys": "week 49 day_of_week 3",
+      "current_status": "current_public_or_local_reference",
+      "day_titles": "",
+      "display_ref": "Exod 8:1-19",
+      "identity_key": "rid_8afd810d49c0122bd61e",
+      "removed_marker": "superseded_by_canonical_occurrence_projection",
+      "service_hour": "",
+      "service_section": "prophecy",
+      "slot": "prophecy",
+      "source_family": "katameros_cycle",
+      "source_kind": "katameros_cycle",
+      "source_locator": "sources/katameros-api/Core/KatamerosDatabase.db:row 5318; source_ref=Exod 8:1-19",
+      "source_title": "pierresaid Katameros API SQLite source bundled in repo"
+    }
+  ]
+}

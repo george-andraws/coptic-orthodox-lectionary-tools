@@ -19,6 +19,8 @@ import source_reading_contracts as source_contracts
 
 def verify_source_contract_rows(rows: list[dict], *, candidate_projection: bool = False, transport_mode: str = 'output') -> None:
     """Validate scoped edition vocabulary without weakening legacy schemas."""
+    from composite_followup_repairs import restore_public_rows
+    rows = restore_public_rows(rows)
     source_contracts.validate_consumer_rows(rows, candidate_projection=candidate_projection, transport_mode=transport_mode)
     for row in rows:
         envelope = source_contracts.row_envelope(row)
@@ -247,6 +249,8 @@ def source_plan_qualifications() -> dict:
 
 def authenticated_qualified_metadata(row: dict, *, bounded_date=False) -> tuple[str, dict] | None:
     """Bind projected context to fresh retained RAW evidence, never index output."""
+    from composite_followup_repairs import restore_public_row
+    row = restore_public_row(row)
     import hashlib
     import bright_saturday_composite_supplements as bright
     import covenant_thursday_source_supplements as covenant
@@ -374,6 +378,8 @@ def authenticated_psalmody_order(row: dict) -> int:
 
 
 def expected_source_disclosure(source_rows: list[dict], *, bounded_date=False) -> tuple[list[dict], list[str]]:
+    from composite_followup_repairs import restore_public_rows
+    source_rows = restore_public_rows(source_rows)
     metadata = [authenticated_qualified_metadata(row, bounded_date=bounded_date) for row in source_rows]
     covenant_join = any(q and q[0] == 'covenant_thursday_source' for q in metadata)
     grouped: dict[tuple[str, str, str, str], list[dict]] = defaultdict(list)

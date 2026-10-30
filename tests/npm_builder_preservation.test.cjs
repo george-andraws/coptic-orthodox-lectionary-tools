@@ -42,7 +42,7 @@ test('readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata', 
     assert.deepEqual(meta.synaxarium, beforeMeta.synaxarium);
     assert.equal(meta.schemaVersion, beforeMeta.schemaVersion);
     const manifest = JSON.parse(fs.readFileSync(path.join(destination, 'package.json')));
-    assert.equal(manifest.version, '1.3.7');
+    assert.equal(manifest.version, '1.3.8');
     assert.deepEqual(manifest.files, JSON.parse(fs.readFileSync(path.join(original, 'package.json'))).files);
     const api = require(destination);
     assert.equal(api.synaxariumMeta.day_count, 366);

@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.7';
+const VERSION = '1.3.8';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -1562,7 +1562,10 @@ function metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFil
         source_disclosure: 'Disclosure of source coverage or source-derived status.',
         attestation_year_min: 'Minimum attested year in the packaged source data.',
         attestation_year_max: 'Maximum attested year in the packaged source data.',
-        active: 'Optional. False only for rows retained as inactive provenance after source-priority projection. Missing means active for backwards compatibility.',
+        mark_followup_note: 'Bounded L1-L10 disposition; no current-practice promotion is conferred.',
+        mark_followup_evidence: 'Hash-bound published predecessor and original lifecycle; reader_activation is false.',
+        evidence_status: 'Source evidence qualification, including conflicting_vespers_sources and unverified_service_book; never ecclesiastical rank.',
+        active: 'Optional. False for inactive provenance, review candidates or unresolved legacy Pascha Psalm holds. Missing is projection-active for backwards compatibility.',
         status: 'Optional. Set to removed for rows retained as inactive provenance after source-priority projection.',
         removal_reason: 'Optional. Reason an inactive provenance row is excluded from active lookup.',
         removal_context_key: 'Optional. Normalized consumer context/service/hour/slot key that triggered source-priority removal.',
@@ -1593,7 +1596,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
@@ -1603,7 +1606,7 @@ async function main() {
 
   const reverseProjection = await projectReverseIndex();
   const { rows: _projectedRows, activeRows: activeProjectedRows, ...projectionRules } = reverseProjection;
-  const occasionIndexRows = projectionRules.output_rows;
+  let occasionIndexRows = projectionRules.output_rows;
   const dailyInfos = [];
 
   for (const year of SHIPPED_YEARS) {
@@ -1613,7 +1616,15 @@ async function main() {
     year, JSON.parse(await readFile(path.join(DAILY_DIR, `lectionary-${year}.json`), 'utf8')),
   ])));
   const occurrenceProjection = applyReviewRepairs('occurrence', { rows: reverseProjection.rows, daily_by_year: dailyByYear });
-  if (occurrenceProjection.rows.length !== occasionIndexRows) throw new Error('Occurrence metadata must not change reverse membership.');
+  const compositeEvents = occurrenceProjection.events.filter(event => event.id === 'LK5');
+  if (occurrenceProjection.rows.length !== occasionIndexRows - compositeEvents.length) throw new Error('Unexplained follow-up reverse membership change.');
+  occasionIndexRows = occurrenceProjection.rows.length;
+  projectionRules.output_rows = occasionIndexRows;
+  projectionRules.active_rows = occurrenceProjection.rows.filter(row => !isProjectionRemovedRow(row)).length;
+  projectionRules.current_rows = occurrenceProjection.rows.filter(isCurrentReading).length;
+  projectionRules.removed_rows_included = occurrenceProjection.rows.filter(isProjectionRemovedRow).length;
+  projectionRules.runtime_review.events.push(...occurrenceProjection.events);
+  projectionRules.runtime_review.evidence_counts = occurrenceProjection.evidence_counts;
   await writeFile(OCCASION_DEST, `${occurrenceProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);

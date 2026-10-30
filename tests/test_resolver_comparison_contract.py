@@ -6,15 +6,18 @@ from unittest.mock import patch
 import pytest
 
 from scripts import compare_external_sources as compare
+from historical_review_fixture import published_1_3_7, historical_policy
 
-POLICY = json.loads(compare.CORRECTIONS.read_text())
+POLICY = historical_policy()
 
 
 @pytest.fixture(scope='module')
 def corpus():
+    # R4 deliberately mutates the legacy embedded _review_original_row and
+    # provenance together. LK6 public transport is a different API boundary.
+    frozen = published_1_3_7()
     return (compare.load_csv(compare.SOURCE_INDEX),
-            {y: compare.load_json(compare.PACKAGE_DIR / 'data/daily' / f'lectionary-{y}.json')
-             for y in (2026, 2027, 2028)})
+            {y: frozen['daily'][str(y)] for y in (2026, 2027, 2028)})
 
 
 def subset(corpus, date):

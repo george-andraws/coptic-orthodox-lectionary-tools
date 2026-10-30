@@ -21,6 +21,39 @@ STABLE_FIELDS = ('source_family', 'source_kind', 'source_locator', 'occasion', '
                  'service_hour', 'slot', 'calendar_keys', 'day_titles')
 
 
+def validate_public_followup_rows(rows):
+    """Public cosmetics are independent of source/evidence authentication."""
+    for row in rows:
+        text = row.get('provenance', '')
+        if (type(text) is not str or len(text) > 300 or text.lstrip().startswith(('{', '['))
+                or '_review_original_row' in json.dumps(row, ensure_ascii=False)):
+            raise ValueError('LK6 invalid public provenance presentation')
+
+
+def followup_reverse_view(rows, *, previous_layer='mark', require_all_targets=True):
+    import composite_followup_repairs as composite
+    import metadata_followup_repairs as metadata
+    import evidence_followup_repairs as evidence
+    validate_public_followup_rows(rows)
+    rows = composite.restore_public_rows(rows)
+    rows = evidence.restore_rows_for_comparison(rows, require_all_targets=require_all_targets)
+    rows = metadata.restore_rows_for_comparison(rows, previous_layer=previous_layer, annotated=True)
+    return composite.legacy_validation_rows(rows)
+
+
+def followup_daily_view(days, *, previous_layer='mark'):
+    import composite_followup_repairs as composite
+    import metadata_followup_repairs as metadata
+    import evidence_followup_repairs as evidence
+    output = {}
+    for date, rows in days.items():
+        validate_public_followup_rows(rows)
+        rows = composite.restore_public_rows(rows)
+        rows = evidence.restore_rows_for_comparison(rows, date=date)
+        output[date] = metadata.restore_rows_for_comparison(rows, date=date, previous_layer=previous_layer)
+    return output
+
+
 @lru_cache(maxsize=1)
 def _r2_rows():
     plan = r2.authenticate_plan()
@@ -89,6 +122,9 @@ def _holy_holds(payload):
 
 def review_inactive_qualified(row):
     """Authenticate exact R2 retirements and H1/H4/H6 holds, not all inactivity."""
+    import mark_followup_repairs as followup
+    if followup.inactive_qualified(row):
+        return True
     r2.authenticate_plan()
     legacy = json.loads(r2._read(r2.SOURCE + '/repair-approval/legacy-published-1.3.6.json'))['reverse_rows']
     retired = [r2._retire(original) for original in legacy]
@@ -170,6 +206,16 @@ def qualified_calendar_context(row):
         return ('kiahk-23', '')
     try:
         originals = _originals(row)
+        import mark_followup_repairs as followup
+        index = {followup.key(r): r for r in followup.originals()}
+        restored = []
+        for original in originals:
+            predecessor = index.get(followup.key(original))
+            if predecessor and original.get('display_label') != predecessor.get('display_label'):
+                followup._qualify(original, predecessor, projected=True)
+                original = dict(original, display_label=predecessor['display_label'])
+            restored.append(original)
+        originals = restored
         runtime = calendar.load_runtime_review(ROOT)
         projected = runtime.apply_reverse_rows(originals)
         pair = (originals[0].get('source_family'), originals[0].get('source_kind'))
@@ -184,6 +230,8 @@ def qualified_calendar_context(row):
             raise ValueError('calendar source context is ambiguous')
         for field in CALENDAR_FIELDS:
             if row.get(field, '') != projected[0].get(field, ''):
+                if field == 'display_label' and row.get(field) == followup.display_label(projected[0]):
+                    continue
                 raise ValueError('calendar review normalized metadata/evidence drift: ' + field)
         return (projected[0]['coptic_date_key'], projected[0]['annual_sunday'])
     except (KeyError, TypeError, json.JSONDecodeError) as exc:

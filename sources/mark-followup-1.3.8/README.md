@@ -1,0 +1,11 @@
+# Mark L1-L10 follow-up evidence
+
+- `published-1.3.7.json.gz` is a deterministic gzip of a literal subset of the authenticated published `@andraws/lectionary-data@1.3.7` artifact. It contains 627 reverse witnesses and complete daily arrays for 36 selected dates across 2026-2028. It is never produced from the candidate. Its compressed SHA-256 is `c67a9d2699a368f028850e52ebdc3568dccdc327a5ab8afafebe794b47d7d1e5`.
+- The subset covers every Pascha source family, the affected fixed-day witnesses, spelling cohorts and selected special-service witnesses. The full annual baseline counts are derived separately from all 11 authenticated registry members, not estimated from this subset.
+- `independent-acceptance-oracle.json` was produced independently from the clean predecessor and saved sources, before inspecting the candidate. It preserves the registry resolution/member hashes, exact selectors, all 45 predecessor pending occurrences, the complete 21-group L10 inventory and retained source hashes. Its SHA-256 is `2d0dcb7c2072de7965ff0ab75af3deab0fd313143afe44b894ead7dcc0ada153`. It is source acceptance evidence, not candidate/release approval.
+
+The module `mark_followup_repairs.py` authenticates these bytes before use. L1 also checks the retained malformed cache source, and L3 checks the Ottawa source text. Existing Reader source modules retain their own stronger body/heading/context authentication. No new current-practice promotion is authorized by this overlay, and no old policy fixture or membership ledger is renewed from candidate output.
+
+Original raw source strings, locators, calendar keys, span cells and disclosure cells are preserved. Four L3 hold candidates coexist with their separate historical witnesses. The published predicate's accepted pending Psalm behavior is unchanged; an exact date/source/disclosure allowance preserves current source-only and numeric-source-coordinate holds while the three stale legacy Pascha witnesses are inactive.
+
+The [release report](../../docs/LECTIONARY_1_3_8_RELEASE.md), [full check sheet](../../coptic-reader-check-sheet.md) and [diagnostic verification](../../docs/reviews/mark-followup-1.3.8/verification.md) describe the implementation and remaining parent-owned integration gates.
