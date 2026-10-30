@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import copy
 import csv
+import hashlib
 import json
 import sys
 import tempfile
@@ -59,10 +60,12 @@ class ContextComparisonTests(unittest.TestCase):
         return comparator.compare_copticchurch_cache(self.package, index, [2026], **kwargs)
 
     def rejected(self, source, daily, **kwargs):
-        # Prerequisite evidence failures may fail closed before row comparison.
+        # Only the intended prerequisite categories may short-circuit parity;
+        # an unrelated assertion must not turn a broken valid control green.
         try:
             result = self.compare(source, daily, **kwargs)
-        except AssertionError:
+        except AssertionError as error:
+            self.assertRegex(str(error), r'Evidence SHA-256 mismatch:|Calendar overlay lacks the exact documented correction context|Unqualified recurring supplement:')
             return
         self.assertEqual(result['status'], 'fail', result)
 
@@ -105,9 +108,16 @@ class ContextComparisonTests(unittest.TestCase):
         # Exercise actual rebuilt bytes; no test-only correction of slot metadata.
         return self.fixtures('2026-04-07')
 
-    def test_live_overlay_source_order_passes_and_explicit_unknown99_corruption_fails(self):
-        source, daily = self.fixtures('2026-04-07')
+    def test_pinned_pre_review_overlay_source_order_and_unknown99_corruption(self):
+        # Historical facts belong to their authenticated predecessor package,
+        # not the 1.3.7 table with 15 retired Eve rows and five new selections.
+        fixture = (ROOT / 'tests/fixtures/holy_week_review_1_3_6.json').read_bytes()
+        self.assertEqual(hashlib.sha256(fixture).hexdigest(), '8aa845a557e06b3b58a900335a8d5b695727ea934b76065bb2cf6d822762fc02')
+        self.assertEqual(hashlib.sha256(CURRENT.read_bytes()).hexdigest(), 'd373b55d42f78209a74ee1533884c81c357995333e58e884b76b2d0c14e2b2dd')
+        source, _ = self.fixtures('2026-04-07')
+        daily = {'2026-04-07': json.loads(fixture)['daily']['2026']['2026-04-07']}
         self.assertEqual(self.compare(source, daily)['status'], 'pass')
+        self.assertEqual(self.compare(source, daily)['years']['2026']['comparable_package_rows'], 38)
         prophecies = [row for row in daily['2026-04-07'] if row['slot'].startswith('OT')]
         self.assertEqual(len(prophecies), 18)
         for row in prophecies:
@@ -121,7 +131,8 @@ class ContextComparisonTests(unittest.TestCase):
         source, daily = self.overlay_fixture()
         result = self.compare(source, daily)
         self.assertEqual(result['status'], 'pass', result)
-        self.assertEqual(result['years']['2026']['comparable_package_rows'], 38)
+        self.assertEqual(result['years']['2026']['comparable_package_rows'], 28)
+        self.assertEqual(sum(r['slot'].startswith('OT') for r in daily['2026-04-07']), 16)
 
     def test_overlay_omitted_duplicate_reordered_truncated_wrong_context_removed(self):
         source, original = self.overlay_fixture()
@@ -323,12 +334,14 @@ class ContextComparisonTests(unittest.TestCase):
         self.rejected(source, daily, corrections_path=path)
 
     def test_ordinary_wrong_context_removed_and_structural_masquerade_fail(self):
-        source, original = self.fixtures('2026-01-01')
+        # Jan 1 is the reviewed complete Kiahk 23 replacement. Jan 2 remains
+        # an ordinary cache appointment; full Kiahk controls live separately.
+        source, original = self.fixtures('2026-01-02')
         self.assertEqual(self.compare(source, original)['status'], 'pass')
         for field, value in [('occasion', 'Wrong title'), ('service_hour', 'Third Hour'), ('source_family', 'bright_saturday'), ('status', 'removed'), ('current_status', 'historical_witness'), ('current_status', 'historical_candidate_removed'), ('current_status', 'superseded_by_fixture'), ('removed_marker', 'removed in current practice'), ('structural_day', 'Good Friday')]:
             with self.subTest(field=field):
                 daily = copy.deepcopy(original)
-                daily['2026-01-01'][0][field] = value
+                daily['2026-01-02'][0][field] = value
                 self.rejected(source, daily)
 
 

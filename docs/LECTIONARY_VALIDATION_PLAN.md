@@ -1,8 +1,8 @@
 # Lectionary Data Validation Plan
 
-Last updated: 2026-10-25
+Last updated: 2026-10-29
 
-Current runtime release: published `@andraws/lectionary-data@1.3.5`. See [artifact/source reconciliation and gate results](LECTIONARY_1_3_5_RECONCILIATION.md) and [Synaxarium runtime contract and release workflow](SYNAXARIUM_RELEASE.md). Research/design-layer gates below still describe their own artifacts; they do not authorize shipping a Synaxarium reading bridge or private review fields. Reconciliation does not clear recorded baseline failures or authorize a new npm publication.
+Frozen published baseline for the current repair: `@andraws/lectionary-data@1.3.6`; the unreleased `1.3.7` candidate and its separate publication gates are documented in [the current release record](LECTIONARY_1_3_7_RELEASE.md). See [the earlier artifact/source reconciliation](LECTIONARY_1_3_5_RECONCILIATION.md) and [Synaxarium runtime contract and release workflow](SYNAXARIUM_RELEASE.md). Research/design-layer gates below still describe their own artifacts; they do not authorize shipping a Synaxarium reading bridge or private review fields. Reconciliation does not clear recorded baseline failures or authorize a new npm publication.
 
 ## Purpose
 
@@ -45,7 +45,7 @@ Run from repo root. The full list covers research/design rebuilds as well as the
 
 ```bash
 # Use an existing environment with these dependencies, or this isolated uv environment:
-uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate python -m unittest discover -s tests
+uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate --with pytest python -m pytest tests
 node --test tests/*.test.cjs tests/test_authoritative_release.js tests/test_npm_package_corrections.js
 python3 scripts/validate_synaxarium.py
 python3 -m py_compile \

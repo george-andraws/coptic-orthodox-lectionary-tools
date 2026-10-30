@@ -1,0 +1,31 @@
+test_public_javascript_predicate_rejects_holds_and_structural_daily_never_restores_them (test_holy_week_review_repairs.PublishedHolyWeekReviewTests.test_public_javascript_predicate_rejects_holds_and_structural_daily_never_restores_them) ... FAIL
+
+======================================================================
+FAIL: test_public_javascript_predicate_rejects_holds_and_structural_daily_never_restores_them (test_holy_week_review_repairs.PublishedHolyWeekReviewTests.test_public_javascript_predicate_rejects_holds_and_structural_daily_never_restores_them)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/coptic-lectionary-research/tests/test_holy_week_review_repairs.py", line 205, in test_public_javascript_predicate_rejects_holds_and_structural_daily_never_restores_them
+    self.assertEqual(0, result.returncode, result.stderr)
+AssertionError: 0 != 1 : /Users/ga/workspace/coptic-lectionary-research/packages/lectionary-data/index.js:82
+  throw new RangeError('Unknown explicit reading status: ' + status);
+  ^
+
+RangeError: Unknown explicit reading status: pending_coptic_reader_review
+    at Object.isCurrentReading (/Users/ga/workspace/coptic-lectionary-research/packages/lectionary-data/index.js:82:9)
+    at [eval]:5:48
+    at Array.map (<anonymous>)
+    at [eval]:5:33
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:446:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:444:60)
+    at evalFunction (node:internal/process/execution:279:30)
+    at evalTypeScript (node:internal/process/execution:291:3)
+
+Node.js v22.22.3
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.493s
+
+FAILED (failures=1)

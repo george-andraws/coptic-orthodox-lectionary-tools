@@ -1,0 +1,151 @@
+{
+  "accepted_ledger": "sources/coptic-reader/matins-source-accepted-2026-10-07/evidence/ordinary-coverage-current/accepted-contexts-03.jsonl",
+  "ledger_sha256": "10bf06ab609734f305be9ae86ef278a6ee5447fd4663e1195caa65e13f1b9df3",
+  "physical_line": 113,
+  "retained_raw_record_sha256": "00cf643dec96653690183f93d48000dea2aabcb3d717dcc56ed5df74e077bcb7",
+  "exact_date": "2026-01-01",
+  "home_context": "Selected Season 4th Week of Koiahk Koiahk 23, 1742 Thursday, January 1, 2026\nAgpeya\nPsalmody\nBible\nLiturgies\nReadings\nMelodies\nIndex\nClergy\nSpecial",
+  "source_time": "10:00 AM",
+  "table_sha256": "340828acacebcb385a5220261a73574cc24a4d6954443f2865435b4e49e0de29",
+  "genericTemplateQualification": false,
+  "seedSemanticStatus": "calendar_coordinates_match_only_no_recurrence_claim",
+  "original_review_status": "qualified_exact_observed_date_table",
+  "documents": [
+    {
+      "label": "Vespers",
+      "local_path": "retained-2026-01-01/Vespers.txt",
+      "sha256": "86bfccddc5e2048635f2650f3ddc4ea3ed1d85214af2d21ff6978b4a65b10053",
+      "printed_references": [
+        "Psalms 131:7,8",
+        "John 7:40-53"
+      ],
+      "numbered_English_verse_lines": [
+        "40 Therefore many from the crowd, when they heard this saying, said, \u201cTruly this is the Prophet.\u201d",
+        "41 Others said, \u201cThis is the Christ.\u201d But some said, \u201cWill the Christ come out of Galilee?",
+        "42 Has not the Scripture said that the Christ comes from the seed of David and from the town of Bethlehem, where David was?\u201d",
+        "43 So there was a division among the people because of Him.",
+        "44 Now some of them wanted to take Him, but no one laid hands on Him.",
+        "45 Then the officers came to the chief priests and Pharisees, who said to them, \u201cWhy have you not brought Him?\u201d",
+        "46 The officers answered, \u201cNo man ever spoke like this Man!\u201d",
+        "47 Then the Pharisees answered them, \u201cAre you also deceived?",
+        "48 Have any of the rulers or the Pharisees believed in Him?",
+        "49 But this crowd that does not know the law is accursed.\u201d",
+        "50 Nicodemus (he who came to Jesus by night, being one of them) said to them,",
+        "51 \u201cDoes our law judge a man before it hears him and knows what he is doing?\u201d",
+        "52 They answered and said to him, \u201cAre you also from Galilee? Search and look, for no prophet has arisen out of Galilee.\u201d",
+        "53 And everyone went to his own house."
+      ]
+    },
+    {
+      "label": "Matins-Prophecies",
+      "local_path": "retained-2026-01-01/Matins-Prophecies.txt",
+      "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "printed_references": [],
+      "numbered_English_verse_lines": []
+    },
+    {
+      "label": "Matins-Psalm and Gospel",
+      "local_path": "retained-2026-01-01/Matins-Psalm_and_Gospel.txt",
+      "sha256": "c019d8fab3e4f7920d0fac816a6a73b6fc3f5ec58aa039526bb859a66e5644c2",
+      "printed_references": [
+        "Psalms 88:13-15",
+        "Matthew 12:1-8"
+      ],
+      "numbered_English_verse_lines": [
+        "1 At that time Jesus went through the grainfields on the Sabbath. And His disciples were hungry, and began to pluck heads of grain and to eat.",
+        "2 And when the Pharisees saw it, they said to Him, \u201cLook, Your disciples are doing what is not lawful to do on the Sabbath!\u201d",
+        "3 But He said to them, \u201cHave you not read what David did when he was hungry, he and those who were with him:",
+        "4 how he entered the house of God and ate the showbread which was not lawful for him to eat, nor for those who were with him, but only for the priests?",
+        "5 Or have you not read in the law that on the Sabbath the priests in the temple profane the Sabbath, and are blameless?",
+        "6 Yet I say to you that in this place there is One greater than the temple.",
+        "7 But if you had known what this means, \u2018I desire mercy and not sacrifice,\u2019 you would not have condemned the guiltless.",
+        "8 For the Son of Man is Lord even of the Sabbath.\u201d"
+      ]
+    },
+    {
+      "label": "Liturgy-Pauline Epistle",
+      "local_path": "retained-2026-01-01/Liturgy-Pauline_Epistle.txt",
+      "sha256": "ef9d5f40a83bc962514fec449baef4dce3d47cc0432485963564315f5dbfb4f5",
+      "printed_references": [
+        "Hebrews 11:32-40"
+      ],
+      "numbered_English_verse_lines": [
+        "32 And what more shall I say? For the time would fail me to tell of Gideon and Barak and Samson and Jephthah, also of David and Samuel and the prophets:",
+        "33 who through faith subdued kingdoms, worked righteousness, obtained promises, stopped the mouths of lions,",
+        "34 quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, became valiant in battle, turned to flight the armies of the aliens.",
+        "35 Women received their dead raised to life again. Others were tortured, not accepting deliverance, that they might obtain a better resurrection.",
+        "36 Still others had trial of mockings and scourgings, yes, and of chains and imprisonment.",
+        "37 They were stoned, they were sawn in two, were tempted, were slain with the sword. They wandered about in sheepskins and goatskins, being destitute, afflicted, tormented\u2014",
+        "38 of whom the world was not worthy. They wandered in deserts and mountains, in dens and caves of the earth.",
+        "39 And all these, having obtained a good testimony through faith, did not receive the promise,",
+        "40 God having provided something better for us, that they should not be made perfect apart from us."
+      ]
+    },
+    {
+      "label": "Liturgy-Catholic Epistle",
+      "local_path": "retained-2026-01-01/Liturgy-Catholic_Epistle.txt",
+      "sha256": "471eb29258f93259dfc0e87c1718af7c600f69f2de74eff00427505acbb53334",
+      "printed_references": [
+        "James 5:7-13"
+      ],
+      "numbered_English_verse_lines": [
+        "7 Therefore be patient, brethren, until the coming of the Lord. See how the farmer waits for the precious fruit of the earth, waiting patiently for it until it receives the early and latter rain.",
+        "8 You also be patient. Establish your hearts, for the coming of the Lord is at hand.",
+        "9 Do not grumble against one another, brethren, lest you be condemned. Behold, the Judge is standing at the door!",
+        "10 My brethren, take the prophets, who spoke in the name of the Lord, as an example of suffering and patience.",
+        "11 Indeed we count them blessed who endure. You have heard of the perseverance of Job and seen the end intended by the Lord\u2014that the Lord is very compassionate and merciful.",
+        "12 But above all, my brethren, do not swear, either by heaven or by earth or with any other oath. But let your \u201cYes\u201d be \u201cYes,\u201d and your \u201cNo,\u201d \u201cNo,\u201d lest you fall into judgment.",
+        "13 Is anyone among you suffering? Let him pray. Is anyone cheerful? Let him sing psalms."
+      ]
+    },
+    {
+      "label": "Liturgy-Praxis",
+      "local_path": "retained-2026-01-01/Liturgy-Praxis.txt",
+      "sha256": "1e83fac9835f38c1a5c60ecdafcd56ad2333b1ee5634d3feac302fa82077b4e1",
+      "printed_references": [
+        "Acts 2:22-36"
+      ],
+      "numbered_English_verse_lines": [
+        "22 \u201cMen of Israel, hear these words: Jesus of Nazareth, a Man attested by God to you by miracles, wonders, and signs which God did through Him in your midst, as you yourselves also know\u2014",
+        "23 Him, being delivered by the determined purpose and foreknowledge of God, you have taken by lawless hands, have crucified, and put to death;",
+        "24 whom God raised up, having loosed the pains of death, because it was not possible that He should be held by it.",
+        "25 For David says concerning Him: \u2018I foresaw the Lord always before my face, For He is at my right hand, that I may not be shaken.",
+        "26 Therefore my heart rejoiced, and my tongue was glad; Moreover my flesh also will rest in hope.",
+        "27 For You will not leave my soul in Hades, Nor will You allow Your Holy One to see corruption.",
+        "28 You have made known to me the ways of life; You will make me full of joy in Your presence.\u2019",
+        "29 \u201cMen and brethren, let me speak freely to you of the patriarch David, that he is both dead and buried, and his tomb is with us to this day.",
+        "30 Therefore, being a prophet, and knowing that God had sworn with an oath to him that of the fruit of his body, according to the flesh, He would raise up the Christ to sit on his throne,",
+        "31 he, foreseeing this, spoke concerning the resurrection of the Christ, that His soul was not left in Hades, nor did His flesh see corruption.",
+        "32 This Jesus God has raised up, of which we are all witnesses.",
+        "33 Therefore being exalted to the right hand of God, and having received from the Father the promise of the Holy Spirit, He poured out this which you now see and hear.",
+        "34 \u201cFor David did not ascend into the heavens, but he says himself: \u2018The Lord said to my Lord, \u201cSit at My right hand,",
+        "35 Till I make Your enemies Your footstool.\u201d\u2019",
+        "36 \u201cTherefore let all the house of Israel know assuredly that God has made this Jesus, whom you crucified, both Lord and Christ.\u201d"
+      ]
+    },
+    {
+      "label": "Liturgy-Psalm and Gospel",
+      "local_path": "retained-2026-01-01/Liturgy-Psalm_and_Gospel.txt",
+      "sha256": "0a81a0484fbd94c33457e4700fdc560d461d3d556882915c1c2158b1a6137d8c",
+      "printed_references": [
+        "Psalms 77:61-63",
+        "Matthew 22:35-46"
+      ],
+      "numbered_English_verse_lines": [
+        "35 Then one of them, a lawyer, asked Him a question, testing Him, and saying,",
+        "36 \u201cTeacher, which is the great commandment in the law?\u201d",
+        "37 Jesus said to him, \u201c\u2018You shall love the Lord your God with all your heart, with all your soul, and with all your mind.\u2019",
+        "38 This is the first and great commandment.",
+        "39 And the second is like it: \u2018You shall love your neighbor as yourself.\u2019",
+        "40 On these two commandments hang all the Law and the Prophets.\u201d",
+        "41 While the Pharisees were gathered together, Jesus asked them,",
+        "42 saying, \u201cWhat do you think about the Christ? Whose Son is He?\u201d They said to Him, \u201cThe Son of David.\u201d",
+        "43 He said to them, \u201cHow then does David in the Spirit call Him \u2018Lord,\u2019 saying:",
+        "44 \u2018The Lord said to my Lord, \u201cSit at My right hand, Till I make Your enemies Your footstool\u201d\u2019?",
+        "45 If David then calls Him \u2018Lord,\u2019 how is He his Son?\u201d",
+        "46 And no one was able to answer Him a word, nor from that day on did anyone dare question Him anymore."
+      ]
+    }
+  ],
+  "scope": "Exact saved-date source only; no all-year recurrence or collision acceptance inferred."
+}

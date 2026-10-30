@@ -6,6 +6,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 const { execFileSync } = require('node:child_process');
 const root = path.resolve(__dirname, '..');
+const packageRoot = process.env.LECTIONARY_PACKAGE_UNDER_TEST || path.join(root, 'packages/lectionary-data');
 const sourceFile = 'sources/coptic-reader/last-friday-2028-04-07-2026-10-07/verified-table.json';
 const date = '2028-04-07';
 const digest = body => crypto.createHash('sha256').update(body).digest('hex');
@@ -45,24 +46,47 @@ function verify(body) {
     assert.equal(rows[i].source_row_id, `boundary:${sourceFile}:${date}:${i + 1}`);
     const { reading_order, service_order, slot_order, slot_type, ...actualMetadata } = rows[i];
     const { service_order: ignoredService, slot_order: ignoredOrder, slot_type: ignoredType, ...expectedMetadata } = design[i];
-    assert.deepEqual(actualMetadata, expectedMetadata, `metadata at source ordinal ${i + 1}`);
+    // K1-K6 adds only these declared fields. This boundary is a season,
+    // not a fixed-date or annual-Sunday key; raw labels/locators stay intact.
+    assert.deepEqual(actualMetadata, {
+      ...expectedMetadata,
+      coptic_date_key: '', annual_sunday: '', calendar_review_status: '',
+      display_label: design[i].occasion,
+      calendar_review_source_locators: [design[i].source_locator],
+      calendar_review_calendar_keys: [design[i].occasion],
+    }, `metadata at source ordinal ${i + 1}`);
   }
 }
 
 test('npm Last-Friday/Annunciation daily retains complete authenticated table and metadata', () => {
-  verify(fs.readFileSync(path.join(root, 'packages/lectionary-data/data/daily/lectionary-2028.json')));
+  verify(fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json')));
+});
+
+test('boundary oracle rejects unknown fields, calendar drift, original-metadata loss and reordered appointments', () => {
+  const body = fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json'));
+  verify(body);
+  for (const mutate of [
+    rows => { rows[0].unapproved_field = true; },
+    rows => { rows[0].calendar_review_source_locators = ['forged']; },
+    rows => { delete rows[0].source_disclosure; },
+    rows => { [rows[0], rows[1]] = [rows[1], rows[0]]; },
+  ]) {
+    const candidate = JSON.parse(body);
+    mutate(candidate[date]);
+    assert.throws(() => verify(JSON.stringify(candidate)), {code: 'ERR_ASSERTION'});
+  }
 });
 
 test('actual npm tarball retains complete Last-Friday/Annunciation table and metadata', () => {
   const destination = fs.mkdtempSync(path.join(os.tmpdir(), 'lectionary-boundary-pack-'));
   try {
     const packed = JSON.parse(execFileSync('npm', ['pack', '--json', '--pack-destination', destination], {
-      cwd: path.join(root, 'packages/lectionary-data'), encoding: 'utf8',
+      cwd: packageRoot, encoding: 'utf8',
     }));
     assert.equal(packed.length, 1);
     const tarball = path.join(destination, packed[0].filename);
     const member = execFileSync('tar', ['-xOf', tarball, 'package/data/daily/lectionary-2028.json'], { maxBuffer: 32 * 1024 * 1024 });
-    assert.deepEqual(member, fs.readFileSync(path.join(root, 'packages/lectionary-data/data/daily/lectionary-2028.json')));
+    assert.deepEqual(member, fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json')));
     verify(member);
   } finally {
     fs.rmSync(destination, { recursive: true, force: true });

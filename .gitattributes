@@ -6,3 +6,8 @@ audit_artifacts/lent-matins-prophecies-2026-10-07/builder-red.log -text -whitesp
 
 # Curated source table retains its existing CRLF bytes; CR is not trailing space.
 out/data/bright_saturday_service_order.csv -text whitespace=cr-at-eol
+
+# Retained precedence-source snapshots preserve authenticated upstream bytes.
+sources/coptic-reader/kiahk-23-qualified-2026-10-29/precedence-local/**/*.cs -text -whitespace
+# The authored review CSV uses the standard CSV writer's CRLF record endings.
+docs/reviews/holy-week-review-2026-10-29/before-after-daily-holy-week.csv -text whitespace=cr-at-eol

@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.6';
+const VERSION = '1.3.7';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -702,6 +702,16 @@ function disambiguateWeekdaySpecificRows(rows) {
   return { rows: updated, disambiguated };
 }
 
+function applyReviewRepairs(mode, payload) {
+  // No fixture/activation bypass: missing source evidence fails the real build.
+  return JSON.parse(execFileSync('python3', [path.join(REPO_ROOT, 'scripts/apply_review_repairs.py')], {
+    cwd: REPO_ROOT,
+    input: JSON.stringify({ mode, ...payload }),
+    encoding: 'utf8',
+    maxBuffer: 512 * 1024 * 1024,
+  }));
+}
+
 async function projectReverseIndex() {
   const removalEffectiveVersionBaseline = await loadRemovalEffectiveVersionBaseline();
   const body = await readFile(OCCASION_SOURCE, 'utf8');
@@ -724,20 +734,23 @@ async function projectReverseIndex() {
     if (actual !== expected) throw new Error(`Canonical occurrence source fingerprint drift: ${file}`);
   }
   const canonical = canonicalizeOccurrences(projected.rows, policy);
-  await writeFile(OCCASION_DEST, `${canonical.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
+  const reviewed = applyReviewRepairs('reverse', { rows: canonical.rows });
+  await writeFile(OCCASION_DEST, `${reviewed.rows.map((row) => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   return {
-    rows: canonical.rows,
-    activeRows: canonical.rows.filter(isCurrentReading),
+    rows: reviewed.rows,
+    activeRows: reviewed.rows.filter(isCurrentReading),
     source_rows: parsedRows.length,
-    output_rows: canonical.rows.length,
-    active_rows: canonical.rows.filter(row => !isProjectionRemovedRow(row)).length,
+    output_rows: reviewed.rows.length,
+    active_rows: reviewed.rows.filter(row => !isProjectionRemovedRow(row)).length,
+    current_rows: reviewed.rows.filter(isCurrentReading).length,
+    runtime_review: { source: 'scripts/apply_review_repairs.py', events: reviewed.events },
     canonical_occurrence_projection: {
       policy: 'sources/canonical-occurrence-policy.json',
       disposition_count: canonical.dispositions.length,
       sentinel_additions: canonical.sentinel_additions,
       dispositions_by_reason: Object.fromEntries([...new Set(canonical.dispositions.map(item => item.reason))].map(reason => [reason, canonical.dispositions.filter(item => item.reason === reason).length])),
     },
-    removed_rows_included: canonical.rows.filter(isProjectionRemovedRow).length,
+    removed_rows_included: reviewed.rows.filter(isProjectionRemovedRow).length,
     lower_priority_passage_variants_suppressed: projected.suppressions.length,
     lower_priority_passage_variants_retained_as_removed: projected.suppressions.length,
     removal_effective_version_baseline: {
@@ -1173,7 +1186,7 @@ async function countJsonlRows(filePath) {
   return rows;
 }
 
-async function readDailyInfo(year, projectedRows) {
+async function readDailyInfo(year, projectedRows, reviewedReverseRows) {
   const source = path.join(DESIGN_DIR, 'daily', `lectionary-${year}.json`);
   const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
   const body = await readFile(source, 'utf8');
@@ -1183,7 +1196,7 @@ async function readDailyInfo(year, projectedRows) {
     throw new Error(`${source} must be a JSON object keyed by ISO date.`);
   }
 
-  const sorted = {};
+  let sorted = {};
   for (const date of Object.keys(parsed).sort()) {
     const readings = parsed[date];
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
@@ -1196,6 +1209,15 @@ async function readDailyInfo(year, projectedRows) {
   }
 
   const structuralDailyAdditions = addMissingStructuralDailyRows(sorted, year, projectedRows);
+
+  const reviewed = applyReviewRepairs('daily', { year, days: sorted, reverse_rows: reviewedReverseRows });
+  sorted = Object.fromEntries(Object.entries(reviewed.days).map(([date, rows]) => [date,
+    rows.map(row => ({ ...row, service_order: serviceOrder(row.service_hour || row.service_section) })),
+  ]));
+  for (const entry of structuralDailyAdditions) {
+    entry.pre_review_reading_count = entry.reading_count;
+    entry.reading_count = sorted[entry.date].length;
+  }
 
   await writeFile(destination, `${JSON.stringify(sorted, null, 2)}\n`, 'utf8');
   const stats = await stat(destination);
@@ -1214,6 +1236,7 @@ async function readDailyInfo(year, projectedRows) {
     missing_dates: missingDates,
     structural_daily_additions: structuralDailyAdditions,
     pascha_date: julianPaschaGregorian(year),
+    runtime_review_events: reviewed.events,
   };
 }
 
@@ -1515,6 +1538,14 @@ function metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFil
     schema_notes: {
       occasion_index_fields: {
         occasion: 'Lectionary occasion label.',
+        coptic_date_key: 'Optional source-qualified fixed Coptic date in public catalog slug form; never an annual Sunday.',
+        annual_sunday: 'Optional annual Sunday month and ordinal, separate from a fixed Coptic date; any-month-5 is a source-table sentinel.',
+        display_label: 'Normalized reader-facing occasion terminology alongside retained raw labels.',
+        pascha_service: 'Explicit day or Eve identity, independently qualified by source family and kind.',
+        pascha_civil_date: 'Civil date of the qualified Pascha service, including its civil evening.',
+        occurs_in_shipped_years: 'Boolean actual-appointment presence in final shipped daily arrays, not universal recurrence or source freshness.',
+        displaced_by: 'Descriptive possible Paschal-season overlap in occurrence_scope, not a feast-precedence rule or ecclesiastical rank.',
+        composite_fragments_json: 'Original ordered source fragments and locators retained inside a single reviewed appointment.',
         service_section: 'Service section for the reading when present.',
         service_hour: 'Service hour for the reading when present.',
         slot: 'Original reading slot label from the source pipeline, preserved for provenance.',
@@ -1562,7 +1593,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
@@ -1576,8 +1607,14 @@ async function main() {
   const dailyInfos = [];
 
   for (const year of SHIPPED_YEARS) {
-    dailyInfos.push(await readDailyInfo(year, activeProjectedRows));
+    dailyInfos.push(await readDailyInfo(year, activeProjectedRows, reverseProjection.rows));
   }
+  const dailyByYear = Object.fromEntries(await Promise.all(SHIPPED_YEARS.map(async year => [
+    year, JSON.parse(await readFile(path.join(DAILY_DIR, `lectionary-${year}.json`), 'utf8')),
+  ])));
+  const occurrenceProjection = applyReviewRepairs('occurrence', { rows: reverseProjection.rows, daily_by_year: dailyByYear });
+  if (occurrenceProjection.rows.length !== occasionIndexRows) throw new Error('Occurrence metadata must not change reverse membership.');
+  await writeFile(OCCASION_DEST, `${occurrenceProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);
 

@@ -231,6 +231,11 @@ def qualified_empty_coordinate_appointment(row: dict[str, Any], *, date_key: str
 
 def validate_row_reference_bounds(row: dict[str, Any], *, date_key: str | None = None) -> dict[str, Any]:
     try:
+        if str(ROOT) not in sys.path:
+            sys.path.insert(0, str(ROOT))
+        from scripts.review_release_contract import source_owned_empty_coordinates
+        if source_owned_empty_coordinates(row, date_key=date_key):
+            return {"failures": [], "unverified": []}
         if qualified_empty_coordinate_appointment(row, date_key=date_key):
             if date_key is not None:
                 from scripts.verify_calendar_coverage import julian_pascha_gregorian
@@ -425,8 +430,17 @@ REQUIRED_REMOVED_PROJECTION_FIELDS = [
 
 def validate_removed_projection_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     failures: list[dict[str, Any]] = []
+    if str(ROOT) not in sys.path:
+        sys.path.insert(0, str(ROOT))
+    from scripts.review_release_contract import review_inactive_qualified
     for row_number, row in enumerate(rows, 1):
         if not is_removed_projection_row(row):
+            continue
+        try:
+            if review_inactive_qualified(row):
+                continue
+        except (ValueError, TypeError, KeyError) as exc:
+            failures.append({"reason": "unqualified_review_inactive", "row": row_number, "detail": str(exc)})
             continue
         missing_fields = [field for field in REQUIRED_REMOVED_PROJECTION_FIELDS if row.get(field) in (None, "")]
         if row.get("active") is not False:
@@ -758,8 +772,14 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
             if bounds["failures"]:
                 failures.append({"reason": "invalid_current_reverse_span", "row": row_number, "display_ref": row.get("display_ref"), "details": bounds["failures"]})
             unverified_spans.update(x["book"] for x in bounds["unverified"])
-        if not is_removed:
-            key = (row.get("occasion"), row.get("service_section"), row.get("service_hour"), row.get("slot"), row.get("identity_key"))
+        if is_current_reference_row(row):
+            from scripts.review_release_contract import qualified_calendar_context
+            try:
+                calendar_context = qualified_calendar_context(row)
+            except (ValueError, TypeError, KeyError) as exc:
+                failures.append({"reason": "unqualified_calendar_context", "row": row_number, "detail": str(exc)})
+                continue
+            key = (row.get("occasion"), row.get("service_section"), row.get("service_hour"), row.get("slot"), row.get("identity_key"), calendar_context)
             if key in duplicate_keys:
                 duplicate_count += 1
             else:
@@ -827,6 +847,20 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
                 actual_order_failures.append(date_key)
             for index, reading in enumerate(readings, 1):
                 if not isinstance(reading, dict):
+                    continue
+                # Daily is the default/current view, never a reverse-history view.
+                lifecycle_failure = None
+                try:
+                    if not is_current_reference_row(reading):
+                        lifecycle_failure = {"reason": "noncurrent_daily_reading"}
+                except ValueError as exc:
+                    lifecycle_failure = {"reason": "unknown_daily_reading_status", "detail": str(exc)}
+                if lifecycle_failure is not None:
+                    failures.append({**lifecycle_failure, "year": year, "date": date_key,
+                                     "reading_index": index, "identity_key": reading.get("identity_key"),
+                                     "display_ref": reading.get("display_ref"), "active": reading.get("active"),
+                                     "status": reading.get("status"), "current_status": reading.get("current_status"),
+                                     "removed_marker": reading.get("removed_marker")})
                     continue
                 if "spans_json" in reading:
                     reference_rows = [reading]

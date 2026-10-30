@@ -1,0 +1,87 @@
+{
+  "red_no_overlay": {
+    "tests": 3,
+    "failures": 3,
+    "errors": 0,
+    "log": "red-no-overlay.log",
+    "classification": "Equivalent missing-repair mutation: targeted H1/H4/H6 behavioral assertions fail; captures and membership gate unchanged."
+  },
+  "green": [
+    {
+      "command": [
+        "/Users/ga/.cache/uv/builds-v0/.tmpN8t5nC/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_holy_week_review_repairs.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "green-1.log"
+    },
+    {
+      "command": [
+        "/Users/ga/.cache/uv/builds-v0/.tmpN8t5nC/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_pascha*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "green-2.log"
+    },
+    {
+      "command": [
+        "/Users/ga/.cache/uv/builds-v0/.tmpN8t5nC/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_lamentations_joel_corrections.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "log": "green-3.log"
+    }
+  ],
+  "fresh_absent_home_exit": 0,
+  "actual_json_bridge_reverse_rows": 12217,
+  "actual_json_bridge_daily": [
+    {
+      "year": 2026,
+      "before": 4097,
+      "after": 4091,
+      "held_leaks": 0
+    },
+    {
+      "year": 2027,
+      "before": 4088,
+      "after": 4082,
+      "held_leaks": 0
+    },
+    {
+      "year": 2028,
+      "before": 4103,
+      "after": 4097,
+      "held_leaks": 0
+    }
+  ],
+  "unmodified_design_gate": "Diagnostic attempt with presentation-level additions was correctly refused: expected=12186 actual=12196 missing=0 extra=10. No gate changed or bypassed; supported integration is post-canonicalization npm overlay.",
+  "python": "3.11.15 (main, Jun  2 2026, 22:36:57) [Clang 22.1.3 ]",
+  "red_public_predicate": {
+    "tests": 1,
+    "failures": 1,
+    "errors": 0,
+    "log": "red-public-predicate.log",
+    "classification": "Removed only active:false from review holds; actual public JavaScript predicate rejects unknown hold status as expected."
+  }
+}

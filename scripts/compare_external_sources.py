@@ -311,7 +311,8 @@ def qualified_daily_signature(row):
     attestation (undated). Normalize that declared pair only; do not flatten an
     arbitrary disclosure list or strip retained body/approval metadata.
     """
-    value = dict(row)
+    from scripts.review_comparison_contract import unscoped_calendar_projection
+    value = unscoped_calendar_projection(row)
     value.pop('reading_order', None)
     value.pop('structural_day', None)
     disclosure = json.loads(value.get('source_disclosure', '[]'))
@@ -337,10 +338,12 @@ def qualified_daily_signature(row):
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'))
 
 
-def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy: dict, *, complete_year=False):
+def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy: dict, *, complete_year=False, review_release=False):
     """Qualified parity; independent correction/calendar predicates never use package membership."""
     source, package = Counter(), Counter()
-    dispositions, issues = [], []
+    from scripts import review_comparison_contract as review
+    daily, review_additions, retired_sources, dispositions, issues = review.prepare(
+        source_rows, daily, year, review_release=review_release)
     skipped = 0
     overlay_dates = {r['gregorian_date'] for r in source_rows
                      if r.get('source') == 'generated current-date overlay from local Holy Week source'}
@@ -407,8 +410,12 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
 
     for date, (lane, expected) in tables.items():
         actual = [r for r in daily.get(date, []) if lane_row(r, lane)]
-        if ([qualified_daily_signature(r) for r in actual]
-                != [qualified_daily_signature(r) for r in expected]):
+        try:
+            sequence_matches = ([qualified_daily_signature(r) for r in actual]
+                                == [qualified_daily_signature(r) for r in expected])
+        except ValueError:
+            sequence_matches = False
+        if not sequence_matches:
             issue(date, 'invalid_qualified_' + lane + '_complete_sequence', {})
         for row in actual:
             expected_day = '' if lane == 'jonah' else ('Bright Saturday' if lane == 'bright' else 'Great Thursday')
@@ -423,8 +430,14 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
                 issue(date, 'invalid_qualified_jonah_complete_source_table', {})
     hosanna_date = (julian_pascha_gregorian(year) - dt.timedelta(days=7)).isoformat()
     if hosanna_date in daily:
-        matches = [r for r in daily[hosanna_date] if all(r.get(k, '') == v for k, v in hosanna.items())
-                   and not (set(r) - set(hosanna) - {'reading_order'})]
+        matches = []
+        for row in daily[hosanna_date]:
+            try:
+                row = review.unscoped_calendar_projection(row)
+            except ValueError:
+                continue
+            if all(row.get(k, '') == v for k, v in hosanna.items()) and not (set(row) - set(hosanna) - {'reading_order'}):
+                matches.append(row)
         if len(matches) != 1:
             issue(hosanna_date, 'invalid_qualified_hosanna_membership', {})
         ninth = [r.get('slot') for r in daily[hosanna_date]
@@ -514,9 +527,16 @@ def contextual_counters(source_rows: list[dict], daily: dict, year: int, policy:
         return next((r for r in supplement_rules if r['pascha_offset_days'] == offset
                      and r['day_title'] == occasion), None)
 
+    for date, row in review_additions:
+        source[key(date, row, False)] += 1
+
     for row in source_rows:
         date = row.get('gregorian_date', '')
         if not date.startswith(f'{year}-'):
+            continue
+        retired_signature = review.source_signature(row)
+        if retired_sources[retired_signature]:
+            retired_sources[retired_signature] -= 1
             continue
         title, section = row.get('day_title', ''), row.get('service_section', '')
         rule = next((r for r in suppression_rules if r['day_title'] == title and r['service_section'] == section), None)
@@ -708,7 +728,7 @@ def compare_copticchurch_cache(package_dir: Path = PACKAGE_DIR, source_index: Pa
         package_total_rows = sum(len(rows) for rows in daily.values())
         # The canonical current sidecar declares full-year scope. An explicitly
         # supplied subset index is a bounded parity probe, not a full-year claim.
-        source, package, skipped_structural_rows, dispositions, issues = contextual_counters(source_rows, daily, int(year), policy, complete_year=source_index.resolve() == SOURCE_INDEX.resolve())
+        source, package, skipped_structural_rows, dispositions, issues = contextual_counters(source_rows, daily, int(year), policy, complete_year=source_index.resolve() == SOURCE_INDEX.resolve(), review_release=meta.get('version') == '1.3.7')
         audit_dispositions.extend(dispositions)
         delta_rows = counter_delta_rows(int(year), source, package) + issues
         comparison_rows.extend(delta_rows)

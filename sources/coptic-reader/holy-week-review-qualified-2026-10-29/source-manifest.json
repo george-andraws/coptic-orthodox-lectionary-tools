@@ -1,0 +1,1033 @@
+{
+  "schema": "holy_week_review_retained_evidence_v1",
+  "source_url": "https://copticreader.org/app/",
+  "fresh_app_verification": false,
+  "capture_time": null,
+  "app_version": null,
+  "retention_date_is_capture_date": false,
+  "qualification": "Retained full rendered Reader documents copied from prior local source packs. Titles establish named service/hour. No fresh app visit or screenshot-time assertion. Psalm headings retained as printed; no new Psalm coordinate approval.",
+  "documents": {
+    "tuesday--wednesday-eve--1st-hour": {
+      "file": "tuesday--wednesday-eve--1st-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-23/evidence/specialists/worship-routes/captures/retained-pascha-tuesday--wednesday-eve--1st-hour.txt",
+      "sha256": "5837bee002f933bb108d0c353682385be8464f2afdf8d13a228a8a4083fb6177",
+      "bytes": 37707,
+      "document_title": "Wednesday Eve (The First Hour)",
+      "service": "eve_of_wednesday",
+      "hour": "First Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tEzekiel 22:17-22",
+          "printed_ref": "Ezekiel 22:17-22",
+          "canonical_mt_ref": "Ezek 22:17-22",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 41,
+          "heading_exact": "\tEzekiel 22:23-29",
+          "printed_ref": "Ezekiel 22:23-29",
+          "canonical_mt_ref": "Ezek 22:23-29",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 139,
+          "heading_exact": "\tPsalm 58: 13,14",
+          "printed_ref": "Psalm 58: 13,14",
+          "canonical_mt_ref": "Ps 58:13-14",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 153,
+          "heading_exact": "\tMatthew 22:1-14",
+          "printed_ref": "Matthew 22:1-14",
+          "canonical_mt_ref": "Matt 22:1-14",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "tuesday--wednesday-eve--6th-hour": {
+      "file": "tuesday--wednesday-eve--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-46-47-v1/worship-routes/captures/tuesday--wednesday-eve--6th-hour.txt",
+      "sha256": "6503406999863241704e911f84dab04ff2e3c69335cf4a6ab105dd4cb423c422",
+      "bytes": 30132,
+      "document_title": "Wednesday Eve (The Sixth Hour)",
+      "service": "eve_of_wednesday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tJeremiah 16:9-13",
+          "printed_ref": "Jeremiah 16:9-13",
+          "canonical_mt_ref": "Jer 16:9-13",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 119,
+          "heading_exact": "\tPsalm 101:1,2",
+          "printed_ref": "Psalm 101:1,2",
+          "canonical_mt_ref": "Ps 101:1-2",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 133,
+          "heading_exact": "\tMatthew 25:1-13",
+          "printed_ref": "Matthew 25:1-13",
+          "canonical_mt_ref": "Matt 25:1-13",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "sunday--monday-eve--3rd-hour": {
+      "file": "sunday--monday-eve--3rd-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/leviticus-final-block-20261013/sources/coptic/retained/sunday--monday-eve--3rd-hour.txt",
+      "sha256": "a477b4f0f8d93c5bd2a672b20bc7317f03c181c7770ace1abcbfaabc57d75cf4",
+      "bytes": 27970,
+      "document_title": "Monday Eve (The Third Hour)",
+      "service": "eve_of_monday",
+      "hour": "Third Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tZephaniah 1:14-2:2",
+          "printed_ref": "Zephaniah 1:14-2:2",
+          "canonical_mt_ref": "Zeph 1:14-2:2",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 128,
+          "heading_exact": "\tPsalm 27:10, 2",
+          "printed_ref": "Psalm 27:10, 2",
+          "canonical_mt_ref": "Ps 27:2,27:10",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 142,
+          "heading_exact": "\tLuke 9:18-22",
+          "printed_ref": "Luke 9:18-22",
+          "canonical_mt_ref": "Lk 9:18-22",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "sunday--monday-eve--11th-hour": {
+      "file": "sunday--monday-eve--11th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-41-v1/worship-routes/retained-source/sunday--monday-eve--11th-hour.txt",
+      "sha256": "8107a7f76a3b66f21308f1be9488744cc850c51159f90f460105ccffa94c6b6a",
+      "bytes": 74320,
+      "document_title": "Monday Eve (The Eleventh Hour)",
+      "service": "eve_of_monday",
+      "hour": "Eleventh Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tMicah 3:1-4",
+          "printed_ref": "Micah 3:1-4",
+          "canonical_mt_ref": "Mic 3:1-4",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 110,
+          "heading_exact": "\tPsalm 17:16-17",
+          "printed_ref": "Psalm 17:16-17",
+          "canonical_mt_ref": "Ps 17:16-17",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 124,
+          "heading_exact": "\tMatthew 17:19-23",
+          "printed_ref": "Matthew 17:19-23",
+          "canonical_mt_ref": "Matt 17:19-23",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "friday--6th-hour": {
+      "file": "friday--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/leviticus-final-block-20261013/sources/coptic/retained/friday--6th-hour.txt",
+      "sha256": "aae5386449ddad8f45ca625402bd4ed3ee9c885c10c05e161e69f77e02110c57",
+      "bytes": 155262,
+      "document_title": "Great Friday (The Sixth Hour)",
+      "service": "good_friday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 13,
+          "heading_exact": "\tNumbers 21:1-9",
+          "printed_ref": "Numbers 21:1-9",
+          "canonical_mt_ref": "Num 21:1-9",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 51,
+          "heading_exact": "\tIsaiah 53:7-12",
+          "printed_ref": "Isaiah 53:7-12",
+          "canonical_mt_ref": "Isa 53:7-12",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 83,
+          "heading_exact": "\tIsaiah 12:2-13:10",
+          "printed_ref": "Isaiah 12:2-13:10",
+          "canonical_mt_ref": "Isa 12:2-13:10",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 141,
+          "heading_exact": "\tAmos 8:9-12",
+          "printed_ref": "Amos 8:9-12",
+          "canonical_mt_ref": "Amos 8:9-12",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 304,
+          "heading_exact": "\tGalatians 6:14-18",
+          "printed_ref": "Galatians 6:14-18",
+          "canonical_mt_ref": "Gal 6:14-18",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 482,
+          "heading_exact": "\tPsalm 37:21-22, 21:16-18,8",
+          "printed_ref": "Psalm 37:21-22, 21:16-18,8",
+          "canonical_mt_ref": "Ps 21:8,21:16-18,37:21-22",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 499,
+          "heading_exact": "\tMatthew 27:27-45",
+          "printed_ref": "Matthew 27:27-45",
+          "canonical_mt_ref": "Matt 27:27-45",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 592,
+          "heading_exact": "\tMark 15:26-33",
+          "printed_ref": "Mark 15:26-33",
+          "canonical_mt_ref": "Mark 15:26-33",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 635,
+          "heading_exact": "\tLuke 23:26-44",
+          "printed_ref": "Luke 23:26-44",
+          "canonical_mt_ref": "Lk 23:26-44",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 711,
+          "heading_exact": "\tJohn 19:13-27",
+          "printed_ref": "John 19:13-27",
+          "canonical_mt_ref": "Jn 19:13-27",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": [
+        "Galatians 6:14-18"
+      ]
+    },
+    "friday--11th-hour": {
+      "file": "friday--11th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/leviticus-final-block-20261013/sources/coptic/retained/friday--11th-hour.txt",
+      "sha256": "32e1cab53d275e25ff1b574c5bdaa624a95fecc935f19c38ef69f64835816d1b",
+      "bytes": 77790,
+      "document_title": "Great Friday (The Eleventh Hour)",
+      "service": "good_friday",
+      "hour": "Eleventh Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tExodus 12:1-14",
+          "printed_ref": "Exodus 12:1-14",
+          "canonical_mt_ref": "Exod 12:1-14",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 186,
+          "heading_exact": "\tPsalm 142:6-7, 30:5",
+          "printed_ref": "Psalm 142:6-7, 30:5",
+          "canonical_mt_ref": "Ps 30:5,142:6-7",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 203,
+          "heading_exact": "\tMatthew 27:51-56",
+          "printed_ref": "Matthew 27:51-56",
+          "canonical_mt_ref": "Matt 27:51-56",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 256,
+          "heading_exact": "\tMark 15:38-41",
+          "printed_ref": "Mark 15:38-41",
+          "canonical_mt_ref": "Mark 15:38-41",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 287,
+          "heading_exact": "\tLuke 23:47-49",
+          "printed_ref": "Luke 23:47-49",
+          "canonical_mt_ref": "Lk 23:47-49",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 315,
+          "heading_exact": "\tJohn 19:31-37",
+          "printed_ref": "John 19:31-37",
+          "canonical_mt_ref": "Jn 19:31-37",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "wednesday--thursday-eve--1st-hour": {
+      "file": "wednesday--thursday-eve--1st-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-23/evidence/specialists/worship-routes/captures/retained-pascha-wednesday--thursday-eve--1st-hour.txt",
+      "sha256": "ea2dee966adbe3b50e174b5d668f8a84c1b824fc45c7fbd87abd6e598dbbe9f3",
+      "bytes": 28748,
+      "document_title": "Covenant Thursday Eve (The First Hour)",
+      "service": "eve_of_thursday",
+      "hour": "First Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tEzekiel 43:5-11",
+          "printed_ref": "Ezekiel 43:5-11",
+          "canonical_mt_ref": "Ezek 43:5-11",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 122,
+          "heading_exact": "\tPsalm 68:1, 13",
+          "printed_ref": "Psalm 68:1, 13",
+          "canonical_mt_ref": "Ps 68:1,68:13",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 136,
+          "heading_exact": "\tJohn 10:17-21",
+          "printed_ref": "John 10:17-21",
+          "canonical_mt_ref": "Jn 10:17-21",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "monday--tuesday-eve--3rd-hour": {
+      "file": "monday--tuesday-eve--3rd-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/leviticus-final-block-20261013/sources/coptic/retained/monday--tuesday-eve--3rd-hour.txt",
+      "sha256": "3ea341eaa6e0a2323c73a2d46684dfecd6c09be64ffadd9766a0a48db1c1a1ce",
+      "bytes": 30128,
+      "document_title": "Tuesday Eve (The Third Hour)",
+      "service": "eve_of_tuesday",
+      "hour": "Third Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tMalachi 1:1-9",
+          "printed_ref": "Malachi 1:1-9",
+          "canonical_mt_ref": "Mal 1:1-9",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 128,
+          "heading_exact": "\tPsalm 12:4,6",
+          "printed_ref": "Psalm 12:4,6",
+          "canonical_mt_ref": "Ps 12:4,12:6",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 142,
+          "heading_exact": "\tLuke 13:31-35",
+          "printed_ref": "Luke 13:31-35",
+          "canonical_mt_ref": "Lk 13:31-35",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "monday--tuesday-eve--11th-hour": {
+      "file": "monday--tuesday-eve--11th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-41-v1/worship-routes/retained-source/monday--tuesday-eve--11th-hour.txt",
+      "sha256": "8de3be134a587d53d26c49bf33c8a05242c41959e4ef03de8af48a6e219fb232",
+      "bytes": 77969,
+      "document_title": "Tuesday Eve (The Eleventh Hour)",
+      "service": "eve_of_tuesday",
+      "hour": "Eleventh Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tAmos 5:6-14",
+          "printed_ref": "Amos 5:6-14",
+          "canonical_mt_ref": "Amos 5:6-14",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 116,
+          "heading_exact": "\tPsalm 121:4",
+          "printed_ref": "Psalm 121:4",
+          "canonical_mt_ref": "Ps 121:4",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 130,
+          "heading_exact": "\tMark 13:32-14:2",
+          "printed_ref": "Mark 13:32-14:2",
+          "canonical_mt_ref": "Mark 13:32-14:2",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "thursday--thursday-day--9th-hour": {
+      "file": "thursday--thursday-day--9th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/leviticus-final-block-20261013/sources/coptic/retained/thursday--thursday-day--9th-hour.txt",
+      "sha256": "087f6a8dd0e7868a64500185d2f9e4527ec90a11ae44d4ef6b678c539aab58b2",
+      "bytes": 88898,
+      "document_title": "Covenant Thursday (The Ninth Hour)",
+      "service": "great_thursday",
+      "hour": "Ninth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tGenesis 22:1-19",
+          "printed_ref": "Genesis 22:1-19",
+          "canonical_mt_ref": "Gen 22:1-19",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 83,
+          "heading_exact": "\tIsaiah 61:1-7",
+          "printed_ref": "Isaiah 61:1-7",
+          "canonical_mt_ref": "Isa 61:1-7",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 126,
+          "heading_exact": "\tJob 27:1-28:13",
+          "printed_ref": "Job 27:1-28:13",
+          "canonical_mt_ref": "Job 27:1-28:13",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 286,
+          "heading_exact": "\tPsalm 22:1",
+          "printed_ref": "Psalm 22:1",
+          "canonical_mt_ref": "Ps 22:1",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 300,
+          "heading_exact": "\tMatthew 26:17-19",
+          "printed_ref": "Matthew 26:17-19",
+          "canonical_mt_ref": "Matt 26:17-19",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "thursday--thursday-day--6th-hour": {
+      "file": "thursday--thursday-day--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/leviticus-final-block-20261013/sources/coptic/retained/thursday--thursday-day--6th-hour.txt",
+      "sha256": "4318fbbce5db75e4033b7f56f9487be2b4d9ffa051dfea33d78051984add367e",
+      "bytes": 39810,
+      "document_title": "Covenant Thursday (The Sixth Hour)",
+      "service": "great_thursday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tJeremiah 7:1-15",
+          "printed_ref": "Jeremiah 7:1-15",
+          "canonical_mt_ref": "Jer 7:1-15",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 68,
+          "heading_exact": "\tEzekiel 20:39-44",
+          "printed_ref": "Ezekiel 20:39-44",
+          "canonical_mt_ref": "Ezek 20:39-44",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 106,
+          "heading_exact": "\tSirach 12:13-13:1",
+          "printed_ref": "Sirach 12:13-13:1",
+          "canonical_mt_ref": "Sir 12:13-13:1",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 207,
+          "heading_exact": "\tPsalm 30:18,13",
+          "printed_ref": "Psalm 30:18,13",
+          "canonical_mt_ref": "Ps 30:13,30:18",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 221,
+          "heading_exact": "\tMark 14:12-16",
+          "printed_ref": "Mark 14:12-16",
+          "canonical_mt_ref": "Mark 14:12-16",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "wednesday--thursday-eve--3rd-hour": {
+      "file": "wednesday--thursday-eve--3rd-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-36/evidence/specialists/worship-routes/captures/retained/pascha/wednesday--thursday-eve--3rd-hour.txt",
+      "sha256": "82d58ce7caa09a34981bb0a76883109fd19196aa108388ae71719d86ec885423",
+      "bytes": 34326,
+      "document_title": "Covenant Thursday Eve (The Third Hour)",
+      "service": "eve_of_thursday",
+      "hour": "Third Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tAmos 4:4-13",
+          "printed_ref": "Amos 4:4-13",
+          "canonical_mt_ref": "Amos 4:4-13",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 143,
+          "heading_exact": "\tPsalm 54:18, 1",
+          "printed_ref": "Psalm 54:18, 1",
+          "canonical_mt_ref": "Ps 54:1,54:18",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 158,
+          "heading_exact": "\tMark 14:3-11",
+          "printed_ref": "Mark 14:3-11",
+          "canonical_mt_ref": "Mark 14:3-11",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "wednesday--thursday-eve--6th-hour": {
+      "file": "wednesday--thursday-eve--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-46-47-v1/worship-routes/captures/wednesday--thursday-eve--6th-hour.txt",
+      "sha256": "f814e9a87ee846c623c65a12a3b9c3cfd32ce407848ffd8723f19be37c984da2",
+      "bytes": 31772,
+      "document_title": "Covenant Thursday Eve (The Sixth Hour)",
+      "service": "eve_of_thursday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tAmos 3:1-11",
+          "printed_ref": "Amos 3:1-11",
+          "canonical_mt_ref": "Amos 3:1-11",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 128,
+          "heading_exact": "\tPsalm 139:1,2",
+          "printed_ref": "Psalm 139:1,2",
+          "canonical_mt_ref": "Ps 139:1-2",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 142,
+          "heading_exact": "\tJohn 12:36-43",
+          "printed_ref": "John 12:36-43",
+          "canonical_mt_ref": "Jn 12:36-43",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "thursday--friday-eve--1st-hour": {
+      "file": "thursday--friday-eve--1st-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-23/evidence/specialists/worship-routes/captures/retained-pascha-thursday--friday-eve--1st-hour.txt",
+      "sha256": "d0cb858677025a5968b48b27ebea7325d41a7240e8dc1b15704010a8c455a2fc",
+      "bytes": 108750,
+      "document_title": "Great Friday Eve (The First Hour)",
+      "service": "eve_of_friday",
+      "hour": "First Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tJeremiah 8:17-9:6",
+          "printed_ref": "Jeremiah 8:17-9:6",
+          "canonical_mt_ref": "Jer 8:17-9:6",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 125,
+          "heading_exact": "\tPsalm 101:1,7",
+          "printed_ref": "Psalm 101:1,7",
+          "canonical_mt_ref": "Ps 101:1,101:7",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 139,
+          "heading_exact": "\tJohn 13:33-14:25",
+          "printed_ref": "John 13:33-14:25",
+          "canonical_mt_ref": "Jn 13:33-14:25",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 258,
+          "heading_exact": "\tJohn 14:26-15:25",
+          "printed_ref": "John 14:26-15:25",
+          "canonical_mt_ref": "Jn 14:26-15:25",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 355,
+          "heading_exact": "\tJohn 15:26-16:33",
+          "printed_ref": "John 15:26-16:33",
+          "canonical_mt_ref": "Jn 15:26-16:33",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 458,
+          "heading_exact": "\tJohn 17:1-26",
+          "printed_ref": "John 17:1-26",
+          "canonical_mt_ref": "Jn 17:1-26",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "thursday--friday-eve--3rd-hour": {
+      "file": "thursday--friday-eve--3rd-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-36/evidence/specialists/worship-routes/captures/retained/pascha/thursday--friday-eve--3rd-hour.txt",
+      "sha256": "5b80e7e053aaa9408689f1cf0ccfdc3a862f4b84be30899e64bed4fd88fb0c45",
+      "bytes": 43928,
+      "document_title": "Great Friday Eve (The Third Hour)",
+      "service": "eve_of_friday",
+      "hour": "Third Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tEzekiel 36:16-23",
+          "printed_ref": "Ezekiel 36:16-23",
+          "canonical_mt_ref": "Ezek 36:16-23",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 113,
+          "heading_exact": "\tPsalm 108:1,2",
+          "printed_ref": "Psalm 108:1,2",
+          "canonical_mt_ref": "Ps 108:1-2",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 127,
+          "heading_exact": "\tMatthew 26:30-35",
+          "printed_ref": "Matthew 26:30-35",
+          "canonical_mt_ref": "Matt 26:30-35",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 177,
+          "heading_exact": "\tMark 14:26-31",
+          "printed_ref": "Mark 14:26-31",
+          "canonical_mt_ref": "Mark 14:26-31",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 211,
+          "heading_exact": "\tLuke 22:31-39",
+          "printed_ref": "Luke 22:31-39",
+          "canonical_mt_ref": "Lk 22:31-39",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 251,
+          "heading_exact": "\tJohn 18:1,2",
+          "printed_ref": "John 18:1,2",
+          "canonical_mt_ref": "Jn 18:1-2",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "thursday--friday-eve--6th-hour": {
+      "file": "thursday--friday-eve--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-23/evidence/specialists/worship-routes/captures/retained-pascha-thursday--friday-eve--6th-hour.txt",
+      "sha256": "2e7845ddfcb74941322020129c2d3078f7909aece7cd1c7c4c12522de1981001",
+      "bytes": 48799,
+      "document_title": "Great Friday Eve (The Sixth Hour)",
+      "service": "eve_of_friday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tEzekiel 22:23-28",
+          "printed_ref": "Ezekiel 22:23-28",
+          "canonical_mt_ref": "Ezek 22:23-28",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 110,
+          "heading_exact": "\tPsalm 58:1,68:18",
+          "printed_ref": "Psalm 58:1,68:18",
+          "canonical_mt_ref": "Ps 58:1,68:18",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 124,
+          "heading_exact": "\tMatthew 26:36-46",
+          "printed_ref": "Matthew 26:36-46",
+          "canonical_mt_ref": "Matt 26:36-46",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 189,
+          "heading_exact": "\tMark 14:32-42",
+          "printed_ref": "Mark 14:32-42",
+          "canonical_mt_ref": "Mark 14:32-42",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 241,
+          "heading_exact": "\tLuke 22:40-46",
+          "printed_ref": "Luke 22:40-46",
+          "canonical_mt_ref": "Lk 22:40-46",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 278,
+          "heading_exact": "\tJohn 18:3-9",
+          "printed_ref": "John 18:3-9",
+          "canonical_mt_ref": "Jn 18:3-9",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "friday--9th-hour": {
+      "file": "friday--9th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-23/evidence/specialists/worship-routes/captures/retained-pascha-friday--9th-hour.txt",
+      "sha256": "be608e44de875f94139f230f9170d23ee3d81a9af56de3cf9e5f9d9dec6312ae",
+      "bytes": 100849,
+      "document_title": "Great Friday (The Ninth Hour)",
+      "service": "good_friday",
+      "hour": "Ninth Hour",
+      "readings": [
+        {
+          "heading_line": 13,
+          "heading_exact": "\tJeremiah 11:17-12:13",
+          "printed_ref": "Jeremiah 11:17-12:13",
+          "canonical_mt_ref": "Jer 11:17-12:13",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 81,
+          "heading_exact": "\tZechariah 14:5-11",
+          "printed_ref": "Zechariah 14:5-11",
+          "canonical_mt_ref": "Zech 14:5-11",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 255,
+          "heading_exact": "\tPhilippians 2:4-11",
+          "printed_ref": "Philippians 2:4-11",
+          "canonical_mt_ref": "Phil 2:4-11",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 425,
+          "heading_exact": "\tPsalm 69:1-2,21",
+          "printed_ref": "Psalm 69:1-2,21",
+          "canonical_mt_ref": "Ps 69:1-2,69:21",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 439,
+          "heading_exact": "\tMatthew 27:46-50",
+          "printed_ref": "Matthew 27:46-50",
+          "canonical_mt_ref": "Matt 27:46-50",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 489,
+          "heading_exact": "\tMark 15:34-37",
+          "printed_ref": "Mark 15:34-37",
+          "canonical_mt_ref": "Mark 15:34-37",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 523,
+          "heading_exact": "\tLuke 23:45-46",
+          "printed_ref": "Luke 23:45-46",
+          "canonical_mt_ref": "Lk 23:45-46",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 548,
+          "heading_exact": "\tJohn 19:28-30",
+          "printed_ref": "John 19:28-30",
+          "canonical_mt_ref": "Jn 19:28-30",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": [
+        "Philippians 2:4-11"
+      ]
+    },
+    "wednesday--wednesday-day--11th-hour": {
+      "file": "wednesday--wednesday-day--11th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-23/evidence/specialists/worship-routes/captures/retained-pascha-wednesday--wednesday-day--11th-hour.txt",
+      "sha256": "176c2b256e21c2a43045ae7c2f258d6b96212f7adabef669f92cde6c89180b13",
+      "bytes": 73603,
+      "document_title": "Wednesday (The Eleventh Hour)",
+      "service": "wednesday",
+      "hour": "Eleventh Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tIsaiah 28:16-29",
+          "printed_ref": "Isaiah 28:16-29",
+          "canonical_mt_ref": "Isa 28:16-29",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 174,
+          "heading_exact": "\tPsalm 6:2-3,68:17",
+          "printed_ref": "Psalm 6:2-3,68:17",
+          "canonical_mt_ref": "Ps 6:2-3,68:17",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 188,
+          "heading_exact": "\tJohn 12:27-36",
+          "printed_ref": "John 12:27-36",
+          "canonical_mt_ref": "Jn 12:27-36",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "wednesday--wednesday-day--6th-hour": {
+      "file": "wednesday--wednesday-day--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-28/evidence/specialists/worship-routes/captures/retained-reader-wednesday--wednesday-day--6th-hour.txt",
+      "sha256": "f6f24456423d691caa5bcad3aa46cd44c44c60646000b3cd2229c48b3180bfb5",
+      "bytes": 87631,
+      "document_title": "Wednesday (The Sixth Hour)",
+      "service": "wednesday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tExodus 14:13-15:1",
+          "printed_ref": "Exodus 14:13-15:1",
+          "canonical_mt_ref": "Exod 14:13-15:1",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 86,
+          "heading_exact": "\tSirach 23:7-19",
+          "printed_ref": "Sirach 23:7-19",
+          "canonical_mt_ref": "Sir 23:7-19",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 357,
+          "heading_exact": "\tPsalm 82:2, 4",
+          "printed_ref": "Psalm 82:2, 4",
+          "canonical_mt_ref": "Ps 82:2,82:4",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 371,
+          "heading_exact": "\tJohn 12:1-8",
+          "printed_ref": "John 12:1-8",
+          "canonical_mt_ref": "Jn 12:1-8",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "monday--monday-day--1st-hour": {
+      "file": "monday--monday-day--1st-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/batch-24/evidence/specialists/worship-routes/captures/reader-pascha-monday--monday-day--1st-hour.txt",
+      "sha256": "969a75243def0a4ccb42bff8143893baa997fb644fb9141984a6e8bac2b7f4c0",
+      "bytes": 77250,
+      "document_title": "Monday (The First Hour)",
+      "service": "monday",
+      "hour": "First Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tGenesis 1:1-2:3",
+          "printed_ref": "Genesis 1:1-2:3",
+          "canonical_mt_ref": "Gen 1:1-2:3",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 131,
+          "heading_exact": "\tIsaiah 5:1-9",
+          "printed_ref": "Isaiah 5:1-9",
+          "canonical_mt_ref": "Isa 5:1-9",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 183,
+          "heading_exact": "\tSirach 1:1-24",
+          "printed_ref": "Sirach 1:1-24",
+          "canonical_mt_ref": "Sir 1:1-24",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 333,
+          "heading_exact": "\tPsalm 71:18",
+          "printed_ref": "Psalm 71:18",
+          "canonical_mt_ref": "Ps 71:18",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 347,
+          "heading_exact": "\tMark 11:12-24",
+          "printed_ref": "Mark 11:12-24",
+          "canonical_mt_ref": "Mark 11:12-24",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "monday--monday-day--3rd-hour": {
+      "file": "monday--monday-day--3rd-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-41-v1/worship-routes/retained-source/monday--monday-day--3rd-hour.txt",
+      "sha256": "18f6143cbaaf3e281ff2f5da3a785445ab875c0ac224bf0f974ab552a53709bd",
+      "bytes": 40622,
+      "document_title": "Monday (The Third Hour)",
+      "service": "monday",
+      "hour": "Third Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tIsaiah 5:20-30",
+          "printed_ref": "Isaiah 5:20-30",
+          "canonical_mt_ref": "Isa 5:20-30",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 71,
+          "heading_exact": "\tJeremiah 9:12-19",
+          "printed_ref": "Jeremiah 9:12-19",
+          "canonical_mt_ref": "Jer 9:12-19",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 172,
+          "heading_exact": "\tPsalm 121:1-2",
+          "printed_ref": "Psalm 121:1-2",
+          "canonical_mt_ref": "Ps 121:1-2",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 186,
+          "heading_exact": "\tMark 11:11-19",
+          "printed_ref": "Mark 11:11-19",
+          "canonical_mt_ref": "Mark 11:11-19",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "monday--monday-day--6th-hour": {
+      "file": "monday--monday-day--6th-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-41-v1/worship-routes/retained-source/monday--monday-day--6th-hour.txt",
+      "sha256": "cd70356d7bd60e8208db48de322e73f2be711059584114e550c9181782ea1462",
+      "bytes": 35719,
+      "document_title": "Monday (The Sixth Hour)",
+      "service": "monday",
+      "hour": "Sixth Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tExodus 32:7-15",
+          "printed_ref": "Exodus 32:7-15",
+          "canonical_mt_ref": "Exod 32:7-15",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 56,
+          "heading_exact": "\tWisdom of Solomon 1:1-9",
+          "printed_ref": "Wisdom of Solomon 1:1-9",
+          "canonical_mt_ref": "Wis 1:1-9",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 166,
+          "heading_exact": "\tPsalm 121:4",
+          "printed_ref": "Psalm 121:4",
+          "canonical_mt_ref": "Ps 121:4",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 180,
+          "heading_exact": "\tJohn 2:13-17",
+          "printed_ref": "John 2:13-17",
+          "canonical_mt_ref": "Jn 2:13-17",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    },
+    "tuesday--tuesday-day--3rd-hour": {
+      "file": "tuesday--tuesday-day--3rd-hour.txt",
+      "original_capture_path": "/Users/ga/workspace/psalms-review-20261022/evidence/preparation-41-v1/worship-routes/retained-source/tuesday--tuesday-day--3rd-hour.txt",
+      "sha256": "9d140c21a75dda8de379fa9a8038e5a0b77a369a930410b5cb65221211ec1cc8",
+      "bytes": 52592,
+      "document_title": "Tuesday (The Third Hour)",
+      "service": "tuesday",
+      "hour": "Third Hour",
+      "readings": [
+        {
+          "heading_line": 12,
+          "heading_exact": "\tDeuteronomy 8:11-20",
+          "printed_ref": "Deuteronomy 8:11-20",
+          "canonical_mt_ref": "Deut 8:11-20",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 53,
+          "heading_exact": "\tSirach 2:1-9",
+          "printed_ref": "Sirach 2:1-9",
+          "canonical_mt_ref": "Sir 2:1-9",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 82,
+          "heading_exact": "\tJob 27:1-28:2",
+          "printed_ref": "Job 27:1-28:2",
+          "canonical_mt_ref": "Job 27:1-28:2",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 159,
+          "heading_exact": "\t1 kings 19:9-14",
+          "printed_ref": "1 kings 19:9-14",
+          "canonical_mt_ref": "1Kgs 19:9-14",
+          "is_psalm": false
+        },
+        {
+          "heading_line": 257,
+          "heading_exact": "\tPsalm 118:118, 119",
+          "printed_ref": "Psalm 118:118, 119",
+          "canonical_mt_ref": "Ps 118:118-119",
+          "is_psalm": true
+        },
+        {
+          "heading_line": 271,
+          "heading_exact": "\tMatthew 23:37-24:2",
+          "printed_ref": "Matthew 23:37-24:2",
+          "canonical_mt_ref": "Matt 23:37-24:2",
+          "is_psalm": false
+        }
+      ],
+      "pauline_readings": []
+    }
+  }
+}

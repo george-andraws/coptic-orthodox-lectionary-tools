@@ -30,6 +30,7 @@ test('readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata', 
       fs.copyFileSync(path.join(root, file), path.join(fixture, file));
     }
     fs.copyFileSync(process.env.LECTIONARY_BUILDER_UNDER_TEST || path.join(root, 'scripts/build_npm_package.mjs'), path.join(fixture, 'scripts/build_npm_package.mjs'));
+    require('./helpers/copy_review_build_inputs.cjs')(root, fixture);
     execFileSync('git', ['init', '-q'], { cwd: fixture });
     execFileSync('git', ['-c', 'user.name=Test', '-c', 'user.email=test@example.invalid', 'commit', '--allow-empty', '-qm', 'fixture'], { cwd: fixture });
     const beforeMeta = JSON.parse(fs.readFileSync(path.join(destination, 'meta.json')));
@@ -41,7 +42,7 @@ test('readings rebuild preserves 1.3 catalog, UTC calendar, APIs and metadata', 
     assert.deepEqual(meta.synaxarium, beforeMeta.synaxarium);
     assert.equal(meta.schemaVersion, beforeMeta.schemaVersion);
     const manifest = JSON.parse(fs.readFileSync(path.join(destination, 'package.json')));
-    assert.equal(manifest.version, '1.3.6');
+    assert.equal(manifest.version, '1.3.7');
     assert.deepEqual(manifest.files, JSON.parse(fs.readFileSync(path.join(original, 'package.json'))).files);
     const api = require(destination);
     assert.equal(api.synaxariumMeta.day_count, 366);

@@ -1,0 +1,95 @@
+{
+  "source_url": "https://copticreader.org/app/",
+  "document_url_note": "Public app entry URL retained. Document text and screenshots establish UI navigation; exact document-route URL was not recorded before the browser target reset.",
+  "navigation": [
+    "Readings",
+    "Matins",
+    "Psalm and Gospel"
+  ],
+  "civil_date": "2028-01-02",
+  "coptic_date": "Koiahk 23, 1744",
+  "occasion": "4th Sunday of Koiahk",
+  "picker_clock_display": "12:00 PM",
+  "picker_envelope": "Morning (explicitly selected; switch checked=false; do not describe noon as 10 AM)",
+  "printed_references": [
+    "Psalms 95:10,11,12",
+    "Mark 3:28-35"
+  ],
+  "numbered_English_verse_lines": [
+    "28 “Assuredly, I say to you, all sins will be forgiven the sons of men, and whatever blasphemies they may utter;",
+    "29 but he who blasphemes against the Holy Spirit never has forgiveness, but is subject to eternal condemnation”—",
+    "30 because they said, “He has an unclean spirit.”",
+    "31 Then His brothers and His mother came, and standing outside they sent to Him, calling Him.",
+    "32 And a multitude was sitting around Him; and they said to Him, “Look, Your mother and Your brothers are outside seeking You.”",
+    "33 But He answered them, saying, “Who is My mother, or My brothers?”",
+    "34 And He looked around in a circle at those who sat about Him, and said, “Here are My mother and My brothers!",
+    "35 For whoever does the will of God is My brother and My sister and mother.”"
+  ],
+  "fresh_app_observation": true,
+  "visual_readiness": {
+    "attempt02/picker.png": "Selected Jan2 2028, Koiahk23 1744, noon12PM; Morning toggle visible.",
+    "attempt02/home.png": "Ready full civil/Coptic date and fourth Sunday occasion, no loading overlay.",
+    "attempt02/matins-gospel-heading-ready.png": "Ready Matins Gospel Mark3:28-35 reference and opening verses28-31; full body authenticates28-35."
+  },
+  "limits": "Matins-only fresh check; no newly verified whole Sunday service. Weekday recurrence approval remains a separate current repair plan. Retained Sunday Liturgy Luke1:57-80 remains package/database witness, not fresh Reader confirmation.",
+  "failed_attempts": {
+    "rejected-evening-picker.png": "Evening7PM advances to Koiahk24; rejected as Sunday4/23 evidence.",
+    "morning-picker.png": "Blank after unexpected browser target reset; rejected.",
+    "attempt02/matins-reference.png": "Pre-readiness locator attempt, not the accepted heading image.",
+    "attempt02/matins-reference-ready.png": "Locator attempt without reaching actual heading; superseded by gospel-heading-ready."
+  },
+  "fingerprints": {
+    "attempt02/Matins-Psalm_and_Gospel.txt": {
+      "bytes": 7068,
+      "sha256": "6fd44ea35f94388067f7fa0ab36899bcfca3a471a90d8e0c7cc2bd416ead863a"
+    },
+    "attempt02/home.png": {
+      "bytes": 2957661,
+      "sha256": "c585371fae96899931ce52705ccee5c6c27ba112da2a03315e96eb541004df22"
+    },
+    "attempt02/home.txt": {
+      "bytes": 147,
+      "sha256": "881eae1741c37b1d24e95adc2c249a77e7733a3658008c85f6b7b0feef2bbe66"
+    },
+    "attempt02/matins-gospel-heading-ready.png": {
+      "bytes": 1828682,
+      "sha256": "507d35d2d597cc667272381c0dd9582897c4163597a5c5ab348b30ed3da07733"
+    },
+    "attempt02/matins-page.png": {
+      "bytes": 1152464,
+      "sha256": "713892d1bfb2aef3c41c1f7279c1eeaf9c5c2dab52c0c551325d63f8b9a49d14"
+    },
+    "attempt02/matins-reference-ready.png": {
+      "bytes": 1770429,
+      "sha256": "5a391ca1930bd34bcab42fd1fba344ed55a42aeb9a8b9c60710bedabe83e5349"
+    },
+    "attempt02/matins-reference.png": {
+      "bytes": 1770429,
+      "sha256": "5a391ca1930bd34bcab42fd1fba344ed55a42aeb9a8b9c60710bedabe83e5349"
+    },
+    "attempt02/picker-state.json": {
+      "bytes": 1167,
+      "sha256": "b54c79388f7f6ff07fce7b6bc3602d0e5f43d76b43c39fd11537ccbaf1838b49"
+    },
+    "attempt02/picker.png": {
+      "bytes": 968934,
+      "sha256": "ac911280b2daaf8f3d5e5ab121c461853f9789e5da593b9dee5f282982afebf8"
+    },
+    "morning-picker.png": {
+      "bytes": 69784,
+      "sha256": "6e5116ba6a9ab264b17cc973da45be00382f1fd358beb52dd7f6925144d3bdf6"
+    },
+    "morning-picker.txt": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "rejected-evening-picker.png": {
+      "bytes": 406228,
+      "sha256": "db388d08ab9986aabeb4c540a0594a5917ab40b5bc17f339984e41b3b190fd0e"
+    },
+    "rejected-evening-picker.txt": {
+      "bytes": 1005,
+      "sha256": "b3387f63e0a554d900c01c621e7bd630f69402830930aed3023ca7086ebc48d6"
+    }
+  }
+}

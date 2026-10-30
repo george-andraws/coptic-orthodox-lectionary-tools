@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const { execFileSync } = require('node:child_process');
 const root = path.resolve(__dirname, '..');
 const text = fs.readFileSync(path.join(root, 'scripts/build_npm_package.mjs'), 'utf8');
 const api = vm.runInNewContext(text.slice(text.indexOf('function dateToIso('), text.indexOf('async function main()')) + '\n({sortDailyReadings,dailyRowFromReverse,addMissingStructuralDailyRows,readDailyInfo});');
@@ -63,11 +64,28 @@ test('reverse-to-daily transport retains qualified ordinals and structural-only 
 
 test('actual daily reader writes the corrected sequence only to disposable in-memory output', async () => {
   const bodies = new Map();
-  const ctx = {path, DESIGN_DIR: 'design', DAILY_DIR: 'daily', readFile: async p => fs.promises.readFile(path.join(root, 'out', p), 'utf8'), writeFile: async (p, body) => bodies.set(p, body), stat: async p => ({size: Buffer.byteLength(bodies.get(p))})};
+  // A bounded real date keeps unrelated R1 SQLite recurrence lookup outside
+  // this Jonah test. The actual repair bridge remains enabled, never stubbed.
+  const ctx = {path, REPO_ROOT: root, execFileSync: (command, args, options) => {
+    assert.equal(command, 'python3');
+    const guard = `import sys,runpy,os
+ def audit(event,args):
+  if event == 'sqlite3.connect': raise RuntimeError('SQLite forbidden in Jonah child')
+  if event == 'open' and ((isinstance(args[1],str) and any(c in args[1] for c in 'wax+')) or (isinstance(args[2],int) and args[2] & (os.O_WRONLY|os.O_RDWR|os.O_CREAT|os.O_TRUNC|os.O_APPEND))): raise RuntimeError('write forbidden in Jonah child')
+ sys.addaudithook(audit)
+ runpy.run_path(sys.argv[1],run_name='__main__')`.replace(/^ /gm, '');
+    return execFileSync(command, ['-B', '-c', guard, ...args], {...options, timeout: 60000, env: {...process.env, PYTHONDONTWRITEBYTECODE: '1'}});
+  }, DESIGN_DIR: 'design', DAILY_DIR: 'daily', readFile: async p => {
+    const year = Number(path.basename(p).match(/\d{4}/)[0]);
+    const date = dates.find(([y]) => y === year)[1];
+    return JSON.stringify({[date]: read(year)[date]});
+  }, writeFile: async (p, body) => bodies.set(p, body), stat: async p => ({size: Buffer.byteLength(bodies.get(p))})};
   const reader = vm.runInNewContext(text.slice(text.indexOf('function dateToIso('), text.indexOf('async function main()')) + '\nreadDailyInfo;', ctx);
   for (const [year, date] of dates) {
-    await reader(year, []);
+    await reader(year, [], []);
     assert.deepEqual(refs(JSON.parse(bodies.get(`daily/lectionary-${year}.json`))[date]), expected);
+    const rows = JSON.parse(bodies.get(`daily/lectionary-${year}.json`))[date];
+    assert.ok(rows.every(r => Object.hasOwn(r, 'display_label')), 'real review hook executed');
   }
 });
 

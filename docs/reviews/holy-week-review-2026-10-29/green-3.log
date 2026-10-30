@@ -1,0 +1,9 @@
+test_good_friday_reader_confirms_lamentations_and_retires_jonah (test_lamentations_joel_corrections.LamentationsJoelCorrections.test_good_friday_reader_confirms_lamentations_and_retires_jonah) ... ok
+test_hosanna_row_is_sunday_day_and_does_not_relabel_ottawa (test_lamentations_joel_corrections.LamentationsJoelCorrections.test_hosanna_row_is_sunday_day_and_does_not_relabel_ottawa) ... ok
+test_joel_lxx_keeps_printed_english_and_names_hebrew_chapters (test_lamentations_joel_corrections.LamentationsJoelCorrections.test_joel_lxx_keeps_printed_english_and_names_hebrew_chapters) ... ok
+test_lent_prophecy_projection_skips_annunciation (test_lamentations_joel_corrections.LamentationsJoelCorrections.test_lent_prophecy_projection_skips_annunciation) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.090s
+
+OK

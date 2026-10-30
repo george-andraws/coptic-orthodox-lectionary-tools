@@ -1,0 +1,255 @@
+{
+  "archive_metadata_before_and_after": {
+    "id": "10i5oX_wy7FdImXzW6GN_UDscL_oJakW1",
+    "name": "lectionary-comprehensive-audit-2026-10-07.tar.gz",
+    "parents": [
+      "1iIQLL5lcSVf0SlCSSbcwtsfx2jHvjEV6"
+    ],
+    "version": "1",
+    "modifiedTime": "2026-10-27T17:32:01.303Z",
+    "md5Checksum": "139f7b6b45278acba9b2aa073f2211e7",
+    "size": "9354731560"
+  },
+  "method": "Bounded HTTP Range suffix; raw DEFLATE resynchronization at a stored block with zero initial dictionary; discard warm-up through validated PAX header; accept ONLY exact member size/SHA256 matches against authenticated full archive manifest. Global archive/gzip hash was not recomputed.",
+  "range_start": 8817870118,
+  "range_end": 9354731559,
+  "compressed_bytes_received": 208666624,
+  "discarded_inflated_warmup_bytes": 537148,
+  "first_full_members": [
+    "lectionary-comprehensive-audit-2026-10-07/edition-fragment-remediation-independent-review-02/frozen/sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/context.txt",
+    "lectionary-comprehensive-audit-2026-10-07/edition-fragment-remediation-independent-review-02/frozen/sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/picker.json",
+    "lectionary-comprehensive-audit-2026-10-07/edition-fragment-remediation-independent-review-02/frozen/sources/coptic-reader/lent-qualified-2026-10-07/2026-03-12/picker.png"
+  ],
+  "expected_file_count": 38,
+  "recovered_file_count": 38,
+  "files": [
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Catholic_Epistle-reference-0.png",
+      "local_path": "retained-2026-01-01/Liturgy-Catholic_Epistle-reference-0.png",
+      "size": 594700,
+      "sha256": "315e378dce333371750711e49178583c2042b58ba6e8e23376f044e41199429d"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Catholic_Epistle.png",
+      "local_path": "retained-2026-01-01/Liturgy-Catholic_Epistle.png",
+      "size": 594700,
+      "sha256": "315e378dce333371750711e49178583c2042b58ba6e8e23376f044e41199429d"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Catholic_Epistle.txt",
+      "local_path": "retained-2026-01-01/Liturgy-Catholic_Epistle.txt",
+      "size": 6277,
+      "sha256": "471eb29258f93259dfc0e87c1718af7c600f69f2de74eff00427505acbb53334"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Pauline_Epistle-reference-0.png",
+      "local_path": "retained-2026-01-01/Liturgy-Pauline_Epistle-reference-0.png",
+      "size": 425554,
+      "sha256": "aafd91943a987aea49ec44bb83c86685301d218a0c2f8c5aff52cba940eaac32"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Pauline_Epistle.png",
+      "local_path": "retained-2026-01-01/Liturgy-Pauline_Epistle.png",
+      "size": 365228,
+      "sha256": "dd846a62c1ea0bfe80e6df1188eb2cde3075f37814128dced5636c8be5e5f4ad"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Pauline_Epistle.txt",
+      "local_path": "retained-2026-01-01/Liturgy-Pauline_Epistle.txt",
+      "size": 7175,
+      "sha256": "ef9d5f40a83bc962514fec449baef4dce3d47cc0432485963564315f5dbfb4f5"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Praxis-reference-0.png",
+      "local_path": "retained-2026-01-01/Liturgy-Praxis-reference-0.png",
+      "size": 573285,
+      "sha256": "35e618d3046edaa01f86f5fa71385b89f9722eccb387d53fe78e81f8c01d4d9c"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Praxis.png",
+      "local_path": "retained-2026-01-01/Liturgy-Praxis.png",
+      "size": 573285,
+      "sha256": "35e618d3046edaa01f86f5fa71385b89f9722eccb387d53fe78e81f8c01d4d9c"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Praxis.txt",
+      "local_path": "retained-2026-01-01/Liturgy-Praxis.txt",
+      "size": 10593,
+      "sha256": "1e83fac9835f38c1a5c60ecdafcd56ad2333b1ee5634d3feac302fa82077b4e1"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Psalm_and_Gospel-reference-0.png",
+      "local_path": "retained-2026-01-01/Liturgy-Psalm_and_Gospel-reference-0.png",
+      "size": 472661,
+      "sha256": "41f90f2af45917033a6dfc1f1aa879809000b4470e3a5cdfebfc0035d6a7dbcb"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Psalm_and_Gospel-reference-1.png",
+      "local_path": "retained-2026-01-01/Liturgy-Psalm_and_Gospel-reference-1.png",
+      "size": 431610,
+      "sha256": "43961495baa32b9091205cc2a59992b8927ef444b2ba8c65560a8f6f15373be0"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Psalm_and_Gospel.png",
+      "local_path": "retained-2026-01-01/Liturgy-Psalm_and_Gospel.png",
+      "size": 472661,
+      "sha256": "41f90f2af45917033a6dfc1f1aa879809000b4470e3a5cdfebfc0035d6a7dbcb"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-Psalm_and_Gospel.txt",
+      "local_path": "retained-2026-01-01/Liturgy-Psalm_and_Gospel.txt",
+      "size": 8261,
+      "sha256": "0a81a0484fbd94c33457e4700fdc560d461d3d556882915c1c2158b1a6137d8c"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-menu.png",
+      "local_path": "retained-2026-01-01/Liturgy-menu.png",
+      "size": 289162,
+      "sha256": "0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Liturgy-menu.txt",
+      "local_path": "retained-2026-01-01/Liturgy-menu.txt",
+      "size": 72,
+      "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-Prophecies.png",
+      "local_path": "retained-2026-01-01/Matins-Prophecies.png",
+      "size": 76020,
+      "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-Prophecies.txt",
+      "local_path": "retained-2026-01-01/Matins-Prophecies.txt",
+      "size": 61,
+      "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-Psalm_and_Gospel-reference-0.png",
+      "local_path": "retained-2026-01-01/Matins-Psalm_and_Gospel-reference-0.png",
+      "size": 467929,
+      "sha256": "9b7ec2abbab10418e68fc8eeec62fe68c43ad58e142afa79c12f6df2ebb8a850"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-Psalm_and_Gospel-reference-1.png",
+      "local_path": "retained-2026-01-01/Matins-Psalm_and_Gospel-reference-1.png",
+      "size": 484199,
+      "sha256": "62e2bbc056f19d1e45b0e9cc68530183a3d8853440daefadc19ab876499979e5"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-Psalm_and_Gospel.png",
+      "local_path": "retained-2026-01-01/Matins-Psalm_and_Gospel.png",
+      "size": 467929,
+      "sha256": "9b7ec2abbab10418e68fc8eeec62fe68c43ad58e142afa79c12f6df2ebb8a850"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-Psalm_and_Gospel.txt",
+      "local_path": "retained-2026-01-01/Matins-Psalm_and_Gospel.txt",
+      "size": 7685,
+      "sha256": "c019d8fab3e4f7920d0fac816a6a73b6fc3f5ec58aa039526bb859a66e5644c2"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-menu.png",
+      "local_path": "retained-2026-01-01/Matins-menu.png",
+      "size": 279717,
+      "sha256": "032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Matins-menu.txt",
+      "local_path": "retained-2026-01-01/Matins-menu.txt",
+      "size": 32,
+      "sha256": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Readings-menu.png",
+      "local_path": "retained-2026-01-01/Readings-menu.png",
+      "size": 418241,
+      "sha256": "3e0d3a8d61f689ebee3c413f5b35faea6bbf4b6f3f6ed7ece082639b55f26bfd"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Readings-menu.txt",
+      "local_path": "retained-2026-01-01/Readings-menu.txt",
+      "size": 39,
+      "sha256": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Vespers-reference-0.png",
+      "local_path": "retained-2026-01-01/Vespers-reference-0.png",
+      "size": 432596,
+      "sha256": "efc6d7d421d6b3f76d926f71abb0cfd3f3d9386ed70a395863904fb70abf8c88"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Vespers-reference-1.png",
+      "local_path": "retained-2026-01-01/Vespers-reference-1.png",
+      "size": 478146,
+      "sha256": "ea274584f94bd3d3754c5ec2c888d7149cab1eb193b2cabf6bf7fe69c6202cc8"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Vespers.png",
+      "local_path": "retained-2026-01-01/Vespers.png",
+      "size": 432596,
+      "sha256": "efc6d7d421d6b3f76d926f71abb0cfd3f3d9386ed70a395863904fb70abf8c88"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/Vespers.txt",
+      "local_path": "retained-2026-01-01/Vespers.txt",
+      "size": 9397,
+      "sha256": "86bfccddc5e2048635f2650f3ddc4ea3ed1d85214af2d21ff6978b4a65b10053"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/date-panel-before.png",
+      "local_path": "retained-2026-01-01/date-panel-before.png",
+      "size": 212178,
+      "sha256": "a7617c35f31cd4ff04a812853375cb34c717302ea24961a28e6413a309d96e98"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/date-panel-before.txt",
+      "local_path": "retained-2026-01-01/date-panel-before.txt",
+      "size": 1222,
+      "sha256": "edc2c2c7f05539c1bda83e0c64e9c3218c267094ed0ad2c895572b59468eeb91"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/date-panel-selected.png",
+      "local_path": "retained-2026-01-01/date-panel-selected.png",
+      "size": 203006,
+      "sha256": "e398b0d17d07c8a6becd2e0ab260b5977c33286bdad2453e9b569e752ec9240d"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/date-panel-selected.txt",
+      "local_path": "retained-2026-01-01/date-panel-selected.txt",
+      "size": 1186,
+      "sha256": "5c50d575c1a8ceae0008628e20411f7bf2423005a39d19d913404a848e40e698"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/home-selected.png",
+      "local_path": "retained-2026-01-01/home-selected.png",
+      "size": 674905,
+      "sha256": "680690ab56b6e80ee9d0b6822aece6413412dc84da588367691307b872334704"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/home-selected.txt",
+      "local_path": "retained-2026-01-01/home-selected.txt",
+      "size": 147,
+      "sha256": "e25703213b9cff3afd4e6d90d630af1f1ac4ceaffbd7301241ab962c38979078"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/picker-selected.png",
+      "local_path": "retained-2026-01-01/picker-selected.png",
+      "size": 272852,
+      "sha256": "dd69e1a71babf7a4edd7412b632799f050fe7255425f16fc4cd4684c3390b1e6"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/picker-selected.txt",
+      "local_path": "retained-2026-01-01/picker-selected.txt",
+      "size": 249,
+      "sha256": "c5657396c7ade470215a23995f427d7124fd7cad0fde72e916b769c5f3552977"
+    },
+    {
+      "archive_member": "lectionary-comprehensive-audit-2026-10-07/fresh-ordinary-remaining-dated/AnnualReadings-113/7ed9aa9d-888c-445c-8fec-a73ebfa95c1c/picker-wheel-geometry.json",
+      "local_path": "retained-2026-01-01/picker-wheel-geometry.json",
+      "size": 1733,
+      "sha256": "8b975694c4ee04afcf96b35436203f2e80268a8070025480512e6ecb6c694fae"
+    }
+  ]
+}

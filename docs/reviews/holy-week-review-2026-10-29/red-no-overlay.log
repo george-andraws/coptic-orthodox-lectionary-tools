@@ -1,0 +1,41 @@
+test_h1_holds_all_live_wrong_night_but_preserves_inactive (test_holy_week_review_repairs.HolyWeekReviewTests.test_h1_holds_all_live_wrong_night_but_preserves_inactive) ... FAIL
+test_h4_only_sixth_is_held_and_new_reading_is_source_authenticated (test_holy_week_review_repairs.HolyWeekReviewTests.test_h4_only_sixth_is_held_and_new_reading_is_source_authenticated) ... FAIL
+test_h6_book_error_held_reader_ezekiel_added (test_holy_week_review_repairs.HolyWeekReviewTests.test_h6_book_error_held_reader_ezekiel_added) ... FAIL
+
+======================================================================
+FAIL: test_h1_holds_all_live_wrong_night_but_preserves_inactive (test_holy_week_review_repairs.HolyWeekReviewTests.test_h1_holds_all_live_wrong_night_but_preserves_inactive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/coptic-lectionary-research/tests/test_holy_week_review_repairs.py", line 32, in test_h1_holds_all_live_wrong_night_but_preserves_inactive
+    self.assertEqual(review.HOLD, out[0]['current_status'])
+AssertionError: 'pending_coptic_reader_review' != 'current_working_source_not_coptic_reader_checked'
+- pending_coptic_reader_review
++ current_working_source_not_coptic_reader_checked
+
+
+======================================================================
+FAIL: test_h4_only_sixth_is_held_and_new_reading_is_source_authenticated (test_holy_week_review_repairs.HolyWeekReviewTests.test_h4_only_sixth_is_held_and_new_reading_is_source_authenticated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/coptic-lectionary-research/tests/test_holy_week_review_repairs.py", line 43, in test_h4_only_sixth_is_held_and_new_reading_is_source_authenticated
+    self.assertEqual(review.HOLD, out[1]['current_status'])
+AssertionError: 'pending_coptic_reader_review' != 'current_working_source_not_coptic_reader_checked'
+- pending_coptic_reader_review
++ current_working_source_not_coptic_reader_checked
+
+
+======================================================================
+FAIL: test_h6_book_error_held_reader_ezekiel_added (test_holy_week_review_repairs.HolyWeekReviewTests.test_h6_book_error_held_reader_ezekiel_added)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ga/workspace/coptic-lectionary-research/tests/test_holy_week_review_repairs.py", line 57, in test_h6_book_error_held_reader_ezekiel_added
+    self.assertEqual(review.HOLD, out[0]['current_status'])
+AssertionError: 'pending_coptic_reader_review' != 'current_working_source_not_coptic_reader_checked'
+- pending_coptic_reader_review
++ current_working_source_not_coptic_reader_checked
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.030s
+
+FAILED (failures=3)

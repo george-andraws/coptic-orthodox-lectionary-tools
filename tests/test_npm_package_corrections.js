@@ -50,11 +50,17 @@ test('Annunciation collision gives Tuesday/Eve only and retains undated annual r
   assert(reverse.some(r=>r.occasion.includes('Annunciation')))
 })
 
-test('source-specific Monday/Tuesday Eve Gospels remain distinct', () => {
-  for (const [date,occasion,reference] of [['2026-04-06','Monday Eve','Mark 10:32-34'],['2026-04-07','Tuesday Eve','Lk 21:34-38']]) {
+test('source-specific Monday/Tuesday Eve Gospels remain distinct with old Tuesday witness archived', () => {
+  const witness = fs.readFileSync(path.resolve(__dirname, '../sources/coptic-reader/holy-week-review-qualified-2026-10-29/tuesday--wednesday-eve--6th-hour.txt'))
+  assert.equal(require('node:crypto').createHash('sha256').update(witness).digest('hex'), '6503406999863241704e911f84dab04ff2e3c69335cf4a6ab105dd4cb423c422')
+  assert.equal(witness.toString('utf8').split('\n')[132].trim(), 'Matthew 25:1-13')
+  for (const [date,occasion,reference] of [['2026-04-06','Monday Eve','Mark 10:32-34'],['2026-04-07','Tuesday Eve','Matt 25:1-13']]) {
     const rows = daily[date].filter(r=>r.occasion===occasion&&r.service_hour==='Sixth Hour'&&r.slot_type==='gospel')
     assert.deepEqual(rows.map(r=>r.display_ref), [reference])
   }
+  const old = reverse.filter(r=>r.occasion==='Tuesday Eve'&&r.service_hour==='Sixth Hour'&&r.source_family==='holy_pascha_curated_day_hour'&&r.display_ref==='Lk 21:34-38')
+  assert.equal(old.length, 1)
+  assert(old.every(r=>!api.isCurrentReading(r)))
   assert(!reverse.some(r=>api.isCurrentReading(r)&&r.display_ref==='Jn 21:34-38'))
 })
 

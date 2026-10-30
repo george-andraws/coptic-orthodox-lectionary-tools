@@ -1,0 +1,60 @@
+{
+  "repo_head_at_inspection": "2d38471f34bc49ad6f44758fccbb5d8688850a5b",
+  "sources": [
+    {
+      "original_repo_path": "sources/katameros-api/Core/Repositories/LectionaryRepository.cs",
+      "copied_path": "precedence-local/Core/Repositories/LectionaryRepository.cs",
+      "sha256": "65d660328b17c089d0336a2d355ad5aeb8f5541b40df90c25bfff0a58b38eed0",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/katameros-api/Core/Repositories/ReadingsRepository.cs",
+      "copied_path": "precedence-local/Core/Repositories/ReadingsRepository.cs",
+      "sha256": "3638b061903f1ed94d2f711fcc815a6bfe142dfc479d582c55708a90dc36937d",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/katameros-api/Core/Factories/FeastsFactory.cs",
+      "copied_path": "precedence-local/Core/Factories/FeastsFactory.cs",
+      "sha256": "ca78d610bb1d7c5463432c5c4947f29f01dd71f738d867ebafd171e00781ea50",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/katameros-api/Core/Factories/SpecialCases/Kiahk.cs",
+      "copied_path": "precedence-local/Core/Factories/SpecialCases/Kiahk.cs",
+      "sha256": "4f74b13d8469957d2f99e791c48127ddcb0f0935288a0cf2421ad81ee4b45543",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/katameros-api/Core/Factories/SpecialCaseFactory.cs",
+      "copied_path": "precedence-local/Core/Factories/SpecialCaseFactory.cs",
+      "sha256": "30ed355012c6604363ad8c1e8670cb2da1321eb4f70f7149730591fb9916c0be",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/katameros-api/Core/Factories/Feasts/NativityParamoun.cs",
+      "copied_path": "precedence-local/Core/Factories/Feasts/NativityParamoun.cs",
+      "sha256": "be21c2d02a42fe4d94af8df568018a029f264ac493028ef34b8e6702ac6e1c7f",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/katameros-api/Core/Helpers/CopticDateHelper.cs",
+      "copied_path": "precedence-local/Core/Helpers/CopticDateHelper.cs",
+      "sha256": "c70373a685cc9862d768b1949fb060f2091db5bcf1ba1e7cea37a4afacb699d3",
+      "evidence_type": "read-only code inspection; .NET not installed; not executed C#"
+    },
+    {
+      "original_repo_path": "sources/coptic-reader/sunday-qualified-2026-10-07/official-reader-help-fresh.html",
+      "copied_path": "official-reader-help-retained.html",
+      "sha256": "21b77dc3b6ceb40cf1d7e6174f914930b142b3439c4b1625499ccaf31f9cfb11",
+      "original_source_url": "https://wiki.suscopts.org/index.php?title=Coptic_Reader&oldid=5",
+      "evidence_type": "retained official publisher help, not fresh retrieval",
+      "selected_lines": {
+        "Dates": 179,
+        "Version 2.43": 1091,
+        "Version 2.81": 749,
+        "Version 2.64": 940
+      }
+    }
+  ]
+}

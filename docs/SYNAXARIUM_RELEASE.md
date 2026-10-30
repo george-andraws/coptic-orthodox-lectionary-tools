@@ -4,7 +4,7 @@ Contract introduced September 8, 2026; release status reconciled October 25, 202
 
 ## Release status
 
-**The current published package is `@andraws/lectionary-data@1.3.5`.** The Synaxarium contract was introduced in 1.3.0 within the existing CommonJS package, not a separate package. Subsequent reading corrections preserve the public catalog/calendar bytes. See [the 1.3.5 reconciliation](LECTIONARY_1_3_5_RECONCILIATION.md) for authenticated registry hashes and the distinction between published provenance and later source-history closeout.
+**The authenticated published baseline is `@andraws/lectionary-data@1.3.6`; 1.3.7 is the current release candidate.** The Synaxarium contract was introduced in 1.3.0 within the existing CommonJS package, not a separate package. Subsequent reading corrections preserve the public catalog/calendar bytes. See [the 1.3.7 scope and acceptance receipt](LECTIONARY_1_3_7_RELEASE.md). The [1.3.5 reconciliation](LECTIONARY_1_3_5_RECONCILIATION.md) remains historical evidence.
 
 The published 1.3.0 artifact is immutable. Source-checkout documentation can be corrected afterward without changing that artifact. Publishing a revised package README or any other packed file requires a new version and explicit release authorization; this documentation update does not publish another version.
 
@@ -102,14 +102,14 @@ Do not regenerate both the catalog and its expected fixture from unreviewed sour
 From repository root:
 
 ```bash
-uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate python -m unittest discover -s tests
+uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate --with pytest python -m pytest tests
 node --test tests/synaxarium.test.cjs
 python3 scripts/validate_synaxarium.py
 python3 scripts/verify_package_integrity.py --strict-file-set
 git diff --check
 ```
 
-An existing Python environment with those dependencies can run the unittest command directly. The uv command avoids changing system Python.
+An existing Python environment with those dependencies can run pytest directly. Pytest collects both the unittest classes and the function/fixture-based suites; unittest discovery alone does not exercise the latter. The uv command avoids changing system Python. Launch Node suites from the same dependency environment when they spawn `python3`.
 
 Maintainer npm aliases, run from `packages/lectionary-data` in a source checkout:
 
@@ -146,6 +146,7 @@ These are recorded release results, not an independent-model audit claim. George
 6. Commit the reviewed local source. Publish only when explicitly authorized. Stop on publication/authentication failure rather than working around it.
 7. If npm accepts the upload but reports processing, do not republish. Confirm `npm view @andraws/lectionary-data version` and the intended version's dist.integrity after processing completes.
 8. Install the exact published version in the consuming site and confirm the lockfile's registry URL/integrity. Do not substitute a local link.
+   This step requires separate site-upgrade authorization. The 1.3.7 package task excludes all site updates; its new source-only Kiahk Psalm evidence must be admitted by a bounded consumer qualification before an upgrade can pass the current site validator.
 9. Verify the site's tests/build/type check and rendered behavior. Git push, deployment and real-phone verification remain separate gates controlled by George unless explicitly authorized otherwise.
 
 For reading-source rebuilds, also follow the broader [validation plan](LECTIONARY_VALIDATION_PLAN.md). Do not run the full historical research pipeline merely to update this fixed-day titles catalog.

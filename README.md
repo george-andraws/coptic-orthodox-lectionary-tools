@@ -4,9 +4,9 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**Version 1.3.6 is published on npm.** This source-qualified successor corrects selected annual, Jonah Fast, Lenten and special-service readings and preserves source-defined fragment ordering. Unresolved cross-edition selections retain their qualifications and empty canonical coordinates; inactive no-service witnesses remain historical, not current appointments. Calendar and Synaxarium bytes are unchanged from 1.3.5: 366 Coptic days, 868 titles and the same pure calendar converter.
+**Version 1.3.7 is the current release candidate; 1.3.6 is the authenticated published baseline.** The candidate corrects the complete weekday Kiahk 23 table, source-confirmed Holy Week errors and Last Friday Matins; it adds separate fixed-date/Sunday metadata and reviewed composite appointments. Unresolved selections and uncaptured hours stay qualified or held. Calendar and Synaxarium bytes are unchanged: 366 Coptic days, 868 titles and the same pure calendar converter. Publication remains gated on exact-artifact acceptance.
 
-The immutable 1.3.5 predecessor was independently authenticated across all 11 registry tar members. Read [1.3.5 artifact/source reconciliation and retained limitations](docs/LECTIONARY_1_3_5_RECONCILIATION.md) for that historical artifact's identity, original dirty-source provenance and retained findings. Do not rewrite or republish it to match the successor. The current package-directory README documents 1.3.6; the predecessor's stale packed README remains historical evidence in its published archive.
+Read [1.3.7 scope, source evidence and limitations](docs/LECTIONARY_1_3_7_RELEASE.md), the [changelog](CHANGELOG.md) and [Reader check sheet](coptic-reader-check-sheet.md). Earlier npm artifacts are immutable. The [1.3.5 reconciliation](docs/LECTIONARY_1_3_5_RECONCILIATION.md) remains historical evidence, not the candidate's source authority.
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
@@ -16,6 +16,15 @@ The immutable 1.3.5 predecessor was independently authenticated across all 11 re
 The consuming site is `george-andraws/coptic-corpus`, built locally from `/Users/ga/code/coptic-corpus/stgeorge-lessons`. It pins the published version exactly and displays Synaxarium after Praxis using one shared date service. This does not create a saint-to-reading relationship.
 
 The repository has distinct layers: research/capture material, generated reference data under `out/`, and the npm runtime under `packages/lectionary-data`. Do not confuse research Synaxarium bridges with the public titles catalog. Older execution briefs and generated internal specs are historical records, not the current npm contract.
+
+The 1.3.7 runtime builder applies source-owned review repairs after the unchanged design/canonicalization guard and after structural daily fill. Run it in the declared Python dependency environment:
+
+```bash
+uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate \
+  python -c 'import subprocess; subprocess.run(["node", "scripts/build_npm_package.mjs"], check=True)'
+```
+
+Freeze all source writers before final acceptance. Rebuild from a clean checkout, run the full Python and declared Node test inventories with the dependency environment on subprocess PATH, validate the exact packed tarball and compare registry bytes after authorized publication. Do not install this candidate in the site as part of a package-only task. Its three new source-only Kiahk Psalm selections require a bounded consumer-validator qualification when a site upgrade is separately authorized.
 
 ## Research-layer build
 
