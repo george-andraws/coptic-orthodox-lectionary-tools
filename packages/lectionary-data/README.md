@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.8**.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.9**.
 
 ## What this package contains
 
@@ -229,13 +229,19 @@ The undated Covenant Thursday Lakkan Pauline carries a same-service marker based
 
 These fields are additive. The source-owned Python validation adapters live in the source repository, not in the npm artifact. Consumers must preserve the evidence cells and cannot treat a successful JSON decode as source authentication.
 
+## Corrections in 1.3.9
+
+- Annual Reader corrections for Tout 16, weekday Tout 17, Tout 19, and weekday Babah 27 now apply to every shipped non-Sunday year of that occasion, not only the captured civil date. Sunday and differently labeled feast tables are unchanged.
+- February 16, 2026, the first Monday of the Great Fast, uses the accepted Coptic Reader Matins table: Exodus 2:23–3:5, Isaiah 1:2–18, Psalm 6:1–2, and Matthew 12:24–34. Vespers and Liturgy for that date, and the first Monday in 2027 and 2028, remain the annual table until a complete Reader capture. Recurrence was not approved.
+- January 7 and 8, 2028 are both still labeled Christmas in the shipped daily file. Retained Reader occasion labels put Nativity on January 7 and the second day of the Nativity on January 9. January 8 was not replaced because its readings were not captured.
+
 ## Known limitation
 
 Structural-only occasions outside the shipped civil-year daily scope, such as some special services, remain available through `reverse_lectionary_index.jsonl`. Holy Week and Bright Saturday rows for shipped civil dates are included in daily files.
 
 ## Provenance
 
-- Package version: 1.3.8.
+- Package version: 1.3.9.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.

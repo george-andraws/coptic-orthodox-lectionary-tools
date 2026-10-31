@@ -8,6 +8,7 @@ both the reverse and date-output boundaries. It never writes source inputs.
 from __future__ import annotations
 
 import json
+import copy
 from pathlib import Path
 import sys
 
@@ -22,6 +23,7 @@ import mark_followup_repairs as mark_followup
 import metadata_followup_repairs as metadata
 import composite_followup_repairs as composite
 import evidence_followup_repairs as evidence
+import annual_occasion_repairs as annual_occasion
 
 
 def finish_daily(days):
@@ -40,6 +42,63 @@ def finish_reverse(rows):
             'evidence_counts': counts}
 
 
+def _preserve_archived_witnesses(rows, daily_by_year):
+    """Restore pinned LK5 occurrence bytes after descriptive annotation.
+
+    Annotation rewrites occurs_in_shipped_years from current daily output. A
+    Reader correction may remove the archived passage from daily files. That
+    must not rewrite the pinned witness. Any other field drift still reaches
+    the composite check.
+    """
+    owned = {'occurs_in_shipped_years', 'displaced_by', 'occurs_outside_paschal_seasons', 'occurrence_scope'}
+    expected_by_key = {composite._key(item): item for group in composite._witness_groups() for item in group}
+    projected = []
+    for row in rows:
+        annotated = resolver_review.annotate_calendar_occurrence(row, daily_by_year)
+        expected = expected_by_key.get(composite._key(annotated))
+        if expected is None:
+            projected.append(_keep_authenticated_occurrence(annotated))
+            continue
+        if json.dumps(annotated, sort_keys=True) == json.dumps(expected, sort_keys=True):
+            projected.append(annotated)
+            continue
+        left = json.loads(json.dumps(annotated, sort_keys=True))
+        right = json.loads(json.dumps(expected, sort_keys=True))
+        changed = {key for key in set(left) | set(right) if left.get(key) != right.get(key)}
+        projected.append(copy.deepcopy(expected) if changed <= owned else annotated)
+    return projected
+
+
+_PREDECESSOR_OCCURRENCE = None
+
+
+def _predecessor_occurrence_index():
+    global _PREDECESSOR_OCCURRENCE
+    if _PREDECESSOR_OCCURRENCE is None:
+        _PREDECESSOR_OCCURRENCE = {metadata._signature(item): item for item in metadata.baseline()['reverse_rows']}
+    return _PREDECESSOR_OCCURRENCE
+
+
+def _keep_authenticated_occurrence(row):
+    """Keep a predecessor occurrence bit the metadata inverse still owns.
+
+    A weekday Reader correction can remove a shared display reference from daily
+    files. Occurrence annotation then clears occurs_in_shipped_years on an
+    untouched Sunday row. That is not an authorized metadata change. L1 rows
+    and removed rows keep the later layer's value.
+    """
+    if row.get('removed_marker'):
+        return row
+    original = _predecessor_occurrence_index().get(metadata._signature(row))
+    if original is None or mark_followup.rule(original) == 'L1':
+        return row
+    if row.get('occurs_in_shipped_years') == original.get('occurs_in_shipped_years'):
+        return row
+    restored = dict(row)
+    restored['occurs_in_shipped_years'] = original.get('occurs_in_shipped_years')
+    return restored
+
+
 def labels(rows):
     return [dict(row, display_label=calendar_review.display_label(
         row.get('display_occasion') or row.get('display_label') or row.get('occasion', '')))
@@ -53,7 +112,8 @@ def project(mode, payload):
         rows = holy_week.repair_reverse_rows(rows)
         rows = kiahk23.repair_reverse_rows(rows)
         rows, events = resolver_review.repair_reverse_rows(rows)
-        return {'rows': mark_followup.repair_rows(labels(rows)), 'events': events}
+        rows = annual_occasion.repair_reverse_rows(mark_followup.repair_rows(labels(rows)))
+        return {'rows': rows, 'events': events}
     if mode == 'daily':
         year = payload['year']
         days = calendar_review.load_runtime_review(ROOT).apply_daily_year(payload['days'])
@@ -68,10 +128,9 @@ def project(mode, payload):
         coverage = mark_followup.validate_eve_coverage(days, year)
         events.extend(dict(id='L3', **entry) for entry in coverage if entry['coverage'] == 'held_missing_reader')
         mark_followup.validate_day_hour_sets(days)
-        return {'days': finish_daily(days), 'events': events}
+        return {'days': annual_occasion.repair_daily(finish_daily(days)), 'events': events}
     if mode == 'occurrence':
-        return finish_reverse([resolver_review.annotate_calendar_occurrence(row, payload['daily_by_year'])
-                               for row in payload['rows']])
+        return finish_reverse(_preserve_archived_witnesses(payload['rows'], payload['daily_by_year']))
     raise ValueError('Unknown review projection mode: ' + str(mode))
 
 

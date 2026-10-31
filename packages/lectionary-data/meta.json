@@ -1,20 +1,20 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.3.8",
+  "version": "1.3.9",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "bda47b070380d5d42221f0cfadae8837cedd6b78",
+  "source_repo_commit": "388589ed9c826cf9c69ca19e135ccecb1d251308",
   "source_tree_dirty": true,
-  "generated_at": "2026-10-30T18:13:25.069Z",
-  "occasion_index_rows": 12282,
+  "generated_at": "2026-10-31T01:06:54.689Z",
+  "occasion_index_rows": 12290,
   "daily_files": [
     {
       "year": 2026,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4078,
-      "bytes": 8643551,
+      "reading_count": 4079,
+      "bytes": 8647451,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -86,7 +86,7 @@
       "rows": 365,
       "date_count": 365,
       "reading_count": 4069,
-      "bytes": 8801993,
+      "bytes": 8802018,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -158,7 +158,7 @@
       "rows": 366,
       "date_count": 366,
       "reading_count": 4087,
-      "bytes": 8645455,
+      "bytes": 8645514,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -379,9 +379,9 @@
   },
   "projection_rules": {
     "source_rows": 12186,
-    "output_rows": 12282,
-    "active_rows": 7886,
-    "current_rows": 7658,
+    "output_rows": 12290,
+    "active_rows": 7894,
+    "current_rows": 7659,
     "runtime_review": {
       "source": "scripts/apply_review_repairs.py",
       "events": [
@@ -1267,8 +1267,8 @@
           "same_service_marked": 1
         },
         "psalms": {
-          "psalm_rows": 5054,
-          "mt_qualified": 5017,
+          "psalm_rows": 5055,
+          "mt_qualified": 5018,
           "annotations_changed": 4,
           "held_or_source_only": 31,
           "non_mt_or_qualified_hold": 6,
@@ -1293,7 +1293,7 @@
     "lower_priority_passage_variants_suppressed": 478,
     "lower_priority_passage_variants_retained_as_removed": 478,
     "removal_effective_version_baseline": {
-      "source_version": "1.1.6+source-corrections-1.3.8",
+      "source_version": "1.1.6+source-corrections-1.3.9",
       "entry_count": 522,
       "distinct_identity_key_count": 253,
       "duplicate_identity_key_count": 70

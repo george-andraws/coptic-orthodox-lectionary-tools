@@ -755,7 +755,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
 
     public_reverse_rows = reverse_rows
     public_reverse_count = len(reverse_rows)
-    if meta.get('version') == '1.3.8':
+    if meta.get('version') in {'1.3.8', '1.3.9'}:
         from scripts.review_release_contract import followup_reverse_view
         try:
             reverse_rows = followup_reverse_view(public_reverse_rows)
@@ -776,7 +776,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if missing:
             failures.append({"reason": "reverse_row_missing_required_fields", "row": row_number, "fields": missing})
             continue
-        if meta.get('version') == '1.3.8':
+        if meta.get('version') in {'1.3.8', '1.3.9'}:
             import mark_followup_repairs as followup
             try:
                 followup.qualify_emitted(row)
@@ -842,7 +842,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     for year in shipped_years:
         daily_path = package_dir / "data" / "daily" / f"lectionary-{year}.json"
         data = load_json(daily_path)
-        if meta.get('version') == '1.3.8' and isinstance(data, dict):
+        if meta.get('version') in {'1.3.8', '1.3.9'} and isinstance(data, dict):
             from scripts.review_release_contract import followup_daily_view
             try:
                 data = followup_daily_view(data)
@@ -887,7 +887,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
                                      "status": reading.get("status"), "current_status": reading.get("current_status"),
                                      "removed_marker": reading.get("removed_marker")})
                     continue
-                if meta.get('version') == '1.3.8':
+                if meta.get('version') in {'1.3.8', '1.3.9'}:
                     import mark_followup_repairs as followup
                     try:
                         followup.qualify_emitted(reading, date=date_key)

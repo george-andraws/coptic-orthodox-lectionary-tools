@@ -311,4 +311,7 @@ def prepare(source_rows, daily, year, *, review_release=False):
                 audit(date, row, 'authenticated_' + kind + '_cached_retirement', CACHE, CACHE_SHA256, source=True)
             additions.append((date, wanted))
             audit(date, wanted, 'source_qualified_' + kind + '_review_selection', RESOLVER_FIXTURE, RESOLVER_SHA256)
+    if review_release:
+        import annual_occasion_repairs as annual
+        annual.apply_cache_comparison(source_rows, daily, year, additions, retired, dispositions, issues, source_signature)
     return output, additions, retired, dispositions, issues

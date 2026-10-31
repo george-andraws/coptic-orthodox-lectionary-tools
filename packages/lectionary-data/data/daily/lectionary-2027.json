@@ -105831,8 +105831,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Catholic Epistle",
-      "display_ref": "2Pet 2:1-10",
-      "identity_key": "rid_ee350a7e87359d95ea89",
+      "display_ref": "1Pet 1:25-2:10",
+      "identity_key": "rid_7587173374425d8e1e91",
       "reading_type": "scripture",
       "removed_marker": "",
       "current_status": "current_public_or_local_reference",
@@ -105841,13 +105841,13 @@
       "source_file": "cache/copticchurch_html",
       "source_row_id": "28780",
       "source_disclosure": "[{\"source_kind\":\"copticchurch_date\",\"source_family\":\"ordinary_date_resolved\",\"source_file\":\"cache/copticchurch_html\",\"source_row_id\":\"28780\"}]",
-      "spans_json": "[{\"book\": \"2Pet\", \"canonical_lxx_ref\": \"2Pet 2:1-10\", \"canonical_mt_ref\": \"2Pet 2:1-10\", \"chapter_end\": 2, \"chapter_start\": 2, \"confidence\": \"high\", \"source_convention\": \"modern_english_reference\", \"source_ref\": \"2Pet 2:1-10\", \"validation_basis\": \"\", \"verse_end\": 10, \"verse_start\": 1}]",
-      "canonical_mt_ref": "2Pet 2:1-10",
-      "canonical_lxx_ref": "2Pet 2:1-10",
+      "spans_json": "[{\"book\": \"1Pet\", \"canonical_lxx_ref\": \"1Pet 1:25-2:10\", \"canonical_mt_ref\": \"1Pet 1:25-2:10\", \"chapter_end\": 2, \"chapter_start\": 1, \"confidence\": \"high\", \"source_convention\": \"modern_english_reference\", \"source_ref\": \"1Pet 1:25-2:10\", \"validation_basis\": \"\", \"verse_end\": 10, \"verse_start\": 25}]",
+      "canonical_mt_ref": "1Pet 1:25-2:10",
+      "canonical_lxx_ref": "1Pet 1:25-2:10",
       "slot_type": "catholicon",
       "slot_order": 1,
       "service_order": 99,
-      "source_locator": "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=27; cache/copticchurch_html:row 28780; source_ref=2Pet 2:1-10",
+      "source_locator": "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=27; cache/copticchurch_html:row 28780; source_ref=1Pet 1:25-2:10",
       "reading_name": "",
       "source_group_key": "copticchurch_date|28780|Tout 16||Catholic Epistle",
       "superseded_by_ref": "",
@@ -105856,7 +105856,7 @@
       "display_label": "Tout 16",
       "calendar_review_status": "",
       "calendar_review_source_locators": [
-        "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=27; cache/copticchurch_html:row 28780; source_ref=2Pet 2:1-10"
+        "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=27; cache/copticchurch_html:row 28780; source_ref=1Pet 1:25-2:10"
       ],
       "calendar_review_calendar_keys": [
         "Tout 16"
@@ -107132,8 +107132,8 @@
       "service_section": "Liturgy",
       "service_hour": "",
       "slot": "Gospel",
-      "display_ref": "Lk 14:25-32",
-      "identity_key": "rid_9d243744b04c0c48d231",
+      "display_ref": "Lk 14:25-35",
+      "identity_key": "rid_6e1ac90c24fcf4391a9b",
       "reading_type": "scripture",
       "removed_marker": "",
       "current_status": "current_public_or_local_reference",
@@ -107142,13 +107142,13 @@
       "source_file": "cache/copticchurch_html",
       "source_row_id": "28811",
       "source_disclosure": "[{\"source_kind\":\"copticchurch_date\",\"source_family\":\"ordinary_date_resolved\",\"source_file\":\"cache/copticchurch_html\",\"source_row_id\":\"28811\"}]",
-      "spans_json": "[{\"book\": \"Lk\", \"canonical_lxx_ref\": \"Lk 14:25-32\", \"canonical_mt_ref\": \"Lk 14:25-32\", \"chapter_end\": 14, \"chapter_start\": 14, \"confidence\": \"high\", \"source_convention\": \"modern_english_reference\", \"source_ref\": \"Lk 14:25-32\", \"validation_basis\": \"\", \"verse_end\": 32, \"verse_start\": 25}]",
-      "canonical_mt_ref": "Lk 14:25-32",
-      "canonical_lxx_ref": "Lk 14:25-32",
+      "spans_json": "[{\"book\": \"Lk\", \"canonical_lxx_ref\": \"Lk 14:25-35\", \"canonical_mt_ref\": \"Lk 14:25-35\", \"chapter_end\": 14, \"chapter_start\": 14, \"confidence\": \"high\", \"source_convention\": \"modern_english_reference\", \"source_ref\": \"Lk 14:25-35\", \"validation_basis\": \"\", \"verse_end\": 35, \"verse_start\": 25}]",
+      "canonical_mt_ref": "Lk 14:25-35",
+      "canonical_lxx_ref": "Lk 14:25-35",
       "slot_type": "gospel",
       "slot_order": 1,
       "service_order": 99,
-      "source_locator": "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=30; cache/copticchurch_html:row 28811; source_ref=Lk 14:25-32",
+      "source_locator": "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=30; cache/copticchurch_html:row 28811; source_ref=Lk 14:25-35",
       "reading_name": "",
       "source_group_key": "copticchurch_date|28811|Tout 19 (Feast of the Cross)||Gospel",
       "superseded_by_ref": "",
@@ -107157,7 +107157,7 @@
       "display_label": "Tout 19 (Feast of the Cross)",
       "calendar_review_status": "",
       "calendar_review_source_locators": [
-        "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=30; cache/copticchurch_html:row 28811; source_ref=Lk 14:25-32"
+        "https://copticchurch.net/readings?g_year=2027&g_month=09&g_day=30; cache/copticchurch_html:row 28811; source_ref=Lk 14:25-35"
       ],
       "calendar_review_calendar_keys": [
         "Tout 19 (Feast of the Cross)"

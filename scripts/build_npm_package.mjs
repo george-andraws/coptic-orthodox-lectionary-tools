@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.8';
+const VERSION = '1.3.9';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -1596,7 +1596,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
