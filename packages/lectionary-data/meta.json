@@ -4,9 +4,9 @@
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "388589ed9c826cf9c69ca19e135ccecb1d251308",
-  "source_tree_dirty": true,
-  "generated_at": "2026-10-31T01:06:54.689Z",
+  "source_repo_commit": "f5fe02e464d7bc76454d66310a9709c57a5f7ec1",
+  "source_tree_dirty": false,
+  "generated_at": "2026-10-31T01:28:06.543Z",
   "occasion_index_rows": 12290,
   "daily_files": [
     {
@@ -14,7 +14,7 @@
       "rows": 365,
       "date_count": 365,
       "reading_count": 4079,
-      "bytes": 8647451,
+      "bytes": 8647491,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
