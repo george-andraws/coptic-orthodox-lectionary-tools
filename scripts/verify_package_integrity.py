@@ -17,6 +17,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+from scripts.review_release_contract import FOLLOWUP_RELEASE_VERSIONS
 PACKAGE_DIR = ROOT / "packages" / "lectionary-data"
 ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 REQUIRED_PACKAGE_FILES = {
@@ -755,11 +756,11 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
 
     public_reverse_rows = reverse_rows
     public_reverse_count = len(reverse_rows)
-    if meta.get('version') in {'1.3.8', '1.3.9'}:
+    if meta.get('version') in FOLLOWUP_RELEASE_VERSIONS:
         from scripts.review_release_contract import followup_reverse_view
         try:
-            reverse_rows = followup_reverse_view(public_reverse_rows)
-            calendar_reverse_rows = followup_reverse_view(public_reverse_rows, previous_layer='calendar')
+            reverse_rows = followup_reverse_view(public_reverse_rows, version=meta['version'])
+            calendar_reverse_rows = followup_reverse_view(public_reverse_rows, previous_layer='calendar', version=meta['version'])
         except (ValueError, TypeError, KeyError) as exc:
             failures.append({'reason': 'unqualified_followup_reverse', 'detail': str(exc)})
             reverse_rows = []
@@ -776,7 +777,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if missing:
             failures.append({"reason": "reverse_row_missing_required_fields", "row": row_number, "fields": missing})
             continue
-        if meta.get('version') in {'1.3.8', '1.3.9'}:
+        if meta.get('version') in FOLLOWUP_RELEASE_VERSIONS:
             import mark_followup_repairs as followup
             try:
                 followup.qualify_emitted(row)
@@ -842,10 +843,13 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
     for year in shipped_years:
         daily_path = package_dir / "data" / "daily" / f"lectionary-{year}.json"
         data = load_json(daily_path)
-        if meta.get('version') in {'1.3.8', '1.3.9'} and isinstance(data, dict):
+        # Metadata describes the serialized public view, not the extra witnesses
+        # restored solely for authenticated predecessor/source validation.
+        public_counts = daily_counts(data) if isinstance(data, dict) else {}
+        if meta.get('version') in FOLLOWUP_RELEASE_VERSIONS and isinstance(data, dict):
             from scripts.review_release_contract import followup_daily_view
             try:
-                data = followup_daily_view(data)
+                data = followup_daily_view(data, version=meta['version'])
             except (ValueError, TypeError, KeyError) as exc:
                 failures.append({'reason': 'unqualified_followup_daily', 'year': year, 'detail': str(exc)})
                 continue
@@ -887,7 +891,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
                                      "status": reading.get("status"), "current_status": reading.get("current_status"),
                                      "removed_marker": reading.get("removed_marker")})
                     continue
-                if meta.get('version') in {'1.3.8', '1.3.9'}:
+                if meta.get('version') in FOLLOWUP_RELEASE_VERSIONS:
                     import mark_followup_repairs as followup
                     try:
                         followup.qualify_emitted(reading, date=date_key)
@@ -924,6 +928,7 @@ def validate_package_integrity(package_dir: Path, tarball: Path | None = None, s
         if missing_dates:
             failures.append({"reason": "daily_date_missing", "year": year, "dates": missing_dates[:20], "count": len(missing_dates)})
         meta_entry = daily_meta.get(year, {})
+        counts = public_counts
         if meta_entry.get("rows") != counts["date_count"]:
             failures.append({"reason": "daily_meta_rows_mismatch", "year": year, "meta_rows": meta_entry.get("rows"), **counts})
         if "date_count" in meta_entry and meta_entry.get("date_count") != counts["date_count"]:

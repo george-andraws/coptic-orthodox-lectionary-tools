@@ -1,20 +1,20 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.3.9",
+  "version": "1.3.10",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "f5fe02e464d7bc76454d66310a9709c57a5f7ec1",
-  "source_tree_dirty": false,
-  "generated_at": "2026-10-31T01:28:06.543Z",
-  "occasion_index_rows": 12290,
+  "source_repo_commit": "5e49467412919e16bf5c7e751da562380d5a1ca7",
+  "source_tree_dirty": true,
+  "generated_at": "2026-11-13T05:10:10.760Z",
+  "occasion_index_rows": 12291,
   "daily_files": [
     {
       "year": 2026,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4079,
-      "bytes": 8647491,
+      "reading_count": 4078,
+      "bytes": 8649638,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -85,8 +85,8 @@
       "year": 2027,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4069,
-      "bytes": 8802018,
+      "reading_count": 4068,
+      "bytes": 8807535,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -157,8 +157,8 @@
       "year": 2028,
       "rows": 366,
       "date_count": 366,
-      "reading_count": 4087,
-      "bytes": 8645514,
+      "reading_count": 4086,
+      "bytes": 8649327,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -275,7 +275,7 @@
         {
           "date": "2026-04-10",
           "day": "Good Friday",
-          "reading_count": 66,
+          "reading_count": 65,
           "pre_review_reading_count": 65
         },
         {
@@ -319,7 +319,7 @@
         {
           "date": "2027-04-30",
           "day": "Good Friday",
-          "reading_count": 66,
+          "reading_count": 65,
           "pre_review_reading_count": 65
         },
         {
@@ -363,7 +363,7 @@
         {
           "date": "2028-04-14",
           "day": "Good Friday",
-          "reading_count": 66,
+          "reading_count": 65,
           "pre_review_reading_count": 65
         },
         {
@@ -379,9 +379,9 @@
   },
   "projection_rules": {
     "source_rows": 12186,
-    "output_rows": 12290,
-    "active_rows": 7894,
-    "current_rows": 7659,
+    "output_rows": 12291,
+    "active_rows": 7893,
+    "current_rows": 7658,
     "runtime_review": {
       "source": "scripts/apply_review_repairs.py",
       "events": [
@@ -1269,14 +1269,16 @@
         "psalms": {
           "psalm_rows": 5055,
           "mt_qualified": 5018,
-          "annotations_changed": 4,
+          "annotations_changed": 15,
           "held_or_source_only": 31,
           "non_mt_or_qualified_hold": 6,
           "frame_mismatch": 0,
           "qualified_mapping_preserved": 1,
           "unresolved_disagreements": 0
         }
-      }
+      },
+      "endpoint_release": "1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels",
+      "pk6_release": "1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy"
     },
     "canonical_occurrence_projection": {
       "policy": "sources/canonical-occurrence-policy.json",
@@ -1289,11 +1291,11 @@
         "exact_canonical_appointment_alias": 3415
       }
     },
-    "removed_rows_included": 4396,
+    "removed_rows_included": 4398,
     "lower_priority_passage_variants_suppressed": 478,
     "lower_priority_passage_variants_retained_as_removed": 478,
     "removal_effective_version_baseline": {
-      "source_version": "1.1.6+source-corrections-1.3.9",
+      "source_version": "1.1.6+source-corrections-1.3.10",
       "entry_count": 522,
       "distinct_identity_key_count": 253,
       "duplicate_identity_key_count": 70

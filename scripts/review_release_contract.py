@@ -17,6 +17,7 @@ DESIGN_SOURCE = 'out/design/reverse_lectionary_index.jsonl'
 DESIGN_SHA256 = '3473d858301159573118dd8df25522a95c412e19a8a78bc22a3d483a6f7dd0fc'
 IDENTITY_FIELDS = ('identity_key', 'display_ref', 'canonical_mt_ref', 'canonical_lxx_ref', 'spans_json')
 CALENDAR_FIELDS = calendar.FIELDS + ('calendar_review_source_locators', 'calendar_review_calendar_keys')
+FOLLOWUP_RELEASE_VERSIONS = frozenset({'1.3.8', '1.3.9', '1.3.10'})
 STABLE_FIELDS = ('source_family', 'source_kind', 'source_locator', 'occasion', 'service_section',
                  'service_hour', 'slot', 'calendar_keys', 'day_titles')
 
@@ -30,26 +31,36 @@ def validate_public_followup_rows(rows):
             raise ValueError('LK6 invalid public provenance presentation')
 
 
-def followup_reverse_view(rows, *, previous_layer='mark', require_all_targets=True):
+def followup_reverse_view(rows, *, previous_layer='mark', require_all_targets=True, version=None):
     import composite_followup_repairs as composite
     import metadata_followup_repairs as metadata
     import evidence_followup_repairs as evidence
+    if version == '1.3.10':
+        import revelation_release_repairs as revelation
+        import pk6_release_repairs as pk6
+        rows = revelation.restore_rows(pk6.restore_reverse(rows))
     validate_public_followup_rows(rows)
     rows = composite.restore_public_rows(rows)
-    rows = evidence.restore_rows_for_comparison(rows, require_all_targets=require_all_targets)
+    rows = evidence.restore_rows_for_comparison(rows, require_all_targets=require_all_targets,
+                                               version=version if version is not None else '1.3.10')
     rows = metadata.restore_rows_for_comparison(rows, previous_layer=previous_layer, annotated=True)
     return composite.legacy_validation_rows(rows)
 
 
-def followup_daily_view(days, *, previous_layer='mark'):
+def followup_daily_view(days, *, previous_layer='mark', version=None):
     import composite_followup_repairs as composite
     import metadata_followup_repairs as metadata
     import evidence_followup_repairs as evidence
     output = {}
     for date, rows in days.items():
+        if version == '1.3.10':
+            import revelation_release_repairs as revelation
+            import pk6_release_repairs as pk6
+            rows = revelation.restore_rows(pk6.restore_daily(rows, date), date=date)
         validate_public_followup_rows(rows)
         rows = composite.restore_public_rows(rows)
-        rows = evidence.restore_rows_for_comparison(rows, date=date)
+        rows = evidence.restore_rows_for_comparison(rows, date=date,
+                                                   version=version if version is not None else '1.3.10')
         output[date] = metadata.restore_rows_for_comparison(rows, date=date, previous_layer=previous_layer)
     return output
 

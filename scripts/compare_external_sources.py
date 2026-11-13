@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from passage_normalization import canonicalize_text_ref  # noqa: E402
+from scripts.review_release_contract import FOLLOWUP_RELEASE_VERSIONS  # noqa: E402
 
 from calendar_resolution import holy_week_day, julian_pascha_gregorian  # noqa: E402
 
@@ -728,12 +729,12 @@ def compare_copticchurch_cache(package_dir: Path = PACKAGE_DIR, source_index: Pa
         package_total_rows = sum(len(rows) for rows in daily.values())
         # The canonical current sidecar declares full-year scope. An explicitly
         # supplied subset index is a bounded parity probe, not a full-year claim.
-        if meta.get('version') in {'1.3.8', '1.3.9'}:
+        if meta.get('version') in FOLLOWUP_RELEASE_VERSIONS:
             import mark_followup_repairs as followup
             from scripts.review_release_contract import followup_daily_view
-            daily = followup_daily_view(daily)
+            daily = followup_daily_view(daily, version=meta['version'])
             daily = followup.restore_predecessor_for_comparison(daily, int(year))
-        source, package, skipped_structural_rows, dispositions, issues = contextual_counters(source_rows, daily, int(year), policy, complete_year=source_index.resolve() == SOURCE_INDEX.resolve(), review_release=meta.get('version') in {'1.3.7', '1.3.8', '1.3.9'})
+        source, package, skipped_structural_rows, dispositions, issues = contextual_counters(source_rows, daily, int(year), policy, complete_year=source_index.resolve() == SOURCE_INDEX.resolve(), review_release=meta.get('version') in {'1.3.7'} | FOLLOWUP_RELEASE_VERSIONS)
         audit_dispositions.extend(dispositions)
         delta_rows = counter_delta_rows(int(year), source, package) + issues
         comparison_rows.extend(delta_rows)

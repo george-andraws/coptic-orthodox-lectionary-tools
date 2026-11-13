@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "package": "@andraws/lectionary-data",
+  "version": "1.3.10",
+  "predecessor": "1.3.9",
+  "repository": "https://github.com/george-andraws/coptic-orthodox-lectionary-tools",
+  "archive": {
+    "registry_url": "https://registry.npmjs.org/@andraws/lectionary-data/-/lectionary-data-1.3.10.tgz",
+    "bytes": 3592015,
+    "sha1": "b650b90cf5d92166cb45867eaf5124c67be10bab",
+    "sha256": "fdbb681c0c6cc15c255d7af8f36371c9aa1229d9b14b57c023d82f4c4780064e",
+    "integrity": "sha512-icUF8j68+71EL2alxTdJkdo9Ugf0Vg7BfRkYxw8hNkrDhZRdE23r+W2DJijcz1JH2IS44JSHn5OWPR3NlF55cA==",
+    "members": {
+      "package/LICENSE": {
+        "sha256": "be68c3d4ff5376a22dd54bca67629167437330d37fbf22d71fb60c3e6df70037",
+        "bytes": 898
+      },
+      "package/calendar.js": {
+        "sha256": "71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830",
+        "bytes": 1454
+      },
+      "package/index.js": {
+        "sha256": "3c9e51994b1788efc15bfe0ea60ed9ade9c38b11e71713c9c44991b9137427da",
+        "bytes": 4584
+      },
+      "package/data/daily/lectionary-2026.json": {
+        "sha256": "54ce92cc4a294b6027b6300631ceec9eb4fe6c02a5b7d2eb0d7fa0ef6b5524e9",
+        "bytes": 8649638
+      },
+      "package/data/daily/lectionary-2027.json": {
+        "sha256": "97dac3dfa6c501fbefa6162b154a4e3aca1b4ef6c8b7c161c04315e29fe8d639",
+        "bytes": 8807535
+      },
+      "package/data/daily/lectionary-2028.json": {
+        "sha256": "ba27622403cacec2df741e645711fa8156dc676cf9776b0e91ac888f15edb512",
+        "bytes": 8649327
+      },
+      "package/meta.json": {
+        "sha256": "a05a6a263f58c52628882e12aa42a3eb6d1eef0785e38189e88ca144d8fdf4a1",
+        "bytes": 67408
+      },
+      "package/package.json": {
+        "sha256": "6953620c8a212f2117b1826c1208b2112746e744f578e3ff2a75fb15a40d528b",
+        "bytes": 764
+      },
+      "package/data/synaxarium/synaxarium.json": {
+        "sha256": "7780814efb4c91cd1039365f566a64029d5b63c3eb5e16f9d5be74e068a312d7",
+        "bytes": 261560
+      },
+      "package/data/reverse_lectionary_index.jsonl": {
+        "sha256": "3c52deb3f7c97b4dcc0de74bd3d99fde0e8cf8461eadb86afce77ef87969c91c",
+        "bytes": 45699090
+      },
+      "package/README.md": {
+        "sha256": "5fb2f4a4ed0fd1a8117b199841a4c0f86bd90c18a8b80cbf570568adc40649ca",
+        "bytes": 24718
+      }
+    }
+  },
+  "provenance": {
+    "source_commit": "5e49467412919e16bf5c7e751da562380d5a1ca7",
+    "source_tree_dirty": true,
+    "qualification": "Published metadata records the pre-release source commit and dirty tree truthfully. The source commit alone does not reproduce the release. Committing these inputs later does not change the immutable published archive or its provenance.",
+    "source_inputs": {
+      "pk6_release_repairs.py": {
+        "sha256": "65b49b8c4781d1bb482626b899c874633aa7425439740f5078662e8b6640184f",
+        "bytes": 6037
+      },
+      "revelation_release_repairs.py": {
+        "sha256": "c87e971e52045dde2886d7cc60776ab524fd5244380e4ca25c66a1fd55505a06",
+        "bytes": 9754
+      },
+      "sources/revelation-review-1.3.10/Brenton-035.html": {
+        "sha256": "9eda686854b6f1b2762e5ef5ed26cc8437ab6a72f5d7959d190ed67a57399b90",
+        "bytes": 4061
+      },
+      "sources/revelation-review-1.3.10/Brenton-087.html": {
+        "sha256": "09fc2d197d726780a171b7e8bd5a1e98f7b08184e2f8eff7cdec3ccaef85f05c",
+        "bytes": 5594
+      },
+      "sources/revelation-review-1.3.10/Brenton-115.html": {
+        "sha256": "d160a2a6297d976e311f472fda83580fdb06f564861eb66f20a30c522a82a103",
+        "bytes": 2580
+      },
+      "sources/revelation-review-1.3.10/NKJV-036.html": {
+        "sha256": "8724fc90ddbac3ca8d01389c0a2552723707506f433ef76093582a1f737cdd94",
+        "bytes": 212772
+      },
+      "sources/revelation-review-1.3.10/NKJV-088.html": {
+        "sha256": "6d21a266707e69ff67a4a1101a13e97ef9f0783a281fd9d8145469f6bad61174",
+        "bytes": 214862
+      },
+      "sources/revelation-review-1.3.10/NKJV-116.html": {
+        "sha256": "fbf9f60f99aa8423cf7c240110f68ee09ed1acfc4636affb1d90de8963d83f88",
+        "bytes": 218492
+      },
+      "sources/revelation-review-1.3.10/PK6-source-review.json": {
+        "sha256": "337e30219dd476a21d7cc98734589efe1cb766acbc896d02866ec432555f35eb",
+        "bytes": 2544
+      },
+      "sources/revelation-review-1.3.10/St_Mary_Ottawa_Katameros_Holy_Pascha_EN-page-610.txt": {
+        "sha256": "d195a176ffe50d500bc36a163920a17e50faf30179b8271ed152d63dbeff1f4c",
+        "bytes": 1480
+      },
+      "sources/revelation-review-1.3.10/St_Mary_Ottawa_Katameros_Holy_Pascha_EN-page-611.txt": {
+        "sha256": "804ac43a49cfb46dd10981bedfe7009fa2d573dcde02d3c64bee3fd12d621d21",
+        "bytes": 828
+      },
+      "sources/revelation-review-1.3.10/psalm-annotations.json": {
+        "sha256": "0393b239e266d205e1929e007364f01d2a5d3b54a4990f4b733c96e21936a6c7",
+        "bytes": 3280
+      },
+      "sources/revelation-review-1.3.10/published-1.3.9-PK6-targets.json.gz": {
+        "sha256": "92dfe0ff360c8a10b7771ec089d76a734b1585f0979202f83a8829354c48857a",
+        "bytes": 26599
+      },
+      "sources/revelation-review-1.3.10/published-1.3.9-ordinary-stage-deltas.json.gz": {
+        "sha256": "a3061e6d60b752e9c7d62e5160eab60f6326db14f0ad4aaec90ec98df2d8e382",
+        "bytes": 10910
+      },
+      "sources/revelation-review-1.3.10/published-1.3.9-psalm-targets.json": {
+        "sha256": "7d01fb9820067f0102edab1a1454bcff950f1ed1f74d0566bf1bda185fa7c65b",
+        "bytes": 53519
+      },
+      "sources/revelation-review-1.3.10/published-1.3.9-release-targets.json.gz": {
+        "sha256": "b78701c0262b49da8f8d31011c5fc760e333f58431edb31f34439f2e7871eca8",
+        "bytes": 37200
+      },
+      "tests/test_pk6_release_repairs.py": {
+        "sha256": "aad6cfbf24cf6e4cef380132adc92b323c44ea4878a21a0b99263e02cf9312f8",
+        "bytes": 4231
+      },
+      "tests/test_revelation_psalm_annotations.py": {
+        "sha256": "9fc707714d4621da59435f570a674d30c1580851d6add92d04a0966b20fa80bc",
+        "bytes": 5008
+      },
+      "tests/test_revelation_release_integration.py": {
+        "sha256": "287256c0dab0498d4b32c67ff97884c2f65d833d1cf18476213eda0e2df8ed60",
+        "bytes": 5153
+      },
+      "tests/test_revelation_release_repairs.py": {
+        "sha256": "3a31c61c3b18c0bc965683b48e6ccdd55f6cd48d8c8650c23badb76e580b152e",
+        "bytes": 6586
+      },
+      "tests/test_revelation_version_routes.py": {
+        "sha256": "a2c8e63cc8025ed3ae296feca3dff8ab92682b57a480a8bba85adafbd09a8095",
+        "bytes": 3233
+      },
+      "evidence_followup_repairs.py": {
+        "sha256": "5ad60d592f1d673c5aca25baa558cc23c81233752e25f2e0bdf9df5d4cd10df2",
+        "bytes": 21714
+      },
+      "packages/lectionary-data/data/daily/lectionary-2026.json": {
+        "sha256": "54ce92cc4a294b6027b6300631ceec9eb4fe6c02a5b7d2eb0d7fa0ef6b5524e9",
+        "bytes": 8649638
+      },
+      "packages/lectionary-data/data/daily/lectionary-2027.json": {
+        "sha256": "97dac3dfa6c501fbefa6162b154a4e3aca1b4ef6c8b7c161c04315e29fe8d639",
+        "bytes": 8807535
+      },
+      "packages/lectionary-data/data/daily/lectionary-2028.json": {
+        "sha256": "ba27622403cacec2df741e645711fa8156dc676cf9776b0e91ac888f15edb512",
+        "bytes": 8649327
+      },
+      "packages/lectionary-data/data/reverse_lectionary_index.jsonl": {
+        "sha256": "3c52deb3f7c97b4dcc0de74bd3d99fde0e8cf8461eadb86afce77ef87969c91c",
+        "bytes": 45699090
+      },
+      "packages/lectionary-data/meta.json": {
+        "sha256": "a05a6a263f58c52628882e12aa42a3eb6d1eef0785e38189e88ca144d8fdf4a1",
+        "bytes": 67408
+      },
+      "packages/lectionary-data/package.json": {
+        "sha256": "6953620c8a212f2117b1826c1208b2112746e744f578e3ff2a75fb15a40d528b",
+        "bytes": 764
+      },
+      "scripts/apply_review_repairs.py": {
+        "sha256": "5068ddf68933ed175b14f4a8b11acdd17df1bca608a4e2107756da0c8c6dab84",
+        "bytes": 6635
+      },
+      "scripts/build_npm_package.mjs": {
+        "sha256": "601dc936d225c09dca4d2c4385759459a661e498f4662d599dfc27f3577e0e3e",
+        "bytes": 86046
+      },
+      "scripts/compare_external_sources.py": {
+        "sha256": "107345ad73fc7470d08f448ca85ed7f1c08d8a6f43b79e0c225213bf4a8f5a97",
+        "bytes": 49089
+      },
+      "scripts/review_release_contract.py": {
+        "sha256": "0e75a7908f61f56429af83800edd09514de5e6b958b5a8c113c650bc9c27d48e",
+        "bytes": 12716
+      },
+      "scripts/verify_package_integrity.py": {
+        "sha256": "32466e086e08f51e097a2c3b14bc413bcb57d233625fc6b6dbaf0c785fb299f9",
+        "bytes": 52993
+      },
+      "tests/helpers/copy_review_build_inputs.cjs": {
+        "sha256": "f5e67b1f1075692a6a49fff4b15bd3a3c54a68778318c40a026b708db1402579",
+        "bytes": 2604
+      },
+      "tests/npm_builder_preservation.test.cjs": {
+        "sha256": "685a3e6d7fb339aa466d68217b0e9767d659d495f737325d0d275cd4947b9b14",
+        "bytes": 4594
+      },
+      "tests/npm_daily_stage_order.test.cjs": {
+        "sha256": "63ce92f7c395827b66863082243f27fa2d9c5ebba8d118789e1886256a7e23bd",
+        "bytes": 10962
+      },
+      "tests/npm_service_appointment_order.test.cjs": {
+        "sha256": "438b2bd3432cd1a15be55cf1ae8c6acff165f4b446518859330cb7b5ac624efb",
+        "bytes": 10165
+      },
+      "tests/test_qualified_package_integrity.py": {
+        "sha256": "8abebc68224756778077866ddb85a5db5e4252d1df7ce55f27fc613f3b0001fd",
+        "bytes": 8462
+      },
+      "packages/lectionary-data/README.md": {
+        "sha256": "5fb2f4a4ed0fd1a8117b199841a4c0f86bd90c18a8b80cbf570568adc40649ca",
+        "bytes": 24718
+      },
+      "tests/npm_schema_documentation.test.cjs": {
+        "sha256": "c825f36b2bca7106f464e8f9dd4025109f246f2b4a7b9847bd72cbb5c3035ef0",
+        "bytes": 2121
+      },
+      "tests/test_external_sunday_comparison.py": {
+        "sha256": "a9abb16aa8f545c3cc231d8e99c405a0d2e0931ec141da8ad7da6cdc267fd932",
+        "bytes": 14170
+      },
+      "tests/test_mark_followup_repairs.py": {
+        "sha256": "fa8b8955388f11a3519f677c915860e7b6d33fe1c7137766dc4e1608d59b0d8c",
+        "bytes": 11369
+      }
+    }
+  },
+  "verification": {
+    "registry_tarball_byte_identical": true,
+    "published_archive_checked": "2026-11-13",
+    "repository_inputs_rechecked": "2026-11-13",
+    "qualification": "Checksums identify the accepted inputs and artifact; they do not imply a fresh complete test run or source approval beyond the release report."
+  },
+  "repository_followup": {
+    "date": "2026-11-13",
+    "purpose": "Version-scope repository-only Psalm annotation reconstruction so authentic 1.3.8 and 1.3.9 inverses retain their original policy while current 1.3.10 behavior remains unchanged.",
+    "changes_published_archive": false,
+    "qualification": "These later repository inputs are separately bound. Do not replace the original publication source-input hashes or reinterpret the immutable archive as having been built from this followup.",
+    "files": {
+      "evidence_followup_repairs.py": {
+        "sha256": "6e5ccc02f6ed4daf9db3d6478beff4ecbd6b61d2ad5a27212df869c796b8d018",
+        "bytes": 22022
+      },
+      "scripts/review_release_contract.py": {
+        "sha256": "22bf7fc299fb52f5fa00af0412cc85ff2e99fd15e028c7d5e636b4838c4f9e96",
+        "bytes": 12922
+      },
+      "tests/test_historical_psalm_inverse.py": {
+        "sha256": "6678d93589ddc95638594a880235dc72cf355abc4bc741ec6064fbfc1fcc82b8",
+        "bytes": 8373
+      },
+      "sources/revelation-review-1.3.10/published-historical-psalm-inverse.json.gz": {
+        "sha256": "ea3cc21cacf296178ed99870666b7b15eab92d4a7e95dabab8670ce80dd6271f",
+        "bytes": 23979
+      }
+    }
+  }
+}

@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.3.10
+
+Published and registry-verified. Changes are relative to authenticated published 1.3.9; historical source fixtures and unresolved qualifications are preserved.
+
+- **PK2:** Correct the Bright Saturday Second Praise of Moses to Deuteronomy 32:1–43 from the retained Reader heading and numbered final verse. Preserve the former 1–42 witness as inactive history with an explicit 1.3.10 retirement, and replace its three shipped daily occurrences without changing companion order.
+- **PK4/PK5/PK10:** Correct six source-reviewed MT-to-LXX Psalm annotations. Preserve source coordinates and inactive annotations; do not apply a universal superscription offset.
+- **PK6:** Retire the erroneous local Good Friday Ninth Hour Hosea appointment. Preserve that identity as inactive transcription-error audit history and Joel as an edition-qualified historical witness, supported by Ottawa 2018 pp. 610–611. Retain the Reader-absence qualification and unknown removal date/reason. Do not activate a third current Reader prophecy.
+- **PK11:** Remove internal review prose from current display references while retaining exact former labels in structured disclosure. Preserve all empty canonical fields, numeric source-coordinate holds and lifecycle qualifications.
+- Extend version-aware projection/inverse and serialized-count validation, preserving original historical source contracts and corruption refusals. Correct two test adapters to authenticate the final public stage before applying their historical oracles.
+- Keep the calendar, CommonJS API, Synaxarium catalog and named coverage gaps unchanged.
+- **Post-publication repository-only correction:** Version-scope Psalm inverse reconstruction so authentic 1.3.8/1.3.9 artifacts retain their historical expectations. Add independently authenticated offline reverse/daily regressions without changing existing fixtures or any published 1.3.10 member. Bind the later source correction separately from the original publication inputs.
+
+See [release scope, verification and provenance](docs/LECTIONARY_1_3_10_RELEASE.md) and the [exact artifact/source receipt](docs/releases/lectionary-data-1.3.10.json). This release was published with truthful dirty-source provenance; no clean-commit reproducibility claim is made.
+
 ## 1.3.8
 
 Bounded follow-up against authenticated published 1.3.7. No printed witness is promoted, no Synaxarium entry or raw source field is changed.

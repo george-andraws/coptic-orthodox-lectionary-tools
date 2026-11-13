@@ -24,6 +24,8 @@ import metadata_followup_repairs as metadata
 import composite_followup_repairs as composite
 import evidence_followup_repairs as evidence
 import annual_occasion_repairs as annual_occasion
+import revelation_release_repairs as revelation
+import pk6_release_repairs as pk6
 
 
 def finish_daily(days):
@@ -106,6 +108,13 @@ def labels(rows):
 
 
 def project(mode, payload):
+    if mode == 'release':
+        # Outer successor projection only: historical layer APIs stay unchanged.
+        rows = pk6.project_reverse(revelation.project_rows(payload['rows']))
+        daily = {year: {date: pk6.project_daily(revelation.project_rows(readings, date=date), date)
+                        for date, readings in days.items()}
+                 for year, days in payload['daily_by_year'].items()}
+        return {'rows': rows, 'daily_by_year': daily}
     if mode == 'reverse':
         # Calendar metadata is qualified against untouched source identities.
         rows = calendar_review.load_runtime_review(ROOT).apply_reverse_rows(payload['rows'])

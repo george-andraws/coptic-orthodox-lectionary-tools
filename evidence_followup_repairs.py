@@ -233,7 +233,26 @@ def _psalm_frame(row, spans):
     return 'mt_nkjv'
 
 
-def frame_qualified_lxx(mt_ref):
+REVELATION_PSALM_REFS = frozenset({
+    'Ps 116:15-16', 'Ps 88:11-12', 'Ps 36:9-10',
+    'Ps 115:12-13', 'Ps 115:1-2', 'Ps 115:16-18',
+})
+REVELATION_PSALM_MANIFEST = Path('sources/revelation-review-1.3.10/psalm-annotations.json')
+REVELATION_PSALM_MANIFEST_SHA256 = '0393b239e266d205e1929e007364f01d2a5d3b54a4990f4b733c96e21936a6c7'
+
+
+def _revelation_psalm_locus(mt_ref):
+    manifest = json.loads(_read(ROOT, REVELATION_PSALM_MANIFEST, REVELATION_PSALM_MANIFEST_SHA256))
+    mapping, = [item for item in manifest['mappings'] if item['mt'] == mt_ref]
+    for name in mapping['witnesses']:
+        witness = manifest['files'][name]
+        relative = witness.get('path') or (REVELATION_PSALM_MANIFEST.parent / name)
+        _read(ROOT, relative, witness['sha256'])
+    return (mapping['lxx'], mapping['request'] + '; retained NKJV/Brenton covering locus; manifest sha256='
+            + REVELATION_PSALM_MANIFEST_SHA256, 'bounded_parallel_locus_not_exact_edition_equivalence')
+
+
+def frame_qualified_lxx(mt_ref, *, version='1.3.10'):
     """Current converter plus authenticated superscription-sensitive counterpart.
 
     The generic converter intentionally returns chapter-only medium-confidence
@@ -241,6 +260,8 @@ def frame_qualified_lxx(mt_ref):
     retained Brenton/NKJV body witnesses qualify 51:7 and 51:10 as covering loci,
     not an automatic +2 rule or authority for other printed source frames.
     """
+    if version == '1.3.10' and mt_ref in REVELATION_PSALM_REFS:
+        return _revelation_psalm_locus(mt_ref)
     from build_design_deliverables import psalm_lxx_ref
     proposal, basis, confidence = psalm_lxx_ref(mt_ref)
     if mt_ref in ('Ps 51:7', 'Ps 51:10'):
@@ -253,7 +274,7 @@ def frame_qualified_lxx(mt_ref):
     return proposal, basis, confidence
 
 
-def repair_psalm_annotations(rows):
+def repair_psalm_annotations(rows, *, version='1.3.10'):
     """Recompute only MT-qualified annotations, preserving every source coordinate.
 
     Changed identity keys are intentionally NOT invented here. These are retained
@@ -278,8 +299,13 @@ def repair_psalm_annotations(rows):
             continue
         counts['mt_qualified'] += 1
         mt = row['canonical_mt_ref']
+        if version == '1.3.10' and mt in REVELATION_PSALM_REFS:
+            # This review never rewrites retained inactive/historical witnesses.
+            from metadata_followup_repairs import is_current
+            if not is_current(row):
+                continue
         if mt not in cache:
-            cache[mt] = frame_qualified_lxx(mt)
+            cache[mt] = frame_qualified_lxx(mt, version=version)
         lxx, basis, confidence = cache[mt]
         if lxx == row.get('canonical_lxx_ref'):
             continue
@@ -300,7 +326,8 @@ def repair_psalm_annotations(rows):
         for span in spans:
             span.update(canonical_lxx_ref=lxx, validation_basis=basis, confidence=confidence)
         row['spans_json'] = json.dumps(spans, ensure_ascii=False, sort_keys=True)
-        row['psalm_annotation_review_json'] = _json({'request': 'LK9', 'mt_frame': 'mt_nkjv',
+        request = 'PK-4/PK-5/PK-10' if version == '1.3.10' and mt in REVELATION_PSALM_REFS else 'LK9'
+        row['psalm_annotation_review_json'] = _json({'request': request, 'mt_frame': 'mt_nkjv',
             'old_lxx_ref': old, 'canonical_lxx_ref': lxx, 'basis': basis,
             'qualification': confidence, 'source_coordinates_changed': False})
         counts['annotations_changed'] += 1
@@ -326,18 +353,20 @@ def validate_rows(rows, *, root=None, require_all_targets=False):
     return validate_psalm_annotations(rows)
 
 
-def restore_rows_for_comparison(rows, *, date=None, require_all_targets=False):
+def restore_rows_for_comparison(rows, *, date=None, require_all_targets=False, version='1.3.10'):
     """Authenticate final deltas against frozen inputs, then undo only this layer.
 
     Converter idempotency is not an annotation oracle: exact expected annotations
     come from the authenticated published predecessor, never from candidate rows.
+    The trusted caller selects the release: 1.3.8/9 predate the six PK mappings.
+    Direct callers retain the current projection by default.
     """
     import metadata_followup_repairs as metadata
     if date is None:
         validate_evidence_rows(rows, require_all_targets=require_all_targets)
     frozen = metadata.baseline()
     originals = frozen['reverse_rows'] if date is None else frozen['daily'].get(date[:4], {}).get(date, [])
-    projected, _ = repair_psalm_annotations(originals)
+    projected, _ = repair_psalm_annotations(originals, version=version)
     annotation_fields = ('canonical_lxx_ref', 'display_ref', 'spans_json', 'psalm_annotation_review_json')
     identity = lambda r: tuple(r.get(k, '') for k in
         ('identity_key', 'source_locator', 'source_family', 'source_kind', 'occasion', 'service_section', 'slot'))

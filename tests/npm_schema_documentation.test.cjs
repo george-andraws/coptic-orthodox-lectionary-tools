@@ -5,6 +5,12 @@ const test = require('node:test');
 
 const root = path.resolve(__dirname, '..', 'packages', 'lectionary-data');
 const readme = fs.readFileSync(path.join(root, 'README.md'), 'utf8');
+const packageVersion = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8')).version;
+
+test('README release and provenance identify the packed package version', () => {
+  assert.ok(readme.includes(`Package release: **${packageVersion}**.`));
+  assert.ok(readme.includes(`- Package version: ${packageVersion}.`));
+});
 const reverse = fs.readFileSync(path.join(root, 'data', 'reverse_lectionary_index.jsonl'), 'utf8')
   .trim().split('\n').map(JSON.parse);
 

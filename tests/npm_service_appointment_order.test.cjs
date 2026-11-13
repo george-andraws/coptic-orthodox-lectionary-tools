@@ -127,14 +127,28 @@ test('Bright Saturday praises precede Matins and retain the printed canticle seq
     const sorted = sortDailyReadings(daily[year][date], date);
     const praises = sorted.filter(r => r.service_section === 'Midnight Praises');
     assert.equal(sorted[0].service_section, 'Midnight Praises');
-    // The old package has these canticles; a qualified Psalm 151 opening is
-    // independent and must not weaken this complete retained sequence.
+    // Current successor endpoint is source-backed; the historical 42 witness
+    // remains independently pinned in the release fixture below.
     const existing = praises.filter(r => r.source_kind === 'bright_saturday_service_order');
     assert.deepEqual(Array.from(existing, r => r.canonical_mt_ref), [
-      'Deut 32:1-42', '1Sam 2:1-11', 'Hab 3:2-19', 'Jonah 2:2-10', 'Isa 38:10-20', 'PrMan 1:1-15',
+      'Deut 32:1-43', '1Sam 2:1-11', 'Hab 3:2-19', 'Jonah 2:2-10', 'Isa 38:10-20', 'PrMan 1:1-15',
       'Isa 26:9-20', 'Isa 25:1-12', 'Isa 26:1-9', 'Lam 5:16-22', 'Bar 2:11-16', '1Kgs 18:36-39',
       '1Chr 29:10-13', '1Kgs 8:22-30', 'Dan 9:4-19', 'Dan 3:1-23', 'Dan 3:25-51', 'Dan 3:91-97',
       'Lk 1:46-55', 'Lk 1:68-79', 'Lk 2:29-32', 'Sus 1:1-64',
     ]);
   }
+});
+
+test('PK2 retains the authenticated predecessor endpoint and its 1.3.10 retirement', () => {
+  const bytes = fs.readFileSync(path.join(root, 'sources/revelation-review-1.3.10/published-1.3.9-release-targets.json.gz'));
+  assert.equal(require('node:crypto').createHash('sha256').update(bytes).digest('hex'), 'b78701c0262b49da8f8d31011c5fc760e333f58431edb31f34439f2e7871eca8');
+  const frozen = JSON.parse(require('node:zlib').gunzipSync(bytes));
+  const old = frozen.reverse_rows.find(r => r.identity_key === 'rid_8ae616e6b96572e37bd9');
+  assert.equal(old.canonical_mt_ref, 'Deut 32:1-42');
+  const reverse = fs.readFileSync(path.join(root, 'packages/lectionary-data/data/reverse_lectionary_index.jsonl'), 'utf8').trim().split('\n').map(JSON.parse);
+  const archive = reverse.filter(r => r.identity_key === old.identity_key);
+  assert.equal(archive.length, 1);
+  assert.equal(archive[0].removal_effective_version, '1.3.10');
+  assert.equal(require('../packages/lectionary-data').isCurrentReading(archive[0]), false);
+  for (const field of ['spans_json','source_disclosure','source_locator','display_ref']) assert.equal(archive[0][field], old[field]);
 });

@@ -113,7 +113,10 @@ def test_package_entrypoint_rejects_inactive_qualified_lifecycle(monkeypatch):
     row['current_status'] = 'historical_witness'
     monkeypatch.setattr(v, 'parse_jsonl', lambda path: rows if path.name == 'reverse_lectionary_index.jsonl' else original(path))
     result = v.validate_package_integrity(v.PACKAGE_DIR)
-    assert any(f['reason'] == 'invalid_current_reverse_span' and f['display_ref'] == row['display_ref']
+    # The successor's outer authentication now rejects the lifecycle mutation
+    # before the older generic span guard. Both guards remain exercised above.
+    assert any(f['reason'] == 'unqualified_followup_reverse'
+               and f['detail'] == 'PK source/context/coordinate drift: current_status'
                for f in result['failures'])
 
 

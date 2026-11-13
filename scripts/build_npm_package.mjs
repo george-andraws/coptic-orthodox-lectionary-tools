@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.9';
+const VERSION = '1.3.10';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -1596,7 +1596,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
@@ -1618,14 +1618,26 @@ async function main() {
   const occurrenceProjection = applyReviewRepairs('occurrence', { rows: reverseProjection.rows, daily_by_year: dailyByYear });
   const compositeEvents = occurrenceProjection.events.filter(event => event.id === 'LK5');
   if (occurrenceProjection.rows.length !== occasionIndexRows - compositeEvents.length) throw new Error('Unexplained follow-up reverse membership change.');
-  occasionIndexRows = occurrenceProjection.rows.length;
+  const releaseProjection = applyReviewRepairs('release', { rows: occurrenceProjection.rows, daily_by_year: dailyByYear });
+  if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 1) throw new Error('Unexplained PK2 successor membership change.');
+  for (const year of SHIPPED_YEARS) {
+    const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
+    await writeFile(destination, `${JSON.stringify(releaseProjection.daily_by_year[year], null, 2)}\n`, 'utf8');
+    const info = dailyInfos.find(info => info.year === year);
+    info.bytes = (await stat(destination)).size;
+    info.reading_count = Object.values(releaseProjection.daily_by_year[year]).reduce((count, rows) => count + rows.length, 0);
+    for (const entry of info.structural_daily_additions) entry.reading_count = releaseProjection.daily_by_year[year][entry.date].length;
+  }
+  occasionIndexRows = releaseProjection.rows.length;
   projectionRules.output_rows = occasionIndexRows;
-  projectionRules.active_rows = occurrenceProjection.rows.filter(row => !isProjectionRemovedRow(row)).length;
-  projectionRules.current_rows = occurrenceProjection.rows.filter(isCurrentReading).length;
-  projectionRules.removed_rows_included = occurrenceProjection.rows.filter(isProjectionRemovedRow).length;
+  projectionRules.active_rows = releaseProjection.rows.filter(row => !isProjectionRemovedRow(row)).length;
+  projectionRules.current_rows = releaseProjection.rows.filter(isCurrentReading).length;
+  projectionRules.removed_rows_included = releaseProjection.rows.filter(isProjectionRemovedRow).length;
   projectionRules.runtime_review.events.push(...occurrenceProjection.events);
   projectionRules.runtime_review.evidence_counts = occurrenceProjection.evidence_counts;
-  await writeFile(OCCASION_DEST, `${occurrenceProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
+  projectionRules.runtime_review.endpoint_release = '1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels';
+  projectionRules.runtime_review.pk6_release = '1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy';
+  await writeFile(OCCASION_DEST, `${releaseProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);
 

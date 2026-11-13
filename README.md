@@ -4,9 +4,9 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**Version 1.3.7 is the current release candidate; 1.3.6 is the authenticated published baseline.** The candidate corrects the complete weekday Kiahk 23 table, source-confirmed Holy Week errors and Last Friday Matins; it adds separate fixed-date/Sunday metadata and reviewed composite appointments. Unresolved selections and uncaptured hours stay qualified or held. Calendar and Synaxarium bytes are unchanged: 366 Coptic days, 868 titles and the same pure calendar converter. Publication remains gated on exact-artifact acceptance.
+**`@andraws/lectionary-data@1.3.10` is the verified published runtime release.** Relative to authenticated 1.3.9, it corrects the Bright Saturday Deuteronomy endpoint, six source-reviewed Psalm annotations and reader-facing review prose, and preserves the Good Friday Hosea transcription error and printed Joel witness as explicitly inactive history. Unresolved canonical alignment and unverified recurrence remain qualified. Calendar, runtime API and Synaxarium bytes are unchanged from 1.3.9: 366 Coptic days and 868 titles.
 
-Read [1.3.7 scope, source evidence and limitations](docs/LECTIONARY_1_3_7_RELEASE.md), the [changelog](CHANGELOG.md) and [Reader check sheet](coptic-reader-check-sheet.md). Earlier npm artifacts are immutable. The [1.3.5 reconciliation](docs/LECTIONARY_1_3_5_RECONCILIATION.md) remains historical evidence, not the candidate's source authority.
+Read [1.3.10 scope, verification and limitations](docs/LECTIONARY_1_3_10_RELEASE.md), its [portable release receipt](docs/releases/lectionary-data-1.3.10.json), the [changelog](CHANGELOG.md) and [Reader check sheet](coptic-reader-check-sheet.md). Earlier npm artifacts and their source qualifications remain immutable historical evidence; see the [1.3.5 reconciliation](docs/LECTIONARY_1_3_5_RECONCILIATION.md) and earlier release reports.
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
@@ -17,14 +17,14 @@ The consuming site is `george-andraws/coptic-corpus`, built locally from `/Users
 
 The repository has distinct layers: research/capture material, generated reference data under `out/`, and the npm runtime under `packages/lectionary-data`. Do not confuse research Synaxarium bridges with the public titles catalog. Older execution briefs and generated internal specs are historical records, not the current npm contract.
 
-The 1.3.7 runtime builder applies source-owned review repairs after the unchanged design/canonicalization guard and after structural daily fill. Run it in the declared Python dependency environment:
+The runtime builder applies ordered source-owned review repairs after the unchanged design/canonicalization guard and structural daily fill. The 1.3.10 final stages apply the Deuteronomy/display repairs, then the qualified Good Friday history and daily exclusion. Run it in the declared Python dependency environment:
 
 ```bash
 uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate \
   python -c 'import subprocess; subprocess.run(["node", "scripts/build_npm_package.mjs"], check=True)'
 ```
 
-Freeze all source writers before final acceptance. Rebuild from a clean checkout, run the full Python and declared Node test inventories with the dependency environment on subprocess PATH, validate the exact packed tarball and compare registry bytes after authorized publication. Do not install this candidate in the site as part of a package-only task. Its three new source-only Kiahk Psalm selections require a bounded consumer-validator qualification when a site upgrade is separately authorized.
+For future releases, freeze source writers, prefer a clean source checkout, run the full Python and declared Node inventories with the dependency environment on subprocess PATH, validate the exact packed archive and compare registry bytes after authorized publication. This 1.3.10 release truthfully records dirty source: the source commit alone does not reproduce its uncommitted inputs. The release receipt binds those inputs and the published archive. Consumer upgrades require separate authorization and real parser/validator checks for both source-only empty coordinates and numeric coordinate holds; the authorized 1.3.10 site upgrade completed these checks without inventing spans.
 
 ## Research-layer build
 

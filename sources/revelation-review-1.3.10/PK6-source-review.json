@@ -1,0 +1,45 @@
+{
+  "current_reader_activation_approved": false,
+  "date_or_reason_of_liturgical_removal": null,
+  "files": {
+    "sources/coptic-reader/holy-week-review-qualified-2026-10-29/friday--9th-hour.txt": "be608e44de875f94139f230f9170d23ee3d81a9af56de3cf9e5f9d9dec6312ae",
+    "sources/katameros-api/Core/Factories/Feasts/PaschaFriday.cs": "8d0b0ebe09ea8b4fbcc4fbb0d395bead0b1468c44d2ffc8876d3800c76dbf164",
+    "sources/katameros-api/Core/KatamerosDatabase.db": "b6a1bbfa96543b7028bba77ad33df5cb018d21ec7bde1335247c2bd86ff43784",
+    "sources/pdfs/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.pdf": "afddea9372689625409370be0c466b0d99d4279fea57221f177dd18f105413d1",
+    "sources/revelation-review-1.3.10/St_Mary_Ottawa_Katameros_Holy_Pascha_EN-page-610.txt": "d195a176ffe50d500bc36a163920a17e50faf30179b8271ed152d63dbeff1f4c",
+    "sources/revelation-review-1.3.10/St_Mary_Ottawa_Katameros_Holy_Pascha_EN-page-611.txt": "804ac43a49cfb46dd10981bedfe7009fa2d573dcde02d3c64bee3fd12d621d21"
+  },
+  "printed_source": {
+    "edition": "Lent 1734 A.M., 2018 A.D., English eBook",
+    "pages": [
+      610,
+      611
+    ],
+    "printed_ref": "Joel 2:1-3 & 2:10-11",
+    "title": "The Katameros of the Holy Pascha",
+    "url": "https://stmary-ottawa.org/wp-content/uploads/2025/04/Katameros-Holy-Pascha-EN.pdf"
+  },
+  "reader_note": "Historical printed witness: The Ottawa Katameros of the Holy Pascha (English eBook, Lent 1734 A.M./2018 A.D., pp. 610–611) includes Joel 2:1–3 and 2:10–11 as a third prophecy at the Ninth Hour of Good Friday. This third prophecy is absent from the retained Coptic Reader service, and George reports that it is also absent in his current Coptic Reader. The date and reason for the difference have not been established. The former local Hosea label was a transcription error, not a verified alternate appointment.",
+  "reader_omission": {
+    "app_version": null,
+    "capture_time": null,
+    "fresh_app_verification": false,
+    "jeremiah_line": 13,
+    "paschal_praise_line": 118,
+    "source_path": "sources/coptic-reader/holy-week-review-qualified-2026-10-29/friday--9th-hour.txt",
+    "user_reports_current_reader_absence": true,
+    "zechariah_line": 81
+  },
+  "request": "PK6",
+  "structured_witness": {
+    "constructor_line": 70,
+    "decoded_books": {
+      "28": "Hosea",
+      "29": "Joel"
+    },
+    "literal": "MakeOldTestament(\"29.2:1-3*@+29.2:10-11\")",
+    "qualification": "independent structured witness, not Church-wide authority",
+    "source": "pierresaid/katameros-api"
+  },
+  "version": "1.3.10"
+}

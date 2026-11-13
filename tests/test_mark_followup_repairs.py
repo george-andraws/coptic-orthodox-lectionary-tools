@@ -1,12 +1,27 @@
 """L1-L10 source-owned controls and corruption probes, not corpus substitutions."""
 import copy
 import json
+from pathlib import Path
 from unittest.mock import patch
 
 import pytest
 
 import mark_followup_repairs as m
-from scripts.review_release_contract import review_inactive_qualified
+import revelation_release_repairs as revelation
+import pk6_release_repairs as pk6
+from scripts.review_release_contract import followup_daily_view, review_inactive_qualified
+
+ROOT = Path(__file__).resolve().parents[1]
+CANDIDATE_VERSION = '1.3.10'
+
+
+@pytest.fixture(scope='module')
+def candidate():
+    package = ROOT / 'packages/lectionary-data'
+    assert json.loads((package / 'package.json').read_text())['version'] == CANDIDATE_VERSION
+    assert json.loads((package / 'meta.json').read_text())['version'] == CANDIDATE_VERSION
+    return {year: json.loads((package / 'data/daily' / f'lectionary-{year}.json').read_text())
+            for year in (2026, 2027, 2028)}
 
 
 @pytest.fixture(scope='module')
@@ -67,21 +82,29 @@ def test_compound_family_evidence_lifecycle_stripping_is_not_ordinary_reading(fr
 
 
 @pytest.mark.parametrize('year', [2026, 2027, 2028])
-def test_complete_daily_tables_and_comparator_positive_control(frozen, year):
+def test_complete_daily_tables_and_comparator_positive_control(frozen, candidate, year):
     before = frozen['daily'][str(year)]
     after = m.repair_daily(before)
     assert m.repair_daily(after) == after
-    from pathlib import Path
-    actual = json.loads((Path(__file__).resolve().parents[1] / 'packages/lectionary-data/data/daily' / f'lectionary-{year}.json').read_text())
     from scripts.apply_review_repairs import finish_daily
-    from scripts.review_release_contract import followup_daily_view
-    actual_scope = {date: actual[date] for date in after}
-    # The actual package includes the subsequent metadata/evidence transport
-    # layers. Compare the complete public output, then authenticate their inverse
-    # before applying Mark's unchanged predecessor-table oracle.
-    assert actual_scope == finish_daily(after), 'complete real candidate arrays, not helper-only agreement'
-    assert followup_daily_view(actual_scope) == after
+    actual_scope = {date: candidate[year][date] for date in after}
+    # Start with the hash-authenticated Mark predecessor, then compose ALL public
+    # layers in release order. Replay alone would not prove the first projection.
+    finished = finish_daily(after)
+    expected = {date: pk6.project_daily(revelation.project_rows(rows, date=date), date)
+                for date, rows in finished.items()}
+    assert actual_scope == expected, 'complete real candidate arrays, not helper-only agreement'
+    assert followup_daily_view(actual_scope, version=CANDIDATE_VERSION) == after
     assert m.restore_predecessor_for_comparison(after, year) == before
+    for version in (None, '1.3.9'):
+        with pytest.raises(ValueError, match='Mark follow-up daily complete-table mismatch'):
+            m.restore_predecessor_for_comparison(followup_daily_view(actual_scope, version=version), year)
+    bad = copy.deepcopy(actual_scope)
+    cleaned = next(r for rows in bad.values() for r in rows
+                   if 'display_reference_review' in r['source_disclosure'])
+    cleaned['source_disclosure'] = '[]'
+    with pytest.raises(ValueError, match='PK source/context/coordinate drift: source_disclosure'):
+        followup_daily_view(bad, version=CANDIDATE_VERSION)
     assert len(m.validate_eve_coverage(after, year)) == 25
     m.validate_day_hour_sets(after)
     for date, rows in after.items():
@@ -157,23 +180,31 @@ def test_source_authentication_failure_reaches_actual_projection_caller(frozen):
             bridge.project('reverse', {'rows': []})
 
 
-def test_pending_allowances_preserve_both_empty_and_numeric_source_coordinates():
+def test_pending_allowances_preserve_both_empty_and_numeric_source_coordinates(candidate):
     oracle = m.source_oracle()['L9']['pending_occurrence_oracle']
+    # Authenticate the complete public release inverse before invoking the older
+    # disclosure-hash allowance. Never refresh that historical hash from output.
+    restored = {year: followup_daily_view(days, version=CANDIDATE_VERSION)
+                for year, days in candidate.items()}
     counts = {}
     numeric = 0
+    cleaned = 0
     for entry in oracle:
         row = {k: v for k, v in entry['selector'].items() if k != 'calendar_keys'}
         row.update({k: entry[k] for k in ('current_status', 'canonical_mt_ref', 'canonical_lxx_ref', 'spans_json', 'source_locator')})
-        # Use actual saved disclosure bytes, never synthesize a hash match.
-        import pathlib
-        daily = json.loads((pathlib.Path(__file__).resolve().parents[1] / 'packages/lectionary-data/data/daily' / f"lectionary-{entry['year']}.json").read_text())
-        actual = next((r for r in daily[entry['date']] if r['identity_key'] == row['identity_key']), None)
+        actual = next((r for r in candidate[entry['year']][entry['date']] if r['identity_key'] == row['identity_key']), None)
         if entry['lane'].startswith('preserve_'):
             assert actual is not None
-            m.validate_pending_reading(actual, entry['date'])
+            historical = next(r for r in restored[entry['year']][entry['date']]
+                              if r['identity_key'] == row['identity_key'])
+            m.validate_pending_reading(historical, entry['date'])
+            if actual['source_disclosure'] != historical['source_disclosure']:
+                cleaned += 1
+                with pytest.raises(ValueError, match='outside authenticated allowance'):
+                    m.validate_pending_reading(actual, entry['date'])
             counts[entry['year']] = counts.get(entry['year'], 0) + 1
-            numeric += bool(json.loads(actual['spans_json']))
-            bad = dict(actual, canonical_mt_ref='Ps 1:1')
+            numeric += bool(json.loads(historical['spans_json']))
+            bad = dict(historical, canonical_mt_ref='Ps 1:1')
             with pytest.raises(ValueError, match='outside authenticated allowance'):
                 m.validate_pending_reading(bad, entry['date'])
         else:
@@ -182,5 +213,6 @@ def test_pending_allowances_preserve_both_empty_and_numeric_source_coordinates()
                 m.validate_pending_reading(row, entry['date'])
     assert counts == {2026: 7, 2027: 22, 2028: 7}
     assert numeric == 18
+    assert cleaned > 0
     with pytest.raises(ValueError, match='outside authenticated allowance'):
         m.validate_pending_reading({'current_status': 'pending_arbitrary'}, '2026-01-01')

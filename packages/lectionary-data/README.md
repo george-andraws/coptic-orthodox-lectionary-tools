@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.9**.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.10**.
 
 ## What this package contains
 
@@ -229,6 +229,14 @@ The undated Covenant Thursday Lakkan Pauline carries a same-service marker based
 
 These fields are additive. The source-owned Python validation adapters live in the source repository, not in the npm artifact. Consumers must preserve the evidence cells and cannot treat a successful JSON decode as source authentication.
 
+## Corrections in 1.3.10
+
+- The Bright Saturday Second Praise of Moses includes Deuteronomy 32:43, as explicitly headed and numbered in the retained Reader source. The former 1–42 witness remains inactive history; the current successor and all three shipped daily occurrences use 1–43.
+- Six source-reviewed Psalm annotations now identify LXX covering loci accurately: MT 116:15–16 → LXX 115:6–7; 88:11–12 → 87:12–13; 36:9–10 → 35:10–11; 115:12–13 → 113:20–21; 115:1–2 → 113:9–10; and 115:16–18 → 113:24–26. Source coordinates, identities and inactive historical annotations are unchanged. This is not a universal arithmetic verse-number conversion.
+- Current display references no longer print internal review prose. Their exact former labels remain in `source_disclosure[].display_reference_review.raw_display_ref`. Blank canonical fields and numeric source-coordinate holds remain unresolved; presentation cleanup does not approve their canonical alignment.
+- Good Friday's Ninth Hour no longer treats the erroneous local Hosea label as a current appointment. Its original record remains inactive transcription-error audit history. The existing Joel 2:1–3 and 2:10–11 witness remains historical, supported by the Ottawa 2018 *Katameros of the Holy Pascha*, pp. 610–611. Complete qualified notes are retained in `source_disclosure[].historical_reference_review`, including the retained Reader omission and a separately labeled user report of current absence. No removal date/reason is known, and no third current Reader prophecy is activated.
+- Calendar conversion, the Synaxarium titles catalog, and previously stated unverified Lent recurrence limits are unchanged. This release does not add Apocalypse Night or daily Tasbeha coverage or Synaxarium narratives. It is not a fresh whole-corpus Reader verification.
+
 ## Corrections in 1.3.9
 
 - Annual Reader corrections for Tout 16, weekday Tout 17, Tout 19, and weekday Babah 27 now apply to every shipped non-Sunday year of that occasion, not only the captured civil date. Sunday and differently labeled feast tables are unchanged.
@@ -241,7 +249,7 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.3.9.
+- Package version: 1.3.10.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.

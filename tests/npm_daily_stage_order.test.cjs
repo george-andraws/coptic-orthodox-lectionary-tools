@@ -27,7 +27,24 @@ const ordinary = r => r.source_kind === 'copticchurch_date' && r.source_family =
 test('npm daily preserves ordinary service-stage and supplied companion-fragment order', () => {
   let checked = 0;
   let unaffected = 0;
-  const changes = {R1: 0, R2: 0, R4: 0, L1: 0, LK9: 0};
+  const changes = {R1: 0, R2: 0, R4: 0, L1: 0, LK9: 0, PK: 0, publishedAnnual: 0};
+  const frozenGzip = (file, hash) => {
+    const bytes = fs.readFileSync(path.join(root,file));
+    assert.equal(digest(bytes),hash,file);
+    return JSON.parse(require('node:zlib').gunzipSync(bytes));
+  };
+  const annual = frozenGzip('sources/revelation-review-1.3.10/published-1.3.9-ordinary-stage-deltas.json.gz', 'a3061e6d60b752e9c7d62e5160eab60f6326db14f0ad4aaec90ec98df2d8e382');
+
+  const psalmDates = new Set(['2026-02-01','2026-05-03','2026-08-30','2026-09-09',
+    '2027-01-11','2027-01-31','2027-05-23','2027-08-29','2027-09-09',
+    '2028-01-12','2028-02-06','2028-02-15','2028-05-07','2028-09-03','2028-09-09']);
+  const psalmLabels = {
+    'Ps 36:9-10': ['Ps 35:9-10','Ps 35:10-11'],
+    'Ps 115:12-13': ['Ps 113:12-13','Ps 113:20-21'],
+    'Ps 88:11-12': ['Ps 87:11-12','Ps 87:12-13'],
+    'Ps 116:15-16': ['Ps 115:15-16','Ps 115:6-7'],
+  };
+  authenticated('sources/revelation-review-1.3.10/psalm-annotations.json', '0393b239e266d205e1929e007364f01d2a5d3b54a4990f4b733c96e21936a6c7');
   const rawContract = authenticated('sources/resolver-review-2026-10-29/raw-fragment-contract.json', 'fa2a7f2ae2a09bbb90a15cbcc5a24b3b07031f6a5d60726ab044ac497b45f61e');
   for (const year of [2026, 2027, 2028]) {
     const design = authenticated(`out/design/daily/lectionary-${year}.json`, historical[year][0]);
@@ -100,6 +117,34 @@ test('npm daily preserves ordinary service-stage and supplied companion-fragment
           ? {...r, display_ref: 'Ps 51:10 (LXX Ps 50:12)'} : r);
         changed = true; changes.LK9++;
       }
+      // Exact date/source/frame-qualified successor annotations only. Keep all
+      // predecessor pins and the entire unaffected service-stage oracle intact.
+      const published = annual.deltas.find(entry => entry.date === date);
+      if (published) {
+        // This test already failed on registry 1.3.9 at 2026-02-16. Authenticate
+        // its seven existing annual deltas separately, never from the candidate.
+        assert.deepEqual(expected.map(tuple),published.before.map(tuple),date);
+        expected = published.after;
+        changed = true; changes.publishedAnnual++;
+      }
+
+      if (psalmDates.has(date)) {
+        const targets = expected.filter(r => r.canonical_mt_ref in psalmLabels);
+        assert.equal(targets.length, 1, date);
+        const old = targets[0];
+        const [oldLxx,newLxx] = psalmLabels[old.canonical_mt_ref];
+        assert.equal(old.display_ref, `${old.canonical_mt_ref} (LXX ${oldLxx})`);
+        assert.ok(old.source_locator.startsWith(`https://copticchurch.net/readings?g_year=${date.slice(0,4)}&g_month=${date.slice(5,7)}&g_day=${date.slice(8,10)}; `));
+        const current = shipped[date].filter(r => r.identity_key === old.identity_key && r.source_locator === old.source_locator);
+        assert.equal(current.length, 1);
+        const core = span => { const {canonical_lxx_ref,confidence,validation_basis,...rest} = span; return rest; };
+        const beforeSpans = JSON.parse(old.spans_json);
+        assert.ok(beforeSpans.every(s => s.source_convention === 'mt_nkjv' && s.canonical_mt_ref === old.canonical_mt_ref));
+        assert.deepEqual(JSON.parse(current[0].spans_json).map(core), beforeSpans.map(core), 'source coordinates stay unchanged');
+        assert.equal(current[0].canonical_lxx_ref, newLxx);
+        expected = expected.map(r => r === old ? {...r,display_ref:`${old.canonical_mt_ref} (LXX ${newLxx})`} : r);
+        changed = true; changes.PK++;
+      }
       const actual = shipped[date].filter(ordinary);
       assert.deepEqual(actual.map(tuple), expected.map(tuple), date);
       const order = actual.map(r => services[r.service_section] * 10 + stages[r.slot]);
@@ -111,5 +156,5 @@ test('npm daily preserves ordinary service-stage and supplied companion-fragment
   }
   assert.ok(checked > 900, 'ordinary date assertions must execute across all shipped years');
   assert.ok(unaffected > 900, 'at least 900 unaffected ordinary dates remain exact');
-  assert.deepEqual(changes, {R1: 2, R2: 2, R4: 3, L1: 2, LK9: 3}, 'all reviewed changes exercised, not skipped');
+  assert.deepEqual(changes, {R1: 2, R2: 2, R4: 3, L1: 2, LK9: 3, PK: 15, publishedAnnual: 7}, 'all reviewed changes exercised, not skipped');
 });

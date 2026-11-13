@@ -11,16 +11,25 @@ from pathlib import Path
 
 from scripts import compare_external_sources as comparator
 import sunday_consumer_contracts as contracts
+import mark_followup_repairs as followup
 
 ROOT = Path(__file__).resolve().parents[1]
+CANDIDATE_VERSION = '1.3.10'
+# Complete Mark predecessor-domain comparison counts, independently checked
+# against the authenticated published 1.3.9 tarball, not successor row counts.
+CONTEXT_SOURCE_COUNTS = {2027: 75, 2028: 64}
 
 
 class SundayComparisonTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.source = comparator.load_csv(comparator.SOURCE_INDEX)
+        meta = comparator.load_json(comparator.PACKAGE_DIR / 'meta.json')
+        assert meta['version'] == CANDIDATE_VERSION
+        assert comparator.load_json(comparator.PACKAGE_DIR / 'package.json')['version'] == CANDIDATE_VERSION
         cls.daily = {year: comparator.load_json(comparator.PACKAGE_DIR / 'data/daily' / f'lectionary-{year}.json')
                      for year in (2027, 2028)}
+        cls.context_dates = {year: set(followup.baseline()['daily'][str(year)]) for year in cls.daily}
 
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -33,9 +42,18 @@ class SundayComparisonTests(unittest.TestCase):
         return ([copy.deepcopy(r) for r in self.source if r['gregorian_date'] == date],
                 {date: copy.deepcopy(self.daily[int(date[:4])][date])})
 
-    def compare(self, source, daily, policy=None):
+    def compare(self, source, daily, policy=None, *, version: str | None = CANDIDATE_VERSION):
         year = int(next(iter(daily))[:4])
-        (self.package / 'meta.json').write_text(json.dumps({'shipped_years': [year]}))
+        # Current-version comparison authenticates complete Mark tables before
+        # returning to the historical Sunday oracle. Supply genuine complete
+        # prerequisite arrays and matching cached-source scope, never dummy rows
+        # or a patched-out membership guard. The requested table stays mutable
+        # only in this disposable fixture, retaining every original counterprobe.
+        context = self.context_dates[year] - set(daily)
+        source = source + [copy.deepcopy(r) for r in self.source if r['gregorian_date'] in context]
+        daily = {**{date: copy.deepcopy(self.daily[year][date]) for date in sorted(context)}, **daily}
+        meta = {'shipped_years': [year], 'version': version}
+        (self.package / 'meta.json').write_text(json.dumps(meta))
         (self.package / 'data/daily' / f'lectionary-{year}.json').write_text(json.dumps(daily))
         index = self.root / 'index.csv'
         fields = list(dict.fromkeys(k for r in source for k in r)) or list(self.source[0])
@@ -65,8 +83,26 @@ class SundayComparisonTests(unittest.TestCase):
                 source, daily = self.fixture(date)
                 result = self.compare(source, daily)
                 self.assertEqual(result['status'], 'pass', result)
-                self.assertEqual(result['years'][date[:4]]['source_rows'], len(source))
-                self.assertEqual(result['years'][date[:4]]['comparable_package_rows'], len(source))
+                expected_count = CONTEXT_SOURCE_COUNTS[int(date[:4])] + len(source)
+                self.assertEqual(result['years'][date[:4]]['source_rows'], expected_count)
+                self.assertEqual(result['years'][date[:4]]['comparable_package_rows'], expected_count)
+
+    def test_current_contract_requires_correct_version_and_authentic_cleaned_display(self):
+        source, daily = self.fixture()
+        self.assertEqual(self.compare(source, daily)['status'], 'pass')
+        # An older/missing version must not silently accept the cleaned PK11
+        # display as if it were the original Sunday hold/identity projection.
+        for version, error in ((None, 'Sunday identity/hold promotion: display_ref'),
+                               ('1.3.9', 'Mark follow-up daily complete-table mismatch: 2027-04-30')):
+            with self.subTest(version=version):
+                with self.assertRaisesRegex(ValueError, error):
+                    self.compare(source, daily, version=version)
+        for field, value in (('display_ref', 'Ps 82:7'), ('source_disclosure', '[]')):
+            with self.subTest(field=field):
+                bad = copy.deepcopy(daily)
+                bad['2027-02-07'][0][field] = value
+                with self.assertRaisesRegex(ValueError, 'PK source/context/coordinate drift: ' + field):
+                    self.compare(source, bad)
 
     def test_source_context_reference_order_rule_and_hold_corruptions_fail(self):
         source, daily = self.fixture()
