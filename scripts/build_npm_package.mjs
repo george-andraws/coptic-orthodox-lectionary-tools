@@ -1641,7 +1641,7 @@ async function main() {
   projectionRules.runtime_review.evidence_counts = occurrenceProjection.evidence_counts;
   projectionRules.runtime_review.endpoint_release = '1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels';
   projectionRules.runtime_review.pk6_release = '1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy';
-  projectionRules.runtime_review.site_review_release = '1.3.11 candidate: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion';
+  projectionRules.runtime_review.site_review_release = '1.3.11: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion';
   await writeFile(OCCASION_DEST, `${releaseProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);

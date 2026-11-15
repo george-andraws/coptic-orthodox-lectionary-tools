@@ -4,9 +4,9 @@
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "a0e47c2f876a90cfa69f41141e6cc9a62eb7cd6c",
-  "source_tree_dirty": true,
-  "generated_at": "2026-11-14T20:15:10.081Z",
+  "source_repo_commit": "ec7d4f175b88ab8dda2d59e0ad64c204f542d015",
+  "source_tree_dirty": false,
+  "generated_at": "2026-11-15T00:19:07.616Z",
   "occasion_index_rows": 12299,
   "daily_files": [
     {
@@ -1279,7 +1279,7 @@
       },
       "endpoint_release": "1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels",
       "pk6_release": "1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy",
-      "site_review_release": "1.3.11 candidate: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion"
+      "site_review_release": "1.3.11: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion"
     },
     "canonical_occurrence_projection": {
       "policy": "sources/canonical-occurrence-policy.json",
