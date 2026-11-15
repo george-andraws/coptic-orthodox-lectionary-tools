@@ -4,11 +4,9 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**`@andraws/lectionary-data@1.3.10` is the verified published runtime release.** Relative to authenticated 1.3.9, it corrects the Bright Saturday Deuteronomy endpoint, six source-reviewed Psalm annotations and reader-facing review prose, and preserves the Good Friday Hosea transcription error and printed Joel witness as explicitly inactive history. Unresolved canonical alignment and unverified recurrence remain qualified. Calendar, runtime API and Synaxarium bytes are unchanged from 1.3.9: 366 Coptic days and 868 titles.
+**`@andraws/lectionary-data@1.3.11` is the verified published runtime release.** It adds bounded Brenton covering annotations, Theophany/Apostles Waters daily groups, bounded working-cycle first-Lent-Monday materialization with the printed Exodus difference disclosed, retained Bright Saturday supplements including chapter-range Revelation and source-only Distribution, and the bounded Joseph 2027 and Amshir 7 2028 supplements. These are not fresh Reader attestations or authority promotions. Synaxarium remains 366 Coptic days and 868 titles.
 
-Read [1.3.10 scope, verification and limitations](docs/LECTIONARY_1_3_10_RELEASE.md), its [portable release receipt](docs/releases/lectionary-data-1.3.10.json), the [changelog](CHANGELOG.md) and [Reader check sheet](coptic-reader-check-sheet.md). Earlier npm artifacts and their source qualifications remain immutable historical evidence; see the [1.3.5 reconciliation](docs/LECTIONARY_1_3_5_RECONCILIATION.md) and earlier release reports.
-
-The working tree also contains an **unpublished 1.3.11 candidate**, with bounded Brenton covering annotations, Theophany/Apostles Waters daily groups, bounded working-cycle first-Lent-Monday materialization with the printed Exodus difference disclosed and retained Bright Saturday supplements/order including chapter-range Revelation and source-only Distribution, plus the bounded Joseph2027 and Amshir2028 proper corrections. Source qualifications, unresolved per-issue holds and release gates are listed in the package README and changelog. The verified published release remains 1.3.10; publication is not implied.
+Read the [package corrections](packages/lectionary-data/README.md), [changelog](CHANGELOG.md), and [1.3.11 receipt](docs/releases/lectionary-data-1.3.11.json). The [1.3.10 release](docs/LECTIONARY_1_3_10_RELEASE.md) and its [receipt](docs/releases/lectionary-data-1.3.10.json) remain immutable historical evidence.
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
@@ -26,7 +24,7 @@ uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate \
   python -c 'import subprocess; subprocess.run(["node", "scripts/build_npm_package.mjs"], check=True)'
 ```
 
-For future releases, freeze source writers, prefer a clean source checkout, run the full Python and declared Node inventories with the dependency environment on subprocess PATH, validate the exact packed archive and compare registry bytes after authorized publication. This 1.3.10 release truthfully records dirty source: the source commit alone does not reproduce its uncommitted inputs. The release receipt binds those inputs and the published archive. Consumer upgrades require separate authorization and real parser/validator checks for both source-only empty coordinates and numeric coordinate holds; the authorized 1.3.10 site upgrade completed these checks without inventing spans.
+For future releases, freeze source writers, prefer a clean source checkout, run the full Python and declared Node inventories with the dependency environment on subprocess PATH, validate the exact packed archive and compare registry bytes after authorized publication. The 1.3.11 archive records clean source at `ec7d4f1`; its metadata commit does not change reading bytes. The 1.3.10 receipt still records that release's dirty source truthfully. Consumer upgrades require separate authorization and real parser/validator checks for both source-only empty coordinates and numeric coordinate holds. The 1.3.10 site upgrade completed those checks; the 1.3.11 site generation and tests remain outstanding.
 
 ## Research-layer build
 

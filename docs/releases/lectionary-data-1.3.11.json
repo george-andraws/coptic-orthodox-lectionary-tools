@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "package": "@andraws/lectionary-data",
+  "version": "1.3.11",
+  "predecessor": "1.3.10",
+  "repository": "https://github.com/george-andraws/coptic-orthodox-lectionary-tools",
+  "archive": {
+    "registry_url": "https://registry.npmjs.org/@andraws/lectionary-data/-/lectionary-data-1.3.11.tgz",
+    "bytes": 3763921,
+    "sha1": "4cc826869da325c719a28b7330ebe78cdd0ab1c0",
+    "sha256": "2cfd1bd05a721edd4b48323161bedc415ff019107efeff0c10f4f5f75f5772f5",
+    "integrity": "sha512-OUqjJ52f2dboECMY+lXFb24BURhLtGeyQd4W4zgRF1BikPmOQ/J90oLpEKO+ZizHK5EfFj662vkfrRWE5hIgJA==",
+    "members": {
+      "package/LICENSE": {
+        "sha256": "be68c3d4ff5376a22dd54bca67629167437330d37fbf22d71fb60c3e6df70037",
+        "bytes": 898
+      },
+      "package/calendar.js": {
+        "sha256": "71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830",
+        "bytes": 1454
+      },
+      "package/index.js": {
+        "sha256": "3c9e51994b1788efc15bfe0ea60ed9ade9c38b11e71713c9c44991b9137427da",
+        "bytes": 4584
+      },
+      "package/data/daily/lectionary-2026.json": {
+        "sha256": "7fcbabf081a4d9a2b58403b0050d408e95fc4e7cbe7ccdb629a6c015b1df9b87",
+        "bytes": 8862566
+      },
+      "package/data/daily/lectionary-2027.json": {
+        "sha256": "9772db3cba1bbd7295074ed716b63c71585129f3844fee68925f04ad87ca088a",
+        "bytes": 9168485
+      },
+      "package/data/daily/lectionary-2028.json": {
+        "sha256": "38dba78123e7ce971df5fe12a001d84f4839d31e16fcf35f1130296aa7f72d24",
+        "bytes": 9148082
+      },
+      "package/meta.json": {
+        "sha256": "c7351fb6a624550f55405ea243a55e0328b9952c52369608b11bb0269e78eff8",
+        "bytes": 68300
+      },
+      "package/package.json": {
+        "sha256": "56e2156406c73fd79683ba30e3ddeed5c0e68539fb326cfb4e52b2b93ed068aa",
+        "bytes": 764
+      },
+      "package/data/synaxarium/synaxarium.json": {
+        "sha256": "7780814efb4c91cd1039365f566a64029d5b63c3eb5e16f9d5be74e068a312d7",
+        "bytes": 261560
+      },
+      "package/data/reverse_lectionary_index.jsonl": {
+        "sha256": "c943b040feec6fd7c6abe7a50258ece2fa6fe27ab403f36017de80b5c0f2cea7",
+        "bytes": 45972229
+      },
+      "package/README.md": {
+        "sha256": "3f42b7f368df03cb565d6120ed166f0200be50c35c36662b4cee7ad12cfcc7f6",
+        "bytes": 30151
+      }
+    }
+  },
+  "provenance": {
+    "source_commit": "ec7d4f175b88ab8dda2d59e0ad64c204f542d015",
+    "metadata_commit": "4a00e0d1aa35914253b1dfff252a384f5e188cc2",
+    "source_tree_dirty": false,
+    "qualification": "Published metadata records pushed source ec7d4f1 and a clean tree. Reading bytes match the suite-tested snapshot. The later metadata commit changes only the release label and provenance fields; it does not change readings. Registry latest, dist.shasum, dist.integrity, and a clean install were compared with this archive."
+  },
+  "verification": {
+    "registry_latest": "1.3.11",
+    "registry_shasum": "4cc826869da325c719a28b7330ebe78cdd0ab1c0",
+    "installed_member_mismatches": 0,
+    "package_integrity": "pass",
+    "full_python_suite": "1449 passed, 16 skipped, 6187 subtests, before the documentation and provenance edits",
+    "full_node_suite": "114 passed, 0 failed, before the documentation and provenance edits"
+  },
+  "limits": [
+    "No fresh Coptic Reader verification is claimed.",
+    "Joseph 2027 and Amshir 7 2028 are bounded date supplements, not authority promotions.",
+    "Entry-into-Egypt precedence and unapproved cycle recurrence remain unresolved.",
+    "Site generation, tests, commit, and deployment are not part of this package release."
+  ]
+}
