@@ -12,7 +12,7 @@ import pk6_release_repairs as pk6
 from scripts.review_release_contract import followup_daily_view, review_inactive_qualified
 
 ROOT = Path(__file__).resolve().parents[1]
-CANDIDATE_VERSION = '1.3.10'
+CANDIDATE_VERSION = '1.3.11'
 
 
 @pytest.fixture(scope='module')
@@ -91,8 +91,14 @@ def test_complete_daily_tables_and_comparator_positive_control(frozen, candidate
     # Start with the hash-authenticated Mark predecessor, then compose ALL public
     # layers in release order. Replay alone would not prove the first projection.
     finished = finish_daily(after)
-    expected = {date: pk6.project_daily(revelation.project_rows(rows, date=date), date)
-                for date, rows in finished.items()}
+    import site_review_repairs as site
+    import final_site_review_repairs as final
+    expected = {}
+    pk_layer = {}
+    for date, rows in finished.items():
+        projected = pk6.project_daily(revelation.project_rows(rows, date=date), date)
+        pk_layer[date] = projected
+        expected[date] = final.project_rows(site.project_rows(projected, date=date), date=date)
     assert actual_scope == expected, 'complete real candidate arrays, not helper-only agreement'
     assert followup_daily_view(actual_scope, version=CANDIDATE_VERSION) == after
     assert m.restore_predecessor_for_comparison(after, year) == before
@@ -100,11 +106,21 @@ def test_complete_daily_tables_and_comparator_positive_control(frozen, candidate
         with pytest.raises(ValueError, match='Mark follow-up daily complete-table mismatch'):
             m.restore_predecessor_for_comparison(followup_daily_view(actual_scope, version=version), year)
     bad = copy.deepcopy(actual_scope)
-    cleaned = next(r for rows in bad.values() for r in rows
-                   if 'display_reference_review' in r['source_disclosure'])
-    cleaned['source_disclosure'] = '[]'
-    with pytest.raises(ValueError, match='PK source/context/coordinate drift: source_disclosure'):
+    owned = [(date, row) for date, rows in bad.items() for row in rows
+             if 'display_reference_review' in row.get('source_disclosure', '')]
+    assert owned and all(date in final.SUPPLEMENT_DATES for date, _ in owned)
+    for _, row in owned:
+        row['source_disclosure'] = '[]'
+    with pytest.raises(ValueError, match='final site review complete source/context/coordinate/order mismatch'):
         followup_daily_view(bad, version=CANDIDATE_VERSION)
+    # The older PK field diagnostic remains on the pre-supplement table. The
+    # 1.3.11 view above must not be the only proof, because that layer returns first.
+    pk_date, pk_rows = next((date, rows) for date, rows in pk_layer.items()
+                            if any('display_reference_review' in r.get('source_disclosure', '') for r in rows))
+    pk_bad = copy.deepcopy(pk_rows)
+    next(r for r in pk_bad if 'display_reference_review' in r.get('source_disclosure', ''))['source_disclosure'] = '[]'
+    with pytest.raises(ValueError, match='PK source/context/coordinate drift: source_disclosure'):
+        revelation.restore_rows(pk6.restore_daily(pk_bad, pk_date), date=pk_date)
     assert len(m.validate_eve_coverage(after, year)) == 25
     m.validate_day_hour_sets(after)
     for date, rows in after.items():

@@ -1,0 +1,1199 @@
+{
+  "stage": "Portable exact source-review/adoption inputs; no implementation acceptance",
+  "approval": {
+    "path": "sources/site-review-1.3.11/supplement/bodies/747ee3d2cea07030026e0948d98974a79e6b15523e572776e55f1e2e471a3386.gz",
+    "gzip_sha256": "a599db85a81443835bafae9e14f1f9fdb34ef59dbfdc2bb5f4fc3efabf942634",
+    "sha256": "747ee3d2cea07030026e0948d98974a79e6b15523e572776e55f1e2e471a3386",
+    "bytes": 39165
+  },
+  "selectors": {
+    "path": "sources/site-review-1.3.11/supplement/bodies/7dab2b13fb18f87bae2474302efd30b3f4ae155aad645b86074f97bb25235aad.gz",
+    "gzip_sha256": "7723a093ad822d137af594b93d442860505c145cd6bc743339d5e026fca071cd",
+    "sha256": "7dab2b13fb18f87bae2474302efd30b3f4ae155aad645b86074f97bb25235aad",
+    "bytes": 137334
+  },
+  "membership": {
+    "path": "sources/site-review-1.3.11/supplement/bodies/4e4633805f1937ca5167f8b6d4ab35c8f9f60261be446b5aec8f249690c00f6d.gz",
+    "gzip_sha256": "25b72a8c1f592a81282e83640701f32d5642b34ad12a320a23a97d808c9e3701",
+    "sha256": "4e4633805f1937ca5167f8b6d4ab35c8f9f60261be446b5aec8f249690c00f6d",
+    "bytes": 3555592
+  },
+  "body_checks": {
+    "path": "sources/site-review-1.3.11/supplement/bodies/8ec6d9adaf5c51b57e76f9cda111a3c4193309079a244bc82e7c73a2b467e85d.gz",
+    "gzip_sha256": "d06fd1446225eb584c9dbd7d4e7b13ca5c8a855d0b8052393768649b3e43d27d",
+    "sha256": "8ec6d9adaf5c51b57e76f9cda111a3c4193309079a244bc82e7c73a2b467e85d",
+    "bytes": 44131
+  },
+  "files": {
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/VERDICT.md": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/2f83818331a547e4a2544527e40a4f6ef0049c91b1bc18d685a83a102dff4cfd.gz",
+      "gzip_sha256": "90ec7ab633c894d83f86f87203fb7b4db96f14d689841c9c7623cbef9a4586b7",
+      "sha256": "2f83818331a547e4a2544527e40a4f6ef0049c91b1bc18d685a83a102dff4cfd",
+      "bytes": 14132
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/affected-baseline-and-cycle-selectors.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7dab2b13fb18f87bae2474302efd30b3f4ae155aad645b86074f97bb25235aad.gz",
+      "gzip_sha256": "7723a093ad822d137af594b93d442860505c145cd6bc743339d5e026fca071cd",
+      "sha256": "7dab2b13fb18f87bae2474302efd30b3f4ae155aad645b86074f97bb25235aad",
+      "bytes": 137334
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/amshir-context.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/1b18d36c1904e54bd768e0abe957a994a98021020823895e9cf7afd56e3f4d71.gz",
+      "gzip_sha256": "37dd7656ef58524dc986e6a02e3bde64231353a96aa6e4633ba89efd7c7a5953",
+      "sha256": "1b18d36c1904e54bd768e0abe957a994a98021020823895e9cf7afd56e3f4d71",
+      "bytes": 906542
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/amshir-origin-refs.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/44b4f0dc238308598d58652ebddc3c2e6a6b8dfd77ffb6a1e4e1dd298ebb03bc.gz",
+      "gzip_sha256": "2df9ab7641ae0cbe3027d2ddba7b7510bb83d4a66e8b10fba970899edb2712b3",
+      "sha256": "44b4f0dc238308598d58652ebddc3c2e6a6b8dfd77ffb6a1e4e1dd298ebb03bc",
+      "bytes": 3348616
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/approved-supplement-literal-deltas.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/747ee3d2cea07030026e0948d98974a79e6b15523e572776e55f1e2e471a3386.gz",
+      "gzip_sha256": "a599db85a81443835bafae9e14f1f9fdb34ef59dbfdc2bb5f4fc3efabf942634",
+      "sha256": "747ee3d2cea07030026e0948d98974a79e6b15523e572776e55f1e2e471a3386",
+      "bytes": 39165
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/bright-ready-proof.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ecdb4d25735fe4febd113adac8001e5a0bc97e15f17a5bffc7625c061a8519a6.gz",
+      "gzip_sha256": "78cfbcacf92a6e9e44372711ee8d6c7bb525741258136be82f38d89987bb4f03",
+      "sha256": "ecdb4d25735fe4febd113adac8001e5a0bc97e15f17a5bffc7625c061a8519a6",
+      "bytes": 1470931
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/calendar-api-readback.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/bc81829e5cae69281da617af0ce4476c0bcc9e3eabdc36e0b7934b94379b4941.gz",
+      "gzip_sha256": "a779739aac185d294ae1a1fddc0a700cbd042af69a331d9d1bf1a5a754c516ff",
+      "sha256": "bc81829e5cae69281da617af0ce4476c0bcc9e3eabdc36e0b7934b94379b4941",
+      "bytes": 297
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/cumulative-bright-successor-keyset.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/1fa4c03d7b2ed3eaa91114f7da7272a31ba9b7b6b74b4f20c47295626906f6f3.gz",
+      "gzip_sha256": "bfdba1fba1c015306504e258ec2bd657ff9833b1bd6439184a8057b46231ae0a",
+      "sha256": "1fa4c03d7b2ed3eaa91114f7da7272a31ba9b7b6b74b4f20c47295626906f6f3",
+      "bytes": 3554753
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/cumulative-full-successor-keyset.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/4e4633805f1937ca5167f8b6d4ab35c8f9f60261be446b5aec8f249690c00f6d.gz",
+      "gzip_sha256": "25b72a8c1f592a81282e83640701f32d5642b34ad12a320a23a97d808c9e3701",
+      "sha256": "4e4633805f1937ca5167f8b6d4ab35c8f9f60261be446b5aec8f249690c00f6d",
+      "bytes": 3555592
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/diagnostic-calendar-signature-error.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3df8817ee4721261601d270d88abcf0871c86e212da0274cf7e7d888e1d6db0b.gz",
+      "gzip_sha256": "585b46e3c6277d378154018408e34cc0b7cc98ee5860df3888f6e9512bd90b65",
+      "sha256": "3df8817ee4721261601d270d88abcf0871c86e212da0274cf7e7d888e1d6db0b",
+      "bytes": 784
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/harness-diagnostics.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0b5d9b1939946475d460a6a8538ce03af7bbf0ae191279049ad21799135710d8.gz",
+      "gzip_sha256": "14e1db6f7ee941e7a37d688dfecc0c3dc11048a4ff2bc7652e2bc7e48a3519ab",
+      "sha256": "0b5d9b1939946475d460a6a8538ce03af7bbf0ae191279049ad21799135710d8",
+      "bytes": 712
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/independent-calendar-bounds.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a5df56ab4a8cb98ffca9beee37a960fccff038d63ef5a563fa261e8f40f102c7.gz",
+      "gzip_sha256": "7afb13c3e11d81023b91231d7e8e692d9cab798f6079ac9a95ce815a091cab2a",
+      "sha256": "a5df56ab4a8cb98ffca9beee37a960fccff038d63ef5a563fa261e8f40f102c7",
+      "bytes": 486
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/independent-ordinary-body-checks.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/8ec6d9adaf5c51b57e76f9cda111a3c4193309079a244bc82e7c73a2b467e85d.gz",
+      "gzip_sha256": "d06fd1446225eb584c9dbd7d4e7b13ca5c8a855d0b8052393768649b3e43d27d",
+      "sha256": "8ec6d9adaf5c51b57e76f9cda111a3c4193309079a244bc82e7c73a2b467e85d",
+      "bytes": 44131
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/independent-revelation-body-ledger.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/53317601c2732ffde79b9b3ce26213ce4618db6afe1c071275621318c9fd90ce.gz",
+      "gzip_sha256": "9dc58d10517ec3a65ad0d7d9410ca3aac4870847d5bf641acde02062b5973905",
+      "sha256": "53317601c2732ffde79b9b3ce26213ce4618db6afe1c071275621318c9fd90ce",
+      "bytes": 100327
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/independent-visual-readback.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/4897ac717b21037999938f8019a66e355b89b9fe30347250006a193a34503571.gz",
+      "gzip_sha256": "f7d1d40791e7e7986768bf143251d4134f56b64b5c18c0a02b432d8f6c5b9d93",
+      "sha256": "4897ac717b21037999938f8019a66e355b89b9fe30347250006a193a34503571",
+      "bytes": 1843
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/initial-verification-exit.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0b67d2f89aa0ed67c4f2f83f1b94025c2fa2934ab31a42dadca49418ed2f597b.gz",
+      "gzip_sha256": "42347896268fde9b29d2abff843db59f8d3dcd0d0e6ebf2684217ffc15321654",
+      "sha256": "0b67d2f89aa0ed67c4f2f83f1b94025c2fa2934ab31a42dadca49418ed2f597b",
+      "bytes": 249
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/initial-verification.stderr.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/dece45d90ffa1f9a3e022d0ec499a6a45dd86becf0d912a58198dc29d7659b72.gz",
+      "gzip_sha256": "3b21702b32a412e6621386e5273cfe28633dff4e26e2b668ceb1b7a6fca4e888",
+      "sha256": "dece45d90ffa1f9a3e022d0ec499a6a45dd86becf0d912a58198dc29d7659b72",
+      "bytes": 692
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/initial-verification.stdout.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.gz",
+      "gzip_sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/joseph-context.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/f014d3ade70dcbe2e026b3bd7766e87b26cde3d8f9964f337e0a7342b54e281a.gz",
+      "gzip_sha256": "b64f4ef45251c53590d2de54058f0b3f343128b47b40904d3bbc5da4afa72b8a",
+      "sha256": "f014d3ade70dcbe2e026b3bd7766e87b26cde3d8f9964f337e0a7342b54e281a",
+      "bytes": 918360
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/joseph-refs.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/970d8b8b8b534bfdc76c03f034a8ad454644a6e7f6b3bfca1d73c08cc30757b6.gz",
+      "gzip_sha256": "d3db91977939dd6181501c87b33b58616b2d6f6fc2482e6bb30625965c7bba4c",
+      "sha256": "970d8b8b8b534bfdc76c03f034a8ad454644a6e7f6b3bfca1d73c08cc30757b6",
+      "bytes": 3257220
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/original-archive-receipt-checks.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/027bcbdde707e7babb7366ac6a0de50695d9aa179d243780d28584930f7fe977.gz",
+      "gzip_sha256": "1b481e07d138c5788119159ccf8591769a412e28c3c8865fb425a3af93853cac",
+      "sha256": "027bcbdde707e7babb7366ac6a0de50695d9aa179d243780d28584930f7fe977",
+      "bytes": 1689
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/pre-receipt-verification-exit.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/70881029259d329f131671e5354b5a1048fd0e0cabbe52826e23831d1ee506b5.gz",
+      "gzip_sha256": "acb2e196466b50cbe8edd6bf015f745b38be267db5eba955957c983ef0e11dd4",
+      "sha256": "70881029259d329f131671e5354b5a1048fd0e0cabbe52826e23831d1ee506b5",
+      "bytes": 249
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/pre-receipt-verification.stderr.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.gz",
+      "gzip_sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/pre-receipt-verification.stdout.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/cf53a5ead838cefc7d8b66a20f73e3a64ea6b60cc081cdd1dcb6541b551e95df.gz",
+      "gzip_sha256": "13325491770950a70d8028b1cd9dccd9350434ad03742a2ac73028b37559b468",
+      "sha256": "cf53a5ead838cefc7d8b66a20f73e3a64ea6b60cc081cdd1dcb6541b551e95df",
+      "bytes": 555
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/printed-amshir-redirect-pdf-extract.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b3adae5828b1a845e05fa0fb09849610961e60e73d908ef9c22e964d7aefbb23.gz",
+      "gzip_sha256": "7cd5db2e10c84fd047547fa0366c9f9958e8e7d5b310e54f4f27d33181bfe5e0",
+      "sha256": "b3adae5828b1a845e05fa0fb09849610961e60e73d908ef9c22e964d7aefbb23",
+      "bytes": 6062
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/selected-final-panels.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/cbe25babbe3e4ad011755e7d3f51dc4b663d583a36b7c497d1863ffc1a16c766.gz",
+      "gzip_sha256": "82dd3c20c686a6e579da209577f295f128c1adfc3a186cfaf33947f7735836d3",
+      "sha256": "cbe25babbe3e4ad011755e7d3f51dc4b663d583a36b7c497d1863ffc1a16c766",
+      "bytes": 272554
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/source-pins.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/dad67385d5ccd486af51eccc8cb07997174b6828a387ee48f0fa350b6f435fe3.gz",
+      "gzip_sha256": "359c34378e84021fc63e1c6b8491b9a9f61121d3fcdfc73a7b14fae726a3f39d",
+      "sha256": "dad67385d5ccd486af51eccc8cb07997174b6828a387ee48f0fa350b6f435fe3",
+      "bytes": 77665
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/verification-exit.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b762d89847a8832b3facec19fdc47453d6829324e26b4e24d3eae7d787bed0bd.gz",
+      "gzip_sha256": "328fe3c524d285b1b6ac1d7f11cf9821ec5262d2e520f68875d2dbe872f6e40d",
+      "sha256": "b762d89847a8832b3facec19fdc47453d6829324e26b4e24d3eae7d787bed0bd",
+      "bytes": 344
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/verification.stderr.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.gz",
+      "gzip_sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/verification.stdout.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6c276c9dc1f95f4f995832951428eca56b01bf9102bf80f1e0e5ca9d3b090ed7.gz",
+      "gzip_sha256": "6c10d657d9585c76dec77740bbdd82d91c6d765be06fe163ec76fa65243e08a6",
+      "sha256": "6c276c9dc1f95f4f995832951428eca56b01bf9102bf80f1e0e5ca9d3b090ed7",
+      "bytes": 555
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/verify_supplement.py": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3ad3afb90e3a93a6c8c65488266389b49f3e832c35786a249ca454270a3cd6ff.gz",
+      "gzip_sha256": "c64c35811ce9e97266bf3da90a01c1d58c0d9dbdefae214e4d7a12e3cad120a5",
+      "sha256": "3ad3afb90e3a93a6c8c65488266389b49f3e832c35786a249ca454270a3cd6ff",
+      "bytes": 7295
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-supplement-review/review-artifact-manifest.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/c7e11c317619ad187bf1e65b1673210191c4889b690afe91c0d0b8820139467d.gz",
+      "gzip_sha256": "ba1b47cdfc608455a4632087eb56f25900b0d93cb74c0bfc2a75f74c9b84566a",
+      "sha256": "c7e11c317619ad187bf1e65b1673210191c4889b690afe91c0d0b8820139467d",
+      "bytes": 5261
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/VERDICT.md": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/d42c463d40e080f9e81f9071c4f5aa7199ab1871738652e34ad39f260e3cfb38.gz",
+      "gzip_sha256": "f065f56b93cba1126afad69b8c861bfbc628654bdb12f7e05a61cbf0c715fa67",
+      "sha256": "d42c463d40e080f9e81f9071c4f5aa7199ab1871738652e34ad39f260e3cfb38",
+      "bytes": 13820
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/approved-annotation-selectors.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/fa9540353050e400861d7a81805053893c348f6712938117fab53284634f42fc.gz",
+      "gzip_sha256": "97c66abafb67f8d5ead1cb3b5da15f53a3e89d6ea43c28a5db9b08f2d48b38dd",
+      "sha256": "fa9540353050e400861d7a81805053893c348f6712938117fab53284634f42fc",
+      "bytes": 145059
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/approved-literal-deltas.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/9f3a2f9df2610724e5a534da60faf842ac85582d4d4eebf15315963c0e0dd93b.gz",
+      "gzip_sha256": "e2d024154b119460f820c0c4a31538e27c0cd8c669283bcf4f64c5a8dddc4799",
+      "sha256": "9f3a2f9df2610724e5a534da60faf842ac85582d4d4eebf15315963c0e0dd93b",
+      "bytes": 40546
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/approved-successor-context-keyset.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/c8eb2c74820aa99c9c9100d18e021476e59039876283a3b1a6a11e49df8911eb.gz",
+      "gzip_sha256": "0a00f913b6d56239a8fccccf01092084786813f886a0a0c3686864d94ea0f26b",
+      "sha256": "c8eb2c74820aa99c9c9100d18e021476e59039876283a3b1a6a11e49df8911eb",
+      "bytes": 3553712
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/baseline-api-read.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/8f590dd050777181c247185ccf4087e7f2cc63c3dcb00014af949b8285692914.gz",
+      "gzip_sha256": "e322587d538e6e955ff69f200c199092f5d1e0588426f9b3bdd8c4c89b61d223",
+      "sha256": "8f590dd050777181c247185ccf4087e7f2cc63c3dcb00014af949b8285692914",
+      "bytes": 30
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/dated-reader-original-approval-limits.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/4e35d3670185c06c3d26513c205bd12f6f3cf6ca0f7c21407ff4608d6aeebef8.gz",
+      "gzip_sha256": "01ebe6f2664b6b19289dcccf304222d058acb47771256b364eee3110809e6a32",
+      "sha256": "4e35d3670185c06c3d26513c205bd12f6f3cf6ca0f7c21407ff4608d6aeebef8",
+      "bytes": 908
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/hash-bindings.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b642f5a613e9ac2af07df9d9abbf577822f41d4b865cad67cb769f734f73842f.gz",
+      "gzip_sha256": "0a4c25af08267044c7f20f235a1d3754024661490fa02a1273ba7ec76c8825be",
+      "sha256": "b642f5a613e9ac2af07df9d9abbf577822f41d4b865cad67cb769f734f73842f",
+      "bytes": 72479
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/implementation-proposal-inspected.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b146c070546861bf0639a775cc9426a920ade831973b4d74d03a5c1a0f157d8f.gz",
+      "gzip_sha256": "f4200435e08262035bda8b747e982a44e160c25bc6dc73d1bdc86f1bb2d3521a",
+      "sha256": "b146c070546861bf0639a775cc9426a920ade831973b4d74d03a5c1a0f157d8f",
+      "bytes": 7744
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/katameros-first-monday-raw.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6ecb1c581c1c1492f006cbc6b3c2104a56734491d5cef73d1e8f5fbfca906e6d.gz",
+      "gzip_sha256": "98977858d387dcad11497a2ad27fc3c59ea5b53b02914b2dfd7a010da899e170",
+      "sha256": "6ecb1c581c1c1492f006cbc6b3c2104a56734491d5cef73d1e8f5fbfca906e6d",
+      "bytes": 493
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/predecessor-affected-daily.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/9b942700b2dcc069236ff122c2b3fa79a65163f5bec790789e95770c8ffce655.gz",
+      "gzip_sha256": "ef1ccd95056893aa75c97fd7a76b5c8080a904d8b6360a7bfb4968a20dcf046d",
+      "sha256": "9b942700b2dcc069236ff122c2b3fa79a65163f5bec790789e95770c8ffce655",
+      "bytes": 459386
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/predecessor-context-keyset.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b86d824074a5f6fe8fe5482cedc7aa4dc1fcd5deaec2dd4d8178aaa18ca596c0.gz",
+      "gzip_sha256": "6b18410a0ad60d2cbb6f516c5bbf103e475d942422a9a3aec1b4d88bd8c34b5d",
+      "sha256": "b86d824074a5f6fe8fe5482cedc7aa4dc1fcd5deaec2dd4d8178aaa18ca596c0",
+      "bytes": 3552283
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/predecessor-members.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b7540a8ab9b4698b185dd1bc1d20f23ce74d7b937bdf607e3cf37dd41eaa2bdd.gz",
+      "gzip_sha256": "1d4d22e34a88924d053cdac652b7e297a99004278b322cbf1899860928ea21ae",
+      "sha256": "b7540a8ab9b4698b185dd1bc1d20f23ce74d7b937bdf607e3cf37dd41eaa2bdd",
+      "bytes": 1718
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/saturday-complete-service-inventory.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/18048dd9418535f8580231a181e5c11cc645843872d5401fc38ea805cbfadf30.gz",
+      "gzip_sha256": "5fa8173fa27b03983a0c7245772d2e829e4cf70ff24240045f8139dd436a5327",
+      "sha256": "18048dd9418535f8580231a181e5c11cc645843872d5401fc38ea805cbfadf30",
+      "bytes": 37873
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/uk-lent-pdf87-88.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/d55a1dd79da16e82fb967d6b6292f31acfef54d710435062c99c9ffba14cc1c6.gz",
+      "gzip_sha256": "026851e4e5b933f388ba20f8de4fce4a4a13824feadb3375be9207a0ec008e21",
+      "sha256": "d55a1dd79da16e82fb967d6b6292f31acfef54d710435062c99c9ffba14cc1c6",
+      "bytes": 2472
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/verification-exit.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/49415be39c2c75de92ece632e4022cdfe125f6e4e12654c5eebf0af93831158a.gz",
+      "gzip_sha256": "ed7f7b7bdcad3b868640b7d3c3c9a8bae1aff39a713bf57985053ac9b4cd42b9",
+      "sha256": "49415be39c2c75de92ece632e4022cdfe125f6e4e12654c5eebf0af93831158a",
+      "bytes": 258
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/verification.stderr.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.gz",
+      "gzip_sha256": "f1b651238a58fe290baec6c5e32f3bdb1943dd2bd582f02569231f7a757c7837",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/verification.stdout.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/88d0f7c1d9ed5e3bb27f6ff27ec0b252e26dfc286536ae78cc5cd003a6ee391b.gz",
+      "gzip_sha256": "1215f4ef1833057082dd713ce1ce82655337dccbae2a4056f1ff77942569d673",
+      "sha256": "88d0f7c1d9ed5e3bb27f6ff27ec0b252e26dfc286536ae78cc5cd003a6ee391b",
+      "bytes": 711
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/verify_review.py": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/f5a1672deb2056a4cea6957bd3446085444746ebb778c74356bf9c4769e6b2a1.gz",
+      "gzip_sha256": "b19a32ad653922ec5c6281eb2b0cb70adf34c93df5ba5b9207ff553852abb342",
+      "sha256": "f5a1672deb2056a4cea6957bd3446085444746ebb778c74356bf9c4769e6b2a1",
+      "bytes": 6858
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--matins.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/335e7b186cfaa3934f5305cde0307e73df653eee265d0d24be4e5c61e7f0dd0f.gz",
+      "gzip_sha256": "3d7656dca6b31350e98e2acae2b29170cf1f2e3af38382633f04a8396e45313c",
+      "sha256": "335e7b186cfaa3934f5305cde0307e73df653eee265d0d24be4e5c61e7f0dd0f",
+      "bytes": 507061
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/2423e7524030a192baba4c4861df90c7943604267c8f1c305cf3cf34dd1c8db2.gz",
+      "gzip_sha256": "e0d0fbe306745a1ff594f87cdb31922029b0322709f8d89826a3e4601637761a",
+      "sha256": "2423e7524030a192baba4c4861df90c7943604267c8f1c305cf3cf34dd1c8db2",
+      "bytes": 37
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-picker.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b0550b9140ebcd1a3f22ee5373ed0ea85b5bdbfa9146d3f8b5af69e794687315.gz",
+      "gzip_sha256": "55b4234618fc686a65ee0995dd1b44712c880ea9f12fe7cc7d39f1ee3e103304",
+      "sha256": "b0550b9140ebcd1a3f22ee5373ed0ea85b5bdbfa9146d3f8b5af69e794687315",
+      "bytes": 273690
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--ninth-hour.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3be71e9bf4e96584f029dc9bcb5130b8043564b57631bea4047f81d50d0977df.gz",
+      "gzip_sha256": "a5663e5f7edef93371b961fd68884966070e45d31edc577f8271e0740b32a5e2",
+      "sha256": "3be71e9bf4e96584f029dc9bcb5130b8043564b57631bea4047f81d50d0977df",
+      "bytes": 40553
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--liturgy-of-the-faithful.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/702711b67782dc64b0e3140c9a61396ecdef43d3b3027a1fe593ba3f024a09ca.gz",
+      "gzip_sha256": "36d7e851667635932ee2b728ab5f66c0533133f7f3634dd8fdf09acb33da410f",
+      "sha256": "702711b67782dc64b0e3140c9a61396ecdef43d3b3027a1fe593ba3f024a09ca",
+      "bytes": 492679
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/captures.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e2b607fa3236a467774b0f271e1633ada52147841da401721d7dbfcdd1f6c4e3.gz",
+      "gzip_sha256": "08ab15c1cb40d7d4892f0a78048d2426d354c1cae56177ded76088ac438e6471",
+      "sha256": "e2b607fa3236a467774b0f271e1633ada52147841da401721d7dbfcdd1f6c4e3",
+      "bytes": 261840
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--distribution.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/843aab488ff9a96f6efb5f93854b3534f13aaf2737f956382070a1e001c56cbf.gz",
+      "gzip_sha256": "20608839cff7ca22354a54fc68aba43707ef1513be6cbe8f858aac1b62e48c9b",
+      "sha256": "843aab488ff9a96f6efb5f93854b3534f13aaf2737f956382070a1e001c56cbf",
+      "bytes": 433047
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--insights.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/8756683409b440724c2030d48bf6fe4760e0bd94a2374250c3330847e991e9dc.gz",
+      "gzip_sha256": "2a672b1426ef905fbc60d33057a6f3a3299844508452c5f0d8766b6148441618",
+      "sha256": "8756683409b440724c2030d48bf6fe4760e0bd94a2374250c3330847e991e9dc",
+      "bytes": 17894
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--revelation.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a5dbec67eb515ac4042eedda76c49f93bfcd66e15c110933ff8e766ba5464aad.gz",
+      "gzip_sha256": "a541060f4213c06aa7d715a4de7c9d55a561b98e0c95edf08b61defcb287fcdd",
+      "sha256": "a5dbec67eb515ac4042eedda76c49f93bfcd66e15c110933ff8e766ba5464aad",
+      "bytes": 335988
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--liturgy-of-the-faithful.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/f50500a7922b1f5131a08421e75a38b50eed5ef09c98ab781e6811dcb8230364.gz",
+      "gzip_sha256": "42a5a45696c132e59bd1a599564bb34df4b248ce9e4fb1d42db5d1dc4ba8d3ce",
+      "sha256": "f50500a7922b1f5131a08421e75a38b50eed5ef09c98ab781e6811dcb8230364",
+      "bytes": 142787
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--matins.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/eb373a8c80ae9fcb658c1726c38a1815281a078217a5d61e1bb305b08cedbb7f.gz",
+      "gzip_sha256": "7add6629e98dee7502326cee9f076684854f7172f7b9b9dc9787a109b9d86c0c",
+      "sha256": "eb373a8c80ae9fcb658c1726c38a1815281a078217a5d61e1bb305b08cedbb7f",
+      "bytes": 278640
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/4923a4b3db738a46b813c430e8ca051d582682652baa0b7f67c8f3bdcba34607.gz",
+      "gzip_sha256": "3149c10642174e72d836053a7e7cd72290872a62ec0fa934cca857e38c0646dd",
+      "sha256": "4923a4b3db738a46b813c430e8ca051d582682652baa0b7f67c8f3bdcba34607",
+      "bytes": 228276
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-picker.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a6f326ecc385126486f352e95cabb27e3331c7f7da0496d86db7d83e2f26107b.gz",
+      "gzip_sha256": "db291861973e3690e02de5203146d479214de8ffbc11c59d363ae8c941d7ee34",
+      "sha256": "a6f326ecc385126486f352e95cabb27e3331c7f7da0496d86db7d83e2f26107b",
+      "bytes": 237
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--ninth-hour.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b46e072114f7644e0b620f0a35dc3ce86010106aab3137e2e83b3de29c1d4b3f.gz",
+      "gzip_sha256": "82af1cf4d7a20ea6a701d2e55eded6e29bd711ec11d1308422619fa6aa33ee38",
+      "sha256": "b46e072114f7644e0b620f0a35dc3ce86010106aab3137e2e83b3de29c1d4b3f",
+      "bytes": 541673
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/capture.mjs": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7564c73a0cfe2b9bcd40d2148c68b8c9a1117c2d2a00d218e6ed60886669c480.gz",
+      "gzip_sha256": "0128d37e129354ac2b0a0d22a1561d7225e23af8671934b4d8f4d195ea86be02",
+      "sha256": "7564c73a0cfe2b9bcd40d2148c68b8c9a1117c2d2a00d218e6ed60886669c480",
+      "bytes": 5237
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--context.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/83e7f1aff8b1d3c51f930689f2d7fab477c64e4f3f109732b9f348031acea6d7.gz",
+      "gzip_sha256": "ca9d27ec08a4ee3671eb5ba8bdfff4690c92d0f29d077836bc34488b8d90d031",
+      "sha256": "83e7f1aff8b1d3c51f930689f2d7fab477c64e4f3f109732b9f348031acea6d7",
+      "bytes": 1704
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--context.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/bf33af5674f6945787fb51e664423e39bc6a59e6c5661a237a950d67bc1e2509.gz",
+      "gzip_sha256": "db202580a2ddbefee7b37eaa1d06f4c040b64f7e6cfb7fea2c9ff6ab59e86ae1",
+      "sha256": "bf33af5674f6945787fb51e664423e39bc6a59e6c5661a237a950d67bc1e2509",
+      "bytes": 1703
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--distribution.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/82e6b3320dac581e8a7377728e67e26f48d9a6f88b1372692fc720973523d3a7.gz",
+      "gzip_sha256": "9fe5dfb9494e1555ab8bb1adb38655e5421e76bb8b02bdbc94119455492b85c1",
+      "sha256": "82e6b3320dac581e8a7377728e67e26f48d9a6f88b1372692fc720973523d3a7",
+      "bytes": 36267
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--revelation.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7d0cd5fbfd1b07688b5f17a7f55e4d731583a274b7693d3b2de4476da3bdaf7f.gz",
+      "gzip_sha256": "8078e005c18ee7c43b888d5820a2ba8bf22f5b0fd347f085b469444f65447b7f",
+      "sha256": "7d0cd5fbfd1b07688b5f17a7f55e4d731583a274b7693d3b2de4476da3bdaf7f",
+      "bytes": 519713
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--insights.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/18ded4828f113d6ff5d3aada200ff5b9542c8aef408c272e9f14f05650c3bc01.gz",
+      "gzip_sha256": "3d5119ee1e1a2ed0b337de385eb6a1ffca48c58455609087def8dd2096ef3606",
+      "sha256": "18ded4828f113d6ff5d3aada200ff5b9542c8aef408c272e9f14f05650c3bc01",
+      "bytes": 707384
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-home.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/99e67e4c6849de6feb92829e48de023c8313f551c95acdbd71e443c678dbbf6c.gz",
+      "gzip_sha256": "c2cfdbe8255d931628c225e0b01ab1e135aec229b4a5d98edc4baa4016de724c",
+      "sha256": "99e67e4c6849de6feb92829e48de023c8313f551c95acdbd71e443c678dbbf6c",
+      "bytes": 144
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/d2f6c3e7097d5f11a9534814fadc8c64ab0072e89c175ce12c82ebec995d6d33.gz",
+      "gzip_sha256": "165e46b570b614e55681871d6b2a22f0553a032c7af288befc6400feb1bfe8d1",
+      "sha256": "d2f6c3e7097d5f11a9534814fadc8c64ab0072e89c175ce12c82ebec995d6d33",
+      "bytes": 150
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--third-and-sixth-hours.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/36637b897d93e0405d35dec4e92430935f60262aad955560ca85681b13840b01.gz",
+      "gzip_sha256": "19d16113b4e9f566ae862987265d65762d9252066b326f34771621e8d335bc85",
+      "sha256": "36637b897d93e0405d35dec4e92430935f60262aad955560ca85681b13840b01",
+      "bytes": 88003
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--praises.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0840fb82e2d0ecbeae76ff38ea1006bd5c1597affc19fafd3465bb9168bfc5fe.gz",
+      "gzip_sha256": "de96559f58c0a0a6523d5492f4a97569b8e891e505c0d7b946e978fd8f998546",
+      "sha256": "0840fb82e2d0ecbeae76ff38ea1006bd5c1597affc19fafd3465bb9168bfc5fe",
+      "bytes": 499612
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--offering-of-the-lamb.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6e24ff174191b99cdb84a921b4f699c6728e143dd0530e8ed23da4160841bcb4.gz",
+      "gzip_sha256": "6d4dbf2174ce3c87f8561f56248c991925110357e5184bf5519c7c872899fa8b",
+      "sha256": "6e24ff174191b99cdb84a921b4f699c6728e143dd0530e8ed23da4160841bcb4",
+      "bytes": 413233
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--thursday-day--1st-hour.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/acabe043d782474fc41732c49a2175ccb7a7dd98b7611c11aa91849e3ef74c91.gz",
+      "gzip_sha256": "b0e07d5a6c308eaa214bd4793d20e80c8aa171675f790cea793f2167eb3bb3ce",
+      "sha256": "acabe043d782474fc41732c49a2175ccb7a7dd98b7611c11aa91849e3ef74c91",
+      "bytes": 156147
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--liturgy-of-the-word.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/78570c0a89319493c6a1bade8fd41fbe64cf3c80b145deaf817ab8156b80df8f.gz",
+      "gzip_sha256": "a437a88db8d5259d41a8bc8a148f5591072a94c6eff2c3f12b182d58ba2eedfc",
+      "sha256": "78570c0a89319493c6a1bade8fd41fbe64cf3c80b145deaf817ab8156b80df8f",
+      "bytes": 69733
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--thursday-day--menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/93a854a2698c76a4093a11774ff68cf24d0bf75718af62a76d3384c52720e99e.gz",
+      "gzip_sha256": "918eef59bd53b73a3dd46893d3d05eaa736a3e82ee0c92ece649ded06cd57882",
+      "sha256": "93a854a2698c76a4093a11774ff68cf24d0bf75718af62a76d3384c52720e99e",
+      "bytes": 150
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-home.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/221d794f8a6e0d646ea7be485c739c4195f9e0f81a0e95d9ca6efafa33010e59.gz",
+      "gzip_sha256": "475be8b69ca0b019606e045c3c12ab84ec2ca48017c8c3f3be1d113fc452568d",
+      "sha256": "221d794f8a6e0d646ea7be485c739c4195f9e0f81a0e95d9ca6efafa33010e59",
+      "bytes": 677588
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-picker.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/02821df79c81987c33f7c521b7c14ec1d8608c5ee7f8c5c6a52606a2047f89a2.gz",
+      "gzip_sha256": "b05828074001362f24a170c7f13ca00e3e1db2eaeba3f5b8f36efaa34e5b8507",
+      "sha256": "02821df79c81987c33f7c521b7c14ec1d8608c5ee7f8c5c6a52606a2047f89a2",
+      "bytes": 272171
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-home.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/f70363c896db11de05df4522c6e8ef597909862e46bba5f205130bdb2b83878f.gz",
+      "gzip_sha256": "881153325c41a18deb3c1b36e12941149e91cfd33e3b58417d3f3152e479260a",
+      "sha256": "f70363c896db11de05df4522c6e8ef597909862e46bba5f205130bdb2b83878f",
+      "bytes": 677268
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/26097a73afbdb802efa4b850b36297ee4ba28bc97fa02cabf9ac490059460b88.gz",
+      "gzip_sha256": "bb010bf98d4d45d997efac187c917739eb645337fe93fa50d7ac850fb2d31b27",
+      "sha256": "26097a73afbdb802efa4b850b36297ee4ba28bc97fa02cabf9ac490059460b88",
+      "bytes": 428099
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--praises.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3c858d0729c37fc420e08fb362967edf59d4316855d92840b9f4b4be4ede2d45.gz",
+      "gzip_sha256": "bb9020df4f05f3e9f91fadd580a6c45b238d72932668408ae9815011709607a5",
+      "sha256": "3c858d0729c37fc420e08fb362967edf59d4316855d92840b9f4b4be4ede2d45",
+      "bytes": 202098
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--third-and-sixth-hours.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a0b35727108bc6c2cbf17f16e69ff1c681069de12dfb85e1a3c973e24257fcb3.gz",
+      "gzip_sha256": "ef08b5c2cd9e658f656f52b468f99a532e3c3d644766e783c7f353c7704e903c",
+      "sha256": "a0b35727108bc6c2cbf17f16e69ff1c681069de12dfb85e1a3c973e24257fcb3",
+      "bytes": 649455
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--liturgy-of-the-word.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ccb894441d49193b5ad72056ac937b6c282bdd2ff2a49592434a59bb15b35bc1.gz",
+      "gzip_sha256": "9af9ed0829f6c357cb162022a13917c3b740e192241cfd1a6daa978e9db54bb6",
+      "sha256": "ccb894441d49193b5ad72056ac937b6c282bdd2ff2a49592434a59bb15b35bc1",
+      "bytes": 488407
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--thursday-day--1st-hour.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/5761ec70eb739c8d43128989d69a5bacea4cb62ca40dfa58215b75d518b60c2d.gz",
+      "gzip_sha256": "7fa60e53d30208d014e118ab401d1e4fadf02e7bcd465dbf28be85b03b816c4b",
+      "sha256": "5761ec70eb739c8d43128989d69a5bacea4cb62ca40dfa58215b75d518b60c2d",
+      "bytes": 679270
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--thursday-day--menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7311715960de33b08c1c01a8183c08925abebf3bd40a49fa2e469d31ae57c89c.gz",
+      "gzip_sha256": "6d331bf7f447dcc5bede67c74c6ff115232a0fcbf9a0e6ab476d0e3ff6773e5c",
+      "sha256": "7311715960de33b08c1c01a8183c08925abebf3bd40a49fa2e469d31ae57c89c",
+      "bytes": 273035
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--offering-of-the-lamb.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/2ea16c56aeaad882fdc5e890e566f02027461d2b2e35a65bd830fd83871d66ca.gz",
+      "gzip_sha256": "d00834be3d2f374bf4d709afe4ef403794d208d6f67b6415e9882dc02f7f6809",
+      "sha256": "2ea16c56aeaad882fdc5e890e566f02027461d2b2e35a65bd830fd83871d66ca",
+      "bytes": 48100
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/saturday--selected-picker.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6372317b420b142cd23d7cee13909e1b80d34a19fbac9af77b2aff69e9131007.gz",
+      "gzip_sha256": "337acacbdb085635c6ebf561e115719b2379bd049263ca553774c3ce72128431",
+      "sha256": "6372317b420b142cd23d7cee13909e1b80d34a19fbac9af77b2aff69e9131007",
+      "bytes": 237
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-pascha/thursday--selected-home.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/48649c5b877751697eedcadc702c1bb7aa1d6addc39c5a0054ea27f73771eb66.gz",
+      "gzip_sha256": "38f74ea265a068ad85a71d542f128e44ab3f0fa8c20c088f0b3bb0d1fd32f913",
+      "sha256": "48649c5b877751697eedcadc702c1bb7aa1d6addc39c5a0054ea27f73771eb66",
+      "bytes": 145
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-Prophecies.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869.gz",
+      "gzip_sha256": "36ea598f9e35bac5ded1bf422be7ada0b31b797971718afb8601a1e367688e60",
+      "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+      "bytes": 76020
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Vespers-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7e2c425ca3fece6403609f1db3e966b152ff9d14201bd69298bb4d286c00c8c1.gz",
+      "gzip_sha256": "5f72ef4c9036f8aaab971721de385915c2642e40b7645605eae06436b932cd74",
+      "sha256": "7e2c425ca3fece6403609f1db3e966b152ff9d14201bd69298bb4d286c00c8c1",
+      "bytes": 445308
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Vespers-reference-1.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0064ea8ca8b1791abcb60d323c7a4a50e264fba65e71cbcce322c5499729a251.gz",
+      "gzip_sha256": "4928b1b5debe1cd9d5c2a24e072875ead5057c26285eb580ba38339e9ccecf87",
+      "sha256": "0064ea8ca8b1791abcb60d323c7a4a50e264fba65e71cbcce322c5499729a251",
+      "bytes": 468347
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/home-selected.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/192d172664f0909002ec2fbdd007e9988b9a679408a1681c21e5eded6d5c1242.gz",
+      "gzip_sha256": "01850acdabff99a6b1e32beea327fe93c8592d2767e65a971a4d97116ff0793c",
+      "sha256": "192d172664f0909002ec2fbdd007e9988b9a679408a1681c21e5eded6d5c1242",
+      "bytes": 678660
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Pauline_Epistle.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/9e81c6da1e959d29e3340493a58dde6b54a5cf975947c6fa6112353b1b4ee497.gz",
+      "gzip_sha256": "0158236cc36a610a2309f23512e7b93200253a7900e4601f83eeb539659c62d5",
+      "sha256": "9e81c6da1e959d29e3340493a58dde6b54a5cf975947c6fa6112353b1b4ee497",
+      "bytes": 348432
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Psalm_and_Gospel.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7a7edce7c3d08c3bd7b34b883274e9bbea041fc96d1ccdfe5104e2e63ab5003d.gz",
+      "gzip_sha256": "e8eec3de23a57778dbc476a5f3ad1fa684476d7291fb4df73605be87c92d25c1",
+      "sha256": "7a7edce7c3d08c3bd7b34b883274e9bbea041fc96d1ccdfe5104e2e63ab5003d",
+      "bytes": 10991
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-Prophecies.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35.gz",
+      "gzip_sha256": "c66995158aa8b98ce8e8c3c38ae8a0b96a6713c4d0042ad8e6347e927a1c673f",
+      "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "bytes": 61
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/home-selected.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/deff7028b171825a869004380c4b2f7b02a89238488aea497800a3df9207142c.gz",
+      "gzip_sha256": "c4d4174bc6100d08ae90ddd60c00d2d4e0e3915fa8f385d02c837936831ed496",
+      "sha256": "deff7028b171825a869004380c4b2f7b02a89238488aea497800a3df9207142c",
+      "bytes": 172
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Pauline_Epistle.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d.gz",
+      "gzip_sha256": "9e4b2a3bcde68b17f6a2d4d132421d3c033a43640e23bb62273e31174f8f818b",
+      "sha256": "bd9c4cff32f2f35108784d990771f89b71c0c5271761c3d68419001b963aac9d",
+      "bytes": 14578
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Psalm_and_Gospel.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3f4ce890fef282ab54dea75a809c2160872eb68c921952013ada6bb75eb7c585.gz",
+      "gzip_sha256": "f5881c83c3cd6a15a2bf1806190dd78e17e969592d0806c7c265c849215a91d2",
+      "sha256": "3f4ce890fef282ab54dea75a809c2160872eb68c921952013ada6bb75eb7c585",
+      "bytes": 411018
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/picker-wheel-geometry.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a7692ef32a3ee5164ffc9c3824bedb1c14e51873b2c5f7a8672e17f302007464.gz",
+      "gzip_sha256": "b912e0a2b90c2e015e189c84f91b1b4566d690bef24b8b024c0c5facf12bd758",
+      "sha256": "a7692ef32a3ee5164ffc9c3824bedb1c14e51873b2c5f7a8672e17f302007464",
+      "bytes": 1985
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Pauline_Epistle-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/eb6c44488f0f619a64c51c293422ac522e0c0435f42cf2668f94ae76bb6f42fc.gz",
+      "gzip_sha256": "dfe3d64fd669b8a197bdcca884947aaa2e69e5e4aee997deb0787e291bb3b892",
+      "sha256": "eb6c44488f0f619a64c51c293422ac522e0c0435f42cf2668f94ae76bb6f42fc",
+      "bytes": 431446
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Praxis-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/90aca316946e99fbb30e353a5c95fe7d76dfee873fbc5f2ef169b500cf3c9b4e.gz",
+      "gzip_sha256": "bae79434be0c7017e6458b8169762565eca21ba067c18378eecc7316cfdec74b",
+      "sha256": "90aca316946e99fbb30e353a5c95fe7d76dfee873fbc5f2ef169b500cf3c9b4e",
+      "bytes": 556182
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Catholic_Epistle-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/fab68ff2240968861508a0f35a1df7c734c9ca492e6466a856330d3cbddc1e37.gz",
+      "gzip_sha256": "a7e7c56b0257a1d1728e2bb9e2fa67d881caca6ec840a2d086524b1c7f48d80b",
+      "sha256": "fab68ff2240968861508a0f35a1df7c734c9ca492e6466a856330d3cbddc1e37",
+      "bytes": 535799
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-Psalm_and_Gospel.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/2f77c123342dd727ba7b0aecd72441c3a346ab3493e5f5fdbef79262829d1cf9.gz",
+      "gzip_sha256": "3eced0be5e637c99e2333beefb8dc40e051602d1c580ff799ea4dda9211d3dab",
+      "sha256": "2f77c123342dd727ba7b0aecd72441c3a346ab3493e5f5fdbef79262829d1cf9",
+      "bytes": 414673
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6.gz",
+      "gzip_sha256": "a4b0a1bdf3196892071d400cceccd1b78f25f2d7e70dae6b7be085531b0c5c72",
+      "sha256": "032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6",
+      "bytes": 279717
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58.gz",
+      "gzip_sha256": "83552a4d7650b519093339cac1a0a348d2ff39f550cc866a52f5b441a371bc95",
+      "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+      "bytes": 72
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Praxis.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/442e4d4299c56438699dd76d3f90358ca4e2d9e4d5307e585c15a19ab84f40d6.gz",
+      "gzip_sha256": "f91f2d4c14e154063cdbe1cf8a0e4fdea6c2d91beb288f691de22a95dbb36501",
+      "sha256": "442e4d4299c56438699dd76d3f90358ca4e2d9e4d5307e585c15a19ab84f40d6",
+      "bytes": 10088
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Catholic_Epistle.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/bb834bdfee24f23d5bdb5813ec9fca38d3b5853c987b9fa3db137523be90c848.gz",
+      "gzip_sha256": "c2861c91cc4748de161dfd15dde6f26fda93e97e600c66a1a9c2fb327492e0a9",
+      "sha256": "bb834bdfee24f23d5bdb5813ec9fca38d3b5853c987b9fa3db137523be90c848",
+      "bytes": 8894
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/date-panel-before.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/13943fd12b2ab17c2733a0131a822ee340e939313f0c03bf1ff67677901387d7.gz",
+      "gzip_sha256": "8f87e91cd35e8b5e49ac5291c979a76dd2b4c0ff2f3119120533ca02df096bae",
+      "sha256": "13943fd12b2ab17c2733a0131a822ee340e939313f0c03bf1ff67677901387d7",
+      "bytes": 210332
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/picker-selected.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6aea99b1f71e0e459ff8c0670159d0f55c4132e99cdd61bf79736f54e95ad5c0.gz",
+      "gzip_sha256": "5178be0c4799c80f5b8b5b033a7c7a4d671b35d8248f4eb1394b36bf8670e891",
+      "sha256": "6aea99b1f71e0e459ff8c0670159d0f55c4132e99cdd61bf79736f54e95ad5c0",
+      "bytes": 258
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Vespers.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7e2c425ca3fece6403609f1db3e966b152ff9d14201bd69298bb4d286c00c8c1.gz",
+      "gzip_sha256": "5f72ef4c9036f8aaab971721de385915c2642e40b7645605eae06436b932cd74",
+      "sha256": "7e2c425ca3fece6403609f1db3e966b152ff9d14201bd69298bb4d286c00c8c1",
+      "bytes": 445308
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Readings-menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/565d7721c65b92f069c5d419002645753a3c6d7057f69a7a5110e48039157862.gz",
+      "gzip_sha256": "127770d7fd30d71810aaf28e84eea231add4fe00298f6265c90daa5dc2b36b0f",
+      "sha256": "565d7721c65b92f069c5d419002645753a3c6d7057f69a7a5110e48039157862",
+      "bytes": 426514
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/date-panel-selected.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b8cacc5625724d367c1338af486e2d80031c08503f42380d8bc20da27223627c.gz",
+      "gzip_sha256": "ece0c7dec553653ede19986138ce5e115b88223d49e5dd2fa41b8385d9df27f0",
+      "sha256": "b8cacc5625724d367c1338af486e2d80031c08503f42380d8bc20da27223627c",
+      "bytes": 1222
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-Psalm_and_Gospel-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/2f77c123342dd727ba7b0aecd72441c3a346ab3493e5f5fdbef79262829d1cf9.gz",
+      "gzip_sha256": "3eced0be5e637c99e2333beefb8dc40e051602d1c580ff799ea4dda9211d3dab",
+      "sha256": "2f77c123342dd727ba7b0aecd72441c3a346ab3493e5f5fdbef79262829d1cf9",
+      "bytes": 414673
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-Psalm_and_Gospel.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/fe515eeb4dfb44298b62d32db57c41b2eaba0b37a03b0da4a536c61f7cde8a66.gz",
+      "gzip_sha256": "d7c10fbdbe826501b4adb424d9a6ed240a23bfd4b21583fc49948607d96655d1",
+      "sha256": "fe515eeb4dfb44298b62d32db57c41b2eaba0b37a03b0da4a536c61f7cde8a66",
+      "bytes": 6843
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61.gz",
+      "gzip_sha256": "468bac670ece7bd673fc6cad4c23c8f912d34c2046367bc40157e39e2d8bb775",
+      "sha256": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+      "bytes": 32
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11.gz",
+      "gzip_sha256": "e1ad56b422eb57694c0fa0d7e6160e8b28b65a4859b817408c3eb42719387dbb",
+      "sha256": "0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11",
+      "bytes": 289162
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Matins-Psalm_and_Gospel-reference-1.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ab46177147fab2431081c2f9e6bf65773b90e97190fd029de617c2921f2a1e40.gz",
+      "gzip_sha256": "bf075e1a9ee933b94c5ed88869878c22638d13c5aa8f5c3d94e81f8449f3ca4f",
+      "sha256": "ab46177147fab2431081c2f9e6bf65773b90e97190fd029de617c2921f2a1e40",
+      "bytes": 464402
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Praxis.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/90aca316946e99fbb30e353a5c95fe7d76dfee873fbc5f2ef169b500cf3c9b4e.gz",
+      "gzip_sha256": "bae79434be0c7017e6458b8169762565eca21ba067c18378eecc7316cfdec74b",
+      "sha256": "90aca316946e99fbb30e353a5c95fe7d76dfee873fbc5f2ef169b500cf3c9b4e",
+      "bytes": 556182
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Vespers.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0f752eb2cd71eaa49149533bf017f24ccdbda36606107541e49ad9cfeb3e2221.gz",
+      "gzip_sha256": "94b7683ee4c2a0aef0782d233a1b56a2be9129d4d22fe2b124a7eeb0f0091a90",
+      "sha256": "0f752eb2cd71eaa49149533bf017f24ccdbda36606107541e49ad9cfeb3e2221",
+      "bytes": 6251
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Catholic_Epistle.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/fab68ff2240968861508a0f35a1df7c734c9ca492e6466a856330d3cbddc1e37.gz",
+      "gzip_sha256": "a7e7c56b0257a1d1728e2bb9e2fa67d881caca6ec840a2d086524b1c7f48d80b",
+      "sha256": "fab68ff2240968861508a0f35a1df7c734c9ca492e6466a856330d3cbddc1e37",
+      "bytes": 535799
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/date-panel-before.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/fedbb47efae4aa04e219a56e2841c48fb684a45f58b022f6b3c06ed9827d3548.gz",
+      "gzip_sha256": "b38282cc21429699d24121993aa66c1dcd4270c1101c2cb45c1530e55b4bfb9a",
+      "sha256": "fedbb47efae4aa04e219a56e2841c48fb684a45f58b022f6b3c06ed9827d3548",
+      "bytes": 1221
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/picker-selected.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/314b591755b870d07782af613727e83a7e19588dd584d32000021e5df270db0a.gz",
+      "gzip_sha256": "39a6907a978b3fea48cf048cc87917cd583b4e45ab671fa44ae27af7b8362b44",
+      "sha256": "314b591755b870d07782af613727e83a7e19588dd584d32000021e5df270db0a",
+      "bytes": 269176
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Psalm_and_Gospel-reference-1.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/68861e936435812231e56fca0f8f7909dbea7b2ed4b81251724bc08e523d1e3a.gz",
+      "gzip_sha256": "4afaf7ed9f5468530952b4e8ae162f45dc7ec48df2fa3bece89a1c4d642e8980",
+      "sha256": "68861e936435812231e56fca0f8f7909dbea7b2ed4b81251724bc08e523d1e3a",
+      "bytes": 499763
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Readings-menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/55f66cdeee7e4b040732cc95a7a118b458bac97e9752ecbb93982f1290147846.gz",
+      "gzip_sha256": "e3ffe5867cfa455b29aa304325528974f3eb077a1ad126fe64041b4528316a17",
+      "sha256": "55f66cdeee7e4b040732cc95a7a118b458bac97e9752ecbb93982f1290147846",
+      "bytes": 79
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/date-panel-selected.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/83f2bf3906a708c4b334e5cd7e442c8e59543bafe7bc027747bae74c49d2d63a.gz",
+      "gzip_sha256": "4887b0ad9198fe76e7563fa45adc40c76531083840142973a4ea1549b37cb3ab",
+      "sha256": "83f2bf3906a708c4b334e5cd7e442c8e59543bafe7bc027747bae74c49d2d63a",
+      "bytes": 211350
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-326/b78243f6-a3b6-4dd5-8fb4-0cb67d9e3529/Liturgy-Psalm_and_Gospel-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3f4ce890fef282ab54dea75a809c2160872eb68c921952013ada6bb75eb7c585.gz",
+      "gzip_sha256": "f5881c83c3cd6a15a2bf1806190dd78e17e969592d0806c7c265c849215a91d2",
+      "sha256": "3f4ce890fef282ab54dea75a809c2160872eb68c921952013ada6bb75eb7c585",
+      "bytes": 411018
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/home-selected.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/8530301a866595716a82cae80ce2fc1d5567532994480353a0faf158f1d2dfcb.gz",
+      "gzip_sha256": "51903808ac431da0a43261b871ad2e22527ba96e0b81aa67ee3397219f04996d",
+      "sha256": "8530301a866595716a82cae80ce2fc1d5567532994480353a0faf158f1d2dfcb",
+      "bytes": 671385
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/home-selected.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3cd7cd3a491ecd847cff1618579d9030184d410a047f1cc1ea3db4dbb8f84132.gz",
+      "gzip_sha256": "29afdba1a251debed21732cb9d8037a2604daaa5c612fa8c6fcd23db0e25679c",
+      "sha256": "3cd7cd3a491ecd847cff1618579d9030184d410a047f1cc1ea3db4dbb8f84132",
+      "bytes": 138
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/picker-wheel-geometry.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/5e31388c3bd56c50f68f6c480a08d71a9ec2f0adcd4a175674574cd87d92426f.gz",
+      "gzip_sha256": "9b0b06a1891b61c81b1d294996841c2ad997eeb91532b491550d2121550edf93",
+      "sha256": "5e31388c3bd56c50f68f6c480a08d71a9ec2f0adcd4a175674574cd87d92426f",
+      "bytes": 1971
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/Matins-menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6.gz",
+      "gzip_sha256": "a4b0a1bdf3196892071d400cceccd1b78f25f2d7e70dae6b7be085531b0c5c72",
+      "sha256": "032cb75d79ed1516c51bd3c2e91b255ad5da3343b2259f5c96ef6d39f0d350b6",
+      "bytes": 279717
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/Liturgy-menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58.gz",
+      "gzip_sha256": "83552a4d7650b519093339cac1a0a348d2ff39f550cc866a52f5b441a371bc95",
+      "sha256": "400d7611a0a34daa6b7cfd7f0bf5c917ae683371fecaa6731d012369abbb3e58",
+      "bytes": 72
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/date-panel-before.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/8bb5b47ac6da97e8e91cf4bc1ddba27a383bf459fa796dbae64f023ccc5c2e7a.gz",
+      "gzip_sha256": "3e76f6bebc269635c819b2ce51450972eee6ea0c8947ab677c476492cb351625",
+      "sha256": "8bb5b47ac6da97e8e91cf4bc1ddba27a383bf459fa796dbae64f023ccc5c2e7a",
+      "bytes": 203453
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/picker-selected.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ddea670b1f7b4218d0435b333f867dbc7edce2259d1185ddc786ad8a1b7a41ff.gz",
+      "gzip_sha256": "96fb02e3787bff0a5d6eaa340eced96b77e3a1d748de3dd0d6060647d9307c47",
+      "sha256": "ddea670b1f7b4218d0435b333f867dbc7edce2259d1185ddc786ad8a1b7a41ff",
+      "bytes": 240
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/Readings-menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3e0d3a8d61f689ebee3c413f5b35faea6bbf4b6f3f6ed7ece082639b55f26bfd.gz",
+      "gzip_sha256": "22e67a8e62711682eaf1330dc6c45a6c2a89c22a42ad2de1e01cea2f4456ed78",
+      "sha256": "3e0d3a8d61f689ebee3c413f5b35faea6bbf4b6f3f6ed7ece082639b55f26bfd",
+      "bytes": 418241
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/date-panel-selected.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/9490317653baffa8d9ca9c6319613c8306165519c5c893fac253448105c164d6.gz",
+      "gzip_sha256": "bacbe4a1fda4d242388d141bb7f89370374f786d0d7b9fd77b9abff81a5df443",
+      "sha256": "9490317653baffa8d9ca9c6319613c8306165519c5c893fac253448105c164d6",
+      "bytes": 1192
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/Matins-menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61.gz",
+      "gzip_sha256": "468bac670ece7bd673fc6cad4c23c8f912d34c2046367bc40157e39e2d8bb775",
+      "sha256": "af9ee1f2488426243f3bcbc47556ee5a71d928b8ddd0860b3bfe60bb84c19a61",
+      "bytes": 32
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/Liturgy-menu.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11.gz",
+      "gzip_sha256": "e1ad56b422eb57694c0fa0d7e6160e8b28b65a4859b817408c3eb42719387dbb",
+      "sha256": "0d22e3eb38881010365eb2d368b4c6b3fc030adb8cb867de3a3be2e7503f9f11",
+      "bytes": 289162
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/date-panel-before.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a55d563d0024352120ac937d7192978402e4bd08db72ab00869b93ae09acab12.gz",
+      "gzip_sha256": "f4a1675dd4ab1f58cace2e75b7a5bfd6024a6b264159961a73922a4b75385c39",
+      "sha256": "a55d563d0024352120ac937d7192978402e4bd08db72ab00869b93ae09acab12",
+      "bytes": 1190
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/picker-selected.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/29291a3f7076e8b6e22abd32c41998d0c573d30a51d4540de2bff9a61cc8c7b1.gz",
+      "gzip_sha256": "b79671c1eec6ed7a10bbbe611e81f06b54ff51283a372cf681ae7cf4b7c8fa0c",
+      "sha256": "29291a3f7076e8b6e22abd32c41998d0c573d30a51d4540de2bff9a61cc8c7b1",
+      "bytes": 268477
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/Readings-menu.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f.gz",
+      "gzip_sha256": "36f05869df82e32f60c8e5bca434e35e99d770ce82bf5d2fb15d41dfab0b7a7f",
+      "sha256": "7bab8d96fc30769f480431dec78f264bd3567643e1207ee1625cf91f13c5a61f",
+      "bytes": 39
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/AnnualReadings-157/9da21b0b-48e8-4c0b-919a-c89a326d7fc6/date-panel-selected.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6c5ac98eb4eefd76a27fafe425e564be9e37da04a8970a1083c66afb233c2b8d.gz",
+      "gzip_sha256": "f35314432e4057dae1412e5ef452f18a6e99eeec8ee45ae3add4d2fc7798a639",
+      "sha256": "6c5ac98eb4eefd76a27fafe425e564be9e37da04a8970a1083c66afb233c2b8d",
+      "bytes": 203628
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Vespers.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/71409f5f71d304bfdcf9a68fa673b54303088d29d8d5da8f427f509023cd68b2.gz",
+      "gzip_sha256": "f0baeca1b23ceb2d20e8476124c4a30ffd33168f4dfae23fd0dd449ac0f0efd7",
+      "sha256": "71409f5f71d304bfdcf9a68fa673b54303088d29d8d5da8f427f509023cd68b2",
+      "bytes": 7369
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Vespers.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6023a222407a2154a4fba62eb1aaa41113497c41335783e753a20bc7957989b0.gz",
+      "gzip_sha256": "954d042ad888ada4d9b0f5fae44e188f1d93cd63d309957894cd24140d57c56a",
+      "sha256": "6023a222407a2154a4fba62eb1aaa41113497c41335783e753a20bc7957989b0",
+      "bytes": 422870
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Vespers-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6023a222407a2154a4fba62eb1aaa41113497c41335783e753a20bc7957989b0.gz",
+      "gzip_sha256": "954d042ad888ada4d9b0f5fae44e188f1d93cd63d309957894cd24140d57c56a",
+      "sha256": "6023a222407a2154a4fba62eb1aaa41113497c41335783e753a20bc7957989b0",
+      "bytes": 422870
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Vespers-reference-1.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/4e571eaa786deaafa6aaf32ab6d7da61843c4e74e366fd3e7da3427b621f9709.gz",
+      "gzip_sha256": "c530f97767f655718126df18179d68907a330fc4c39f2fb2108ed7049c5333e0",
+      "sha256": "4e571eaa786deaafa6aaf32ab6d7da61843c4e74e366fd3e7da3427b621f9709",
+      "bytes": 477769
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-37/6de4d337-2dbb-4156-b995-7bb70cb783e0/Matins-Prophecies.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35.gz",
+      "gzip_sha256": "c66995158aa8b98ce8e8c3c38ae8a0b96a6713c4d0042ad8e6347e927a1c673f",
+      "sha256": "e64a09c8881b5db868ae8e8c3074d2aa79eee51cf94f28a7c7ac8432282fbe35",
+      "bytes": 61
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-continuation-02/AnnualReadings-37/6de4d337-2dbb-4156-b995-7bb70cb783e0/Matins-Prophecies.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869.gz",
+      "gzip_sha256": "36ea598f9e35bac5ded1bf422be7ada0b31b797971718afb8601a1e367688e60",
+      "sha256": "ad2f185d67ce7152f4e13264a11497c7014cfe8c1b7beeedc9740ad636b65869",
+      "bytes": 76020
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Matins-Psalm_and_Gospel.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/60a45f73eecd2b41d2838c2a25e5c871dbb72274c2880404bc3d299c8aeeefd6.gz",
+      "gzip_sha256": "c38c595eababfa58c067d4b79724d5361cb5cc217cd8e4feb04c1bdad15ae9a6",
+      "sha256": "60a45f73eecd2b41d2838c2a25e5c871dbb72274c2880404bc3d299c8aeeefd6",
+      "bytes": 8536
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Matins-Psalm_and_Gospel.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/85400635a47236ccaa6ee41006babc198ccdebc32f3788f552444aac4d57140e.gz",
+      "gzip_sha256": "39050906dc4dc5faf8ef83eb8608e7869978e4a85be2242fa7b475edcb946c19",
+      "sha256": "85400635a47236ccaa6ee41006babc198ccdebc32f3788f552444aac4d57140e",
+      "bytes": 452164
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Matins-Psalm_and_Gospel-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/85400635a47236ccaa6ee41006babc198ccdebc32f3788f552444aac4d57140e.gz",
+      "gzip_sha256": "39050906dc4dc5faf8ef83eb8608e7869978e4a85be2242fa7b475edcb946c19",
+      "sha256": "85400635a47236ccaa6ee41006babc198ccdebc32f3788f552444aac4d57140e",
+      "bytes": 452164
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Matins-Psalm_and_Gospel-reference-1.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/9d8feb67cbff07f7db7881b6334ee8b30a13db99a5442d9d4f74d2cf599b6afc.gz",
+      "gzip_sha256": "7a560ffb7cdba5b251fb92c2ced9dabe61a2cd6a376965145bc0ce60061dbc43",
+      "sha256": "9d8feb67cbff07f7db7881b6334ee8b30a13db99a5442d9d4f74d2cf599b6afc",
+      "bytes": 496219
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Pauline_Epistle.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6f072f739a59f1a66dfeedca489a6552115c37b42e7e213bb3ff464b8b513f30.gz",
+      "gzip_sha256": "20b18ec8488a8922a67b0db76b90470e939608b605e31a83d804867cb105bef0",
+      "sha256": "6f072f739a59f1a66dfeedca489a6552115c37b42e7e213bb3ff464b8b513f30",
+      "bytes": 16522
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Pauline_Epistle.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/df2ce3ca013d85e18253ed3f36a073b499b90042d3e0aabe12728e5d72e1dc1c.gz",
+      "gzip_sha256": "3d98131f0f2e51d5e49fbc0410db6a205b55d07906e9b5f649281d11af753471",
+      "sha256": "df2ce3ca013d85e18253ed3f36a073b499b90042d3e0aabe12728e5d72e1dc1c",
+      "bytes": 367356
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Pauline_Epistle-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/688e4db7f51240073c403031f9cfcd8d3ccd09fce3ddc9bcecb9515a49790d3e.gz",
+      "gzip_sha256": "bccd47b6216ccab9865cfeba0eeed98f669c7385e167376967664857adb367df",
+      "sha256": "688e4db7f51240073c403031f9cfcd8d3ccd09fce3ddc9bcecb9515a49790d3e",
+      "bytes": 445893
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Catholic_Epistle.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/048a176aa3a68629199abefc12a5880a638dbfbbf8ca20a2b6fdb27e14b2861d.gz",
+      "gzip_sha256": "d199bc2b698e4720b19033330bb37a946860d67f7d5a505735fd1c31213f69a7",
+      "sha256": "048a176aa3a68629199abefc12a5880a638dbfbbf8ca20a2b6fdb27e14b2861d",
+      "bytes": 11833
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Catholic_Epistle.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/48d15682fa8b22769ae6d9f385ffcc10d577e320b14668808c0f81d364865417.gz",
+      "gzip_sha256": "a56896212f83281cfffb8e196eac8b567c22a4fb0eb26caf6a32ca11bc9edcd9",
+      "sha256": "48d15682fa8b22769ae6d9f385ffcc10d577e320b14668808c0f81d364865417",
+      "bytes": 564310
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Catholic_Epistle-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/48d15682fa8b22769ae6d9f385ffcc10d577e320b14668808c0f81d364865417.gz",
+      "gzip_sha256": "a56896212f83281cfffb8e196eac8b567c22a4fb0eb26caf6a32ca11bc9edcd9",
+      "sha256": "48d15682fa8b22769ae6d9f385ffcc10d577e320b14668808c0f81d364865417",
+      "bytes": 564310
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Praxis.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/023427ad89a7457f572eda45469f86166a40f8fae0546858ef593654050094ba.gz",
+      "gzip_sha256": "a95aff2c224b8ad0b210e87d6292160aabe32c6f08b59a33acce1f9fe6f50307",
+      "sha256": "023427ad89a7457f572eda45469f86166a40f8fae0546858ef593654050094ba",
+      "bytes": 14856
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Praxis.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/dcbfff460e62311b4892ebe787a3c5fcab4fb14e88f19ffd70f3491277f7f93b.gz",
+      "gzip_sha256": "39e653ec157d45375376c627c1c6b45986492544a8d49419dad91bad6cfa8dfb",
+      "sha256": "dcbfff460e62311b4892ebe787a3c5fcab4fb14e88f19ffd70f3491277f7f93b",
+      "bytes": 544082
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Praxis-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/dcbfff460e62311b4892ebe787a3c5fcab4fb14e88f19ffd70f3491277f7f93b.gz",
+      "gzip_sha256": "39e653ec157d45375376c627c1c6b45986492544a8d49419dad91bad6cfa8dfb",
+      "sha256": "dcbfff460e62311b4892ebe787a3c5fcab4fb14e88f19ffd70f3491277f7f93b",
+      "bytes": 544082
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Psalm_and_Gospel.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/9056257cfe0f00c745ba9baeaab20945299caa545d551e58260d56db74e79508.gz",
+      "gzip_sha256": "ab42711796032b576c7ecf05836ebe9db0bb163de268805710d1bd818cf05c65",
+      "sha256": "9056257cfe0f00c745ba9baeaab20945299caa545d551e58260d56db74e79508",
+      "bytes": 12362
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Psalm_and_Gospel.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/775a0fa88cf03759f42db207cb9294178f0b29d3512a786e7765a9c7b654fb43.gz",
+      "gzip_sha256": "ab003e739b589194cd48decedaf9b87fcd6f512ed0f4ce6fe894e633cb83442c",
+      "sha256": "775a0fa88cf03759f42db207cb9294178f0b29d3512a786e7765a9c7b654fb43",
+      "bytes": 424659
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Psalm_and_Gospel-reference-0.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/775a0fa88cf03759f42db207cb9294178f0b29d3512a786e7765a9c7b654fb43.gz",
+      "gzip_sha256": "ab003e739b589194cd48decedaf9b87fcd6f512ed0f4ce6fe894e633cb83442c",
+      "sha256": "775a0fa88cf03759f42db207cb9294178f0b29d3512a786e7765a9c7b654fb43",
+      "bytes": 424659
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/AnnualReadings-7/1e4ce2d1-4d03-4f89-b60d-088c6330318e/Liturgy-Psalm_and_Gospel-reference-1.png": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ac16c6c55b3f4a7b20c5cc080dffca626b585aab71c96e1bb7de564182bdc432.gz",
+      "gzip_sha256": "033cd09f4a78b592607cabed1c41633381a524f2011006cbed10e5b3affe20d0",
+      "sha256": "ac16c6c55b3f4a7b20c5cc080dffca626b585aab71c96e1bb7de564182bdc432",
+      "bytes": 474614
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/capture-ready-v2.mjs": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/39915033a13b6f1e4ca7ca39672878af730cc05d7fe5a427e8ca1f02d5cb8047.gz",
+      "gzip_sha256": "3cde93dc58c4e639afd923555704aaa87244b6f776ede2c10cf2beb4d7aa77a6",
+      "sha256": "39915033a13b6f1e4ca7ca39672878af730cc05d7fe5a427e8ca1f02d5cb8047",
+      "bytes": 9905
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-manifest.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/92082a73dbdb6cf885defcda395d45f403f95041a20d9137e875bc15569d0ebc.gz",
+      "gzip_sha256": "5b9fdd4f98a057754b5e84629ff439e035f472575bb359ecffc44e2729b085c3",
+      "sha256": "92082a73dbdb6cf885defcda395d45f403f95041a20d9137e875bc15569d0ebc",
+      "bytes": 22525895
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/BRIGHT-RAW-RECOVERY.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/15d150f2142f281d4c1c19697b5f697f5c76fac477cf2a275bf74ec1c197d754.gz",
+      "gzip_sha256": "83097582e3b522d0fce3daa33492261b2e0592f0e07e6eceeaf6ad352212b3b4",
+      "sha256": "15d150f2142f281d4c1c19697b5f697f5c76fac477cf2a275bf74ec1c197d754",
+      "bytes": 5818
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/bright-revelation-raw-body-chapter-ledger.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/31280cffac9a5affbd6bd1e0b72c0768a1e81b725e72b35b5a5f68f4e90a313d.gz",
+      "gzip_sha256": "bf98a6ad5546f707b728ee951c2a3deae1df61b24f33d1830ef8f8533ac97aa8",
+      "sha256": "31280cffac9a5affbd6bd1e0b72c0768a1e81b725e72b35b5a5f68f4e90a313d",
+      "bytes": 16553
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/AnnualReadings-326-retained-table.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a13378b175c26f5d38952ac7c3329b03bead0fbffdb288392e1f7ba7def3c37d.gz",
+      "gzip_sha256": "cbe90a22979caf2e91732602ce003e0dcf299435102373fdaaa08108c38d042b",
+      "sha256": "a13378b175c26f5d38952ac7c3329b03bead0fbffdb288392e1f7ba7def3c37d",
+      "bytes": 9421
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/amshir7-retained-table.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/f53d53185c382e1b81e2d5dc6003abc36700a0c4a92d9ca7a9efb9f32e3a21ef.gz",
+      "gzip_sha256": "fc5fd59189a04a935a4a91cb4cf040cd153b6c2b0538155f6106923ca8fa7f43",
+      "sha256": "f53d53185c382e1b81e2d5dc6003abc36700a0c4a92d9ca7a9efb9f32e3a21ef",
+      "bytes": 15077
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/amshir7-complete-body-checks.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a54a1f039c5762a44ea47dae498aa882d91c1da4cb8cdbc790a3c8f82076e12d.gz",
+      "gzip_sha256": "c7de9713377c14aa791fce6b62acaf36c5e41312effe7f184059658c7f5a5894",
+      "sha256": "a54a1f039c5762a44ea47dae498aa882d91c1da4cb8cdbc790a3c8f82076e12d",
+      "bytes": 8497
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/joseph-complete-body-checks.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/5130562126224fe686230175e62ed7ba8c97bad084532ed2a753442ecb63c937.gz",
+      "gzip_sha256": "ad9e3335c11765495326dbae86c401cbe758bba34efe8c6e7919405dd1f08cbb",
+      "sha256": "5130562126224fe686230175e62ed7ba8c97bad084532ed2a753442ecb63c937",
+      "bytes": 5343
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/FINDINGS.md": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/5b6e8016ee659ebce69ff1faeeb8a538efa3543f1b95f3c0da638861e0ef1b90.gz",
+      "gzip_sha256": "9bfadfb3181a3e41514f9b45468eeea7ac422846c2462586d34c2845809de8d3",
+      "sha256": "5b6e8016ee659ebce69ff1faeeb8a538efa3543f1b95f3c0da638861e0ef1b90",
+      "bytes": 9563
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/source-plan-review/review-artifact-manifest.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/1781005c36df68788e6fd7ed0497b3a9df935ced6fbcb4b4228b46a5c1f4eb84.gz",
+      "gzip_sha256": "36826d9cca0c0399ff45d5ca261f9d80ed5896828debeed418806e1ed5fbcf53",
+      "sha256": "1781005c36df68788e6fd7ed0497b3a9df935ced6fbcb4b4228b46a5c1f4eb84",
+      "bytes": 2989
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/parent-source-plan-adoption.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/297a2e785b61823b788f9ff387b22f7a8ce4ce7b2fe00de9a7efef8108278079.gz",
+      "gzip_sha256": "ab5e6ccfbf95428df2c2d8dc4704de88c0022fd9fb816abc7077a3ce3f9d663c",
+      "sha256": "297a2e785b61823b788f9ff387b22f7a8ce4ce7b2fe00de9a7efef8108278079",
+      "bytes": 1959
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/LICENSE": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/be68c3d4ff5376a22dd54bca67629167437330d37fbf22d71fb60c3e6df70037.gz",
+      "gzip_sha256": "cbc47466c23e4e92a8571a05a9388f006203218734e9fd4f7fbfeb264d3fe5f3",
+      "sha256": "be68c3d4ff5376a22dd54bca67629167437330d37fbf22d71fb60c3e6df70037",
+      "bytes": 898
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/calendar.js": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830.gz",
+      "gzip_sha256": "a7f05fba0b70ac1cfa3e22e5d2487f031f2073b02677c5d5d4029cbca2e6b1f8",
+      "sha256": "71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830",
+      "bytes": 1454
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/index.js": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3c9e51994b1788efc15bfe0ea60ed9ade9c38b11e71713c9c44991b9137427da.gz",
+      "gzip_sha256": "32c82e08051f3ecc095289dfd0f606293c5be741666c3928bc9f870e9625cab6",
+      "sha256": "3c9e51994b1788efc15bfe0ea60ed9ade9c38b11e71713c9c44991b9137427da",
+      "bytes": 4584
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/data/daily/lectionary-2026.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/54ce92cc4a294b6027b6300631ceec9eb4fe6c02a5b7d2eb0d7fa0ef6b5524e9.gz",
+      "gzip_sha256": "556b2a3b40c05ee028497d9aef6537612aef76f400be654cd6a4c9ac9f0bcb50",
+      "sha256": "54ce92cc4a294b6027b6300631ceec9eb4fe6c02a5b7d2eb0d7fa0ef6b5524e9",
+      "bytes": 8649638
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/data/daily/lectionary-2027.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/97dac3dfa6c501fbefa6162b154a4e3aca1b4ef6c8b7c161c04315e29fe8d639.gz",
+      "gzip_sha256": "914da1c2298b174d72d845955cd9bb4e23beea7f3062a65ce5190b79c6d9088d",
+      "sha256": "97dac3dfa6c501fbefa6162b154a4e3aca1b4ef6c8b7c161c04315e29fe8d639",
+      "bytes": 8807535
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/data/daily/lectionary-2028.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/ba27622403cacec2df741e645711fa8156dc676cf9776b0e91ac888f15edb512.gz",
+      "gzip_sha256": "e51b10edcd0857c488af994a3d343e3cffc0f981adeb4c49ed891f370a8db3cb",
+      "sha256": "ba27622403cacec2df741e645711fa8156dc676cf9776b0e91ac888f15edb512",
+      "bytes": 8649327
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/meta.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/a05a6a263f58c52628882e12aa42a3eb6d1eef0785e38189e88ca144d8fdf4a1.gz",
+      "gzip_sha256": "3da379b16f070becc757421ce6c7c6bb7b4a853a1b7cf585ae1e6570ce04feb7",
+      "sha256": "a05a6a263f58c52628882e12aa42a3eb6d1eef0785e38189e88ca144d8fdf4a1",
+      "bytes": 67408
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/package.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/6953620c8a212f2117b1826c1208b2112746e744f578e3ff2a75fb15a40d528b.gz",
+      "gzip_sha256": "7e236ce72a3a57f006aa0b71c69e6afc251a49a8fcbde3920780ea7d66999bc7",
+      "sha256": "6953620c8a212f2117b1826c1208b2112746e744f578e3ff2a75fb15a40d528b",
+      "bytes": 764
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/data/synaxarium/synaxarium.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/7780814efb4c91cd1039365f566a64029d5b63c3eb5e16f9d5be74e068a312d7.gz",
+      "gzip_sha256": "72c74619d51b527d756a306f50170c79e069163fd182dd71ae998f6995bc09d8",
+      "sha256": "7780814efb4c91cd1039365f566a64029d5b63c3eb5e16f9d5be74e068a312d7",
+      "bytes": 261560
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/data/reverse_lectionary_index.jsonl": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/3c52deb3f7c97b4dcc0de74bd3d99fde0e8cf8461eadb86afce77ef87969c91c.gz",
+      "gzip_sha256": "8291d0e40ac45048b3a85c4ce4439b620c3b0a1c876b92fba47556b3db7c88fe",
+      "sha256": "3c52deb3f7c97b4dcc0de74bd3d99fde0e8cf8461eadb86afce77ef87969c91c",
+      "bytes": 45699090
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/baseline/package/README.md": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/5fb2f4a4ed0fd1a8117b199841a4c0f86bd90c18a8b80cbf570568adc40649ca.gz",
+      "gzip_sha256": "3341a5f4e835fe251c83eb9813159249e84eaa02912ad4c7b7c41239eded411d",
+      "sha256": "5fb2f4a4ed0fd1a8117b199841a4c0f86bd90c18a8b80cbf570568adc40649ca",
+      "bytes": 24718
+    },
+    "/Users/ga/workspace/coptic-lectionary-research/sources/pdfs/UK_Midlands_Katameros_Days.txt": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/b81d990f48d0923fc94b6db020a28836073e13ff8b00b021efc55b741e261168.gz",
+      "gzip_sha256": "3ee6b8aea75b56ab93661baae38a80053e313838cbf9ad57b9b75aa349e392bc",
+      "sha256": "b81d990f48d0923fc94b6db020a28836073e13ff8b00b021efc55b741e261168",
+      "bytes": 820701
+    },
+    "/Users/ga/workspace/coptic-lectionary-research/sources/pdfs/UK_Midlands_Katameros_Days.pdf": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/f4eb3465542af3bf5da09d2be05118e616d98b854f4850155b7982a92597295b.gz",
+      "gzip_sha256": "6ba0ce96d549d33650643e6bf26af5c165392cfef258d7e96d31616d0ee48503",
+      "sha256": "f4eb3465542af3bf5da09d2be05118e616d98b854f4850155b7982a92597295b",
+      "bytes": 19509308
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/tables.jsonl": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/71aa885af5e1c012b157c8c50c9c4f153efcca1d9e9e90c99451b00747244f4b.gz",
+      "gzip_sha256": "233918175463c924cc0a8ca347f40566f985cb368bb73885573d3678b93ccd70",
+      "sha256": "71aa885af5e1c012b157c8c50c9c4f153efcca1d9e9e90c99451b00747244f4b",
+      "bytes": 1650952
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/fresh-annual-remaining-dated/evidence.jsonl": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/cf25fad762de3190ffb37436101e2ccd307f7b9cdb6266d31b48d0d5faed2a09.gz",
+      "gzip_sha256": "072b2520f433fbdb7ef59281c5c6a23c2a0ed6f7c23d109be74ddb8fa1de8bb6",
+      "sha256": "cf25fad762de3190ffb37436101e2ccd307f7b9cdb6266d31b48d0d5faed2a09",
+      "bytes": 3417785
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/tables.jsonl": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/c0f229b42dfd1f8f1710743ae9bb4b98aa46765ea59534c11f8f628321506219.gz",
+      "gzip_sha256": "661a5ba2d8abef7f4bd2e8bbced6db59735e2fb1871b8579ec3eed2d9914d538",
+      "sha256": "c0f229b42dfd1f8f1710743ae9bb4b98aa46765ea59534c11f8f628321506219",
+      "bytes": 86204
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/targeted-source-recovery/archive-stage1/lectionary-comprehensive-audit-2026-10-07/annual-replacement-recovery-02/evidence.jsonl": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/305b0ffefa2dc55a4f0077951be071e35d0fa5235764daa6666ae0b46d2072fe.gz",
+      "gzip_sha256": "357f0856be4cfaa4aea83d71f1f76ef95c2c781db30b9ab0ab8b7051cd0508f6",
+      "sha256": "305b0ffefa2dc55a4f0077951be071e35d0fa5235764daa6666ae0b46d2072fe",
+      "bytes": 302453
+    },
+    "/Users/ga/.hermes/task-results/site-lectionary-review-20261114T0325PST/resume-20261114T1000PST/parent-source-supplement-adoption.json": {
+      "path": "sources/site-review-1.3.11/supplement/bodies/e411ebc5904456201ade57c9882779d8caa860040f8599d1fe98953a690e0f00.gz",
+      "gzip_sha256": "5d037731a4fa94039c9f8b898f1f02b579c1fcca39e08ccd7ea685761c7dddb1",
+      "sha256": "e411ebc5904456201ade57c9882779d8caa860040f8599d1fe98953a690e0f00",
+      "bytes": 1816
+    }
+  }
+}

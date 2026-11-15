@@ -17,7 +17,7 @@ DESIGN_SOURCE = 'out/design/reverse_lectionary_index.jsonl'
 DESIGN_SHA256 = '3473d858301159573118dd8df25522a95c412e19a8a78bc22a3d483a6f7dd0fc'
 IDENTITY_FIELDS = ('identity_key', 'display_ref', 'canonical_mt_ref', 'canonical_lxx_ref', 'spans_json')
 CALENDAR_FIELDS = calendar.FIELDS + ('calendar_review_source_locators', 'calendar_review_calendar_keys')
-FOLLOWUP_RELEASE_VERSIONS = frozenset({'1.3.8', '1.3.9', '1.3.10'})
+FOLLOWUP_RELEASE_VERSIONS = frozenset({'1.3.8', '1.3.9', '1.3.10', '1.3.11'})
 STABLE_FIELDS = ('source_family', 'source_kind', 'source_locator', 'occasion', 'service_section',
                  'service_hour', 'slot', 'calendar_keys', 'day_titles')
 
@@ -32,6 +32,11 @@ def validate_public_followup_rows(rows):
 
 
 def followup_reverse_view(rows, *, previous_layer='mark', require_all_targets=True, version=None):
+    if version == '1.3.11':
+        import site_review_repairs as site_review
+        import final_site_review_repairs as final_site_review
+        rows = site_review.restore_rows(final_site_review.restore_rows(rows))
+        version = '1.3.10'
     import composite_followup_repairs as composite
     import metadata_followup_repairs as metadata
     import evidence_followup_repairs as evidence
@@ -53,14 +58,20 @@ def followup_daily_view(days, *, previous_layer='mark', version=None):
     import evidence_followup_repairs as evidence
     output = {}
     for date, rows in days.items():
-        if version == '1.3.10':
+        historical_version = version
+        if version == '1.3.11':
+            import site_review_repairs as site_review
+            import final_site_review_repairs as final_site_review
+            rows = site_review.restore_rows(final_site_review.restore_rows(rows, date=date), date=date)
+            historical_version = '1.3.10'
+        if historical_version == '1.3.10':
             import revelation_release_repairs as revelation
             import pk6_release_repairs as pk6
             rows = revelation.restore_rows(pk6.restore_daily(rows, date), date=date)
         validate_public_followup_rows(rows)
         rows = composite.restore_public_rows(rows)
         rows = evidence.restore_rows_for_comparison(rows, date=date,
-                                                   version=version if version is not None else '1.3.10')
+                                                   version=historical_version if historical_version is not None else '1.3.10')
         output[date] = metadata.restore_rows_for_comparison(rows, date=date, previous_layer=previous_layer)
     return output
 
@@ -91,6 +102,9 @@ def source_owned_empty_coordinates(row, date_key=None):
     Pass the trusted outer ISO date for daily rows; never derive it from row data.
     Other pre-existing source-only families remain the validator's responsibility.
     """
+    import final_site_review_repairs as final_site_review
+    if final_site_review.source_owned_supplement_empty_coordinates(row,date=date_key):
+        return True
     if not _r2_owned(row):
         return False
     r2.qualify_row(row, civil_date=date_key)

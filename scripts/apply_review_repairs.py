@@ -26,6 +26,8 @@ import evidence_followup_repairs as evidence
 import annual_occasion_repairs as annual_occasion
 import revelation_release_repairs as revelation
 import pk6_release_repairs as pk6
+import site_review_repairs as site_review
+import final_site_review_repairs as final_site_review
 
 
 def finish_daily(days):
@@ -114,7 +116,11 @@ def project(mode, payload):
         daily = {year: {date: pk6.project_daily(revelation.project_rows(readings, date=date), date)
                         for date, readings in days.items()}
                  for year, days in payload['daily_by_year'].items()}
-        return {'rows': rows, 'daily_by_year': daily}
+        rows = final_site_review.project_rows(site_review.project_rows(rows))
+        final_site_review.verify_successor_membership(rows)
+        return {'rows': rows, 'daily_by_year': {
+            year: {date: final_site_review.project_rows(site_review.project_rows(readings, date=date), date=date) for date, readings in days.items()}
+            for year, days in daily.items()}}
     if mode == 'reverse':
         # Calendar metadata is qualified against untouched source identities.
         rows = calendar_review.load_runtime_review(ROOT).apply_reverse_rows(payload['rows'])

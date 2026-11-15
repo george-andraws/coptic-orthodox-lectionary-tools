@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.11
+
+- Correct edition-qualified Brenton covering annotations on 160 exact-context current reverse witnesses and 154 daily rows, retaining partial-clause/translation qualifications, original MT coordinates, identities, statuses, held exclusions and inactive history. Seven exact, frozen own-representation daily joins cover Bright service normalization and the Tut/Tout Cross label; no blanket alias policy is added.
+- Materialize each complete existing current Theophany/Apostles Waters group on the six shipped feast dates, adding 66 daily rows without promoting working status or changing ordinary/Sunday services or Covenant Thursday.
+- Add source-pinned context qualification, authentic inverse transport and adversarial projection/serialized-output tests. Preserve every historical membership oracle.
+- Materialize the existing first-Lent-Monday working-cycle proper on three bounded dates, preserving dated 2026 Matins, Vespers, reverse witnesses and Reader nonrecurrence qualification. Explicitly disclose that UK Midlands prints Exodus2:23 &3:1-5, unlike the broader cycle/Reader; do not add a printed-only fragment or claim an exact printed copy.
+- Add exactly two retained Bright Saturday reverse appointments: Matins1 Corinthians5:7-13 and chapter-scoped Exodus15 First Canticle. Correct early Ephesians/Isaiah/Pauline order and Psalm3 selected order5,3; collapse dated Psalm82 to the existing source-only display hold while retaining both provenance envelopes and every reverse witness. No Psalm coordinates are approved by the collapse.
+- Add the adopted supplement: one chapter-range Revelation1–22 appointment (null verse endpoints), Distribution source-only printed Psalm68:1 then Luke24:1–12, three source-only Joseph Psalm selections with six reused cycle non-Psalms on2027-08-02 only, and17 existing Amshir7 cycle fragments on2028-02-15 only. Retain selected Psalm words, original1PM/2PM context and body-reuse provenance; no unseen Reader confirmation or unbounded recurrence. Cumulative independent multiset:12,299 rows/12,174 distinct keys, eight additions and no predecessor removals.
+- Fix IR-02: all three collapsed Psalm82 daily records declare their complete three-envelope disclosure count; preserve exact envelopes and inverse predecessors. Preserve already-correct Eve labels. Toba30 recurrence/retirement and Entry-into-Egypt precedence remain unresolved. Site generation remains separate from this package release.
+
 ## 1.3.10
 
 Published and registry-verified. Changes are relative to authenticated published 1.3.9; historical source fixtures and unresolved qualifications are preserved.

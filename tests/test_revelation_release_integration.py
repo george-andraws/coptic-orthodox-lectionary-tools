@@ -12,9 +12,17 @@ ROOT = Path(__file__).resolve().parents[1]
 @pytest.fixture(scope='module')
 def candidate():
     package = ROOT / 'packages/lectionary-data'
-    assert json.loads((package/'package.json').read_text())['version'] == '1.3.10'
+    version=json.loads((package/'package.json').read_text())['version']
+    assert version in ('1.3.10','1.3.11')
     reverse = [json.loads(line) for line in (package/'data/reverse_lectionary_index.jsonl').read_text().splitlines()]
     daily = json.loads((package/'data/daily/lectionary-2026.json').read_text())
+    if version=='1.3.11':
+        # Authenticate the complete real outer successor before preserving all
+        # historical1.3.10 counts, mutation assertions and contract expectations.
+        import final_site_review_repairs as final
+        import site_review_repairs as site
+        reverse=site.restore_rows(final.restore_rows(reverse))
+        daily={d:site.restore_rows(final.restore_rows(rows,date=d),date=d)for d,rows in daily.items()}
     assert len(reverse) == 12291 and sum(map(len,daily.values())) == 4078
     # These are genuine complete-valid controls through every prior inverse.
     assert len(contract.followup_reverse_view(reverse,version='1.3.10')) > 12000

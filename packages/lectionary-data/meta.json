@@ -1,20 +1,20 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.3.10",
+  "version": "1.3.11",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "5e49467412919e16bf5c7e751da562380d5a1ca7",
+  "source_repo_commit": "a0e47c2f876a90cfa69f41141e6cc9a62eb7cd6c",
   "source_tree_dirty": true,
-  "generated_at": "2026-11-13T05:10:10.760Z",
-  "occasion_index_rows": 12291,
+  "generated_at": "2026-11-14T20:15:10.081Z",
+  "occasion_index_rows": 12299,
   "daily_files": [
     {
       "year": 2026,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4078,
-      "bytes": 8649638,
+      "reading_count": 4104,
+      "bytes": 8862566,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -85,8 +85,8 @@
       "year": 2027,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4068,
-      "bytes": 8807535,
+      "reading_count": 4095,
+      "bytes": 9168485,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -157,8 +157,8 @@
       "year": 2028,
       "rows": 366,
       "date_count": 366,
-      "reading_count": 4086,
-      "bytes": 8649327,
+      "reading_count": 4122,
+      "bytes": 9148082,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -281,7 +281,7 @@
         {
           "date": "2026-04-11",
           "day": "Bright Saturday",
-          "reading_count": 47,
+          "reading_count": 51,
           "pre_review_reading_count": 47
         }
       ],
@@ -325,7 +325,7 @@
         {
           "date": "2027-05-01",
           "day": "Bright Saturday",
-          "reading_count": 47,
+          "reading_count": 51,
           "pre_review_reading_count": 47
         }
       ],
@@ -369,7 +369,7 @@
         {
           "date": "2028-04-15",
           "day": "Bright Saturday",
-          "reading_count": 47,
+          "reading_count": 51,
           "pre_review_reading_count": 47
         }
       ]
@@ -379,9 +379,9 @@
   },
   "projection_rules": {
     "source_rows": 12186,
-    "output_rows": 12291,
-    "active_rows": 7893,
-    "current_rows": 7658,
+    "output_rows": 12299,
+    "active_rows": 7901,
+    "current_rows": 7666,
     "runtime_review": {
       "source": "scripts/apply_review_repairs.py",
       "events": [
@@ -1278,7 +1278,8 @@
         }
       },
       "endpoint_release": "1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels",
-      "pk6_release": "1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy"
+      "pk6_release": "1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy",
+      "site_review_release": "1.3.11 candidate: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion"
     },
     "canonical_occurrence_projection": {
       "policy": "sources/canonical-occurrence-policy.json",
@@ -1295,7 +1296,7 @@
     "lower_priority_passage_variants_suppressed": 478,
     "lower_priority_passage_variants_retained_as_removed": 478,
     "removal_effective_version_baseline": {
-      "source_version": "1.1.6+source-corrections-1.3.10",
+      "source_version": "1.1.6+source-corrections-1.3.11",
       "entry_count": 522,
       "distinct_identity_key_count": 253,
       "duplicate_identity_key_count": 70
@@ -1535,6 +1536,8 @@
       "coptic_date_key": "Optional source-qualified fixed Coptic date in public catalog slug form; never an annual Sunday.",
       "annual_sunday": "Optional annual Sunday month and ordinal, separate from a fixed Coptic date; any-month-5 is a source-table sentinel.",
       "display_label": "Normalized reader-facing occasion terminology alongside retained raw labels.",
+      "edition_psalm_covering_json": "Optional exact-context eBible Brenton covering locus, edition/partial-clause restrictions and semantic qualifications; not a whole-verse equivalence or reading-selection rule. MT source coordinates and lifecycle are unchanged.",
+      "waters_materialization_json": "Optional daily-only fixed-feast materialization context, source ordinal and retained source locator for the complete existing current Theophany/Apostles Waters group; not a new source attestation or status promotion.",
       "pascha_service": "Explicit day or Eve identity, independently qualified by source family and kind.",
       "pascha_civil_date": "Civil date of the qualified Pascha service, including its civil evening.",
       "occurs_in_shipped_years": "Boolean actual-appointment presence in final shipped daily arrays, not universal recurrence or source freshness.",

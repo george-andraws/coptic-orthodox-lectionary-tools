@@ -14,7 +14,7 @@ import sunday_consumer_contracts as contracts
 import mark_followup_repairs as followup
 
 ROOT = Path(__file__).resolve().parents[1]
-CANDIDATE_VERSION = '1.3.10'
+CANDIDATE_VERSION = '1.3.11'
 # Complete Mark predecessor-domain comparison counts, independently checked
 # against the authenticated published 1.3.9 tarball, not successor row counts.
 CONTEXT_SOURCE_COUNTS = {2027: 75, 2028: 64}
@@ -93,7 +93,7 @@ class SundayComparisonTests(unittest.TestCase):
         # An older/missing version must not silently accept the cleaned PK11
         # display as if it were the original Sunday hold/identity projection.
         for version, error in ((None, 'Sunday identity/hold promotion: display_ref'),
-                               ('1.3.9', 'Mark follow-up daily complete-table mismatch: 2027-04-30')):
+                               ('1.3.9', 'Mark follow-up daily complete-table mismatch: 2027-02-23')):
             with self.subTest(version=version):
                 with self.assertRaisesRegex(ValueError, error):
                     self.compare(source, daily, version=version)

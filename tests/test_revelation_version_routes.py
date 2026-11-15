@@ -54,7 +54,7 @@ def test_integrity_counts_public_daily_rows_not_authenticated_inverse_history(mo
     report = integrity.validate_package_integrity(integrity.PACKAGE_DIR)
     assert report['status'] == 'pass', report['failures']
     assert {year: row['reading_count'] for year,row in report['daily_summary'].items()} == {
-        '2026':4078,'2027':4068,'2028':4086}
+        '2026':4104,'2027':4095,'2028':4122}
     original_load = integrity.load_json
     def forged_metadata(path):
         result = original_load(path)

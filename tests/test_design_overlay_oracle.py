@@ -91,7 +91,11 @@ class DesignOverlayOracle(unittest.TestCase):
                     return json.dumps(damaged) if target == path else original_read(target, *args, **kwargs)
                 with self.subTest(date=date, mutation=mutation), patch.object(Path, 'read_text', read_text):
                     with self.assertRaisesRegex(AssertionError, 'does not exactly match'):
-                        validator.verify_rows()
+                        presentation = validator.read_csv(validator.ROOT / 'out/design/reverse_lectionary_presentation.csv')
+                        validator.verify_daily_rows(
+                            presentation,
+                            json.loads((validator.OUT / 'lectionary_schema.json').read_text()),
+                            json.loads((validator.OUT / 'BUILD_DESIGN_SUMMARY.json').read_text()))
 
 
 if __name__ == '__main__':

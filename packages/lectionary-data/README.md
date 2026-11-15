@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.10**.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.11**. Retained-source qualifications and coordinate holds remain explicit; this version does not imply fresh Coptic Reader verification.
 
 ## What this package contains
 
@@ -229,6 +229,19 @@ The undated Covenant Thursday Lakkan Pauline carries a same-service marker based
 
 These fields are additive. The source-owned Python validation adapters live in the source repository, not in the npm artifact. Consumers must preserve the evidence cells and cannot treat a successful JSON decode as source authentication.
 
+## Corrections in 1.3.11
+
+- 160 exact-context current MT-qualified reverse witnesses and 154 daily rows carry corrected **eBible Brenton covering loci**, not exact whole-verse equivalence or universal LXX numbering. `edition_psalm_covering_json` and the matching `source_disclosure[].edition_psalm_covering` retain the edition, semantic differences, partial-clause restrictions and unchanged source coordinates. MT coordinates, identity, source locator, working status and all inactive historical annotations remain unchanged. MT 60:7 covers Brenton 59:9 and only the opening Judah clause of 10; MT 19:4 covers 18:5 and the opening sun clause of 6, while the selected Hatour 9 body omits that sun clause. MT 19:5 uses only the latter bridegroom/runner part of 18:6. These annotations do not appoint the surrounding clauses.
+- Each supported Theophany and Apostles feast date now includes its complete existing 11-row current reverse Waters group in source-table order. Existing ordinary/Sunday services and Covenant Thursday remain unchanged. The 66 added daily rows retain their original working authority/status; `waters_materialization_json` and its matching source disclosure bind date, raw source context and source ordinal. Materialization is not a fresh Reader attestation or a status promotion.
+- Current source-only and numeric source-coordinate Psalm holds remain held. Toba 30's proven wrong-heading/right-body source conflict is not corrected by an unproved recurrence rule. Psalm 147's digital Brenton continuation convention is not generalized to every LXX edition.
+- The three supported first-Lent-Mondays materialize the existing authenticated **working katameros cycle** Liturgy (Romans 1:26-2:7, James 2:1-13, Acts 14:19-28, Psalm 22:26 and Mark 9:33-50); 2027/2028 also use its Matins table. Already-qualified 2026 Reader Matins, all existing Vespers and raw reverse witnesses are preserved. This is not an exact copy of the corroborating UK Midlands pp65-75: its printed Matins Exodus is disjoint **2:23 and 3:1-5**, omitting 2:24-25, while the materialized working cycle/retained Reader include 2:23-25. `final_site_review_json` and matching source disclosures explicitly preserve this qualification and original working authority. No new printed Exodus fragment is added; the dated Reader receipt's `recurrence_approved: false` is unchanged and no new app verification is claimed.
+- Bright Saturday gains retained Matins 1 Corinthians 5:7-13 and a chapter-scoped Exodus 15 First Canticle index. The latter identifies the prescribed canticle within that chapter, not every verse or inferred verse endpoints; its transport type is the existing `source_label_preserved`, with its source canticle role disclosed. Matins places early Ephesians 4:1-5 before Isaiah 55:2-13 and the later Pauline. Psalm 3 preserves selected order **5,3** alongside canonical covering membership; the dated Psalm 82 selection displays once as the existing source-only hold, retaining both provenance envelopes and every reverse witness without new coordinate approval. The two new reverse rows are `bright_saturday_retained_supplement`, at working authority, with literal body-source paths/hashes. The adopted supplement also adds **one Revelation 1–22 chapter-range appointment** with a single span and null verse endpoints, then Distribution's **printed Psalm 68: 1** as a source-only hold followed by **Luke 24:1–12**. Complete raw bodies are hash-authenticated; this does not assert that every Saturday menu context is captured or confer new Reader authority.
+- **Joseph, 2027-08-02 only:** nine appointments replace the former eleven dated rows: six exact existing non-Psalm cycle witnesses and three dated source-only Psalm selections. Actual selected English clauses, printed labels, blank canonical coordinates, all reverse history and the original **1:00 PM** retained context survive. No all-year or 2028 Reader recurrence is asserted.
+- **Amshir 7, 2028-02-15 only:** seventeen existing working-cycle fragments replace eight dated rows. The retained corroborating Reader context is **2024-02-15 at 2:00 PM**, using byte-identical earlier bodies with origin dates and source-probe timestamps preserved. This is not a 2028 Reader capture or exact Reader/printed Psalm-clause equivalence; 2026 Preparation Saturday and 2027 Sunday are unchanged.
+- The independently derived cumulative reverse multiset contains **12,299 rows / 12,174 distinct nine-field keys**, eight additions and no predecessor removals. `site_review_supplement_json`, mirrored disclosures and `source_only_selection_json` retain typed source qualifications; consumers must not infer canonical Psalm coordinates from printed labels. The three collapsed Psalm82 daily records explicitly declare all three provenance envelopes.
+- Holy Week's source-qualified `display_label` already means "Eve of <day>"; raw source keys retain their historical conventions. Consumers should use the presentation label, not infer civil weekdays from raw keys. No universal Eve-key rewrite or Ezekiel coordinate conversion was made.
+- This release does not claim fresh Coptic Reader verification. Site installation, generation and deployment remain separate from the package. Historical contracts and whole-corpus oracles have not been reset.
+
 ## Corrections in 1.3.10
 
 - The Bright Saturday Second Praise of Moses includes Deuteronomy 32:43, as explicitly headed and numbered in the retained Reader source. The former 1–42 witness remains inactive history; the current successor and all three shipped daily occurrences use 1–43.
@@ -249,7 +262,7 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.3.10.
+- Package version: 1.3.11.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.

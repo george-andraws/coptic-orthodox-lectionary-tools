@@ -129,11 +129,16 @@ def current():
     reverse = [json.loads(line) for line in (package / 'data/reverse_lectionary_index.jsonl').read_bytes().splitlines()]
     days = json.loads((package / 'data/daily/lectionary-2026.json').read_bytes())
     daily = {date: days[date] for date in ('2026-02-01', '2026-05-23')}
-    assert len(reverse) == 12291
+    import final_site_review_repairs as final
+    import site_review_repairs as site
+    predecessor_reverse = site.restore_rows(final.restore_rows(reverse))
+    predecessor_daily = {date: site.restore_rows(final.restore_rows(rows, date=date), date=date)
+                         for date, rows in daily.items()}
+    assert len(reverse) == 12299 and len(predecessor_reverse) == 12291
     # Exact outputs pinned before the fix; the new historical branch must not alter them.
-    assert digest(contract.followup_reverse_view(reverse, version='1.3.10')) == '44c836aca2a268034458554d1408bdbb5e4c50b943fab363718b4bb4654f9a98'
-    assert digest(contract.followup_daily_view(daily, version='1.3.10')) == 'bc48244c4bd06aed1e8afc0ae8d62c13eadb1ee3f0dcd0a55e6308abee5d031b'
-    return reverse, daily
+    assert digest(contract.followup_reverse_view(predecessor_reverse, version='1.3.10')) == '44c836aca2a268034458554d1408bdbb5e4c50b943fab363718b4bb4654f9a98'
+    assert digest(contract.followup_daily_view(predecessor_daily, version='1.3.10')) == 'bc48244c4bd06aed1e8afc0ae8d62c13eadb1ee3f0dcd0a55e6308abee5d031b'
+    return predecessor_reverse, predecessor_daily
 
 
 def test_current_complete_reverse_and_daily_outputs_unchanged(current):

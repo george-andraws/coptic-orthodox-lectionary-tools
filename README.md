@@ -8,6 +8,8 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 Read [1.3.10 scope, verification and limitations](docs/LECTIONARY_1_3_10_RELEASE.md), its [portable release receipt](docs/releases/lectionary-data-1.3.10.json), the [changelog](CHANGELOG.md) and [Reader check sheet](coptic-reader-check-sheet.md). Earlier npm artifacts and their source qualifications remain immutable historical evidence; see the [1.3.5 reconciliation](docs/LECTIONARY_1_3_5_RECONCILIATION.md) and earlier release reports.
 
+The working tree also contains an **unpublished 1.3.11 candidate**, with bounded Brenton covering annotations, Theophany/Apostles Waters daily groups, bounded working-cycle first-Lent-Monday materialization with the printed Exodus difference disclosed and retained Bright Saturday supplements/order including chapter-range Revelation and source-only Distribution, plus the bounded Joseph2027 and Amshir2028 proper corrections. Source qualifications, unresolved per-issue holds and release gates are listed in the package README and changelog. The verified published release remains 1.3.10; publication is not implied.
+
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
 - [Broader lectionary validation plan](docs/LECTIONARY_VALIDATION_PLAN.md)

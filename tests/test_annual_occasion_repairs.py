@@ -15,8 +15,17 @@ REVERSE = ROOT / 'packages/lectionary-data/data/reverse_lectionary_index.jsonl'
 
 
 def load_years():
-    return {year: json.loads((DAILY / f'lectionary-{year}.json').read_text())
-            for year in (2026, 2027, 2028)}
+    years={year: json.loads((DAILY / f'lectionary-{year}.json').read_text())
+           for year in (2026, 2027, 2028)}
+    # Retain this historical Reader-only contract unchanged. The separately
+    # source-adopted working-cycle successor has its own literal tests.
+    version=json.loads((ROOT/'packages/lectionary-data/package.json').read_text())['version']
+    if version=='1.3.11':
+        import final_site_review_repairs as final
+        import site_review_repairs as site
+        years={y:{d:site.restore_rows(final.restore_rows(rows,date=d),date=d)
+                  for d,rows in days.items()}for y,days in years.items()}
+    return years
 
 
 def liturgy(rows, slot):

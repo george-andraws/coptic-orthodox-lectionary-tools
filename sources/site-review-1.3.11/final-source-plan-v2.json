@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "version": "1.3.11",
+  "independent_source_plan_review": "PENDING_PARENT_READ_ONLY_QUALIFICATION",
+  "derivation": "Literal retained source bodies + authenticated published predecessor only; candidate not read; no whole-corpus oracle changes",
+  "baseline": {
+    "version": "1.3.10",
+    "reverse_sha256": "3c52deb3f7c97b4dcc0de74bd3d99fde0e8cf8461eadb86afce77ef87969c91c",
+    "archive_sha256": "fdbb681c0c6cc15c255d7af8f36371c9aa1229d9b14b57c023d82f4c4780064e"
+  },
+  "source_files": {
+    "sources/pdfs/UK_Midlands_Katameros_Lent.txt": "831e8b37328aa97d83ae09210fcff16d06923c76bd16d4f8254554ee5e03a9d0",
+    "sources/coptic-reader/bright-composites-qualified-2026-10-25/saturday--matins.txt": "eb373a8c80ae9fcb658c1726c38a1815281a078217a5d61e1bb305b08cedbb7f",
+    "sources/coptic-reader/psalmody-qualified-2026-10-25/bright-saturday-midnight-praises.full.txt": "3c858d0729c37fc420e08fb362967edf59d4316855d92840b9f4b4be4ede2d45"
+  },
+  "tuple_fields": [
+    "identity_key",
+    "source_family",
+    "source_kind",
+    "occasion",
+    "calendar_keys",
+    "service_section",
+    "service_hour",
+    "slot",
+    "canonical_mt_ref"
+  ],
+  "lent": {
+    "dates": [
+      "2026-02-16",
+      "2027-03-08",
+      "2028-02-21"
+    ],
+    "literal_refs_in_order": [
+      "Exod 2:23",
+      "Exod 3:1-5",
+      "Isa 1:2-18",
+      "Ps 6:1-2",
+      "Matt 12:24-34",
+      "Rom 1:26-2:7",
+      "James 2:1-13",
+      "Acts 14:19-28",
+      "Ps 22:26",
+      "Mark 9:33-50"
+    ],
+    "reverse_tuples": [
+      [
+        "rid_0c2b18a9b3ec5d017950",
+        "printed_lent_first_monday",
+        "printed_service_supplement",
+        "Monday of the First Week of Holy Lent (UK Midlands)",
+        "Great Lent | First Monday | Matins",
+        "Matins",
+        "",
+        "OT1",
+        "Exod 2:23"
+      ],
+      [
+        "rid_e3e6cd74db3d8ad86c02",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "prophecy",
+        "",
+        "prophecy",
+        "Exod 3:1-5"
+      ],
+      [
+        "rid_e6af0766ab457676feb2",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "prophecy",
+        "",
+        "prophecy",
+        "Isa 1:2-18"
+      ],
+      [
+        "rid_7727752ced614b97f28b",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "matins_psalm",
+        "",
+        "matins_psalm",
+        "Ps 6:1-2"
+      ],
+      [
+        "rid_8bd8c1d0b59b3e302f06",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "matins_gospel",
+        "",
+        "matins_gospel",
+        "Matt 12:24-34"
+      ],
+      [
+        "rid_7338e6d521d875a3dfb7",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "liturgy_pauline",
+        "",
+        "liturgy_pauline",
+        "Rom 1:26-2:7"
+      ],
+      [
+        "rid_7ac496e1325e1ac03469",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "liturgy_catholic",
+        "",
+        "liturgy_catholic",
+        "James 2:1-13"
+      ],
+      [
+        "rid_c1041e2b48345a637602",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "liturgy_acts",
+        "",
+        "liturgy_acts",
+        "Acts 14:19-28"
+      ],
+      [
+        "rid_e8506a36717e82f0ba9d",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "liturgy_psalm",
+        "",
+        "liturgy_psalm",
+        "Ps 22:26"
+      ],
+      [
+        "rid_1ccbfc8d0b2d76292955",
+        "katameros_cycle",
+        "katameros_cycle",
+        "Great Lent/Jonah/Nineveh cycle",
+        "week 1 day_of_week 1",
+        "liturgy_gospel",
+        "",
+        "liturgy_gospel",
+        "Mark 9:33-50"
+      ]
+    ],
+    "preserve_existing_2026_matins": true,
+    "replace_only": [
+      "2026 Liturgy",
+      "2027 Matins and Liturgy",
+      "2028 Matins and Liturgy"
+    ],
+    "preserve_vespers": true,
+    "printed_pages": "UK Midlands printed pp65-75, PDF pp87-97",
+    "recurrence_basis": "Printed first-Monday heading, not dated Reader recurrence; working tier unchanged",
+    "reverse_membership_delta": 1,
+    "printed_exodus_fragment": {
+      "reference": "Exod 2:23",
+      "identity_key": "rid_0c2b18a9b3ec5d017950",
+      "source_family": "printed_lent_first_monday",
+      "source_kind": "printed_service_supplement",
+      "occasion": "Monday of the First Week of Holy Lent (UK Midlands)",
+      "calendar_keys": "Great Lent | First Monday | Matins",
+      "service": "Matins",
+      "slot": "OT1",
+      "slot_type": "prophecy",
+      "body_source": "sources/pdfs/UK_Midlands_Katameros_Lent.txt",
+      "printed_page": 65,
+      "heading": "EXODUS 2:23 & 3:1-5",
+      "qualification": "Printed body omits Exodus 2:24-25. Preserve the broader 2026 dated Reader and cycle witness without pretending this printed edition reads those verses.",
+      "literal_tuple": [
+        "rid_0c2b18a9b3ec5d017950",
+        "printed_lent_first_monday",
+        "printed_service_supplement",
+        "Monday of the First Week of Holy Lent (UK Midlands)",
+        "Great Lent | First Monday | Matins",
+        "Matins",
+        "",
+        "OT1",
+        "Exod 2:23"
+      ]
+    },
+    "printed_vs_retained_reader_difference": "Printed body omits Exodus 2:24-25. Preserve the broader 2026 dated Reader and cycle witness without pretending this printed edition reads those verses."
+  },
+  "bright": {
+    "dates": [
+      "2026-04-11",
+      "2027-05-01",
+      "2028-04-15"
+    ],
+    "additions": [
+      {
+        "reference": "1Cor 5:7-13",
+        "occasion": "MATINS / RAISING OF INCENSE",
+        "service": "Matins",
+        "slot": "Pauline Epistle",
+        "slot_type": "pauline",
+        "body_source": "sources/coptic-reader/bright-composites-qualified-2026-10-25/saturday--matins.txt",
+        "heading_line": 1517,
+        "last_verse_line": 1541,
+        "after_ref": "Isa 55:2-13",
+        "before_ref": "Ps 88:4-5",
+        "identity_key": "rid_478db395925729f55153",
+        "source_family": "bright_saturday",
+        "source_kind": "bright_saturday_retained_supplement",
+        "calendar_keys": "Bright Saturday | Matins",
+        "literal_tuple": [
+          "rid_478db395925729f55153",
+          "bright_saturday",
+          "bright_saturday_retained_supplement",
+          "MATINS / RAISING OF INCENSE",
+          "Bright Saturday | Matins",
+          "Matins",
+          "",
+          "Pauline Epistle",
+          "1Cor 5:7-13"
+        ]
+      },
+      {
+        "reference": "Exod 15",
+        "occasion": "MIDNIGHT PRAISES",
+        "service": "Midnight Praises",
+        "slot": "First Canticle",
+        "slot_type": "canticle",
+        "body_source": "sources/coptic-reader/psalmody-qualified-2026-10-25/bright-saturday-midnight-praises.full.txt",
+        "heading_line": 88,
+        "chapter_only": true,
+        "scope": "Prescribed First Canticle within Exodus 15; chapter-scope index only, NOT a whole-chapter or inferred verse-endpoint claim",
+        "after_ref": "Psalm151",
+        "before_ref": "Deut 32:1-43",
+        "identity_key": "rid_fdb9fb9937f0804174b4",
+        "source_family": "bright_saturday",
+        "source_kind": "bright_saturday_retained_supplement",
+        "calendar_keys": "Bright Saturday | Midnight Praises",
+        "literal_tuple": [
+          "rid_fdb9fb9937f0804174b4",
+          "bright_saturday",
+          "bright_saturday_retained_supplement",
+          "MIDNIGHT PRAISES",
+          "Bright Saturday | Midnight Praises",
+          "Midnight Praises",
+          "",
+          "First Canticle",
+          "Exod 15"
+        ]
+      }
+    ],
+    "reverse_membership_delta": 2,
+    "daily_added_rows": 6,
+    "matins_order": [
+      "Eph 4:1-5",
+      "Isa 55:2-13",
+      "1Cor 5:7-13",
+      "Ps 88:4-5",
+      "held Ps 44:23,26",
+      "held Ps 126:2-3",
+      "Matt 27:62-66"
+    ],
+    "preserve_every_other_selection": true
+  },
+  "holds": {
+    "Bright Revelation1-22 and Distribution Luke24:1-12": "Complete capture metadata/heading tables retained, but full raw bodies absent in canonical and source audit trees; no new endpoint/appointment creation from receipts alone",
+    "Ezekiel37 Bright Saturday": "No support in full Midnight Praises or Saturday capture tables; General Funeral must not be transplanted",
+    "Holy Week Eve keys": "Predecessor already has qualified display_label Eve of <day>; preserve raw keys and labels, test current transport rather than redundant normalization"
+  },
+  "predecessor_fixture_sha256": "4a14584442ceb9a6a740094be40557aefbf5d68c5914a85ddb105b179988f842",
+  "supersedes_plan_sha256": "b146c070546861bf0639a775cc9426a920ade831973b4d74d03a5c1a0f157d8f"
+}

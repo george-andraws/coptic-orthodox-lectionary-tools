@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.10';
+const VERSION = '1.3.11';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -1541,6 +1541,8 @@ function metaJson(sourceRepoCommit, sourceTreeDirty, occasionIndexRows, dailyFil
         coptic_date_key: 'Optional source-qualified fixed Coptic date in public catalog slug form; never an annual Sunday.',
         annual_sunday: 'Optional annual Sunday month and ordinal, separate from a fixed Coptic date; any-month-5 is a source-table sentinel.',
         display_label: 'Normalized reader-facing occasion terminology alongside retained raw labels.',
+        edition_psalm_covering_json: 'Optional exact-context eBible Brenton covering locus, edition/partial-clause restrictions and semantic qualifications; not a whole-verse equivalence or reading-selection rule. MT source coordinates and lifecycle are unchanged.',
+        waters_materialization_json: 'Optional daily-only fixed-feast materialization context, source ordinal and retained source locator for the complete existing current Theophany/Apostles Waters group; not a new source attestation or status promotion.',
         pascha_service: 'Explicit day or Eve identity, independently qualified by source family and kind.',
         pascha_civil_date: 'Civil date of the qualified Pascha service, including its civil evening.',
         occurs_in_shipped_years: 'Boolean actual-appointment presence in final shipped daily arrays, not universal recurrence or source freshness.',
@@ -1596,7 +1598,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.3.10', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
@@ -1619,7 +1621,9 @@ async function main() {
   const compositeEvents = occurrenceProjection.events.filter(event => event.id === 'LK5');
   if (occurrenceProjection.rows.length !== occasionIndexRows - compositeEvents.length) throw new Error('Unexplained follow-up reverse membership change.');
   const releaseProjection = applyReviewRepairs('release', { rows: occurrenceProjection.rows, daily_by_year: dailyByYear });
-  if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 1) throw new Error('Unexplained PK2 successor membership change.');
+  // One pre-existing PK2 successor plus exactly EIGHT independently adopted
+  // Bright/Joseph additions. Python authenticates the complete reviewed multiset.
+  if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 9) throw new Error('Unexplained PK2/site-review successor membership change.');
   for (const year of SHIPPED_YEARS) {
     const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
     await writeFile(destination, `${JSON.stringify(releaseProjection.daily_by_year[year], null, 2)}\n`, 'utf8');
@@ -1637,6 +1641,7 @@ async function main() {
   projectionRules.runtime_review.evidence_counts = occurrenceProjection.evidence_counts;
   projectionRules.runtime_review.endpoint_release = '1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels';
   projectionRules.runtime_review.pk6_release = '1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy';
+  projectionRules.runtime_review.site_review_release = '1.3.11 candidate: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion';
   await writeFile(OCCASION_DEST, `${releaseProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);

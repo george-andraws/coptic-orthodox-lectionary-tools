@@ -1,0 +1,10 @@
+# Source inputs for the unpublished 1.3.11 candidate
+
+- `manifest.json`, `published-1.3.10-targets.json.gz`, Bible witnesses and the proposed annotation plan bind the original bounded Psalm/Waters layer. They are not a fresh Reader census.
+- `adopted-source-plan.json` and `adopted-predecessor.json.gz` bind the first approved late layer: the existing working-cycle Lent proper, two Bright additions, selected Psalm order/display collapse and seven exact daily annotation joins.
+- `final-source-plan.json`, `final-source-plan-v2.json` and `final-predecessor.json.gz` are retained superseded proposals. In particular the printed-only Exodus fragment proposal is NOT the active runtime policy and is not an approved added key.
+- `approved-successor-context-keyset.json.gz` remains the immutable earlier-stage multiset (12,293 rows). It is not the cumulative successor oracle.
+- `supplement/inputs.json` binds exact compressed copies of the separately adopted source supplement, independent complete selectors/keyset, source bodies, source-review artifacts and adoption evidence. `supplement/bodies/<raw-sha256>.gz` is a content-addressed, lossless portable copy: runtime authenticates both the compressed member and its decompressed original hash/size. Literal original paths in retained artifacts remain provenance, not runtime filesystem dependencies.
+- The cumulative independently derived keyset in the supplement authorizes 12,299 rows / 12,174 distinct nine-field keys: eight additions and zero predecessor removals. It was not derived from generated candidate output. Source adoption does not confer implementation, consumer, full-suite, packed-artifact or release acceptance.
+
+The late source-owned constructor/inverse is `final_site_review_repairs.py`. No global passage parser change is used for the single Revelation 1–22 chapter-range span. Four new Psalm selections intentionally retain blank canonical coordinates and require a separately qualified consumer adapter; do not invent numeric spans to satisfy an older consumer.
