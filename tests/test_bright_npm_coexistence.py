@@ -58,7 +58,7 @@ def payload():
 
 
 def test_real_bright_csv_design_npm_coexistence():
-    result = subprocess.run(['node', str(ROOT / 'tests/npm_bright_composite_coexistence.test.cjs'), '--pipeline'],
+    result = subprocess.run(['node', str(ROOT / 'tests/helpers/bright_composite_pipeline.cjs')],
         input=json.dumps(payload()), text=True, capture_output=True)
     assert result.returncode == 0, result.stdout + result.stderr
 

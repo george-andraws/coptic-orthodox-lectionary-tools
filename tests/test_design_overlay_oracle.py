@@ -2,6 +2,7 @@
 import copy
 import json
 from pathlib import Path
+from design_validation_fixture import validate_design_baseline, verify_daily_artifacts
 import unittest
 from unittest.mock import patch
 
@@ -56,7 +57,7 @@ class DesignOverlayOracle(unittest.TestCase):
         self.assertEqual(orders[('2026-04-07', 'Tuesday', 'First Hour', 'First Hour', 'OT2', 'Job 23:2-24:25')], 2)
 
     def test_validator_accepts_baseline_then_rejects_missing_or_wrong_source_context(self):
-        validator.verify_rows()
+        validate_design_baseline()
         original = validator.read_csv
         rows = original(CURRENT)
         position = next(i for i, r in enumerate(rows) if r['gregorian_date'] == '2026-04-07' and r['source_slot'] == 'OT2' and r['service_section'] == 'First Hour')
@@ -71,10 +72,10 @@ class DesignOverlayOracle(unittest.TestCase):
             else: damaged[position][field] = value
             with self.subTest(field=field), patch.object(validator, 'read_csv', side_effect=lambda path: damaged if path == CURRENT else original(path)):
                 with self.assertRaises(AssertionError):
-                    validator.verify_rows()
+                    verify_daily_artifacts()
 
     def test_exact_equality_rejects_duplicate_wrong_hour_and_order_on_all_overlay_dates(self):
-        validator.verify_rows()
+        validate_design_baseline()
         original_read = Path.read_text
         for date in ('2026-04-07', '2031-04-07', '2034-04-07'):
             path = ROOT / f'out/design/daily/lectionary-{date[:4]}.json'
@@ -91,11 +92,7 @@ class DesignOverlayOracle(unittest.TestCase):
                     return json.dumps(damaged) if target == path else original_read(target, *args, **kwargs)
                 with self.subTest(date=date, mutation=mutation), patch.object(Path, 'read_text', read_text):
                     with self.assertRaisesRegex(AssertionError, 'does not exactly match'):
-                        presentation = validator.read_csv(validator.ROOT / 'out/design/reverse_lectionary_presentation.csv')
-                        validator.verify_daily_rows(
-                            presentation,
-                            json.loads((validator.OUT / 'lectionary_schema.json').read_text()),
-                            json.loads((validator.OUT / 'BUILD_DESIGN_SUMMARY.json').read_text()))
+                        verify_daily_artifacts()
 
 
 if __name__ == '__main__':

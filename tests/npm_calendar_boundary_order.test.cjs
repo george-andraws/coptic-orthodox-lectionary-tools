@@ -27,10 +27,11 @@ function oracle() {
   return source.readings;
 }
 
-function verify(body) {
-  const expected = oracle();
-  const design = JSON.parse(fs.readFileSync(path.join(root, 'out/design/daily/lectionary-2028.json')))[date];
-  const rows = JSON.parse(body)[date];
+const expected = oracle();
+const design = JSON.parse(fs.readFileSync(path.join(root, 'out/design/daily/lectionary-2028.json')))[date];
+const originalRows = JSON.parse(fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json')))[date];
+
+function verify(rows) {
   const tuple = r => [r.service_section, r.slot, r.display_ref.replace(/ \(LXX .*\)$/, '')];
   const sourceTuple = r => [r.service_section, r.source_slot, r.normalized_ref];
   assert.deepEqual(design.map(tuple), expected.map(sourceTuple), 'design must match the complete authenticated table');
@@ -59,35 +60,56 @@ function verify(body) {
 }
 
 test('npm Last-Friday/Annunciation daily retains complete authenticated table and metadata', () => {
-  verify(fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json')));
+  verify(originalRows);
 });
 
 test('boundary oracle rejects unknown fields, calendar drift, original-metadata loss and reordered appointments', () => {
-  const body = fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json'));
-  verify(body);
+  verify(originalRows);
   for (const mutate of [
     rows => { rows[0].unapproved_field = true; },
     rows => { rows[0].calendar_review_source_locators = ['forged']; },
     rows => { delete rows[0].source_disclosure; },
     rows => { [rows[0], rows[1]] = [rows[1], rows[0]]; },
   ]) {
-    const candidate = JSON.parse(body);
-    mutate(candidate[date]);
-    assert.throws(() => verify(JSON.stringify(candidate)), {code: 'ERR_ASSERTION'});
+    const candidate = structuredClone(originalRows);
+    mutate(candidate);
+    assert.throws(() => verify(candidate), {code: 'ERR_ASSERTION'});
   }
 });
 
-test('actual npm tarball retains complete Last-Friday/Annunciation table and metadata', () => {
+test('actual npm tarball has exactly the public files, identical bytes and a working relocated API', () => {
   const destination = fs.mkdtempSync(path.join(os.tmpdir(), 'lectionary-boundary-pack-'));
   try {
-    const packed = JSON.parse(execFileSync('npm', ['pack', '--json', '--pack-destination', destination], {
-      cwd: packageRoot, encoding: 'utf8',
-    }));
+    const packed = JSON.parse(execFileSync('npm', [
+      'pack', '--json', '--ignore-scripts', '--offline', '--cache', path.join(destination, 'npm-cache'),
+      '--pack-destination', destination,
+    ], { cwd: packageRoot, encoding: 'utf8', timeout: 60000 }));
     assert.equal(packed.length, 1);
     const tarball = path.join(destination, packed[0].filename);
-    const member = execFileSync('tar', ['-xOf', tarball, 'package/data/daily/lectionary-2028.json'], { maxBuffer: 32 * 1024 * 1024 });
-    assert.deepEqual(member, fs.readFileSync(path.join(packageRoot, 'data/daily/lectionary-2028.json')));
-    verify(member);
+    const expectedFiles = [
+      'LICENSE', 'README.md', 'calendar.js', 'index.js', 'meta.json', 'package.json',
+      'data/reverse_lectionary_index.jsonl', 'data/synaxarium/synaxarium.json',
+      ...require(packageRoot).shippedYears.map(year => `data/daily/lectionary-${year}.json`),
+    ].sort();
+    const members = execFileSync('tar', ['-tzf', tarball], { encoding: 'utf8' }).trim().split('\n')
+      .filter(name => !name.endsWith('/'));
+    assert.deepEqual(members.sort(), expectedFiles.map(file => `package/${file}`).sort());
+    execFileSync('tar', ['-xzf', tarball, '-C', destination]);
+    const extracted = path.join(destination, 'package');
+    for (const file of expectedFiles) {
+      const original = fs.readFileSync(path.join(packageRoot, file));
+      const actual = fs.readFileSync(path.join(extracted, file));
+      assert.equal(actual.length, original.length, `${file}: byte length`);
+      assert.equal(digest(actual), digest(original), `${file}: SHA-256`);
+    }
+    verify(JSON.parse(fs.readFileSync(path.join(extracted, 'data/daily/lectionary-2028.json')))[date]);
+    // Run outside the checkout so relative imports or paths cannot mask a broken archive.
+    execFileSync(process.execPath, ['--test', '--test-concurrency=1',
+      path.join(root, 'tests/synaxarium.test.cjs'), path.join(root, 'tests/npm_runtime_contract.test.cjs'),
+    ], {
+      cwd: destination, env: { ...process.env, LECTIONARY_PACKAGE_UNDER_TEST: extracted },
+      stdio: 'pipe', timeout: 60000,
+    });
   } finally {
     fs.rmSync(destination, { recursive: true, force: true });
   }

@@ -109,11 +109,8 @@ class AnnualOccasionRepairs(unittest.TestCase):
         self.assertEqual(current, [])
 
     def test_reader_correction_does_not_rewrite_archived_composite_witness(self):
-        try:
-            from scripts.apply_review_repairs import _preserve_archived_witnesses
-            import composite_followup_repairs as composite
-        except ModuleNotFoundError as exc:
-            self.skipTest(str(exc))
+        from scripts.apply_review_repairs import _preserve_archived_witnesses
+        import composite_followup_repairs as composite
         groups = composite._witness_groups()
         pair = next(group for group in groups if any(row.get('occasion') == 'Babah 27' and row.get('display_ref') == 'Matt 5:1-16' for row in group))
         before = json.dumps(pair, sort_keys=True)
@@ -122,10 +119,7 @@ class AnnualOccasionRepairs(unittest.TestCase):
         composite.merge_remaining_composites(projected)
 
     def test_weekday_repair_does_not_clear_authenticated_sunday_occurrence(self):
-        try:
-            from scripts.apply_review_repairs import _keep_authenticated_occurrence
-        except ModuleNotFoundError as exc:
-            self.skipTest(str(exc))
+        from scripts.apply_review_repairs import _keep_authenticated_occurrence
         row = None
         with REVERSE.open() as handle:
             for line in handle:

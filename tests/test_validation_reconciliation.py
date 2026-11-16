@@ -7,6 +7,7 @@ qualified-date oracle, not optional fields in a reverse-identity contract.
 import copy
 import json
 from pathlib import Path
+from design_validation_fixture import design_inputs, validate_design_baseline
 import unittest
 from unittest.mock import patch
 
@@ -18,9 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 class ValidationReconciliation(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.presentation = validator.read_csv(ROOT / 'out/design/reverse_lectionary_presentation.csv')
-        cls.schema = json.loads((ROOT / 'out/design/lectionary_schema.json').read_text())
-        cls.summary = json.loads((ROOT / 'out/design/BUILD_DESIGN_SUMMARY.json').read_text())
+        cls.presentation, cls.schema, cls.summary = design_inputs()
 
     def verify(self, rows=None):
         validator.verify_daily_rows(self.presentation if rows is None else rows, self.schema, self.summary)
@@ -58,7 +57,7 @@ class ValidationReconciliation(unittest.TestCase):
                           r['slot'], r['canonical_mt_ref'], r['current_status']) for r in retained},
                          {('holy_pascha_curated_day_hour', 'pascha_day_hour', 'Good Friday',
                            'Twelfth Hour', 'OT2', 'Jonah 1:10-2:8', 'historical_candidate_removed')})
-        validator.verify_rows()
+        validate_design_baseline()
 
     def test_joel_lxx_display_seam_preserves_mt_supplement_oracle(self):
         row = next(r for r in self.presentation if r['gregorian_date'] == '2023-03-15'

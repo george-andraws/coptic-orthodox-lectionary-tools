@@ -16,7 +16,7 @@ assert.equal(createHash('sha256').update(policyBytes).digest('hex'), 'a3617c0016
 const policy = JSON.parse(policyBytes);
 assert.equal(policy.projection_input_sha256, '693afa1d6cfa0484a03e202148e896adea33f84d1e38d448466f4333bddb26d9');
 assert.equal(policy.projection_output_sha256, '9e438d08ede32f5d92cd3724944571910b81ce38e6a60641e04967902e05144a');
-const helpers = vm.runInNewContext(source.slice(source.indexOf('function dateToIso('), source.indexOf('async function main()')) + '\n({ project: typeof canonicalizeOccurrences === "function" ? canonicalizeOccurrences : rows => ({ rows }), normalizeContextText, isCurrentReading });', { createHash });
+const helpers = vm.runInNewContext(source.slice(source.indexOf('function dateToIso('), source.indexOf('async function main()')) + '\n({ project: typeof canonicalizeOccurrences === "function" ? canonicalizeOccurrences : rows => ({ rows }), normalizeContextText, isCurrentReading, retainCanonicalSupersession });', { createHash });
 const bytes = fs.readFileSync(path.join(root, 'tests/fixtures/canonical-occurrences-input-1.3.2.jsonl.gz'));
 assert.equal(createHash('sha256').update(bytes).digest('hex'), '1b9dce4a4d9fbb623f19adac7ff72443fb7fe129da6830304d2a51542c9f2587');
 const before = gunzipSync(bytes).toString('utf8').trim().split('\n').map(JSON.parse);
@@ -110,5 +110,46 @@ test('current package isCurrentReading remains compatible with historical and pa
   for (const predicate of [api.isCurrentReading, helpers.isCurrentReading]) {
     for (const [row, expected] of controls) assert.equal(predicate(row), expected, JSON.stringify(row));
     assert.throws(() => predicate({current_status:'unknown_explicit_status'}), /Unknown explicit reading status/);
+  }
+});
+
+const plain = value => JSON.parse(JSON.stringify(value));
+
+// The historical oracle fixes every byte. The new fixture changes precisely one
+// explicit retirement epoch, never derives expected versions from VERSION.
+const changedPolicy = value => ({...policy, supersessions: policy.supersessions.map((r, i) => i === 0 ? {...r, removal_effective_version: value} : r)});
+const row = {identity_key: 'old', source_locator: 'original', provenance: '{"held":true}'};
+const preferred = {identity_key: 'new', source_family: 'qualified', source_kind: 'dated', source_locator: 'retained', display_ref: 'source'};
+
+test('omitted retirement epoch remains 1.3.3 with every historical output byte unchanged', () => {
+  assert.equal(helpers.retainCanonicalSupersession(row, preferred, 'context', 'reason').removal_effective_version, '1.3.3');
+  assert.equal(hash(rows), policy.projection_output_sha256);
+  assert.equal(hash(helpers.project(rows, policy).rows), policy.projection_output_sha256);
+});
+
+test('explicit 1.3.6 epoch changes only the new retirement version', () => {
+  const old = plain(helpers.retainCanonicalSupersession(row, preferred, 'context', 'reason'));
+  assert.deepEqual(plain(helpers.retainCanonicalSupersession(row, preferred, 'context', 'reason', '1.3.6')), {...old, removal_effective_version: '1.3.6'});
+});
+
+test('rule epoch crosses excludeContext into the retired row without changing legacy retirements or sentinels', () => {
+  const expected = plain(rows);
+  const selected = expected.filter(r => r.identity_key === 'rid_08986158a59ce1cfbbda' && r.removal_context_key === 'Tut 1');
+  assert.equal(selected.length, 1);
+  assert.equal(selected[0].removal_effective_version, '1.3.3');
+  selected[0].removal_effective_version = '1.3.6';
+  const newPolicy = {...changedPolicy('1.3.6'), projection_output_sha256: hash(expected)};
+  const result = helpers.project(before, newPolicy).rows;
+  assert.equal(hash(result), hash(expected));
+  assert.deepEqual(plain(result), expected);
+  assert.equal(hash(helpers.project(result, newPolicy).rows), hash(expected));
+  assert.equal(hash(before), policy.projection_input_sha256, 'inputs are never mutated');
+});
+
+test('provided malformed versions fail closed even on idempotent replay', () => {
+  for (const value of ['', null, undefined, true, 136, '1.3', 'v1.3.6', '1.3.06', ' 1.3.6', '1.3.6 ', '1.3.6\n', '1.3.6-beta', '1.3.6+build', '1.3.6.0', '9007199254740992.3.6']) {
+    assert.throws(() => helpers.project(before, changedPolicy(value)), /Invalid canonical removal effective version/, String(value));
+    assert.throws(() => helpers.project(rows, changedPolicy(value)), /Invalid canonical removal effective version/, `replay ${value}`);
+    if (value !== undefined) assert.throws(() => helpers.retainCanonicalSupersession(row, preferred, 'context', 'reason', value), /Invalid canonical removal effective version/);
   }
 });

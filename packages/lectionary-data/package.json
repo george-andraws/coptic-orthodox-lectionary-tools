@@ -21,7 +21,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "test": "node --test ../../tests/synaxarium.test.cjs",
+    "test": "npm --prefix ../.. run test:node",
     "synaxarium:validate": "python3 ../../scripts/validate_synaxarium.py",
     "lectionary:validate": "python3 ../../scripts/verify_package_integrity.py"
   }

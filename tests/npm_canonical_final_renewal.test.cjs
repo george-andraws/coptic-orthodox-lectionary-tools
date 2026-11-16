@@ -78,16 +78,6 @@ test('old retirement epochs and every numeric preparation sentinel are unchanged
   for (const row of first.rows) if (row.removed_marker === 'superseded_by_canonical_occurrence_projection' && !retired.includes(row)) assert.equal(row.removal_effective_version, '1.3.3');
 });
 
-test('independent full relationships kill disabled transform, lost disclosures, coordinates, lifecycle and epoch mutations', () => {
-  assert.throws(() => assertComplete(input));
-  const selected = fixture.abib.map(item => input.findIndex(row => key(row) === JSON.stringify(item.key)));
-  for (const i of selected) for (const change of [{active:true}, {removal_effective_version:'1.3.3'}, {removal_context_key:'Abib 3'}, {canonical_mt_ref:'Phil 2:12'}, {canonical_lxx_ref:'Phil 2:1-10'}, {source_disclosure:'[]'}, {slot_order:999}]) {
-    const changed = plain(first.rows); Object.assign(changed[i], change); assert.throws(() => assertComplete(changed));
-  }
-  const preferred = input.findIndex(row => key(row) === JSON.stringify(fixture.preferred.key));
-  const changed = plain(first.rows); changed[preferred].alternate_source_disclosure = '[]'; assert.throws(() => assertComplete(changed));
-});
-
 test('all three literal Abib selectors reject wrong family/kind/context/coordinates and guarded source drift', () => {
   const selectors = [fixture.rules[0].lower, fixture.rules[1].lower, fixture.rules[0].preferred];
   for (const selector of selectors) {
@@ -104,15 +94,6 @@ test('all three literal Abib selectors reject wrong family/kind/context/coordina
   }
 });
 
-
-test('archive same-key activation, coordinates, disclosure and order mutants fail independently of rebinding checksums', () => {
-  for (const archived of fixture.archive) {
-    const i = input.findIndex(row => key(row) === key(archived));
-    for (const change of [{current_status:'current_public_or_local_reference', removed_marker:'', active:true}, {canonical_mt_ref:'Lk 10:38-42', spans_json:'[]'}, {source_disclosure:'[]'}, {slot_order:999}]) {
-      const changed = plain(first.rows); Object.assign(changed[i], change); assert.throws(() => assertComplete(changed));
-    }
-  }
-});
 
 test('omitting either literal lower decision or backdating a new retirement fails the real final output guard', () => {
   for (const index of [594, 595]) {

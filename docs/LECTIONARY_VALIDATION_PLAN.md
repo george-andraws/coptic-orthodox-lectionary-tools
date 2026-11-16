@@ -44,9 +44,8 @@ Rules:
 Run from repo root. The full list covers research/design rebuilds as well as the npm package. For a Synaxarium-only change, follow the narrower current release guide rather than rerunning unrelated research generators:
 
 ```bash
-# Use an existing environment with these dependencies, or this isolated uv environment:
-uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate --with pytest python -m pytest tests
-node --test tests/*.test.cjs tests/test_authoritative_release.js tests/test_npm_package_corrections.js
+# Complete Python and Node inventories in the pinned test environment:
+npm test
 python3 scripts/validate_synaxarium.py
 python3 -m py_compile \
   scripts/verify_calendar_coverage.py \

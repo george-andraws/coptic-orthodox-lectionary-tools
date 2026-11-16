@@ -2,8 +2,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
-const test = require('node:test');
-const root = path.resolve(__dirname, '..');
+const root = path.resolve(__dirname, '../..');
 const text = fs.readFileSync(path.join(root, 'scripts/build_npm_package.mjs'), 'utf8');
 const api = vm.runInNewContext(text.slice(text.indexOf('function dateToIso('), text.indexOf('async function main()')) + '\n({dailyRowFromReverse,sortDailyReadings,addMissingStructuralDailyRows});');
 const plain = x => JSON.parse(JSON.stringify(x));
@@ -70,5 +69,4 @@ function pipeline(input) {
     assert.deepEqual(plain(structural[date]),beforeStructural,'idempotent structural replay');
   }
 }
-if (process.argv.includes('--pipeline')) pipeline(JSON.parse(fs.readFileSync(0,'utf8')));
-else test('Bright real pipeline is invoked by Python integration', () => assert.equal(typeof api.addMissingStructuralDailyRows,'function'));
+pipeline(JSON.parse(fs.readFileSync(0, 'utf8')));

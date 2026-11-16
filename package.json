@@ -1,0 +1,12 @@
+{
+  "name": "coptic-orthodox-lectionary-tools",
+  "private": true,
+  "scripts": {
+    "test": "npm run test:python && npm run test:node",
+    "test:python": "uv run --python 3.11 --with-requirements requirements-test.txt python -m pytest -n 2 --dist=loadfile",
+    "test:node": "uv run --python 3.11 --with-requirements requirements-test.txt node --test --test-concurrency=2 tests/*.test.cjs tests/test_*.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

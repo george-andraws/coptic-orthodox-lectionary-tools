@@ -7,6 +7,7 @@ import sys
 import hashlib
 import json
 from pathlib import Path
+from design_validation_fixture import validate_design_baseline, verify_daily_artifacts
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -285,11 +286,9 @@ class LentMatinsProphecies(unittest.TestCase):
         self.assertEqual([r['slot'] for r in daily[4:]], ['Psalm', 'Gospel'])
 
     def test_design_validator_accepts_source_verified_daily_artifacts(self):
-        import verify_design_deliverables as validator
-        validator.verify_rows()
+        validate_design_baseline()
 
     def test_design_validator_rejects_missing_reordered_and_truncated_prophecies(self):
-        import verify_design_deliverables as validator
         path = ROOT / 'out/design/daily/lectionary-2026.json'
         original_text = Path.read_text
         content = json.loads(path.read_text())
@@ -309,7 +308,7 @@ class LentMatinsProphecies(unittest.TestCase):
                     return original_text(target, *args, **kwargs)
                 with patch.object(Path, 'read_text', read_text):
                     with self.assertRaisesRegex(AssertionError, 'lectionary-2026.json does not exactly match'):
-                        validator.verify_rows()
+                        verify_daily_artifacts()
 
 
 if __name__ == '__main__':

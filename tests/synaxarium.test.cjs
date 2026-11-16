@@ -2,12 +2,14 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const { execFileSync } = require('node:child_process');
-const pkg = require('../packages/lectionary-data');
+const path = require('node:path');
+const packageRoot = process.env.LECTIONARY_PACKAGE_UNDER_TEST || path.resolve(__dirname, '../packages/lectionary-data');
+const pkg = require(packageRoot);
 
 test('calendar is UTC-stable at Coptic new year and leap day', () => {
   for (const tz of ['UTC', 'America/Los_Angeles', 'Pacific/Kiritimati']) {
-    const script = `const p=require('./packages/lectionary-data'); console.log(JSON.stringify([p.gregorianToCoptic(2026,9,11),p.gregorianToCoptic(2027,9,11),p.gregorianToCoptic(2027,9,12)]));`;
-    const actual = JSON.parse(execFileSync(process.execPath, ['-e', script], { cwd: require('node:path').resolve(__dirname, '..'), env: { ...process.env, TZ: tz } }));
+    const script = `const p=require(process.argv[1]); console.log(JSON.stringify([p.gregorianToCoptic(2026,9,11),p.gregorianToCoptic(2027,9,11),p.gregorianToCoptic(2027,9,12)]));`;
+    const actual = JSON.parse(execFileSync(process.execPath, ['-e', script, packageRoot], { env: { ...process.env, TZ: tz } }));
     assert.deepEqual(actual, [
       { year: 1743, monthSlug: 'tout', day: 1 },
       { year: 1743, monthSlug: 'nasie', day: 6 },

@@ -26,6 +26,13 @@ uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate \
 
 For future releases, freeze source writers, prefer a clean source checkout, run the full Python and declared Node inventories with the dependency environment on subprocess PATH, validate the exact packed archive and compare registry bytes after authorized publication. The 1.3.11 archive records clean source at `ec7d4f1`; its metadata commit does not change reading bytes. The 1.3.10 receipt still records that release's dirty source truthfully. Consumer upgrades require separate authorization and real parser/validator checks for both source-only empty coordinates and numeric coordinate holds. The 1.3.10 site upgrade completed those checks; the 1.3.11 site generation and tests remain outstanding.
 
+## Tests
+
+Run `npm test` from the repository root for the complete Python and Node suites.
+It uses Python 3.11 with pinned test dependencies through uv and runs Node files
+with bounded concurrency. See [testing and coverage](docs/TESTING.md) for focused
+commands, the test review, research sources and the historical-baseline exception.
+
 ## Research-layer build
 
 Run from this directory:

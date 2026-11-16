@@ -47,9 +47,6 @@ function pipeline(input) {
 if (process.argv.includes('--pipeline')) {
   pipeline(JSON.parse(fs.readFileSync(0, 'utf8')));
 } else {
-  test('whole-service pipeline is exercised by Python raw CSV/design integration', () => {
-    assert.equal(typeof api.addMissingStructuralDailyRows, 'function');
-  });
   test('different occasions, hours and services are not broadly collapsed', () => {
     const base = {occasion: 'Great Thursday', service_section: waters, service_hour: waters, slot: 'OT1', identity_key: 'same', display_ref: 'Gen 18:1-23'};
     for (const change of [{occasion: 'Great Thursday Eve'}, {service_hour: 'First Hour'}, {service_section: 'Matins'}]) {

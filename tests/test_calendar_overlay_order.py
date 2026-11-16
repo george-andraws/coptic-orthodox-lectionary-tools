@@ -3,6 +3,7 @@ import copy
 import csv
 import json
 from pathlib import Path
+from design_validation_fixture import validate_design_baseline, verify_daily_artifacts
 import unittest
 from unittest.mock import patch
 
@@ -57,17 +58,13 @@ class CalendarOverlayOrder(unittest.TestCase):
         self.assertEqual([r['service_section'] for r in daily], [r['service_section'] for r in rows])
         self.assertEqual(rows, original)
 
-    def test_current_source_and_live_presentation_agree_with_direct_fixture(self):
+    def test_current_and_direct_sources_agree_with_literal_fixture(self):
         with (ROOT / 'out/data/copticchurch_passage_index_current_2020_2035.csv').open() as handle:
             source = [r for r in csv.DictReader(handle) if r['gregorian_date'] == DATE and r['source_slot'].startswith('OT')]
         self.assertCountEqual([(r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) for r in source], EXPECTED)
         with (ROOT / 'out/data/pascha_day_hour_index.csv').open() as handle:
             direct = [r for r in csv.DictReader(handle) if r['day'] in ('Tuesday', 'Tuesday Eve') and r['slot'].startswith('OT')]
         self.assertCountEqual([(r['day'], r['hour'], r['slot'], int(r['order'])) for r in direct], [r[:4] for r in EXPECTED])
-        presentation, _ = design.build_reverse_presentation()
-        daily = design.build_daily_year_files(presentation, transport_mode='presentation')[2026][DATE]
-        self.assertCountEqual(projected_tuples(daily), EXPECTED)
-        self.assertEqual(len(daily), 38)
 
     def test_all_current_date_pascha_overlays_preserve_exact_source_context_order(self):
         with (ROOT / 'out/data/copticchurch_passage_index_current_2020_2035.csv').open() as handle:
@@ -85,6 +82,8 @@ class CalendarOverlayOrder(unittest.TestCase):
         self.assertEqual(retained[0]['current_status'], 'historical_candidate_removed')
         self.assertFalse(design.is_current_presentation(retained[0]))
         daily = design.build_daily_year_files(presentation, transport_mode='presentation')
+        self.assertCountEqual(projected_tuples(daily[2026][DATE]), EXPECTED)
+        self.assertEqual(len(daily[2026][DATE]), 38)
         for date in sorted({r['gregorian_date'] for r in source}):
             with self.subTest(date=date):
                 expected = [(r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) for r in source if r['gregorian_date'] == date and (r['gregorian_date'], r['source_occasion'], r['service_section'], r['source_slot'], int(r['source_order']), r['matched_ref']) != inactive]
@@ -125,7 +124,7 @@ class CalendarOverlayOrder(unittest.TestCase):
         original_read = Path.read_text
         original = json.loads(path.read_text())
         # Establish a valid baseline before claiming any corruption was caught.
-        validator.verify_rows()
+        validate_design_baseline()
         for mutation in ('omit', 'truncate', 'reorder', 'eve', 'section', 'order99'):
             with self.subTest(mutation=mutation):
                 damaged = copy.deepcopy(original)
@@ -141,11 +140,7 @@ class CalendarOverlayOrder(unittest.TestCase):
                     return json.dumps(damaged) if target == path else original_read(target, *args, **kwargs)
                 with patch.object(Path, 'read_text', read_text):
                     with self.assertRaisesRegex(AssertionError, 'lectionary-2026.json does not exactly match'):
-                        presentation = validator.read_csv(validator.ROOT / 'out/design/reverse_lectionary_presentation.csv')
-                        validator.verify_daily_rows(
-                            presentation,
-                            json.loads((validator.OUT / 'lectionary_schema.json').read_text()),
-                            json.loads((validator.OUT / 'BUILD_DESIGN_SUMMARY.json').read_text()))
+                        verify_daily_artifacts()
 
 
 if __name__ == '__main__':
