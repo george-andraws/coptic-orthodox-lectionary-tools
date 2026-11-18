@@ -1,0 +1,44 @@
+{
+  "evidence_kind": "factual_capture_receipt",
+  "source_title": "Coptic Reader: Covenant Thursday Eve (The Eleventh Hour)",
+  "source_url": "https://copticreader.org/app/",
+  "navigation": "Special > Pascha > Wednesday > Thursday Eve > 11th Hour",
+  "capture_context": "generic Pascha menu; not selected-date attestations",
+  "capture_selected_year": null,
+  "fresh_app_verification": false,
+  "archived_capture": {
+    "sha256": "10d981e8fa068a4b49a7227f62955a3a26f1efbc785f514cb274277fc5434443",
+    "bytes": 76017,
+    "lines": 749,
+    "retained_locally": true,
+    "publicly_distributed": false,
+    "qualification": "The full multilingual capture is retained in the local audit archive, not supplied by this repository or npm package. This fingerprint identifies that archive only; authenticating this receipt does not authenticate unavailable capture bytes. No whole-service redistribution permission is asserted."
+  },
+  "title_line": 1,
+  "eve_context_lines": [10, 11],
+  "readings": [
+    {
+      "stage": "prophecy",
+      "printed_reference": "Jeremiah 8:4-10",
+      "heading_line": 12,
+      "selected_body_lines": [20, 35],
+      "qualification": "Printed endpoint retained; body/edition alignment unresolved. No canonical replacement or Jeremiah 8:10 appointment approved."
+    },
+    {
+      "stage": "psalm",
+      "printed_reference": "Psalm 61:4,1",
+      "heading_line": 110,
+      "selected_body_lines": [118, 121],
+      "qualification": "Printed sequence retained; canonical coordinates unresolved. No mechanical chapter shift or canonical replacement approved."
+    },
+    {
+      "stage": "gospel",
+      "printed_reference": "John 12:44-50",
+      "heading_line": 124,
+      "selected_body_lines": [147, 164],
+      "closure_line": 167,
+      "qualification": "Retained full selected Gospel body was inspected in the original independent source-plan review; this receipt contains no Scripture body."
+    }
+  ],
+  "public_reproduction_scope": "Public builders authenticate this pinned factual receipt and separately pinned retained corroborating witnesses. Independent reinspection of the original Reader body requires the separately retained archive; a receipt hash is not a substitute for those bytes."
+}

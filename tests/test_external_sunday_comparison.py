@@ -14,7 +14,7 @@ import sunday_consumer_contracts as contracts
 import mark_followup_repairs as followup
 
 ROOT = Path(__file__).resolve().parents[1]
-CANDIDATE_VERSION = '1.3.11'
+CANDIDATE_VERSION = '1.3.12'
 # Complete Mark predecessor-domain comparison counts, independently checked
 # against the authenticated published 1.3.9 tarball, not successor row counts.
 CONTEXT_SOURCE_COUNTS = {2027: 75, 2028: 64}

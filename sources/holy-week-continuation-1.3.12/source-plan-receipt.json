@@ -1,0 +1,30 @@
+{
+  "evidence_kind": "factual_digest_of_retained_independent_source_plan",
+  "original_report_sha256": "19bd78cf20bbcf0f1f4397bdb8a444b6ce093f44c78ed1f4484e2317a198a80f",
+  "original_report_retained_locally": true,
+  "original_report_publicly_distributed": false,
+  "new_independent_review": false,
+  "release_acceptance": false,
+  "qualification": "This public factual digest was prepared from the retained independent source-plan report. It is not a newly issued independent approval, data-owner permission, or authentication of absent report/capture bytes. The original review remains locally retained without alteration. Its bounded source findings, not release acceptance, are carried forward.",
+  "approved_source_findings": [
+    "Eve of Thursday Eleventh Hour Gospel: John 12:44-50; preserve raw Wednesday Eve context, public Eve of Thursday label, and exact service/hour scope.",
+    "Preserve Jn 11:55-57, Wis 7:24-30 and Ps 57:1 working witnesses inactive in that exact wrong-night context; do not retire matching readings elsewhere.",
+    "Good Friday Twelfth Hour: qualify four existing burial Gospels and preserve Matthew, Mark, Luke, John order; do not add duplicate appointments.",
+    "Good Friday Sixth Hour: preserve Matthew, Mark, Luke, John order and existing confirmed John 19:13-27 endpoint."
+  ],
+  "held_or_excluded": [
+    "Jeremiah 8:4-10 printed heading does not approve canonical verse 10; selected-body endpoint remains qualified.",
+    "Psalm 61:4,1 printed sequence does not approve MT coordinates or a mechanical chapter shift.",
+    "No Jonah or other historical-witness activation; no new Great Thursday daytime qualification; no blanket adjacent-hour approval.",
+    "No dated Reader confirmations for 2027/2028; Eve capture is generic-menu, existing Friday capture is selected 2026."
+  ],
+  "eligible_eve_dates": ["2026-04-08", "2027-04-28", "2028-04-12"],
+  "eligible_friday_dates": ["2026-04-10", "2027-04-30", "2028-04-14"],
+  "corroborating_witnesses": [
+    {"path": "sources/katameros-api/Core/Factories/Feasts/PaschaWednesday.cs", "lines": [108, 114], "finding": "Recurring following-day Eve with John numeric 43.12:44-50; companion edition differences remain distinct."},
+    {"path": "sources/katameros-api/Core/Factories/Feasts/PaschaFriday.cs", "lines": [85, 93], "finding": "Recurring burial Gospel order; conflicting historical Jonah is not activated."},
+    {"path": "sources/katameros-api/Core/Factories/FeastsFactory.cs", "lines": [44, 99], "finding": "Annual Pascha-offset recurrence and Holy Week substitution exclusion."},
+    {"path": "out/sources/St_Mary_Ottawa_Katameros_Holy_Pascha_EN.txt", "lines": [9175, 9255], "printed_pages": [365, 368], "finding": "Eleventh Hour of Eve of Great Thursday, John 12:44-50. Printed companion edition coordinates remain separate."}
+  ],
+  "unchanged_controls": "Published predecessor fixtures, original source approvals, complete-cell/day inverse comparisons, membership guards, and independent design/data-owner qualification gates are not replaced or relaxed by this receipt."
+}

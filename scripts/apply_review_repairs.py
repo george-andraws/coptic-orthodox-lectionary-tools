@@ -118,8 +118,10 @@ def project(mode, payload):
                  for year, days in payload['daily_by_year'].items()}
         rows = final_site_review.project_rows(site_review.project_rows(rows))
         final_site_review.verify_successor_membership(rows)
+        import holy_week_continuation as continuation
+        rows = continuation.project_reverse(rows)
         return {'rows': rows, 'daily_by_year': {
-            year: {date: final_site_review.project_rows(site_review.project_rows(readings, date=date), date=date) for date, readings in days.items()}
+            year: {date: continuation.project_daily(final_site_review.project_rows(site_review.project_rows(readings, date=date), date=date), date) for date, readings in days.items()}
             for year, days in daily.items()}}
     if mode == 'reverse':
         # Calendar metadata is qualified against untouched source identities.

@@ -1,6 +1,6 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package release: **1.3.11**. Retained-source qualifications and coordinate holds remain explicit; this version does not imply fresh Coptic Reader verification.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package version: **1.3.12**. This bounded successor replaces only the Eve-of-Thursday Eleventh Gospel with John 12:44–50, holds its three wrong-context working witnesses inactive, qualifies four existing Twelfth-Hour burial Gospels from retained Reader evidence, and preserves the reviewed Good Friday Gospel order. Jeremiah/Psalm companion coordinates remain unresolved and are not invented. Retained-source qualifications and coordinate holds remain explicit; this version does not imply fresh Coptic Reader verification or dated 2027/2028 captures.
 
 ## What this package contains
 
@@ -262,7 +262,9 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 ## Provenance
 
-- Package version: 1.3.11.
+The Eve-of-Thursday Eleventh-Hour source locator identifies a factual capture receipt, not a publicly supplied full Reader text. The original multilingual capture and independent source-plan report are retained locally. Their archive fingerprints identify those retained objects; receipt authentication does not authenticate unavailable archive bytes. Public rebuilds authenticate the explicit receipt and unchanged corroborating source witnesses. This evidence transport change does not approve Jeremiah/Psalm coordinates or supply new independent, data-owner, or release acceptance.
+
+- Package version: 1.3.12.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.

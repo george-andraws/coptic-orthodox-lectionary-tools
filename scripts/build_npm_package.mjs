@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.11';
+const VERSION = '1.3.12';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -1051,6 +1051,55 @@ function addMissingStructuralDailyRows(sorted, year, projectedRows) {
   return additions;
 }
 
+// Ordering-only repair of two already-current complete Gospel appointments.
+// Retained full-hour witnesses (hash/heading census pinned in
+// npm_good_friday_gospel_order.test.cjs): friday--6th-hour lines 499/592/635/711
+// and friday--12th-hour lines 182/232/272/312. No membership, source-status,
+// original slot ordinal, companion selection or other Friday hour is changed.
+function orderGoodFridayGospels(readings, date) {
+  const year = Number(String(date).slice(0, 4));
+  if (![2026, 2027, 2028].includes(year) || date !== paschaDateForDay(year, 'Good Friday')) return readings;
+  const tables = {
+    'Sixth Hour': [
+      ['Matt 27:27-45', 'rid_afffc4e945b4f7124705'],
+      ['Mark 15:26-33', 'rid_d07c8599ec57244053cc'],
+      ['Lk 23:26-44', 'rid_bf10fb2f935b760ee353'],
+      ['Jn 19:13-27', 'rid_2afa3534e5c24e29a17a'],
+    ],
+    'Twelfth Hour': [
+      ['Matt 27:57-61', 'rid_9edabff24638eaef7b45'],
+      ['Mark 15:42-16:1', 'rid_354aecd9e2e00fd91078'],
+      ['Lk 23:50-56', 'rid_32a40ab8ada951a59f7a'],
+      ['Jn 19:38-42', 'rid_012e29237f7019faa707'],
+    ],
+  };
+  const output = [...readings];
+  for (const [hour, expected] of Object.entries(tables)) {
+    const positions = readings.flatMap((row, i) => row.occasion === 'Good Friday'
+      && row.service_section === hour && row.slot === 'Gospel' ? [i] : []);
+    if (positions.length !== 4) continue;
+    const selected = positions.map(i => readings[i]);
+    const qualified = (row, ref, identity) => {
+      if (!isCurrentReading(row) || row.service_hour !== hour || row.slot_type !== 'gospel'
+        || row.identity_key !== identity || row.canonical_mt_ref !== ref || row.canonical_lxx_ref !== ref) return false;
+      if (hour === 'Sixth Hour' && ref === 'Jn 19:13-27') {
+        return row.source_family === 'coptic_reader_qualified_holy_week_review'
+          && row.source_kind === 'coptic_reader_qualified_holy_week_review'
+          && row.source_locator === 'sources/coptic-reader/holy-week-review-qualified-2026-10-29/friday--6th-hour.txt:line 711; sha256=aae5386449ddad8f45ca625402bd4ed3ee9c885c10c05e161e69f77e02110c57';
+      }
+      return row.source_family === 'holy_pascha_curated_day_hour' && row.source_kind === 'pascha_day_hour'
+        && /^out\/data\/pascha_day_hour_index\.csv:row [1-9]\d*; source_ref=/.test(row.source_locator || '')
+        && row.source_locator.split('; source_ref=')[1] === ref;
+    };
+    const ordered = expected.map(([ref, identity]) => selected.filter(row => qualified(row, ref, identity)));
+    if (ordered.some(matches => matches.length !== 1)) continue;
+    // Replace only the four existing positions: surrounding whole-service order
+    // survives later review projections. This is not a global Evangelist sort.
+    positions.forEach((position, i) => { output[position] = ordered[i][0]; });
+  }
+  return output.map((row, i) => ({ ...row, reading_order: i + 1 }));
+}
+
 function sortDailyReadings(readings, date = '') {
   const boundarySource = 'sources/coptic-reader/last-friday-2028-04-07-2026-10-07/verified-table.json';
   // This authenticated whole-table replacement has one supplied sequence,
@@ -1146,10 +1195,10 @@ function sortDailyReadings(readings, date = '') {
     }
     return 0;
   });
-  return enriched.map((reading, index) => {
+  return orderGoodFridayGospels(enriched.map((reading, index) => {
     const { reading_order: _previousOrder, ...fields } = reading;
     return { reading_order: index + 1, ...fields };
-  });
+  }), date);
 }
 
 function buildStructuralDateResolver(dailyInfos) {
@@ -1598,7 +1647,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.3.10', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.3.10', '1.3.11', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
@@ -1621,10 +1670,14 @@ async function main() {
   const compositeEvents = occurrenceProjection.events.filter(event => event.id === 'LK5');
   if (occurrenceProjection.rows.length !== occasionIndexRows - compositeEvents.length) throw new Error('Unexplained follow-up reverse membership change.');
   const releaseProjection = applyReviewRepairs('release', { rows: occurrenceProjection.rows, daily_by_year: dailyByYear });
-  // One pre-existing PK2 successor plus exactly EIGHT independently adopted
-  // Bright/Joseph additions. Python authenticates the complete reviewed multiset.
-  if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 9) throw new Error('Unexplained PK2/site-review successor membership change.');
+  // PK2 + eight prior site additions + ONE independently reviewed Holy Week Gospel.
+  // The outer inverse authenticates per-key cells then the unchanged predecessor multiset.
+  if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 10) throw new Error('Unexplained PK2/site/Holy Week successor membership change.');
   for (const year of SHIPPED_YEARS) {
+    // Review layers can reconstruct a whole day after the intermediate sorter.
+    // Apply only the bounded Gospel permutation at final serialization too.
+    releaseProjection.daily_by_year[year] = Object.fromEntries(Object.entries(releaseProjection.daily_by_year[year])
+      .map(([date, rows]) => [date, orderGoodFridayGospels(rows, date)]));
     const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
     await writeFile(destination, `${JSON.stringify(releaseProjection.daily_by_year[year], null, 2)}\n`, 'utf8');
     const info = dailyInfos.find(info => info.year === year);
@@ -1642,6 +1695,7 @@ async function main() {
   projectionRules.runtime_review.endpoint_release = '1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels';
   projectionRules.runtime_review.pk6_release = '1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy';
   projectionRules.runtime_review.site_review_release = '1.3.11: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion';
+  projectionRules.runtime_review.holy_week_continuation = '1.3.12: one recurring Eve-of-Thursday Eleventh Jn 12:44-50 addition; three wrong-context working holds retained inactive; four existing burial Gospel qualifications; no Jeremiah/Psalm coordinate approval; retained generic-menu/selected-2026 sources, not dated 2027/2028 attestations. Public Eve evidence is a hash-pinned factual receipt and unchanged corroborating witnesses; full Reader capture and original independent review retained locally, not publicly distributed. Receipt hashes authenticate receipts, not unavailable archive bytes';
   await writeFile(OCCASION_DEST, `${releaseProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);

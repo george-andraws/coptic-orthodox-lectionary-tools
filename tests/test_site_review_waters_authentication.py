@@ -35,6 +35,8 @@ def test_real_complete_composed_reverse_caller_refuses_same_total_waters_substit
     from scripts.review_release_contract import followup_reverse_view
     package=Path(__file__).resolve().parents[1]/'packages/lectionary-data'
     rows=[json.loads(l)for l in (package/'data/reverse_lectionary_index.jsonl').read_text().splitlines()]
+    from holy_week_successor_fixture import reverse_1_3_11
+    rows = reverse_1_3_11(rows)
     assert len(followup_reverse_view(rows,version='1.3.11'))>12000
     bad=copy.deepcopy(rows)
     next(r for r in bad if r['source_family']=='liturgy_of_the_waters' and r['canonical_mt_ref']=='Ezek 36:24-29')['canonical_mt_ref']='Ezek 36:25-29'

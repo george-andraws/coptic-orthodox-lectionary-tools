@@ -106,6 +106,8 @@ def test_complete_serialized_successor_matches_independent_multiset():
     data=json.loads(gzip.decompress((source/'approved-successor-context-keyset.json.gz').read_bytes()))
     rows=[json.loads(l) for l in (ROOT/'packages/lectionary-data/data/reverse_lectionary_index.jsonl').read_text().splitlines()]
     import final_site_review_repairs as repair
+    from holy_week_successor_fixture import reverse_1_3_11
+    rows = reverse_1_3_11(rows)
     rows=repair._supplement_restore(rows)
     actual=Counter(tuple(r.get(f,'')for f in data['fields'])for r in rows)
     # Stored independent keyset retains multiplicity; inspect declared schema.

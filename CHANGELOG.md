@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.12
+
+- Replace the Eve-of-Thursday Eleventh-Hour Gospel with John 12:44–50 and retain three wrong-context working witnesses as inactive history. Jeremiah/Psalm companion coordinates remain unresolved.
+- Qualify the four existing Good Friday Twelfth-Hour burial Gospels and preserve the reviewed Sixth-/Twelfth-Hour Gospel order across the shipped years, without adding dated 2027/2028 attestations.
+- Authenticate bounded public factual receipts and unchanged corroborating witnesses; the original full Reader capture and independent report remain local-only. Receipt fingerprints do not authenticate unavailable archive bytes or imply new source/release acceptance.
+
 ## 1.3.11
 
 - Correct edition-qualified Brenton covering annotations on 160 exact-context current reverse witnesses and 154 daily rows, retaining partial-clause/translation qualifications, original MT coordinates, identities, statuses, held exclusions and inactive history. Seven exact, frozen own-representation daily joins cover Bright service normalization and the Tut/Tout Cross label; no blanket alias policy is added.

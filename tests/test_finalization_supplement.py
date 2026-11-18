@@ -79,6 +79,9 @@ def test_bright_revelation_between_sixth_and_ninth_source_stages(date):
 def serialized():
     reverse=[json.loads(l)for l in(ROOT/'packages/lectionary-data/data/reverse_lectionary_index.jsonl').read_text().splitlines()]
     daily={str(y):json.loads((ROOT/f'packages/lectionary-data/data/daily/lectionary-{y}.json').read_text())for y in(2026,2027,2028)}
+    from holy_week_successor_fixture import reverse_1_3_11, daily_1_3_11
+    reverse = reverse_1_3_11(reverse)
+    daily = {y: {d: daily_1_3_11(rows, d) for d, rows in days.items()} for y, days in daily.items()}
     return reverse,daily
 
 
@@ -181,6 +184,9 @@ def test_actual_composed_release_control_and_source_auth_failure(serialized,monk
     original_daily={y:{d:site.restore_rows(repair.restore_rows(rows,date=d),date=d)for d,rows in days.items()}for y,days in daily.items()}
     payload={'rows':original_reverse,'daily_by_year':original_daily}
     output=project('release',payload)
+    from holy_week_successor_fixture import reverse_1_3_11, daily_1_3_11
+    output['rows'] = reverse_1_3_11(output['rows'])
+    output['daily_by_year'] = {y: {d: daily_1_3_11(rows, d) for d, rows in days.items()} for y, days in output['daily_by_year'].items()}
     assert output['rows']==reverse and output['daily_by_year']==daily
     def refuse():raise ValueError('supplement injected source authentication failure')
     monkeypatch.setattr(repair,'authenticate_supplement_sources',refuse)

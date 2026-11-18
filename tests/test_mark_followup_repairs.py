@@ -12,7 +12,7 @@ import pk6_release_repairs as pk6
 from scripts.review_release_contract import followup_daily_view, review_inactive_qualified
 
 ROOT = Path(__file__).resolve().parents[1]
-CANDIDATE_VERSION = '1.3.11'
+CANDIDATE_VERSION = '1.3.12'
 
 
 @pytest.fixture(scope='module')
@@ -98,7 +98,8 @@ def test_complete_daily_tables_and_comparator_positive_control(frozen, candidate
     for date, rows in finished.items():
         projected = pk6.project_daily(revelation.project_rows(rows, date=date), date)
         pk_layer[date] = projected
-        expected[date] = final.project_rows(site.project_rows(projected, date=date), date=date)
+        import holy_week_continuation as continuation
+        expected[date] = continuation.project_daily(final.project_rows(site.project_rows(projected, date=date), date=date), date)
     assert actual_scope == expected, 'complete real candidate arrays, not helper-only agreement'
     assert followup_daily_view(actual_scope, version=CANDIDATE_VERSION) == after
     assert m.restore_predecessor_for_comparison(after, year) == before

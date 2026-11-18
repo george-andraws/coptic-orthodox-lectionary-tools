@@ -131,6 +131,8 @@ def current():
     daily = {date: days[date] for date in ('2026-02-01', '2026-05-23')}
     import final_site_review_repairs as final
     import site_review_repairs as site
+    from holy_week_successor_fixture import reverse_1_3_11
+    reverse = reverse_1_3_11(reverse)
     predecessor_reverse = site.restore_rows(final.restore_rows(reverse))
     predecessor_daily = {date: site.restore_rows(final.restore_rows(rows, date=date), date=date)
                          for date, rows in daily.items()}

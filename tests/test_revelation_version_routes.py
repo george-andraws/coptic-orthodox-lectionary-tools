@@ -5,7 +5,7 @@ from scripts import verify_package_integrity as integrity
 from scripts import compare_external_sources as compare
 
 
-@pytest.mark.parametrize('version',['1.3.8','1.3.9','1.3.10'])
+@pytest.mark.parametrize('version',['1.3.8','1.3.9','1.3.10','1.3.11','1.3.12'])
 def test_integrity_version_routes_reverse_and_daily_through_authenticated_lane(version,monkeypatch):
     original_load = integrity.load_json
     calls = []
@@ -32,7 +32,7 @@ def test_integrity_version_routes_reverse_and_daily_through_authenticated_lane(v
     assert calls == [('reverse',version)] + [('daily',version)]*3
 
 
-@pytest.mark.parametrize('version',['1.3.8','1.3.9','1.3.10'])
+@pytest.mark.parametrize('version',['1.3.8','1.3.9','1.3.10','1.3.11','1.3.12'])
 def test_comparator_version_routes_actual_complete_daily_through_authenticated_lane(version,monkeypatch):
     original_load = compare.load_json
     def load(path):
@@ -54,7 +54,7 @@ def test_integrity_counts_public_daily_rows_not_authenticated_inverse_history(mo
     report = integrity.validate_package_integrity(integrity.PACKAGE_DIR)
     assert report['status'] == 'pass', report['failures']
     assert {year: row['reading_count'] for year,row in report['daily_summary'].items()} == {
-        '2026':4104,'2027':4095,'2028':4122}
+        '2026':4102,'2027':4093,'2028':4120}  # exactly two wrong-context companions held per year
     original_load = integrity.load_json
     def forged_metadata(path):
         result = original_load(path)
