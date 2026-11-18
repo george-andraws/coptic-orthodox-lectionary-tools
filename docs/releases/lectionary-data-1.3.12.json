@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "package": "@andraws/lectionary-data",
+  "version": "1.3.12",
+  "predecessor": "1.3.11",
+  "repository": "https://github.com/george-andraws/coptic-orthodox-lectionary-tools",
+  "archive": {
+    "registry_url": "https://registry.npmjs.org/@andraws/lectionary-data/-/lectionary-data-1.3.12.tgz",
+    "bytes": 3769416,
+    "sha1": "ece2275358af027b00007f4b7cc8534f520bb49d",
+    "sha256": "6d99eb760097b1e68e7860b1ad57b2a31fcf001ce63d9c24ceb396a1d079d760",
+    "integrity": "sha512-Drzjgql6ztowm/RaVMmJd0qhhRqBPG0veDvERkZmMskLo29tLoqoXmwaz4FADd0SZ8GMpZpnHm/8fIHUUMnsNA==",
+    "members": {
+      "package/LICENSE": {
+        "sha256": "be68c3d4ff5376a22dd54bca67629167437330d37fbf22d71fb60c3e6df70037",
+        "bytes": 898
+      },
+      "package/calendar.js": {
+        "sha256": "71993db3ecb51523f9a384b5391549e57d0fb8f3d59e82c1d4cfcc9d881f2830",
+        "bytes": 1454
+      },
+      "package/index.js": {
+        "sha256": "3c9e51994b1788efc15bfe0ea60ed9ade9c38b11e71713c9c44991b9137427da",
+        "bytes": 4584
+      },
+      "package/data/daily/lectionary-2026.json": {
+        "sha256": "89c5873e28bbd33301129f28e2471f9d307633195c9b3c12713f567013b5971b",
+        "bytes": 8869469
+      },
+      "package/data/daily/lectionary-2027.json": {
+        "sha256": "bc25f8c980a9825bb5dce4760e40fea5137e278551592ad84a2c9e504889a7f5",
+        "bytes": 9175388
+      },
+      "package/data/daily/lectionary-2028.json": {
+        "sha256": "9adbabc08afc01ee62a1892be093495367d91ee15061df9bc784e21e2e827601",
+        "bytes": 9154985
+      },
+      "package/meta.json": {
+        "sha256": "8313b9f26d8b528f38ad133ae90c38c155c55aa2595c63b7e6b6ff03a34e03e7",
+        "bytes": 68875
+      },
+      "package/package.json": {
+        "sha256": "5fac75d0b72ea86c0495169953b35ab9563c26943b868a16bb3677da8efe3b99",
+        "bytes": 753
+      },
+      "package/data/synaxarium/synaxarium.json": {
+        "sha256": "7780814efb4c91cd1039365f566a64029d5b63c3eb5e16f9d5be74e068a312d7",
+        "bytes": 261560
+      },
+      "package/data/reverse_lectionary_index.jsonl": {
+        "sha256": "f4b6e84d35b374f571577c0a80031022c331679b85f9f088aa551ff699b2f977",
+        "bytes": 45988016
+      },
+      "package/README.md": {
+        "sha256": "8bac8c05d2f33f6a35aa0a78f58fd90abfa5581450c59c4db8ebcf1cf95bc28c",
+        "bytes": 31131
+      }
+    }
+  },
+  "provenance": {
+    "source_commit": "1d67c64b216ab06dd7d8c12c59e64d0a4b932157",
+    "metadata_commit": "d8a0476edaa73be2d70888f62c1a53584fa06f4e",
+    "source_tree_dirty": false,
+    "build_python_hash_seed": 117
+  },
+  "verification": {
+    "registry_latest": "1.3.12",
+    "registry_shasum": "ece2275358af027b00007f4b7cc8534f520bb49d",
+    "installed_member_mismatches": 0,
+    "package_integrity": "pass",
+    "full_python_suite": "1489 passed, 16 conditional cases skipped on identical behavioral inputs; the conditional cases passed in a separate 25-test run with an authenticated 1.3.6 fixture",
+    "full_node_suite": "125 passed on identical behavioral inputs; 13 focused tests passed after release wording and provenance changes",
+    "site_build": "passed with the exact registry artifact in an isolated consumer",
+    "site_deployment": "not performed"
+  },
+  "limits": [
+    "The Eve-of-Thursday Gospel is a recurring proper qualified by the generic Reader service, not three dated Reader captures.",
+    "The new complete Reader capture is retained privately; the committed factual receipt and archived digest disclose that limit.",
+    "Jeremiah endpoint and Psalm edition/coordinate alignment remain unresolved.",
+    "Inherited provenance in earlier package members is unchanged; this release does not normalize historical paths."
+  ]
+}

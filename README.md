@@ -4,27 +4,27 @@ Source pipelines, validation tools and the published `@andraws/lectionary-data` 
 
 ## Current runtime release
 
-**`@andraws/lectionary-data@1.3.11` is the verified published runtime release.** It adds bounded Brenton covering annotations, Theophany/Apostles Waters daily groups, bounded working-cycle first-Lent-Monday materialization with the printed Exodus difference disclosed, retained Bright Saturday supplements including chapter-range Revelation and source-only Distribution, and the bounded Joseph 2027 and Amshir 7 2028 supplements. These are not fresh Reader attestations or authority promotions. Synaxarium remains 366 Coptic days and 868 titles.
+**`@andraws/lectionary-data@1.3.12` is the verified published runtime release.** It corrects the Eve-of-Thursday Eleventh Hour Gospel to John 12:44–50, retains the wrong-context working witnesses as inactive, and restores Matthew, Mark, Luke, John order at the Good Friday Sixth and Twelfth Hours. It qualifies the four existing burial Gospels without duplicating appointments. Unresolved Jeremiah and Psalm coordinates remain held. Synaxarium remains 366 Coptic days and 868 titles.
 
-Read the [package corrections](packages/lectionary-data/README.md), [changelog](CHANGELOG.md), and [1.3.11 receipt](docs/releases/lectionary-data-1.3.11.json). The [1.3.10 release](docs/LECTIONARY_1_3_10_RELEASE.md) and its [receipt](docs/releases/lectionary-data-1.3.10.json) remain immutable historical evidence.
+Read the [package corrections](packages/lectionary-data/README.md), the [changelog](CHANGELOG.md), and the [1.3.12 release receipt](docs/releases/lectionary-data-1.3.12.json). The [1.3.11 receipt](docs/releases/lectionary-data-1.3.11.json) and [1.3.10 release record](docs/LECTIONARY_1_3_10_RELEASE.md) remain historical evidence.
 
 - [Package API and schema](packages/lectionary-data/README.md)
 - [Current Synaxarium contract and release workflow](docs/SYNAXARIUM_RELEASE.md)
 - [Broader lectionary validation plan](docs/LECTIONARY_VALIDATION_PLAN.md)
 - [Previous canonical-appointment release](docs/LECTIONARY_1_3_3_RELEASE.md)
 
-The consuming site is `george-andraws/coptic-corpus`, built locally from `/Users/ga/code/coptic-corpus/stgeorge-lessons`. It pins the published version exactly and displays Synaxarium after Praxis using one shared date service. This does not create a saint-to-reading relationship.
+The consuming site is `george-andraws/coptic-corpus` (`stgeorge-lessons`). It pins the published version exactly and displays Synaxarium after Praxis using one shared date service. This does not create a saint-to-reading relationship.
 
 The repository has distinct layers: research/capture material, generated reference data under `out/`, and the npm runtime under `packages/lectionary-data`. Do not confuse research Synaxarium bridges with the public titles catalog. Older execution briefs and generated internal specs are historical records, not the current npm contract.
 
-The runtime builder applies ordered source-owned review repairs after the unchanged design/canonicalization guard and structural daily fill. The 1.3.10 final stages apply the Deuteronomy/display repairs, then the qualified Good Friday history and daily exclusion. Run it in the declared Python dependency environment:
+The runtime builder applies ordered source-owned review repairs after the design and canonicalization guard and structural daily fill. The 1.3.12 continuation qualifies the exact recurring service and retains the earlier validation contracts. Rebuild with the declared Python dependency environment and recorded hash seed when comparing exact 1.3.12 reading bytes:
 
 ```bash
-uv run --python 3.11 --with beautifulsoup4 --with requests --with convertdate \
-  python -c 'import subprocess; subprocess.run(["node", "scripts/build_npm_package.mjs"], check=True)'
+PYTHONHASHSEED=117 uv run --python 3.11 --with-requirements requirements-test.txt \
+  node scripts/build_npm_package.mjs
 ```
 
-For future releases, freeze source writers, prefer a clean source checkout, run the full Python and declared Node inventories with the dependency environment on subprocess PATH, validate the exact packed archive and compare registry bytes after authorized publication. The 1.3.11 archive records clean source at `ec7d4f1`; its metadata commit does not change reading bytes. The 1.3.10 receipt still records that release's dirty source truthfully. Consumer upgrades require separate authorization and real parser/validator checks for both source-only empty coordinates and numeric coordinate holds. The 1.3.10 site upgrade completed those checks; the 1.3.11 site generation and tests remain outstanding.
+For future releases, freeze source writers, build from a clean source checkout, run the full Python and Node suites, validate the exact packed archive, and compare the registry bytes after authorized publication. The 1.3.12 archive records clean source at `1d67c64`; the later provenance commit does not change reading bytes. Consumer upgrades require separate parser, validator and site-build checks; a successful npm release does not deploy the site.
 
 ## Tests
 
