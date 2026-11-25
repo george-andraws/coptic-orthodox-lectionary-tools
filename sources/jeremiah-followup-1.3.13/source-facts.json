@@ -1,0 +1,96 @@
+{
+  "version": "1.3.13",
+  "source_policy": "George selected Reader for current appointments; API/Ottawa are separate inactive witnesses",
+  "evidence_kind": "factual_receipt_from_retained_rendered_captures",
+  "fresh_app_verification": false,
+  "recurrence": "Named Holy Pascha recurring service; shipped-year projection is not a fresh attestation",
+  "captures": {
+    "reader_great_thursday_sixth": {
+      "heading": "Covenant Thursday (The Sixth Hour)",
+      "archived_sha256": "4318fbbce5db75e4033b7f56f9487be2b4d9ffa051dfea33d78051984add367e",
+      "archived_bytes": 39810,
+      "references": [
+        {
+          "line": 12,
+          "printed_reference": "Jeremiah 7:1-15"
+        },
+        {
+          "line": 106,
+          "printed_reference": "Sirach 12:13-13:1"
+        }
+      ],
+      "body_publicly_distributed": false,
+      "hash_is_identifier_not_authentication_of_absent_body": true
+    },
+    "reader_good_friday_eleventh": {
+      "heading": "Great Friday (The Eleventh Hour)",
+      "archived_sha256": "32e1cab53d275e25ff1b574c5bdaa624a95fecc935f19c38ef69f64835816d1b",
+      "archived_bytes": 77790,
+      "references": [
+        {
+          "line": 12,
+          "printed_reference": "Exodus 12:1-14"
+        }
+      ],
+      "body_publicly_distributed": false,
+      "hash_is_identifier_not_authentication_of_absent_body": true
+    },
+    "reader_eve_friday_ninth": {
+      "heading": "Great Friday Eve (The Ninth Hour)",
+      "archived_sha256": "056fbf25cbb5373db31caebaccf15c27c7e7a81d497bfbf2137777d4aa602242",
+      "archived_bytes": 56889,
+      "references": [
+        {
+          "line": 12,
+          "printed_reference": "Jeremiah 9:7-11"
+        }
+      ],
+      "body_publicly_distributed": false,
+      "hash_is_identifier_not_authentication_of_absent_body": true
+    },
+    "reader_bright_saturday_ninth": {
+      "heading": "Prayer of the Ninth Hour",
+      "archived_sha256": "3be71e9bf4e96584f029dc9bcb5130b8043564b57631bea4047f81d50d0977df",
+      "archived_bytes": 40553,
+      "references": [
+        {
+          "line": 135,
+          "printed_reference": "Psalm 41:10, 5"
+        }
+      ],
+      "body_publicly_distributed": false,
+      "hash_is_identifier_not_authentication_of_absent_body": true
+    }
+  },
+  "pk3": {
+    "reader_printed": "Jeremiah 9:7-11",
+    "nkjv": "Jer 9:7-11",
+    "brenton": "Jer 9:6-10",
+    "api_literal": "24.9:6-10",
+    "ottawa_printed": "Jer 9:7-11",
+    "ottawa_page": 511,
+    "ottawa_service": "eve_of_friday",
+    "qualification": "Five selected units compared; no general Jeremiah numbering map"
+  },
+  "pk6": {
+    "reader_printed": "Jeremiah 7:1-15",
+    "api_literal": "24.7:2-15",
+    "api_ref": "Jer 7:2-15",
+    "sirach_api_literal": "73.12:13-13:1",
+    "ottawa_sirach_printed": "Sir 23:7-14",
+    "ottawa_sirach_body_counterpart": "Sir 12:13-13:1",
+    "ottawa_sirach_page": 401,
+    "qualification": "Printed Reader/API starts differ; Ottawa Sirach heading/body discrepancy, not a different hour"
+  },
+  "pk7": {
+    "mt": "Ps 41:5,41:10",
+    "brenton_covering_ref": "Ps 40:6; Ps 40:11",
+    "reader_source_order": "Psalm 41:10, 5",
+    "brenton_source_order": "Ps 40:11; Ps 40:6",
+    "qualification": "Named English Brenton covering loci only; not generic LXX whole-verse equivalence"
+  },
+  "held": [
+    "Jeremiah 8 verse-10 endpoint at actual Eve of Great Thursday Eleventh Hour"
+  ],
+  "approval": "Current user-selected Reader priority; earlier review nonactivation flags remain unchanged"
+}

@@ -13,10 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 def candidate():
     package = ROOT / 'packages/lectionary-data'
     version=json.loads((package/'package.json').read_text())['version']
-    assert version in ('1.3.10','1.3.11','1.3.12')
+    assert version in ('1.3.10','1.3.11','1.3.12','1.3.13')
     reverse = [json.loads(line) for line in (package/'data/reverse_lectionary_index.jsonl').read_text().splitlines()]
     daily = json.loads((package/'data/daily/lectionary-2026.json').read_text())
-    if version == '1.3.12':
+    if version in ('1.3.12', '1.3.13'):
         from holy_week_successor_fixture import reverse_1_3_11, daily_1_3_11
         reverse = reverse_1_3_11(reverse)
         daily = {d: daily_1_3_11(rows, d) for d, rows in daily.items()}

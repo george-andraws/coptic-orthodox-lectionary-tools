@@ -113,11 +113,12 @@ def test_package_entrypoint_rejects_inactive_qualified_lifecycle(monkeypatch):
     row['current_status'] = 'historical_witness'
     monkeypatch.setattr(v, 'parse_jsonl', lambda path: rows if path.name == 'reverse_lectionary_index.jsonl' else original(path))
     result = v.validate_package_integrity(v.PACKAGE_DIR)
-    # The successor's outer authentication now rejects the lifecycle mutation
-    # before the older generic span guard. Both guards remain exercised above.
+    # The authenticated 1.3.13 outer layer rejects this lifecycle mutation
+    # before the historical PK and generic span guards exercised above.
+    assert result['status'] == 'fail'
     assert any(f['reason'] == 'unqualified_followup_reverse'
-               and f['detail'] == 'PK source/context/coordinate drift: current_status'
-               for f in result['failures'])
+               and f['detail'] == 'Jeremiah follow-up complete source/context/lifecycle/coordinate/order drift'
+               for f in result['failures']), result['failures']
 
 
 def test_ordinary_empty_scripture_still_fails():

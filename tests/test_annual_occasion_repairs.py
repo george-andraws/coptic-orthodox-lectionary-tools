@@ -20,7 +20,7 @@ def load_years():
     # Retain this historical Reader-only contract unchanged. The separately
     # source-adopted working-cycle successor has its own literal tests.
     version=json.loads((ROOT/'packages/lectionary-data/package.json').read_text())['version']
-    if version == '1.3.12':
+    if version in ('1.3.12', '1.3.13'):
         from holy_week_successor_fixture import daily_1_3_11
         years = {y: {d: daily_1_3_11(rows, d) for d, rows in days.items()} for y, days in years.items()}
         version = '1.3.11'

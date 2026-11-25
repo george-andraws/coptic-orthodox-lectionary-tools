@@ -18,6 +18,10 @@ def reverse_slice(b):
 
 def test_serialized_psalm_title_seam_and_partial_clause_repairs():
     rows=[json.loads(line) for line in (PACKAGE/'data/reverse_lectionary_index.jsonl').read_text().splitlines()]
+    from holy_week_successor_fixture import reverse_1_3_11
+    # Authenticate/undo the successor before applying this 160-row historical
+    # oracle; the new Bright Saturday annotation is tested in its own domain.
+    rows = reverse_1_3_11(rows)
     # These are distinct exact-context witnesses, not a blanket verse offset.
     expected={'Ps 60:4-5':'Ps 59:6-7','Ps 60:7':'Ps 59:9-10',
               'Ps 19:4':'Ps 18:5-6','Ps 19:5':'Ps 18:6','Ps 80:1-3':'Ps 79:2-4'}

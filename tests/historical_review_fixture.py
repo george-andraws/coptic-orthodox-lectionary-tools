@@ -22,7 +22,7 @@ def published_1_3_7():
 
 
 def historical_policy():
-    data = (ROOT / 'sources/lectionary_corrections.json').read_bytes()
+    data = (ROOT / 'tests/fixtures/lectionary-corrections-pre-jeremiah.json').read_bytes()
     assert hashlib.sha256(data).hexdigest() == POLICY_SHA256
     return json.loads(data)
 

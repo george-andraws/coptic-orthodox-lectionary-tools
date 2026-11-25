@@ -1,6 +1,8 @@
 {
   "schema_version": 1,
   "source_fingerprints": {
+    "sources/katameros-api/Core/Factories/Feasts/PaschaThursday.cs": "415378944739bcaa0484498b7ea905543de33a17031582d68de9f87a2224620a",
+    "sources/katameros-api/Core/Factories/Feasts/PaschaFriday.cs": "8d0b0ebe09ea8b4fbcc4fbb0d395bead0b1468c44d2ffc8876d3800c76dbf164",
     "sources/user-corrections/reverse-source-key-contract-no-service-history-2026-10-25.json": "86cb7ba6340f58da344782a19c96da94692b1bbb6747b793cbe05afcce301e02",
     "sources/user-corrections/no-service-history-plan-2026-10-25.json": "3e228f951da40452c6c3076f6a29dd0a428a4d7228d6ec3004c5113b22236a7d",
     "docs/reviews/lectionary-1.3.6-no-service-history.md": "af2297112f542f02d8c0208e854d3ad63e554a0bc2aad4dbfb6aff4749ebe857",
@@ -1478,6 +1480,26 @@
     }
   ],
   "pascha_day_hour": [
+    {
+      "day": "Great Thursday", "hour": "Sixth Hour", "slot": "OT1", "expected_source": "api",
+      "expected_raw_ref": "Exod 7:2-15", "corrected_ref": "Jer 7:2-15",
+      "source_path": "sources/katameros-api/Core/Factories/Feasts/PaschaThursday.cs", "source_line": 51
+    },
+    {
+      "day": "Great Thursday", "hour": "Sixth Hour", "slot": "OT3", "expected_source": "api",
+      "expected_raw_ref": "Wis 12:13-13:1", "corrected_ref": "Sir 12:13-13:1",
+      "source_path": "sources/katameros-api/Core/Factories/Feasts/PaschaThursday.cs", "source_line": 53
+    },
+    {
+      "day": "Good Friday", "hour": "Eleventh Hour", "slot": "OT1", "expected_source": "api",
+      "expected_raw_ref": "Jer 12:1-14", "corrected_ref": "Exod 12:1-14",
+      "source_path": "sources/katameros-api/Core/Factories/Feasts/PaschaFriday.cs", "source_line": 80
+    },
+    {
+      "day": "Good Friday", "hour": "Eleventh Hour", "slot": "OT2", "expected_source": "api",
+      "expected_raw_ref": "Isa 3:5-12", "corrected_ref": "Lev 23:5-12",
+      "source_path": "sources/katameros-api/Core/Factories/Feasts/PaschaFriday.cs", "source_line": 81
+    },
     {
       "day": "Monday Eve",
       "hour": "Sixth Hour",

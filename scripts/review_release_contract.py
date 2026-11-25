@@ -17,7 +17,7 @@ DESIGN_SOURCE = 'out/design/reverse_lectionary_index.jsonl'
 DESIGN_SHA256 = '3473d858301159573118dd8df25522a95c412e19a8a78bc22a3d483a6f7dd0fc'
 IDENTITY_FIELDS = ('identity_key', 'display_ref', 'canonical_mt_ref', 'canonical_lxx_ref', 'spans_json')
 CALENDAR_FIELDS = calendar.FIELDS + ('calendar_review_source_locators', 'calendar_review_calendar_keys')
-FOLLOWUP_RELEASE_VERSIONS = frozenset({'1.3.8', '1.3.9', '1.3.10', '1.3.11', '1.3.12'})
+FOLLOWUP_RELEASE_VERSIONS = frozenset({'1.3.8', '1.3.9', '1.3.10', '1.3.11', '1.3.12', '1.3.13'})
 STABLE_FIELDS = ('source_family', 'source_kind', 'source_locator', 'occasion', 'service_section',
                  'service_hour', 'slot', 'calendar_keys', 'day_titles')
 
@@ -32,6 +32,10 @@ def validate_public_followup_rows(rows):
 
 
 def followup_reverse_view(rows, *, previous_layer='mark', require_all_targets=True, version=None):
+    if version == '1.3.13':
+        import jeremiah_followup as jeremiah
+        rows = jeremiah.restore_reverse(rows)
+        version = '1.3.12'
     if version == '1.3.12':
         import holy_week_continuation as continuation
         continuation.verify_membership(rows)
@@ -64,7 +68,11 @@ def followup_daily_view(days, *, previous_layer='mark', version=None):
     output = {}
     for date, rows in days.items():
         historical_version = version
-        if version == '1.3.12':
+        if historical_version == '1.3.13':
+            import jeremiah_followup as jeremiah
+            rows = jeremiah.restore_daily(rows, date)
+            historical_version = '1.3.12'
+        if historical_version == '1.3.12':
             import holy_week_continuation as continuation
             rows = continuation.restore_daily(rows, date)
             historical_version = '1.3.11'

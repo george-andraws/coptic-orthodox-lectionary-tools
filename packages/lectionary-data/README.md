@@ -1,6 +1,18 @@
 # @andraws/lectionary-data
 
-Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package version: **1.3.12**. This bounded successor replaces only the Eve-of-Thursday Eleventh Gospel with John 12:44–50, holds its three wrong-context working witnesses inactive, qualifies four existing Twelfth-Hour burial Gospels from retained Reader evidence, and preserves the reviewed Good Friday Gospel order. Jeremiah/Psalm companion coordinates remain unresolved and are not invented. Retained-source qualifications and coordinate holds remain explicit; this version does not imply fresh Coptic Reader verification or dated 2027/2028 captures.
+Coptic Orthodox reverse-lectionary occasion index, date-resolved daily readings and a fixed-day Synaxarium titles catalog for npm consumers. Package version: **1.3.13**. Reader-priority corrections retain API/Ottawa variants as inactive witnesses and add bounded named-edition annotations. Retained-source qualifications and coordinate holds remain explicit; this version does not imply fresh Coptic Reader verification or dated 2027/2028 captures.
+
+## Corrections in 1.3.13
+
+- Good Friday Eleventh Hour now has the Reader Exodus 12:1–14 appointment, not the local Jeremiah transcription. The corrected API Leviticus 23:5–12 witness is retained inactive, not introduced as a Reader appointment. The genuine Ninth Hour Jeremiah reading is unchanged.
+- Great Thursday Sixth Hour uses Reader Jeremiah 7:1–15 and Sirach 12:13–13:1. The API's Jeremiah 7:2–15 label is separately retained inactive. Ottawa's historical printed Sirach 23:7–14 heading is preserved with its Sirach 12:13–13:1 body counterpart; its Sixth Hour context is unchanged.
+- Eve of Great Friday Ninth Hour uses Reader Jeremiah 9:7–11 with named Brenton 9:6–10 correspondence. The literal API `24.9:6-10` remains separately disclosed. Only the matching Ottawa historical witness's service metadata is corrected to Eve of Friday; it remains inactive.
+- Bright Saturday's Psalm keeps MT/NKJV `Ps 41:5,41:10` and identifies the English Brenton covering loci `Ps 40:6; Ps 40:11`. The liturgical source order (41:10 then 41:5; Brenton 40:11 then 40:6) is retained separately. This is not a general LXX verse-offset rule or whole-verse equivalence claim.
+- `jeremiah_followup_json` and additive `source_disclosure[].jeremiah_followup` carry source/edition qualifications in both representations. `edition_psalm_covering_json` carries the Bright Saturday named-edition annotation. Preserve these cells in consumer projections; current daily arrays remain current-only, while reverse history remains accessible separately through explicit lifecycle selection.
+- The reverse corpus has 12,308 rows: all 12,300 predecessor witnesses retained, four corrected inactive API witnesses and four Reader appointments added. Five original working witnesses are inactive. No runtime/export/schema/Synaxarium change is required.
+- The Jeremiah 8 verse-10 endpoint at the actual Eve of Great Thursday Eleventh Hour remains on hold. This correction does not authorize unrelated appointments, general Eve relabeling or new feast precedence. Full new Reader service bodies are not distributed; factual receipts identify retained captures and distinguish a receipt hash from authentication of an absent body.
+
+The repair is an outer, source-authenticated projection over the preserved design snapshot. Its exact inverse restores the published 1.3.12 corpus before historical whole-corpus validation. The upstream source correction function also qualifies `source=api` and preserves original bad strings while correcting four constructor transcriptions in both source exports; regenerating earlier historical design stages is not part of this bounded package materialization.
 
 ## What this package contains
 
@@ -264,7 +276,7 @@ Structural-only occasions outside the shipped civil-year daily scope, such as so
 
 The Eve-of-Thursday Eleventh-Hour source locator identifies a factual capture receipt, not a publicly supplied full Reader text. The original multilingual capture and independent source-plan report are retained locally. Their archive fingerprints identify those retained objects; receipt authentication does not authenticate unavailable archive bytes. Public rebuilds authenticate the explicit receipt and unchanged corroborating source witnesses. This evidence transport change does not approve Jeremiah/Psalm coordinates or supply new independent, data-owner, or release acceptance.
 
-- Package version: 1.3.12.
+- Package version: 1.3.13.
 - Existing reading schema version: 1.2.0. Package version and reading-schema version serve different purposes.
 - Exact source commit, source-tree state, generation time, row counts and projection fingerprints are recorded in this artifact's `meta.json`, not a hardcoded historical README snapshot.
 - Synaxarium provenance is separate: audited current-practice Coptic Reader capture of year 1743, 366 days and 868 titles. Do not present the older reading generation timestamp/commit as a new Synaxarium capture timestamp.

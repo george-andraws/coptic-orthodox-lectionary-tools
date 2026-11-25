@@ -53,8 +53,25 @@ def test_comparator_version_routes_actual_complete_daily_through_authenticated_l
 def test_integrity_counts_public_daily_rows_not_authenticated_inverse_history(monkeypatch):
     report = integrity.validate_package_integrity(integrity.PACKAGE_DIR)
     assert report['status'] == 'pass', report['failures']
-    assert {year: row['reading_count'] for year,row in report['daily_summary'].items()} == {
-        '2026':4102,'2027':4093,'2028':4120}  # exactly two wrong-context companions held per year
+    counts = {year: row['reading_count'] for year,row in report['daily_summary'].items()}
+    predecessor_counts = {'2026':4102,'2027':4093,'2028':4120}
+    version = integrity.load_json(integrity.PACKAGE_DIR/'meta.json')['version']
+    if version == '1.3.13':
+        # Reader authority holds the unsupported Good Friday Leviticus witness:
+        # one fewer current appointment per year, not a lost historical row.
+        assert counts == {'2026':4101,'2027':4092,'2028':4119}
+        import jeremiah_followup as jeremiah
+        restored_counts = dict(counts)
+        days = {year: integrity.load_json(integrity.PACKAGE_DIR/f'data/daily/lectionary-{year}.json')
+                for year in counts}
+        for year, baseline_days in jeremiah.predecessor()['daily'].items():
+            for date, before in baseline_days.items():
+                current = days[year][date]
+                assert jeremiah.restore_daily(current, date) == before
+                restored_counts[year] += len(before)-len(current)
+        assert restored_counts == predecessor_counts
+    else:
+        assert counts == predecessor_counts  # two earlier wrong-context companions held per year
     original_load = integrity.load_json
     def forged_metadata(path):
         result = original_load(path)

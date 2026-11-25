@@ -35,10 +35,14 @@ class ReadingSemanticsTests(unittest.TestCase):
             (root / 'sources').mkdir()
             (root / 'sources/lectionary_corrections.json').write_text(json.dumps(overlay))
             csv_path = data / 'pascha_day_hour_index.csv'
-            csv_path.write_text('day,hour,slot,refs\nMonday Eve,Sixth Hour,Psalm+Gospel,raw\n')
+            # The real correction lane requires the authenticated source cell;
+            # the old source-less fixture no longer represents a valid input.
+            csv_path.write_text('day,hour,slot,source,refs\nMonday Eve,Sixth Hour,Psalm+Gospel,api,raw\n')
             with patch.object(reference, 'WORK', root), patch.object(reference, 'DATA', data):
                 reference.apply_lectionary_corrections()
+                first = csv_path.read_bytes()
                 reference.apply_lectionary_corrections()
+                self.assertEqual(csv_path.read_bytes(), first)
                 rows = list(csv.DictReader(csv_path.open()))
                 self.assertEqual(rows[0]['refs'], 'corrected')
                 self.assertEqual(rows[0]['raw_refs'], 'raw')
@@ -47,6 +51,18 @@ class ReadingSemanticsTests(unittest.TestCase):
                 reference.write_csv(csv_path, rows, list(rows[0]))
                 with self.assertRaisesRegex(RuntimeError, 'drift'):
                     reference.apply_lectionary_corrections()
+                invalid_sources = [
+                    'day,hour,slot,refs\nMonday Eve,Sixth Hour,Psalm+Gospel,raw\n',
+                    'day,hour,slot,source,refs\nMonday Eve,Sixth Hour,Psalm+Gospel,,raw\n',
+                    'day,hour,slot,source,refs\nMonday Eve,Sixth Hour,Psalm+Gospel,forged,raw\n',
+                ]
+                for invalid in invalid_sources:
+                    with self.subTest(source_fixture=invalid):
+                        csv_path.write_text(invalid)
+                        before = csv_path.read_bytes()
+                        with self.assertRaisesRegex(RuntimeError, 'wrong source cell'):
+                            reference.apply_lectionary_corrections()
+                        self.assertEqual(csv_path.read_bytes(), before)
 
     def test_pascha_correction_fixture_matches_sources_and_contexts(self):
         fixture = json.loads((ROOT / 'tests/fixtures/lectionary_corrections.json').read_text())

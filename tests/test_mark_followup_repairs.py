@@ -12,7 +12,7 @@ import pk6_release_repairs as pk6
 from scripts.review_release_contract import followup_daily_view, review_inactive_qualified
 
 ROOT = Path(__file__).resolve().parents[1]
-CANDIDATE_VERSION = '1.3.12'
+CANDIDATE_VERSION = '1.3.13'
 
 
 @pytest.fixture(scope='module')
@@ -100,20 +100,24 @@ def test_complete_daily_tables_and_comparator_positive_control(frozen, candidate
         pk_layer[date] = projected
         import holy_week_continuation as continuation
         expected[date] = continuation.project_daily(final.project_rows(site.project_rows(projected, date=date), date=date), date)
-    assert actual_scope == expected, 'complete real candidate arrays, not helper-only agreement'
+    import jeremiah_followup as jeremiah
+    historical_scope = {date: jeremiah.restore_daily(rows, date) for date, rows in actual_scope.items()}
+    assert historical_scope == expected, 'complete authenticated predecessor arrays, not helper-only agreement'
     assert followup_daily_view(actual_scope, version=CANDIDATE_VERSION) == after
     assert m.restore_predecessor_for_comparison(after, year) == before
     for version in (None, '1.3.9'):
         with pytest.raises(ValueError, match='Mark follow-up daily complete-table mismatch'):
-            m.restore_predecessor_for_comparison(followup_daily_view(actual_scope, version=version), year)
-    bad = copy.deepcopy(actual_scope)
+            m.restore_predecessor_for_comparison(followup_daily_view(historical_scope, version=version), year)
+    bad = copy.deepcopy(historical_scope)
     owned = [(date, row) for date, rows in bad.items() for row in rows
              if 'display_reference_review' in row.get('source_disclosure', '')]
     assert owned and all(date in final.SUPPLEMENT_DATES for date, _ in owned)
     for _, row in owned:
         row['source_disclosure'] = '[]'
+    # Retain the original final-site mutation at its authenticated 1.3.12 boundary;
+    # new 1.3.13 corruption rejection has separate complete-array regressions.
     with pytest.raises(ValueError, match='final site review complete source/context/coordinate/order mismatch'):
-        followup_daily_view(bad, version=CANDIDATE_VERSION)
+        followup_daily_view(bad, version='1.3.12')
     # The older PK field diagnostic remains on the pre-supplement table. The
     # 1.3.11 view above must not be the only proof, because that layer returns first.
     pk_date, pk_rows = next((date, rows) for date, rows in pk_layer.items()

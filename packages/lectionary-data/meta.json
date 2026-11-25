@@ -1,20 +1,20 @@
 {
   "package_name": "@andraws/lectionary-data",
-  "version": "1.3.12",
+  "version": "1.3.13",
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "1d67c64b216ab06dd7d8c12c59e64d0a4b932157",
-  "source_tree_dirty": false,
-  "generated_at": "2026-11-18T18:29:09.680Z",
-  "occasion_index_rows": 12300,
+  "source_repo_commit": "bd73d1e416fbdf8e85be8191a1cf1975a107fb78",
+  "source_tree_dirty": true,
+  "generated_at": "2026-11-25T12:47:37.193Z",
+  "occasion_index_rows": 12308,
   "daily_files": [
     {
       "year": 2026,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4102,
-      "bytes": 8869469,
+      "reading_count": 4101,
+      "bytes": 8879435,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -85,8 +85,8 @@
       "year": 2027,
       "rows": 365,
       "date_count": 365,
-      "reading_count": 4093,
-      "bytes": 9175388,
+      "reading_count": 4092,
+      "bytes": 9185354,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -157,8 +157,8 @@
       "year": 2028,
       "rows": 366,
       "date_count": 366,
-      "reading_count": 4120,
-      "bytes": 9154985,
+      "reading_count": 4119,
+      "bytes": 9164951,
       "runtime_review_events": [
         {
           "calendar_key": "Thursday of the seventh week of Great Lent",
@@ -275,7 +275,7 @@
         {
           "date": "2026-04-10",
           "day": "Good Friday",
-          "reading_count": 65,
+          "reading_count": 64,
           "pre_review_reading_count": 65
         },
         {
@@ -319,7 +319,7 @@
         {
           "date": "2027-04-30",
           "day": "Good Friday",
-          "reading_count": 65,
+          "reading_count": 64,
           "pre_review_reading_count": 65
         },
         {
@@ -363,7 +363,7 @@
         {
           "date": "2028-04-14",
           "day": "Good Friday",
-          "reading_count": 65,
+          "reading_count": 64,
           "pre_review_reading_count": 65
         },
         {
@@ -379,9 +379,9 @@
   },
   "projection_rules": {
     "source_rows": 12186,
-    "output_rows": 12300,
-    "active_rows": 7899,
-    "current_rows": 7664,
+    "output_rows": 12308,
+    "active_rows": 7898,
+    "current_rows": 7663,
     "runtime_review": {
       "source": "scripts/apply_review_repairs.py",
       "events": [
@@ -1280,7 +1280,8 @@
       "endpoint_release": "1.3.10: PK2 retained Reader endpoint successor; PK11 display-only hold labels",
       "pk6_release": "1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy",
       "site_review_release": "1.3.11: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion",
-      "holy_week_continuation": "1.3.12: one recurring Eve-of-Thursday Eleventh Jn 12:44-50 addition; three wrong-context working holds retained inactive; four existing burial Gospel qualifications; no Jeremiah/Psalm coordinate approval; retained generic-menu/selected-2026 sources, not dated 2027/2028 attestations. Public Eve evidence is a hash-pinned factual receipt and unchanged corroborating witnesses; full Reader capture and original independent review retained locally, not publicly distributed. Receipt hashes authenticate receipts, not unavailable archive bytes"
+      "holy_week_continuation": "1.3.12: one recurring Eve-of-Thursday Eleventh Jn 12:44-50 addition; three wrong-context working holds retained inactive; four existing burial Gospel qualifications; no Jeremiah/Psalm coordinate approval; retained generic-menu/selected-2026 sources, not dated 2027/2028 attestations. Public Eve evidence is a hash-pinned factual receipt and unchanged corroborating witnesses; full Reader capture and original independent review retained locally, not publicly distributed. Receipt hashes authenticate receipts, not unavailable archive bytes",
+      "jeremiah_followup": "1.3.13: Reader current Exodus/Jeremiah/Sirach appointments; four corrected inactive API variants, five original working holds; exact Ottawa historical service and named Brenton annotations; Jeremiah8 verse10 remains held. Factual receipts identify private captures, not public body authentication. Exact inverse restores authenticated 1.3.12 before prior guards."
     },
     "canonical_occurrence_projection": {
       "policy": "sources/canonical-occurrence-policy.json",
@@ -1293,11 +1294,11 @@
         "exact_canonical_appointment_alias": 3415
       }
     },
-    "removed_rows_included": 4401,
+    "removed_rows_included": 4410,
     "lower_priority_passage_variants_suppressed": 478,
     "lower_priority_passage_variants_retained_as_removed": 478,
     "removal_effective_version_baseline": {
-      "source_version": "1.1.6+source-corrections-1.3.12",
+      "source_version": "1.1.6+source-corrections-1.3.13",
       "entry_count": 522,
       "distinct_identity_key_count": 253,
       "duplicate_identity_key_count": 70

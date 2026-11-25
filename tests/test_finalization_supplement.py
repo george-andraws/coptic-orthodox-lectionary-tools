@@ -185,8 +185,10 @@ def test_actual_composed_release_control_and_source_auth_failure(serialized,monk
     payload={'rows':original_reverse,'daily_by_year':original_daily}
     output=project('release',payload)
     from holy_week_successor_fixture import reverse_1_3_11, daily_1_3_11
-    output['rows'] = reverse_1_3_11(output['rows'])
-    output['daily_by_year'] = {y: {d: daily_1_3_11(rows, d) for d, rows in days.items()} for y, days in output['daily_by_year'].items()}
+    # `release` deliberately remains the historical 1.3.12 composition;
+    # the builder applies the separate Jeremiah layer only after this stage.
+    output['rows'] = reverse_1_3_11(output['rows'], version='1.3.12')
+    output['daily_by_year'] = {y: {d: daily_1_3_11(rows, d, version='1.3.12') for d, rows in days.items()} for y, days in output['daily_by_year'].items()}
     assert output['rows']==reverse and output['daily_by_year']==daily
     def refuse():raise ValueError('supplement injected source authentication failure')
     monkeypatch.setattr(repair,'authenticate_supplement_sources',refuse)

@@ -661,6 +661,8 @@ def apply_lectionary_corrections():
     for correction in corrections:
         context = [row for row in rows if all(row.get(key) == correction[key] for key in ('day', 'hour', 'slot'))]
         expected_source = f"{correction['source_path']}:{correction['source_line']}"
+        if any(row.get('source') != correction.get('expected_source', 'api') for row in context):
+            raise RuntimeError(f'Lectionary correction drift or ambiguous source: wrong source cell: {correction}')
         raw_matches = [row for row in context if row.get('refs') == correction['expected_raw_ref']]
         corrected_matches = [row for row in context if (
             row.get('refs') == correction['corrected_ref']

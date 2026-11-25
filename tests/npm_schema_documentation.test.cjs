@@ -12,7 +12,12 @@ test('README release and provenance identify the packed package version', () => 
   assert.ok(readme.includes(`- Package version: ${packageVersion}.`));
   const metadata = JSON.parse(fs.readFileSync(path.join(root, 'meta.json'), 'utf8'));
   assert.equal(metadata.version, packageVersion);
-  assert.ok(metadata.projection_rules.runtime_review.holy_week_continuation.startsWith(`${packageVersion}: `));
+});
+
+test('release annotations retain their historical epochs and identify the current outer projection', () => {
+  const metadata = JSON.parse(fs.readFileSync(path.join(root, 'meta.json'), 'utf8'));
+  assert.ok(metadata.projection_rules.runtime_review.holy_week_continuation.startsWith('1.3.12: '));
+  assert.ok(metadata.projection_rules.runtime_review.jeremiah_followup.startsWith(`${packageVersion}: `));
 });
 const reverse = fs.readFileSync(path.join(root, 'data', 'reverse_lectionary_index.jsonl'), 'utf8')
   .trim().split('\n').map(JSON.parse);

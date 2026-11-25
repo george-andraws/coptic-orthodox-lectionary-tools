@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 const REPO_ROOT = path.resolve(__dirname, '..');
 
 const PACKAGE_NAME = '@andraws/lectionary-data';
-const VERSION = '1.3.12';
+const VERSION = '1.3.13';
 const SCHEMA_VERSION = '1.2.0';
 const LICENSE_ID = 'CC-BY-4.0';
 const COPYRIGHT_HOLDER = 'George Andraws, Light and Logos (andraws.net)';
@@ -1647,7 +1647,7 @@ async function main() {
   // must not replace it with the legacy 1.2 templates or delete its assets.
   const existingPackage = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'package.json'), 'utf8'));
   const existingMeta = JSON.parse(await readFile(path.join(PACKAGE_DIR, 'meta.json'), 'utf8'));
-  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.3.10', '1.3.11', VERSION].includes(existingPackage.version)) {
+  if (existingPackage.name !== PACKAGE_NAME || !existingMeta.synaxarium || !['1.3.0', '1.3.1', '1.3.2', '1.3.5', '1.3.6', '1.3.7', '1.3.8', '1.3.9', '1.3.10', '1.3.11', '1.3.12', VERSION].includes(existingPackage.version)) {
     throw new Error('Current 1.3 catalog/calendar package is a prerequisite; refusing destructive legacy rebuild.');
   }
   for (const file of ['index.js', 'calendar.js', 'README.md', 'LICENSE', 'data/synaxarium/synaxarium.json']) {
@@ -1669,15 +1669,17 @@ async function main() {
   const occurrenceProjection = applyReviewRepairs('occurrence', { rows: reverseProjection.rows, daily_by_year: dailyByYear });
   const compositeEvents = occurrenceProjection.events.filter(event => event.id === 'LK5');
   if (occurrenceProjection.rows.length !== occasionIndexRows - compositeEvents.length) throw new Error('Unexplained follow-up reverse membership change.');
-  const releaseProjection = applyReviewRepairs('release', { rows: occurrenceProjection.rows, daily_by_year: dailyByYear });
+  let releaseProjection = applyReviewRepairs('release', { rows: occurrenceProjection.rows, daily_by_year: dailyByYear });
   // PK2 + eight prior site additions + ONE independently reviewed Holy Week Gospel.
   // The outer inverse authenticates per-key cells then the unchanged predecessor multiset.
   if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 10) throw new Error('Unexplained PK2/site/Holy Week successor membership change.');
   for (const year of SHIPPED_YEARS) {
-    // Review layers can reconstruct a whole day after the intermediate sorter.
-    // Apply only the bounded Gospel permutation at final serialization too.
     releaseProjection.daily_by_year[year] = Object.fromEntries(Object.entries(releaseProjection.daily_by_year[year])
       .map(([date, rows]) => [date, orderGoodFridayGospels(rows, date)]));
+  }
+  releaseProjection = applyReviewRepairs('jeremiah', releaseProjection);
+  if (releaseProjection.rows.length !== occurrenceProjection.rows.length + 18) throw new Error('Unexplained Jeremiah successor membership change.');
+  for (const year of SHIPPED_YEARS) {
     const destination = path.join(DAILY_DIR, `lectionary-${year}.json`);
     await writeFile(destination, `${JSON.stringify(releaseProjection.daily_by_year[year], null, 2)}\n`, 'utf8');
     const info = dailyInfos.find(info => info.year === year);
@@ -1696,6 +1698,7 @@ async function main() {
   projectionRules.runtime_review.pk6_release = '1.3.10: local Hosea transcription-error audit retirement; existing Joel remains historical, not a third current Reader prophecy';
   projectionRules.runtime_review.site_review_release = '1.3.11: source-qualified Psalm/Waters/Lent repairs; five Bright additions including single chapter-range Revelation and source-only Distribution Psalm/Gospel; Joseph2027-only nine appointments and Amshir2028-only17 working-cycle fragments; eight cumulative reverse additions, no predecessor removals or blanket Reader/status promotion';
   projectionRules.runtime_review.holy_week_continuation = '1.3.12: one recurring Eve-of-Thursday Eleventh Jn 12:44-50 addition; three wrong-context working holds retained inactive; four existing burial Gospel qualifications; no Jeremiah/Psalm coordinate approval; retained generic-menu/selected-2026 sources, not dated 2027/2028 attestations. Public Eve evidence is a hash-pinned factual receipt and unchanged corroborating witnesses; full Reader capture and original independent review retained locally, not publicly distributed. Receipt hashes authenticate receipts, not unavailable archive bytes';
+  projectionRules.runtime_review.jeremiah_followup = '1.3.13: Reader current Exodus/Jeremiah/Sirach appointments; four corrected inactive API variants, five original working holds; exact Ottawa historical service and named Brenton annotations; Jeremiah8 verse10 remains held. Factual receipts identify private captures, not public body authentication. Exact inverse restores authenticated 1.3.12 before prior guards.';
   await writeFile(OCCASION_DEST, `${releaseProjection.rows.map(row => JSON.stringify(row)).join('\n')}\n`, 'utf8');
   const dailyFiles = dailyInfos.map(({ missing_dates, structural_daily_additions, pascha_date, ...info }) => info);
   const structuralDateResolver = buildStructuralDateResolver(dailyInfos);

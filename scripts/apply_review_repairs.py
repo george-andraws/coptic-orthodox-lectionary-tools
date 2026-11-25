@@ -110,6 +110,11 @@ def labels(rows):
 
 
 def project(mode, payload):
+    if mode == 'jeremiah':
+        import jeremiah_followup as jeremiah
+        return {'rows': jeremiah.project_reverse(payload['rows']), 'daily_by_year': {
+            year: {date: jeremiah.project_daily(readings, date) for date, readings in days.items()}
+            for year, days in payload['daily_by_year'].items()}}
     if mode == 'release':
         # Outer successor projection only: historical layer APIs stay unchanged.
         rows = pk6.project_reverse(revelation.project_rows(payload['rows']))
