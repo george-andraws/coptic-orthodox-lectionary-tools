@@ -4,9 +4,9 @@
   "schemaVersion": "1.2.0",
   "schema_version": "1.2.0",
   "license": "CC-BY-4.0",
-  "source_repo_commit": "bd73d1e416fbdf8e85be8191a1cf1975a107fb78",
-  "source_tree_dirty": true,
-  "generated_at": "2026-11-25T12:47:37.193Z",
+  "source_repo_commit": "ea34b90a399c664f78542126ffb7594ba47f13cc",
+  "source_tree_dirty": false,
+  "generated_at": "2026-11-25T17:36:50.603Z",
   "occasion_index_rows": 12308,
   "daily_files": [
     {
