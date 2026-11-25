@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.13
+
+- Use Coptic Reader for the evidenced Great Thursday Sixth Hour, Eve of Great Friday Ninth Hour, and Good Friday Eleventh Hour appointments. Preserve differing API and Ottawa references as labeled inactive witnesses; do not add a current Good Friday Leviticus reading.
+- Keep Bright Saturday's MT Psalm 41:5, 10 and identify the English Brenton covering passages as Psalm 40:6, 11. The Jeremiah 8 endpoint remains unresolved. See the [source decisions](docs/releases/lectionary-data-1.3.13.md) and [registry receipt](docs/releases/lectionary-data-1.3.13.json).
+
 ## 1.3.12
 
 - Replace the Eve-of-Thursday Eleventh-Hour Gospel with John 12:44–50 and retain three wrong-context working witnesses as inactive history. Jeremiah/Psalm companion coordinates remain unresolved.

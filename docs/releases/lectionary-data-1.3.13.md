@@ -1,6 +1,6 @@
 # Lectionary data 1.3.13 — source-qualified Jeremiah follow-up
 
-This successor to the authenticated `@andraws/lectionary-data@1.3.12` artifact implements the explicitly selected Coptic Reader priority for the evidenced current-appointment conflicts below. Registry publication, consumer installation and site deployment are separate operations; this source document does not attest that they occurred. The repository's current-published-release statement remains on the registry-authenticated predecessor until publication is read back.
+This release follows the authenticated `@andraws/lectionary-data@1.3.12` artifact and uses Coptic Reader for the current-appointment conflicts below. The [public registry readback](lectionary-data-1.3.13.json) confirms that the 1.3.13 tarball matched the locally tested release byte-for-byte. It does not attest that any consuming site was deployed.
 
 ## Source decisions and complete PK ledger disposition
 

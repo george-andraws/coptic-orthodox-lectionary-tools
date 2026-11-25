@@ -1,0 +1,12 @@
+{
+  "package": "@andraws/lectionary-data",
+  "version": "1.3.13",
+  "latest": "1.3.13",
+  "url": "https://registry.npmjs.org/@andraws/lectionary-data/-/lectionary-data-1.3.13.tgz",
+  "sha256": "46495ae7552b8d10ba6beb6764020c640243a612301910f4785fad36b5e080bf",
+  "integrity": "sha512-CTw/e/V6R33sAvGiaVHNw0+jty7aa6jFwwoxwMnT4vfMpuPtmXBs6sK9ivm2zZcwXU+Z5ciQyl1+ZOrpdB+Erw==",
+  "remote_main": "80e8262fd48bf7e9986ba7b2e7493016aad414c3",
+  "identical_bytes": 3778777,
+  "verified_utc": "2026-11-25T18:15:27.876182+00:00",
+  "clean_source_commit": "ea34b90a399c664f78542126ffb7594ba47f13cc"
+}
