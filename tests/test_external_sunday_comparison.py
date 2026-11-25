@@ -74,6 +74,47 @@ class SundayComparisonTests(unittest.TestCase):
             return
         self.assertEqual(result['status'], 'fail', result)
 
+    def comparison_view(self, daily):
+        """Authenticate complete prerequisites once per local corruption matrix.
+
+        Use the file caller's trusted-version inverse, not a cached verdict.
+        Mutants then enter the real contextual boundary in its historical domain.
+        Full file/version/witness/CLI tests retain every preceding release gate.
+        """
+        from scripts.review_release_contract import followup_daily_view
+        year = int(next(iter(daily))[:4])
+        context = self.context_dates[year] - set(daily)
+        complete = {**{date: copy.deepcopy(self.daily[year][date]) for date in sorted(context)},
+                    **copy.deepcopy(daily)}
+        restored = followup_daily_view(complete, version=CANDIDATE_VERSION)
+        restored = followup.restore_predecessor_for_comparison(restored, year)
+        return {date: restored[date] for date in daily}
+
+    def contextual_result(self, source, daily):
+        # Retain actual CSV/JSON decoding, including malformed scalar flags.
+        # No source authentication or comparison result is cached.
+        index = self.root / 'bounded.csv'
+        fields = list(dict.fromkeys(k for r in source for k in r)) or list(self.source[0])
+        with index.open('w', newline='') as handle:
+            writer = csv.DictWriter(handle, fieldnames=fields)
+            writer.writeheader(); writer.writerows(source)
+        decoded = json.loads(json.dumps(daily))
+        year = int(next(iter(decoded))[:4])
+        actual_source, actual_package, _, _, issues = comparator.contextual_counters(
+            comparator.load_csv(index), decoded, year,
+            comparator.load_json(comparator.CORRECTIONS), review_release=False)
+        return comparator.counter_delta_rows(year, actual_source, actual_package) + issues
+
+    def context_rejected(self, source, daily):
+        try:
+            differences = self.contextual_result(source, daily)
+        except (AssertionError, ValueError) as error:
+            # An unrelated prerequisite failure cannot bless these mutations.
+            self.assertRegex(str(error), r'^Sunday\b')
+        else:
+            self.assertTrue(any(row['status'].startswith('invalid_sunday_')
+                                for row in differences), differences)
+
     def test_all_shipped_selected_sunday_tables_preserve_full_multiplicity(self):
         dates = sorted({r['gregorian_date'] for r in self.source if r['source'] == contracts.SOURCE
                         and r['gregorian_date'][:4] in ('2027', '2028')})
@@ -106,6 +147,8 @@ class SundayComparisonTests(unittest.TestCase):
 
     def test_source_context_reference_order_rule_and_hold_corruptions_fail(self):
         source, daily = self.fixture()
+        daily = self.comparison_view(daily)
+        self.assertEqual(self.contextual_result(source, daily), [])
         for field, value in [('source', 'copticchurch.net daily scrape'), ('day_title', 'First Sunday of Toba'),
                              ('service_section', 'Matins'), ('source_slot', 'Gospel'), ('source_order', '2'),
                              ('matched_ref', 'Ps 82:7'), ('raw_ref', '19.83:8,6'),
@@ -116,7 +159,7 @@ class SundayComparisonTests(unittest.TestCase):
                              ('normalization_warning', source[0]['normalization_warning'].replace(':21;', ':22;'))]:
             with self.subTest(field=field, value=value):
                 rows = copy.deepcopy(source); rows[0][field] = value
-                self.rejected(rows, daily)
+                self.context_rejected(rows, daily)
 
     def test_symmetric_wrong_date_and_matching_source_package_reference_fail(self):
         source, daily = self.fixture()
@@ -130,6 +173,8 @@ class SundayComparisonTests(unittest.TestCase):
 
     def test_package_schema_disclosure_flags_hold_and_order_corruptions_fail(self):
         source, original = self.fixture('2027-02-21')
+        original = self.comparison_view(original)
+        self.assertEqual(self.contextual_result(source, original), [])
         for field, value in [('source_family', 'ordinary_date_resolved'), ('source_file', 'wrong.json'),
                              ('occasion', 'Third Sunday of Toba'), ('service_hour', 'Third Hour'),
                              ('slot', 'Gospel'), ('slot_type', 'gospel'), ('slot_order', 2), ('slot_order', True),
@@ -139,17 +184,17 @@ class SundayComparisonTests(unittest.TestCase):
                              ('runtime_activation', 0), ('consumer_eligible', 'false')]:
             with self.subTest(field=field):
                 daily = copy.deepcopy(original); daily['2027-02-21'][0][field] = value
-                self.rejected(source, daily)
+                self.context_rejected(source, daily)
         for field in ('source_disclosure', 'spans_json', 'canonical_mt_ref', 'removed_marker', 'reading_order'):
             daily = copy.deepcopy(original); del daily['2027-02-21'][0][field]
-            self.rejected(source, daily)
+            self.context_rejected(source, daily)
         for flag in (0, 'false', True):
             daily = copy.deepcopy(original)
             row = daily['2027-02-21'][0]
             disclosure = json.loads(row['source_disclosure'])
             disclosure[0]['consumer_source_transport'][0]['runtime_activation'] = flag
             row['source_disclosure'] = json.dumps(disclosure)
-            self.rejected(source, daily)
+            self.context_rejected(source, daily)
         for mutation in ('omit', 'duplicate', 'reorder', 'forge-body', 'hold', 'month', 'hash'):
             with self.subTest(mutation=mutation):
                 daily = copy.deepcopy(original); rows = daily['2027-02-21']
@@ -166,7 +211,7 @@ class SundayComparisonTests(unittest.TestCase):
                     elif mutation == 'month': envelope['normalization_warning'] = envelope['normalization_warning'].replace('6/', '5/')
                     elif mutation == 'hash': envelope['source_document_sha256'] = '0' * 64
                     rows[0]['source_disclosure'] = json.dumps(disclosure)
-                self.rejected(source, daily)
+                self.context_rejected(source, daily)
 
     def test_oracle_policy_hash_drift_fails_closed(self):
         source, daily = self.fixture()
@@ -204,17 +249,30 @@ class SundayComparisonTests(unittest.TestCase):
         for row in daily['2027-02-07']:
             row['runtime_activation'] = row['consumer_eligible'] = False
         self.assertEqual(self.compare(source, daily)['status'], 'pass')
+        daily = self.comparison_view(daily)
+        self.assertEqual(self.contextual_result(source, daily), [])
         for field, value in (('active', 'false'), ('state', 'removed'), ('include_in_current_index', 'false'),
                              ('runtime_activation', 'false'), ('consumer_eligible', 0)):
             with self.subTest(field=field):
                 rows = copy.deepcopy(source); rows[0][field] = value
-                self.rejected(rows, daily)
+                self.context_rejected(rows, daily)
         for operation in ('omit', 'duplicate', 'blanket-reader'):
             rows = copy.deepcopy(source)
             if operation == 'omit': rows.pop(0)
             elif operation == 'duplicate': rows.append(copy.deepcopy(rows[0]))
             else: rows[0]['source'] = 'Coptic Reader unverified Sunday'
-            self.rejected(rows, daily)
+            self.context_rejected(rows, daily)
+
+    def test_current_file_caller_retains_local_corruption_refusals(self):
+        source, original = self.fixture('2027-02-21')
+        self.assertEqual(self.compare(source, original)['status'], 'pass')
+        for mutation in ('source-service', 'package-type', 'duplicate'):
+            with self.subTest(mutation=mutation):
+                rows, daily = copy.deepcopy(source), copy.deepcopy(original)
+                if mutation == 'source-service': rows[0]['service_section'] = 'Matins'
+                elif mutation == 'package-type': daily['2027-02-21'][0]['slot_type'] = 'gospel'
+                else: daily['2027-02-21'].append(copy.deepcopy(daily['2027-02-21'][0]))
+                self.rejected(rows, daily)
 
     def test_boundary_regression_remains_a_strict_failure_not_a_sunday_exclusion(self):
         source, daily = self.fixture('2028-04-07')
